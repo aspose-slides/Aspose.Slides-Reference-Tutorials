@@ -3,14 +3,10 @@ title: إتقان محاذاة الأشكال باستخدام Aspose.Slides ل�
 linktitle: محاذاة الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعلم كيفية محاذاة الأشكال بسهولة في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET. تعزيز الجاذبية البصرية من خلال المحاذاة الدقيقة. التحميل الان!
+type: docs
 weight: 10
 url: /ar/net/shape-alignment-and-formatting-in-slides/aligning-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 غالبًا ما يتطلب إنشاء شرائح عرض تقديمي جذابة بصريًا محاذاة دقيقة للأشكال. يوفر Aspose.Slides for .NET حلاً قويًا لتحقيق ذلك بسهولة. في هذا البرنامج التعليمي، سوف نستكشف كيفية محاذاة الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET.
 ## المتطلبات الأساسية
@@ -86,9 +82,3 @@ SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, groupShape, new int[
 تم تصميم Aspose.Slides for .NET بشكل أساسي لتطبيقات Windows، لكن Aspose يوفر مكتبات لـ Java والأنظمة الأساسية الأخرى أيضًا.
 ### كيف يمكنني الحصول على مزيد من المساعدة أو الدعم؟
  قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لدعم المجتمع والمناقشات.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

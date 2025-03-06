@@ -3,14 +3,10 @@ title: Convalida il layout del grafico aggiunto nelle diapositive Java
 linktitle: Convalida il layout del grafico aggiunto nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Convalida del layout del grafico principale in PowerPoint con Aspose.Slides per Java. Impara a manipolare i grafici in modo programmatico per presentazioni straordinarie.
+type: docs
 weight: 10
 url: /it/java/data-manipulation/validate-chart-layout-added-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduzione alla convalida del layout del grafico in Aspose.Slides per Java
 
@@ -101,10 +97,3 @@ Sì, puoi personalizzare i dati del grafico aggiungendo e modificando serie, cat
 ### Cosa succede se voglio modificare altre proprietà del grafico?
 
 Puoi accedere a varie proprietà del grafico e personalizzarle in base alle tue esigenze. Esplora la documentazione di Aspose.Slides per informazioni complete sulla manipolazione dei grafici.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

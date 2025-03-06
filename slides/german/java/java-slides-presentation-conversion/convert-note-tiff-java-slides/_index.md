@@ -3,14 +3,10 @@ title: Mit Hinweis in Java-Folien in TIFF konvertieren
 linktitle: Mit Hinweis in Java-Folien in TIFF konvertieren
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Konvertieren Sie PowerPoint-Präsentationen mit Sprechernotizen mühelos mit Aspose.Slides in Java in das TIFF-Format. Folgen Sie unserer Schritt-für-Schritt-Anleitung mit Quellcode für eine nahtlose Dokumentkonvertierung.
+type: docs
 weight: 32
 url: /de/java/presentation-conversion/convert-note-tiff-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung in die Konvertierung mit Hinweis in TIFF in Java-Folien
 
@@ -115,9 +111,3 @@ Ja, Aspose.Slides für Java ist eine robuste und zuverlässige Bibliothek, die v
 ### Gibt es Lizenzüberlegungen für die Verwendung von Aspose.Slides für Java in meinem Projekt?
 
 Ja, für die kommerzielle Nutzung von Aspose.Slides für Java ist eine gültige Lizenz erforderlich. Lizenzdetails finden Sie auf der Aspose-Website.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

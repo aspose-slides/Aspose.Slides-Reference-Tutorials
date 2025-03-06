@@ -3,14 +3,10 @@ title: 슬라이드 보기 및 레이아웃 조작
 linktitle: 슬라이드 보기 및 레이아웃 조작
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides 슬라이드 보기 및 레이아웃 조작 튜토리얼을 사용하여 슬라이드 보기 및 레이아웃을 최적화하세요. 강력한 .NET 도구를 사용하여 프레젠테이션 효과와 시각적 우수성을 향상시키세요.
+type: docs
 weight: 20
 url: /ko/net/slide-view-and-layout-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 소개
 
@@ -33,9 +29,3 @@ Aspose.Slides for .NET을 사용하여 일반 보기 상태에서 프레젠테�
 .NET용 Aspose.Slides를 사용하여 비디오를 PowerPoint 슬라이드에 연결하는 방법을 알아보세요. 이 단계별 가이드에는 연결된 비디오를 사용하여 대화형의 매력적인 프레젠테이션을 만들기 위한 소스 코드와 팁이 포함되어 있습니다.
 ### [프레젠테이션에서 ActiveX 컨트롤 관리](./manage-activex-control/)
 .NET용 Aspose.Slides를 사용하여 ActiveX 컨트롤로 PowerPoint 프레젠테이션을 향상시키는 방법을 알아보세요. 단계별 가이드에서는 삽입, 조작, 사용자 정의, 이벤트 처리 등을 다룹니다.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

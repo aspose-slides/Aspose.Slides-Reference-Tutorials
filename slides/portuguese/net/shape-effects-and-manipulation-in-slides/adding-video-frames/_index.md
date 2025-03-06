@@ -3,14 +3,10 @@ title: Tutorial Adicionando Quadros de Vídeo com Aspose.Slides para .NET
 linktitle: Adicionando quadros de vídeo a slides de apresentação usando Aspose.Slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Revitalize apresentações com quadros de vídeo dinâmicos usando Aspose.Slides for .NET. Siga nosso guia para integração perfeita e criação envolvente.
+type: docs
 weight: 19
 url: /pt/net/shape-effects-and-manipulation-in-slides/adding-video-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 No cenário dinâmico das apresentações, a incorporação de elementos multimídia pode elevar o impacto e o envolvimento geral. Adicionar quadros de vídeo aos seus slides pode mudar o jogo, capturando a atenção do público de uma forma que o conteúdo estático não consegue. Aspose.Slides for .NET fornece uma solução robusta para integrar perfeitamente quadros de vídeo em seus slides de apresentação.
 ## Pré-requisitos
@@ -71,9 +67,3 @@ Absolutamente! Você tem controle total sobre as opções de reprodução, como 
  Sim, você pode explorar os recursos do Aspose.Slides for .NET baixando a versão de teste[aqui](https://releases.aspose.com/).
 ### P5: Onde posso encontrar suporte para Aspose.Slides for .NET?
  Para qualquer dúvida ou assistência, visite o[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

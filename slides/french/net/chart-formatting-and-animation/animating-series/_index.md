@@ -3,14 +3,10 @@ title: Animer une série de graphiques avec Aspose.Slides pour .NET
 linktitle: Animation de séries dans un graphique
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment animer des séries de graphiques avec Aspose.Slides pour .NET. Engagez votre public avec des présentations dynamiques. Commencez maintenant!
+type: docs
 weight: 12
 url: /fr/net/chart-formatting-and-animation/animating-series/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Cherchez-vous à ajouter du piquant à vos présentations avec des graphiques animés ? Aspose.Slides pour .NET est là pour donner vie à vos graphiques. Dans ce guide étape par étape, nous allons vous montrer comment animer des séries dans un graphique à l'aide d'Aspose.Slides pour .NET. Mais avant de plonger dans l’action, abordons les conditions préalables.
 
@@ -113,9 +109,3 @@ Oui, vous pouvez personnaliser les effets d'animation pour chaque série de grap
 
 ### Où puis-je acheter une licence pour Aspose.Slides pour .NET ?
  Vous pouvez acquérir une licence pour Aspose.Slides pour .NET à partir de la page d'achat[ici](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

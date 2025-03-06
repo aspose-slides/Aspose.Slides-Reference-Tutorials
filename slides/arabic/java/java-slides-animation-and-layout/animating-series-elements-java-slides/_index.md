@@ -3,14 +3,10 @@ title: تحريك عناصر السلسلة في شرائح جافا
 linktitle: تحريك عناصر السلسلة في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحريك عناصر السلسلة في شرائح PowerPoint باستخدام Aspose.Slides لـ Java. اتبع هذا الدليل الشامل خطوة بخطوة مع الكود المصدري لتحسين عروضك التقديمية.
+type: docs
 weight: 12
 url: /ar/java/animation-and-layout/animating-series-elements-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة لتحريك عناصر السلسلة في شرائح جافا
 
@@ -130,9 +126,3 @@ finally
 ### هل تتوفر المزيد من خيارات الرسوم المتحركة المتقدمة في Aspose.Slides لـ Java؟
 
 نعم، يقدم Aspose.Slides for Java نطاقًا واسعًا من خيارات الرسوم المتحركة المتقدمة، بما في ذلك مسارات الحركة والتوقيت والرسوم المتحركة التفاعلية. يمكنك استكشاف الوثائق والأمثلة المقدمة من Aspose.Slides لتنفيذ الرسوم المتحركة المتقدمة في العروض التقديمية الخاصة بك.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

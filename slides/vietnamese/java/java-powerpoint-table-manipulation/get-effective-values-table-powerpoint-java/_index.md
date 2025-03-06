@@ -3,14 +3,10 @@ title: Nhận giá trị hiệu quả của bảng trong PowerPoint bằng Java
 linktitle: Nhận giá trị hiệu quả của bảng trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách trích xuất các giá trị bảng hiệu quả trong PowerPoint bằng Aspose.Slides cho Java. Nâng cao bài thuyết trình của bạn theo chương trình.
+type: docs
 weight: 14
 url: /vi/java/java-powerpoint-table-manipulation/get-effective-values-table-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Trong thời đại kỹ thuật số ngày nay, việc tạo ra các bài thuyết trình năng động và hấp dẫn là rất quan trọng để giao tiếp hiệu quả trong cả môi trường kinh doanh và giáo dục. Aspose.Slides for Java cung cấp một giải pháp mạnh mẽ cho các nhà phát triển Java để thao tác và nâng cao các bản trình bày PowerPoint theo chương trình. Hướng dẫn này sẽ hướng dẫn bạn quy trình trích xuất các giá trị hiệu quả từ các bảng trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Đến cuối hướng dẫn này, bạn sẽ được trang bị kiến thức để truy cập và sử dụng dữ liệu định dạng bảng trong các ứng dụng Java của mình theo chương trình.
 ## Điều kiện tiên quyết
@@ -65,9 +61,3 @@ Có, Aspose.Slides cho Java cung cấp các API toàn diện để hoạt độn
  Truy cập diễn đàn hỗ trợ cộng đồng[đây](https://forum.aspose.com/c/slides/11) để được hỗ trợ.
 ### Tôi có thể mua giấy phép tạm thời cho Aspose.Slides cho Java không?
  Có, bạn có thể mua giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

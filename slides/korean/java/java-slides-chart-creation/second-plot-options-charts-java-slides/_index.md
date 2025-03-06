@@ -3,14 +3,10 @@ title: Java 슬라이드의 차트에 대한 두 번째 플롯 옵션
 linktitle: Java 슬라이드의 차트에 대한 두 번째 플롯 옵션
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드에서 차트를 사용자 정의하는 방법을 알아보세요. 두 번째 플롯 옵션을 살펴보고 프레젠테이션을 향상하세요.
+type: docs
 weight: 12
 url: /ko/java/chart-creation/second-plot-options-charts-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 슬라이드의 차트에 대한 두 번째 플롯 옵션 소개
 
@@ -97,9 +93,3 @@ presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pp
 ### 원형 원형 차트에서 분할 위치를 어떻게 설정합니까?
 
  다음을 사용하여 원형 원형 차트에서 분할 위치를 설정할 수 있습니다.`setPieSplitPosition` 방법. 값을 조정하여 원하는 위치를 지정하세요.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

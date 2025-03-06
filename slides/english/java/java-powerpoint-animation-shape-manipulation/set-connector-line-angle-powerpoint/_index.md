@@ -3,14 +3,10 @@ title: Set Connector Line Angle in PowerPoint
 linktitle: Set Connector Line Angle in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set connector line angles in PowerPoint presentations using Aspose.Slides for Java. Customize your slides with precision.
+type: docs
 weight: 17
 url: /java/java-powerpoint-animation-shape-manipulation/set-connector-line-angle-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 In this tutorial, we'll explore how to set the angle of connector lines in PowerPoint presentations using Aspose.Slides for Java. Connector lines are essential for illustrating relationships and flows between shapes in your slides. By adjusting their angles, you can ensure your presentations convey your message clearly and effectively.
 ## Prerequisites
@@ -84,10 +80,3 @@ Aspose.Slides strives to support most PowerPoint features. However, for specific
 Certainly! Aspose.Slides provides extensive options for customizing connector lines, including styles, thickness, and endpoints, allowing you to create visually appealing presentations.
 ### Where can I find support for Aspose.Slides-related queries?
 You can visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for assistance with any queries or issues you encounter during your development process.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

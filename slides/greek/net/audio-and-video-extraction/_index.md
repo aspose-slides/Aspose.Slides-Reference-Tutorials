@@ -3,14 +3,10 @@ title: Εξαγωγή ήχου και βίντεο
 linktitle: Εξαγωγή ήχου και βίντεο
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Εξερευνήστε το ολοκληρωμένο σεμινάριο Aspose.Slides σχετικά με την εξαγωγή ήχου και βίντεο σε εφαρμογές .NET. Μάθετε πώς να εξάγετε και να χειρίζεστε με προγραμματισμό στοιχεία πολυμέσων από παρουσιάσεις PowerPoint.
+type: docs
 weight: 15
 url: /el/net/audio-and-video-extraction/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή:
 
@@ -35,9 +31,3 @@ url: /el/net/audio-and-video-extraction/
 Μάθετε πώς να εξάγετε ήχο από χρονοδιαγράμματα του PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Ένας οδηγός βήμα προς βήμα με παραδείγματα κώδικα.
 ### [Εξαγωγή βίντεο από διαφάνεια](./extract-video/)
 Κύρια εξαγωγή βίντεο από διαφάνειες PowerPoint χρησιμοποιώντας Aspose.Slides για .NET. Ακολουθήστε τον οδηγό μας με παραδείγματα κώδικα.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

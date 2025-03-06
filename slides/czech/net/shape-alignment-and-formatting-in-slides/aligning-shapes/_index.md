@@ -3,14 +3,10 @@ title: Zvládnutí zarovnání tvaru pomocí Aspose.Slides pro .NET
 linktitle: Zarovnání tvarů v prezentačních snímcích pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se bez námahy zarovnávat tvary na snímcích prezentace pomocí Aspose.Slides pro .NET. Vylepšete vizuální přitažlivost přesným zarovnáním. Stáhnout teď!
+type: docs
 weight: 10
 url: /cs/net/shape-alignment-and-formatting-in-slides/aligning-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 Vytváření vizuálně atraktivních snímků prezentace často vyžaduje přesné zarovnání tvarů. Aspose.Slides for .NET poskytuje výkonné řešení, jak toho snadno dosáhnout. V tomto tutoriálu prozkoumáme, jak zarovnat tvary na snímcích prezentace pomocí Aspose.Slides pro .NET.
 ## Předpoklady
@@ -86,9 +82,3 @@ Absolutně! Aspose.Slides poskytuje metody pro rovnoměrné rozložení tvarů, 
 Aspose.Slides for .NET je primárně navržen pro aplikace Windows, ale Aspose poskytuje knihovny i pro Javu a další platformy.
 ### Jak mohu získat další pomoc nebo podporu?
  Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu komunity a diskuze.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

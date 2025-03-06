@@ -3,14 +3,10 @@ title: Warna Garis Pemimpin di Slide Java
 linktitle: Warna Garis Pemimpin di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengubah warna garis pemimpin di bagan PowerPoint menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan contoh kode sumber.
+type: docs
 weight: 12
 url: /id/java/data-manipulation/leader-line-color-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Pengantar Warna Garis Pemimpin di Aspose.Slide untuk Java
 
@@ -120,9 +116,3 @@ Anda bisa mendapatkan dukungan teknis untuk Aspose.Slides untuk Java dengan meng
 ### Bisakah saya menggunakan Aspose.Slides untuk Java dengan pustaka dan kerangka kerja Java lainnya?
 
 Ya, Anda dapat mengintegrasikan Aspose.Slides for Java dengan pustaka dan kerangka kerja Java lainnya sesuai kebutuhan proyek Anda. Aspose.Slides menyediakan API untuk bekerja dengan berbagai fitur PowerPoint, sehingga memungkinkan untuk menggabungkannya dengan alat dan teknologi lain untuk membuat aplikasi canggih.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Destacar texto usando Regex em Java PowerPoint
 linktitle: Destacar texto usando Regex em Java PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como destacar texto no PowerPoint usando padrões regex com Aspose.Slides para Java. Aprimore suas apresentações de forma dinâmica.
+type: docs
 weight: 15
 url: /pt/java/java-powerpoint-text-alignment-formatting/highlight-text-using-regex-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 No domínio do desenvolvimento baseado em Java para criação e manipulação de apresentações em PowerPoint, Aspose.Slides for Java se destaca como uma solução robusta. Este tutorial se concentra em aproveitar o Aspose.Slides para destacar texto usando expressões regulares (regex) em apresentações do PowerPoint. Ao final deste guia, você entenderá como implementar padrões regex para destacar textos específicos em slides, melhorando a funcionalidade e a clareza visual.
 ## Pré-requisitos
@@ -66,9 +62,3 @@ Sim, Aspose.Slides suporta vários formatos de PowerPoint, garantindo compatibil
 Com certeza, ele oferece amplos recursos de manipulação de texto além do destaque, incluindo estilo de fonte, alinhamento e muito mais.
 ### Posso experimentar o Aspose.Slides para Java antes de comprar?
  Sim, você pode começar com um[teste grátis](https://releases.aspose.com/) para avaliar suas capacidades.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

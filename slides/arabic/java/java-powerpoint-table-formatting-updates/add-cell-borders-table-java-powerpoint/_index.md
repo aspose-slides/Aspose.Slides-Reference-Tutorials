@@ -3,14 +3,10 @@ title: إضافة حدود الخلية إلى الجدول في Java PowerPoint
 linktitle: إضافة حدود الخلية إلى الجدول في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة حدود الخلايا إلى الجداول في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides. هذا الدليل التفصيلي يجعل من السهل تحسين الشرائح الخاصة بك.
+type: docs
 weight: 10
 url: /ar/java/java-powerpoint-table-formatting-updates/add-cell-borders-table-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 مرحبًا يا من هناك! إذن، أنت تتطلع إلى إضافة حدود الخلايا إلى جدول في عرض PowerPoint التقديمي باستخدام Java، أليس كذلك؟ حسنا، أنت في المكان الصحيح! سيرشدك هذا البرنامج التعليمي خلال العملية خطوة بخطوة باستخدام مكتبة Aspose.Slides for Java. بحلول نهاية هذا الدليل، سيكون لديك فهم جيد لكيفية التعامل مع الجداول في شرائح PowerPoint مثل المحترفين. دعنا نتعمق ونجعل عروضك التقديمية تبدو أنيقة واحترافية!
 ## المتطلبات الأساسية
@@ -100,9 +96,3 @@ if (pres != null) pres.dispose();
 نعم، يمكنك أتمتة العملية من خلال تكرار الشرائح وتطبيق منطق إنشاء الجدول على كل شريحة.
 ### ما تنسيقات الملفات التي يدعمها Aspose.Slides؟
 يدعم Aspose.Slides العديد من التنسيقات بما في ذلك PPT وPPTX وPDF والمزيد.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: عرض ثلاثي الأبعاد في برنامج PowerPoint
 linktitle: عرض ثلاثي الأبعاد في برنامج PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء عروض ثلاثية الأبعاد مذهلة في PowerPoint باستخدام Aspose.Slides لـ Java. رفع مستوى العروض التقديمية الخاصة بك.
+type: docs
 weight: 11
 url: /ar/java/java-powerpoint-rendering-techniques/3d-rendering-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية دمج عرض ثلاثي الأبعاد مذهل في عروض PowerPoint التقديمية باستخدام Aspose.Slides for Java. باتباع هذه التعليمات خطوة بخطوة، ستتمكن من إنشاء تأثيرات بصرية جذابة ستثير إعجاب جمهورك.
 ## المتطلبات الأساسية
@@ -76,9 +72,3 @@ try {
 على الرغم من أن Aspose.Slides يوفر ميزات عرض ثلاثية الأبعاد متقدمة، فمن الضروري مراعاة الآثار المترتبة على الأداء، خاصة عند العمل مع مشاهد معقدة أو عروض تقديمية كبيرة.
 ### أين يمكنني العثور على موارد إضافية ودعم لـ Aspose.Slides؟
  يمكنك زيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للحصول على المساعدة والتوثيق ودعم المجتمع.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

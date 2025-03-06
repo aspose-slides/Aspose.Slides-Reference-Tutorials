@@ -3,14 +3,10 @@ title: เข้าถึงคุณสมบัติในตัวใน Pow
 linktitle: เข้าถึงคุณสมบัติในตัวใน PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีการเข้าถึงคุณสมบัติในตัวใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java บทช่วยสอนนี้จะแนะนำคุณในการเรียกข้อมูลผู้เขียน วันที่สร้าง และอื่นๆ
+type: docs
 weight: 10
 url: /th/java/java-powerpoint-properties-management/access-built-in-properties-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีการเข้าถึงคุณสมบัติในตัวในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java Aspose.Slides เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนา Java สามารถทำงานกับงานนำเสนอ PowerPoint โดยทางโปรแกรม ช่วยให้งานต่างๆ เช่น การอ่านและการแก้ไขคุณสมบัติเป็นไปอย่างราบรื่น
 ## ข้อกำหนดเบื้องต้น
@@ -105,9 +101,3 @@ Aspose.Slides รองรับ PowerPoint เวอร์ชันต่าง
  ใช่ คุณสามารถค้นหาเอกสารที่ครอบคลุมและเข้าถึงฟอรัมสนับสนุนได้ที่[เว็บไซต์กำหนด](https://reference.aspose.com/slides/java/).
 ### มีรุ่นทดลองใช้งานสำหรับ Aspose.Slides สำหรับ Java หรือไม่
  ใช่ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

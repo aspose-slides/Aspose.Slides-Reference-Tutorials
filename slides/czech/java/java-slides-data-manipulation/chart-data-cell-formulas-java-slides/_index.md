@@ -3,14 +3,10 @@ title: Graf vzorců datových buněk v Java Slides
 linktitle: Graf vzorců datových buněk v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak nastavit vzorce datových buněk grafu v prezentacích Java PowerPoint pomocí Aspose.Slides pro Java. Vytvářejte dynamické grafy se vzorci.
+type: docs
 weight: 11
 url: /cs/java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod do vzorců datových buněk grafu v Aspose.Slides pro Java
 
@@ -126,9 +122,3 @@ Ano, ve vzorcích datových buněk můžete používat různé typy vzorců, vč
 ### Jak změním typ grafu?
 
  Typ grafu můžete změnit pomocí`setChartType` metoda na`IChart` objekt a specifikování požadovaného`ChartType`.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

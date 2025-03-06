@@ -3,14 +3,10 @@ title: Mehrere Absätze in Java PowerPoint
 linktitle: Mehrere Absätze in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java mehrere Absätze in Java PowerPoint-Präsentationen erstellen. Vollständige Anleitung mit Codebeispielen.
+type: docs
 weight: 13
 url: /de/java/java-powerpoint-text-paragraph-management/multiple-paragraphs-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java Folien mit mehreren Absätzen in Java erstellen. Aspose.Slides ist eine leistungsstarke Bibliothek, mit der Entwickler PowerPoint-Präsentationen programmgesteuert bearbeiten können. Sie eignet sich daher ideal für die Automatisierung von Aufgaben im Zusammenhang mit der Erstellung und Formatierung von Folien.
 ## Voraussetzungen
@@ -117,9 +113,3 @@ Aspose.Slides unterstützt verschiedene PowerPoint-Formate und stellt so die Kom
  Ja, Sie können eine kostenlose Testversion herunterladen[Hier](https://releases.aspose.com/).
 ### Wie kann ich bei Bedarf technischen Support erhalten?
  Sie können Unterstützung von der Aspose.Slides-Community erhalten[Hier](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

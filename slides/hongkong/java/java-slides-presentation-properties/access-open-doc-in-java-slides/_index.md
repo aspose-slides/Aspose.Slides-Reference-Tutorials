@@ -3,14 +3,10 @@ title: 在 Java 投影片中存取 Open Doc
 linktitle: 在 Java 投影片中存取 Open Doc
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 存取和轉換 Java 中的開放文件演示 (ODP) 檔案。開發人員的分步指南。
+type: docs
 weight: 12
 url: /zh-hant/java/presentation-properties/access-open-doc-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 在 Java 投影片中存取 Open Doc 簡介
 
@@ -90,9 +86,3 @@ Aspose.Slides for Java 提供了建立、編輯和轉換 PowerPoint 簡報、處
 ### 如果我有疑問或問題，如何聯絡 Aspose 支援？
 
 您可以透過其網站上列出的支援管道聯絡 Aspose 支援。他們提供專門的支援來幫助您解決可能遇到的任何問題或問題。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

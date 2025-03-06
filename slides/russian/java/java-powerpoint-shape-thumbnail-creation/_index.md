@@ -3,14 +3,10 @@ title: Создание форм и миниатюр Java PowerPoint
 linktitle: Создание форм и миниатюр Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Научитесь создавать фигуры и миниатюры в PowerPoint с помощью Aspose.Slides Java. Подробные руководства по созданию групповых фигур, миниатюр коэффициентов масштабирования и эффектов масштабирования.
+type: docs
 weight: 24
 url: /ru/java/java-powerpoint-shape-thumbnail-creation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 
 Создание визуально привлекательных и организованных презентаций PowerPoint имеет важное значение для эффективного общения. С помощью Aspose.Slides для Java вы можете легко улучшить свои презентации, создавая различные формы и миниатюры. В этой статье представлено пошаговое руководство по освоению этих техник, благодаря которому ваши слайды будут одновременно привлекательными и профессиональными.
@@ -56,9 +52,3 @@ url: /ru/java/java-powerpoint-shape-thumbnail-creation/
  Узнайте, как создать сводный масштаб в PowerPoint с помощью Aspose.Slides для Java, с помощью этого подробного пошагового руководства.
 ### [Создать рамку масштабирования в PowerPoint](./create-zoom-frame-powerpoint/)
 Узнайте, как создавать привлекательные рамки масштабирования в PowerPoint с помощью Aspose.Slides для Java. Следуйте нашему руководству, чтобы добавить интерактивные элементы в свои презентации.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

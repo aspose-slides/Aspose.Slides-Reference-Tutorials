@@ -3,14 +3,10 @@ title: Hinzufügen von Absatzaufzählungszeichen in PowerPoint mit Java
 linktitle: Hinzufügen von Absatzaufzählungszeichen in PowerPoint mit Java
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Absatzaufzählungszeichen in PowerPoint-Folien einfügen. Dieses Tutorial führt Sie Schritt für Schritt mit Codebeispielen durch.
+type: docs
 weight: 15
 url: /de/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 Das Hinzufügen von Aufzählungszeichen verbessert die Lesbarkeit und Struktur von PowerPoint-Präsentationen. Aspose.Slides für Java bietet robuste Tools zur programmgesteuerten Bearbeitung von Präsentationen, einschließlich der Möglichkeit, Text mit verschiedenen Aufzählungszeichenstilen zu formatieren. In diesem Tutorial erfahren Sie, wie Sie mithilfe von Java-Code und Aspose.Slides Aufzählungszeichen in PowerPoint-Folien integrieren.
 ## Voraussetzungen
@@ -93,9 +89,3 @@ Ja, Sie können programmgesteuert unterschiedlichen Folien einzigartige Aufzähl
 Ja, Aspose.Slides unterstützt Java 11 und höhere Versionen.
 ### Wo finde ich weitere Beispiele und Dokumentation?
  Besuchen[Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/) für umfassende Anleitungen und Beispiele.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

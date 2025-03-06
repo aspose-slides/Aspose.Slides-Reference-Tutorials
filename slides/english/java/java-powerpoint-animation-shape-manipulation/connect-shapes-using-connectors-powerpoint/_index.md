@@ -3,14 +3,10 @@ title: Connect Shapes using Connectors in PowerPoint
 linktitle: Connect Shapes using Connectors in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to connect shapes using connectors in PowerPoint presentations with Aspose.Slides for Java. Step-by-step tutorial for beginners.
+type: docs
 weight: 18
 url: /java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connectors-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 In this tutorial, we'll explore how to connect shapes using connectors in PowerPoint presentations with the help of Aspose.Slides for Java. Follow these step-by-step instructions to efficiently connect shapes and create visually appealing slides.
 ## Prerequisites
@@ -86,10 +82,3 @@ Yes, you can connect multiple shapes using complex connectors provided by Aspose
 Absolutely, you can easily add text to shapes and connectors programmatically using Aspose.Slides for Java.
 ### Is there a community forum or support channel available for Aspose.Slides for Java users?
 Yes, you can find helpful resources, ask questions, and engage with other users on the Aspose.Slides forum [here](https://forum.aspose.com/c/slides/11).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Krijg de werkelijke positie van het diagramgegevenslabel in Java-dia's
 linktitle: Krijg de werkelijke positie van het diagramgegevenslabel in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u de werkelijke positie van diagramgegevenslabels in Java Slides kunt achterhalen met behulp van Aspose.Slides voor Java. Stap-voor-stap handleiding met broncode.
+type: docs
 weight: 18
 url: /nl/java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot het verkrijgen van de werkelijke positie van het diagramgegevenslabel in Java-dia's
 
@@ -161,9 +157,3 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

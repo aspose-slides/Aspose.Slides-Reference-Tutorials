@@ -3,14 +3,10 @@ title: Java 幻灯片中的图表数据单元格公式
 linktitle: Java 幻灯片中的图表数据单元格公式
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java PowerPoint 演示文稿中设置图表数据单元格公式。使用公式创建动态图表。
+type: docs
 weight: 11
 url: /zh/java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for Java 中的图表数据单元格公式简介
 
@@ -126,9 +122,3 @@ finally
 ### 如何更改图表类型？
 
 您可以使用`setChartType`方法`IChart`对象并指定所需的`ChartType`.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

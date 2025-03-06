@@ -3,14 +3,10 @@ title: Ενσωματωμένη συμπίεση γραμματοσειρών σ
 linktitle: Ενσωματωμένη συμπίεση γραμματοσειρών σε Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να συμπιέσετε τις ενσωματωμένες γραμματοσειρές σε παρουσιάσεις Java PowerPoint χρησιμοποιώντας το Aspose.Slides. Βελτιστοποιήστε τα μεγέθη αρχείων χωρίς κόπο.
+type: docs
 weight: 12
 url: /el/java/java-powerpoint-font-management/embedded-font-compression-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Στο δυναμικό τοπίο των ψηφιακών παρουσιάσεων, η δυνατότητα βελτιστοποίησης των μεγεθών αρχείων χωρίς συμβιβασμούς στην ποιότητα είναι πρωταρχικής σημασίας. Το Aspose.Slides για Java προσφέρει μια ισχυρή λύση για τη βελτίωση της αποτελεσματικότητας των παρουσιάσεων του PowerPoint, ενεργοποιώντας τη συμπίεση ενσωματωμένης γραμματοσειράς. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία αξιοποίησης αυτής της δυνατότητας για να μειώσετε αποτελεσματικά τα μεγέθη αρχείων, διασφαλίζοντας ομαλότερη διανομή και βελτιωμένη απόδοση των παρουσιάσεών σας.
 ## Προαπαιτούμενα
@@ -68,9 +64,3 @@ System.out.println(String.format("Result file size = %d bytes", outputFile.lengt
  Σίγουρα! Μπορείτε να αναζητήσετε υποστήριξη από την κοινότητα Aspose.Slides μέσω του αποκλειστικού[δικαστήριο](https://forum.aspose.com/c/slides/11) ή εξετάστε το ενδεχόμενο να αποκτήσετε προσωρινή άδεια για βοήθεια κατά προτεραιότητα.
 ### Πώς μπορώ να αγοράσω μια έκδοση με άδεια χρήσης του Aspose.Slides για Java;
 Μπορείτε να αγοράσετε μια έκδοση με άδεια χρήσης του Aspose.Slides για Java από τον ιστότοπο χρησιμοποιώντας τα παρεχόμενα[σύνδεσμος αγοράς](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

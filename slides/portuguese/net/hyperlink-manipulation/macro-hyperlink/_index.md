@@ -3,14 +3,10 @@ title: Como definir o clique do hiperlink de macro em Aspose.Slides para .NET
 linktitle: Gerenciamento de hiperlinks usando macros
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como definir hiperlinks de macro em suas apresentações com Aspose.Slides for .NET. Aumente a interatividade e envolva seu público.
+type: docs
 weight: 13
 url: /pt/net/hyperlink-manipulation/macro-hyperlink/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 No mundo do desenvolvimento de software moderno, a criação de apresentações dinâmicas e interativas é um aspecto fundamental. Aspose.Slides for .NET é uma biblioteca poderosa que permite trabalhar com apresentações de maneira integrada. Esteja você criando uma apresentação de negócios ou uma apresentação de slides educacional, a capacidade de definir cliques em hiperlinks macro pode melhorar muito a experiência do usuário. Neste guia passo a passo, orientaremos você no processo de configuração de um clique de hiperlink de macro usando Aspose.Slides for .NET. 
 
@@ -110,9 +106,3 @@ Sim, você pode personalizar a aparência da AutoForma ajustando suas propriedad
 
 ### Onde posso obter ajuda ou suporte para Aspose.Slides for .NET?
  Se você encontrar problemas ou tiver dúvidas, procure ajuda no fórum de suporte do Aspose[aqui](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

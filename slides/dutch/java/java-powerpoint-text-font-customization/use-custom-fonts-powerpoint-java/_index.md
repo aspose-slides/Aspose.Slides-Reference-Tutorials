@@ -3,14 +3,10 @@ title: Gebruik aangepaste lettertypen in PowerPoint met Java
 linktitle: Gebruik aangepaste lettertypen in PowerPoint met Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u aangepaste lettertypen kunt integreren in PowerPoint-presentaties met Aspose.Slides voor Java. Verbeter de visuele aantrekkingskracht moeiteloos.
+type: docs
 weight: 25
 url: /nl/java/java-powerpoint-text-font-customization/use-custom-fonts-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u Aspose.Slides voor Java kunt gebruiken om PowerPoint-presentaties te verbeteren door aangepaste lettertypen te integreren. Aangepaste lettertypen kunnen de visuele aantrekkingskracht van uw dia's aanzienlijk verrijken, zodat ze perfect aansluiten bij uw merk- of ontwerpvereisten. We behandelen alles, van het importeren van de benodigde pakketten tot het uitvoeren van de stappen die nodig zijn om aangepaste lettertypen naadloos in uw presentaties te integreren.
 ## Vereisten
@@ -74,9 +70,3 @@ Zorg ervoor dat u over de juiste licenties beschikt voor het distribueren van aa
 Aspose.Slides voor Java ondersteunt het gebruik van een breed scala aan aangepaste lettertypen, en er is geen inherente limiet opgelegd door de bibliotheek.
 ### Kan ik aangepaste lettertypen rechtstreeks in het PowerPoint-bestand insluiten met Aspose.Slides voor Java?
 Ja, met Aspose.Slides voor Java kunt u aangepaste lettertypen in het presentatiebestand zelf insluiten voor een naadloze distributie.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

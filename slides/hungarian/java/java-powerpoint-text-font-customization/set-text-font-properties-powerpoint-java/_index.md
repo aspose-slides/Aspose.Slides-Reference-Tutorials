@@ -3,14 +3,10 @@ title: Állítsa be a szöveg betűtípus tulajdonságait a PowerPointban Java s
 linktitle: Állítsa be a szöveg betűtípus tulajdonságait a PowerPointban Java segítségével
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthat be szövegbetűtípus-tulajdonságokat a PowerPointban az Aspose.Slides for Java segítségével. Egyszerű, lépésenkénti útmutató Java-fejlesztőknek.#Ebből a Java-fejlesztőknek szóló, lépésről lépésre szóló oktatóanyagból megtudhatja, hogyan kezelheti a PowerPoint szövegbetűtípus-tulajdonságait az Aspose.Slides for Java segítségével.
+type: docs
 weight: 18
 url: /hu/java/java-powerpoint-text-font-customization/set-text-font-properties-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Ebből az oktatóanyagból megtudhatja, hogyan használhatja az Aspose.Slides for Java alkalmazást a PowerPoint-prezentációk különféle betűtípus-tulajdonságainak programozott beállítására. Kitérünk a betűtípus, a stílus (félkövér, dőlt), az aláhúzás, a méret és a szöveg színének beállítására a diákban.
 ## Előfeltételek
@@ -89,9 +85,3 @@ Igen, az Aspose.Slides segítségével dolgozhat PowerPoint-sablonokkal.
 Igen, az Aspose.Slides lehetővé teszi a prezentációk exportálását különféle formátumokba, beleértve a PDF-et is.
 ### Hol találhatok további segítséget és támogatást az Aspose.Slides-hez?
  Látogatás[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásért és útmutatásért.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Cambiar texto en el nodo SmartArt usando Java
 linktitle: Cambiar texto en el nodo SmartArt usando Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Descubra cómo actualizar el texto del nodo SmartArt en PowerPoint usando Java con Aspose.Slides, mejorando la personalización de la presentación.
+type: docs
 weight: 22
 url: /es/java/java-powerpoint-smartart-manipulation/change-text-smartart-node-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introducción
 SmartArt en PowerPoint es una característica poderosa para crear diagramas visualmente atractivos. Aspose.Slides para Java proporciona soporte integral para manipular elementos SmartArt mediante programación. En este tutorial, lo guiaremos a través del proceso de cambiar texto en un nodo SmartArt usando Java.
 ## Requisitos previos
@@ -64,9 +60,3 @@ Ciertamente, puede modificar varias propiedades como el color, el tamaño y la f
 Sí, Aspose.Slides admite una amplia gama de diseños SmartArt, lo que le permite elegir el que mejor se adapte a sus necesidades de presentación.
 ### ¿Dónde puedo encontrar más recursos y soporte para Aspose.Slides?
  Puedes visitar el[Documentación de Aspose.Slides](https://reference.aspose.com/slides/java/) para obtener referencias detalladas de API y tutoriales. Además, puede buscar ayuda del[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) o considere comprar un[licencia temporal](https://purchase.aspose.com/temporary-license/) para apoyo profesional.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

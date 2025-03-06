@@ -3,14 +3,10 @@ title: जावा पावरपॉइंट में टेक्स्ट 
 linktitle: जावा पावरपॉइंट में टेक्स्ट फ़्रेम के लिए कस्टम रोटेशन कोण
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides का उपयोग करके Java PowerPoint में टेक्स्ट फ़्रेम के लिए रोटेशन कोण को कस्टमाइज़ करना सीखें। अपनी प्रस्तुतियों को गतिशील रूप से बेहतर बनाएँ।
+type: docs
 weight: 14
 url: /hi/java/java-powerpoint-text-box-manipulation/custom-rotation-angle-text-frame-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## परिचय
 इस ट्यूटोरियल में, हम Aspose.Slides का उपयोग करके Java PowerPoint प्रस्तुतियों में टेक्स्ट फ़्रेम रोटेशन कोणों में हेरफेर करने का तरीका जानेंगे। स्लाइड के भीतर टेक्स्ट की दृश्य अपील और स्पष्टता को बढ़ाने के लिए रोटेशन कोणों को अनुकूलित करना महत्वपूर्ण है। चाहे आप गतिशील चार्ट बना रहे हों या कस्टम शीर्षक जोड़ रहे हों, सटीक टेक्स्ट फ़्रेम रोटेशन प्रस्तुति सौंदर्यशास्त्र में काफी सुधार कर सकता है।
 ## आवश्यक शर्तें
@@ -68,9 +64,3 @@ Aspose.Slides for Java एक मजबूत लाइब्रेरी है
 हां, Aspose.Slides को पावरपॉइंट प्रस्तुतियों को बनाने और प्रबंधित करने के लिए एंटरप्राइज़-स्तरीय आवश्यकताओं को संभालने के लिए डिज़ाइन किया गया है।
 ### मैं Java के लिए Aspose.Slides का समर्थन कैसे प्राप्त करूं?
  तकनीकी सहायता और सामुदायिक संपर्क के लिए, यहां जाएं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

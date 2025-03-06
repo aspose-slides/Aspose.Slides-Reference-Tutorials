@@ -3,14 +3,10 @@ title: Java を使用して PowerPoint のアスペクト比をロックする
 linktitle: Java を使用して PowerPoint のアスペクト比をロックする
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides で Java を使用して PowerPoint プレゼンテーションのアスペクト比をロックする方法を学びます。スライドのデザインを正確に制御したい Java 開発者に最適です。
+type: docs
 weight: 16
 url: /ja/java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 Java 開発の分野では、PowerPoint プレゼンテーションをプログラムで操作することで、ワークフローを効率化し、生産性を大幅に向上できます。Aspose.Slides for Java は、Java 開発者がスライドの変更、コンテンツの追加、Java コードからの直接の書式設定の適用などのタスクを自動化するための強力なツールキットを提供します。このチュートリアルでは、PowerPoint プレゼンテーション管理の基本的な側面であるアスペクト比のロックに焦点を当てます。
 ## 前提条件
@@ -65,9 +61,3 @@ pres.save(dataDir + "pres-out.pptx", SaveFormat.Pptx);
  Aspose.Slidesコミュニティからサポートを受けることができます[ここ](https://forum.aspose.com/c/slides/11).
 ### 購入前に Aspose.Slides for Java を試すにはどうすればいいですか?
 無料試用版を入手できます[ここ](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

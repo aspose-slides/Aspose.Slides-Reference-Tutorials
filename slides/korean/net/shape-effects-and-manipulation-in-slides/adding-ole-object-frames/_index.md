@@ -3,14 +3,10 @@ title: Aspose.Slides를 사용하여 프레젠테이션에 OLE 개체 프레임 
 linktitle: Aspose.Slides를 사용하여 프레젠테이션에 OLE 개체 프레임 추가
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: 동적 콘텐츠로 PowerPoint 프레젠테이션을 향상시키는 방법을 알아보세요! .NET용 Aspose.Slides를 사용하여 단계별 가이드를 따르세요. 지금 참여도를 높이세요!
+type: docs
 weight: 15
 url: /ko/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드에 OLE(Object Linking and Embedding) 개체 프레임을 추가하는 과정을 자세히 살펴보겠습니다. Aspose.Slides는 개발자가 프로그래밍 방식으로 PowerPoint 파일을 작업할 수 있게 해주는 강력한 라이브러리입니다. 이 단계별 가이드에 따라 프레젠테이션 슬라이드에 OLE 개체를 원활하게 삽입하고 동적 대화형 콘텐츠로 PowerPoint 파일을 향상하세요.
 ## 전제 조건
@@ -88,9 +84,3 @@ A: 예, Aspose.Slides는 PPTX를 포함한 최신 PowerPoint 파일 형식을 �
 A: 물론입니다. 원하는 대로 OLE 개체 프레임의 크기, 위치 및 기타 속성을 조정할 수 있습니다.
 ### Q: 구현 중에 문제가 발생하면 어디에서 도움을 요청할 수 있습니까?
  답: 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 지역 사회의 지원과 지도를 위해.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java 슬라이드 애니메이션 및 레이아웃
 linktitle: Java 슬라이드 애니메이션 및 레이아웃
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드 애니메이션 및 레이아웃을 알아보세요. 대화형 프레젠테이션을 마스터하세요. 동적 콘텐츠 제작에 대해 알아보세요.
+type: docs
 weight: 14
 url: /ko/java/animation-and-layout/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Java를 사용하여 프레젠테이션에 생기를 불어넣고 매력적인 슬라이드를 만들고 싶으십니까? Aspose.Slides for Java는 최고의 솔루션입니다. 이 종합 가이드에서는 Java 슬라이드 애니메이션 및 레이아웃을 마스터하여 프레젠테이션이 다른 프레젠테이션보다 돋보이도록 하는 방법을 살펴보겠습니다.
 
@@ -46,9 +42,3 @@ Aspose.Slides for Java로 Java 프레젠테이션을 최적화하세요. PowerPo
 Aspose.Slides for Java의 시리즈 애니메이션으로 프레젠테이션을 최적화하세요. 매력적인 PowerPoint 애니메이션을 만들려면 소스 코드 예제가 포함된 단계별 가이드를 따르세요.
 ### [Java 슬라이드의 시리즈 요소 애니메이션](./animating-series-elements-java-slides/)
 Aspose.Slides for Java를 사용하여 PowerPoint 슬라이드의 시리즈 요소에 애니메이션을 적용하는 방법을 알아보세요. 프레젠테이션을 향상하려면 소스 코드가 포함된 이 포괄적인 단계별 가이드를 따르세요.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

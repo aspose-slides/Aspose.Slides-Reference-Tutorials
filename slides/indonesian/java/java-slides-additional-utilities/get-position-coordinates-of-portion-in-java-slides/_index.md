@@ -3,14 +3,10 @@ title: Dapatkan Koordinat Posisi Porsi di Slide Java
 linktitle: Dapatkan Koordinat Posisi Porsi di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengambil koordinat bagian teks di slide Java menggunakan Aspose.Slides untuk Java API. Dapatkan kontrol tepat atas penempatan teks dalam presentasi PowerPoint.
+type: docs
 weight: 12
 url: /id/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Pengantar Mendapatkan Koordinat Posisi Porsi di Java Slides
 
@@ -124,9 +120,3 @@ Ya, Aspose.Slides untuk Java mendukung berbagai format file PowerPoint, termasuk
 ### Bagaimana saya bisa mendapatkan dukungan atau bantuan lebih lanjut dengan Aspose.Slides untuk Java?
 
 Anda dapat mengakses dukungan dan sumber daya tambahan di situs web Aspose. Mereka menyediakan forum, dokumentasi, dan opsi dukungan premium bagi pengguna.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

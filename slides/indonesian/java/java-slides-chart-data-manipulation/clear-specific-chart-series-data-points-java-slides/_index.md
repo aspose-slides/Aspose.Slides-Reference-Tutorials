@@ -3,14 +3,10 @@ title: Hapus Data Poin Data Seri Bagan Tertentu di Slide Java
 linktitle: Hapus Data Poin Data Seri Bagan Tertentu di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menghapus titik data tertentu dari rangkaian bagan di Java Slides dengan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber untuk manajemen visualisasi data yang efektif.
+type: docs
 weight: 15
 url: /id/java/chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Pengantar Menghapus Data Poin Data Seri Bagan Tertentu di Slide Java
 
@@ -125,9 +121,3 @@ Ya, Anda dapat menghapus titik data berdasarkan suatu kondisi dengan menambahkan
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Slides untuk Java?
 
  Anda dapat menemukan dokumentasi dan contoh yang komprehensif di[Aspose.Slides untuk dokumentasi Java](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

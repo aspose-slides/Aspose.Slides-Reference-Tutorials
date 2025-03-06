@@ -3,14 +3,10 @@ title: Aspose.Slides – Mastering Summary Nagyítja a .NET-et
 linktitle: Összegzés készítése A prezentációs diák nagyítása az Aspose.Slides segítségével
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Emelje fel prezentációit az Aspose.Slides for .NET segítségével! Tanuljon meg könnyedén létrehozni lenyűgöző összefoglaló nagyításokat. Töltse le most a dinamikus diaélményért.
+type: docs
 weight: 16
 url: /hu/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 A prezentációk dinamikus világában az Aspose.Slides for .NET kiemelkedik a diakészítési élmény fokozásának hatékony eszközeként. Az egyik figyelemre méltó funkció, amelyet kínál, az Összegzés zoom létrehozásának képessége, amely egy vizuálisan vonzó módja a diagyűjtemény bemutatásának. Ebben az oktatóanyagban végigvezetjük Önt az Aspose.Slides for .NET segítségével összefoglaló nagyítás létrehozásának folyamatán.
 ## Előfeltételek
@@ -83,9 +79,3 @@ Teljesen! Hiperhivatkozásokat is elhelyezhet a diákban, és azok zökkenőment
 A legújabb verziótól kezdve nincs szigorú korlátozás a prezentációhoz hozzáadható szakaszok számára.
 ### Elérhető az Aspose.Slides próbaverziója?
 Igen, felfedezheti az Aspose.Slides szolgáltatásait, ha letölti a[ingyenes próbaverzió](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

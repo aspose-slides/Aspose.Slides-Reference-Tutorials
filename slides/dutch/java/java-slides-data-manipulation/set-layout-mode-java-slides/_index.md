@@ -3,14 +3,10 @@ title: Stel de lay-outmodus in Java-dia's in
 linktitle: Stel de lay-outmodus in Java-dia's in
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u de lay-outmodi voor Java-dia's instelt met Aspose.Slides. Pas de positionering en grootte van diagrammen aan in deze stapsgewijze handleiding met broncode.
+type: docs
 weight: 23
 url: /nl/java/data-manipulation/set-layout-mode-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot het instellen van de lay-outmodus in Java-dia's
 
@@ -99,9 +95,3 @@ finally
 ### Waar kan ik meer informatie vinden over Aspose.Slides voor Java?
 
  Meer informatie over Aspose.Slides voor Java vindt u in de[documentatie](https://reference.aspose.com/slides/java/). Het bevat gedetailleerde API-referenties en voorbeelden om u te helpen effectief met dia's en grafieken te werken in Java.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

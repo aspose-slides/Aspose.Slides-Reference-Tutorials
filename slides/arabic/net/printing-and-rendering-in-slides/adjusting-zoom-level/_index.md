@@ -3,14 +3,10 @@ title: اضبط مستويات التكبير/التصغير بسهولة باس
 linktitle: ضبط مستوى التكبير/التصغير لشرائح العرض التقديمي في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية ضبط مستويات تكبير شرائح العرض التقديمي بسهولة باستخدام Aspose.Slides for .NET. عزز تجربة PowerPoint الخاصة بك من خلال التحكم الدقيق.
+type: docs
 weight: 17
 url: /ar/net/printing-and-rendering-in-slides/adjusting-zoom-level/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 في عالم العروض التقديمية الديناميكي، يعد التحكم في مستوى التكبير/التصغير أمرًا بالغ الأهمية لتقديم تجربة جذابة وجذابة بصريًا لجمهورك. يوفر Aspose.Slides for .NET مجموعة أدوات قوية لمعالجة شرائح العرض التقديمي برمجيًا. في هذا البرنامج التعليمي، سوف نستكشف كيفية ضبط مستوى التكبير/التصغير لشرائح العرض التقديمي باستخدام Aspose.Slides في بيئة .NET.
 ## المتطلبات الأساسية
@@ -64,9 +60,3 @@ In this tutorial, we explored the step-by-step process of adjusting the zoom lev
  إذا كانت لديك أية استفسارات أو مشكلات، قم بزيارة منتدى Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11) لطلب المجتمع والدعم.
 ### 5. كيف يمكنني شراء Aspose.Slides لـ .NET؟
  لشراء Aspose.Slides لـ .NET، انقر فوق[هنا](https://purchase.aspose.com/buy)لاستكشاف خيارات الترخيص.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

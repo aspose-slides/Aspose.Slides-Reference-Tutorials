@@ -3,14 +3,10 @@ title: Δημιουργία μικρογραφίας με συντελεστή �
 linktitle: Δημιουργία μικρογραφίας με συντελεστή κλιμάκωσης για σχήμα στο Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε να δημιουργείτε μικρογραφίες του PowerPoint με συγκεκριμένα όρια χρησιμοποιώντας το Aspose.Slides για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
+type: docs
 weight: 12
 url: /el/net/image-and-video-manipulation-in-slides/creating-thumbnail-scaling-factor-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Καλώς ήρθατε στον περιεκτικό μας οδηγό για τη δημιουργία μικρογραφιών με όρια για σχήματα στο Aspose.Slides για .NET. Το Aspose.Slides είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται απρόσκοπτα με παρουσιάσεις PowerPoint στις εφαρμογές τους .NET. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαδικασία δημιουργίας μικρογραφιών με συγκεκριμένα όρια για σχήματα σε μια παρουσίαση χρησιμοποιώντας το Aspose.Slides.
 ## Προαπαιτούμενα
@@ -59,9 +55,3 @@ bitmap.Save(dataDir + "Scaling Factor Thumbnail_out.png", ImageFormat.Png);
  Για οποιαδήποτε απορία ή βοήθεια, μη διστάσετε να επισκεφτείτε το φόρουμ υποστήριξης Aspose.Slides[εδώ](https://forum.aspose.com/c/slides/11).
 ### Ε5: Μπορώ να αγοράσω Aspose.Slides για .NET;
  Σίγουρα! Για να αγοράσετε Aspose.Slides για .NET, επισκεφτείτε τη σελίδα αγοράς[εδώ](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Nyújtási eltolás hozzáadása a képkitöltéshez a PowerPoint-bemutat
 linktitle: Nyújtási eltolás hozzáadása a képkitöltéshez a diákban
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan javíthatja a PowerPoint prezentációkat az Aspose.Slides for .NET segítségével. Kövesse a lépésenkénti útmutatót a képkitöltés nyúlási eltolásának hozzáadásához.
+type: docs
 weight: 18
 url: /hu/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 A prezentációk dinamikus világában a vizualitás kulcsszerepet játszik a közönség figyelmének megragadásában. Az Aspose.Slides for .NET felhatalmazza a fejlesztőket PowerPoint prezentációik fejlesztésére azáltal, hogy robusztus szolgáltatáskészletet biztosít. Az egyik ilyen funkció a képkitöltés nyúlási eltolása, ami kreatív és tetszetős diák készítését teszi lehetővé.
 ## Előfeltételek
@@ -75,9 +71,3 @@ Igen, az Aspose.Slides for .NET alkalmas asztali és webes alkalmazásokhoz is.
  Utal[dokumentáció](https://reference.aspose.com/slides/net/) részletes információkért.
 ### Megvásárolhatom az Aspose.Slides-t .NET-hez?
  Igen, megvásárolhatja a terméket[itt](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

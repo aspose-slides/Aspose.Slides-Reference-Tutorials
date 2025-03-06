@@ -3,14 +3,10 @@ title: Ontvang positiecoördinaten van gedeelten in Java-dia's
 linktitle: Ontvang positiecoördinaten van gedeelten in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u de coördinaten van tekstgedeelten in Java-dia's kunt ophalen met behulp van de Aspose.Slides voor Java API. Krijg nauwkeurige controle over de plaatsing van tekst in PowerPoint-presentaties.
+type: docs
 weight: 12
 url: /nl/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot het verkrijgen van positiecoördinaten van gedeelten in Java-dia's
 
@@ -124,9 +120,3 @@ Ja, Aspose.Slides voor Java ondersteunt verschillende PowerPoint-bestandsindelin
 ### Hoe kan ik verdere ondersteuning of assistentie krijgen met Aspose.Slides voor Java?
 
 kunt toegang krijgen tot aanvullende ondersteuning en bronnen op de Aspose-website. Ze bieden forums, documentatie en premium ondersteuningsopties voor gebruikers.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

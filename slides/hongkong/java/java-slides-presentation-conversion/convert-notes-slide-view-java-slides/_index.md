@@ -3,14 +3,10 @@ title: 在 Java 投影片中轉換 Notes 投影片視圖
 linktitle: 在 Java 投影片中轉換 Notes 投影片視圖
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java Slides 中轉換筆記投影片檢視。包含程式碼範例的逐步指南，可實現高效率的 PowerPoint 操作。
+type: docs
 weight: 15
 url: /zh-hant/java/presentation-conversion/convert-notes-slide-view-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 使用 Aspose.Slides 在 Java 投影片中轉換 Notes 投影片檢視簡介
 
@@ -105,10 +101,3 @@ Aspose.Slides 設計用於處理各種 PowerPoint 格式，包括最新版本。
 ### 在哪裡可以找到更多 Aspose.Slides for Java 程式碼範例和教學？
 
 您可以在中找到豐富的程式碼範例和教程[Aspose.Slides for Java 文檔](https://reference.aspose.com/slides/java/)。瀏覽文件以了解有關這個強大庫的功能的更多資訊。
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

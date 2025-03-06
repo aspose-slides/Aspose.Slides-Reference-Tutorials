@@ -3,14 +3,10 @@ title: Dapatkan Nilai Latar Belakang yang Efektif dari sebuah Slide
 linktitle: Dapatkan Nilai Latar Belakang yang Efektif dari sebuah Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengekstrak nilai latar belakang slide yang efektif di PowerPoint menggunakan Aspose.Slides untuk .NET. Tingkatkan keterampilan desain presentasi Anda hari ini!
+type: docs
 weight: 11
 url: /id/net/slide-background-manipulation/get-background-effective-values/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Dalam dunia presentasi yang dinamis dan menarik, Aspose.Slides for .NET adalah alat canggih yang memberdayakan pengembang dan profesional untuk memanipulasi dan mengontrol berbagai aspek file PowerPoint. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses mendapatkan nilai latar belakang slide yang efektif menggunakan Aspose.Slides untuk .NET. Keterampilan ini sangat berguna ketika Anda perlu bekerja dengan desain latar belakang dan skema warna presentasi Anda untuk membuat slide yang menakjubkan secara visual. 
 
@@ -115,10 +111,3 @@ Meskipun beberapa pengetahuan pemrograman bermanfaat, Aspose.Slides untuk .NET m
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk .NET?
 
  Anda bisa mendapatkan dukungan dan mengajukan pertanyaan di[Forum Aspose.Slide](https://forum.aspose.com/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

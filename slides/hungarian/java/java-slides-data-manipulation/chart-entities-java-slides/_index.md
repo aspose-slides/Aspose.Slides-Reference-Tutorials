@@ -3,14 +3,10 @@ title: Diagram entitások a Java Slides-ben
 linktitle: Diagram entitások a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg a Java Slides diagramok létrehozását és testreszabását az Aspose.Slides segítségével. Javítsa prezentációit hatékony diagram entitásokkal.
+type: docs
 weight: 13
 url: /hu/java/data-manipulation/chart-entities-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés a Java Slides diagram entitásaiba
 
@@ -305,9 +301,3 @@ A diagram színeit testreszabhatja a különböző diagramelemek, például rác
 ### Az Aspose.Slides for Java kompatibilis a legújabb Java-verziókkal?
 
 Igen, az Aspose.Slides for Java rendszeresen frissül, hogy támogassa a legújabb Java-verziókat, és kompatibilitást biztosít a Java-környezetek széles körében.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

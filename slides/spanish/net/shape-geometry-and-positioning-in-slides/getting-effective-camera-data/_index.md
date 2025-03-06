@@ -3,14 +3,10 @@ title: Dominar la extracción eficaz de datos de la cámara con Aspose.Slides
 linktitle: Obtener datos efectivos de la cámara en diapositivas de presentación
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Descubra el potencial de Aspose.Slides para .NET con nuestra guía paso a paso sobre cómo extraer datos efectivos de la cámara de las diapositivas de una presentación.
+type: docs
 weight: 18
 url: /es/net/shape-geometry-and-positioning-in-slides/getting-effective-camera-data/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introducción
 ¿Alguna vez te has preguntado cómo extraer y manipular los datos de la cámara incrustados en las diapositivas de tu presentación? ¡No busque más! Este tutorial lo guiará a través del proceso de obtención de datos de cámara efectivos utilizando Aspose.Slides para .NET. Aspose.Slides es una poderosa biblioteca que le permite trabajar sin problemas con archivos de presentación en sus aplicaciones .NET.
 ## Requisitos previos
@@ -72,9 +68,3 @@ Sí, Aspose.Slides admite varios marcos .NET, incluidos .NET Core y .NET 5.
  Se puede obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/).
 ### ¿Dónde puedo comprar Aspose.Slides para .NET?
  Para comprar Aspose.Slides, visite el[pagina de compra](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

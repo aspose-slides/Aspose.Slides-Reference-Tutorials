@@ -3,14 +3,10 @@ title: Aspose.Slides - Bezproblémové propojení tvarů v .NET
 linktitle: Spojování tvarů pomocí konektorů v prezentaci
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Prozkoumejte sílu Aspose.Slides pro .NET, spojující tvary bez námahy ve vašich prezentacích. Pozvedněte své snímky pomocí dynamických konektorů.
+type: docs
 weight: 29
 url: /cs/net/shape-effects-and-manipulation-in-slides/connecting-shapes-using-connectors/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 V dynamickém světě prezentací přidává možnost spojovat tvary pomocí konektorů na vaše snímky na sofistikovanosti. Aspose.Slides for .NET umožňuje vývojářům dosáhnout tohoto hladce. Tento tutoriál vás provede celým procesem a rozebere každý krok, abyste zajistili jasné porozumění.
 ## Předpoklady
@@ -81,9 +77,3 @@ Aspose.Slides for .NET podporuje spojování různých tvarů, včetně základn
 Prozkoumejte dokumentaci Aspose.Slides pro metody přizpůsobení vzhledu konektoru, jako je styl a barva čáry.
 ### Existuje komunitní fórum pro podporu Aspose.Slides?
  Ano, můžete najít pomoc a sdílet své zkušenosti v[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

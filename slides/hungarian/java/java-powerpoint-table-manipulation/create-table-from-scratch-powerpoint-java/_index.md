@@ -3,14 +3,10 @@ title: Hozzon létre táblázatot a semmiből a PowerPointban Java segítségév
 linktitle: Hozzon létre táblázatot a semmiből a PowerPointban Java segítségével
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Az átfogó, lépésenkénti oktatóanyagunkból megtudhatja, hogyan hozhat létre dinamikus táblázatokat a PowerPointban az Aspose.Slides for Java segítségével.
+type: docs
 weight: 22
 url: /hu/java/java-powerpoint-table-manipulation/create-table-from-scratch-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Szüksége volt valaha dinamikus táblázat létrehozására egy PowerPoint prezentációban Java használatával? Nos, jó helyen jársz! Ebben az oktatóanyagban végigvezetjük a táblázat létrehozásának folyamatán az Aspose.Slides for Java használatával. Akár tapasztalt Java-fejlesztő, akár csak most kezdi, ezt az útmutatót könnyen követhetőnek és hihetetlenül hasznosnak találja. Merüljön el, és alakítsa át PowerPoint diákjait valami rendkívülivé!
 ## Előfeltételek
@@ -90,9 +86,3 @@ Az Aspose.Slides for Java egy hatékony könyvtár a PowerPoint fájlokkal való
 Az Aspose.Slides a Java SE 6 és újabb verzióival kompatibilis.
 ### Hol találom az Aspose.Slides dokumentációját?
  A dokumentáció elérhető[itt](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: إضافة خطوط عادية إلى شرائح العرض التقدي�
 linktitle: إضافة خطوط عادية إلى شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بتحسين عروض PowerPoint التقديمية الخاصة بك في .NET باستخدام Aspose.Slides. اتبع دليلنا خطوة بخطوة لإضافة خطوط واضحة دون عناء.
+type: docs
 weight: 16
 url: /ar/net/shape-effects-and-manipulation-in-slides/adding-plain-lines/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 غالبًا ما يتضمن إنشاء عروض PowerPoint التقديمية الجذابة والجذابة بصريًا دمج أشكال وعناصر مختلفة. إذا كنت تعمل مع .NET، فإن Aspose.Slides هي أداة قوية تعمل على تبسيط العملية. يركز هذا البرنامج التعليمي على إضافة خطوط عادية إلى شرائح العرض التقديمي باستخدام Aspose.Slides for .NET. تابع لتحسين عروضك التقديمية باستخدام هذا الدليل سهل المتابعة.
 ## المتطلبات الأساسية
@@ -71,9 +67,3 @@ pres.Save(dataDir + "LineShape1_out.pptx", SaveFormat.Pptx);
  زيارة[هنا](https://purchase.aspose.com/temporary-license/) للتراخيص المؤقتة.
 ### س: تواجه المشاكل؟ أين يمكنني الحصول على الدعم؟
  ج: اطلب المساعدة في[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

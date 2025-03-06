@@ -3,14 +3,10 @@ title: Pas de hoeken van de verbindingslijnen in PowerPoint aan met Aspose.Slide
 linktitle: Hoeken van verbindingslijnen in presentatiedia's aanpassen met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u de hoeken van verbindingslijnen in PowerPoint-dia's kunt aanpassen met Aspose.Slides voor .NET. Verbeter uw presentaties met precisie en gemak.
+type: docs
 weight: 28
 url: /nl/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 Het maken van visueel aantrekkelijke presentatiedia's omvat vaak nauwkeurige aanpassingen aan verbindingslijnen. In deze zelfstudie onderzoeken we hoe u de hoeken van verbindingslijnen in presentatiedia's kunt aanpassen met Aspose.Slides voor .NET. Aspose.Slides is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met PowerPoint-bestanden kunnen werken en uitgebreide mogelijkheden biedt voor het maken, wijzigen en manipuleren van presentaties.
 ## Vereisten
@@ -91,9 +87,3 @@ Ja, Aspose.Slides kan zowel in Windows als in webapplicaties worden gebruikt.
  U kunt een tijdelijke licentie krijgen[hier](https://purchase.aspose.com/temporary-license/).
 ### Is er een ondersteuningsforum voor Aspose.Slides?
  Ja, u kunt het ondersteuningsforum bezoeken[hier](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

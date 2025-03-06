@@ -3,14 +3,10 @@ title: Java 슬라이드에서 간격 너비 설정
 linktitle: Java 슬라이드에서 간격 너비 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드에서 간격 너비를 설정하는 방법을 알아보세요. PowerPoint 프레젠테이션의 차트 시각적 효과를 향상하세요.
+type: docs
 weight: 21
 url: /ko/java/data-manipulation/set-gap-width-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for Java의 간격 너비 설정 소개
 
@@ -162,9 +158,3 @@ presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 ### 더 많은 리소스와 문서는 어디에서 찾을 수 있나요?
 
  Aspose.Slides for Java에 대한 포괄적인 문서와 추가 리소스는 다음 페이지에서 찾을 수 있습니다.[Aspose 웹사이트](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: 在 Java PowerPoint 中設定文字框架的自動調整
 linktitle: 在 Java PowerPoint 中設定文字框架的自動調整
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java PowerPoint 中設定文字框架的自動調整。輕鬆建立動態簡報。
+type: docs
 weight: 14
 url: /zh-hant/java/java-powerpoint-text-font-customization/set-autofit-text-frame-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 在 Java 應用程式開發中，以程式設計方式建立動態且具有視覺吸引力的 PowerPoint 簡報是一項常見要求。 Aspose.Slides for Java 提供了一組強大的 API 來輕鬆實現這一目標。一項基本功能是為文字框架設定自動調整，確保文字在形狀內整齊調整，無需手動調整。本教學將逐步引導您完成整個過程，並利用 Aspose.Slides for Java 自動調整 PowerPoint 投影片中的文字。
 ## 先決條件
@@ -90,9 +86,3 @@ Aspose.Slides for Java 是一個強大的 Java API，可讓開發人員建立、
 您可以找到 Aspose.Slides for Java 的詳細文檔[這裡](https://reference.aspose.com/slides/java/).
 ### 我如何獲得 Aspose.Slides for Java 的支援？
 您可以從以下位置取得 Aspose.Slides for Java 的社群和專業支援：[這裡](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

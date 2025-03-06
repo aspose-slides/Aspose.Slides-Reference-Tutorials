@@ -3,14 +3,10 @@ title: PowerPoint でライトリグの有効データを取得する
 linktitle: PowerPoint でライトリグの有効データを取得する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: この詳細なステップバイステップ ガイドでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションからライト リグの効果的なデータを取得する方法を学習します。
+type: docs
 weight: 25
 url: /ja/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-data-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 Java を使用して PowerPoint プレゼンテーション タスクを自動化したいとお考えですか? もう探す必要はありません。Aspose.Slides for Java は、開発者が Microsoft PowerPoint をインストールしなくても PowerPoint ファイルを作成、操作、変換できる強力なライブラリです。この包括的なガイドでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションから軽量で効果的なデータを取得する手順を説明します。熟練した Java 開発者でも、初心者でも、このチュートリアルはプロジェクトで Aspose.Slides の潜在能力を最大限に活用するのに役立ちます。
 ## 前提条件
@@ -70,9 +66,3 @@ Aspose.Slides for Java は、Java を使用して PowerPoint ファイルを作�
 ドキュメントは以下から入手可能です。[このリンク](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides のサポートを受けるにはどうすればよいですか?
  Aspose.Slidesサポートフォーラムからサポートを受けることができます[ここ](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

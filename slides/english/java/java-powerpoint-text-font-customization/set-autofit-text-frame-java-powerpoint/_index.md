@@ -3,14 +3,10 @@ title: Set Autofit of Text Frame in Java PowerPoint
 linktitle: Set Autofit of Text Frame in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set autofit for text frames in Java PowerPoint using Aspose.Slides for Java. Create dynamic presentations effortlessly.
+type: docs
 weight: 14
 url: /java/java-powerpoint-text-font-customization/set-autofit-text-frame-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 In Java application development, creating dynamic and visually appealing PowerPoint presentations programmatically is a common requirement. Aspose.Slides for Java provides a powerful set of APIs to achieve this effortlessly. One essential feature is setting autofit for text frames, ensuring that text adjusts neatly within shapes without manual adjustments. This tutorial will guide you through the process step-by-step, leveraging Aspose.Slides for Java to automate text fitting in PowerPoint slides.
 ## Prerequisites
@@ -90,10 +86,3 @@ Yes, you can get a free trial of Aspose.Slides for Java from [here](https://rele
 You can find detailed documentation for Aspose.Slides for Java [here](https://reference.aspose.com/slides/java/).
 ### How can I get support for Aspose.Slides for Java?
 You can get community and professional support for Aspose.Slides for Java from [here](https://forum.aspose.com/c/slides/11).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

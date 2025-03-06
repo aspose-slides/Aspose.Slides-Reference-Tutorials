@@ -3,14 +3,10 @@ title: Voeg een afbeelding toe in tabelcellen in Java PowerPoint
 linktitle: Voeg een afbeelding toe in tabelcellen in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u afbeeldingen in tabelcellen kunt toevoegen in Java PowerPoint-presentaties met deze gedetailleerde stapsgewijze handleiding met behulp van Aspose.Slides voor Java.
+type: docs
 weight: 10
 url: /nl/java/java-powerpoint-table-manipulation/add-image-inside-table-cells-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 Als u uw Java PowerPoint-presentaties wilt verbeteren door afbeeldingen in tabelcellen in te sluiten, bent u op de juiste plek beland! Vandaag duiken we in een gedetailleerde, stapsgewijze handleiding met Aspose.Slides voor Java. Deze tutorial leidt je door het hele proces, zodat zelfs een beginneling het kan volgen en verbluffende resultaten kan bereiken.
 ## Vereisten
@@ -108,9 +104,3 @@ Aspose.Slides ondersteunt verschillende afbeeldingsformaten, waaronder JPEG, PNG
  U kunt verwijzen naar de[documentatie](https://reference.aspose.com/slides/java/) voor meer gedetailleerde informatie en voorbeelden.
 ### Hoe kan ik Aspose.Slides voor Java kopen?
  Je kunt het kopen bij de[Aspose-website](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

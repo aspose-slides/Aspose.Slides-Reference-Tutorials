@@ -3,14 +3,10 @@ title: Manipulação de dados do gráfico de slides Java
 linktitle: Manipulação de dados do gráfico de slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Desbloqueie o poder da manipulação de dados do gráfico de slides Java com Aspose.Slides para Java. Crie visuais e insights impressionantes sem esforço.
+type: docs
 weight: 11
 url: /pt/java/chart-data-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 Você está pronto para levar suas apresentações de slides baseadas em Java para o próximo nível? Com Aspose.Slides for Java, você pode manipular dados gráficos sem esforço, criando apresentações visualmente impressionantes e perspicazes que cativam seu público. Neste artigo, exploraremos como Aspose.Slides capacita os desenvolvedores Java a dar vida aos gráficos baseados em dados.
 
 ## Compreendendo Aspose.Slides para Java
@@ -58,9 +54,3 @@ Crie gráficos normais em slides Java com Aspose.Slides para Java. Guia passo a 
 Aprenda como criar organogramas impressionantes em Java Slides com tutoriais passo a passo do Aspose.Slides. Personalize e visualize sua estrutura organizacional sem esforço.
 ### [Gráfico de pizza em slides Java](./pie-chart-java-slides/)
 Aprenda como criar gráficos de pizza impressionantes em apresentações do PowerPoint usando Aspose.Slides para Java. Guia passo a passo com código-fonte para desenvolvedores Java.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

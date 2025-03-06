@@ -3,14 +3,10 @@ title: Přidat zvukový rámec v PowerPointu
 linktitle: Přidat zvukový rámec v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se přidávat zvukové snímky do prezentací PowerPoint pomocí Aspose.Slides for Java. Vylepšete své prezentace pomocí poutavých zvukových prvků bez námahy.
+type: docs
 weight: 12
 url: /cs/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 Vylepšení prezentací pomocí zvukových prvků může výrazně zvýšit jejich dopad a zapojení. S Aspose.Slides for Java se integrace zvukových snímků do prezentací PowerPoint stává bezproblémovým procesem. Tento tutoriál vás provede procesem přidávání zvukových snímků do vašich prezentací krok za krokem pomocí Aspose.Slides for Java.
 ## Předpoklady
@@ -79,9 +75,3 @@ Ano, můžete vytvářet prezentace PowerPoint s vloženými zvukovými snímky,
 Aspose.Slides for Java nabízí rozsáhlé možnosti přizpůsobení, které vám umožní upravit vzhled audio přehrávače tak, aby vyhovoval vašim preferencím.
 ### Je k dispozici zkušební verze pro Aspose.Slides pro Java?
  Ano, máte přístup k bezplatné zkušební verzi Aspose.Slides for Java z jejich[webová stránka](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

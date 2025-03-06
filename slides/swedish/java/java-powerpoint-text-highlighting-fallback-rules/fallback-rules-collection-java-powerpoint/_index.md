@@ -3,14 +3,10 @@ title: Reservreglersamling i Java PowerPoint
 linktitle: Reservreglersamling i Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du hanterar reservregler för teckensnitt i PowerPoint-presentationer med Aspose.Slides för Java. Förbättra kompatibiliteten mellan enheter utan ansträngning.
+type: docs
 weight: 11
 url: /sv/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 den här handledningen kommer vi att fördjupa oss i hur man hanterar reservregler för teckensnitt med Aspose.Slides för Java. Reservteckensnitt är avgörande för att säkerställa att dina presentationer visas korrekt i olika miljöer, särskilt när specifika typsnitt inte är tillgängliga. Vi guidar dig genom att importera nödvändiga paket, ställa in miljön och implementera reservregler steg för steg.
 ## Förutsättningar
@@ -77,9 +73,3 @@ Alternativa teckensnittsregler definierar alternativa teckensnitt som ska använ
  Detaljerad dokumentation finns tillgänglig[här](https://reference.aspose.com/slides/java/).
 ### Hur får jag support för Aspose.Slides för Java?
 För support, besök Aspose.Slides-forumet[här](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java를 사용하는 PowerPoint의 글꼴 속성
 linktitle: Java를 사용하는 PowerPoint의 글꼴 속성
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java와 함께 Java를 사용하여 PowerPoint 프레젠테이션에서 글꼴 속성을 조작하는 방법을 알아보세요. 이 단계별 가이드를 통해 글꼴을 쉽게 사용자 정의하세요.
+type: docs
 weight: 11
 url: /ko/java/java-powerpoint-font-management/font-properties-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 이 튜토리얼에서는 Java, 특히 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 글꼴 속성을 조작하는 방법을 살펴보겠습니다. 필요한 패키지를 가져오는 것부터 수정된 프리젠테이션을 저장하는 것까지 각 단계를 안내해 드립니다. 뛰어들어보자!
 ## 전제 조건
@@ -85,9 +81,3 @@ Aspose.Slides for Java를 사용하면 Java를 사용하여 PowerPoint 프레젠
  예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Aspose.Slides for Java에 대한 추가 지원과 리소스는 어디서 찾을 수 있나요?
  Aspose.Slides 포럼을 방문할 수 있습니다.[여기](https://forum.aspose.com/c/slides/11) 지원 및 문서화를 위해[여기](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

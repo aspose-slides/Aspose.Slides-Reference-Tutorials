@@ -3,14 +3,10 @@ title: Java PowerPoint 애니메이션 및 모양 조작
 linktitle: Java PowerPoint 애니메이션 및 모양 조작
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint에서 모양에 애니메이션을 적용하고 조작하는 방법을 알아보세요. 동적 프레젠테이션을 위한 종합 튜토리얼입니다.
+type: docs
 weight: 25
 url: /ko/java/java-powerpoint-animation-shape-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 소개
 
@@ -94,9 +90,3 @@ Aspose.Slides for Java를 사용하여 PowerPoint에서 도형을 연결하는 �
 이 단계별 튜토리얼을 통해 Java용 Aspose.Slides를 사용하여 PowerPoint에 비디오 프레임을 삽입하는 방법을 알아보세요. 프레젠테이션을 쉽게 향상시키세요.
 ### [PowerPoint의 OLE 개체에서 포함된 파일 데이터 추출](./extract-embedded-file-data-ole-object-powerpoint/)
 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 포함된 파일 데이터를 추출하고 문서 관리 기능을 향상시키는 방법을 알아보세요.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

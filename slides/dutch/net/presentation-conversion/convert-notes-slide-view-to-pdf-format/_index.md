@@ -3,14 +3,10 @@ title: Converteer Notes-diaweergave naar PDF-formaat
 linktitle: Converteer Notes-diaweergave naar PDF-formaat
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Converteer sprekernotities in PowerPoint naar PDF met Aspose.Slides voor .NET. Behoud de context en pas de lay-out moeiteloos aan.
+type: docs
 weight: 15
 url: /nl/net/presentation-conversion/convert-notes-slide-view-to-pdf-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 In deze uitgebreide handleiding leiden we u door het proces van het converteren van Notes Slide View naar PDF-indeling met behulp van Aspose.Slides voor .NET. U vindt gedetailleerde instructies en codefragmenten om deze taak moeiteloos uit te voeren.
 
@@ -82,9 +78,3 @@ Absoluut! Aspose.Slides voor .NET biedt verschillende opties om de PDF-uitvoer a
  kunt aanvullende zelfstudies en voorbeelden bekijken op de[Aspose.Slides voor .NET API-documentatie](https://reference.aspose.com/slides/net/).
 
 Nu u de Notes-diaweergave met succes naar PDF-indeling hebt geconverteerd, kunt u meer functies en mogelijkheden van Aspose.Slides voor .NET verkennen om uw PowerPoint-automatiseringstaken te verbeteren. Veel codeerplezier!
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

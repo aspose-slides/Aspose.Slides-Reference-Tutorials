@@ -3,14 +3,10 @@ title: Java PowerPoint анимация и эффекты
 linktitle: Java PowerPoint анимация и эффекты
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Освойте анимацию и эффекты Java PowerPoint с помощью наших подробных руководств. Научитесь добавлять анимацию, внешние и внутренние тени с помощью Aspose.Slides для Java.
+type: docs
 weight: 22
 url: /ru/java/java-powerpoint-animation-effects/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 
 Презентации Java PowerPoint могут быть динамичными и визуально потрясающими благодаря правильной анимации и эффектам. С Aspose.Slides for Java в вашем распоряжении мощный инструмент для улучшения ваших слайдов. Независимо от того, являетесь ли вы новичком или опытным пользователем, наши руководства помогут вам овладеть искусством добавления анимации и теневых эффектов в ваши презентации PowerPoint. Давайте углубимся в эти уроки и посмотрим, как вы можете улучшить свои слайды!
@@ -39,9 +35,3 @@ url: /ru/java/java-powerpoint-animation-effects/
 Узнайте, как применять эффекты внутренней тени к фигурам в презентациях Java PowerPoint с помощью Aspose.Slides. Улучшите свои слайды с помощью этого пошагового руководства.
 ### [Применение внешней тени в PowerPoint с помощью Java](./apply-outer-shadow-powerpoint-java/)
 Узнайте, как применить эффект внешней тени в PowerPoint с помощью Java с Aspose.Slides. Сделайте свои презентации более глубокими и визуальными.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: .NET용 Aspose.Slides에서 차트 추세선 탐색
 linktitle: 차트 추세선
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: 이 단계별 가이드에서 Aspose.Slides for .NET을 사용하여 차트에 다양한 추세선을 추가하는 방법을 알아보세요. 손쉽게 데이터 시각화 기술을 향상해보세요!
+type: docs
 weight: 12
 url: /ko/net/advanced-chart-customization/chart-trend-lines/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 데이터 시각화 및 프레젠테이션 분야에서 차트를 통합하는 것은 정보를 효과적으로 전달하는 강력한 방법이 될 수 있습니다. Aspose.Slides for .NET은 차트에 추세선을 추가하는 기능을 포함하여 차트 작업을 위한 풍부한 기능의 도구 세트를 제공합니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 차트에 추세선을 추가하는 과정을 단계별로 살펴보겠습니다. 
 
@@ -149,9 +145,3 @@ Aspose.Slides for .NET은 차트를 쉽게 만들고 조작할 수 있는 다목
 
 ### .NET용 Aspose.Slides에 대한 임시 라이선스가 필요합니까?
  .NET용 Aspose.Slides에 대한 임시 라이센스는 다음에서 얻을 수 있습니다.[이 링크](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Dia verwijderen via referentie
 linktitle: Dia verwijderen via referentie
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u dia's in PowerPoint-presentaties verwijdert met Aspose.Slides voor .NET, een krachtige bibliotheek voor .NET-ontwikkelaars.
+type: docs
 weight: 25
 url: /nl/net/slide-access-and-manipulation/remove-slide-using-reference/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Als ervaren SEO-schrijver ben ik hier om u een uitgebreide handleiding te geven over het gebruik van Aspose.Slides voor .NET om een dia uit een PowerPoint-presentatie te verwijderen. In deze stapsgewijze zelfstudie splitsen we het proces op in beheersbare stappen, zodat u het gemakkelijk kunt volgen. Dus laten we beginnen!
 
@@ -105,9 +101,3 @@ Ja, u kunt de dia's doorlopen en meerdere dia's programmatisch verwijderen.
 
 ### Kan ik het verwijderen van een dia ongedaan maken met Aspose.Slides voor .NET?
 Als een glaasje eenmaal is verwijderd, kan het niet meer gemakkelijk ongedaan worden gemaakt. Het is raadzaam om back-ups van uw presentaties te bewaren voordat u dergelijke wijzigingen aanbrengt.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

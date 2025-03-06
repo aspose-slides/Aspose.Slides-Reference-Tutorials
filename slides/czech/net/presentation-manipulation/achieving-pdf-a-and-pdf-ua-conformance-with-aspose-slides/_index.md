@@ -3,14 +3,10 @@ title: Dosažení souladu s PDF/A a PDF/UA pomocí Aspose.Slides
 linktitle: Dosažení souladu s PDF/A a PDF/UA
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Zajistěte soulad PDF/A a PDF/UA s Aspose.Slides pro .NET. Vytvářejte snadno přístupné a uchovatelné prezentace.
+type: docs
 weight: 23
 url: /cs/net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-with-aspose-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod
 
@@ -131,9 +127,3 @@ Chcete-li zajistit přístupnost v dokumentech PDF/UA, můžete využít funkce 
 ### Je soulad s PDF/UA nezbytný pro všechny dokumenty?
 
 Soulad s PDF/UA je zvláště důležitý pro dokumenty, které mají být přístupné handicapovaným uživatelům. Nezbytnost souladu s PDF/UA však závisí na konkrétních požadavcích vaší cílové skupiny.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

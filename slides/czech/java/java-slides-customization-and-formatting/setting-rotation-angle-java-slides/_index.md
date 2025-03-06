@@ -3,14 +3,10 @@ title: Nastavení úhlu otočení v Java Slides
 linktitle: Nastavení úhlu otočení v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimalizujte své snímky Java pomocí Aspose.Slides pro Java. Naučte se nastavovat úhly natočení pro textové prvky. Průvodce krok za krokem se zdrojovým kódem.
+type: docs
 weight: 17
 url: /cs/java/customization-and-formatting/setting-rotation-angle-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod do nastavení úhlu otočení v Java Slides
 
@@ -104,9 +100,3 @@ Aspose.Slides for Java poskytuje různé možnosti formátování názvů grafů
 ### Je možné animovat otáčení textu v názvu osy grafu?
 
 Ano, pomocí Aspose.Slides for Java můžete přidat efekty animace k textovým prvkům, včetně názvů os grafu. Informace o přidávání animací do prezentací naleznete v dokumentaci.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

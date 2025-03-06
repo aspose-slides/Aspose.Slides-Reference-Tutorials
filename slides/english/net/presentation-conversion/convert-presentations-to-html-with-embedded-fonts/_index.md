@@ -3,14 +3,10 @@ title: Convert Presentations to HTML with Embedded Fonts
 linktitle: Convert Presentations to HTML with Embedded Fonts
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Convert PowerPoint presentations to HTML with embedded fonts using Aspose.Slides for .NET. Maintain originality seamlessly.
+type: docs
 weight: 13
 url: /net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 In today's digital age, sharing presentations and documents online has become a common practice. However, one challenge that often arises is ensuring that your fonts are correctly displayed when converting presentations to HTML. This step-by-step tutorial will guide you through the process of using Aspose.Slides for .NET to convert presentations to HTML with embedded fonts, ensuring that your documents look just as you intended them to.
 
@@ -125,10 +121,3 @@ Yes, Aspose.Slides for .NET supports a wide range of output formats, including P
 
 You can access a wealth of resources, including documentation, on the [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/).
 
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

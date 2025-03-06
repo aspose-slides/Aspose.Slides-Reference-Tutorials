@@ -3,14 +3,10 @@ title: Αντιστροφή Εάν είναι αρνητικό για μεμον
 linktitle: Αντιστροφή Εάν είναι αρνητικό για μεμονωμένες σειρές σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να χρησιμοποιείτε τη δυνατότητα Invert If Negative στο Aspose.Slides για Java για να βελτιώσετε τα γραφικά σε παρουσιάσεις PowerPoint.
+type: docs
 weight: 11
 url: /el/java/data-manipulation/invert-if-negative-individual-series-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στο Invert If Negative για μεμονωμένες σειρές σε Java Slides
 
@@ -135,9 +131,3 @@ finally
 ### Πού μπορώ να έχω πρόσβαση στην τεκμηρίωση Aspose.Slides for Java;
 
 Μπορείτε να αποκτήσετε πρόσβαση στην τεκμηρίωση για το Aspose.Slides για Java στη διεύθυνση[εδώ](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

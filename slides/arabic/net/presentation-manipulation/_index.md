@@ -3,14 +3,10 @@ title: التلاعب بالعرض
 linktitle: التلاعب بالعرض
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: أطلق العنان لإمكانيات معالجة العروض التقديمية باستخدام Aspose.Slides لبرامج .NET التعليمية. تعرف على كيفية إنشاء عروض PowerPoint التقديمية وتخصيصها وتحسينها برمجياً. ارفع مهاراتك في معالجة PowerPoint اليوم!
+type: docs
 weight: 11
 url: /ar/net/presentation-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 في مجال معالجة PowerPoint، يظهر Aspose.Slides for .NET كأداة قوية لمعالجة العروض التقديمية. توفر هذه المجموعة من البرامج التعليمية إرشادات شاملة حول تسخير إمكانات Aspose.Slides لمعالجة العروض التقديمية وتحسينها برمجيًا. بدءًا من إنشاء الشرائح وتعديلها وترتيبها وحتى إدارة النصوص والصور وعناصر الوسائط المتعددة، تقدم هذه البرامج التعليمية رحلة خطوة بخطوة إلى عالم إنشاء العروض التقديمية الديناميكية وتخصيصها. سواء كنت تقوم بأتمتة مهام العرض التقديمي، أو إنشاء التقارير، أو إنشاء عروض شرائح تفاعلية، فإن هذه البرامج التعليمية تزود المطورين بالمعرفة اللازمة لاستخدام Aspose.Slides بشكل فعال.
 
 ## التلاعب بالعرض
@@ -55,9 +51,3 @@ url: /ar/net/presentation-manipulation/
 تعرف على كيفية إجراء تحويل SVG للعروض التقديمية باستخدام Aspose.Slides لـ .NET. يغطي هذا الدليل الشامل إرشادات خطوة بخطوة وأمثلة التعليمات البرمجية المصدر وخيارات تحويل SVG المتنوعة.
 ### [تنسيق ملفات SVG في العروض التقديمية](./formatting-svgs-in-presentations/)
 قم بتحسين عروضك التقديمية باستخدام ملفات SVG المذهلة باستخدام Aspose.Slides لـ .NET. تعلم خطوة بخطوة كيفية تنسيق ملفات SVG للحصول على صور مؤثرة. ارفع مستوى لعبة العرض التقديمي الخاص بك اليوم! 
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

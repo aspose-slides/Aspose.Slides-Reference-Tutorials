@@ -3,14 +3,10 @@ title: Imposta la cartella di lavoro esterna con l'aggiornamento dei dati del gr
 linktitle: Imposta la cartella di lavoro esterna con l'aggiornamento dei dati del grafico nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come impostare cartelle di lavoro esterne e aggiornare i dati del grafico in Diapositive Java utilizzando Aspose.Slides per Java. Migliora le tue capacità di automazione di PowerPoint.
+type: docs
 weight: 20
 url: /it/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduzione all'impostazione della cartella di lavoro esterna con l'aggiornamento dei dati del grafico nelle diapositive Java
 
@@ -103,9 +99,3 @@ Sì, puoi personalizzare l'aspetto del grafico, inclusi titolo, etichette, color
 ### Dove posso trovare ulteriore documentazione e risorse per Aspose.Slides per Java?
 
  Per documentazione dettagliata e risorse aggiuntive, visitare la documentazione di Aspose.Slides per Java all'indirizzo[Qui](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

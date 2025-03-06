@@ -3,14 +3,10 @@ title: احصل على مجلدات الخطوط في PowerPoint باستخدا�
 linktitle: احصل على مجلدات الخطوط في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية استخراج مجلدات الخطوط في عروض PowerPoint التقديمية باستخدام Java مع Aspose.Slides، مما يعزز قدرات تصميم العرض التقديمي لديك.
+type: docs
 weight: 13
 url: /ar/java/java-powerpoint-font-management/get-fonts-folders-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نتعمق في عملية الحصول على مجلدات الخطوط في عروض PowerPoint التقديمية باستخدام Java. تلعب الخطوط دورًا محوريًا في المظهر المرئي وسهولة قراءة العروض التقديمية. من خلال الاستفادة من Aspose.Slides for Java، يمكننا الوصول بكفاءة إلى أدلة الخطوط، وهو أمر ضروري لمختلف العمليات المتعلقة بالخطوط في عروض PowerPoint التقديمية.
 ## المتطلبات الأساسية
@@ -50,9 +46,3 @@ String[] fontFolders = FontsLoader.getFontFolders();
  يمكنك زيارة منتدى Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11) لطلب الدعم من المجتمع أو فريق دعم Aspose.
 ### أين يمكنني شراء Aspose.Slides لـ Java؟
  يمكنك شراء Aspose.Slides لـ Java من موقع الويب[هنا](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

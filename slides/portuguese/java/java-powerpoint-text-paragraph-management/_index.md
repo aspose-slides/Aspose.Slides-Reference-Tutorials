@@ -3,14 +3,10 @@ title: Gerenciamento de texto e parágrafo em Java PowerPoint
 linktitle: Gerenciamento de texto e parágrafo em Java PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Domine o gerenciamento de texto e parágrafos do Java PowerPoint com Aspose.Slides. Aprenda a importar texto HTML, gerenciar espaçamento entre linhas, criar marcadores e alinhar parágrafos.
+type: docs
 weight: 26
 url: /pt/java/java-powerpoint-text-paragraph-management/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 
 Criar apresentações em PowerPoint bem estruturadas e visualmente atraentes pode melhorar significativamente a sua comunicação. Com Aspose.Slides for Java, gerenciar texto e parágrafos torna-se uma tarefa simples. Se você precisa importar texto HTML, gerenciar espaçamento entre linhas ou criar marcadores multiníveis, nossos tutoriais detalhados irão guiá-lo durante o processo. Vamos explorar como você pode levar suas apresentações Java PowerPoint para o próximo nível.
@@ -59,9 +55,3 @@ Aprenda como adicionar marcadores de parágrafo em slides do PowerPoint usando A
 Aprenda como definir recuos de parágrafo em slides do PowerPoint de forma programática usando Aspose.Slides para Java. Melhore a formatação da sua apresentação sem esforço.
 ### [Alinhar parágrafos no PowerPoint usando Java](./align-paragraphs-powerpoint-java/)
 Aprenda como alinhar parágrafos em apresentações do PowerPoint usando Aspose.Slides for Java. Siga nosso guia passo a passo para uma formatação precisa.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

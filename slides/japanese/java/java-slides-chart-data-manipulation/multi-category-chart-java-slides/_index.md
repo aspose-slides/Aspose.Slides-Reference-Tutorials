@@ -3,14 +3,10 @@ title: Java スライドのマルチカテゴリ チャート
 linktitle: Java スライドのマルチカテゴリ チャート
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java スライドでマルチカテゴリ チャートを作成します。プレゼンテーションで印象的なデータ視覚化を実現するためのソース コード付きのステップバイステップ ガイドです。
+type: docs
 weight: 20
 url: /ja/java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides を使用した Java スライドのマルチカテゴリ チャートの紹介
 
@@ -161,9 +157,3 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ### チャートにタイトルを追加するにはどうすればよいですか?
 
 チャートにタイトルを追加するには、`ch.getChartTitle().getTextFrame().setText("Chart Title");`方法。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

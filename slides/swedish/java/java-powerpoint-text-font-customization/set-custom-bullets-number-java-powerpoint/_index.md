@@ -3,14 +3,10 @@ title: Ställ in Custom Bullets Number i Java PowerPoint
 linktitle: Ställ in Custom Bullets Number i Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ställer in anpassade punktnummer i Java PowerPoint med Aspose.Slides, vilket förbättrar presentationens tydlighet och struktur programmässigt.
+type: docs
 weight: 15
 url: /sv/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 I dagens digitala tidsålder är det avgörande att skapa dynamiska presentationer för att effektivt kommunicera idéer och data. Aspose.Slides för Java tillhandahåller en kraftfull verktygslåda för att manipulera PowerPoint-presentationer programmatiskt, och erbjuder omfattande funktioner för att förbättra din presentationsprocess. Den här artikeln fördjupar sig i att ställa in anpassade punktnummer i Java PowerPoint-presentationer med Aspose.Slides. Oavsett om du är en erfaren utvecklare eller nykomling, kommer den här handledningen att guida dig steg-för-steg genom processen, vilket säkerställer att du kan utnyttja denna förmåga effektivt.
 ## Förutsättningar
@@ -86,9 +82,3 @@ Aspose.Slides stöder PowerPoint-format från 97-2003 till de senaste versionern
  Ja, du kan ladda ner en gratis testversion från[här](https://releases.aspose.com/).
 ### Var kan jag köpa Aspose.Slides?
  Du kan köpa Aspose.Slides från[här](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

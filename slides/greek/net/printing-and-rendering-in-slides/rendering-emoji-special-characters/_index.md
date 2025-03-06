@@ -3,14 +3,10 @@ title: Απόδοση emoji και ειδικών χαρακτήρων στο As
 linktitle: Απόδοση emoji και ειδικών χαρακτήρων στο Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Βελτιώστε τις παρουσιάσεις σας με emoji χρησιμοποιώντας το Aspose.Slides για .NET. Ακολουθήστε τον οδηγό βήμα προς βήμα για να προσθέσετε μια δημιουργική πινελιά χωρίς κόπο.
+type: docs
 weight: 14
 url: /el/net/printing-and-rendering-in-slides/rendering-emoji-special-characters/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Στον δυναμικό κόσμο των παρουσιάσεων, η μετάδοση συναισθημάτων και ειδικών χαρακτήρων μπορεί να προσθέσει μια πινελιά δημιουργικότητας και μοναδικότητας. Το Aspose.Slides for .NET δίνει τη δυνατότητα στους προγραμματιστές να αποδίδουν απρόσκοπτα emoji και ειδικούς χαρακτήρες στις παρουσιάσεις τους, ξεκλειδώνοντας μια νέα διάσταση έκφρασης. Σε αυτό το σεμινάριο, θα εξερευνήσουμε πώς να το πετύχετε αυτό με καθοδήγηση βήμα προς βήμα χρησιμοποιώντας το Aspose.Slides.
 ## Προαπαιτούμενα
@@ -55,9 +51,3 @@ pres.Save(dataDir + "emoji.pdf", Aspose.Slides.Export.SaveFormat.Pdf);
  Εγγραφείτε στην κοινότητα Aspose.Slides[δικαστήριο](https://forum.aspose.com/c/slides/11) για βοήθεια και συζητήσεις.
 ### Μπορώ να χρησιμοποιήσω το Aspose.Slides χωρίς μόνιμη άδεια;
  Ναι, αποκτήστε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/) για βραχυπρόθεσμη χρήση.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

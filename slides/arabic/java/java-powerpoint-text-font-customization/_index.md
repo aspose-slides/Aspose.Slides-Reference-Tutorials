@@ -3,14 +3,10 @@ title: جافا باور بوينت النص وتخصيص الخط
 linktitle: جافا باور بوينت النص وتخصيص الخط
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: استكشف البرامج التعليمية حول تخصيص النص والخط في Java PowerPoint باستخدام Aspose.Slides. تعلم التدوير واستبدال الخطوط والمزيد لتحسين عروضك التقديمية.
+type: docs
 weight: 29
 url: /ar/java/java-powerpoint-text-font-customization/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 
 أطلق العنان للإمكانات الكاملة لعروض PowerPoint التقديمية الخاصة بك من خلال البرامج التعليمية الخاصة بتخصيص النصوص والخطوط في Java PowerPoint باستخدام Aspose.Slides. سواء كنت مستخدمًا مبتدئًا أو متقدمًا، ستساعدك أدلتنا التفصيلية على تحسين عروضك التقديمية دون عناء.
@@ -106,9 +102,3 @@ url: /ar/java/java-powerpoint-text-font-customization/
 تعرف على كيفية دمج الخطوط المخصصة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تعزيز الجاذبية البصرية دون عناء.
 ### [إنشاء WordArt في PowerPoint باستخدام Java](./create-wordart-powerpoint-java/)
 تعرف على كيفية إنشاء WordArt جذاب في عروض PowerPoint التقديمية باستخدام Java مع Aspose.Slides. برنامج تعليمي خطوة بخطوة للمطورين.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

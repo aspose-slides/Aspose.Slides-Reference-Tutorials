@@ -3,14 +3,10 @@ title: Рекомендуемые свойства только для чтен�
 linktitle: Рекомендуемые свойства только для чтения в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как включить рекомендуемые свойства только для чтения в презентациях Java PowerPoint с помощью Aspose.Slides для Java. Следуйте нашему пошаговому руководству с примерами исходного кода для повышения безопасности презентаций.
+type: docs
 weight: 17
 url: /ru/java/presentation-properties/read-only-recommended-properties-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Введение в включение рекомендуемых свойств, доступных только для чтения, в слайдах Java
 
@@ -92,9 +88,3 @@ pres.getProtectionManager().setPassword("YourPassword");
 ```
 
  Не забудьте заменить`"YourPassword"` с желаемым паролем.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

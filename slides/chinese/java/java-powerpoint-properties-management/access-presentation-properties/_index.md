@@ -3,14 +3,10 @@ title: 访问演示属性
 linktitle: 访问演示属性
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 解锁 Aspose.Slides for Java 的强大功能。通过本教程掌握演示文稿管理。轻松访问、修改和增强演示文稿属性。
+type: docs
 weight: 11
 url: /zh/java/java-powerpoint-properties-management/access-presentation-properties/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 在 Java 开发领域，无缝管理演示文稿可能是一项艰巨的任务。然而，随着 Aspose.Slides for Java 的出现，开发人员拥有了一套强大的工具包，可以轻松应对这种复杂性。本教程将作为您的指路明灯，揭示利用 Aspose.Slides 访问演示文稿属性的复杂性。我们将深入研究先决条件、导入包，并将每个示例分解为易于理解的步骤，确保您的精通之旅保持顺利和丰富。
 ## 先决条件
@@ -68,9 +64,3 @@ System.out.println("Name of Application: " + docProps.getNameOfApplication());
 如有任何疑问或需要帮助，您可以访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)，这里的专家和社区随时准备提供帮助。
 ### 我可以获得 Aspose.Slides 的临时许可证吗？
 是的，临时许可证可用于评估或测试目的。您可以从[购买页面](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

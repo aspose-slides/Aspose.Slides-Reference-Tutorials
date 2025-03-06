@@ -3,14 +3,10 @@ title: Aspose.Slides for .NET ile Gelişmiş Grafik Özelliklerini Keşfetmek
 linktitle: Aspose.Slides'taki Ek Grafik Özellikleri
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: PowerPoint sunumlarınızı geliştirmek için Aspose.Slides for .NET'in gelişmiş grafik özelliklerini öğrenin. Veri noktalarını temizleyin, çalışma kitaplarını kurtarın ve daha fazlasını yapın!
+type: docs
 weight: 10
 url: /tr/net/additional-chart-features/additional-chart-features/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Veri görselleştirme ve sunum tasarımı dünyasında Aspose.Slides for .NET, çarpıcı grafikler oluşturmak ve PowerPoint sunumlarınızı geliştirmek için güçlü bir araç olarak öne çıkıyor. Bu adım adım kılavuz, Aspose.Slides for .NET'in sunduğu çeşitli gelişmiş grafik özellikleri konusunda size yol gösterecektir. İster bir geliştirici ister sunum tutkunu olun, bu eğitim bu kitaplığın tüm potansiyelinden yararlanmanıza yardımcı olacaktır.
 
@@ -152,9 +148,3 @@ Evet, Aspose.Slides for .NET'i kullanarak PDF, görseller ve daha fazlasını i�
 ### Aspose.Slides for .NET ile ilgili nasıl destek veya yardım alabilirim?
 
 Her türlü teknik soru veya destek için şu adresi ziyaret edebilirsiniz:[Aspose.Slides forumu](https://forum.aspose.com/), sık sorulan soruların yanıtlarını bulabileceğiniz ve topluluktan yardım alabileceğiniz yer.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: حذف الشريحة عبر المرجع
 linktitle: حذف الشريحة عبر المرجع
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية حذف الشرائح في عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET، وهي مكتبة قوية لمطوري .NET.
+type: docs
 weight: 25
 url: /ar/net/slide-access-and-manipulation/remove-slide-using-reference/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 باعتباري كاتبًا ماهرًا في مجال تحسين محركات البحث (SEO)، أنا هنا لتزويدك بدليل شامل حول استخدام Aspose.Slides for .NET لحذف شريحة من عرض PowerPoint التقديمي. في هذا البرنامج التعليمي خطوة بخطوة، سنقوم بتقسيم العملية إلى خطوات يمكن التحكم فيها، مما يضمن أنه يمكنك المتابعة بسهولة. اذا هيا بنا نبدأ!
 
@@ -105,9 +101,3 @@ pres.Save(dataDir + "modified_out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
 
 ### هل يمكنني التراجع عن حذف شريحة باستخدام Aspose.Slides لـ .NET؟
 بمجرد إزالة الشريحة، لا يمكن التراجع عنها بسهولة. يُنصح بالاحتفاظ بنسخ احتياطية من عروضك التقديمية قبل إجراء مثل هذه التغييرات.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

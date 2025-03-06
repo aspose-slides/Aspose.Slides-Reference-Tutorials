@@ -3,14 +3,10 @@ title: Java PowerPoint-Form- und Medieneinfügung
 linktitle: Java PowerPoint-Form- und Medieneinfügung
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Formen und Medien in PowerPoint-Präsentationen einfügen. Die Tutorials umfassen das Hinzufügen von Linien, Audio, OLE-Objekten und Videos.
+type: docs
 weight: 23
 url: /de/java/java-powerpoint-shape-media-insertion/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung
 
@@ -57,9 +53,3 @@ Erfahren Sie, wie Sie mit Aspose.Slides für Java einen Streckungsoffset für di
 Erfahren Sie, wie Sie mit Aspose.Slides für Java Videoinhalte nahtlos in PowerPoint-Präsentationen integrieren. Ihre Folien mit Multimedia-Elementen, um Ihr Publikum zu fesseln.
 ### [Videoframe aus Webquelle in PowerPoint hinzufügen](./add-video-frame-web-source-powerpoint/)
 Erfahren Sie, wie Sie Ihre PowerPoint-Präsentationen verbessern können, indem Sie mit Aspose.Slides für Java Videoframes aus Webquellen hinzufügen.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

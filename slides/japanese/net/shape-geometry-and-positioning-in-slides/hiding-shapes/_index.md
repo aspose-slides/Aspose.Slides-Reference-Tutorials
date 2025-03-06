@@ -3,14 +3,10 @@ title: Aspose.Slides .NET チュートリアルを使用して PowerPoint で図
 linktitle: Aspose.Slides を使用してプレゼンテーション スライド内の図形を非表示にする
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint スライド内の図形を非表示にする方法を学びます。このステップ バイ ステップ ガイドを使用して、プログラムでプレゼンテーションをカスタマイズします。
+type: docs
 weight: 21
 url: /ja/net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 プレゼンテーションの動的な世界では、カスタマイズが重要です。Aspose.Slides for .NET は、PowerPoint プレゼンテーションをプログラムで操作するための強力なソリューションを提供します。一般的な要件の 1 つは、スライド内の特定の図形を非表示にする機能です。このチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーション スライド内の図形を非表示にするプロセスについて説明します。
 ## 前提条件
@@ -77,9 +73,3 @@ Congratulations! You've successfully hidden shapes in your presentation using As
 はい、一時免許証を取得できます[ここ](https://purchase.aspose.com/temporary-license/)テスト目的のため。
 ### Aspose.Slides のコミュニティ サポートを受けるにはどうすればよいですか?
  Aspose.Slidesコミュニティに参加しましょう[フォーラム](https://forum.aspose.com/c/slides/11)議論と支援のため。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

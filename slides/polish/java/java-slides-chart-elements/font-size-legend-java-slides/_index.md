@@ -3,14 +3,10 @@ title: Legenda rozmiaru czcionki w slajdach Java
 linktitle: Legenda rozmiaru czcionki w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Ulepsz prezentacje programu PowerPoint za pomocą Aspose.Slides dla Java. Z naszego przewodnika krok po kroku dowiesz się, jak dostosować rozmiary czcionek legendy i nie tylko.
+type: docs
 weight: 13
 url: /pl/java/chart-elements/font-size-legend-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Wprowadzenie do legendy rozmiaru czcionki w slajdach Java
 
@@ -139,9 +135,3 @@ Tutaj wyłączamy automatyczne skalowanie osi i określamy minimalne i maksymaln
 ### Gdzie mogę znaleźć więcej informacji i dokumentacji dla Aspose.Slides?
 
  Obszerną dokumentację i odniesienia do API dla Aspose.Slides for Java można znaleźć na stronie dokumentacji Aspose. Odwiedzać[Tutaj](https://reference.aspose.com/slides/java/) szczegółowe informacje na temat korzystania z biblioteki.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

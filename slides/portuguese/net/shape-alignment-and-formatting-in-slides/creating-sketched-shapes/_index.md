@@ -3,14 +3,10 @@ title: Crie formas esboçadas impressionantes com Aspose.Slides
 linktitle: Criando formas esboçadas em slides de apresentação com Aspose.Slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como adicionar formas criativas de esboço aos slides da sua apresentação usando Aspose.Slides for .NET. Aumente o apelo visual sem esforço!
+type: docs
 weight: 13
 url: /pt/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 Bem-vindo ao nosso guia passo a passo sobre como criar formas esboçadas em slides de apresentação usando Aspose.Slides for .NET. Se você deseja adicionar um toque de criatividade às suas apresentações, as formas esboçadas proporcionam uma estética única e desenhada à mão. Neste tutorial, orientaremos você no processo, dividindo-o em etapas simples para garantir uma experiência tranquila.
 ## Pré-requisitos
@@ -78,9 +74,3 @@ Adicionar formas esboçadas aos slides da apresentação pode melhorar o apelo v
  Para adquirir o Aspose.Slides for .NET, visite o[página de compra](https://purchase.aspose.com/buy).
 ### 5. Vocês oferecem licenças temporárias?
  Sim, licenças temporárias estão disponíveis[aqui](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

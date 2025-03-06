@@ -3,14 +3,10 @@ title: Mengatur Sudut Rotasi di Slide Java
 linktitle: Mengatur Sudut Rotasi di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Optimalkan slide Java Anda dengan Aspose.Slides untuk Java. Pelajari cara mengatur sudut rotasi untuk elemen teks. Panduan langkah demi langkah dengan kode sumber.
+type: docs
 weight: 17
 url: /id/java/customization-and-formatting/setting-rotation-angle-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Pengantar Pengaturan Sudut Rotasi di Slide Java
 
@@ -104,9 +100,3 @@ Aspose.Slides untuk Java menyediakan berbagai opsi pemformatan untuk judul bagan
 ### Apakah mungkin untuk menganimasikan rotasi teks dalam judul sumbu bagan?
 
 Ya, Anda dapat menambahkan efek animasi ke elemen teks, termasuk judul sumbu bagan, menggunakan Aspose.Slides untuk Java. Lihat dokumentasi untuk informasi tentang menambahkan animasi ke presentasi Anda.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

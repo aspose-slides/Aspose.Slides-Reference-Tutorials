@@ -3,14 +3,10 @@ title: 使用 Aspose.Slide 在 PowerPoint 中加入向左拉伸偏移
 linktitle: 在 Aspose.Slides 中為相框添加向左拉伸偏移
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 增強 PowerPoint 簡報。按照我們的分步指南為相框添加向左拉伸偏移。
+type: docs
 weight: 14
 url: /zh-hant/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 Aspose.Slides for .NET 是一個功能強大的程式庫，讓開發人員能夠輕鬆操作 PowerPoint 簡報。在本教學中，我們將探索使用 Aspose.Slides for .NET 在圖片框架的左側新增拉伸偏移的過程。請依照此逐步指南增強您在 PowerPoint 簡報中處理影像和形狀的技能。
 ## 先決條件
@@ -89,9 +85,3 @@ pres.Save(dataDir + "StretchOffsetLeftForPictureFrame_out.pptx", SaveFormat.Pptx
 答：探索[Aspose.Slides 文檔](https://reference.aspose.com/slides/net/)獲取全面的範例和指導。
 ### Q：我可以對單一形狀套用多個拉伸偏移嗎？
 答：是的，您可以組合多個拉伸偏移來實現複雜且客製化的視覺效果。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

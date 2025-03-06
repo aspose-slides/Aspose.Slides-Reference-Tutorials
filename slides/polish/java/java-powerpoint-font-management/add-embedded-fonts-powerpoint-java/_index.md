@@ -3,14 +3,10 @@ title: Dodaj osadzone czcionki w programie PowerPoint przy użyciu języka Java
 linktitle: Dodaj osadzone czcionki w programie PowerPoint przy użyciu języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodawać osadzone czcionki do prezentacji programu PowerPoint przy użyciu języka Java z Aspose.Slides dla języka Java. Zapewnij spójne wyświetlanie na różnych urządzeniach.
+type: docs
 weight: 10
 url: /pl/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 W tym samouczku przeprowadzimy Cię przez proces dodawania osadzonych czcionek do prezentacji programu PowerPoint przy użyciu języka Java, w szczególności wykorzystując Aspose.Slides dla języka Java. Osadzone czcionki zapewniają spójność prezentacji na różnych urządzeniach, nawet jeśli oryginalna czcionka nie jest dostępna. Przejdźmy do kroków:
 ## Warunki wstępne
@@ -73,9 +69,3 @@ Tak, osadzanie czcionek może nieznacznie zwiększyć rozmiar pliku prezentacji,
 Aspose.Slides for Java obsługuje osadzanie czcionek TrueType, co obejmuje szeroką gamę czcionek powszechnie używanych w prezentacjach.
 ### Czy mogę programowo osadzać czcionki za pomocą Aspose.Slides dla Java?
 Tak, jak pokazano w tym samouczku, możesz programowo osadzać czcionki za pomocą interfejsu API Aspose.Slides for Java.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

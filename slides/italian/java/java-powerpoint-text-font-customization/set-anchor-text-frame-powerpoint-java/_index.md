@@ -3,14 +3,10 @@ title: Imposta l'ancoraggio della cornice di testo in PowerPoint con Java
 linktitle: Imposta l'ancoraggio della cornice di testo in PowerPoint con Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come impostare gli ancoraggi delle cornici di testo in PowerPoint utilizzando Java con Aspose.Slides. Migliora le tue presentazioni.
+type: docs
 weight: 13
 url: /it/java/java-powerpoint-text-font-customization/set-anchor-text-frame-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## introduzione
 In questo tutorial imparerai come impostare l'ancoraggio di una cornice di testo nelle presentazioni di PowerPoint utilizzando Java con l'aiuto di Aspose.Slides. L'ancoraggio delle cornici di testo ti consente di controllare con precisione la posizione e il comportamento del testo all'interno di una forma, garantendo che le tue diapositive siano visivamente accattivanti e strutturate in modo efficace.
 ## Prerequisiti
@@ -75,9 +71,3 @@ Aspose.Slides per Java è una potente libreria che consente agli sviluppatori Ja
  Sì, puoi scaricare una versione di prova gratuita[Qui](https://releases.aspose.com/).
 ### Dove posso ottenere supporto per Aspose.Slides per Java?
  Puoi visitare il forum di supporto[Qui](https://forum.aspose.com/c/slides/11) per qualsiasi domanda o assistenza.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

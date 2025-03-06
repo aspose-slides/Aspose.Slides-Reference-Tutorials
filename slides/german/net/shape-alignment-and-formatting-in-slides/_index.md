@@ -3,14 +3,10 @@ title: Ausrichtung und Formatierung von Formen in Folien
 linktitle: Ausrichtung und Formatierung von Formen in Folien
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Entdecken Sie die umfassenden Aspose.Slides-Tutorials zur Ausrichtung und Formatierung von Formen in .NET-Anwendungen. Lernen Sie, Formen mühelos auszurichten und zu formatieren und Ihre Folienpräsentationen präzise zu verbessern.
+type: docs
 weight: 14
 url: /de/net/shape-alignment-and-formatting-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung
 
@@ -48,9 +44,3 @@ Erfahren Sie, wie Sie mit Aspose.Slides für .NET fesselnde Präsentationsfolien
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET einen Streckungsversatz nach links für einen Bilderrahmen in PowerPoint hinzufügen. Schritt-für-Schritt-Anleitung mit vollständigem Quellcodebeispiel.
 ### [Ersetzen des Bildtitels durch einen OLE-Objektrahmen in Präsentationsfolien](./substituting-picture-title-ole-object-frame/)
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET Bildtitel von OLE-Objektrahmen in Präsentationsfolien ersetzen. Schritt-für-Schritt-Anleitung mit vollständigem Quellcode.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

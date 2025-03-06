@@ -3,14 +3,10 @@ title: Vonalak formázása a PowerPointban
 linktitle: Vonalak formázása a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ebből a lépésenkénti oktatóanyagból megtudhatja, hogyan formázhat vonalakat a PowerPointban az Aspose.Slides for Java használatával. Tökéletesítse prezentációit egyéni vonalstílusokkal.
+type: docs
 weight: 16
 url: /hu/java/java-powerpoint-shape-formatting-geometry/format-lines-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 PowerPoint prezentációk alapvető fontosságúak a szakmai és oktatási környezetben egyaránt. A diáiban a vonalak hatékony formázásának képessége révén prezentációi csiszoltnak és professzionálisnak tűnhetnek. Ebben az oktatóanyagban megvizsgáljuk, hogyan használhatjuk az Aspose.Slides for Java-t a PowerPoint-prezentációk sorainak formázására. Az útmutató végére könnyedén létrehozhat és formázhat vonalakat a diákban.
 ## Előfeltételek
@@ -91,9 +87,3 @@ Igen, az Aspose.Slides for Java az alakzatok széles skáláját támogatja, és
  Igen, ingyenes próbaverziót kaphat a webhelyen[itt](https://releases.aspose.com/).
 ### Hol találok részletesebb dokumentációt?
  A részletes dokumentáció elérhető a[dokumentációs oldal](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

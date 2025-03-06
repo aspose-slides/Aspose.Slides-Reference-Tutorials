@@ -3,14 +3,10 @@ title: Xóa slide qua tham chiếu
 linktitle: Xóa slide qua tham chiếu
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách xóa trang chiếu trong bản trình bày PowerPoint bằng Aspose.Slides for .NET, một thư viện mạnh mẽ dành cho nhà phát triển .NET.
+type: docs
 weight: 25
 url: /vi/net/slide-access-and-manipulation/remove-slide-using-reference/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Là một người viết SEO thành thạo, tôi ở đây để cung cấp cho bạn hướng dẫn toàn diện về cách sử dụng Aspose.Slides cho .NET để xóa một trang trình bày khỏi bản trình bày PowerPoint. Trong hướng dẫn từng bước này, chúng tôi sẽ chia quy trình thành các bước có thể quản lý được, đảm bảo rằng bạn có thể dễ dàng làm theo. Vậy hãy bắt đầu!
 
@@ -105,9 +101,3 @@ Có, bạn có thể lặp qua các trang trình bày và xóa nhiều trang tr�
 
 ### Tôi có thể hoàn tác việc xóa trang trình bày bằng Aspose.Slides cho .NET không?
 Sau khi một slide bị xóa, nó không thể được hoàn tác dễ dàng. Bạn nên sao lưu bản trình bày của mình trước khi thực hiện những thay đổi đó.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

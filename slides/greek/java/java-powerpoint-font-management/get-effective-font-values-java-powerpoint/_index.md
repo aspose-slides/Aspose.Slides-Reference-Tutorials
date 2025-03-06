@@ -3,14 +3,10 @@ title: Αποκτήστε αποτελεσματικές τιμές γραμμα
 linktitle: Αποκτήστε αποτελεσματικές τιμές γραμματοσειράς στο Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ανακτάτε αποτελεσματικές τιμές γραμματοσειράς σε παρουσιάσεις Java PowerPoint χρησιμοποιώντας το Aspose.Slides. Βελτιώστε τη μορφοποίηση της παρουσίασής σας χωρίς κόπο.
+type: docs
 weight: 12
 url: /el/java/java-powerpoint-font-management/get-effective-font-values-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στην ανάκτηση αποτελεσματικών τιμών γραμματοσειράς σε παρουσιάσεις Java PowerPoint χρησιμοποιώντας το Aspose.Slides. Αυτή η λειτουργία σάς επιτρέπει να έχετε πρόσβαση στη μορφοποίηση γραμματοσειράς που εφαρμόζεται στο κείμενο σε διαφάνειες, παρέχοντας πολύτιμες πληροφορίες για διάφορες εργασίες χειρισμού παρουσίασης.
 ## Προαπαιτούμενα
@@ -66,9 +62,3 @@ IPortionFormatEffectiveData effectivePortionFormat = localPortionFormat.getEffec
 Ναι, το Aspose.Slides σάς επιτρέπει να έχετε πρόσβαση σε τιμές γραμματοσειράς από παρουσιάσεις που προστατεύονται με κωδικό πρόσβασης, υπό την προϋπόθεση ότι παρέχετε τα σωστά διαπιστευτήρια.
 ### Υπάρχουν περιορισμοί στις ιδιότητες της γραμματοσειράς που μπορούν να ανακτηθούν;
 Το Aspose.Slides προσφέρει εκτεταμένες δυνατότητες για ανάκτηση ιδιοτήτων γραμματοσειράς, καλύπτοντας τις πιο συνηθισμένες πτυχές μορφοποίησης. Ωστόσο, ορισμένες προηγμένες ή εξειδικευμένες λειτουργίες γραμματοσειράς ενδέχεται να μην είναι προσβάσιμες μέσω αυτής της μεθόδου.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

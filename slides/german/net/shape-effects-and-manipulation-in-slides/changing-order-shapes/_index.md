@@ -3,14 +3,10 @@ title: Neugestaltung von Präsentationsfolien mit Aspose.Slides für .NET
 linktitle: Ändern der Reihenfolge von Formen in Präsentationsfolien mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Präsentationsfolien mit Aspose.Slides für .NET neu gestalten. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Formen neu anzuordnen und die visuelle Attraktivität zu verbessern.
+type: docs
 weight: 26
 url: /de/net/shape-effects-and-manipulation-in-slides/changing-order-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 Das Erstellen optisch ansprechender Präsentationsfolien ist ein entscheidender Aspekt effektiver Kommunikation. Aspose.Slides für .NET ermöglicht Entwicklern die programmgesteuerte Bearbeitung von Folien und bietet eine breite Palette an Funktionen. In diesem Tutorial werden wir uns mit dem Prozess der Änderung der Reihenfolge von Formen in Präsentationsfolien mithilfe von Aspose.Slides für .NET befassen.
 ## Voraussetzungen
@@ -74,9 +70,3 @@ A: Ja, Aspose.Slides für .NET ist sowohl mit Windows- als auch mit Linux-Umgebu
  A: Besuchen Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) um Unterstützung zu erhalten und sich in der Community zu engagieren.
 ### F: Wie kann ich eine temporäre Lizenz für Aspose.Slides für .NET erhalten?
  A: Sie können erwerben eine[vorläufige Lizenz](https://purchase.aspose.com/temporary-license/) zu Auswertungszwecken.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

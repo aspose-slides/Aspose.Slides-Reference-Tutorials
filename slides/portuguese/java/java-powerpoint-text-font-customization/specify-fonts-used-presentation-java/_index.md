@@ -3,14 +3,10 @@ title: Especifique as fontes usadas na apresentação com Java
 linktitle: Especifique as fontes usadas na apresentação com Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como especificar fontes personalizadas em apresentações do PowerPoint usando Aspose.Slides for Java. Aprimore seus slides com tipografia exclusiva sem esforço.
+type: docs
 weight: 22
 url: /pt/java/java-powerpoint-text-font-customization/specify-fonts-used-presentation-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 Na era digital de hoje, criar apresentações visualmente atraentes é crucial para uma comunicação eficaz tanto nas empresas quanto na academia. Aspose.Slides for Java fornece uma plataforma robusta para desenvolvedores Java gerarem e manipularem dinamicamente apresentações em PowerPoint. Este tutorial irá guiá-lo através do processo de especificação de fontes usadas em uma apresentação usando Aspose.Slides para Java. Ao final, você estará equipado com o conhecimento para integrar perfeitamente fontes personalizadas em seus projetos do PowerPoint, melhorando seu apelo visual e garantindo a consistência da marca.
 ## Pré-requisitos
@@ -75,9 +71,3 @@ Sim, você pode especificar fontes em vários níveis, incluindo nível de slide
 Aspose.Slides não impõe limitações estritas ao número de fontes personalizadas; no entanto, considere as implicações de desempenho.
 ### Posso carregar fontes dinamicamente em tempo de execução sem incorporá-las em meu aplicativo?
 Sim, você pode carregar fontes de fontes externas ou memória conforme demonstrado neste tutorial.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

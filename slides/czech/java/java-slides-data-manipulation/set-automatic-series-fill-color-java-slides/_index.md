@@ -3,14 +3,10 @@ title: Nastavte barvu automatické výplně řady v Java Slides
 linktitle: Nastavte barvu automatické výplně řady v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak nastavit automatickou barvu výplně řady v Java Slides pomocí Aspose.Slides pro Java. Podrobný průvodce s příklady kódu pro dynamické prezentace.
+type: docs
 weight: 14
 url: /cs/java/data-manipulation/set-automatic-series-fill-color-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod k nastavení automatické barvy výplně řady v Java Slides
 
@@ -130,9 +126,3 @@ Ano, Aspose.Slides for Java nabízí širokou škálu funkcí, včetně manipula
 ### Kde najdu další zdroje a dokumentaci?
 
  Kompletní dokumentaci k Aspose.Slides pro Java můžete získat na adrese[tady](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

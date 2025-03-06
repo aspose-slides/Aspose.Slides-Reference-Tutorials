@@ -3,14 +3,10 @@ title: Állítsa be a Jelmagyarázat egyéni beállításait a Java Slides alkal
 linktitle: Állítsa be a Jelmagyarázat egyéni beállításait a Java Slides alkalmazásban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthat be egyéni jelmagyarázat-beállításokat a Java Slides alkalmazásban az Aspose.Slides for Java segítségével. Szabja testre a jelmagyarázat pozícióját és méretét a PowerPoint diagramokon.
+type: docs
 weight: 14
 url: /hu/java/customization-and-formatting/set-legend-custom-options-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés a Java Slides jelmagyarázat egyéni beállításainak megadásához
 
@@ -135,9 +131,3 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet testreszabni egy diagram jelm
 ## Testreszabhatok más jelmagyarázat attribútumokat?
 
 Igen, testreszabhatja a jelmagyarázat különféle attribútumait, például a betűstílust, a keretet, a háttérszínt és egyebeket. Fedezze fel az Aspose.Slides dokumentációját a legendák testreszabásával kapcsolatos részletes információkért.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

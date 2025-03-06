@@ -3,14 +3,10 @@ title: Voeg digitale handtekeningen toe aan PowerPoint met Aspose.Slides
 linktitle: Ondersteuning van digitale handtekeningen in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Onderteken PowerPoint-presentaties veilig met Aspose.Slides voor .NET. Volg onze stapsgewijze handleiding. Download nu voor een gratis proefperiode
+type: docs
 weight: 19
 url: /nl/net/printing-and-rendering-in-slides/digital-signature-support/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 Digitale handtekeningen spelen een cruciale rol bij het waarborgen van de authenticiteit en integriteit van digitale documenten. Aspose.Slides voor .NET biedt robuuste ondersteuning voor digitale handtekeningen, zodat u uw PowerPoint-presentaties veilig kunt ondertekenen. In deze zelfstudie begeleiden we u bij het proces van het toevoegen van digitale handtekeningen aan uw presentaties met Aspose.Slides.
 ## Vereisten
@@ -66,9 +62,3 @@ Aspose.Slides biedt methoden om digitale handtekeningen programmatisch te verifi
  De documentatie is beschikbaar[hier](https://reference.aspose.com/slides/net/).
 ### Heeft u ondersteuning nodig of heeft u aanvullende vragen?
  Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

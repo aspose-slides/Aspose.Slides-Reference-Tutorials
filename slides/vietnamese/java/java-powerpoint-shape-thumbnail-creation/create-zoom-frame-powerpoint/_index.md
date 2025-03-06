@@ -3,14 +3,10 @@ title: Tạo khung thu phóng trong PowerPoint
 linktitle: Tạo khung thu phóng trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo Khung thu phóng hấp dẫn trong PowerPoint bằng Aspose.Slides cho Java. Hãy làm theo hướng dẫn của chúng tôi để thêm các yếu tố tương tác vào bản trình bày của bạn.
+type: docs
 weight: 17
 url: /vi/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Tạo bản trình bày PowerPoint hấp dẫn là một nghệ thuật và đôi khi, những bổ sung nhỏ nhất cũng có thể tạo ra sự khác biệt rất lớn. Một tính năng như vậy là Khung thu phóng, cho phép bạn phóng to các trang chiếu hoặc hình ảnh cụ thể, tạo ra một bản trình bày năng động và tương tác. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo Khung thu phóng trong PowerPoint bằng Aspose.Slides cho Java.
 ## Điều kiện tiên quyết
@@ -117,9 +113,3 @@ Có, Aspose.Slides cho phép bạn tùy chỉnh các thuộc tính khác nhau c�
 Tuyệt đối! Bạn có thể thêm hình ảnh tùy chỉnh vào Khung thu phóng bằng cách đọc tệp hình ảnh và thêm chúng vào bản trình bày.
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
  Bạn có thể tìm thấy tài liệu và ví dụ toàn diện về[Trang tài liệu Aspose.Slides cho Java](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

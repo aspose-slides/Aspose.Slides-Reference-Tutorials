@@ -3,14 +3,10 @@ title: How to Remove Hyperlinks from Slides with Aspose.Slides .NET
 linktitle: Remove Hyperlinks from Slide
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to remove hyperlinks from PowerPoint slides using Aspose.Slides for .NET. Create clean and professional presentations.
+type: docs
 weight: 11
 url: /net/hyperlink-manipulation/remove-hyperlinks/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 In the world of professional presentations, making sure that your slides look neat and tidy is essential. One common element that often clutters slides is hyperlinks. Whether you're dealing with hyperlinks to websites, documents, or other slides within your presentation, you may want to remove them for a cleaner and more focused look. With Aspose.Slides for .NET, you can easily achieve this task. In this step-by-step guide, we will walk you through the process of removing hyperlinks from slides using Aspose.Slides for .NET.
 
@@ -88,10 +84,3 @@ Yes, Aspose.Slides for .NET offers a wide range of features, including slide cre
 
 ### Is technical support available for Aspose.Slides for .NET?
 Yes, you can seek technical support and engage with the Aspose community on the [Aspose forum](https://forum.aspose.com/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

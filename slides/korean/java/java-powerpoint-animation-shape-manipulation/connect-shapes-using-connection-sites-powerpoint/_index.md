@@ -3,14 +3,10 @@ title: PowerPoint에서 연결 사이트를 사용하여 셰이프 연결
 linktitle: PowerPoint에서 연결 사이트를 사용하여 셰이프 연결
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint에서 도형을 연결하는 방법을 알아보세요. 프레젠테이션을 손쉽게 자동화하세요.
+type: docs
 weight: 19
 url: /ko/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connection-sites-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint의 연결 사이트를 사용하여 도형을 연결하는 방법을 살펴보겠습니다. 이 강력한 라이브러리를 사용하면 PowerPoint 프레젠테이션을 프로그래밍 방식으로 조작하여 모양 연결과 같은 작업을 원활하고 효율적으로 만들 수 있습니다.
 ## 전제 조건
@@ -74,9 +70,3 @@ if (ellipse.getConnectionSiteCount() > (wantedIndex & 0xFFFFFFFFL))
  예, 테스트 및 평가 목적으로 임시 라이선스를 사용할 수 있습니다. 하나를 얻을 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for Java 라이선스는 어디서 구매할 수 있나요?
 Aspose 웹사이트에서 라이선스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Bemutató diavetítés beállítása Java Slides-ben
 linktitle: Bemutató diavetítés beállítása Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimalizálja Java diavetítését az Aspose.Slides segítségével. Hozzon létre lenyűgöző prezentációkat testreszabott beállításokkal. Fedezze fel a lépésenkénti útmutatókat és a GYIK-et.
+type: docs
 weight: 16
 url: /hu/java/presentation-properties/presentation-slide-show-setup-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés a Java Slides bemutató diavetítés beállításába
 
@@ -150,9 +146,3 @@ Ebben az oktatóanyagban megtanultuk, hogyan állíthat be bemutató diavetíté
 ### Hogyan szabhatom tovább a diavetítés beállításait?
 
  Fedezze fel az Aspose.Slides for Java által biztosított további diavetítés-beállításokat, hogy a diavetítés élményét az Ön igényeihez igazítsa. Tekintse meg a dokumentációt a címen[itt](https://reference.aspose.com/slides/java/) az elérhető opciókkal és konfigurációkkal kapcsolatos részletes információkért.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

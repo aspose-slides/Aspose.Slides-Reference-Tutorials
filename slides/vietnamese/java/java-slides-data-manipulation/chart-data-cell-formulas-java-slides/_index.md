@@ -3,14 +3,10 @@ title: Biểu đồ công thức ô dữ liệu trong Java Slides
 linktitle: Biểu đồ công thức ô dữ liệu trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt công thức ô dữ liệu biểu đồ trong bản trình bày Java PowerPoint bằng Aspose.Slides cho Java. Tạo biểu đồ động với các công thức.
+type: docs
 weight: 11
 url: /vi/java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu về Công thức ô dữ liệu biểu đồ trong Aspose.Slides cho Java
 
@@ -126,9 +122,3 @@ Có, bạn có thể sử dụng nhiều loại công thức khác nhau, bao g�
 ### Làm cách nào để thay đổi loại biểu đồ?
 
  Bạn có thể thay đổi loại biểu đồ bằng cách sử dụng`setChartType` phương pháp trên`IChart` đối tượng và xác định mong muốn`ChartType`.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

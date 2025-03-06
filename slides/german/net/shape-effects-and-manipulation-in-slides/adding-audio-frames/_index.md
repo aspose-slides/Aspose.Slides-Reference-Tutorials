@@ -3,14 +3,10 @@ title: Hinzufügen von Audio-Frames zu Präsentationsfolien mit Aspose.Slides
 linktitle: Hinzufügen von Audio-Frames zu Präsentationsfolien mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Präsentationen mit Aspose.Slides für .NET! Erfahren Sie, wie Sie nahtlos Audio-Frames hinzufügen und Ihr Publikum wie nie zuvor fesseln.
+type: docs
 weight: 14
 url: /de/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 In der dynamischen Welt der Präsentationen kann die Einbindung von Audioelementen das Gesamterlebnis für Ihr Publikum erheblich verbessern. Aspose.Slides für .NET ermöglicht Entwicklern die nahtlose Integration von Audioframes in Präsentationsfolien und fügt so eine neue Ebene der Einbindung und Interaktivität hinzu. Diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess des Hinzufügens von Audioframes zu Präsentationsfolien mit Aspose.Slides für .NET.
 ## Voraussetzungen
@@ -67,9 +63,3 @@ Ja, Aspose.Slides bietet Flexibilität bei der Konfiguration von Wiedergabeeinst
  Besuche den[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) um Hilfe zu suchen und sich in der Community zu engagieren.
 ### Wie kaufe ich Aspose.Slides für .NET?
  Sie können die Bibliothek erwerben bei der[Aspose-Shop](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

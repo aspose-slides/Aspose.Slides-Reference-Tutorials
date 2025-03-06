@@ -3,14 +3,10 @@ title: Uzyskaj prostokąt części w programie PowerPoint z Javą
 linktitle: Uzyskaj prostokąt części w programie PowerPoint z Javą
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak uzyskać prostokąt części w programie PowerPoint przy użyciu Aspose.Slides dla języka Java, korzystając ze szczegółowego samouczka krok po kroku. Idealny dla programistów Java.
+type: docs
 weight: 12
 url: /pl/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 Tworzenie dynamicznych prezentacji w Javie jest proste dzięki Aspose.Slides dla Java. W tym samouczku zagłębimy się w szczegóły tworzenia prostokąta części w programie PowerPoint za pomocą Aspose.Slides. Omówimy wszystko, od skonfigurowania środowiska po rozbicie kodu krok po kroku. Więc zacznijmy!
 ## Warunki wstępne
@@ -142,9 +138,3 @@ Aspose.Slides dla Java to potężna biblioteka, która umożliwia programistom p
  Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/slides/java/).
 ### Jak mogę uzyskać pomoc dotyczącą Aspose.Slides dla Java?
  Możesz uzyskać pomoc na forum Aspose[Tutaj](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

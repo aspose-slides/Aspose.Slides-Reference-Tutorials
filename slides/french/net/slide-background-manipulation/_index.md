@@ -3,14 +3,10 @@ title: Manipulation de l'arrière-plan des diapositives à l'aide d'Aspose.Slide
 linktitle: Manipulation de l’arrière-plan des diapositives
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Améliorez la conception de vos diapositives avec Aspose.Slides ! Apprenez à manipuler les arrière-plans des diapositives dans ce didacticiel complet. Instructions étape par étape et exemples de code fournis.
+type: docs
 weight: 11
 url: /fr/net/slide-background-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction
 
@@ -41,9 +37,3 @@ Découvrez comment définir une image comme arrière-plan de diapositive à l'ai
 Apprenez à maîtriser la configuration des arrière-plans de diapositives à l'aide d'Aspose.Slides dans ce guide étape par étape. Élevez vos présentations au niveau supérieur avec des visuels attrayants.
 ### [Modifier l'arrière-plan normal d'une diapositive](./change-slide-background-normal/)
 Apprenez à modifier l'arrière-plan normal d'une diapositive pour captiver votre public. Suivez ce guide complet à l'aide d'Aspose.Slides pour .NET, accompagné d'instructions étape par étape et d'exemples de code.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

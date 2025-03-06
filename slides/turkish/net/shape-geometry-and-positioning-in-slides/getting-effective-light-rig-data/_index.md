@@ -3,14 +3,10 @@ title: Aspose.Slides ile Etkili Light Rig Verilerinde Uzmanlaşma
 linktitle: Sunum Slaytlarında Etkili Light Rig Verileri Alma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET ile sunum slaytlarınızı geliştirin! Etkili hafif teçhizat verilerini adım adım nasıl alacağınızı öğrenin. Görsel hikaye anlatımınızı şimdi yükseltin!
+type: docs
 weight: 19
 url: /tr/net/shape-geometry-and-positioning-in-slides/getting-effective-light-rig-data/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 Dinamik ve görsel olarak çekici sunum slaytları oluşturmak günümüzün dijital çağında ortak bir gerekliliktir. Önemli bir husus, genel estetiği geliştirmek için ışık teçhizatının özelliklerini değiştirmektir. Bu eğitim, Aspose.Slides for .NET'i kullanarak sunum slaytlarında etkili hafif donanım verileri elde etme sürecinde size rehberlik edecektir.
 ## Önkoşullar
@@ -68,9 +64,3 @@ Aspose.Slides öncelikle C# gibi .NET dillerini destekler. Ancak Java için de b
  Destek forumunu ziyaret edin[Burada](https://forum.aspose.com/c/slides/11).
 ### Aspose.Slides for .NET için geçici bir lisans satın alabilir miyim?
  Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

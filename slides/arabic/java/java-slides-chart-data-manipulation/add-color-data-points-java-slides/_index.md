@@ -3,14 +3,10 @@ title: إضافة اللون إلى نقاط البيانات في شرائح ج
 linktitle: إضافة اللون إلى نقاط البيانات في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة لون إلى نقاط البيانات في شرائح Java باستخدام Aspose.Slides for Java.
+type: docs
 weight: 10
 url: /ar/java/chart-data-manipulation/add-color-data-points-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة لإضافة اللون إلى نقاط البيانات في شرائح جافا
 
@@ -121,9 +117,3 @@ finally
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق؟
 
  يمكنك العثور على المزيد من الأمثلة والوثائق التفصيلية حول استخدام Aspose.Slides لـ Java على الموقع[Aspose.Slides الوثائق](https://reference.aspose.com/slides/java/) موقع إلكتروني.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Konversikan Presentasi ke Format Penurunan Harga
 linktitle: Konversikan Presentasi ke Format Penurunan Harga
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengonversi presentasi ke Markdown dengan mudah menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan contoh kode.
+type: docs
 weight: 23
 url: /id/net/presentation-conversion/convert-presentation-to-markdown-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Di era digital saat ini, kebutuhan untuk mengubah presentasi ke dalam berbagai format menjadi semakin penting. Baik Anda seorang pelajar, profesional bisnis, atau pembuat konten, memiliki kemampuan untuk mengubah presentasi PowerPoint Anda ke dalam format Markdown bisa menjadi keterampilan yang berharga. Markdown adalah bahasa markup ringan yang banyak digunakan untuk memformat dokumen teks dan konten web. Dalam tutorial langkah demi langkah ini, kami akan memandu Anda melalui proses mengonversi presentasi ke format Markdown menggunakan Aspose.Slides untuk .NET.
 
@@ -102,10 +98,3 @@ Ya, Aspose.Slides untuk .NET mendukung konversi ke berbagai format, termasuk PDF
 ### Q5: Di mana saya dapat mengakses lisensi sementara Aspose.Slides untuk .NET?
 
  Anda dapat memperoleh lisensi sementara untuk Aspose.Slides untuk .NET di[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

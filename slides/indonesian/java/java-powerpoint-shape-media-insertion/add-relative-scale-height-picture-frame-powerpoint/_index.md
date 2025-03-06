@@ -3,14 +3,10 @@ title: Tambahkan Bingkai Foto Tinggi Skala Relatif di PowerPoint
 linktitle: Tambahkan Bingkai Foto Tinggi Skala Relatif di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan bingkai foto dengan tinggi skala relatif dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java, sehingga menyempurnakan konten visual Anda.
+type: docs
 weight: 15
 url: /id/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-picture-frame-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam tutorial ini, Anda akan mempelajari cara menambahkan bingkai foto dengan tinggi skala relatif dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java.
 ## Prasyarat
@@ -72,9 +68,3 @@ Aspose.Slides for Java kompatibel dengan berbagai versi PowerPoint, memastikan f
 Ya, Aspose.Slides untuk Java mendukung berbagai format gambar, termasuk PNG, GIF, BMP, dan lainnya.
 ### Apakah ada forum komunitas atau saluran dukungan yang tersedia untuk pengguna Aspose.Slides?
 Ya, Anda dapat mengunjungi forum Aspose.Slides untuk pertanyaan, diskusi, atau bantuan apa pun terkait perpustakaan.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

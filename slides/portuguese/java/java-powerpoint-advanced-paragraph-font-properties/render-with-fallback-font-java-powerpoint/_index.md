@@ -3,14 +3,10 @@ title: Renderizar com fonte substituta em Java PowerPoint
 linktitle: Renderizar com fonte substituta em Java PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como renderizar texto com fontes substitutas em apresentações Java PowerPoint usando Aspose.Slides. Siga este guia passo a passo para uma implementação perfeita.
+type: docs
 weight: 13
 url: /pt/java/java-powerpoint-advanced-paragraph-font-properties/render-with-fallback-font-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 Criar e manipular apresentações do PowerPoint em Java pode ser um desafio, mas com Aspose.Slides você pode fazer isso de forma eficiente. Um recurso crucial é a capacidade de renderizar texto com fontes substitutas. Este artigo fornece um guia passo a passo detalhado sobre como implementar fontes substitutas em seus slides do PowerPoint usando Aspose.Slides para Java.
 ## Pré-requisitos
@@ -92,9 +88,3 @@ Fontes substitutas são fontes alternativas usadas quando a fonte especificada n
 Sim, você pode adicionar várias regras substitutas para lidar com diferentes intervalos e fontes Unicode.
 ### Onde posso obter suporte para Aspose.Slides?
  Você pode obter suporte do[Fórum de suporte Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

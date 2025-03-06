@@ -3,14 +3,10 @@ title: Java スライドでチャートの範囲を取得する
 linktitle: Java スライドでチャートの範囲を取得する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java API を使用して Java スライドのグラフ範囲を取得する方法を学びます。グラフ データに効果的にアクセスするためのソース コード付きのステップ バイ ステップ ガイドです。
+type: docs
 weight: 16
 url: /ja/java/data-manipulation/chart-get-range-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java スライドでのチャート範囲の取得の概要
 
@@ -102,10 +98,3 @@ Aspose.Slides for Java は商用ライブラリですが、無料トライアル
 ### Aspose.Slides for Java のその他のリソースやドキュメントはどこで入手できますか?
 
  Aspose.Slides for Java に関する包括的なドキュメントとリソースは、次のサイトで見つかります。[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

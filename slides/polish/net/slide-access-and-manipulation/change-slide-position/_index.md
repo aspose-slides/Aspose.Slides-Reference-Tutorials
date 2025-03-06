@@ -3,14 +3,10 @@ title: Dostosuj pozycję slajdu w prezentacji za pomocą Aspose.Slides
 linktitle: Dostosuj położenie slajdu w prezentacji
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak dostosować pozycje slajdów w prezentacjach programu PowerPoint za pomocą Aspose.Slides dla .NET. Popraw swoje umiejętności prezentacji!
+type: docs
 weight: 23
 url: /pl/net/slide-access-and-manipulation/change-slide-position/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Czy chcesz zreorganizować slajdy prezentacji i zastanawiasz się, jak dostosować ich położenie za pomocą Aspose.Slides dla .NET? Ten przewodnik krok po kroku przeprowadzi Cię przez proces, upewniając się, że dobrze rozumiesz każdy krok. Zanim zagłębimy się w samouczek, omówmy wymagania wstępne i zaimportuj przestrzenie nazw potrzebne na początek.
 
@@ -115,9 +111,3 @@ Tak, Aspose.Slides dla .NET zapewnia szeroką gamę funkcji do pracy z prezentac
 ### 5. Czy mogę wypróbować Aspose.Slides dla .NET przed zakupem?
 
  Tak, możesz zapoznać się z bezpłatną wersją próbną Aspose.Slides dla .NET pod adresem[Aspose.Slides dla .NET Bezpłatna wersja próbna](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

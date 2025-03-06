@@ -3,14 +3,10 @@ title: Správa záhlaví a zápatí v Prezentacích
 linktitle: Správa záhlaví a zápatí v Prezentacích
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se přidávat dynamická záhlaví a zápatí do prezentací PowerPoint pomocí Aspose.Slides for .NET.
+type: docs
 weight: 14
 url: /cs/net/chart-creation-and-customization/header-footer-manager/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 # Vytváření dynamických záhlaví a zápatí v Aspose.Slides pro .NET
 
@@ -135,9 +131,3 @@ A2: Ano, můžete prozkoumat bezplatnou zkušební verzi Aspose.Slides pro .NET[
 
 ### Q5: Existuje komunita nebo fórum podpory pro Aspose.Slides pro .NET?
  Odpověď 5: Ano, můžete navštívit fórum podpory Aspose.Slides for .NET[tady](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

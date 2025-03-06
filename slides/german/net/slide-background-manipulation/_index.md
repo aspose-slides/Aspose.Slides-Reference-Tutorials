@@ -3,14 +3,10 @@ title: Folienhintergrundbearbeitung mit Aspose.Slides
 linktitle: Manipulation des Folienhintergrunds
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Ihr Foliendesign mit Aspose.Slides! Erfahren Sie in diesem umfassenden Tutorial, wie Sie Folienhintergründe bearbeiten. Mit Schritt-für-Schritt-Anleitungen und Codebeispielen.
+type: docs
 weight: 11
 url: /de/net/slide-background-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung
 
@@ -41,9 +37,3 @@ Erfahren Sie, wie Sie mit Aspose.Slides für .NET ein Bild als Folienhintergrund
 Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie Folienhintergründe mit Aspose.Slides perfekt einrichten. Bringen Sie Ihre Präsentationen mit ansprechenden visuellen Elementen auf die nächste Ebene.
 ### [Normalen Folienhintergrund ändern](./change-slide-background-normal/)
 Erfahren Sie, wie Sie den normalen Folienhintergrund ändern, um Ihr Publikum zu fesseln. Folgen Sie dieser umfassenden Anleitung mit Aspose.Slides für .NET, komplett mit Schritt-für-Schritt-Anleitungen und Codebeispielen.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

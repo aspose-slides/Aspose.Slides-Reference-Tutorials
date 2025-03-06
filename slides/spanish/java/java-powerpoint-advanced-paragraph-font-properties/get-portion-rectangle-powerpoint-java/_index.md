@@ -3,14 +3,10 @@ title: Obtener rectángulo de porción en PowerPoint con Java
 linktitle: Obtener rectángulo de porción en PowerPoint con Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo obtener la porción del rectángulo en PowerPoint usando Aspose.Slides para Java con este tutorial detallado paso a paso. Perfecto para desarrolladores de Java.
+type: docs
 weight: 12
 url: /es/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introducción
 Crear presentaciones dinámicas en Java es muy sencillo con Aspose.Slides para Java. En este tutorial, profundizaremos en el meollo de la cuestión de cómo obtener la porción del rectángulo en PowerPoint usando Aspose.Slides. Cubriremos todo, desde configurar su entorno hasta desglosar el código paso a paso. ¡Entonces empecemos!
 ## Requisitos previos
@@ -142,9 +138,3 @@ Aspose.Slides para Java es una poderosa biblioteca que permite a los desarrollad
  La documentación está disponible.[aquí](https://reference.aspose.com/slides/java/).
 ### ¿Cómo puedo obtener soporte para Aspose.Slides para Java?
  Puede obtener soporte en el foro de Aspose.[aquí](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

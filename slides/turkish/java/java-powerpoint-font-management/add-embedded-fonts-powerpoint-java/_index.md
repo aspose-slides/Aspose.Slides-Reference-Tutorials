@@ -3,14 +3,10 @@ title: Java kullanarak PowerPoint'e Gömülü Yazı Tipleri Ekleme
 linktitle: Java kullanarak PowerPoint'e Gömülü Yazı Tipleri Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile Java kullanarak PowerPoint sunumlarına gömülü yazı tiplerini nasıl ekleyeceğinizi öğrenin. Cihazlar arasında tutarlı görüntü sağlayın.
+type: docs
 weight: 10
 url: /tr/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 Bu eğitimde, Java kullanarak, özellikle de Aspose.Slides for Java'dan yararlanarak PowerPoint sunumlarına gömülü yazı tipleri ekleme sürecinde size rehberlik edeceğiz. Katıştırılmış yazı tipleri, orijinal yazı tipi mevcut olmasa bile sunumunuzun farklı cihazlarda tutarlı görünmesini sağlar. Adımlara geçelim:
 ## Önkoşullar
@@ -73,9 +69,3 @@ Evet, yazı tiplerini eklemek sunumun dosya boyutunu biraz artırabilir ancak fa
 Aspose.Slides for Java, sunumlarda yaygın olarak kullanılan çok çeşitli yazı tiplerini kapsayan TrueType yazı tiplerinin yerleştirilmesini destekler.
 ### Aspose.Slides for Java'yı kullanarak yazı tiplerini programlı olarak gömebilir miyim?
 Evet, bu eğitimde gösterildiği gibi Aspose.Slides for Java API'sini kullanarak yazı tiplerini programlı olarak gömebilirsiniz.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

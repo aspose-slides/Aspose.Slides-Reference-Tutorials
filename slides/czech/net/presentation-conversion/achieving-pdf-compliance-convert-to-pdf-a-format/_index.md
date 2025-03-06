@@ -3,14 +3,10 @@ title: Převeďte PowerPoint do PDF/A pomocí Aspose.Slides pro .NET
 linktitle: Dosažení souladu s PDF – Převeďte do formátu PDF/A
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak dosáhnout souladu s PDF převodem prezentací PowerPoint do formátu PDF/A pomocí Aspose.Slides for .NET. Zajistěte dlouhou životnost a dostupnost dokumentů.
+type: docs
 weight: 25
 url: /cs/net/presentation-conversion/achieving-pdf-compliance-convert-to-pdf-a-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 # Jak dosáhnout souladu s PDF s Aspose.Slides pro .NET
 
@@ -103,9 +99,3 @@ Ano, Aspose.Slides podporuje dávkové konverze, což vám umožní zpracovat v�
 
 ### Kde najdu podporu pro Aspose.Slides pro .NET, pokud narazím na nějaké problémy?
  Pokud máte dotazy nebo narazíte na problémy, můžete vyhledat pomoc a pomoc na webu[Fórum Aspose.Slides](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

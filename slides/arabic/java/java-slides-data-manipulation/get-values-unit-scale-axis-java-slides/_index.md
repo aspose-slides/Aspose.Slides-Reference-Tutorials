@@ -3,14 +3,10 @@ title: احصل على القيم ومقياس الوحدة من المحور ف
 linktitle: احصل على القيم ومقياس الوحدة من المحور في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية الحصول على القيم ومقياس الوحدة من المحاور في Java Slides باستخدام Aspose.Slides for Java. تعزيز قدرات تحليل البيانات الخاصة بك.
+type: docs
 weight: 20
 url: /ar/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة للحصول على القيم ومقياس الوحدة من المحور في شرائح Java
 
@@ -126,9 +122,3 @@ finally
 ### أين يمكنني العثور على المزيد من الموارد والوثائق الخاصة بـ Aspose.Slides لـ Java؟
 
  يمكنك العثور على وثائق شاملة وموارد إضافية على الموقع[Aspose.Slides لتوثيق جافا](https://reference.aspose.com/slides/java/) موقع إلكتروني.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

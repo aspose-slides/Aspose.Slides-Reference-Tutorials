@@ -3,14 +3,10 @@ title: पावरपॉइंट में आकृति क्रम बद
 linktitle: पावरपॉइंट में आकृति क्रम बदलें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: इस चरण-दर-चरण ट्यूटोरियल के साथ Aspose.Slides for Java का उपयोग करके PowerPoint में आकार क्रम को बदलना सीखें। अपने प्रेजेंटेशन कौशल को सहजता से बढ़ाएँ।
+type: docs
 weight: 15
 url: /hi/java/java-powerpoint-animation-shape-manipulation/change-shape-order-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## परिचय
 दिखने में आकर्षक और अच्छी तरह से संरचित प्रस्तुतियाँ बनाना एक कठिन काम हो सकता है। हालाँकि, सही उपकरणों और तकनीकों के साथ, आप इसे काफी आसान बना सकते हैं। Aspose.Slides for Java एक शक्तिशाली लाइब्रेरी है जो आपको PowerPoint प्रस्तुतियों को प्रोग्रामेटिक रूप से हेरफेर और प्रबंधित करने में मदद करती है। इस ट्यूटोरियल में, हम आपको Aspose.Slides for Java का उपयोग करके PowerPoint स्लाइड में आकार क्रम बदलने के चरणों के बारे में बताएँगे।
 ## आवश्यक शर्तें
@@ -77,9 +73,3 @@ Aspose.Slides for Java एक जावा एपीआई है, जो मा
  आप यहां से निःशुल्क परीक्षण संस्करण डाउनलोड कर सकते हैं[Aspose.Slides for Java डाउनलोड पृष्ठ](https://releases.aspose.com/).
 ### मैं Aspose.Slides for Java पर अधिक दस्तावेज़ कहां पा सकता हूं?
  आप विस्तृत दस्तावेज यहाँ पा सकते हैं[Aspose.Slides for Java दस्तावेज़न पृष्ठ](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

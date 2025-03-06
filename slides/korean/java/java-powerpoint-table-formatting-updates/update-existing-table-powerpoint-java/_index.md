@@ -3,14 +3,10 @@ title: Java를 사용하여 PowerPoint에서 기존 테이블 업데이트
 linktitle: Java를 사용하여 PowerPoint에서 기존 테이블 업데이트
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides와 함께 Java를 사용하여 PowerPoint의 기존 테이블을 업데이트하는 방법을 알아보세요. 단계별 가이드, 자세한 지침 및 FAQ가 포함되어 있습니다.
+type: docs
 weight: 13
 url: /ko/java/java-powerpoint-table-formatting-updates/update-existing-table-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 Java를 사용하여 PowerPoint 프레젠테이션의 기존 테이블을 업데이트하는 것은 어려운 작업처럼 보일 수 있지만 Aspose.Slides for Java를 사용하면 공원 산책이 됩니다. 이 단계별 가이드는 전체 프로세스를 안내하여 각 부분을 철저하게 이해할 수 있도록 해줍니다.
 ## 전제 조건
@@ -96,9 +92,3 @@ Java를 사용하여 PowerPoint 프레젠테이션의 기존 테이블을 업데
 예, Aspose.Slides는 .NET, Python 및 C를 포함한 여러 프로그래밍 언어를 지원합니다.++.
 ### Aspose.Slides의 임시 라이선스를 받으려면 어떻게 해야 하나요?
  임시면허를 취득할 수 있습니다.[구매 페이지 제안](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

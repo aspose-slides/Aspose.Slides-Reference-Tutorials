@@ -3,14 +3,10 @@ title: 在 Java 幻灯片中转换为 Markdown
 linktitle: 在 Java 幻灯片中转换为 Markdown
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 将 PowerPoint 演示文稿转换为 Markdown。按照此分步指南轻松转换您的幻灯片。
+type: docs
 weight: 24
 url: /zh/java/presentation-conversion/convert-to-markdown-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 简介 在 Java 中转换为 Markdown 幻灯片
 
@@ -140,9 +136,3 @@ try {
 ### 在哪里可以找到更多文档和资源？
 
 您可以参考 Aspose.Slides for Java 文档：[Aspose.Slides for Java API 参考](https://reference.aspose.com/slides/java/)了解详细信息和其他示例。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

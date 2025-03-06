@@ -3,14 +3,10 @@ title: 在 Java 投影片中編輯外部工作簿中的圖表數據
 linktitle: 在 Java 投影片中編輯外部工作簿中的圖表數據
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 編輯外部工作簿中的圖表資料。帶有原始程式碼的分步指南。
+type: docs
 weight: 17
 url: /zh-hant/java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 在 Java 投影片中編輯外部工作簿中的圖表資料簡介
 
@@ -107,9 +103,3 @@ if (pres != null) pres.dispose();
 ### 如何針對多個簡報自動執行此程序？
 
 您可以建立一個循環來處理多個演示文稿，載入每個演示文稿，進行所需的更改，然後逐一儲存修改後的簡報。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

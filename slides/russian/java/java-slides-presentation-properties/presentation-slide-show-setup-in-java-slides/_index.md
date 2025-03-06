@@ -3,14 +3,10 @@ title: Настройка слайд-шоу презентации в Java Slide
 linktitle: Настройка слайд-шоу презентации в Java Slides
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Оптимизируйте слайд-шоу Java с помощью Aspose.Slides. Создавайте увлекательные презентации с индивидуальными настройками. Изучите пошаговые руководства и ответы на часто задаваемые вопросы.
+type: docs
 weight: 16
 url: /ru/java/presentation-properties/presentation-slide-show-setup-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Введение в настройку слайд-шоу презентации в Java Slides
 
@@ -150,9 +146,3 @@ try {
 ### Как я могу дополнительно настроить параметры слайд-шоу?
 
  Вы можете изучить дополнительные настройки слайд-шоу, предоставляемые Aspose.Slides for Java, чтобы адаптировать слайд-шоу к вашим потребностям. Обратитесь к документации по адресу[здесь](https://reference.aspose.com/slides/java/) для получения подробной информации о доступных опциях и конфигурациях.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

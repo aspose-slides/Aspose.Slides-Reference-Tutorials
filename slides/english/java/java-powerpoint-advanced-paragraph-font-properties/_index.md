@@ -3,14 +3,10 @@ title: Java PowerPoint Advanced Paragraph and Font Properties
 linktitle: Java PowerPoint Advanced Paragraph and Font Properties
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Master advanced paragraph and font properties in Java PowerPoint using Aspose.Slides. Learn to customize fonts, add picture bullets, and use fallback fonts.
+type: docs
 weight: 28
 url: /java/java-powerpoint-advanced-paragraph-font-properties/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 
 Creating polished PowerPoint presentations requires fine-tuning various elements, from paragraph formatting to font management. Aspose.Slides for Java provides robust tools to manage these advanced properties effectively. In this article, we’ll explore tutorials that help you customize paragraph font properties, add picture bullets, and use fallback fonts. Let’s dive into these advanced techniques to make your presentations stand out!
@@ -39,9 +35,3 @@ Learn how to add custom picture bullets to PowerPoint slides using Aspose.Slides
 Learn how to get the portion rectangle in PowerPoint using Aspose.Slides for Java with this detailed, step-by-step tutorial. Perfect for Java developers.
 ### [Render with Fallback Font in Java PowerPoint](./render-with-fallback-font-java-powerpoint/)
 Learn how to render text with fallback fonts in Java PowerPoint presentations using Aspose.Slides. Follow this step-by-step guide for a seamless implementation.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

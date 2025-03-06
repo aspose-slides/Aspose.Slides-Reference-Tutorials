@@ -3,14 +3,10 @@ title: Uzyskaj informacje o formacie pliku w slajdach Java
 linktitle: Uzyskaj informacje o formacie pliku w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak odzyskać informacje o formacie pliku w Java Slides przy użyciu Aspose.Slides for Java API. Identyfikuj formaty prezentacji na podstawie przykładów kodu.
+type: docs
 weight: 11
 url: /pl/java/additional-utilities/get-file-format-information-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Wprowadzenie do uzyskiwania informacji o formacie pliku w slajdach Java
 
@@ -117,9 +113,3 @@ Aspose.Slides dla Java jest biblioteką komercyjną, ale oferuje bezpłatną wer
 ### Jak mogę skontaktować się z pomocą techniczną Aspose w celu uzyskania pomocy?
 
 Możesz skontaktować się z pomocą techniczną Aspose za pośrednictwem ich strony internetowej. Zapewniają dedykowane kanały wsparcia, które pomogą Ci w przypadku jakichkolwiek zapytań lub problemów, które możesz napotkać podczas korzystania z ich produktów.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

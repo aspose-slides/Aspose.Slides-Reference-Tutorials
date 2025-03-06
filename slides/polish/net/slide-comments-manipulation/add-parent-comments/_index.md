@@ -3,14 +3,10 @@ title: Dodaj komentarze rodziców do slajdu za pomocą Aspose.Slides
 linktitle: Dodaj komentarze rodziców do slajdu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak dodawać interaktywne komentarze i odpowiedzi do prezentacji programu PowerPoint za pomocą Aspose.Slides dla .NET. Zwiększ zaangażowanie i współpracę.
+type: docs
 weight: 12
 url: /pl/net/slide-comments-manipulation/add-parent-comments/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Czy chcesz ulepszyć swoje prezentacje programu PowerPoint za pomocą funkcji interaktywnych? Aspose.Slides dla .NET umożliwia dołączanie komentarzy i odpowiedzi, tworząc dynamiczne i wciągające doświadczenie dla odbiorców. W tym samouczku krok po kroku pokażemy, jak dodawać komentarze nadrzędne do slajdów za pomocą Aspose.Slides dla .NET. Zanurzmy się i odkryjmy tę ekscytującą funkcję.
 
@@ -164,9 +160,3 @@ Aspose.Slides dla .NET został zaprojektowany do współpracy z szeroką gamą w
 
 ### Czy są dostępne opcje licencjonowania dla Aspose.Slides dla .NET?
  Tak, możesz zapoznać się z opcjami licencjonowania, w tym licencjami tymczasowymi, na stronie internetowej Aspose[Tutaj](https://purchase.aspose.com/buy) lub wypróbuj bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

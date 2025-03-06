@@ -3,14 +3,10 @@ title: Generar miniatura en diapositivas con dimensiones personalizadas
 linktitle: Generar miniatura con dimensiones personalizadas
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a generar imágenes en miniatura personalizadas a partir de presentaciones de PowerPoint utilizando Aspose.Slides para .NET. Mejorar la experiencia y la funcionalidad del usuario.
+type: docs
 weight: 13
 url: /es/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Crear imágenes en miniatura personalizadas de sus presentaciones de PowerPoint puede ser un activo valioso, ya sea que esté creando una aplicación interactiva, mejorando la experiencia del usuario u optimizando contenido para varias plataformas. En este tutorial, lo guiaremos a través del proceso de generación de imágenes en miniatura personalizadas a partir de presentaciones de PowerPoint utilizando la biblioteca Aspose.Slides para .NET. Esta poderosa biblioteca le permite manipular, convertir y mejorar archivos de PowerPoint mediante programación en aplicaciones .NET.
 
@@ -119,9 +115,3 @@ Si bien es beneficioso tener algunos conocimientos de programación .NET, Aspose
 
 ### ¿Hay soporte técnico disponible para Aspose.Slides para .NET?
  Sí, puedes acceder a soporte técnico y foros comunitarios.[aquí](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Μετατροπή παρουσίασης σε μορφή HTML5
 linktitle: Μετατροπή παρουσίασης σε μορφή HTML5
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να μετατρέπετε παρουσιάσεις PowerPoint σε μορφή HTML5 χρησιμοποιώντας το Aspose.Slides για .NET. Εύκολη και αποτελεσματική μετατροπή για κοινή χρήση ιστού.
+type: docs
 weight: 22
 url: /el/net/presentation-conversion/convert-presentation-to-html5-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Μετατρέψτε την παρουσίαση σε μορφή HTML5 χρησιμοποιώντας το Aspose.Slides για .NET
 
 Σε αυτόν τον οδηγό, θα σας καθοδηγήσουμε στη διαδικασία μετατροπής μιας παρουσίασης PowerPoint (PPT/PPTX) σε μορφή HTML5 χρησιμοποιώντας τη βιβλιοθήκη Aspose.Slides for .NET. Το Aspose.Slides είναι μια ισχυρή βιβλιοθήκη που σας επιτρέπει να χειρίζεστε και να μετατρέπετε παρουσιάσεις PowerPoint σε διάφορες μορφές.
@@ -85,9 +81,3 @@ namespace PresentationToHTML5Converter
 ### Υπάρχει διαθέσιμη δοκιμαστική έκδοση του Aspose.Slides;
 
  Ναι, μπορείτε να λάβετε μια δωρεάν δοκιμαστική έκδοση του Aspose.Slides για .NET από το[σελίδα λήψης](https://releases.aspose.com/slides/net).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

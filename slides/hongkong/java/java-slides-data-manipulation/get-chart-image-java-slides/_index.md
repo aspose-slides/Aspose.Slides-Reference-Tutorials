@@ -3,14 +3,10 @@ title: 在 Java 投影片中取得圖表影像
 linktitle: 在 Java 投影片中取得圖表影像
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 取得 Java Slides 中的圖表影像。本逐步指南提供了原始碼和無縫整合的技巧。
+type: docs
 weight: 19
 url: /zh-hant/java/data-manipulation/get-chart-image-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java投影片中取得圖表影像簡介
 
@@ -96,9 +92,3 @@ Aspose.Slides for Java 提供了廣泛的處理 PowerPoint 簡報的功能，包
 ### 我可以以不同的格式儲存圖表圖像嗎？
 
 當然！您可以透過在檔案中指定適當的檔案副檔名，以各種格式儲存圖表影像，例如 JPEG 或 GIF`ImageIO.write`方法。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Converter imagens de incorporação de HTML em slides Java
 linktitle: Converter imagens de incorporação de HTML em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Converta PowerPoint para HTML com imagens incorporadas. Guia passo a passo usando Aspose.Slides para Java. Aprenda a automatizar conversões de apresentações em Java sem esforço.
+type: docs
 weight: 11
 url: /pt/java/presentation-conversion/convert-html-embedding-images-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introdução à conversão de imagens de incorporação HTML em slides Java
 
@@ -129,10 +125,3 @@ Sim, você pode personalizar o modelo HTML modificando os arquivos HTML e CSS ge
 ### Como lidar com erros durante a conversão?
 
 Você pode agrupar o código de conversão em um bloco try-catch para lidar com exceções que podem ocorrer durante o processo de conversão.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

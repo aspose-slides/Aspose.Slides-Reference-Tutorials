@@ -3,14 +3,10 @@ title: Sunumlarda SVG'leri Biçimlendirme
 linktitle: Sunumlarda SVG'leri Biçimlendirme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak sunumlarınızı etkileyici SVG'lerle optimize edin. Etkili görseller için SVG'leri nasıl biçimlendireceğinizi adım adım öğrenin. Sunum oyununuzu bugün yükseltin!
+type: docs
 weight: 31
 url: /tr/net/presentation-manipulation/formatting-svgs-in-presentations/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Sunumlarınızı göz alıcı SVG şekilleriyle geliştirmek mi istiyorsunuz? Aspose.Slides for .NET bunu başarmak için en iyi araç olabilir. Bu kapsamlı eğitimde, Aspose.Slides for .NET kullanarak sunumlarda SVG şekillerini biçimlendirme sürecinde size yol göstereceğiz. Sağlanan kaynak kodunu takip edin ve sunumlarınızı görsel olarak çekici şaheserlere dönüştürün.
 
@@ -119,10 +115,3 @@ Teknik destek almak ve uzmanlar ve diğer geliştiricilerle tartışmalara katı
 Görsel olarak çekici sunumlar oluşturmak için tasarım tutarlılığına odaklanın, yüksek kaliteli grafikler kullanın ve içeriğinizi kısa ve ilgi çekici tutun. Bu eğitimde gösterildiği gibi farklı biçimlendirme seçeneklerini deneyin.
 
 Şimdi devam edin ve izleyicilerinizi büyüleyecek çarpıcı sunumlar oluşturmak için bu teknikleri uygulayın!
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

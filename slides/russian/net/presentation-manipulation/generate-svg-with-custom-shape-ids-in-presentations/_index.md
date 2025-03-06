@@ -3,14 +3,10 @@ title: Создание SVG с пользовательскими идентиф
 linktitle: Создание SVG с пользовательскими идентификаторами фигур в презентациях
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Создавайте привлекательные презентации с помощью пользовательских фигур и идентификаторов SVG с помощью Aspose.Slides для .NET. Узнайте, как шаг за шагом создавать интерактивные слайды, с помощью примеров исходного кода. Повысьте визуальную привлекательность и взаимодействие с пользователем в своих презентациях.
+type: docs
 weight: 19
 url: /ru/net/presentation-manipulation/generate-svg-with-custom-shape-ids-in-presentations/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Вы хотите использовать возможности Aspose.Slides для .NET для создания файлов SVG с настраиваемыми идентификаторами фигур? Вы находитесь в правильном месте! В этом пошаговом руководстве мы проведем вас через этот процесс, используя следующий фрагмент исходного кода. К концу вы будете хорошо подготовлены к созданию файлов SVG с собственными идентификаторами фигур в своих презентациях.
 
@@ -82,10 +78,3 @@ using (FileStream stream = new FileStream(dataDir + "pptxFileName.svg", FileMode
     Для получения дополнительной документации посетите[Справочник по API Aspose.Slides для .NET](https://reference.aspose.com/slides/net/).
 
 Теперь приступайте к исследованию безграничных возможностей генерации SVG с помощью Aspose.Slides для .NET. Приятного кодирования!
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

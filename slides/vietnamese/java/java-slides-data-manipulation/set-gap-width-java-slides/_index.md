@@ -3,14 +3,10 @@ title: Đặt Độ rộng Khoảng cách trong Trang trình bày Java
 linktitle: Đặt Độ rộng Khoảng cách trong Trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt Độ rộng khoảng cách trong Java Slides với Aspose.Slides cho Java. Nâng cao hình ảnh biểu đồ cho bài thuyết trình PowerPoint của bạn.
+type: docs
 weight: 21
 url: /vi/java/data-manipulation/set-gap-width-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu về Đặt độ rộng khoảng cách trong Aspose.Slides cho Java
 
@@ -162,9 +158,3 @@ Có, Aspose.Slides for Java cung cấp các khả năng mở rộng để tùy c
 ### Tôi có thể tìm thêm tài nguyên và tài liệu ở đâu?
 
  Bạn có thể tìm thấy tài liệu toàn diện và các tài nguyên bổ sung trên Aspose.Slides for Java trên[trang web giả định](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

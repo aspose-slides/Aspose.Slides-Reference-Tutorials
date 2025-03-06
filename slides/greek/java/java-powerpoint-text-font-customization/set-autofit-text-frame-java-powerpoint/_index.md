@@ -3,14 +3,10 @@ title: Ορισμός αυτόματης προσαρμογής πλαισίου
 linktitle: Ορισμός αυτόματης προσαρμογής πλαισίου κειμένου σε Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε την αυτόματη προσαρμογή για πλαίσια κειμένου στο Java PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Δημιουργήστε δυναμικές παρουσιάσεις χωρίς κόπο.
+type: docs
 weight: 14
 url: /el/java/java-powerpoint-text-font-customization/set-autofit-text-frame-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Στην ανάπτυξη εφαρμογών Java, η δημιουργία δυναμικών και οπτικά ελκυστικών παρουσιάσεων PowerPoint μέσω προγραμματισμού είναι μια κοινή απαίτηση. Το Aspose.Slides για Java παρέχει ένα ισχυρό σύνολο API για να το πετύχετε αυτό χωρίς κόπο. Ένα βασικό χαρακτηριστικό είναι η ρύθμιση αυτόματης προσαρμογής για τα πλαίσια κειμένου, διασφαλίζοντας ότι το κείμενο προσαρμόζεται τακτοποιημένα μέσα στα σχήματα χωρίς χειροκίνητες προσαρμογές. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία βήμα προς βήμα, αξιοποιώντας το Aspose.Slides για Java για την αυτοματοποίηση της προσαρμογής κειμένου σε διαφάνειες του PowerPoint.
 ## Προαπαιτούμενα
@@ -90,9 +86,3 @@ presentation.save(dataDir + "formatText_out.pptx", SaveFormat.Pptx);
  Μπορείτε να βρείτε αναλυτική τεκμηρίωση για το Aspose.Slides για Java[εδώ](https://reference.aspose.com/slides/java/).
 ### Πώς μπορώ να λάβω υποστήριξη για το Aspose.Slides για Java;
  Μπορείτε να λάβετε υποστήριξη κοινότητας και επαγγελματικής υποστήριξης για το Aspose.Slides για Java από[εδώ](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

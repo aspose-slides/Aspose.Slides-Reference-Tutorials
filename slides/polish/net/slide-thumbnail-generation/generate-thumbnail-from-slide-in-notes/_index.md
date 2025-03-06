@@ -3,14 +3,10 @@ title: Wygeneruj miniaturę ze slajdu w notatkach
 linktitle: Wygeneruj miniaturę ze slajdu w notatkach
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak generować miniatury slajdów w sekcji notatek swojej prezentacji za pomocą Aspose.Slides dla .NET. Wzbogać swoje treści wizualne!
+type: docs
 weight: 12
 url: /pl/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 świecie nowoczesnych prezentacji najważniejsza jest treść wizualna. Tworzenie atrakcyjnych slajdów jest niezbędne dla skutecznej komunikacji. Jednym ze sposobów ulepszenia prezentacji jest generowanie miniatur ze slajdów, zwłaszcza gdy chcesz podkreślić określone szczegóły lub udostępnić przegląd. Aspose.Slides dla .NET to potężne narzędzie, które pomoże Ci to osiągnąć bezproblemowo. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces generowania miniatur ze slajdów w sekcji notatek prezentacji przy użyciu Aspose.Slides dla .NET.
 
@@ -118,9 +114,3 @@ Absolutnie! Aspose.Slides dla .NET zapewnia opcje dostosowywania wyglądu miniat
 
 ### Gdzie mogę uzyskać wsparcie lub dalszą pomoc dotyczącą Aspose.Slides dla .NET?
  Możesz znaleźć pomoc i nawiązać kontakt ze społecznością Aspose na stronie[Forum wsparcia Aspose](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Thêm Stretch Offset cho hình ảnh Điền vào PowerPoint
 linktitle: Thêm Stretch Offset cho hình ảnh Điền vào PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm khoảng bù giãn cho hình ảnh trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn từng bước bao gồm.
+type: docs
 weight: 16
 url: /vi/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Trong hướng dẫn này, bạn sẽ tìm hiểu cách sử dụng Aspose.Slides cho Java để thêm khoảng cách kéo dài cho phần điền hình ảnh trong bản trình bày PowerPoint. Tính năng này cho phép bạn thao tác với hình ảnh trong trang chiếu của mình, giúp bạn kiểm soát tốt hơn hình thức của chúng.
 ## Điều kiện tiên quyết
@@ -68,9 +64,3 @@ Aspose.Slides for Java có thể xử lý hình ảnh có nhiều kích cỡ kh�
 Có, bạn có thể áp dụng nhiều hiệu ứng và biến đổi cho hình ảnh bằng cách sử dụng API mở rộng của Aspose.Slides cho Java.
 ### Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Slides cho Java ở đâu?
  Bạn có thể ghé thăm[Aspose.Slides cho tài liệu Java](https://reference.aspose.com/slides/java/) để được hướng dẫn chi tiết và khám phá[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để hỗ trợ cộng đồng.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

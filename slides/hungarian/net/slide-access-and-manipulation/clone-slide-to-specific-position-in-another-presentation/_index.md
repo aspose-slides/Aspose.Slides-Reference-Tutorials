@@ -3,14 +3,10 @@ title: Másolja át a diát a pontos helyre különböző prezentációkban
 linktitle: Másolja át a diát a pontos helyre különböző prezentációkban
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan másolhat diákat a különböző prezentációk pontos helyére az Aspose.Slides for .NET segítségével. Ez a lépésenkénti útmutató forráskódot és utasításokat tartalmaz a zökkenőmentes PowerPoint manipulációhoz.
+type: docs
 weight: 18
 url: /hu/net/slide-access-and-manipulation/clone-slide-to-specific-position-in-another-presentation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Az Aspose.Slides .NET-hez bemutatása
 
@@ -98,9 +94,3 @@ Igen, az Aspose.Slides lehetővé teszi a dia tartalmának programozott kezelés
 ### Hol találok további dokumentációt és példákat az Aspose.Slides-hez?
 
  Az Aspose.Slides for .NET-hez átfogó dokumentációt és példákat találhat a dokumentációban:[Aspose.Slides a .NET-dokumentációhoz](https://reference.aspose.com/slides/net/)
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

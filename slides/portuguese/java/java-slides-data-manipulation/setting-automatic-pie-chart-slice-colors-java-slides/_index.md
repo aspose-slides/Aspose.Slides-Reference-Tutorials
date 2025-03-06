@@ -3,14 +3,10 @@ title: Configurando cores automáticas de fatia do gráfico de pizza em slides J
 linktitle: Configurando cores automáticas de fatia do gráfico de pizza em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como criar gráficos de pizza dinâmicos com cores de fatia automáticas em apresentações Java PowerPoint usando Aspose.Slides for Java. Guia passo a passo com código-fonte.
+type: docs
 weight: 24
 url: /pt/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introdução à configuração automática de cores de fatia do gráfico de pizza em slides Java
 
@@ -202,9 +198,3 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 Você pode ajustar o tamanho da fonte, negrito e estilo de itálico conforme necessário.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

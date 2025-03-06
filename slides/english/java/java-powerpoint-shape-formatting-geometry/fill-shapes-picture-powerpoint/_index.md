@@ -3,14 +3,10 @@ title: Fill Shapes with Picture in PowerPoint
 linktitle: Fill Shapes with Picture in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to fill shapes with pictures in PowerPoint presentations using Aspose.Slides for Java. Enhance visual appeal effortlessly.
+type: docs
 weight: 12
 url: /java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 PowerPoint presentations often require visual elements like shapes filled with images to enhance their appeal and convey information effectively. Aspose.Slides for Java provides a powerful set of tools to accomplish this task seamlessly. In this tutorial, we'll learn how to fill shapes with pictures using Aspose.Slides for Java step by step.
 ## Prerequisites
@@ -84,10 +80,3 @@ You can resize the image within the shape by adjusting the dimensions of the sha
 Aspose.Slides for Java supports a wide range of image formats, including JPEG, PNG, GIF, BMP, and TIFF, among others.
 ### Can I apply effects to the filled shapes?
 Yes, Aspose.Slides for Java provides comprehensive APIs to apply various effects, such as shadows, reflections, and 3D rotations, to filled shapes.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

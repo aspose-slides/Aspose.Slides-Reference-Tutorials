@@ -3,14 +3,10 @@ title: Hiperhivatkozások eltávolítása a diákból az Aspose.Slides .NET seg�
 linktitle: Távolítsa el a hiperhivatkozásokat a diáról
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan távolíthat el hiperhivatkozásokat a PowerPoint diákról az Aspose.Slides for .NET segítségével. Készítsen tiszta és professzionális prezentációkat.
+type: docs
 weight: 11
 url: /hu/net/hyperlink-manipulation/remove-hyperlinks/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 A professzionális prezentációk világában elengedhetetlen, hogy a diák jól nézzen ki és rendezett legyen. Az egyik gyakori elem, amely gyakran összezavarja a diákat, a hiperhivatkozások. Függetlenül attól, hogy webhelyekre, dokumentumokra vagy egyéb diákra mutató hiperhivatkozásokkal foglalkozik a prezentációjában, érdemes lehet eltávolítani azokat a tisztább és koncentráltabb megjelenés érdekében. Az Aspose.Slides for .NET segítségével könnyen elvégezheti ezt a feladatot. Ebben a lépésenkénti útmutatóban végigvezetjük a hiperhivatkozások diákról való eltávolításának folyamatán az Aspose.Slides for .NET segítségével.
 
@@ -88,9 +84,3 @@ Igen, az Aspose.Slides for .NET funkciók széles skáláját kínálja, beleér
 
 ### Rendelkezésre áll technikai támogatás az Aspose.Slides for .NET számára?
  Igen, kérhet technikai támogatást, és kapcsolatba léphet az Aspose közösséggel a webhelyen[Aspose fórum](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

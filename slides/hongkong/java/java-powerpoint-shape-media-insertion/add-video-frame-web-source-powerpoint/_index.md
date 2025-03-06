@@ -3,14 +3,10 @@ title: 在 PowerPoint 中新增來自 Web 來源的視訊幀
 linktitle: 在 PowerPoint 中新增來自 Web 來源的視訊幀
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 新增來自 Web 來源的影片畫面來增強 PowerPoint 簡報。
+type: docs
 weight: 18
 url: /zh-hant/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 在本教學中，我們將學習如何使用 Aspose.Slides for Java 將影片畫面從 Web 來源（例如 YouTube）新增至 PowerPoint 簡報中。透過遵循這些逐步說明，您將能夠透過合併引人入勝的多媒體元素來增強您的簡報。
 ## 先決條件
@@ -88,9 +84,3 @@ pres.save("YOUR_DIRECTORY/AddVideoFrameFromWebSource_out.pptx", SaveFormat.Pptx)
 Aspose.Slides支援多種PowerPoint版本，確保不同平台之間的相容性。
 ### 在哪裡可以找到有關 Aspose.Slides 的更多資源和支援？
 您可以訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)尋求協助、文件和社群支援。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

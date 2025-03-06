@@ -3,14 +3,10 @@ title: اضبط وضع التخطيط في شرائح Java
 linktitle: اضبط وضع التخطيط في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين أوضاع التخطيط لشرائح Java باستخدام Aspose.Slides. قم بتخصيص موضع الرسم البياني وحجمه في هذا الدليل المفصّل خطوة بخطوة باستخدام التعليمات البرمجية المصدر.
+type: docs
 weight: 23
 url: /ar/java/data-manipulation/set-layout-mode-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة لتعيين وضع التخطيط في شرائح جافا
 
@@ -99,9 +95,3 @@ finally
 ### أين يمكنني العثور على مزيد من المعلومات حول Aspose.Slides لـ Java؟
 
  يمكنك العثور على مزيد من المعلومات حول Aspose.Slides for Java في[توثيق](https://reference.aspose.com/slides/java/). يتضمن مراجع وأمثلة تفصيلية لواجهة برمجة التطبيقات (API) لمساعدتك في العمل مع الشرائح والمخططات بشكل فعال في Java.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

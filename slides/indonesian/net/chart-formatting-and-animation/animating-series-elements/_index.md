@@ -3,14 +3,10 @@ title: Menganimasikan Elemen Seri dalam Bagan
 linktitle: Menganimasikan Elemen Seri dalam Bagan
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menganimasikan rangkaian bagan menggunakan Aspose.Slides untuk .NET. Buat presentasi menarik dengan visual dinamis. Panduan ahli dengan contoh kode.
+type: docs
 weight: 13
 url: /id/net/chart-formatting-and-animation/animating-series-elements/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Apakah Anda ingin menyempurnakan presentasi PowerPoint Anda dengan bagan dan animasi yang menarik? Aspose.Slides untuk .NET dapat membantu Anda mencapai hal itu. Dalam tutorial langkah demi langkah ini, kami akan menunjukkan kepada Anda cara menganimasikan elemen rangkaian dalam bagan menggunakan Aspose.Slides untuk .NET. Pustaka canggih ini memungkinkan Anda membuat, memanipulasi, dan menyesuaikan presentasi PowerPoint secara terprogram, memberi Anda kendali penuh atas slide dan kontennya.
 
@@ -107,10 +103,3 @@ Ya, Aspose.Slides untuk .NET dapat digunakan dengan berbagai bahasa .NET, termas
 ### 5. Bagaimana saya bisa mendapatkan dukungan komunitas atau bantuan dengan Aspose.Slides untuk .NET?
 
  Jika Anda memiliki pertanyaan atau memerlukan bantuan, Anda dapat mengunjungi[Aspose.Slide untuk forum .NET](https://forum.aspose.com/) untuk dukungan masyarakat.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

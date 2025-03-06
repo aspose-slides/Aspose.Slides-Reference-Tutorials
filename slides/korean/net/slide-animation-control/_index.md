@@ -3,14 +3,10 @@ title: 슬라이드 애니메이션 제어
 linktitle: 슬라이드 애니메이션 제어
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 동적 애니메이션으로 프레젠테이션을 향상시키세요. 이 포괄적인 튜토리얼에서 슬라이드 애니메이션을 단계별로 제어하는 방법을 알아보세요.
+type: docs
 weight: 18
 url: /ko/net/slide-animation-control/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 소개:
 
@@ -40,9 +36,3 @@ Aspose.Slides for .NET을 사용하여 PowerPoint 슬라이드의 애니메이�
 .NET용 Aspose.Slides를 사용하여 슬라이드에서 애니메이션을 반복하는 방법을 알아보세요. 이 단계별 가이드는 프로그래밍 방식으로 PowerPoint 프레젠테이션에 매력적인 애니메이션을 추가하기 위한 소스 코드와 명확한 지침을 제공합니다.
 ### [슬라이드에서 애니메이션 되감기](./rewind-animation-on-slide/)
 .NET용 Aspose.Slides를 사용하여 PowerPoint 슬라이드에서 애니메이션을 되감는 방법을 알아보세요. 프레젠테이션을 동적으로 향상하려면 전체 소스 코드 예제가 포함된 이 단계별 가이드를 따르세요.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

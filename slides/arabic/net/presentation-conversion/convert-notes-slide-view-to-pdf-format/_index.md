@@ -3,14 +3,10 @@ title: تحويل عرض شرائح الملاحظات إلى تنسيق PDF
 linktitle: تحويل عرض شرائح الملاحظات إلى تنسيق PDF
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بتحويل ملاحظات المتحدث في PowerPoint إلى PDF باستخدام Aspose.Slides لـ .NET. احتفظ بالسياق وقم بتخصيص التخطيط بسهولة.
+type: docs
 weight: 15
 url: /ar/net/presentation-conversion/convert-notes-slide-view-to-pdf-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 في هذا الدليل الشامل، سنرشدك خلال عملية تحويل عرض شرائح Notes إلى تنسيق PDF باستخدام Aspose.Slides for .NET. ستجد تعليمات مفصلة ومقتطفات من التعليمات البرمجية لإنجاز هذه المهمة دون عناء.
 
@@ -82,9 +78,3 @@ presentation.Save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
 يمكنك استكشاف دروس وأمثلة إضافية على[Aspose.Slides لوثائق .NET API](https://reference.aspose.com/slides/net/).
 
 الآن بعد أن قمت بتحويل طريقة عرض شريحة Notes إلى تنسيق PDF بنجاح، يمكنك استكشاف المزيد من الميزات والإمكانات الخاصة بـ Aspose.Slides for .NET لتحسين مهام التشغيل الآلي لـ PowerPoint. ترميز سعيد!
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

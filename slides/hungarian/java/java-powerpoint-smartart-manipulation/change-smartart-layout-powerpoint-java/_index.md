@@ -3,14 +3,10 @@ title: Módosítsa a SmartArt elrendezést a PowerPointban Java segítségével
 linktitle: Módosítsa a SmartArt elrendezést a PowerPointban Java segítségével
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan kezelheti a SmartArt-elrendezéseket PowerPoint-prezentációkban Java használatával az Aspose.Slides for Java segítségével.
+type: docs
 weight: 19
 url: /hu/java/java-powerpoint-smartart-manipulation/change-smartart-layout-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan manipulálható a SmartArt-elrendezések PowerPoint-prezentációkban Java használatával. A SmartArt a PowerPoint hatékony funkciója, amely lehetővé teszi a felhasználók számára, hogy tetszetős grafikákat készítsenek különféle célokra, például folyamatok, hierarchiák, kapcsolatok és egyebek illusztrálására.
 ## Előfeltételek
@@ -64,9 +60,3 @@ Igen, az Aspose.Slides több programozási nyelvhez is elérhető, beleértve a 
 Természetesen létrehozhat SmartArt grafikákat programozottan, vagy módosíthatja a meglévőket az igényeinek megfelelően.
 ### Van olyan közösségi fórum, ahol segítséget kérhetek az Aspose.Slides-el kapcsolatban?
  Igen, felkeresheti az Aspose.Slides fórumot[itt](https://forum.aspose.com/c/slides/11) kérdéseket feltenni és kapcsolatba lépni a közösséggel.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

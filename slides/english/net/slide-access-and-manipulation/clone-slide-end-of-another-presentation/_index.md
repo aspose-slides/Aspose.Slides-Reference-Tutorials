@@ -3,14 +3,10 @@ title: Replicate Slide at the End of Separate Presentation
 linktitle: Replicate Slide at the End of Separate Presentation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to replicate a slide from one PowerPoint presentation and add it to another using Aspose.Slides for .NET. This step-by-step guide provides source code and clear instructions for seamless slide manipulation.
+type: docs
 weight: 17
 url: /net/slide-access-and-manipulation/clone-slide-end-of-another-presentation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction to Aspose.Slides for .NET
 
@@ -107,10 +103,3 @@ Absolutely! You can manipulate the content of the replicated slide just like any
 ### Does Aspose.Slides for .NET work only with slides?
 
 No, Aspose.Slides for .NET provides extensive capabilities beyond slides. You can work with shapes, charts, animations, and even extract text and images from presentations.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java 슬라이드에서 차트 시리즈 겹침 설정
 linktitle: Java 슬라이드에서 차트 시리즈 겹침 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 마스터 차트 시리즈는 Java용 Aspose.Slides와 Java 슬라이드에서 겹칩니다. 멋진 프레젠테이션을 위해 차트 시각적 개체를 사용자 지정하는 방법을 단계별로 알아보세요.
+type: docs
 weight: 16
 url: /ko/java/data-manipulation/set-chart-series-overlap-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 슬라이드에서 차트 시리즈 겹침 설정 소개
 
@@ -114,9 +110,3 @@ Aspose.Slides for Java는 차트에 대한 광범위한 사용자 정의 옵션�
 ### Aspose.Slides for Java에 대한 추가 리소스와 예제는 어디에서 찾을 수 있나요?
 
  포괄적인 문서와 예제를 보려면 Aspose.Slides for Java 참조 페이지를 방문하세요.[Java API 참조용 Aspose.Slides](https://reference.aspose.com/slides/java/)
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

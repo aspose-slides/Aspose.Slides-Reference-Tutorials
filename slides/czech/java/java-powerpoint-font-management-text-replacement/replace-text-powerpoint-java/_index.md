@@ -3,14 +3,10 @@ title: Nahraďte text v PowerPointu pomocí Java
 linktitle: Nahraďte text v PowerPointu pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak nahradit text v prezentacích PowerPoint pomocí Aspose.Slides for Java. Postupujte podle tohoto podrobného průvodce pro automatizaci aktualizací prezentací.
+type: docs
 weight: 13
 url: /cs/java/java-powerpoint-font-management-text-replacement/replace-text-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 Už jste někdy potřebovali programově aktualizovat text v powerpointové prezentaci? Možná máte stovky snímků a ruční aktualizace jsou příliš časově náročné. Zadejte Aspose.Slides for Java, robustní API, díky kterému je správa a manipulace se soubory PowerPoint hračkou. V tomto tutoriálu vás provedeme nahrazením textu v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Na konci tohoto průvodce budete profesionálem v automatizaci aktualizací textu ve snímcích, což vám ušetří čas a námahu.
 ## Předpoklady
@@ -84,9 +80,3 @@ Aspose.Slides for Java je výkonné rozhraní API pro vytváření, úpravy a p�
 Ano, Aspose.Slides for Java jsou navrženy tak, aby efektivně zvládaly velké a složité prezentace.
 ### Kde najdu další příklady a dokumentaci?
  Podrobnou dokumentaci a příklady naleznete na[Dokumentační stránka Aspose.Slides pro Java](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

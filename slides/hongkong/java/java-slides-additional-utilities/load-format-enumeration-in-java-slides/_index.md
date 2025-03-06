@@ -3,14 +3,10 @@ title: 在 Java 投影片中載入格式枚舉
 linktitle: 在 Java 投影片中載入格式枚舉
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 檢查 Java 中 PowerPoint 簡報的格式。請按照我們的逐步指南和原始程式碼範例進行有效的格式檢測。
+type: docs
 weight: 14
 url: /zh-hant/java/additional-utilities/load-format-enumeration-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 在 Java 投影片中載入簡報格式簡介
 
@@ -72,10 +68,3 @@ boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(data
 ### Aspose.Slides for Java適合商業專案嗎？
 
 是的，Aspose.Slides for Java適合商業專案。它提供了一組強大的功能，可在 Java 應用程式中處理 PowerPoint 簡報，並廣泛用於商業和企業環境中。
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

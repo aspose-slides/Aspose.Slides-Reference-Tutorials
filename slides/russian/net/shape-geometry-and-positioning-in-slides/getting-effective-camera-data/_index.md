@@ -3,14 +3,10 @@ title: Освоение эффективного извлечения данны
 linktitle: Получение эффективных данных камеры на слайдах презентации
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Раскройте потенциал Aspose.Slides для .NET с помощью нашего пошагового руководства по извлечению эффективных данных камеры из слайдов презентации.
+type: docs
 weight: 18
 url: /ru/net/shape-geometry-and-positioning-in-slides/getting-effective-camera-data/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 Вы когда-нибудь задумывались, как извлекать и манипулировать данными камеры, встроенными в слайды презентации? Не смотрите дальше! Это руководство проведет вас через процесс получения эффективных данных камеры с помощью Aspose.Slides для .NET. Aspose.Slides — это мощная библиотека, которая позволяет вам беспрепятственно работать с файлами презентаций в ваших .NET-приложениях.
 ## Предварительные условия
@@ -72,9 +68,3 @@ Console.WriteLine("Zoom: " + threeDEffectiveData.Camera.Zoom);
  Временную лицензию можно получить[здесь](https://purchase.aspose.com/temporary-license/).
 ### Где я могу приобрести Aspose.Slides для .NET?
  Чтобы купить Aspose.Slides, посетите[страница покупки](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

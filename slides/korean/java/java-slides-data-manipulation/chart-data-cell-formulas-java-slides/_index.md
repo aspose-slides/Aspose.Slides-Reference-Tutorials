@@ -3,14 +3,10 @@ title: Java 슬라이드의 차트 데이터 셀 수식
 linktitle: Java 슬라이드의 차트 데이터 셀 수식
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java PowerPoint 프레젠테이션에서 차트 데이터 셀 수식을 설정하는 방법을 알아보세요. 수식을 사용하여 동적 차트를 만듭니다.
+type: docs
 weight: 11
 url: /ko/java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for Java의 차트 데이터 셀 수식 소개
 
@@ -126,9 +122,3 @@ finally
 ### 차트 종류를 어떻게 변경하나요?
 
  다음을 사용하여 차트 유형을 변경할 수 있습니다.`setChartType` 에 대한 방법`IChart` 객체를 지정하고 원하는 것을 지정`ChartType`.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

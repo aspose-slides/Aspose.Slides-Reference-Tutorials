@@ -3,14 +3,10 @@ title: Définir le retrait du paragraphe dans Java PowerPoint
 linktitle: Définir le retrait du paragraphe dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir le retrait des paragraphes dans les diapositives PowerPoint par programmation à l'aide d'Aspose.Slides pour Java. Améliorez la mise en forme de votre présentation sans effort.
+type: docs
 weight: 16
 url: /fr/java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Dans ce didacticiel, vous apprendrez à manipuler des présentations PowerPoint par programmation à l'aide d'Aspose.Slides pour Java. Plus précisément, nous nous concentrerons sur la définition des retraits de paragraphe dans les diapositives. Aspose.Slides pour Java fournit un ensemble puissant d'API qui permettent aux développeurs de créer, modifier, convertir et gérer des présentations PowerPoint sans recourir à Microsoft Office Automation.
 ## Conditions préalables
@@ -89,9 +85,3 @@ Aspose.Slides pour Java est une bibliothèque puissante permettant de travailler
  Oui, vous pouvez bénéficier d'un essai gratuit auprès de[ici](https://releases.aspose.com/).
 ### Où puis-je obtenir de l'aide pour Aspose.Slides pour Java ?
  Vous pouvez obtenir de l'aide sur le forum communautaire[ici](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

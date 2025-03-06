@@ -3,14 +3,10 @@ title: Comment utiliser Aspose.Slides .NET pour récupérer un classeur à parti
 linktitle: Récupérer un classeur à partir d'un graphique
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment récupérer un classeur à partir d'un graphique dans des présentations PowerPoint à l'aide d'Aspose.Slides pour .NET. Suivez notre guide étape par étape pour extraire efficacement les données.
+type: docs
 weight: 12
 url: /fr/net/additional-chart-features/chart-recover-workbook/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Si vous souhaitez travailler avec des présentations PowerPoint dans .NET, Aspose.Slides for .NET est une bibliothèque puissante qui peut vous aider à atteindre vos objectifs. Dans ce didacticiel, nous vous guiderons tout au long du processus de récupération d'un classeur à partir d'un graphique dans une présentation PowerPoint à l'aide d'Aspose.Slides pour .NET. Cette fonctionnalité puissante peut être utile lorsque vous devez extraire des données de graphiques dans vos présentations. Nous décomposerons le processus en étapes faciles à suivre, garantissant que vous comprenez clairement comment accomplir cette tâche.
 
@@ -105,9 +101,3 @@ Aspose.Slides for .NET est une puissante bibliothèque .NET permettant de travai
 ### 5. Quelle est la longueur maximale du titre pour l’optimisation SEO ?
 
 Pour l'optimisation du référencement, il est recommandé de conserver votre titre sous 60 caractères pour garantir qu'il s'affiche correctement dans les résultats des moteurs de recherche.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

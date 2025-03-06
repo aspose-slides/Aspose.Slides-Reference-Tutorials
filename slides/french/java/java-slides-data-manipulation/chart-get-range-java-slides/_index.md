@@ -3,14 +3,10 @@ title: Graphique obtenir la plage dans les diapositives Java
 linktitle: Graphique obtenir la plage dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment récupérer des plages de graphiques dans Java Slides à l'aide de l'API Aspose.Slides pour Java. Guide étape par étape avec code source pour un accès efficace aux données graphiques.
+type: docs
 weight: 16
 url: /fr/java/data-manipulation/chart-get-range-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction à Chart Get Range dans les diapositives Java
 
@@ -102,10 +98,3 @@ Oui, vous pouvez personnaliser l'apparence des graphiques, par exemple en modifi
 ### Où puis-je trouver plus de ressources et de documentation pour Aspose.Slides pour Java ?
 
  Vous pouvez trouver une documentation et des ressources complètes pour Aspose.Slides pour Java sur le site :[Aspose.Slides pour Java Documentation](https://reference.aspose.com/slides/java/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

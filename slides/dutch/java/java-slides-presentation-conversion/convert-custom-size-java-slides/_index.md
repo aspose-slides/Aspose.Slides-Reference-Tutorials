@@ -3,14 +3,10 @@ title: Converteren met aangepast formaat in Java-dia's
 linktitle: Converteren met aangepast formaat in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-presentaties converteert naar TIFF-afbeeldingen met een aangepast formaat met behulp van Aspose.Slides voor Java. Stapsgewijze handleiding met codevoorbeelden voor ontwikkelaars.
+type: docs
 weight: 31
 url: /nl/java/presentation-conversion/convert-custom-size-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot converteren met aangepast formaat in Java-dia's
 
@@ -141,9 +137,3 @@ Ja, u kunt de DPI aanpassen met behulp van de`setDpiX` En`setDpiY` methoden in d
 ### Waar kan ik meer informatie vinden over Aspose.Slides voor Java?
 
  Voor gedetailleerde documentatie en aanvullende informatie over Aspose.Slides voor Java kunt u de documentatie raadplegen:[Aspose.Slides voor Java API-referentie](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

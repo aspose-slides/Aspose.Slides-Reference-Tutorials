@@ -3,14 +3,10 @@ title: Collection de règles de secours en Java PowerPoint
 linktitle: Collection de règles de secours en Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment gérer les règles de remplacement des polices dans les présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Améliorez la compatibilité entre les appareils sans effort.
+type: docs
 weight: 11
 url: /fr/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Dans ce didacticiel, nous verrons comment gérer les règles de secours des polices à l'aide d'Aspose.Slides pour Java. Les polices de secours sont cruciales pour garantir que vos présentations s'affichent correctement dans différents environnements, en particulier lorsque des polices spécifiques ne sont pas disponibles. Nous vous guiderons pas à pas dans l’importation des packages nécessaires, la configuration de l’environnement et la mise en œuvre des règles de secours.
 ## Conditions préalables
@@ -77,9 +73,3 @@ Les règles de remplacement des polices définissent des polices alternatives à
  Une documentation détaillée est disponible[ici](https://reference.aspose.com/slides/java/).
 ### Comment puis-je obtenir du support pour Aspose.Slides pour Java ?
 Pour obtenir de l'aide, visitez le forum Aspose.Slides[ici](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

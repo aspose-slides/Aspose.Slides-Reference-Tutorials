@@ -3,14 +3,10 @@ title: Použití možností značky grafu na datovém bodu v Aspose.Slides .NET
 linktitle: Možnosti značek grafu na datovém bodu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak vylepšit své PowerPointové grafy pomocí Aspose.Slides pro .NET. Přizpůsobte značky datových bodů pomocí obrázků. Vytvářejte poutavé prezentace.
+type: docs
 weight: 11
 url: /cs/net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Při práci s prezentacemi a vizualizací dat nabízí Aspose.Slides for .NET širokou škálu výkonných funkcí pro vytváření, přizpůsobení a manipulaci s grafy. V tomto tutoriálu prozkoumáme, jak používat možnosti značek grafu na datových bodech k vylepšení prezentací grafů. Tento podrobný průvodce vás provede celým procesem, počínaje předpoklady a importem jmenných prostorů až po rozdělení každého příkladu do několika kroků.
 
@@ -152,9 +148,3 @@ Aspose.Slides for .NET je navržen pro práci s různými formáty aplikace Powe
 
 ### Je k dispozici zkušební verze Aspose.Slides pro .NET?
  Ano, můžete vyzkoušet Aspose.Slides for .NET stažením bezplatné zkušební verze z[tady](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

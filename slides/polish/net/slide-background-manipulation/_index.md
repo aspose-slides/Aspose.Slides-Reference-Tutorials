@@ -3,14 +3,10 @@ title: Manipulacja tłem slajdu za pomocą Aspose.Slides
 linktitle: Manipulacja tłem slajdu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ulepsz swój projekt slajdu za pomocą Aspose.Slides! Z tego obszernego samouczka dowiesz się, jak manipulować tłem slajdów. Dostarczono instrukcje krok po kroku i przykłady kodu.
+type: docs
 weight: 11
 url: /pl/net/slide-background-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Wstęp
 
@@ -41,9 +37,3 @@ Dowiedz się, jak ustawić obraz jako tło slajdu za pomocą Aspose.Slides dla .
 W tym przewodniku krok po kroku dowiesz się, jak opanować ustawianie tła slajdów za pomocą Aspose.Slides. Przenieś swoje prezentacje na wyższy poziom dzięki wciągającym efektom wizualnym.
 ### [Zmień normalne tło slajdu](./change-slide-background-normal/)
 Dowiedz się, jak zmienić normalne tło slajdu, aby przyciągnąć uwagę odbiorców. Postępuj zgodnie z tym obszernym przewodnikiem dotyczącym korzystania z Aspose.Slides dla .NET, wraz z instrukcjami krok po kroku i przykładami kodu.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

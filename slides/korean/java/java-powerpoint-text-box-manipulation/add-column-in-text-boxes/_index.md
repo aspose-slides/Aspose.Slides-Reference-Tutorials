@@ -3,14 +3,10 @@ title: Java용 Aspose.Slides를 사용하여 텍스트 상자에 열 추가
 linktitle: Java용 Aspose.Slides를 사용하여 텍스트 상자에 열 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint의 텍스트 상자에 열을 추가하는 방법을 알아보세요. 이 단계별 가이드를 통해 프레젠테이션을 향상해 보세요.
+type: docs
 weight: 10
 url: /ko/java/java-powerpoint-text-box-manipulation/add-column-in-text-boxes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 열을 추가하여 텍스트 상자를 향상시키는 방법을 살펴보겠습니다. Aspose.Slides는 개발자가 Microsoft Office 없이 프로그래밍 방식으로 PowerPoint 프레젠테이션을 생성, 조작 및 변환할 수 있는 강력한 Java 라이브러리입니다. 텍스트 상자에 열을 추가하면 슬라이드 내 콘텐츠의 가독성과 구성이 크게 향상되어 프레젠테이션을 더욱 매력적이고 전문적으로 만들 수 있습니다.
 ## 전제 조건
@@ -86,9 +82,3 @@ TextFrame에서 열 사이의 간격을 설정합니다.
 아니요, Aspose.Slides는 컴퓨터에 Microsoft Office를 설치할 필요가 없습니다.
 ### Aspose.Slides for Java에 대한 추가 문서는 어디서 찾을 수 있나요?
  자세한 문서가 제공됩니다.[여기](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

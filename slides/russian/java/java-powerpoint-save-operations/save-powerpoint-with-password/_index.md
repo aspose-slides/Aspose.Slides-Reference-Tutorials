@@ -3,14 +3,10 @@ title: Сохранить PowerPoint с паролем
 linktitle: Сохранить PowerPoint с паролем
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как добавить защиту паролем к презентациям PowerPoint с помощью Aspose.Slides для Java. Легко защитите свои слайды.
+type: docs
 weight: 12
 url: /ru/java/java-powerpoint-save-operations/save-powerpoint-with-password/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 В этом уроке мы покажем вам процесс сохранения презентации PowerPoint с паролем с помощью Aspose.Slides для Java. Добавление пароля к вашей презентации может повысить ее безопасность, гарантируя, что только авторизованные лица смогут получить доступ к ее содержимому.
 ## Предварительные условия
@@ -71,9 +67,3 @@ Aspose.Slides поддерживает различные форматы PowerPo
  Да, вы можете скачать бесплатную пробную версию на сайте Aspose.[Веб-сайт](https://releases.aspose.com/).
 ### Как я могу получить техническую поддержку для Aspose.Slides?
 Вы можете посетить форум Aspose.Slides для получения технической помощи от сообщества и сотрудников службы поддержки Aspose.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

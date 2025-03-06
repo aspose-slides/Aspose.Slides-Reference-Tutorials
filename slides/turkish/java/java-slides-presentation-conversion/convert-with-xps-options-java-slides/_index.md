@@ -3,14 +3,10 @@ title: Java Slaytlarında XPS Seçenekleri ile Dönüştürme
 linktitle: Java Slaytlarında XPS Seçenekleri ile Dönüştürme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides'ı kullanarak PowerPoint sunumlarını Java'da XPS formatına nasıl dönüştüreceğinizi öğrenin. Sorunsuz bir dönüştürme işlemi için seçenekleri özelleştirin.
+type: docs
 weight: 34
 url: /tr/java/presentation-conversion/convert-with-xps-options-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java Slaytlarında XPS Seçenekleri ile Dönüştürmeye Giriş
 
@@ -118,10 +114,3 @@ Kesinlikle! Aspose.Slides for Java, PDF, HTML ve daha fazlasını içeren çok �
 ### Aspose.Slides for Java'yı kullanırken istisnaları nasıl ele alacağım?
 
 İstisnaları ele almak için Aspose.Slides ile çalışırken kodunuzun etrafındaki try-catch bloklarını kullanabilirsiniz. Özel istisna işleme yönergeleri için belgelere bakın.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

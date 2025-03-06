@@ -3,14 +3,10 @@ title: Formatera presentationsrader med Aspose.Slides .NET Tutorial
 linktitle: Formatera rader i presentationsbilder med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Förbättra dina presentationsbilder med Aspose.Slides för .NET. Följ vår steg-för-steg-guide för att formatera linjer utan ansträngning. Ladda ner den kostnadsfria testversionen nu!
+type: docs
 weight: 10
 url: /sv/net/shape-geometry-and-positioning-in-slides/formatting-lines/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 Att skapa visuellt tilltalande presentationsbilder är avgörande för effektiv kommunikation. Aspose.Slides för .NET tillhandahåller en kraftfull lösning för att manipulera och formatera presentationselement programmatiskt. I den här handledningen kommer vi att fokusera på att formatera linjer i presentationsbilder med Aspose.Slides för .NET.
 ## Förutsättningar
@@ -79,9 +75,3 @@ Ja, Aspose.Slides stöder olika programmeringsspråk, inklusive Java och Python.
  Du kan få en tillfällig licens från[Aspose.Slides Temporary License](https://purchase.aspose.com/temporary-license/).
 ### F5: Var kan jag köpa Aspose.Slides för .NET?
  Du kan köpa produkten från[Aspose.Slides Köp](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

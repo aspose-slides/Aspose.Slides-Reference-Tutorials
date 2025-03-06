@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides for .NET 掌握幻灯片动画
 linktitle: Aspose.Slides 中的幻灯片动画控制
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 提升您的演示效果！学习如何轻松控制幻灯片动画。立即下载库！
+type: docs
 weight: 10
 url: /zh/net/slide-animation-control/slide-animation-control/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 使用引人入胜的幻灯片动画增强您的演示文稿可以显著提升对观众的整体影响。在本教程中，我们将探索如何使用 Aspose.Slides for .NET 控制幻灯片动画。Aspose.Slides 是一个功能强大的库，可以在 .NET 环境中无缝操作 PowerPoint 演示文稿。
 ## 先决条件
@@ -81,9 +77,3 @@ pres.Save(dataDir + "SampleTransition_out.pptx", SaveFormat.Pptx);
 您可以从[这里](https://purchase.aspose.com/temporary-license/).
 ### 我可以在哪里购买 Aspose.Slides for .NET？
 购买图书馆[这里](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Buat Presentasi Dinamis dengan Aspose.Slides Zoom Frames
 linktitle: Membuat Zoom Frame di Slide Presentasi dengan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara membuat presentasi menawan dengan bingkai zoom menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah kami untuk pengalaman slide yang menarik.
+type: docs
 weight: 17
 url: /id/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam bidang presentasi, slide yang menawan adalah kunci untuk meninggalkan kesan yang mendalam. Aspose.Slides for .NET menyediakan seperangkat alat yang canggih, dan dalam panduan ini, kami akan memandu Anda melalui proses menggabungkan bingkai zoom yang menarik ke dalam slide presentasi Anda.
 ## Prasyarat
@@ -93,9 +89,3 @@ Ya, Anda dapat menyesuaikan berbagai aspek seperti lebar garis, warna isian, dan
  Anda dapat memperoleh lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### T: Di mana saya dapat membeli versi lengkap Aspose.Slides untuk .NET?
  Anda dapat membeli versi lengkap[Di Sini](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

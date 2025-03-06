@@ -3,14 +3,10 @@ title: 在 Java 投影片中使用另一個簡報作為範本更新簡報屬性
 linktitle: 在 Java 投影片中使用另一個簡報作為範本更新簡報屬性
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 透過更新的元資料增強 PowerPoint 簡報。了解使用 Java 投影片中的範本更新作者、標題和關鍵字等屬性。
+type: docs
 weight: 14
 url: /zh-hant/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 在 Java 投影片中使用另一個簡報作為範本更新簡報屬性的簡介
 
@@ -126,9 +122,3 @@ private static void updateByTemplate(String path, IDocumentProperties template)
 ### 可更新的簡報類型是否有任何限制？
 
 不，您可以更新各種格式的簡報的屬性，包括 PPTX、ODP 和 PPT。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

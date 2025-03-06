@@ -3,14 +3,10 @@ title: Betűtípus-tulajdonságok az egyes jelmagyarázatokhoz a Java Slides-ben
 linktitle: Betűtípus-tulajdonságok az egyes jelmagyarázatokhoz a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Az Aspose.Slides for Java segítségével javíthatja a PowerPoint bemutatókat egyéni betűstílusokkal, -méretekkel és -színekkel a Java Slides egyes jelmagyarázataihoz.
+type: docs
 weight: 12
 url: /hu/java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés a Java Slides egyéni jelmagyarázatának betűtípus-tulajdonságaiba
 
@@ -117,9 +113,3 @@ Ne felejtse el dobni a prezentációs objektumot, ha végzett az erőforrások f
 ```java
 if (pres != null) pres.dispose();
 ```
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

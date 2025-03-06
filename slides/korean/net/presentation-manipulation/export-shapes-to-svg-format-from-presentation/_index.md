@@ -3,14 +3,10 @@ title: 프리젠테이션에서 도형을 SVG 형식으로 내보내기
 linktitle: 프리젠테이션에서 도형을 SVG 형식으로 내보내기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션의 모양을 SVG 형식으로 내보내는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드입니다. 다양한 애플리케이션에 맞게 형상을 효율적으로 추출합니다.
+type: docs
 weight: 16
 url: /ko/net/presentation-manipulation/export-shapes-to-svg-format-from-presentation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 오늘날의 디지털 세계에서 프레젠테이션은 정보를 효과적으로 전달하는 데 중요한 역할을 합니다. 그러나 때로는 다양한 목적을 위해 프레젠테이션의 특정 모양을 다른 형식으로 내보내야 하는 경우도 있습니다. 그러한 형식 중 하나가 확장성과 적응성으로 잘 알려진 SVG(Scalable Vector Graphics)입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션에서 모양을 SVG 형식으로 내보내는 과정을 안내합니다.
 
@@ -87,9 +83,3 @@ SVG(Scalable Vector Graphics)는 웹 브라우저와의 확장성과 호환성�
 이제 모양을 SVG 형식으로 내보내는 방법을 배웠으므로 프레젠테이션을 향상하고 다양한 목적에 맞게 더욱 다양하게 만들 수 있습니다. 즐거운 코딩하세요!
 
  자세한 내용과 고급 기능은 다음을 참조하세요.[.NET API 참조용 Aspose.Slides](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

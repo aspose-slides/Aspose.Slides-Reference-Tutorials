@@ -3,14 +3,10 @@ title: Správa vložených písem v Java PowerPoint
 linktitle: Správa vložených písem v Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Bez námahy spravujte vložená písma v prezentacích Java PowerPoint pomocí Aspose.Slides. Podrobný průvodce optimalizací snímků pro konzistenci.
+type: docs
 weight: 11
 url: /cs/java/java-powerpoint-font-management-text-replacement/manage-embedded-fonts-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 neustále se vyvíjejícím světě prezentací může efektivní správa písem znamenat obrovský rozdíl v kvalitě a kompatibilitě vašich souborů PowerPoint. Aspose.Slides for Java nabízí komplexní řešení pro správu vložených písem a zajišťuje, že vaše prezentace budou vypadat perfektně na jakémkoli zařízení. Ať už se zabýváte staršími prezentacemi nebo vytváříte nové, tato příručka vás provede procesem správy vložených písem ve vašich prezentacích Java PowerPoint pomocí Aspose.Slides. Pojďme se ponořit!
 ## Předpoklady
@@ -108,9 +104,3 @@ Aspose.Slides for Java je kompatibilní s JDK 8 a novějšími verzemi.
 Správa vložených písem zajistí, že vaše prezentace budou vypadat konzistentně na různých zařízeních a platformách, a pomůže snížit velikost souboru odstraněním nepotřebných písem.
 ### Kde mohu získat podporu pro Aspose.Slides pro Java?
  Můžete získat podporu od[Fórum podpory Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

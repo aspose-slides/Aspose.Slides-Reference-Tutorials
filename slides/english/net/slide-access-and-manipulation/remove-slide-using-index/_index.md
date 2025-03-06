@@ -3,14 +3,10 @@ title: Erase Slide by Sequential Index
 linktitle: Erase Slide by Sequential Index
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to erase PowerPoint slides step by step using Aspose.Slides for .NET. Our guide provides clear instructions and complete source code to help you programmatically remove slides by their sequential index.
+type: docs
 weight: 24
 url: /net/slide-access-and-manipulation/remove-slide-using-index/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction to Erase Slide by Sequential Index
 
@@ -90,10 +86,3 @@ Absolutely, you can erase slides based on conditions such as slide content, note
 ### How do I learn more about Aspose.Slides for .NET?
 
 You can explore the detailed documentation and API reference for Aspose.Slides for .NET on the [documentation page](https://reference.aspose.com/slides/net/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

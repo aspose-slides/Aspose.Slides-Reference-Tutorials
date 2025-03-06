@@ -3,14 +3,10 @@ title: Обновление свойств презентации в слайд�
 linktitle: Обновление свойств презентации в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как обновить свойства презентации в слайдах Java с помощью Aspose.Slides для Java. Настройте автора, название и другие параметры для создания эффектных презентаций.
+type: docs
 weight: 13
 url: /ru/java/media-controls/update-presentation-properties-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Введение в обновление свойств презентации в слайдах Java
 
@@ -116,9 +112,3 @@ Aspose.Slides for Java позволяет вам изменять широкий
 ### Как я могу получить доступ к документации по Aspose.Slides для Java?
 
  Вы можете получить доступ к документации Aspose.Slides для Java, перейдя по следующей ссылке:[Документация Aspose.Slides для Java](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

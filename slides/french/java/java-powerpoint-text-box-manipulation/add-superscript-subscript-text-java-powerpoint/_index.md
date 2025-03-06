@@ -3,14 +3,10 @@ title: Ajouter du texte en exposant et en indice dans Java PowerPoint
 linktitle: Ajouter du texte en exposant et en indice dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajouter du texte en exposant et en indice dans des présentations Java PowerPoint à l'aide d'Aspose.Slides pour Java. Parfait pour améliorer vos diapositives.
+type: docs
 weight: 13
 url: /fr/java/java-powerpoint-text-box-manipulation/add-superscript-subscript-text-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 La création de présentations PowerPoint attrayantes et informatives nécessite souvent l’utilisation de fonctionnalités de formatage telles que le texte en exposant et en indice. Ce didacticiel vous guidera tout au long du processus d'incorporation de texte en exposant et en indice dans vos présentations Java PowerPoint à l'aide d'Aspose.Slides pour Java.
 ## Conditions préalables
@@ -93,9 +89,3 @@ Aspose.Slides pour Java est une bibliothèque robuste qui permet aux développeu
  Oui, vous pouvez télécharger une version d'essai gratuite à partir de[ici](https://releases.aspose.com/).
 ### Où puis-je obtenir de l'aide pour Aspose.Slides pour Java ?
  Pour obtenir de l'aide et des discussions, visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

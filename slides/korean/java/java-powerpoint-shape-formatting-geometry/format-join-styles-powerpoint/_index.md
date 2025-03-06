@@ -3,14 +3,10 @@ title: PowerPoint에서 조인 스타일 서식 지정
 linktitle: PowerPoint에서 조인 스타일 서식 지정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 모양에 대해 다양한 선 결합 스타일을 설정하여 PowerPoint 프레젠테이션을 향상시키는 방법을 알아보세요. 단계별 가이드를 따르세요.
+type: docs
 weight: 15
 url: /ko/java/java-powerpoint-shape-formatting-geometry/format-join-styles-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 시각적으로 매력적인 PowerPoint 프레젠테이션을 만드는 것은 어려운 작업이 될 수 있으며, 특히 모든 세부 사항을 완벽하게 만들고 싶을 때 더욱 그렇습니다. 이것이 바로 Java용 Aspose.Slides가 유용한 곳입니다. 프로그래밍 방식으로 프레젠테이션을 생성, 조작 및 관리할 수 있는 강력한 API입니다. 활용할 수 있는 기능 중 하나는 모양에 대해 다양한 선 결합 스타일을 설정하는 것입니다. 이는 슬라이드의 미학을 크게 향상시킬 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 모양에 대한 조인 스타일을 설정하는 방법을 살펴보겠습니다. 
 ## 전제 조건
@@ -116,9 +112,3 @@ Aspose.Slides for Java는 PowerPoint 프레젠테이션을 프로그래밍 방�
 선 결합 스타일은 두 선이 만나는 모서리의 모양을 나타냅니다. 일반적인 스타일에는 마이터(Miter), 베벨(Bevel) 및 라운드(Round)가 있습니다.
 ### Aspose.Slides for Java에 대한 추가 문서는 어디서 찾을 수 있나요?
  자세한 문서를 찾을 수 있습니다[여기](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

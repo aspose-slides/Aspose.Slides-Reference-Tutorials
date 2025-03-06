@@ -3,14 +3,10 @@ title: 同じプレゼンテーション内でスライドを複製する
 linktitle: 同じプレゼンテーション内でスライドを複製する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: ガイドに従って Aspose.Slides for Java を使用して、同じプレゼンテーション内でスライドを複製します。PowerPoint の操作を効率化したい開発者に最適です。
+type: docs
 weight: 15
 url: /ja/java/java-powerpoint-slide-cloning-techniques/clone-slide-within-same-presentation-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 Aspose.Slides for Java の世界に飛び込んで、同じプレゼンテーション内でスライドを複製する方法を学ぶ準備はできていますか? このチュートリアルでは、前提条件から最終的な実装まで、知っておく必要のあるすべてのことを説明します。さあ、始めましょう!
 ## 前提条件
@@ -71,9 +67,3 @@ Aspose.Slides for Java は、Java アプリケーションで PowerPoint プレ�
 Aspose.Slides for Javaのドキュメントは、[Aspose ウェブサイト](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java を購入するにはどうすればよいですか?
  Aspose.Slides for Javaは、[購入ページ](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

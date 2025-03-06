@@ -3,14 +3,10 @@ title: تقنيات استنساخ شرائح جافا باور بوينت
 linktitle: تقنيات استنساخ شرائح جافا باور بوينت
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: استنساخ الشرائح الرئيسية في PowerPoint باستخدام Aspose.Slides لـ Java. تعلم كيفية استنساخ الشرائح داخل نفس العرض التقديمي أو عبر العروض التقديمية بسلاسة.
+type: docs
 weight: 27
 url: /ar/java/java-powerpoint-slide-cloning-techniques/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ##  مقدمة
 
 يمكن أن يوفر لك استنساخ الشرائح في عروض PowerPoint التقديمية الكثير من الوقت ويبسط سير عملك. باستخدام Aspose.Slides for Java، يمكنك بسهولة استنساخ الشرائح داخل نفس العرض التقديمي أو عبر عروض تقديمية مختلفة. سواء كنت مبتدئًا أو خبيرًا، سترشدك هذه البرامج التعليمية خطوة بخطوة خلال العملية، مما يجعل تحسين عروضك التقديمية أمرًا سهلاً.
@@ -53,9 +49,3 @@ url: /ar/java/java-powerpoint-slide-cloning-techniques/
 استنساخ الشرائح داخل نفس العرض التقديمي باستخدام Aspose.Slides لـ Java مع دليلنا. مثالي للمطورين الذين يتطلعون إلى تبسيط عمليات معالجة PowerPoint.
 ### [استنساخ الشريحة لتنتهي في نفس العرض التقديمي](./clone-slide-end-within-same-presentation-powerpoint/)
 تعرف على كيفية استنساخ شريحة حتى نهاية العرض التقديمي باستخدام Aspose.Slides لـ Java باستخدام هذا الدليل التفصيلي خطوة بخطوة. مثالية لمطوري جافا.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

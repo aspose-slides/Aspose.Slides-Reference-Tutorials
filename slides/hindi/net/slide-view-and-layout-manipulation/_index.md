@@ -3,14 +3,10 @@ title: स्लाइड दृश्य और लेआउट हेरफे
 linktitle: स्लाइड दृश्य और लेआउट हेरफेर
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: Aspose.Slides स्लाइड व्यू और लेआउट मैनिपुलेशन ट्यूटोरियल के साथ स्लाइड व्यू और लेआउट को ऑप्टिमाइज़ करें। शक्तिशाली .NET टूल का उपयोग करके प्रेजेंटेशन प्रभाव और दृश्य उत्कृष्टता को बढ़ाएँ।
+type: docs
 weight: 20
 url: /hi/net/slide-view-and-layout-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## परिचय
 
@@ -33,9 +29,3 @@ Aspose.Slides for .NET का उपयोग करके सामान्य
 Aspose.Slides for .NET का उपयोग करके PowerPoint स्लाइड्स से वीडियो लिंक करना सीखें। इस चरण-दर-चरण मार्गदर्शिका में लिंक किए गए वीडियो के साथ इंटरैक्टिव और आकर्षक प्रस्तुतियाँ बनाने के लिए स्रोत कोड और युक्तियाँ शामिल हैं।
 ### [प्रस्तुति में ActiveX नियंत्रण प्रबंधित करें](./manage-activex-control/)
 जानें कि Aspose.Slides for .NET का उपयोग करके ActiveX नियंत्रणों के साथ PowerPoint प्रस्तुतियों को कैसे बेहतर बनाया जाए। हमारी चरण-दर-चरण मार्गदर्शिका में प्रविष्टि, हेरफेर, अनुकूलन, ईवेंट हैंडलिंग, और बहुत कुछ शामिल है।
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

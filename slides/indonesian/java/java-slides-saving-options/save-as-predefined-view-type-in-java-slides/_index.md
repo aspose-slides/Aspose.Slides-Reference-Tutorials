@@ -3,14 +3,10 @@ title: Simpan sebagai Jenis Tampilan Standar di Slide Java
 linktitle: Simpan sebagai Jenis Tampilan Standar di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur tipe tampilan yang telah ditentukan sebelumnya di Java Slides menggunakan Aspose.Slides for Java. Panduan langkah demi langkah dengan contoh kode dan FAQ.
+type: docs
 weight: 10
 url: /id/java/saving-options/save-as-predefined-view-type-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Pengantar Simpan sebagai Tipe Tampilan Standar di Slide Java
 
@@ -113,9 +109,3 @@ Ya, Aspose.Slides untuk Java sangat cocok untuk tugas pemrosesan batch. Anda dap
 ### Di mana saya dapat menemukan informasi dan dokumentasi lebih lanjut untuk Aspose.Slides untuk Java?
 
  Untuk dokumentasi dan referensi lengkap terkait Aspose.Slides untuk Java, silakan kunjungi situs web dokumentasi:[Aspose.Slide untuk Dokumentasi Java](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

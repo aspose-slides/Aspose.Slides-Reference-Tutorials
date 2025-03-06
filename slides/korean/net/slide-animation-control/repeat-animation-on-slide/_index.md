@@ -3,14 +3,10 @@ title: Aspose.Slides .NET으로 PowerPoint 애니메이션 마스터하기
 linktitle: 슬라이드에서 애니메이션 반복
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션을 향상하세요. 손쉽게 애니메이션을 제어하고, 청중의 마음을 사로잡으며, 지속적인 인상을 남겨보세요.
+type: docs
 weight: 12
 url: /ko/net/slide-animation-control/repeat-animation-on-slide/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 역동적인 프레젠테이션 세계에서 애니메이션 제어 기능은 청중의 관심을 끌고 사로잡는 데 중추적인 역할을 합니다. .NET용 Aspose.Slides는 개발자가 슬라이드 내의 애니메이션 유형을 관리할 수 있도록 하여 보다 대화형이고 시각적으로 매력적인 프레젠테이션을 가능하게 합니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 슬라이드의 애니메이션 유형을 제어하는 방법을 단계별로 살펴보겠습니다.
 ## 전제 조건
@@ -70,9 +66,3 @@ Aspose.Slides는 다양한 PowerPoint 버전을 지원하여 이전 버전과 �
  방문하다[여기](https://purchase.aspose.com/temporary-license/) 임시 면허 취득에 관한 정보를 확인하세요.
 ### 도움이 필요하거나 더 궁금한 점이 있으신가요?
  Aspose.Slides 커뮤니티에 참여해 보세요.[지원 포럼](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

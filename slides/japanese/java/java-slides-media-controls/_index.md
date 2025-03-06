@@ -3,14 +3,10 @@ title: Aspose.Slides For Java を使用したメディア コントロール
 linktitle: Java スライド メディア コントロール
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java チュートリアルを使用して、Java スライドにメディア コントロールを実装する方法を学びます。オーディオとビデオをシームレスに使用してプレゼンテーションを強化します。
+type: docs
 weight: 22
 url: /ja/java/media-controls/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 今日のデジタル時代では、プレゼンテーションは単なるテキストと画像を含む静的なスライドではありません。プレゼンテーションは、聴衆を魅了する動的でインタラクティブな体験へと進化しています。プレゼンテーションに新しい次元を追加したいと考えている Java 開発者であれば、この記事はまさにうってつけです。この記事では、Aspose.Slides for Java チュートリアルを使用して、Java スライドにメディア コントロールを実装する方法について説明します。
 
@@ -55,9 +51,3 @@ Aspose.Slides for Java を使用して Java スライドの割り込み処理を
 Aspose.Slides for Java を使用して Java スライドのプレゼンテーション プロパティを更新する方法を学びます。作成者、タイトルなどをカスタマイズして、インパクトのあるプレゼンテーションを作成します。
 ### [Java スライドで別のプレゼンテーションをテンプレートとして使用してプレゼンテーションのプロパティを更新する](./update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/)
 Aspose.Slides for Java を使用して、更新されたメタデータで PowerPoint プレゼンテーションを強化します。Java Slides のテンプレートを使用して、作成者、タイトル、キーワードなどのプロパティを更新する方法を学習します。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

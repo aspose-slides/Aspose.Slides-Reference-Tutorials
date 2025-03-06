@@ -3,14 +3,10 @@ title: 使用 Java 變更 PowerPoint 中的 SmartArt 形狀樣式
 linktitle: 使用 Java 變更 PowerPoint 中的 SmartArt 形狀樣式
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Java 和 Aspose.Slides for Java 變更 PowerPoint 簡報中的 SmartArt 樣式。提升您的簡報效果。
+type: docs
 weight: 23
 url: /zh-hant/java/java-powerpoint-smartart-manipulation/change-smartart-shape-style-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 在 Java 開發領域，創建強大的簡報通常是一項要求。無論是出於商業宣傳、教育目的還是只是分享訊息，PowerPoint 簡報都是一種常見的媒介。然而，有時PowerPoint提供的預設樣式和格式可能並不能完全滿足我們的需求。這就是 Aspose.Slides for Java 發揮作用的地方。
 Aspose.Slides for Java 是一個強大的函式庫，可讓 Java 開發人員以程式設計方式處理 PowerPoint 簡報。它提供了廣泛的功能，包括操作形狀、樣式、動畫等等的能力。在本教程中，我們將重點放在一項特定任務：使用 Java 更改 PowerPoint 簡報中的 SmartArt 形狀樣式。
@@ -73,9 +69,3 @@ presentation.save(dataDir + "ChangeSmartArtStyle_out.pptx", SaveFormat.Pptx);
 是的，您可以從以下位置購買 Aspose.Slides for Java 的臨時授權：[這裡](https://purchase.aspose.com/temporary-license/).
 ### 在哪裡可以找到 Aspose.Slides for Java 的詳細文件？
 您可以找到 Aspose.Slides for Java 的詳細文檔[這裡](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Linking Video via ActiveX Control in PowerPoint
 linktitle: Linking Video via ActiveX Control
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to link videos to PowerPoint slides using Aspose.Slides for .NET. This step-by-step guide includes source code and tips for creating interactive and engaging presentations with linked videos.
+type: docs
 weight: 12
 url: /net/slide-view-and-layout-manipulation/linking-video-activex-control/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 Linking a Video via ActiveX Control in a Presentation using Aspose.Slides for .NET
 
 In Aspose.Slides for .NET, you can programmatically link a video to a presentation slide using the ActiveX control. This allows you to create interactive presentations where the video content can be played directly within the slide. In this step-by-step guide, we will walk you through the process of linking a video to a presentation slide using Aspose.Slides for .NET.
@@ -84,10 +80,3 @@ The size of the linked video might affect the overall size and performance of yo
 By following the steps outlined in this guide, you can easily link a video via ActiveX control in a presentation using Aspose.Slides for .NET. This feature enables you to create engaging and interactive presentations that incorporate multimedia content seamlessly.
 
 For more details and advanced options, you can refer to the [Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

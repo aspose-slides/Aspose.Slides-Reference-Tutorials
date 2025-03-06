@@ -3,14 +3,10 @@ title: 將特定幻燈片轉換為 PDF 格式
 linktitle: 將特定幻燈片轉換為 PDF 格式
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 將特定的 PowerPoint 投影片轉換為 PDF 格式。帶有程式碼範例的分步指南。
+type: docs
 weight: 19
 url: /zh-hant/net/presentation-conversion/convert-specific-slide-to-pdf-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 
 如果您希望使用 Aspose.Slides for .NET 將 PowerPoint 簡報中的特定投影片轉換為 PDF 格式，那麼您來對地方了。在這個綜合教程中，我們將逐步引導您完成整個過程，讓您輕鬆實現目標。
@@ -86,9 +82,3 @@ using (Presentation presentation = new Presentation(dataDir + "SelectedSlides.pp
 如需更多資源和文檔[API 參考的 Aspose.Slides](https://reference.aspose.com/slides/net/).
 
 既然您已經掌握了使用 Aspose.Slides for .NET 將特定投影片轉換為 PDF 的技巧，您就可以簡化 PowerPoint 自動化任務了。快樂編碼！
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Perbarui Properti Presentasi Menggunakan Presentasi Lain sebagai Templat 
 linktitle: Perbarui Properti Presentasi Menggunakan Presentasi Lain sebagai Templat di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Sempurnakan presentasi PowerPoint dengan metadata yang diperbarui menggunakan Aspose.Slides untuk Java. Pelajari cara memperbarui properti seperti penulis, judul, dan kata kunci menggunakan templat di Java Slides.
+type: docs
 weight: 14
 url: /id/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Pengantar Memperbarui Properti Presentasi Menggunakan Presentasi Lain sebagai Templat di Slide Java
 
@@ -126,9 +122,3 @@ Ya, Anda dapat menyesuaikan kode untuk memperbarui properti tertentu berdasarkan
 ### Apakah ada batasan jenis presentasi yang dapat diperbarui?
 
 Tidak, Anda dapat memperbarui properti untuk presentasi dalam berbagai format, termasuk PPTX, ODP, dan PPT.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java를 사용하여 PowerPoint의 텍스트 상자에 하이퍼링크 �
 linktitle: Java를 사용하여 PowerPoint의 텍스트 상자에 하이퍼링크 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 텍스트 상자에 하이퍼링크를 추가하는 방법을 알아보세요. Java 개발자를 위한 예제가 포함된 단계별 가이드입니다.
+type: docs
 weight: 23
 url: /ko/java/java-powerpoint-text-font-customization/add-hyperlink-text-box-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 오늘날의 디지털 시대에는 참여도와 정보를 제공하는 역동적인 프레젠테이션을 만드는 것이 효과적인 커뮤니케이션에 매우 중요합니다. 대화형 기능으로 애플리케이션을 향상시키려는 Java 개발자는 프로그래밍 방식으로 PowerPoint 프레젠테이션을 조작할 수 있는 강력한 라이브러리인 Aspose.Slides for Java를 사용하는 경우가 많습니다. 이 튜토리얼에서는 Java를 사용하여 PowerPoint 프레젠테이션의 텍스트 상자에 하이퍼링크를 추가하는 기능 중 하나를 자세히 살펴봅니다. 이 가이드를 마치면 이 기능을 Java 애플리케이션에 원활하게 구현하는 방법을 명확하게 이해하게 될 것입니다.
 ## 전제 조건
@@ -80,9 +76,3 @@ pptxPresentation.save(dataDir + "hLinkPPTX_out.pptx", SaveFormat.Pptx);
  예, 임시 라이선스를 구매할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides는 다른 Java 라이브러리와 호환됩니까?
 Aspose.Slides는 포괄적인 PowerPoint 조작을 위해 다양한 Java 라이브러리와 잘 통합됩니다.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

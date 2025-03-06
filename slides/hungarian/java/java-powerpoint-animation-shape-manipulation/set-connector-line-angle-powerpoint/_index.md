@@ -3,14 +3,10 @@ title: Állítsa be a csatlakozási vonal szögét a PowerPointban
 linktitle: Állítsa be a csatlakozási vonal szögét a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthatja be a csatlakozóvonalak szögeit PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. A diákat precízen testreszabhatja.
+type: docs
 weight: 17
 url: /hu/java/java-powerpoint-animation-shape-manipulation/set-connector-line-angle-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan állíthatjuk be a csatlakozóvonalak szögét PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. Az összekötő vonalak elengedhetetlenek az alakzatok közötti kapcsolatok és áramlások illusztrálásához a diákban. A szögük beállításával biztosíthatja, hogy prezentációi világosan és hatékonyan közvetítsék üzenetét.
 ## Előfeltételek
@@ -84,9 +80,3 @@ Az Aspose.Slides arra törekszik, hogy támogassa a legtöbb PowerPoint szolgál
 Biztosan! Az Aspose.Slides kiterjedt lehetőségeket kínál a csatlakozóvonalak testreszabására, beleértve a stílusokat, a vastagságot és a végpontokat, lehetővé téve vizuálisan tetszetős bemutatók készítését.
 ### Hol találok támogatást az Aspose.Slides-hez kapcsolódó lekérdezésekhez?
  Meglátogathatja a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) segítségért a fejlesztési folyamat során felmerülő kérdésekkel vagy problémákkal kapcsolatban.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

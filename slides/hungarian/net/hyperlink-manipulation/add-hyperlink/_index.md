@@ -3,14 +3,10 @@ title: Hiperhivatkozások hozzáadása a Slides-hez .NET-ben az Aspose.Slides se
 linktitle: Hiperhivatkozás hozzáadása a diához
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan adhat hiperhivatkozásokat PowerPoint diákhoz az Aspose.Slides for .NET segítségével. Javítsa bemutatóit interaktív elemekkel.
+type: docs
 weight: 12
 url: /hu/net/hyperlink-manipulation/add-hyperlink/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 A digitális prezentációk világában kulcsfontosságú az interaktivitás. Ha hiperhivatkozásokat ad hozzá a diákhoz, az előadást vonzóbbá és informatívabbá teheti. Az Aspose.Slides for .NET egy hatékony könyvtár, amely lehetővé teszi PowerPoint prezentációk programozott létrehozását, módosítását és kezelését. Ebben az oktatóanyagban bemutatjuk, hogyan adhat hozzá hiperhivatkozásokat diákjaihoz az Aspose.Slides for .NET segítségével. 
 
@@ -110,9 +106,3 @@ Az Aspose.Slides interaktív funkciók széles skáláját kínálja, beleértve
 ### 5. Elérhető az Aspose.Slides más programozási nyelvekhez?
 
 Igen, az Aspose.Slides különféle programozási nyelvekhez érhető el, beleértve a Java-t és a Python-t.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: تحويل تنسيق ODP إلى تنسيق PPTX
 linktitle: تحويل تنسيق ODP إلى تنسيق PPTX
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تحويل ODP إلى PPTX بسهولة باستخدام Aspose.Slides لـ .NET. اتبع دليلنا خطوة بخطوة لتحويل تنسيق العرض التقديمي بسلاسة.
+type: docs
 weight: 22
 url: /ar/net/presentation-manipulation/convert-odp-format-to-pptx-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 في العصر الرقمي الحالي، أصبحت تحويلات تنسيق المستندات ضرورة شائعة. نظرًا لأن الشركات والأفراد يسعون جاهدين لتحقيق التوافق والمرونة، فإن القدرة على التحويل بين تنسيقات الملفات المختلفة أمر لا يقدر بثمن. إذا كنت تتطلع إلى تحويل الملفات من تنسيق ODP (OpenDocument Presentation) إلى تنسيق PPTX (PowerPoint Presentation) باستخدام .NET، فأنت في المكان الصحيح. في هذا البرنامج التعليمي خطوة بخطوة، سنستكشف كيفية إنجاز هذه المهمة باستخدام Aspose.Slides for .NET.
 
@@ -87,9 +83,3 @@ using (Presentation pres = new Presentation("OpenOfficePresentation.odp"))
 ### 5. هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
 
  نعم، يمكنك الحصول على ترخيص مؤقت لأغراض الاختبار والتقييم. العثور على مزيد من المعلومات[هنا](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

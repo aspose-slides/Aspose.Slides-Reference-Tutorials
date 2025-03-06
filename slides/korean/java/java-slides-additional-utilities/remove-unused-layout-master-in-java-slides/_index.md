@@ -3,14 +3,10 @@ title: Java 슬라이드에서 사용되지 않는 레이아웃 마스터 제거
 linktitle: Java 슬라이드에서 사용되지 않는 레이아웃 마스터 제거
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 사용하지 않는 레이아웃 마스터를 제거하세요. 단계별 가이드 및 코드. 프레젠테이션 효율성을 향상시킵니다.
+type: docs
 weight: 10
 url: /ko/java/additional-utilities/remove-unused-layout-master-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 슬라이드에서 사용되지 않는 레이아웃 마스터 제거 소개
 
@@ -127,9 +123,3 @@ System.out.println("Layout slides number in result presentation = " + pres.getLa
 ### 이 글에 사용된 소스코드는 어디서 접근할 수 있나요?
 
 각 단계에서 제공되는 코드 조각 내에서 이 문서에 사용된 소스 코드를 찾을 수 있습니다. 프리젠테이션에서 사용되지 않는 레이아웃 마스터 제거를 구현하려면 코드를 Java 프로젝트에 복사하여 붙여넣기만 하면 됩니다.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

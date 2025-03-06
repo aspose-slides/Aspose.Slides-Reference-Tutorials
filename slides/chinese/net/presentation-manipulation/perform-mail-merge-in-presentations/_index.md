@@ -3,14 +3,10 @@ title: 在演示文稿中执行邮件合并
 linktitle: 在演示文稿中执行邮件合并
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 在本分步指南中学习如何使用 Aspose.Slides for .NET 在演示文稿中进行邮件合并。轻松创建动态、个性化的演示文稿。
+type: docs
 weight: 21
 url: /zh/net/presentation-manipulation/perform-mail-merge-in-presentations/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 在 .NET 开发领域，创建动态和个性化的演示文稿是一项常见要求。一个可以简化此过程的强大工具是 Aspose.Slides for .NET。在本教程中，我们将深入探讨使用 Aspose.Slides for .NET 在演示文稿中执行邮件合并的迷人领域。
 ## 先决条件
@@ -154,9 +150,3 @@ Aspose.Slides for .NET 支持各种图表，包括我们示例中所示的折线
 当然可以！您可以从以下网站免费试用 Aspose.Slides for .NET[这里](https://releases.aspose.com/).
 ## 结论
 在本教程中，我们探索了 Aspose.Slides for .NET 在演示文稿中执行邮件合并的精彩功能。通过遵循分步指南，您可以轻松创建动态和个性化的演示文稿。使用 Aspose.Slides 提升您的 .NET 开发体验，实现无缝演示文稿生成。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

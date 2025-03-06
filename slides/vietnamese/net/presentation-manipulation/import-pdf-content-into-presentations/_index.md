@@ -3,14 +3,10 @@ title: Nhập nội dung PDF vào bản trình bày
 linktitle: Nhập nội dung PDF vào bản trình bày
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách nhập liền mạch nội dung PDF vào bản trình bày bằng Aspose.Slides cho .NET. Hướng dẫn từng bước kèm theo mã nguồn này sẽ giúp bạn cải thiện bản trình bày của mình bằng cách tích hợp nội dung PDF bên ngoài.
+type: docs
 weight: 24
 url: /vi/net/presentation-manipulation/import-pdf-content-into-presentations/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu
 Việc kết hợp nội dung từ nhiều nguồn khác nhau vào bản trình bày của bạn có thể nâng cao khía cạnh trực quan và thông tin trong trang trình bày của bạn. Aspose.Slides for .NET cung cấp một giải pháp mạnh mẽ để nhập nội dung PDF vào bản trình bày, cho phép bạn cải thiện các trang trình bày của mình bằng thông tin bên ngoài. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình nhập nội dung PDF bằng Aspose.Slides cho .NET. Với hướng dẫn chi tiết từng bước và ví dụ về mã nguồn, bạn sẽ có thể tích hợp liền mạch nội dung PDF vào bản trình bày của mình.
@@ -71,9 +67,3 @@ Tuyệt đối. Aspose.Slides cung cấp nhiều tính năng để tạo các b�
 
 ## Phần kết luận
 Tích hợp nội dung PDF vào bản trình bày bằng Aspose.Slides cho .NET là một cách mạnh mẽ để cải thiện các trang trình bày của bạn bằng thông tin bên ngoài. Bằng cách làm theo hướng dẫn từng bước và sử dụng các ví dụ về mã nguồn được cung cấp, bạn có thể nhập liền mạch nội dung PDF và tạo bản trình bày kết hợp nhiều nguồn thông tin khác nhau.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: .NET용 Aspose.Slides를 사용하여 슬라이드 전환 마스터하기
 linktitle: 간단한 슬라이드 전환
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 매력적인 프레젠테이션을 만드세요. 동적 슬라이드 전환을 손쉽게 적용하는 방법을 알아보세요.
+type: docs
 weight: 13
 url: /ko/net/slide-transition-effects/simple-slide-transitions/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 전문적인 프레젠테이션의 세계에서는 청중을 사로잡는 것이 가장 중요합니다. 이를 달성하는 한 가지 방법은 슬라이드 간의 원활한 전환을 통해 콘텐츠를 향상시키고 기억에 남도록 만드는 것입니다. .NET용 Aspose.Slides를 사용하면 동적 슬라이드 전환으로 멋진 프레젠테이션을 만들 수 있는 강력한 도구를 사용할 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 간단한 슬라이드 전환의 세계를 살펴보고 이 기술을 마스터할 수 있도록 각 단계를 세분화합니다. 시작하자.
 
@@ -110,10 +106,3 @@ Aspose.Slides for .NET은 슬라이드 생성, 텍스트 서식 지정, 애니�
 
 ### 5. 구매하기 전에 Aspose.Slides for .NET을 사용해 볼 수 있나요?
  예, 다음에서 무료 평가판을 받아 .NET용 Aspose.Slides를 사용해 볼 수 있습니다.[여기](https://releases.aspose.com/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

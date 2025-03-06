@@ -3,14 +3,10 @@ title: Добавить текстовое поле на слайд програ
 linktitle: Добавить текстовое поле на слайд программно с помощью Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как программно добавить текстовое поле к слайдам PowerPoint с помощью Aspose.Slides для Java. Повысьте свою продуктивность с помощью этого пошагового руководства.
+type: docs
 weight: 24
 url: /ru/java/java-powerpoint-text-font-customization/add-text-box-slide-programmatically-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 Программное создание презентаций PowerPoint и управление ими может упростить многие рабочие процессы: от создания отчетов до автоматизации презентаций. Aspose.Slides для Java предоставляет мощный API, который позволяет разработчикам эффективно выполнять эти задачи. В этом уроке мы покажем вам, как добавить текстовое поле на слайд с помощью Aspose.Slides для Java. К концу этого руководства вы получите четкое представление о том, как интегрировать эту функциональность в ваши приложения Java.
 ## Предварительные условия
@@ -71,9 +67,3 @@ pres.save(dataDir + "TextBox_out.pptx", SaveFormat.Pptx);
  Вы можете получить[временная лицензия](https://purchase.aspose.com/temporary-license/) из Аспозе.
 ### Поддерживает ли Aspose.Slides преобразование презентаций в другие форматы?
 Да, он поддерживает различные форматы, включая PDF и изображения.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

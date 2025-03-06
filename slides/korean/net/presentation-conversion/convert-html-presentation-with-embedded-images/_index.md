@@ -3,14 +3,10 @@ title: 포함된 이미지로 HTML 프리젠테이션 변환
 linktitle: 포함된 이미지로 HTML 프리젠테이션 변환
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 이미지가 포함된 PowerPoint 프레젠테이션을 HTML로 변환하는 방법을 알아보세요. 원활한 변환을 위한 단계별 가이드입니다.
+type: docs
 weight: 11
 url: /ko/net/presentation-conversion/convert-html-presentation-with-embedded-images/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 오늘날의 디지털 세계에서는 PowerPoint 프레젠테이션을 HTML로 변환하는 것이 점점 더 중요해지고 있습니다. 온라인으로 콘텐츠를 공유하든 웹 기반 프레젠테이션을 만들든 PowerPoint 파일을 HTML로 변환하는 기능은 귀중한 자산이 될 수 있습니다. Aspose.Slides for .NET은 이러한 변환을 원활하게 수행할 수 있는 강력한 라이브러리입니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 이미지가 포함된 HTML 프레젠테이션을 변환하는 과정을 안내합니다.
 
@@ -119,9 +115,3 @@ Aspose.Slides for .NET은 애니메이션을 포함한 다양한 요소가 포�
 
 ### Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션을 변환할 수 있는 다른 형식은 무엇입니까?
 .NET용 Aspose.Slides는 PDF, 이미지 등을 포함한 다양한 형식으로의 변환을 지원합니다. 지원되는 형식의 전체 목록은 설명서를 확인하세요.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

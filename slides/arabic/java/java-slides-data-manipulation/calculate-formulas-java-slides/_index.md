@@ -3,14 +3,10 @@ title: حساب الصيغ في شرائح جافا
 linktitle: حساب الصيغ في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية حساب الصيغ في Java Slides باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع التعليمات البرمجية المصدر لعروض PowerPoint التقديمية الديناميكية.
+type: docs
 weight: 10
 url: /ar/java/data-manipulation/calculate-formulas-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة لحساب الصيغ في شرائح Java باستخدام Aspose.Slides
 
@@ -118,10 +114,3 @@ try {
 ### كيف يمكنني حساب الصيغ في مصنف؟
 
  يمكنك حساب الصيغ في مصنف باستخدام`calculateFormulas` طريقة`IChartDataWorkbook` في Aspose.Slides.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

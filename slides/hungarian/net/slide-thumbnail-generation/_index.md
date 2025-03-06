@@ -3,14 +3,10 @@ title: Dia miniatűrök generálása
 linktitle: Dia miniatűrök generálása
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre dia miniatűröket az Aspose.Slides for .NET használatával. Lépésről lépésre bemutató kódpéldákkal a dinamikus dia előnézetek létrehozásához. Bővítse prezentációs alkalmazásait ezzel a hatékony funkcióval.
+type: docs
 weight: 17
 url: /hu/net/slide-thumbnail-generation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés:
 
@@ -41,9 +37,3 @@ Ismerje meg, hogyan hozhat létre bélyegképeket PowerPoint diákból az Aspose
 Az Aspose.Slides for .NET segítségével bélyegképeket hozhat létre jegyzeteket tartalmazó diákból. Ismerje meg lépésről lépésre, hogyan bonthat ki jegyzeteket, hozhat létre bélyegképeket, és hogyan javíthatja a PowerPoint-kezelést. 
 ### [Indexkép létrehozása egyéni méretekkel](./generate-thumbnail-with-custom-dimensions/)
 Ismerje meg, hogyan hozhat létre egyéni méretű bélyegképeket diákban az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató forráskóddal. Javítsa prezentációit lenyűgöző látványvilággal. 
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

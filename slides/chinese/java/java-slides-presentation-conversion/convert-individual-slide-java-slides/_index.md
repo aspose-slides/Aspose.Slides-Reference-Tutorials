@@ -3,14 +3,10 @@ title: 在 Java 幻灯片中转换单个幻灯片
 linktitle: 在 Java 幻灯片中转换单个幻灯片
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 的代码示例逐步将单个 PowerPoint 幻灯片转换为 HTML。
+type: docs
 weight: 12
 url: /zh/java/presentation-conversion/convert-individual-slide-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java Slides 中单个幻灯片转换简介
 
@@ -174,9 +170,3 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 ### 如何处理幻灯片中形状和文本的附加格式？
 
 您可以扩展`CustomFormattingController`通过实现来处理形状特定的格式`writeShapeStart`和`writeShapeEnd`方法并在其中应用自定义格式逻辑。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

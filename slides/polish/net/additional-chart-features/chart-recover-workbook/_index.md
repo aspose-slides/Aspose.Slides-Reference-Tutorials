@@ -3,14 +3,10 @@ title: Jak używać Aspose.Slides .NET do odzyskiwania skoroszytu z wykresu
 linktitle: Odzyskaj skoroszyt z wykresu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak odzyskać skoroszyt z wykresu w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby efektywnie wyodrębniać dane.
+type: docs
 weight: 12
 url: /pl/net/additional-chart-features/chart-recover-workbook/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Jeśli chcesz pracować z prezentacjami programu PowerPoint w platformie .NET, Aspose.Slides dla platformy .NET to potężna biblioteka, która może pomóc Ci osiągnąć Twoje cele. W tym samouczku przeprowadzimy Cię przez proces odzyskiwania skoroszytu z wykresu w prezentacji PowerPoint przy użyciu Aspose.Slides dla .NET. Ta zaawansowana funkcja może być przydatna, gdy chcesz wyodrębnić dane z wykresów w prezentacjach. Podzielimy proces na łatwe do wykonania kroki, dzięki czemu będziesz mieć pewność, że wiesz, jak wykonać to zadanie.
 
@@ -105,9 +101,3 @@ Aspose.Slides dla .NET to potężna biblioteka .NET do pracy z plikami Microsoft
 ### 5. Jaka jest maksymalna długość tytułu do optymalizacji SEO?
 
 W celu optymalizacji SEO zaleca się, aby tytuł nie zawierał 60 znaków, aby zapewnić jego prawidłowe wyświetlanie w wynikach wyszukiwania.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Állítsa be a hézag szélességét a Java Slides-ben
 linktitle: Állítsa be a hézag szélességét a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthatja be a hézagszélességet a Java Slides programban az Aspose.Slides for Java segítségével. Növelje PowerPoint-prezentációi diagramképét.
+type: docs
 weight: 21
 url: /hu/java/data-manipulation/set-gap-width-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés a hézagszélesség beállításába az Aspose.Slides for Java programban
 
@@ -162,9 +158,3 @@ Igen, az Aspose.Slides for Java kiterjedt lehetőségeket kínál a diagramok te
 ### Hol találok további forrásokat és dokumentációt?
 
  Az Aspose.Slides for Java webhelyen átfogó dokumentációt és további forrásokat találhat[Aspose honlapja](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Cập nhật thuộc tính bản trình bày bằng cách sử dụng b�
 linktitle: Cập nhật thuộc tính bản trình bày bằng cách sử dụng bản trình bày khác làm mẫu trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Nâng cao bản trình bày PowerPoint với siêu dữ liệu được cập nhật bằng Aspose.Slides cho Java. Tìm hiểu cách cập nhật các thuộc tính như tác giả, tiêu đề và từ khóa bằng cách sử dụng các mẫu trong Java Slides.
+type: docs
 weight: 14
 url: /vi/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu về Cập nhật thuộc tính bản trình bày bằng cách sử dụng bản trình bày khác làm mẫu trong Java Slides
 
@@ -126,9 +122,3 @@ Có, bạn có thể tùy chỉnh mã để cập nhật các thuộc tính cụ
 ### Có giới hạn nào về loại bản trình bày có thể được cập nhật không?
 
 Không, bạn có thể cập nhật thuộc tính cho bản trình bày ở nhiều định dạng khác nhau, bao gồm PPTX, ODP và PPT.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

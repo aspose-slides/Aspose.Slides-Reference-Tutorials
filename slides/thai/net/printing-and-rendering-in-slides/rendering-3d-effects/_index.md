@@ -3,14 +3,10 @@ title: การเรียนรู้เอฟเฟกต์ 3D - Aspose.Sli
 linktitle: การแสดงเอฟเฟกต์ 3 มิติในสไลด์การนำเสนอด้วย Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: เรียนรู้การเพิ่มเอฟเฟ็กต์ 3D ที่สวยงามให้กับสไลด์การนำเสนอของคุณด้วย Aspose.Slides สำหรับ .NET ทำตามคำแนะนำทีละขั้นตอนของเราเพื่อให้ได้ภาพที่น่าทึ่ง!
+type: docs
 weight: 13
 url: /th/net/printing-and-rendering-in-slides/rendering-3d-effects/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## การแนะนำ
 การสร้างสไลด์การนำเสนอที่ดึงดูดสายตาถือเป็นสิ่งสำคัญสำหรับการสื่อสารที่มีประสิทธิภาพ Aspose.Slides สำหรับ .NET นำเสนอคุณสมบัติอันทรงพลังเพื่อปรับปรุงสไลด์ของคุณ รวมถึงความสามารถในการเรนเดอร์เอฟเฟกต์ 3D ในบทช่วยสอนนี้ เราจะสำรวจวิธีใช้ประโยชน์จาก Aspose.Slides เพื่อเพิ่มเอฟเฟกต์ 3D อันน่าทึ่งให้กับสไลด์การนำเสนอของคุณได้อย่างง่ายดาย
 ## ข้อกำหนดเบื้องต้น
@@ -81,9 +77,3 @@ pres.Slides[0].GetThumbnail(2, 2).Save(outPngFile, ImageFormat.Png);
 ใช่ คุณสามารถดาวน์โหลด Aspose.Slides เวอร์ชันทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
 ### ฉันจะรับการสนับสนุนได้อย่างไรหากฉันประสบปัญหา
  เยี่ยมชมฟอรัม Aspose.Slides[ที่นี่](https://forum.aspose.com/c/slides/11) สำหรับการสนับสนุนและช่วยเหลือชุมชน
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

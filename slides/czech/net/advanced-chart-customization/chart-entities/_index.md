@@ -3,14 +3,10 @@ title: Vytváření krásných grafů pomocí Aspose.Slides pro .NET
 linktitle: Entity grafu a formátování
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se vytvářet úžasné grafy pomocí Aspose.Slides pro .NET. Vylepšete svou hru s vizualizací dat pomocí našeho podrobného průvodce.
+type: docs
 weight: 13
 url: /cs/net/advanced-chart-customization/chart-entities/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 V dnešním světě založeném na datech je efektivní vizualizace dat klíčem k předávání informací vašemu publiku. Aspose.Slides for .NET je výkonná knihovna, která vám umožní vytvářet úžasné prezentace a snímky, včetně poutavých grafů. V tomto tutoriálu vás provedeme procesem vytváření krásných grafů pomocí Aspose.Slides pro .NET. Každý příklad rozdělíme do několika kroků, které vám pomohou pochopit a implementovat entity grafu a formátování. Takže, pojďme začít!
 
@@ -265,10 +261,3 @@ Aspose.Slides for .NET je výkonná knihovna, která umožňuje vývojářům .N
 ### 5. Existuje komunita nebo fórum podpory pro Aspose.Slides for .NET?
 
  Ano, můžete najít komunitu a fórum podpory Aspose.Slides[tady](https://forum.aspose.com/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

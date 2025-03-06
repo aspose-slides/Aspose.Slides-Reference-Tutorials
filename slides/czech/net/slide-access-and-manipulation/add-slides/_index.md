@@ -3,14 +3,10 @@ title: Vložit další snímky do prezentace
 linktitle: Vložit další snímky do prezentace
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se vkládat další snímky do prezentací PowerPoint pomocí Aspose.Slides for .NET. Tento podrobný průvodce poskytuje příklady zdrojového kódu a podrobné pokyny pro bezproblémové vylepšení vašich prezentací. Přizpůsobitelný obsah, tipy na vkládání a časté dotazy v ceně.
+type: docs
 weight: 15
 url: /cs/net/slide-access-and-manipulation/add-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod do vkládání dalších snímků do prezentace
 
@@ -111,9 +107,3 @@ Absolutně. Pomocí rozsáhlých funkcí Aspose.Slides můžete změnit rozvrže
 ### Kde najdu další informace o Aspose.Slides pro .NET?
 
  Podrobnou dokumentaci a příklady naleznete na[Aspose.Slides pro dokumentaci .NET](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

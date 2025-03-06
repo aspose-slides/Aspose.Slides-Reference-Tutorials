@@ -3,14 +3,10 @@ title: Clone Slide at End of Another Presentation
 linktitle: Clone Slide at End of Another Presentation
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to clone a slide at the end of another presentation using Aspose.Slides for Java in this comprehensive step-by-step tutorial.
+type: docs
 weight: 11
 url: /java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-presentation-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Have you ever found yourself in a situation where you needed to merge slides from multiple PowerPoint presentations? It can be quite a hassle, right? Well, not anymore! Aspose.Slides for Java is a powerful library that makes manipulating PowerPoint presentations a breeze. In this tutorial, we'll walk you through the process of cloning a slide from one presentation and adding it to the end of another presentation using Aspose.Slides for Java. Trust me, by the end of this guide, you'll be handling your presentations like a pro!
 ## Prerequisites
@@ -85,10 +81,3 @@ Aspose.Slides for Java is a commercial product, but you can download a free tria
 No, once you've downloaded the library, you don't need an internet connection to use it.
 ### Where can I get support if I encounter issues?
 You can get support from the Aspose community forums [here](https://forum.aspose.com/c/slides/11).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: PowerPoint で図形を複製する
 linktitle: PowerPoint で図形を複製する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint プレゼンテーションの図形を複製する方法を学びます。このわかりやすいチュートリアルでワークフローを効率化します。
+type: docs
 weight: 16
 url: /ja/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーション内の図形を複製する方法について説明します。図形を複製すると、プレゼンテーション内の既存の図形を複製できます。これは、一貫したレイアウトを作成したり、スライド間で要素を繰り返したりする場合などに特に便利です。
 ## 前提条件
@@ -61,9 +57,3 @@ Aspose.Slides for Java は強力な複製機能を提供しますが、複雑な
 はい、Aspose.Slides for Java を使用して、PowerPoint プレゼンテーション内のスライド、テキスト、画像、その他の要素を複製できます。
 ### Aspose.Slides for Java の試用版はありますか?
 はい、Aspose.Slides for Javaの無料試用版を以下からダウンロードできます。[Webサイト](https://releases.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

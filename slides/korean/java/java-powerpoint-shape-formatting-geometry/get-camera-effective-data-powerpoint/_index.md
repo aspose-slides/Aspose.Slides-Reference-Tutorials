@@ -3,14 +3,10 @@ title: PowerPoint에서 카메라 유효 데이터 가져오기
 linktitle: PowerPoint에서 카메라 유효 데이터 가져오기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 이 단계별 가이드를 통해 Aspose.Slides for Java를 사용하여 PowerPoint 슬라이드에서 효과적인 카메라 데이터를 검색하는 방법을 알아보세요.
+type: docs
 weight: 24
 url: /ko/java/java-powerpoint-shape-formatting-geometry/get-camera-effective-data-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 Aspose.Slides for Java는 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 생성, 수정 및 관리할 수 있는 강력한 라이브러리입니다. 보고서 생성을 자동화하든, 맞춤형 슬라이드를 생성하든, 단순히 프레젠테이션 데이터로 작업하든 Aspose.Slides는 귀하의 요구 사항을 충족하는 포괄적인 기능 세트를 제공합니다. 이 가이드에서는 Aspose.Slides for Java를 사용하여 PowerPoint 슬라이드에서 카메라 유효 데이터를 검색하는 방법을 살펴보겠습니다. 각 단계를 안내하여 프로세스를 명확하게 이해할 수 있도록 도와드립니다.
 ## 전제 조건
@@ -74,9 +70,3 @@ Aspose.Slides는 .NET을 포함한 여러 프로그래밍 언어에서 사용할
  예, 상업용 라이센스를 구매할 수 있습니다[여기](https://purchase.aspose.com/buy).
 ### Java용 Aspose.Slides에 대한 설명서는 어디에서 찾을 수 있나요?
  문서를 사용할 수 있습니다[여기](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

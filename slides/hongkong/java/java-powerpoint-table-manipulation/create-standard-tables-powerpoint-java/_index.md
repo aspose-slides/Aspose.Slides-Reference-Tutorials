@@ -3,14 +3,10 @@ title: 使用 Java 在 PowerPoint 中建立標準表格
 linktitle: 使用 Java 在 PowerPoint 中建立標準表格
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 在 PowerPoint 中使用 Java 建立標準表格。請遵循我們詳細的逐步指南，以獲得無縫體驗。
+type: docs
 weight: 21
 url: /zh-hant/java/java-powerpoint-table-manipulation/create-standard-tables-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 建立具有視覺吸引力的 PowerPoint 簡報通常需要添加各種元素（例如表格）以清楚地組織和呈現資料。 Aspose.Slides for Java 提供了強大的 API 來以程式設計方式處理 PowerPoint 檔案。本教學將引導您完成使用 Java 在 PowerPoint 中建立標準表格的過程，分解每個步驟以確保順利且全面的學習體驗。
 ## 先決條件
@@ -105,9 +101,3 @@ Aspose.Slides for Java 是一個功能強大的 API，可讓開發人員以程�
 您可以從以下位置購買許可證[Aspose 購買頁面](https://purchase.aspose.com/buy).
 ### Aspose.Slides for Java 支援所有 PowerPoint 格式嗎？
 是的，Aspose.Slides for Java 支援所有主要的 PowerPoint 格式，包括 PPT、PPTX、PPS 等。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

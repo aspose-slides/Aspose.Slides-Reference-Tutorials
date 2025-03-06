@@ -3,14 +3,10 @@ title: 幻灯片中的形状对齐和格式
 linktitle: 幻灯片中的形状对齐和格式
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 探索有关 .NET 应用程序中形状对齐和格式化的全面 Aspose.Slides 教程。学习如何轻松对齐和格式化形状，精确增强幻灯片演示效果。
+type: docs
 weight: 14
 url: /zh/net/shape-alignment-and-formatting-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 介绍
 
@@ -48,9 +44,3 @@ url: /zh/net/shape-alignment-and-formatting-in-slides/
 了解如何使用 Aspose.Slides for .NET 在 PowerPoint 中为图片框左侧添加拉伸偏移。带有完整源代码示例的分步指南。
 ### [替换演示文稿幻灯片中的 OLE 对象框架的图片标题](./substituting-picture-title-ole-object-frame/)
 了解如何使用 Aspose.Slides for .NET 替换演示幻灯片中 OLE 对象框架的图片标题。带有完整源代码的分步指南。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

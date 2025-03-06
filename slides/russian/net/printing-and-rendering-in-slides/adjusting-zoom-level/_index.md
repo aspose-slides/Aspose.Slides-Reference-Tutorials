@@ -3,14 +3,10 @@ title: Легко регулируйте уровни масштабирован
 linktitle: Настройка уровня масштабирования слайдов презентации в Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как легко настраивать уровни масштабирования слайдов презентации с помощью Aspose.Slides для .NET. Расширьте возможности PowerPoint благодаря точному управлению.
+type: docs
 weight: 17
 url: /ru/net/printing-and-rendering-in-slides/adjusting-zoom-level/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 В динамичном мире презентаций контроль уровня масштабирования имеет решающее значение для обеспечения привлекательности и привлекательности вашей аудитории. Aspose.Slides for .NET предоставляет мощный набор инструментов для программного управления слайдами презентации. В этом уроке мы рассмотрим, как настроить уровень масштабирования слайдов презентации с помощью Aspose.Slides в среде .NET.
 ## Предварительные условия
@@ -64,9 +60,3 @@ In this tutorial, we explored the step-by-step process of adjusting the zoom lev
  По любым вопросам или проблемам посетите форум Aspose.Slides.[здесь](https://forum.aspose.com/c/slides/11) искать сообщества и поддержки.
 ### 5. Как мне приобрести Aspose.Slides для .NET?
  Чтобы приобрести Aspose.Slides для .NET, нажмите[здесь](https://purchase.aspose.com/buy)изучить варианты лицензирования.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

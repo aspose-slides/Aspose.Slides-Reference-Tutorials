@@ -3,14 +3,10 @@ title: Rendu des commentaires de diapositive dans Aspose.Slides
 linktitle: Rendu des commentaires de diapositive dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment afficher les commentaires des diapositives dans Aspose.Slides pour .NET avec notre didacticiel étape par étape. Personnalisez l'apparence des commentaires et améliorez votre automatisation PowerPoint.
+type: docs
 weight: 12
 url: /fr/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Bienvenue dans notre didacticiel complet sur le rendu des commentaires de diapositives à l'aide d'Aspose.Slides pour .NET ! Aspose.Slides est une bibliothèque puissante qui permet aux développeurs de travailler de manière transparente avec des présentations PowerPoint dans leurs applications .NET. Dans ce guide, nous nous concentrerons sur une tâche spécifique (le rendu des commentaires sur les diapositives) et vous guiderons pas à pas tout au long du processus.
 ## Conditions préalables
@@ -90,9 +86,3 @@ R : Oui, Aspose.Slides est régulièrement mis à jour pour prendre en charge le
  R : Vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 ### Q : Où puis-je demander de l'aide et du support pour Aspose.Slides ?
  R : Visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien de la communauté.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

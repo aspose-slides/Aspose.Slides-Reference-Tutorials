@@ -3,14 +3,10 @@ title: Aplicar formato de preenchimento de marcadores de maneira eficaz em Java 
 linktitle: Aplicar formato de preenchimento de marcadores de maneira eficaz em Java PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como aplicar formatos de preenchimento de marcadores em Java PowerPoint usando Aspose.Slides para Java. Domine estilos de marcadores e aprimore suas apresentações.
+type: docs
 weight: 15
 url: /pt/java/java-powerpoint-text-box-manipulation/apply-bullet-fill-format-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 No cenário digital atual, habilidades de apresentação eficazes são cruciais para profissionais de vários domínios. A criação de apresentações atraentes em PowerPoint requer não apenas criatividade, mas também conhecimento técnico para aproveitar todo o potencial de ferramentas como Aspose.Slides for Java. Este tutorial se aprofunda em um desses aspectos: aplicar formatos de preenchimento de marcadores programaticamente usando Aspose.Slides para Java. Quer você seja um desenvolvedor, um profissional de negócios ou um estudante em busca de aprimorar suas habilidades de apresentação, dominar os formatos de preenchimento com marcadores pode elevar significativamente o apelo visual e a clareza de seus slides.
 ## Pré-requisitos
@@ -94,9 +90,3 @@ Com certeza, Aspose.Slides for Java foi projetado para lidar com requisitos robu
 Sim, Aspose.Slides for Java oferece APIs para integrações baseadas em nuvem.
 ### Posso experimentar o Aspose.Slides para Java antes de comprar?
  Sim, você pode começar com um[teste grátis](https://releases.aspose.com/) para avaliar suas características.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

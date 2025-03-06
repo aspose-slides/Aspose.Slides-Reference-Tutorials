@@ -3,14 +3,10 @@ title: Az OLE objektumok útmutatójának beágyazása az Aspose.Slides segíts�
 linktitle: Az OLE objektumkeret képcímének helyettesítése a bemutató diákban
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan javíthatja bemutatódiáit dinamikus OLE-objektumokkal az Aspose.Slides for .NET segítségével. Kövesse lépésenkénti útmutatónkat a zökkenőmentes integráció érdekében.
+type: docs
 weight: 15
 url: /hu/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 A dinamikus és lebilincselő prezentációs diák létrehozása gyakran magában foglalja a különféle multimédiás elemek beépítését. Ebben az oktatóanyagban azt fogjuk megvizsgálni, hogyan lehet helyettesíteni egy OLE (Object Linking and Embedding) objektumkeret képcímét a bemutató diákjaiban a hatékony Aspose.Slides for .NET könyvtár használatával. Az Aspose.Slides leegyszerűsíti az OLE-objektumok kezelésének folyamatát, és olyan eszközöket biztosít a fejlesztőknek, amelyek segítségével könnyedén javíthatják prezentációikat.
 ## Előfeltételek
@@ -87,9 +83,3 @@ legújabb verziótól kezdve az Aspose.Slides az OLE objektumok beágyazására 
 Biztosan. Teljes programozási vezérléssel rendelkezik az OLE objektumok felett, így szükség szerint módosíthatja azok tulajdonságait és megjelenését.
 ### Vannak korlátozások a beágyazott OLE objektumok méretére vonatkozóan?
 Bár méretkorlátozások vannak, általában nagylelkűek. Javasoljuk, hogy tesztelje az adott használati esettel az optimális teljesítmény biztosítása érdekében.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

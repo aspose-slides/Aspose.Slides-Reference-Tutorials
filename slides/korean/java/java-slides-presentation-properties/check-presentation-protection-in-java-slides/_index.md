@@ -3,14 +3,10 @@ title: Java 슬라이드에서 프레젠테이션 보호 확인
 linktitle: Java 슬라이드에서 프레젠테이션 보호 확인
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드에서 프레젠테이션 보호를 확인하는 방법을 알아보세요. 이 단계별 가이드에서는 쓰기 및 열기 보호 검사에 대한 코드 예제를 제공합니다.
+type: docs
 weight: 15
 url: /ko/java/presentation-properties/check-presentation-protection-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 슬라이드에서 프리젠테이션 보호 확인 소개
 
@@ -117,9 +113,3 @@ if (presentationInfo.isPasswordProtected())
 ### Aspose.Slides for Java는 최신 PowerPoint 파일 형식과 호환됩니까?
 
 예, Aspose.Slides for Java는 .pptx 파일을 포함한 최신 PowerPoint 파일 형식을 지원합니다.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Преобразование HTML-изображений в слайды 
 linktitle: Преобразование HTML-изображений в слайды Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Преобразование PowerPoint в HTML со встроенными изображениями. Пошаговое руководство по использованию Aspose.Slides для Java. Научитесь легко автоматизировать преобразование презентаций в Java.
+type: docs
 weight: 11
 url: /ru/java/presentation-conversion/convert-html-embedding-images-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Введение в преобразование HTML-изображений в слайды Java
 
@@ -129,10 +125,3 @@ try {
 ### Как обрабатывать ошибки во время преобразования?
 
 Вы можете поместить код преобразования в блок try-catch для обработки исключений, которые могут возникнуть в процессе преобразования.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

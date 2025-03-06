@@ -3,14 +3,10 @@ title: Zaznacz tekst w programie PowerPoint za pomocą języka Java
 linktitle: Zaznacz tekst w programie PowerPoint za pomocą języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak wyróżniać tekst w programie PowerPoint przy użyciu Aspose.Slides dla Java. Automatyzuj i ulepszaj prezentacje bez wysiłku, korzystając z naszego szczegółowego przewodnika.
+type: docs
 weight: 10
 url: /pl/java/java-powerpoint-text-highlighting-fallback-rules/highlight-text-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 dzisiejszej epoce cyfrowej, gdzie komunikacja wizualna odgrywa kluczową rolę w prezentacjach biznesowych i materiałach edukacyjnych, możliwość programowego manipulowania i ulepszania prezentacji PowerPoint jest znaczącą zaletą. Aspose.Slides for Java udostępnia programistom solidny zestaw narzędzi do płynnej integracji i manipulowania slajdami programu PowerPoint przy użyciu języka programowania Java. Niezależnie od tego, czy automatyzujesz tworzenie prezentacji, modyfikujesz istniejące, czy wyodrębniasz dane ze slajdów, Aspose.Slides dla Java zapewnia niezbędne funkcjonalności do wydajnej realizacji tych zadań.
 ## Warunki wstępne
@@ -66,9 +62,3 @@ Aspose.Slides for Java to interfejs API języka Java, który umożliwia programi
 Aspose.Slides for Java obsługuje zapisywanie prezentacji w różnych formatach, w tym PPTX, PPT, PDF i innych.
 ### Czy Aspose.Slides for Java jest kompatybilny z zestawem Java SE Development Kit?
 Tak, Aspose.Slides for Java jest kompatybilny z zestawem Java SE Development Kit.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

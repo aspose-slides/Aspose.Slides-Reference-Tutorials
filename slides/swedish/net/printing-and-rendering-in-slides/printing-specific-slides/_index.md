@@ -3,14 +3,10 @@ title: Skriv ut presentationsbilder med Aspose.Slides i .NET
 linktitle: Skriva ut specifika presentationsbilder med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du skriver ut presentationsbilder i .NET med Aspose.Slides. Steg-för-steg-guide för utvecklare. Ladda ner biblioteket och börja skriva ut idag.
+type: docs
 weight: 18
 url: /sv/net/printing-and-rendering-in-slides/printing-specific-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 I en värld av .NET-utveckling framstår Aspose.Slides som ett kraftfullt verktyg för att arbeta med presentationsfiler. Om du någonsin har hittat dig själv i behov av att skriva ut presentationsbilder programmatiskt, är du på rätt plats. I den här handledningen kommer vi att undersöka hur du uppnår detta med Aspose.Slides för .NET.
 ## Förutsättningar
@@ -63,9 +59,3 @@ S: Ja, du kan uppnå det genom att ändra koden för att selektivt skriva ut spe
  A: Absolut! Du kan ladda ner en gratis testversion[här](https://releases.aspose.com/).
 ### F: Hur köper jag Aspose.Slides för .NET?
  S: Du kan köpa biblioteket[här](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Ajouter des nœuds à SmartArt dans Java PowerPoint
 linktitle: Ajouter des nœuds à SmartArt dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajouter des nœuds SmartArt aux présentations Java PowerPoint à l'aide d'Aspose.Slides pour Java. Améliorez l’attrait visuel sans effort.
+type: docs
 weight: 15
 url: /fr/java/java-powerpoint-smartart-manipulation/add-nodes-smartart-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Dans le domaine des présentations Java PowerPoint, la manipulation des nœuds SmartArt peut considérablement améliorer l'attrait visuel et l'efficacité de vos diapositives. Aspose.Slides for Java offre une solution robuste permettant aux développeurs Java d'intégrer de manière transparente les fonctionnalités SmartArt dans leurs présentations. Dans ce didacticiel, nous aborderons le processus d'ajout de nœuds à SmartArt dans des présentations Java PowerPoint à l'aide d'Aspose.Slides.
 ## Conditions préalables
@@ -75,9 +71,3 @@ Absolument, vous pouvez parcourir les diapositives et ajouter des nœuds SmartAr
 Oui, Aspose.Slides pour Java offre une suite complète de fonctionnalités pour la manipulation PowerPoint, notamment la création de diapositives, l'animation et la gestion des formes.
 ### Où puis-je demander de l’aide ou du support pour Aspose.Slides pour Java ?
  Vous pouvez visiter le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour obtenir le soutien de la communauté ou explorez la documentation pour obtenir des conseils détaillés.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

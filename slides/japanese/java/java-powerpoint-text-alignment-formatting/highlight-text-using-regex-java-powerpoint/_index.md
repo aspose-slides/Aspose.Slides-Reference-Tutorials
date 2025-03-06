@@ -3,14 +3,10 @@ title: Java PowerPoint で正規表現を使用してテキストを強調表示
 linktitle: Java PowerPoint で正規表現を使用してテキストを強調表示する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java で正規表現パターンを使用して PowerPoint のテキストを強調表示する方法を学びます。プレゼンテーションを動的に強化します。
+type: docs
 weight: 15
 url: /ja/java/java-powerpoint-text-alignment-formatting/highlight-text-using-regex-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 PowerPoint プレゼンテーションの作成と操作のための Java ベースの開発の分野では、Aspose.Slides for Java が堅牢なソリューションとして際立っています。このチュートリアルでは、Aspose.Slides を利用して、PowerPoint プレゼンテーション内で正規表現 (regex) を使用してテキストを強調表示する方法に焦点を当てています。このガイドを読み終えると、正規表現パターンを実装してスライド内の特定のテキストを強調表示し、機能性と視覚的な明瞭性の両方を向上させる方法が理解できるようになります。
 ## 前提条件
@@ -66,9 +62,3 @@ presentation.save(dataDir + "SomePresentation-out.pptx", SaveFormat.Pptx);
 もちろんです。強調表示以外にも、フォントのスタイル設定、配置など、幅広いテキスト操作機能を提供します。
 ### 購入前に Aspose.Slides for Java を試すことはできますか?
 はい、まずは[無料トライアル](https://releases.aspose.com/)その能力を評価するため。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

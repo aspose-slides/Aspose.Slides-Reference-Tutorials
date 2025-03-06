@@ -3,14 +3,10 @@ title: Atur Penggantian Font di Java PowerPoint
 linktitle: Atur Penggantian Font di Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur fallback font di Java PowerPoint menggunakan Aspose.Slides for Java untuk memastikan tampilan teks yang konsisten.
+type: docs
 weight: 16
 url: /id/java/java-powerpoint-text-font-customization/set-font-fallback-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari seluk-beluk pengaturan fallback font dalam presentasi Java PowerPoint menggunakan Aspose.Slides untuk Java. Penggantian font sangat penting untuk memastikan bahwa teks dalam presentasi Anda ditampilkan dengan benar di berbagai perangkat dan sistem operasi, bahkan ketika font yang diperlukan tidak tersedia.
 ## Prasyarat
@@ -57,9 +53,3 @@ Ya, Aspose.Slides untuk Java kompatibel dengan IDE Java populer seperti IntelliJ
 Ya, lisensi sementara untuk produk Aspose dapat diperoleh dari[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya dapat menemukan dukungan untuk Aspose.Slides untuk Java?
  Untuk dukungan terkait Aspose.Slides untuk Java, kunjungi[Asumsikan forum](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

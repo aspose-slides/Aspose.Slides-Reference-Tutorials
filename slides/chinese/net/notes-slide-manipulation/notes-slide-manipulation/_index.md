@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 进行笔记幻灯片操作
 linktitle: 使用 Aspose.Slides 进行笔记幻灯片操作
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 管理 PowerPoint 幻灯片中的页眉和页脚。轻松删除注释并自定义演示文稿。
+type: docs
 weight: 10
 url: /zh/net/notes-slide-manipulation/notes-slide-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 在当今的数字时代，创建引人入胜的演示文稿是一项必备技能。Aspose.Slides for .NET 是一款功能强大的工具，可让您轻松操作和自定义演示文稿幻灯片。在本分步指南中，我们将引导您完成使用 Aspose.Slides for .NET 的一些基本任务。我们将介绍如何管理注释幻灯片中的页眉和页脚、删除特定幻灯片中的注释以及从所有幻灯片中删除注释。
 
@@ -169,10 +165,3 @@ Aspose.Slides for .NET 使您能够完全控制 PowerPoint 演示文稿。借助
 ### 我可以使用 Aspose.Slides for .NET 操作 PowerPoint 演示文稿的其他方面吗？
 
 是的，Aspose.Slides for .NET 提供了多种 PowerPoint 演示文稿处理功能，包括幻灯片、形状、文本等。查看文档了解详情。
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

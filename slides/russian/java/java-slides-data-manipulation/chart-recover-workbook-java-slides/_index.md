@@ -3,14 +3,10 @@ title: Книга восстановления диаграмм в слайда�
 linktitle: Книга восстановления диаграмм в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как восстановить книги из диаграмм в Java Slides с помощью Aspose.Slides. Пошаговое руководство по автоматизации PowerPoint.
+type: docs
 weight: 17
 url: /ru/java/data-manipulation/chart-recover-workbook-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Введение в книгу восстановления диаграмм в слайдах Java
 
@@ -113,9 +109,3 @@ finally
 ### Как я могу получить доступ к дополнительной документации по Aspose.Slides для Java?
 
  Подробную документацию и ссылки на Aspose.Slides для Java можно найти на странице документации по адресу:[здесь](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

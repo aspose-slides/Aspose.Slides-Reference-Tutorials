@@ -3,14 +3,10 @@ title: Χρωματισμός γραφήματος με Aspose.Slides για .NE
 linktitle: Προσθήκη χρώματος στα σημεία δεδομένων στο γράφημα
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε χρώμα σε σημεία δεδομένων σε ένα γράφημα με το Aspose.Slides για .NET. Βελτιώστε τις παρουσιάσεις σας οπτικά και προσελκύστε αποτελεσματικά το κοινό σας.
+type: docs
 weight: 12
 url: /el/net/licensing-and-formatting/add-color-to-data-points/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία προσθήκης χρώματος σε σημεία δεδομένων σε ένα γράφημα χρησιμοποιώντας το Aspose.Slides για .NET. Το Aspose.Slides είναι μια ισχυρή βιβλιοθήκη για εργασία με παρουσιάσεις PowerPoint σε εφαρμογές .NET. Η προσθήκη χρώματος σε σημεία δεδομένων σε ένα γράφημα μπορεί να κάνει τις παρουσιάσεις σας πιο ελκυστικές και πιο κατανοητές.
 
@@ -119,9 +115,3 @@ pres.Save(dataDir + "AddColorToDataPoints.pptx", SaveFormat.Pptx);
 
 ### Πώς μπορώ να λάβω υποστήριξη για το Aspose.Slides για .NET;
     Για υποστήριξη και συζητήσεις, επισκεφτείτε το[Φόρουμ Aspose.Slides](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: 在 Java 幻灯片中另存为只读
 linktitle: 在 Java 幻灯片中另存为只读
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 在 Java 中将 PowerPoint 演示文稿保存为只读。通过分步说明和代码示例保护您的内容。
+type: docs
 weight: 11
 url: /zh/java/saving-options/save-as-read-only-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 使用 Aspose.Slides for Java 在 Java Slides 中保存为只读的简介
 
@@ -131,9 +127,3 @@ presentation.getProtectionManager().removeWriteProtection();
 ### 设置只读密码后可以更改吗？
 
 是的，设置只读密码后您可以更改它。使用`setReadProtection(String newPassword)`方法用新密码来更新只读保护密码。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

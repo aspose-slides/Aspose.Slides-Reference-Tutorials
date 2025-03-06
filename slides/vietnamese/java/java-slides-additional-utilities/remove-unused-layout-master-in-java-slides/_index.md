@@ -3,14 +3,10 @@ title: Xóa Layout Master không sử dụng trong Java Slides
 linktitle: Xóa Layout Master không sử dụng trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Xóa các bố cục không sử dụng bằng Aspose.Slides. Hướng dẫn từng bước và mã. Nâng cao hiệu quả trình bày.
+type: docs
 weight: 10
 url: /vi/java/additional-utilities/remove-unused-layout-master-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu về Xóa Layout Master không sử dụng trong Java Slides
 
@@ -127,9 +123,3 @@ Không, việc xóa các bản cái bố cục không sử dụng sẽ không �
 ### Tôi có thể truy cập mã nguồn được sử dụng trong bài viết này ở đâu?
 
 Bạn có thể tìm thấy mã nguồn được sử dụng trong bài viết này trong các đoạn mã được cung cấp ở mỗi bước. Chỉ cần sao chép và dán mã vào dự án Java của bạn để thực hiện loại bỏ các bố cục gốc không được sử dụng trong bản trình bày của bạn.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

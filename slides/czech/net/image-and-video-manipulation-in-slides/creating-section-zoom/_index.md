@@ -3,14 +3,10 @@ title: Aspose.Slides Section Zoom – pozvedněte své prezentace
 linktitle: Vytváření sekce Přiblížení snímků prezentace pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se vytvářet poutavé prezentační snímky s přiblížením sekce pomocí Aspose.Slides pro .NET. Vylepšete své prezentace pomocí interaktivních funkcí.
+type: docs
 weight: 13
 url: /cs/net/image-and-video-manipulation-in-slides/creating-section-zoom/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 Vylepšení snímků prezentace pomocí interaktivních funkcí je zásadní pro udržení pozornosti publika. Jedním z účinných způsobů, jak toho dosáhnout, je začlenění přiblížení sekcí, které vám umožní plynule přecházet mezi různými částmi vaší prezentace. V tomto tutoriálu prozkoumáme, jak vytvořit přiblížení sekcí na snímcích prezentace pomocí Aspose.Slides pro .NET.
 ## Předpoklady
@@ -74,9 +70,3 @@ Absolutně! Máte plnou kontrolu nad rozměry, umístěním a stylem rámečku p
  Ano, funkce Aspose.Slides můžete prozkoumat pomocí[zkušební verze zdarma](https://releases.aspose.com/).
 ### Kde mohu získat podporu pro dotazy související s Aspose.Slides?
  V případě jakékoli podpory nebo dotazů navštivte stránku[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

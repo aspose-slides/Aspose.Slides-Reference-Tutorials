@@ -3,14 +3,10 @@ title: Szerezze meg a diagram adatcímkéjének tényleges pozícióját a Java 
 linktitle: Szerezze meg a diagram adatcímkéjének tényleges pozícióját a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan kaphatja meg a diagram adatcímkéinek tényleges pozícióját a Java Slides programban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal.
+type: docs
 weight: 18
 url: /hu/java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés a diagram adatcímke tényleges pozíciójának lekéréséhez Java Slides-ben
 
@@ -161,9 +157,3 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

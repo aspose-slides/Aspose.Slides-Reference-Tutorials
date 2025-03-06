@@ -3,14 +3,10 @@ title: Java 슬라이드의 차트 플롯 영역에서 너비 및 높이 가져�
 linktitle: Java 슬라이드의 차트 플롯 영역에서 너비 및 높이 가져오기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드에서 차트 플롯 영역 크기를 검색하는 방법을 알아보세요. PowerPoint 자동화 기술을 향상하세요.
+type: docs
 weight: 21
 url: /ko/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 소개
 
@@ -113,10 +109,3 @@ finally
 ### Java용 Aspose.Slides에 대해 어떻게 더 자세히 알아볼 수 있나요?
 
  Aspose.Slides for Java 문서 페이지에서 광범위한 문서와 예제를 찾을 수 있습니다.[여기](https://reference.aspose.com/slides/java/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: الرسوم المتحركة للشرائح الرئيسية باستخ�
 linktitle: التحكم في الرسوم المتحركة للشرائح في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: ارفع مستوى عروضك التقديمية باستخدام Aspose.Slides لـ .NET! تعلم كيفية التحكم في الرسوم المتحركة للشرائح دون عناء. قم بتنزيل المكتبة الآن!
+type: docs
 weight: 10
 url: /ar/net/slide-animation-control/slide-animation-control/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 يمكن أن يؤدي تحسين عروضك التقديمية من خلال شرائح الرسوم المتحركة الجذابة إلى زيادة التأثير الإجمالي على جمهورك بشكل كبير. في هذا البرنامج التعليمي، سنستكشف كيفية التحكم في الرسوم المتحركة للشرائح باستخدام Aspose.Slides لـ .NET. Aspose.Slides هي مكتبة قوية تتيح المعالجة السلسة لعروض PowerPoint التقديمية في بيئة .NET.
 ## المتطلبات الأساسية
@@ -81,9 +77,3 @@ pres.Save(dataDir + "SampleTransition_out.pptx", SaveFormat.Pptx);
  يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني شراء Aspose.Slides لـ .NET؟
  شراء المكتبة[هنا](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

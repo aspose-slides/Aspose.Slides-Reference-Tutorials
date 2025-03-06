@@ -3,14 +3,10 @@ title: Définir les options personnalisées de la légende dans les diapositives
 linktitle: Définir les options personnalisées de la légende dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir des options de légende personnalisées dans Java Slides à l'aide d'Aspose.Slides pour Java. Personnalisez la position et la taille de la légende dans vos graphiques PowerPoint.
+type: docs
 weight: 14
 url: /fr/java/customization-and-formatting/set-legend-custom-options-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction à la définition des options personnalisées de légende dans les diapositives Java
 
@@ -135,9 +131,3 @@ Dans ce didacticiel, nous avons appris à personnaliser les propriétés de lég
 ## Puis-je personnaliser d’autres attributs de légende ?
 
 Oui, vous pouvez personnaliser divers attributs de la légende, tels que le style de police, la bordure, la couleur d'arrière-plan, etc. Explorez la documentation Aspose.Slides pour obtenir des informations détaillées sur la personnalisation ultérieure des légendes.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

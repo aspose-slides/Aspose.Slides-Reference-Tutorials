@@ -3,14 +3,10 @@ title: Скрыть фигуры в PowerPoint
 linktitle: Скрыть фигуры в PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как скрыть фигуры в PowerPoint с помощью Aspose.Slides для Java, с помощью нашего подробного пошагового руководства. Идеально подходит для Java-разработчиков всех уровней.
+type: docs
 weight: 27
 url: /ru/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 Добро пожаловать в наше подробное руководство по сокрытию фигур в PowerPoint с помощью Aspose.Slides для Java! Если вам когда-либо приходилось программно скрывать определенные фигуры в презентациях PowerPoint, вы попали по адресу. Это руководство проведет вас через каждый шаг в простом разговорном стиле. Являетесь ли вы опытным разработчиком или только начинаете работать с Java, мы вам поможем.
 ## Предварительные условия
@@ -85,9 +81,3 @@ Aspose.Slides доступен для различных языков прогр
  Да, вы можете загрузить бесплатную пробную версию с сайта[здесь](https://releases.aspose.com/).
 ### Где я могу получить поддержку для Aspose.Slides?
  Вы можете получить поддержку от[Форум поддержки Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

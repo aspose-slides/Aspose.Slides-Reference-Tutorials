@@ -3,14 +3,10 @@ title: Szegmens eltávolítása a geometriai alakzatból a PowerPointban
 linktitle: Szegmens eltávolítása a geometriai alakzatból a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Részletes, lépésenkénti útmutatónkból megtudhatja, hogyan távolíthat el szegmenseket a PowerPoint geometriai alakzataiból az Aspose.Slides for Java segítségével.
+type: docs
 weight: 22
 url: /hu/java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-shape-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Alakzatokat szeretne manipulálni PowerPoint-prezentációiban Java használatával? Jó helyre jöttél! Az Aspose.Slides for Java egy robusztus API, amellyel könnyedén hozhat létre, módosíthat és kezelhet diákat prezentációiban. Ebben az oktatóanyagban végigvezetjük a szegmens eltávolításának folyamatán egy geometriai alakzatból a PowerPointban. Akár tapasztalt fejlesztő, akár csak most kezdi, ez az útmutató lépésről lépésre bemutatja a feladat elsajátítását. Készen állsz a merülésre? Kezdjük el!
 ## Előfeltételek
@@ -75,9 +71,3 @@ Teljesen! Az Aspose.Slides for Java a kezelhető alakzatok széles skáláját t
  Igen, a teljes funkcionalitáshoz licenc szükséges. Vásárolhat egyet[itt](https://purchase.aspose.com/buy) vagy szerezzen ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### Hol találok további dokumentációt az Aspose.Slides for Java-ról?
  Átfogó dokumentáció áll rendelkezésre[itt](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

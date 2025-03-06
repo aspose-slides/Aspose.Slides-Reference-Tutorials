@@ -3,14 +3,10 @@ title: Obtenez des données efficaces sur Light Rig dans PowerPoint
 linktitle: Obtenez des données efficaces sur Light Rig dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment récupérer des données efficaces pour un montage léger à partir de présentations PowerPoint à l'aide d'Aspose.Slides pour Java dans ce guide détaillé étape par étape.
+type: docs
 weight: 25
 url: /fr/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-data-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Cherchez-vous à automatiser vos tâches de présentation PowerPoint à l’aide de Java ? Cherchez pas plus loin! Aspose.Slides pour Java est une bibliothèque puissante qui permet aux développeurs de créer, manipuler et convertir des fichiers PowerPoint sans avoir besoin d'installer Microsoft PowerPoint. Dans ce guide complet, nous vous guiderons à travers les étapes permettant d'obtenir des données efficaces et légères à partir d'une présentation PowerPoint à l'aide d'Aspose.Slides pour Java. Que vous soyez un développeur Java chevronné ou tout juste débutant, ce tutoriel vous aidera à exploiter tout le potentiel d'Aspose.Slides dans vos projets.
 ## Conditions préalables
@@ -70,9 +66,3 @@ Oui, vous pouvez utiliser Aspose.Slides sans avoir installé Microsoft PowerPoin
  La documentation est disponible sur[ce lien](https://reference.aspose.com/slides/java/).
 ### Comment puis-je obtenir de l'aide pour Aspose.Slides ?
  Vous pouvez obtenir de l'aide sur le forum d'assistance Aspose.Slides[ici](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

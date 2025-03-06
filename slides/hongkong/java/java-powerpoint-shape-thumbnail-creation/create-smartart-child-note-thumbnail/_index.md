@@ -3,14 +3,10 @@ title: 建立 SmartArt 子筆記縮圖
 linktitle: 建立 SmartArt 子筆記縮圖
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 在 Java 中建立 SmartArt 子筆記縮圖，從而輕鬆增強您的 PowerPoint 簡報。
+type: docs
 weight: 15
 url: /zh-hant/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-thumbnail/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 在本教程中，我們將探索如何使用 Aspose.Slides 在 Java 中建立 SmartArt 子筆記縮圖。 Aspose.Slides 是一個功能強大的 Java API，可讓開發人員以程式設計方式處理 PowerPoint 簡報，輕鬆建立、修改和操作投影片。
 ## 先決條件
@@ -74,9 +70,3 @@ ImageIO.write(bmp, "jpeg", new File(dataDir + "SmartArt_ChildNote_Thumbnail_out.
 當然！ Aspose.Slides 為建立和操作不同複雜度的 SmartArt 圖表提供全面支援。
 ### Aspose.Slides 是否為開發人員提供技術支援？
 是的，Aspose.Slides 透過他們的技術為開發人員提供專門的技術支持[論壇](https://forum.aspose.com/c/slides/11)和其他管道。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

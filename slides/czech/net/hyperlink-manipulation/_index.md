@@ -3,14 +3,10 @@ title: Manipulace s hypertextovými odkazy
 linktitle: Manipulace s hypertextovými odkazy
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vylepšete své aplikace .NET pomocí komplexní manipulace s hypertextovými odkazy pomocí Aspose.Slides. Naučte se, jak spravovat hypertextové odkazy, vytvářet interaktivní prezentace a zvýšit zapojení uživatelů bez námahy.
+type: docs
 weight: 13
 url: /cs/net/hyperlink-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod:
 
@@ -31,9 +27,3 @@ Naučte se přidávat hypertextové odkazy na snímky v PowerPointu pomocí Aspo
 Naučte se efektivně spravovat hypertextové odkazy v prezentacích pomocí Aspose.Slides for .NET. Automatizujte úkoly, vytvářejte interaktivní nabídky a zvyšte zapojení uživatelů.
 ### [Vytváření proměnných hypertextových odkazů](./mutable-hyperlink/)
 Naučte se vytvářet měnitelné hypertextové odkazy pomocí Aspose.Slides pro .NET. Podrobný průvodce se zdrojovým kódem pro dynamické prezentace.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

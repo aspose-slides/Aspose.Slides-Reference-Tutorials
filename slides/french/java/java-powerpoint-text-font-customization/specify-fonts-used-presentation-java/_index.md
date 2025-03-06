@@ -3,14 +3,10 @@ title: Spécifier les polices utilisées dans la présentation avec Java
 linktitle: Spécifier les polices utilisées dans la présentation avec Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment spécifier des polices personnalisées dans les présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Améliorez vos diapositives avec une typographie unique sans effort.
+type: docs
 weight: 22
 url: /fr/java/java-powerpoint-text-font-customization/specify-fonts-used-presentation-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 À l'ère numérique d'aujourd'hui, la création de présentations visuellement convaincantes est cruciale pour une communication efficace, tant dans le monde des affaires que dans le milieu universitaire. Aspose.Slides for Java fournit une plate-forme robuste permettant aux développeurs Java de générer et de manipuler dynamiquement des présentations PowerPoint. Ce didacticiel vous guidera tout au long du processus de spécification des polices utilisées dans une présentation à l'aide d'Aspose.Slides pour Java. À la fin, vous disposerez des connaissances nécessaires pour intégrer de manière transparente des polices personnalisées dans vos projets PowerPoint, améliorant ainsi leur attrait visuel et garantissant la cohérence de la marque.
 ## Conditions préalables
@@ -75,9 +71,3 @@ Oui, vous pouvez spécifier des polices à différents niveaux, notamment au niv
 Aspose.Slides n'impose pas de limitations strictes sur le nombre de polices personnalisées ; cependant, considérez les implications en termes de performances.
 ### Puis-je charger dynamiquement des polices au moment de l’exécution sans les intégrer dans mon application ?
 Oui, vous pouvez charger des polices à partir de sources externes ou de mémoire, comme démontré dans ce didacticiel.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

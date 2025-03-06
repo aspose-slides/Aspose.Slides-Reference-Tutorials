@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 更改簡報中的 OLE 物件數據
 linktitle: 使用 Aspose.Slides 更改簡報中的 OLE 物件數據
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 探索 Aspose.Slides for .NET 在輕鬆更改 OLE 物件資料方面的強大功能。透過動態內容增強您的簡報。
+type: docs
 weight: 25
 url: /zh-hant/net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 創建動態和互動式 PowerPoint 簡報是當今數位世界的常見要求。實現這一目標的一個強大工具是 Aspose.Slides for .NET，這是一個強大的程式庫，可讓開發人員以程式設計方式操作和增強 PowerPoint 簡報。在本教程中，我們將深入研究使用 Aspose.Slides 更改簡報投影片中的 OLE（物件連結和嵌入）物件資料的過程。
 ## 先決條件
@@ -92,9 +88,3 @@ Aspose.Slides for .NET 是一個功能強大的函式庫，使開發人員能夠
 是的，您可以免費試用[這裡](https://releases.aspose.com/).
 ### 在哪裡可以獲得 Aspose.Slides for .NET 的支援？
 如需支援和討論，請訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

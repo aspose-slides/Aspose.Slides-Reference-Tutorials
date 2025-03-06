@@ -3,14 +3,10 @@ title: Adding Audio Frames to Presentation Slides using Aspose.Slides
 linktitle: Adding Audio Frames to Presentation Slides using Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Enhance presentations with Aspose.Slides for .NET! Learn to seamlessly add audio frames, engaging your audience like never before.
+type: docs
 weight: 14
 url: /net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 In the dynamic world of presentations, incorporating audio elements can significantly enhance the overall experience for your audience. Aspose.Slides for .NET empowers developers to seamlessly integrate audio frames into presentation slides, adding a new layer of engagement and interactivity. This step-by-step guide will walk you through the process of adding audio frames to presentation slides using Aspose.Slides for .NET.
 ## Prerequisites
@@ -67,10 +63,3 @@ Yes, you can explore the features of Aspose.Slides for .NET with the [free trial
 Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) to seek assistance and engage with the community.
 ### How do I purchase Aspose.Slides for .NET?
 You can purchase the library from the [Aspose store](https://purchase.aspose.com/buy).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java スライドのフォント サイズの凡例
 linktitle: Java スライドのフォント サイズの凡例
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint プレゼンテーションを強化します。ステップバイステップ ガイドで、凡例のフォント サイズなどをカスタマイズする方法を学びます。
+type: docs
 weight: 13
 url: /ja/java/chart-elements/font-size-legend-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java スライドのフォント サイズ凡例の紹介
 
@@ -139,9 +135,3 @@ chart.getAxes().getVerticalAxis().setMaxValue(10);
 ### Aspose.Slides の詳細情報とドキュメントはどこで入手できますか?
 
  Aspose.Slides for Javaの包括的なドキュメントとAPIリファレンスは、AsposeドキュメントWebサイトでご覧いただけます。[ここ](https://reference.aspose.com/slides/java/)ライブラリの使用に関する詳細情報。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

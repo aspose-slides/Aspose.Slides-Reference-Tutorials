@@ -3,14 +3,10 @@ title: Kopieer dia naar precieze locatie in andere presentatie
 linktitle: Kopieer dia naar precieze locatie in andere presentatie
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u dia's naar precieze locaties in verschillende presentaties kunt kopiëren met Aspose.Slides voor .NET. Deze stapsgewijze handleiding biedt broncode en instructies voor naadloze PowerPoint-manipulatie.
+type: docs
 weight: 18
 url: /nl/net/slide-access-and-manipulation/clone-slide-to-specific-position-in-another-presentation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot Aspose.Slides voor .NET
 
@@ -98,9 +94,3 @@ Ja, met Aspose.Slides kunt u de inhoud van dia's programmatisch manipuleren, inc
 ### Waar kan ik meer documentatie en voorbeelden vinden voor Aspose.Slides?
 
  Uitgebreide documentatie en voorbeelden voor Aspose.Slides voor .NET vindt u in de documentatie:[Aspose.Slides voor .NET-documentatie](https://reference.aspose.com/slides/net/)
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

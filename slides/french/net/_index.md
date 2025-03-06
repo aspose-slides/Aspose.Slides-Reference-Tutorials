@@ -1,15 +1,12 @@
 ---
 title: Libérer la puissance de la manipulation et de la conversion des présentations
 linktitle: Aspose.Slides pour les didacticiels .NET
+type: docs
 weight: 10
 url: /fr/net/
 description: Découvrez le monde de la manipulation, de la conversion et du traitement PowerPoint de présentations avec les didacticiels Aspose.Slides pour .NET. Apprenez à créer, convertir et améliorer des présentations pour obtenir des résultats percutants.
+is_root: true
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 Bienvenue dans la collection complète de didacticiels Aspose.Slides pour .NET, où vous découvrirez l'art de la manipulation, de la conversion et du traitement PowerPoint de présentations. Ces didacticiels vous servent de guide pour maîtriser les capacités d'Aspose.Slides, vous permettant de naviguer de manière transparente à travers divers aspects de la création, de la personnalisation et de la transformation de présentations. Que vous cherchiez à automatiser des tâches PowerPoint, à convertir des présentations dans différents formats ou à améliorer des diapositives avec du multimédia, ces didacticiels fournissent des instructions étape par étape pour faciliter votre parcours de développement.
 
 ## Conversion de présentation : transformer facilement des diapositives
@@ -63,9 +60,3 @@ Améliorez vos présentations de diapositives avec des images et des vidéos cap
 Améliorez vos compétences en manipulation de diapositives avec les didacticiels Aspose.Slides sur la géométrie des formes et le positionnement dans les diapositives. Apprenez à contrôler par programmation les formes, leurs dimensions et leur alignement.
 ### [Alignement des formes et formatage dans les diapositives](./shape-alignment-and-formatting-in-slides/)
 Explorez les didacticiels complets Aspose.Slides sur l'alignement et le formatage des formes dans les applications .NET. Apprenez à aligner et formater les formes sans effort, améliorant ainsi vos présentations de diapositives avec précision. 
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

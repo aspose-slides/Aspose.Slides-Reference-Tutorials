@@ -3,14 +3,10 @@ title: แผนภูมิกล่องใน Java Slides
 linktitle: แผนภูมิกล่องใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีสร้าง Box Charts ในงานนำเสนอ Java ด้วย Aspose.Slides มีคำแนะนำทีละขั้นตอนและซอร์สโค้ดเพื่อการแสดงภาพข้อมูลที่มีประสิทธิภาพ
+type: docs
 weight: 10
 url: /th/java/chart-elements/box-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## รู้เบื้องต้นเกี่ยวกับแผนภูมิกล่องใน Aspose.Slides สำหรับ Java
 
@@ -152,9 +148,3 @@ finally
 ### QuartileMethodType.Exclusive หมายถึงอะไร
 
  ที่`QuartileMethodType.Exclusive` การตั้งค่าระบุว่าการคำนวณควอไทล์ควรทำโดยใช้วิธีพิเศษ คุณสามารถเลือกวิธีคำนวณควอไทล์ที่แตกต่างกันได้ ขึ้นอยู่กับข้อมูลและข้อกำหนดของคุณ
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

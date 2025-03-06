@@ -3,14 +3,10 @@ title: Java Slaytlarında PDF Uyumluluğuna Dönüştürme
 linktitle: Java Slaytlarında PDF Uyumluluğuna Dönüştürme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarını PDF/A-2a uyumluluğuyla PDF'ye nasıl dönüştüreceğinizi öğrenin. Sorunsuz arşivleme ve erişilebilirlik için kaynak kodlu adım adım kılavuzumuzu izleyin.
+type: docs
 weight: 26
 url: /tr/java/presentation-conversion/convert-pdf-compliance-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java Slaytlarında PDF'ye Dönüştürme Uyumluluğuna Giriş
 
@@ -118,9 +114,3 @@ Evet, Aspose.Slides for Java'nın PDF uyumluluğunu ayarlamak da dahil olmak üz
 ## Aspose.Slides for Java ve PDF uyumluluğu hakkında daha fazla bilgiyi nerede bulabilirim?
 
  Aspose.Slides for Java ve özellikleri (PDF uyumluluk ayarları da dahil) hakkında daha ayrıntılı bilgi için şu adresteki belgelere başvurabilirsiniz:[Java API Referansı için Aspose.Slides](https://reference.aspose.com/slides/java/). Ek olarak, kitaplık hakkındaki bilginizi daha da geliştirmek için kod örneklerini ve eğitimleri keşfedebilirsiniz.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

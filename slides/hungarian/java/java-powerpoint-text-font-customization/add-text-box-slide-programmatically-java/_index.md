@@ -3,14 +3,10 @@ title: Szövegdoboz hozzáadása a diához programozottan Java segítségével
 linktitle: Szövegdoboz hozzáadása a diához programozottan Java segítségével
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat programozottan szövegdobozt PowerPoint diákhoz az Aspose.Slides for Java segítségével. Növelje termelékenységét ezzel a lépésenkénti útmutatóval.
+type: docs
 weight: 24
 url: /hu/java/java-powerpoint-text-font-customization/add-text-box-slide-programmatically-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 A PowerPoint-prezentációk programozott létrehozása és kezelése számos munkafolyamatot leegyszerűsíthet, a jelentések létrehozásától a prezentációk automatizálásáig. Az Aspose.Slides for Java hatékony API-t biztosít, amely lehetővé teszi a fejlesztők számára, hogy hatékonyan hajtsák végre ezeket a feladatokat. Ebben az oktatóanyagban végigvezetjük, hogyan adhat szövegdobozt egy diához az Aspose.Slides for Java segítségével. Az oktatóanyag végére világosan megérti, hogyan integrálhatja ezt a funkciót Java-alkalmazásaiba.
 ## Előfeltételek
@@ -71,9 +67,3 @@ Természetesen összetett feladatok hatékony kezelésére tervezték.
  Megszerezheti a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) Aspose-tól.
 ### Az Aspose.Slides támogatja a prezentációk más formátumba konvertálását?
 Igen, különféle formátumokat támogat, beleértve a PDF-et és a képeket.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

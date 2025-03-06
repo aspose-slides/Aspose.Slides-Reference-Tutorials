@@ -3,14 +3,10 @@ title: Java スライドで特定のチャート シリーズ データ ポイ�
 linktitle: Java スライドで特定のチャート シリーズ データ ポイント データをクリアする
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java スライドのチャート シリーズから特定のデータ ポイントをクリアする方法を学びます。効果的なデータ視覚化管理のためのソース コード付きのステップ バイ ステップ ガイドです。
+type: docs
 weight: 15
 url: /ja/java/chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java スライドで特定のチャート シリーズ データ ポイント データをクリアする方法の紹介
 
@@ -125,9 +121,3 @@ Aspose.Slides for Java のグラフ シリーズから特定のデータ ポイ�
 ### Aspose.Slides for Java の詳細情報はどこで入手できますか?
 
 包括的なドキュメントと例は、[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

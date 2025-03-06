@@ -3,14 +3,10 @@ title: Opanowanie wyrównywania kształtów za pomocą Aspose.Slides dla .NET
 linktitle: Wyrównywanie kształtów na slajdach prezentacji za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naucz się bez wysiłku wyrównywać kształty na slajdach prezentacji, korzystając z Aspose.Slides dla .NET. Zwiększ atrakcyjność wizualną dzięki precyzyjnemu wyrównaniu. Pobierz teraz!
+type: docs
 weight: 10
 url: /pl/net/shape-alignment-and-formatting-in-slides/aligning-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 Tworzenie atrakcyjnych wizualnie slajdów prezentacyjnych często wymaga precyzyjnego dopasowania kształtów. Aspose.Slides dla .NET zapewnia potężne rozwiązanie umożliwiające łatwe osiągnięcie tego celu. W tym samouczku omówimy, jak wyrównywać kształty na slajdach prezentacji za pomocą Aspose.Slides dla .NET.
 ## Warunki wstępne
@@ -86,9 +82,3 @@ Absolutnie! Aspose.Slides zapewnia metody równomiernego rozprowadzania kształt
 Aspose.Slides dla .NET jest przeznaczony głównie dla aplikacji Windows, ale Aspose udostępnia biblioteki także dla Javy i innych platform.
 ### Jak mogę uzyskać dalszą pomoc lub wsparcie?
  Odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) za wsparcie społeczności i dyskusje.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

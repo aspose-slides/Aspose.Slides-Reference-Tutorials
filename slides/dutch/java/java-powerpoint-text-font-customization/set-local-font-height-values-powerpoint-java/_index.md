@@ -3,14 +3,10 @@ title: Stel lokale lettertypehoogtewaarden in PowerPoint in met behulp van Java
 linktitle: Stel lokale lettertypehoogtewaarden in PowerPoint in met behulp van Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u de letterhoogten in PowerPoint-presentaties kunt aanpassen met Java met Aspose.Slides. Verbeter moeiteloos de tekstopmaak in uw dia's.
+type: docs
 weight: 17
 url: /nl/java/java-powerpoint-text-font-customization/set-local-font-height-values-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 In deze zelfstudie leert u hoe u de letterhoogten op verschillende niveaus in PowerPoint-presentaties kunt manipuleren met Aspose.Slides voor Java. Het beheersen van de lettergroottes is cruciaal voor het creëren van visueel aantrekkelijke en gestructureerde presentaties. We zullen stapsgewijze voorbeelden doornemen om te illustreren hoe u de letterhoogten voor verschillende tekstelementen kunt instellen.
 ## Vereisten
@@ -69,9 +65,3 @@ Aspose.Slides voor Java is een krachtige API voor het programmatisch manipuleren
  Voor ondersteuning kunt u terecht op de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11).
 ### Waar kan ik een licentie kopen voor Aspose.Slides voor Java?
  U kunt een licentie kopen[hier](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

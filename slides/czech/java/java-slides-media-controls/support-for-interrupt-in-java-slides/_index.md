@@ -3,14 +3,10 @@ title: Podpora přerušení v Java Slides
 linktitle: Podpora přerušení v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Master Java Slides zpracování přerušení pomocí Aspose.Slides for Java. Tento podrobný průvodce poskytuje podrobné pokyny a příklady kódu pro bezproblémovou správu přerušení.
+type: docs
 weight: 12
 url: /cs/java/media-controls/support-for-interrupt-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 # Úvod do podpory přerušení v Java Slides s Aspose.Slides pro Java
 
 Aspose.Slides for Java je výkonná knihovna pro vytváření, manipulaci a práci s prezentacemi PowerPoint v aplikacích Java. V tomto komplexním průvodci prozkoumáme, jak využít podporu pro přerušení v Java Slides pomocí Aspose.Slides pro Java. Ať už jste zkušený vývojář nebo teprve začínáte, tento podrobný tutoriál vás provede celým procesem s podrobnými vysvětleními a příklady kódu.
@@ -137,9 +133,3 @@ Obsluha přerušení je užitečná zejména ve scénářích, kdy potřebujete 
 ### Kde mohu získat přístup k dalším zdrojům a dokumentaci k Aspose.Slides for Java?
 
 Komplexní dokumentaci, návody a příklady pro Aspose.Slides pro Javu naleznete na[Aspose webové stránky](https://reference.aspose.com/slides/java/). Kromě toho se můžete obrátit na tým podpory Aspose, který vám pomůže s vaším konkrétním případem použití.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

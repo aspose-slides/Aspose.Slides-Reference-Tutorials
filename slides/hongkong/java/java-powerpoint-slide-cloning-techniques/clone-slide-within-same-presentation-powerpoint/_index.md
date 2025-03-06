@@ -3,14 +3,10 @@ title: 在同一簡報中克隆投影片
 linktitle: 在同一簡報中克隆投影片
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 和我們的指南在同一簡報中複製投影片。非常適合希望簡化 PowerPoint 操作的開發人員。
+type: docs
 weight: 15
 url: /zh-hant/java/java-powerpoint-slide-cloning-techniques/clone-slide-within-same-presentation-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 您準備好深入了解 Aspose.Slides for Java 的世界並學習如何在同一簡報中複製投影片了嗎？本教程將引導您完成從先決條件到最終實現的所有需要了解的內容。讓我們開始吧！
 ## 先決條件
@@ -71,9 +67,3 @@ Aspose.Slides for Java 是一個功能強大的 API，用於在 Java 應用程�
 Aspose.Slides for Java 的文檔可在[阿斯普斯網站](https://reference.aspose.com/slides/java/).
 ### 如何購買 Aspose.Slides for Java？
 您可以透過造訪購買 Aspose.Slides for Java[購買頁面](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

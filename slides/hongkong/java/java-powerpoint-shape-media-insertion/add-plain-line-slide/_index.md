@@ -3,14 +3,10 @@ title: 新增普通線到幻燈片
 linktitle: 新增普通線到幻燈片
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 以程式設計方式為 PowerPoint 投影片新增普通線條。透過本逐步指南提高您的工作效率。
+type: docs
 weight: 14
 url: /zh-hant/java/java-powerpoint-shape-media-insertion/add-plain-line-slide/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 Aspose.Slides for Java 是一個功能強大的函式庫，可讓 Java 開發人員以程式設計方式處理 PowerPoint 簡報。使用 Aspose.Slides，您可以輕鬆建立、修改和轉換 PowerPoint 文件，從而節省時間和精力。在本教學中，我們將引導您完成使用 Aspose.Slides for Java 為 PowerPoint 簡報中的投影片新增普通線條的過程。
 ## 先決條件
@@ -66,9 +62,3 @@ pres.save("Your Document Directory/LineShape1_out.pptx", SaveFormat.Pptx);
 是的，您可以使用 Aspose.Slides API 將文字、圖像和其他內容新增至投影片中。
 ### Aspose.Slides 是否有免費試用版？
 是的，您可以從以下位置下載 Aspose.Slides 的免費試用版：[這裡](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

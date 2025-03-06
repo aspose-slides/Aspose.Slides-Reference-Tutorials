@@ -3,14 +3,10 @@ title: Adjon hozzá digitális aláírásokat a PowerPointhoz az Aspose.Slides s
 linktitle: A digitális aláírások támogatása az Aspose.Slides-ben
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Biztonságosan írjon alá PowerPoint-prezentációkat az Aspose.Slides for .NET segítségével. Kövesse lépésenkénti útmutatónkat. Töltse le most az ingyenes próbaverzióhoz
+type: docs
 weight: 19
 url: /hu/net/printing-and-rendering-in-slides/digital-signature-support/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 A digitális aláírások döntő szerepet játszanak a digitális dokumentumok hitelességének és integritásának biztosításában. Az Aspose.Slides for .NET erőteljes támogatást nyújt a digitális aláírásokhoz, lehetővé téve a PowerPoint-prezentációk biztonságos aláírását. Ebben az oktatóanyagban végigvezetjük a digitális aláírások hozzáadásának folyamatán az Aspose.Slides segítségével.
 ## Előfeltételek
@@ -66,9 +62,3 @@ Az Aspose.Slides módszereket biztosít a digitális aláírások programozott e
  A dokumentáció elérhető[itt](https://reference.aspose.com/slides/net/).
 ### Támogatásra van szüksége, vagy további kérdései vannak?
  Meglátogatni a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Hapus Node pada Posisi Tertentu di SmartArt
 linktitle: Hapus Node pada Posisi Tertentu di SmartArt
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menghapus simpul pada posisi tertentu dalam SmartArt menggunakan Aspose.Slides untuk Java. Tingkatkan penyesuaian presentasi dengan mudah.
+type: docs
 weight: 15
 url: /id/java/java-powerpoint-smartart-manipulation/remove-node-specific-position-smartart-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam bidang pengembangan Java, Aspose.Slides muncul sebagai alat yang ampuh untuk memanipulasi presentasi secara terprogram. Baik itu membuat, memodifikasi, atau mengelola slide, Aspose.Slides for Java menyediakan serangkaian fitur canggih untuk menyederhanakan tugas-tugas ini secara efisien. Salah satu operasi umum tersebut adalah menghapus node pada posisi tertentu dalam objek SmartArt. Tutorial ini mempelajari proses langkah demi langkah untuk mencapai hal ini menggunakan Aspose.Slides untuk Java.
 ## Prasyarat
@@ -66,9 +62,3 @@ Dengan Aspose.Slides for Java, memanipulasi objek SmartArt dalam presentasi menj
  Untuk membeli Aspose.Slides untuk Java, kunjungi halaman pembelian[Di Sini](https://purchase.aspose.com/buy).
 ### Di mana saya dapat menemukan dokumentasi terperinci untuk Aspose.Slides untuk Java?
  Anda dapat mengakses dokumentasi komprehensif[Di Sini](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

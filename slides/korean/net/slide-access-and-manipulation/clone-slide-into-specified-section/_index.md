@@ -3,14 +3,10 @@ title: 프레젠테이션 내 지정된 섹션에 슬라이드 복제
 linktitle: 프레젠테이션 내 지정된 섹션에 슬라이드 복제
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 지정된 섹션 내에서 슬라이드를 복제하는 방법을 알아보세요. 효과적인 슬라이드 조작을 위한 단계별 가이드입니다.
+type: docs
 weight: 19
 url: /ko/net/slide-access-and-manipulation/clone-slide-into-specified-section/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 동적 프레젠테이션의 세계에서 Aspose.Slides for .NET은 개발자에게 신뢰할 수 있는 도구입니다. 매력적인 슬라이드쇼를 만들거나 슬라이드 조작을 자동화하려는 경우 Aspose.Slides for .NET은 프레젠테이션 프로젝트를 간소화할 수 있는 강력한 플랫폼을 제공합니다. 이 튜토리얼에서는 프레젠테이션의 지정된 섹션 내에서 슬라이드를 복제하는 과정을 살펴보겠습니다. 이 단계별 가이드는 전제 조건을 이해하고, 네임스페이스를 가져오고, 프로세스를 마스터하는 데 도움이 됩니다.
 
@@ -113,9 +109,3 @@ presentation.Slides.AddClone(presentation.Slides[0], section2);
 ### 5. Aspose.Slides for .NET에 대한 도움과 지원은 어디서 찾을 수 있나요?
 
  질문이나 문제가 있는 경우[.NET 지원 포럼용 Aspose.Slides](https://forum.aspose.com/). 해당 지역의 커뮤니티와 전문가가 귀하의 질문에 도움을 드릴 수 있습니다.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

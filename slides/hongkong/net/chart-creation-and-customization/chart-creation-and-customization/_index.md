@@ -3,14 +3,10 @@ title: Aspose.Slides 中的圖表建立和自訂
 linktitle: Aspose.Slides 中的圖表建立和自訂
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 在 PowerPoint 中建立和自訂圖表。建立動態簡報的逐步指南。
+type: docs
 weight: 10
 url: /zh-hant/net/chart-creation-and-customization/chart-creation-and-customization/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 介紹
 
@@ -114,9 +110,3 @@ Aspose.Slides for .NET支援多種.NET版本，包括.NET Framework和.NET Core�
 
 ### 我可以購買 Aspose.Slides for .NET 的臨時授權嗎？
 是的，您可以從 Aspose 網站取得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

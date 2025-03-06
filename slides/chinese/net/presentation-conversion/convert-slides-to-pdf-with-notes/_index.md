@@ -3,14 +3,10 @@ title: 将幻灯片转换为带注释的 PDF
 linktitle: 将幻灯片转换为带注释的 PDF
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 轻松将带有演讲者备注的演示文稿幻灯片转换为 PDF。无缝保留内容和上下文。
+type: docs
 weight: 18
 url: /zh/net/presentation-conversion/convert-slides-to-pdf-with-notes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 # 编写使用 Aspose.Slides for .NET 将幻灯片转换为带注释的 PDF 的分步教程指南
 
@@ -102,9 +98,3 @@ auxPresentation.Save(outPath + "PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);
 是的，您可以在此处购买临时许可证[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 总之，使用 Aspose.Slides for .NET，您可以轻松地将 PowerPoint 幻灯片转换为 PDF 格式，并保留注释。对于需要与同事和客户共享演示文稿同时又要确保重要内容不丢失的专业人士来说，这是一个很有价值的工具。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

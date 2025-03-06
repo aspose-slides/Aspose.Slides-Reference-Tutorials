@@ -3,14 +3,10 @@ title: Schrifteigenschaften für einzelne Legenden in Java-Folien
 linktitle: Schrifteigenschaften für einzelne Legenden in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Verbessern Sie PowerPoint-Präsentationen mit benutzerdefinierten Schriftarten, -größen und -farben für einzelne Legenden in Java Slides mit Aspose.Slides für Java.
+type: docs
 weight: 12
 url: /de/java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung in Schrifteigenschaften für einzelne Legenden in Java-Folien
 
@@ -117,9 +113,3 @@ Denken Sie daran, das Präsentationsobjekt zu entsorgen, wenn Sie mit der Freiga
 ```java
 if (pres != null) pres.dispose();
 ```
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

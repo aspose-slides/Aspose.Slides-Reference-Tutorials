@@ -3,14 +3,10 @@ title: Stel de eerste rij in als koptekst in PowerPoint-tabel met Java
 linktitle: Stel de eerste rij in als koptekst in PowerPoint-tabel met Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u de eerste rij instelt als koptekst in PowerPoint-tabellen met Aspose.Slides voor Java. Verbeter moeiteloos de duidelijkheid en organisatie van presentaties.
+type: docs
 weight: 19
 url: /nl/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 In deze zelfstudie gaan we dieper in op het manipuleren van PowerPoint-tabellen met Aspose.Slides voor Java, een krachtige bibliotheek die naadloze integratie en aanpassing van presentaties mogelijk maakt. We concentreren ons specifiek op het instellen van de eerste rij van een tabel als koptekst, waardoor de visuele aantrekkingskracht en organisatie van uw dia's wordt verbeterd.
 ## Vereisten
@@ -80,9 +76,3 @@ Aspose.Slides voor Java is een robuuste bibliotheek voor het programmatisch werk
  Gedetailleerde documentatie is beschikbaar[hier](https://reference.aspose.com/slides/java/).
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Slides voor Java?
  U kunt gemeenschapssteun krijgen[hier](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

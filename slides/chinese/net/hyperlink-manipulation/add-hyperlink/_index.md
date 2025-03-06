@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 在 .NET 中向幻灯片添加超链接
 linktitle: 将超链接添加到幻灯片
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 向 PowerPoint 幻灯片添加超链接。使用交互元素增强您的演示文稿。
+type: docs
 weight: 12
 url: /zh/net/hyperlink-manipulation/add-hyperlink/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 在数字演示的世界中，交互性是关键。在幻灯片中添加超链接可以使您的演示更具吸引力和信息量。Aspose.Slides for .NET 是一个功能强大的库，可让您以编程方式创建、修改和操作 PowerPoint 演示文稿。在本教程中，我们将向您展示如何使用 Aspose.Slides for .NET 在幻灯片中添加超链接。 
 
@@ -110,9 +106,3 @@ Aspose.Slides 提供广泛的交互功能，包括动作按钮、多媒体元素
 ### 5. Aspose.Slides 适用于其他编程语言吗？
 
 是的，Aspose.Slides 适用于多种编程语言，包括 Java 和 Python。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

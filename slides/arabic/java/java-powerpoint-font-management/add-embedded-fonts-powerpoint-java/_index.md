@@ -3,14 +3,10 @@ title: إضافة الخطوط المضمنة في PowerPoint باستخدام J
 linktitle: إضافة الخطوط المضمنة في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة الخطوط المضمنة إلى عروض PowerPoint التقديمية باستخدام Java مع Aspose.Slides for Java. ضمان عرض متسق عبر الأجهزة.
+type: docs
 weight: 10
 url: /ar/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 في هذا البرنامج التعليمي، سنرشدك خلال عملية إضافة الخطوط المضمنة إلى عروض PowerPoint التقديمية باستخدام Java، وتحديدًا الاستفادة من Aspose.Slides for Java. تضمن الخطوط المضمنة أن يبدو العرض التقديمي الخاص بك متسقًا عبر الأجهزة المختلفة، حتى لو لم يكن الخط الأصلي متاحًا. دعونا نتعمق في الخطوات:
 ## المتطلبات الأساسية
@@ -73,9 +69,3 @@ presentation.save(dataDir + "AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
 يدعم Aspose.Slides for Java تضمين خطوط TrueType، والتي تغطي نطاقًا واسعًا من الخطوط شائعة الاستخدام في العروض التقديمية.
 ### هل يمكنني تضمين الخطوط برمجيًا باستخدام Aspose.Slides لـ Java؟
 نعم، كما هو موضح في هذا البرنامج التعليمي، يمكنك تضمين الخطوط برمجيًا باستخدام Aspose.Slides for Java API.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

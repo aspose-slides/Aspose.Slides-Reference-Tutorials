@@ -3,14 +3,10 @@ title: Come utilizzare Aspose.Slides .NET per recuperare la cartella di lavoro d
 linktitle: Recupera la cartella di lavoro dal grafico
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come recuperare una cartella di lavoro da un grafico nelle presentazioni di PowerPoint utilizzando Aspose.Slides per .NET. Segui la nostra guida passo passo per estrarre i dati in modo efficiente.
+type: docs
 weight: 12
 url: /it/net/additional-chart-features/chart-recover-workbook/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Se stai cercando di lavorare con presentazioni PowerPoint in .NET, Aspose.Slides per .NET è una potente libreria che può aiutarti a raggiungere i tuoi obiettivi. In questo tutorial, ti guideremo attraverso il processo di recupero di una cartella di lavoro da un grafico in una presentazione di PowerPoint utilizzando Aspose.Slides per .NET. Questa potente funzionalità può essere utile quando devi estrarre dati dai grafici all'interno delle tue presentazioni. Suddivideremo il processo in passaggi facili da seguire, assicurandoti di avere una chiara comprensione di come eseguire questa attività.
 
@@ -105,9 +101,3 @@ Aspose.Slides per .NET è una potente libreria .NET per lavorare con file Micros
 ### 5. Qual è la lunghezza massima del titolo per l'ottimizzazione SEO?
 
 Per l'ottimizzazione SEO, si consiglia di mantenere il titolo sotto i 60 caratteri per garantire che venga visualizzato correttamente nei risultati dei motori di ricerca.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

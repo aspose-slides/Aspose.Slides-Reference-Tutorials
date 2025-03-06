@@ -3,14 +3,10 @@ title: Добавьте узлы в определенную позицию в S
 linktitle: Добавьте узлы в определенную позицию в SmartArt с помощью Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как добавлять узлы в определенные позиции в SmartArt с помощью Java с Aspose.Slides. Создавайте динамичные презентации без особых усилий.
+type: docs
 weight: 16
 url: /ru/java/java-powerpoint-smartart-manipulation/add-nodes-specific-position-smartart-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 В этом уроке мы покажем вам процесс добавления узлов в определенные позиции в SmartArt с использованием Java с Aspose.Slides. SmartArt — это функция PowerPoint, которая позволяет создавать визуально привлекательные диаграммы и диаграммы.
 ## Предварительные условия
@@ -74,9 +70,3 @@ Aspose.Slides поддерживает различные форматы PowerPo
 Да, Aspose.Slides предоставляет библиотеки для нескольких языков программирования, включая .NET и Python.
 ### Доступна ли пробная версия для Aspose.Slides?
  Да, вы можете скачать бесплатную пробную версию с сайта[здесь](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

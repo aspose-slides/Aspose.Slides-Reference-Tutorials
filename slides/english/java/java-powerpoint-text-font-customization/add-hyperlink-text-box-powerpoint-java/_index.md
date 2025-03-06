@@ -3,14 +3,10 @@ title: Add Hyperlink to Text Box in PowerPoint using Java
 linktitle: Add Hyperlink to Text Box in PowerPoint using Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to add hyperlinks to PowerPoint text boxes using Aspose.Slides for Java. Step-by-step guide with examples for Java developers.
+type: docs
 weight: 23
 url: /java/java-powerpoint-text-font-customization/add-hyperlink-text-box-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 In today's digital age, creating dynamic presentations that engage and inform is crucial for effective communication. Java developers seeking to enhance their applications with interactive features often turn to Aspose.Slides for Java, a powerful library that enables manipulation of PowerPoint presentations programmatically. This tutorial dives into one such feature: adding hyperlinks to text boxes in PowerPoint presentations using Java. By the end of this guide, you'll have a clear understanding of how to implement this functionality seamlessly into your Java applications.
 ## Prerequisites
@@ -80,10 +76,3 @@ You can get support from the Aspose community [here](https://forum.aspose.com/c/
 Yes, temporary licenses are available for purchase [here](https://purchase.aspose.com/temporary-license/).
 ### Is Aspose.Slides compatible with other Java libraries?
 Aspose.Slides integrates well with various Java libraries for comprehensive PowerPoint manipulation.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

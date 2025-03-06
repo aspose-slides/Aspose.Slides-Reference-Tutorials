@@ -3,14 +3,10 @@ title: Pembuatan Bagan Slide Java
 linktitle: Pembuatan Bagan Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat slide Java dinamis dengan bagan menggunakan Aspose.Slides for Java. Tutorial komprehensif kami memandu Anda melalui proses langkah demi langkah.
+type: docs
 weight: 16
 url: /id/java/chart-creation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Apakah Anda siap untuk membuka kekuatan grafik dinamis di slide Java Anda? Dengan Aspose.Slides untuk Java, Anda dapat membuat bagan menawan dengan mudah. Panduan komprehensif ini akan membawa Anda melalui langkah-langkah penting, mulai dari pemasangan hingga kesempurnaan bagan.
 
@@ -39,9 +35,3 @@ Pelajari cara membuat Bagan Sebar di Java menggunakan Aspose.Slides. Panduan lan
 Pelajari cara menyesuaikan bagan di Java Slides menggunakan Aspose.Slides for Java. Jelajahi opsi plot kedua dan tingkatkan presentasi Anda.
 ### [Bagan Peta Pohon di Slide Java](./tree-map-chart-java-slides/)
 Buat Bagan Peta Pohon di Slide Java menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber untuk memvisualisasikan data hierarki.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

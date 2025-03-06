@@ -3,14 +3,10 @@ title: Προσθήκη κουκκίδων παραγράφου στο PowerPoin
 linktitle: Προσθήκη κουκκίδων παραγράφου στο PowerPoint χρησιμοποιώντας Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε κουκκίδες παραγράφου σε διαφάνειες του PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Αυτό το σεμινάριο σας καθοδηγεί βήμα προς βήμα με παραδείγματα κώδικα.
+type: docs
 weight: 15
 url: /el/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Η προσθήκη κουκκίδων παραγράφου βελτιώνει την αναγνωσιμότητα και τη δομή των παρουσιάσεων του PowerPoint. Το Aspose.Slides για Java παρέχει ισχυρά εργαλεία για τον χειρισμό των παρουσιάσεων μέσω προγραμματισμού, συμπεριλαμβανομένης της δυνατότητας μορφοποίησης κειμένου με διάφορα στυλ κουκκίδων. Σε αυτό το σεμινάριο, θα μάθετε πώς να ενσωματώνετε κουκκίδες σε διαφάνειες του PowerPoint χρησιμοποιώντας κώδικα Java, αξιοποιώντας το Aspose.Slides.
 ## Προαπαιτούμενα
@@ -93,9 +89,3 @@ if (pres != null) {
 Ναι, το Aspose.Slides υποστηρίζει Java 11 και νεότερες εκδόσεις.
 ### Πού μπορώ να βρω περισσότερα παραδείγματα και τεκμηρίωση;
  Επίσκεψη[Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/) για ολοκληρωμένους οδηγούς και παραδείγματα.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

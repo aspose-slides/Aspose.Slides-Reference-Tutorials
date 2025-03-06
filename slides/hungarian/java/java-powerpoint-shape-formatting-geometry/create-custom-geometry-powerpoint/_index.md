@@ -3,14 +3,10 @@ title: Hozzon létre egyéni geometriát a PowerPointban
 linktitle: Hozzon létre egyéni geometriát a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre egyéni geometriai alakzatokat a PowerPointban az Aspose.Slides for Java használatával. Ez az útmutató segít a prezentációk egyedi formákkal történő tökéletesítésében.
+type: docs
 weight: 21
 url: /hu/java/java-powerpoint-shape-formatting-geometry/create-custom-geometry-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Egyéni formák és geometriák létrehozása a PowerPointban jelentősen javíthatja prezentációinak vizuális vonzerejét. Az Aspose.Slides for Java egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a PowerPoint fájlokat. Ebben az oktatóanyagban megvizsgáljuk, hogyan hozhat létre egyéni geometriát, különösen csillag alakzatot egy PowerPoint dián az Aspose.Slides for Java használatával. Merüljünk el!
 ## Előfeltételek
@@ -110,9 +106,3 @@ Az Aspose.Slides for Java ingyenes próbaverziót kínál. A hosszabb használat
 Nincs szükség különleges beállításra, csak a JDK telepítésére és az Aspose.Slides könyvtár beépítésére a projektben.
 ### Hol kaphatok támogatást az Aspose.Slides-hez?
  Támogatást kaphat a[Aspose.Slides támogatási fórum](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

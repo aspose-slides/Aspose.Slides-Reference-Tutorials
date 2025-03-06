@@ -3,14 +3,10 @@ title: Osiąganie zgodności z formatami PDF/A i PDF/UA za pomocą Aspose.Slides
 linktitle: Osiągnięcie zgodności z formatami PDF/A i PDF/UA
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Zapewnij zgodność z formatami PDF/A i PDF/UA dzięki Aspose.Slides dla .NET. Twórz łatwo dostępne i łatwe do przechowywania prezentacje.
+type: docs
 weight: 23
 url: /pl/net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-with-aspose-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Wstęp
 
@@ -131,9 +127,3 @@ Aby zapewnić dostępność w dokumentach PDF/UA, możesz wykorzystać funkcje A
 ### Czy zgodność z formatem PDF/UA jest konieczna w przypadku wszystkich dokumentów?
 
 Zgodność z formatem PDF/UA jest szczególnie ważna w przypadku dokumentów, które mają być dostępne dla użytkowników niepełnosprawnych. Jednakże konieczność zgodności z PDF/UA zależy od konkretnych wymagań docelowych odbiorców.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Come rimuovere i collegamenti ipertestuali dalle diapositive con Aspose.S
 linktitle: Rimuovi i collegamenti ipertestuali dalla diapositiva
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come rimuovere i collegamenti ipertestuali dalle diapositive di PowerPoint utilizzando Aspose.Slides per .NET. Crea presentazioni pulite e professionali.
+type: docs
 weight: 11
 url: /it/net/hyperlink-manipulation/remove-hyperlinks/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Nel mondo delle presentazioni professionali, assicurarsi che le diapositive siano pulite e ordinate è essenziale. Un elemento comune che spesso ingombra le diapositive sono i collegamenti ipertestuali. Che tu abbia a che fare con collegamenti ipertestuali a siti Web, documenti o altre diapositive all'interno della tua presentazione, potresti voler rimuoverli per un aspetto più pulito e mirato. Con Aspose.Slides per .NET, puoi facilmente realizzare questo compito. In questa guida passo passo, ti guideremo attraverso il processo di rimozione dei collegamenti ipertestuali dalle diapositive utilizzando Aspose.Slides per .NET.
 
@@ -88,9 +84,3 @@ Sì, Aspose.Slides per .NET offre un'ampia gamma di funzionalità, tra cui la cr
 
 ### Il supporto tecnico è disponibile per Aspose.Slides per .NET?
  Sì, puoi cercare supporto tecnico e interagire con la comunità Aspose su[Aspose forum](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

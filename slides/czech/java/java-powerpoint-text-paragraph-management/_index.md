@@ -3,14 +3,10 @@ title: Správa textu a odstavců Java PowerPoint
 linktitle: Správa textu a odstavců Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ovládněte správu textu a odstavců Java PowerPoint pomocí Aspose.Slides. Naučte se importovat HTML text, spravovat řádkování, vytvářet odrážky a zarovnávat odstavce.
+type: docs
 weight: 26
 url: /cs/java/java-powerpoint-text-paragraph-management/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 
 Vytváření dobře strukturovaných a vizuálně přitažlivých prezentací v PowerPointu může výrazně zlepšit vaši komunikaci. S Aspose.Slides pro Java se správa textu a odstavců stává přímočarým úkolem. Ať už potřebujete importovat HTML text, spravovat řádkování nebo vytvářet víceúrovňové odrážky, naše podrobné výukové programy vás provedou celým procesem. Pojďme prozkoumat, jak můžete posunout své prezentace Java PowerPoint na další úroveň.
@@ -59,9 +55,3 @@ Naučte se přidávat odrážky odstavců do snímků aplikace PowerPoint pomoc�
 Naučte se, jak programově nastavit odsazení odstavců ve snímcích aplikace PowerPoint pomocí Aspose.Slides for Java. Vylepšete formátování své prezentace bez námahy.
 ### [Zarovnat odstavce v PowerPointu pomocí Javy](./align-paragraphs-powerpoint-java/)
 Naučte se zarovnávat odstavce v prezentacích PowerPoint pomocí Aspose.Slides for Java. Postupujte podle našeho podrobného průvodce pro přesné formátování.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

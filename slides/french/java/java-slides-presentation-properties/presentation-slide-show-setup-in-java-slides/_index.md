@@ -3,14 +3,10 @@ title: Configuration du diaporama de présentation dans Java Slides
 linktitle: Configuration du diaporama de présentation dans Java Slides
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Optimisez votre diaporama Java avec Aspose.Slides. Créez des présentations attrayantes avec des paramètres personnalisés. Explorez les guides étape par étape et les FAQ.
+type: docs
 weight: 16
 url: /fr/java/presentation-properties/presentation-slide-show-setup-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction à la configuration du diaporama de présentation dans Java Slides
 
@@ -150,9 +146,3 @@ Dans ce didacticiel, nous avons appris à configurer un diaporama de présentati
 ### Comment puis-je personnaliser davantage les paramètres du diaporama ?
 
  Vous pouvez explorer les paramètres de diaporama supplémentaires fournis par Aspose.Slides for Java pour adapter l'expérience du diaporama à vos besoins. Reportez-vous à la documentation sur[ici](https://reference.aspose.com/slides/java/) pour des informations détaillées sur les options et configurations disponibles.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

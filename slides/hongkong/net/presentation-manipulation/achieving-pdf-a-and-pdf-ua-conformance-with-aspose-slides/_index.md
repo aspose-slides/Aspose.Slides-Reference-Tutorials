@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 實現 PDF/A 和 PDF/UA 一致性
 linktitle: 實現 PDF/A 和 PDF/UA 一致性
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 確保 PDF/A 和 PDF/UA 符合 Aspose.Slides for .NET。輕鬆建立可存取且可儲存的簡報。
+type: docs
 weight: 23
 url: /zh-hant/net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-with-aspose-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 介紹
 
@@ -131,9 +127,3 @@ Install-Package Aspose.Slides
 ### 所有文件都必須符合 PDF/UA 標準嗎？
 
 PDF/UA 合規性對於旨在供殘障使用者存取的文件尤其重要。然而，PDF/UA 合規性的必要性取決於目標受眾的特定要求。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

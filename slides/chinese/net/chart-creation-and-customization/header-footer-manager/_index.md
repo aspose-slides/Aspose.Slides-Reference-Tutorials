@@ -3,14 +3,10 @@ title: 管理幻灯片中的页眉和页脚
 linktitle: 管理幻灯片中的页眉和页脚
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 在 PowerPoint 演示文稿中添加动态页眉和页脚。
+type: docs
 weight: 14
 url: /zh/net/chart-creation-and-customization/header-footer-manager/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 # 在 Aspose.Slides for .NET 中创建动态页眉和页脚
 
@@ -135,9 +131,3 @@ A2：是的，您可以免费试用 Aspose.Slides for .NET[这里](https://relea
 
 ### Q5: Aspose.Slides for .NET 有社区或支持论坛吗？
  A5：是的，您可以访问 Aspose.Slides for .NET 支持论坛[这里](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

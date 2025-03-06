@@ -3,14 +3,10 @@ title: Penyelarasan Bentuk dan Pemformatan dalam Slide
 linktitle: Penyelarasan Bentuk dan Pemformatan dalam Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Jelajahi tutorial Aspose.Slides yang komprehensif tentang penyelarasan bentuk dan pemformatan dalam aplikasi .NET. Belajar menyelaraskan dan memformat bentuk dengan mudah, menyempurnakan presentasi slide Anda dengan presisi.
+type: docs
 weight: 14
 url: /id/net/shape-alignment-and-formatting-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Perkenalan
 
@@ -48,9 +44,3 @@ Pelajari cara membuat slide presentasi menawan dengan bentuk sketsa menggunakan 
 Pelajari cara menambahkan offset regangan ke kiri untuk bingkai foto di PowerPoint menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan contoh kode sumber lengkap.
 ### [Mengganti Judul Gambar Bingkai Objek OLE dalam Slide Presentasi](./substituting-picture-title-ole-object-frame/)
 Pelajari cara mengganti judul gambar bingkai objek OLE dalam slide presentasi menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan kode sumber lengkap.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 格式化簡報行 .NET 教學課程
 linktitle: 使用 Aspose.Slides 格式化簡報投影片中的線條
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 增強您的簡報投影片。按照我們的逐步指南輕鬆格式化行。立即下載免費試用版！
+type: docs
 weight: 10
 url: /zh-hant/net/shape-geometry-and-positioning-in-slides/formatting-lines/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 創建具有視覺吸引力的簡報投影片對於有效溝通至關重要。 Aspose.Slides for .NET 提供了一個強大的解決方案來以程式設計方式操作和格式化簡報元素。在本教程中，我們將重點放在使用 Aspose.Slides for .NET 格式化簡報投影片中的行。
 ## 先決條件
@@ -79,9 +75,3 @@ Aspose.Slides for .NET 簡化了以程式設計方式操作示範元素的過程
 您可以從以下地點獲得臨時許可證[Aspose.Slides 臨時許可證](https://purchase.aspose.com/temporary-license/).
 ### Q5：哪裡可以購買 Aspose.Slides for .NET？
 您可以從以下位置購買該產品[Aspose.Slides 購買](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Konversikan Presentasi ke TIFF dengan Format Gambar Kustom
 linktitle: Konversikan Presentasi ke TIFF dengan Format Gambar Kustom
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengonversi presentasi ke TIFF dengan pengaturan gambar khusus menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan contoh kode.
+type: docs
 weight: 26
 url: /id/net/presentation-manipulation/convert-presentation-to-tiff-with-custom-image-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Konversikan Presentasi ke TIFF dengan Format Gambar Kustom menggunakan Aspose.Slides untuk .NET
 
@@ -96,9 +92,3 @@ Selama proses konversi, penting untuk menangani potensi kesalahan dengan baik. A
 ### Apakah Aspose.Slides untuk .NET mendukung format keluaran lain selain TIFF?
 
 Ya, selain TIFF, Aspose.Slides untuk .NET mendukung berbagai format output untuk mengonversi presentasi, termasuk PDF, JPEG, PNG, GIF, dan banyak lagi. Ini memberi Anda fleksibilitas untuk memilih format yang paling sesuai untuk kasus penggunaan spesifik Anda.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

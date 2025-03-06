@@ -3,14 +3,10 @@ title: Définir les valeurs de hauteur de police locale dans PowerPoint à l'aid
 linktitle: Définir les valeurs de hauteur de police locale dans PowerPoint à l'aide de Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajuster la hauteur des polices dans les présentations PowerPoint à l'aide de Java avec Aspose.Slides. Améliorez facilement la mise en forme du texte dans vos diapositives.
+type: docs
 weight: 17
 url: /fr/java/java-powerpoint-text-font-customization/set-local-font-height-values-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Dans ce didacticiel, vous apprendrez à manipuler les hauteurs de police à différents niveaux dans les présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Le contrôle de la taille des polices est crucial pour créer des présentations visuellement attrayantes et structurées. Nous passerons en revue des exemples étape par étape pour illustrer comment définir la hauteur de police pour différents éléments de texte.
 ## Conditions préalables
@@ -69,9 +65,3 @@ Aspose.Slides pour Java est une API puissante permettant de manipuler des prése
  Pour obtenir de l'aide, visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Où puis-je acheter une licence pour Aspose.Slides pour Java ?
  Vous pouvez acheter une licence[ici](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

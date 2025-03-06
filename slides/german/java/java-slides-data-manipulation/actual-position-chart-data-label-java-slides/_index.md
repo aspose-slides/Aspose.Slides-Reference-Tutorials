@@ -3,14 +3,10 @@ title: Aktuelle Position der Diagrammdatenbeschriftung in Java-Folien abrufen
 linktitle: Aktuelle Position der Diagrammdatenbeschriftung in Java-Folien abrufen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java die tatsächliche Position von Diagrammdatenbeschriftungen in Java Slides ermitteln. Schritt-für-Schritt-Anleitung mit Quellcode.
+type: docs
 weight: 18
 url: /de/java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung zum Abrufen der tatsächlichen Position der Diagrammdatenbeschriftung in Java-Folien
 
@@ -161,9 +157,3 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

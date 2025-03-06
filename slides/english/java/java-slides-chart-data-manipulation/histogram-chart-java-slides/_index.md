@@ -3,14 +3,10 @@ title: Histogram Chart in Java Slides
 linktitle: Histogram Chart in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create Histogram Charts in PowerPoint presentations using Aspose.Slides for Java. Step-by-step guide with source code for data visualization.
+type: docs
 weight: 19
 url: /java/chart-data-manipulation/histogram-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction to Histogram Chart in Java Slides using Aspose.Slides
 
@@ -116,10 +112,3 @@ A Histogram Chart is used to visualize the distribution of data over a continuou
 ### Can I customize the appearance of the Histogram Chart?
 
 Yes, you can customize the appearance of the chart, including its colors, labels, and axes, using the Aspose.Slides API.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

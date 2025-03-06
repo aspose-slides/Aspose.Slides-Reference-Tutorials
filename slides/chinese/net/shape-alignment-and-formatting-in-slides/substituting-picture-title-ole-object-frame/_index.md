@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides for .NET 嵌入 OLE 对象指南
 linktitle: 替换演示文稿幻灯片中的 OLE 对象框架的图片标题
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 通过动态 OLE 对象增强您的演示幻灯片。按照我们的分步指南进行无缝集成。
+type: docs
 weight: 15
 url: /zh/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 创建动态且引人入胜的演示幻灯片通常需要整合各种多媒体元素。在本教程中，我们将探索如何使用强大的 Aspose.Slides for .NET 库替换演示幻灯片中 OLE（对象链接和嵌入）对象框架的图片标题。Aspose.Slides 简化了处理 OLE 对象的过程，为开发人员提供了轻松增强其演示文稿的工具。
 ## 先决条件
@@ -87,9 +83,3 @@ oof.SubstitutePictureTitle = "Caption example";
 当然。您可以完全通过编程控制 OLE 对象，从而可以根据需要修改其属性和外观。
 ### 嵌入的 OLE 对象的大小有任何限制吗？
 虽然有大小限制，但通常还是很宽容的。建议根据具体用例进行测试，以确保最佳性能。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

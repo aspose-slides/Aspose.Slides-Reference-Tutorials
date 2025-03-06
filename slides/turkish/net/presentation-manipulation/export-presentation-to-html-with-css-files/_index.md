@@ -3,14 +3,10 @@ title: Sunumu CSS Dosyalarıyla HTML'ye Aktarma
 linktitle: Sunumu CSS Dosyalarıyla HTML'ye Aktarma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak PowerPoint sunumlarını CSS dosyalarıyla HTML'ye nasıl aktaracağınızı öğrenin. Sorunsuz dönüşüm için adım adım kılavuz. Stili ve düzeni koruyun!
+type: docs
 weight: 29
 url: /tr/net/presentation-manipulation/export-presentation-to-html-with-css-files/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Günümüzün dijital çağında, etkili iletişim için dinamik ve etkileşimli sunumlar oluşturmak şarttır. Aspose.Slides for .NET, geliştiricilerin sunumları CSS dosyalarıyla HTML'ye aktarmalarına olanak tanıyarak içeriğinizi çeşitli platformlarda sorunsuz bir şekilde paylaşmanıza olanak tanır. Bu adım adım eğitimde, bunu başarmak için Aspose.Slides for .NET'i kullanma sürecinde size rehberlik edeceğiz.
 
@@ -77,10 +73,3 @@ Aspose.Slides for .NET öncelikli olarak C# içindir ancak Aspose ayrıca Java v
 Aspose.Slides for .NET ile PowerPoint sunumlarınızı zahmetsizce CSS dosyalarıyla HTML'ye dönüştürebilir ve izleyicileriniz için kusursuz bir görüntüleme deneyimi sağlayabilirsiniz.
 
 Şimdi devam edin ve Aspose.Slides for .NET ile muhteşem HTML sunumları oluşturun!
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

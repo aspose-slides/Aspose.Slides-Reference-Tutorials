@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में स्लाइड शो
 linktitle: जावा स्लाइड्स में स्लाइड शो मीडिया नियंत्रण
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java के साथ Java स्लाइड्स में मीडिया नियंत्रणों को सक्षम और उपयोग करना सीखें। मीडिया नियंत्रणों के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ।
+type: docs
 weight: 11
 url: /hi/java/media-controls/slide-show-media-controls-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## जावा स्लाइड्स में स्लाइड शो मीडिया नियंत्रण का परिचय
 
@@ -112,9 +108,3 @@ try {
 ### क्या जावा स्लाइड्स में वीडियो में उपशीर्षक या कैप्शन जोड़ने का कोई तरीका है?
 
 हां, आप जावा स्लाइड्स में वीडियो में उपशीर्षक या कैप्शन जोड़ सकते हैं, इसके लिए आपको वीडियो वाली स्लाइड में टेक्स्ट फ्रेम या आकृतियाँ जोड़नी होंगी। फिर आप टाइमिंग सेटिंग का उपयोग करके वीडियो प्लेबैक के साथ टेक्स्ट को सिंक्रोनाइज़ कर सकते हैं।
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java Slaytlarında Erişim İzinlerini PDF'ye Ayarlayın
 linktitle: Java Slaytlarında Erişim İzinlerini PDF'ye Ayarlayın
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides'ı kullanarak PDF belgelerinizi Java Slides'taki erişim izinleriyle nasıl güvence altına alacağınızı öğrenin. Bu adım adım kılavuz, parola korumasını ve daha fazlasını kapsar.
+type: docs
 weight: 17
 url: /tr/java/additional-utilities/set-access-permissions-to-pdf-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java Slaytlarında PDF'ye Erişim İzinlerini Ayarlamaya Giriş
 
@@ -108,9 +104,3 @@ Aspose.Slides for Java, PDF belgelerinizin güvenliğini artırmak için şifrel
 ### Aspose.Slides for Java için daha fazla kaynağı ve belgeyi nerede bulabilirim?
 
  Aspose.Slides for Java'nın kapsamlı belgelerine şu adresten ulaşabilirsiniz:[Burada](https://reference.aspose.com/slides/java/) . Ayrıca kütüphaneyi adresinden indirebilirsiniz.[Burada](https://releases.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

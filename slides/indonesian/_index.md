@@ -3,14 +3,11 @@ title: Tutorial Aspose.Slides untuk Pengolahan PowerPoint
 linktitle: Aspose.Slide Tutorial
 additionalTitle: Asumsikan Referensi API
 description: Kuasai pemrosesan presentasi dengan tutorial Aspose.Slides. Membuat, memodifikasi, dan menyempurnakan presentasi PowerPoint secara efisien. Unggul dalam manipulasi konten dinamis.
+type: docs
 weight: 10
 url: /id/
+is_root: true
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 Jelajahi beragam tutorial untuk Aspose.Slides. Temukan dunia pemrosesan presentasi saat Anda mempelajari seni memanfaatkan Aspose.Slides secara maksimal. Tutorial ini memberikan panduan langkah demi langkah, membantu Anda menguasai tugas-tugas seperti pembuatan slide, modifikasi, pemformatan, dan integrasi multimedia dalam presentasi PowerPoint. Baik Anda seorang pengembang berpengalaman atau pendatang baru, sumber daya ini membekali Anda dengan keterampilan yang diperlukan untuk unggul dalam membuat presentasi yang dinamis dan menarik menggunakan Aspose.Slides.
 
 ## Aspose.Slides Untuk .NET: API Pemrosesan PowerPoint
@@ -65,9 +62,3 @@ Ini adalah tautan ke beberapa sumber yang bermanfaat:
 - [Penanganan Gambar Slide Java](./java/image-handling/)
 - [Perlindungan Dokumen Slide Java](./java/document-protection/)
 - [Opsi Penyimpanan Slide Java](./java/saving-options/)
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

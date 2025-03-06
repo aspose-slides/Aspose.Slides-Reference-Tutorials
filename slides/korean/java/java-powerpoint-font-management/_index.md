@@ -3,14 +3,10 @@ title: Java PowerPoint 글꼴 관리
 linktitle: Java PowerPoint 글꼴 관리
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java PowerPoint 글꼴 관리 튜토리얼을 찾아보세요. 프레젠테이션을 향상시키기 위한 삽입, 압축 및 사용자 정의 기술을 알아보세요.
+type: docs
 weight: 21
 url: /ko/java/java-powerpoint-font-management/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 
 Aspose.Slides for Java를 사용하는 Java PowerPoint 글꼴 관리 튜토리얼을 통해 PowerPoint 프레젠테이션의 잠재력을 활용해 보세요. 우리의 포괄적인 가이드는 글꼴 사용자 정의를 마스터하고 프레젠테이션을 돋보이게 하는 데 도움이 될 것입니다.
@@ -76,9 +72,3 @@ Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션에서 글꼴 �
 Aspose.Slides for Java를 사용하여 Java PowerPoint 프레젠테이션에서 텍스트 프레임의 형식을 지정하는 방법을 알아보세요. 슬라이드의 시각적 매력을 쉽게 향상시킬 수 있습니다.
 ### [Java PowerPoint의 효과적인 텍스트 스타일 데이터](./effective-text-style-data-java-powerpoint/)
 Aspose.Slides for Java를 사용하여 Java PowerPoint 프레젠테이션의 텍스트 스타일 조작을 마스터하세요. 영향력 있는 콘텐츠 제작을 위해 동적으로 형식을 맞춤화하세요.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

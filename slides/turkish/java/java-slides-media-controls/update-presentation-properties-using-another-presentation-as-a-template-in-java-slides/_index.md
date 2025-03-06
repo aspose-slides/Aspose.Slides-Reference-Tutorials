@@ -3,14 +3,10 @@ title: Java Slaytlarında Başka Bir Sunumu Şablon Olarak Kullanarak Sunum Öze
 linktitle: Java Slaytlarında Başka Bir Sunumu Şablon Olarak Kullanarak Sunum Özelliklerini Güncelleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarınızı güncellenmiş meta verilerle geliştirin. Java Slaytlar'daki şablonları kullanarak yazar, başlık ve anahtar kelimeler gibi özellikleri güncellemeyi öğrenin.
+type: docs
 weight: 14
 url: /tr/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java Slaytlarında Başka Bir Sunumu Şablon Olarak Kullanarak Sunum Özelliklerini Güncellemeye Giriş
 
@@ -126,9 +122,3 @@ Evet, gereksinimlerinize göre belirli özellikleri güncellemek için kodu öze
 ### Güncellenebilecek sunum türlerinde herhangi bir sınırlama var mı?
 
 Hayır, PPTX, ODP ve PPT dahil olmak üzere çeşitli formatlardaki sunumların özelliklerini güncelleyebilirsiniz.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

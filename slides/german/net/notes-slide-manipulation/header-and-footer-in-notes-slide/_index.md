@@ -3,14 +3,10 @@ title: Kopf- und Fußzeilen in Notizen mit Aspose.Slides .NET verwalten
 linktitle: Kopf- und Fußzeile in der Notizenfolie verwalten
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Kopf- und Fußzeilen in PowerPoint-Notizfolien mit Aspose.Slides für .NET verwalten. Verbessern Sie Ihre Präsentationen mühelos.
+type: docs
 weight: 11
 url: /de/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Im heutigen digitalen Zeitalter ist das Erstellen ansprechender und informativer Präsentationen eine wichtige Fähigkeit. Als Teil dieses Prozesses müssen Sie möglicherweise häufig Kopf- und Fußzeilen in Ihre Notizenfolien einfügen, um zusätzlichen Kontext und Informationen bereitzustellen. Aspose.Slides für .NET ist ein leistungsstarkes Tool, mit dem Sie Kopf- und Fußzeileneinstellungen in Notizenfolien problemlos verwalten können. In dieser Schritt-für-Schritt-Anleitung erfahren Sie, wie Sie dies mit Aspose.Slides für .NET erreichen.
 
@@ -124,9 +120,3 @@ Auf jeden Fall. Aspose.Slides für .NET ermöglicht Ihnen die Automatisierung vo
 
 ### Gibt es technischen Support für Aspose.Slides für .NET-Benutzer?
  Ja, Sie finden Unterstützung und Hilfe von der Aspose-Community und Experten auf der[Aspose-Supportforum](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

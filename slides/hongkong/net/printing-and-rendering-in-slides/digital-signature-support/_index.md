@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 將數位簽章新增至 PowerPoint
 linktitle: Aspose.Slides 中對數位簽章的支持
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 安全地簽署 PowerPoint 簡報。請遵循我們的逐步指南。立即下載免費試用
+type: docs
 weight: 19
 url: /zh-hant/net/printing-and-rendering-in-slides/digital-signature-support/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 數位簽章在確保數位文件的真實性和完整性方面發揮著至關重要的作用。 Aspose.Slides for .NET 為數位簽章提供強大的支持，讓您可以安全地簽署 PowerPoint 簡報。在本教學中，我們將引導您完成使用 Aspose.Slides 將數位簽章新增至簡報的過程。
 ## 先決條件
@@ -66,9 +62,3 @@ Aspose.Slides 提供了以程式方式驗證數位簽章的方法。
 文件可用[這裡](https://reference.aspose.com/slides/net/).
 ### 需要支援或有其他問題嗎？
 參觀[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

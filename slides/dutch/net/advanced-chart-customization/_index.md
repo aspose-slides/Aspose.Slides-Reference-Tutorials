@@ -3,14 +3,10 @@ title: Geavanceerde kaartaanpassing
 linktitle: Geavanceerde kaartaanpassing
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter uw presentaties met geavanceerde aanpassing van diagrammen met Aspose.Slides voor .NET. Leer hoe u visueel verbluffende grafieken kunt maken en deze kunt afstemmen op uw exacte behoeften.
+type: docs
 weight: 23
 url: /nl/net/advanced-chart-customization/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Invoering
 
@@ -37,9 +33,3 @@ Leer hoe u uw gegevensvisualisaties kunt verbeteren met Aspose.Slides voor .NET.
 Leer hoe u trendlijnen in diagrammen maakt met Aspose.Slides voor .NET. Verbeter datavisualisaties met stapsgewijze begeleiding en codevoorbeelden.
 ### [Diagramentiteiten en opmaak](./chart-entities/)
 Leer dynamische grafieken maken en opmaken in PowerPoint met behulp van Aspose.Slides voor .NET. Stap-voor-stap handleiding met broncode.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Diagrammerstellung und -anpassung
 linktitle: Diagrammerstellung und -anpassung
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verbessern Sie die Präsentationsfunktionen Ihrer .NET-Anwendung mit Aspose.Slides. Tauchen Sie ein in unser Tutorial zur Diagrammerstellung und -anpassung und erkunden Sie Schritt-für-Schritt-Anleitungen und Codebeispiele.
+type: docs
 weight: 14
 url: /de/net/chart-creation-and-customization/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung:
 
@@ -31,9 +27,3 @@ Erfahren Sie, wie Sie Folien in Präsentationen mit Aspose.Slides für .NET verg
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET dynamische PowerPoint-Präsentationen mit Basisplatzhaltern erstellen.
 ### [Kopf- und Fußzeilen in Folien verwalten](./header-footer-manager/)
 Erfahren Sie, wie Sie Kopf- und Fußzeilen in Folien mit Aspose.Slides für .NET verwalten. Passen Sie Ihre Präsentationen einfach und präzise an.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

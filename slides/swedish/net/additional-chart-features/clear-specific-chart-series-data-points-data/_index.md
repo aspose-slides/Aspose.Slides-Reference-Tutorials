@@ -3,14 +3,10 @@ title: Rensa specifika diagramseriedatapunkter med Aspose.Slides .NET
 linktitle: Rensa specifika diagramseriedatapunkter
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du rensar specifika diagramseriedatapunkter i PowerPoint-presentationer med Aspose.Slides för .NET. Steg-för-steg guide.
+type: docs
 weight: 13
 url: /sv/net/additional-chart-features/clear-specific-chart-series-data-points-data/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Aspose.Slides för .NET är ett kraftfullt bibliotek som låter dig arbeta med PowerPoint-presentationer programmatiskt. I den här handledningen kommer vi att guida dig genom processen att rensa specifika diagramseriedatapunkter i en PowerPoint-presentation med Aspose.Slides för .NET. I slutet av denna handledning kommer du att kunna manipulera diagramdatapunkter med lätthet.
 
@@ -99,9 +95,3 @@ Ja, du kan anpassa utseendet på diagram genom att ändra deras egenskaper, sås
 
 ### Finns det en community eller utvecklargemenskap för Aspose.Slides för .NET?
 Ja, du kan gå med i Aspose-communityt på deras forum för diskussioner, frågor och dela dina erfarenheter.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

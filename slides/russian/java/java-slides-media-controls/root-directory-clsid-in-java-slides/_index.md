@@ -3,14 +3,10 @@ title: ClsId корневого каталога в слайдах Java
 linktitle: ClsId корневого каталога в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как установить ClsId корневого каталога в Aspose.Slides для презентаций Java. Настройте поведение гиперссылки с помощью CLSID.
+type: docs
 weight: 10
 url: /ru/java/media-controls/root-directory-clsid-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Введение в настройку ClsId корневого каталога в Aspose.Slides для Java
 
@@ -111,9 +107,3 @@ try {
 ### Существуют ли какие-либо ограничения на CLSID, которые я могу использовать?
 
 Идентификаторы CLSID, которые вы можете использовать, обычно определяются приложениями, установленными в системе. Вам следует использовать CLSID, соответствующие допустимым приложениям, способным обрабатывать гиперссылки. Имейте в виду, что использование недопустимого CLSID может привести к неожиданному поведению.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

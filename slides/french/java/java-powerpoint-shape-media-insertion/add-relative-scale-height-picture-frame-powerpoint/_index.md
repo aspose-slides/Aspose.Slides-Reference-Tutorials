@@ -3,14 +3,10 @@ title: Ajouter un cadre photo à hauteur d'échelle relative dans PowerPoint
 linktitle: Ajouter un cadre photo à hauteur d'échelle relative dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajouter des cadres photo à hauteur d'échelle relative dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java, améliorant ainsi votre contenu visuel.
+type: docs
 weight: 15
 url: /fr/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-picture-frame-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Dans ce didacticiel, vous apprendrez à ajouter un cadre d'image avec une hauteur d'échelle relative dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java.
 ## Conditions préalables
@@ -72,9 +68,3 @@ Aspose.Slides pour Java est compatible avec différentes versions de PowerPoint,
 Oui, Aspose.Slides pour Java prend en charge divers formats d'image, notamment PNG, GIF, BMP, etc.
 ### Existe-t-il un forum communautaire ou un canal d'assistance disponible pour les utilisateurs d'Aspose.Slides ?
 Oui, vous pouvez visiter le forum Aspose.Slides pour toute question, discussion ou assistance concernant la bibliothèque.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java Slaytlarında Açık Dokümana Erişim
 linktitle: Java Slaytlarında Açık Dokümana Erişim
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java'da Açık Belge Sunumu (ODP) dosyalarına nasıl erişeceğinizi ve dönüştüreceğinizi öğrenin. Geliştiriciler için adım adım kılavuz.
+type: docs
 weight: 12
 url: /tr/java/presentation-properties/access-open-doc-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java Slaytlarında Açık Belgeye Erişime Giriş
 
@@ -90,9 +86,3 @@ Evet, Aspose.Slides for Java'yı hem kişisel hem de ticari projelerde kullanabi
 ### Sorularım veya sorunlarım olursa Aspose destek ekibiyle nasıl iletişime geçebilirim?
 
 Aspose desteğine web sitelerinde listelenen destek kanallarından ulaşabilirsiniz. Karşılaşabileceğiniz her türlü soru veya soruna yardımcı olmak için özel destek sunarlar.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

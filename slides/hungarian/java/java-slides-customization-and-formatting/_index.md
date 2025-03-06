@@ -3,14 +3,10 @@ title: Java diák testreszabása és formázása
 linktitle: Java diák testreszabása és formázása
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Fedezze fel az Aspose.Slides for Java erejét a Java diák testreszabásában és formázásában. Ismerje meg oktatóanyagainkat lépésről lépésre. Növelje prezentációs készségeit.
+type: docs
 weight: 12
 url: /hu/java/customization-and-formatting/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
  Ebben a cikkben a Java diák testreszabásának és formázásának világába fogunk belemenni az Aspose.Slides for Java segítségével. Akár tapasztalt fejlesztő, akár csak most kezdi a Java prezentációkat, oktatóanyagaink listája útmutatóként szolgál az Aspose.Slides teljes potenciáljának kiaknázásához.|
 
@@ -53,9 +49,3 @@ Ismerje meg, hogyan állíthat be betűtípus-tulajdonságokat Java diákban az 
 Javítsa ki diagramjait az Aspose.Slides for Java segítségével. Tanulja meg, hogyan állíthatja be a pozíciótengelyt Java diákon, hogyan készíthet lenyűgöző prezentációkat, és hogyan testreszabhatja könnyedén a diagramelrendezéseket.
 ### [Forgatási szög beállítása Java Slides-ben](./setting-rotation-angle-java-slides/)
 Optimalizálja Java diákjait az Aspose.Slides for Java segítségével. Ismerje meg a szövegelemek elforgatási szögeinek beállítását. Lépésről lépésre útmutató forráskóddal.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

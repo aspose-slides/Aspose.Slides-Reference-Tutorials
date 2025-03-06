@@ -3,14 +3,10 @@ title: Δημιουργήστε σύνθετα αντικείμενα σε σχ�
 linktitle: Δημιουργήστε σύνθετα αντικείμενα σε σχήματα γεωμετρίας
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε σύνθετα αντικείμενα σε σχήματα γεωμετρίας χρησιμοποιώντας το Aspose.Slides για Java με αυτό το ολοκληρωμένο σεμινάριο. Ιδανικό για προγραμματιστές Java.
+type: docs
 weight: 20
 url: /el/java/java-powerpoint-shape-formatting-geometry/create-composite-objects-geometry-shapes-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Γεια σου! Θέλατε ποτέ να δημιουργήσετε εντυπωσιακά και περίπλοκα σχήματα στις παρουσιάσεις σας στο PowerPoint χρησιμοποιώντας Java; Λοιπόν, είσαι στο σωστό μέρος. Σε αυτό το σεμινάριο, θα βουτήξουμε στην πανίσχυρη βιβλιοθήκη Aspose.Slides for Java για να δημιουργήσουμε σύνθετα αντικείμενα σε σχήματα γεωμετρίας. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, αυτός ο οδηγός βήμα προς βήμα θα σας βοηθήσει να επιτύχετε εντυπωσιακά αποτελέσματα σε ελάχιστο χρόνο. Είστε έτοιμοι να ξεκινήσετε; Ας βουτήξουμε!
 ## Προαπαιτούμενα
@@ -99,9 +95,3 @@ if (pres != null) pres.dispose();
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής από[εδώ](https://releases.aspose.com/).
 ### Πού μπορώ να βρω περισσότερα έγγραφα και υποστήριξη;
  Ελέγξτε το[τεκμηρίωση](https://reference.aspose.com/slides/java/) και[φόρουμ υποστήριξης](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Преобразование слайдов заметок в форма�
 linktitle: Преобразование слайдов заметок в формат PDF
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Преобразуйте заметки докладчика в PowerPoint в PDF с помощью Aspose.Slides для .NET. Сохраняйте контекст и легко настраивайте макет.
+type: docs
 weight: 15
 url: /ru/net/presentation-conversion/convert-notes-slide-view-to-pdf-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 В этом подробном руководстве мы покажем вам процесс преобразования режима слайдов Notes в формат PDF с помощью Aspose.Slides для .NET. Вы найдете подробные инструкции и фрагменты кода, позволяющие легко выполнить эту задачу.
 
@@ -82,9 +78,3 @@ presentation.Save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
 Вы можете изучить дополнительные руководства и примеры на странице[Документация Aspose.Slides для .NET API](https://reference.aspose.com/slides/net/).
 
 Теперь, когда вы успешно преобразовали режим слайдов заметок в формат PDF, вы можете изучить дополнительные функции и возможности Aspose.Slides for .NET для улучшения задач автоматизации PowerPoint. Приятного кодирования!
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

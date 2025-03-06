@@ -3,14 +3,10 @@ title: Lägg till vanlig linje till bild
 linktitle: Lägg till vanlig linje till bild
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du lägger till en vanlig linje till en PowerPoint-bild med hjälp av Aspose.Slides för Java. Öka din produktivitet med denna steg-för-steg-guide.
+type: docs
 weight: 14
 url: /sv/java/java-powerpoint-shape-media-insertion/add-plain-line-slide/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 Aspose.Slides för Java är ett kraftfullt bibliotek som låter Java-utvecklare arbeta med PowerPoint-presentationer programmatiskt. Med Aspose.Slides kan du skapa, ändra och konvertera PowerPoint-filer med lätthet, vilket sparar tid och ansträngning. I den här handledningen går vi igenom processen att lägga till en vanlig linje på en bild i en PowerPoint-presentation med Aspose.Slides för Java.
 ## Förutsättningar
@@ -66,9 +62,3 @@ Absolut! Aspose.Slides erbjuder ett brett utbud av formtyper, inklusive rektangl
 Ja, du kan lägga till text, bilder och annat innehåll till bilden med Aspose.Slides API.
 ### Finns det en gratis testversion tillgänglig för Aspose.Slides?
  Ja, du kan ladda ner en gratis testversion av Aspose.Slides från[här](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

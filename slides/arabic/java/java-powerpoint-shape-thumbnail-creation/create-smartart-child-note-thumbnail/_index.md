@@ -3,14 +3,10 @@ title: إنشاء صورة مصغرة لملاحظة SmartArt التابعة
 linktitle: إنشاء صورة مصغرة لملاحظة SmartArt التابعة
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء صور مصغرة لملاحظات SmartArt الفرعية في Java باستخدام Aspose.Slides، مما يعزز عروض PowerPoint التقديمية دون عناء.
+type: docs
 weight: 15
 url: /ar/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-thumbnail/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية إنشاء صور مصغرة لملاحظات الأطفال SmartArt في Java باستخدام Aspose.Slides. Aspose.Slides عبارة عن واجهة برمجة تطبيقات Java قوية تتيح للمطورين العمل مع عروض PowerPoint التقديمية برمجيًا، مما يمكنهم من إنشاء الشرائح وتعديلها ومعالجتها بسهولة.
 ## المتطلبات الأساسية
@@ -74,9 +70,3 @@ ImageIO.write(bmp, "jpeg", new File(dataDir + "SmartArt_ChildNote_Thumbnail_out.
 بالتأكيد! يوفر Aspose.Slides دعمًا شاملاً لإنشاء ومعالجة مخططات SmartArt ذات التعقيدات المختلفة.
 ### هل يقدم Aspose.Slides الدعم الفني للمطورين؟
  نعم، يوفر Aspose.Slides دعمًا فنيًا مخصصًا للمطورين من خلال[المنتدى](https://forum.aspose.com/c/slides/11) وغيرها من القنوات.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

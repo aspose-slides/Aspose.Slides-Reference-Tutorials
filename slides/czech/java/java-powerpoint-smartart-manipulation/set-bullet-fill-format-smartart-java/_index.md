@@ -3,14 +3,10 @@ title: Nastavte formát výplně odrážek v obrázku SmartArt pomocí jazyka Ja
 linktitle: Nastavte formát výplně odrážek v obrázku SmartArt pomocí jazyka Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak nastavit formát odrážkové výplně v SmartArt pomocí Java s Aspose.Slides. Podrobný průvodce pro efektivní manipulaci s prezentacemi.
+type: docs
 weight: 18
 url: /cs/java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 oblasti programování v jazyce Java je efektivní manipulace s prezentacemi běžným požadavkem, zejména při práci s prvky SmartArt. Aspose.Slides for Java se ukazuje jako výkonný nástroj pro takové úkoly, který nabízí řadu funkcí pro programové zpracování prezentací. V tomto tutoriálu se krok za krokem ponoříme do procesu nastavení formátu výplně odrážek v obrázku SmartArt pomocí Java s Aspose.Slides.
 ## Předpoklady
@@ -75,9 +71,3 @@ Aspose.Slides vám skutečně umožňuje přizpůsobit každý aspekt tvarů Sma
  Ano, funkce Aspose.Slides můžete prozkoumat pomocí bezplatné zkušební verze. Jednoduše si jej stáhněte z[webová stránka](https://releases.aspose.com/slides/java/) a začít prozkoumávat.
 ### Kde najdu podporu pro Aspose.Slides pro Java?
  V případě jakýchkoli dotazů nebo pomoci můžete navštívit fórum Aspose.Slides na adrese[tento odkaz](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

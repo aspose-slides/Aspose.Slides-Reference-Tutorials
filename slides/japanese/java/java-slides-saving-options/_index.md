@@ -3,14 +3,10 @@ title: Java スライドの保存オプション
 linktitle: Java スライドの保存オプション
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用した Java スライドの保存オプションについて学習します。効率的なスライドの管理とカスタマイズのための包括的なチュートリアルとガイドをご覧ください。
+type: docs
 weight: 25
 url: /ja/java/saving-options/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 
 ダイナミック プレゼンテーションの世界では、Java は多用途の言語として登場し、スライドショーを強化するための多数のツールとライブラリを提供しています。スライドの管理とカスタマイズに関しては、Aspose.Slides for Java が強力なソリューションとして際立っています。この記事では、Aspose.Slides for Java を使用して Java スライドを保存するオプションの魅力的な領域について詳しく説明します。
@@ -50,9 +46,3 @@ Aspose.Slides for Java を使用して、Java スライドで定義済みのビ�
 Aspose.Slides を使用して、Java で PowerPoint プレゼンテーションを読み取り専用として保存する方法を学びます。ステップバイステップの手順とコード例を使用してコンテンツを保護します。
 ### [Java スライドにプロパティを保存する](./save-properties-in-java-slides/)
 Aspose.Slides for Java を使用して PowerPoint プレゼンテーションを最適化します。プロパティの設定、暗号化の無効化、パスワード保護の追加、および保存を簡単に行う方法を学習します。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

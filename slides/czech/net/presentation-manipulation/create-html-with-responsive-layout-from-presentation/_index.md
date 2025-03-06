@@ -3,14 +3,10 @@ title: Vytvořte HTML s responzivním rozložením z prezentace
 linktitle: Vytvořte HTML s responzivním rozložením z prezentace
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se převádět prezentace do responzivního HTML pomocí Aspose.Slides for .NET. Vytvářejte bez námahy interaktivní obsah vhodný pro zařízení.
+type: docs
 weight: 17
 url: /cs/net/presentation-manipulation/create-html-with-responsive-layout-from-presentation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 dnešní digitální době je tvorba responzivního webového obsahu klíčovou dovedností pro webové vývojáře a designéry. Naštěstí nástroje jako Aspose.Slides pro .NET usnadňují generování HTML s responzivním rozložením z prezentací. V tomto tutoriálu krok za krokem vás provedeme procesem, jak toho dosáhnout pomocí poskytnutého zdrojového kódu.
 
@@ -76,9 +72,3 @@ Díky Aspose.Slides for .NET máte nyní na dosah ruky vytváření HTML s respo
  Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 
 Nyní, když máte k dispozici komplexního průvodce vytvářením responzivního HTML z prezentací, jste na dobré cestě ke zlepšení dostupnosti a přitažlivosti vašeho webového obsahu. Šťastné kódování!
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

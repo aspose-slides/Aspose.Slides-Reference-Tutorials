@@ -3,14 +3,10 @@ title: Πρόσβαση σε μορφές διάταξης σε διαφάνει
 linktitle: Πρόσβαση σε μορφές διάταξης σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να αποκτάτε πρόσβαση και να χειρίζεστε μορφές διάταξης σε Java Slides με το Aspose.Slides for Java. Προσαρμόστε τα στυλ σχήματος και γραμμών χωρίς κόπο σε παρουσιάσεις PowerPoint.
+type: docs
 weight: 10
 url: /el/java/presentation-properties/access-layout-formats-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στις μορφές διάταξης Access σε διαφάνειες Java
 
@@ -142,9 +138,3 @@ IShape shape = layoutSlide.getShapes().get_Item(0); // Πρόσβαση στο �
 ```
 
  Στη συνέχεια, μπορείτε να χρησιμοποιήσετε το`IFillFormat` και`ILineFormat` μεθόδους όπως φαίνεται στις προηγούμενες απαντήσεις για την τροποποίηση της μορφής γεμίσματος και γραμμής του σχήματος.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

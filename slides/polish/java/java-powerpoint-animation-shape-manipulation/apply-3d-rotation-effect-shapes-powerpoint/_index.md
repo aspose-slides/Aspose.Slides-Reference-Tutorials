@@ -3,14 +3,10 @@ title: Zastosuj efekt obrotu 3D na kształtach w programie PowerPoint
 linktitle: Zastosuj efekt obrotu 3D na kształtach w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak zastosować efekty rotacji 3D do kształtów w programie PowerPoint przy użyciu Aspose.Slides dla języka Java, korzystając z tego wszechstronnego samouczka krok po kroku.
+type: docs
 weight: 12
 url: /pl/java/java-powerpoint-animation-shape-manipulation/apply-3d-rotation-effect-shapes-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 Czy jesteś gotowy, aby przenieść swoje prezentacje PowerPoint na wyższy poziom? Dodanie efektów rotacji 3D może sprawić, że slajdy będą bardziej dynamiczne i wciągające. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz, ten samouczek krok po kroku pokaże Ci, jak zastosować efekty rotacji 3D do kształtów w programie PowerPoint za pomocą Aspose.Slides dla Java. Zanurkujmy od razu!
 ## Warunki wstępne
@@ -88,9 +84,3 @@ Możesz dodawać efekty 3D do różnych kształtów, takich jak prostokąty, lin
  Możesz odwiedzić[forum wsparcia](https://forum.aspose.com/c/slides/11) o pomoc i omówienie wszelkich problemów.
 ### Czy mogę używać Aspose.Slides for Java w projektach komercyjnych?
  Tak, ale musisz kupić licencję. Możesz kupić taki od[strona zakupu](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

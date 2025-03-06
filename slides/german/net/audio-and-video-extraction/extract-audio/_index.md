@@ -3,14 +3,10 @@ title: Audio aus Folie extrahieren
 linktitle: Audio aus Folie extrahieren
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Audio aus Folien extrahieren. Verbessern Sie Ihre Präsentationen mit dieser Schritt-für-Schritt-Anleitung.
+type: docs
 weight: 11
 url: /de/net/audio-and-video-extraction/extract-audio/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 In der Welt der Präsentationen kann das Hinzufügen von Audio zu Ihren Folien die Gesamtwirkung und das Engagement steigern. Aspose.Slides für .NET bietet einen leistungsstarken Satz von Tools für die Arbeit mit Präsentationen. In diesem Tutorial erfahren Sie in einer Schritt-für-Schritt-Anleitung, wie Sie Audio aus einer Folie extrahieren. Egal, ob Sie Entwickler sind und diesen Prozess automatisieren möchten oder einfach nur wissen möchten, wie er funktioniert, dieses Tutorial führt Sie durch den Prozess.
 
@@ -91,9 +87,3 @@ Ja, Aspose.Slides für .NET bietet eine breite Palette an Funktionen für die Ar
 
 ### 5. Wo finde ich zusätzliche Unterstützung oder kann Fragen zu Aspose.Slides für .NET stellen?
  Besuchen Sie die[Aspose.Slides für .NET-Supportforum](https://forum.aspose.com/) um Hilfe zu suchen, Fragen zu stellen oder Ihre Erfahrungen mit der Aspose-Community zu teilen.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

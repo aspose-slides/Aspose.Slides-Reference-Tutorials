@@ -3,14 +3,10 @@ title: Konvertálja a Notes Slide View-t PDF-be a Java Slides alkalmazásban
 linktitle: Konvertálja a Notes Slide View-t PDF-be a Java Slides alkalmazásban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan konvertálhat feljegyzéseket tartalmazó PowerPoint-prezentációkat PDF-fájlokká az Aspose.Slides for Java segítségével. Kövesse lépésenkénti útmutatónkat a forráskóddal.
+type: docs
 weight: 16
 url: /hu/java/presentation-conversion/convert-notes-slide-view-pdf-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés a jegyzetek dianézetének PDF formátumba konvertálásához a Java Slides alkalmazásban
 
@@ -110,9 +106,3 @@ Igen, az Aspose.Slides kereskedelmi használatra érvényes licenc szükséges. 
 ### Hol találok további dokumentációt és példákat?
 
  Az Aspose.Slides for Java átfogó dokumentációját és példáit itt találja[itt](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

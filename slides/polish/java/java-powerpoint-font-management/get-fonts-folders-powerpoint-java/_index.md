@@ -3,14 +3,10 @@ title: Uzyskaj foldery czcionek w programie PowerPoint przy użyciu języka Java
 linktitle: Uzyskaj foldery czcionek w programie PowerPoint przy użyciu języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak wyodrębnić foldery czcionek w prezentacjach programu PowerPoint przy użyciu języka Java z Aspose.Slides, zwiększając możliwości projektowania prezentacji.
+type: docs
 weight: 13
 url: /pl/java/java-powerpoint-font-management/get-fonts-folders-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 W tym samouczku zagłębimy się w proces pobierania folderów z czcionkami w prezentacjach programu PowerPoint przy użyciu języka Java. Czcionki odgrywają kluczową rolę w atrakcyjności wizualnej i czytelności prezentacji. Wykorzystując Aspose.Slides dla Java, możemy efektywnie uzyskiwać dostęp do katalogów czcionek, co jest niezbędne do różnych operacji związanych z czcionkami w prezentacjach PowerPoint.
 ## Warunki wstępne
@@ -50,9 +46,3 @@ Foldery czcionek ułatwiają dostęp do zasobów czcionek, umożliwiając bezpro
  Możesz odwiedzić forum Aspose.Slides[Tutaj](https://forum.aspose.com/c/slides/11) szukać wsparcia u społeczności lub zespołu wsparcia Aspose.
 ### Gdzie mogę kupić Aspose.Slides dla Java?
  Możesz kupić Aspose.Slides dla Java na stronie internetowej[Tutaj](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

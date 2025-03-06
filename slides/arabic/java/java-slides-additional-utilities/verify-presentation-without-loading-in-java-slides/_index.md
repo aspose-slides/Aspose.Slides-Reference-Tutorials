@@ -3,14 +3,10 @@ title: التحقق من العرض التقديمي دون التحميل في 
 linktitle: التحقق من العرض التقديمي دون التحميل في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية التحقق من العروض التقديمية دون تحميلها في Java Slides باستخدام Aspose.Slides for Java. تأكد من سلامة الملف بكفاءة باستخدام هذا الدليل التفصيلي خطوة بخطوة.
+type: docs
 weight: 18
 url: /ar/java/additional-utilities/verify-presentation-without-loading-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة للتحقق من العرض التقديمي دون التحميل في شرائح Java
 
@@ -84,9 +80,3 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
 ### أين يمكنني العثور على المزيد من الموارد والوثائق الخاصة بـ Aspose.Slides لـ Java؟
 
  يمكنك الوصول إلى الوثائق والموارد الشاملة الخاصة بـ Aspose.Slides for Java على[هنا](https://reference.aspose.com/slides/java/). ستساعدك هذه الوثائق في إتقان واجهة برمجة التطبيقات (API) ووظائفها.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

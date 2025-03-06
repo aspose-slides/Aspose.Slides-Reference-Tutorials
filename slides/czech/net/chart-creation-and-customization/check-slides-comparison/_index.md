@@ -3,14 +3,10 @@ title: Porovnejte snímky v rámci prezentace
 linktitle: Porovnejte snímky v rámci prezentace
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se porovnávat snímky v prezentacích pomocí Aspose.Slides for .NET. Podrobný průvodce se zdrojovým kódem pro přesné srovnání.
+type: docs
 weight: 12
 url: /cs/net/chart-creation-and-customization/check-slides-comparison/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod k porovnání snímků v rámci prezentace
 
@@ -147,9 +143,3 @@ Srovnávací zprávy můžete exportovat do formátů jako PDF, DOCX a HTML pro 
 ### Existují nějaké osvědčené postupy pro optimalizaci výkonu porovnávání prezentací?
 
 Ano, implementace účinných algoritmů a správa využití paměti jsou klíčem k optimalizaci výkonu porovnávání prezentací.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

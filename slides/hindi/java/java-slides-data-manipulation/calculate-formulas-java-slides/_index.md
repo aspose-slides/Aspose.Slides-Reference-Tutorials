@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में सूत्रों क
 linktitle: जावा स्लाइड्स में सूत्रों की गणना करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके Java Slides में फ़ार्मुलों की गणना करना सीखें। गतिशील PowerPoint प्रस्तुतियों के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
+type: docs
 weight: 10
 url: /hi/java/data-manipulation/calculate-formulas-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides का उपयोग करके जावा स्लाइड्स में सूत्रों की गणना करने का परिचय
 
@@ -118,10 +114,3 @@ try {
 ### मैं कार्यपुस्तिका में सूत्रों की गणना कैसे करूँ?
 
  आप किसी कार्यपुस्तिका में सूत्रों की गणना कर सकते हैं`calculateFormulas` उसकि विधि`IChartDataWorkbook` Aspose.Slides में.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

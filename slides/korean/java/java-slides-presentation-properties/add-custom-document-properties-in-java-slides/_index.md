@@ -3,14 +3,10 @@ title: Java 슬라이드에 사용자 정의 문서 속성 추가
 linktitle: Java 슬라이드에 사용자 정의 문서 속성 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Java Slides의 사용자 정의 문서 속성을 사용하여 PowerPoint 프레젠테이션을 향상시키는 방법을 알아보세요. Aspose.Slides for Java를 사용하는 코드 예제가 포함된 단계별 가이드입니다.
+type: docs
 weight: 13
 url: /ko/java/presentation-properties/add-custom-document-properties-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 슬라이드에 사용자 정의 문서 속성 추가 소개
 
@@ -141,9 +137,3 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 이 코드는 프레젠테이션의 모든 사용자 정의 속성의 이름과 값을 표시합니다.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

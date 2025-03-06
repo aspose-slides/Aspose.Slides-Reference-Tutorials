@@ -3,14 +3,10 @@ title: Crie HTML com layout responsivo a partir da apresentação
 linktitle: Crie HTML com layout responsivo a partir da apresentação
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como converter apresentações em HTML responsivo usando Aspose.Slides for .NET. Crie conteúdo interativo e fácil de usar em dispositivos sem esforço.
+type: docs
 weight: 17
 url: /pt/net/presentation-manipulation/create-html-with-responsive-layout-from-presentation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Na era digital de hoje, criar conteúdo web responsivo é uma habilidade crucial para desenvolvedores e designers web. Felizmente, ferramentas como Aspose.Slides for .NET facilitam a geração de HTML com layouts responsivos a partir de apresentações. Neste tutorial passo a passo, orientaremos você no processo para conseguir isso usando o código-fonte fornecido.
 
@@ -76,9 +72,3 @@ Para quaisquer dúvidas relacionadas ao suporte, visite o[Fórum Aspose.Slides](
  Sim, você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
 
 Agora que você tem um guia completo para criar HTML responsivo a partir de apresentações, você está no caminho certo para melhorar a acessibilidade e o apelo do seu conteúdo da web. Boa codificação!
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

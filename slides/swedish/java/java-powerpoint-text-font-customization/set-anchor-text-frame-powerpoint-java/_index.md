@@ -3,14 +3,10 @@ title: Ställ in Anchor of Text Frame i PowerPoint med Java
 linktitle: Ställ in Anchor of Text Frame i PowerPoint med Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ställer in textramankare i PowerPoint med Java med Aspose.Slides. Förbättra dina presentationer.
+type: docs
 weight: 13
 url: /sv/java/java-powerpoint-text-font-customization/set-anchor-text-frame-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 den här handledningen kommer du att lära dig hur du ställer in ankaret för en textram i PowerPoint-presentationer med hjälp av Java med hjälp av Aspose.Slides. Genom att förankra textramar kan du exakt kontrollera textens position och beteende i en form, vilket säkerställer att dina bilder är visuellt tilltalande och effektivt strukturerade.
 ## Förutsättningar
@@ -75,9 +71,3 @@ Aspose.Slides för Java är ett kraftfullt bibliotek som låter Java-utvecklare 
  Ja, du kan ladda ner en gratis testversion[här](https://releases.aspose.com/).
 ### Var kan jag få support för Aspose.Slides för Java?
  Du kan besöka supportforumet[här](https://forum.aspose.com/c/slides/11) för eventuella frågor eller hjälp.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

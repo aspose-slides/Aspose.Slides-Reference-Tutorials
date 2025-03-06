@@ -3,14 +3,10 @@ title: Java Slaytlarına Özel Belge Özellikleri Ekleme
 linktitle: Java Slaytlarına Özel Belge Özellikleri Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Java Slaytlar'daki özel belge özellikleriyle PowerPoint sunumlarını nasıl geliştireceğinizi öğrenin. Aspose.Slides for Java'yı kullanan kod örneklerini içeren adım adım kılavuz.
+type: docs
 weight: 13
 url: /tr/java/presentation-properties/add-custom-document-properties-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java Slaytlarına Özel Belge Özellikleri Eklemeye Giriş
 
@@ -141,9 +137,3 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 Bu kod, sunumdaki tüm özel özelliklerin adlarını ve değerlerini görüntüler.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

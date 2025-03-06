@@ -3,14 +3,10 @@ title: Explorando las propiedades de la presentación con Aspose.Slides
 linktitle: Propiedades de presentación de diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo mejorar las propiedades de su presentación de diapositivas Java con los tutoriales de Aspose.Slides para Java. Descubra consejos y trucos para presentaciones dinámicas.
+type: docs
 weight: 21
 url: /es/java/presentation-properties/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 En el mundo en constante evolución de la comunicación digital, las presentaciones cautivadoras son una necesidad. Ya sea que sea un profesional experimentado o esté comenzando su viaje hacia las presentaciones de diapositivas Java, dominar el arte de las propiedades de presentación es crucial. Afortunadamente, Aspose.Slides para Java proporciona un poderoso conjunto de herramientas y funciones para hacer que sus presentaciones brillen.
 
@@ -61,9 +57,3 @@ Aprenda a verificar la protección de presentaciones en diapositivas de Java usa
 Optimice su presentación de diapositivas Java con Aspose.Slides. Cree presentaciones atractivas con configuraciones personalizadas. Explore guías paso a paso y preguntas frecuentes.
 ### [Propiedades recomendadas de solo lectura en diapositivas de Java](./read-only-recommended-properties-in-java-slides/)
 Aprenda cómo habilitar las propiedades recomendadas de solo lectura en presentaciones de PowerPoint de Java usando Aspose.Slides para Java. Siga nuestra guía paso a paso con ejemplos de código fuente para mejorar la seguridad de las presentaciones.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

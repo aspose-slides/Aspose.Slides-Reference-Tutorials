@@ -3,14 +3,10 @@ title: Penanganan Gambar Slide Java Menggunakan Aspose.Slides Untuk Java
 linktitle: Penanganan Gambar Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menangani gambar di slide Java menggunakan tutorial Aspose.Slides untuk Java. Jelajahi panduan langkah demi langkah untuk pengelolaan gambar yang efisien.
+type: docs
 weight: 23
 url: /id/java/image-handling/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Apakah Anda siap untuk menyempurnakan slide Java Anda dengan gambar yang menakjubkan? Pada artikel ini, kita akan mempelajari dunia penanganan gambar menggunakan tutorial Aspose.Slides untuk Java. Baik Anda seorang pengembang berpengalaman atau baru memulai perjalanan, panduan komprehensif ini akan memandu Anda melalui prosesnya, langkah demi langkah.
 
@@ -46,9 +42,3 @@ Pelajari cara menambahkan gambar SVG ke Java Slides dengan Aspose.Slides untuk J
 Pelajari cara menambahkan gambar SVG berbasis vektor dari sumber daya eksternal ke slide Java menggunakan Aspose.Slides. Buat presentasi menakjubkan dengan visual berkualitas tinggi.
 ### [Ubah Objek Gambar SVG menjadi Kelompok Bentuk di Slide Java](./convert-svg-image-object-into-group-of-shapes-in-java-slides/)
 Pelajari cara mengonversi gambar SVG menjadi sekelompok bentuk di Java Slides menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan contoh kode.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

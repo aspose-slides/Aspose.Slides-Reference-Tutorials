@@ -3,14 +3,10 @@ title: 在 Aspose.Slides 中使用預設印表機列印簡報
 linktitle: 在 Aspose.Slides 中使用預設印表機列印簡報
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides 在 .NET 中解鎖無縫 PowerPoint 列印。請遵循我們的逐步指南以輕鬆整合。立即提升您的應用程式的功能！
+type: docs
 weight: 10
 url: /zh-hant/net/printing-and-rendering-in-slides/printing-with-default-printer/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 在 .NET 開發領域，Aspose.Slides 作為創建、操作和渲染 PowerPoint 簡報的強大工具脫穎而出。在其一系列功能中，將簡報直接列印到預設印表機的能力是開發人員經常尋求的便利功能。本教學將逐步引導您完成整個過程，即使您對 Aspose.Slides 比較陌生，也可以輕鬆上手。
 ## 先決條件
@@ -55,9 +51,3 @@ presentation.Print();
 是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)用於測試和評估。
 ### 我該如何尋求協助或與 Aspose.Slides 社群建立聯繫？
 參觀[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)提出問題、分享見解並與其他開發人員聯繫。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

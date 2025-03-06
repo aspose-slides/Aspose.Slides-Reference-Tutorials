@@ -3,14 +3,10 @@ title: Java Slaytlarında Formülleri Hesaplama
 linktitle: Java Slaytlarında Formülleri Hesaplama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak Java Slides'ta formülleri nasıl hesaplayacağınızı öğrenin. Dinamik PowerPoint sunumları için kaynak kodunu içeren adım adım kılavuz.
+type: docs
 weight: 10
 url: /tr/java/data-manipulation/calculate-formulas-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides Kullanarak Java Slaytlarında Formül Hesaplamaya Giriş
 
@@ -118,10 +114,3 @@ Bu kılavuzda Aspose.Slides for Java kullanarak Java Slides'taki formüllerin na
 ### Çalışma kitabındaki formülleri nasıl hesaplarım?
 
  Bir çalışma kitabındaki formülleri aşağıdakileri kullanarak hesaplayabilirsiniz:`calculateFormulas` yöntemi`IChartDataWorkbook` Aspose.Slides'ta.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Κλωνοποίηση διαφάνειας στην ίδια παρου�
 linktitle: Κλωνοποίηση διαφάνειας στην ίδια παρουσίαση
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Κλωνοποιήστε διαφάνειες στην ίδια παρουσίαση χρησιμοποιώντας το Aspose.Slides για Java με τον οδηγό μας. Ιδανικό για προγραμματιστές που θέλουν να βελτιώσουν τους χειρισμούς του PowerPoint.
+type: docs
 weight: 15
 url: /el/java/java-powerpoint-slide-cloning-techniques/clone-slide-within-same-presentation-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Είστε έτοιμοι να βουτήξετε στον κόσμο του Aspose.Slides για Java και να μάθετε πώς να κλωνοποιείτε διαφάνειες στην ίδια παρουσίαση; Αυτό το σεμινάριο θα σας καθοδηγήσει σε όλα όσα πρέπει να γνωρίζετε, από τα προαπαιτούμενα μέχρι την τελική υλοποίηση. Ας αρχίσουμε!
 ## Προαπαιτούμενα
@@ -71,9 +67,3 @@ if (pres != null) pres.dispose();
 Η τεκμηρίωση για το Aspose.Slides για Java είναι διαθέσιμη στο[Aspose website](https://reference.aspose.com/slides/java/).
 ### Πώς μπορώ να αγοράσω Aspose.Slides για Java;
  Μπορείτε να αγοράσετε Aspose.Slides για Java μεταβαίνοντας στο[σελίδα αγοράς](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

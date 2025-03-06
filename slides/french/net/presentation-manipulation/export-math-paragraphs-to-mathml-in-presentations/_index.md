@@ -3,14 +3,10 @@ title: Exporter des paragraphes mathématiques vers MathML dans des présentatio
 linktitle: Exporter des paragraphes mathématiques vers MathML dans des présentations
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Améliorez vos présentations en exportant des paragraphes mathématiques vers MathML à l'aide d'Aspose.Slides pour .NET. Suivez notre guide étape par étape pour un rendu mathématique précis. Téléchargez Aspose.Slides et commencez à créer des présentations convaincantes dès aujourd'hui.
+type: docs
 weight: 14
 url: /fr/net/presentation-manipulation/export-math-paragraphs-to-mathml-in-presentations/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Dans le monde des présentations modernes, le contenu mathématique joue souvent un rôle crucial dans la transmission d’idées et de données complexes. Si vous travaillez avec Aspose.Slides pour .NET, vous avez de la chance ! Ce didacticiel vous guidera tout au long du processus d'exportation de paragraphes mathématiques vers MathML, vous permettant d'intégrer de manière transparente du contenu mathématique dans vos présentations. Alors, plongeons dans le monde de MathML et Aspose.Slides.
 
@@ -77,10 +73,3 @@ Non, vous n'avez pas besoin d'être un expert. Aspose.Slides pour .NET simplifie
 Oui, vous pouvez facilement intégrer du contenu MathML dans vos présentations existantes à l'aide d'Aspose.Slides pour .NET.
 
 Maintenant que vous avez appris à exporter des paragraphes mathématiques vers MathML avec Aspose.Slides pour .NET, vous êtes prêt à créer des présentations dynamiques et attrayantes avec du contenu mathématique. Bonne présentation !
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

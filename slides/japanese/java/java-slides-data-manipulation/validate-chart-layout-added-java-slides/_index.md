@@ -3,14 +3,10 @@ title: Java スライドに追加されたチャートレイアウトを検証�
 linktitle: Java スライドに追加されたチャートレイアウトを検証する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint でのグラフ レイアウト検証をマスターします。グラフをプログラムで操作して魅力的なプレゼンテーションを作成する方法を学びます。
+type: docs
 weight: 10
 url: /ja/java/data-manipulation/validate-chart-layout-added-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for Java でのチャート レイアウトの検証の概要
 
@@ -101,10 +97,3 @@ finally
 ### 他のグラフのプロパティを変更したい場合はどうすればいいでしょうか?
 
 さまざまなグラフ プロパティにアクセスし、要件に応じてカスタマイズできます。グラフ操作に関する包括的な情報については、Aspose.Slides のドキュメントを参照してください。
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

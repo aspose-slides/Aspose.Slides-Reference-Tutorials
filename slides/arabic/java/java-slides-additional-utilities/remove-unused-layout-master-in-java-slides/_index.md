@@ -3,14 +3,10 @@ title: إزالة التخطيط الرئيسي غير المستخدم في ش�
 linktitle: إزالة التخطيط الرئيسي غير المستخدم في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بإزالة المخططات الرئيسية غير المستخدمة باستخدام Aspose.Slides. دليل خطوة بخطوة والكود. تعزيز كفاءة العرض.
+type: docs
 weight: 10
 url: /ar/java/additional-utilities/remove-unused-layout-master-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة لإزالة التخطيط الرئيسي غير المستخدم في شرائح Java
 
@@ -127,9 +123,3 @@ System.out.println("Layout slides number in result presentation = " + pres.getLa
 ### أين يمكنني الوصول إلى الكود المصدري المستخدم في هذه المقالة؟
 
 يمكنك العثور على الكود المصدري المستخدم في هذه المقالة ضمن مقتطفات الكود المتوفرة في كل خطوة. ما عليك سوى نسخ التعليمات البرمجية ولصقها في مشروع Java الخاص بك لتنفيذ إزالة التخطيطات الرئيسية غير المستخدمة في عروضك التقديمية.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

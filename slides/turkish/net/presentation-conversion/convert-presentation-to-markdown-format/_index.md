@@ -3,14 +3,10 @@ title: Sunumu Markdown Formatına Dönüştür
 linktitle: Sunumu Markdown Formatına Dönüştür
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak sunumları zahmetsizce Markdown'a nasıl dönüştürebileceğinizi öğrenin. Kod örnekleri içeren adım adım kılavuz.
+type: docs
 weight: 23
 url: /tr/net/presentation-conversion/convert-presentation-to-markdown-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Günümüzün dijital çağında sunumları çeşitli formatlara dönüştürme ihtiyacı giderek önem kazanmıştır. İster öğrenci, ister iş uzmanı veya içerik oluşturucu olun, PowerPoint sunumlarınızı Markdown formatına dönüştürme becerisine sahip olmak değerli bir beceri olabilir. Markdown, metin belgelerini ve web içeriğini biçimlendirmek için yaygın olarak kullanılan hafif bir biçimlendirme dilidir. Bu adım adım eğitimde, Aspose.Slides for .NET kullanarak sunumları Markdown formatına dönüştürme sürecinde size rehberlik edeceğiz.
 
@@ -102,10 +98,3 @@ Evet, Aspose.Slides for .NET, PDF, HTML ve daha fazlasını içeren çeşitli fo
 ### S5: Aspose.Slides for .NET'in geçici lisansına nereden erişebilirim?
 
  Aspose.Slides for .NET için geçici lisansı şu adresten edinebilirsiniz:[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

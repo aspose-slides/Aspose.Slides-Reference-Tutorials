@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides for .NET 格式化椭圆形教程
 linktitle: 使用 Aspose.Slides 在幻灯片中格式化椭圆形状
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 在 PowerPoint 中创建令人惊叹的椭圆形状。按照我们的分步指南进行专业演示。
+type: docs
 weight: 11
 url: /zh/net/shape-geometry-and-positioning-in-slides/formatting-ellipse-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 使用视觉上吸引人的形状来增强 PowerPoint 演示文稿的效果对于吸引观众至关重要。椭圆形就是这样一种形状，它可以为您的幻灯片增添一丝优雅和专业感。在本教程中，我们将指导您使用 Aspose.Slides for .NET 在 PowerPoint 中格式化椭圆形的过程。
 ## 先决条件
@@ -85,9 +81,3 @@ Aspose.Slides 确保与各种 PowerPoint 版本兼容，包括最新版本。请
 向社区寻求帮助[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11).
 ### 是否有直接购买 Aspose.Slides for .NET 的选项？
 是的，你可以直接购买图书馆[这里](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

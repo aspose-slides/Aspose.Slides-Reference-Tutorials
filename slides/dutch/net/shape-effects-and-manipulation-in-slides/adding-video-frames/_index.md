@@ -3,14 +3,10 @@ title: Zelfstudie videoframes toevoegen met Aspose.Slides voor .NET
 linktitle: Videoframes toevoegen aan presentatiedia's met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Geef presentaties nieuw leven in met dynamische videoframes met Aspose.Slides voor .NET. Volg onze gids voor naadloze integratie en creëer boeiende content.
+type: docs
 weight: 19
 url: /nl/net/shape-effects-and-manipulation-in-slides/adding-video-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 In het dynamische landschap van presentaties kan het opnemen van multimedia-elementen de algehele impact en betrokkenheid vergroten. Het toevoegen van videoframes aan uw dia's kan een gamechanger zijn en de aandacht van uw publiek trekken op een manier die statische inhoud niet kan. Aspose.Slides voor .NET biedt een robuuste oplossing voor het naadloos integreren van videoframes in uw presentatiedia's.
 ## Vereisten
@@ -71,9 +67,3 @@ Absoluut! Je hebt volledige controle over afspeelopties, zoals afspeelmodus en v
  Ja, u kunt de mogelijkheden van Aspose.Slides voor .NET verkennen door de proefversie te downloaden[hier](https://releases.aspose.com/).
 ### V5: Waar kan ik ondersteuning vinden voor Aspose.Slides voor .NET?
  Voor vragen of hulp kunt u terecht op de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Erstellen Sie ein formatiertes Rechteck in PowerPoint
 linktitle: Erstellen Sie ein formatiertes Rechteck in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Slides für Java ein Rechteck in PowerPoint erstellen und formatieren.
+type: docs
 weight: 18
 url: /de/java/java-powerpoint-shape-formatting-geometry/create-formatted-rectangle-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 In diesem Tutorial führen wir Sie durch den Prozess zum Erstellen eines formatierten Rechtecks in einer PowerPoint-Folie mit Aspose.Slides für Java. Wir werden jeden Schritt aufschlüsseln, damit Sie ihn nachvollziehen und in Ihren eigenen Projekten umsetzen können.
 ## Voraussetzungen
@@ -95,9 +91,3 @@ Ja, Sie können Aspose.Slides für Java mit jeder Java-kompatiblen IDE wie Intel
  Ja, die Entsorgung der`Presentation` Objekt hilft, Ressourcen freizugeben und Speicherlecks zu vermeiden.
 ### Wo finde ich die Dokumentation für Aspose.Slides für Java?
  Die Dokumentation ist verfügbar[Hier](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

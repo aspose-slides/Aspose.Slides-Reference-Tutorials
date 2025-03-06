@@ -3,14 +3,10 @@ title: Tùy chọn lưu trang trình bày Java
 linktitle: Tùy chọn lưu trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu về các tùy chọn lưu Java Slides với Aspose.Slides for Java. Khám phá các hướng dẫn và hướng dẫn toàn diện để quản lý và tùy chỉnh trang trình bày hiệu quả.
+type: docs
 weight: 25
 url: /vi/java/saving-options/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 
 Trong thế giới thuyết trình năng động, Java đã nổi lên như một ngôn ngữ linh hoạt, cung cấp vô số công cụ và thư viện để nâng cao trình chiếu của bạn. Khi nói đến việc quản lý và tùy chỉnh các slide, Aspose.Slides for Java nổi bật như một giải pháp mạnh mẽ. Trong bài viết này, chúng ta sẽ đi sâu vào lĩnh vực thú vị của các tùy chọn lưu Java Slides bằng Aspose.Slides cho Java.
@@ -50,9 +46,3 @@ Tìm hiểu cách đặt các loại chế độ xem được xác định trư�
 Tìm hiểu cách lưu bản trình bày PowerPoint ở dạng chỉ đọc trong Java bằng Aspose.Slides. Bảo vệ nội dung của bạn bằng hướng dẫn từng bước và ví dụ về mã.
 ### [Lưu thuộc tính trong Java Slides](./save-properties-in-java-slides/)
 Tối ưu hóa bản trình bày PowerPoint của bạn với Aspose.Slides cho Java. Tìm hiểu cách đặt thuộc tính, tắt mã hóa, thêm bảo vệ bằng mật khẩu và lưu dễ dàng.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

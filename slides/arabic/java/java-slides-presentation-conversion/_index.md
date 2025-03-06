@@ -3,14 +3,10 @@ title: تحويل عرض شرائح جافا
 linktitle: تحويل عرض شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحويل العروض التقديمية لشرائح Java بسهولة باستخدام Aspose.Slides لـ Java. برامج تعليمية شاملة وأدلة خطوة بخطوة في انتظارك.
+type: docs
 weight: 17
 url: /ar/java/presentation-conversion/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 هل أنت مستعد للغوص في عالم تحويل العروض التقديمية لشرائح Java؟ مع قوة Aspose.Slides لـ Java التي أصبحت في متناول يدك، أنت على وشك البدء في رحلة ستمكنك من تحويل عروضك التقديمية دون عناء. في هذا الدليل الشامل، سنوجهك عبر الخطوات الأساسية ونزودك برؤى قيمة لإتقان فن تحويل العروض التقديمية لشرائح Java.
 
@@ -91,9 +87,3 @@ url: /ar/java/presentation-conversion/
 قم بتحويل عروض PowerPoint التقديمية إلى تنسيق SWF في Java باستخدام Aspose.Slides. اتبع دليلنا خطوة بخطوة مع الكود المصدري للتحويل السلس.
 ### [تحويل إلى PDF مع تحديث التقدم في شرائح جافا](./convert-pdf-progress-update-java-slides/)
 تحويل PowerPoint إلى PDF مع تحديثات التقدم في Java باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع الكود المصدري وتتبع التقدم من أجل تحويل سلس.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

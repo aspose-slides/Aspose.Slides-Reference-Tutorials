@@ -3,14 +3,10 @@ title: Érvényesítse a Java diákhoz hozzáadott diagramelrendezést
 linktitle: Érvényesítse a Java diákhoz hozzáadott diagramelrendezést
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Mesterdiagram elrendezésének ellenőrzése PowerPointban az Aspose.Slides for Java segítségével. Tanulja meg a diagramok programozott kezelését a lenyűgöző prezentációk érdekében.
+type: docs
 weight: 10
 url: /hu/java/data-manipulation/validate-chart-layout-added-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés a diagramelrendezés érvényesítésébe az Aspose.Slides for Java programban
 
@@ -101,10 +97,3 @@ Igen, testreszabhatja a diagram adatait adatsorok, kategóriák és értékek ho
 ### Mi a teendő, ha más diagramtulajdonságokat szeretnék módosítani?
 
 Különféle diagramtulajdonságokat érhet el, és igényei szerint testreszabhatja azokat. Fedezze fel az Aspose.Slides dokumentációját a diagramkezeléssel kapcsolatos átfogó információkért.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

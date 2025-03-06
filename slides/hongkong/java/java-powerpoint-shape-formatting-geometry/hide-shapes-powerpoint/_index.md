@@ -3,14 +3,10 @@ title: 在 PowerPoint 中隱藏形狀
 linktitle: 在 PowerPoint 中隱藏形狀
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 透過我們詳細的逐步指南，了解如何使用 Aspose.Slides for Java 在 PowerPoint 中隱藏形狀。非常適合各個層級的 Java 開發人員。
+type: docs
 weight: 27
 url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 歡迎來到我們關於使用 Aspose.Slides for Java 在 PowerPoint 中隱藏形狀的綜合教學！如果您曾經需要以程式設計方式隱藏 PowerPoint 簡報中的特定形狀，那麼您來對地方了。本指南將以簡單的對話方式引導您完成每個步驟。無論您是經驗豐富的開發人員還是剛開始使用 Java，我們都能滿足您的需求。
 ## 先決條件
@@ -85,9 +81,3 @@ Aspose.Slides 可用於各種程式語言，包括 .NET、Python 和 C++。不�
 是的，您可以從以下位置下載免費試用版[這裡](https://releases.aspose.com/).
 ### 我可以在哪裡獲得 Aspose.Slides 的支援？
 您可以從以下方面獲得支持[Aspose.Slides 支援論壇](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

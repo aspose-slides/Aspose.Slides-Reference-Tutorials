@@ -3,14 +3,10 @@ title: Μετρημένη χρήση άδειας χρήσης
 linktitle: Μετρημένη χρήση άδειας χρήσης
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να χρησιμοποιείτε αποτελεσματικά το Metered Licensing με το Aspose.Slides για .NET. Ενσωματώστε απρόσκοπτα τα API ενώ πληρώνετε για την πραγματική χρήση.
+type: docs
 weight: 11
 url: /el/net/licensing-and-formatting/metered-licensing/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή
 
@@ -118,9 +114,3 @@ Console.WriteLine("Amount Consumed After: " + amountAfter.ToString());
 
 ### Υπάρχει κάποιο φόρουμ για υποστήριξη και συζητήσεις για το Aspose.Slides;
  Ναι, μπορείτε να βρείτε υποστήριξη και να συμμετάσχετε σε συζητήσεις στο φόρουμ Aspose.Slides στη διεύθυνση[αυτός ο σύνδεσμος](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

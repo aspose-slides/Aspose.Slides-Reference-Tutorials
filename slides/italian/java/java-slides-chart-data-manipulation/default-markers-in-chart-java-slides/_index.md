@@ -3,14 +3,10 @@ title: Indicatori predefiniti nel grafico nelle diapositive Java
 linktitle: Indicatori predefiniti nel grafico nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come creare diapositive Java con indicatori predefiniti nei grafici utilizzando Aspose.Slides per Java. Guida passo passo con il codice sorgente.
+type: docs
 weight: 16
 url: /it/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduzione agli indicatori predefiniti nel grafico nelle diapositive Java
 
@@ -146,9 +142,3 @@ In questo tutorial completo, hai imparato come creare diapositive Java con indic
 ### Posso aggiungere etichette ai punti dati?
 
  Sì, puoi aggiungere etichette ai punti dati utilizzando il file`IDataPoint.getLabel()` metodo e personalizzarli secondo necessità.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

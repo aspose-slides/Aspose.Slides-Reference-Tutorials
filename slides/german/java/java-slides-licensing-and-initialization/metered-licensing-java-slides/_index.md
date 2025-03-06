@@ -3,14 +3,10 @@ title: Maßgeschneiderte Lizenzierung in Java-Folien
 linktitle: Maßgeschneiderte Lizenzierung in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Optimieren Sie Ihre Aspose.Slides für die Java-Nutzung mit Metered Licensing. Erfahren Sie, wie Sie es einrichten und Ihren API-Verbrauch überwachen.
+type: docs
 weight: 10
 url: /de/java/licensing-and-initialization/metered-licensing-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung in die gebührenbasierte Lizenzierung in Aspose.Slides für Java
 
@@ -111,10 +107,3 @@ Wenn Sie Ihr Messlimit überschreiten, müssen Sie möglicherweise Ihre Lizenz a
 ### Benötige ich für die zählerbasierte Lizenzierung eine Internetverbindung?
 
 Ja, zum Einrichten und Validieren einer zählerabhängigen Lizenz ist eine Internetverbindung erforderlich.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

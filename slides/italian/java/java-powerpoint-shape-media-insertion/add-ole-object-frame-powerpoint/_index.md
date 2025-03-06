@@ -3,14 +3,10 @@ title: Aggiungi cornice oggetto OLE in PowerPoint
 linktitle: Aggiungi cornice oggetto OLE in PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come integrare perfettamente i frame di oggetti OLE nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java.
+type: docs
 weight: 13
 url: /it/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## introduzione
 L'aggiunta di una cornice oggetto OLE (collegamento e incorporamento di oggetti) nelle presentazioni di PowerPoint può migliorare in modo significativo l'attrattiva visiva e la funzionalità delle diapositive. Con Aspose.Slides per Java, questo processo diventa snello ed efficiente. In questo tutorial ti guideremo attraverso i passaggi necessari per integrare perfettamente i frame di oggetti OLE nelle tue presentazioni PowerPoint.
 ### Prerequisiti
@@ -84,9 +80,3 @@ Assolutamente! Aspose.Slides offre ampie opzioni per personalizzare l'aspetto e 
  Sì, puoi scaricare una versione di prova gratuita da[Qui](https://releases.aspose.com/).
 ### Dove posso trovare supporto per Aspose.Slides per Java?
  Puoi chiedere supporto e assistenza al forum Aspose.Slides[Qui](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java 슬라이드의 상자형 차트
 linktitle: Java 슬라이드의 상자형 차트
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java 프레젠테이션에서 상자 차트를 만드는 방법을 알아보세요. 효과적인 데이터 시각화를 위한 단계별 가이드와 소스 코드가 포함되어 있습니다.
+type: docs
 weight: 10
 url: /ko/java/chart-elements/box-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for Java의 박스 차트 소개
 
@@ -152,9 +148,3 @@ finally
 ### QuartileMethodType.Exclusive는 무엇을 의미합니까?
 
  그만큼`QuartileMethodType.Exclusive` 설정은 배타적 방법을 사용하여 사분위수 계산을 수행하도록 지정합니다. 데이터 및 요구 사항에 따라 다양한 사분위수 계산 방법을 선택할 수 있습니다.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

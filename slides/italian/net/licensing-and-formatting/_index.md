@@ -3,14 +3,10 @@ title: Licenza e formattazione
 linktitle: Licenza e formattazione
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Migliora la tua comprensione delle licenze e della formattazione di Aspose.Slides attraverso tutorial completi. Scopri come gestire in modo efficiente le licenze e ottenere una formattazione impeccabile per le tue presentazioni.
+type: docs
 weight: 21
 url: /it/net/licensing-and-formatting/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## introduzione
 
@@ -35,9 +31,3 @@ Scopri come utilizzare in modo efficiente le licenze misurate con Aspose.Slides 
 Scopri come migliorare gli elementi visivi dei grafici con Aspose.Slides per .NET. Aggiungi colori dinamici ai punti dati per presentazioni di maggiore impatto.
 ### [Aggiungi barre di errore personalizzate al grafico](./add-custom-error/)
 Scopri come aggiungere barre di errore personalizzate ai grafici utilizzando Aspose.Slides per .NET. Crea, stili e personalizza le barre di errore per una visualizzazione accurata dei dati.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

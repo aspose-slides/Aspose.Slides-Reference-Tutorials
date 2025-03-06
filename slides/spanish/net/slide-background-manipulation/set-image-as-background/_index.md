@@ -3,14 +3,10 @@ title: Configurar la imagen como fondo de diapositiva usando Aspose.Slides
 linktitle: Establecer una imagen como fondo de diapositiva
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a configurar fondos de imágenes en PowerPoint usando Aspose.Slides para .NET. Mejore sus presentaciones con facilidad.
+type: docs
 weight: 13
 url: /es/net/slide-background-manipulation/set-image-as-background/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 En el mundo del diseño y la automatización de presentaciones, Aspose.Slides para .NET es una herramienta poderosa y versátil que permite a los desarrolladores manipular presentaciones de PowerPoint con facilidad. Ya sea que esté creando informes personalizados, creando presentaciones impresionantes o automatizando la generación de diapositivas, Aspose.Slides para .NET es un activo valioso. En esta guía paso a paso, le mostraremos cómo configurar una imagen como fondo de diapositiva utilizando esta extraordinaria biblioteca.
 
@@ -119,9 +115,3 @@ Aspose.Slides para .NET está diseñado principalmente para entornos Windows. Pa
 ### 5. ¿Aspose.Slides para .NET ofrece una versión de prueba?
 
  Sí, puede obtener una prueba gratuita de Aspose.Slides para .NET desde el sitio web en[este enlace](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

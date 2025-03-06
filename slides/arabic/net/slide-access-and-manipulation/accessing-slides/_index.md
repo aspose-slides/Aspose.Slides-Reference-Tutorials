@@ -3,14 +3,10 @@ title: الوصول إلى الشرائح في Aspose.Slides
 linktitle: الوصول إلى الشرائح في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية الوصول إلى شرائح PowerPoint ومعالجتها برمجيًا باستخدام Aspose.Slides for .NET. يغطي هذا الدليل خطوة بخطوة تحميل العروض التقديمية وتعديلها وحفظها، بالإضافة إلى أمثلة التعليمات البرمجية المصدر.
+type: docs
 weight: 10
 url: /ar/net/slide-access-and-manipulation/accessing-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة إلى Aspose.Slides لـ .NET
 
@@ -138,9 +134,3 @@ presentation.Save("path/to/modified/presentation.pptx", SaveFormat.Pptx);
 ### هل Aspose.Slides مناسب لإنشاء العروض التقديمية من البداية؟
 
 قطعاً! يمكّنك Aspose.Slides من إنشاء عروض تقديمية جديدة من البداية، وإضافة شرائح، وتعيين التخطيطات، وملؤها بالمحتوى، مما يوفر تحكمًا كاملاً في عملية إنشاء العرض التقديمي.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

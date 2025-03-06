@@ -3,14 +3,10 @@ title: Konversi Slide Individu di Slide Java
 linktitle: Konversi Slide Individu di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengonversi setiap slide PowerPoint ke HTML selangkah demi selangkah dengan contoh kode menggunakan Aspose.Slides untuk Java.
+type: docs
 weight: 12
 url: /id/java/presentation-conversion/convert-individual-slide-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Pengantar Mengonversi Slide Individual di Slide Java
 
@@ -174,9 +170,3 @@ Anda telah berhasil mengonversi setiap slide dari presentasi PowerPoint ke HTML 
 ### Bagaimana cara menangani pemformatan tambahan untuk bentuk dan teks dalam slide?
 
  Anda dapat memperpanjang`CustomFormattingController` kelas untuk menangani pemformatan bentuk tertentu dengan mengimplementasikan`writeShapeStart` Dan`writeShapeEnd` metode dan menerapkan logika pemformatan khusus di dalamnya.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

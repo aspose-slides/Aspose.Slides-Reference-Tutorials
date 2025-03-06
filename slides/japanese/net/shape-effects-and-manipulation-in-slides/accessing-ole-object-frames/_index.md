@@ -3,14 +3,10 @@ title: Aspose.Slides を使用してプレゼンテーション スライドの 
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドの OLE オブジェクト フレームにアクセスする
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、プレゼンテーション スライド内の OLE オブジェクト フレームにアクセスし、操作する方法を学びます。ステップ バイ ステップのガイダンスと実用的なコード例を使用して、スライド処理機能を強化します。
+type: docs
 weight: 11
 url: /ja/net/shape-effects-and-manipulation-in-slides/accessing-ole-object-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 導入
 
@@ -103,9 +99,3 @@ Aspose.Slides は、埋め込みドキュメント、スプレッドシート、
 プレゼンテーションの世界では、OLE オブジェクト フレームのパワーを活用することで、コンテンツのインタラクティブ性とエンゲージメントを新たなレベルに引き上げることができます。Aspose.Slides for .NET は、OLE オブジェクト フレームへのアクセスと操作のプロセスを簡素化し、他のアプリケーションのコンテンツをシームレスに統合してプレゼンテーションを充実させます。ステップ バイ ステップ ガイドに従い、提供されているコード例を活用することで、ダイナミックで魅力的なスライドの可能性の世界が広がります。
 
 Aspose.Slides を使用して OLE オブジェクト フレームの可能性を最大限に引き出し、プレゼンテーションを視聴者の注目を集めるインタラクティブなエクスペリエンスに変換します。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

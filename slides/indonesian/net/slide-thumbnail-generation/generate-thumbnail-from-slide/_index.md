@@ -3,14 +3,10 @@ title: Hasilkan Thumbnail Slide dengan Aspose.Slides untuk .NET
 linktitle: Hasilkan Gambar Kecil dari Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara membuat gambar mini slide PowerPoint dengan Aspose.Slides untuk .NET. Sempurnakan presentasi Anda dengan mudah.
+type: docs
 weight: 11
 url: /id/net/slide-thumbnail-generation/generate-thumbnail-from-slide/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Dalam dunia presentasi digital, membuat gambar mini slide yang menarik dan informatif adalah bagian penting untuk menarik perhatian audiens Anda. Aspose.Slides for .NET adalah perpustakaan canggih yang memungkinkan Anda membuat thumbnail dari slide di aplikasi .NET Anda. Dalam panduan langkah demi langkah ini, kami akan menunjukkan kepada Anda cara mencapai hal ini dengan Aspose.Slides untuk .NET.
 
@@ -110,10 +106,3 @@ Ya, Aspose menawarkan berbagai opsi lisensi, termasuk lisensi sementara untuk tu
 
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk .NET jika saya mengalami masalah atau memiliki pertanyaan?
  Anda dapat mencari bantuan dan bergabung dalam diskusi di forum dukungan komunitas Aspose[Di Sini](https://forum.aspose.com/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

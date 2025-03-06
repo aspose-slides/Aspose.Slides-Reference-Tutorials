@@ -3,14 +3,10 @@ title: Tambahkan Gambar Di Dalam Sel Tabel di Java PowerPoint
 linktitle: Tambahkan Gambar Di Dalam Sel Tabel di Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan gambar di dalam sel tabel dalam presentasi Java PowerPoint dengan panduan langkah demi langkah terperinci ini menggunakan Aspose.Slides untuk Java.
+type: docs
 weight: 10
 url: /id/java/java-powerpoint-table-manipulation/add-image-inside-table-cells-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Jika Anda ingin menyempurnakan presentasi Java PowerPoint dengan menyematkan gambar di dalam sel tabel, Anda berada di tempat yang tepat! Hari ini, kita akan mendalami panduan langkah demi langkah secara mendetail menggunakan Aspose.Slides untuk Java. Tutorial ini akan memandu Anda melalui seluruh proses, memastikan bahkan seorang pemula pun dapat mengikuti dan mencapai hasil yang menakjubkan.
 ## Prasyarat
@@ -108,9 +104,3 @@ Aspose.Slides mendukung berbagai format gambar termasuk JPEG, PNG, BMP, dan lain
  Anda dapat merujuk ke[dokumentasi](https://reference.aspose.com/slides/java/) untuk informasi lebih detail dan contohnya.
 ### Bagaimana saya bisa membeli Aspose.Slides untuk Java?
  Anda dapat membelinya dari[Asumsikan situs web](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java PowerPoint Yazı Tipi Yönetimi
 linktitle: Java PowerPoint Yazı Tipi Yönetimi
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java PowerPoint yazı tipi yönetimi eğitimlerini keşfedin. Sunumları geliştirmek için yerleştirme, sıkıştırma ve özelleştirme tekniklerini öğrenin.
+type: docs
 weight: 21
 url: /tr/java/java-powerpoint-font-management/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 
 Aspose.Slides for Java'yı kullanarak Java PowerPoint Yazı Tipi Yönetimi Eğitimlerimizle PowerPoint sunumlarınızın potansiyelini ortaya çıkarın. Kapsamlı kılavuzlarımız yazı tipi özelleştirmesinde uzmanlaşmanıza ve sunumlarınızın öne çıkmasını sağlamanıza yardımcı olacaktır.
@@ -76,9 +72,3 @@ Aspose.Slides kullanarak Java PowerPoint sunumlarında yazı tipi değiştirmeyi
 Aspose.Slides for Java ile Java PowerPoint sunumlarındaki metin çerçevelerini formatlamayı öğrenin. Slaytlarınızın görsel çekiciliğini zahmetsizce geliştirin.
 ### [Java PowerPoint'te Etkili Metin Stili Verileri](./effective-text-style-data-java-powerpoint/)
 Aspose.Slides for Java ile Java PowerPoint sunumlarında metin stili manipülasyonunda ustalaşın. Etkili içerik oluşturmak için biçimlendirmeyi dinamik olarak özelleştirin.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java 슬라이드를 로드하지 않고 프레젠테이션 확인
 linktitle: Java 슬라이드를 로드하지 않고 프레젠테이션 확인
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드에 프레젠테이션을 로드하지 않고 프레젠테이션을 확인하는 방법을 알아보세요. 이 단계별 가이드를 통해 파일 무결성을 효율적으로 보장하세요.
+type: docs
 weight: 18
 url: /ko/java/additional-utilities/verify-presentation-without-loading-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 슬라이드에서 로드하지 않고 프레젠테이션 확인 방법 소개
 
@@ -84,9 +80,3 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
 ### Aspose.Slides for Java에 대한 추가 리소스와 문서는 어디서 찾을 수 있나요?
 
  Aspose.Slides for Java에 대한 포괄적인 문서와 리소스에 액세스할 수 있습니다.[여기](https://reference.aspose.com/slides/java/). 이 문서는 API와 해당 기능을 익히는 데 도움이 됩니다.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

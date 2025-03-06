@@ -3,14 +3,10 @@ title: Master-Folienanimationen mit Aspose.Slides für .NET
 linktitle: Steuerung der Folienanimation in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Ihre Präsentationen mit Aspose.Slides für .NET! Lernen Sie, Folienanimationen mühelos zu steuern. Laden Sie die Bibliothek jetzt herunter!
+type: docs
 weight: 10
 url: /de/net/slide-animation-control/slide-animation-control/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 Wenn Sie Ihre Präsentationen mit fesselnden Folienanimationen aufwerten, können Sie die Gesamtwirkung auf Ihr Publikum deutlich steigern. In diesem Tutorial erfahren Sie, wie Sie Folienanimationen mit Aspose.Slides für .NET steuern. Aspose.Slides ist eine leistungsstarke Bibliothek, die eine nahtlose Bearbeitung von PowerPoint-Präsentationen in einer .NET-Umgebung ermöglicht.
 ## Voraussetzungen
@@ -81,9 +77,3 @@ Durch das Animieren von Folien in Ihren Präsentationen verleihen Sie Ihren Inha
  Eine vorläufige Lizenz erhalten Sie bei[Hier](https://purchase.aspose.com/temporary-license/).
 ### Wo kann ich Aspose.Slides für .NET kaufen?
  Kaufen Sie die Bibliothek[Hier](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: プレゼンテーションを XAML 形式にエクスポート
 linktitle: プレゼンテーションを XAML 形式にエクスポート
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用してプレゼンテーションを XAML 形式にエクスポートする方法を学びます。インタラクティブなコンテンツを簡単に作成できます。
+type: docs
 weight: 27
 url: /ja/net/presentation-conversion/export-presentation-to-xaml-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ソフトウェア開発の世界では、複雑なタスクを簡素化できるツールが不可欠です。Aspose.Slides for .NET は、PowerPoint プレゼンテーションをプログラムで操作できるようにするツールの 1 つです。このステップバイステップのチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーションを XAML 形式にエクスポートする方法を説明します。 
 
@@ -117,9 +113,3 @@ Aspose.Slides for .NET は、PowerPoint プレゼンテーションをプログ�
 サポートやコミュニティのディスカッションを見つけることができます[ここ](https://forum.aspose.com/).
 
 その他のチュートリアルやリソースについては、[Aspose.Slides API ドキュメント](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

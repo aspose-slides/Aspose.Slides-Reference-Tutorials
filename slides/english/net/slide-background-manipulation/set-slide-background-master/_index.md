@@ -3,14 +3,10 @@ title: A Comprehensive Guide to Setting Slide Background Master
 linktitle: Set Slide Background Master
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to set slide background master using Aspose.Slides for .NET to enhance your presentations visually.
+type: docs
 weight: 14
 url: /net/slide-background-manipulation/set-slide-background-master/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 In the realm of presentation design, a captivating and visually appealing background can make all the difference. Whether you are creating a presentation for business, education, or any other purpose, the background plays a crucial role in enhancing the visual impact. Aspose.Slides for .NET is a powerful library that enables you to manipulate and customize presentations in a seamless manner. In this step-by-step guide, we will delve into the process of setting the slide background master using Aspose.Slides for .NET. 
 
@@ -147,9 +143,3 @@ Aspose.Slides for .NET is designed to work with various PowerPoint formats, incl
 **Title (maximum 60 characters):** Master Slide Background Setup in Aspose.Slides for .NET
 
 Enhance your presentation design with Aspose.Slides for .NET. Learn to set the slide background master for captivating visuals.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

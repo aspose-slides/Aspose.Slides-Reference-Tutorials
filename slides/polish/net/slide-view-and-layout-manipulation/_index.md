@@ -3,14 +3,10 @@ title: Manipulacja widokiem slajdów i układem
 linktitle: Manipulacja widokiem slajdów i układem
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Optymalizuj widoki i układy slajdów za pomocą samouczków Aspose.Slides dotyczących widoku slajdów i manipulacji układem. Zwiększ wpływ prezentacji i doskonałość wizualną, korzystając z potężnych narzędzi .NET.
+type: docs
 weight: 20
 url: /pl/net/slide-view-and-layout-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Wstęp
 
@@ -33,9 +29,3 @@ Dowiedz się, jak zarządzać prezentacjami w normalnym stanie widoku za pomocą
 Dowiedz się, jak łączyć filmy ze slajdami programu PowerPoint za pomocą Aspose.Slides dla .NET. Ten przewodnik krok po kroku zawiera kod źródłowy i wskazówki dotyczące tworzenia interaktywnych i wciągających prezentacji z połączonymi filmami.
 ### [Zarządzaj formantem ActiveX w prezentacji](./manage-activex-control/)
 Dowiedz się, jak ulepszyć prezentacje programu PowerPoint za pomocą kontrolek ActiveX przy użyciu Aspose.Slides dla .NET. Nasz przewodnik krok po kroku obejmuje wstawianie, manipulację, dostosowywanie, obsługę zdarzeń i nie tylko.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

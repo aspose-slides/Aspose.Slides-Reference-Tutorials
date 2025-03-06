@@ -3,14 +3,10 @@ title: Creëer verbluffende verlopen in PowerPoint met Aspose.Slides
 linktitle: Vormen vullen met verloop in presentatiedia's met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter uw presentaties met Aspose.Slides voor .NET! Leer het stapsgewijze proces van het vullen van vormen met verlopen. Download nu uw gratis proefversie!
+type: docs
 weight: 21
 url: /nl/net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 Het maken van visueel boeiende presentatiedia's is essentieel om de aandacht van uw publiek te trekken en vast te houden. In deze zelfstudie begeleiden we u bij het proces van het verbeteren van uw dia's door een ellipsvorm te vullen met een verloop met behulp van Aspose.Slides voor .NET.
 ## Vereisten
@@ -77,9 +73,3 @@ EEN: Zeker! Aspose.Slides voor .NET ondersteunt verloopvulling voor verschillend
  A: Zoek hulp en ga in gesprek met de gemeenschap[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11).
 ### Vraag: Kan ik een tijdelijke licentie kopen voor Aspose.Slides voor .NET?
  A: Zeker, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

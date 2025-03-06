@@ -3,14 +3,10 @@ title: Aspose.Slides'ta Sunumların Baskı Çıktılarının Önizlenmesi
 linktitle: Aspose.Slides'ta Sunumların Baskı Çıktılarının Önizlenmesi
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak PowerPoint sunumlarının çıktılarının önizlemesini nasıl yapacağınızı öğrenin. Baskı önizlemelerini oluşturmak ve özelleştirmek için kaynak kodlu bu adım adım kılavuzu izleyin.
+type: docs
 weight: 11
 url: /tr/net/printing-and-rendering-in-slides/presentation-print-preview/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 Geliştiricilerin .NET uygulamalarında PowerPoint sunumlarını sorunsuz bir şekilde değiştirmelerine ve geliştirmelerine olanak tanıyan güçlü bir kitaplık olan Aspose.Slides for .NET dünyasına hoş geldiniz. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kapsamlı kılavuz Aspose.Slides'ın tüm potansiyelinden yararlanmanız için gerekli adımlarda size yol gösterecektir.
 ## Önkoşullar
@@ -75,9 +71,3 @@ Kesinlikle! Aspose.Slides çok yönlüdür ve hem Windows hem de Web tabanlı uy
  Ziyaret etmek[Geçici Lisans](https://purchase.aspose.com/temporary-license/) Test amacıyla geçici bir lisans almak için.
 ### Desteğe mi ihtiyacınız var veya daha fazla sorunuz mu var?
  Ziyaret edin[Aspose.Slides Forumu](https://forum.aspose.com/c/slides/11) yardım almak ve toplulukla bağlantı kurmak için.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

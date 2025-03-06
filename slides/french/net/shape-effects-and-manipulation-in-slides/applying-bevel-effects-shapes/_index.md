@@ -3,14 +3,10 @@ title: Maîtriser les effets de biseau dans Aspose.Slides – Tutoriel étape pa
 linktitle: Application d'effets de biseau aux formes dans les diapositives de présentation à l'aide d'Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Améliorez vos diapositives de présentation avec Aspose.Slides pour .NET ! Apprenez à appliquer des effets de biseau captivants dans ce guide étape par étape.
+type: docs
 weight: 24
 url: /fr/net/shape-effects-and-manipulation-in-slides/applying-bevel-effects-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Dans le monde dynamique des présentations, ajouter un attrait visuel à vos diapositives peut améliorer considérablement l'impact de votre message. Aspose.Slides for .NET fournit une boîte à outils puissante pour manipuler et embellir vos diapositives de présentation par programme. L’une de ces fonctionnalités intéressantes est la possibilité d’appliquer des effets de biseau aux formes, ajoutant ainsi de la profondeur et de la dimension à vos visuels.
 ## Conditions préalables
@@ -79,9 +75,3 @@ Oui, Aspose.Slides est régulièrement mis à jour pour garantir la compatibilit
 Bien que cela ne soit pas courant, vous pouvez expérimenter en empilant plusieurs formes ou en manipulant les propriétés de biseau pour obtenir un effet similaire.
 ### 5. Existe-t-il d'autres effets 3D disponibles dans Aspose.Slides ?
 Absolument! Aspose.Slides offre une variété d'effets 3D pour ajouter de la profondeur et du réalisme à vos éléments de présentation.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

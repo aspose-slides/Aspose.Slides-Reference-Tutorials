@@ -3,14 +3,10 @@ title: Originele lettertypen behouden - Presentatie naar HTML converteren
 linktitle: Originele lettertypen behouden - Presentatie naar HTML converteren
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u originele lettertypen kunt behouden terwijl u presentaties naar HTML converteert met Aspose.Slides voor .NET. Zorg moeiteloos voor lettertypeconsistentie en visuele impact.
+type: docs
 weight: 14
 url: /nl/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 In deze uitgebreide handleiding begeleiden we u door het proces van het behouden van originele lettertypen bij het converteren van een presentatie naar HTML met Aspose.Slides voor .NET. Wij voorzien u van de benodigde C#-broncode en leggen elke stap gedetailleerd uit. Aan het einde van deze zelfstudie kunt u ervoor zorgen dat de lettertypen in uw geconverteerde HTML-document trouw blijven aan de oorspronkelijke presentatie.
 
@@ -102,10 +98,3 @@ Aspose.Slides voor .NET richt zich voornamelijk op PowerPoint-presentaties. Voor
 ### Vraag 5: Waar kan ik toegang krijgen tot aanvullende bronnen en ondersteuning?
 
  Meer documentatie, tutorials en ondersteuning vindt u op de Aspose-website. Bezoek[Aspose.Slides voor .NET-documentatie](https://reference.aspose.com/slides/net/) voor gedetailleerde informatie.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

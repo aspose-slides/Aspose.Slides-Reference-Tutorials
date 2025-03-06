@@ -3,14 +3,10 @@ title: Histogrammdiagramm in Java-Folien
 linktitle: Histogrammdiagramm in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Histogrammdiagramme in PowerPoint-Präsentationen erstellen. Schritt-für-Schritt-Anleitung mit Quellcode zur Datenvisualisierung.
+type: docs
 weight: 19
 url: /de/java/chart-data-manipulation/histogram-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung in das Histogrammdiagramm in Java Slides mit Aspose.Slides
 
@@ -116,9 +112,3 @@ Ein Histogramm wird verwendet, um die Verteilung von Daten über ein kontinuierl
 ### Kann ich das Erscheinungsbild des Histogrammdiagramms anpassen?
 
 Ja, Sie können das Erscheinungsbild des Diagramms, einschließlich seiner Farben, Beschriftungen und Achsen, mit der Aspose.Slides-API anpassen.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

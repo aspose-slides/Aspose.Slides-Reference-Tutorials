@@ -3,14 +3,10 @@ title: แผนภูมิกระจัดกระจายใน Java Slid
 linktitle: แผนภูมิกระจัดกระจายใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีสร้างแผนภูมิกระจายใน Java โดยใช้ Aspose.Slides คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ด Java สำหรับการแสดงข้อมูลเป็นภาพในการนำเสนอ
+type: docs
 weight: 11
 url: /th/java/chart-creation/scattered-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับแผนภูมิกระจายใน Aspose.Slides สำหรับ Java
 
@@ -176,9 +172,3 @@ series.getMarker().setSymbol(MarkerStyleType.Circle);
 สำรวจตัวเลือกการปรับแต่งเพิ่มเติมได้ตามสบายในเอกสาร Aspose.Slides สำหรับ Java
 
  อย่าลืมเปลี่ยน`"Your Document Directory"` พร้อมเส้นทางจริงที่คุณต้องการบันทึกการนำเสนอ
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

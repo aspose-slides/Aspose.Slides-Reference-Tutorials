@@ -3,14 +3,10 @@ title: Fill Shapes with Gradient in PowerPoint
 linktitle: Fill Shapes with Gradient in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to fill shapes with gradient in PowerPoint using Aspose.Slides for Java with this detailed, step-by-step guide.
+type: docs
 weight: 10
 url: /java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Creating visually appealing PowerPoint presentations is crucial for captivating your audience. One of the effective ways to enhance your slides is by filling shapes with gradients. This tutorial will guide you through the process of using Aspose.Slides for Java to fill shapes with gradients in PowerPoint. Whether you're a seasoned developer or just getting started, you'll find this guide helpful and easy to follow. Let's dive into the world of gradients and see how they can transform your presentations.
 ## Prerequisites
@@ -110,10 +106,3 @@ Gradient stops are specific points within a gradient that define the color and i
 For support, visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
 ### Where can I download the latest version of Aspose.Slides for Java?
 You can download the latest version from the [Aspose.Slides download page](https://releases.aspose.com/slides/java/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में श्रेणी अक
 linktitle: जावा स्लाइड्स में श्रेणी अक्ष के लिए दिनांक प्रारूप सेट करना
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके PowerPoint चार्ट में श्रेणी अक्ष के लिए दिनांक प्रारूप सेट करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
+type: docs
 weight: 26
 url: /hi/java/data-manipulation/setting-date-format-category-axis-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## जावा स्लाइड्स में श्रेणी अक्ष के लिए दिनांक प्रारूप सेट करने का परिचय
 
@@ -143,9 +139,3 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 ### मैं चार्ट में अधिक डेटा बिंदु कैसे जोड़ूं?
 
  चार्ट में अधिक डेटा बिंदु जोड़ने के लिए, का उपयोग करें`getDataPoints().addDataPointForLineSeries`डेटा श्रृंखला पर विधि और डेटा मान प्रदान करें।
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

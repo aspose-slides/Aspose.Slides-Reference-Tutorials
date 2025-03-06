@@ -3,14 +3,10 @@ title: Obtenez des données efficaces sur la caméra dans PowerPoint
 linktitle: Obtenez des données efficaces sur la caméra dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment récupérer des données de caméra efficaces à partir de diapositives PowerPoint à l'aide d'Aspose.Slides pour Java avec ce guide étape par étape.
+type: docs
 weight: 24
 url: /fr/java/java-powerpoint-shape-formatting-geometry/get-camera-effective-data-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Aspose.Slides pour Java est une bibliothèque puissante qui permet aux développeurs de créer, modifier et gérer des présentations PowerPoint par programme. Que vous automatisiez la génération de rapports, créiez des diapositives personnalisées ou travailliez simplement avec des données de présentation, Aspose.Slides fournit un ensemble complet de fonctionnalités pour répondre à vos besoins. Dans ce guide, nous verrons comment récupérer les données efficaces de la caméra à partir d'une diapositive PowerPoint à l'aide d'Aspose.Slides pour Java. Nous vous guiderons à travers chaque étape, en veillant à ce que vous ayez une compréhension claire du processus.
 ## Conditions préalables
@@ -74,9 +70,3 @@ Aspose.Slides est disponible pour plusieurs langages de programmation, dont .NET
  Oui, des licences commerciales peuvent être achetées[ici](https://purchase.aspose.com/buy).
 ### Où puis-je trouver la documentation d’Aspose.Slides pour Java ?
  La documentation est disponible[ici](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

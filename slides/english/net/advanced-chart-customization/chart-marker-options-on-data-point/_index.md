@@ -3,14 +3,10 @@ title: Using Chart Marker Options on Data Point in Aspose.Slides .NET
 linktitle: Chart Marker Options on Data Point
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to enhance your PowerPoint charts using Aspose.Slides for .NET. Customize data point markers with images. Create engaging presentations.
+type: docs
 weight: 11
 url: /net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 When working with presentations and data visualization, Aspose.Slides for .NET offers a wide range of powerful features to create, customize, and manipulate charts. In this tutorial, we will explore how to use chart marker options on data points to enhance your chart presentations. This step-by-step guide will walk you through the process, starting from the prerequisites and importing namespaces, to breaking down each example into multiple steps.
 
@@ -152,9 +148,3 @@ You can explore additional tutorials and resources in the [Aspose.Slides documen
 
 ### Is there a trial version of Aspose.Slides for .NET available?
 Yes, you can try Aspose.Slides for .NET by downloading a free trial version from [here](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

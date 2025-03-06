@@ -3,14 +3,10 @@ title: Convierta una presentación a un PDF protegido con contraseña en diaposi
 linktitle: Convierta una presentación a un PDF protegido con contraseña en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo convertir presentaciones de PowerPoint en archivos PDF seguros y protegidos con contraseña en Java usando Aspose.Slides. Mejorar la seguridad de los documentos.
+type: docs
 weight: 17
 url: /es/java/presentation-conversion/convert-presentation-password-pdf-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introducción a convertir presentaciones a PDF protegido con contraseña en diapositivas de Java
 
@@ -150,9 +146,3 @@ Sí, puedes automatizar el proceso de conversión de varias presentaciones a arc
 ### ¿Aspose.Slides para Java es adecuado para uso comercial?
 
 Sí, Aspose.Slides para Java es adecuado para uso comercial. Ofrece una variedad de funciones para trabajar con presentaciones de PowerPoint en aplicaciones Java y se usa ampliamente en la industria.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Ambil Semua Slide dalam Presentasi
 linktitle: Ambil Semua Slide dalam Presentasi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengambil semua slide dalam presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah ini dengan kode sumber lengkap untuk bekerja secara efisien dengan presentasi secara terprogram. Jelajahi properti slide, instalasi, penyesuaian, dan banyak lagi.
+type: docs
 weight: 13
 url: /id/net/slide-access-and-manipulation/access-all-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Pengantar Aspose.Slides untuk .NET
 
@@ -143,9 +139,3 @@ Sangat. Anda dapat menambahkan teks, gambar, bentuk, bagan, dan lainnya ke slide
 ### Di mana saya dapat menemukan informasi selengkapnya tentang Aspose.Slides untuk .NET?
 
  Untuk informasi lebih detail, referensi API, dan contoh kode, Anda dapat mengunjungi[Aspose.Slides untuk dokumentasi .NET](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

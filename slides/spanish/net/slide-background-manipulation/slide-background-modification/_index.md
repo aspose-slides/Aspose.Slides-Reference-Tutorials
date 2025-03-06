@@ -3,14 +3,10 @@ title: Modificación del fondo de diapositiva en Aspose.Slides
 linktitle: Modificación del fondo de diapositiva en Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a personalizar fondos de diapositivas usando Aspose.Slides para .NET. Mejore sus presentaciones con fondos visualmente atractivos. ¡Empiece hoy!
+type: docs
 weight: 10
 url: /es/net/slide-background-manipulation/slide-background-modification/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Cuando se trata de crear presentaciones visualmente cautivadoras, el fondo juega un papel crucial. Aspose.Slides para .NET le permite personalizar los fondos de las diapositivas con facilidad. En este tutorial, exploraremos cómo modificar fondos de diapositivas usando Aspose.Slides para .NET. 
 
@@ -127,10 +123,3 @@ En este tutorial, aprendimos cómo modificar fondos de diapositivas en Aspose.Sl
 ### 5. ¿Puedo personalizar los fondos de las diapositivas de varias diapositivas de una presentación?
 
 Sí, puede modificar los fondos de las diapositivas de cualquier diapositiva de una presentación utilizando Aspose.Slides para .NET. Simplemente seleccione la diapositiva que desea personalizar y siga los mismos pasos descritos en este tutorial.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

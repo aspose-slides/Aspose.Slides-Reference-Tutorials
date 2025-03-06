@@ -3,14 +3,10 @@ title: Tüm Slaytlardan Notları Kaldır
 linktitle: Tüm Slaytlardan Notları Kaldır
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak PowerPoint slaytlarından notları nasıl kaldıracağınızı öğrenin. Sunumlarınızı daha temiz ve daha profesyonel hale getirin.
+type: docs
 weight: 13
 url: /tr/net/notes-slide-manipulation/remove-notes-from-all-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 PowerPoint sunumlarıyla çalışan bir .NET geliştiricisiyseniz, sunumunuzdaki tüm slaytlardan notları kaldırma ihtiyacıyla karşılaşabilirsiniz. Bu, slaytlarınızı temizlemek ve hedef kitlenize yönelik olmayan ek bilgileri ortadan kaldırmak istediğinizde yararlı olabilir. Bu adım adım kılavuzda, bu görevi verimli bir şekilde gerçekleştirmek için Aspose.Slides for .NET'i kullanma sürecinde size yol göstereceğiz.
 
@@ -101,9 +97,3 @@ Evet, Aspose.Slides Java, C için de mevcuttur++ ve diğer birçok programlama d
 ### 5. Aspose.Slides for .NET en son PowerPoint formatlarını destekliyor mu?
 
 Evet, Aspose.Slides for .NET, en son sürümler de dahil olmak üzere çok çeşitli PowerPoint formatlarını destekler. Ayrıntılar için belgelere başvurabilirsiniz.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Перечисление формата загрузки в слайда�
 linktitle: Перечисление формата загрузки в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как проверить формат презентаций PowerPoint на Java с помощью Aspose.Slides. Следуйте нашему пошаговому руководству с примерами исходного кода для эффективного определения формата.
+type: docs
 weight: 14
 url: /ru/java/additional-utilities/load-format-enumeration-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Введение в загрузку формата презентации в слайдах Java
 
@@ -72,10 +68,3 @@ boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(data
 ### Подходит ли Aspose.Slides for Java для коммерческих проектов?
 
 Да, Aspose.Slides for Java подходит для коммерческих проектов. Он предоставляет надежный набор функций для работы с презентациями PowerPoint в приложениях Java и широко используется как в коммерческих, так и в корпоративных средах.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

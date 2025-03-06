@@ -3,14 +3,10 @@ title: 將簡報轉換為 PDF 格式
 linktitle: 將簡報轉換為 PDF 格式
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 將簡報轉換為 PDF。帶有原始程式碼的分步指南。高效率、有效的轉換。
+type: docs
 weight: 24
 url: /zh-hant/net/presentation-conversion/convert-presentation-to-pdf-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for .NET 簡介
 
@@ -111,9 +107,3 @@ presentation.Save(outputPdf, SaveFormat.Pdf, pdfOptions);
 ### 有試用版嗎？
 
 是的，您可以從以下位置下載 Aspose.Slides for .NET 的免費試用版：[這裡](https://products.aspose.com/slides/net).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

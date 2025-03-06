@@ -3,14 +3,10 @@ title: Převod HTML prezentace s vloženými obrázky
 linktitle: Převod HTML prezentace s vloženými obrázky
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se převádět prezentace PowerPoint do HTML s vloženými obrázky pomocí Aspose.Slides for .NET. Podrobný průvodce pro bezproblémovou konverzi.
+type: docs
 weight: 11
 url: /cs/net/presentation-conversion/convert-html-presentation-with-embedded-images/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 V dnešním digitálním světě je potřeba převádět PowerPointové prezentace do HTML stále důležitější. Ať už se jedná o sdílení obsahu online nebo vytváření webových prezentací, schopnost převádět soubory PowerPoint do HTML může být cenným přínosem. Aspose.Slides for .NET je výkonná knihovna, která umožňuje bezproblémové provádění takových převodů. V tomto podrobném průvodci vás provedeme procesem převodu HTML prezentace s vloženými obrázky pomocí Aspose.Slides for .NET.
 
@@ -119,9 +115,3 @@ Aspose.Slides for .NET podporuje konverzi prezentací s různými prvky, včetn�
 
 ### Jaké další formáty mohu převést PowerPointové prezentace do Aspose.Slides for .NET?
 Aspose.Slides for .NET podporuje převod do různých formátů, včetně PDF, obrázků a dalších. Úplný seznam podporovaných formátů naleznete v dokumentaci.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

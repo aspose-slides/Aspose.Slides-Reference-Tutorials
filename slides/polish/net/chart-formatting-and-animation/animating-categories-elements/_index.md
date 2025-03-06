@@ -3,14 +3,10 @@ title: Potężne animacje wykresów z Aspose.Slides dla .NET
 linktitle: Animowanie elementów kategorii na wykresie
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naucz się animować elementy wykresów w programie PowerPoint za pomocą Aspose.Slides dla .NET. Przewodnik krok po kroku dotyczący oszałamiających prezentacji.
+type: docs
 weight: 11
 url: /pl/net/chart-formatting-and-animation/animating-categories-elements/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 świecie prezentacji animacje mogą ożywić Twoje treści, szczególnie w przypadku wykresów. Aspose.Slides dla .NET oferuje szereg zaawansowanych funkcji, które pozwalają tworzyć wspaniałe animacje dla wykresów. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces animowania elementów kategorii na wykresie za pomocą Aspose.Slides dla .NET.
 
@@ -127,10 +123,3 @@ Aspose.Slides dla .NET jest przeznaczony do współpracy z różnymi wersjami pr
 
 ### 5. Czy istnieje forum społecznościowe dla Aspose.Slides dla obsługi .NET?
  Tak, możesz znaleźć wspierające forum społeczności dla Aspose.Slides dla .NET[Tutaj](https://forum.aspose.com/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

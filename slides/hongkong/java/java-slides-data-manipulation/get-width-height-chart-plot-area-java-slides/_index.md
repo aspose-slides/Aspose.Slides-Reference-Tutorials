@@ -3,14 +3,10 @@ title: 從 Java 投影片中的圖表繪圖區域取得寬度和高度
 linktitle: 從 Java 投影片中的圖表繪圖區域取得寬度和高度
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java Slides 中擷取圖表繪圖區域尺寸。增強您的 PowerPoint 自動化技能。
+type: docs
 weight: 21
 url: /zh-hant/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 介紹
 
@@ -113,10 +109,3 @@ finally
 ### 我如何了解有關 Aspose.Slides for Java 的更多資訊？
 
 您可以在 Aspose.Slides for Java 文件頁面上找到大量文件和範例[這裡](https://reference.aspose.com/slides/java/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

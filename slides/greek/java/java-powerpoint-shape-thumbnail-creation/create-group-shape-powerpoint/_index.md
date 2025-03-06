@@ -3,14 +3,10 @@ title: Δημιουργία σχήματος ομάδας στο PowerPoint
 linktitle: Δημιουργία σχήματος ομάδας στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε σχήματα ομάδων σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε την οργάνωση και την οπτική απήχηση χωρίς κόπο.
+type: docs
 weight: 11
 url: /el/java/java-powerpoint-shape-thumbnail-creation/create-group-shape-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Στις σύγχρονες παρουσιάσεις, η ενσωμάτωση οπτικά ελκυστικών και καλά δομημένων στοιχείων είναι ζωτικής σημασίας για την αποτελεσματική μετάδοση πληροφοριών. Τα ομαδικά σχήματα στο PowerPoint σάς επιτρέπουν να οργανώνετε πολλά σχήματα σε μια ενιαία μονάδα, διευκολύνοντας τον χειρισμό και τη μορφοποίηση. Το Aspose.Slides για Java παρέχει ισχυρές λειτουργίες για τη δημιουργία και τον χειρισμό σχημάτων ομάδων μέσω προγραμματισμού, προσφέροντας ευελιξία και έλεγχο στον σχεδιασμό της παρουσίασής σας.
 ## Προαπαιτούμενα
@@ -79,9 +75,3 @@ pres.save(dataDir + "GroupShape_out.pptx", SaveFormat.Pptx);
 Το Aspose.Slides για Java δεν επιβάλλει αυστηρούς περιορισμούς στον αριθμό των σχημάτων που μπορούν να προστεθούν σε ένα σχήμα ομάδας.
 ### Μπορώ να εφαρμόσω κινούμενα σχέδια σε σχήματα ομάδων χρησιμοποιώντας το Aspose.Slides για Java;
 Ναι, το Aspose.Slides για Java παρέχει ολοκληρωμένη υποστήριξη για την εφαρμογή κινούμενων εικόνων σε σχήματα ομάδων, επιτρέποντας δυναμικές παρουσιάσεις.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

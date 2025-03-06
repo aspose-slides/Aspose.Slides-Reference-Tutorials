@@ -3,14 +3,10 @@ title: Clonage de formes dans des diapositives de présentation avec Aspose.Slid
 linktitle: Clonage de formes dans des diapositives de présentation avec Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment cloner efficacement des formes dans des diapositives de présentation à l'aide de l'API Aspose.Slides. Créez facilement des présentations dynamiques. Explorez le guide étape par étape, la FAQ et bien plus encore.
+type: docs
 weight: 27
 url: /fr/net/shape-effects-and-manipulation-in-slides/cloning-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction
 
@@ -101,9 +97,3 @@ Les formes clonées conservent leurs interactions et leurs hyperliens de la form
 ## Conclusion
 
 Libérer la puissance du clonage de formes dans les diapositives de présentation avec Aspose.Slides ouvre un monde de possibilités créatives pour les créateurs de contenu et les développeurs. Ce guide vous a accompagné tout au long du processus, de l'installation à la personnalisation avancée, vous fournissant les outils dont vous avez besoin pour que vos présentations se démarquent. Avec Aspose.Slides, vous pouvez rationaliser votre flux de travail et donner vie à vos visions de présentation sans effort.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

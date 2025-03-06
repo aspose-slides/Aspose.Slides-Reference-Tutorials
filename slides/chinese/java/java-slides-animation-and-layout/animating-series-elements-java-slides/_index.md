@@ -3,14 +3,10 @@ title: Java 幻灯片中的动画系列元素
 linktitle: Java 幻灯片中的动画系列元素
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 为 PowerPoint 幻灯片中的系列元素制作动画。按照包含源代码的全面分步指南来增强您的演示文稿。
+type: docs
 weight: 12
 url: /zh/java/animation-and-layout/animating-series-elements-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java Slides 中的动画系列元素简介
 
@@ -130,9 +126,3 @@ finally
 ### Aspose.Slides for Java 中是否有更多高级动画选项？
 
 是的，Aspose.Slides for Java 提供了广泛的高级动画选项，包括运动路径、时间和交互式动画。您可以浏览 Aspose.Slides 提供的文档和示例，以在演示文稿中实现高级动画。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

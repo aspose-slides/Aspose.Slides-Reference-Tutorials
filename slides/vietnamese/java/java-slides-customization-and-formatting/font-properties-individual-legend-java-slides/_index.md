@@ -3,14 +3,10 @@ title: Thuộc tính phông chữ cho chú thích riêng lẻ trong trang trình
 linktitle: Thuộc tính phông chữ cho chú thích riêng lẻ trong trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Nâng cao bản trình bày PowerPoint với các kiểu, kích thước và màu sắc phông chữ tùy chỉnh cho từng chú giải trong Java Slides bằng Aspose.Slides for Java.
+type: docs
 weight: 12
 url: /vi/java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu về Thuộc tính phông chữ cho từng chú thích trong Java Slides
 
@@ -117,9 +113,3 @@ Hãy nhớ loại bỏ đối tượng trình bày khi bạn hoàn tất việc 
 ```java
 if (pres != null) pres.dispose();
 ```
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

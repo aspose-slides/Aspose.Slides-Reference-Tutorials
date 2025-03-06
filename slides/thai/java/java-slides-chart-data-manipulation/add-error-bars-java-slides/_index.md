@@ -3,14 +3,10 @@ title: เพิ่มแถบข้อผิดพลาดใน Java Slides
 linktitle: เพิ่มแถบข้อผิดพลาดใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีเพิ่มแถบข้อผิดพลาดลงในแผนภูมิ PowerPoint ใน Java โดยใช้ Aspose.Slides คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ดสำหรับปรับแต่งแถบข้อผิดพลาด
+type: docs
 weight: 13
 url: /th/java/chart-data-manipulation/add-error-bars-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการเพิ่มแถบข้อผิดพลาดใน Java Slides โดยใช้ Aspose.Slides
 
@@ -132,9 +128,3 @@ finally
 ### ฉันจะหาข้อมูลเพิ่มเติมเกี่ยวกับ Aspose.Slides สำหรับ Java ได้ที่ไหน
 
  คุณสามารถอ้างถึง[Aspose.Slides สำหรับเอกสาร Java](https://reference.aspose.com/slides/java/) สำหรับข้อมูลรายละเอียดการใช้ห้องสมุด
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

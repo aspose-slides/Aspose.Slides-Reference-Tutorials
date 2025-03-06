@@ -3,14 +3,10 @@ title: Slaytta Şekli Bul
 linktitle: Slaytta Şekli Bul
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile PowerPoint slaytlarındaki şekilleri kolayca bulun. Sorunsuz bir kodlama deneyimi için adım adım kılavuzumuzu izleyin.
+type: docs
 weight: 14
 url: /tr/java/java-powerpoint-shape-formatting-geometry/find-shape-slide-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 Belirli şekilleri bulmak için PowerPoint slaytlarını incelemekten yoruldunuz mu? Yalnızca birkaç satır kodla bu süreci zahmetsizce otomatikleştirebildiğinizi hayal edin. Sunum dosyalarınızdaki şekilleri bulmak için Aspose.Slides for Java'yı kullanmayla ilgili ayrıntılı kılavuzumuza hoş geldiniz. Bu eğitimde, ortamınızı ayarlamaktan kodu çalıştırmaya kadar Aspose.Slides for Java kullanarak bir slayttaki şekilleri bulmak için gerekli adımları açıklayacağız.
 ## Önkoşullar
@@ -88,9 +84,3 @@ Evet, Aspose.Slides .ppt, .pptx, .odp ve daha fazlasını içeren çeşitli dosy
  Evet, şu adresten ücretsiz deneme alabilirsiniz:[Aspose'un ücretsiz deneme sayfası](https://releases.aspose.com/).
 ### Aspose.Slides için nereden destek alabilirim?
  Şu adreste destek bulabilirsiniz:[Aspose Slaytlar forumu](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

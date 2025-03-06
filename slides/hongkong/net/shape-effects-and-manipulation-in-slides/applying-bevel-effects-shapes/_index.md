@@ -3,14 +3,10 @@ title: 掌握 Aspose.Slides 中的斜角效果 - 逐步教學
 linktitle: 使用 Aspose.Slides 將斜角效果套用至簡報投影片中的形狀
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 增強您的簡報投影片！在本逐步指南中學習如何應用迷人的斜角效果。
+type: docs
 weight: 24
 url: /zh-hant/net/shape-effects-and-manipulation-in-slides/applying-bevel-effects-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 在動態的簡報世界中，為幻燈片添加視覺吸引力可以顯著增強訊息的影響力。 Aspose.Slides for .NET 提供了一個強大的工具包，可以透過程式操作和美化您的簡報投影片。其中一個有趣的功能是能夠將斜角效果應用於形狀，從而為視覺效果添加深度和維度。
 ## 先決條件
@@ -79,9 +75,3 @@ pres.Save(dataDir + "Bevel_out.pptx", SaveFormat.Pptx);
 雖然不常見，但您可以嘗試堆疊多個形狀或操縱斜角屬性來實現類似的效果。
 ### 5. Aspose.Slides 中還有其他可用的 3D 效果嗎？
 絕對地！ Aspose.Slides 提供各種 3D 效果，為您的簡報元素添加深度和真實感。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

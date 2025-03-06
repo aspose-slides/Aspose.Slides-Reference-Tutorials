@@ -3,14 +3,10 @@ title: Generuj SVG z niestandardowymi identyfikatorami kształtów w prezentacja
 linktitle: Generuj SVG z niestandardowymi identyfikatorami kształtów w prezentacjach
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Twórz atrakcyjne prezentacje z niestandardowymi kształtami SVG i identyfikatorami za pomocą Aspose.Slides dla .NET. Dowiedz się, jak krok po kroku tworzyć interaktywne slajdy, korzystając z przykładów kodu źródłowego. Zwiększ atrakcyjność wizualną i interakcję użytkownika w swoich prezentacjach.
+type: docs
 weight: 19
 url: /pl/net/presentation-manipulation/generate-svg-with-custom-shape-ids-in-presentations/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Czy chcesz wykorzystać moc Aspose.Slides dla .NET do generowania plików SVG z niestandardowymi identyfikatorami kształtów? Jesteś we właściwym miejscu! W tym samouczku krok po kroku przeprowadzimy Cię przez proces, korzystając z następującego fragmentu kodu źródłowego. Na koniec będziesz już dobrze przygotowany do tworzenia w prezentacjach plików SVG z niestandardowymi identyfikatorami kształtów.
 
@@ -82,10 +78,3 @@ I masz to! Pomyślnie wygenerowałeś pliki SVG z niestandardowymi identyfikator
     Aby uzyskać dodatkową dokumentację, odwiedź stronę[Aspose.Slides dla .NET API odniesienia](https://reference.aspose.com/slides/net/).
 
 Teraz śmiało odkryj nieskończone możliwości generowania SVG za pomocą Aspose.Slides dla .NET. Miłego kodowania!
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

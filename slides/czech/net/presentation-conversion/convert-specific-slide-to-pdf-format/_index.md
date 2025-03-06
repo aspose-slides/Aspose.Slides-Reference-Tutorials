@@ -3,14 +3,10 @@ title: Převést konkrétní snímek do formátu PDF
 linktitle: Převést konkrétní snímek do formátu PDF
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Zjistěte, jak převést konkrétní snímky aplikace PowerPoint do formátu PDF pomocí Aspose.Slides for .NET. Podrobný průvodce s příklady kódu.
+type: docs
 weight: 19
 url: /cs/net/presentation-conversion/convert-specific-slide-to-pdf-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 
 Pokud chcete převést konkrétní snímky z prezentace PowerPoint do formátu PDF pomocí Aspose.Slides for .NET, jste na správném místě. V tomto obsáhlém tutoriálu vás krok za krokem provedeme tímto procesem, aby bylo pro vás snadné dosáhnout vašeho cíle.
@@ -86,9 +82,3 @@ Ano, Aspose.Slides for .NET vyžaduje platnou licenci pro komerční použití. 
 Pro další zdroje a dokumentaci[Aspose.Slides pro API Reference](https://reference.aspose.com/slides/net/).
 
 Nyní, když jste zvládli umění převodu konkrétních snímků do PDF pomocí Aspose.Slides for .NET, jste připraveni zefektivnit své úkoly automatizace PowerPoint. Šťastné kódování!
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

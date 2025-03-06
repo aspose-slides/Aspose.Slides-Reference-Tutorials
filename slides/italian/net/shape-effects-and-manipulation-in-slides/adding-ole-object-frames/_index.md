@@ -3,14 +3,10 @@ title: Aggiunta di frame di oggetti OLE alla presentazione con Aspose.Slides
 linktitle: Aggiunta di frame di oggetti OLE alla presentazione con Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come migliorare le presentazioni PowerPoint con contenuti dinamici! Segui la nostra guida passo passo utilizzando Aspose.Slides per .NET. Aumenta il coinvolgimento adesso!
+type: docs
 weight: 15
 url: /it/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## introduzione
 In questo tutorial, approfondiremo il processo di aggiunta di frame di oggetti OLE (Object Linking and Embedding) alle diapositive di presentazione utilizzando Aspose.Slides per .NET. Aspose.Slides è una potente libreria che consente agli sviluppatori di lavorare con i file PowerPoint a livello di codice. Segui questa guida passo passo per incorporare perfettamente oggetti OLE nelle diapositive della tua presentazione, migliorando i tuoi file PowerPoint con contenuti dinamici e interattivi.
 ## Prerequisiti
@@ -88,9 +84,3 @@ R: Sì, Aspose.Slides supporta gli ultimi formati di file PowerPoint, incluso PP
 R: Assolutamente, puoi regolare la dimensione, la posizione e altre proprietà del frame dell'oggetto OLE in base alle tue preferenze.
 ### D: Dove posso chiedere assistenza se incontro difficoltà durante l'implementazione?
  R: Visita il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) per il supporto e l’orientamento della comunità.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Legenda della dimensione del carattere nelle diapositive Java
 linktitle: Legenda della dimensione del carattere nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Migliora le presentazioni PowerPoint con Aspose.Slides per Java. Scopri come personalizzare le dimensioni dei caratteri della legenda e altro ancora nella nostra guida passo passo.
+type: docs
 weight: 13
 url: /it/java/chart-elements/font-size-legend-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduzione alla legenda delle dimensioni dei caratteri nelle diapositive Java
 
@@ -139,9 +135,3 @@ Qui disabilitiamo il ridimensionamento automatico dell'asse e specifichiamo i va
 ### Dove posso trovare ulteriori informazioni e documentazione per Aspose.Slides?
 
  È possibile trovare documentazione completa e riferimenti API per Aspose.Slides per Java sul sito Web della documentazione di Aspose. Visita[Qui](https://reference.aspose.com/slides/java/) per informazioni dettagliate sull'utilizzo della libreria.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

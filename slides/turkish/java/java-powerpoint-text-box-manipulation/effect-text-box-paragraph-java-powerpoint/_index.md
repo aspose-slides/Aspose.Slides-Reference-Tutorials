@@ -3,14 +3,10 @@ title: Java PowerPoint'te Efekt Metin Kutusu Paragrafı
 linktitle: Java PowerPoint'te Efekt Metin Kutusu Paragrafı
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Sorunsuz entegrasyon ve özelleştirme için Aspose.Slides'ı kullanarak Java'daki PowerPoint sunumlarını dinamik metin efektleriyle nasıl geliştireceğinizi öğrenin.
+type: docs
 weight: 16
 url: /tr/java/java-powerpoint-text-box-manipulation/effect-text-box-paragraph-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 Aspose.Slides for Java, geliştiricilerin PowerPoint sunumlarını programlı olarak değiştirmelerine olanak tanıyarak slayt oluşturma, değiştirme ve dönüştürme için güçlü bir dizi özellik sunar. Bu eğitim, metin kutularına efekt eklemek ve efektleri yönetmek için Aspose.Slides'tan yararlanmayı derinlemesine ele alıyor ve sunumları Java kodu aracılığıyla dinamik olarak geliştiriyor.
 ## Önkoşullar
@@ -64,9 +60,3 @@ Aspose.Slides for Java, Java 6 ve üstünü destekler.
  adresinden geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for Java, .pptx dışındaki PowerPoint dosya formatlarını destekliyor mu?
 Evet, .ppt, .pptx, .pptm vb. dahil olmak üzere çeşitli PowerPoint formatlarını destekler.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

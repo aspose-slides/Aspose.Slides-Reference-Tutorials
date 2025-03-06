@@ -3,14 +3,10 @@ title: Veri Etiketlerini Ayarlama Yüzdesi Java Slaytlarında Oturum Açma
 linktitle: Veri Etiketlerini Ayarlama Yüzdesi Java Slaytlarında Oturum Açma
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak PowerPoint sunumlarında yüzde işaretleriyle veri etiketlerini nasıl ayarlayacağınızı öğrenin. Adım adım rehberlik ve kaynak koduyla ilgi çekici grafikler oluşturun.
+type: docs
 weight: 17
 url: /tr/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Veri Etiketlerini Ayarlama Yüzdesine Giriş Aspose.Slides for Java'da Oturum Açın
 
@@ -180,10 +176,3 @@ Evet, veri etiketlerinin yazı tipi boyutunu ayarlayarak özelleştirebilirsiniz
 ### Grafiğe nasıl daha fazla seri ekleyebilirim?
 
  Kullanarak grafiğe ek seriler ekleyebilirsiniz.`add` konusundaki yöntem`IChartSeriesCollection` nesne.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

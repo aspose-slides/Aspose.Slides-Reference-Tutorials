@@ -3,14 +3,10 @@ title: Σχήματα στόχου για κινούμενα σχέδια στο
 linktitle: Σχήματα στόχου για κινούμενα σχέδια στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να κάνετε κίνηση συγκεκριμένων σχημάτων σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Δημιουργήστε ελκυστικές διαφάνειες χωρίς κόπο.
+type: docs
 weight: 11
 url: /el/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-animation-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Στον κόσμο των δυναμικών παρουσιάσεων, τα κινούμενα σχέδια διαδραματίζουν κρίσιμο ρόλο στην εμπλοκή του κοινού και στην αποτελεσματική μετάδοση πληροφοριών. Το Aspose.Slides for Java δίνει τη δυνατότητα στους προγραμματιστές να δημιουργούν συναρπαστικές παρουσιάσεις PowerPoint με περίπλοκα κινούμενα σχέδια προσαρμοσμένα σε συγκεκριμένα σχήματα. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία στόχευσης σχημάτων για κινούμενα σχέδια χρησιμοποιώντας το Aspose.Slides για Java, διασφαλίζοντας ότι οι παρουσιάσεις σας ξεχωρίζουν με ρευστές μεταβάσεις και ακριβή κινούμενα σχέδια.
 ## Προαπαιτούμενα
@@ -66,9 +62,3 @@ try {
  Μπορείτε να αποκτήσετε μια προσωρινή άδεια από[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Πού μπορώ να αγοράσω Aspose.Slides για Java;
  Μπορείτε να αγοράσετε Aspose.Slides για Java από τον ιστότοπο[εδώ](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java PowerPoint-opslagbewerkingen
 linktitle: Java PowerPoint-opslagbewerkingen
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-presentaties kunt opslaan met Aspose.Slides voor Java. Tutorials over opslaan in bestanden, streamen en het toevoegen van wachtwoordbeveiliging.
+type: docs
 weight: 20
 url: /nl/java/java-powerpoint-save-operations/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Invoering
 
@@ -36,9 +32,3 @@ Leer hoe u PowerPoint-presentaties programmatisch in bestanden kunt opslaan met 
 Leer hoe u PowerPoint-presentaties in een stream kunt opslaan met Aspose.Slides voor Java. Volg onze stapsgewijze handleiding voor een naadloze integratie.
 ### [Bewaar PowerPoint met wachtwoord](./save-powerpoint-with-password/)
 Leer hoe u wachtwoordbeveiliging kunt toevoegen aan PowerPoint-presentaties met Aspose.Slides voor Java. Beveilig uw dia's met gemak.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

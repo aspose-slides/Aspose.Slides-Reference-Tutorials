@@ -3,14 +3,10 @@ title: Comment obtenir la plage de données du graphique dans Aspose.Slides pour
 linktitle: Obtenir la plage de données du graphique
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment extraire une plage de données graphiques à partir de présentations PowerPoint à l'aide d'Aspose.Slides pour .NET. Un guide étape par étape pour les développeurs.
+type: docs
 weight: 11
 url: /fr/net/additional-chart-features/chart-get-range/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Cherchez-vous à extraire la plage de données d'un graphique dans votre présentation PowerPoint à l'aide d'Aspose.Slides pour .NET ? Vous êtes arrivé au bon endroit. Dans ce guide étape par étape, nous vous guiderons tout au long du processus d'obtention de la plage de données graphiques à partir de votre présentation. Aspose.Slides pour .NET est une bibliothèque puissante qui vous permet de travailler avec des documents PowerPoint par programme, et obtenir la plage de données du graphique n'est qu'une des nombreuses tâches qu'elle peut vous aider à accomplir.
 
@@ -97,9 +93,3 @@ Oui, vous pouvez travailler avec des diapositives, des formes, du texte, des ima
 
 ### Quels types d’options de support sont disponibles pour les utilisateurs d’Aspose.Slides pour .NET ?
  Vous pouvez obtenir le soutien et l'assistance de la communauté Aspose sur leur[forum d'entraide](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

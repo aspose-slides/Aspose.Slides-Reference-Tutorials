@@ -3,14 +3,10 @@ title: Ajout de lignes en forme de flèche aux diapositives de présentation à 
 linktitle: Ajout de lignes en forme de flèche aux diapositives de présentation à l'aide d'Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Améliorez vos présentations avec des lignes en forme de flèche à l'aide d'Aspose.Slides pour .NET. Suivez notre guide étape par étape pour une expérience de diapositive dynamique et engageante.
+type: docs
 weight: 12
 url: /fr/net/shape-effects-and-manipulation-in-slides/adding-arrow-shaped-lines/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Dans le monde des présentations dynamiques, la possibilité de personnaliser et d’améliorer les diapositives est cruciale. Aspose.Slides pour .NET permet aux développeurs d'ajouter des éléments visuellement attrayants, tels que des lignes en forme de flèche, aux diapositives de présentation. Ce guide étape par étape vous guidera tout au long du processus d'incorporation de lignes en forme de flèche dans vos diapositives à l'aide d'Aspose.Slides for .NET.
 ## Conditions préalables
@@ -83,9 +79,3 @@ Absolument! Aspose.Slides offre des options complètes pour personnaliser la lon
  Oui, vous pouvez découvrir Aspose.Slides avec un essai gratuit. Télécharge le[ici](https://releases.aspose.com/).
 ### Comment puis-je obtenir de l'aide pour Aspose.Slides ?
  Visitez la communauté[forum](https://forum.aspose.com/c/slides/11) pour toute aide ou question.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

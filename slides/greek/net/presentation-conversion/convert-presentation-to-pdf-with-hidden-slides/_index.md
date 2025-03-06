@@ -3,14 +3,10 @@ title: Μετατροπή παρουσίασης σε PDF με κρυφές δι
 linktitle: Μετατροπή παρουσίασης σε PDF με κρυφές διαφάνειες
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να χρησιμοποιείτε το Aspose.Slides για .NET για τη μετατροπή παρουσιάσεων σε PDF με κρυφές διαφάνειες απρόσκοπτα.
+type: docs
 weight: 26
 url: /el/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στο Aspose.Slides για .NET
 
@@ -99,9 +95,3 @@ class Program
 ### Υπάρχει κάποια τεκμηρίωση για το Aspose.Slides για .NET;
 
  Ναι, μπορείτε να βρείτε την τεκμηρίωση και τα παραδείγματα χρήσης για το Aspose.Slides για .NET στο[εδώ](https://reference.aspose.com/slides/net).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

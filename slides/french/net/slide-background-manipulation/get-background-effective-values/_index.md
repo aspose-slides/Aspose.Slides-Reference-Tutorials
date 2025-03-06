@@ -3,14 +3,10 @@ title: Obtenez des valeurs d'arrière-plan efficaces d'une diapositive
 linktitle: Obtenez des valeurs d'arrière-plan efficaces d'une diapositive
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment extraire les valeurs d'arrière-plan efficaces d'une diapositive dans PowerPoint à l'aide d'Aspose.Slides pour .NET. Améliorez vos compétences en conception de présentations dès aujourd'hui !
+type: docs
 weight: 11
 url: /fr/net/slide-background-manipulation/get-background-effective-values/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Dans le monde des présentations dynamiques et attrayantes, Aspose.Slides pour .NET est un outil puissant qui permet aux développeurs et aux professionnels de manipuler et de contrôler divers aspects des fichiers PowerPoint. Dans ce guide étape par étape, nous vous guiderons tout au long du processus d'obtention des valeurs d'arrière-plan effectives d'une diapositive à l'aide d'Aspose.Slides pour .NET. Cette compétence est particulièrement utile lorsque vous devez travailler avec la conception d’arrière-plan et les jeux de couleurs de votre présentation pour créer des diapositives visuellement époustouflantes. 
 
@@ -115,10 +111,3 @@ Bien que certaines connaissances en programmation soient bénéfiques, Aspose.Sl
 ### Où puis-je obtenir de l’assistance pour Aspose.Slides pour .NET ?
 
  Vous pouvez obtenir de l'aide et poser des questions dans le[Forum Aspose.Slides](https://forum.aspose.com/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

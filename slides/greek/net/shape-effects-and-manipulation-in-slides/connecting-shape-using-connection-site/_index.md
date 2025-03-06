@@ -3,14 +3,10 @@ title: Μάστερη σύνδεση σχήματος με το Aspose.Slides γ
 linktitle: Σύνδεση σχήματος με χρήση της τοποθεσίας σύνδεσης στην παρουσίαση
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Δημιουργήστε συναρπαστικές παρουσιάσεις με το Aspose.Slides για .NET, που συνδέουν απρόσκοπτα σχήματα. Ακολουθήστε τον οδηγό μας για μια ομαλή, συναρπαστική εμπειρία.
+type: docs
 weight: 30
 url: /el/net/shape-effects-and-manipulation-in-slides/connecting-shape-using-connection-site/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Στον δυναμικό κόσμο των παρουσιάσεων, η δημιουργία οπτικά ελκυστικών διαφανειών με αλληλένδετα σχήματα είναι ζωτικής σημασίας για την αποτελεσματική επικοινωνία. Το Aspose.Slides for .NET παρέχει μια ισχυρή λύση για να το πετύχετε αυτό, επιτρέποντάς σας να συνδέετε σχήματα χρησιμοποιώντας τοποθεσίες σύνδεσης. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία σύνδεσης σχημάτων βήμα προς βήμα, διασφαλίζοντας ότι οι παρουσιάσεις σας ξεχωρίζουν με απρόσκοπτες οπτικές μεταβάσεις.
 ## Προαπαιτούμενα
@@ -82,9 +78,3 @@ presentation.Save(dataDir + "Connecting_Shape_on_desired_connection_site_out.ppt
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης[εδώ](https://releases.aspose.com/).
 ### Πού μπορώ να λάβω υποστήριξη για το Aspose.Slides;
  Επισκέψου το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για κοινοτική υποστήριξη και συζητήσεις.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

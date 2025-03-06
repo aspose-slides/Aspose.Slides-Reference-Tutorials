@@ -3,14 +3,10 @@ title: Conversión de presentaciones maestras y procesamiento de PowerPoint
 linktitle: Conversión de presentación
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Mejore sus habilidades con los tutoriales de Aspose.Slides para .NET. Aprenda la conversión de presentaciones y el procesamiento de PowerPoint paso a paso. ¡Transforme su flujo de trabajo hoy!
+type: docs
 weight: 10
 url: /es/net/presentation-conversion/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Aspose.Slides para .NET ofrece tutoriales completos para varios aspectos del procesamiento de PowerPoint. Uno de esos tutoriales se centra en la conversión de presentaciones y guía a los usuarios a través de la transformación perfecta de presentaciones a diferentes formatos. Este tutorial brinda a los desarrolladores el conocimiento para manejar la conversión de presentaciones de manera eficiente y efectiva, ampliando sus capacidades para producir resultados versátiles.
 
@@ -66,9 +62,3 @@ Aprenda a exportar presentaciones al formato XAML usando Aspose.Slides para .NET
 Aprenda a convertir presentaciones de PowerPoint al formato SWF usando Aspose.Slides para .NET. ¡Crea contenido dinámico sin esfuerzo!
 ### [Convierta una presentación a PDF con la actualización de progreso](./convert-presentation-to-pdf-with-progress-update/)
 Aprenda cómo convertir presentaciones a PDF con actualizaciones de progreso usando Aspose.Slides para .NET. Guía paso a paso con código fuente incluido.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

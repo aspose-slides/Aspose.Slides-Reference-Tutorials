@@ -3,14 +3,10 @@ title: Megjegyzések Diamanipuláció az Aspose.Slides használatával
 linktitle: Megjegyzések Diamanipuláció az Aspose.Slides használatával
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan kezelheti a fejlécet és láblécet a PowerPoint diákban az Aspose.Slides for .NET segítségével. Távolítsa el a jegyzeteket, és könnyedén testreszabhatja prezentációit.
+type: docs
 weight: 10
 url: /hu/net/notes-slide-manipulation/notes-slide-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 mai digitális korban a vonzó prezentációk készítése elengedhetetlen készség. Az Aspose.Slides for .NET egy hatékony eszköz, amellyel könnyedén kezelheti és testreszabhatja prezentációs diákjait. Ebben a lépésenkénti útmutatóban végigvezetjük néhány alapvető feladaton az Aspose.Slides for .NET használatával. Megmutatjuk, hogyan kezelheti a fejlécet és a láblécet a jegyzetdiákban, hogyan távolíthatja el a jegyzeteket bizonyos diákról, és hogyan távolíthatja el a jegyzeteket az összes diáról.
 
@@ -169,10 +165,3 @@ Az Aspose.Slides for .NET lehetővé teszi a PowerPoint-prezentációk teljes ir
 ### Módosíthatom a PowerPoint-prezentációk egyéb szempontjait az Aspose.Slides for .NET segítségével?
 
 Igen, az Aspose.Slides for .NET funkciók széles skáláját kínálja a PowerPoint-prezentációk kezeléséhez, beleértve a diákat, alakzatokat, szöveget és egyebeket. A részletekért tekintse meg a dokumentációt.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

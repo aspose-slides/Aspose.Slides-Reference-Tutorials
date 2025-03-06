@@ -3,14 +3,10 @@ title: Convierta presentaciones a HTML con fuentes integradas
 linktitle: Convierta presentaciones a HTML con fuentes integradas
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Convierta presentaciones de PowerPoint a HTML con fuentes incrustadas usando Aspose.Slides para .NET. Mantenga la originalidad sin problemas.
+type: docs
 weight: 13
 url: /es/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 En la era digital actual, compartir presentaciones y documentos en línea se ha convertido en una práctica común. Sin embargo, un desafío que surge a menudo es garantizar que las fuentes se muestren correctamente al convertir presentaciones a HTML. Este tutorial paso a paso lo guiará a través del proceso de uso de Aspose.Slides para .NET para convertir presentaciones a HTML con fuentes incrustadas, asegurando que sus documentos se vean tal como usted esperaba.
 
@@ -124,10 +120,3 @@ Sí, Aspose.Slides para .NET admite una amplia gama de formatos de salida, inclu
 ### 5. ¿Dónde puedo encontrar recursos adicionales y soporte para Aspose.Slides para .NET?
 
  Puede acceder a una gran cantidad de recursos, incluida documentación, en el[Aspose.Slides para referencia de API .NET](https://reference.aspose.com/slides/net/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

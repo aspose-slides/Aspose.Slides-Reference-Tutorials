@@ -3,14 +3,10 @@ title: Effect Text Box Paragraph in Java PowerPoint
 linktitle: Effect Text Box Paragraph in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to enhance PowerPoint presentations in Java with dynamic text effects using Aspose.Slides for seamless integration and customization.
+type: docs
 weight: 16
 url: /java/java-powerpoint-text-box-manipulation/effect-text-box-paragraph-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Aspose.Slides for Java empowers developers to manipulate PowerPoint presentations programmatically, offering a robust set of features for creating, modifying, and converting slides. This tutorial dives deep into leveraging Aspose.Slides to add and manage effects within text boxes, enhancing presentations dynamically through Java code.
 ## Prerequisites
@@ -64,10 +60,3 @@ Detailed documentation is available [here](https://reference.aspose.com/slides/j
 You can get a temporary license from [here](https://purchase.aspose.com/temporary-license/).
 ### Does Aspose.Slides for Java support PowerPoint file formats other than .pptx?
 Yes, it supports various PowerPoint formats including .ppt, .pptx, .pptm, etc.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

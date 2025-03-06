@@ -3,14 +3,10 @@ title: Gráfico de funil em slides Java
 linktitle: Gráfico de funil em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda a criar gráficos de funil em apresentações do PowerPoint com Aspose.Slides para Java. Guia passo a passo com código-fonte para visualização de dados eficaz.
+type: docs
 weight: 18
 url: /pt/java/chart-data-manipulation/funnel-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introdução à criação de um gráfico de funil em Aspose.Slides para Java
 
@@ -141,9 +137,3 @@ Você pode ajustar a posição e o tamanho do gráfico de funil modificando as c
 ### Posso exportar o gráfico para diferentes formatos, como PDF ou imagem?
 
 Sim, Aspose.Slides for Java permite exportar a apresentação com o Funnel Chart para vários formatos, incluindo PDF, formatos de imagem e muito mais. Você pode usar o`SaveFormat` opções para especificar o formato de saída desejado ao salvar a apresentação.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

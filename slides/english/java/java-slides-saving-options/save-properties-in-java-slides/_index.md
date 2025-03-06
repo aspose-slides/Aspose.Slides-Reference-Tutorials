@@ -3,14 +3,10 @@ title: Save Properties in Java Slides
 linktitle: Save Properties in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimize your PowerPoint presentations with Aspose.Slides for Java. Learn to set properties, disable encryption, add password protection, and save effortlessly.
+type: docs
 weight: 12
 url: /java/saving-options/save-properties-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction to Saving Properties in Java Slides
 
@@ -174,10 +170,3 @@ This helps prevent memory leaks in your application.
 ### How can I learn more about Aspose.Slides for Java and its features?
 
 You can explore the Aspose.Slides for Java documentation at [here](https://docs.aspose.com/slides/java/) for detailed information, tutorials, and examples on using the library.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

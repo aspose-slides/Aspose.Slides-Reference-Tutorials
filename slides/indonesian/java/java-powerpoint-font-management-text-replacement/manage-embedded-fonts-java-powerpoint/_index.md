@@ -3,14 +3,10 @@ title: Kelola Font Tertanam di Java PowerPoint
 linktitle: Kelola Font Tertanam di Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Kelola font yang tertanam dengan mudah dalam presentasi Java PowerPoint dengan Aspose.Slides. Panduan langkah demi langkah untuk mengoptimalkan konsistensi slide Anda.
+type: docs
 weight: 11
 url: /id/java/java-powerpoint-font-management-text-replacement/manage-embedded-fonts-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam dunia presentasi yang terus berkembang, mengelola font secara efisien dapat membuat perbedaan besar dalam kualitas dan kompatibilitas file PowerPoint Anda. Aspose.Slides untuk Java menawarkan solusi komprehensif untuk mengelola font yang tertanam, memastikan presentasi Anda terlihat sempurna di perangkat apa pun. Baik Anda menangani presentasi lama atau membuat presentasi baru, panduan ini akan memandu Anda melalui proses pengelolaan font yang disematkan dalam presentasi Java PowerPoint Anda menggunakan Aspose.Slides. Ayo selami!
 ## Prasyarat
@@ -108,9 +104,3 @@ Aspose.Slides untuk Java kompatibel dengan JDK 8 dan versi yang lebih baru.
 Mengelola font yang disematkan memastikan presentasi Anda terlihat konsisten di berbagai perangkat dan platform, dan membantu mengurangi ukuran file dengan menghapus font yang tidak diperlukan.
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk Java?
  Anda bisa mendapatkan dukungan dari[Forum dukungan Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

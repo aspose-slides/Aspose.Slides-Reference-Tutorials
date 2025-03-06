@@ -3,14 +3,10 @@ title: Aspose.Slides — добавление встроенных видео в
 linktitle: Aspose.Slides — добавление встроенных видео в презентации .NET
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Улучшите свои презентации с помощью встроенных видео с помощью Aspose.Slides для .NET. Следуйте нашему пошаговому руководству для бесшовной интеграции.
+type: docs
 weight: 19
 url: /ru/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 В динамичном мире презентаций интеграция мультимедийных элементов может значительно повысить вовлеченность. Aspose.Slides for .NET предоставляет мощное решение для включения встроенных видеокадров в слайды вашей презентации. Это руководство проведет вас через весь процесс, разбив каждый шаг, чтобы обеспечить бесперебойную работу.
 ## Предварительные условия
@@ -79,9 +75,3 @@ Aspose.Slides поддерживает множество видеоформат
 Количество встроенных видео обычно ограничено возможностями вашего программного обеспечения для презентаций.
 ### Как я могу обратиться за дополнительной помощью или поделиться своим опытом?
  Посетить[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) за поддержку сообщества и обсуждения.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

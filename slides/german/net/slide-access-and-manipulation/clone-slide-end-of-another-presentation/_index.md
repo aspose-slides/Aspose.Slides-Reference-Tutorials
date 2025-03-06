@@ -3,14 +3,10 @@ title: Folie am Ende einer separaten Präsentation replizieren
 linktitle: Folie am Ende einer separaten Präsentation replizieren
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET eine Folie aus einer PowerPoint-Präsentation replizieren und einer anderen hinzufügen. Diese Schritt-für-Schritt-Anleitung enthält Quellcode und klare Anweisungen für die nahtlose Folienbearbeitung.
+type: docs
 weight: 17
 url: /de/net/slide-access-and-manipulation/clone-slide-end-of-another-presentation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung in Aspose.Slides für .NET
 
@@ -107,9 +103,3 @@ Auf jeden Fall! Sie können den Inhalt der replizierten Folie wie bei jeder ande
 ### Funktioniert Aspose.Slides für .NET nur mit Folien?
 
 Nein, Aspose.Slides für .NET bietet umfangreiche Funktionen über Folien hinaus. Sie können mit Formen, Diagrammen und Animationen arbeiten und sogar Text und Bilder aus Präsentationen extrahieren.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

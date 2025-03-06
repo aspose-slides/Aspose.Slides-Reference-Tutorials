@@ -3,14 +3,10 @@ title: Kartdiagram i Java Slides
 linktitle: Kartdiagram i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Skapa fantastiska kartdiagram i PowerPoint-presentationer med Aspose.Slides för Java. Steg-för-steg-guide och källkod för Java-utvecklare.
+type: docs
 weight: 15
 url: /sv/java/chart-elements/map-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion till kartdiagram i Java Slides med Aspose.Slides för Java
 
@@ -135,9 +131,3 @@ den här handledningen har vi gått igenom processen att skapa ett kartdiagram i
 ### Hur integrerar jag Aspose.Slides för Java i mitt projekt?
 
  Ladda ner biblioteket från[här](https://releases.aspose.com/slides/java/) och lägg till det i ditt projekts klassväg.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

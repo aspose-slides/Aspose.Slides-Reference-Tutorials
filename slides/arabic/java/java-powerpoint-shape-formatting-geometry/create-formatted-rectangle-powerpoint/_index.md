@@ -3,14 +3,10 @@ title: إنشاء مستطيل منسق في PowerPoint
 linktitle: إنشاء مستطيل منسق في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء مستطيل وتنسيقه في PowerPoint باستخدام Aspose.Slides لـ Java باستخدام هذا الدليل التفصيلي خطوة بخطوة.
+type: docs
 weight: 18
 url: /ar/java/java-powerpoint-shape-formatting-geometry/create-formatted-rectangle-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء مستطيل منسق في شريحة PowerPoint باستخدام Aspose.Slides for Java. سنقوم بتفصيل كل خطوة، مما يضمن أنه يمكنك متابعة وتنفيذ ذلك في مشاريعك الخاصة.
 ## المتطلبات الأساسية
@@ -95,9 +91,3 @@ Aspose.Slides for Java هي مكتبة تسمح للمطورين بإنشاء ع
  نعم التخلص من`Presentation` يساعد الكائن على تحرير الموارد وتجنب تسرب الذاكرة.
 ### أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Slides لـ Java؟
  الوثائق متاحة[هنا](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Tambahkan Bingkai Video Tersemat di PowerPoint
 linktitle: Tambahkan Bingkai Video Tersemat di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menyematkan bingkai video di PowerPoint menggunakan Aspose.Slides untuk Java dengan tutorial langkah demi langkah ini. Sempurnakan presentasi Anda dengan mudah.
+type: docs
 weight: 21
 url: /id/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-frame-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Menambahkan video ke presentasi PowerPoint Anda dapat membuatnya lebih menarik dan informatif. Menggunakan Aspose.Slides untuk Java, Anda dapat dengan mudah menyematkan video langsung ke slide Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses langkah demi langkah, memastikan Anda memahami setiap bagian kode dan cara kerjanya. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan ini akan membantu Anda menyempurnakan presentasi Anda dengan video tersemat.
 ## Prasyarat
@@ -97,9 +93,3 @@ Aspose.Slides mendukung berbagai format video termasuk MP4, AVI, dan WMV.
 Ya, Anda memerlukan lisensi yang valid untuk menggunakan Aspose.Slides. Anda dapat memperoleh lisensi sementara untuk evaluasi.
 ### Bisakah saya menyesuaikan ukuran dan posisi bingkai video?
 Ya, Anda dapat menyesuaikan ukuran dan posisi dengan mengatur parameter yang sesuai saat menambahkan bingkai video.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

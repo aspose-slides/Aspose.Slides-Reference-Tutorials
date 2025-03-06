@@ -3,14 +3,10 @@ title: Menguasai Target Animasi dengan Aspose.Slides untuk .NET
 linktitle: Menetapkan Target Animasi untuk Bentuk Slide Presentasi menggunakan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menghidupkan presentasi Anda dengan Aspose.Slides untuk .NET! Tetapkan target animasi dengan mudah dan pikat audiens Anda.
+type: docs
 weight: 22
 url: /id/net/shape-effects-and-manipulation-in-slides/setting-animation-targets-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam dunia presentasi yang dinamis, menambahkan animasi ke slide Anda dapat membawa perubahan besar. Aspose.Slides untuk .NET memberdayakan pengembang untuk membuat presentasi yang menarik dan menarik secara visual dengan memungkinkan kontrol yang tepat atas target animasi untuk bentuk slide. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses menetapkan target animasi menggunakan Aspose.Slides untuk .NET. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial ini akan membantu Anda memanfaatkan kekuatan animasi dalam presentasi Anda.
 ## Prasyarat
@@ -66,9 +62,3 @@ Tidak, Aspose.Slides memungkinkan Anda menganimasikan bentuk dalam presentasi da
 Ya, Aspose.Slides menyediakan opsi untuk menyesuaikan durasi dan waktu setiap animasi.
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi untuk Aspose.Slides?
  Jelajahi[Aspose.Slides untuk dokumentasi .NET](https://reference.aspose.com/slides/net/) untuk informasi rinci dan contoh.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

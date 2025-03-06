@@ -3,14 +3,10 @@ title: Εφέ σχήματος και χειρισμός σε διαφάνειε
 linktitle: Εφέ σχήματος και χειρισμός σε διαφάνειες
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Βελτιώστε την οπτική ελκυστικότητα της παρουσίασής σας με τα μαθήματα Aspose.Slides για εφέ σχήματος και χειρισμό. Μάθετε πώς να δημιουργείτε εντυπωσιακές διαφάνειες χρησιμοποιώντας εφέ σχήματος, κινούμενα σχέδια και πολλά άλλα.
+type: docs
 weight: 11
 url: /el/net/shape-effects-and-manipulation-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή
 
@@ -67,9 +63,3 @@ url: /el/net/shape-effects-and-manipulation-in-slides/
 Βελτιώστε την ικανότητα παρουσίασής σας μαθαίνοντας πώς να συνδέετε σχήματα χρησιμοποιώντας συνδέσμους σε διαφάνειες παρουσίασης με το Aspose.Slides. Ανεβάστε την οπτική σας αφήγηση σήμερα!
 ### [Σύνδεση σχήματος με χρήση της τοποθεσίας σύνδεσης σε διαφάνειες παρουσίασης με Aspose.Slides](./connecting-shape-using-connection-site/)
 Βελτιώστε τις δεξιότητές σας στην παρουσίαση μαθαίνοντας πώς να συνδέετε σχήματα χρησιμοποιώντας τοποθεσίες σύνδεσης σε διαφάνειες παρουσίασης με το Aspose.Slides. Ακολουθήστε τον λεπτομερή οδηγό μας και παραδείγματα κώδικα.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

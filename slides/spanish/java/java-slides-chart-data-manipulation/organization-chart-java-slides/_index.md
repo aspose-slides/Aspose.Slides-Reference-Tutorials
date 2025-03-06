@@ -3,14 +3,10 @@ title: Organigrama en diapositivas de Java
 linktitle: Organigrama en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a crear impresionantes organigramas en Java Slides con los tutoriales paso a paso de Aspose.Slides. Personalice y visualice su estructura organizativa sin esfuerzo.
+type: docs
 weight: 22
 url: /es/java/chart-data-manipulation/organization-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introducción a la creación de un organigrama en diapositivas de Java utilizando Aspose.Slides
 
@@ -107,9 +103,3 @@ Sí, puede agregar formas, texto y conectores adicionales al organigrama para re
 ### ¿Es posible crear estructuras organizativas complejas con múltiples niveles?
 
 Sí, Aspose.Slides le permite crear estructuras organizativas complejas con múltiples niveles agregando y organizando formas dentro del organigrama. Puede definir relaciones jerárquicas entre formas para representar la estructura deseada.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

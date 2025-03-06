@@ -3,14 +3,10 @@ title: Java 슬라이드의 축에서 값 및 단위 배율 가져오기
 linktitle: Java 슬라이드의 축에서 값 및 단위 배율 가져오기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java Slides의 축에서 값과 단위 배율을 얻는 방법을 알아보세요. 데이터 분석 역량을 강화하세요.
+type: docs
 weight: 20
 url: /ko/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 슬라이드의 축에서 값 및 단위 스케일 가져오기 소개
 
@@ -126,9 +122,3 @@ Aspose.Slides for Java는 최신 Java 버전을 지원하도록 정기적으로 
 ### Aspose.Slides for Java에 대한 추가 리소스와 문서는 어디서 찾을 수 있나요?
 
  다음에서 포괄적인 문서와 추가 리소스를 찾을 수 있습니다.[Java 문서용 Aspose.Slides](https://reference.aspose.com/slides/java/) 웹사이트.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Crear objetos compuestos en formas geométricas
 linktitle: Crear objetos compuestos en formas geométricas
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a crear objetos compuestos en formas geométricas utilizando Aspose.Slides para Java con este completo tutorial. Perfecto para desarrolladores de Java.
+type: docs
 weight: 20
 url: /es/java/java-powerpoint-shape-formatting-geometry/create-composite-objects-geometry-shapes-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introducción
 ¡Hola! ¿Alguna vez has querido crear formas sorprendentes e intrincadas en tus presentaciones de PowerPoint usando Java? Bueno, estás en el lugar correcto. En este tutorial, nos sumergiremos en la poderosa biblioteca Aspose.Slides para Java para crear objetos compuestos en formas geométricas. Ya sea que sea un desarrollador experimentado o recién esté comenzando, esta guía paso a paso lo ayudará a lograr resultados impresionantes en poco tiempo. ¿Listo para comenzar? ¡Vamos a sumergirnos!
 ## Requisitos previos
@@ -99,9 +95,3 @@ Aspose.Slides para Java es una poderosa biblioteca para crear, manipular y conve
  Sí, puedes descargar una prueba gratuita desde[aquí](https://releases.aspose.com/).
 ### ¿Dónde puedo encontrar más documentación y soporte?
  Revisar la[documentación](https://reference.aspose.com/slides/java/) y[Foro de soporte](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

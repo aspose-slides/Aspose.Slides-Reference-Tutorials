@@ -3,14 +3,10 @@ title: Jak ustawić typ zmiany przejścia na slajdzie za pomocą Aspose.Slides
 linktitle: Ustaw typ zmiany przejścia na slajdzie
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak ustawić typ zmiany przejścia na slajdach za pomocą Aspose.Slides dla .NET. Przewodnik krok po kroku z przykładami kodu. Ulepsz swoje prezentacje już teraz!
+type: docs
 weight: 12
 url: /pl/net/slide-transition-effects/set-transition-morph-type/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 W świecie dynamicznych prezentacji odpowiednie przejścia mogą zrobić ogromną różnicę. Aspose.Slides dla .NET umożliwia programistom tworzenie wspaniałych prezentacji PowerPoint, a jedną z jego ekscytujących funkcji jest możliwość ustawienia efektów przejścia. W tym przewodniku krok po kroku omówimy, jak ustawić typ zmiany przejścia na slajdzie za pomocą Aspose.Slides dla .NET. To nie tylko dodaje profesjonalnego charakteru Twoim prezentacjom, ale także poprawia ogólne wrażenia użytkownika.
 
@@ -106,10 +102,3 @@ Aspose.Slides dla .NET to potężna biblioteka do pracy z prezentacjami programu
 
  Aspose.Slides dla .NET oferuje różnorodne efekty przejścia, w tym zanikanie, przesuwanie, wycieranie i inne. Możesz zapoznać się z dokumentacją na stronie[Strona dokumentacji Aspose.Slides dla platformy .NET](https://reference.aspose.com/slides/net/) aby uzyskać szczegółowe informacje na temat wszystkich dostępnych typów przejść.
 
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

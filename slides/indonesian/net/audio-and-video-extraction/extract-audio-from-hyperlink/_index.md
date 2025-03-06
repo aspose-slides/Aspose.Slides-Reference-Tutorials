@@ -3,14 +3,10 @@ title: Ekstrak Audio dari Hyperlink PowerPoint dengan Aspose.Slides
 linktitle: Ekstrak Audio dari Hyperlink
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Ekstrak audio dari hyperlink dalam presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Sempurnakan proyek multimedia Anda dengan mudah.
+type: docs
 weight: 12
 url: /id/net/audio-and-video-extraction/extract-audio-from-hyperlink/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Dalam dunia presentasi multimedia, audio memainkan peran penting dalam meningkatkan dampak keseluruhan slide Anda. Pernahkah Anda menemukan presentasi PowerPoint dengan hyperlink audio dan bertanya-tanya bagaimana cara mengekstrak audio untuk kegunaan lain? Dengan Aspose.Slides untuk .NET, Anda dapat dengan mudah mencapai tugas ini. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses mengekstraksi audio dari hyperlink dalam presentasi PowerPoint.
 
@@ -109,10 +105,3 @@ Ya, Anda dapat memperoleh lisensi sementara untuk Aspose.Slides untuk .NET guna 
 
 ### Apakah ada format audio lain yang didukung untuk ekstraksi, selain MPG?
 Aspose.Slides untuk .NET memungkinkan Anda mengekstrak audio dalam berbagai format, tidak terbatas pada MPG. Anda dapat mengonversinya ke format pilihan Anda setelah ekstraksi.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Εισαγάγετε πρόσθετες διαφάνειες στην π�
 linktitle: Εισαγάγετε πρόσθετες διαφάνειες στην παρουσίαση
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να εισάγετε πρόσθετες διαφάνειες στις παρουσιάσεις σας στο PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Αυτός ο οδηγός βήμα προς βήμα παρέχει παραδείγματα πηγαίου κώδικα και λεπτομερείς οδηγίες για την απρόσκοπτη βελτίωση των παρουσιάσεών σας. Περιλαμβάνονται προσαρμόσιμο περιεχόμενο, συμβουλές εισαγωγής και συχνές ερωτήσεις.
+type: docs
 weight: 15
 url: /el/net/slide-access-and-manipulation/add-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στην Εισαγωγή πρόσθετων διαφανειών στην παρουσίαση
 
@@ -111,9 +107,3 @@ presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ### Πού μπορώ να βρω περισσότερες πληροφορίες σχετικά με το Aspose.Slides για .NET;
 
  Για λεπτομερή τεκμηρίωση και παραδείγματα, ανατρέξτε στο[Aspose.Slides για τεκμηρίωση .NET](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

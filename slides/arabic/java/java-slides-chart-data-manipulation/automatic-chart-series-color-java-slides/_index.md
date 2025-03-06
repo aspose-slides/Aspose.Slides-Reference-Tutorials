@@ -3,14 +3,10 @@ title: لون سلسلة الرسم البياني التلقائي في شرا�
 linktitle: لون سلسلة الرسم البياني التلقائي في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء مخططات ديناميكية بألوان متسلسلة تلقائية في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تعزيز تصورات البيانات الخاصة بك دون عناء.
+type: docs
 weight: 14
 url: /ar/java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة إلى لون سلسلة المخططات التلقائية في Aspose.Slides لـ Java
 
@@ -194,9 +190,3 @@ series.getFormat().getFill().setFillType(FillType.NotDefined);
 ### أين يمكنني العثور على مزيد من المعلومات حول العمل مع Aspose.Slides لـ Java؟
 
  لمزيد من المعلومات والوثائق التفصيلية حول Aspose.Slides for Java، يمكنك زيارة الوثائق المرجعية[هنا](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

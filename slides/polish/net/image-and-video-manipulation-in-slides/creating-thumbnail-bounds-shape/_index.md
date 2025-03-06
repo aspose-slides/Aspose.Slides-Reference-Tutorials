@@ -3,14 +3,10 @@ title: Tworzenie miniatury z granicami kształtu w Aspose.Slides
 linktitle: Tworzenie miniatury z granicami kształtu w Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Odblokuj moc Aspose.Slides dla .NET! Dowiedz się, jak łatwo tworzyć miniatury kształtów z granicami, korzystając z naszego przewodnika krok po kroku.
+type: docs
 weight: 10
 url: /pl/net/image-and-video-manipulation-in-slides/creating-thumbnail-bounds-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 Jeśli jesteś programistą .NET i szukasz solidnego rozwiązania do tworzenia miniatur z obramowaniami kształtów w prezentacjach programu PowerPoint, Aspose.Slides dla .NET będzie Twoim ulubionym narzędziem. Ta potężna biblioteka zapewnia bezproblemową integrację, umożliwiając efektywne manipulowanie i wydobywanie cennych informacji z plików programu PowerPoint. W tym samouczku omówimy proces tworzenia miniatury z granicami kształtu za pomocą Aspose.Slides.
 ## Warunki wstępne
@@ -64,9 +60,3 @@ Tak, Aspose.Slides jest regularnie aktualizowany, aby zapewnić kompatybilność
  Odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) aby połączyć się ze społecznością i poprosić o pomoc doświadczonych programistów.
 ### Czy mogę uzyskać tymczasową licencję na Aspose.Slides?
  Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/) na potrzeby krótkoterminowych projektów.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

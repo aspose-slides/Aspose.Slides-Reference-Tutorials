@@ -3,14 +3,10 @@ title: Ελέγξτε την κρυφή ιδιότητα SmartArt χρησιμο
 linktitle: Ελέγξτε την κρυφή ιδιότητα SmartArt χρησιμοποιώντας Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ανακαλύψτε πώς μπορείτε να ελέγξετε την κρυφή ιδιότητα SmartArt στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java, βελτιώνοντας τον χειρισμό της παρουσίασης.
+type: docs
 weight: 24
 url: /el/java/java-powerpoint-smartart-manipulation/check-smartart-hidden-property-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Στον δυναμικό κόσμο του προγραμματισμού Java, ο προγραμματισμός των παρουσιάσεων του PowerPoint είναι πολύτιμη δεξιότητα. Το Aspose.Slides για Java είναι μια ισχυρή βιβλιοθήκη που δίνει τη δυνατότητα στους προγραμματιστές να δημιουργούν, να τροποποιούν και να χειρίζονται τις παρουσιάσεις του PowerPoint απρόσκοπτα. Μία από τις βασικές εργασίες στον χειρισμό παρουσίασης είναι ο έλεγχος της κρυφής ιδιότητας των αντικειμένων SmartArt. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία ελέγχου της κρυφής ιδιότητας του SmartArt χρησιμοποιώντας το Aspose.Slides για Java.
 ## Προαπαιτούμενα
@@ -80,9 +76,3 @@ presentation.save(dataDir + "CheckSmartArtHiddenProperty_out.pptx", SaveFormat.P
 Ναι, το Aspose.Slides για Java υποστηρίζει ένα ευρύ φάσμα μορφών αρχείων PowerPoint, συμπεριλαμβανομένων των PPT, PPTX, POT, POTX, PPS και άλλων.
 ### Υπάρχει κάποια κοινότητα ή φόρουμ όπου μπορώ να λάβω βοήθεια με το Aspose.Slides for Java;
 Ναι, μπορείτε να επισκεφτείτε το φόρουμ Aspose.Slides (https://forum.aspose.com/c/slides/11) για να κάνετε ερωτήσεις, να μοιραστείτε ιδέες και να λάβετε υποστήριξη από την κοινότητα.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

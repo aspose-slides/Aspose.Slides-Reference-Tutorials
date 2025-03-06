@@ -3,14 +3,10 @@ title: Adjon hozzá cellaszegélyeket a táblázathoz a Java PowerPointban
 linktitle: Adjon hozzá cellaszegélyeket a táblázathoz a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat hozzá cellaszegélyeket a Java PowerPoint prezentációk táblázataihoz az Aspose.Slides segítségével. Ez a lépésenkénti útmutató megkönnyíti a diák továbbfejlesztését.
+type: docs
 weight: 10
 url: /hu/java/java-powerpoint-table-formatting-updates/add-cell-borders-table-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Halihó! Tehát cellaszegélyeket szeretne hozzáadni egy táblázathoz egy PowerPoint-prezentációban Java használatával, mi? Nos, jó helyen jársz! Ez az oktatóanyag lépésről lépésre végigvezeti a folyamaton az Aspose.Slides for Java könyvtár használatával. Ennek az útmutatónak a végére már jól átlátja, hogyan kezelheti a PowerPoint-diák táblázatait profi módon. Merüljön el, és tegyük prezentációit elegánssá és professzionálissá!
 ## Előfeltételek
@@ -100,9 +96,3 @@ Teljesen! Az Aspose.Slides segítségével képeket szúrhat be a táblázat cel
 Igen, automatizálhatja a folyamatot, ha végigpörgeti a diákat, és minden diákra alkalmazza a táblázatkészítési logikát.
 ### Milyen fájlformátumokat támogat az Aspose.Slides?
 Az Aspose.Slides különféle formátumokat támogat, beleértve a PPT-t, PPTX-et, PDF-et és még sok mást.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

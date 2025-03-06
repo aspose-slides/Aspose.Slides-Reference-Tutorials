@@ -3,14 +3,10 @@ title: Μορφοποίηση Join Styles στο PowerPoint
 linktitle: Μορφοποίηση Join Styles στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να βελτιώσετε τις παρουσιάσεις σας στο PowerPoint ορίζοντας διαφορετικά στυλ σύνδεσης γραμμών για σχήματα χρησιμοποιώντας το Aspose.Slides για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας.
+type: docs
 weight: 15
 url: /el/java/java-powerpoint-shape-formatting-geometry/format-join-styles-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Η δημιουργία οπτικά ελκυστικών παρουσιάσεων PowerPoint μπορεί να είναι μια τρομακτική εργασία, ειδικά όταν θέλετε κάθε λεπτομέρεια να είναι τέλεια. Εδώ είναι χρήσιμο το Aspose.Slides για Java. Είναι ένα ισχυρό API που σας επιτρέπει να δημιουργείτε, να χειρίζεστε και να διαχειρίζεστε παρουσιάσεις μέσω προγραμματισμού. Ένα από τα χαρακτηριστικά που μπορείτε να χρησιμοποιήσετε είναι να ορίσετε διαφορετικά στυλ σύνδεσης γραμμής για σχήματα, τα οποία μπορούν να βελτιώσουν σημαντικά την αισθητική των διαφανειών σας. Σε αυτό το σεμινάριο, θα εξετάσουμε πώς μπορείτε να χρησιμοποιήσετε το Aspose.Slides για Java για να ορίσετε στυλ σύνδεσης για σχήματα σε παρουσιάσεις PowerPoint. 
 ## Προαπαιτούμενα
@@ -116,9 +112,3 @@ pres.save(dataDir + "RectShpLnJoin_out.pptx", SaveFormat.Pptx);
 Τα στυλ σύνδεσης γραμμής αναφέρονται στο σχήμα των γωνιών όπου συναντώνται δύο γραμμές. Τα κοινά στυλ περιλαμβάνουν Mitre, Bevel και Round.
 ### Πού μπορώ να βρω περισσότερη τεκμηρίωση για το Aspose.Slides for Java;
  Μπορείτε να βρείτε αναλυτική τεκμηρίωση[εδώ](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

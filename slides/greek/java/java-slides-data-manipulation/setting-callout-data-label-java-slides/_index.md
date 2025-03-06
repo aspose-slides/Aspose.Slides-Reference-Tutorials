@@ -3,14 +3,10 @@ title: Ρύθμιση Callout For Data Label σε Java Slides
 linktitle: Ρύθμιση Callout For Data Label σε Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ρυθμίζετε μηνύματα προώθησης για ετικέτες δεδομένων στο Aspose.Slides για Java. Οδηγός βήμα προς βήμα με τον πηγαίο κώδικα.
+type: docs
 weight: 25
 url: /el/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στη ρύθμιση Callout για ετικέτα δεδομένων στο Aspose.Slides για Java
 
@@ -207,9 +203,3 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 ```
 
 Αυτές είναι μερικές κοινές επιλογές προσαρμογής για ετικέτες δεδομένων και μηνύματα προώθησης στο Aspose.Slides για Java. Μπορείτε να προσαρμόσετε περαιτέρω την εμφάνιση στις συγκεκριμένες ανάγκες σας.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

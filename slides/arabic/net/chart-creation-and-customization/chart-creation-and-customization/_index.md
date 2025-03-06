@@ -3,14 +3,10 @@ title: إنشاء المخطط وتخصيصه في Aspose.Slides
 linktitle: إنشاء المخطط وتخصيصه في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إنشاء المخططات وتخصيصها في PowerPoint باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة لإنشاء عروض تقديمية ديناميكية.
+type: docs
 weight: 10
 url: /ar/net/chart-creation-and-customization/chart-creation-and-customization/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة
 
@@ -114,9 +110,3 @@ using (Presentation presentation = new Presentation(dataDir + "presentation.ppt"
 
 ### هل يمكنني شراء ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
 نعم يمكنك الحصول على ترخيص مؤقت من موقع Aspose[هنا](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

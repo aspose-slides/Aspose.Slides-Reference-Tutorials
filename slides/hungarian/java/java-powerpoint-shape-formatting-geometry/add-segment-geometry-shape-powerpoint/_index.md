@@ -3,14 +3,10 @@ title: Szegmens hozzáadása a geometriai alakzathoz a PowerPointban
 linktitle: Szegmens hozzáadása a geometriai alakzathoz a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ebből a részletes, lépésenkénti útmutatóból megtudhatja, hogyan adhat hozzá szegmenseket a PowerPoint-prezentációk geometriai alakzataihoz az Aspose.Slides for Java segítségével.
+type: docs
 weight: 19
 url: /hu/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-shape-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Lebilincselő és dinamikus prezentációk készítése kihívást jelenthet, különösen akkor, ha egyedi formákat és mintákat szeretne hozzáadni. Itt jön jól az Aspose.Slides for Java. Ez a nagy teljesítményű API lehetővé teszi a PowerPoint fájlok programozott kezelését, rugalmasságot biztosítva összetett geometriai alakzatok és szegmensek egyszerű hozzáadásához. Ebben az oktatóanyagban végigvezetjük, hogyan adhat hozzá szegmenseket a geometriai alakzatokhoz egy PowerPoint-prezentációban az Aspose.Slides for Java használatával. Függetlenül attól, hogy Ön fejlesztő, aki automatizálni szeretné a prezentációk létrehozását, vagy csak valaki, aki szeret belemerülni a kódolásba, ez az útmutató átfogó forrás lesz.
 ## Előfeltételek
@@ -82,9 +78,3 @@ Nem, az Aspose.Slides for Java kifejezetten a Java-val való használatra kész�
 Különféle alakzatokat adhat hozzá, például téglalapokat, ellipsziseket, vonalakat és egyéni geometriai alakzatokat.
 ### Hogyan kaphatok támogatást az Aspose.Slides for Java számára?
  Támogatást kaphat a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) ahol kérdéseket tehet fel, és segítséget kérhet a közösségtől és a fejlesztőktől.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

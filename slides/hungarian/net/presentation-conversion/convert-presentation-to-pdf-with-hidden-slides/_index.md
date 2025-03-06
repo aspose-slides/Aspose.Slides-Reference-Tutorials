@@ -3,14 +3,10 @@ title: Konvertálja a bemutatót PDF-be rejtett diákkal
 linktitle: Konvertálja a bemutatót PDF-be rejtett diákkal
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan használhatja az Aspose.Slides for .NET-et a prezentációk zökkenőmentes PDF-formátumba konvertálásához rejtett diákkal.
+type: docs
 weight: 26
 url: /hu/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Az Aspose.Slides .NET-hez bemutatása
 
@@ -99,9 +95,3 @@ Természetesen az Aspose.Slides for .NET-et a különböző bonyolultságú prez
 ### Van valami dokumentáció az Aspose.Slides for .NET-hez?
 
  Igen, az Aspose.Slides for .NET dokumentációját és használati példáit itt találja[itt](https://reference.aspose.com/slides/net).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

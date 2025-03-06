@@ -3,14 +3,10 @@ title: Přístup k alternativnímu textu ve skupinách tvarů pomocí Aspose.Sli
 linktitle: Přístup k alternativnímu textu ve skupinových tvarech
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak získat přístup k alternativnímu textu ve skupinových tvarech pomocí Aspose.Slides pro .NET. Podrobný průvodce s příklady kódu.
+type: docs
 weight: 10
 url: /cs/net/shape-effects-and-manipulation-in-slides/accessing-alt-text-group-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Pokud jde o správu a manipulaci s prezentacemi, Aspose.Slides for .NET nabízí výkonnou sadu nástrojů. V tomto článku se ponoříme do specifického aspektu tohoto API – Přístup k alternativnímu textu ve skupinových tvarech. Ať už jste zkušený vývojář nebo s Aspose.Slides teprve začínáte, tento komplexní průvodce vás provede celým procesem a poskytne vám podrobné pokyny a příklady kódu. Na konci budete dobře rozumět tomu, jak efektivně pracovat s alternativním textem ve skupinových tvarech pomocí Aspose.Slides.
 
@@ -122,9 +118,3 @@ K vyhodnocení efektivity alternativního textu prezentací a celkové přístup
 ### Je Aspose.Slides vhodný pro začátečníky i zkušené vývojáře?
 
 Ano, Aspose.Slides je navržen tak, aby vyhovoval vývojářům všech úrovní dovedností. Začátečníci mohou postupovat podle podrobného průvodce uvedeného v dokumentaci, zatímco zkušení vývojáři mohou využít jeho pokročilé funkce.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

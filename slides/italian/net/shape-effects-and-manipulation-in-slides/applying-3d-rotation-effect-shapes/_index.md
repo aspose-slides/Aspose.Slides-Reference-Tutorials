@@ -3,14 +3,10 @@ title: Padroneggiare la rotazione 3D nelle presentazioni con Aspose.Slides per .
 linktitle: Applicazione dell'effetto di rotazione 3D alle forme nelle diapositive della presentazione
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Migliora le tue presentazioni con Aspose.Slides per .NET! Impara ad applicare gli effetti di rotazione 3D alle forme in questo tutorial. Crea presentazioni dinamiche e visivamente sorprendenti.
+type: docs
 weight: 23
 url: /it/net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effect-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## introduzione
 Creare diapositive di presentazione coinvolgenti e dinamiche è un aspetto chiave di una comunicazione efficace. Aspose.Slides per .NET fornisce un potente set di strumenti per migliorare le tue presentazioni, inclusa la possibilità di applicare effetti di rotazione 3D alle forme. In questo tutorial, esamineremo il processo di applicazione di un effetto di rotazione 3D alle forme nelle diapositive di presentazione utilizzando Aspose.Slides per .NET.
 ## Prerequisiti
@@ -64,9 +60,3 @@ Sì, puoi applicare effetti di rotazione 3D a varie forme, comprese le caselle d
  Sì, puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
 ### Dove posso trovare la documentazione dettagliata per Aspose.Slides per .NET?
  La documentazione è disponibile[Qui](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

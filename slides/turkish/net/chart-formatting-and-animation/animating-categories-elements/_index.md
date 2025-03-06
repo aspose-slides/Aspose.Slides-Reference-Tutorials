@@ -3,14 +3,10 @@ title: Aspose.Slides for .NET ile Güçlü Grafik Animasyonları
 linktitle: Grafikteki Kategori Öğelerini Canlandırma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET ile PowerPoint'te grafik öğelerine animasyon eklemeyi öğrenin. Çarpıcı sunumlar için adım adım kılavuz.
+type: docs
 weight: 11
 url: /tr/net/chart-formatting-and-animation/animating-categories-elements/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Sunum dünyasında animasyonlar, özellikle grafiklerle uğraşırken içeriğinizin hayata geçmesini sağlayabilir. Aspose.Slides for .NET, grafikleriniz için çarpıcı animasyonlar oluşturmanıza olanak tanıyan bir dizi güçlü özellik sunar. Bu adım adım kılavuzda, Aspose.Slides for .NET'i kullanarak bir grafikteki kategori öğelerini canlandırma sürecinde size yol göstereceğiz.
 
@@ -127,10 +123,3 @@ Aspose.Slides for .NET, çeşitli PowerPoint sürümleriyle çalışacak ve uyum
 
 ### 5. Aspose.Slides for .NET desteği için bir topluluk forumu var mı?
  Evet, Aspose.Slides for .NET için destekleyici bir topluluk forumu bulabilirsiniz[Burada](https://forum.aspose.com/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

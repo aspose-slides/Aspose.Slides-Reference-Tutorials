@@ -3,14 +3,10 @@ title: Zvládnutí animací PowerPoint s Aspose.Slides .NET
 linktitle: Opakujte animaci na snímku
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vylepšete prezentace PowerPoint pomocí Aspose.Slides pro .NET. Ovládejte animace bez námahy, upoutejte své publikum a zanechte trvalý dojem.
+type: docs
 weight: 12
 url: /cs/net/slide-animation-control/repeat-animation-on-slide/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 V dynamickém světě prezentací hraje schopnost ovládat animace klíčovou roli při upoutání a upoutání pozornosti publika. Aspose.Slides for .NET umožňuje vývojářům převzít odpovědnost za typy animací v rámci snímků, což umožňuje interaktivnější a vizuálně přitažlivější prezentaci. V tomto tutoriálu krok za krokem prozkoumáme, jak ovládat typy animací na snímku pomocí Aspose.Slides for .NET.
 ## Předpoklady
@@ -70,9 +66,3 @@ Aspose.Slides poskytuje podporu pro širokou škálu verzí aplikace PowerPoint 
  Návštěva[tady](https://purchase.aspose.com/temporary-license/) informace o získání dočasné licence.
 ### Potřebujete pomoc nebo máte další otázky?
  Zapojte se do komunity Aspose.Slides na[Fórum podpory](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

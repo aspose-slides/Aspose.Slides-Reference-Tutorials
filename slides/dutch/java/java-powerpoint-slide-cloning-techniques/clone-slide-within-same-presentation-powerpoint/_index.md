@@ -3,14 +3,10 @@ title: Kloon dia binnen dezelfde presentatie
 linktitle: Kloon dia binnen dezelfde presentatie
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Kloon dia's binnen dezelfde presentatie met Aspose.Slides voor Java met onze gids. Perfect voor ontwikkelaars die PowerPoint-manipulaties willen stroomlijnen.
+type: docs
 weight: 15
 url: /nl/java/java-powerpoint-slide-cloning-techniques/clone-slide-within-same-presentation-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 Ben je klaar om in de wereld van Aspose.Slides voor Java te duiken en te leren hoe je dia's binnen dezelfde presentatie kunt klonen? In deze tutorial leert u alles wat u moet weten, van de vereisten tot de uiteindelijke implementatie. Laten we beginnen!
 ## Vereisten
@@ -71,9 +67,3 @@ Aspose.Slides voor Java is een krachtige API voor het werken met PowerPoint-pres
 De documentatie voor Aspose.Slides voor Java is beschikbaar op de[Aspose-website](https://reference.aspose.com/slides/java/).
 ### Hoe kan ik Aspose.Slides voor Java kopen?
  U kunt Aspose.Slides voor Java kopen door naar de website te gaan[aankooppagina](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

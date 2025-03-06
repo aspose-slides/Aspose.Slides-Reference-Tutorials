@@ -3,14 +3,10 @@ title: Tạo hình học tùy chỉnh trong PowerPoint
 linktitle: Tạo hình học tùy chỉnh trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo các hình dạng hình học tùy chỉnh trong PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn này sẽ giúp bạn cải thiện bài thuyết trình của mình bằng các hình dạng độc đáo.
+type: docs
 weight: 21
 url: /vi/java/java-powerpoint-shape-formatting-geometry/create-custom-geometry-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Việc tạo các hình dạng và hình học tùy chỉnh trong PowerPoint có thể nâng cao đáng kể sự hấp dẫn trực quan cho bài thuyết trình của bạn. Aspose.Slides cho Java là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các tệp PowerPoint theo chương trình. Trong hướng dẫn này, chúng ta sẽ khám phá cách tạo hình học tùy chỉnh, cụ thể là hình ngôi sao, trong trang chiếu PowerPoint bằng Aspose.Slides cho Java. Hãy đi sâu vào!
 ## Điều kiện tiên quyết
@@ -110,9 +106,3 @@ Aspose.Slides for Java cung cấp bản dùng thử miễn phí. Để sử dụ
 Không cần thiết lập đặc biệt nào ngoài việc cài đặt JDK và bao gồm thư viện Aspose.Slides trong dự án của bạn.
 ### Tôi có thể nhận hỗ trợ cho Aspose.Slides ở đâu?
  Bạn có thể nhận được sự hỗ trợ từ[Diễn đàn hỗ trợ Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

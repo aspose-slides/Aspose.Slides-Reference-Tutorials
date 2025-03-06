@@ -3,14 +3,10 @@ title: Convertir une présentation entière en HTML dans des diapositives Java
 linktitle: Convertir une présentation entière en HTML dans des diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment convertir des présentations PowerPoint en HTML en Java à l'aide d'Aspose.Slides. Guide étape par étape avec des exemples de code.
+type: docs
 weight: 29
 url: /fr/java/presentation-conversion/convert-whole-presentation-html-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction à la conversion d'une présentation entière en HTML dans des diapositives Java
 
@@ -121,9 +117,3 @@ Oui, Aspose.Slides pour Java prend en charge divers formats de sortie, notamment
 ### Puis-je convertir des diapositives spécifiques au lieu de la présentation entière ?
 
 Oui, vous pouvez convertir des diapositives spécifiques en les sélectionnant dans le code avant d'enregistrer la présentation. Cela vous permet de contrôler quelles diapositives sont converties en HTML.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

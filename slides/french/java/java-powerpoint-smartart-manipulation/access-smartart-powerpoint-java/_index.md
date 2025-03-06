@@ -3,14 +3,10 @@ title: Accéder à SmartArt dans PowerPoint à l'aide de Java
 linktitle: Accéder à SmartArt dans PowerPoint à l'aide de Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment accéder et manipuler SmartArt dans des présentations PowerPoint à l'aide de Java avec Aspose.Slides. Guide étape par étape pour les développeurs.
+type: docs
 weight: 12
 url: /fr/java/java-powerpoint-smartart-manipulation/access-smartart-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Salut les passionnés de Java ! Avez-vous déjà eu besoin de travailler avec SmartArt dans des présentations PowerPoint par programmation ? Peut-être automatisez-vous un rapport ou développez-vous une application qui génère des diapositives à la volée. Quel que soit votre besoin, la gestion de SmartArt peut sembler une tâche délicate. Mais n’ayez crainte ! Aujourd'hui, nous examinons en profondeur comment accéder à SmartArt dans PowerPoint à l'aide d'Aspose.Slides pour Java. Ce guide étape par étape vous guidera à travers tout ce que vous devez savoir, de la configuration de votre environnement à la traversée et à la manipulation des nœuds SmartArt. Alors, prenez une tasse de café et commençons !
 ## Conditions préalables
@@ -88,9 +84,3 @@ Oui, Aspose.Slides pour Java prend en charge la création de nouveaux éléments
 Aspose.Slides prend en charge tous les types de mises en page SmartArt disponibles dans PowerPoint, y compris les organigrammes, les listes, les cycles, etc.
 ### Où puis-je obtenir de l'aide pour Aspose.Slides pour Java ?
  Pour obtenir de l'aide, visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11)où vous pouvez poser des questions et obtenir de l'aide de la communauté et des développeurs Aspose.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

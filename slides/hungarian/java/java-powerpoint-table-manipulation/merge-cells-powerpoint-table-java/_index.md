@@ -3,14 +3,10 @@ title: Cellák egyesítése a PowerPoint Table-ban Java-val
 linktitle: Cellák egyesítése a PowerPoint Table-ban Java-val
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan egyesíthet cellákat PowerPoint-táblázatokban az Aspose.Slides for Java segítségével. Ezzel a lépésenkénti útmutatóval javíthatja bemutatójának elrendezését.
+type: docs
 weight: 17
 url: /hu/java/java-powerpoint-table-manipulation/merge-cells-powerpoint-table-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Ebből az oktatóanyagból megtudhatja, hogyan lehet hatékonyan egyesíteni cellákat egy PowerPoint-táblázaton belül az Aspose.Slides for Java segítségével. Az Aspose.Slides egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára PowerPoint-prezentációk programozott létrehozását, kezelését és konvertálását. A táblázat celláinak egyesítésével személyre szabhatja a bemutató diákjainak elrendezését és szerkezetét, javítva az áttekinthetőséget és a vizuális vonzerőt.
 ## Előfeltételek
@@ -96,9 +92,3 @@ Az Aspose.Slides for Java egy Java API PowerPoint-prezentációk programozott l�
  A dokumentációt megtalálod[itt](https://reference.aspose.com/slides/java/).
 ### Hogyan kaphatok támogatást az Aspose.Slides for Java számára?
  Támogatást az Aspose.Slides közösségi fórumtól kaphat[itt](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

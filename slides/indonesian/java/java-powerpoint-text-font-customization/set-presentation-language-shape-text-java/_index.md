@@ -3,14 +3,10 @@ title: Mengatur Bahasa Presentasi dan Bentuk Teks di Java
 linktitle: Mengatur Bahasa Presentasi dan Bentuk Teks di Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengotomatiskan presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Membuat, memodifikasi, dan menyempurnakan slide secara terprogram dengan mudah.
+type: docs
 weight: 19
 url: /id/java/java-powerpoint-text-font-customization/set-presentation-language-shape-text-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Membuat dan memanipulasi presentasi PowerPoint secara terprogram di Java dapat menyederhanakan otomatisasi alur kerja dan meningkatkan produktivitas. Aspose.Slides untuk Java menyediakan seperangkat alat canggih untuk mencapai tugas-tugas ini secara efisien. Tutorial ini memandu Anda melalui langkah-langkah penting untuk mengatur bahasa presentasi dan membentuk teks menggunakan Aspose.Slides untuk Java.
 ## Prasyarat
@@ -73,9 +69,3 @@ Ya, Aspose.Slides menyediakan API komprehensif untuk membuat presentasi sepenuhn
  Dokumentasi terperinci tersedia[Di Sini](https://reference.aspose.com/slides/java/).
 ### Opsi dukungan apa yang tersedia untuk Aspose.Slides untuk Java?
  Anda dapat mengunjungi forum Aspose.Slides[Di Sini](https://forum.aspose.com/c/slides/11) untuk dukungan masyarakat.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

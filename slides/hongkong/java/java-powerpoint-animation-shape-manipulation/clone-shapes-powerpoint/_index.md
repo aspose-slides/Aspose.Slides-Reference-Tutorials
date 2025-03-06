@@ -3,14 +3,10 @@ title: PowerPoint 中的克隆形狀
 linktitle: PowerPoint 中的克隆形狀
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 複製 PowerPoint 簡報中的形狀。透過這個易於理解的教程簡化您的工作流程。
+type: docs
 weight: 16
 url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 在本教程中，我們將探索如何使用 Aspose.Slides for Java 複製 PowerPoint 簡報中的形狀。克隆形狀可讓您複製簡報中的現有形狀，這對於建立一致的佈局或跨投影片重複元素特別有用。
 ## 先決條件
@@ -61,9 +57,3 @@ srcPres.save(dataDir + "CloneShape_out.pptx", SaveFormat.Pptx);
 是的，您可以使用 Aspose.Slides for Java 複製投影片、文字、圖像和 PowerPoint 簡報中的其他元素。
 ### Aspose.Slides for Java 是否有試用版？
 是的，您可以從 Aspose.Slides for Java 下載免費試用版[網站](https://releases.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

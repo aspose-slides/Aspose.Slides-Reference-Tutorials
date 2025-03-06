@@ -3,14 +3,10 @@ title: Erhalten Sie Daten zur Lichtanlageneffektivität in PowerPoint
 linktitle: Erhalten Sie Daten zur Lichtanlageneffektivität in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Slides für Java Lichtanlageneffektivdaten aus PowerPoint-Präsentationen abrufen.
+type: docs
 weight: 25
 url: /de/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-data-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 Möchten Sie Ihre PowerPoint-Präsentationsaufgaben mit Java automatisieren? Suchen Sie nicht weiter! Aspose.Slides für Java ist eine leistungsstarke Bibliothek, mit der Entwickler PowerPoint-Dateien erstellen, bearbeiten und konvertieren können, ohne dass Microsoft PowerPoint installiert sein muss. In dieser umfassenden Anleitung führen wir Sie durch die Schritte, um mit Aspose.Slides für Java leicht verständliche, effektive Daten aus einer PowerPoint-Präsentation zu erhalten. Egal, ob Sie ein erfahrener Java-Entwickler sind oder gerade erst anfangen, dieses Tutorial hilft Ihnen, das volle Potenzial von Aspose.Slides in Ihren Projekten auszuschöpfen.
 ## Voraussetzungen
@@ -70,9 +66,3 @@ Ja, Sie können Aspose.Slides verwenden, ohne Microsoft PowerPoint installiert z
  Die Dokumentation ist verfügbar unter[dieser Link](https://reference.aspose.com/slides/java/).
 ### Wie erhalte ich Support für Aspose.Slides?
  Sie können Unterstützung im Aspose.Slides-Supportforum erhalten.[Hier](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

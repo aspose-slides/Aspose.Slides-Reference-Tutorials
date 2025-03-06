@@ -3,14 +3,10 @@ title: Bộ sưu tập quy tắc dự phòng trong Java PowerPoint
 linktitle: Bộ sưu tập quy tắc dự phòng trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách quản lý quy tắc dự phòng phông chữ trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Tăng cường khả năng tương thích trên các thiết bị một cách dễ dàng.
+type: docs
 weight: 11
 url: /vi/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách quản lý các quy tắc dự phòng phông chữ bằng Aspose.Slides cho Java. Dự phòng phông chữ rất quan trọng trong việc đảm bảo bản trình bày của bạn hiển thị chính xác trên các môi trường khác nhau, đặc biệt là khi không có phông chữ cụ thể. Chúng tôi sẽ hướng dẫn bạn nhập các gói cần thiết, thiết lập môi trường và triển khai các quy tắc dự phòng theo từng bước.
 ## Điều kiện tiên quyết
@@ -77,9 +73,3 @@ Quy tắc dự phòng phông chữ xác định phông chữ thay thế sẽ s�
  Tài liệu chi tiết có sẵn[đây](https://reference.aspose.com/slides/java/).
 ### Làm cách nào để nhận được hỗ trợ cho Aspose.Slides cho Java?
 Để được hỗ trợ, hãy truy cập diễn đàn Aspose.Slides[đây](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

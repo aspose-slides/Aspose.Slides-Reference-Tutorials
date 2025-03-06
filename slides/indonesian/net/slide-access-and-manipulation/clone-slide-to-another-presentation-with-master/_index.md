@@ -3,14 +3,10 @@ title: Salin Slide ke Presentasi Baru dengan Master Slide
 linktitle: Salin Slide ke Presentasi Baru dengan Master Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menyalin slide dengan slide master menggunakan Aspose.Slides untuk .NET. Tingkatkan keterampilan presentasi Anda dengan panduan langkah demi langkah ini.
+type: docs
 weight: 20
 url: /id/net/slide-access-and-manipulation/clone-slide-to-another-presentation-with-master/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Dalam dunia desain dan manajemen presentasi, efisiensi adalah kuncinya. Sebagai penulis konten, saya di sini untuk memandu Anda melalui proses menyalin slide ke presentasi baru dengan slide master menggunakan Aspose.Slides untuk .NET. Baik Anda seorang pengembang berpengalaman atau pendatang baru di bidang ini, tutorial langkah demi langkah ini akan membantu Anda menguasai keterampilan penting ini. Mari selami.
 
@@ -122,9 +118,3 @@ Aspose.Slides untuk .NET adalah pustaka canggih yang memungkinkan pengembang .NE
 
 ### Di mana saya bisa mendapatkan dukungan komunitas dan mendiskusikan Aspose.Slides untuk .NET?
  Anda dapat bergabung dengan komunitas Aspose dan mencari dukungan di[Aspose.Slide untuk Forum Dukungan .NET](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

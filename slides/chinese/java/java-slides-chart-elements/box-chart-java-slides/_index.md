@@ -3,14 +3,10 @@ title: Java 幻灯片中的箱线图
 linktitle: Java 幻灯片中的箱线图
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 在 Java 演示文稿中创建箱线图。包含有效的数据可视化的分步指南和源代码。
+type: docs
 weight: 10
 url: /zh/java/chart-elements/box-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for Java 中的箱线图简介
 
@@ -152,9 +148,3 @@ finally
 ### QuartileMethodType.Exclusive 是什么意思？
 
 这`QuartileMethodType.Exclusive`设置指定四分位数计算应使用独占方法。您可以根据您的数据和要求选择不同的四分位数计算方法。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Kommentare in PowerPoint rendern
 linktitle: Kommentare in PowerPoint rendern
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Kommentare in PowerPoint-Präsentationen rendern. Passen Sie das Erscheinungsbild an und generieren Sie effizient Bildvorschauen.
+type: docs
 weight: 10
 url: /de/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 In diesem Tutorial gehen wir den Prozess des Renderns von Kommentaren in PowerPoint-Präsentationen mit Aspose.Slides für Java durch. Das Rendern von Kommentaren kann für verschiedene Zwecke nützlich sein, beispielsweise zum Generieren von Bildvorschauen von Präsentationen mit enthaltenen Kommentaren.
 ## Voraussetzungen
@@ -76,9 +72,3 @@ Ja, neben PNG können Sie Kommentare auch in anderen Bildformaten rendern, die v
 Ja, mit Aspose.Slides können Sie Kommentare zu Bildern rendern, ohne die PowerPoint-Anwendung zu öffnen.
 ### Gibt es eine Möglichkeit, Kommentare direkt in ein PDF-Dokument einzugeben?
 Ja, Aspose.Slides bietet die Funktion, Kommentare direkt in PDF-Dokumente einzufügen und so eine nahtlose Integration in Ihren Dokumenten-Workflow zu ermöglichen.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

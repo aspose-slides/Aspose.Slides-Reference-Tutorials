@@ -3,14 +3,10 @@ title: Java 슬라이드의 차트 항목
 linktitle: Java 슬라이드의 차트 항목
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java 슬라이드 차트를 만들고 사용자 정의하는 방법을 알아보세요. 강력한 차트 엔터티로 프레젠테이션을 향상하세요.
+type: docs
 weight: 13
 url: /ko/java/data-manipulation/chart-entities-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 슬라이드의 차트 항목 소개
 
@@ -305,9 +301,3 @@ finally
 ### Aspose.Slides for Java는 최신 Java 버전과 호환됩니까?
 
 예, Aspose.Slides for Java는 정기적으로 업데이트되어 최신 Java 버전을 지원하고 광범위한 Java 환경에서 호환성을 제공합니다.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java Slaytlarında Veri Etiketi Bilgisini Ayarlama
 linktitle: Java Slaytlarında Veri Etiketi Bilgisini Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'da Veri Etiketleri için Bilgilerin Nasıl Ayarlanacağını Öğrenin. Kaynak koduyla adım adım kılavuz.
+type: docs
 weight: 25
 url: /tr/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for Java'da Veri Etiketi Bilgilerini Ayarlamaya Giriş
 
@@ -207,9 +203,3 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 ```
 
 Bunlar Aspose.Slides for Java'daki veri etiketleri ve belirtme çizgileri için bazı yaygın özelleştirme seçenekleridir. Görünümü özel ihtiyaçlarınıza göre daha da özelleştirebilirsiniz.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

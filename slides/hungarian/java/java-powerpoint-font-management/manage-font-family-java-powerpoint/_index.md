@@ -3,14 +3,10 @@ title: Betűcsalád kezelése a Java PowerPointban
 linktitle: Betűcsalád kezelése a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan kezelheti a betűtípuscsaládot Java PowerPoint prezentációkban az Aspose.Slides for Java segítségével. Könnyedén testreszabhatja a betűstílusokat, színeket és egyebeket.
+type: docs
 weight: 10
 url: /hu/java/java-powerpoint-font-management/manage-font-family-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan kezelheti a betűtípuscsaládot Java PowerPoint prezentációkban az Aspose.Slides for Java segítségével. A betűtípusok döntő szerepet játszanak a diák vizuális vonzerejében és olvashatóságában, ezért elengedhetetlen, hogy tudjuk, hogyan lehet hatékonyan manipulálni őket.
 ## Előfeltételek
@@ -70,9 +66,3 @@ Igen, az Aspose.Slides lehetővé teszi egyéni betűtípusok beágyazását a p
 Igen, az Aspose.Slides API-kat biztosít PowerPoint-prezentációk létrehozásához, módosításához és manipulálásához, teljes egészében kódon keresztül.
 ### Elérhető az Aspose.Slides for Java próbaverziója?
 Igen, letöltheti az Aspose.Slides for Java ingyenes próbaverzióját a webhelyről[itt](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: เพิ่มเฟรมวิดีโอแบบฝังใน Pow
 linktitle: เพิ่มเฟรมวิดีโอแบบฝังใน PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีฝังเฟรมวิดีโอใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ด้วยบทช่วยสอนทีละขั้นตอนนี้ ปรับปรุงการนำเสนอของคุณได้อย่างง่ายดาย
+type: docs
 weight: 21
 url: /th/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-frame-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## การแนะนำ
 การเพิ่มวิดีโอลงในงานนำเสนอ PowerPoint ของคุณสามารถทำให้พวกเขาน่าสนใจและให้ข้อมูลมากขึ้น การใช้ Aspose.Slides สำหรับ Java ทำให้คุณสามารถฝังวิดีโอลงในสไลด์ของคุณได้โดยตรง ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการทีละขั้นตอน เพื่อให้แน่ใจว่าคุณเข้าใจทุกส่วนของโค้ดและวิธีการทำงาน ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น คู่มือนี้จะช่วยคุณปรับปรุงการนำเสนอของคุณด้วยวิดีโอแบบฝัง
 ## ข้อกำหนดเบื้องต้น
@@ -97,9 +93,3 @@ Aspose.Slides รองรับรูปแบบวิดีโอต่าง
 ใช่ คุณต้องมีใบอนุญาตที่ถูกต้องเพื่อใช้ Aspose.Slides คุณสามารถขอรับใบอนุญาตชั่วคราวสำหรับการประเมินได้
 ### ฉันสามารถกำหนดขนาดและตำแหน่งของเฟรมวิดีโอได้หรือไม่?
 ได้ คุณสามารถปรับแต่งขนาดและตำแหน่งได้โดยการตั้งค่าพารามิเตอร์ที่เหมาะสมเมื่อเพิ่มเฟรมวิดีโอ
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

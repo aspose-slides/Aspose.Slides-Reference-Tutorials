@@ -3,14 +3,10 @@ title: Thêm nút con tùy chỉnh trong SmartArt bằng Java
 linktitle: Thêm nút con tùy chỉnh trong SmartArt bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm các nút con tùy chỉnh vào SmartArt trong bản trình bày PowerPoint bằng Java với Aspose.Slides. Dễ dàng cải thiện các trang trình bày của bạn bằng đồ họa chuyên nghiệp.
+type: docs
 weight: 11
 url: /vi/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 SmartArt là một tính năng mạnh mẽ trong PowerPoint cho phép người dùng tạo đồ họa chuyên nghiệp một cách nhanh chóng và dễ dàng. Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách thêm các nút con tùy chỉnh vào SmartArt bằng cách sử dụng Java với Aspose.Slides.
 ## Điều kiện tiên quyết
@@ -83,9 +79,3 @@ Tuyệt đối! Với Aspose.Slides cho Java, bạn có thể tùy chỉnh theo 
 Có, bạn có thể tìm thấy tài liệu toàn diện và quyền truy cập vào các diễn đàn hỗ trợ cộng đồng trên trang web Aspose.
 ### Có phiên bản dùng thử nào cho Aspose.Slides cho Java không?
  Có, bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Slides cho Java từ trang web để khám phá các tính năng và khả năng của nó trước khi mua hàng[đây](https://releases.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

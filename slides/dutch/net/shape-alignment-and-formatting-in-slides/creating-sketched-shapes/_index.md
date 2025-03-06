@@ -3,14 +3,10 @@ title: Creëer prachtige geschetste vormen met Aspose.Slides
 linktitle: Geschetste vormen maken in presentatiedia's met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u creatief geschetste vormen aan uw presentatiedia's kunt toevoegen met Aspose.Slides voor .NET. Verbeter de visuele aantrekkingskracht moeiteloos!
+type: docs
 weight: 13
 url: /nl/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 Welkom bij onze stapsgewijze handleiding voor het maken van geschetste vormen in presentatiedia's met Aspose.Slides voor .NET. Als u een vleugje creativiteit aan uw presentaties wilt toevoegen, zorgen geschetste vormen voor een unieke en handgetekende esthetiek. In deze zelfstudie leiden we u door het proces en splitsen het op in eenvoudige stappen om een soepele ervaring te garanderen.
 ## Vereisten
@@ -78,9 +74,3 @@ Het toevoegen van geschetste vormen aan uw presentatiedia's kan de visuele aantr
  Om Aspose.Slides voor .NET te kopen, gaat u naar de[aankooppagina](https://purchase.aspose.com/buy).
 ### 5. Bieden jullie tijdelijke licenties aan?
  Ja, er zijn tijdelijke licenties beschikbaar[hier](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

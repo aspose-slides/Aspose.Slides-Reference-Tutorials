@@ -3,14 +3,10 @@ title: Aspose.Slides - การเรียนรู้สรุปการซ
 linktitle: การสร้างสรุปการซูมในสไลด์การนำเสนอด้วย Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: ยกระดับการนำเสนอของคุณด้วย Aspose.Slides สำหรับ .NET! เรียนรู้การสร้างการซูมสรุปที่น่าสนใจได้อย่างง่ายดาย ดาวน์โหลดตอนนี้เพื่อรับประสบการณ์สไลด์แบบไดนามิก
+type: docs
 weight: 16
 url: /th/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## การแนะนำ
 ในโลกการนำเสนอแบบไดนามิก Aspose.Slides สำหรับ .NET มีความโดดเด่นในฐานะเครื่องมืออันทรงพลังที่ช่วยยกระดับประสบการณ์การสร้างสไลด์ของคุณ หนึ่งในคุณสมบัติเด่นที่มีให้คือความสามารถในการสร้างการซูมสรุป ซึ่งเป็นวิธีนำเสนอคอลเลกชันสไลด์ที่ดึงดูดสายตา ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดกระบวนการสร้างการซูมสรุปในสไลด์การนำเสนอโดยใช้ Aspose.Slides สำหรับ .NET
 ## ข้อกำหนดเบื้องต้น
@@ -83,9 +79,3 @@ Aspose.Slides ได้รับการอัปเดตเป็นประ
 ในเวอร์ชันล่าสุด ไม่มีข้อจำกัดที่เข้มงวดเกี่ยวกับจำนวนส่วนที่คุณสามารถเพิ่มลงในงานนำเสนอได้
 ### มี Aspose.Slides รุ่นทดลองใช้งานหรือไม่
 ใช่ คุณสามารถสำรวจคุณสมบัติของ Aspose.Slides ได้โดยการดาวน์โหลด[รุ่นทดลองใช้ฟรี](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

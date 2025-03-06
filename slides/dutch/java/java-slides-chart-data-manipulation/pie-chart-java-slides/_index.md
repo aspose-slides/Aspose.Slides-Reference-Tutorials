@@ -3,14 +3,10 @@ title: Cirkeldiagram in Java-dia's
 linktitle: Cirkeldiagram in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u verbluffende cirkeldiagrammen kunt maken in PowerPoint-presentaties met Aspose.Slides voor Java. Stap-voor-stap handleiding met broncode voor Java-ontwikkelaars.
+type: docs
 weight: 23
 url: /nl/java/chart-data-manipulation/pie-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot het maken van een cirkeldiagram in Java-dia's met Aspose.Slides
 
@@ -287,9 +283,3 @@ Ja, Aspose.Slides voor Java ondersteunt verschillende diagramtypen, waaronder st
 ### Hoe kan ik meer informatie en voorbeelden vinden voor het werken met Aspose.Slides voor Java?
 
  Voor meer informatie, gedetailleerde documentatie en aanvullende voorbeelden kunt u terecht op de website[Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/). Het biedt uitgebreide hulpmiddelen waarmee u de bibliotheek effectief kunt gebruiken.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

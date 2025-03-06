@@ -3,14 +3,10 @@ title: Ověřte prezentaci bez načítání v Java Slides
 linktitle: Ověřte prezentaci bez načítání v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak ověřovat prezentace bez jejich načítání v Java Slides pomocí Aspose.Slides for Java. Zajistěte efektivní integritu souborů pomocí tohoto podrobného průvodce.
+type: docs
 weight: 18
 url: /cs/java/additional-utilities/verify-presentation-without-loading-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod k ověření prezentace bez načítání v Java Slides
 
@@ -84,9 +80,3 @@ Absolutně! Aspose.Slides for Java nabízí širokou škálu funkcí pro práci 
 ### Kde najdu další zdroje a dokumentaci k Aspose.Slides for Java?
 
  Máte přístup ke komplexní dokumentaci a zdrojům pro Aspose.Slides pro Java na[tady](https://reference.aspose.com/slides/java/). Tato dokumentace vám pomůže zvládnout API a jeho funkce.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

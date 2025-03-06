@@ -3,14 +3,10 @@ title: إنشاء صورة مصغرة من Slide in Notes
 linktitle: إنشاء صورة مصغرة من Slide in Notes
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إنشاء صور مصغرة من الشرائح في قسم الملاحظات في العرض التقديمي الخاص بك باستخدام Aspose.Slides for .NET. تعزيز المحتوى المرئي الخاص بك!
+type: docs
 weight: 12
 url: /ar/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 في عالم العروض التقديمية الحديثة، المحتوى المرئي هو الملك. يعد إنشاء شرائح جذابة أمرًا ضروريًا للتواصل الفعال. تتمثل إحدى طرق تحسين العروض التقديمية في إنشاء صور مصغرة من الشرائح، خاصة عندما تريد التركيز على تفاصيل محددة أو مشاركة نظرة عامة. Aspose.Slides for .NET هي أداة قوية يمكنها مساعدتك في تحقيق ذلك بسلاسة. في هذا الدليل التفصيلي، سنرشدك خلال عملية إنشاء صور مصغرة من الشرائح في قسم الملاحظات في العرض التقديمي باستخدام Aspose.Slides for .NET.
 
@@ -118,9 +114,3 @@ bmp.Save(dataDir + "Notes_tnail_out.jpg", System.Drawing.Imaging.ImageFormat.Jpe
 
 ### أين يمكنني الحصول على الدعم أو المساعدة الإضافية فيما يتعلق بـ Aspose.Slides لـ .NET؟
  يمكنك العثور على المساعدة والتفاعل مع مجتمع Aspose على[منتدى الدعم Aspose](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

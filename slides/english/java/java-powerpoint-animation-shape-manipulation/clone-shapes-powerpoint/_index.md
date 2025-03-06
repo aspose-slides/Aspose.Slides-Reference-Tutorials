@@ -3,14 +3,10 @@ title: Clone Shapes in PowerPoint
 linktitle: Clone Shapes in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to clone shapes in PowerPoint presentations using Aspose.Slides for Java. Streamline your workflow with this easy-to-follow tutorial.
+type: docs
 weight: 16
 url: /java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 In this tutorial, we'll explore how to clone shapes in PowerPoint presentations using Aspose.Slides for Java. Cloning shapes allows you to duplicate existing shapes within a presentation, which can be particularly useful for creating consistent layouts or repeating elements across slides.
 ## Prerequisites
@@ -61,10 +57,3 @@ Absolutely, once the shapes are cloned and added to a slide, you can modify thei
 Yes, you can clone slides, text, images, and other elements within a PowerPoint presentation using Aspose.Slides for Java.
 ### Is there a trial version available for Aspose.Slides for Java?
 Yes, you can download a free trial version of Aspose.Slides for Java from the [website](https://releases.aspose.com/slides/java/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

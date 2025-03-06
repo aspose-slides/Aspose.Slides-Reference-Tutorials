@@ -3,14 +3,10 @@ title: Java 슬라이드에서 PDF 규격으로 변환
 linktitle: Java 슬라이드에서 PDF 규격으로 변환
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PDF/A-2a 규격을 준수하는 PowerPoint 프레젠테이션을 PDF로 변환하는 방법을 알아보세요. 원활한 보관 및 접근성을 위해 소스 코드가 포함된 단계별 가이드를 따르세요.
+type: docs
 weight: 26
 url: /ko/java/presentation-conversion/convert-pdf-compliance-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 슬라이드에서 PDF 규격으로 변환 소개
 
@@ -118,9 +114,3 @@ PDF/A-2a는 향상된 기능을 제공하지만 특히 복잡한 문서를 변�
 ## Java 및 PDF 준수를 위한 Aspose.Slides에 대한 자세한 정보는 어디에서 찾을 수 있습니까?
 
  PDF 규정 준수 설정을 포함한 Aspose.Slides for Java 및 해당 기능에 대한 자세한 내용은 다음 문서를 참조하세요.[Java API 참조용 Aspose.Slides](https://reference.aspose.com/slides/java/). 또한 코드 예제와 튜토리얼을 탐색하여 라이브러리에 대한 지식을 더욱 향상시킬 수 있습니다.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

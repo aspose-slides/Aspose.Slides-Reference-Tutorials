@@ -3,14 +3,10 @@ title: Java 슬라이드의 다중 범주 차트
 linktitle: Java 슬라이드의 다중 범주 차트
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드에서 다중 카테고리 차트를 만듭니다. 프레젠테이션에서 인상적인 데이터 시각화를 위한 소스 코드가 포함된 단계별 가이드입니다.
+type: docs
 weight: 20
 url: /ko/java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides를 사용한 Java 슬라이드의 다중 범주 차트 소개
 
@@ -161,9 +157,3 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ### 차트에 제목을 어떻게 추가하나요?
 
  다음을 사용하여 차트에 제목을 추가할 수 있습니다.`ch.getChartTitle().getTextFrame().setText("Chart Title");` 방법.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

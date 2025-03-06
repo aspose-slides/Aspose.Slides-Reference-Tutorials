@@ -3,14 +3,10 @@ title: Java 슬라이드의 차트 복구 통합 문서
 linktitle: Java 슬라이드의 차트 복구 통합 문서
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java 슬라이드의 차트에서 통합 문서를 복구하는 방법을 알아보세요. PowerPoint 자동화를 위한 단계별 가이드입니다.
+type: docs
 weight: 17
 url: /ko/java/data-manipulation/chart-recover-workbook-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 슬라이드의 차트 복구 통합 문서 소개
 
@@ -113,9 +109,3 @@ finally
 ### Aspose.Slides for Java에 대한 추가 문서에 어떻게 액세스할 수 있나요?
 
  Aspose.Slides for Java에 대한 자세한 문서 및 참조를 보려면 다음 문서 페이지를 방문하세요.[여기](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

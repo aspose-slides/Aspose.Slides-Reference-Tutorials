@@ -3,14 +3,10 @@ title: Aggiungi immagine dall'oggetto SVG nelle diapositive Java
 linktitle: Aggiungi immagine dall'oggetto SVG nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come aggiungere immagini SVG alle diapositive Java con Aspose.Slides per Java. Guida passo passo con codice per presentazioni straordinarie.
+type: docs
 weight: 11
 url: /it/java/image-handling/add-image-from-svg-object-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduzione all'aggiunta di immagini da oggetti SVG nelle diapositive Java
 
@@ -124,9 +120,3 @@ Aspose.Slides per Java può gestire un'ampia gamma di immagini SVG. Tuttavia, im
 ### Posso personalizzare l'aspetto dell'immagine SVG, come colori o stili, dopo averla aggiunta alla diapositiva?
 
 Sì, puoi personalizzare l'aspetto dell'immagine SVG utilizzando Aspose.Slides per l'ampia API di Java. Puoi modificare i colori, applicare stili e apportare altre modifiche secondo necessità.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

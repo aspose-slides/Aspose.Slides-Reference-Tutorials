@@ -3,14 +3,10 @@ title: Konvertera presentation till GIF-animation
 linktitle: Konvertera presentation till GIF-animation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Skapa fängslande presentationer med GIF-animationer med Aspose.Slides för .NET. Förvandla statiska bilder till dynamiska visuella upplevelser.
+type: docs
 weight: 20
 url: /sv/net/presentation-conversion/convert-presentation-to-gif-animation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 dagens digitala tidsålder spelar visuellt innehåll en avgörande roll i kommunikationen. Ibland kan du behöva konvertera en presentation till en GIF-animation för att göra den mer engagerande och delbar. Lyckligtvis, med hjälp av Aspose.Slides för .NET, blir denna uppgift enkel. I den här handledningen går vi igenom processen att konvertera en presentation till en GIF-animation med hjälp av följande källkod.
 
@@ -84,9 +80,3 @@ Ja, du kan anpassa övergångseffekter och andra parametrar i koden för att ska
 
 ### F5: Var kan jag komma åt källkoden för den här handledningen?
  Du kan hitta källkoden och fler handledningar på Aspose.Slides i dokumentationen[här](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

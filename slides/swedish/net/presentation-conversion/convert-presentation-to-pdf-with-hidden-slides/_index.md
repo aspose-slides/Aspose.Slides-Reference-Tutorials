@@ -3,14 +3,10 @@ title: Konvertera presentation till PDF med dolda bilder
 linktitle: Konvertera presentation till PDF med dolda bilder
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du använder Aspose.Slides för .NET för att konvertera presentationer till PDF med dolda bilder sömlöst.
+type: docs
 weight: 26
 url: /sv/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion till Aspose.Slides för .NET
 
@@ -99,9 +95,3 @@ Absolut, Aspose.Slides för .NET är designad för att hantera presentationer av
 ### Finns det någon dokumentation för Aspose.Slides för .NET?
 
  Ja, du kan hitta dokumentationen och användningsexemplen för Aspose.Slides för .NET på[här](https://reference.aspose.com/slides/net).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

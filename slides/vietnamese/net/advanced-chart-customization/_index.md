@@ -3,14 +3,10 @@ title: Tùy chỉnh biểu đồ nâng cao
 linktitle: Tùy chỉnh biểu đồ nâng cao
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Nâng cao bản trình bày của bạn bằng cách tùy chỉnh biểu đồ nâng cao bằng Aspose.Slides cho .NET. Tìm hiểu cách tạo các biểu đồ trực quan ấn tượng và điều chỉnh chúng theo nhu cầu chính xác của bạn.
+type: docs
 weight: 23
 url: /vi/net/advanced-chart-customization/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu
 
@@ -37,9 +33,3 @@ Tìm hiểu cách nâng cao khả năng trực quan hóa dữ liệu của bạn
 Tìm hiểu cách tạo đường xu hướng biểu đồ bằng Aspose.Slides cho .NET. Tăng cường trực quan hóa dữ liệu với hướng dẫn từng bước và ví dụ về mã.
 ### [Thực thể và định dạng biểu đồ](./chart-entities/)
 Tìm hiểu cách tạo và định dạng biểu đồ động trong PowerPoint bằng Aspose.Slides for .NET. Hướng dẫn từng bước với mã nguồn.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

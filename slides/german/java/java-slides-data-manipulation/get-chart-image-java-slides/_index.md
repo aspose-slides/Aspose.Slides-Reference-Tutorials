@@ -3,14 +3,10 @@ title: Diagrammbild in Java-Folien abrufen
 linktitle: Diagrammbild in Java-Folien abrufen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Diagrammbilder in Java Slides erhalten. Diese Schritt-für-Schritt-Anleitung enthält Quellcode und Tipps für eine nahtlose Integration.
+type: docs
 weight: 19
 url: /de/java/data-manipulation/get-chart-image-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung zum Abrufen von Diagrammbildern in Java-Folien
 
@@ -96,9 +92,3 @@ Ja, Aspose.Slides für Java kann für kommerzielle Zwecke verwendet werden. Es b
 ### Kann ich das Diagrammbild in einem anderen Format speichern?
 
  Natürlich! Sie können das Diagrammbild in verschiedenen Formaten wie JPEG oder GIF speichern, indem Sie die entsprechende Dateierweiterung im`ImageIO.write` Methode.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

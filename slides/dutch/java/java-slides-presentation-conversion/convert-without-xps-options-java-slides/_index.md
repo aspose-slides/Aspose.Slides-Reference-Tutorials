@@ -3,14 +3,10 @@ title: Converteren zonder XPS-opties in Java-dia's
 linktitle: Converteren zonder XPS-opties in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-presentaties naar XPS-indeling converteert met Aspose.Slides voor Java. Stap-voor-stap handleiding met broncode.
+type: docs
 weight: 33
 url: /nl/java/presentation-conversion/convert-without-xps-options-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding PowerPoint naar XPS converteren zonder XPS-opties in Aspose.Slides voor Java
 
@@ -97,9 +93,3 @@ finally
 ### Hoe kan ik omgaan met uitzonderingen tijdens het conversieproces?
 
  U kunt uitzonderingsafhandeling implementeren om eventuele fouten die tijdens het conversieproces kunnen optreden, correct af te handelen. Zoals weergegeven in de code, a`try` En`finally` blok worden gebruikt om te zorgen voor een juiste verwijdering van bronnen, zelfs als er een uitzondering optreedt.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

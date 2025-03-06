@@ -3,14 +3,10 @@ title: Spara som skrivskyddad i Java Slides
 linktitle: Spara som skrivskyddad i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du sparar PowerPoint-presentationer som skrivskyddade i Java med Aspose.Slides. Skydda ditt innehåll med steg-för-steg-instruktioner och kodexempel.
+type: docs
 weight: 11
 url: /sv/java/saving-options/save-as-read-only-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion till Spara som skrivskyddad i Java Slides med Aspose.Slides för Java
 
@@ -131,9 +127,3 @@ Om du glömmer skrivskyddslösenordet finns det inget inbyggt sätt att återst�
 ### Kan jag ändra det skrivskyddade lösenordet efter att ha ställt in det?
 
  Ja, du kan ändra det skrivskyddade lösenordet efter att ha ställt in det. Använd`setReadProtection(String newPassword)` metod med det nya lösenordet för att uppdatera det skrivskyddade lösenordet.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

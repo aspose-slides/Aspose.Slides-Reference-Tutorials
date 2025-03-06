@@ -3,14 +3,10 @@ title: Alakhatások és manipuláció a diákban
 linktitle: Alakhatások és manipuláció a diákban
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Fokozza bemutatója vizuális vonzerejét az Aspose.Slides oktatóanyaggal az alakhatásokról és a manipulációról. Ismerje meg, hogyan készíthet lenyűgöző diákat alakeffektusok, animációk és egyebek használatával.
+type: docs
 weight: 11
 url: /hu/net/shape-effects-and-manipulation-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés
 
@@ -67,9 +63,3 @@ Ismerje meg, hogyan javíthatja prezentációs diákjait a csatlakozóvonalak sz
 Növelje prezentációs képességeit azáltal, hogy megtanulja, hogyan kapcsolhat össze alakzatokat a bemutatódiákban lévő csatlakozókkal az Aspose.Slides segítségével. Emelje fel vizuális történetmesélését még ma!
 ### [Alakzat összekapcsolása a csatlakozási hely használatával a bemutató diákban az Aspose.Slides segítségével](./connecting-shape-using-connection-site/)
 Fejlessze prezentációs készségeit, ha megtanulja, hogyan kapcsolhat össze alakzatokat prezentációs diákon lévő kapcsolódási helyekkel az Aspose.Slides segítségével. Kövesse részletes útmutatónkat és kódpéldáinkat.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

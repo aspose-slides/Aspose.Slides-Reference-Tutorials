@@ -3,14 +3,10 @@ title: Создание многоуровневых маркеров в Java Po
 linktitle: Создание многоуровневых маркеров в Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как создавать многоуровневые маркеры в PowerPoint с помощью Aspose.Slides для Java. Пошаговое руководство с примерами кода и часто задаваемыми вопросами.
+type: docs
 weight: 14
 url: /ru/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 В этом уроке мы рассмотрим, как создавать многоуровневые маркеры в презентациях PowerPoint с помощью Aspose.Slides для Java. Добавление пунктов списка — обычное требование для создания организованного и визуально привлекательного контента в презентациях. Мы пройдем этот процесс шаг за шагом, гарантируя, что к концу этого руководства вы будете готовы улучшить свои презентации с помощью структурированных пунктов на нескольких уровнях.
 ## Предварительные условия
@@ -113,9 +109,3 @@ Aspose.Slides создает презентации, совместимые с M
 Да, Aspose.Slides предоставляет API для автоматизации создания, изменения и манипулирования презентациями PowerPoint.
 ### Где я могу получить поддержку Aspose.Slides для Java?
  Вы можете получить поддержку от сообщества Aspose.Slides и экспертов по адресу[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

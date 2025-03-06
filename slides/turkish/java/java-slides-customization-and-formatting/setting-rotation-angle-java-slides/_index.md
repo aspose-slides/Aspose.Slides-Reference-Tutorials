@@ -3,14 +3,10 @@ title: Java Slaytlarında Döndürme Açısını Ayarlama
 linktitle: Java Slaytlarında Döndürme Açısını Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile Java slaytlarınızı optimize edin. Metin öğeleri için dönüş açılarını ayarlamayı öğrenin. Kaynak koduyla adım adım kılavuz.
+type: docs
 weight: 17
 url: /tr/java/customization-and-formatting/setting-rotation-angle-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java Slaytlarında Döndürme Açısını Ayarlamaya Giriş
 
@@ -104,9 +100,3 @@ Aspose.Slides for Java grafik başlıkları için yazı tipi stilleri, renkler v
 ### Bir grafik ekseni başlığındaki metnin dönüşünü canlandırmak mümkün müdür?
 
 Evet, Aspose.Slides for Java'yı kullanarak grafik ekseni başlıkları da dahil olmak üzere metin öğelerine animasyon efektleri ekleyebilirsiniz. Sunumlarınıza animasyon ekleme hakkında bilgi için belgelere bakın.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

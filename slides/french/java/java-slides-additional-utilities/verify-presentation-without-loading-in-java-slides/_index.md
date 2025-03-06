@@ -3,14 +3,10 @@ title: Vérifier la présentation sans chargement dans les diapositives Java
 linktitle: Vérifier la présentation sans chargement dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment vérifier des présentations sans les charger dans Java Slides à l'aide d'Aspose.Slides pour Java. Garantissez efficacement l’intégrité des fichiers avec ce guide étape par étape.
+type: docs
 weight: 18
 url: /fr/java/additional-utilities/verify-presentation-without-loading-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction à la vérification de la présentation sans chargement dans les diapositives Java
 
@@ -84,9 +80,3 @@ Absolument! Aspose.Slides pour Java offre un large éventail de fonctionnalités
 ### Où puis-je trouver plus de ressources et de documentation pour Aspose.Slides pour Java ?
 
  Vous pouvez accéder à une documentation et à des ressources complètes pour Aspose.Slides pour Java à l'adresse[ici](https://reference.aspose.com/slides/java/). Cette documentation vous accompagnera dans la maîtrise de l'API et de ses fonctionnalités.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

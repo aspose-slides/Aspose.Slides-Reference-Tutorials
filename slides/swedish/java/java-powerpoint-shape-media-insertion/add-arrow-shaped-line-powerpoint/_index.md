@@ -3,14 +3,10 @@ title: Lägg till pilformad linje i PowerPoint
 linktitle: Lägg till pilformad linje i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du lägger till pilformade linjer i PowerPoint-presentationer med Aspose.Slides för Java. Förbättra visuellt tilltal utan ansträngning.
+type: docs
 weight: 10
 url: /sv/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 Att lägga till pilformade linjer i PowerPoint-presentationer kan förbättra visuellt tilltalande och hjälpa till att förmedla information effektivt. Aspose.Slides för Java erbjuder en heltäckande lösning för Java-utvecklare för att manipulera PowerPoint-presentationer programmatiskt. I den här handledningen guidar vi dig genom processen att lägga till pilformade linjer till dina PowerPoint-bilder med Aspose.Slides för Java.
 ## Förutsättningar
@@ -80,9 +76,3 @@ Du kan utforska dokumentationen, ladda ner biblioteket och få tillgång till su
  Dokumentation:[Aspose.Slides för Java-dokumentation](https://reference.aspose.com/slides/java/)
  Ladda ner:[Ladda ner Aspose.Slides för Java](https://releases.aspose.com/slides/java/)
  Stöd:[Aspose.Slides för Java Support Forum](https://forum.aspose.com/c/slides/11)
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: تحويل الشرائح إلى PDF مع الملاحظات
 linktitle: تحويل الشرائح إلى PDF مع الملاحظات
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بتحويل شرائح العرض التقديمي التي تحتوي على ملاحظات المتحدث بسهولة إلى PDF باستخدام Aspose.Slides for .NET. الحفاظ على المحتوى والسياق بسلاسة.
+type: docs
 weight: 18
 url: /ar/net/presentation-conversion/convert-slides-to-pdf-with-notes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 # اكتب دليلًا تعليميًا خطوة بخطوة حول تحويل الشرائح إلى PDF مع الملاحظات باستخدام Aspose.Slides for .NET
 
@@ -102,9 +98,3 @@ auxPresentation.Save(outPath + "PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);
  نعم، يمكنك شراء ترخيص مؤقت من[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 في الختام، باستخدام Aspose.Slides for .NET، يمكنك بسهولة تحويل شرائح PowerPoint إلى تنسيق PDF مع الحفاظ على الملاحظات سليمة. إنها أداة قيمة للمحترفين الذين يحتاجون إلى مشاركة العروض التقديمية مع الزملاء والعملاء مع ضمان عدم فقدان السياق المهم.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

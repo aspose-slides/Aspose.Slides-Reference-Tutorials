@@ -3,14 +3,10 @@ title: Térképdiagram a Java Slides-ben
 linktitle: Térképdiagram a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Készítsen lenyűgöző térképdiagramokat a PowerPoint-bemutatókban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató és forráskód Java fejlesztők számára.
+type: docs
 weight: 15
 url: /hu/java/chart-elements/map-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## A Java Slides térképdiagram bemutatása az Aspose.Slides for Java használatával
 
@@ -135,9 +131,3 @@ Ebben az oktatóanyagban végigvezettük a térképdiagram létrehozásának fol
 ### Hogyan integrálhatom az Aspose.Slides for Java programot a projektembe?
 
  Töltse le a könyvtárat innen[itt](https://releases.aspose.com/slides/java/) és adja hozzá a projekt osztályútjához.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

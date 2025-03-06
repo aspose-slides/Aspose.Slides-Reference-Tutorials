@@ -3,14 +3,10 @@ title: الرسوم المتحركة والتخطيط لشرائح جافا
 linktitle: الرسوم المتحركة والتخطيط لشرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعلم الرسوم المتحركة والتخطيط لشرائح Java باستخدام Aspose.Slides لـ Java. إتقان العروض التقديمية التفاعلية. انغمس في إنشاء المحتوى الديناميكي.
+type: docs
 weight: 14
 url: /ar/java/animation-and-layout/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 هل تتطلع إلى بث الحياة في عروضك التقديمية وإنشاء شرائح جذابة باستخدام Java؟ Aspose.Slides for Java هو الحل الأمثل لك. في هذا الدليل الشامل، سنستكشف كيفية إتقان الرسوم المتحركة والتخطيط لشرائح Java، مما يضمن تميز عروضك التقديمية عن بقية العروض.
 
@@ -46,9 +42,3 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
 قم بتحسين عروضك التقديمية باستخدام الرسوم المتحركة المتسلسلة في Aspose.Slides لـ Java. اتبع دليلنا خطوة بخطوة مع أمثلة التعليمات البرمجية المصدر لإنشاء رسوم متحركة جذابة لـ PowerPoint.
 ### [تحريك عناصر السلسلة في شرائح جافا](./animating-series-elements-java-slides/)
 تعرف على كيفية تحريك عناصر السلسلة في شرائح PowerPoint باستخدام Aspose.Slides لـ Java. اتبع هذا الدليل الشامل خطوة بخطوة مع الكود المصدري لتحسين عروضك التقديمية.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

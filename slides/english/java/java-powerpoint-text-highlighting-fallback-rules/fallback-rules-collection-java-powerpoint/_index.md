@@ -3,14 +3,10 @@ title: Fallback Rules Collection in Java PowerPoint
 linktitle: Fallback Rules Collection in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to manage font fallback rules in PowerPoint presentations using Aspose.Slides for Java. Enhance compatibility across devices effortlessly.
+type: docs
 weight: 11
 url: /java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 In this tutorial, we will delve into how to manage font fallback rules using Aspose.Slides for Java. Font fallbacks are crucial in ensuring your presentations display correctly across different environments, especially when specific fonts are unavailable. We will guide you through importing necessary packages, setting up the environment, and implementing fallback rules step-by-step.
 ## Prerequisites
@@ -77,10 +73,3 @@ Yes, you can get a free trial version [here](https://releases.aspose.com/).
 Detailed documentation is available [here](https://reference.aspose.com/slides/java/).
 ### How do I get support for Aspose.Slides for Java?
 For support, visit the Aspose.Slides forum [here](https://forum.aspose.com/c/slides/11).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

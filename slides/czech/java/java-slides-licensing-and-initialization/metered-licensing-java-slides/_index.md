@@ -3,14 +3,10 @@ title: Měřené licencování v Java Slides
 linktitle: Měřené licencování v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimalizujte své Aspose.Slides pro použití v jazyce Java pomocí měřeného licencování. Přečtěte si, jak jej nastavit a sledovat spotřebu API.
+type: docs
 weight: 10
 url: /cs/java/licensing-and-initialization/metered-licensing-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod do Metered Licensing v Aspose.Slides for Java
 
@@ -111,10 +107,3 @@ Pokud překročíte svůj naměřený limit, možná budete muset upgradovat sv�
 ### Potřebuji pro licencování s měřením internetové připojení?
 
 Ano, k nastavení a ověření měřeného licencování je vyžadováno připojení k internetu.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

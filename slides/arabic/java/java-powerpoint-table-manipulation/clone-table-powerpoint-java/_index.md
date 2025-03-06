@@ -3,14 +3,10 @@ title: استنساخ الجدول في PowerPoint مع جافا
 linktitle: استنساخ الجدول في PowerPoint مع جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية استنساخ الجداول في PowerPoint باستخدام Aspose.Slides لـ Java من خلال دليلنا التفصيلي خطوة بخطوة. تبسيط إدارة العرض التقديمي الخاص بك.
+type: docs
 weight: 12
 url: /ar/java/java-powerpoint-table-manipulation/clone-table-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 يمكن أن يكون إنشاء عروض PowerPoint التقديمية وإدارتها مهمة شاقة، خاصة عندما تحتاج إلى التعامل مع المحتوى برمجياً. ومع ذلك، مع Aspose.Slides for Java، تصبح هذه العملية أكثر بساطة. سيرشدك هذا البرنامج التعليمي خلال استنساخ الجداول في عرض PowerPoint التقديمي باستخدام Aspose.Slides for Java، وهي مكتبة قوية للتعامل مع مهام العروض التقديمية المتنوعة.
 ## المتطلبات الأساسية
@@ -123,9 +119,3 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
  نعم، أنت بحاجة إلى ترخيص لاستخدام الإنتاج. يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني الحصول على الدعم لـ Aspose.Slides؟
  يمكنك الحصول على الدعم من Aspose.Slides[منتدى الدعم](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Δημιουργία μικρογραφίας παράγοντα κλιμ
 linktitle: Δημιουργία μικρογραφίας παράγοντα κλιμάκωσης
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε μικρογραφίες παραγόντων κλιμάκωσης σε Java χρησιμοποιώντας το Aspose.Slides για Java. Εύκολος οδηγός με οδηγίες βήμα προς βήμα.
+type: docs
 weight: 12
 url: /el/java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thumbnail/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας μιας μικρογραφίας παράγοντα κλιμάκωσης χρησιμοποιώντας το Aspose.Slides για Java. Ακολουθήστε αυτές τις οδηγίες βήμα προς βήμα για να επιτύχετε το επιθυμητό αποτέλεσμα.
 ## Προαπαιτούμενα
@@ -70,9 +66,3 @@ ImageIO.write(bitmap, ".png", new File(dataDir + "Scaling Factor Thumbnail_out.p
  Μπορείτε να αγοράσετε Aspose.Slides για Java από το[σελίδα αγοράς](https://purchase.aspose.com/buy).
 ### Χρειάζομαι μια προσωρινή άδεια χρήσης για τη χρήση του Aspose.Slides για Java;
  Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια από το[σελίδα προσωρινής άδειας](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

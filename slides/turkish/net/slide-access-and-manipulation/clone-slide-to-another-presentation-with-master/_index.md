@@ -3,14 +3,10 @@ title: Ana Slayt ile Slaydı Yeni Sunuma Kopyala
 linktitle: Ana Slayt ile Slaydı Yeni Sunuma Kopyala
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak slaytları ana slaytlarla nasıl kopyalayacağınızı öğrenin. Bu adım adım kılavuzla sunum becerilerinizi geliştirin.
+type: docs
 weight: 20
 url: /tr/net/slide-access-and-manipulation/clone-slide-to-another-presentation-with-master/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Sunum tasarımı ve yönetimi dünyasında verimlilik çok önemlidir. Bir içerik yazarı olarak, Aspose.Slides for .NET kullanarak bir slaydı ana slaytla yeni bir sunuma kopyalama sürecinde size rehberlik etmek için buradayım. İster deneyimli bir geliştirici olun ister bu alanda yeni olun, bu adım adım eğitim bu temel beceride uzmanlaşmanıza yardımcı olacaktır. Hemen içeri dalalım.
 
@@ -122,9 +118,3 @@ Aspose.Slides for .NET, .NET geliştiricilerinin PowerPoint sunumlarını progra
 
 ### Topluluk desteğini nereden alabilirim ve Aspose.Slides for .NET hakkında tartışabilirim?
  Aspose topluluğuna katılabilir ve şu adresten destek arayabilirsiniz:[Aspose.Slides for .NET Destek Forumu](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

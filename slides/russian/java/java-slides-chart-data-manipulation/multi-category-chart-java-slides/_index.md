@@ -3,14 +3,10 @@ title: Диаграмма с несколькими категориями в с
 linktitle: Диаграмма с несколькими категориями в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Создавайте диаграммы с несколькими категориями в слайдах Java, используя Aspose.Slides для Java. Пошаговое руководство с исходным кодом для впечатляющей визуализации данных в презентациях.
+type: docs
 weight: 20
 url: /ru/java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Введение в многокатегорийную диаграмму в слайдах Java с помощью Aspose.Slides
 
@@ -161,9 +157,3 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ### Как добавить заголовок к диаграмме?
 
  Вы можете добавить заголовок к диаграмме, используя`ch.getChartTitle().getTextFrame().setText("Chart Title");` метод.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

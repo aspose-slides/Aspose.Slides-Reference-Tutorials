@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में चार्ट डेट
 linktitle: जावा स्लाइड्स में चार्ट डेटा सेल सूत्र
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके Java PowerPoint प्रस्तुतियों में चार्ट डेटा सेल फ़ॉर्मूले सेट करना सीखें। फ़ॉर्मूले के साथ गतिशील चार्ट बनाएँ।
+type: docs
 weight: 11
 url: /hi/java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for Java में चार्ट डेटा सेल फ़ार्मुलों का परिचय
 
@@ -126,9 +122,3 @@ finally
 ### मैं चार्ट का प्रकार कैसे बदलूं?
 
  आप इसका उपयोग करके चार्ट प्रकार बदल सकते हैं`setChartType` विधि पर`IChart` वस्तु और वांछित निर्दिष्ट करना`ChartType`.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

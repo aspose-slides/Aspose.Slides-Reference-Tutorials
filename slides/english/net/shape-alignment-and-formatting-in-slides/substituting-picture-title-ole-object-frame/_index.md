@@ -3,14 +3,10 @@ title: Embedding OLE Objects Guide with Aspose.Slides for .NET
 linktitle: Substituting Picture Title of OLE Object Frame in Presentation Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to enhance your presentation slides with dynamic OLE objects using Aspose.Slides for .NET. Follow our step-by-step guide for seamless integration.
+type: docs
 weight: 15
 url: /net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Creating dynamic and engaging presentation slides often involves the incorporation of various multimedia elements. In this tutorial, we'll explore how to substitute the picture title of an OLE (Object Linking and Embedding) Object Frame in presentation slides using the powerful Aspose.Slides for .NET library. Aspose.Slides simplifies the process of handling OLE objects, providing developers with the tools to enhance their presentations with ease.
 ## Prerequisites
@@ -87,10 +83,3 @@ As of the latest version, Aspose.Slides focuses on OLE object embedding and disp
 Certainly. You have full programmatic control over OLE objects, allowing you to modify their properties and appearance as needed.
 ### Are there any limitations to the size of the embedded OLE objects?
 While there are size limitations, they are generally generous. It's recommended to test with your specific use case to ensure optimal performance.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

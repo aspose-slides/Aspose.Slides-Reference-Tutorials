@@ -3,14 +3,10 @@ title: Tạo hình thu nhỏ có giới hạn cho hình dạng trong Aspose.Slid
 linktitle: Tạo hình thu nhỏ có giới hạn cho hình dạng trong Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Khai phá sức mạnh của Aspose.Slides cho .NET! Tìm hiểu cách tạo hình thu nhỏ hình dạng một cách dễ dàng bằng cách sử dụng hướng dẫn từng bước của chúng tôi.
+type: docs
 weight: 10
 url: /vi/net/image-and-video-manipulation-in-slides/creating-thumbnail-bounds-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Nếu bạn là nhà phát triển .NET đang tìm kiếm giải pháp mạnh mẽ để tạo hình thu nhỏ có giới hạn cho các hình dạng trong bản trình bày PowerPoint thì Aspose.Slides for .NET là công cụ bạn nên sử dụng. Thư viện mạnh mẽ này cung cấp khả năng tích hợp liền mạch, cho phép bạn thao tác và trích xuất thông tin có giá trị từ các tệp PowerPoint một cách hiệu quả. Trong hướng dẫn này, chúng ta sẽ tìm hiểu quy trình tạo hình thu nhỏ có giới hạn cho một hình bằng Aspose.Slides.
 ## Điều kiện tiên quyết
@@ -64,9 +60,3 @@ Có, Aspose.Slides được cập nhật thường xuyên để đảm bảo kh�
  Tham quan[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để kết nối với cộng đồng và tìm kiếm sự hỗ trợ từ các nhà phát triển có kinh nghiệm.
 ### Tôi có thể xin giấy phép tạm thời cho Aspose.Slides không?
  Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/) cho nhu cầu dự án ngắn hạn.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

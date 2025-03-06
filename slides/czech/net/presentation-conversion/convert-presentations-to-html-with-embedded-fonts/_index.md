@@ -3,14 +3,10 @@ title: Převeďte prezentace do HTML pomocí vložených písem
 linktitle: Převeďte prezentace do HTML pomocí vložených písem
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Převeďte PowerPointové prezentace do HTML pomocí vložených písem pomocí Aspose.Slides for .NET. Bezproblémově udržujte originalitu.
+type: docs
 weight: 13
 url: /cs/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 V dnešní digitální době se sdílení prezentací a dokumentů online stalo běžnou praxí. Jedním z problémů, který se často objevuje, je zajistit, aby se vaše písma při převodu prezentací do HTML správně zobrazovala. Tento podrobný návod vás provede procesem používání Aspose.Slides for .NET k převodu prezentací do HTML s vloženými fonty, čímž zajistíte, že vaše dokumenty budou vypadat přesně tak, jak jste zamýšleli.
 
@@ -124,10 +120,3 @@ Ano, Aspose.Slides for .NET podporuje širokou škálu výstupních formátů, v
 ### 5. Kde najdu další zdroje a podporu pro Aspose.Slides pro .NET?
 
  Na webu máte přístup k velkému množství zdrojů, včetně dokumentace[Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

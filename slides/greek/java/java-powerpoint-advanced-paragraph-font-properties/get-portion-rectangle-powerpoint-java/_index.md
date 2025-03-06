@@ -3,14 +3,10 @@ title: Αποκτήστε το Ortion Rectangle στο PowerPoint με Java
 linktitle: Αποκτήστε το Ortion Rectangle στο PowerPoint με Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς μπορείτε να αποκτήσετε το ορθογώνιο τμήματος στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java με αυτόν τον λεπτομερή, βήμα προς βήμα εκμάθηση. Ιδανικό για προγραμματιστές Java.
+type: docs
 weight: 12
 url: /el/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Η δημιουργία δυναμικών παρουσιάσεων σε Java είναι παιχνιδάκι με το Aspose.Slides for Java. Σε αυτό το σεμινάριο, θα ρίξουμε μια ματιά στη λεπτομέρεια της λήψης του ορθογωνίου τμήματος στο PowerPoint χρησιμοποιώντας το Aspose.Slides. Θα καλύψουμε τα πάντα, από τη ρύθμιση του περιβάλλοντος σας έως την ανάλυση του κώδικα βήμα προς βήμα. Λοιπόν, ας ξεκινήσουμε!
 ## Προαπαιτούμενα
@@ -142,9 +138,3 @@ if (pres != null) pres.dispose();
  Η τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/slides/java/).
 ### Πώς μπορώ να λάβω υποστήριξη για το Aspose.Slides για Java;
  Μπορείτε να λάβετε υποστήριξη από το φόρουμ Aspose[εδώ](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Egyéni geometria létrehozása C# nyelven az Aspose.Slides segítségév
 linktitle: Egyéni geometria létrehozása geometriai alakzatban az Aspose.Slides segítségével
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre egyéni geometriát az Aspose.Slides for .NET programban. Emelje fel prezentációit egyedi formákkal. Lépésről lépésre útmutató C# fejlesztőknek.
+type: docs
 weight: 15
 url: /hu/net/shape-geometry-and-positioning-in-slides/creating-custom-geometry/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 prezentációk dinamikus világában az egyedi formák és geometriák hozzáadásával a tartalom kiemelhető, vonzóbbá és vizuálisan vonzóbbá válik. Az Aspose.Slides for .NET hatékony megoldást kínál az alakzatokon belüli egyéni geometriák létrehozására, lehetővé téve, hogy megszabaduljon a hagyományos tervektől. Ez az oktatóanyag végigvezeti az egyéni geometria létrehozásának folyamatán egy GeometryShape-ban az Aspose.Slides for .NET használatával.
 ## Előfeltételek
@@ -98,9 +94,3 @@ Igen, az Aspose.Slides különféle programozási nyelveket támogat, de ez az o
  Kérjen segítséget és lépjen kapcsolatba a közösséggel[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
 ### 5. Hol vásárolhatom meg az Aspose.Slides-t .NET-hez?
  Megvásárolhatja az Aspose.Slides-t .NET-hez[itt](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

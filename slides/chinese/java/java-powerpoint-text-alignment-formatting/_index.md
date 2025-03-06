@@ -3,14 +3,10 @@ title: Java PowerPoint 文本对齐和格式化
 linktitle: Java PowerPoint 文本对齐和格式化
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解 Java PowerPoint 文本对齐和格式化教程。学习使用 Aspose.Slides for Java 对齐、格式化、导出和突出显示文本。
+type: docs
 weight: 23
 url: /zh/java/java-powerpoint-text-alignment-formatting/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 
 掌握 Java PowerPoint 演示文稿中的文本对齐和格式对于创建精美、专业的幻灯片至关重要。使用 Aspose.Slides for Java，您可以轻松实现无缝文本格式和对齐。无论您是初学者还是经验丰富的开发人员，我们的教程都将帮助您增强演示文稿。让我们深入研究教程，看看如何提升您的 PowerPoint 技能！
@@ -49,9 +45,3 @@ url: /zh/java/java-powerpoint-text-alignment-formatting/
 了解如何使用 Aspose.Slides 从 Java PowerPoint 演示文稿中的 SmartArt 节点中提取文本。为开发人员提供简单的分步指南。
 ### [在 Java PowerPoint 中使用正则表达式突出显示文本](./highlight-text-using-regex-java-powerpoint/)
 了解如何使用 Aspose.Slides for Java 的正则表达式模式突出显示 PowerPoint 中的文本。动态增强您的演示文稿。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

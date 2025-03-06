@@ -3,14 +3,10 @@ title: Kelola Poin Gambar Paragraf di Java PowerPoint
 linktitle: Kelola Poin Gambar Paragraf di Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan poin gambar kustom ke slide PowerPoint menggunakan Aspose.Slides untuk Java. Ikuti panduan terperinci langkah demi langkah ini untuk integrasi yang lancar.
+type: docs
 weight: 11
 url: /id/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-picture-bullets-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Membuat presentasi yang menarik dan menarik secara visual adalah keterampilan penting dalam dunia bisnis modern. Pengembang Java dapat memanfaatkan Aspose.Slides untuk menyempurnakan presentasi mereka dengan poin gambar yang disesuaikan dalam slide PowerPoint. Tutorial ini akan memandu Anda melalui proses langkah demi langkah, memastikan Anda dapat dengan percaya diri menambahkan poin gambar ke presentasi Anda.
 ## Prasyarat
@@ -108,9 +104,3 @@ Ya, Anda dapat menggunakan gambar apa pun untuk poin gambar asalkan dapat diakse
 Ya, Anda dapat menambahkan beberapa paragraf dengan gaya poin berbeda ke satu BentukOtomatis dengan membuat dan mengonfigurasi setiap paragraf satu per satu.
 ### Di mana saya dapat menemukan lebih banyak contoh dan dukungan?
  Anda dapat menemukan lebih banyak contoh di[dokumentasi](https://reference.aspose.com/slides/java/) dan dapatkan dukungan dari komunitas Aspose di[forum](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

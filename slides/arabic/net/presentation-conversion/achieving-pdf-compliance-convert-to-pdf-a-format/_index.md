@@ -3,14 +3,10 @@ title: قم بتحويل PowerPoint إلى PDF/A باستخدام Aspose.Slides 
 linktitle: تحقيق التوافق مع PDF - التحويل إلى تنسيق PDF/A
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تحقيق التوافق مع PDF عن طريق تحويل عروض PowerPoint التقديمية إلى تنسيق PDF/A باستخدام Aspose.Slides for .NET. ضمان طول عمر الوثيقة وسهولة الوصول إليها.
+type: docs
 weight: 25
 url: /ar/net/presentation-conversion/achieving-pdf-compliance-convert-to-pdf-a-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 # كيفية تحقيق التوافق مع ملفات PDF مع Aspose.Slides لـ .NET
 
@@ -103,9 +99,3 @@ PDF/A هو إصدار PDF مطابق لمعايير ISO مصمم للحفظ ال
 
 ### أين يمكنني العثور على دعم لـ Aspose.Slides لـ .NET إذا واجهت أية مشكلات؟
  إذا كانت لديك أسئلة أو واجهت مشاكل، يمكنك طلب المساعدة والمساعدة على[منتدى Aspose.Slides](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

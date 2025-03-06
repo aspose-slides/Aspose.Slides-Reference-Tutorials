@@ -3,14 +3,10 @@ title: Beherrschen von Animationszielen mit Aspose.Slides für .NET
 linktitle: Festlegen von Animationszielen für Präsentationsfolienformen mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Ihre Präsentationen mit Aspose.Slides für .NET zum Leben erwecken! Legen Sie mühelos Animationsziele fest und fesseln Sie Ihr Publikum.
+type: docs
 weight: 22
 url: /de/net/shape-effects-and-manipulation-in-slides/setting-animation-targets-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 In der dynamischen Welt der Präsentationen kann das Hinzufügen von Animationen zu Ihren Folien bahnbrechend sein. Aspose.Slides für .NET ermöglicht Entwicklern die Erstellung ansprechender und optisch ansprechender Präsentationen, indem es eine präzise Kontrolle über Animationsziele für Folienformen ermöglicht. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess des Festlegens von Animationszielen mit Aspose.Slides für .NET. Egal, ob Sie ein erfahrener Entwickler sind oder gerade erst anfangen, dieses Tutorial hilft Ihnen, die Leistungsfähigkeit von Animationen in Ihren Präsentationen zu nutzen.
 ## Voraussetzungen
@@ -66,9 +62,3 @@ Nein, mit Aspose.Slides können Sie eine praktisch unbegrenzte Anzahl von Formen
 Ja, Aspose.Slides bietet Optionen zum Anpassen der Dauer und des Zeitpunkts jeder Animation.
 ### Wo finde ich weitere Beispiele und Dokumentation für Aspose.Slides?
  Entdecke die[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/) für detaillierte Informationen und Beispiele.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

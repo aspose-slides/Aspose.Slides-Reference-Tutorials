@@ -3,14 +3,10 @@ title: Slide Thumbnail Generation
 linktitle: Slide Thumbnail Generation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to generate slide thumbnails using Aspose.Slides for .NET. Step-by-step tutorial with code examples for creating dynamic slide previews. Enhance your presentation applications with this powerful feature. 
+type: docs
 weight: 17
 url: /net/slide-thumbnail-generation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction:
 
@@ -41,9 +37,3 @@ Learn how to generate thumbnail images from PowerPoint slides using Aspose.Slide
 Generate thumbnails from slides that include notes using Aspose.Slides for .NET. Learn step by step how to extract notes, create thumbnails, and enhance your PowerPoint manipulation. 
 ### [Generate Thumbnail with Custom Dimensions](./generate-thumbnail-with-custom-dimensions/)
 Learn how to generate custom-sized thumbnails in slides using Aspose.Slides for .NET. Step-by-step guide with source code. Enhance your presentations with engaging visuals. 
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

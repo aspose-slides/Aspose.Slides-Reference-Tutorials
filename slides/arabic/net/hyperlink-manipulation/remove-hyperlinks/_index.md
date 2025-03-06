@@ -3,14 +3,10 @@ title: كيفية إزالة الارتباطات التشعبية من الشر
 linktitle: إزالة الارتباطات التشعبية من الشريحة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إزالة الارتباطات التشعبية من شرائح PowerPoint باستخدام Aspose.Slides لـ .NET. إنشاء عروض تقديمية نظيفة واحترافية.
+type: docs
 weight: 11
 url: /ar/net/hyperlink-manipulation/remove-hyperlinks/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 في عالم العروض التقديمية الاحترافية، يعد التأكد من أن شرائحك تبدو أنيقة ومرتبة أمرًا ضروريًا. أحد العناصر الشائعة التي غالبًا ما تسبب ازدحامًا في الشرائح هي الارتباطات التشعبية. سواء كنت تتعامل مع الارتباطات التشعبية لمواقع الويب أو المستندات أو الشرائح الأخرى داخل العرض التقديمي الخاص بك، فقد ترغب في إزالتها للحصول على مظهر أكثر وضوحًا وتركيزًا. باستخدام Aspose.Slides for .NET، يمكنك تحقيق هذه المهمة بسهولة. في هذا الدليل التفصيلي خطوة بخطوة، سنرشدك خلال عملية إزالة الارتباطات التشعبية من الشرائح باستخدام Aspose.Slides for .NET.
 
@@ -88,9 +84,3 @@ presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 
 ### هل يتوفر الدعم الفني لـ Aspose.Slides لـ .NET؟
  نعم، يمكنك طلب الدعم الفني والتفاعل مع مجتمع Aspose على[منتدى Aspose](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

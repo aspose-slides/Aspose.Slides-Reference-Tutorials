@@ -3,14 +3,10 @@ title: Notizen-Folienmanipulation mit Aspose.Slides
 linktitle: Notizen-Folienmanipulation mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Kopf- und Fußzeilen in PowerPoint-Folien mit Aspose.Slides für .NET verwalten. Entfernen Sie Notizen und passen Sie Ihre Präsentationen mühelos an.
+type: docs
 weight: 10
 url: /de/net/notes-slide-manipulation/notes-slide-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Im heutigen digitalen Zeitalter ist das Erstellen ansprechender Präsentationen eine unverzichtbare Fähigkeit. Aspose.Slides für .NET ist ein leistungsstarkes Tool, mit dem Sie Ihre Präsentationsfolien mühelos bearbeiten und anpassen können. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch einige grundlegende Aufgaben mit Aspose.Slides für .NET. Wir zeigen Ihnen, wie Sie Kopf- und Fußzeilen in Notizenfolien verwalten, Notizen auf bestimmten Folien entfernen und Notizen von allen Folien entfernen.
 
@@ -169,10 +165,3 @@ Mit Aspose.Slides für .NET haben Sie die volle Kontrolle über Ihre PowerPoint-
 ### Kann ich mit Aspose.Slides für .NET andere Aspekte von PowerPoint-Präsentationen bearbeiten?
 
 Ja, Aspose.Slides für .NET bietet eine breite Palette an Funktionen zur Bearbeitung von PowerPoint-Präsentationen, darunter Folien, Formen, Text und mehr. Weitere Einzelheiten finden Sie in der Dokumentation.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

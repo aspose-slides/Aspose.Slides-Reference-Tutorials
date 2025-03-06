@@ -3,14 +3,10 @@ title: Sesuaikan Sudut Garis Konektor di PowerPoint dengan Aspose.Slides
 linktitle: Menyesuaikan Sudut Garis Penghubung pada Slide Presentasi menggunakan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menyesuaikan sudut garis konektor di slide PowerPoint menggunakan Aspose.Slides untuk .NET. Sempurnakan presentasi Anda dengan presisi dan mudah.
+type: docs
 weight: 28
 url: /id/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Membuat slide presentasi yang menarik secara visual sering kali melibatkan penyesuaian garis penghubung yang tepat. Dalam tutorial ini, kita akan mempelajari cara menyesuaikan sudut garis konektor dalam slide presentasi menggunakan Aspose.Slides untuk .NET. Aspose.Slides adalah pustaka canggih yang memungkinkan pengembang bekerja dengan file PowerPoint secara terprogram, memberikan kemampuan ekstensif untuk membuat, memodifikasi, dan memanipulasi presentasi.
 ## Prasyarat
@@ -91,9 +87,3 @@ Ya, Aspose.Slides dapat digunakan di aplikasi Windows dan web.
  Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Apakah ada forum dukungan untuk Aspose.Slides?
  Ya, Anda dapat mengunjungi forum dukungan[Di Sini](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

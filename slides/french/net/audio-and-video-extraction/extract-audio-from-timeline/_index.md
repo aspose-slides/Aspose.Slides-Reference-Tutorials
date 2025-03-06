@@ -3,14 +3,10 @@ title: Extraire l'audio de la chronologie PowerPoint
 linktitle: Extraire l'audio de la chronologie
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment extraire l'audio de présentations PowerPoint à l'aide d'Aspose.Slides pour .NET. Améliorez facilement votre contenu multimédia.
+type: docs
 weight: 13
 url: /fr/net/audio-and-video-extraction/extract-audio-from-timeline/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Dans le monde des présentations multimédias, le son peut être un outil puissant pour transmettre efficacement votre message. Aspose.Slides pour .NET offre une solution transparente pour extraire l'audio des présentations PowerPoint. Dans ce guide étape par étape, nous allons vous montrer comment extraire l'audio d'une présentation PowerPoint à l'aide d'Aspose.Slides pour .NET.
 
@@ -114,9 +110,3 @@ Oui, Aspose.Slides fournit des fonctionnalités étendues pour la manipulation e
 ### 5. Où puis-je trouver une documentation complète sur Aspose.Slides pour .NET ?
 
  Vous pouvez trouver une documentation détaillée et des exemples pour Aspose.Slides pour .NET[ici](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

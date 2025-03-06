@@ -3,14 +3,10 @@ title: Aspose.Slides .NET'te Veri Noktasında Grafik İşaretleyici Seçenekleri
 linktitle: Veri Noktasındaki Grafik İşaretleyici Seçenekleri
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak PowerPoint grafiklerinizi nasıl geliştireceğinizi öğrenin. Veri noktası işaretçilerini görüntülerle özelleştirin. İlgi çekici sunumlar oluşturun.
+type: docs
 weight: 11
 url: /tr/net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Sunumlar ve veri görselleştirmeyle çalışırken Aspose.Slides for .NET, grafikleri oluşturmak, özelleştirmek ve değiştirmek için çok çeşitli güçlü özellikler sunar. Bu öğreticide grafik sunumlarınızı geliştirmek için veri noktalarında grafik işaretleyici seçeneklerinin nasıl kullanılacağını keşfedeceğiz. Bu adım adım kılavuz, önkoşullardan ve ad alanlarının içe aktarılmasından başlayarak her örneği birden çok adıma ayırmaya kadar süreç boyunca size yol gösterecektir.
 
@@ -152,9 +148,3 @@ Aspose.Slides for .NET, çeşitli PowerPoint formatlarıyla çalışacak şekild
 
 ### Aspose.Slides for .NET'in deneme sürümü mevcut mu?
  Evet, Aspose.Slides for .NET'i adresinden ücretsiz deneme sürümünü indirerek deneyebilirsiniz.[Burada](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

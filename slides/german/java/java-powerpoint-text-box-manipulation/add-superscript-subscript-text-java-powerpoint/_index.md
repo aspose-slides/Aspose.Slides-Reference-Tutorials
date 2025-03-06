@@ -3,14 +3,10 @@ title: Hochgestellten und tiefgestellten Text in Java PowerPoint hinzufügen
 linktitle: Hochgestellten und tiefgestellten Text in Java PowerPoint hinzufügen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java hochgestellten und tiefgestellten Text in Java PowerPoint-Präsentationen einfügen. Perfekt zum Verbessern Ihrer Folien.
+type: docs
 weight: 13
 url: /de/java/java-powerpoint-text-box-manipulation/add-superscript-subscript-text-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 Das Erstellen ansprechender und informativer PowerPoint-Präsentationen erfordert häufig die Verwendung von Formatierungsfunktionen wie hochgestelltem und tiefgestelltem Text. Dieses Tutorial führt Sie durch den Prozess der Einbindung von hochgestelltem und tiefgestelltem Text in Ihre Java PowerPoint-Präsentationen mit Aspose.Slides für Java.
 ## Voraussetzungen
@@ -93,9 +89,3 @@ Aspose.Slides für Java ist eine robuste Bibliothek, mit der Entwickler PowerPoi
  Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
 ### Wo erhalte ich Support für Aspose.Slides für Java?
  Für Unterstützung und Diskussionen besuchen Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

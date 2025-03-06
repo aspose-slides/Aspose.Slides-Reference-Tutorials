@@ -3,14 +3,10 @@ title: Cách xóa siêu liên kết khỏi slide bằng Aspose.Slides .NET
 linktitle: Xóa siêu liên kết khỏi slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách xóa siêu liên kết khỏi trang chiếu PowerPoint bằng Aspose.Slides cho .NET. Tạo bài thuyết trình rõ ràng và chuyên nghiệp.
+type: docs
 weight: 11
 url: /vi/net/hyperlink-manipulation/remove-hyperlinks/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Trong thế giới thuyết trình chuyên nghiệp, việc đảm bảo rằng các slide của bạn trông gọn gàng và ngăn nắp là điều cần thiết. Một yếu tố phổ biến thường làm xáo trộn các slide là các siêu liên kết. Cho dù bạn đang xử lý các siêu liên kết đến trang web, tài liệu hoặc các trang chiếu khác trong bản trình bày của mình, bạn có thể muốn xóa chúng để có giao diện rõ ràng và tập trung hơn. Với Aspose.Slides cho .NET, bạn có thể dễ dàng đạt được nhiệm vụ này. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình xóa siêu liên kết khỏi trang trình bày bằng Aspose.Slides cho .NET.
 
@@ -88,9 +84,3 @@ Có, Aspose.Slides for .NET cung cấp nhiều tính năng, bao gồm tạo, ch�
 
 ### Có hỗ trợ kỹ thuật cho Aspose.Slides cho .NET không?
  Có, bạn có thể tìm kiếm hỗ trợ kỹ thuật và tương tác với cộng đồng Aspose trên[diễn đàn giả định](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

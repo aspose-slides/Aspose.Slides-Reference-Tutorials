@@ -3,14 +3,10 @@ title: تحويل العرض التقديمي إلى PDF مع تحديث الت�
 linktitle: تحويل العرض التقديمي إلى PDF مع تحديث التقدم
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تحويل العروض التقديمية إلى PDF مع تحديثات التقدم باستخدام Aspose.Slides for .NET. تم تضمين دليل خطوة بخطوة مع كود المصدر.
+type: docs
 weight: 29
 url: /ar/net/presentation-conversion/convert-presentation-to-pdf-with-progress-update/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 في العصر الرقمي الحالي، يعد تحويل العروض التقديمية إلى PDF مطلبًا شائعًا، خاصة في قطاعي الأعمال والتعليم. يوفر Aspose.Slides for .NET حلاً قويًا لإنجاز هذه المهمة بسهولة. في هذا البرنامج التعليمي خطوة بخطوة، سنرشدك خلال عملية تحويل العرض التقديمي إلى PDF مع تتبع تقدم التحويل.
 
@@ -89,9 +85,3 @@ class ExportProgressHandler : IProgressCallback
 
 ### س: أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ .NET؟
  ج: يمكنك العثور على الدعم والمناقشات المجتمعية على[https://forum.aspose.com/](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

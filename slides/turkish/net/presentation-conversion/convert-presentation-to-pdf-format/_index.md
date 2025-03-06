@@ -3,14 +3,10 @@ title: Sunumu PDF Formatına Dönüştür
 linktitle: Sunumu PDF Formatına Dönüştür
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak sunumları PDF'ye nasıl dönüştüreceğinizi öğrenin. Kaynak koduyla adım adım kılavuz. Verimli ve etkili dönüşüm.
+type: docs
 weight: 24
 url: /tr/net/presentation-conversion/convert-presentation-to-pdf-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for .NET'e Giriş
 
@@ -111,9 +107,3 @@ Evet, Aspose.Slides dönüştürme sırasında birçok PowerPoint animasyonu ve 
 ### Deneme sürümü mevcut mu?
 
  Evet, Aspose.Slides for .NET'in ücretsiz deneme sürümünü şu adresten indirebilirsiniz:[Burada](https://products.aspose.com/slides/net).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

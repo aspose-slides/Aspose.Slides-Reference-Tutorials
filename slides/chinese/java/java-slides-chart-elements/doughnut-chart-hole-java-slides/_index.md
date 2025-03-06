@@ -3,14 +3,10 @@ title: Java 幻灯片中的甜甜圈图洞
 linktitle: Java 幻灯片中的甜甜圈图洞
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 在 Java Slides 中创建具有自定义孔尺寸的甜甜圈图。带有图表自定义源代码的分步指南。
+type: docs
 weight: 11
 url: /zh/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 幻灯片中带孔甜甜圈图简介
 
@@ -98,9 +94,3 @@ finally
 ### 是否可以给图表添加标题？
 
 当然可以！您可以使用`setTitle`方法`IChart`对象并提供所需的标题文本。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

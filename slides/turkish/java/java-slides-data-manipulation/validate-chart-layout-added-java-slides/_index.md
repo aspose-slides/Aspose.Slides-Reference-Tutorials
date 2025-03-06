@@ -3,14 +3,10 @@ title: Java Slaytlarına Eklenen Grafik Düzenini Doğrulayın
 linktitle: Java Slaytlarına Eklenen Grafik Düzenini Doğrulayın
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile PowerPoint'te ana grafik düzeni doğrulaması. Çarpıcı sunumlar için grafikleri programlı bir şekilde değiştirmeyi öğrenin.
+type: docs
 weight: 10
 url: /tr/java/data-manipulation/validate-chart-layout-added-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for Java'da Grafik Düzenini Doğrulamaya Giriş
 
@@ -101,10 +97,3 @@ Evet, veri serileri, kategoriler ve değerler ekleyip değiştirerek grafik veri
 ### Diğer grafik özelliklerini değiştirmek istersem ne olur?
 
 Çeşitli grafik özelliklerine erişebilir ve bunları ihtiyaçlarınıza göre özelleştirebilirsiniz. Grafik manipülasyonu hakkında kapsamlı bilgi için Aspose.Slides belgelerini inceleyin.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

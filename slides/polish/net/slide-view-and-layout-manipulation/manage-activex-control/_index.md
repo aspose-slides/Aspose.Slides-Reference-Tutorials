@@ -3,14 +3,10 @@ title: Zarządzaj formantem ActiveX w programie PowerPoint
 linktitle: Zarządzaj formantem ActiveX w programie PowerPoint
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak ulepszyć prezentacje programu PowerPoint za pomocą kontrolek ActiveX przy użyciu Aspose.Slides dla .NET. Nasz przewodnik krok po kroku obejmuje wstawianie, manipulację, dostosowywanie, obsługę zdarzeń i nie tylko.
+type: docs
 weight: 13
 url: /pl/net/slide-view-and-layout-manipulation/manage-activex-control/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 Kontrolki ActiveX to potężne elementy, które mogą zwiększyć funkcjonalność i interaktywność prezentacji programu PowerPoint. Te elementy sterujące umożliwiają osadzanie obiektów takich jak odtwarzacze multimedialne, formularze wprowadzania danych i manipulowanie nimi bezpośrednio w slajdach. W tym artykule zbadamy, jak zarządzać kontrolkami ActiveX w programie PowerPoint przy użyciu Aspose.Slides dla .NET, wszechstronnej biblioteki, która umożliwia bezproblemową integrację i manipulowanie plikami programu PowerPoint w aplikacjach .NET.
 
 ## Dodawanie kontrolek ActiveX do slajdów programu PowerPoint
@@ -153,9 +149,3 @@ Możesz obsługiwać zdarzenia wyzwalane przez kontrolki ActiveX, subskrybując 
 ### Czy mogę usunąć formant ActiveX ze slajdu?
 
  Tak, możesz usunąć formant ActiveX ze slajdu za pomocą`Remove` metoda`Shapes` kolekcja. Przekaż odniesienie do`IOleObjectFrame` reprezentujący formant jako argument metody`Remove` metodę, a element sterujący zostanie usunięty ze slajdu.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

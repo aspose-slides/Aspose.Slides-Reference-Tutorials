@@ -3,14 +3,10 @@ title: Sorot Teks menggunakan Regex di Java PowerPoint
 linktitle: Sorot Teks menggunakan Regex di Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menyorot teks di PowerPoint menggunakan pola regex dengan Aspose.Slides untuk Java. Sempurnakan presentasi Anda secara dinamis.
+type: docs
 weight: 15
 url: /id/java/java-powerpoint-text-alignment-formatting/highlight-text-using-regex-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam bidang pengembangan berbasis Java untuk membuat dan memanipulasi presentasi PowerPoint, Aspose.Slides untuk Java menonjol sebagai solusi yang tangguh. Tutorial ini berfokus pada pemanfaatan Aspose.Slides untuk menyorot teks menggunakan ekspresi reguler (regex) dalam presentasi PowerPoint. Di akhir panduan ini, Anda akan memahami cara menerapkan pola regex untuk menyorot teks tertentu dalam slide, sehingga meningkatkan fungsionalitas dan kejelasan visual.
 ## Prasyarat
@@ -66,9 +62,3 @@ Ya, Aspose.Slides mendukung berbagai format PowerPoint, memastikan kompatibilita
 Tentu saja, ia menawarkan fitur manipulasi teks yang ekstensif selain penyorotan, termasuk penataan font, perataan, dan banyak lagi.
 ### Bisakah saya mencoba Aspose.Slides untuk Java sebelum membeli?
  Ya, Anda bisa mulai dengan a[uji coba gratis](https://releases.aspose.com/) untuk mengevaluasi kemampuannya.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

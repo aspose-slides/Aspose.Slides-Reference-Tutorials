@@ -3,14 +3,10 @@ title: Java Slaytlarında Radar Grafiği Oluşturma
 linktitle: Java Slaytlarında Radar Grafiği Oluşturma
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java API'yi kullanarak Java PowerPoint sunumlarında Radar Grafikleri oluşturmayı öğrenin.
+type: docs
 weight: 10
 url: /tr/java/chart-creation/radar-chart-creating-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java Slaytlarında Radar Grafiği Oluşturmaya Giriş
 
@@ -272,9 +268,3 @@ Yazı tipi boyutu ve rengi de dahil olmak üzere eksen etiketlerini ve biçimlen
 ### Grafiği farklı bir dosya biçiminde nasıl kaydederim?
 
 Dosya uzantısını değiştirerek çıktı biçimini değiştirebilirsiniz.`outPath` değişken ve uygun olanı kullanarak`SaveFormat` . Örneğin, PDF olarak kaydetmek için şunu kullanın:`SaveFormat.Pdf`.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

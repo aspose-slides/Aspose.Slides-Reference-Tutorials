@@ -3,14 +3,10 @@ title: Standaardmarkeringen in diagram in Java-dia's
 linktitle: Standaardmarkeringen in diagram in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u Java-dia's maakt met standaardmarkeringen in diagrammen met behulp van Aspose.Slides voor Java. Stap-voor-stap handleiding met broncode.
+type: docs
 weight: 16
 url: /nl/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot standaardmarkeringen in diagrammen in Java-dia's
 
@@ -146,9 +142,3 @@ In deze uitgebreide zelfstudie hebt u geleerd hoe u Java-dia's kunt maken met st
 ### Kan ik labels aan de gegevenspunten toevoegen?
 
  Ja, u kunt labels aan gegevenspunten toevoegen met behulp van de`IDataPoint.getLabel()` methode en pas deze indien nodig aan.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

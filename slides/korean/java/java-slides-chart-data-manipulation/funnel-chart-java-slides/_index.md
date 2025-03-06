@@ -3,14 +3,10 @@ title: Java 슬라이드의 깔때기형 차트
 linktitle: Java 슬라이드의 깔때기형 차트
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 깔때기형 차트를 만드는 방법을 알아보세요. 효과적인 데이터 시각화를 위한 소스 코드가 포함된 단계별 가이드입니다.
+type: docs
 weight: 18
 url: /ko/java/chart-data-manipulation/funnel-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for Java에서 깔때기형 차트 만들기 소개
 
@@ -141,9 +137,3 @@ pres.save(dataDir + "Funnel.pptx", SaveFormat.Pptx);
 ### 차트를 PDF나 이미지 등 다른 형식으로 내보낼 수 있나요?
 
 예, Aspose.Slides for Java를 사용하면 깔때기형 차트가 포함된 프레젠테이션을 PDF, 이미지 형식 등을 포함한 다양한 형식으로 내보낼 수 있습니다. 당신은 사용할 수 있습니다`SaveFormat` 프레젠테이션을 저장할 때 원하는 출력 형식을 지정하는 옵션입니다.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

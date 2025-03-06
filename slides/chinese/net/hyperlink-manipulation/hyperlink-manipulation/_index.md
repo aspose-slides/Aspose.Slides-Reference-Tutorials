@@ -3,14 +3,10 @@ title: Aspose.Slides 中的超链接操作
 linktitle: Aspose.Slides 中的超链接操作
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何在 Aspose.Slides for .NET 中添加和删除超链接。使用交互式链接轻松增强您的演示文稿。
+type: docs
 weight: 10
 url: /zh/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 超链接是演示文稿中必不可少的元素，因为它们提供了一种在幻灯片之间导航或访问外部资源的便捷方式。Aspose.Slides for .NET 提供了强大的功能，可用于在演示文稿幻灯片中添加和删除超链接。在本教程中，我们将指导您完成使用 Aspose.Slides for .NET 进行超链接操作的过程。我们将介绍如何在幻灯片中添加超链接以及如何从幻灯片中删除超链接。那么，让我们开始吧！
 
@@ -125,9 +121,3 @@ Aspose.Slides for .NET 提供多种功能，用于创建、操作和转换演示
 
 ### 如何获得 Aspose.Slides 的临时许可证？
 如果您需要 Aspose.Slides 的临时许可证，您可以获取一个[这里](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

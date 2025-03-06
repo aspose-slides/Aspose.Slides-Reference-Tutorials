@@ -1,15 +1,12 @@
 ---
 title: 釋放簡報操作和轉換的力量
 linktitle: Aspose.Slides for .NET 教學課程
+type: docs
 weight: 10
 url: /zh-hant/net/
 description: 使用 Aspose.Slides for .NET 教學探索簡報操作、轉換和 PowerPoint 處理的世界。學習創建、轉換和增強簡報以獲得有影響力的結果。
+is_root: true
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 歡迎來到 Aspose.Slides for .NET 教程的全面集合，您將在其中發現簡報操作、轉換和 PowerPoint 處理的藝術。這些教學課程可作為您掌握 Aspose.Slides 功能的指南，讓您能夠無縫地瀏覽簡報建立、自訂和轉換的各個方面。無論您是尋求自動化 PowerPoint 任務、將簡報轉換為不同格式，還是透過多媒體增強投影片，這些教學都提供了逐步說明，可協助您完成開發之旅。
 
 ## 簡報轉換：輕鬆轉換投影片
@@ -63,9 +60,3 @@ description: 使用 Aspose.Slides for .NET 教學探索簡報操作、轉換和 
 透過投影片中的形狀幾何和定位的 Aspose.Slides 教學增強您的投影片操作技能。學習以程式方式控制形狀、尺寸和對齊方式。
 ### [投影片中的形狀對齊和格式設置](./shape-alignment-and-formatting-in-slides/)
 探索 .NET 應用程式中形狀對齊和格式設定的綜合 Aspose.Slides 教學。學習輕鬆對齊和格式化形狀，從而精確地增強您的投影片簡報。 
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

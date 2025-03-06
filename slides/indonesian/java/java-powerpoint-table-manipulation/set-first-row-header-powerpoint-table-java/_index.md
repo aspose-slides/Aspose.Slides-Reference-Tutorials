@@ -3,14 +3,10 @@ title: Tetapkan Baris Pertama sebagai Header di Tabel PowerPoint dengan Java
 linktitle: Tetapkan Baris Pertama sebagai Header di Tabel PowerPoint dengan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur baris pertama sebagai header di tabel PowerPoint menggunakan Aspose.Slides untuk Java. Tingkatkan kejelasan dan pengorganisasian presentasi dengan mudah.
+type: docs
 weight: 19
 url: /id/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara memanipulasi tabel PowerPoint menggunakan Aspose.Slides untuk Java, perpustakaan canggih yang memungkinkan integrasi dan modifikasi presentasi tanpa hambatan. Secara khusus, kami akan fokus pada pengaturan baris pertama tabel sebagai header, meningkatkan daya tarik visual dan pengorganisasian slide Anda.
 ## Prasyarat
@@ -80,9 +76,3 @@ Aspose.Slides untuk Java adalah perpustakaan yang kuat untuk bekerja dengan file
  Dokumentasi terperinci tersedia[Di Sini](https://reference.aspose.com/slides/java/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk Java?
  Anda bisa mendapatkan dukungan komunitas[Di Sini](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

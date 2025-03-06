@@ -3,14 +3,10 @@ title: Opsi Penanda Bagan pada Titik Data di Slide Java
 linktitle: Opsi Penanda Bagan pada Titik Data di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Optimalkan Slide Java Anda dengan Opsi Penanda Bagan Kustom. Pelajari cara menyempurnakan titik data secara visual menggunakan Aspose.Slides untuk Java. Jelajahi panduan langkah demi langkah dan FAQ.
+type: docs
 weight: 14
 url: /id/java/data-manipulation/chart-marker-options-data-point-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Pengenalan Opsi Penanda Bagan pada Titik Data di Slide Java
 
@@ -158,9 +154,3 @@ Ya, Anda dapat menyesuaikan berbagai aspek bagan, termasuk judul, sumbu, label d
 ### Di mana saya dapat mengakses dokumentasi dan unduhan Aspose.Slides untuk Java?
 
  Anda dapat menemukan dokumentasinya di[Di Sini](https://reference.aspose.com/slides/java/) dan unduh perpustakaan di[Di Sini](https://releases.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

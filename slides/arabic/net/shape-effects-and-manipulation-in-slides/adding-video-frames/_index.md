@@ -3,14 +3,10 @@ title: إضافة برنامج تعليمي لإطارات الفيديو باس
 linktitle: إضافة إطارات الفيديو إلى شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بتنشيط العروض التقديمية باستخدام إطارات الفيديو الديناميكية باستخدام Aspose.Slides لـ .NET. اتبع دليلنا للتكامل السلس وخلق التفاعل.
+type: docs
 weight: 19
 url: /ar/net/shape-effects-and-manipulation-in-slides/adding-video-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 في المشهد الديناميكي للعروض التقديمية، يمكن أن يؤدي دمج عناصر الوسائط المتعددة إلى زيادة التأثير العام والمشاركة. يمكن أن تؤدي إضافة إطارات فيديو إلى شرائحك إلى تغيير قواعد اللعبة، حيث تجذب انتباه جمهورك بطريقة لا يستطيع المحتوى الثابت القيام بها. يوفر Aspose.Slides for .NET حلاً قويًا لدمج إطارات الفيديو بسلاسة في شرائح العرض التقديمي.
 ## المتطلبات الأساسية
@@ -71,9 +67,3 @@ pres.Save(dataDir + "VideoFrame_out.pptx", SaveFormat.Pptx);
  نعم، يمكنك استكشاف إمكانيات Aspose.Slides لـ .NET عن طريق تنزيل الإصدار التجريبي[هنا](https://releases.aspose.com/).
 ### س5: أين يمكنني العثور على دعم Aspose.Slides لـ .NET؟
  لأية استفسارات أو مساعدة، قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

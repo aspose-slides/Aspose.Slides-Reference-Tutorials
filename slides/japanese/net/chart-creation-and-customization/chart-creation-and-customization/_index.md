@@ -3,14 +3,10 @@ title: Aspose.Slides でのグラフ作成とカスタマイズ
 linktitle: Aspose.Slides でのグラフ作成とカスタマイズ
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint でグラフを作成し、カスタマイズする方法を学びます。動的なプレゼンテーションを作成するためのステップバイステップ ガイドです。
+type: docs
 weight: 10
 url: /ja/net/chart-creation-and-customization/chart-creation-and-customization/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 導入
 
@@ -114,9 +110,3 @@ Aspose.Slides for .NET は、.NET Framework や .NET Core を含む幅広い .NE
 
 ### Aspose.Slides for .NET の一時ライセンスを購入できますか?
 はい、AsposeのWebサイトから一時ライセンスを取得できます。[ここ](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

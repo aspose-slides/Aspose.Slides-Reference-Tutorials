@@ -3,14 +3,10 @@ title: Voeg audioframe toe in PowerPoint
 linktitle: Voeg audioframe toe in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u audioframes aan PowerPoint-presentaties toevoegt met Aspose.Slides voor Java. Verbeter uw presentaties moeiteloos met boeiende audio-elementen.
+type: docs
 weight: 12
 url: /nl/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 Het verbeteren van presentaties met audio-elementen kan de impact en betrokkenheid ervan aanzienlijk vergroten. Met Aspose.Slides voor Java wordt het integreren van audioframes in PowerPoint-presentaties een naadloos proces. Deze tutorial leidt u stapsgewijs door het proces van het toevoegen van audioframes aan uw presentaties met Aspose.Slides voor Java.
 ## Vereisten
@@ -79,9 +75,3 @@ Ja, u kunt PowerPoint-presentaties maken met ingesloten audioframes die compatib
 Aspose.Slides voor Java biedt uitgebreide aanpassingsmogelijkheden, waardoor u het uiterlijk van de audiospeler kunt aanpassen aan uw voorkeuren.
 ### Is er een proefversie beschikbaar voor Aspose.Slides voor Java?
  Ja, u heeft toegang tot een gratis proefversie van Aspose.Slides voor Java via hun[website](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

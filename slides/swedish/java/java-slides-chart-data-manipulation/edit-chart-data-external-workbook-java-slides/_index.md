@@ -3,14 +3,10 @@ title: Redigera diagramdata i extern arbetsbok i Java Slides
 linktitle: Redigera diagramdata i extern arbetsbok i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du redigerar diagramdata i en extern arbetsbok med Aspose.Slides för Java. Steg-för-steg guide med källkod.
+type: docs
 weight: 17
 url: /sv/java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion till redigering av diagramdata i extern arbetsbok i Java Slides
 
@@ -107,9 +103,3 @@ Du kan anpassa koden för att hantera olika externa arbetsboksformat genom att a
 ### Hur kan jag automatisera den här processen för flera presentationer?
 
 Du kan skapa en loop för att bearbeta flera presentationer, ladda var och en, göra önskade ändringar och spara de modifierade presentationerna en efter en.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

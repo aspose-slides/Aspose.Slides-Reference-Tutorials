@@ -3,14 +3,10 @@ title: Agregar bordes de celda a la tabla en Java PowerPoint
 linktitle: Agregar bordes de celda a la tabla en Java PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a agregar bordes de celda a tablas en presentaciones de PowerPoint de Java usando Aspose.Slides. Esta guía paso a paso facilita la mejora de sus diapositivas.
+type: docs
 weight: 10
 url: /es/java/java-powerpoint-table-formatting-updates/add-cell-borders-table-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introducción
 ¡Hola! Entonces, estás buscando agregar bordes de celda a una tabla en una presentación de PowerPoint usando Java, ¿no? Bueno, ¡estás en el lugar correcto! Este tutorial lo guiará a través del proceso paso a paso utilizando la biblioteca Aspose.Slides para Java. Al final de esta guía, comprenderá bien cómo manipular tablas en sus diapositivas de PowerPoint como un profesional. ¡Vamos a sumergirnos y hacer que sus presentaciones luzcan elegantes y profesionales!
 ## Requisitos previos
@@ -100,9 +96,3 @@ Sí, Aspose.Slides te permite fusionar celdas tanto horizontal como verticalment
 Sí, puede automatizar el proceso recorriendo las diapositivas y aplicando la lógica de creación de tablas a cada diapositiva.
 ### ¿Qué formatos de archivo admite Aspose.Slides?
 Aspose.Slides admite varios formatos, incluidos PPT, PPTX, PDF y más.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

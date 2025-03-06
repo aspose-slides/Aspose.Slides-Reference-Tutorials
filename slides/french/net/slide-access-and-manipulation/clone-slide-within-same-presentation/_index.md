@@ -3,14 +3,10 @@ title: Cloner une diapositive dans la même présentation
 linktitle: Cloner une diapositive dans la même présentation
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment cloner des diapositives dans la même présentation PowerPoint à l'aide d'Aspose.Slides pour .NET. Suivez ce guide étape par étape avec des exemples complets de code source pour manipuler efficacement vos présentations.
+type: docs
 weight: 21
 url: /fr/net/slide-access-and-manipulation/clone-slide-within-same-presentation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction à Aspose.Slides pour .NET
 
@@ -109,9 +105,3 @@ Oui, vous pouvez cloner des diapositives entre différentes présentations en ut
 ### Où puis-je trouver plus d’informations sur Aspose.Slides pour .NET ?
 
  Pour une documentation plus détaillée et des exemples, vous pouvez visiter le[Aspose.Slides pour la documentation .NET](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

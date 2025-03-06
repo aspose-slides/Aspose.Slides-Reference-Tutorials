@@ -3,14 +3,10 @@ title: 在同一簡報中克隆投影片
 linktitle: 在同一簡報中克隆投影片
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 在相同 PowerPoint 簡報中複製投影片。遵循此逐步指南以及完整的原始程式碼範例，可以有效地操作您的簡報。
+type: docs
 weight: 21
 url: /zh-hant/net/slide-access-and-manipulation/clone-slide-within-same-presentation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for .NET 簡介
 
@@ -109,9 +105,3 @@ presentation.Save("ModifiedPresentation.pptx", SaveFormat.Pptx);
 ### 在哪裡可以找到有關 Aspose.Slides for .NET 的更多資訊？
 
 如需更詳細的文件和範例，您可以訪問[Aspose.Slides for .NET 文檔](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

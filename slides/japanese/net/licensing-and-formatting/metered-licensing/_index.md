@@ -3,14 +3,10 @@ title: 従量制ライセンスの使用
 linktitle: 従量制ライセンスの使用
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET で従量制ライセンスを効率的に使用する方法を学びます。実際の使用量に応じて支払いながら、API をシームレスに統合します。
+type: docs
 weight: 11
 url: /ja/net/licensing-and-formatting/metered-licensing/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 導入
 
@@ -118,9 +114,3 @@ Aspose.Slides for .NET は、開発者が PowerPoint プレゼンテーション
 
 ### Aspose.Slides のサポートとディスカッションのためのフォーラムはありますか?
 はい、Aspose.Slidesフォーラムでサポートを見つけたり、ディスカッションに参加したりできます。[このリンク](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

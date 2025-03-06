@@ -3,14 +3,10 @@ title: Aspose.Slides for .NET を使用した楕円の書式設定チュート�
 linktitle: Aspose.Slides を使用してスライドの楕円形を書式設定する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、PowerPoint で魅力的な楕円形を作成します。プロフェッショナルなプレゼンテーションを作成するためのステップバイステップ ガイドに従ってください。
+type: docs
 weight: 11
 url: /ja/net/shape-geometry-and-positioning-in-slides/formatting-ellipse-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 視覚的に魅力的な図形を使用して PowerPoint プレゼンテーションを強化することは、視聴者の興味を引くために不可欠です。そのような図形の 1 つが楕円で、スライドに優雅さとプロフェッショナリズムのタッチを加えることができます。このチュートリアルでは、Aspose.Slides for .NET を使用して PowerPoint で楕円図形を書式設定する手順を説明します。
 ## 前提条件
@@ -85,9 +81,3 @@ Aspose.Slidesは、最新バージョンを含むさまざまなPowerPointバー
 コミュニティからの支援を求める[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).
 ### Aspose.Slides for .NET を直接購入するオプションはありますか?
 はい、ライブラリを直接購入できます[ここ](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

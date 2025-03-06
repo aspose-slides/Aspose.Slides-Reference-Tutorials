@@ -3,14 +3,10 @@ title: ตัวเลือกการแสดงผลใน PowerPoint
 linktitle: ตัวเลือกการแสดงผลใน PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีจัดการตัวเลือกการเรนเดอร์ในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ปรับแต่งสไลด์ของคุณเพื่อให้ภาพดูโดดเด่นที่สุด
+type: docs
 weight: 13
 url: /th/java/java-powerpoint-rendering-techniques/render-options-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีการใช้ประโยชน์จาก Aspose.Slides สำหรับ Java เพื่อจัดการตัวเลือกการเรนเดอร์ในงานนำเสนอ PowerPoint ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มต้น คู่มือนี้จะแนะนำคุณตลอดกระบวนการทีละขั้นตอน
 ## ข้อกำหนดเบื้องต้น
@@ -79,9 +75,3 @@ if (pres != null) pres.dispose();
 แน่นอน! Aspose.Slides ช่วยให้คุณสามารถตั้งค่าพื้นหลังที่กำหนดเองสำหรับสไลด์ก่อนที่จะเรนเดอร์
 ### มีวิธีแสดงสไลด์โดยตรงไปยังเอกสาร PDF หรือไม่
 ใช่ Aspose.Slides มีฟังก์ชันในการแปลงงานนำเสนอ PowerPoint เป็นไฟล์ PDF ที่มีความเที่ยงตรงสูงได้โดยตรง
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Återge anteckningar medan du konverterar presentation till HTML
 linktitle: Återge anteckningar medan du konverterar presentation till HTML
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du effektivt renderar talaranteckningar samtidigt som du konverterar en presentation till HTML med Aspose.Slides för .NET. Den här steg-för-steg-guiden ger källkodsexempel och insikter som hjälper dig att uppnå sömlös konvertering med anteckningsbevarande.
+type: docs
 weight: 28
 url: /sv/net/presentation-manipulation/render-notes-while-converting-presentation-to-html/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 I dagens digitala tidsålder har konvertering av presentationer till HTML-format blivit ett vanligt krav. Det låter dig enkelt dela dina presentationer på webben, vilket gör dem tillgängliga för en bredare publik. Aspose.Slides för .NET är ett kraftfullt verktyg som förenklar denna process. I denna steg-för-steg handledning guidar vi dig genom processen att konvertera en presentation till HTML med Aspose.Slides för .NET.
 
@@ -83,10 +79,3 @@ Ja, Aspose.Slides för .NET stöder olika PowerPoint-format, inklusive PPT, PPTX
  Om du stöter på några problem eller har frågor kan du söka hjälp på[Aspose.Slides forum](https://forum.aspose.com/).
 
 Genom att följa dessa steg kan du enkelt konvertera dina PowerPoint-presentationer till HTML med Aspose.Slides för .NET. Njut av att dela dina presentationer online med en bredare publik!
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

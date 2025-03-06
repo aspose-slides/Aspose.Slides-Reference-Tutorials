@@ -3,14 +3,10 @@ title: Manipulacja grafiką SmartArt w programie Java PowerPoint
 linktitle: Manipulacja grafiką SmartArt w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak efektywnie manipulować grafiką Java PowerPoint SmartArt, korzystając z samouczków GroupDocs.Slides for Java. Uzyskaj dostęp do węzłów podrzędnych, dodawaj węzły, zmieniaj układy i nie tylko!
+type: docs
 weight: 32
 url: /pl/java/java-powerpoint-smartart-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Wstęp
 
@@ -75,9 +71,3 @@ Opanuj organizowanie typów układów wykresów w SmartArt przy użyciu języka 
 Dowiedz się, jak efektywnie i programowo usuwać węzły z grafiki SmartArt w prezentacjach programu PowerPoint przy użyciu Aspose.Slides for Java.
 ### [Usuń węzeł w określonej pozycji w SmartArt](./remove-node-specific-position-smartart-java/)
 Dowiedz się, jak usunąć węzeł w określonej pozycji w SmartArt za pomocą Aspose.Slides dla Java. Zwiększ możliwości dostosowywania prezentacji bez wysiłku.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

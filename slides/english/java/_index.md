@@ -1,15 +1,12 @@
 ---
 title: Unleashing the Power of Aspose.Slides for Java
 linktitle: Aspose.Slides for Java Tutorials
+type: docs
 weight: 10
 url: /java/
 description:  Learn how to master Aspose.Slides for Java with our comprehensive tutorials. Step-by-step guidance for using this powerful Java API for presentations.
+is_root: true
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 In the world of Java programming, creating and managing presentations has never been easier, thanks to Aspose.Slides for Java. This powerful API opens up a world of possibilities for developers looking to integrate dynamic and visually stunning presentations into their applications. In this article, we'll take you on a journey through the realm of Aspose.Slides for Java tutorials, showcasing how you can harness its potential to the fullest.
 
@@ -107,9 +104,3 @@ Master Java PowerPoint table manipulation with Aspose.Slides. Learn to add image
 Enhance Java PowerPoint presentations with table formatting and updates using Aspose.Slides. Learn to add borders, format text in columns and rows & update tables.
 ### [Java PowerPoint SmartArt Manipulation](./java-powerpoint-smartart-manipulation/)
 Learn how to manipulate Java PowerPoint SmartArt effectively with GroupDocs.Slides for Java tutorials. Access child nodes, add nodes, change layouts, and more!
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

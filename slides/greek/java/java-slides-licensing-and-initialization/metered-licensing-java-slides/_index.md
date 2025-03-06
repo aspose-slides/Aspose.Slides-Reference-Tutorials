@@ -3,14 +3,10 @@ title: Μετρημένη άδεια χρήσης σε Java Slides
 linktitle: Μετρημένη άδεια χρήσης σε Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Βελτιστοποιήστε το Aspose.Slides για χρήση Java με το Metered Licensing. Μάθετε πώς να το ρυθμίζετε και να παρακολουθείτε την κατανάλωση του API σας.
+type: docs
 weight: 10
 url: /el/java/licensing-and-initialization/metered-licensing-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στο Metered Licensing στο Aspose.Slides για Java
 
@@ -111,10 +107,3 @@ catch (Exception ex)
 ### Χρειάζομαι σύνδεση στο Διαδίκτυο για μετρημένη άδεια χρήσης;
 
 Ναι, απαιτείται σύνδεση στο Διαδίκτυο για τον ορισμό και την επικύρωση της μετρημένης άδειας χρήσης.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

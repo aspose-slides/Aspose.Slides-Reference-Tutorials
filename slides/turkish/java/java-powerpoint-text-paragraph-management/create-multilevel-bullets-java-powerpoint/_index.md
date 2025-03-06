@@ -3,14 +3,10 @@ title: Java PowerPoint'te Çok Düzeyli Madde İşaretleri Oluşturma
 linktitle: Java PowerPoint'te Çok Düzeyli Madde İşaretleri Oluşturma
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint'te çok düzeyli madde işaretleri oluşturmayı öğrenin. Kod örnekleri ve SSS içeren adım adım kılavuz.
+type: docs
 weight: 14
 url: /tr/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 Bu eğitimde Aspose.Slides for Java kullanarak PowerPoint sunumlarında çok düzeyli madde işaretlerinin nasıl oluşturulacağını keşfedeceğiz. Sunumlarda düzenli ve görsel olarak çekici içerik oluşturmak için madde işaretleri eklemek yaygın bir gereksinimdir. Süreci adım adım inceleyeceğiz ve bu kılavuzun sonunda sunumlarınızı birden çok düzeyde yapılandırılmış maddelerle zenginleştirecek donanıma sahip olmanızı sağlayacağız.
 ## Önkoşullar
@@ -113,9 +109,3 @@ Aspose.Slides, Microsoft PowerPoint 2007 ve üzeri sürümlerle uyumlu sunumlar 
 Evet, Aspose.Slides, PowerPoint sunumlarının oluşturulmasını, değiştirilmesini ve işlenmesini otomatikleştirmek için API'ler sağlar.
 ### Aspose.Slides for Java için nereden destek alabilirim?
  Aspose.Slides topluluğundan ve uzmanlardan destek alabilirsiniz:[Aspose.Slides Forumu](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: 슬라이드 썸네일 생성
 linktitle: 슬라이드 썸네일 생성
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 슬라이드 축소판을 생성하는 방법을 알아보세요. 동적 슬라이드 미리 보기를 만들기 위한 코드 예제가 포함된 단계별 튜토리얼입니다. 이 강력한 기능으로 프레젠테이션 애플리케이션을 강화하세요.
+type: docs
 weight: 17
 url: /ko/net/slide-thumbnail-generation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 소개:
 
@@ -41,9 +37,3 @@ Aspose.Slides for .NET을 사용하여 PowerPoint 슬라이드에서 축소판 �
 Aspose.Slides for .NET을 사용하여 메모가 포함된 슬라이드에서 축소판을 생성합니다. 노트를 추출하고, 썸네일을 만들고, PowerPoint 조작을 향상시키는 방법을 단계별로 알아보세요. 
 ### [사용자 정의 차원으로 썸네일 생성](./generate-thumbnail-with-custom-dimensions/)
 .NET용 Aspose.Slides를 사용하여 슬라이드에서 사용자 정의 크기의 썸네일을 생성하는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드입니다. 매력적인 시각 자료로 프레젠테이션을 향상시키세요. 
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

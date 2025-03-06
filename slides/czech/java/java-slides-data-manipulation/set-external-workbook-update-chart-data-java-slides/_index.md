@@ -3,14 +3,10 @@ title: Nastavte externí sešit s aktualizací dat grafu v Java Slides
 linktitle: Nastavte externí sešit s aktualizací dat grafu v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak nastavit externí sešity a aktualizovat data grafu v aplikaci Java Slides pomocí Aspose.Slides for Java. Vylepšete své dovednosti v automatizaci aplikace PowerPoint.
+type: docs
 weight: 20
 url: /cs/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod k nastavení externího sešitu s aktualizací dat grafu v Java Slides
 
@@ -103,9 +99,3 @@ Ano, vzhled grafu, včetně jeho názvu, štítků, barev a dalších, můžete 
 ### Kde najdu další dokumentaci a zdroje pro Aspose.Slides for Java?
 
  Podrobnou dokumentaci a další zdroje naleznete v dokumentaci Aspose.Slides for Java na adrese[tady](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

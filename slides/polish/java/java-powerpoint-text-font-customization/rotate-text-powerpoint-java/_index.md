@@ -3,14 +3,10 @@ title: Obróć tekst w programie PowerPoint przy użyciu języka Java
 linktitle: Obróć tekst w programie PowerPoint przy użyciu języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak obracać tekst w programie PowerPoint przy użyciu języka Java z Aspose.Slides. Samouczek krok po kroku dla początkujących i zaawansowanych użytkowników.
+type: docs
 weight: 10
 url: /pl/java/java-powerpoint-text-font-customization/rotate-text-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 tym samouczku omówimy programowe obracanie tekstu w prezentacjach programu PowerPoint przy użyciu języka Java i Aspose.Slides. Obracanie tekstu może być przydatną funkcją podczas projektowania slajdów w celu tworzenia atrakcyjnych wizualnie prezentacji.
 ## Warunki wstępne
@@ -79,9 +75,3 @@ Absolutnie Aspose.Slides zapewnia kompleksowe interfejsy API do obsługi różny
  Szczegółowa dokumentacja znajduje się na stronie[Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/) . Możesz także uzyskać wsparcie od społeczności pod adresem[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Jak uzyskać tymczasową licencję na Aspose.Slides?
  Licencję tymczasową można uzyskać od[Tutaj](https://purchase.aspose.com/temporary-license/)oceniać Aspose.Slides bez ograniczeń.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

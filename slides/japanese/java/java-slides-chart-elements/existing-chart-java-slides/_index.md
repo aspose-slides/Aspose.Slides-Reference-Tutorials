@@ -3,14 +3,10 @@ title: Java スライドの既存のチャート
 linktitle: Java スライドの既存のチャート
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint プレゼンテーションを強化します。既存のグラフをプログラムで変更する方法を学びます。グラフのカスタマイズのためのソース コードを含むステップ バイ ステップ ガイド。
+type: docs
 weight: 12
 url: /ja/java/chart-elements/existing-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for Java を使用した Java スライドの既存チャートの紹介
 
@@ -188,9 +184,3 @@ pres.save(dataDir + "AsposeChartModified_out.pptx", SaveFormat.Pptx);
 ### チャートからシリーズを削除する方法はありますか?
 
 はい、チャートからシリーズを削除するには、`chart.getChartData().getSeries().removeAt(index)`方法、ここで`index`削除するシリーズのインデックスです。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

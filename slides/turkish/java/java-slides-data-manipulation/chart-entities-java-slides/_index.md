@@ -3,14 +3,10 @@ title: Java Slaytlarındaki Grafik Varlıkları
 linktitle: Java Slaytlarındaki Grafik Varlıkları
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides ile Java Slides grafikleri oluşturmayı ve özelleştirmeyi öğrenin. Sunumlarınızı güçlü grafik varlıklarıyla geliştirin.
+type: docs
 weight: 13
 url: /tr/java/data-manipulation/chart-entities-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java Slaytlarındaki Grafik Varlıklarına Giriş
 
@@ -305,9 +301,3 @@ Izgara çizgileri, başlık ve göstergeler gibi çeşitli grafik öğeleri içi
 ### Aspose.Slides for Java en son Java sürümleriyle uyumlu mu?
 
 Evet, Aspose.Slides for Java, en yeni Java sürümlerini destekleyecek şekilde düzenli olarak güncellenir ve çok çeşitli Java ortamlarında uyumluluk sağlar.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

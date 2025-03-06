@@ -3,14 +3,10 @@ title: मूल फ़ॉन्ट को संरक्षित करना
 linktitle: मूल फ़ॉन्ट को संरक्षित करना - प्रस्तुति को HTML में परिवर्तित करें
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: .NET के लिए Aspose.Slides का उपयोग करके प्रेजेंटेशन को HTML में परिवर्तित करते समय मूल फ़ॉन्ट को संरक्षित करने का तरीका जानें। फ़ॉन्ट की एकरूपता और दृश्य प्रभाव को सहजता से सुनिश्चित करें।
+type: docs
 weight: 14
 url: /hi/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 इस व्यापक गाइड में, हम आपको Aspose.Slides for .NET का उपयोग करके HTML में प्रस्तुति को परिवर्तित करते समय मूल फ़ॉन्ट को संरक्षित करने की प्रक्रिया से अवगत कराएँगे। हम आपको आवश्यक C# स्रोत कोड प्रदान करेंगे और प्रत्येक चरण को विस्तार से समझाएँगे। इस ट्यूटोरियल के अंत तक, आप यह सुनिश्चित करने में सक्षम होंगे कि आपके परिवर्तित HTML दस्तावेज़ में फ़ॉन्ट मूल प्रस्तुति के प्रति वफादार रहें।
 
@@ -102,10 +98,3 @@ pres.Save("output.html", SaveFormat.Html, htmlOptionsEmbed);
 ### प्रश्न 5: मैं अतिरिक्त संसाधन और सहायता कहां से प्राप्त कर सकता हूं?
 
  आप Aspose वेबसाइट पर अधिक दस्तावेज़, ट्यूटोरियल और सहायता पा सकते हैं।[.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/) विस्तृत जानकारी के लिए.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

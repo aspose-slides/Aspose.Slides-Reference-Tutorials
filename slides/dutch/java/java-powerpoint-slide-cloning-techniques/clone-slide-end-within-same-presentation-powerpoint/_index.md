@@ -3,14 +3,10 @@ title: Kloon dia tot einde binnen dezelfde presentatie
 linktitle: Kloon dia tot einde binnen dezelfde presentatie
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u een dia naar het einde van een presentatie kunt klonen met Aspose.Slides voor Java met deze stapsgewijze handleiding. Ideaal voor Java-ontwikkelaars.
+type: docs
 weight: 16
 url: /nl/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-within-same-presentation-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 Wilt u uw vaardigheden op het gebied van presentatiemanipulatie verbeteren met Java? Aspose.Slides voor Java is een krachtige bibliotheek waarmee u moeiteloos PowerPoint-presentaties kunt maken, wijzigen en manipuleren. In deze uitgebreide handleiding laten we u zien hoe u een dia naar het einde van dezelfde presentatie kunt klonen met Aspose.Slides voor Java. Aan het einde van deze zelfstudie weet u goed hoe u deze functie in uw eigen projecten kunt gebruiken. Laten we erin duiken!
 ## Vereisten
@@ -68,9 +64,3 @@ Aspose.Slides voor Java is een krachtige bibliotheek waarmee ontwikkelaars Power
  U kunt ondersteuning krijgen van de[Ondersteuningsforum voor Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Kan ik Aspose.Slides voor Java gebruiken om presentaties naar PDF te converteren?
 Ja, Aspose.Slides voor Java ondersteunt het converteren van presentaties naar verschillende formaten, waaronder PDF.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

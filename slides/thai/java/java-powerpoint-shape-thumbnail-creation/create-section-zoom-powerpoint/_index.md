@@ -3,14 +3,10 @@ title: สร้างการซูมส่วนใน PowerPoint
 linktitle: สร้างการซูมส่วนใน PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีสร้างการซูมส่วนในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ปรับปรุงการนำทางและการมีส่วนร่วมได้อย่างง่ายดาย
+type: docs
 weight: 13
 url: /th/java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะเจาะลึกการสร้างการซูมส่วนในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java การซูมส่วนเป็นคุณสมบัติอันทรงพลังที่ช่วยให้คุณสามารถนำทางไปยังส่วนต่างๆ ของงานนำเสนอของคุณได้อย่างราบรื่น ซึ่งช่วยปรับปรุงทั้งองค์กรและประสบการณ์ผู้ใช้โดยรวม ด้วยการแบ่งการนำเสนอที่ซับซ้อนออกเป็นส่วนๆ ที่เข้าใจง่าย คุณสามารถถ่ายทอดข้อความและดึงดูดผู้ชมได้อย่างมีประสิทธิภาพ
@@ -76,9 +72,3 @@ Aspose.Slides สำหรับ Java รองรับการซูมส่
 ได้ คุณสามารถเพิ่มการซูมส่วนลงในงานนำเสนอที่มีอยู่ได้โดยใช้ Aspose.Slides สำหรับ Java โดยทำตามขั้นตอนที่คล้ายกันซึ่งสรุปไว้ในบทช่วยสอนนี้
 ### ฉันจะรับการสนับสนุนหรือความช่วยเหลือเพิ่มเติมเกี่ยวกับ Aspose.Slides สำหรับ Java ได้ที่ไหน
  สำหรับการสนับสนุนหรือความช่วยเหลือเพิ่มเติม คุณสามารถไปที่ฟอรัม Aspose.Slides สำหรับ Java[ที่นี่](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

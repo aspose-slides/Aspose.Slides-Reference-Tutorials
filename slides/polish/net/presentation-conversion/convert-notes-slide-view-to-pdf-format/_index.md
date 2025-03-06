@@ -3,14 +3,10 @@ title: Konwertuj widok slajdów Notatek na format PDF
 linktitle: Konwertuj widok slajdów Notatek na format PDF
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Konwertuj notatki prelegenta w programie PowerPoint na format PDF za pomocą Aspose.Slides dla .NET. Zachowaj kontekst i dostosuj układ bez wysiłku.
+type: docs
 weight: 15
 url: /pl/net/presentation-conversion/convert-notes-slide-view-to-pdf-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 tym obszernym przewodniku przeprowadzimy Cię przez proces konwersji widoku slajdów programu Notes do formatu PDF przy użyciu Aspose.Slides dla .NET. Znajdziesz szczegółowe instrukcje i fragmenty kodu, które ułatwią wykonanie tego zadania.
 
@@ -82,9 +78,3 @@ Absolutnie! Aspose.Slides dla .NET zapewnia różne opcje dostosowywania wyjści
 Dodatkowe samouczki i przykłady można znaleźć na stronie[Dokumentacja Aspose.Slides dla .NET API](https://reference.aspose.com/slides/net/).
 
 Teraz, gdy pomyślnie przekonwertowałeś widok slajdów programu Notes do formatu PDF, możesz poznać więcej funkcji i możliwości Aspose.Slides dla .NET, aby usprawnić zadania automatyzacji programu PowerPoint. Miłego kodowania!
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

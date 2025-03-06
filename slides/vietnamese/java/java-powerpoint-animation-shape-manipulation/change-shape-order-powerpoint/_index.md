@@ -3,14 +3,10 @@ title: Thay đổi thứ tự hình dạng trong PowerPoint
 linktitle: Thay đổi thứ tự hình dạng trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thay đổi thứ tự hình dạng trong PowerPoint bằng Aspose.Slides cho Java với hướng dẫn từng bước này. Nâng cao kỹ năng thuyết trình của bạn một cách dễ dàng.
+type: docs
 weight: 15
 url: /vi/java/java-powerpoint-animation-shape-manipulation/change-shape-order-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Tạo các bài thuyết trình có cấu trúc tốt và hấp dẫn trực quan có thể là một nhiệm vụ khó khăn. Tuy nhiên, với các công cụ và kỹ thuật phù hợp, bạn có thể làm cho việc này trở nên dễ dàng hơn đáng kể. Aspose.Slides for Java là một thư viện mạnh mẽ giúp bạn thao tác và quản lý các bản trình bày PowerPoint theo chương trình. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn các bước để thay đổi thứ tự hình dạng trong trang chiếu PowerPoint bằng Aspose.Slides cho Java.
 ## Điều kiện tiên quyết
@@ -77,9 +73,3 @@ Có, Aspose.Slides for Java hỗ trợ PPT, PPTX và các định dạng PowerPo
  Bạn có thể tải xuống bản dùng thử miễn phí từ[Trang tải xuống Aspose.Slides cho Java](https://releases.aspose.com/).
 ### Tôi có thể tìm thêm tài liệu về Aspose.Slides cho Java ở đâu?
  Bạn có thể tìm thấy tài liệu chi tiết về[Trang tài liệu Aspose.Slides cho Java](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

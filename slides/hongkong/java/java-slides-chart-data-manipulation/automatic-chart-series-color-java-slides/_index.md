@@ -3,14 +3,10 @@ title: Java 投影片中的自動圖表系列顏色
 linktitle: Java 投影片中的自動圖表系列顏色
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中建立具有自動系列顏色的動態圖表。輕鬆增強您的數據視覺化。
+type: docs
 weight: 14
 url: /zh-hant/java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for Java中自動圖表系列顏色簡介
 
@@ -194,9 +190,3 @@ series.getFormat().getFill().setFillType(FillType.NotDefined);
 ### 在哪裡可以找到有關使用 Aspose.Slides for Java 的更多資訊？
 
 有關 Aspose.Slides for Java 的更多資訊和詳細文檔，您可以存取參考文檔[這裡](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

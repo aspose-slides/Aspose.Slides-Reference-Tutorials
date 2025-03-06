@@ -3,14 +3,10 @@ title: Accéder à SmartArt avec une mise en page spécifique dans Java PowerPoi
 linktitle: Accéder à SmartArt avec une mise en page spécifique dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment accéder et manipuler par programme SmartArt dans PowerPoint à l’aide d’Aspose.Slides pour Java. Suivez ce guide détaillé étape par étape.
+type: docs
 weight: 13
 url: /fr/java/java-powerpoint-smartart-manipulation/access-smartart-specific-layout-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Créer des présentations dynamiques et visuellement attrayantes nécessite souvent plus que du texte et des images. SmartArt est une fonctionnalité fantastique de PowerPoint qui vous permet de créer des représentations graphiques d'informations et d'idées. Mais saviez-vous que vous pouvez manipuler SmartArt par programme à l’aide d’Aspose.Slides pour Java ? Dans ce didacticiel complet, nous vous guiderons tout au long du processus d'accès et d'utilisation de SmartArt dans une présentation PowerPoint à l'aide d'Aspose.Slides pour Java. Que vous cherchiez à automatiser votre processus de création de présentation ou à personnaliser vos diapositives par programmation, ce guide est là pour vous.
 ## Conditions préalables
@@ -98,9 +94,3 @@ Aspose.Slides propose un essai gratuit, mais pour bénéficier de toutes les fon
  Vous pouvez bénéficier du soutien du[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) où la communauté et les développeurs peuvent vous aider.
 ### Est-il possible d'automatiser la création de SmartArt dans PowerPoint à l'aide d'Aspose.Slides pour Java ?
 Absolument, Aspose.Slides pour Java fournit des outils complets pour créer et manipuler SmartArt par programme.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

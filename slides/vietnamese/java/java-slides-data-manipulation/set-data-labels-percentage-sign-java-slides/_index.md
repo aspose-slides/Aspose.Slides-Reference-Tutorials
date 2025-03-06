@@ -3,14 +3,10 @@ title: Đặt tỷ lệ phần trăm nhãn dữ liệu Đăng nhập Java Slides
 linktitle: Đặt tỷ lệ phần trăm nhãn dữ liệu Đăng nhập Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt nhãn dữ liệu bằng dấu phần trăm trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Tạo biểu đồ hấp dẫn với hướng dẫn từng bước và mã nguồn.
+type: docs
 weight: 17
 url: /vi/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu về Đặt tỷ lệ phần trăm nhãn dữ liệu Đăng nhập trong Aspose.Slides cho Java
 
@@ -180,10 +176,3 @@ Có, bạn có thể tùy chỉnh kích thước phông chữ của nhãn dữ l
 ### Làm cách nào tôi có thể thêm nhiều chuỗi vào biểu đồ?
 
  Bạn có thể thêm chuỗi bổ sung vào biểu đồ bằng cách sử dụng`add` phương pháp trên`IChartSeriesCollection` sự vật.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

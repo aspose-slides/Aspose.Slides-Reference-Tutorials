@@ -3,14 +3,10 @@ title: Java PowerPoint 投影片複製技術
 linktitle: Java PowerPoint 投影片複製技術
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 在 PowerPoint 中掌握投影片複製。了解在同一簡報中或跨簡報無縫複製投影片。
+type: docs
 weight: 27
 url: /zh-hant/java/java-powerpoint-slide-cloning-techniques/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ##  介紹
 
 在 PowerPoint 簡報中複製投影片可以節省大量時間並簡化工作流程。使用 Aspose.Slides for Java，您可以輕鬆地在同一簡報中或不同簡報之間複製投影片。無論您是初學者還是專家，這些逐步教學都將引導您完成整個過程，從而輕鬆增強您的簡報。
@@ -53,9 +49,3 @@ url: /zh-hant/java/java-powerpoint-slide-cloning-techniques/
 使用 Aspose.Slides for Java 和我們的指南在同一簡報中複製投影片。非常適合希望簡化 PowerPoint 操作的開發人員。
 ### [將投影片複製到相同簡報中的結尾](./clone-slide-end-within-same-presentation-powerpoint/)
 透過此逐步指南，了解如何使用 Aspose.Slides for Java 將投影片複製到簡報的結尾。非常適合 Java 開發人員。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

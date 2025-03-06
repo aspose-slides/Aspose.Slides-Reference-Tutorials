@@ -3,14 +3,10 @@ title: Videokeretek beágyazásának oktatóanyaga az Aspose.Slides segítségé
 linktitle: Videokeretek hozzáadása webes forrásból a prezentációs diákhoz az Aspose.Slides segítségével
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan ágyazhat be zökkenőmentesen videokockákat PowerPoint diákba az Aspose.Slides for .NET segítségével. Fokozza a prezentációkat multimédiával könnyedén.
+type: docs
 weight: 20
 url: /hu/net/shape-effects-and-manipulation-in-slides/adding-video-frames-from-web-source/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 prezentációk dinamikus világában a multimédiás elemek beépítése jelentősen fokozhatja az elkötelezettséget és hatásos üzeneteket közvetíthet. Ennek egyik hatékony módja a videokockák prezentációs diákba ágyazása. Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet ezt zökkenőmentesen megvalósítani az Aspose.Slides for .NET használatával. Az Aspose.Slides egy robusztus könyvtár, amely lehetővé teszi a fejlesztők számára, hogy programozottan kezeljék a PowerPoint-prezentációkat, és széleskörű lehetőségeket biztosítanak diák létrehozásához, szerkesztéséhez és javításához.
 ## Előfeltételek
@@ -79,9 +75,3 @@ Az Aspose.Slides rendszeresen frissül a legújabb .NET keretrendszerekkel való
 Igen, több videót is beágyazhat, ha további videokockákat ad egy diához.
 ### Hol találok támogatást az Aspose.Slides-hez kapcsolódó lekérdezésekhez?
  Meglátogatni a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásra és beszélgetésekre.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Krachtige grafiekanimaties met Aspose.Slides voor .NET
 linktitle: Categorieën-elementen in diagram animeren
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer diagramelementen animeren in PowerPoint met Aspose.Slides voor .NET. Stap-voor-stap handleiding voor verbluffende presentaties.
+type: docs
 weight: 11
 url: /nl/net/chart-formatting-and-animation/animating-categories-elements/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 In de wereld van presentaties kunnen animaties uw inhoud tot leven brengen, vooral als het om grafieken gaat. Aspose.Slides voor .NET biedt een scala aan krachtige functies waarmee u verbluffende animaties voor uw grafieken kunt maken. In deze stapsgewijze handleiding leiden we u door het proces van het animeren van categorie-elementen in een diagram met behulp van Aspose.Slides voor .NET.
 
@@ -127,10 +123,3 @@ Aspose.Slides voor .NET is ontworpen om met verschillende PowerPoint-versies te 
 
 ### 5. Is er een communityforum voor Aspose.Slides voor .NET-ondersteuning?
  Ja, er is een ondersteunend communityforum voor Aspose.Slides voor .NET[hier](https://forum.aspose.com/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

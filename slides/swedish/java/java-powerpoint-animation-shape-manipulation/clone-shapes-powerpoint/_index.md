@@ -3,14 +3,10 @@ title: Klona former i PowerPoint
 linktitle: Klona former i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du klona former i PowerPoint-presentationer med Aspose.Slides för Java. Effektivisera ditt arbetsflöde med denna lättanvända handledning.
+type: docs
 weight: 16
 url: /sv/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 I den här handledningen kommer vi att utforska hur man klona former i PowerPoint-presentationer med Aspose.Slides för Java. Med kloning av former kan du duplicera befintliga former i en presentation, vilket kan vara särskilt användbart för att skapa konsekventa layouter eller upprepa element över bilder.
 ## Förutsättningar
@@ -61,9 +57,3 @@ Absolut, när formerna har klonats och lagts till i en bild, kan du ändra deras
 Ja, du kan klona bilder, text, bilder och andra element i en PowerPoint-presentation med Aspose.Slides för Java.
 ### Finns det en testversion tillgänglig för Aspose.Slides för Java?
  Ja, du kan ladda ner en gratis testversion av Aspose.Slides för Java från[hemsida](https://releases.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

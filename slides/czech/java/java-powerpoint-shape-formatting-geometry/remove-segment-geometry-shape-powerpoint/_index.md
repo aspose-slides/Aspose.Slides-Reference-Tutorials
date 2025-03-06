@@ -3,14 +3,10 @@ title: Odebrat segment z geometrického tvaru v PowerPointu
 linktitle: Odebrat segment z geometrického tvaru v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak odstranit segmenty z geometrických tvarů v PowerPointu pomocí Aspose.Slides for Java, s naším podrobným průvodcem krok za krokem.
+type: docs
 weight: 22
 url: /cs/java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-shape-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 Chcete manipulovat s tvary v prezentacích PowerPoint pomocí Javy? Jste na správném místě! Aspose.Slides for Java je robustní API, které vám umožňuje snadno vytvářet, upravovat a spravovat snímky v prezentacích. V tomto kurzu vás provedeme procesem odebrání segmentu z geometrického tvaru v PowerPointu. Ať už jste zkušený vývojář nebo teprve začínáte, tento průvodce vám krok za krokem poskytne postup, jak tento úkol zvládnout. Jste připraveni se ponořit? Začněme!
 ## Předpoklady
@@ -75,9 +71,3 @@ Absolutně! Aspose.Slides for Java podporuje širokou škálu tvarů, se kterým
  Ano, pro plnou funkčnost potřebujete licenci. Můžete si jeden zakoupit[tady](https://purchase.aspose.com/buy) nebo získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Kde najdu další dokumentaci k Aspose.Slides for Java?
  K dispozici je obsáhlá dokumentace[tady](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

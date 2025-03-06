@@ -3,14 +3,10 @@ title: Diák konvertálása PDF-be a jegyzetekkel
 linktitle: Diák konvertálása PDF-be a jegyzetekkel
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Az Aspose.Slides for .NET segítségével könnyedén konvertálhat prezentációs diákat az előadói jegyzetekkel PDF-formátumba. A tartalom és a kontextus zökkenőmentes megőrzése.
+type: docs
 weight: 18
 url: /hu/net/presentation-conversion/convert-slides-to-pdf-with-notes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 # Írjon lépésről lépésre bemutató útmutatót a diák PDF-formátumba konvertálásához jegyzetekkel az Aspose.Slides for .NET használatával
 
@@ -102,9 +98,3 @@ Igen, az Aspose.Slides for .NET különféle kimeneti formátumokat támogat, be
  Igen, ideiglenes licencet vásárolhat a címen[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 Összefoglalva, az Aspose.Slides for .NET használatával könnyedén konvertálhatja a PowerPoint diákat PDF formátumba a megjegyzések épségével. Értékes eszköz a szakemberek számára, akiknek meg kell osztaniuk prezentációikat kollégáikkal és ügyfeleikkel, miközben gondoskodniuk kell arról, hogy a fontos kontextus ne vesszen el.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Vytvořte miniaturu tvaru v PowerPointu
 linktitle: Vytvořte miniaturu tvaru v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se generovat miniatury tvarů v prezentacích PowerPoint pomocí Aspose.Slides for Java. Poskytován průvodce krok za krokem.
+type: docs
 weight: 14
 url: /cs/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 tomto tutoriálu se ponoříme do vytváření miniatur tvarů v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Aspose.Slides je výkonná knihovna, která umožňuje vývojářům pracovat se soubory PowerPoint programově, což umožňuje automatizaci různých úkolů, včetně generování miniatur tvarů.
 ## Předpoklady
@@ -64,9 +60,3 @@ Ano, kromě PNG podporuje Aspose.Slides ukládání miniatur v různých formát
  Absolutně! Můžete si stáhnout bezplatnou zkušební verzi Aspose.Slides z[tady](https://releases.aspose.com/) vyhodnotit jeho vlastnosti a možnosti.
 ### Kde najdu podporu pro Aspose.Slides?
  Pokud máte nějaké dotazy nebo potřebujete pomoc s Aspose.Slides, můžete navštívit stránku[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) pro podporu.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

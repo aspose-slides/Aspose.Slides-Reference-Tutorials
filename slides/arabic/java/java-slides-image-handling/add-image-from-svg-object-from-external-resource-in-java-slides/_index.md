@@ -3,14 +3,10 @@ title: إضافة صورة من كائن SVG من مورد خارجي في شر�
 linktitle: إضافة صورة من كائن SVG من مورد خارجي في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة صور SVG مستندة إلى المتجهات من موارد خارجية إلى شرائح Java باستخدام Aspose.Slides. قم بإنشاء عروض تقديمية مذهلة باستخدام صور عالية الجودة.
+type: docs
 weight: 12
 url: /ar/java/image-handling/add-image-from-svg-object-from-external-resource-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة لإضافة صورة من كائن SVG من مورد خارجي في شرائح Java
 
@@ -122,9 +118,3 @@ p.save(outPptxPath, SaveFormat.Pptx);
 ### هل يمكنني تطبيق الرسوم المتحركة على صور SVG المضافة إلى الشرائح؟
 
 نعم، يمكنك تطبيق الرسوم المتحركة على صور SVG في شرائحك باستخدام Aspose.Slides لإنشاء عروض تقديمية ديناميكية.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

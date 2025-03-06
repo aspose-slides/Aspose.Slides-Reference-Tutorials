@@ -3,14 +3,10 @@ title: Nhận chiều rộng và chiều cao từ vùng biểu đồ trong trang
 linktitle: Nhận chiều rộng và chiều cao từ vùng biểu đồ trong trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách truy xuất kích thước vùng biểu đồ trong Trang trình bày Java bằng Aspose.Slides cho Java. Nâng cao kỹ năng tự động hóa PowerPoint của bạn.
+type: docs
 weight: 21
 url: /vi/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu
 
@@ -113,10 +109,3 @@ Có, Aspose.Slides for Java là một thư viện mạnh mẽ để tự động
 ### Làm cách nào tôi có thể tìm hiểu thêm về Aspose.Slides cho Java?
 
  Bạn có thể tìm thấy tài liệu và ví dụ mở rộng trên trang tài liệu Aspose.Slides for Java[đây](https://reference.aspose.com/slides/java/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

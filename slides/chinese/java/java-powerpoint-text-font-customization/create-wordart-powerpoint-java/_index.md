@@ -3,14 +3,10 @@ title: 使用 Java 在 PowerPoint 中创建艺术字
 linktitle: 使用 Java 在 PowerPoint 中创建艺术字
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Java 和 Aspose.Slides 在 PowerPoint 演示文稿中创建迷人的艺术字。面向开发人员的分步教程。
+type: docs
 weight: 26
 url: /zh/java/java-powerpoint-text-font-customization/create-wordart-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 在当今的数字通信领域，创建动态且具有视觉吸引力的演示文稿至关重要。Aspose.Slides for Java 提供了强大的工具来以编程方式操作 PowerPoint 演示文稿，为开发人员提供了广泛的功能来增强和自动化创建过程。在本教程中，我们将探索如何使用 Java 和 Aspose.Slides 在 PowerPoint 演示文稿中创建艺术字。
 ## 先决条件
@@ -89,9 +85,3 @@ pres.save(resultPath, SaveFormat.Pptx);
 是的，您可以下载免费试用版[这里](https://releases.aspose.com/).
 ### 如何获得 Aspose.Slides for Java 的技术支持？
 您可以在 Aspose 论坛上获得社区和专家的帮助[这里](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

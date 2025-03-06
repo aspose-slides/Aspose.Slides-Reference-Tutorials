@@ -3,14 +3,10 @@ title: Aspose.Slides 中的投影片檢視和版面操作
 linktitle: Aspose.Slides 中的投影片檢視和版面操作
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 在 PowerPoint 中操作投影片檢視和版面配置。帶有程式碼範例的分步指南。
+type: docs
 weight: 10
 url: /zh-hant/net/slide-view-and-layout-manipulation/slide-view-and-layout-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 在軟體開發領域，以程式設計方式建立和操作 PowerPoint 簡報是一項常見要求。 Aspose.Slides for .NET 提供了一個強大的工具包，讓開發人員可以無縫地處理 PowerPoint 檔案。處理簡報的一個重要方面是投影片檢視和佈局操作。在本指南中，我們將深入研究使用 Aspose.Slides for .NET 管理投影片檢視和版面配置的過程，並提供逐步說明和程式碼範例。
 
@@ -136,10 +132,3 @@ presentation.Save("modified.pptx", SaveFormat.Pptx);
 ## 結論
 
 Aspose.Slides for .NET 簡化了以程式設計方式處理 PowerPoint 簡報的過程。在本指南中，我們探討了投影片檢視和版面操作的基本步驟。從載入簡報到自訂投影片內容，Aspose.Slides 為開發人員提供了強大的工具包，可以輕鬆創建動態且引人入勝的簡報。
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

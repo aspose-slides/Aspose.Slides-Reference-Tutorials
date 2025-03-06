@@ -3,14 +3,10 @@ title: Aanpassing en opmaak van Java-dia's
 linktitle: Aanpassing en opmaak van Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Ontdek de kracht van Aspose.Slides voor Java bij het aanpassen en opmaken van Java-dia's. Leer stap voor stap in onze tutorials. Verbeter uw presentatievaardigheden.
+type: docs
 weight: 12
 url: /nl/java/customization-and-formatting/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
  In dit artikel duiken we in de wereld van het aanpassen en opmaken van Java-dia's met behulp van Aspose.Slides voor Java. Of u nu een doorgewinterde ontwikkelaar bent of net begint met Java-presentaties, onze lijst met tutorials zal uw gids zijn om het volledige potentieel van Aspose.Slides te benutten.|
 
@@ -53,9 +49,3 @@ Leer hoe u lettertype-eigenschappen in Java-dia's instelt met Aspose.Slides voor
 Verbeter uw grafieken met Aspose.Slides voor Java. Leer hoe u de positie-as in Java-dia's instelt, verbluffende presentaties maakt en diagramindelingen eenvoudig aanpast.
 ### [Rotatiehoek instellen in Java-dia's](./setting-rotation-angle-java-slides/)
 Optimaliseer uw Java-dia's met Aspose.Slides voor Java. Leer hoe u rotatiehoeken voor tekstelementen instelt. Stap-voor-stap handleiding met broncode.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

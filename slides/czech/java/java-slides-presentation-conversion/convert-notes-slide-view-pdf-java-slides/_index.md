@@ -3,14 +3,10 @@ title: Převeďte zobrazení snímku poznámek do formátu PDF v aplikaci Java S
 linktitle: Převeďte zobrazení snímku poznámek do formátu PDF v aplikaci Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se převádět PowerPointové prezentace s poznámkami do PDF pomocí Aspose.Slides for Java. Postupujte podle našeho podrobného průvodce se zdrojovým kódem.
+type: docs
 weight: 16
 url: /cs/java/presentation-conversion/convert-notes-slide-view-pdf-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod do převodu zobrazení poznámek do formátu PDF v aplikaci Java Slides
 
@@ -110,9 +106,3 @@ Ano, Aspose.Slides vyžaduje platnou licenci pro komerční použití. Licenci m
 ### Kde najdu další dokumentaci a příklady?
 
  Komplexní dokumentaci a příklady pro Aspose.Slides pro Javu naleznete na adrese[tady](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

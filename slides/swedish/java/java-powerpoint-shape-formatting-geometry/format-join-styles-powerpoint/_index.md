@@ -3,14 +3,10 @@ title: Formatera Sammanfoga stilar i PowerPoint
 linktitle: Formatera Sammanfoga stilar i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du förbättrar dina PowerPoint-presentationer genom att ställa in olika linjekopplingsstilar för former med Aspose.Slides för Java. Följ vår steg-för-steg-guide.
+type: docs
 weight: 15
 url: /sv/java/java-powerpoint-shape-formatting-geometry/format-join-styles-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 Att skapa visuellt tilltalande PowerPoint-presentationer kan vara en skrämmande uppgift, särskilt när du vill att varje detalj ska vara perfekt. Det är här Aspose.Slides för Java kommer väl till pass. Det är ett kraftfullt API som låter dig skapa, manipulera och hantera presentationer programmatiskt. En av funktionerna som du kan använda är att ställa in olika linjefogningsstilar för former, vilket avsevärt kan förbättra estetiken hos dina bilder. I den här självstudien kommer vi att dyka in i hur du kan använda Aspose.Slides för Java för att ställa in sammanfogningsstilar för former i PowerPoint-presentationer. 
 ## Förutsättningar
@@ -116,9 +112,3 @@ Ja, du kan använda Aspose.Slides för Java i alla Java-stödda IDE som IntelliJ
 Linjefogstilar hänvisar till formen på hörnen där två linjer möts. Vanliga stilar inkluderar Mitre, Bevel och Round.
 ### Var kan jag hitta mer dokumentation om Aspose.Slides för Java?
  Du kan hitta detaljerad dokumentation[här](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: คำอธิบายขนาดตัวอักษรใน Java S
 linktitle: คำอธิบายขนาดตัวอักษรใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: ปรับปรุงการนำเสนอ PowerPoint ด้วย Aspose.Slides สำหรับ Java เรียนรู้วิธีปรับแต่งขนาดตัวอักษรคำอธิบายและอื่นๆ ในคำแนะนำทีละขั้นตอนของเรา
+type: docs
 weight: 13
 url: /th/java/chart-elements/font-size-legend-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## รู้เบื้องต้นเกี่ยวกับคำอธิบายขนาดตัวอักษรใน Java Slides
 
@@ -139,9 +135,3 @@ chart.getAxes().getVerticalAxis().setMaxValue(10);
 ### ฉันจะหาข้อมูลและเอกสารประกอบเพิ่มเติมสำหรับ Aspose.Slides ได้ที่ไหน
 
  คุณสามารถค้นหาเอกสารที่ครอบคลุมและข้อมูลอ้างอิง API สำหรับ Aspose.Slides สำหรับ Java ได้บนเว็บไซต์เอกสารประกอบของ Aspose เยี่ยม[ที่นี่](https://reference.aspose.com/slides/java/) สำหรับข้อมูลรายละเอียดการใช้ห้องสมุด
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

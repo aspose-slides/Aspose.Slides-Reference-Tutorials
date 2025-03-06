@@ -3,14 +3,10 @@ title: Χειρισμός δεδομένων Java Slides
 linktitle: Χειρισμός δεδομένων Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Βελτιώστε τις δεξιότητες χειρισμού δεδομένων Java Slides με τα μαθήματα Aspose.Slides for Java. Μάθετε βήμα προς βήμα να δημιουργείτε, να επεξεργάζεστε και να μεταμορφώνετε παρουσιάσεις αποτελεσματικά.
+type: docs
 weight: 13
 url: /el/java/data-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Είστε έτοιμοι να μάθετε την τέχνη της χειραγώγησης δεδομένων Java Slides; Μην ψάχνετε άλλο. Σε αυτόν τον περιεκτικό οδηγό, θα σας καθοδηγήσουμε στις περιπλοκές της χρήσης του Aspose.Slides για Java για τη δημιουργία, την τροποποίηση και τη βελτίωση των παρουσιάσεων διαφανειών σας. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε το ταξίδι σας στον κόσμο των Java Slides, τα σεμινάρια μας θα σας εξοπλίσουν με τις γνώσεις και τις δεξιότητες που χρειάζεστε.
 
@@ -100,9 +96,3 @@ url: /el/java/data-manipulation/
 Μάθετε πώς να ρυθμίζετε μηνύματα προώθησης για ετικέτες δεδομένων στο Aspose.Slides για Java. Οδηγός βήμα προς βήμα με τον πηγαίο κώδικα.
 ### [Ρύθμιση μορφής ημερομηνίας για άξονα κατηγορίας σε διαφάνειες Java](./setting-date-format-category-axis-java-slides/)
 Μάθετε πώς να ορίζετε μια μορφή ημερομηνίας για τον άξονα κατηγορίας σε ένα γράφημα PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με τον πηγαίο κώδικα.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

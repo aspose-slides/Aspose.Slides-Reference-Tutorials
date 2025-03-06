@@ -3,14 +3,10 @@ title: Formeffekter och manipulation i diabilder
 linktitle: Formeffekter och manipulation i diabilder
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Förbättra din presentations visuella tilltalande med Aspose.Slides-handledningar om formeffekter och manipulation. Lär dig hur du skapar fantastiska bilder med formeffekter, animationer och mer.
+type: docs
 weight: 11
 url: /sv/net/shape-effects-and-manipulation-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion
 
@@ -67,9 +63,3 @@ Lär dig hur du förbättrar dina presentationsbilder genom att justera anslutni
 Förbättra din presentationsförmåga genom att lära dig hur du kopplar samman former med hjälp av kopplingar i presentationsbilder med Aspose.Slides. Lyft ditt visuella berättande idag!
 ### [Connecting Shape med hjälp av Connection Site i presentationsbilder med Aspose.Slides](./connecting-shape-using-connection-site/)
 Förbättra dina presentationsfärdigheter genom att lära dig hur du kopplar samman former med hjälp av anslutningsplatser i presentationsbilder med Aspose.Slides. Följ vår detaljerade guide och kodexempel.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

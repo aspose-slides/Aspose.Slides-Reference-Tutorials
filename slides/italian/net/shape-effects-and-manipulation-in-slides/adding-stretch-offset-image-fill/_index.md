@@ -3,14 +3,10 @@ title: Aggiunta di uno spostamento di stiramento per il riempimento di immagini 
 linktitle: Aggiunta di uno spostamento di stiramento per il riempimento di immagini nelle diapositive
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come migliorare le presentazioni di PowerPoint con Aspose.Slides per .NET. Segui una guida passo passo per aggiungere un offset di stiramento per il riempimento dell'immagine.
+type: docs
 weight: 18
 url: /it/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## introduzione
 Nel dinamico mondo delle presentazioni, le immagini svolgono un ruolo fondamentale nel catturare l'attenzione del pubblico. Aspose.Slides per .NET consente agli sviluppatori di migliorare le loro presentazioni PowerPoint fornendo un solido set di funzionalità. Una di queste funzionalità è la possibilità di aggiungere un offset di stiramento per il riempimento dell'immagine, consentendo diapositive creative e visivamente accattivanti.
 ## Prerequisiti
@@ -75,9 +71,3 @@ Sì, Aspose.Slides per .NET è adatto sia per applicazioni desktop che web.
  Fare riferimento al[documentazione](https://reference.aspose.com/slides/net/) per informazioni dettagliate.
 ### Posso acquistare Aspose.Slides per .NET?
  Sì, puoi acquistare il prodotto[Qui](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

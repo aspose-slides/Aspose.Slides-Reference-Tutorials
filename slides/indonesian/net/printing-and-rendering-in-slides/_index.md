@@ -3,14 +3,10 @@ title: Mencetak dan Merender dalam Slide
 linktitle: Mencetak dan Merender dalam Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Tingkatkan keterampilan pencetakan dan rendering slide Anda dengan tutorial Aspose.Slides untuk .NET. Pelajari teknik langkah demi langkah untuk hasil berkualitas tinggi. Selami manipulasi slide sekarang!
+type: docs
 weight: 10
 url: /id/net/printing-and-rendering-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Perkenalan:
 
@@ -45,9 +41,3 @@ Pelajari cara menyempurnakan slide presentasi Anda dengan Aspose.Slides untuk .N
 Pelajari cara mencetak slide tertentu dari presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah kami mencakup instalasi, penyesuaian, dan penanganan pengecualian, memberikan cara yang mudah untuk mengotomatisasi tugas PowerPoint.
 ### [Dukungan Tanda Tangan Digital di Aspose.Slides](./digital-signature-support/)
 Tingkatkan keamanan presentasi dengan tanda tangan digital menggunakan Aspose.Slides untuk .NET. Pelajari cara menambahkan dan memverifikasi tanda tangan di PowerPoint langkah demi langkah.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

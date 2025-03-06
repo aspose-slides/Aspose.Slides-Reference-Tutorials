@@ -3,14 +3,10 @@ title: Alakzatigazítás és formázás a Diákban
 linktitle: Alakzatigazítás és formázás a Diákban
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Fedezze fel az átfogó Aspose.Slides oktatóanyagokat az alakigazításról és formázásról a .NET-alkalmazásokban. Tanuljon meg könnyedén igazítani és formázni az alakzatokat, így precízen javítja a diabemutatókat.
+type: docs
 weight: 14
 url: /hu/net/shape-alignment-and-formatting-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés
 
@@ -48,9 +44,3 @@ Ismerje meg, hogyan készíthet lenyűgöző prezentációs diákat felvázolt a
 Ismerje meg, hogyan adhat hozzá nyúlási eltolást balra egy képkerethez a PowerPointban az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató teljes forráskód példával.
 ### [Az OLE objektumkeret képcímének helyettesítése a bemutató diákban](./substituting-picture-title-ole-object-frame/)
 Ismerje meg, hogyan helyettesítheti az OLE-objektumkeretek képcímeit a prezentációdiákban az Aspose.Slides for .NET használatával. Lépésről lépésre, teljes forráskóddal.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java 튜토리얼용 Aspose.Slides로 새로운 가능성을 열어보세
 linktitle: Java 슬라이드 추가 유틸리티
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java 튜토리얼을 사용하여 Java 슬라이드용 추가 유틸리티를 알아보세요. 강력한 기능으로 프레젠테이션을 향상시키세요. 지금 탐험해보세요!
+type: docs
 weight: 20
 url: /ko/java/additional-utilities/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 Java Slides 프레젠테이션을 한 단계 더 발전시킬 준비가 되셨나요? Aspose.Slides for Java는 슬라이드를 매력적인 걸작으로 변화시킬 수 있는 추가 유틸리티 및 기능의 보고를 제공합니다. 이 기사에서는 Aspose.Slides for Java가 제공하는 다양한 도구와 기술을 탐색하여 지속적인 인상을 남기는 프레젠테이션을 만들 수 있도록 지원합니다.
 
 ## Java용 Aspose.Slides의 강력한 기능
@@ -52,9 +48,3 @@ Aspose.Slides for Java를 사용하여 Java에서 PowerPoint 프레젠테이션�
 Aspose.Slides를 사용하여 Java 슬라이드의 액세스 권한으로 PDF 문서를 보호하는 방법을 알아보세요. 이 단계별 가이드에서는 비밀번호 보호 등을 다룹니다.
 ### [Java 슬라이드를 로드하지 않고 프레젠테이션 확인](./verify-presentation-without-loading-in-java-slides/)
 Aspose.Slides for Java를 사용하여 Java 슬라이드에 프레젠테이션을 로드하지 않고 프레젠테이션을 확인하는 방법을 알아보세요. 이 단계별 가이드를 통해 파일 무결성을 효율적으로 보장하세요.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

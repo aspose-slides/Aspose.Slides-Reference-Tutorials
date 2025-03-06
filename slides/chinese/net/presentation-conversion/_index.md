@@ -3,14 +3,10 @@ title: 掌握演示文稿转换和 PowerPoint 处理
 linktitle: 演示转换
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 教程提升您的技能。逐步学习演示文稿转换和 PowerPoint 处理。立即改变您的工作流程！
+type: docs
 weight: 10
 url: /zh/net/presentation-conversion/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Aspose.Slides for .NET 提供了有关 PowerPoint 处理各个方面的全面教程。其中一个教程侧重于演示文稿转换，指导用户将演示文稿无缝转换为不同的格式。本教程为开发人员提供了有效处理演示文稿转换的知识，扩展了他们生成多种输出的能力。
 
@@ -66,9 +62,3 @@ Aspose.Slides for .NET 提供了有关 PowerPoint 处理各个方面的全面教
 了解如何使用 Aspose.Slides for .NET 将 PowerPoint 演示文稿转换为 SWF 格式。轻松创建动态内容！
 ### [将演示文稿转换为 PDF 并更新进度](./convert-presentation-to-pdf-with-progress-update/)
 了解如何使用 Aspose.Slides for .NET 将演示文稿转换为 PDF 并更新进度。包含源代码的分步指南。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

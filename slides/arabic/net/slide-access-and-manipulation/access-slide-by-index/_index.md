@@ -3,14 +3,10 @@ title: الوصول إلى الشريحة عن طريق الفهرس المتس�
 linktitle: الوصول إلى الشريحة عن طريق الفهرس المتسلسل
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية الوصول إلى الشرائح عن طريق الفهرس التسلسلي باستخدام Aspose.Slides لـ .NET. اتبع هذا الدليل خطوة بخطوة مع الكود المصدري للتنقل بسهولة في عروض PowerPoint التقديمية ومعالجتها.
+type: docs
 weight: 12
 url: /ar/net/slide-access-and-manipulation/access-slide-by-index/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة للوصول إلى الشرائح عن طريق الفهرس المتسلسل
 
@@ -90,9 +86,3 @@ ISlide slide = presentation.Slides[slideIndex];
 ### كيف يمكنني معرفة المزيد حول أتمتة PowerPoint باستخدام Aspose.Slides؟
 
  لمعرفة المزيد حول أتمتة برنامج PowerPoint باستخدام Aspose.Slides، يمكنك استكشاف الوثائق التفصيلية ونماذج التعليمات البرمجية المتوفرة على موقعهم[توثيق](https://reference.aspose.com/slides/net/) صفحة.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

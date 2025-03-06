@@ -3,14 +3,10 @@ title: Java Slaytlarında Pasta Grafiği
 linktitle: Java Slaytlarında Pasta Grafiği
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarında çarpıcı Pasta Grafikleri oluşturmayı öğrenin. Java geliştiricileri için kaynak kodu içeren adım adım kılavuz.
+type: docs
 weight: 23
 url: /tr/java/chart-data-manipulation/pie-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides Kullanarak Java Slaytlarında Pasta Grafiği Oluşturmaya Giriş
 
@@ -287,9 +283,3 @@ Evet, Aspose.Slides for Java, Çubuk Grafikler, Çizgi Grafikler ve daha fazlas�
 ### Aspose.Slides for Java ile çalışmaya ilişkin daha fazla bilgi ve örneği nasıl bulabilirim?
 
  Daha fazla bilgi, ayrıntılı belgeler ve ek örnekler için şu adresi ziyaret edebilirsiniz:[Aspose.Slides for Java belgeleri](https://reference.aspose.com/slides/java/). Kütüphaneyi etkili bir şekilde kullanmanıza yardımcı olacak kapsamlı kaynaklar sağlar.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

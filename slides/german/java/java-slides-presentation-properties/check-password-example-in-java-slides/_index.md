@@ -3,14 +3,10 @@ title: Beispiel zum Überprüfen des Passworts in Java-Folien
 linktitle: Beispiel zum Überprüfen des Passworts in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Passwörter in Java Slides überprüfen. Verbessern Sie die Präsentationssicherheit mit einer Schritt-für-Schritt-Anleitung.
+type: docs
 weight: 14
 url: /de/java/presentation-properties/check-password-example-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung in das Überprüfen von Passwörtern – Beispiel in Java-Folien
 
@@ -103,9 +99,3 @@ presentationInfo.removePassword("current_password");
 ### Wo finde ich weitere Dokumentation für Aspose.Slides für Java?
 
  Eine umfassende Dokumentation zu Aspose.Slides für Java finden Sie auf der Aspose-Website.[Hier](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

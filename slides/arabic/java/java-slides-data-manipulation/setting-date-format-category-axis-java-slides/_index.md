@@ -3,14 +3,10 @@ title: ضبط تنسيق التاريخ لمحور الفئة في شرائح Ja
 linktitle: ضبط تنسيق التاريخ لمحور الفئة في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين تنسيق تاريخ لمحور الفئة في مخطط PowerPoint باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع كود المصدر.
+type: docs
 weight: 26
 url: /ar/java/data-manipulation/setting-date-format-category-axis-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة لإعداد تنسيق التاريخ لمحور الفئة في شرائح جافا
 
@@ -143,9 +139,3 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 ### كيف يمكنني إضافة المزيد من نقاط البيانات إلى المخطط؟
 
  لإضافة المزيد من نقاط البيانات إلى المخطط، استخدم`getDataPoints().addDataPointForLineSeries`طريقة على سلسلة البيانات وتوفير قيم البيانات.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

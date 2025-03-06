@@ -3,14 +3,10 @@ title: 在 Java 投影片中另存為預定義檢視類型
 linktitle: 在 Java 投影片中另存為預定義檢視類型
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java Slides 中設定預定義視圖類型。包含程式碼範例和常見問題的逐步指南。
+type: docs
 weight: 10
 url: /zh-hant/java/saving-options/save-as-predefined-view-type-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 在 Java 投影片中另存為預定義檢視類型簡介
 
@@ -113,9 +109,3 @@ Aspose.Slides for Java 支援各種輸出格式，包括 PPTX、PDF、TIFF、HTM
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的更多資訊和文件？
 
 有關 Aspose.Slides for Java 的綜合文件和參考，請造訪文件網站：[Aspose.Slides Java 文檔](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

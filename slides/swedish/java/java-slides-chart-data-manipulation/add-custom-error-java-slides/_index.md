@@ -3,14 +3,10 @@ title: Lägg till anpassat fel i Java Slides
 linktitle: Lägg till anpassat fel i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du lägger till anpassade felstaplar till PowerPoint-diagram i Java Slides med Aspose.Slides. Steg-för-steg guide med källkod för exakt datavisualisering.
+type: docs
 weight: 11
 url: /sv/java/chart-data-manipulation/add-custom-error-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion till att lägga till anpassade felfält i Java Slides med Aspose.Slides
 
@@ -154,9 +150,3 @@ Du kan gå igenom datapunkterna och ställa in anpassade felstapelvärden för v
 ### Är det möjligt att dölja felstaplar för specifika datapunkter?
 
  Ja, du kan kontrollera synligheten för felstaplar för enskilda datapunkter genom att ställa in`setVisible` egendom av`IErrorBarsFormat` objekt.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

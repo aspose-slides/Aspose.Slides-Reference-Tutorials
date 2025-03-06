@@ -3,14 +3,10 @@ title: PowerPoint'te Biçimlendirilmiş Dikdörtgen Oluşturma
 linktitle: PowerPoint'te Biçimlendirilmiş Dikdörtgen Oluşturma
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Bu adım adım kılavuzla Aspose.Slides for Java'yı kullanarak PowerPoint'te dikdörtgen oluşturmayı ve biçimlendirmeyi öğrenin.
+type: docs
 weight: 18
 url: /tr/java/java-powerpoint-shape-formatting-geometry/create-formatted-rectangle-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 Bu eğitimde, Aspose.Slides for Java'yı kullanarak PowerPoint slaytında biçimlendirilmiş bir dikdörtgen oluşturma sürecinde size rehberlik edeceğiz. Her adımı ayrıntılı olarak inceleyerek bunu takip edebilmenizi ve kendi projelerinizde uygulayabilmenizi sağlayacağız.
 ## Önkoşullar
@@ -95,9 +91,3 @@ Evet, Aspose.Slides for Java'yı IntelliJ IDEA, Eclipse veya NetBeans gibi Java 
  Evet, elden çıkarma`Presentation` nesne, kaynakların serbest bırakılmasına ve bellek sızıntılarının önlenmesine yardımcı olur.
 ### Aspose.Slides for Java belgelerini nerede bulabilirim?
  Belgeler mevcut[Burada](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

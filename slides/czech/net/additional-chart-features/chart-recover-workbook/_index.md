@@ -3,14 +3,10 @@ title: Jak používat Aspose.Slides .NET k obnovení sešitu z grafu
 linktitle: Obnovte sešit z grafu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak obnovit sešit z grafu v prezentacích PowerPoint pomocí Aspose.Slides for .NET. Postupujte podle našeho podrobného průvodce a extrahujte data efektivně.
+type: docs
 weight: 12
 url: /cs/net/additional-chart-features/chart-recover-workbook/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Pokud chcete pracovat s prezentacemi PowerPoint v .NET, Aspose.Slides for .NET je výkonná knihovna, která vám pomůže dosáhnout vašich cílů. V tomto tutoriálu vás provedeme procesem obnovení sešitu z grafu v prezentaci PowerPoint pomocí Aspose.Slides pro .NET. Tato výkonná funkce může být užitečná, když potřebujete extrahovat data z grafů ve vašich prezentacích. Tento proces rozdělíme do snadno pochopitelných kroků, abyste měli jasno v tom, jak tento úkol splnit.
 
@@ -105,9 +101,3 @@ Aspose.Slides for .NET je výkonná knihovna .NET pro práci se soubory Microsof
 ### 5. Jaká je maximální délka názvu pro SEO optimalizaci?
 
 Pro SEO optimalizaci se doporučuje ponechat název kratší než 60 znaků, aby se zajistilo správné zobrazení ve výsledcích vyhledávačů.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

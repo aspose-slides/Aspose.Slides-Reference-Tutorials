@@ -3,14 +3,10 @@ title: Personnalisation du texte et des polices Java PowerPoint
 linktitle: Personnalisation du texte et des polices Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Explorez les didacticiels sur la personnalisation du texte et des polices Java PowerPoint avec Aspose.Slides. Apprenez la rotation, le remplacement des polices et bien plus encore pour améliorer vos présentations.
+type: docs
 weight: 29
 url: /fr/java/java-powerpoint-text-font-customization/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 
 Libérez tout le potentiel de vos présentations PowerPoint avec nos didacticiels Java PowerPoint de personnalisation du texte et des polices à l'aide d'Aspose.Slides. Que vous soyez débutant ou utilisateur avancé, nos guides détaillés vous aideront à améliorer vos présentations sans effort.
@@ -106,9 +102,3 @@ Découvrez comment ajouter par programme une zone de texte aux diapositives Powe
 Découvrez comment intégrer des polices personnalisées dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Améliorez l’attrait visuel sans effort.
 ### [Créer un WordArt dans PowerPoint à l'aide de Java](./create-wordart-powerpoint-java/)
 Apprenez à créer des WordArt captivants dans des présentations PowerPoint à l'aide de Java avec Aspose.Slides. Tutoriel étape par étape pour les développeurs.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

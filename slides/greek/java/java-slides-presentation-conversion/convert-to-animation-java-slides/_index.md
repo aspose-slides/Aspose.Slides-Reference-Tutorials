@@ -3,14 +3,10 @@ title: Μετατροπή σε κινούμενη εικόνα σε διαφάν
 linktitle: Μετατροπή σε κινούμενη εικόνα σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να μετατρέπετε παρουσιάσεις PowerPoint σε κινούμενα σχέδια σε Java με το Aspose.Slides. Προσελκύστε το κοινό σας με δυναμικά γραφικά.
+type: docs
 weight: 21
 url: /el/java/presentation-conversion/convert-to-animation-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 # Εισαγωγή στη Μετατροπή σε κινούμενα σχέδια σε διαφάνειες Java με το Aspose.Slides για Java
 
@@ -134,10 +130,3 @@ try {
 ### Πού μπορώ να βρω περισσότερους πόρους και τεκμηρίωση για το Aspose.Slides για Java;
 
  Μπορείτε να βρείτε εκτενή τεκμηρίωση και πόρους για το Aspose.Slides for Java στο[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/) σελίδα.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

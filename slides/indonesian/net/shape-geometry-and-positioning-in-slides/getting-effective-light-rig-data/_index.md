@@ -3,14 +3,10 @@ title: Menguasai Data Light Rig yang Efektif dengan Aspose.Slides
 linktitle: Mendapatkan Data Light Rig yang Efektif dalam Slide Presentasi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Sempurnakan slide presentasi Anda dengan Aspose.Slides untuk .NET! Pelajari cara mengambil data rig ringan yang efektif langkah demi langkah. Tingkatkan penceritaan visual Anda sekarang!
+type: docs
 weight: 19
 url: /id/net/shape-geometry-and-positioning-in-slides/getting-effective-light-rig-data/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Membuat slide presentasi yang dinamis dan menarik secara visual merupakan kebutuhan umum di era digital saat ini. Salah satu aspek penting adalah memanipulasi properti light rig untuk meningkatkan estetika keseluruhan. Tutorial ini akan memandu Anda melalui proses mendapatkan data rig cahaya yang efektif dalam slide presentasi menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -68,9 +64,3 @@ Aspose.Slides terutama mendukung bahasa .NET seperti C#. Namun, produk serupa te
  Kunjungi forum dukungan[Di Sini](https://forum.aspose.com/c/slides/11).
 ### Bisakah saya membeli lisensi sementara untuk Aspose.Slides untuk .NET?
  Ya, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

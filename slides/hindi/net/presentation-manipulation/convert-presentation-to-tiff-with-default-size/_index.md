@@ -3,14 +3,10 @@ title: प्रस्तुति को डिफ़ॉल्ट आकार 
 linktitle: प्रस्तुति को डिफ़ॉल्ट आकार के साथ TIFF में बदलें
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: जानें कि Aspose.Slides for .NET का उपयोग करके आसानी से प्रस्तुतियों को उनके डिफ़ॉल्ट आकार के साथ TIFF छवियों में कैसे परिवर्तित किया जाए।
+type: docs
 weight: 27
 url: /hi/net/presentation-manipulation/convert-presentation-to-tiff-with-default-size/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## परिचय
 
@@ -90,9 +86,3 @@ presentation.Save("output.tiff", SaveFormat.Tiff,options);
 ### मैं Aspose.Slides for .NET के बारे में अधिक जानकारी कहां पा सकता हूं?
 
  विस्तृत दस्तावेज़ीकरण और उदाहरणों के लिए, यहां जाएं[.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

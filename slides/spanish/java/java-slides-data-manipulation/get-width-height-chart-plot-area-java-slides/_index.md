@@ -3,14 +3,10 @@ title: Obtenga ancho y alto del área de trazado del gráfico en diapositivas de
 linktitle: Obtenga ancho y alto del área de trazado del gráfico en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a recuperar las dimensiones del área del trazado del gráfico en Java Slides usando Aspose.Slides para Java. Mejore sus habilidades de automatización de PowerPoint.
+type: docs
 weight: 21
 url: /es/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introducción
 
@@ -113,10 +109,3 @@ Sí, Aspose.Slides para Java es una poderosa biblioteca para automatizar tareas 
 ### ¿Cómo puedo obtener más información sobre Aspose.Slides para Java?
 
  Puede encontrar documentación extensa y ejemplos en la página de documentación de Aspose.Slides para Java.[aquí](https://reference.aspose.com/slides/java/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

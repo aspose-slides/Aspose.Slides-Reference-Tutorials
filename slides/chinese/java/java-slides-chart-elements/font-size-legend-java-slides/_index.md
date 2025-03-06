@@ -3,14 +3,10 @@ title: Java 幻灯片中的字体大小图例
 linktitle: Java 幻灯片中的字体大小图例
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 增强 PowerPoint 演示文稿。在我们的分步指南中了解如何自定义图例字体大小等。
+type: docs
 weight: 13
 url: /zh/java/chart-elements/font-size-legend-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 幻灯片中字体大小图例介绍
 
@@ -139,9 +135,3 @@ chart.getAxes().getVerticalAxis().setMaxValue(10);
 ### 在哪里可以找到有关 Aspose.Slides 的更多信息和文档？
 
 您可以在 Aspose 文档网站上找到 Aspose.Slides for Java 的全面文档和 API 参考。访问[这里](https://reference.aspose.com/slides/java/)有关使用该库的详细信息。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

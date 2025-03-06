@@ -3,14 +3,10 @@ title: Java 슬라이드의 업데이트 차트 데이터로 외부 통합 문�
 linktitle: Java 슬라이드의 업데이트 차트 데이터로 외부 통합 문서 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 외부 통합 문서를 설정하고 Java 슬라이드에서 차트 데이터를 업데이트하는 방법을 알아보세요. PowerPoint 자동화 기술을 향상하세요.
+type: docs
 weight: 20
 url: /ko/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 슬라이드에서 차트 데이터 업데이트로 외부 통합 문서 설정 소개
 
@@ -103,9 +99,3 @@ finally
 ### Aspose.Slides for Java에 대한 추가 문서와 리소스는 어디에서 찾을 수 있나요?
 
  자세한 문서와 추가 리소스를 보려면 Aspose.Slides for Java 문서를 방문하세요.[여기](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

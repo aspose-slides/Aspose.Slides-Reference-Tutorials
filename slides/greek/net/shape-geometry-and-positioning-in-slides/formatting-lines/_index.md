@@ -3,14 +3,10 @@ title: Μορφοποίηση γραμμών παρουσίασης με Aspose.
 linktitle: Μορφοποίηση γραμμών σε διαφάνειες παρουσίασης χρησιμοποιώντας το Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Βελτιώστε τις διαφάνειες παρουσίασής σας με το Aspose.Slides για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για να μορφοποιήσετε τις γραμμές χωρίς κόπο. Κατεβάστε τη δωρεάν δοκιμή τώρα!
+type: docs
 weight: 10
 url: /el/net/shape-geometry-and-positioning-in-slides/formatting-lines/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Η δημιουργία οπτικά ελκυστικών διαφανειών παρουσίασης είναι απαραίτητη για την αποτελεσματική επικοινωνία. Το Aspose.Slides for .NET παρέχει μια ισχυρή λύση για το χειρισμό και τη μορφοποίηση στοιχείων παρουσίασης μέσω προγραμματισμού. Σε αυτό το σεμινάριο, θα επικεντρωθούμε στη μορφοποίηση γραμμών σε διαφάνειες παρουσίασης χρησιμοποιώντας το Aspose.Slides για .NET.
 ## Προαπαιτούμενα
@@ -79,9 +75,3 @@ pres.Save(dataDir + "RectShpLn_out.pptx", SaveFormat.Pptx);
  Μπορείτε να πάρετε μια προσωρινή άδεια από[Aspose.Slides Προσωρινή Άδεια](https://purchase.aspose.com/temporary-license/).
 ### Ε5: Πού μπορώ να αγοράσω Aspose.Slides για .NET;
  Μπορείτε να αγοράσετε το προϊόν από[Aspose.Slides Αγορά](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

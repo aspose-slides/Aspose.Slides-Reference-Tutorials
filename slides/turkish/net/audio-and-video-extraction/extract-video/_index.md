@@ -3,14 +3,10 @@ title: Aspose.Slides for .NET Kullanarak Slayttan Video Çıkarma
 linktitle: Slayttan Video Çıkart
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak PowerPoint slaytlarından nasıl video çıkaracağınızı öğrenin. Bu adım adım kılavuz süreci sizin için basitleştirir.
+type: docs
 weight: 14
 url: /tr/net/audio-and-video-extraction/extract-video/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Aspose.Slides for .NET, PowerPoint sunumlarıyla .NET ortamında çalışmanıza olanak tanıyan güçlü bir kitaplıktır. Sağladığı kullanışlı özelliklerden biri, slaytlardan video çıkarma yeteneğidir. Bu adım adım kılavuzda, Aspose.Slides for .NET kullanarak bir PowerPoint slaytından nasıl video çıkaracağınızı göstereceğiz.
 
@@ -114,9 +110,3 @@ Aspose.Slides for .NET, içerik oluşturma, düzenleme ve çıkarma dahil olmak 
 
 ### Aspose.Slides for .NET için nereden destek alabilirim?
  Şu adreste destek bulabilirsiniz:[Aspose.Slides forumu](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

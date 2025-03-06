@@ -3,14 +3,10 @@ title: Lägg till Donut Callout i Java Slides
 linktitle: Lägg till Donut Callout i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig att lägga till ringtexter i Java Slides med Aspose.Slides för Java. Steg-för-steg-guide med källkod för förbättrade presentationer.
+type: docs
 weight: 12
 url: /sv/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion till att lägga till en munktext i Java Slides med Aspose.Slides för Java
 
@@ -184,9 +180,3 @@ Ja, du kan lägga till så många datapunkter som behövs i Donut-diagrammet. F�
 ### Hur kan jag justera positionen och storleken på Donut-diagrammet på bilden?
 
  Du kan ändra positionen och storleken på Donut-diagrammet genom att ändra parametrarna i`addChart` metod. De fyra siffrorna i den metoden motsvarar X- och Y-koordinaterna för diagrammets övre vänstra hörn och dess bredd respektive höjd.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

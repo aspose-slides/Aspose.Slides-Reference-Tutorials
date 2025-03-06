@@ -3,14 +3,10 @@ title: Wyczyść określone punkty danych serii wykresów za pomocą Aspose.Slid
 linktitle: Wyczyść określone punkty danych serii wykresów
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak wyczyścić określone punkty danych serii wykresów w prezentacjach programu PowerPoint za pomocą Aspose.Slides dla .NET. Przewodnik krok po kroku.
+type: docs
 weight: 13
 url: /pl/net/additional-chart-features/clear-specific-chart-series-data-points-data/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Aspose.Slides dla .NET to potężna biblioteka, która umożliwia programową pracę z prezentacjami programu PowerPoint. W tym samouczku przeprowadzimy Cię przez proces czyszczenia określonych punktów danych serii wykresów w prezentacji PowerPoint przy użyciu Aspose.Slides dla .NET. Pod koniec tego samouczka będziesz w stanie z łatwością manipulować punktami danych na wykresie.
 
@@ -99,9 +95,3 @@ Tak, możesz dostosować wygląd wykresów, modyfikując ich właściwości, tak
 
 ### Czy istnieje społeczność lub społeczność programistów Aspose.Slides dla .NET?
 Tak, możesz dołączyć do społeczności Aspose na jej forum, aby dyskutować, zadawać pytania i dzielić się swoimi doświadczeniami.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,11 @@ title: دروس Aspose.Slides لمعالجة برنامج PowerPoint
 linktitle: Aspose.Slides دروس
 additionalTitle: Aspose API المراجع
 description: إتقان معالجة العروض التقديمية باستخدام دروس Aspose.Slides. إنشاء عروض PowerPoint التقديمية وتعديلها وتحسينها بكفاءة. التفوق في معالجة المحتوى الديناميكي.
+type: docs
 weight: 10
 url: /ar/
+is_root: true
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 استكشف المجموعة الواسعة من البرامج التعليمية الخاصة بـ Aspose.Slides. اكتشف عالم معالجة العروض التقديمية بينما تتعمق في فن استخدام Aspose.Slides إلى أقصى إمكاناته. توفر هذه البرامج التعليمية إرشادات خطوة بخطوة، مما يساعدك على إتقان المهام مثل إنشاء الشرائح وتعديلها وتنسيقها وتكامل الوسائط المتعددة في عروض PowerPoint التقديمية. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا، فإن هذه الموارد تزودك بالمهارات اللازمة للتفوق في صياغة عروض تقديمية ديناميكية ومقنعة باستخدام Aspose.Slides.
 
 ## Aspose.Slides لـ .NET: واجهة برمجة تطبيقات معالجة PowerPoint
@@ -65,9 +62,3 @@ url: /ar/
 - [معالجة الصور بشرائح جافا](./java/image-handling/)
 - [حماية مستند شرائح جافا](./java/document-protection/)
 - [خيارات حفظ شرائح جافا](./java/saving-options/)
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

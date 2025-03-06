@@ -3,14 +3,10 @@ title: Tworzenie zmiennych hiperłączy w Aspose.Slides dla .NET
 linktitle: Tworzenie modyfikowalnego hiperłącza
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ulepsz swoje prezentacje programu PowerPoint za pomocą zmiennych hiperłączy za pomocą Aspose.Slides dla .NET. Zaangażuj swoją publiczność jak nigdy dotąd!
+type: docs
 weight: 14
 url: /pl/net/hyperlink-manipulation/mutable-hyperlink/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 świecie nowoczesnego oprogramowania tworzenie dynamicznych prezentacji z interaktywnymi hiperłączami ma kluczowe znaczenie dla zaangażowania odbiorców. Aspose.Slides dla .NET to potężne narzędzie, które pozwala manipulować i dostosowywać prezentacje PowerPoint, w tym tworzyć modyfikowalne hiperłącza. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces tworzenia modyfikowalnych hiperłączy za pomocą Aspose.Slides dla .NET. 
 
@@ -100,9 +96,3 @@ Absolutnie. Aspose.Slides dla .NET zapewnia rozbudowane opcje dostosowywania wyg
 
 ### 5. Czy Aspose.Slides dla .NET nadaje się do tworzenia interaktywnych treści e-learningowych?
 Tak, Aspose.Slides dla .NET to wszechstronne narzędzie, które można wykorzystać do tworzenia interaktywnych treści e-learningowych, w tym hiperłączy, quizów i elementów multimedialnych.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

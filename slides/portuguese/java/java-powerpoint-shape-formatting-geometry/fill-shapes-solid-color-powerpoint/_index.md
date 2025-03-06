@@ -3,14 +3,10 @@ title: Preencher formas com cor sólida no PowerPoint
 linktitle: Preencher formas com cor sólida no PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como preencher formas com cores sólidas no PowerPoint usando Aspose.Slides para Java. Um guia passo a passo para desenvolvedores.
+type: docs
 weight: 13
 url: /pt/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 Se você já trabalhou com apresentações do PowerPoint, sabe que adicionar formas e personalizar suas cores pode ser um aspecto crucial para tornar seus slides visualmente atraentes e informativos. Com Aspose.Slides for Java, esse processo se torna muito fácil. Seja você um desenvolvedor que deseja automatizar a criação de apresentações em PowerPoint ou alguém interessado em adicionar um toque de cor aos seus slides, este tutorial irá guiá-lo através do processo de preenchimento de formas com cores sólidas usando Aspose.Slides para Java.
 ## Pré-requisitos
@@ -89,9 +85,3 @@ Sim, Aspose.Slides for Java permite abrir, editar e salvar apresentações exist
  Sim, você pode baixar uma versão de avaliação gratuita no site[Aspor site](https://releases.aspose.com/).
 ### Onde posso encontrar mais documentação e suporte?
  A documentação detalhada está disponível no site[Aspor site](https://reference.aspose.com/slides/java/) e você pode buscar suporte no[Aspor fóruns](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

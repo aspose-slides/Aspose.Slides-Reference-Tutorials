@@ -3,14 +3,10 @@ title: Dodaj przesunięcie rozciągania dla wypełnienia obrazem w programie Pow
 linktitle: Dodaj przesunięcie rozciągania dla wypełnienia obrazem w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodać przesunięcie rozciągania do wypełnienia obrazem w prezentacjach programu PowerPoint za pomocą Aspose.Slides dla Java. W zestawie tutorial krok po kroku.
+type: docs
 weight: 16
 url: /pl/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 W tym samouczku dowiesz się, jak używać Aspose.Slides dla Java, aby dodać przesunięcie rozciągania przy wypełnianiu obrazu w prezentacjach programu PowerPoint. Ta funkcja umożliwia manipulowanie obrazami na slajdach, co daje większą kontrolę nad ich wyglądem.
 ## Warunki wstępne
@@ -68,9 +64,3 @@ Aspose.Slides for Java może obsługiwać obrazy o różnych rozmiarach, ale zal
 Tak, możesz zastosować szeroką gamę efektów i transformacji do obrazów, korzystając z rozbudowanego API Aspose.Slides for Java.
 ### Gdzie mogę znaleźć więcej zasobów i wsparcia dla Aspose.Slides dla Java?
  Możesz odwiedzić[Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/) aby uzyskać szczegółowe przewodniki i poznać[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) za wsparcie społeczności.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

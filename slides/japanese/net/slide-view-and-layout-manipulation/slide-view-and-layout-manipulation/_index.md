@@ -3,14 +3,10 @@ title: Aspose.Slides でのスライド ビューとレイアウト操作
 linktitle: Aspose.Slides でのスライド ビューとレイアウト操作
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint のスライド ビューとレイアウトを操作する方法を学習します。コード例を使用したステップ バイ ステップ ガイドです。
+type: docs
 weight: 10
 url: /ja/net/slide-view-and-layout-manipulation/slide-view-and-layout-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ソフトウェア開発の世界では、PowerPoint プレゼンテーションをプログラムで作成および操作することが一般的な要件です。Aspose.Slides for .NET は、開発者が PowerPoint ファイルをシームレスに操作できるようにする強力なツールキットを提供します。プレゼンテーションの操作で重要な側面の 1 つは、スライド ビューとレイアウトの操作です。このガイドでは、Aspose.Slides for .NET を使用してスライド ビューとレイアウトを管理するプロセスを詳しく説明し、ステップ バイ ステップの手順とコード例を示します。
 
@@ -136,10 +132,3 @@ presentation.Save("modified.pptx", SaveFormat.Pptx);
 ## 結論
 
 Aspose.Slides for .NET は、PowerPoint プレゼンテーションをプログラムで操作するプロセスを簡素化します。このガイドでは、スライドの表示とレイアウト操作の基本的な手順について説明しました。プレゼンテーションの読み込みからスライド コンテンツのカスタマイズまで、Aspose.Slides は、開発者がダイナミックで魅力的なプレゼンテーションを簡単に作成するための強力なツールキットを提供します。
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

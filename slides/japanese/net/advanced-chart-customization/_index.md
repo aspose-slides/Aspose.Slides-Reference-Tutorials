@@ -3,14 +3,10 @@ title: 高度なチャートカスタマイズ
 linktitle: 高度なチャートカスタマイズ
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、高度なグラフのカスタマイズによりプレゼンテーションを強化します。視覚的に魅力的なグラフを作成し、ニーズに合わせてカスタマイズする方法を学びます。
+type: docs
 weight: 23
 url: /ja/net/advanced-chart-customization/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 導入
 
@@ -37,9 +33,3 @@ Aspose.Slides for .NET を使用してデータの視覚化を強化する方法
 Aspose.Slides for .NET を使用してチャートのトレンド ラインを作成する方法を学びます。ステップ バイ ステップのガイダンスとコード例を使用して、データの視覚化を強化します。
 ### [グラフのエンティティと書式設定](./chart-entities/)
 Aspose.Slides for .NET を使用して、PowerPoint で動的なグラフを作成し、書式設定する方法を学びます。ソース コード付きのステップ バイ ステップ ガイド。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

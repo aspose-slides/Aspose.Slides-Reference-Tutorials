@@ -3,14 +3,10 @@ title: تحقق من حماية العرض التقديمي في شرائح Java
 linktitle: تحقق من حماية العرض التقديمي في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية التحقق من حماية العرض التقديمي في شرائح Java باستخدام Aspose.Slides لـ Java. يوفر هذا الدليل خطوة بخطوة أمثلة على التعليمات البرمجية لعمليات التحقق من الحماية أثناء الكتابة والفتح.
+type: docs
 weight: 15
 url: /ar/java/presentation-properties/check-presentation-protection-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة للتحقق من حماية العرض التقديمي في شرائح جافا
 
@@ -117,9 +113,3 @@ if (presentationInfo.isPasswordProtected())
 ### هل يتوافق Aspose.Slides for Java مع أحدث تنسيقات ملفات PowerPoint؟
 
 نعم، يدعم Aspose.Slides for Java أحدث تنسيقات ملفات PowerPoint، بما في ذلك ملفات .pptx.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Videokeret hozzáadása a webforrásból a PowerPointban
 linktitle: Videokeret hozzáadása a webforrásból a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan javíthatja PowerPoint-prezentációit webes forrásokból származó videokockák hozzáadásával az Aspose.Slides for Java segítségével.
+type: docs
 weight: 18
 url: /hu/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Ebből az oktatóanyagból megtudjuk, hogyan adhatunk hozzá egy webes forrásból, például a YouTube-ból származó videokeretet egy PowerPoint-prezentációhoz az Aspose.Slides for Java segítségével. Ha követi ezeket a lépésenkénti utasításokat, lenyűgöző multimédiás elemek beépítésével javíthatja prezentációit.
 ## Előfeltételek
@@ -88,9 +84,3 @@ Teljesen! Az Aspose.Slides kiterjedt lehetőségeket kínál a videokockák megj
 Az Aspose.Slides a PowerPoint verziók széles skáláját támogatja, biztosítva a kompatibilitást a különböző platformokon.
 ### Hol találok további forrásokat és támogatást az Aspose.Slides számára?
  Meglátogathatja a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) segítségért, dokumentációért és közösségi támogatásért.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

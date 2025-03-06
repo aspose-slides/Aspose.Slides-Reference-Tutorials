@@ -3,14 +3,10 @@ title: Gestion du texte et des paragraphes Java PowerPoint
 linktitle: Gestion du texte et des paragraphes Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Maîtrisez la gestion des textes et des paragraphes Java PowerPoint avec Aspose.Slides. Apprenez à importer du texte HTML, à gérer l'espacement des lignes, à créer des puces et à aligner des paragraphes.
+type: docs
 weight: 26
 url: /fr/java/java-powerpoint-text-paragraph-management/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 
 La création de présentations PowerPoint bien structurées et visuellement attrayantes peut améliorer considérablement votre communication. Avec Aspose.Slides pour Java, la gestion du texte et des paragraphes devient une tâche simple. Que vous ayez besoin d'importer du texte HTML, de gérer l'espacement des lignes ou de créer des puces à plusieurs niveaux, nos didacticiels détaillés vous guideront tout au long du processus. Voyons comment vous pouvez faire passer vos présentations Java PowerPoint au niveau supérieur.
@@ -59,9 +55,3 @@ Découvrez comment ajouter des puces de paragraphe dans les diapositives PowerPo
 Découvrez comment définir le retrait des paragraphes dans les diapositives PowerPoint par programmation à l'aide d'Aspose.Slides pour Java. Améliorez la mise en forme de votre présentation sans effort.
 ### [Aligner les paragraphes dans PowerPoint à l'aide de Java](./align-paragraphs-powerpoint-java/)
 Découvrez comment aligner des paragraphes dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Suivez notre guide étape par étape pour un formatage précis.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Fügen Sie Datenpunkten in Java-Folien Farbe hinzu
 linktitle: Fügen Sie Datenpunkten in Java-Folien Farbe hinzu
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Datenpunkten in Java-Folien Farbe hinzufügen.
+type: docs
 weight: 10
 url: /de/java/chart-data-manipulation/add-color-data-points-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung in das Hinzufügen von Farbe zu Datenpunkten in Java-Folien
 
@@ -121,9 +117,3 @@ Um die Farbe anderer Datenpunkte zu ändern, können Sie einen ähnlichen Ansatz
 ### Wo finde ich weitere Beispiele und Dokumentation?
 
  Weitere Beispiele und eine ausführliche Dokumentation zur Verwendung von Aspose.Slides für Java finden Sie auf der[Aspose.Slides-Dokumentation](https://reference.aspose.com/slides/java/) Webseite.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

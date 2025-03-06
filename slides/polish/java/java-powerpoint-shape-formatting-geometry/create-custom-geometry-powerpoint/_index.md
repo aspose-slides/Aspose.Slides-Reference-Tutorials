@@ -3,14 +3,10 @@ title: Utwórz niestandardową geometrię w programie PowerPoint
 linktitle: Utwórz niestandardową geometrię w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak tworzyć niestandardowe kształty geometryczne w programie PowerPoint przy użyciu Aspose.Slides dla Java. Ten przewodnik pomoże Ci ulepszyć swoje prezentacje dzięki unikalnym kształtom.
+type: docs
 weight: 21
 url: /pl/java/java-powerpoint-shape-formatting-geometry/create-custom-geometry-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 Tworzenie niestandardowych kształtów i geometrii w programie PowerPoint może znacznie poprawić atrakcyjność wizualną prezentacji. Aspose.Slides dla Java to potężna biblioteka, która umożliwia programistom programowe manipulowanie plikami programu PowerPoint. W tym samouczku dowiemy się, jak utworzyć niestandardową geometrię, w szczególności kształt gwiazdy, na slajdzie programu PowerPoint za pomocą Aspose.Slides dla Java. Zanurzmy się!
 ## Warunki wstępne
@@ -110,9 +106,3 @@ Aspose.Slides dla Java oferuje bezpłatną wersję próbną. Aby móc korzystać
 Nie jest wymagana żadna specjalna konfiguracja poza zainstalowaniem JDK i włączeniem biblioteki Aspose.Slides do projektu.
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Slides?
  Możesz uzyskać wsparcie od[Forum wsparcia Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Přizpůsobení a formátování snímků Java
 linktitle: Přizpůsobení a formátování snímků Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Objevte sílu Aspose.Slides pro Java při přizpůsobování a formátování snímků Java. Naučte se krok za krokem v našich návodech. Zvyšte své prezentační dovednosti.
+type: docs
 weight: 12
 url: /cs/java/customization-and-formatting/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
  V tomto článku se ponoříme do světa přizpůsobení a formátování snímků Java pomocí Aspose.Slides for Java. Ať už jste zkušený vývojář nebo s Java prezentacemi teprve začínáte, náš seznam výukových programů bude vaším průvodcem, jak využít plný potenciál Aspose.Slides.|
 
@@ -53,9 +49,3 @@ Naučte se, jak nastavit vlastnosti písma v Java slidech pomocí Aspose.Slides 
 Vylepšete své grafy pomocí Aspose.Slides pro Java. Naučte se, jak nastavit poziční osu na snímcích Java, vytvářet úžasné prezentace a snadno přizpůsobit rozvržení grafu.
 ### [Nastavení úhlu otočení v Java Slides](./setting-rotation-angle-java-slides/)
 Optimalizujte své snímky Java pomocí Aspose.Slides pro Java. Naučte se nastavovat úhly natočení pro textové prvky. Průvodce krok za krokem se zdrojovým kódem.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Diagram formázás és animáció
 linktitle: Diagram formázás és animáció
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Fokozza bemutatóit dinamikus diagramokkal az Aspose.Slides for .NET segítségével. Ismerje meg a diagramformázást és az animációt lépésről lépésre. Növelje prezentációs készségeit még ma!
+type: docs
 weight: 22
 url: /hu/net/chart-formatting-and-animation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés
 
@@ -39,9 +35,3 @@ Ismerje meg, hogyan adhat lenyűgöző animációkat a diagramkategória elemeih
 Ismerje meg, hogyan animálhat diagramsorozatokat az Aspose.Slides for .NET használatával. Hozzon létre dinamikus prezentációkat lenyűgöző adatvizualizációkkal.
 ### [Animációs sorozatelemek a diagramon](./animating-series-elements/)
 Tanuljon meg animálni diagramsorozatokat az Aspose.Slides for .NET használatával. Hozzon létre lenyűgöző prezentációkat dinamikus látványelemekkel. Szakértői útmutató kódpéldákkal.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

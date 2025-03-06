@@ -3,14 +3,10 @@ title: Ορισμός εναλλακτικής γραμματοσειράς στ
 linktitle: Ορισμός εναλλακτικής γραμματοσειράς στο Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε εναλλακτικές γραμματοσειρές στο Java PowerPoint χρησιμοποιώντας το Aspose.Slides για Java για να εξασφαλίσετε συνεπή εμφάνιση κειμένου.
+type: docs
 weight: 16
 url: /el/java/java-powerpoint-text-font-customization/set-font-fallback-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εμβαθύνουμε στις περιπλοκές της ρύθμισης εναλλακτικών γραμματοσειρών σε παρουσιάσεις Java PowerPoint χρησιμοποιώντας Aspose.Slides για Java. Οι εναλλακτικές γραμματοσειρές είναι ζωτικής σημασίας για τη διασφάλιση ότι το κείμενο στις παρουσιάσεις σας εμφανίζεται σωστά σε διαφορετικές συσκευές και λειτουργικά συστήματα, ακόμη και όταν οι απαιτούμενες γραμματοσειρές δεν είναι διαθέσιμες.
 ## Προαπαιτούμενα
@@ -57,9 +53,3 @@ slide.getFontsManager().setFontFallBackRules(new IFontFallBackRule[]{firstRule, 
 Ναι, μπορείτε να λάβετε προσωρινές άδειες για προϊόντα Aspose από[εδώ](https://purchase.aspose.com/temporary-license/).
 ### Πού μπορώ να βρω υποστήριξη για το Aspose.Slides για Java;
  Για υποστήριξη σχετικά με το Aspose.Slides για Java, επισκεφθείτε τη διεύθυνση[Aspose φόρουμ](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

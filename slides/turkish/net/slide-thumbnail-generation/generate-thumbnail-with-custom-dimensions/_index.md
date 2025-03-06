@@ -3,14 +3,10 @@ title: Özel Boyutlu Slaytlarda Küçük Resim Oluşturma
 linktitle: Özel Boyutlarla Küçük Resim Oluşturun
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak PowerPoint sunumlarından özel küçük resimler oluşturmayı öğrenin. Kullanıcı deneyimini ve işlevselliğini geliştirin.
+type: docs
 weight: 13
 url: /tr/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 İster etkileşimli bir uygulama oluşturuyor olun, ister kullanıcı deneyimini geliştiriyor olun, ister içeriği çeşitli platformlar için optimize ediyor olun, PowerPoint sunumlarınızın özel küçük resim görüntülerini oluşturmak değerli bir varlık olabilir. Bu eğitimde, Aspose.Slides for .NET kütüphanesini kullanarak PowerPoint sunumlarından özel küçük resimler oluşturma sürecinde size rehberlik edeceğiz. Bu güçlü kitaplık, PowerPoint dosyalarını .NET uygulamalarında programlı olarak değiştirmenize, dönüştürmenize ve geliştirmenize olanak tanır.
 
@@ -119,9 +115,3 @@ Biraz .NET programlama bilgisi faydalı olsa da Aspose.Slides for .NET, PowerPoi
 
 ### Aspose.Slides for .NET için teknik destek mevcut mu?
  Evet, teknik desteğe ve topluluk forumlarına erişebilirsiniz[Burada](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java Slaytlar Grafik Öğeleri
 linktitle: Java Slaytlar Grafik Öğeleri
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Kapsamlı eğitimlerimizle Aspose.Slides for Java'yı kullanarak Java slaytlarında dinamik grafikler oluşturmayı öğrenin. Bugün sunum becerilerinizi geliştirin!
+type: docs
 weight: 15
 url: /tr/java/chart-elements/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Sunum becerilerinizi bir sonraki seviyeye taşımaya hazır mısınız? Aspose.Slides for Java'yı kullanarak Java slaytlarındaki dinamik grafiklerin dünyasına dalın. Bu kapsamlı kılavuzda, grafik öğelerinde uzmanlaşmak ve sunumlarınızı gerçekten öne çıkarmak için bilmeniz gereken her şeyi size anlatacağız.
 
@@ -62,9 +58,3 @@ Adım adım eğitimlerle Aspose.Slides for Java'yı keşfedin. Çarpıcı huni g
 Aspose.Slides for Java ile PowerPoint Sunumlarında Çarpıcı Harita Grafikleri oluşturun. Java geliştiricileri için adım adım kılavuz ve kaynak kodu.
 ### [Java Slaytlarında Güneş Patlaması Grafiği](./sunburst-chart-java-slides/)
 Aspose.Slides ile Java Slaytlarında Çarpıcı Sunburst Grafikleri oluşturun. Adım Adım Grafik Oluşturmayı ve Veri İşlemeyi Öğrenin.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

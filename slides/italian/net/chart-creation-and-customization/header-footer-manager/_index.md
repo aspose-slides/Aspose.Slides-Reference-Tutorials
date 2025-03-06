@@ -3,14 +3,10 @@ title: Gestisci intestazione e piè di pagina nelle diapositive
 linktitle: Gestisci intestazione e piè di pagina nelle diapositive
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come aggiungere intestazioni e piè di pagina dinamici nelle presentazioni di PowerPoint utilizzando Aspose.Slides per .NET.
+type: docs
 weight: 14
 url: /it/net/chart-creation-and-customization/header-footer-manager/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 # Creazione di intestazioni e piè di pagina dinamici in Aspose.Slides per .NET
 
@@ -135,9 +131,3 @@ A2: Sì, puoi esplorare una prova gratuita di Aspose.Slides per .NET[Qui](https:
 
 ### Q5: esiste una community o un forum di supporto per Aspose.Slides per .NET?
  A5: Sì, è possibile visitare il forum di supporto Aspose.Slides per .NET[Qui](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

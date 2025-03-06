@@ -3,14 +3,10 @@ title: Få positionskoordinater för del i Java Slides
 linktitle: Få positionskoordinater för del i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig att hämta textdelkoordinater i Java-bilder med Aspose.Slides för Java API. Få exakt kontroll över textplacering i PowerPoint-presentationer.
+type: docs
 weight: 12
 url: /sv/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion till att få positionskoordinater för del i Java Slides
 
@@ -124,9 +120,3 @@ Ja, Aspose.Slides för Java stöder olika PowerPoint-filformat, inklusive PPTX, 
 ### Hur kan jag få ytterligare support eller hjälp med Aspose.Slides för Java?
 
 Du kan komma åt ytterligare support och resurser på Asposes webbplats. De tillhandahåller forum, dokumentation och premiumsupportalternativ för användare.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

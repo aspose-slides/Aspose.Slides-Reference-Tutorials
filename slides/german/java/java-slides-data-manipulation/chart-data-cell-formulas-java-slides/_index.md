@@ -3,14 +3,10 @@ title: Diagrammdatenzellenformeln in Java-Folien
 linktitle: Diagrammdatenzellenformeln in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Diagrammdatenzellenformeln in Java PowerPoint-Präsentationen festlegen. Erstellen Sie dynamische Diagramme mit Formeln.
+type: docs
 weight: 11
 url: /de/java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung in Diagrammdatenzellenformeln in Aspose.Slides für Java
 
@@ -126,9 +122,3 @@ Ja, Sie können in Datenzellenformeln verschiedene Arten von Formeln verwenden, 
 ### Wie ändere ich den Diagrammtyp?
 
  Sie können den Diagrammtyp ändern, indem Sie das`setChartType` Methode auf der`IChart` Objekt und Angabe der gewünschten`ChartType`.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

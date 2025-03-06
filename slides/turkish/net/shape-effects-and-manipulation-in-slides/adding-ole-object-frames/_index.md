@@ -3,14 +3,10 @@ title: Aspose.Slides ile Sunuma OLE Nesne Çerçeveleri Ekleme
 linktitle: Aspose.Slides ile Sunuma OLE Nesne Çerçeveleri Ekleme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Dinamik içerikle PowerPoint sunumlarını nasıl geliştireceğinizi öğrenin! Aspose.Slides for .NET'i kullanarak adım adım kılavuzumuzu izleyin. Şimdi etkileşimi artırın!
+type: docs
 weight: 15
 url: /tr/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 Bu eğitimde, Aspose.Slides for .NET'i kullanarak OLE (Nesne Bağlama ve Gömme) Nesne Çerçevelerini Sunum Slaytlarına ekleme sürecini ayrıntılı olarak ele alacağız. Aspose.Slides, geliştiricilerin PowerPoint dosyalarıyla programlı olarak çalışmasını sağlayan güçlü bir kütüphanedir. OLE nesnelerini sunum slaytlarınıza sorunsuz bir şekilde eklemek ve PowerPoint dosyalarınızı dinamik ve etkileşimli içerikle geliştirmek için bu adım adım kılavuzu izleyin.
 ## Önkoşullar
@@ -88,9 +84,3 @@ C: Evet, Aspose.Slides, PPTX dahil en yeni PowerPoint dosya formatlarını deste
 C: Kesinlikle OLE Nesne Çerçevesinin boyutunu, konumunu ve diğer özelliklerini tercihlerinize göre ayarlayabilirsiniz.
 ### S: Uygulama sırasında zorluklarla karşılaşırsam nereden yardım alabilirim?
  C: Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği ve rehberlik için.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

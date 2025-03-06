@@ -3,14 +3,10 @@ title: Hướng dẫn nhúng khung video với Aspose.Slides cho .NET
 linktitle: Thêm khung hình video từ nguồn web trong các slide thuyết trình với Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách nhúng liền mạch các khung hình video vào trang chiếu PowerPoint bằng Aspose.Slides for .NET. Cải thiện bài thuyết trình với đa phương tiện một cách dễ dàng.
+type: docs
 weight: 20
 url: /vi/net/shape-effects-and-manipulation-in-slides/adding-video-frames-from-web-source/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Trong thế giới năng động của các bài thuyết trình, việc kết hợp các yếu tố đa phương tiện có thể tăng cường đáng kể mức độ tương tác và truyền tải các thông điệp có sức ảnh hưởng. Một cách hiệu quả để đạt được điều này là nhúng các khung hình video vào các slide thuyết trình. Trong hướng dẫn này, chúng ta sẽ khám phá cách thực hiện điều này một cách liền mạch bằng Aspose.Slides cho .NET. Aspose.Slides là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các bản trình bày PowerPoint theo chương trình, cung cấp các khả năng mở rộng để tạo, chỉnh sửa và nâng cao các trang trình bày.
 ## Điều kiện tiên quyết
@@ -79,9 +75,3 @@ Aspose.Slides được cập nhật thường xuyên để duy trì khả năng 
 Có, bạn có thể nhúng nhiều video bằng cách thêm các khung hình video bổ sung vào một trang chiếu.
 ### Tôi có thể tìm hỗ trợ cho các truy vấn liên quan đến Aspose.Slides ở đâu?
  Tham quan[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được cộng đồng hỗ trợ và thảo luận.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

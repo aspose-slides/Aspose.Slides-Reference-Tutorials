@@ -3,14 +3,10 @@ title: Como remover notas em um slide específico com Aspose.Slides .NET
 linktitle: Remover notas em slide específico
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como remover notas de um slide específico no PowerPoint usando Aspose.Slides for .NET. Simplifique suas apresentações sem esforço.
+type: docs
 weight: 12
 url: /pt/net/notes-slide-manipulation/remove-notes-at-specific-slide/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Neste guia passo a passo, orientaremos você no processo de remoção de notas em um slide específico em uma apresentação do PowerPoint usando Aspose.Slides for .NET. Aspose.Slides é uma biblioteca poderosa que permite trabalhar com arquivos do PowerPoint de forma programática. Seja você um desenvolvedor ou alguém que deseja automatizar tarefas em apresentações do PowerPoint, este tutorial o ajudará a conseguir isso com facilidade.
 
@@ -86,9 +82,3 @@ Embora algum conhecimento de programação seja útil, Aspose.Slides fornece doc
 
 ### Existe uma versão de teste do Aspose.Slides for .NET disponível?
 Sim, você pode explorar o Aspose.Slides baixando uma avaliação gratuita em[aqui](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

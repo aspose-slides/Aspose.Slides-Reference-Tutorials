@@ -3,14 +3,10 @@ title: Σύγχρονη διαχείριση σχολίων με χρήση Aspo
 linktitle: Διαχείριση Σύγχρονων Σχόλια
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να διαχειρίζεστε σύγχρονα σχόλια σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Συνεργαστείτε αβίαστα!
+type: docs
 weight: 14
 url: /el/net/slide-comments-manipulation/modern-comments/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Το Aspose.Slides for .NET είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να εργάζονται με παρουσιάσεις PowerPoint μέσω προγραμματισμού. Μία από τις δυνατότητες που προσφέρει είναι η σύγχρονη διαχείριση σχολίων, η οποία σας δίνει τη δυνατότητα να προσθέτετε, να τροποποιείτε και να αλληλεπιδράτε με σχόλια στις παρουσιάσεις σας απρόσκοπτα. Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία διαχείρισης σύγχρονων σχολίων χρησιμοποιώντας το Aspose.Slides για .NET.
 
@@ -113,9 +109,3 @@ pres.Save(outPptxFile, SaveFormat.Pptx);
 ### 5. Μπορώ να δοκιμάσω το Aspose.Slides για .NET πριν το αγοράσω;
 
  Σίγουρα! Μπορείτε να αποκτήσετε πρόσβαση σε μια δωρεάν δοκιμαστική έκδοση του Aspose.Slides για .NET από το[δωρεάν δοκιμαστικό σύνδεσμο](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

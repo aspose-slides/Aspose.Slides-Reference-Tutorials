@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में डेटा बिंद
 linktitle: जावा स्लाइड्स में डेटा बिंदुओं में रंग जोड़ें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में डेटा बिंदुओं में रंग जोड़ना सीखें।
+type: docs
 weight: 10
 url: /hi/java/chart-data-manipulation/add-color-data-points-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## जावा स्लाइड्स में डेटा बिंदुओं में रंग जोड़ने का परिचय
 
@@ -121,9 +117,3 @@ finally
 ### मैं और अधिक उदाहरण और दस्तावेज कहां पा सकता हूं?
 
  आप जावा के लिए Aspose.Slides का उपयोग करने पर अधिक उदाहरण और विस्तृत दस्तावेज़ पा सकते हैं[Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/) वेबसाइट।
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

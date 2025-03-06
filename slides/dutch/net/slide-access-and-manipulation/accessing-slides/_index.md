@@ -3,14 +3,10 @@ title: Dia's openen in Aspose.Slides
 linktitle: Dia's openen in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-dia's programmatisch kunt openen en manipuleren met Aspose.Slides voor .NET. Deze stapsgewijze handleiding behandelt het laden, wijzigen en opslaan van presentaties, samen met broncodevoorbeelden.
+type: docs
 weight: 10
 url: /nl/net/slide-access-and-manipulation/accessing-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot Aspose.Slides voor .NET
 
@@ -138,9 +134,3 @@ Ja, Aspose.Slides ondersteunt verschillende PowerPoint-formaten, waaronder PPT, 
 ### Is Aspose.Slides geschikt om vanaf het begin presentaties te maken?
 
 Absoluut! Met Aspose.Slides kunt u geheel nieuwe presentaties maken, dia's toevoegen, lay-outs instellen en deze vullen met inhoud, waardoor u volledige controle krijgt over het creatieproces van de presentatie.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

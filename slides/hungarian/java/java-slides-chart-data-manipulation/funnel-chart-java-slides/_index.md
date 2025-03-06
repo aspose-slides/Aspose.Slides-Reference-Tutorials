@@ -3,14 +3,10 @@ title: Tölcsérdiagram a Java Slides-ben
 linktitle: Tölcsérdiagram a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre csatornadiagramokat PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal az adatok hatékony megjelenítéséhez.
+type: docs
 weight: 18
 url: /hu/java/chart-data-manipulation/funnel-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés a tölcsérdiagram létrehozásába az Aspose.Slides for Java programban
 
@@ -141,9 +137,3 @@ A tölcsérdiagram helyzetét és méretét módosíthatja a megadott koordinát
 ### Exportálhatom a diagramot különböző formátumokba, például PDF-be vagy képbe?
 
 Igen, az Aspose.Slides for Java lehetővé teszi a prezentáció tölcsérdiagrammal történő exportálását különféle formátumokba, beleértve a PDF-et, képformátumokat stb. Használhatja a`SaveFormat` opciók a kívánt kimeneti formátum megadásához a prezentáció mentésekor.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

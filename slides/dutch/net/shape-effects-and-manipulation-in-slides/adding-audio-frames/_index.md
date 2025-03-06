@@ -3,14 +3,10 @@ title: Audioframes toevoegen aan presentatiedia's met Aspose.Slides
 linktitle: Audioframes toevoegen aan presentatiedia's met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter presentaties met Aspose.Slides voor .NET! Leer hoe u naadloos audioframes kunt toevoegen, zodat u uw publiek als nooit tevoren kunt boeien.
+type: docs
 weight: 14
 url: /nl/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 In de dynamische wereld van presentaties kan het opnemen van audio-elementen de algehele ervaring voor uw publiek aanzienlijk verbeteren. Aspose.Slides voor .NET stelt ontwikkelaars in staat audioframes naadloos te integreren in presentatiedia's, waardoor een nieuwe laag van betrokkenheid en interactiviteit wordt toegevoegd. Deze stapsgewijze handleiding leidt u door het proces van het toevoegen van audioframes aan presentatiedia's met behulp van Aspose.Slides voor .NET.
 ## Vereisten
@@ -67,9 +63,3 @@ Ja, Aspose.Slides biedt flexibiliteit bij het configureren van afspeelinstelling
  Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) om hulp te zoeken en betrokken te raken bij de gemeenschap.
 ### Hoe koop ik Aspose.Slides voor .NET?
  U kunt de bibliotheek aanschaffen bij de[Aspose-winkel](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

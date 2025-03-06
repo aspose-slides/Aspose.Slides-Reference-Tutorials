@@ -3,14 +3,10 @@ title: Δημιουργήστε μικρογραφία από το Slide in Note
 linktitle: Δημιουργήστε μικρογραφία από το Slide in Notes
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε μικρογραφίες από διαφάνειες στην ενότητα σημειώσεων της παρουσίασής σας χρησιμοποιώντας το Aspose.Slides για .NET. Βελτιώστε το οπτικό σας περιεχόμενο!
+type: docs
 weight: 12
 url: /el/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Στον κόσμο των σύγχρονων παρουσιάσεων, το οπτικό περιεχόμενο είναι βασιλιάς. Η δημιουργία ελκυστικών διαφανειών είναι απαραίτητη για την αποτελεσματική επικοινωνία. Ένας τρόπος για να βελτιώσετε τις παρουσιάσεις σας είναι να δημιουργήσετε μικρογραφίες από διαφάνειες, ειδικά όταν θέλετε να δώσετε έμφαση σε συγκεκριμένες λεπτομέρειες ή να μοιραστείτε μια επισκόπηση. Το Aspose.Slides for .NET είναι ένα ισχυρό εργαλείο που μπορεί να σας βοηθήσει να το επιτύχετε απρόσκοπτα. Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας μικρογραφιών από διαφάνειες στην ενότητα σημειώσεων μιας παρουσίασης χρησιμοποιώντας το Aspose.Slides για .NET.
 
@@ -118,9 +114,3 @@ bmp.Save(dataDir + "Notes_tnail_out.jpg", System.Drawing.Imaging.ImageFormat.Jpe
 
 ### Πού μπορώ να λάβω υποστήριξη ή περαιτέρω βοήθεια με το Aspose.Slides για .NET;
  Μπορείτε να βρείτε βοήθεια και να συνεργαστείτε με την κοινότητα του Aspose στο[Aspose Support Forum](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

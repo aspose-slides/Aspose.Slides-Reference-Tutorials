@@ -3,14 +3,10 @@ title: Manipolazione della presentazione
 linktitle: Manipolazione della presentazione
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Sblocca il potenziale della manipolazione delle presentazioni con Aspose.Slides per tutorial .NET. Scopri come creare, personalizzare e migliorare dinamicamente le presentazioni PowerPoint a livello di codice. Migliora oggi stesso le tue capacità di elaborazione di PowerPoint!
+type: docs
 weight: 11
 url: /it/net/presentation-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 Nel regno dell'elaborazione di PowerPoint, Aspose.Slides per .NET emerge come un potente strumento per la manipolazione delle presentazioni. Questa raccolta di tutorial fornisce una guida completa su come sfruttare le funzionalità di Aspose.Slides per manipolare e migliorare le presentazioni a livello di codice. Dalla creazione, modifica e disposizione delle diapositive alla gestione di testo, immagini ed elementi multimediali, questi tutorial offrono un viaggio passo passo nel mondo della generazione e personalizzazione di presentazioni dinamiche. Che tu stia automatizzando le attività di presentazione, generando report o creando presentazioni interattive, questi tutorial forniscono agli sviluppatori le conoscenze per utilizzare Aspose.Slides in modo efficace.
 
 ## Manipolazione della presentazione
@@ -55,9 +51,3 @@ Scopri come esportare presentazioni PowerPoint in HTML con file CSS utilizzando 
 Scopri come eseguire la conversione SVG per presentazioni utilizzando Aspose.Slides per .NET. Questa guida completa copre istruzioni dettagliate, esempi di codice sorgente e varie opzioni di conversione SVG.
 ### [Formattazione di SVG nelle presentazioni](./formatting-svgs-in-presentations/)
 Ottimizza le tue presentazioni con straordinari SVG utilizzando Aspose.Slides per .NET. Scopri passo dopo passo come formattare i file SVG per ottenere immagini di grande impatto. Migliora il tuo gioco di presentazione oggi! 
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

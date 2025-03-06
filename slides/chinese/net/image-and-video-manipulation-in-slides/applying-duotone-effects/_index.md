@@ -3,14 +3,10 @@ title: 掌握 Aspose.Slides for .NET 中的双色调效果
 linktitle: 使用 Aspose.Slides 在演示幻灯片中应用双色调效果
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 创建引人入胜的演示幻灯片。逐步学习应用双色调效果。立即提升您的演示效果！
+type: docs
 weight: 18
 url: /zh/net/image-and-video-manipulation-in-slides/applying-duotone-effects/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 创建视觉上令人惊叹的演示幻灯片对于吸引观众至关重要。增强幻灯片效果的一种有效方法是应用双色调效果。在本教程中，我们将引导您完成使用 Aspose.Slides for .NET 在演示幻灯片中应用双色调效果的过程。
 ## 先决条件
@@ -85,9 +81,3 @@ Aspose.Slides 提供一系列图像转换效果，包括灰度、棕褐色等。
 当然。查看 Aspose.Slides 文档，了解高级自定义选项。
 ### Aspose.Slides 有试用版吗？
 是的，您可以下载免费试用版[这里](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

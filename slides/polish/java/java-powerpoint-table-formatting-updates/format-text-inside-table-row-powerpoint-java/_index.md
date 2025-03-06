@@ -3,14 +3,10 @@ title: Formatuj tekst w wierszu tabeli w programie PowerPoint przy użyciu języ
 linktitle: Formatuj tekst w wierszu tabeli w programie PowerPoint przy użyciu języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak formatować tekst w wierszach tabeli w programie PowerPoint przy użyciu programu Aspose.Slides dla języka Java. Ulepsz swoje prezentacje dzięki naszemu przewodnikowi krok po kroku.
+type: docs
 weight: 12
 url: /pl/java/java-powerpoint-table-formatting-updates/format-text-inside-table-row-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 Podczas pracy z prezentacjami tworzenie atrakcyjnych wizualnie slajdów jest niezbędne, aby utrzymać zaangażowanie odbiorców. Formatowanie tekstu wewnątrz wierszy tabeli może znacznie poprawić czytelność i estetykę slajdów. W tym samouczku omówimy, jak sformatować tekst w wierszu tabeli w programie PowerPoint przy użyciu Aspose.Slides dla Java.
 ## Warunki wstępne
@@ -89,9 +85,3 @@ Aspose.Slides jest dostępny dla kilku platform, w tym .NET i C++. Jednak w przy
  Tak, możesz kupić licencję w witrynie[strona zakupu](https://purchase.aspose.com/buy).
 ### Jakie formaty plików obsługuje Aspose.Slides dla Java?
 Aspose.Slides for Java obsługuje różne formaty, w tym PPT, PPTX, ODP i inne.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java kullanarak PowerPoint'te Tablo Sütununun İçindeki Metni Biçimlen
 linktitle: Java kullanarak PowerPoint'te Tablo Sütununun İçindeki Metni Biçimlendirme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Bu eğitimle Aspose.Slides for Java'yı kullanarak PowerPoint'te tablo sütunlarının içindeki metni nasıl formatlayacağınızı öğrenin. Sunumlarınızı programlı olarak geliştirin.
+type: docs
 weight: 11
 url: /tr/java/java-powerpoint-table-formatting-updates/format-text-inside-table-column-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 PowerPoint sunumları dünyasına farklı bir şekilde dalmaya hazır mısınız? Slaytlarınızı manuel olarak biçimlendirmek yerine Aspose.Slides for Java'yı kullanarak daha verimli bir yol izleyelim. Bu eğitim, PowerPoint sunumlarındaki tablo sütunlarının içindeki metni programlı olarak biçimlendirme sürecinde size rehberlik edecektir. Kemerlerinizi bağlayın çünkü bu eğlenceli bir yolculuk olacak!
 ## Önkoşullar
@@ -92,9 +88,3 @@ Kesinlikle! Aspose.Slides, yazı tipi stilleri, renkler ve daha fazlasını içe
  Ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Ücretsiz deneme sayfasını aspose](https://releases.aspose.com/).
 ### Daha fazla örnek ve belgeyi nerede bulabilirim?
  Kontrol et[Aspose.Slides belgeleri](https://reference.aspose.com/slides/java/) ayrıntılı örnekler ve kılavuzlar için.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: تحويل العرض التقديمي إلى ملف PDF محمي بكل�
 linktitle: تحويل العرض التقديمي إلى ملف PDF محمي بكلمة مرور في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحويل عروض PowerPoint التقديمية إلى ملفات PDF آمنة ومحمية بكلمة مرور في Java باستخدام Aspose.Slides. تعزيز أمان المستندات.
+type: docs
 weight: 17
 url: /ar/java/presentation-conversion/convert-presentation-password-pdf-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة لتحويل العرض التقديمي إلى ملف PDF محمي بكلمة مرور في شرائح Java
 
@@ -150,9 +146,3 @@ presentation.save("NewPasswordProtectedPDF.pdf", SaveFormat.Pdf, newPdfOptions);
 ### هل Aspose.Slides for Java مناسب للاستخدام التجاري؟
 
 نعم، Aspose.Slides for Java مناسب للاستخدام التجاري. وهو يقدم مجموعة من الميزات للعمل مع عروض PowerPoint التقديمية في تطبيقات Java ويستخدم على نطاق واسع في الصناعة.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

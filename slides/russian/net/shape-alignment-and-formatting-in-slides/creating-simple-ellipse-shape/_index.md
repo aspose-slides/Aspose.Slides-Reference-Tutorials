@@ -3,14 +3,10 @@ title: Легко создавайте форму эллипса с помощь
 linktitle: Создание простой формы эллипса на слайдах презентации с помощью Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как создавать потрясающие эллипсы в слайдах презентации с помощью Aspose.Slides для .NET. Простые шаги для динамичного дизайна!
+type: docs
 weight: 11
 url: /ru/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 В динамичном мире дизайна презентаций использование таких фигур, как эллипсы, может добавить нотку творчества и профессионализма. Aspose.Slides для .NET предлагает мощное решение для программного управления файлами презентаций. Это руководство проведет вас через процесс создания простой формы эллипса на слайдах презентации с помощью Aspose.Slides для .NET.
 ## Предварительные условия
@@ -69,9 +65,3 @@ Congratulations! You've successfully created a simple ellipse shape in a present
  Следовать[ссылка на временную лицензию](https://purchase.aspose.com/temporary-license/) запросить временную лицензию для целей тестирования.
 ### Нужна помощь или есть конкретные вопросы?
  Посетить[Форум поддержки Aspose.Slides](https://forum.aspose.com/c/slides/11) получить помощь от сообщества и экспертов.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

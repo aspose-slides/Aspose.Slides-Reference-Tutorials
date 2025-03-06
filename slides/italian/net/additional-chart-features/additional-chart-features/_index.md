@@ -3,14 +3,10 @@ title: Esplorazione delle funzionalità avanzate dei grafici con Aspose.Slides p
 linktitle: Funzionalità aggiuntive del grafico in Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri le funzionalità avanzate dei grafici in Aspose.Slides per .NET per migliorare le tue presentazioni PowerPoint. Cancella punti dati, recupera cartelle di lavoro e altro ancora!
+type: docs
 weight: 10
 url: /it/net/additional-chart-features/additional-chart-features/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Nel mondo della visualizzazione dei dati e della progettazione di presentazioni, Aspose.Slides per .NET si distingue come un potente strumento per creare grafici straordinari e migliorare le tue presentazioni PowerPoint. Questa guida passo passo ti guiderà attraverso le varie funzionalità avanzate dei grafici offerte da Aspose.Slides per .NET. Che tu sia uno sviluppatore o un appassionato di presentazioni, questo tutorial ti aiuterà a sfruttare tutto il potenziale di questa libreria.
 
@@ -152,9 +148,3 @@ Sì, puoi utilizzare Aspose.Slides per .NET per creare grafici in vari formati, 
 ### Come posso ottenere supporto o assistenza con Aspose.Slides per .NET?
 
 Per qualsiasi domanda tecnica o supporto, è possibile visitare il[Forum Aspose.Slides](https://forum.aspose.com/), dove puoi trovare risposte a domande comuni e ottenere assistenza dalla community.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

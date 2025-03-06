@@ -3,14 +3,10 @@ title: Shape Connection Mastery med Aspose.Slides för .NET
 linktitle: Connecting Shape med Connection Site i Presentation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Skapa fängslande presentationer med Aspose.Slides för .NET, som sömlöst förbinder former. Följ vår guide för en smidig, engagerande upplevelse.
+type: docs
 weight: 30
 url: /sv/net/shape-effects-and-manipulation-in-slides/connecting-shape-using-connection-site/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 den dynamiska presentationsvärlden är det avgörande att skapa visuellt tilltalande bilder med sammankopplade former för effektiv kommunikation. Aspose.Slides för .NET tillhandahåller en kraftfull lösning för att uppnå detta genom att låta dig ansluta former med anslutningsplatser. Den här handledningen guidar dig genom processen att koppla samman former steg för steg, för att säkerställa att dina presentationer sticker ut med sömlösa visuella övergångar.
 ## Förutsättningar
@@ -82,9 +78,3 @@ Du kan använda try-catch-block för att hantera undantag. Referera till[dokumen
  Ja, du kan ladda ner en gratis testversion[här](https://releases.aspose.com/).
 ### Var kan jag få support för Aspose.Slides?
  Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för samhällsstöd och diskussioner.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

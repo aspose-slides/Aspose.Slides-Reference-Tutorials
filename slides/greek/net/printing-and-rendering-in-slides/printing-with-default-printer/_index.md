@@ -3,14 +3,10 @@ title: Εκτύπωση παρουσιάσεων με προεπιλεγμένο
 linktitle: Εκτύπωση παρουσιάσεων με προεπιλεγμένο εκτυπωτή στο Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ξεκλειδώστε την απρόσκοπτη εκτύπωση PowerPoint σε .NET με Aspose.Slides. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για εύκολη ενσωμάτωση. Αυξήστε τη λειτουργικότητα της εφαρμογής σας τώρα!
+type: docs
 weight: 10
 url: /el/net/printing-and-rendering-in-slides/printing-with-default-printer/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Στον τομέα της ανάπτυξης .NET, το Aspose.Slides ξεχωρίζει ως ένα ισχυρό εργαλείο για τη δημιουργία, το χειρισμό και την απόδοση παρουσιάσεων PowerPoint. Μεταξύ της σειράς δυνατοτήτων του, η δυνατότητα εκτύπωσης παρουσιάσεων απευθείας στον προεπιλεγμένο εκτυπωτή είναι μια εύχρηστη λειτουργία που συχνά αναζητούν οι προγραμματιστές. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία βήμα προς βήμα, καθιστώντας το προσβάσιμο ακόμα κι αν είστε σχετικά νέος στο Aspose.Slides.
 ## Προαπαιτούμενα
@@ -55,9 +51,3 @@ presentation.Print();
  Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/) για δοκιμές και αξιολόγηση.
 ### Πώς μπορώ να αναζητήσω βοήθεια ή να συνδεθώ με την κοινότητα Aspose.Slides;
  Επισκέψου το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για να κάνετε ερωτήσεις, να μοιραστείτε πληροφορίες και να συνδεθείτε με άλλους προγραμματιστές.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

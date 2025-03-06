@@ -3,14 +3,10 @@ title: Java용 Aspose.Slides를 사용하여 텍스트 프레임에 열 추가
 linktitle: Java용 Aspose.Slides를 사용하여 텍스트 프레임에 열 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: PowerPoint 프레젠테이션을 향상시키기 위해 Aspose.Slides for Java를 사용하여 텍스트 프레임에 열을 추가하는 방법을 알아보세요. 우리의 단계별 가이드는 프로세스를 단순화합니다.
+type: docs
 weight: 11
 url: /ko/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 텍스트 프레임을 조작하여 열을 추가하는 방법을 살펴보겠습니다. Aspose.Slides는 Java 개발자가 PowerPoint 프레젠테이션을 프로그래밍 방식으로 생성, 조작 및 변환할 수 있도록 하는 강력한 라이브러리입니다. 텍스트 프레임에 열을 추가하면 슬라이드 내 텍스트의 시각적 매력과 구성이 향상되어 프레젠테이션이 더욱 매력적이고 읽기 쉬워집니다.
 ## 전제 조건
@@ -85,9 +81,3 @@ pres.save(outPptxFileName, SaveFormat.Pptx);
  자세한 문서가 제공됩니다.[여기](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java에 대한 기술 지원은 어떻게 받을 수 있나요?
  커뮤니티에서 지원을 요청할 수 있습니다.[여기](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

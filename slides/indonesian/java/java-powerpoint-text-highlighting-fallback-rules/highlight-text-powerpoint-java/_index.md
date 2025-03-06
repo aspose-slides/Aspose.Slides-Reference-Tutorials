@@ -3,14 +3,10 @@ title: Sorot Teks di PowerPoint dengan Java
 linktitle: Sorot Teks di PowerPoint dengan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menyorot teks di PowerPoint menggunakan Aspose.Slides untuk Java. Otomatiskan dan tingkatkan presentasi dengan mudah menggunakan panduan terperinci kami.
+type: docs
 weight: 10
 url: /id/java/java-powerpoint-text-highlighting-fallback-rules/highlight-text-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Di era digital saat ini, di mana komunikasi visual memainkan peran penting dalam presentasi bisnis dan materi pendidikan, kemampuan untuk memanipulasi dan menyempurnakan presentasi PowerPoint secara terprogram merupakan keuntungan yang signifikan. Aspose.Slides untuk Java memberdayakan pengembang dengan seperangkat alat canggih untuk mengintegrasikan dan memanipulasi slide PowerPoint dengan lancar menggunakan bahasa pemrograman Java. Baik Anda mengotomatiskan pembuatan presentasi, memodifikasi presentasi yang sudah ada, atau mengekstrak data dari slide, Aspose.Slides untuk Java menyediakan fungsionalitas yang diperlukan untuk mencapai tugas-tugas ini secara efisien.
 ## Prasyarat
@@ -66,9 +62,3 @@ Aspose.Slides for Java adalah Java API yang memungkinkan pengembang membuat, mem
 Aspose.Slides untuk Java mendukung penyimpanan presentasi dalam berbagai format termasuk PPTX, PPT, PDF, dan banyak lagi.
 ### Apakah Aspose.Slides untuk Java kompatibel dengan Java SE Development Kit?
 Ya, Aspose.Slides for Java kompatibel dengan Java SE Development Kit.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

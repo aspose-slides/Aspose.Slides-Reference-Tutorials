@@ -3,14 +3,10 @@ title: Xóa nút ở vị trí cụ thể trong SmartArt
 linktitle: Xóa nút ở vị trí cụ thể trong SmartArt
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách xóa nút tại một vị trí cụ thể trong SmartArt bằng Aspose.Slides cho Java. Tăng cường tùy chỉnh bản trình bày một cách dễ dàng.
+type: docs
 weight: 15
 url: /vi/java/java-powerpoint-smartart-manipulation/remove-node-specific-position-smartart-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Trong lĩnh vực phát triển Java, Aspose.Slides nổi lên như một công cụ mạnh mẽ để thao tác các bài thuyết trình theo chương trình. Cho dù đó là tạo, sửa đổi hay quản lý các trang trình bày, Aspose.Slides cho Java đều cung cấp một bộ tính năng mạnh mẽ để hợp lý hóa các tác vụ này một cách hiệu quả. Một thao tác phổ biến như vậy là loại bỏ nút ở vị trí cụ thể trong đối tượng SmartArt. Hướng dẫn này đi sâu vào quy trình từng bước để hoàn thành việc này bằng cách sử dụng Aspose.Slides cho Java.
 ## Điều kiện tiên quyết
@@ -66,9 +62,3 @@ Với Aspose.Slides cho Java, việc thao tác với các đối tượng SmartA
  Để mua Aspose.Slides cho Java, hãy truy cập trang mua hàng[đây](https://purchase.aspose.com/buy).
 ### Tôi có thể tìm tài liệu chi tiết về Aspose.Slides cho Java ở đâu?
  Bạn có thể truy cập tài liệu toàn diện[đây](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

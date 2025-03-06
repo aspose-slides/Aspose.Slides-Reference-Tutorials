@@ -3,14 +3,10 @@ title: Java PowerPoint 文字反白顯示和回退規則
 linktitle: Java PowerPoint 文字反白顯示和回退規則
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides 掌握 Java PowerPoint 中的文字突出顯示和字體後備規則。按照我們的教程無縫地增強和自動化您的簡報。
+type: docs
 weight: 25
 url: /zh-hant/java/java-powerpoint-text-highlighting-fallback-rules/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 介紹
 
@@ -30,9 +26,3 @@ url: /zh-hant/java/java-powerpoint-text-highlighting-fallback-rules/
 了解如何使用 Aspose.Slides for Java 在 PowerPoint 中反白顯示文字。透過我們詳細的指南，輕鬆自動化和增強簡報。
 ### [Java PowerPoint 中的後備規則集合](./fallback-rules-collection-java-powerpoint/)
 了解如何使用 Aspose.Slides for Java 管理 PowerPoint 簡報中的字型後備規則。輕鬆增強跨裝置的兼容性。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

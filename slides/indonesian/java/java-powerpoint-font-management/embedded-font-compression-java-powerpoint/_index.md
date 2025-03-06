@@ -3,14 +3,10 @@ title: Kompresi Font Tertanam di Java PowerPoint
 linktitle: Kompresi Font Tertanam di Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengompres font yang disematkan dalam presentasi Java PowerPoint menggunakan Aspose.Slides. Optimalkan ukuran file dengan mudah.
+type: docs
 weight: 12
 url: /id/java/java-powerpoint-font-management/embedded-font-compression-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam lanskap presentasi digital yang dinamis, kemampuan untuk mengoptimalkan ukuran file tanpa mengurangi kualitas adalah hal yang terpenting. Aspose.Slides untuk Java menawarkan solusi ampuh untuk meningkatkan efisiensi presentasi PowerPoint dengan mengaktifkan kompresi font tertanam. Tutorial ini akan memandu Anda melalui proses memanfaatkan fitur ini untuk mengurangi ukuran file secara efektif, memastikan distribusi lebih lancar dan meningkatkan kinerja presentasi Anda.
 ## Prasyarat
@@ -68,9 +64,3 @@ Ya, Aspose.Slides menawarkan fitur enkripsi dan perlindungan kata sandi untuk me
  Tentu! Anda dapat mencari dukungan dari komunitas Aspose.Slides melalui yang berdedikasi[forum](https://forum.aspose.com/c/slides/11) atau mempertimbangkan untuk memperoleh izin sementara untuk bantuan prioritas.
 ### Bagaimana cara membeli versi berlisensi Aspose.Slides untuk Java?
 Anda dapat membeli versi berlisensi Aspose.Slides untuk Java dari situs web menggunakan yang disediakan[membeli tautan](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

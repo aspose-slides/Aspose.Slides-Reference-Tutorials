@@ -3,14 +3,10 @@ title: Access Slide by Sequential Index
 linktitle: Access Slide by Sequential Index
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to access slides by sequential index using Aspose.Slides for .NET. Follow this step-by-step guide with source code to easily navigate and manipulate PowerPoint presentations.
+type: docs
 weight: 12
 url: /net/slide-access-and-manipulation/access-slide-by-index/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction to Access Slide by Sequential Index
 
@@ -90,10 +86,3 @@ Aspose.Slides for .NET offers a wide range of functionalities, including creatin
 ### How can I learn more about PowerPoint automation using Aspose.Slides?
 
 To learn more about PowerPoint automation using Aspose.Slides, you can explore the detailed documentation and code samples available on their [documentation](https://reference.aspose.com/slides/net/) page.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

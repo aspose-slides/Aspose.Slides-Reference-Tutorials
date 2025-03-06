@@ -3,14 +3,10 @@ title: Converta slides em PDF com notas
 linktitle: Converta slides em PDF com notas
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Converta facilmente slides de apresentação com anotações do orador em PDF usando Aspose.Slides for .NET. Preserve o conteúdo e o contexto perfeitamente.
+type: docs
 weight: 18
 url: /pt/net/presentation-conversion/convert-slides-to-pdf-with-notes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 # Escreva um guia tutorial passo a passo sobre como converter slides em PDF com notas usando Aspose.Slides para .NET
 
@@ -102,9 +98,3 @@ Sim, Aspose.Slides for .NET oferece suporte a vários formatos de saída, inclui
  Sim, você pode comprar uma licença temporária em[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 Concluindo, usando Aspose.Slides for .NET, você pode facilmente converter slides do PowerPoint para o formato PDF com as notas intactas. É uma ferramenta valiosa para profissionais que precisam compartilhar apresentações com colegas e clientes e, ao mesmo tempo, garantir que o contexto importante não seja perdido.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Executar mala direta em apresentações
 linktitle: Executar mala direta em apresentações
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda mala direta em apresentações usando Aspose.Slides for .NET neste guia passo a passo. Crie apresentações dinâmicas e personalizadas sem esforço.
+type: docs
 weight: 21
 url: /pt/net/presentation-manipulation/perform-mail-merge-in-presentations/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 No mundo do desenvolvimento .NET, a criação de apresentações dinâmicas e personalizadas é um requisito comum. Uma ferramenta poderosa que simplifica esse processo é o Aspose.Slides for .NET. Neste tutorial, nos aprofundaremos no fascinante reino de realizar mala direta em apresentações usando Aspose.Slides for .NET.
 ## Pré-requisitos
@@ -154,9 +150,3 @@ Aspose.Slides for .NET oferece suporte a uma ampla variedade de gráficos, inclu
  Certamente! Você pode aproveitar uma avaliação gratuita do Aspose.Slides for .NET em[aqui](https://releases.aspose.com/).
 ## Conclusão
 Neste tutorial, exploramos os recursos interessantes do Aspose.Slides for .NET na realização de mala direta em apresentações. Seguindo o guia passo a passo, você pode criar apresentações dinâmicas e personalizadas sem esforço. Eleve sua experiência de desenvolvimento .NET com Aspose.Slides para geração de apresentações perfeita.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

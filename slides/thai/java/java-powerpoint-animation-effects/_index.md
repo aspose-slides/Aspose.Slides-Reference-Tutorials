@@ -3,14 +3,10 @@ title: Java PowerPoint ภาพเคลื่อนไหวและเอฟ
 linktitle: Java PowerPoint ภาพเคลื่อนไหวและเอฟเฟ็กต์
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: ฝึกฝนภาพเคลื่อนไหวและเอฟเฟกต์ Java PowerPoint ด้วยบทช่วยสอนที่ครอบคลุมของเรา เรียนรู้วิธีการเพิ่มภาพเคลื่อนไหว เงาด้านนอกและด้านในโดยใช้ Aspose.Slides สำหรับ Java
+type: docs
 weight: 22
 url: /th/java/java-powerpoint-animation-effects/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## การแนะนำ
 
 งานนำเสนอ Java PowerPoint สามารถเป็นไดนามิกและสวยงามด้วยภาพเคลื่อนไหวและเอฟเฟกต์ที่เหมาะสม ด้วย Aspose.Slides สำหรับ Java คุณจะมีเครื่องมือที่มีประสิทธิภาพในการปรับปรุงสไลด์ของคุณ ไม่ว่าคุณจะเป็นมือใหม่หรือผู้ใช้ขั้นสูง บทช่วยสอนของเราจะช่วยให้คุณเชี่ยวชาญศิลปะในการเพิ่มภาพเคลื่อนไหวและเอฟเฟกต์เงาให้กับงานนำเสนอ PowerPoint ของคุณ มาดูบทช่วยสอนเหล่านี้และดูว่าคุณสามารถยกระดับสไลด์ของคุณได้อย่างไร!
@@ -39,9 +35,3 @@ url: /th/java/java-powerpoint-animation-effects/
 เรียนรู้วิธีใช้เอฟเฟกต์เงาภายในกับรูปร่างในงานนำเสนอ Java PowerPoint โดยใช้ Aspose.Slides ปรับปรุงสไลด์ของคุณด้วยคำแนะนำทีละขั้นตอนนี้
 ### [ใช้เงาด้านนอกใน PowerPoint กับ Java](./apply-outer-shadow-powerpoint-java/)
 เรียนรู้วิธีการใช้เอฟเฟกต์เงาภายนอกใน PowerPoint โดยใช้ Java กับ Aspose.Slides ปรับปรุงการนำเสนอของคุณด้วยความลึกและดึงดูดสายตา
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java PowerPoint'te Metni Düz Tutun
 linktitle: Java PowerPoint'te Metni Düz Tutun
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak Java PowerPoint sunumlarında metni nasıl düz tutacağınızı öğrenin. Verimli metin işleme için adım adım kılavuzumuzu izleyin.
+type: docs
 weight: 11
 url: /tr/java/java-powerpoint-text-paragraph-management/keep-text-flat-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 Java tabanlı PowerPoint manipülasyonu alanında Aspose.Slides for Java, sağlam ve çok yönlü bir araç seti olarak öne çıkıyor. İster deneyimli bir geliştirici olun ister sunumlarınızı programlı olarak geliştirmek isteyen yeni başlayan biri olun, Aspose.Slides for Java, PowerPoint sunumlarını sorunsuz bir şekilde oluşturmak, değiştirmek ve yönetmek için kapsamlı bir dizi özellik sunar. Bu eğitim belirli bir işlevi ele alıyor: Aspose.Slides for Java kullanarak PowerPoint slaytlarındaki metni düz tutmak. Bu kılavuzu takip ederek, kesin sunum sonuçları elde etmek için metin biçimlendirmesini nasıl değiştireceğinizi öğreneceksiniz.
 ## Önkoşullar
@@ -68,9 +64,3 @@ Ayrıntılı belgeleri inceleyebilirsiniz[Burada](https://reference.aspose.com/s
  Evet, lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
 ### Aspose.Slides for Java için topluluk desteğini nereden alabilirim?
  Aspose.Slides topluluk forumuna katılın[Burada](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: 設定簡報中 SVG 的格式
 linktitle: 設定簡報中 SVG 的格式
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 透過令人驚嘆的 SVG 優化您的簡報。逐步學習如何格式化 SVG 以獲得有影響力的視覺效果。立即提升您的示範遊戲！
+type: docs
 weight: 31
 url: /zh-hant/net/presentation-manipulation/formatting-svgs-in-presentations/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 您是否希望透過引人注目的 SVG 形狀來增強您的簡報？ Aspose.Slides for .NET 可以成為實現這一目標的終極工具。在這個綜合教學中，我們將引導您完成使用 Aspose.Slides for .NET 在簡報中格式化 SVG 形狀的過程。按照提供的原始程式碼進行操作，將您的簡報轉變為具有視覺吸引力的傑作。
 
@@ -119,10 +115,3 @@ Aspose.Slides for .NET 主要是為 C# 設計的，但它也適用於其他 .NET
 要創建具有視覺吸引力的演示文稿，請注重設計一致性，使用高品質圖形，並保持內容簡潔且引人入勝。嘗試不同的格式選項，如本教學所示。
 
 現在，繼續應用這些技術來創建吸引觀眾的精彩簡報！
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Grafico esistente nelle diapositive Java
 linktitle: Grafico esistente nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Migliora le tue presentazioni PowerPoint con Aspose.Slides per Java. Impara a modificare i grafici esistenti a livello di codice. Guida passo passo con codice sorgente per la personalizzazione del grafico.
+type: docs
 weight: 12
 url: /it/java/chart-elements/existing-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduzione al grafico esistente nelle diapositive Java utilizzando Aspose.Slides per Java
 
@@ -188,9 +184,3 @@ In questo tutorial completo, abbiamo imparato come modificare un grafico esisten
 ### C'è un modo per rimuovere una serie dal grafico?
 
  Sì, puoi rimuovere una serie dal grafico utilizzando il comando`chart.getChartData().getSeries().removeAt(index)` metodo, dove`index`è l'indice della serie che vuoi rimuovere.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Tworzenie kształtów i miniatur w programie Java PowerPoint
 linktitle: Tworzenie kształtów i miniatur w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Naucz się tworzyć kształty i miniatury w programie PowerPoint przy użyciu języka Java Aspose.Slides. Szczegółowe samouczki na temat tworzenia kształtów grup, miniatur współczynników skalowania i efektów powiększenia.
+type: docs
 weight: 24
 url: /pl/java/java-powerpoint-shape-thumbnail-creation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 
 Tworzenie atrakcyjnych wizualnie i zorganizowanych prezentacji programu PowerPoint jest niezbędne dla skutecznej komunikacji. Dzięki Aspose.Slides dla Java możesz bez wysiłku ulepszać swoje prezentacje, tworząc różne kształty i miniatury. W tym artykule znajdziesz przewodnik krok po kroku, jak opanować te techniki, dzięki czemu slajdy będą zarówno wciągające, jak i profesjonalne.
@@ -56,9 +52,3 @@ Dowiedz się, jak tworzyć miniatury notatek podrzędnych SmartArt w Javie za po
  Dowiedz się, jak utworzyć podsumowanie podsumowujące w programie PowerPoint przy użyciu Aspose.Slides dla języka Java, korzystając z tego wszechstronnego samouczka krok po kroku.
 ### [Utwórz ramkę powiększenia w programie PowerPoint](./create-zoom-frame-powerpoint/)
 Dowiedz się, jak tworzyć atrakcyjne ramki powiększenia w programie PowerPoint przy użyciu Aspose.Slides dla Java. Postępuj zgodnie z naszym przewodnikiem, aby dodać elementy interaktywne do swoich prezentacji.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

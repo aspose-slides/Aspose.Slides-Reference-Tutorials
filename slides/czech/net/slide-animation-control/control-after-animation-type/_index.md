@@ -3,14 +3,10 @@ title: Zvládnutí efektů po animaci v PowerPointu pomocí Aspose.Slides
 linktitle: Kontrola po typu animace na snímku
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se ovládat efekty po animaci ve snímcích PowerPoint pomocí Aspose.Slides for .NET. Vylepšete své prezentace dynamickými vizuálními prvky.
+type: docs
 weight: 11
 url: /cs/net/slide-animation-control/control-after-animation-type/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 Vylepšení vašich prezentací pomocí dynamických animací je zásadním aspektem pro zapojení publika. Aspose.Slides for .NET poskytuje výkonné řešení pro ovládání efektů po animaci ve snímcích. V tomto tutoriálu vás provedeme procesem použití Aspose.Slides pro .NET k manipulaci s typem následné animace na snímcích. Podle tohoto podrobného průvodce budete moci vytvářet interaktivnější a vizuálně přitažlivější prezentace.
 ## Předpoklady
@@ -91,9 +87,3 @@ Ano, Aspose.Slides je pravidelně aktualizován, aby byla zajištěna kompatibil
 Aspose.Slides podporuje různé formáty, včetně PPTX, PPT, PDF a dalších. Úplný seznam naleznete v dokumentaci.
 ### Kde mohu získat podporu nebo klást otázky týkající se Aspose.Slides?
  Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu a interakci s komunitou.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

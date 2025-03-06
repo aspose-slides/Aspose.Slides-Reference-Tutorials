@@ -3,14 +3,10 @@ title: Προσθήκη εικόνας μέσα σε κελιά πίνακα σ�
 linktitle: Προσθήκη εικόνας μέσα σε κελιά πίνακα στο Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε εικόνες μέσα σε κελιά πίνακα σε παρουσιάσεις Java PowerPoint με αυτόν τον λεπτομερή οδηγό βήμα προς βήμα χρησιμοποιώντας το Aspose.Slides για Java.
+type: docs
 weight: 10
 url: /el/java/java-powerpoint-table-manipulation/add-image-inside-table-cells-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Αν θέλετε να βελτιώσετε τις παρουσιάσεις σας Java PowerPoint ενσωματώνοντας εικόνες σε κελιά πίνακα, έχετε φτάσει στο σωστό μέρος! Σήμερα, θα εξετάσουμε έναν λεπτομερή, βήμα προς βήμα οδηγό χρησιμοποιώντας το Aspose.Slides για Java. Αυτό το σεμινάριο θα σας καθοδηγήσει σε όλη τη διαδικασία, διασφαλίζοντας ότι ακόμη και ένας αρχάριος μπορεί να ακολουθήσει και να επιτύχει εκπληκτικά αποτελέσματα.
 ## Προαπαιτούμενα
@@ -108,9 +104,3 @@ try {
  Μπορείτε να ανατρέξετε στο[τεκμηρίωση](https://reference.aspose.com/slides/java/) για πιο αναλυτικές πληροφορίες και παραδείγματα.
 ### Πώς μπορώ να αγοράσω Aspose.Slides για Java;
  Μπορείτε να το αγοράσετε από το[Aspose website](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

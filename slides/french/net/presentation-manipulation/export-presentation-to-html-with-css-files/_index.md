@@ -3,14 +3,10 @@ title: Exporter la présentation au format HTML avec des fichiers CSS
 linktitle: Exporter la présentation au format HTML avec des fichiers CSS
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment exporter des présentations PowerPoint au format HTML avec des fichiers CSS à l'aide d'Aspose.Slides pour .NET. Un guide étape par étape pour une conversion transparente. Préservez le style et la mise en page !
+type: docs
 weight: 29
 url: /fr/net/presentation-manipulation/export-presentation-to-html-with-css-files/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 À l'ère numérique d'aujourd'hui, la création de présentations dynamiques et interactives est essentielle pour une communication efficace. Aspose.Slides pour .NET permet aux développeurs d'exporter des présentations au format HTML avec des fichiers CSS, vous permettant ainsi de partager votre contenu de manière transparente sur diverses plates-formes. Dans ce didacticiel étape par étape, nous vous guiderons tout au long du processus d'utilisation d'Aspose.Slides pour .NET pour y parvenir.
 
@@ -77,10 +73,3 @@ Aspose.Slides pour .NET est principalement destiné à C#, mais Aspose propose �
 Avec Aspose.Slides pour .NET, vous pouvez facilement convertir vos présentations PowerPoint en HTML avec des fichiers CSS, garantissant ainsi une expérience visuelle transparente à votre public.
 
 Maintenant, allez-y et créez de superbes présentations HTML avec Aspose.Slides pour .NET !
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Zarovnání tvarů a formátování na snímcích
 linktitle: Zarovnání tvarů a formátování na snímcích
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Prozkoumejte komplexní výukové programy Aspose.Slides o zarovnání tvarů a formátování v aplikacích .NET. Naučte se bez námahy zarovnávat a formátovat tvary a vylepšit tak své prezentace s přesností.
+type: docs
 weight: 14
 url: /cs/net/shape-alignment-and-formatting-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod
 
@@ -48,9 +44,3 @@ Naučte se pomocí Aspose.Slides for .NET vytvářet podmanivé prezentační sn
 Naučte se, jak přidat odsazení roztažení doleva pro rámeček obrázku v PowerPointu pomocí Aspose.Slides for .NET. Průvodce krok za krokem s kompletním příkladem zdrojového kódu.
 ### [Nahrazení názvu obrázku rámečku objektu OLE v prezentačních snímcích](./substituting-picture-title-ole-object-frame/)
 Naučte se, jak nahradit názvy obrázků rámečků objektů OLE ve snímcích prezentace pomocí Aspose.Slides for .NET. Průvodce krok za krokem s kompletním zdrojovým kódem.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

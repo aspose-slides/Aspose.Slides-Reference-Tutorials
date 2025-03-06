@@ -3,14 +3,10 @@ title: Animasi Java PowerPoint dan Manipulasi Bentuk
 linktitle: Animasi Java PowerPoint dan Manipulasi Bentuk
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menganimasikan dan memanipulasi bentuk di PowerPoint menggunakan Aspose.Slides untuk Java. Tutorial komprehensif untuk presentasi dinamis.
+type: docs
 weight: 25
 url: /id/java/java-powerpoint-animation-shape-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Perkenalan
 
@@ -94,9 +90,3 @@ Pelajari cara menerapkan efek Duotone ke gambar di PowerPoint menggunakan Aspose
 Pelajari cara menyematkan bingkai video di PowerPoint menggunakan Aspose.Slides untuk Java dengan tutorial langkah demi langkah ini. Sempurnakan presentasi Anda dengan mudah.
 ### [Ekstrak Data File Tertanam dari Objek OLE di PowerPoint](./extract-embedded-file-data-ole-object-powerpoint/)
 Pelajari cara mengekstrak data file yang disematkan dari presentasi PowerPoint menggunakan Aspose.Slides untuk Java, sehingga meningkatkan kemampuan manajemen dokumen.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

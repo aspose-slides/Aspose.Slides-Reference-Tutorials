@@ -3,14 +3,10 @@ title: 一意の識別子でスライドにアクセスする
 linktitle: 一意の識別子でスライドにアクセスする
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、一意の識別子で PowerPoint スライドにアクセスする方法を学びます。このステップ バイ ステップ ガイドでは、プレゼンテーションの読み込み、インデックスまたは ID によるスライドへのアクセス、コンテンツの変更、変更の保存について説明します。
+type: docs
 weight: 11
 url: /ja/net/slide-access-and-manipulation/access-slide-by-id/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for .NET の紹介
 
@@ -116,9 +112,3 @@ Aspose.Slides は、識別子としてスライド インデックスとスラ�
 ### より詳細なドキュメントやリソースはどこで見つかりますか?
 
  Aspose.Slides for .NETに関する包括的なドキュメント、コードサンプル、チュートリアルなどは、[ドキュメンテーション](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Bemutató Manipuláció
 linktitle: Bemutató Manipuláció
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Az Aspose.Slides for .NET oktatóanyagai segítségével felszabadíthatja a prezentációk manipulálásában rejlő lehetőségeket. Tanulja meg, hogyan lehet dinamikusan létrehozni, testreszabni és programozottan javítani PowerPoint-prezentációkat. Növelje PowerPoint-feldolgozási készségeit még ma!
+type: docs
 weight: 11
 url: /hu/net/presentation-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 PowerPoint feldolgozás területén az Aspose.Slides for .NET a prezentációkezelés hatékony eszközeként jelenik meg. Ez az oktatóanyag-gyűjtemény átfogó útmutatást nyújt az Aspose.Slides képességeinek kiaknázásához a prezentációk programozott kezeléséhez és javításához. A diák létrehozásától, módosításától és elrendezésétől a szövegek, képek és multimédiás elemek kezeléséig ezek az oktatóanyagok lépésről lépésre kínálnak utazást a dinamikus prezentációgenerálás és testreszabás világába. Akár prezentációs feladatokat automatizál, jelentéseket készít, akár interaktív diavetítéseket készít, ezek az oktatóanyagok az Aspose.Slides hatékony használatához szükséges ismeretekkel ruházzák fel a fejlesztőket.
 
 ## Bemutató Manipuláció
@@ -55,9 +51,3 @@ Ismerje meg, hogyan exportálhat PowerPoint-prezentációkat HTML-formátumba CS
 Ismerje meg, hogyan hajthat végre SVG-konverziót prezentációkhoz az Aspose.Slides for .NET használatával. Ez az átfogó útmutató lépésenkénti utasításokat, forráskód-példákat és különféle SVG-konverziós lehetőségeket tartalmaz.
 ### [SVG-k formázása a prezentációkban](./formatting-svgs-in-presentations/)
 Optimalizálja prezentációit lenyűgöző SVG-kkel az Aspose.Slides for .NET segítségével. Ismerje meg lépésről lépésre, hogyan formázhat SVG-ket a hatásos látvány érdekében. Emelje fel prezentációs játékát még ma! 
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

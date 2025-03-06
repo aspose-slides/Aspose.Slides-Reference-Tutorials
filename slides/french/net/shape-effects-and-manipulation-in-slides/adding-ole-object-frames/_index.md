@@ -3,14 +3,10 @@ title: Ajout de cadres d'objets OLE à la présentation avec Aspose.Slides
 linktitle: Ajout de cadres d'objets OLE à la présentation avec Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Apprenez à améliorer les présentations PowerPoint avec du contenu dynamique ! Suivez notre guide étape par étape en utilisant Aspose.Slides pour .NET. Boostez l’engagement maintenant !
+type: docs
 weight: 15
 url: /fr/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Dans ce didacticiel, nous aborderons le processus d'ajout de cadres d'objets OLE (Object Linking and Embedding) aux diapositives de présentation à l'aide d'Aspose.Slides pour .NET. Aspose.Slides est une bibliothèque puissante qui permet aux développeurs de travailler avec des fichiers PowerPoint par programme. Suivez ce guide étape par étape pour intégrer de manière transparente des objets OLE dans vos diapositives de présentation, améliorant ainsi vos fichiers PowerPoint avec un contenu dynamique et interactif.
 ## Conditions préalables
@@ -88,9 +84,3 @@ R : Assurez-vous d'une gestion appropriée des exceptions dans votre code pour
 R : Absolument, vous pouvez ajuster la taille, la position et d’autres propriétés du cadre d’objet OLE selon vos préférences.
 ### Q : Où puis-je demander de l'aide si je rencontre des difficultés lors de la mise en œuvre ?
  R : Visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien et les conseils de la communauté.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

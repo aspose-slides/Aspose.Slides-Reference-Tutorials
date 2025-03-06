@@ -3,14 +3,10 @@ title: Λήψη εικόνας γραφήματος σε διαφάνειες Ja
 linktitle: Λήψη εικόνας γραφήματος σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να αποκτάτε εικόνες γραφήματος σε Java Slides χρησιμοποιώντας το Aspose.Slides για Java. Αυτός ο οδηγός βήμα προς βήμα παρέχει τον πηγαίο κώδικα και συμβουλές για απρόσκοπτη ενσωμάτωση.
+type: docs
 weight: 19
 url: /el/java/data-manipulation/get-chart-image-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στη λήψη εικόνας γραφήματος σε διαφάνειες Java
 
@@ -96,9 +92,3 @@ finally
 ### Μπορώ να αποθηκεύσω την εικόνα του γραφήματος σε διαφορετική μορφή;
 
  Σίγουρα! Μπορείτε να αποθηκεύσετε την εικόνα του γραφήματος σε διάφορες μορφές, όπως JPEG ή GIF, καθορίζοντας την κατάλληλη επέκταση αρχείου στο`ImageIO.write` μέθοδος.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

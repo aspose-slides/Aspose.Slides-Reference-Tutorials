@@ -3,14 +3,10 @@ title: छिपी हुई स्लाइडों के साथ प्�
 linktitle: छिपी हुई स्लाइडों के साथ प्रस्तुति को पीडीएफ में बदलें
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: जानें कि छिपी हुई स्लाइडों के साथ प्रस्तुतियों को पीडीएफ में आसानी से परिवर्तित करने के लिए Aspose.Slides for .NET का उपयोग कैसे करें।
+type: docs
 weight: 26
 url: /hi/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## .NET के लिए Aspose.Slides का परिचय
 
@@ -99,9 +95,3 @@ class Program
 ### क्या .NET के लिए Aspose.Slides हेतु कोई दस्तावेज उपलब्ध है?
 
  हां, आप .NET के लिए Aspose.Slides के लिए दस्तावेज़ीकरण और उपयोग उदाहरण यहां पा सकते हैं[यहाँ](https://reference.aspose.com/slides/net).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

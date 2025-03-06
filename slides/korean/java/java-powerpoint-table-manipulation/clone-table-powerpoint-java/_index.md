@@ -3,14 +3,10 @@ title: Java가 포함된 PowerPoint의 테이블 복제
 linktitle: Java가 포함된 PowerPoint의 테이블 복제
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 자세한 단계별 가이드를 통해 Java용 Aspose.Slides를 사용하여 PowerPoint에서 테이블을 복제하는 방법을 알아보세요. 프레젠테이션 관리를 단순화하세요.
+type: docs
 weight: 12
 url: /ko/java/java-powerpoint-table-manipulation/clone-table-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 PowerPoint 프레젠테이션을 만들고 관리하는 것은 특히 콘텐츠를 프로그래밍 방식으로 조작해야 하는 경우 어려운 작업이 될 수 있습니다. 그러나 Java용 Aspose.Slides를 사용하면 이 프로세스가 훨씬 간단해집니다. 이 튜토리얼은 다양한 프리젠테이션 작업을 처리하기 위한 강력한 라이브러리인 Aspose.Slides for Java를 사용하여 PowerPoint 프리젠테이션의 테이블을 복제하는 과정을 안내합니다.
 ## 전제 조건
@@ -123,9 +119,3 @@ Aspose.Slides for Java는 Java 애플리케이션에서 PowerPoint 프레젠테�
  예, 프로덕션 용도로 사용하려면 라이선스가 필요합니다. 임시면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides에 대한 지원은 어디서 받을 수 있나요?
  Aspose.Slides에서 지원을 받을 수 있습니다.[지원 포럼](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

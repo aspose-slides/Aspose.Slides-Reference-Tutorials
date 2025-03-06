@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 存取群組形狀中的替代文字
 linktitle: 訪問群組形狀中的替代文本
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 存取群組形狀中的替代文字。帶有程式碼範例的分步指南。
+type: docs
 weight: 10
 url: /zh-hant/net/shape-effects-and-manipulation-in-slides/accessing-alt-text-group-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 當涉及管理和操作簡報時，Aspose.Slides for .NET 提供了一組強大的工具。在本文中，我們將深入研究此 API 的一個特定方面 - 存取群組形狀中的替代文字。無論您是經驗豐富的開發人員還是剛開始使用 Aspose.Slides，這份綜合指南都將引導您完成整個過程，提供逐步說明和程式碼範例。最後，您將深入了解如何使用 Aspose.Slides 有效地處理群組形狀中的替代文字。
 
@@ -122,9 +118,3 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ### Aspose.Slides 適合初學者和經驗豐富的開發人員嗎？
 
 是的，Aspose.Slides 旨在滿足各種技能水平的開發人員的需求。初學者可以按照文件中提供的逐步指南進行操作，而經驗豐富的開發人員可以利用其高級功能。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

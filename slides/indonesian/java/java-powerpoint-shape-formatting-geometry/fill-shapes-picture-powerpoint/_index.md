@@ -3,14 +3,10 @@ title: Isi Bentuk dengan Gambar di PowerPoint
 linktitle: Isi Bentuk dengan Gambar di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengisi bentuk dengan gambar dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Tingkatkan daya tarik visual dengan mudah.
+type: docs
 weight: 12
 url: /id/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Presentasi PowerPoint sering kali memerlukan elemen visual seperti bentuk yang berisi gambar untuk meningkatkan daya tariknya dan menyampaikan informasi secara efektif. Aspose.Slides untuk Java menyediakan seperangkat alat canggih untuk menyelesaikan tugas ini dengan lancar. Dalam tutorial ini, kita akan mempelajari cara mengisi bentuk dengan gambar menggunakan Aspose.Slides untuk Java langkah demi langkah.
 ## Prasyarat
@@ -84,9 +80,3 @@ Anda dapat mengubah ukuran gambar di dalam bentuk dengan menyesuaikan dimensi be
 Aspose.Slides untuk Java mendukung berbagai format gambar, antara lain JPEG, PNG, GIF, BMP, dan TIFF.
 ### Bisakah saya menerapkan efek pada bentuk yang terisi?
 Ya, Aspose.Slides untuk Java menyediakan API komprehensif untuk menerapkan berbagai efek, seperti bayangan, pantulan, dan rotasi 3D, ke bentuk terisi.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java 슬라이드의 글꼴 크기 범례
 linktitle: Java 슬라이드의 글꼴 크기 범례
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Java용 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션을 향상하세요. 단계별 가이드에서 범례 글꼴 크기 등을 사용자 정의하는 방법을 알아보세요.
+type: docs
 weight: 13
 url: /ko/java/chart-elements/font-size-legend-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 슬라이드의 글꼴 크기 범례 소개
 
@@ -139,9 +135,3 @@ chart.getAxes().getVerticalAxis().setMaxValue(10);
 ### Aspose.Slides에 대한 추가 정보와 문서는 어디서 찾을 수 있나요?
 
  Aspose 설명서 웹사이트에서 Java용 Aspose.Slides에 대한 포괄적인 설명서 및 API 참조를 찾을 수 있습니다. 방문하다[여기](https://reference.aspose.com/slides/java/) 도서관 이용에 대한 자세한 내용은
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

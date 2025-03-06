@@ -3,14 +3,10 @@ title: Contrôles multimédias utilisant Aspose.Slides pour Java
 linktitle: Contrôles multimédias Java Slides
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment implémenter des contrôles multimédias dans les diapositives Java à l'aide des didacticiels Aspose.Slides pour Java. Améliorez vos présentations avec de l'audio et de la vidéo en toute transparence.
+type: docs
 weight: 22
 url: /fr/java/media-controls/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 À l'ère numérique d'aujourd'hui, les présentations ne se limitent pas à des diapositives statiques contenant du texte et des images. Ils ont évolué vers des expériences dynamiques et interactives qui engagent et captivent le public. Si vous êtes un développeur Java cherchant à ajouter une nouvelle dimension à vos présentations, vous êtes au bon endroit. Dans cet article, nous explorerons comment implémenter des contrôles multimédias dans les diapositives Java à l'aide des didacticiels Aspose.Slides pour Java.
 
@@ -55,9 +51,3 @@ Maîtrisez la gestion des interruptions de Java Slides avec Aspose.Slides pour J
 Découvrez comment mettre à jour les propriétés de présentation dans les diapositives Java à l'aide d'Aspose.Slides for Java. Personnalisez l'auteur, le titre et bien plus encore pour des présentations percutantes.
 ### [Mettre à jour les propriétés de la présentation en utilisant une autre présentation comme modèle dans les diapositives Java](./update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/)
 Améliorez les présentations PowerPoint avec des métadonnées mises à jour à l'aide d'Aspose.Slides pour Java. Apprenez à mettre à jour des propriétés telles que l'auteur, le titre et les mots-clés à l'aide de modèles dans Java Slides.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

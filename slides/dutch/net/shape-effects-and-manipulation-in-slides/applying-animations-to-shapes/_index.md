@@ -3,14 +3,10 @@ title: Vormanimaties gemakkelijk gemaakt met Aspose.Slides
 linktitle: Animaties toepassen op vormen in presentatiedia's met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Maak verbluffende presentaties met Aspose.Slides voor .NET. Leer in deze stapsgewijze handleiding hoe u animaties op vormen kunt toepassen. Verhoog uw dia's nu!
+type: docs
 weight: 21
 url: /nl/net/shape-effects-and-manipulation-in-slides/applying-animations-to-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 In de wereld van dynamische presentaties kan het toevoegen van animaties aan vormen de visuele aantrekkingskracht en betrokkenheid van uw dia's aanzienlijk vergroten. Aspose.Slides voor .NET biedt een krachtige toolkit om dit naadloos te bereiken. In deze zelfstudie begeleiden we u bij het toepassen van animaties op vormen met behulp van Aspose.Slides, zodat u boeiende presentaties kunt maken die een blijvende indruk achterlaten.
 ## Vereisten
@@ -85,9 +81,3 @@ Aspose.Slides zorgt voor compatibiliteit met verschillende PowerPoint-versies, z
  Ja, u kunt een licentie verkrijgen[hier](https://purchase.aspose.com/buy) om het volledige potentieel van Aspose.Slides te ontsluiten.
 ### Kan ik Aspose.Slides uitproberen voordat ik een aankoop doe?
  Zeker! Maak gebruik van de[gratis proefperiode](https://releases.aspose.com/) om de mogelijkheden van Aspose.Slides te ervaren voordat u een verbintenis aangaat.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Tambahkan Bilah Kesalahan di Slide Java
 linktitle: Tambahkan Bilah Kesalahan di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan bilah kesalahan ke bagan PowerPoint di Java menggunakan Aspose.Slides. Panduan langkah demi langkah dengan kode sumber untuk menyesuaikan bilah kesalahan.
+type: docs
 weight: 13
 url: /id/java/chart-data-manipulation/add-error-bars-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Pengantar Menambahkan Bilah Kesalahan di Slide Java menggunakan Aspose.Slides
 
@@ -132,9 +128,3 @@ Ya, Anda dapat menambahkan bilah kesalahan ke berbagai tipe bagan yang didukung 
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Slides untuk Java?
 
  Anda dapat merujuk ke[Aspose.Slides untuk dokumentasi Java](https://reference.aspose.com/slides/java/) untuk informasi rinci tentang penggunaan perpustakaan.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

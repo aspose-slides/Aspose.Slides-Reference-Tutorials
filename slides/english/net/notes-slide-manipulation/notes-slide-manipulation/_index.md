@@ -3,14 +3,10 @@ title: Notes Slide Manipulation using Aspose.Slides
 linktitle: Notes Slide Manipulation using Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to manage header and footer in PowerPoint slides with Aspose.Slides for .NET. Remove notes and customize your presentations effortlessly.
+type: docs
 weight: 10
 url: /net/notes-slide-manipulation/notes-slide-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 In today's digital age, creating engaging presentations is an essential skill. Aspose.Slides for .NET is a powerful tool that allows you to manipulate and customize your presentation slides with ease. In this step-by-step guide, we'll walk you through some essential tasks using Aspose.Slides for .NET. We'll cover how to manage header and footer in notes slides, remove notes at specific slides, and remove notes from all slides.
 
@@ -170,10 +166,3 @@ Yes, you can obtain a temporary license for testing purposes from [this link](ht
 
 Yes, Aspose.Slides for .NET offers a wide range of features for PowerPoint presentation manipulation, including slides, shapes, text, and more. Explore the documentation for details.
 
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

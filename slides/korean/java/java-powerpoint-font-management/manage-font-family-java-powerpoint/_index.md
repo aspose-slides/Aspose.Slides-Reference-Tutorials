@@ -3,14 +3,10 @@ title: Java PowerPoint에서 글꼴 모음 관리
 linktitle: Java PowerPoint에서 글꼴 모음 관리
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java PowerPoint 프레젠테이션에서 글꼴 모음을 관리하는 방법을 알아보세요. 글꼴 스타일, 색상 등을 쉽게 사용자 정의하세요.
+type: docs
 weight: 10
 url: /ko/java/java-powerpoint-font-management/manage-font-family-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 Java PowerPoint 프레젠테이션에서 글꼴 모음을 관리하는 방법을 살펴보겠습니다. 글꼴은 슬라이드의 시각적 매력과 가독성에 중요한 역할을 하므로 글꼴을 효과적으로 조작하는 방법을 아는 것이 중요합니다.
 ## 전제 조건
@@ -70,9 +66,3 @@ Java PowerPoint 프레젠테이션에서 글꼴 모음 관리는 Aspose.Slides f
 예, Aspose.Slides는 코드를 통해 PowerPoint 프레젠테이션을 완전히 생성, 수정 및 조작할 수 있는 API를 제공합니다.
 ### Aspose.Slides for Java에 사용할 수 있는 평가판이 있습니까?
 예, 다음에서 Java용 Aspose.Slides의 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

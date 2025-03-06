@@ -3,14 +3,10 @@ title: Tambahkan Stretch Offset untuk Isi Gambar di PowerPoint
 linktitle: Tambahkan Stretch Offset untuk Isi Gambar di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan offset regangan untuk pengisian gambar dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Tutorial langkah demi langkah disertakan.
+type: docs
 weight: 16
 url: /id/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam tutorial ini, Anda akan mempelajari cara menggunakan Aspose.Slides untuk Java untuk menambahkan offset regangan untuk pengisian gambar dalam presentasi PowerPoint. Fitur ini memungkinkan Anda memanipulasi gambar dalam slide Anda, memberi Anda kontrol lebih besar atas tampilannya.
 ## Prasyarat
@@ -68,9 +64,3 @@ Aspose.Slides untuk Java dapat menangani gambar dengan berbagai ukuran, namun di
 Ya, Anda dapat menerapkan berbagai efek dan transformasi pada gambar menggunakan Aspose.Slides untuk API ekstensif Java.
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Slides untuk Java?
  Anda dapat mengunjungi[Aspose.Slides untuk dokumentasi Java](https://reference.aspose.com/slides/java/) untuk panduan terperinci dan jelajahi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan masyarakat.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

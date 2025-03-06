@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में विशिष्ट च
 linktitle: जावा स्लाइड्स में विशिष्ट चार्ट श्रृंखला डेटा बिंदु डेटा साफ़ करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java के साथ Java स्लाइड्स में चार्ट श्रृंखला से विशिष्ट डेटा बिंदुओं को साफ़ करना सीखें। प्रभावी डेटा विज़ुअलाइज़ेशन प्रबंधन के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
+type: docs
 weight: 15
 url: /hi/java/chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## जावा स्लाइड्स में विशिष्ट चार्ट श्रृंखला डेटा बिंदुओं को साफ़ करने का परिचय
 
@@ -125,9 +121,3 @@ Aspose.Slides for Java में चार्ट श्रृंखला से
 ### मैं Aspose.Slides for Java के बारे में अधिक जानकारी कहां पा सकता हूं?
 
  आप यहां विस्तृत दस्तावेज और उदाहरण पा सकते हैं[Aspose.Slides for Java दस्तावेज़](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

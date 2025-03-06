@@ -3,14 +3,10 @@ title: Java PowerPoint 字体管理
 linktitle: Java PowerPoint 字体管理
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 发现使用 Aspose.Slides for Java 的 Java PowerPoint 字体管理教程。学习嵌入、压缩和自定义技术以增强演示文稿。
+type: docs
 weight: 21
 url: /zh/java/java-powerpoint-font-management/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 
 使用我们的 Java PowerPoint 字体管理教程（使用 Aspose.Slides for Java）释放 PowerPoint 演示文稿的潜力。我们的综合指南将帮助您掌握字体自定义并确保您的演示文稿脱颖而出。
@@ -76,9 +72,3 @@ url: /zh/java/java-powerpoint-font-management/
 学习使用 Aspose.Slides for Java 格式化 Java PowerPoint 演示文稿中的文本框架。轻松增强幻灯片的视觉吸引力。
 ### [Java PowerPoint 中的有效文本样式数据](./effective-text-style-data-java-powerpoint/)
 使用 Aspose.Slides for Java 掌握 Java PowerPoint 演示文稿中的文本样式操作。动态自定义格式以创建有影响力的内容。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

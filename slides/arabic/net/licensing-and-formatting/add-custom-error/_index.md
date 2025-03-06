@@ -3,14 +3,10 @@ title: إضافة أشرطة خطأ مخصصة إلى المخطط
 linktitle: إضافة أشرطة خطأ مخصصة إلى المخطط
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إنشاء عروض تقديمية مذهلة باستخدام Aspose.Slides for .NET عن طريق إضافة أشرطة خطأ مخصصة إلى مخططاتك. ارفع مستوى لعبة تصور البيانات الخاصة بك اليوم!
+type: docs
 weight: 13
 url: /ar/net/licensing-and-formatting/add-custom-error/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 في عالم العروض التقديمية الديناميكية، تلعب المخططات دورًا محوريًا في نقل البيانات المعقدة بطريقة مفهومة. يمكّنك Aspose.Slides for .NET من الارتقاء بلعبة العرض التقديمي إلى المستوى التالي. في هذا الدليل المفصّل خطوة بخطوة، سنتعمق في عملية إضافة أشرطة خطأ مخصصة إلى مخططاتك باستخدام Aspose.Slides for .NET. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا، سيرشدك هذا البرنامج التعليمي خلال العملية بسلاسة.
 
@@ -132,9 +128,3 @@ presentation.Save(dataDir + "ErrorBars_out.pptx", SaveFormat.Pptx);
 الآن، حان الوقت لاستخدام معرفتك الجديدة وإنشاء عروض تقديمية جذابة تترك انطباعًا دائمًا.
 
 تذكر، مع Aspose.Slides for .NET، لا حدود للسماء عندما يتعلق الأمر بتخصيص العرض التقديمي والابتكار. عرض سعيد!
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

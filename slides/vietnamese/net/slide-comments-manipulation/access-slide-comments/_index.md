@@ -3,14 +3,10 @@ title: Truy cập Nhận xét Trang trình bày bằng Aspose.Slides
 linktitle: Truy cập bình luận slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách truy cập nhận xét trang trình bày trong bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Tăng cường hợp tác và quy trình làm việc dễ dàng.
+type: docs
 weight: 11
 url: /vi/net/slide-comments-manipulation/access-slide-comments/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Trong thế giới thuyết trình năng động và tương tác, việc quản lý nhận xét trong trang trình bày của bạn có thể là một phần quan trọng trong quá trình cộng tác. Aspose.Slides for .NET cung cấp một giải pháp mạnh mẽ và linh hoạt để truy cập và thao tác các nhận xét trên slide, nâng cao quy trình trình bày của bạn. Trong hướng dẫn từng bước này, chúng tôi sẽ đi sâu vào quy trình truy cập nhận xét trang trình bày bằng Aspose.Slides cho .NET.
 
@@ -116,9 +112,3 @@ Có, Aspose.Slides cho .NET có thể được sử dụng trong nhiều ứng d
 
 ### Tôi có thể mua giấy phép Aspose.Slides cho .NET không?
  Có, bạn có thể mua giấy phép Aspose.Slides for .NET từ[liên kết này](https://purchase.aspose.com/buy) để khai thác toàn bộ tiềm năng của thư viện trong dự án của bạn.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

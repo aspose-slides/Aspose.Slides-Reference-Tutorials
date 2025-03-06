@@ -3,14 +3,10 @@ title: Zarządzaj właściwościami czcionek akapitowych w programie Java PowerP
 linktitle: Zarządzaj właściwościami czcionek akapitowych w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak zarządzać i dostosowywać właściwości czcionek akapitowych w prezentacjach Java PowerPoint przy użyciu Aspose.Slides, korzystając z tego łatwego do zrozumienia przewodnika krok po kroku.
+type: docs
 weight: 10
 url: /pl/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-font-properties-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 Tworzenie atrakcyjnych wizualnie prezentacji PowerPoint ma kluczowe znaczenie dla skutecznej komunikacji. Niezależnie od tego, czy przygotowujesz propozycję biznesową, czy projekt szkolny, odpowiednie właściwości czcionki mogą sprawić, że Twoje slajdy będą bardziej wciągające. Ten samouczek poprowadzi Cię przez zarządzanie właściwościami czcionek akapitowych za pomocą Aspose.Slides dla Java. Gotowy do nurkowania? Zacznijmy!
 ## Warunki wstępne
@@ -117,9 +113,3 @@ Tak, każda część akapitu może mieć własne właściwości czcionki.
 Tak, Aspose.Slides for Java obsługuje gradientowe wypełnianie tekstu.
 ### Co się stanie, jeśli będę chciał cofnąć zmiany?
 Załaduj ponownie oryginalną prezentację lub wykonaj kopię zapasową przed wprowadzeniem zmian.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

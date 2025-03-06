@@ -3,14 +3,10 @@ title: Java PowerPoint'te Etkili Metin Çerçevesi Formatı Verileri
 linktitle: Java PowerPoint'te Etkili Metin Çerçevesi Formatı Verileri
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile Java PowerPoint sunumlarındaki metin çerçevelerini formatlamayı öğrenin. Slaytlarınızın görsel çekiciliğini zahmetsizce geliştirin.
+type: docs
 weight: 15
 url: /tr/java/java-powerpoint-font-management/effective-text-frame-format-data-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 Java tabanlı sunumlar alanında Aspose.Slides for Java, geliştiricilerin dinamik ve görsel olarak büyüleyici slayt gösterilerini kolaylıkla oluşturmasına olanak tanıyan güçlü bir araç olarak ortaya çıkıyor. İlgi çekici sunumlar oluşturmanın kritik yönlerinden biri, metin çerçevelerinin etkili bir şekilde biçimlendirilmesinde yatmaktadır. Bu kapsamlı kılavuzda, metin çerçevesi biçimlendirme sanatında ustalaşmak için Aspose.Slides for Java'yı kullanmanın inceliklerini derinlemesine inceliyoruz.
 ## Önkoşullar
@@ -76,9 +72,3 @@ Aslında Aspose.Slides for Java, sunumların PDF, PPTX ve görseller gibi popül
 Evet, Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarınızdaki metin çerçevelerine ve diğer öğelere animasyonlar uygulayabilirsiniz.
 ### Aspose.Slides for Java için teknik destek mevcut mu?
  Evet, Aspose.Slides for Java için teknik desteğe şu adresten ulaşılabilir:[forum](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

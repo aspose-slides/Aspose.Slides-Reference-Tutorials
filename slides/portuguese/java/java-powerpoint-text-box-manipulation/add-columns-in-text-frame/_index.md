@@ -3,14 +3,10 @@ title: Adicionar colunas no quadro de texto usando Aspose.Slides para Java
 linktitle: Adicionar colunas no quadro de texto usando Aspose.Slides para Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como adicionar colunas em quadros de texto usando Aspose.Slides for Java para aprimorar suas apresentações em PowerPoint. Nosso guia passo a passo simplifica o processo.
+type: docs
 weight: 11
 url: /pt/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 Neste tutorial, exploraremos como manipular quadros de texto para adicionar colunas usando Aspose.Slides para Java. Aspose.Slides é uma biblioteca poderosa que permite aos desenvolvedores Java criar, manipular e converter apresentações do PowerPoint programaticamente. Adicionar colunas a quadros de texto melhora o apelo visual e a organização do texto nos slides, tornando as apresentações mais envolventes e fáceis de ler.
 ## Pré-requisitos
@@ -85,9 +81,3 @@ Não, Aspose.Slides define largura igual para colunas dentro de um quadro de tex
  Documentação detalhada está disponível[aqui](https://reference.aspose.com/slides/java/).
 ### Como posso obter suporte técnico para Aspose.Slides for Java?
  Você pode buscar apoio da comunidade[aqui](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

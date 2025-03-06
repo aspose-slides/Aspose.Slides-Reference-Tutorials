@@ -3,14 +3,10 @@ title: Создание миниатюры с границами формы в A
 linktitle: Создание миниатюры с границами формы в Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Раскройте возможности Aspose.Slides для .NET! Научитесь легко создавать миниатюры фигур с границами, используя наше пошаговое руководство.
+type: docs
 weight: 10
 url: /ru/net/image-and-video-manipulation-in-slides/creating-thumbnail-bounds-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 Если вы .NET-разработчик и ищете надежное решение для создания миниатюр изображений с границами фигур в презентациях PowerPoint, Aspose.Slides for .NET — ваш идеальный инструмент. Эта мощная библиотека обеспечивает бесшовную интеграцию, позволяя эффективно манипулировать и извлекать ценную информацию из файлов PowerPoint. В этом уроке мы рассмотрим процесс создания миниатюры фигуры с границами с помощью Aspose.Slides.
 ## Предварительные условия
@@ -64,9 +60,3 @@ Aspose.Slides для .NET упрощает процесс работы с пре
  Посетить[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) связаться с сообществом и обратиться за помощью к опытным разработчикам.
 ### Могу ли я получить временную лицензию на Aspose.Slides?
  Да, вы можете получить временную лицензию[здесь](https://purchase.aspose.com/temporary-license/) для краткосрочных нужд проекта.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

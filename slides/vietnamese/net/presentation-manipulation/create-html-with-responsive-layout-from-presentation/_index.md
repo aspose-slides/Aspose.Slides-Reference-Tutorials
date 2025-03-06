@@ -3,14 +3,10 @@ title: Tạo HTML với Bố cục đáp ứng từ bản trình bày
 linktitle: Tạo HTML với Bố cục đáp ứng từ bản trình bày
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách chuyển đổi bản trình bày thành HTML phản hồi bằng Aspose.Slides cho .NET. Tạo nội dung tương tác, thân thiện với thiết bị một cách dễ dàng.
+type: docs
 weight: 17
 url: /vi/net/presentation-manipulation/create-html-with-responsive-layout-from-presentation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Trong thời đại kỹ thuật số ngày nay, việc tạo nội dung web đáp ứng là một kỹ năng quan trọng đối với các nhà phát triển và thiết kế web. May mắn thay, các công cụ như Aspose.Slides cho .NET giúp tạo HTML dễ dàng hơn với bố cục phản hồi từ bản trình bày. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quá trình đạt được điều này bằng cách sử dụng mã nguồn được cung cấp.
 
@@ -76,9 +72,3 @@ Việc tạo HTML với bố cục đáp ứng từ bản trình bày PowerPoint
  Có, bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 
 Giờ đây bạn đã có hướng dẫn toàn diện về cách tạo HTML phản hồi từ bản trình bày, bạn đang dần nâng cao khả năng truy cập và sự hấp dẫn của nội dung web của mình. Chúc mừng mã hóa!
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

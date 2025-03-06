@@ -3,14 +3,10 @@ title: Ρύθμιση γωνίας περιστροφής σε διαφάνει�
 linktitle: Ρύθμιση γωνίας περιστροφής σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Βελτιστοποιήστε τις διαφάνειες Java με το Aspose.Slides for Java. Μάθετε να ορίζετε γωνίες περιστροφής για στοιχεία κειμένου. Οδηγός βήμα προς βήμα με τον πηγαίο κώδικα.
+type: docs
 weight: 17
 url: /el/java/customization-and-formatting/setting-rotation-angle-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στη ρύθμιση της γωνίας περιστροφής σε διαφάνειες Java
 
@@ -104,9 +100,3 @@ finally
 ### Είναι δυνατή η κίνηση της περιστροφής του κειμένου σε έναν τίτλο άξονα γραφήματος;
 
 Ναι, μπορείτε να προσθέσετε εφέ κίνησης σε στοιχεία κειμένου, συμπεριλαμβανομένων των τίτλων αξόνων γραφημάτων, χρησιμοποιώντας το Aspose.Slides για Java. Ανατρέξτε στην τεκμηρίωση για πληροφορίες σχετικά με την προσθήκη κινούμενων εικόνων στις παρουσιάσεις σας.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

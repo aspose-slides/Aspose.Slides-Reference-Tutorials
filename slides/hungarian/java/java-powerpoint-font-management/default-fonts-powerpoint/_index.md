@@ -3,14 +3,10 @@ title: Alapértelmezett betűtípusok a PowerPointban az Aspose.Slides for Java 
 linktitle: Alapértelmezett betűtípusok a PowerPointban az Aspose.Slides for Java segítségével
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthat be alapértelmezett betűtípusokat PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. Biztosítsa a konzisztenciát és fokozza a vizuális vonzerőt erőfeszítés nélkül.
+type: docs
 weight: 11
 url: /hu/java/java-powerpoint-font-management/default-fonts-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 A PowerPoint prezentációk egyéni betűtípusokkal történő létrehozása sok projektben általános követelmény. Az Aspose.Slides for Java zökkenőmentes megoldást kínál az alapértelmezett betűtípusok kezelésére, biztosítva a konzisztenciát a különböző környezetekben. Ebben az oktatóanyagban végigvezetjük az alapértelmezett betűtípusok beállításának folyamatán a PowerPoint-prezentációkban az Aspose.Slides for Java használatával.
 ## Előfeltételek
@@ -75,9 +71,3 @@ Az Aspose.Slides for Java a PowerPoint verziók széles skáláját támogatja, 
  Igen, az Aspose.Slides for Java ingyenes próbaverziója a következő címen érhető el[releases.aspose.com](https://releases.aspose.com/).
 ### Hol szerezhetek ideiglenes licencet az Aspose.Slides for Java számára?
  Ideiglenes licencet szerezhet be az Aspose.Slides for Java számára a következő webhelyen:[vásárlási oldal](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

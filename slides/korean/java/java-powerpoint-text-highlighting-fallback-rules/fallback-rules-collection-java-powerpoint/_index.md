@@ -3,14 +3,10 @@ title: Java PowerPoint의 대체 규칙 컬렉션
 linktitle: Java PowerPoint의 대체 규칙 컬렉션
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 글꼴 대체 규칙을 관리하는 방법을 알아보세요. 장치 간 호환성을 손쉽게 향상하세요.
+type: docs
 weight: 11
 url: /ko/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 글꼴 대체 규칙을 관리하는 방법을 살펴보겠습니다. 글꼴 대체는 특히 특정 글꼴을 사용할 수 없는 경우 다양한 환경에서 프레젠테이션이 올바르게 표시되도록 하는 데 중요합니다. 필요한 패키지 가져오기, 환경 설정, 대체 규칙 구현을 단계별로 안내해 드립니다.
 ## 전제 조건
@@ -77,9 +73,3 @@ try {
  자세한 문서가 제공됩니다.[여기](https://reference.aspose.com/slides/java/).
 ### Java용 Aspose.Slides에 대한 지원을 받으려면 어떻게 해야 하나요?
 지원을 받으려면 Aspose.Slides 포럼을 방문하세요.[여기](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

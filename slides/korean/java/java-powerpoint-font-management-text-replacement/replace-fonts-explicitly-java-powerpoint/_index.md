@@ -3,14 +3,10 @@ title: Java PowerPoint에서 명시적으로 글꼴 바꾸기
 linktitle: Java PowerPoint에서 명시적으로 글꼴 바꾸기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides로 Java를 사용하여 PowerPoint 프레젠테이션의 글꼴을 쉽게 교체할 수 있습니다. 원활한 글꼴 전환 프로세스에 대한 자세한 가이드를 따르십시오.
+type: docs
 weight: 12
 url: /ko/java/java-powerpoint-font-management-text-replacement/replace-fonts-explicitly-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 Java를 사용하여 PowerPoint 프레젠테이션의 글꼴을 바꾸려고 하시나요? 글꼴 스타일의 통일성이 필요한 프로젝트에서 작업 중이거나 단순히 다른 글꼴 미학을 선호하는 경우 Aspose.Slides for Java를 사용하면 이 작업이 간단해집니다. 이 포괄적인 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 명시적으로 글꼴을 바꾸는 단계를 안내합니다. 이 가이드가 끝나면 특정 요구 사항에 맞게 글꼴을 원활하게 교체할 수 있습니다.
 ## 전제 조건
@@ -90,9 +86,3 @@ Aspose.Slides for Java는 개발자가 Java를 사용하여 PowerPoint 프레젠
 아니요. Aspose.Slides 라이브러리를 다운로드하여 프로젝트에 포함시킨 후에는 오프라인으로 사용할 수 있습니다.
 ### Aspose.Slides에 문제가 발생하면 어디서 지원을 받을 수 있나요?
  에서 지원을 받으실 수 있습니다.[Aspose.Slides 지원 포럼](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

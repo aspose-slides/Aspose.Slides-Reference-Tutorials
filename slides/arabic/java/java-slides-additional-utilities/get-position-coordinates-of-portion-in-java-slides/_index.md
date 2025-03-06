@@ -3,14 +3,10 @@ title: احصل على إحداثيات موضع الجزء في شرائح Java
 linktitle: احصل على إحداثيات موضع الجزء في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعلم كيفية استرداد إحداثيات جزء النص في شرائح Java باستخدام Aspose.Slides for Java API. احصل على تحكم دقيق في موضع النص في عروض PowerPoint التقديمية.
+type: docs
 weight: 12
 url: /ar/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة للحصول على إحداثيات موضع الجزء في شرائح Java
 
@@ -124,9 +120,3 @@ finally
 ### كيف يمكنني الحصول على مزيد من الدعم أو المساعدة فيما يتعلق بـ Aspose.Slides لـ Java؟
 
 يمكنك الوصول إلى الدعم والموارد الإضافية على موقع Aspose. أنها توفر المنتديات والوثائق وخيارات الدعم المتميز للمستخدمين.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

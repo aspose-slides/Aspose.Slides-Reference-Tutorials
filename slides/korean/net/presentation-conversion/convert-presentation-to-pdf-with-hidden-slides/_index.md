@@ -3,14 +3,10 @@ title: 숨겨진 슬라이드를 사용하여 프레젠테이션을 PDF로 변�
 linktitle: 숨겨진 슬라이드를 사용하여 프레젠테이션을 PDF로 변환
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 프레젠테이션을 숨겨진 슬라이드가 있는 PDF로 원활하게 변환하는 방법을 알아보세요.
+type: docs
 weight: 26
 url: /ko/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## .NET용 Aspose.Slides 소개
 
@@ -99,9 +95,3 @@ class Program
 ### .NET용 Aspose.Slides에 대한 문서가 있습니까?
 
  예, .NET용 Aspose.Slides에 대한 문서 및 사용 예제는 다음에서 찾을 수 있습니다.[여기](https://reference.aspose.com/slides/net).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: 在 Java 投影片中設定資料標籤百分比符號
 linktitle: 在 Java 投影片中設定資料標籤百分比符號
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中設定帶有百分號的資料標籤。透過逐步指導和原始程式碼創建引人入勝的圖表。
+type: docs
 weight: 17
 url: /zh-hant/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for Java中設定資料標籤百分比符號簡介
 
@@ -180,10 +176,3 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 ### 如何為圖表添加更多系列？
 
 您可以使用以下命令將其他系列新增至圖表中`add`方法上的`IChartSeriesCollection`目的。
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

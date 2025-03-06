@@ -3,14 +3,10 @@ title: الوصول إلى خصائص العرض التقديمي
 linktitle: الوصول إلى خصائص العرض التقديمي
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: أطلق العنان لقوة Aspose.Slides لـ Java. إدارة العرض التقديمي الرئيسي مع هذا البرنامج التعليمي. يمكنك الوصول إلى خصائص العرض التقديمي وتعديلها وتحسينها بسهولة.
+type: docs
 weight: 11
 url: /ar/java/java-powerpoint-properties-management/access-presentation-properties/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 في مجال تطوير Java، يمكن أن تكون إدارة العروض التقديمية بسلاسة أمرًا صعبًا. ومع ذلك، مع ظهور Aspose.Slides for Java، تم تزويد المطورين بمجموعة أدوات قوية للتنقل عبر هذا التعقيد دون عناء. يعد هذا البرنامج التعليمي بمثابة الضوء الإرشادي، حيث يكشف النقاب عن تعقيدات الاستفادة من Aspose.Slides للوصول إلى خصائص العرض التقديمي. سوف نتعمق في المتطلبات الأساسية، ونستورد الحزم، ونقسم كل مثال إلى خطوات سهلة الفهم، مما يضمن أن تظل رحلتك نحو الإتقان سلسة ومثرية.
 ## المتطلبات الأساسية
@@ -68,9 +64,3 @@ System.out.println("Name of Application: " + docProps.getNameOfApplication());
  لأية استفسارات أو مساعدة، يمكنك زيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11)، حيث يتوفر الخبراء والمجتمع للمساعدة بسهولة.
 ### هل يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides؟
  نعم، التراخيص المؤقتة متاحة لأغراض التقييم أو الاختبار. يمكنك الحصول على ترخيص مؤقت من[صفحة الشراء](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

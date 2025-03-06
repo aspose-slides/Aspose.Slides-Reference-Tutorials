@@ -3,14 +3,10 @@ title: Java-Foliendiagrammelemente
 linktitle: Java-Foliendiagrammelemente
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie in unseren umfassenden Tutorials, wie Sie mit Aspose.Slides für Java dynamische Diagramme in Java-Folien erstellen. Verbessern Sie noch heute Ihre Präsentationsfähigkeiten!
+type: docs
 weight: 15
 url: /de/java/chart-elements/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Sind Sie bereit, Ihre Präsentationsfähigkeiten auf die nächste Stufe zu heben? Tauchen Sie mit Aspose.Slides für Java in die Welt dynamischer Diagramme in Java-Folien ein. In diesem umfassenden Leitfaden führen wir Sie durch alles, was Sie wissen müssen, um Diagrammelemente zu beherrschen und Ihre Präsentationen wirklich hervorzuheben.
 
@@ -62,9 +58,3 @@ Entdecken Sie Aspose.Slides für Java mit Schritt-für-Schritt-Tutorials. Erstel
 Erstellen Sie mit Aspose.Slides für Java beeindruckende Kartendiagramme in PowerPoint-Präsentationen. Schritt-für-Schritt-Anleitung und Quellcode für Java-Entwickler.
 ### [Sunburst-Diagramm in Java-Folien](./sunburst-chart-java-slides/)
 Erstellen Sie mit Aspose.Slides beeindruckende Sunburst-Diagramme in Java Slides. Erfahren Sie Schritt für Schritt, wie Sie Diagramme erstellen und Daten bearbeiten.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

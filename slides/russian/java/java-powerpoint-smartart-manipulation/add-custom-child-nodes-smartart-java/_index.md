@@ -3,14 +3,10 @@ title: Добавьте пользовательские дочерние узл
 linktitle: Добавьте пользовательские дочерние узлы в SmartArt с помощью Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как добавлять пользовательские дочерние узлы в SmartArt в презентациях PowerPoint с помощью Java с Aspose.Slides. Улучшите свои слайды с помощью профессиональной графики без особых усилий.
+type: docs
 weight: 11
 url: /ru/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 SmartArt — это мощная функция PowerPoint, которая позволяет пользователям быстро и легко создавать профессионально выглядящую графику. В этом уроке мы научимся добавлять пользовательские дочерние узлы в SmartArt с помощью Java с помощью Aspose.Slides.
 ## Предварительные условия
@@ -83,9 +79,3 @@ Aspose.Slides для Java разработан для бесперебойной
 Да, вы можете найти подробную документацию и доступ к форумам поддержки сообщества на веб-сайте Aspose.
 ### Доступна ли пробная версия Aspose.Slides для Java?
  Да, вы можете загрузить бесплатную пробную версию Aspose.Slides для Java с веб-сайта, чтобы изучить ее функции и возможности перед покупкой.[здесь](https://releases.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

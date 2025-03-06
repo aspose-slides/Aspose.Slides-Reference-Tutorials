@@ -3,14 +3,10 @@ title: Administrar la presentación en estado de vista normal
 linktitle: Administrar la presentación en estado de vista normal
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a administrar presentaciones en estado de vista normal usando Aspose.Slides para .NET. Cree, modifique y mejore presentaciones mediante programación con guía paso a paso y código fuente completo.
+type: docs
 weight: 11
 url: /es/net/slide-view-and-layout-manipulation/manage-presentation-normal-view-state/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Ya sea que esté elaborando un discurso de venta dinámico, una conferencia educativa o un seminario web atractivo, las presentaciones son la piedra angular de una comunicación eficaz. Microsoft PowerPoint ha sido durante mucho tiempo el software de referencia para crear presentaciones de diapositivas impresionantes. Sin embargo, cuando se trata de gestionar presentaciones mediante programación, la biblioteca Aspose.Slides para .NET demuestra ser una herramienta invaluable. En esta guía, exploraremos cómo usar Aspose.Slides para .NET para administrar presentaciones en el estado de vista normal, permitiéndole crear, modificar y mejorar sus presentaciones sin problemas.
 
@@ -125,9 +121,3 @@ Puede acceder a la documentación completa de Aspose.Slides para .NET en el[Refe
 
 ## Conclusión
 En esta guía, exploramos cómo administrar presentaciones en el estado de vista normal usando Aspose.Slides para .NET. Con sus sólidas funciones, puede crear, modificar y mejorar presentaciones mediante programación, garantizando que su contenido cautive a su audiencia de manera efectiva. Si es un presentador profesional o un desarrollador que trabaja en aplicaciones relacionadas con presentaciones, Aspose.Slides para .NET es su puerta de entrada a una gestión de presentaciones perfecta.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java PowerPoint 文本和字体自定义
 linktitle: Java PowerPoint 文本和字体自定义
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 探索使用 Aspose.Slides 定制 Java PowerPoint 文本和字体的教程。学习旋转、字体替换等以增强您的演示文稿。
+type: docs
 weight: 29
 url: /zh/java/java-powerpoint-text-font-customization/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 
 使用我们的 Java PowerPoint 文本和字体自定义教程（使用 Aspose.Slides）释放 PowerPoint 演示文稿的全部潜力。无论您是初学者还是高级用户，我们的详细指南都将帮助您轻松增强演示文稿。
@@ -106,9 +102,3 @@ url: /zh/java/java-powerpoint-text-font-customization/
 了解如何使用 Aspose.Slides for Java 将自定义字体集成到 PowerPoint 演示文稿中。轻松增强视觉吸引力。
 ### [使用 Java 在 PowerPoint 中创建艺术字](./create-wordart-powerpoint-java/)
 了解如何使用 Java 和 Aspose.Slides 在 PowerPoint 演示文稿中创建迷人的艺术字。面向开发人员的分步教程。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

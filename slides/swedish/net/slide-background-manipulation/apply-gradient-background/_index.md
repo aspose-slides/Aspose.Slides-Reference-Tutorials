@@ -3,14 +3,10 @@ title: Använd övertoningsbakgrund på en bild
 linktitle: Använd övertoningsbakgrund på en bild
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du applicerar fantastiska gradientbakgrunder på dina PowerPoint-bilder med Aspose.Slides för .NET. Lyft dina presentationer!
+type: docs
 weight: 12
 url: /sv/net/slide-background-manipulation/apply-gradient-background/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 I en värld av presentationsdesign är det viktigt att skapa visuellt fantastiska bilder för att fängsla din publik. Ett sätt att uppnå detta är att använda en gradientbakgrund på dina bilder. Aspose.Slides för .NET gör denna uppgift sömlös, så att du kan skapa professionella presentationer. I den här steg-för-steg-guiden går vi igenom processen att applicera en gradientbakgrund på en bild med Aspose.Slides för .NET.
 
@@ -103,10 +99,3 @@ Absolut! Du kan anpassa gradientbakgrunden för varje bild i din presentation.
 
 ### Vilka andra funktioner erbjuder Aspose.Slides för .NET för presentationsdesign?
 Aspose.Slides för .NET tillhandahåller ett brett utbud av funktioner, inklusive bildskapande, redigering och manipulering, diagram- och tabellhantering och export till olika format.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

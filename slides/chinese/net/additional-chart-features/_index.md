@@ -3,14 +3,10 @@ title: 附加图表功能
 linktitle: 附加图表功能
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 探索 Aspose.Slides for .NET 中的高级图表功能！学习使用自定义样式、趋势线等创建动态、交互式图表。使用强大的数据可视化功能提升您的演示文稿。
+type: docs
 weight: 24
 url: /zh/net/additional-chart-features/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 介绍
 
@@ -36,9 +32,3 @@ Aspose.Slides for .NET 提供了丰富的附加图表功能，使您能够创建
 了解如何使用 Aspose.Slides for .NET 从图表中恢复工作簿。提取图表数据并以编程方式创建 Excel 工作簿。
 ### [清除特定图表系列数据点](./clear-specific-chart-series-data-points-data/)
 了解如何在 Aspose.Slides for .NET 中清除特定图表数据点。包含源代码的分步指南。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

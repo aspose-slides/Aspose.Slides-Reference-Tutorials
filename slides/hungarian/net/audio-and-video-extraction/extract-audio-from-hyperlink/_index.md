@@ -3,14 +3,10 @@ title: Hang kibontása a PowerPoint hiperhivatkozásokból az Aspose.Slides seg�
 linktitle: Hang kibontása a hiperhivatkozásból
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Hang kibontása a PowerPoint-prezentációk hiperhivatkozásaiból az Aspose.Slides for .NET segítségével. Fokozza könnyedén multimédiás projektjeit.
+type: docs
 weight: 12
 url: /hu/net/audio-and-video-extraction/extract-audio-from-hyperlink/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 A multimédiás prezentációk világában a hang létfontosságú szerepet játszik a diák általános hatásának fokozásában. Találkozott már olyan PowerPoint prezentációval, amely audiohiperhivatkozásokat tartalmaz, és azon töprengett, hogyan bonthatja ki a hanganyagot más célokra? Az Aspose.Slides for .NET segítségével könnyedén elvégezheti ezt a feladatot. Ebben a lépésenkénti útmutatóban végigvezetjük a PowerPoint-prezentációban található hiperhivatkozások hangjának kinyerésének folyamatán.
 
@@ -109,10 +105,3 @@ Igen, ideiglenes licencet szerezhet az Aspose.Slides for .NET-hez, hogy kielég�
 
 ### Az MPG-n kívül más audioformátumok is támogatottak a kinyeréshez?
 Az Aspose.Slides for .NET lehetővé teszi a hangok különféle formátumok kivonatát, nem korlátozva az MPG-re. Kibontás után konvertálhatja a kívánt formátumra.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

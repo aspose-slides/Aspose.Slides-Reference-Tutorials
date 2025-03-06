@@ -3,14 +3,10 @@ title: แปลงสไลด์เฉพาะเป็นรูปแบบ 
 linktitle: แปลงสไลด์เฉพาะเป็นรูปแบบ PDF
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: เรียนรู้วิธีแปลงสไลด์ PowerPoint เฉพาะเป็นรูปแบบ PDF โดยใช้ Aspose.Slides สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด
+type: docs
 weight: 19
 url: /th/net/presentation-conversion/convert-specific-slide-to-pdf-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 
 หากคุณต้องการแปลงสไลด์เฉพาะจากงานนำเสนอ PowerPoint เป็นรูปแบบ PDF โดยใช้ Aspose.Slides สำหรับ .NET คุณมาถูกที่แล้ว ในบทช่วยสอนที่ครอบคลุมนี้ เราจะแนะนำคุณตลอดกระบวนการทีละขั้นตอน เพื่อให้คุณบรรลุเป้าหมายได้อย่างง่ายดาย
@@ -86,9 +82,3 @@ using (Presentation presentation = new Presentation(dataDir + "SelectedSlides.pp
 สำหรับแหล่งข้อมูลเพิ่มเติมและเอกสารประกอบ[Aspose.Slides สำหรับการอ้างอิง API](https://reference.aspose.com/slides/net/).
 
 ตอนนี้ คุณได้เชี่ยวชาญศิลปะของการแปลงสไลด์เฉพาะเป็น PDF ด้วย Aspose.Slides สำหรับ .NET แล้ว คุณก็พร้อมที่จะปรับปรุงงานอัตโนมัติของ PowerPoint ของคุณแล้ว ขอให้มีความสุขในการเขียนโค้ด!
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

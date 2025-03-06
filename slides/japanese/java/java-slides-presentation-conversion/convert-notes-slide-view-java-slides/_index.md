@@ -3,14 +3,10 @@ title: Java スライドでノートスライドビューを変換する
 linktitle: Java スライドでノートスライドビューを変換する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して Java スライドのノート スライド ビューを変換する方法を学びます。効率的な PowerPoint 操作のためのコード例を含むステップ バイ ステップ ガイドです。
+type: docs
 weight: 15
 url: /ja/java/presentation-conversion/convert-notes-slide-view-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides を使用して Java スライドのノート スライド ビューを変換する方法の紹介
 
@@ -105,10 +101,3 @@ Aspose.Slides は、最新バージョンを含むさまざまな PowerPoint 形
 ### Aspose.Slides for Java のその他のコード例やチュートリアルはどこで入手できますか?
 
 豊富なコード例とチュートリアルが見つかります。[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/)この強力なライブラリの機能について詳しくは、ドキュメントをご覧ください。
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

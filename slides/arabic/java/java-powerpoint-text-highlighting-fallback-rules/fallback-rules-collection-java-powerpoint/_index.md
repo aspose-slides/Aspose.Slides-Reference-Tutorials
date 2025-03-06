@@ -3,14 +3,10 @@ title: مجموعة القواعد الاحتياطية في Java PowerPoint
 linktitle: مجموعة القواعد الاحتياطية في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إدارة القواعد الاحتياطية للخطوط في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تعزيز التوافق عبر الأجهزة دون عناء.
+type: docs
 weight: 11
 url: /ar/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نتعمق في كيفية إدارة القواعد الاحتياطية للخط باستخدام Aspose.Slides لـ Java. تعد النسخ الاحتياطية للخطوط أمرًا بالغ الأهمية لضمان عرض العروض التقديمية بشكل صحيح عبر بيئات مختلفة، خاصة عند عدم توفر خطوط معينة. سنرشدك خلال استيراد الحزم الضرورية وإعداد البيئة وتنفيذ القواعد الاحتياطية خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -77,9 +73,3 @@ try {
  الوثائق التفصيلية متاحة[هنا](https://reference.aspose.com/slides/java/).
 ### كيف يمكنني الحصول على دعم Aspose.Slides لـ Java؟
 للحصول على الدعم، قم بزيارة منتدى Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

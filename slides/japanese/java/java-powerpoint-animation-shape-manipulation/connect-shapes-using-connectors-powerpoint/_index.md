@@ -3,14 +3,10 @@ title: PowerPoint でコネクタを使用して図形を接続する
 linktitle: PowerPoint でコネクタを使用して図形を接続する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションでコネクタを使用して図形を接続する方法を学習します。初心者向けのステップバイステップのチュートリアルです。
+type: docs
 weight: 18
 url: /ja/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connectors-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションでコネクタを使用して図形を接続する方法について説明します。これらのステップバイステップの手順に従って、図形を効率的に接続し、視覚的に魅力的なスライドを作成します。
 ## 前提条件
@@ -86,9 +82,3 @@ Aspose.Slides for Java は、PPTX、PPT、ODP など、さまざまな PowerPoin
 はい、Aspose.Slides for Java を使用すると、プログラムによって図形やコネクタにテキストを簡単に追加できます。
 ### Aspose.Slides for Java ユーザー向けのコミュニティ フォーラムまたはサポート チャネルはありますか?
 はい、Aspose.Slides フォーラムでは役立つリソースを見つけたり、質問したり、他のユーザーと交流したりできます。[ここ](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Standardmarkörer i diagram i Java Slides
 linktitle: Standardmarkörer i diagram i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du skapar Java Slides med standardmarkörer i diagram med Aspose.Slides för Java. Steg-för-steg guide med källkod.
+type: docs
 weight: 16
 url: /sv/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion till standardmarkörer i diagram i Java Slides
 
@@ -146,9 +142,3 @@ Du kan anpassa markörsymbolerna genom att ställa in markörstilen för varje d
 ### Kan jag lägga till etiketter till datapunkterna?
 
  Ja, du kan lägga till etiketter till datapunkter med hjälp av`IDataPoint.getLabel()` metod och anpassa dem efter behov.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

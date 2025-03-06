@@ -3,14 +3,10 @@ title: Get Effective Background Values of a Slide
 linktitle: Get Effective Background Values of a Slide
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to extract effective background values of a slide in PowerPoint using Aspose.Slides for .NET. Enhance your presentation design skills today!
+type: docs
 weight: 11
 url: /net/slide-background-manipulation/get-background-effective-values/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 In the world of dynamic and engaging presentations, Aspose.Slides for .NET is a powerful tool that empowers developers and professionals to manipulate and control various aspects of PowerPoint files. In this step-by-step guide, we will walk you through the process of obtaining the effective background values of a slide using Aspose.Slides for .NET. This skill is particularly useful when you need to work with the background design and color schemes of your presentation to create visually stunning slides. 
 
@@ -116,10 +112,3 @@ Yes, you can access a free trial of Aspose.Slides for .NET from [here](https://r
 
 You can get support and ask questions in the [Aspose.Slides forum](https://forum.aspose.com/).
 
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

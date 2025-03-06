@@ -3,14 +3,10 @@ title: Προσθήκη προσαρμοσμένου σφάλματος στις
 linktitle: Προσθήκη προσαρμοσμένου σφάλματος στις διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε προσαρμοσμένες γραμμές σφαλμάτων σε γραφήματα PowerPoint σε Διαφάνειες Java χρησιμοποιώντας το Aspose.Slides. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για ακριβή οπτικοποίηση δεδομένων.
+type: docs
 weight: 11
 url: /el/java/chart-data-manipulation/add-custom-error-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στην προσθήκη προσαρμοσμένων γραμμών σφαλμάτων σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides
 
@@ -154,9 +150,3 @@ finally
 ### Είναι δυνατή η απόκρυψη των γραμμών σφαλμάτων για συγκεκριμένα σημεία δεδομένων;
 
  Ναι, μπορείτε να ελέγξετε την ορατότητα των γραμμών σφάλματος για μεμονωμένα σημεία δεδομένων ορίζοντας το`setVisible` ιδιοκτησία του`IErrorBarsFormat` αντικείμενο.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

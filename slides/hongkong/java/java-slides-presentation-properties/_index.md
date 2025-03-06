@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 探索簡報屬性
 linktitle: Java 投影片簡報屬性
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何透過 Aspose.Slides for Java 教學增強 Java 投影片簡報屬性。了解動態簡報的提示和技巧。
+type: docs
 weight: 21
 url: /zh-hant/java/presentation-properties/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 在不斷發展的數位通訊世界中，引人入勝的演示是必要的。無論您是經驗豐富的專業人士還是剛開始 Java 投影片簡報之旅，掌握簡報屬性的藝術都至關重要。幸運的是，Aspose.Slides for Java 提供了一組強大的工具和功能，讓您的簡報大放異彩。
 
@@ -61,9 +57,3 @@ url: /zh-hant/java/presentation-properties/
 使用 Aspose.Slides 優化您的 Java 投影片。使用自訂設定建立引人入勝的簡報。探索逐步指南和常見問題。
 ### [Java 投影片中的唯讀推薦屬性](./read-only-recommended-properties-in-java-slides/)
 了解如何使用 Aspose.Slides for Java 在 Java PowerPoint 簡報中啟用唯讀推薦屬性。請遵循我們的逐步指南以及原始程式碼範例，以增強簡報的安全性。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

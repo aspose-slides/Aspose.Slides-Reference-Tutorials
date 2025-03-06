@@ -3,14 +3,10 @@ title: 使用 Java 在 PowerPoint 中锁定纵横比
 linktitle: 使用 Java 在 PowerPoint 中锁定纵横比
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Java 和 Aspose.Slides 锁定 PowerPoint 演示文稿的纵横比。非常适合想要精确控制幻灯片设计的 Java 开发人员。
+type: docs
 weight: 16
 url: /zh/java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 在 Java 开发领域，以编程方式操作 PowerPoint 演示文稿可以简化工作流程并显著提高工作效率。Aspose.Slides for Java 为 Java 开发人员提供了一个强大的工具包，可自动执行修改幻灯片、添加内容和直接从 Java 代码应用格式等任务。本教程重点介绍 PowerPoint 演示文稿管理的一个基本方面：锁定纵横比。
 ## 先决条件
@@ -65,9 +61,3 @@ pres.save(dataDir + "pres-out.pptx", SaveFormat.Pptx);
 您可以向 Aspose.Slides 社区寻求支持[这里](https://forum.aspose.com/c/slides/11).
 ### 购买之前如何试用 Aspose.Slides for Java？
 您可以获得免费试用版[这里](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Licenciamento e inicialização do Java Slides
 linktitle: Licenciamento e inicialização do Java Slides
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Descubra como licenciar e inicializar efetivamente o Aspose.Slides para Java em nossos tutoriais abrangentes. Comece com o Apresentações Java agora!
+type: docs
 weight: 10
 url: /pt/java/licensing-and-initialization/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 No mundo do Java Slides, o licenciamento e a inicialização são os primeiros passos cruciais. Aspose.Slides for Java fornece uma plataforma poderosa para a criação de apresentações e apresentações de slides impressionantes. Neste artigo, orientaremos você no processo de licenciamento e inicialização do Aspose.Slides para Java, garantindo que você tenha todas as ferramentas necessárias para criar apresentações cativantes.
 
@@ -42,9 +38,3 @@ Concluindo, licenciar e inicializar Aspose.Slides para Java são as etapas funda
 ## Tutoriais de licenciamento e inicialização do Java Slides
 ### [Licenciamento medido em slides Java](./metered-licensing-java-slides/)
 Otimize seu Aspose.Slides para uso de Java com Licenciamento Medido. Aprenda como configurá-lo e monitorar o consumo da API.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

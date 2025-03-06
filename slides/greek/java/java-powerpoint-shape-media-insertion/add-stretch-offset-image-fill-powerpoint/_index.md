@@ -3,14 +3,10 @@ title: Προσθήκη Stretch Offset για Συμπλήρωση εικόνα�
 linktitle: Προσθήκη Stretch Offset για Συμπλήρωση εικόνας στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε μια μετατόπιση έκτασης για γέμισμα εικόνας σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Περιλαμβάνεται σεμινάριο βήμα προς βήμα.
+type: docs
 weight: 16
 url: /el/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα μάθετε πώς να χρησιμοποιείτε το Aspose.Slides για Java για να προσθέσετε μια μετατόπιση έκτασης για γέμισμα εικόνας σε παρουσιάσεις PowerPoint. Αυτή η δυνατότητα σάς επιτρέπει να χειρίζεστε εικόνες μέσα στις διαφάνειές σας, δίνοντάς σας μεγαλύτερο έλεγχο της εμφάνισής τους.
 ## Προαπαιτούμενα
@@ -68,9 +64,3 @@ pres.save(dataDir + "AddStretchOffsetForImageFill_out.pptx", SaveFormat.Pptx);
 Ναι, μπορείτε να εφαρμόσετε ένα ευρύ φάσμα εφέ και μετασχηματισμών σε εικόνες χρησιμοποιώντας το Aspose.Slides για το εκτεταμένο API της Java.
 ### Πού μπορώ να βρω περισσότερους πόρους και υποστήριξη για το Aspose.Slides για Java;
  Μπορείτε να επισκεφθείτε το[Aspose.Slides για τεκμηρίωση Java](https://reference.aspose.com/slides/java/) για λεπτομερείς οδηγούς και εξερευνήστε το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για κοινοτική υποστήριξη.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

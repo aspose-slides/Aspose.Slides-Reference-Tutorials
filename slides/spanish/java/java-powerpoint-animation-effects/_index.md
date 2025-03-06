@@ -3,14 +3,10 @@ title: Animación y efectos de PowerPoint en Java
 linktitle: Animación y efectos de PowerPoint en Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Domine las animaciones y efectos de Java PowerPoint con nuestros completos tutoriales. Aprenda a agregar animaciones y sombras exteriores e interiores usando Aspose.Slides para Java.
+type: docs
 weight: 22
 url: /es/java/java-powerpoint-animation-effects/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introducción
 
 Las presentaciones de Java PowerPoint pueden ser dinámicas y visualmente impresionantes con las animaciones y efectos adecuados. Con Aspose.Slides para Java, tienes una poderosa herramienta a tu disposición para mejorar tus diapositivas. Ya seas principiante o usuario avanzado, nuestros tutoriales te ayudarán a dominar el arte de agregar animaciones y efectos de sombras a tus presentaciones de PowerPoint. ¡Profundicemos en estos tutoriales y veamos cómo puedes mejorar tus diapositivas!
@@ -39,9 +35,3 @@ Aprenda cómo aplicar fácilmente efectos de sombras exteriores en presentacione
 Aprenda a aplicar efectos de sombra interior a formas en presentaciones de PowerPoint de Java usando Aspose.Slides. Mejore sus diapositivas con esta guía paso a paso.
 ### [Aplicar sombra exterior en PowerPoint con Java](./apply-outer-shadow-powerpoint-java/)
 Aprenda a aplicar el efecto de sombra exterior en PowerPoint usando Java con Aspose.Slides. Mejore sus presentaciones con profundidad y atractivo visual.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

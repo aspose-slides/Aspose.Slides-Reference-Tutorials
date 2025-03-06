@@ -3,14 +3,10 @@ title: Zbarvení grafu pomocí Aspose.Slides pro .NET
 linktitle: Přidejte barvu k datovým bodům v grafu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak přidat barvu k datovým bodům v grafu pomocí Aspose.Slides pro .NET. Vylepšete své prezentace vizuálně a efektivně zapojte své publikum.
+type: docs
 weight: 12
 url: /cs/net/licensing-and-formatting/add-color-to-data-points/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 V tomto podrobném průvodci vás provedeme procesem přidávání barev k datovým bodům v grafu pomocí Aspose.Slides pro .NET. Aspose.Slides je výkonná knihovna pro práci s PowerPointovými prezentacemi v aplikacích .NET. Přidáním barvy k datovým bodům v grafu mohou být vaše prezentace vizuálně přitažlivější a snáze srozumitelné.
 
@@ -119,9 +115,3 @@ Přidání barvy k datovým bodům v grafu je účinný způsob, jak učinit va�
 
 ### Jak získám podporu pro Aspose.Slides pro .NET?
     Pro podporu a diskuze navštivte[Fórum Aspose.Slides](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

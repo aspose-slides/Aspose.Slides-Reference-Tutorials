@@ -3,14 +3,10 @@ title: Anleitung zum Einbetten von OLE-Objekten mit Aspose.Slides für .NET
 linktitle: Ersetzen des Bildtitels durch einen OLE-Objektrahmen in Präsentationsfolien
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Ihre Präsentationsfolien mit Aspose.Slides für .NET mit dynamischen OLE-Objekten verbessern können. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
+type: docs
 weight: 15
 url: /de/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 Beim Erstellen dynamischer und ansprechender Präsentationsfolien müssen häufig verschiedene Multimedia-Elemente integriert werden. In diesem Tutorial erfahren Sie, wie Sie mithilfe der leistungsstarken Aspose.Slides-Bibliothek für .NET den Bildtitel eines OLE-Objektrahmens (Object Linking and Embedding) in Präsentationsfolien ersetzen können. Aspose.Slides vereinfacht den Umgang mit OLE-Objekten und bietet Entwicklern die Tools, mit denen sie ihre Präsentationen mühelos verbessern können.
 ## Voraussetzungen
@@ -87,9 +83,3 @@ Ab der neuesten Version konzentriert sich Aspose.Slides auf das Einbetten und An
 Natürlich. Sie haben die volle programmtechnische Kontrolle über OLE-Objekte und können deren Eigenschaften und Erscheinungsbild nach Bedarf ändern.
 ### Gibt es irgendwelche Beschränkungen hinsichtlich der Größe der eingebetteten OLE-Objekte?
 Es gibt zwar Größenbeschränkungen, diese sind jedoch im Allgemeinen großzügig. Es wird empfohlen, mit Ihrem spezifischen Anwendungsfall zu testen, um optimale Leistung sicherzustellen.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Sformatuj style łączenia w programie PowerPoint
 linktitle: Sformatuj style łączenia w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ulepszyć swoje prezentacje programu PowerPoint, ustawiając różne style łączenia linii dla kształtów za pomocą Aspose.Slides dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku.
+type: docs
 weight: 15
 url: /pl/java/java-powerpoint-shape-formatting-geometry/format-join-styles-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 Tworzenie atrakcyjnych wizualnie prezentacji programu PowerPoint może być trudnym zadaniem, zwłaszcza jeśli chcesz, aby każdy szczegół był doskonały. Tutaj przydaje się Aspose.Slides dla Java. Jest to potężny interfejs API, który umożliwia programowe tworzenie prezentacji, manipulowanie nimi i zarządzanie nimi. Jedną z funkcji, z których możesz skorzystać, jest ustawienie różnych stylów łączenia linii dla kształtów, co może znacznie poprawić estetykę slajdów. W tym samouczku omówimy, jak używać Aspose.Slides dla Java do ustawiania stylów łączenia kształtów w prezentacjach programu PowerPoint. 
 ## Warunki wstępne
@@ -116,9 +112,3 @@ Tak, możesz używać Aspose.Slides for Java w dowolnym środowisku IDE obsługu
 Style łączenia linii odnoszą się do kształtu narożników, w których spotykają się dwie linie. Typowe style obejmują ukosowanie, fazowanie i zaokrąglenie.
 ### Gdzie mogę znaleźć więcej dokumentacji na temat Aspose.Slides dla Java?
  Można znaleźć szczegółową dokumentację[Tutaj](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

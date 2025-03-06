@@ -3,14 +3,10 @@ title: 將簡報投影片轉換為 GIF 格式
 linktitle: 將簡報投影片轉換為 GIF 格式
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 透過此逐步指南，了解如何使用 Aspose.Slides for .NET 將 PowerPoint 投影片轉換為動態 GIF。
+type: docs
 weight: 21
 url: /zh-hant/net/presentation-conversion/convert-presentation-slides-to-gif-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for .NET 簡介
 
@@ -137,9 +133,3 @@ class Program
 ### 在哪裡可以找到更多程式碼範例和文件？
 
 您可以在以下位置找到有關使用 Aspose.Slides for .NET 的更多程式碼範例和詳細文件：[文件](https://reference.aspose.com).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

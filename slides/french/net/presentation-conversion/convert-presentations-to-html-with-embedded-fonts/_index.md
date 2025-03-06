@@ -3,14 +3,10 @@ title: Convertir des présentations en HTML avec des polices intégrées
 linktitle: Convertir des présentations en HTML avec des polices intégrées
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Convertissez des présentations PowerPoint en HTML avec des polices intégrées à l'aide d'Aspose.Slides pour .NET. Conservez l’originalité en toute transparence.
+type: docs
 weight: 13
 url: /fr/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 À l’ère numérique d’aujourd’hui, le partage de présentations et de documents en ligne est devenu une pratique courante. Cependant, un défi qui se pose souvent est de garantir que vos polices s'affichent correctement lors de la conversion de présentations au format HTML. Ce didacticiel étape par étape vous guidera tout au long du processus d'utilisation d'Aspose.Slides pour .NET pour convertir des présentations au format HTML avec des polices intégrées, garantissant ainsi que vos documents ressemblent exactement à ce que vous souhaitiez.
 
@@ -124,10 +120,3 @@ Oui, Aspose.Slides pour .NET prend en charge un large éventail de formats de so
 ### 5. Où puis-je trouver des ressources supplémentaires et une assistance pour Aspose.Slides pour .NET ?
 
  Vous pouvez accéder à une multitude de ressources, y compris de la documentation, sur le[Aspose.Slides pour la référence de l'API .NET](https://reference.aspose.com/slides/net/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

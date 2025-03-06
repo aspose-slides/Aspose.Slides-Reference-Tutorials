@@ -3,14 +3,10 @@ title: PowerPoint에서 ActiveX 컨트롤 관리
 linktitle: PowerPoint에서 ActiveX 컨트롤 관리
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 ActiveX 컨트롤로 PowerPoint 프레젠테이션을 향상시키는 방법을 알아보세요. 단계별 가이드에서는 삽입, 조작, 사용자 정의, 이벤트 처리 등을 다룹니다.
+type: docs
 weight: 13
 url: /ko/net/slide-view-and-layout-manipulation/manage-activex-control/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ActiveX 컨트롤은 PowerPoint 프레젠테이션의 기능과 상호 작용성을 향상시킬 수 있는 강력한 요소입니다. 이러한 컨트롤을 사용하면 멀티미디어 플레이어, 데이터 입력 양식 등과 같은 개체를 슬라이드에 직접 포함하고 조작할 수 있습니다. 이 기사에서는 .NET 애플리케이션에서 PowerPoint 파일을 원활하게 통합하고 조작할 수 있는 다목적 라이브러리인 Aspose.Slides for .NET을 사용하여 PowerPoint에서 ActiveX 컨트롤을 관리하는 방법을 살펴보겠습니다.
 
 ## PowerPoint 슬라이드에 ActiveX 컨트롤 추가
@@ -153,9 +149,3 @@ ActiveX 컨트롤을 PowerPoint 프레젠테이션에 통합하면 청중의 상
 ### 슬라이드에서 ActiveX 컨트롤을 제거할 수 있나요?
 
  예, 다음을 사용하여 슬라이드에서 ActiveX 컨트롤을 제거할 수 있습니다.`Remove` 의 방법`Shapes` 수집. 참조를 다음 항목에 전달합니다.`IOleObjectFrame` 컨트롤을 인수로 표현`Remove` 방법을 사용하면 컨트롤이 슬라이드에서 제거됩니다.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

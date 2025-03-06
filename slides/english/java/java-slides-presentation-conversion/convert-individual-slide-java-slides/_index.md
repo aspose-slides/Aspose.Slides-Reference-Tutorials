@@ -3,14 +3,10 @@ title: Convert Individual Slide in Java Slides
 linktitle: Convert Individual Slide in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to convert individual PowerPoint slides to HTML step by step with code examples using Aspose.Slides for Java.
+type: docs
 weight: 12
 url: /java/presentation-conversion/convert-individual-slide-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction to Convert Individual Slide in Java Slides
 
@@ -174,10 +170,3 @@ Yes, you can modify the code to loop through multiple presentation files and con
 ### How do I handle additional formatting for shapes and text within slides?
 
 You can extend the `CustomFormattingController` class to handle shape-specific formatting by implementing the `writeShapeStart` and `writeShapeEnd` methods and applying custom formatting logic within them.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

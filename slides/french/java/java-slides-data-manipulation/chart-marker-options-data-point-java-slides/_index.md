@@ -3,14 +3,10 @@ title: Options de marqueur de graphique sur le point de données dans les diapos
 linktitle: Options de marqueur de graphique sur le point de données dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Optimisez vos diapositives Java avec les options de marqueurs de graphique personnalisés. Apprenez à améliorer visuellement les points de données à l'aide d'Aspose.Slides pour Java. Découvrez les conseils étape par étape et les FAQ.
+type: docs
 weight: 14
 url: /fr/java/data-manipulation/chart-marker-options-data-point-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction aux options de marqueur de graphique sur les points de données dans les diapositives Java
 
@@ -158,9 +154,3 @@ Oui, vous pouvez personnaliser divers aspects du graphique, notamment les titres
 ### Où puis-je accéder à la documentation et aux téléchargements d'Aspose.Slides pour Java ?
 
  Vous pouvez trouver la documentation sur[ici](https://reference.aspose.com/slides/java/) et téléchargez la bibliothèque sur[ici](https://releases.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

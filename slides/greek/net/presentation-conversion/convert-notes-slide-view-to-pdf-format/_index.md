@@ -3,14 +3,10 @@ title: Μετατροπή της προβολής διαφανειών σημε�
 linktitle: Μετατροπή της προβολής διαφανειών σημειώσεων σε μορφή PDF
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μετατροπή σημειώσεων ομιλητή στο PowerPoint σε PDF με το Aspose.Slides για .NET. Διατηρήστε το πλαίσιο και προσαρμόστε τη διάταξη χωρίς κόπο.
+type: docs
 weight: 15
 url: /el/net/presentation-conversion/convert-notes-slide-view-to-pdf-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Σε αυτόν τον αναλυτικό οδηγό, θα σας καθοδηγήσουμε στη διαδικασία μετατροπής της Προβολής Διαφανειών Notes σε μορφή PDF χρησιμοποιώντας το Aspose.Slides για .NET. Θα βρείτε λεπτομερείς οδηγίες και αποσπάσματα κώδικα για να επιτύχετε αυτή την εργασία χωρίς κόπο.
 
@@ -82,9 +78,3 @@ presentation.Save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
 Μπορείτε να εξερευνήσετε επιπλέον σεμινάρια και παραδείγματα στο[Aspose.Slides για τεκμηρίωση API .NET](https://reference.aspose.com/slides/net/).
 
 Τώρα που έχετε μετατρέψει με επιτυχία την προβολή διαφανειών Notes σε μορφή PDF, μπορείτε να εξερευνήσετε περισσότερες δυνατότητες και δυνατότητες του Aspose.Slides για .NET για να βελτιώσετε τις εργασίες αυτοματισμού του PowerPoint. Καλή κωδικοποίηση!
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

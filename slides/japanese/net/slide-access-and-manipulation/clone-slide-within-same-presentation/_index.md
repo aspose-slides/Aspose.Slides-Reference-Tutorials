@@ -3,14 +3,10 @@ title: 同じプレゼンテーション内でスライドを複製する
 linktitle: 同じプレゼンテーション内でスライドを複製する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、同じ PowerPoint プレゼンテーション内でスライドを複製する方法を学びます。完全なソース コード例を含むこのステップ バイ ステップ ガイドに従って、プレゼンテーションを効率的に操作します。
+type: docs
 weight: 21
 url: /ja/net/slide-access-and-manipulation/clone-slide-within-same-presentation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for .NET の紹介
 
@@ -109,9 +105,3 @@ NuGet パッケージ マネージャーを使用して Aspose.Slides for .NET �
 ### Aspose.Slides for .NET の詳細情報はどこで入手できますか?
 
 より詳細なドキュメントと例については、[Aspose.Slides for .NET ドキュメント](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

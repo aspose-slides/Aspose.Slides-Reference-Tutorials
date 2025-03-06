@@ -3,14 +3,10 @@ title: Java Slaytlarında Kategori Ekseni İçin Tarih Formatını Ayarlama
 linktitle: Java Slaytlarında Kategori Ekseni İçin Tarih Formatını Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint grafiğinde kategori ekseni için tarih formatını nasıl ayarlayacağınızı öğrenin. Kaynak koduyla adım adım kılavuz.
+type: docs
 weight: 26
 url: /tr/java/data-manipulation/setting-date-format-category-axis-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java Slaytlarında Kategori Ekseni İçin Tarih Formatını Ayarlamaya Giriş
 
@@ -143,9 +139,3 @@ Evet, aynı sunum içerisinde farklı grafiklerde kategori eksenleri için farkl
 ### Grafiğe nasıl daha fazla veri noktası eklerim?
 
  Grafiğe daha fazla veri noktası eklemek için`getDataPoints().addDataPointForLineSeries`veri serisi üzerinde yöntem ve veri değerlerini sağlar.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

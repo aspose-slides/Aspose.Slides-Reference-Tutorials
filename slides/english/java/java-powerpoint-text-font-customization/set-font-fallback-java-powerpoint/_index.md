@@ -3,14 +3,10 @@ title: Set Font Fallback in Java PowerPoint
 linktitle: Set Font Fallback in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set font fallbacks in Java PowerPoint using Aspose.Slides for Java to ensure consistent text display.
+type: docs
 weight: 16
 url: /java/java-powerpoint-text-font-customization/set-font-fallback-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 In this tutorial, we will delve into the intricacies of setting font fallbacks in Java PowerPoint presentations using Aspose.Slides for Java. Font fallbacks are crucial for ensuring that text in your presentations displays correctly across different devices and operating systems, even when the required fonts are not available.
 ## Prerequisites
@@ -57,10 +53,3 @@ Yes, Aspose.Slides for Java is compatible with popular Java IDEs like IntelliJ I
 Yes, temporary licenses for Aspose products can be obtained from [here](https://purchase.aspose.com/temporary-license/).
 ### Where can I find support for Aspose.Slides for Java?
 For support related to Aspose.Slides for Java, visit the [Aspose forum](https://forum.aspose.com/c/slides/11).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: .NET용 Aspose.Slides를 사용하여 세련된 메모 서식 추가
 linktitle: 세련된 메모 형식으로 메모 슬라이드 추가
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션에 스타일리시한 메모 형식을 추가하는 방법을 알아보세요. 기호와 글머리 기호를 사용하여 슬라이드를 강화하세요.
+type: docs
 weight: 14
 url: /ko/net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 프레젠테이션의 세계에서는 전달하는 콘텐츠뿐만 아니라 콘텐츠를 표현하는 방법도 중요합니다. 스타일리쉬한 노트 서식은 프레젠테이션의 효과에 큰 변화를 가져올 수 있습니다. .NET용 Aspose.Slides를 사용하면 글머리 기호와 기호가 포함된 세련된 메모를 추가하여 PowerPoint 프레젠테이션을 쉽게 향상시킬 수 있습니다. 이 단계별 가이드에서는 PowerPoint 슬라이드에 세련된 노트 서식을 추가하는 과정을 안내합니다.
 
@@ -113,9 +109,3 @@ Aspose.Slides for .NET은 Microsoft PowerPoint 파일을 프로그래밍 방식�
 
 ### .NET용 Aspose.Slides에 사용할 수 있는 커뮤니티 포럼이나 지원이 있습니까?
  예, Aspose.Slides for .NET 커뮤니티 포럼에서 도움을 구하고 토론에 참여할 수 있습니다.[여기](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

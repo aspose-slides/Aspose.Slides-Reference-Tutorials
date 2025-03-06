@@ -3,14 +3,10 @@ title: Gráfico de mapa de árbol en diapositivas de Java
 linktitle: Gráfico de mapa de árbol en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Cree gráficos de mapas de árbol en diapositivas de Java utilizando Aspose.Slides para Java. Guía paso a paso con código fuente para visualizar datos jerárquicos.
+type: docs
 weight: 13
 url: /es/java/chart-creation/tree-map-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introducción al gráfico de mapa de árbol en diapositivas de Java
 
@@ -156,9 +152,3 @@ Sí, puedes crear varios gráficos de mapa de árbol en una sola presentación s
 ### ¿Cómo guardo la presentación con el gráfico Tree Map?
 
  Utilizar el`pres.save()` Método para guardar la presentación con el gráfico de mapa de árbol en el formato deseado (por ejemplo, PPTX).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

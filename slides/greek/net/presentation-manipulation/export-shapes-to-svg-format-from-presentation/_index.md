@@ -3,14 +3,10 @@ title: Εξαγωγή σχημάτων σε μορφή SVG από την παρ�
 linktitle: Εξαγωγή σχημάτων σε μορφή SVG από την παρουσίαση
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να εξάγετε σχήματα από μια παρουσίαση PowerPoint σε μορφή SVG χρησιμοποιώντας το Aspose.Slides για .NET. Οδηγός βήμα προς βήμα με τον πηγαίο κώδικα που περιλαμβάνεται. Αποτελεσματική εξαγωγή σχημάτων για διάφορες εφαρμογές.
+type: docs
 weight: 16
 url: /el/net/presentation-manipulation/export-shapes-to-svg-format-from-presentation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Στον σημερινό ψηφιακό κόσμο, οι παρουσιάσεις διαδραματίζουν κρίσιμο ρόλο στην αποτελεσματική μετάδοση πληροφοριών. Ωστόσο, μερικές φορές χρειάζεται να εξάγουμε συγκεκριμένα σχήματα από τις παρουσιάσεις μας σε διαφορετικές μορφές για διάφορους σκοπούς. Μια τέτοια μορφή είναι το SVG (Scalable Vector Graphics), γνωστό για την επεκτασιμότητα και την προσαρμοστικότητά του. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία εξαγωγής σχημάτων σε μορφή SVG από μια παρουσίαση χρησιμοποιώντας Aspose.Slides για .NET.
 
@@ -87,9 +83,3 @@ using (Stream stream = new FileStream(outSvgFileName, FileMode.Create, FileAcces
 Τώρα που μάθατε πώς να εξάγετε σχήματα σε μορφή SVG, μπορείτε να βελτιώσετε τις παρουσιάσεις σας και να τις κάνετε πιο ευέλικτες για διαφορετικούς σκοπούς. Καλή κωδικοποίηση!
 
  Για περισσότερες λεπτομέρειες και προηγμένες λειτουργίες, ανατρέξτε στο[Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Individuele presentatiedia's converteren
 linktitle: Individuele presentatiedia's converteren
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u moeiteloos individuele presentatiedia's kunt converteren met Aspose.Slides voor .NET. Maak, manipuleer en bewaar dia's programmatisch.
+type: docs
 weight: 12
 url: /nl/net/presentation-conversion/how-to-convert-individual-presentation-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introductie van Aspose.Slides voor .NET
 
@@ -145,9 +141,3 @@ Absoluut! Aspose.Slides voor .NET ondersteunt conversie naar verschillende forma
 ### Kan ik dia-indelingen aanpassen met Aspose.Slides?
 
 Ja, u kunt dia-indelingen aanpassen, vormen en afbeeldingen toevoegen en animaties toepassen met Aspose.Slides voor .NET, waardoor u volledige controle over uw presentaties krijgt.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

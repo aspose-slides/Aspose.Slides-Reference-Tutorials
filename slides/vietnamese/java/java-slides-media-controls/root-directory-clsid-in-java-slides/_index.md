@@ -3,14 +3,10 @@ title: Thư mục gốc ClsId trong Java Slides
 linktitle: Thư mục gốc ClsId trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt ClsId thư mục gốc trong Aspose.Slides cho bản trình bày Java. Tùy chỉnh hành vi siêu liên kết với CLSID.
+type: docs
 weight: 10
 url: /vi/java/media-controls/root-directory-clsid-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu về Thiết lập thư mục gốc ClsId trong Aspose.Slides cho Java
 
@@ -111,9 +107,3 @@ Không, ClsId thư mục gốc thường được đặt ở cấp bản trình 
 ### Có bất kỳ hạn chế nào đối với CLSID mà tôi có thể sử dụng không?
 
 CLSID bạn có thể sử dụng thường được xác định bởi các ứng dụng được cài đặt trên hệ thống. Bạn nên sử dụng CLSID tương ứng với các ứng dụng hợp lệ có khả năng xử lý siêu liên kết. Xin lưu ý rằng việc sử dụng CLSID không hợp lệ có thể dẫn đến hành vi không mong muốn.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

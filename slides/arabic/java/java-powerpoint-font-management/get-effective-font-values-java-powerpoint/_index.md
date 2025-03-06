@@ -3,14 +3,10 @@ title: احصل على قيم الخطوط الفعالة في Java PowerPoint
 linktitle: احصل على قيم الخطوط الفعالة في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية استرداد قيم الخطوط الفعالة في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides. قم بتحسين تنسيق العرض التقديمي الخاص بك دون عناء.
+type: docs
 weight: 12
 url: /ar/java/java-powerpoint-font-management/get-effective-font-values-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 في هذا البرنامج التعليمي، سنتعمق في استرداد قيم الخطوط الفعالة في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides. تسمح لك هذه الوظيفة بالوصول إلى تنسيق الخط المطبق على النص في الشرائح، مما يوفر رؤى قيمة لمختلف مهام معالجة العرض التقديمي.
 ## المتطلبات الأساسية
@@ -66,9 +62,3 @@ IPortionFormatEffectiveData effectivePortionFormat = localPortionFormat.getEffec
 نعم، يتيح لك Aspose.Slides الوصول إلى قيم الخطوط من العروض التقديمية المحمية بكلمة مرور، بشرط تقديم بيانات الاعتماد الصحيحة.
 ### هل هناك أي قيود على خصائص الخط التي يمكن استرجاعها؟
 يوفر Aspose.Slides إمكانيات واسعة النطاق لاستعادة خصائص الخط، ويغطي جوانب التنسيق الأكثر شيوعًا. ومع ذلك، قد لا يمكن الوصول إلى بعض ميزات الخطوط المتقدمة أو المتخصصة من خلال هذه الطريقة.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

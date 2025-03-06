@@ -3,14 +3,10 @@ title: Tambahkan Kolom di Bingkai Teks menggunakan Aspose.Slides untuk Java
 linktitle: Tambahkan Kolom di Bingkai Teks menggunakan Aspose.Slides untuk Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan kolom dalam bingkai teks menggunakan Aspose.Slides for Java untuk menyempurnakan presentasi PowerPoint Anda. Panduan langkah demi langkah kami menyederhanakan prosesnya.
+type: docs
 weight: 11
 url: /id/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara memanipulasi bingkai teks untuk menambahkan kolom menggunakan Aspose.Slides untuk Java. Aspose.Slides adalah perpustakaan canggih yang memungkinkan pengembang Java membuat, memanipulasi, dan mengonversi presentasi PowerPoint secara terprogram. Menambahkan kolom ke bingkai teks meningkatkan daya tarik visual dan susunan teks dalam slide, membuat presentasi lebih menarik dan lebih mudah dibaca.
 ## Prasyarat
@@ -85,9 +81,3 @@ Tidak, Aspose.Slides menyetel lebar yang sama untuk kolom dalam bingkai teks sec
  Dokumentasi terperinci tersedia[Di Sini](https://reference.aspose.com/slides/java/).
 ### Bagaimana saya bisa mendapatkan dukungan teknis untuk Aspose.Slides untuk Java?
  Anda dapat mencari dukungan dari komunitas[Di Sini](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

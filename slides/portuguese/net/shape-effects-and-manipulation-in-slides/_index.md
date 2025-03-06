@@ -3,14 +3,10 @@ title: Efeitos de forma e manipulação em slides
 linktitle: Efeitos de forma e manipulação em slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Melhore o apelo visual da sua apresentação com os tutoriais do Aspose.Slides sobre efeitos de forma e manipulação. Aprenda como criar slides impressionantes usando efeitos de forma, animações e muito mais.
+type: docs
 weight: 11
 url: /pt/net/shape-effects-and-manipulation-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introdução
 
@@ -67,9 +63,3 @@ Aprenda como aprimorar seus slides de apresentação ajustando os ângulos das l
 Aprimore suas habilidades de apresentação aprendendo como conectar formas usando conectores em slides de apresentação com Aspose.Slides. Eleve sua narrativa visual hoje!
 ### [Conectando forma usando site de conexão em slides de apresentação com Aspose.Slides](./connecting-shape-using-connection-site/)
 Aprimore suas habilidades de apresentação aprendendo como conectar formas usando sites de conexão em slides de apresentação com Aspose.Slides. Siga nosso guia detalhado e exemplos de código.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

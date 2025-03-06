@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 調整簡報中的投影片位置
 linktitle: 調整簡報中的投影片位置
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 調整 PowerPoint 簡報中的投影片位置。提升你的演講技巧！
+type: docs
 weight: 23
 url: /zh-hant/net/slide-access-and-manipulation/change-slide-position/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 您是否希望重新組織簡報投影片並想知道如何使用 Aspose.Slides for .NET 調整它們的位置？本逐步指南將引導您完成整個過程，確保您清楚地理解每個步驟。在深入本教學之前，我們先回顧一下入門所需的先決條件並匯入命名空間。
 
@@ -115,9 +111,3 @@ Aspose.Slides for .NET 是一個函式庫，可讓開發人員在 .NET 應用程
 ### 5. 我可以在購買之前試用 Aspose.Slides for .NET 嗎？
 
 是的，您可以在以下網址探索 Aspose.Slides for .NET 的免費試用版：[Aspose.Slides for .NET 免費試用](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

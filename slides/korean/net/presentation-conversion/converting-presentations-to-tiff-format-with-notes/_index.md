@@ -3,14 +3,10 @@ title: Notes를 사용하여 프레젠테이션을 TIFF 형식으로 변환
 linktitle: Notes를 사용하여 프레젠테이션을 TIFF 형식으로 변환
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션을 발표자 노트가 포함된 TIFF 형식으로 변환하세요. 고품질의 효율적인 변환.
+type: docs
 weight: 10
 url: /ko/net/presentation-conversion/converting-presentations-to-tiff-format-with-notes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 디지털 프레젠테이션의 세계에서는 이를 다양한 형식으로 변환하는 기능이 매우 유용할 수 있습니다. 그러한 형식 중 하나가 TIFF(Tagged Image File Format)입니다. TIFF 파일은 고품질 이미지와 다양한 응용 프로그램과의 호환성으로 유명합니다. 이 단계별 튜토리얼에서는 Aspose.Slides for .NET API를 사용하여 프레젠테이션을 메모와 함께 TIFF 형식으로 변환하는 방법을 보여줍니다.
 
@@ -82,9 +78,3 @@ pres.Save(destFileName, SaveFormat.TiffNotes);
  예, .NET용 Aspose.Slides는 PDF, 이미지 등을 포함한 다양한 출력 형식을 지원합니다. 자세한 내용은 설명서를 확인하세요.
 
 이제 Aspose.Slides for .NET을 사용하여 노트가 포함된 프레젠테이션을 TIFF 형식으로 변환하는 방법을 배웠으므로 프로젝트에서 이 강력한 API의 가능성을 살펴보세요.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

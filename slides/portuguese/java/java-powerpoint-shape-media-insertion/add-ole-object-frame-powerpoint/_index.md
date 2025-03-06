@@ -3,14 +3,10 @@ title: Adicionar quadro de objeto OLE no PowerPoint
 linktitle: Adicionar quadro de objeto OLE no PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como integrar perfeitamente quadros de objetos OLE em apresentações do PowerPoint usando Aspose.Slides para Java.
+type: docs
 weight: 13
 url: /pt/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 Adicionar um quadro de objeto OLE (vinculação e incorporação de objetos) em apresentações do PowerPoint pode melhorar significativamente o apelo visual e a funcionalidade de seus slides. Com Aspose.Slides for Java, esse processo se torna simplificado e eficiente. Neste tutorial, orientaremos você pelas etapas necessárias para integrar perfeitamente quadros de objetos OLE em suas apresentações do PowerPoint.
 ### Pré-requisitos
@@ -84,9 +80,3 @@ Absolutamente! Aspose.Slides oferece amplas opções para personalizar a aparên
  Sim, você pode baixar uma versão de avaliação gratuita em[aqui](https://releases.aspose.com/).
 ### Onde posso encontrar suporte para Aspose.Slides for Java?
  Você pode buscar suporte e assistência no fórum Aspose.Slides[aqui](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

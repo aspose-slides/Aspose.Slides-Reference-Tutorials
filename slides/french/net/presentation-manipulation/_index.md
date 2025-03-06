@@ -3,14 +3,10 @@ title: Manipulation de présentation
 linktitle: Manipulation de présentation
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Libérez le potentiel de la manipulation de présentations avec les didacticiels Aspose.Slides pour .NET. Découvrez comment créer, personnaliser et améliorer dynamiquement des présentations PowerPoint par programmation. Élevez vos compétences en traitement PowerPoint dès aujourd’hui !
+type: docs
 weight: 11
 url: /fr/net/presentation-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 Dans le domaine du traitement PowerPoint, Aspose.Slides pour .NET apparaît comme un outil puissant pour la manipulation de présentations. Cette collection de didacticiels fournit des conseils complets sur l’exploitation des capacités d’Aspose.Slides pour manipuler et améliorer les présentations par programmation. De la création, de la modification et de l'organisation des diapositives à la gestion du texte, des images et des éléments multimédias, ces didacticiels proposent un voyage étape par étape dans le monde de la génération et de la personnalisation de présentations dynamiques. Que vous automatisiez des tâches de présentation, génériez des rapports ou créiez des diaporamas interactifs, ces didacticiels donnent aux développeurs les connaissances nécessaires pour utiliser efficacement Aspose.Slides.
 
 ## Manipulation de présentation
@@ -55,9 +51,3 @@ Découvrez comment exporter des présentations PowerPoint au format HTML avec de
 Découvrez comment effectuer une conversion SVG pour des présentations à l'aide d'Aspose.Slides pour .NET. Ce guide complet couvre des instructions étape par étape, des exemples de code source et diverses options de conversion SVG.
 ### [Formatage des SVG dans les présentations](./formatting-svgs-in-presentations/)
 Optimisez vos présentations avec de superbes SVG à l'aide d'Aspose.Slides pour .NET. Apprenez étape par étape comment formater des SVG pour obtenir des visuels percutants. Améliorez votre jeu de présentation dès aujourd'hui ! 
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

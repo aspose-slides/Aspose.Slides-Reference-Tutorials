@@ -3,14 +3,10 @@ title: Bagan Histogram di Slide Java
 linktitle: Bagan Histogram di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat Bagan Histogram dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber untuk visualisasi data.
+type: docs
 weight: 19
 url: /id/java/chart-data-manipulation/histogram-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Pengenalan Bagan Histogram di Java Slides menggunakan Aspose.Slides
 
@@ -116,9 +112,3 @@ Bagan Histogram digunakan untuk memvisualisasikan distribusi data dalam interval
 ### Bisakah saya menyesuaikan tampilan Bagan Histogram?
 
 Ya, Anda dapat menyesuaikan tampilan bagan, termasuk warna, label, dan sumbunya, menggunakan Aspose.Slides API.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

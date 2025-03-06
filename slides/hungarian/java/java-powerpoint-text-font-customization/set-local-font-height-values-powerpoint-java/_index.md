@@ -3,14 +3,10 @@ title: Állítsa be a helyi betűtípus magassági értékeit a PowerPointban Ja
 linktitle: Állítsa be a helyi betűtípus magassági értékeit a PowerPointban Java használatával
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthatja be a betűmagasságot a PowerPoint-prezentációkban Java használatával az Aspose.Slides segítségével. Könnyedén javíthatja a szöveg formázását a diákban.
+type: docs
 weight: 17
 url: /hu/java/java-powerpoint-text-font-customization/set-local-font-height-values-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Ebből az oktatóanyagból megtudhatja, hogyan módosíthatja a betűmagasságot különböző szinteken a PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. A betűméretek szabályozása elengedhetetlen a tetszetős és strukturált prezentációk létrehozásához. Lépésről lépésre bemutatjuk a különböző szövegelemek betűmagasságának beállítását.
 ## Előfeltételek
@@ -69,9 +65,3 @@ Az Aspose.Slides for Java egy hatékony API a PowerPoint prezentációk programo
  Támogatásért keresse fel a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
 ### Hol vásárolhatok licencet az Aspose.Slides for Java-hoz?
  Vásárolhat licencet[itt](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Chuyển đổi dạng xem slide ghi chú sang định dạng PDF
 linktitle: Chuyển đổi dạng xem slide ghi chú sang định dạng PDF
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Chuyển đổi ghi chú của diễn giả trong PowerPoint sang PDF bằng Aspose.Slides for .NET. Giữ lại bối cảnh và tùy chỉnh bố cục một cách dễ dàng.
+type: docs
 weight: 15
 url: /vi/net/presentation-conversion/convert-notes-slide-view-to-pdf-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi Chế độ xem trang trình bày ghi chú sang Định dạng PDF bằng Aspose.Slides cho .NET. Bạn sẽ tìm thấy hướng dẫn chi tiết và đoạn mã để thực hiện nhiệm vụ này một cách dễ dàng.
 
@@ -82,9 +78,3 @@ Tuyệt đối! Aspose.Slides for .NET cung cấp nhiều tùy chọn khác nhau
 Bạn có thể khám phá các hướng dẫn và ví dụ bổ sung trên[Aspose.Slides cho tài liệu API .NET](https://reference.aspose.com/slides/net/).
 
 Bây giờ bạn đã chuyển đổi thành công Chế độ xem trang trình bày ghi chú sang Định dạng PDF, bạn có thể khám phá thêm các tính năng và khả năng của Aspose.Slides for .NET để nâng cao các tác vụ tự động hóa PowerPoint của mình. Chúc mừng mã hóa!
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

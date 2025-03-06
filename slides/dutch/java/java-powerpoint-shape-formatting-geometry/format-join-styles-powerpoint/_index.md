@@ -3,14 +3,10 @@ title: Maak samenvoegstijlen op in PowerPoint
 linktitle: Maak samenvoegstijlen op in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u uw PowerPoint-presentaties kunt verbeteren door verschillende lijnverbindingsstijlen voor vormen in te stellen met behulp van Aspose.Slides voor Java. Volg onze stapsgewijze handleiding.
+type: docs
 weight: 15
 url: /nl/java/java-powerpoint-shape-formatting-geometry/format-join-styles-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 Het maken van visueel aantrekkelijke PowerPoint-presentaties kan een hele klus zijn, vooral als je wilt dat elk detail perfect is. Dit is waar Aspose.Slides voor Java van pas komt. Het is een krachtige API waarmee u programmatisch presentaties kunt maken, manipuleren en beheren. Een van de functies die u kunt gebruiken, is het instellen van verschillende lijnverbindingsstijlen voor vormen, waardoor de esthetiek van uw dia's aanzienlijk kan worden verbeterd. In deze zelfstudie gaan we in op hoe u Aspose.Slides voor Java kunt gebruiken om samenvoegstijlen in te stellen voor vormen in PowerPoint-presentaties. 
 ## Vereisten
@@ -116,9 +112,3 @@ Ja, u kunt Aspose.Slides voor Java gebruiken in elke door Java ondersteunde IDE 
 Lijnverbindingsstijlen verwijzen naar de vorm van de hoeken waar twee lijnen samenkomen. Veel voorkomende stijlen zijn verstek, schuine kant en rond.
 ### Waar kan ik meer documentatie vinden over Aspose.Slides voor Java?
  U kunt gedetailleerde documentatie vinden[hier](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

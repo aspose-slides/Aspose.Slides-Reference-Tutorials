@@ -3,14 +3,10 @@ title: Colore della linea guida nelle diapositive Java
 linktitle: Colore della linea guida nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come modificare i colori delle linee guida nei grafici di PowerPoint utilizzando Aspose.Slides per Java. Guida passo passo con esempi di codice sorgente.
+type: docs
 weight: 12
 url: /it/java/data-manipulation/leader-line-color-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduzione al colore della linea direttrice in Aspose.Slides per Java
 
@@ -120,9 +116,3 @@ Per accedere e modificare altre proprietà del grafico, è possibile esplorare l
 ### Posso utilizzare Aspose.Slides per Java con altre librerie e framework Java?
 
 Sì, puoi integrare Aspose.Slides per Java con altre librerie e framework Java secondo necessità per il tuo progetto. Aspose.Slides fornisce API per lavorare con varie funzionalità di PowerPoint, rendendo possibile combinarlo con altri strumenti e tecnologie per creare potenti applicazioni.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

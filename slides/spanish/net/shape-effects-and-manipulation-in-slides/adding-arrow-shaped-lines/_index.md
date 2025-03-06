@@ -3,14 +3,10 @@ title: Agregar líneas en forma de flecha a las diapositivas de la presentación
 linktitle: Agregar líneas en forma de flecha a las diapositivas de la presentación usando Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Mejore sus presentaciones con líneas en forma de flecha usando Aspose.Slides para .NET. Siga nuestra guía paso a paso para disfrutar de una experiencia de diapositivas dinámica y atractiva.
+type: docs
 weight: 12
 url: /es/net/shape-effects-and-manipulation-in-slides/adding-arrow-shaped-lines/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introducción
 En el mundo de las presentaciones dinámicas, la capacidad de personalizar y mejorar las diapositivas es crucial. Aspose.Slides para .NET permite a los desarrolladores agregar elementos visualmente atractivos, como líneas en forma de flecha, a las diapositivas de la presentación. Esta guía paso a paso lo guiará a través del proceso de incorporar líneas en forma de flecha en sus diapositivas usando Aspose.Slides para .NET.
 ## Requisitos previos
@@ -83,9 +79,3 @@ Sí, Aspose.Slides es compatible con .NET Core, lo que le permite aprovechar sus
  Sí, puedes experimentar Aspose.Slides con una prueba gratuita. Descargalo[aquí](https://releases.aspose.com/).
 ### ¿Cómo puedo obtener soporte para Aspose.Slides?
  Visita la comunidad[foro](https://forum.aspose.com/c/slides/11) para cualquier ayuda o consulta.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

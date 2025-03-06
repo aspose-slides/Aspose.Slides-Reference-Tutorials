@@ -3,14 +3,10 @@ title: Målformer för animering i PowerPoint
 linktitle: Målformer för animering i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du animerar specifika former i PowerPoint-presentationer med Aspose.Slides för Java. Skapa engagerande bilder utan ansträngning.
+type: docs
 weight: 11
 url: /sv/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-animation-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 en värld av dynamiska presentationer spelar animationer en avgörande roll för att engagera publiken och förmedla information effektivt. Aspose.Slides för Java ger utvecklare möjlighet att skapa fängslande PowerPoint-presentationer med intrikata animationer skräddarsydda för specifika former. Denna handledning guidar dig genom processen att rikta in former för animering med Aspose.Slides för Java, vilket säkerställer att dina presentationer sticker ut med flytande övergångar och exakta animationer.
 ## Förutsättningar
@@ -66,9 +62,3 @@ Ja, Aspose.Slides för Java tillhandahåller omfattande funktioner för att skap
  Du kan skaffa en tillfällig licens från[här](https://purchase.aspose.com/temporary-license/).
 ### Var kan jag köpa Aspose.Slides för Java?
  Du kan köpa Aspose.Slides för Java från webbplatsen[här](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

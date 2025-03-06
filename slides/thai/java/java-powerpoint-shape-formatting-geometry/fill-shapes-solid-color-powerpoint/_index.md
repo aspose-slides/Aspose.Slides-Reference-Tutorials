@@ -3,14 +3,10 @@ title: เติมรูปร่างด้วยสีทึบใน PowerP
 linktitle: เติมรูปร่างด้วยสีทึบใน PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีเติมรูปร่างด้วยสีทึบใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา
+type: docs
 weight: 13
 url: /th/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## การแนะนำ
 หากคุณเคยทำงานกับงานนำเสนอ PowerPoint คุณจะรู้ว่าการเพิ่มรูปร่างและปรับแต่งสีอาจเป็นส่วนสำคัญในการทำให้สไลด์ของคุณดูน่าดึงดูดและให้ข้อมูล ด้วย Aspose.Slides สำหรับ Java กระบวนการนี้กลายเป็นเรื่องง่าย ไม่ว่าคุณจะเป็นนักพัฒนาที่ต้องการสร้างงานนำเสนอ PowerPoint โดยอัตโนมัติ หรือผู้ที่สนใจจะเพิ่มสีสันให้กับสไลด์ของคุณ บทช่วยสอนนี้จะแนะนำคุณตลอดขั้นตอนการเติมรูปร่างด้วยสีทึบโดยใช้ Aspose.Slides สำหรับ Java
 ## ข้อกำหนดเบื้องต้น
@@ -89,9 +85,3 @@ Aspose.Slides for Java เป็นไลบรารีที่มีประ
  ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้ฟรีได้จาก[เว็บไซต์กำหนด](https://releases.aspose.com/).
 ### ฉันจะหาเอกสารและความช่วยเหลือเพิ่มเติมได้จากที่ไหน?
  เอกสารรายละเอียดมีอยู่ที่[เว็บไซต์กำหนด](https://reference.aspose.com/slides/java/)และคุณสามารถขอรับการสนับสนุนได้ที่[กำหนดฟอรั่ม](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

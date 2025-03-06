@@ -3,14 +3,10 @@ title: Java के लिए Aspose.Slides का उपयोग करके H
 linktitle: Java के लिए Aspose.Slides का उपयोग करके HTML में फ़ॉन्ट एम्बेड करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: विभिन्न प्लेटफार्मों और उपकरणों पर एक समान टाइपोग्राफी सुनिश्चित करने के लिए Aspose.Slides for Java का उपयोग करके HTML में फ़ॉन्ट एम्बेड करना सीखें।
+type: docs
 weight: 13
 url: /hi/java/java-powerpoint-font-management/embed-fonts-in-html/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## परिचय
 Aspose.Slides for Java, जावा डेवलपर्स के लिए एक शक्तिशाली उपकरण है जो PowerPoint प्रस्तुतियों को प्रोग्रामेटिक रूप से हेरफेर करना चाहते हैं। इस ट्यूटोरियल में, हम Aspose.Slides for Java का उपयोग करके HTML में फ़ॉन्ट एम्बेड करने की प्रक्रिया में गहराई से उतरेंगे। फ़ॉन्ट एम्बेड करके, आप सुनिश्चित करते हैं कि आपकी प्रस्तुतियाँ विभिन्न प्लेटफ़ॉर्म और डिवाइस पर अपनी इच्छित उपस्थिति बनाए रखें, भले ही आवश्यक फ़ॉन्ट स्थानीय रूप से इंस्टॉल न हों।
 ## आवश्यक शर्तें
@@ -62,9 +58,3 @@ pres.save(outPath + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
  आप यहां जा सकते हैं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक सहायता के लिए या पेशेवर सहायता के लिए Aspose समर्थन से संपर्क करें।
 ### क्या मैं Aspose.Slides for Java के लिए अस्थायी लाइसेंस खरीद सकता हूँ?
 हां, आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[खरीद पृष्ठ](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

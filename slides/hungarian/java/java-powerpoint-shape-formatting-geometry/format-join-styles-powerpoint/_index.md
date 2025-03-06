@@ -3,14 +3,10 @@ title: Formázza az összekapcsolási stílusokat a PowerPointban
 linktitle: Formázza az összekapcsolási stílusokat a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan javíthatja PowerPoint-prezentációit az Aspose.Slides for Java segítségével különböző vonalillesztési stílusok beállításával az alakzatokhoz. Kövesse lépésenkénti útmutatónkat.
+type: docs
 weight: 15
 url: /hu/java/java-powerpoint-shape-formatting-geometry/format-join-styles-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 látványos PowerPoint-prezentációk készítése ijesztő feladat lehet, különösen akkor, ha azt szeretné, hogy minden részlet tökéletes legyen. Itt jön jól az Aspose.Slides for Java. Ez egy hatékony API, amely lehetővé teszi prezentációk programozott létrehozását, kezelését és kezelését. Az egyik használható funkció a különböző vonalillesztési stílusok beállítása az alakzatokhoz, ami jelentősen javíthatja a diák esztétikáját. Ebben az oktatóanyagban azt mutatjuk be, hogyan használhatja az Aspose.Slides for Java-t az alakzatok összekapcsolási stílusainak beállítására a PowerPoint-prezentációkban. 
 ## Előfeltételek
@@ -116,9 +112,3 @@ Igen, az Aspose.Slides for Java bármely Java által támogatott IDE-ben, péld�
 A vonalillesztési stílusok a sarkok alakjára utalnak, ahol két vonal találkozik. A gyakori stílusok közé tartozik a gérvágó, a ferde és a kerek.
 ### Hol találok további dokumentációt az Aspose.Slides for Java-ról?
  Részletes dokumentációt találhat[itt](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

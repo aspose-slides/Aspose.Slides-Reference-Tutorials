@@ -3,14 +3,10 @@ title: Especificar el idioma de texto predeterminado en Java PowerPoint
 linktitle: Especificar el idioma de texto predeterminado en Java PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a especificar el idioma de texto predeterminado en Java PowerPoint usando Aspose.Slides para Java. Perfecto para desarrolladores que buscan localizar mensajes de texto mediante programación.
+type: docs
 weight: 21
 url: /es/java/java-powerpoint-text-font-customization/specify-default-text-language-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introducción
 En el ámbito del desarrollo de aplicaciones Java, gestionar y manipular presentaciones de PowerPoint mediante programación es un requisito común. Aspose.Slides para Java ofrece un sólido conjunto de funcionalidades que permiten a los desarrolladores crear, modificar y mejorar presentaciones de PowerPoint sin problemas a través del código Java. Este tutorial tiene como objetivo guiarlo a través de los pasos esenciales para especificar el idioma de texto predeterminado en una presentación de PowerPoint Java usando Aspose.Slides.
 ## Requisitos previos
@@ -70,9 +66,3 @@ Absolutamente. Aspose.Slides para Java está diseñado para brindar escalabilida
 Sí, Aspose.Slides para Java proporciona API que admiten la integración con plataformas de nube populares.
 ### ¿Puedo evaluar Aspose.Slides para Java antes de comprarlo?
  Sí, puede obtener una prueba gratuita de Aspose.Slides para Java desde[aquí](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

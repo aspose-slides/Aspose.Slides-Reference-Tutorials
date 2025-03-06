@@ -3,14 +3,10 @@ title: Lưu thuộc tính trong Java Slides
 linktitle: Lưu thuộc tính trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tối ưu hóa bản trình bày PowerPoint của bạn với Aspose.Slides cho Java. Tìm hiểu cách đặt thuộc tính, tắt mã hóa, thêm bảo vệ bằng mật khẩu và lưu dễ dàng.
+type: docs
 weight: 12
 url: /vi/java/saving-options/save-properties-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu về Lưu thuộc tính trong Java Slides
 
@@ -174,9 +170,3 @@ finally {
 ### Làm cách nào tôi có thể tìm hiểu thêm về Aspose.Slides cho Java và các tính năng của nó?
 
  Bạn có thể khám phá tài liệu Aspose.Slides dành cho Java tại[đây](https://docs.aspose.com/slides/java/) để biết thông tin chi tiết, hướng dẫn và ví dụ về cách sử dụng thư viện.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

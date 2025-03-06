@@ -3,14 +3,10 @@ title: Miniatuur maken met grenzen voor vorm in Aspose.Slides
 linktitle: Miniatuur maken met grenzen voor vorm in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Ontgrendel de kracht van Aspose.Slides voor .NET! Leer moeiteloos vormminiaturen met grenzen maken met behulp van onze stapsgewijze handleiding.
+type: docs
 weight: 10
 url: /nl/net/image-and-video-manipulation-in-slides/creating-thumbnail-bounds-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 Als u een .NET-ontwikkelaar bent en op zoek bent naar een robuuste oplossing voor het maken van miniatuurafbeeldingen met grenzen voor vormen in PowerPoint-presentaties, dan is Aspose.Slides voor .NET uw favoriete hulpmiddel. Deze krachtige bibliotheek biedt naadloze integratie, waardoor u op efficiënte wijze waardevolle informatie uit PowerPoint-bestanden kunt manipuleren en extraheren. In deze zelfstudie doorlopen we het proces van het maken van een miniatuur met grenzen voor een vorm met behulp van Aspose.Slides.
 ## Vereisten
@@ -64,9 +60,3 @@ Ja, Aspose.Slides wordt regelmatig bijgewerkt om compatibiliteit met de nieuwste
  Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) om verbinding te maken met de community en hulp te zoeken bij ervaren ontwikkelaars.
 ### Kan ik een tijdelijke licentie krijgen voor Aspose.Slides?
  Ja, u kunt een tijdelijke licentie verkrijgen[hier](https://purchase.aspose.com/temporary-license/) voor kortetermijnprojectbehoeften.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

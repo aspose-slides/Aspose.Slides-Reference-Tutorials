@@ -3,14 +3,10 @@ title: Преобразование в PDF в Java Slides
 linktitle: Преобразование в PDF в Java Slides
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как конвертировать презентации PowerPoint в PDF на Java с помощью Aspose.Slides для Java. Следуйте нашему пошаговому руководству с исходным кодом и часто задаваемыми вопросами для плавного преобразования PowerPoint в PDF.
+type: docs
 weight: 25
 url: /ru/java/presentation-conversion/convert-to-pdf-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Введение в преобразование презентации PowerPoint в PDF на Java с использованием Aspose.Slides для Java
 
@@ -117,9 +113,3 @@ catch (Exception ex)
     ex.printStackTrace();
 }
 ```
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

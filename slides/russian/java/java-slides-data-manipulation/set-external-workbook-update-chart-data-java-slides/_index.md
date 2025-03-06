@@ -3,14 +3,10 @@ title: Установите внешнюю книгу с обновлением 
 linktitle: Установите внешнюю книгу с обновлением данных диаграммы в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как настраивать внешние книги и обновлять данные диаграмм в Java Slides с помощью Aspose.Slides для Java. Совершенствуйте свои навыки автоматизации PowerPoint.
+type: docs
 weight: 20
 url: /ru/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Введение в настройку внешней книги с обновлением данных диаграммы в слайдах Java
 
@@ -103,9 +99,3 @@ finally
 ### Где я могу найти дополнительную документацию и ресурсы для Aspose.Slides для Java?
 
  Подробную документацию и дополнительные ресурсы можно найти в документации Aspose.Slides for Java по адресу:[здесь](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

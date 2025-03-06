@@ -3,14 +3,10 @@ title: प्रोग्रामेटिक रूप से नई प्र
 linktitle: प्रोग्रामेटिक रूप से नई प्रस्तुतियाँ बनाएँ
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: Aspose.Slides for .NET का उपयोग करके प्रोग्रामेटिक रूप से प्रेजेंटेशन बनाना सीखें। कुशल स्वचालन के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
+type: docs
 weight: 10
 url: /hi/net/presentation-manipulation/create-new-presentations-programmatically/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 यदि आप .NET में प्रोग्रामेटिक रूप से प्रेजेंटेशन बनाना चाहते हैं, तो Aspose.Slides for .NET एक शक्तिशाली टूल है जो आपको इस कार्य को कुशलतापूर्वक पूरा करने में मदद करेगा। यह चरण-दर-चरण ट्यूटोरियल आपको दिए गए स्रोत कोड का उपयोग करके नई प्रेजेंटेशन बनाने की प्रक्रिया के माध्यम से मार्गदर्शन करेगा।
 
@@ -91,9 +87,3 @@ pres.Write("outAsposeSlides.ppt");
 
 4. ### क्या मैं खरीदने से पहले Aspose.Slides for .NET आज़मा सकता हूँ?
     हां, आप .NET के लिए Aspose.Slides का निःशुल्क परीक्षण डाउनलोड कर सकते हैं[यहाँ](https://releases.aspose.com/)परीक्षण संस्करण की अपनी सीमाएं हैं, इसलिए यह अवश्य जांच लें कि यह आपकी आवश्यकताओं को पूरा करता है या नहीं।
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

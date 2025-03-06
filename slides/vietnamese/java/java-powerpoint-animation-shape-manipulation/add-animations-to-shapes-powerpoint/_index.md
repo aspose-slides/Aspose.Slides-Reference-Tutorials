@@ -3,14 +3,10 @@ title: Thêm hình động vào hình dạng trong PowerPoint
 linktitle: Thêm hình động vào hình dạng trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm hoạt ảnh vào các hình dạng trong PowerPoint bằng Aspose.Slides cho Java với hướng dẫn chi tiết này. Hoàn hảo để tạo các bài thuyết trình hấp dẫn.
+type: docs
 weight: 10
 url: /vi/java/java-powerpoint-animation-shape-manipulation/add-animations-to-shapes-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Tạo bản trình bày hấp dẫn thường yêu cầu thêm hoạt ảnh vào hình dạng và văn bản. Hoạt ảnh có thể làm cho trang trình bày của bạn trở nên năng động và hấp dẫn hơn, đảm bảo khán giả luôn quan tâm. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm hoạt ảnh vào các hình trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Đến cuối bài viết này, bạn sẽ có thể tạo hoạt ảnh chuyên nghiệp một cách dễ dàng.
 ## Điều kiện tiên quyết
@@ -112,9 +108,3 @@ Aspose.Slides hỗ trợ Java SE 6 trở lên.
 Bạn có thể thêm các hình động khác nhau vào nhiều hình dạng bằng cách lặp lại các bước cho từng hình dạng và chỉ định các hiệu ứng khác nhau nếu cần.
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?
  Kiểm tra[tài liệu](https://reference.aspose.com/slides/java/) Và[diễn đàn hỗ trợ](https://forum.aspose.com/c/slides/11)để biết thêm ví dụ và trợ giúp.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

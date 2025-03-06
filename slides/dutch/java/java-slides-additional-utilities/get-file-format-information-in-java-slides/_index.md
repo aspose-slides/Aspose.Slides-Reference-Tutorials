@@ -3,14 +3,10 @@ title: Krijg informatie over bestandsindelingen in Java-dia's
 linktitle: Krijg informatie over bestandsindelingen in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u informatie over de bestandsindeling ophaalt in Java Slides met behulp van de Aspose.Slides voor Java API. Identificeer presentatieformaten met codevoorbeelden.
+type: docs
 weight: 11
 url: /nl/java/additional-utilities/get-file-format-information-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot het verkrijgen van informatie over bestandsindelingen in Java-dia's
 
@@ -117,9 +113,3 @@ Aspose.Slides voor Java is een commerciële bibliotheek, maar biedt een gratis p
 ### Hoe kan ik contact opnemen met Aspose-ondersteuning voor hulp?
 
 U kunt via hun website contact opnemen met Aspose-ondersteuning. Ze bieden speciale ondersteuningskanalen om u te helpen met eventuele vragen of problemen die u tegenkomt tijdens het gebruik van hun producten.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

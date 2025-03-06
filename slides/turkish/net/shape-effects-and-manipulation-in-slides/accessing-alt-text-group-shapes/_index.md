@@ -3,14 +3,10 @@ title: Aspose.Slides kullanarak Grup Şekillerindeki Alternatif Metinlere Erişi
 linktitle: Grup Şekillerinde Alternatif Metne Erişim
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak grup şekillerindeki alternatif metne nasıl erişeceğinizi öğrenin. Kod örnekleri içeren adım adım kılavuz.
+type: docs
 weight: 10
 url: /tr/net/shape-effects-and-manipulation-in-slides/accessing-alt-text-group-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Sunumları yönetmek ve değiştirmek söz konusu olduğunda Aspose.Slides for .NET güçlü bir araç seti sunar. Bu makalede, bu API'nin belirli bir yönünü - Grup Şekillerinde Alternatif Metinlere Erişim - ele alacağız. İster deneyimli bir geliştirici olun ister Aspose.Slides'ı kullanmaya yeni başlıyor olun, bu kapsamlı kılavuz, adım adım talimatlar ve kod örnekleri sunarak süreç boyunca size yol gösterecektir. Sonunda, Aspose.Slides'ı kullanarak grup şekillerinde alternatif metinlerle etkili bir şekilde nasıl çalışabileceğiniz konusunda sağlam bir anlayışa sahip olacaksınız.
 
@@ -122,9 +118,3 @@ Sunumlarınızın alternatif metninin etkinliğini ve genel erişilebilirliğini
 ### Aspose.Slides hem yeni başlayanlar hem de deneyimli geliştiriciler için uygun mu?
 
 Evet, Aspose.Slides her düzeydeki geliştiriciye hitap edecek şekilde tasarlanmıştır. Yeni başlayanlar belgelerde sağlanan adım adım kılavuzu takip edebilir, deneyimli geliştiriciler ise gelişmiş özelliklerinden yararlanabilir.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

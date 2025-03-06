@@ -3,14 +3,10 @@ title: Đặt phạm vi dữ liệu trong Java Slides
 linktitle: Đặt phạm vi dữ liệu trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt phạm vi dữ liệu trong các trang trình bày Java một cách dễ dàng với Aspose.Slides cho Java. Tạo bản trình bày động và dựa trên dữ liệu với hướng dẫn từng bước này.
+type: docs
 weight: 18
 url: /vi/java/data-manipulation/set-data-range-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu về Đặt phạm vi dữ liệu trong Java Slides
 
@@ -101,9 +97,3 @@ Bạn có thể truy cập các trang trình bày và hình dạng cụ thể tr
 ### Tôi có thể tìm thêm tài liệu và ví dụ về Aspose.Slides cho Java ở đâu?
 
  Bạn có thể tìm thấy tài liệu và ví dụ mở rộng về Aspose.Slides cho Java trên trang web tài liệu Aspose:[Aspose.Slides cho tài liệu tham khảo API Java](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

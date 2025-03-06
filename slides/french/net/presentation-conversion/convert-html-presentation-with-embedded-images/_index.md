@@ -3,14 +3,10 @@ title: Convertir une présentation HTML avec des images intégrées
 linktitle: Convertir une présentation HTML avec des images intégrées
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment convertir des présentations PowerPoint en HTML avec des images intégrées à l'aide d'Aspose.Slides pour .NET. Guide étape par étape pour une conversion transparente.
+type: docs
 weight: 11
 url: /fr/net/presentation-conversion/convert-html-presentation-with-embedded-images/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Dans le monde numérique d'aujourd'hui, la nécessité de convertir des présentations PowerPoint en HTML devient de plus en plus importante. Qu'il s'agisse de partager du contenu en ligne ou de créer des présentations Web, la possibilité de convertir vos fichiers PowerPoint en HTML peut être un atout précieux. Aspose.Slides for .NET est une bibliothèque puissante qui vous permet d'effectuer de telles conversions de manière transparente. Dans ce guide étape par étape, nous vous guiderons tout au long du processus de conversion d'une présentation HTML avec des images intégrées à l'aide d'Aspose.Slides pour .NET.
 
@@ -119,9 +115,3 @@ Aspose.Slides pour .NET prend en charge la conversion de présentations avec div
 
 ### Dans quels autres formats puis-je convertir des présentations PowerPoint à l'aide d'Aspose.Slides pour .NET ?
 Aspose.Slides pour .NET prend en charge la conversion vers divers formats, notamment PDF, images, etc. Consultez la documentation pour une liste complète des formats pris en charge.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

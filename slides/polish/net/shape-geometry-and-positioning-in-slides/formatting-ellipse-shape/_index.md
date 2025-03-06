@@ -3,14 +3,10 @@ title: Samouczek formatowania kształtów elips za pomocą Aspose.Slides dla .NE
 linktitle: Formatowanie kształtu elipsy na slajdach za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Twórz wspaniałe kształty elips w programie PowerPoint za pomocą Aspose.Slides dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku dotyczącym profesjonalnych prezentacji.
+type: docs
 weight: 11
 url: /pl/net/shape-geometry-and-positioning-in-slides/formatting-ellipse-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 Uatrakcyjnianie prezentacji programu PowerPoint za pomocą atrakcyjnych wizualnie kształtów ma kluczowe znaczenie, aby przyciągnąć uwagę odbiorców. Jednym z takich kształtów jest elipsa, która może dodać slajdom elegancji i profesjonalizmu. W tym samouczku przeprowadzimy Cię przez proces formatowania kształtów elips w programie PowerPoint przy użyciu Aspose.Slides dla .NET.
 ## Warunki wstępne
@@ -85,9 +81,3 @@ Aspose.Slides zapewnia kompatybilność z różnymi wersjami programu PowerPoint
  Zwróć się o pomoc do społeczności na stronie[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Czy istnieje opcja bezpośredniego zakupu Aspose.Slides dla .NET?
  Tak, możesz kupić bibliotekę bezpośrednio[Tutaj](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

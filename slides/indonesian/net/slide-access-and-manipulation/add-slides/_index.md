@@ -3,14 +3,10 @@ title: Masukkan Slide Tambahan ke dalam Presentasi
 linktitle: Masukkan Slide Tambahan ke dalam Presentasi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menyisipkan slide tambahan ke dalam presentasi PowerPoint Anda menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah ini memberikan contoh kode sumber dan instruksi terperinci untuk menyempurnakan presentasi Anda dengan lancar. Konten yang dapat disesuaikan, tip penyisipan, dan FAQ disertakan.
+type: docs
 weight: 15
 url: /id/net/slide-access-and-manipulation/add-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Pengantar Memasukkan Slide Tambahan ke dalam Presentasi
 
@@ -111,9 +107,3 @@ Sangat. Anda dapat mengubah tata letak, desain, dan format slide yang disisipkan
 ### Di mana saya dapat menemukan informasi selengkapnya tentang Aspose.Slides untuk .NET?
 
  Untuk dokumentasi dan contoh terperinci, lihat[Aspose.Slides untuk dokumentasi .NET](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

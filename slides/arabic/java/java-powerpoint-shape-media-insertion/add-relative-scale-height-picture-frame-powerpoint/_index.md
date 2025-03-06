@@ -3,14 +3,10 @@ title: إضافة إطار الصورة النسبي الارتفاع في Power
 linktitle: إضافة إطار الصورة النسبي الارتفاع في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة إطارات صور ذات ارتفاع نسبي في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java، مما يعزز المحتوى المرئي الخاص بك.
+type: docs
 weight: 15
 url: /ar/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-picture-frame-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 ستتعلم في هذا البرنامج التعليمي كيفية إضافة إطار صورة بارتفاع مقياس نسبي في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java.
 ## المتطلبات الأساسية
@@ -72,9 +68,3 @@ Aspose.Slides for Java متوافق مع إصدارات مختلفة من PowerP
 نعم، يدعم Aspose.Slides for Java تنسيقات الصور المختلفة، بما في ذلك PNG وGIF وBMP والمزيد.
 ### هل يوجد منتدى مجتمعي أو قناة دعم متاحة لمستخدمي Aspose.Slides؟
 نعم، يمكنك زيارة منتدى Aspose.Slides لأية أسئلة أو مناقشات أو مساعدة بخصوص المكتبة.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

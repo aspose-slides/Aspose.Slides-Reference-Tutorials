@@ -3,14 +3,10 @@ title: Uzyskaj efektywne wartości czcionek w programie Java PowerPoint
 linktitle: Uzyskaj efektywne wartości czcionek w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak odzyskać efektywne wartości czcionek w prezentacjach Java PowerPoint za pomocą Aspose.Slides. Ulepsz formatowanie prezentacji bez wysiłku.
+type: docs
 weight: 12
 url: /pl/java/java-powerpoint-font-management/get-effective-font-values-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 W tym samouczku zajmiemy się pobieraniem efektywnych wartości czcionek w prezentacjach Java PowerPoint za pomocą Aspose.Slides. Ta funkcja umożliwia dostęp do formatowania czcionek zastosowanych w tekście na slajdach, dostarczając cennych informacji na potrzeby różnych zadań związanych z manipulacją prezentacją.
 ## Warunki wstępne
@@ -66,9 +62,3 @@ Można zaimplementować mechanizmy obsługi błędów, takie jak bloki try-catch
 Tak, Aspose.Slides umożliwia dostęp do wartości czcionek z prezentacji chronionych hasłem, pod warunkiem, że podasz prawidłowe dane uwierzytelniające.
 ### Czy istnieją jakieś ograniczenia dotyczące właściwości czcionki, które można pobrać?
 Aspose.Slides oferuje szerokie możliwości wyszukiwania właściwości czcionek, obejmujące najczęstsze aspekty formatowania. Jednak przy użyciu tej metody niektóre zaawansowane lub specjalistyczne funkcje czcionek mogą nie być dostępne.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

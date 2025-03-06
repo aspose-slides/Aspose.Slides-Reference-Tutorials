@@ -3,14 +3,10 @@ title: Aspose.Slides .NET のデータ ポイントでチャート マーカー 
 linktitle: データポイントのチャートマーカーオプション
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint グラフを強化する方法を学びます。画像を使用してデータ ポイント マーカーをカスタマイズします。魅力的なプレゼンテーションを作成します。
+type: docs
 weight: 11
 url: /ja/net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 プレゼンテーションやデータの視覚化を扱う場合、Aspose.Slides for .NET は、グラフを作成、カスタマイズ、および操作するための幅広い強力な機能を提供します。このチュートリアルでは、データ ポイントでグラフ マーカー オプションを使用してグラフのプレゼンテーションを強化する方法について説明します。このステップ バイ ステップ ガイドでは、前提条件と名前空間のインポートから始めて、各例を複数のステップに分解するまで、プロセスを順を追って説明します。
 
@@ -152,9 +148,3 @@ Aspose.Slides for .NET は、さまざまな PowerPoint 形式で動作するよ
 
 ### Aspose.Slides for .NET の試用版はありますか?
 はい、Aspose.Slides for .NETの無料試用版をダウンロードしてお試しいただけます。[ここ](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

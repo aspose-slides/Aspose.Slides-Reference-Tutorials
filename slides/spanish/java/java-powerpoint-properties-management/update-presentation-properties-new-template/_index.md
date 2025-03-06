@@ -3,14 +3,10 @@ title: Actualizar propiedades de presentación con nueva plantilla
 linktitle: Actualizar propiedades de presentación con nueva plantilla
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo actualizar las propiedades de la presentación usando Aspose.Slides para Java. Mejore sus proyectos Java con una modificación perfecta de metadatos.
+type: docs
 weight: 13
 url: /es/java/java-powerpoint-properties-management/update-presentation-properties-new-template/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introducción
 En el ámbito del desarrollo de Java, Aspose.Slides se erige como una poderosa herramienta para manipular presentaciones de PowerPoint mediante programación. Con su biblioteca Java, los desarrolladores pueden automatizar tareas como crear, modificar y convertir presentaciones, lo que la convierte en un activo invaluable tanto para empresas como para individuos. Sin embargo, aprovechar todo el potencial de Aspose.Slides requiere una sólida comprensión de sus funcionalidades y de cómo integrarlas eficazmente en sus proyectos Java. En este tutorial, profundizaremos en la actualización de las propiedades de la presentación utilizando una nueva plantilla, paso a paso, asegurándonos de que comprenda cada concepto a fondo.
 ## Requisitos previos
@@ -79,9 +75,3 @@ De hecho, Aspose.Slides ofrece confiabilidad y características de nivel empresa
 Ciertamente, Aspose.Slides ofrece amplias opciones de personalización para las propiedades de presentación, lo que le permite adaptarlas a sus requisitos específicos.
 ### ¿Dónde puedo encontrar soporte y recursos adicionales para Aspose.Slides?
 Puede explorar la documentación de Aspose.Slides, unirse a los foros de la comunidad o comunicarse con el soporte de Aspose para cualquier ayuda o consulta.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

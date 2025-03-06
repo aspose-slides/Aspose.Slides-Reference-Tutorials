@@ -3,14 +3,10 @@ title: Teckenstorleksförklaring i Java Slides
 linktitle: Teckenstorleksförklaring i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Förbättra PowerPoint-presentationer med Aspose.Slides för Java. Lär dig hur du anpassar teckenstorlekar för legender och mer i vår steg-för-steg-guide.
+type: docs
 weight: 13
 url: /sv/java/chart-elements/font-size-legend-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion till teckenstorleksförklaring i Java Slides
 
@@ -139,9 +135,3 @@ Här inaktiverar vi automatisk axelskalning och anger minimi- och maxvärden fö
 ### Var kan jag hitta mer information och dokumentation för Aspose.Slides?
 
  Du kan hitta omfattande dokumentation och API-referenser för Aspose.Slides för Java på Aspose-dokumentationswebbplatsen. Besök[här](https://reference.aspose.com/slides/java/) för detaljerad information om hur du använder biblioteket.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

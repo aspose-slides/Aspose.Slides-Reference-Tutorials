@@ -3,14 +3,10 @@ title: Converteren naar PDF-compatibiliteit in Java-dia's
 linktitle: Converteren naar PDF-compatibiliteit in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-presentaties naar PDF kunt converteren met PDF/A-2a-compatibiliteit met behulp van Aspose.Slides voor Java. Volg onze stapsgewijze handleiding met broncode voor naadloze archivering en toegankelijkheid.
+type: docs
 weight: 26
 url: /nl/java/presentation-conversion/convert-pdf-compliance-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot conversie naar PDF-compatibiliteit in Java-dia's
 
@@ -118,9 +114,3 @@ Ja, u heeft doorgaans een geldige licentie nodig voor Aspose.Slides voor Java om
 ## Waar kan ik meer informatie vinden over Aspose.Slides voor Java- en PDF-compliance?
 
  Voor meer gedetailleerde informatie over Aspose.Slides voor Java en de functies ervan, inclusief instellingen voor PDF-compatibiliteit, kunt u de documentatie op de website raadplegen.[Aspose.Slides voor Java API-referentie](https://reference.aspose.com/slides/java/). Bovendien kunt u codevoorbeelden en tutorials verkennen om uw kennis van de bibliotheek verder te vergroten.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

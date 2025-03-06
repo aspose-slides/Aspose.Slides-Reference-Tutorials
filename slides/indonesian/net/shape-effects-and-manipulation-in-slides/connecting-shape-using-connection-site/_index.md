@@ -3,14 +3,10 @@ title: Penguasaan Koneksi Bentuk dengan Aspose.Slides untuk .NET
 linktitle: Menghubungkan Bentuk menggunakan Situs Koneksi dalam Presentasi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Buat presentasi menawan dengan Aspose.Slides untuk .NET, yang menghubungkan bentuk dengan mulus. Ikuti panduan kami untuk pengalaman yang lancar dan menarik.
+type: docs
 weight: 30
 url: /id/net/shape-effects-and-manipulation-in-slides/connecting-shape-using-connection-site/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam dunia presentasi yang dinamis, membuat slide yang menarik secara visual dengan bentuk yang saling berhubungan sangat penting untuk komunikasi yang efektif. Aspose.Slides untuk .NET memberikan solusi ampuh untuk mencapai hal ini dengan memungkinkan Anda menghubungkan bentuk menggunakan situs koneksi. Tutorial ini akan memandu Anda melalui proses menghubungkan bentuk langkah demi langkah, memastikan presentasi Anda menonjol dengan transisi visual yang mulus.
 ## Prasyarat
@@ -82,9 +78,3 @@ Anda dapat menggunakan blok coba-tangkap untuk menangani pengecualian. Mengacu k
  Ya, Anda dapat mengunduh versi uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Slides?
  Mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan dan diskusi komunitas.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

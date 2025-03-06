@@ -3,14 +3,10 @@ title: تحويل العرض التقديمي إلى TIFF بالحجم الاف�
 linktitle: تحويل العرض التقديمي إلى TIFF بالحجم الافتراضي
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تحويل العروض التقديمية إلى صور TIFF بحجمها الافتراضي بسهولة باستخدام Aspose.Slides for .NET.
+type: docs
 weight: 27
 url: /ar/net/presentation-manipulation/convert-presentation-to-tiff-with-default-size/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة
 
@@ -90,9 +86,3 @@ presentation.Save("output.tiff", SaveFormat.Tiff,options);
 ### أين يمكنني العثور على مزيد من المعلومات حول Aspose.Slides لـ .NET؟
 
  للحصول على وثائق وأمثلة شاملة، قم بزيارة[Aspose.Slides لوثائق .NET](https://reference.aspose.com/slides/net).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

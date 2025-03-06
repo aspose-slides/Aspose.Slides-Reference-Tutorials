@@ -3,14 +3,10 @@ title: Animasi Bentuk Menjadi Mudah dengan Aspose.Slide
 linktitle: Menerapkan Animasi pada Bentuk di Slide Presentasi dengan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Buat presentasi yang menakjubkan dengan Aspose.Slides untuk .NET. Pelajari cara menerapkan animasi pada bentuk dalam panduan langkah demi langkah ini. Tinggikan slide Anda sekarang!
+type: docs
 weight: 21
 url: /id/net/shape-effects-and-manipulation-in-slides/applying-animations-to-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam dunia presentasi dinamis, menambahkan animasi ke bentuk dapat meningkatkan daya tarik visual dan keterlibatan slide Anda secara signifikan. Aspose.Slides untuk .NET menyediakan perangkat canggih untuk mencapai hal ini dengan lancar. Dalam tutorial ini, kami akan memandu Anda melalui proses penerapan animasi pada bentuk menggunakan Aspose.Slides, memungkinkan Anda membuat presentasi menawan yang meninggalkan kesan mendalam.
 ## Prasyarat
@@ -85,9 +81,3 @@ Aspose.Slides memastikan kompatibilitas dengan berbagai versi PowerPoint, memast
  Ya, Anda bisa mendapatkan lisensi[Di Sini](https://purchase.aspose.com/buy) untuk membuka potensi penuh Aspose.Slides.
 ### Bisakah saya mencoba Aspose.Slides sebelum membeli?
  Tentu! Memanfaatkan[uji coba gratis](https://releases.aspose.com/) untuk merasakan kemampuan Aspose.Slides sebelum membuat komitmen.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

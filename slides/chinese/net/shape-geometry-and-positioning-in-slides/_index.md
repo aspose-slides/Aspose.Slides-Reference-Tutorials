@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 在幻灯片中塑造几何形状并定位
 linktitle: 幻灯片中的形状几何和定位
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides 教程中的幻灯片几何形状和定位来增强幻灯片操作技能。学习以编程方式控制形状、其尺寸和对齐方式。
+type: docs
 weight: 13
 url: /zh/net/shape-geometry-and-positioning-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 介绍
 
@@ -55,9 +51,3 @@ url: /zh/net/shape-geometry-and-positioning-in-slides/
 了解如何使用 Aspose.Slides 通过有效的斜面数据增强您的演示幻灯片。包含分步说明和示例代码的综合指南。
 ### [使用 Aspose.Slides 隐藏演示幻灯片中的形状](./hiding-shapes/)
 了解如何使用 Aspose.Slides for .NET 隐藏演示文稿幻灯片中的形状。包含源代码、常见问题解答和动态演示文稿最佳实践的分步指南。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

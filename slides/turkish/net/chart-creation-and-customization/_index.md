@@ -3,14 +3,10 @@ title: Grafik Oluşturma ve Özelleştirme
 linktitle: Grafik Oluşturma ve Özelleştirme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides ile .NET uygulamanızın sunum yeteneklerini geliştirin. Adım adım kılavuzları ve kod örneklerini keşfederek grafik oluşturma ve özelleştirme hakkındaki eğitimimize dalın.
+type: docs
 weight: 14
 url: /tr/net/chart-creation-and-customization/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giriiş:
 
@@ -31,9 +27,3 @@ Aspose.Slides for .NET kullanarak sunumlardaki slaytları nasıl karşılaştır
 Temel yer tutucularla dinamik PowerPoint sunumları oluşturmak için Aspose.Slides for .NET'i nasıl kullanacağınızı öğrenin.
 ### [Slaytlarda Üstbilgi ve Altbilgiyi Yönetme](./header-footer-manager/)
 Aspose.Slides for .NET'i kullanarak slaytlardaki üstbilgileri ve altbilgileri nasıl yöneteceğinizi öğrenin. Sunumlarınızı kolaylıkla ve hassasiyetle özelleştirin.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

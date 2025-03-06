@@ -3,14 +3,10 @@ title: Szülői megjegyzések hozzáadása a diához az Aspose.Slides segítség
 linktitle: Szülői megjegyzések hozzáadása a diához
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan adhat hozzá interaktív megjegyzéseket és válaszokat PowerPoint-prezentációihoz az Aspose.Slides for .NET segítségével. Fokozza az elkötelezettséget és az együttműködést.
+type: docs
 weight: 12
 url: /hu/net/slide-comments-manipulation/add-parent-comments/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Interaktív funkciókkal szeretné bővíteni PowerPoint-prezentációit? Az Aspose.Slides for .NET lehetővé teszi megjegyzések és válaszok beillesztését, így dinamikus és vonzó élményt nyújt a közönség számára. Ebben a lépésenkénti oktatóanyagban bemutatjuk, hogyan adhat hozzá szülői megjegyzéseket a diákhoz az Aspose.Slides for .NET segítségével. Merüljünk el, és fedezzük fel ezt az izgalmas funkciót.
 
@@ -164,9 +160,3 @@ Az Aspose.Slides for .NET a PowerPoint verziók széles skálájával való egy�
 
 ### Rendelkezésre állnak-e licencelési lehetőségek az Aspose.Slides for .NET számára?
  Igen, megtekintheti a licencelési lehetőségeket, beleértve az ideiglenes licenceket is, az Aspose webhelyén[itt](https://purchase.aspose.com/buy) vagy próbálja ki az ingyenes próbaverziót[itt](https://releases.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: So sánh các slide trong bản trình bày
 linktitle: So sánh các slide trong bản trình bày
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách so sánh các trang trình bày trong bản trình bày bằng Aspose.Slides for .NET. Hướng dẫn từng bước với mã nguồn để so sánh chính xác.
+type: docs
 weight: 12
 url: /vi/net/chart-creation-and-customization/check-slides-comparison/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu về So sánh các slide trong bản trình bày
 
@@ -147,9 +143,3 @@ Bạn có thể xuất báo cáo so sánh sang các định dạng như PDF, DOC
 ### Có phương pháp hay nhất nào để tối ưu hóa hiệu suất so sánh bản trình bày không?
 
 Có, việc triển khai các thuật toán hiệu quả và quản lý mức sử dụng bộ nhớ là chìa khóa để tối ưu hóa hiệu suất so sánh bản trình bày.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

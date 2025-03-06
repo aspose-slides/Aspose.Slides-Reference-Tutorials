@@ -3,14 +3,10 @@ title: Validera diagramlayout tillagd i Java Slides
 linktitle: Validera diagramlayout tillagd i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Validering av masterdiagramlayout i PowerPoint med Aspose.Slides för Java. Lär dig att manipulera diagram programmatiskt för fantastiska presentationer.
+type: docs
 weight: 10
 url: /sv/java/data-manipulation/validate-chart-layout-added-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion till validering av diagramlayout i Aspose.Slides för Java
 
@@ -101,10 +97,3 @@ Ja, du kan anpassa diagramdata genom att lägga till och ändra dataserier, kate
 ### Vad händer om jag vill ändra andra diagramegenskaper?
 
 Du kan komma åt olika diagramegenskaper och anpassa dem efter dina krav. Utforska Aspose.Slides-dokumentationen för omfattande information om sjökortsmanipulation.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

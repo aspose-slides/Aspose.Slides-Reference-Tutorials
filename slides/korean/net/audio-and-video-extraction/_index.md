@@ -3,14 +3,10 @@ title: 오디오 및 비디오 추출
 linktitle: 오디오 및 비디오 추출
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET 애플리케이션의 오디오 및 비디오 추출에 대한 포괄적인 Aspose.Slides 튜토리얼을 살펴보세요. PowerPoint 프레젠테이션에서 멀티미디어 요소를 프로그래밍 방식으로 추출하고 조작하는 방법을 알아보세요.
+type: docs
 weight: 15
 url: /ko/net/audio-and-video-extraction/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 소개:
 
@@ -35,9 +31,3 @@ Aspose.Slides for .NET을 사용하여 슬라이드에서 오디오 및 비디�
 .NET용 Aspose.Slides를 사용하여 PowerPoint 타임라인에서 오디오를 추출하는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다.
 ### [슬라이드에서 비디오 추출](./extract-video/)
 .NET용 Aspose.Slides를 사용하여 PowerPoint 슬라이드에서 마스터 비디오를 추출합니다. 코드 예제가 포함된 가이드를 따르세요.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

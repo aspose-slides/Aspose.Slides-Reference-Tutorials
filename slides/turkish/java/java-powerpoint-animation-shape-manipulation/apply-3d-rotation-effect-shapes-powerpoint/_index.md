@@ -3,14 +3,10 @@ title: PowerPoint'teki Şekillere 3B Döndürme Efekti Uygulayın
 linktitle: PowerPoint'teki Şekillere 3B Döndürme Efekti Uygulayın
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Bu kapsamlı, adım adım eğitimle Aspose.Slides for Java kullanarak PowerPoint'teki şekillere 3D döndürme efektlerini nasıl uygulayacağınızı öğrenin.
+type: docs
 weight: 12
 url: /tr/java/java-powerpoint-animation-shape-manipulation/apply-3d-rotation-effect-shapes-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 PowerPoint sunumlarınızı bir sonraki seviyeye taşımaya hazır mısınız? 3D döndürme efektleri eklemek slaytlarınızı daha dinamik ve ilgi çekici hale getirebilir. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu adım adım eğitim size Aspose.Slides for Java kullanarak PowerPoint'teki şekillere 3D döndürme efektlerini nasıl uygulayacağınızı gösterecek. Haydi hemen dalalım!
 ## Önkoşullar
@@ -88,9 +84,3 @@ Dikdörtgenler, çizgiler, elipsler ve özel şekiller gibi çeşitli şekillere
  Ziyaret edebilirsiniz[destek Forumu](https://forum.aspose.com/c/slides/11) Yardım için ve herhangi bir konuyu tartışmak için.
 ### Aspose.Slides for Java'yı ticari projelerde kullanabilir miyim?
  Evet, ancak bir lisans satın almanız gerekiyor. Şu adresten bir tane satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Validasi Tata Letak Bagan yang Ditambahkan di Slide Java
 linktitle: Validasi Tata Letak Bagan yang Ditambahkan di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Validasi tata letak bagan utama di PowerPoint dengan Aspose.Slides untuk Java. Belajar memanipulasi bagan secara terprogram untuk presentasi yang menakjubkan.
+type: docs
 weight: 10
 url: /id/java/data-manipulation/validate-chart-layout-added-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Pengantar Memvalidasi Tata Letak Bagan di Aspose.Slides untuk Java
 
@@ -101,10 +97,3 @@ Ya, Anda dapat menyesuaikan data bagan dengan menambahkan dan mengubah seri data
 ### Bagaimana jika saya ingin mengubah properti grafik lainnya?
 
 Anda dapat mengakses berbagai properti bagan dan menyesuaikannya sesuai kebutuhan Anda. Jelajahi dokumentasi Aspose.Slides untuk informasi komprehensif tentang manipulasi grafik.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

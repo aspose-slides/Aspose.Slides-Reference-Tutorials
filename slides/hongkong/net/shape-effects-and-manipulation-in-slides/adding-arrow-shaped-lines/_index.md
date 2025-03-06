@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 將箭頭形狀的線條新增至簡報投影片
 linktitle: 使用 Aspose.Slides 將箭頭形狀的線條新增至簡報投影片
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 透過箭頭形狀的線條來增強您的簡報。按照我們的逐步指南獲得動態且引人入勝的幻燈片體驗。
+type: docs
 weight: 12
 url: /zh-hant/net/shape-effects-and-manipulation-in-slides/adding-arrow-shaped-lines/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 在動態簡報的世界中，自訂和增強投影片的能力至關重要。 Aspose.Slides for .NET 使開發人員能夠在簡報投影片中新增具有視覺吸引力的元素，例如箭頭線條。本逐步指南將引導您完成使用 Aspose.Slides for .NET 將箭頭形線合併到投影片中的過程。
 ## 先決條件
@@ -83,9 +79,3 @@ pres.Save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
 是的，您可以免費試用 Aspose.Slides。下載它[這裡](https://releases.aspose.com/).
 ### 我如何獲得 Aspose.Slides 的支持？
 參觀社區[論壇](https://forum.aspose.com/c/slides/11)如有任何幫助或疑問。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

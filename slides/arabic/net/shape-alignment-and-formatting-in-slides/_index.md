@@ -3,14 +3,10 @@ title: محاذاة الشكل والتنسيق في الشرائح
 linktitle: محاذاة الشكل والتنسيق في الشرائح
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: استكشف دروس Aspose.Slides الشاملة حول محاذاة الأشكال وتنسيقها في تطبيقات .NET. تعلم كيفية محاذاة الأشكال وتنسيقها بسهولة، مما يؤدي إلى تحسين عروض الشرائح التقديمية بدقة.
+type: docs
 weight: 14
 url: /ar/net/shape-alignment-and-formatting-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة
 
@@ -48,9 +44,3 @@ url: /ar/net/shape-alignment-and-formatting-in-slides/
 تعرف على كيفية إضافة إزاحة امتداد إلى اليسار لإطار صورة في PowerPoint باستخدام Aspose.Slides for .NET. دليل خطوة بخطوة مع مثال التعليمات البرمجية المصدر الكامل.
 ### [استبدال عنوان الصورة لإطار كائن OLE في شرائح العرض التقديمي](./substituting-picture-title-ole-object-frame/)
 تعرف على كيفية استبدال عناوين الصور لإطارات كائنات OLE في شرائح العرض التقديمي باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة مع كود المصدر الكامل.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

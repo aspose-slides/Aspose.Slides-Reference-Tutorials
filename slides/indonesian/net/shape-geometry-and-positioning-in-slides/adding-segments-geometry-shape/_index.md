@@ -3,14 +3,10 @@ title: Menguasai Visual - Menambahkan Segmen dengan Aspose.Slides di .NET
 linktitle: Menambahkan Segmen ke Bentuk Geometri dalam Presentasi dengan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara meningkatkan aplikasi .NET Anda dengan Aspose.Slides. Tutorial ini memandu Anda dalam menambahkan segmen ke bentuk geometri untuk presentasi yang menawan.
+type: docs
 weight: 13
 url: /id/net/shape-geometry-and-positioning-in-slides/adding-segments-geometry-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam dunia pengembangan .NET, membuat presentasi yang menarik secara visual merupakan kebutuhan umum. Aspose.Slides for .NET adalah pustaka canggih yang memfasilitasi integrasi kemampuan pembuatan presentasi yang kuat ke dalam aplikasi .NET Anda. Tutorial ini berfokus pada aspek spesifik desain presentasi – menambahkan segmen ke bentuk geometri.
 ## Prasyarat
@@ -76,9 +72,3 @@ Ya, diperlukan lisensi yang valid. Anda dapat memperoleh lisensi sementara untuk
  Jelajahi[dokumentasi](https://reference.aspose.com/slides/net/) untuk panduan dan contoh yang komprehensif.
 ### Bisakah saya mencoba Aspose.Slides secara gratis sebelum membeli?
  Ya, Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

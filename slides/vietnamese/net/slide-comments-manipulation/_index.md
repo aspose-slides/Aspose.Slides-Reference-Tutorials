@@ -3,14 +3,10 @@ title: Thao tác bình luận slide
 linktitle: Thao tác bình luận slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Nâng cao kỹ năng thao tác slide của bạn với các hướng dẫn Aspose.Slides về thao tác nhận xét slide. Tìm hiểu cách thêm, chỉnh sửa và quản lý nhận xét theo chương trình trong bản trình bày PowerPoint bằng .NET.
+type: docs
 weight: 12
 url: /vi/net/slide-comments-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu
 
@@ -31,9 +27,3 @@ Tìm hiểu cách cải thiện bản trình bày của bạn bằng các yếu 
 Thêm chiều sâu và tính tương tác cho bản trình bày của bạn bằng API Aspose.Slides. Tìm hiểu cách dễ dàng tích hợp nhận xét vào trang trình bày của bạn bằng .NET. Tăng cường sự tương tác và thu hút khán giả của bạn.
 ### [Quản lý bình luận hiện đại](./modern-comments/)
 Nâng cao quy trình cộng tác và phản hồi bằng tính năng quản lý nhận xét hiện đại bằng Aspose.Slides. Tìm hiểu cách hợp lý hóa giao tiếp trong bài thuyết trình của bạn và tối đa hóa năng suất.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

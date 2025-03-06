@@ -3,14 +3,10 @@ title: Bemästra Shape Alignment med Aspose.Slides för .NET
 linktitle: Justera former i presentationsbilder med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig att enkelt anpassa former i presentationsbilder med Aspose.Slides för .NET. Förbättra visuella tilltalande med exakt justering. Ladda ner nu!
+type: docs
 weight: 10
 url: /sv/net/shape-alignment-and-formatting-in-slides/aligning-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 Att skapa visuellt tilltalande presentationsbilder kräver ofta exakt justering av former. Aspose.Slides för .NET tillhandahåller en kraftfull lösning för att uppnå detta med lätthet. I den här självstudien kommer vi att utforska hur man justerar former i presentationsbilder med Aspose.Slides för .NET.
 ## Förutsättningar
@@ -86,9 +82,3 @@ Absolut! Aspose.Slides tillhandahåller metoder för att fördela former jämnt,
 Aspose.Slides för .NET är främst designad för Windows-applikationer, men Aspose tillhandahåller bibliotek för Java och andra plattformar också.
 ### Hur kan jag få ytterligare hjälp eller stöd?
  Besök[Aspose.Slides Forum](https://forum.aspose.com/c/slides/11) för samhällsstöd och diskussioner.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Μετατροπή Παρουσίασης σε Responsive HTML σε Java 
 linktitle: Μετατροπή Παρουσίασης σε Responsive HTML σε Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να μετατρέπετε παρουσιάσεις σε αποκριτικό HTML σε Java Slides χωρίς κόπο με το Aspose.Slides. Κάντε το περιεχόμενό σας προσβάσιμο σε οποιαδήποτε συσκευή.
+type: docs
 weight: 18
 url: /el/java/presentation-conversion/convert-presentation-responsive-html-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στη Μετατροπή Παρουσίασης σε Responsive HTML σε Java Slides
 
@@ -112,9 +108,3 @@ finally
 ### Μπορώ να μετατρέψω παρουσιάσεις και σε άλλες μορφές;
 
 Ναι, το Aspose.Slides υποστηρίζει ένα ευρύ φάσμα μορφών εξόδου, συμπεριλαμβανομένων των PDF, εικόνων και άλλων. Μπορείτε να εξερευνήσετε την τεκμηρίωση για πρόσθετες επιλογές μετατροπής.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

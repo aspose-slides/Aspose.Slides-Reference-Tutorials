@@ -3,14 +3,10 @@ title: إزالة الملاحظات من كافة الشرائح
 linktitle: إزالة الملاحظات من كافة الشرائح
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إزالة الملاحظات من شرائح PowerPoint باستخدام Aspose.Slides لـ .NET. اجعل عروضك التقديمية أكثر وضوحًا واحترافية.
+type: docs
 weight: 13
 url: /ar/net/notes-slide-manipulation/remove-notes-from-all-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 إذا كنت مطور .NET تعمل مع عروض PowerPoint التقديمية، فقد تواجه الحاجة إلى إزالة الملاحظات من جميع الشرائح في العرض التقديمي الخاص بك. يمكن أن يكون هذا مفيدًا عندما تريد تنظيف الشرائح الخاصة بك وإزالة أي معلومات إضافية غير مخصصة لجمهورك. في هذا الدليل التفصيلي خطوة بخطوة، سنرشدك خلال عملية استخدام Aspose.Slides لـ .NET لتحقيق هذه المهمة بكفاءة.
 
@@ -101,9 +97,3 @@ presentation.Save(dataDir + "PresentationWithoutNotes.pptx", SaveFormat.Pptx);
 ### 5. هل يدعم Aspose.Slides for .NET أحدث تنسيقات PowerPoint؟
 
 نعم، يدعم Aspose.Slides for .NET نطاقًا واسعًا من تنسيقات PowerPoint، بما في ذلك أحدث الإصدارات. يمكنك الرجوع إلى الوثائق للحصول على التفاصيل.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Tworzenie niestandardowej geometrii w C# za pomocą Aspose.Slides dla .NE
 linktitle: Tworzenie niestandardowej geometrii w kształcie geometrii przy użyciu Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak tworzyć niestandardową geometrię w Aspose.Slides dla .NET. Podnieś poziom swoich prezentacji dzięki unikalnym kształtom. Przewodnik krok po kroku dla programistów C#.
+type: docs
 weight: 15
 url: /pl/net/shape-geometry-and-positioning-in-slides/creating-custom-geometry/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 dynamicznym świecie prezentacji dodanie unikalnych kształtów i geometrii może podnieść poziom treści, czyniąc ją bardziej wciągającą i atrakcyjną wizualnie. Aspose.Slides dla .NET zapewnia potężne rozwiązanie do tworzenia niestandardowych geometrii w kształtach, pozwalając uwolnić się od konwencjonalnych projektów. Ten samouczek poprowadzi Cię przez proces tworzenia niestandardowej geometrii w GeometryShape przy użyciu Aspose.Slides dla .NET.
 ## Warunki wstępne
@@ -98,9 +94,3 @@ Tak, Aspose.Slides obsługuje różne języki programowania, ale ten samouczek k
  Szukaj pomocy i nawiązuj kontakt ze społecznością na stronie[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### 5. Gdzie mogę kupić Aspose.Slides dla .NET?
  Możesz kupić Aspose.Slides dla .NET[Tutaj](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: जावा स्लाइड्स को एनीमेशन मे
 linktitle: जावा स्लाइड्स को एनीमेशन में बदलें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides के साथ जावा में PowerPoint प्रस्तुतियों को एनिमेशन में बदलने का तरीका जानें। गतिशील दृश्यों के साथ अपने दर्शकों को आकर्षित करें।
+type: docs
 weight: 21
 url: /hi/java/presentation-conversion/convert-to-animation-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 # Aspose.Slides for Java के साथ जावा स्लाइड्स को एनिमेशन में बदलने का परिचय
 
@@ -134,10 +130,3 @@ try {
 ### मैं Aspose.Slides for Java के लिए और अधिक संसाधन और दस्तावेज़ कहां पा सकता हूं?
 
  आप Aspose.Slides for Java के लिए विस्तृत दस्तावेज़ और संसाधन यहाँ पा सकते हैं[Aspose.Slides for Java API संदर्भ](https://reference.aspose.com/slides/java/) पृष्ठ।
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

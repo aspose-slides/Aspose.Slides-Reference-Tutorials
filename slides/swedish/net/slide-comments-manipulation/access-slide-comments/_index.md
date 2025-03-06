@@ -3,14 +3,10 @@ title: Få åtkomst till bildkommentarer med Aspose.Slides
 linktitle: Öppna bildkommentarer
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du får åtkomst till bildkommentarer i PowerPoint-presentationer med Aspose.Slides för .NET. Förbättra samarbete och arbetsflöde utan ansträngning.
+type: docs
 weight: 11
 url: /sv/net/slide-comments-manipulation/access-slide-comments/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 I en värld av dynamiska och interaktiva presentationer kan hantering av kommentarer i dina bilder vara en avgörande del av samarbetsprocessen. Aspose.Slides för .NET ger en robust och mångsidig lösning för att komma åt och manipulera bildkommentarer, vilket förbättrar ditt presentationsarbetsflöde. I den här steg-för-steg-guiden kommer vi att fördjupa oss i processen för att komma åt bildkommentarer med Aspose.Slides för .NET.
 
@@ -116,9 +112,3 @@ Ja, Aspose.Slides för .NET kan användas i olika .NET-applikationer, inklusive 
 
 ### Kan jag köpa en licens för Aspose.Slides för .NET?
  Ja, du kan köpa en licens för Aspose.Slides för .NET från[den här länken](https://purchase.aspose.com/buy) för att låsa upp bibliotekets fulla potential i dina projekt.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

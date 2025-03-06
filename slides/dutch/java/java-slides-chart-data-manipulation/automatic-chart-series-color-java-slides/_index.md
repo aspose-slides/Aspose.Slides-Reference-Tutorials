@@ -3,14 +3,10 @@ title: Automatische grafiekreekskleur in Java-dia's
 linktitle: Automatische grafiekreekskleur in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u dynamische grafieken met automatische reekskleuren kunt maken in PowerPoint-presentaties met Aspose.Slides voor Java. Verbeter moeiteloos uw datavisualisaties.
+type: docs
 weight: 14
 url: /nl/java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot automatische kleurreeksen in Aspose.Slides voor Java
 
@@ -194,9 +190,3 @@ Ja, u kunt het diagram, de reeksen en de labels indien nodig verder opmaken. Asp
 ### Waar kan ik meer informatie vinden over het werken met Aspose.Slides voor Java?
 
  Voor meer informatie en gedetailleerde documentatie over Aspose.Slides voor Java kunt u de referentiedocumentatie raadplegen[hier](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

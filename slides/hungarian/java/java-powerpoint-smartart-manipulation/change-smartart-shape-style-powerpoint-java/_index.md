@@ -3,14 +3,10 @@ title: A SmartArt-alakstílus módosítása a PowerPointban Java segítségével
 linktitle: A SmartArt-alakstílus módosítása a PowerPointban Java segítségével
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan módosíthatja a SmartArt-stílusokat PowerPoint-prezentációkban Java használatával az Aspose.Slides for Java segítségével. Fokozza fel prezentációit.
+type: docs
 weight: 23
 url: /hu/java/java-powerpoint-smartart-manipulation/change-smartart-shape-style-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Java fejlesztés világában gyakran előírás az erőteljes prezentációk létrehozása. Legyen szó üzleti prezentációkról, oktatási célokról vagy egyszerűen információmegosztásról, a PowerPoint prezentációk gyakori médiumok. Előfordulhat azonban, hogy a PowerPoint által biztosított alapértelmezett stílusok és formátumok nem felelnek meg teljesen az igényeinknek. Itt jön képbe az Aspose.Slides for Java.
 Az Aspose.Slides for Java egy robusztus könyvtár, amely lehetővé teszi a Java fejlesztők számára, hogy programozottan dolgozzanak PowerPoint prezentációkkal. A funkciók széles skáláját kínálja, beleértve a formák, stílusok, animációk és még sok más manipulálásának lehetőségét. Ebben az oktatóanyagban egy konkrét feladatra összpontosítunk: a SmartArt alakstílus megváltoztatására a PowerPoint prezentációkban Java használatával.
@@ -73,9 +69,3 @@ Igen, az Aspose.Slides for Java zökkenőmentesen integrálható más Java-köny
  Igen, vásárolhat ideiglenes licencet az Aspose.Slides for Java számára a következőtől:[itt](https://purchase.aspose.com/temporary-license/).
 ### Hol találom az Aspose.Slides for Java részletes dokumentációját?
  Az Aspose.Slides for Java részletes dokumentációja megtalálható[itt](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

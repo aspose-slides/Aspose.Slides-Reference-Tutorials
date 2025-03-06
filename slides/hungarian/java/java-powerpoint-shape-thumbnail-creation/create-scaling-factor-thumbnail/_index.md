@@ -3,14 +3,10 @@ title: Létrehozza a méretezési tényező bélyegképét
 linktitle: Létrehozza a méretezési tényező bélyegképét
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre méretezési tényező bélyegképeket Java nyelven az Aspose.Slides for Java használatával. Könnyen követhető útmutató lépésről lépésre.
+type: docs
 weight: 12
 url: /hu/java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thumbnail/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük a méretezési tényező bélyegképének létrehozásának folyamatán az Aspose.Slides for Java használatával. Kövesse ezeket az utasításokat lépésről lépésre a kívánt eredmény eléréséhez.
 ## Előfeltételek
@@ -70,9 +66,3 @@ Igen, az Aspose.Slides for Java használható bármely Java Integrated Developme
  Megvásárolhatja az Aspose.Slides for Java alkalmazást a[vásárlási oldal](https://purchase.aspose.com/buy).
 ### Szükségem van ideiglenes licencre az Aspose.Slides for Java használatához?
  Igen, ideiglenes engedélyt kaphat a[ideiglenes licenc oldal](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

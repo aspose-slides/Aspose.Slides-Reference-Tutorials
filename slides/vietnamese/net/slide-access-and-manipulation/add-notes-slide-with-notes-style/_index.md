@@ -3,14 +3,10 @@ title: Thêm định dạng ghi chú sành điệu với Aspose.Slides cho .NET
 linktitle: Thêm ghi chú vào slide với định dạng ghi chú sành điệu
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách thêm định dạng ghi chú đầy phong cách vào bản trình bày PowerPoint của bạn bằng Aspose.Slides cho .NET. Cải thiện trang trình bày của bạn bằng các ký hiệu và dấu đầu dòng.
+type: docs
 weight: 14
 url: /vi/net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Trong thế giới thuyết trình, vấn đề không chỉ là nội dung bạn truyền tải mà còn là cách bạn trình bày nội dung đó. Định dạng ghi chú đầy phong cách có thể tạo ra sự khác biệt đáng kể trong tác động của bản trình bày của bạn. Với Aspose.Slides cho .NET, bạn có thể dễ dàng cải thiện bản trình bày PowerPoint của mình bằng cách thêm các ghi chú đầy phong cách bằng các dấu đầu dòng và ký hiệu. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình thêm định dạng ghi chú đầy phong cách vào các trang chiếu PowerPoint của bạn.
 
@@ -113,9 +109,3 @@ Có, bạn có thể xin giấy phép tạm thời cho mục đích thử nghi�
 
 ### Có diễn đàn cộng đồng hoặc hỗ trợ nào dành cho Aspose.Slides cho .NET không?
  Có, bạn có thể tìm kiếm trợ giúp và tham gia thảo luận trên diễn đàn cộng đồng Aspose.Slides for .NET[đây](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

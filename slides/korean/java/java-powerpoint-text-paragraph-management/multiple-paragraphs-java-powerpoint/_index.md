@@ -3,14 +3,10 @@ title: Java PowerPoint의 여러 단락
 linktitle: Java PowerPoint의 여러 단락
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java PowerPoint 프레젠테이션에서 여러 단락을 만드는 방법을 알아보세요. 코드 예제가 포함된 완전한 가이드입니다.
+type: docs
 weight: 13
 url: /ko/java/java-powerpoint-text-paragraph-management/multiple-paragraphs-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 Java에서 여러 단락으로 슬라이드를 만드는 방법을 살펴보겠습니다. Aspose.Slides는 개발자가 PowerPoint 프레젠테이션을 프로그래밍 방식으로 조작할 수 있도록 하는 강력한 라이브러리로, 슬라이드 생성 및 서식 지정과 관련된 작업을 자동화하는 데 이상적입니다.
 ## 전제 조건
@@ -117,9 +113,3 @@ Aspose.Slides는 다양한 PowerPoint 형식을 지원하여 다양한 버전 �
  예, 무료 평가판을 다운로드할 수 있습니다[여기](https://releases.aspose.com/).
 ### 필요한 경우 기술 지원을 어떻게 받을 수 있나요?
  Aspose.Slides 커뮤니티에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

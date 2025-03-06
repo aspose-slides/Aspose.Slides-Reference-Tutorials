@@ -3,14 +3,10 @@ title: Σύνδεση βίντεο μέσω ActiveX Control στο PowerPoint
 linktitle: Σύνδεση βίντεο μέσω ActiveX Control
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να συνδέετε βίντεο με διαφάνειες του PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Αυτός ο οδηγός βήμα προς βήμα περιλαμβάνει τον πηγαίο κώδικα και συμβουλές για τη δημιουργία διαδραστικών και ελκυστικών παρουσιάσεων με συνδεδεμένα βίντεο.
+type: docs
 weight: 12
 url: /el/net/slide-view-and-layout-manipulation/linking-video-activex-control/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 Σύνδεση βίντεο μέσω ActiveX Control σε μια παρουσίαση χρησιμοποιώντας Aspose.Slides για .NET
 
 Στο Aspose.Slides για .NET, μπορείτε να συνδέσετε μέσω προγραμματισμού ένα βίντεο σε μια διαφάνεια παρουσίασης χρησιμοποιώντας το στοιχείο ελέγχου ActiveX. Αυτό σας επιτρέπει να δημιουργείτε διαδραστικές παρουσιάσεις όπου το περιεχόμενο βίντεο μπορεί να αναπαραχθεί απευθείας μέσα στη διαφάνεια. Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία σύνδεσης ενός βίντεο με μια διαφάνεια παρουσίασης χρησιμοποιώντας το Aspose.Slides για .NET.
@@ -84,9 +80,3 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 Ακολουθώντας τα βήματα που περιγράφονται σε αυτόν τον οδηγό, μπορείτε εύκολα να συνδέσετε ένα βίντεο μέσω ελέγχου ActiveX σε μια παρουσίαση χρησιμοποιώντας το Aspose.Slides για .NET. Αυτή η δυνατότητα σάς δίνει τη δυνατότητα να δημιουργείτε ελκυστικές και διαδραστικές παρουσιάσεις που ενσωματώνουν περιεχόμενο πολυμέσων απρόσκοπτα.
 
  Για περισσότερες λεπτομέρειες και σύνθετες επιλογές, μπορείτε να ανατρέξετε στο[Aspose.Slides για τεκμηρίωση .NET](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Opzioni di seconda trama per i grafici nelle diapositive Java
 linktitle: Opzioni di seconda trama per i grafici nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come personalizzare i grafici in Diapositive Java utilizzando Aspose.Slides per Java. Esplora le opzioni della seconda trama e migliora le tue presentazioni.
+type: docs
 weight: 12
 url: /it/java/chart-creation/second-plot-options-charts-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduzione alle opzioni del secondo grafico per i grafici nelle diapositive Java
 
@@ -97,9 +93,3 @@ Per modificare la dimensione della seconda torta in un grafico a torta, utilizza
 ### Come posso impostare la posizione della divisione in un grafico a torta?
 
  È possibile impostare la posizione della suddivisione in un grafico a torta utilizzando il comando`setPieSplitPosition` metodo. Regolare il valore per specificare la posizione desiderata.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

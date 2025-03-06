@@ -3,14 +3,10 @@ title: Diagrammerstellung und -anpassung in Aspose.Slides
 linktitle: Diagrammerstellung und -anpassung in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Diagramme in PowerPoint erstellen und anpassen. Schritt-für-Schritt-Anleitung zum Erstellen dynamischer Präsentationen.
+type: docs
 weight: 10
 url: /de/net/chart-creation-and-customization/chart-creation-and-customization/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung
 
@@ -114,9 +110,3 @@ Ja, Sie können verschiedene Diagrammtypen erstellen, darunter Balkendiagramme, 
 
 ### Kann ich eine temporäre Lizenz für Aspose.Slides für .NET erwerben?
 Ja, Sie können eine temporäre Lizenz von der Aspose-Website erhalten[Hier](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: เพิ่มคุณสมบัติเอกสารที่ก�
 linktitle: เพิ่มคุณสมบัติเอกสารที่กำหนดเองใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีปรับปรุงงานนำเสนอ PowerPoint ด้วยคุณสมบัติเอกสารที่กำหนดเองใน Java Slides คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดโดยใช้ Aspose.Slides สำหรับ Java
+type: docs
 weight: 13
 url: /th/java/presentation-properties/add-custom-document-properties-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการเพิ่มคุณสมบัติเอกสารที่กำหนดเองใน Java Slides
 
@@ -141,9 +137,3 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 รหัสนี้จะแสดงชื่อและค่าของคุณสมบัติที่กำหนดเองทั้งหมดในงานนำเสนอ
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: قم بالوصول إلى تعليقات الشرائح باستخدام
 linktitle: الوصول إلى تعليقات الشرائح
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية الوصول إلى تعليقات الشرائح في عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. تعزيز التعاون وسير العمل دون عناء.
+type: docs
 weight: 11
 url: /ar/net/slide-comments-manipulation/access-slide-comments/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 في عالم العروض التقديمية الديناميكية والتفاعلية، يمكن أن تكون إدارة التعليقات داخل الشرائح الخاصة بك جزءًا مهمًا من عملية التعاون. يوفر Aspose.Slides for .NET حلاً قويًا ومتعدد الاستخدامات للوصول إلى تعليقات الشرائح ومعالجتها، مما يعزز سير عمل العرض التقديمي الخاص بك. في هذا الدليل التفصيلي، سنتعمق في عملية الوصول إلى تعليقات الشرائح باستخدام Aspose.Slides for .NET.
 
@@ -116,9 +112,3 @@ Aspose.Slides for .NET هي مكتبة قوية تتيح للمطورين الع
 
 ### هل يمكنني شراء ترخيص Aspose.Slides لـ .NET؟
  نعم، يمكنك شراء ترخيص Aspose.Slides لـ .NET من[هذا الرابط](https://purchase.aspose.com/buy) لإطلاق الإمكانات الكاملة للمكتبة في مشاريعك.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

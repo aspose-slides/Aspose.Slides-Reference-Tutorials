@@ -3,14 +3,10 @@ title: Crea sfumature straordinarie in PowerPoint con Aspose.Slides
 linktitle: Riempimento di forme con gradiente nelle diapositive della presentazione utilizzando Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Migliora le tue presentazioni con Aspose.Slides per .NET! Impara il processo passo passo per riempire le forme con le sfumature. Scarica la prova gratis adesso!
+type: docs
 weight: 21
 url: /it/net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## introduzione
 Creare diapositive di presentazione visivamente accattivanti è essenziale per catturare e mantenere l'attenzione del pubblico. In questo tutorial ti guideremo attraverso il processo di miglioramento delle tue diapositive riempiendo una forma ellittica con una sfumatura utilizzando Aspose.Slides per .NET.
 ## Prerequisiti
@@ -77,9 +73,3 @@ R: Certamente! Aspose.Slides per .NET supporta il riempimento sfumato per varie 
  R: Cerca assistenza e interagisci con la comunità sul[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### D: Posso acquistare una licenza temporanea per Aspose.Slides per .NET?
  R: Certamente puoi ottenere una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Κλωνοποίηση Διαφάνεια σε άλλη παρουσία�
 linktitle: Κλωνοποίηση Διαφάνεια σε άλλη παρουσίαση με τον Master
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να κάνετε κλωνοποίηση διαφανειών μεταξύ παρουσιάσεων σε Java χρησιμοποιώντας το Aspose.Slides. Βήμα προς βήμα μάθημα για τη διατήρηση των κύριων διαφανειών.
+type: docs
 weight: 14
 url: /el/java/java-powerpoint-slide-cloning-techniques/clone-slide-another-presentation-master-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Το Aspose.Slides για Java είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να δημιουργούν, να τροποποιούν και να χειρίζονται παρουσιάσεις PowerPoint μέσω προγραμματισμού. Αυτό το άρθρο παρέχει έναν περιεκτικό, βήμα προς βήμα εκμάθηση σχετικά με τον τρόπο κλωνοποίησης μιας διαφάνειας από μια παρουσίαση σε άλλη, διατηρώντας παράλληλα την κύρια διαφάνειά της, χρησιμοποιώντας το Aspose.Slides για Java.
 ## Προαπαιτούμενα
@@ -87,9 +83,3 @@ if (destPres != null) destPres.dispose();
  Μπορείτε να αποκτήσετε μια προσωρινή άδεια από το[Σελίδα αγοράς Aspose](https://purchase.aspose.com/temporary-license/).
 ### Πού μπορώ να βρω περισσότερα παραδείγματα και τεκμηρίωση;  
  Επισκέψου το[Aspose.Slides για τεκμηρίωση Java](https://reference.aspose.com/slides/java/) για περισσότερα παραδείγματα και λεπτομερείς πληροφορίες.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

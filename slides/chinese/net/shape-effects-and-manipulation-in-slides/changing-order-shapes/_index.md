@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides for .NET 重塑演示幻灯片
 linktitle: 使用 Aspose.Slides 更改演示幻灯片中形状的顺序
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 重塑演示幻灯片。按照此分步指南重新排序形状并增强视觉吸引力。
+type: docs
 weight: 26
 url: /zh/net/shape-effects-and-manipulation-in-slides/changing-order-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 创建具有视觉吸引力的演示幻灯片是有效沟通的关键方面。Aspose.Slides for .NET 使开发人员能够以编程方式操作幻灯片，提供广泛的功能。在本教程中，我们将深入研究使用 Aspose.Slides for .NET 更改演示幻灯片中形状顺序的过程。
 ## 先决条件
@@ -74,9 +70,3 @@ Aspose.Slides for .NET 简化了以编程方式操作演示幻灯片的任务。
 答：访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)获得支持并参与社区活动。
 ### 问：如何获取 Aspose.Slides for .NET 的临时许可证？
 答：您可以获得[临时执照](https://purchase.aspose.com/temporary-license/)用于评估目的。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

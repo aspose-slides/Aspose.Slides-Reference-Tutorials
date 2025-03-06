@@ -3,14 +3,10 @@ title: Современное управление комментариями с
 linktitle: Современное управление комментариями
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как управлять современными комментариями в презентациях PowerPoint с помощью Aspose.Slides для .NET. Сотрудничайте без усилий!
+type: docs
 weight: 14
 url: /ru/net/slide-comments-manipulation/modern-comments/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Aspose.Slides for .NET — это мощная библиотека, которая позволяет разработчикам программно работать с презентациями PowerPoint. Одной из предлагаемых функций является современное управление комментариями, которое позволяет вам легко добавлять, изменять комментарии и взаимодействовать с ними в ваших презентациях. В этом пошаговом руководстве мы покажем вам процесс управления современными комментариями с помощью Aspose.Slides для .NET.
 
@@ -113,9 +109,3 @@ Aspose.Slides для .NET предоставляет надежное решен
 ### 5. Могу ли я попробовать Aspose.Slides для .NET перед его покупкой?
 
  Конечно! Вы можете получить доступ к бесплатной пробной версии Aspose.Slides для .NET на сайте[ссылка на бесплатную пробную версию](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

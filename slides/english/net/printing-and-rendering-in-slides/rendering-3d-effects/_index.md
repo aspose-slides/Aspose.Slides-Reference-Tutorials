@@ -3,14 +3,10 @@ title: Mastering 3D Effects - Aspose.Slides Tutorial
 linktitle: Rendering 3D Effects in Presentation Slides with Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn to add captivating 3D effects to your presentation slides with Aspose.Slides for .NET. Follow our step-by-step guide for stunning visuals!
+type: docs
 weight: 13
 url: /net/printing-and-rendering-in-slides/rendering-3d-effects/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Creating visually appealing presentation slides is essential for effective communication. Aspose.Slides for .NET offers powerful features to enhance your slides, including the ability to render 3D effects. In this tutorial, we'll explore how to leverage Aspose.Slides to add stunning 3D effects to your presentation slides effortlessly.
 ## Prerequisites
@@ -81,10 +77,3 @@ Explore the Aspose.Slides documentation [here](https://reference.aspose.com/slid
 Yes, you can download a free trial version of Aspose.Slides [here](https://releases.aspose.com/).
 ### How can I get support if I encounter issues?
 Visit the Aspose.Slides forum [here](https://forum.aspose.com/c/slides/11) for community support and assistance.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

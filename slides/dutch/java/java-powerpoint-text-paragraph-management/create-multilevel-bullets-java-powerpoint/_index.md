@@ -3,14 +3,10 @@ title: Maak opsommingstekens op meerdere niveaus in Java PowerPoint
 linktitle: Maak opsommingstekens op meerdere niveaus in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u opsommingstekens met meerdere niveaus maakt in PowerPoint met behulp van Aspose.Slides voor Java. Stapsgewijze handleiding met codevoorbeelden en veelgestelde vragen.
+type: docs
 weight: 14
 url: /nl/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u opsommingstekens met meerdere niveaus in PowerPoint-presentaties kunt maken met Aspose.Slides voor Java. Het toevoegen van opsommingstekens is een algemene vereiste voor het creëren van georganiseerde en visueel aantrekkelijke inhoud in presentaties. We doorlopen het proces stap voor stap, zodat u aan het einde van deze handleiding in staat bent uw presentaties te verbeteren met gestructureerde opsommingen op meerdere niveaus.
 ## Vereisten
@@ -113,9 +109,3 @@ Aspose.Slides genereert presentaties die compatibel zijn met Microsoft PowerPoin
 Ja, Aspose.Slides biedt API's om het maken, wijzigen en manipuleren van PowerPoint-presentaties te automatiseren.
 ### Waar kan ik ondersteuning krijgen voor Aspose.Slides voor Java?
  U kunt ondersteuning krijgen van de Aspose.Slides-community en experts op[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

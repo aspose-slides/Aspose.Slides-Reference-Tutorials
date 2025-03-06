@@ -3,14 +3,10 @@ title: Java スライドでメモ付きで TIFF に変換する
 linktitle: Java スライドでメモ付きで TIFF に変換する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用すると、Java でスピーカー ノート付きの PowerPoint プレゼンテーションを TIFF 形式に簡単に変換できます。ソース コード付きのステップ バイ ステップ ガイドに従って、シームレスなドキュメント変換を実現してください。
+type: docs
 weight: 32
 url: /ja/java/presentation-conversion/convert-note-tiff-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java スライドでメモ付き TIFF に変換する方法の紹介
 
@@ -115,9 +111,3 @@ finally
 ### プロジェクトで Aspose.Slides for Java を使用する場合、ライセンスに関する考慮事項はありますか?
 
 はい、Aspose.Slides for Java を商用利用するには有効なライセンスが必要です。ライセンスの詳細については、Aspose の Web サイトをご覧ください。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

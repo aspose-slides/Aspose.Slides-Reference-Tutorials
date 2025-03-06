@@ -3,14 +3,10 @@ title: ضبط زوايا خط الرابط في PowerPoint باستخدام Aspo
 linktitle: ضبط زوايا خط الموصل في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية ضبط زوايا خط الموصل في شرائح PowerPoint باستخدام Aspose.Slides for .NET. قم بتحسين عروضك التقديمية بدقة وسهولة.
+type: docs
 weight: 28
 url: /ar/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 غالبًا ما يتضمن إنشاء شرائح عرض تقديمي جذابة بصريًا تعديلات دقيقة على خطوط الموصل. في هذا البرنامج التعليمي، سوف نستكشف كيفية ضبط زوايا خط الموصل في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET. Aspose.Slides هي مكتبة قوية تتيح للمطورين العمل مع ملفات PowerPoint برمجيًا، مما يوفر إمكانات واسعة لإنشاء العروض التقديمية وتعديلها ومعالجتها.
 ## المتطلبات الأساسية
@@ -91,9 +87,3 @@ public static double getDirection(float w, float h, bool flipH, bool flipV)
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### هل يوجد منتدى دعم لـ Aspose.Slides؟
  نعم، يمكنك زيارة منتدى الدعم[هنا](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

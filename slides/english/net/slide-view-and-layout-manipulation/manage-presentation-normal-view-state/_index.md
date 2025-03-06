@@ -3,14 +3,10 @@ title: Manage Presentation in Normal View State
 linktitle: Manage Presentation in Normal View State
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to manage presentations in normal view state using Aspose.Slides for .NET. Create, modify, and enhance presentations programmatically with step-by-step guidance and complete source code. 
+type: docs
 weight: 11
 url: /net/slide-view-and-layout-manipulation/manage-presentation-normal-view-state/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Whether you're crafting a dynamic sales pitch, an educational lecture, or an engaging webinar, presentations are a cornerstone of effective communication. Microsoft PowerPoint has long been the go-to software for creating stunning slideshows. However, when it comes to managing presentations programmatically, the Aspose.Slides for .NET library proves to be an invaluable tool. In this guide, we'll explore how to use Aspose.Slides for .NET to manage presentations in the normal view state, enabling you to create, modify, and enhance your presentations seamlessly.
 
@@ -125,9 +121,3 @@ You can access the comprehensive documentation for Aspose.Slides for .NET at the
 
 ## Conclusion
 In this guide, we've explored how to manage presentations in the normal view state using Aspose.Slides for .NET. With its robust features, you can create, modify, and enhance presentations programmatically, ensuring your content captivates your audience effectively. Whether you're a professional presenter or a developer working on presentation-related applications, Aspose.Slides for .NET is your gateway to seamless presentation management.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: إتقان بيانات أجهزة الإضاءة الفعالة باست
 linktitle: الحصول على بيانات تلاعب الضوء الفعالة في شرائح العرض التقديمي
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بتحسين شرائح العرض التقديمي الخاص بك باستخدام Aspose.Slides لـ .NET! تعرف على كيفية استرداد بيانات أجهزة الإضاءة الفعالة خطوة بخطوة. ارفع مستوى رواية القصص المرئية لديك الآن!
+type: docs
 weight: 19
 url: /ar/net/shape-geometry-and-positioning-in-slides/getting-effective-light-rig-data/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 يعد إنشاء شرائح عرض تقديمي ديناميكية وجذابة بصريًا متطلبًا شائعًا في العصر الرقمي الحالي. أحد الجوانب الأساسية هو التلاعب بخصائص جهاز الإضاءة لتعزيز المظهر الجمالي العام. سيرشدك هذا البرنامج التعليمي خلال عملية الحصول على بيانات معدات الإضاءة الفعالة في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET.
 ## المتطلبات الأساسية
@@ -68,9 +64,3 @@ Console.WriteLine("Direction: " + threeDEffectiveData.LightRig.Direction);
  قم بزيارة منتدى الدعم[هنا](https://forum.aspose.com/c/slides/11).
 ### هل يمكنني شراء ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
  نعم يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

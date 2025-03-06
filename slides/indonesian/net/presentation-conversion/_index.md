@@ -3,14 +3,10 @@ title: Konversi Presentasi Master dan Pemrosesan PowerPoint
 linktitle: Konversi Presentasi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Tingkatkan keterampilan Anda dengan tutorial Aspose.Slides untuk .NET. Pelajari konversi presentasi dan pemrosesan PowerPoint langkah demi langkah. Ubah alur kerja Anda hari ini!
+type: docs
 weight: 10
 url: /id/net/presentation-conversion/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Aspose.Slides for .NET menawarkan tutorial komprehensif untuk berbagai aspek pemrosesan PowerPoint. Salah satu tutorial tersebut berfokus pada konversi presentasi, membimbing pengguna melalui transformasi presentasi ke dalam format yang berbeda tanpa hambatan. Tutorial ini membekali pengembang dengan pengetahuan untuk menangani konversi presentasi secara efisien dan efektif, memperluas kemampuan mereka untuk menghasilkan keluaran yang serbaguna.
 
@@ -66,9 +62,3 @@ Pelajari cara mengekspor presentasi ke format XAML menggunakan Aspose.Slides unt
 Pelajari cara mengonversi presentasi PowerPoint ke format SWF menggunakan Aspose.Slides untuk .NET. Buat konten dinamis dengan mudah!
 ### [Konversikan Presentasi ke PDF dengan Pembaruan Kemajuan](./convert-presentation-to-pdf-with-progress-update/)
 Pelajari cara mengonversi presentasi ke PDF dengan pembaruan kemajuan menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan kode sumber disertakan.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

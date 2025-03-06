@@ -3,14 +3,10 @@ title: In và hiển thị trong slide
 linktitle: In và hiển thị trong slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Nâng cao kỹ năng in và hiển thị trang trình bày của bạn với các hướng dẫn Aspose.Slides dành cho .NET. Tìm hiểu các kỹ thuật từng bước để có đầu ra chất lượng cao. Đi sâu vào thao tác trượt ngay bây giờ!
+type: docs
 weight: 10
 url: /vi/net/printing-and-rendering-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu:
 
@@ -45,9 +41,3 @@ Tìm hiểu cách cải thiện các trang trình bày của bạn bằng Aspose
 Tìm hiểu cách in các trang trình bày cụ thể từ bản trình bày PowerPoint bằng Aspose.Slides for .NET. Hướng dẫn từng bước của chúng tôi bao gồm cài đặt, tùy chỉnh và xử lý các ngoại lệ, cung cấp một cách liền mạch để tự động hóa các tác vụ PowerPoint.
 ### [Hỗ trợ chữ ký số trong Aspose.Slides](./digital-signature-support/)
 Tăng cường bảo mật bản trình bày bằng chữ ký số bằng Aspose.Slides for .NET. Tìm hiểu cách thêm và xác minh chữ ký trong PowerPoint từng bước.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

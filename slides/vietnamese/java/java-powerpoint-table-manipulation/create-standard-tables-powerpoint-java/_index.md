@@ -3,14 +3,10 @@ title: Tạo bảng tiêu chuẩn trong PowerPoint bằng Java
 linktitle: Tạo bảng tiêu chuẩn trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo bảng tiêu chuẩn trong PowerPoint bằng Java bằng Aspose.Slides. Hãy làm theo hướng dẫn chi tiết từng bước của chúng tôi để có trải nghiệm liền mạch.
+type: docs
 weight: 21
 url: /vi/java/java-powerpoint-table-manipulation/create-standard-tables-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Tạo bản trình bày PowerPoint hấp dẫn trực quan thường liên quan đến việc thêm nhiều yếu tố khác nhau, chẳng hạn như bảng, để sắp xếp và trình bày dữ liệu rõ ràng. Aspose.Slides for Java cung cấp một API mạnh mẽ để hoạt động với các tệp PowerPoint theo chương trình. Hướng dẫn này sẽ hướng dẫn bạn quy trình tạo bảng tiêu chuẩn trong PowerPoint bằng Java, chia nhỏ từng bước để đảm bảo trải nghiệm học tập suôn sẻ và toàn diện.
 ## Điều kiện tiên quyết
@@ -105,9 +101,3 @@ Có, Aspose.Slides cho Java có thể được sử dụng với các ngôn ng�
  Bạn có thể mua giấy phép từ[Trang mua hàng giả định](https://purchase.aspose.com/buy).
 ### Aspose.Slides for Java có hỗ trợ tất cả các định dạng PowerPoint không?
 Có, Aspose.Slides for Java hỗ trợ tất cả các định dạng PowerPoint chính bao gồm PPT, PPTX, PPS, v.v.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

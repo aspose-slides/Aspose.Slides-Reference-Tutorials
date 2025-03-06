@@ -3,14 +3,10 @@ title: Aggiunta dell'offset allungamento a sinistra in PowerPoint con Aspose.Sli
 linktitle: Aggiunta dell'offset allungamento a sinistra per la cornice in Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come migliorare le presentazioni di PowerPoint utilizzando Aspose.Slides per .NET. Segui la nostra guida passo passo per aggiungere l'offset stretch a sinistra per le cornici.
+type: docs
 weight: 14
 url: /it/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## introduzione
 Aspose.Slides per .NET è una potente libreria che consente agli sviluppatori di manipolare facilmente le presentazioni PowerPoint. In questo tutorial, esploreremo il processo di aggiunta di un offset di stiramento a sinistra per una cornice utilizzando Aspose.Slides per .NET. Segui questa guida passo passo per migliorare le tue capacità di lavorare con immagini e forme all'interno delle presentazioni PowerPoint.
 ## Prerequisiti
@@ -89,9 +85,3 @@ R: Aspose.Slides viene regolarmente aggiornato per garantire la compatibilità c
  R: Esplora il[Documentazione Aspose.Slides](https://reference.aspose.com/slides/net/) per esempi e indicazioni esaustivi.
 ### D: Posso applicare più offset di stiramento a una singola forma?
 R: Sì, puoi combinare più offset di stiramento per ottenere effetti visivi complessi e personalizzati.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

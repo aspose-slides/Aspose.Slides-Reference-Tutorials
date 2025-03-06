@@ -3,14 +3,10 @@ title: Java スライドの個々のシリーズの負の値を反転する
 linktitle: Java スライドの個々のシリーズの負の値を反転する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java の Invert If Negative 機能を使用して、PowerPoint プレゼンテーションのグラフのビジュアルを強化する方法を学習します。
+type: docs
 weight: 11
 url: /ja/java/data-manipulation/invert-if-negative-individual-series-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java スライドで個々のシリーズの負の反転を行う方法の紹介
 
@@ -135,9 +131,3 @@ Aspose.Slides ライブラリを Java プロジェクトに含めるには、ラ
 ### Aspose.Slides for Java のドキュメントにはどこでアクセスできますか?
 
 Aspose.Slides for Javaのドキュメントは以下からアクセスできます。[ここ](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

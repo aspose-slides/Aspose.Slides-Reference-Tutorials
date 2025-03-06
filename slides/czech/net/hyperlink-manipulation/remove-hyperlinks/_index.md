@@ -3,14 +3,10 @@ title: Jak odstranit hypertextové odkazy ze snímků pomocí Aspose.Slides .NET
 linktitle: Odebrat hypertextové odkazy ze snímku
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak odstranit hypertextové odkazy ze snímků aplikace PowerPoint pomocí Aspose.Slides for .NET. Vytvářejte čisté a profesionální prezentace.
+type: docs
 weight: 11
 url: /cs/net/hyperlink-manipulation/remove-hyperlinks/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Ve světě profesionálních prezentací je zásadní zajistit, aby vaše snímky vypadaly úhledně a uklizeně. Jedním společným prvkem, který často zaplňuje snímky, jsou hypertextové odkazy. Ať už se v prezentaci zabýváte hypertextovými odkazy na webové stránky, dokumenty nebo jiné snímky, možná je budete chtít odstranit, abyste získali čistší a cílenější vzhled. S Aspose.Slides pro .NET můžete tohoto úkolu snadno dosáhnout. V tomto podrobném průvodci vás provedeme procesem odstraňování hypertextových odkazů ze snímků pomocí Aspose.Slides for .NET.
 
@@ -88,9 +84,3 @@ Ano, Aspose.Slides for .NET nabízí širokou škálu funkcí, včetně vytvář
 
 ### Je k dispozici technická podpora pro Aspose.Slides pro .NET?
  Ano, můžete vyhledat technickou podporu a zapojit se do komunity Aspose na webu[Aspose fórum](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

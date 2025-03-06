@@ -3,14 +3,10 @@ title: Tambahkan Bingkai Video di PowerPoint
 linktitle: Tambahkan Bingkai Video di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengintegrasikan konten video dengan lancar ke dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Slide Anda dengan elemen multimedia untuk melibatkan audiens Anda.
+type: docs
 weight: 17
 url: /id/java/java-powerpoint-shape-media-insertion/add-video-frame-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam tutorial ini, kami akan memandu Anda melalui proses menambahkan bingkai video ke presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Dengan mengikuti petunjuk langkah demi langkah ini, Anda akan dapat mengintegrasikan konten video ke dalam presentasi Anda dengan mudah dan lancar.
 ## Prasyarat
@@ -64,9 +60,3 @@ Ya, Aspose.Slides for Java kompatibel dengan JDK versi 6 ke atas.
 Ya, Anda dapat mengatur mode putar dan volume bingkai video sesuai preferensi Anda.
 ### Di mana saya dapat menemukan lebih banyak dukungan dan sumber daya untuk Aspose.Slides?
  Mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk bantuan, dokumentasi, dan dukungan komunitas.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

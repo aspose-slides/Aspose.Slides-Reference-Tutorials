@@ -3,14 +3,10 @@ title: Αποθήκευση PowerPoint με κωδικό πρόσβασης
 linktitle: Αποθήκευση PowerPoint με κωδικό πρόσβασης
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε προστασία με κωδικό πρόσβασης σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Ασφαλίστε τις διαφάνειές σας με ευκολία.
+type: docs
 weight: 12
 url: /el/java/java-powerpoint-save-operations/save-powerpoint-with-password/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία αποθήκευσης μιας παρουσίασης PowerPoint με κωδικό πρόσβασης χρησιμοποιώντας το Aspose.Slides για Java. Η προσθήκη κωδικού πρόσβασης στην παρουσίασή σας μπορεί να βελτιώσει την ασφάλειά της, διασφαλίζοντας ότι μόνο εξουσιοδοτημένα άτομα μπορούν να έχουν πρόσβαση στο περιεχόμενό της.
 ## Προαπαιτούμενα
@@ -71,9 +67,3 @@ pres.save(dataDir + "SaveWithPassword_out.pptx", SaveFormat.Pptx);
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής από το Aspose[δικτυακός τόπος](https://releases.aspose.com/).
 ### Πώς μπορώ να λάβω τεχνική υποστήριξη για το Aspose.Slides;
 Μπορείτε να επισκεφτείτε το φόρουμ Aspose.Slides για τεχνική βοήθεια από την κοινότητα και το προσωπικό υποστήριξης της Aspose.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

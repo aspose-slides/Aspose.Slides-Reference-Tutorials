@@ -1,15 +1,12 @@
 ---
 title: プレゼンテーションの操作と変換のパワーを解き放つ
 linktitle: Aspose.Slides for .NET チュートリアル
+type: docs
 weight: 10
 url: /ja/net/
 description: Aspose.Slides for .NET チュートリアルで、プレゼンテーションの操作、変換、PowerPoint 処理の世界を学びましょう。プレゼンテーションを作成、変換、強化して、インパクトのある結果を得る方法を学習します。
+is_root: true
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 Aspose.Slides for .NET の包括的なチュートリアル コレクションへようこそ。ここでは、プレゼンテーションの操作、変換、および PowerPoint 処理の技術を学ぶことができます。これらのチュートリアルは、Aspose.Slides の機能を習得するためのガイドとして機能し、プレゼンテーションの作成、カスタマイズ、および変換のさまざまな側面をシームレスにナビゲートできるようにします。PowerPoint タスクの自動化、プレゼンテーションのさまざまな形式への変換、またはマルチメディアによるスライドの強化など、どのような場合でも、これらのチュートリアルは開発の旅を強化するためのステップ バイ ステップの手順を提供します。
 
 ## プレゼンテーション変換: スライドを簡単に変換する
@@ -63,9 +60,3 @@ Aspose.Slides for .NET を使用して、魅力的な画像やビデオでスラ
 スライド内の図形のジオメトリと配置に関する Aspose.Slides チュートリアルで、スライドの操作スキルを高めます。図形、その寸法、配置をプログラムで制御する方法を学びます。
 ### [スライド内の図形の配置と書式設定](./shape-alignment-and-formatting-in-slides/)
 .NET アプリケーションでの図形の配置と書式設定に関する包括的な Aspose.Slides チュートリアルをご覧ください。図形を簡単に配置および書式設定し、スライド プレゼンテーションを正確に強化する方法を学びます。 
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

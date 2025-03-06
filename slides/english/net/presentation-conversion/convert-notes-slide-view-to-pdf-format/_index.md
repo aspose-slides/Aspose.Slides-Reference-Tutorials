@@ -3,14 +3,10 @@ title: Convert Notes Slide View to PDF Format
 linktitle: Convert Notes Slide View to PDF Format
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Convert speaker notes in PowerPoint to PDF with Aspose.Slides for .NET. Retain context and customize layout effortlessly.
+type: docs
 weight: 15
 url: /net/presentation-conversion/convert-notes-slide-view-to-pdf-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 In this comprehensive guide, we will walk you through the process of converting Notes Slide View to PDF Format using Aspose.Slides for .NET. You will find detailed instructions and code snippets to achieve this task effortlessly.
 
@@ -82,10 +78,3 @@ Absolutely! Aspose.Slides for .NET provides various options to customize the PDF
 You can explore additional tutorials and examples on the [Aspose.Slides for .NET API documentation](https://reference.aspose.com/slides/net/).
 
 Now that you have successfully converted the Notes Slide View to PDF Format, you can explore more features and capabilities of Aspose.Slides for .NET to enhance your PowerPoint automation tasks. Happy coding!
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

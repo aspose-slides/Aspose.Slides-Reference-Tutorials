@@ -3,14 +3,10 @@ title: 以程式設計方式建立新簡報
 linktitle: 以程式設計方式建立新簡報
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 以程式設計方式建立簡報。具有原始程式碼的分步指南，可實現高效自動化。
+type: docs
 weight: 10
 url: /zh-hant/net/presentation-manipulation/create-new-presentations-programmatically/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 如果您希望在 .NET 中以程式設計方式建立演示文稿，Aspose.Slides for .NET 是一個強大的工具，可以幫助您有效率地完成此任務。本逐步教學將引導您完成使用提供的原始程式碼建立新簡報的過程。
 
@@ -91,9 +87,3 @@ pres.Write("outAsposeSlides.ppt");
 
 4. ### 可以在購買前試用 Aspose.Slides for .NET 嗎？
    是的，您可以下載 Aspose.Slides for .NET 的免費試用版[這裡](https://releases.aspose.com/)。試用版有限制，因此請務必檢查它是否符合您的要求。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

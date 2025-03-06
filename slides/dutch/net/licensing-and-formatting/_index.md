@@ -3,14 +3,10 @@ title: Licenties en opmaak
 linktitle: Licenties en opmaak
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter uw begrip van Aspose.Slides-licenties en -opmaak door middel van uitgebreide tutorials. Leer hoe u licenties efficiënt beheert en een onberispelijke opmaak voor uw presentaties bereikt.
+type: docs
 weight: 21
 url: /nl/net/licensing-and-formatting/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Invoering
 
@@ -35,9 +31,3 @@ Leer hoe u metered licenties efficiënt kunt gebruiken met Aspose.Slides voor .N
 Leer hoe u diagramvisualisaties kunt verbeteren met Aspose.Slides voor .NET. Voeg dynamische kleuren toe aan gegevenspunten voor indrukwekkendere presentaties.
 ### [Voeg aangepaste foutbalken toe aan het diagram](./add-custom-error/)
 Leer hoe u aangepaste foutbalken aan diagrammen kunt toevoegen met Aspose.Slides voor .NET. Creëer, stijl en pas foutbalken aan voor nauwkeurige gegevensvisualisatie.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

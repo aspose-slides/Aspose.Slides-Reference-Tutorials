@@ -3,14 +3,10 @@ title: หลุมแผนภูมิโดนัทใน Java Slides
 linktitle: หลุมแผนภูมิโดนัทใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: สร้างแผนภูมิโดนัทด้วยขนาดรูที่กำหนดเองใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ดสำหรับการปรับแต่งแผนภูมิ
+type: docs
 weight: 11
 url: /th/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## รู้เบื้องต้นเกี่ยวกับแผนภูมิโดนัทที่มีรูใน Java Slides
 
@@ -98,9 +94,3 @@ finally
 ### เป็นไปได้ไหมที่จะเพิ่มชื่อลงในแผนภูมิ?
 
  แน่นอน! คุณสามารถเพิ่มชื่อให้กับแผนภูมิโดยใช้`setTitle` วิธีการบน`IChart` วัตถุและระบุข้อความชื่อที่ต้องการ
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

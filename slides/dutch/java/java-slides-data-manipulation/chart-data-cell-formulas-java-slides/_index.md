@@ -3,14 +3,10 @@ title: Grafiekgegevenscelformules in Java-dia's
 linktitle: Grafiekgegevenscelformules in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u celformules voor diagramgegevens instelt in Java PowerPoint-presentaties met behulp van Aspose.Slides voor Java. Maak dynamische grafieken met formules.
+type: docs
 weight: 11
 url: /nl/java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot diagramgegevenscelformules in Aspose.Slides voor Java
 
@@ -126,9 +122,3 @@ Ja, u kunt in gegevenscelformules verschillende typen formules gebruiken, waaron
 ### Hoe wijzig ik het diagramtype?
 
  U kunt het diagramtype wijzigen met behulp van de`setChartType` methode op de`IChart` object en specificeer het gewenste`ChartType`.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Nhận dữ liệu hiệu quả về góc xiên hình dạng trong PowerP
 linktitle: Nhận dữ liệu hiệu quả về góc xiên hình dạng trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách truy xuất dữ liệu hiệu quả về góc xiên hình dạng trong PowerPoint bằng Aspose.Slides cho Java. Nâng cao bài thuyết trình của bạn với các hiệu ứng hình ảnh tuyệt đẹp.
+type: docs
 weight: 26
 url: /vi/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effective-data-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Trong các bài thuyết trình kinh doanh hiện đại, sự hấp dẫn trực quan đóng một vai trò quan trọng trong việc truyền tải thông tin một cách hiệu quả. Một trong những yếu tố có thể nâng cao tác động trực quan của các hình dạng trong bản trình bày PowerPoint là hiệu ứng góc xiên. Aspose.Slides for Java cung cấp các công cụ mạnh mẽ để truy cập và thao tác các thuộc tính khác nhau của hình dạng, bao gồm cả các hiệu ứng góc xiên của chúng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình truy xuất dữ liệu hiệu quả về góc xiên hình dạng bằng Aspose.Slides cho Java.
 ## Điều kiện tiên quyết
@@ -62,9 +58,3 @@ Aspose.Slides đảm bảo khả năng tương thích với nhiều phiên bản
 Tuyệt đối, bạn có toàn quyền kiểm soát các thuộc tính hiệu ứng góc xiên và có thể tùy chỉnh chúng theo yêu cầu của bạn.
 ### Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Slides ở đâu?
  Bạn có thể ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) nếu có bất kỳ câu hỏi, hỗ trợ hoặc tài nguyên bổ sung nào.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

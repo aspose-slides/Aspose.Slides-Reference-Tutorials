@@ -3,14 +3,10 @@ title: قم بتحديث خصائص العرض التقديمي باستخدام
 linktitle: قم بتحديث خصائص العرض التقديمي باستخدام عرض تقديمي آخر كقالب في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بتحسين عروض PowerPoint التقديمية باستخدام بيانات التعريف المحدثة باستخدام Aspose.Slides لـ Java. تعرف على كيفية تحديث خصائص مثل المؤلف والعنوان والكلمات الرئيسية باستخدام القوالب في Java Slides.
+type: docs
 weight: 14
 url: /ar/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة لتحديث خصائص العرض التقديمي باستخدام عرض تقديمي آخر كقالب في شرائح Java
 
@@ -126,9 +122,3 @@ private static void updateByTemplate(String path, IDocumentProperties template)
 ### هل هناك أي قيود على نوع العروض التقديمية التي يمكن تحديثها؟
 
 لا، يمكنك تحديث خصائص العروض التقديمية بتنسيقات مختلفة، بما في ذلك PPTX وODP وPPT.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

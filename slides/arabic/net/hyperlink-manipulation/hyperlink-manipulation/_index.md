@@ -3,14 +3,10 @@ title: معالجة الارتباط التشعبي في Aspose.Slides
 linktitle: معالجة الارتباط التشعبي في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إضافة الارتباطات التشعبية وإزالتها في Aspose.Slides لـ .NET. قم بتحسين عروضك التقديمية باستخدام الروابط التفاعلية بسهولة.
+type: docs
 weight: 10
 url: /ar/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 تعد الارتباطات التشعبية عناصر أساسية في العروض التقديمية، لأنها توفر طريقة ملائمة للتنقل بين الشرائح أو الوصول إلى الموارد الخارجية. يوفر Aspose.Slides for .NET ميزات قوية لإضافة الارتباطات التشعبية وإزالتها في شرائح العرض التقديمي. في هذا البرنامج التعليمي، سنرشدك خلال عملية معالجة الارتباط التشعبي باستخدام Aspose.Slides لـ .NET. سنغطي إضافة الارتباطات التشعبية إلى الشريحة وإزالة الارتباطات التشعبية من الشريحة. لذا، دعونا نتعمق!
 
@@ -125,9 +121,3 @@ presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides؟
  إذا كنت بحاجة إلى ترخيص مؤقت لـ Aspose.Slides، فيمكنك الحصول على واحد[هنا](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

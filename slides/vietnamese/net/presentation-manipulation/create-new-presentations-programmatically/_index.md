@@ -3,14 +3,10 @@ title: Tạo bản trình bày mới theo chương trình
 linktitle: Tạo bản trình bày mới theo chương trình
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách tạo bản trình bày theo chương trình bằng Aspose.Slides cho .NET. Hướng dẫn từng bước với mã nguồn để tự động hóa hiệu quả.
+type: docs
 weight: 10
 url: /vi/net/presentation-manipulation/create-new-presentations-programmatically/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Nếu bạn đang muốn tạo bản trình bày theo chương trình trong .NET thì Aspose.Slides for .NET là một công cụ mạnh mẽ giúp bạn đạt được nhiệm vụ này một cách hiệu quả. Hướng dẫn từng bước này sẽ hướng dẫn bạn qua quá trình tạo bản trình bày mới bằng cách sử dụng mã nguồn được cung cấp.
 
@@ -91,9 +87,3 @@ Bây giờ, bạn có thể bắt đầu kết hợp mã này vào các dự án
 
 4. ### Tôi có thể dùng thử Aspose.Slides cho .NET trước khi mua không?
     Có, bạn có thể tải xuống bản dùng thử miễn phí Aspose.Slides cho .NET[đây](https://releases.aspose.com/). Phiên bản dùng thử có những hạn chế, vì vậy hãy nhớ kiểm tra xem nó có đáp ứng yêu cầu của bạn không.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Hozzáférés az elrendezési formátumokhoz a Java Slides alkalmazásban
 linktitle: Hozzáférés az elrendezési formátumokhoz a Java Slides alkalmazásban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan érheti el és kezelheti a Java Slides elrendezési formátumait az Aspose.Slides for Java segítségével. A PowerPoint prezentációkban könnyedén testreszabhatja az alak- és vonalstílusokat.
+type: docs
 weight: 10
 url: /hu/java/presentation-properties/access-layout-formats-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés a Java Slides elrendezési formátumaihoz
 
@@ -142,9 +138,3 @@ IShape shape = layoutSlide.getShapes().get_Item(0); // Hozzáférés az első al
 ```
 
  Ezután használhatja a`IFillFormat` és`ILineFormat` Az előző válaszokban bemutatott módszerek segítségével módosíthatja az alakzat kitöltési és vonalformátumát.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

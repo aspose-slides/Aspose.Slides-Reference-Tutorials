@@ -3,14 +3,10 @@ title: เพิ่มกรอบเสียงใน PowerPoint
 linktitle: เพิ่มกรอบเสียงใน PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีเพิ่มเฟรมเสียงลงในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ยกระดับการนำเสนอของคุณด้วยองค์ประกอบเสียงที่น่าสนใจได้อย่างง่ายดาย
+type: docs
 weight: 12
 url: /th/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## การแนะนำ
 การปรับปรุงการนำเสนอด้วยองค์ประกอบเสียงสามารถยกระดับผลกระทบและการมีส่วนร่วมได้อย่างมาก ด้วย Aspose.Slides สำหรับ Java การรวมเฟรมเสียงเข้ากับงานนำเสนอ PowerPoint กลายเป็นกระบวนการที่ราบรื่น บทช่วยสอนนี้จะแนะนำคุณตลอดกระบวนการทีละขั้นตอนในการเพิ่มเฟรมเสียงให้กับงานนำเสนอของคุณโดยใช้ Aspose.Slides สำหรับ Java
 ## ข้อกำหนดเบื้องต้น
@@ -79,9 +75,3 @@ pres.save(dataDir + "AudioFrameEmbed_out.pptx", SaveFormat.Pptx);
 Aspose.Slides for Java นำเสนอตัวเลือกการปรับแต่งที่หลากหลาย ซึ่งช่วยให้คุณปรับแต่งรูปลักษณ์ของเครื่องเล่นเสียงให้เหมาะกับความต้องการของคุณได้
 ### มีรุ่นทดลองใช้งานสำหรับ Aspose.Slides สำหรับ Java หรือไม่
  ใช่ คุณสามารถเข้าถึง Aspose.Slides สำหรับ Java รุ่นทดลองใช้ฟรีได้จากที่นี่[เว็บไซต์](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Converteer individuele dia's in Java-dia's
 linktitle: Converteer individuele dia's in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer stap voor stap hoe u afzonderlijke PowerPoint-dia's naar HTML kunt converteren met codevoorbeelden met behulp van Aspose.Slides voor Java.
+type: docs
 weight: 12
 url: /nl/java/presentation-conversion/convert-individual-slide-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot het converteren van individuele dia's in Java-dia's
 
@@ -174,9 +170,3 @@ hebt met succes afzonderlijke dia's van een PowerPoint-presentatie naar HTML gec
 ### Hoe ga ik om met extra opmaak voor vormen en tekst in dia's?
 
  Je kunt de`CustomFormattingController` klasse om vormspecifieke opmaak af te handelen door het implementeren van de`writeShapeStart` En`writeShapeEnd` methoden en het toepassen van aangepaste opmaaklogica daarin.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

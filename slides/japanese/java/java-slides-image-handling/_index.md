@@ -3,14 +3,10 @@ title: Aspose.Slides For Java を使用した Java スライド画像の処理
 linktitle: Java スライド画像処理
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java チュートリアルを使用して、Java スライドで画像を処理する方法を学びます。効率的な画像管理のためのステップバイステップのガイダンスをご覧ください。
+type: docs
 weight: 23
 url: /ja/java/image-handling/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 魅力的な画像で Java スライドを強化する準備はできていますか? この記事では、Aspose.Slides for Java チュートリアルを使用して画像処理の世界を詳しく見ていきます。経験豊富な開発者でも、開発者としてのキャリアを始めたばかりでも、この包括的なガイドを読めば、プロセスをステップごとに理解できます。
 
@@ -46,9 +42,3 @@ Aspose.Slides for Java を使用して、Java スライドに SVG 画像を追�
 Aspose.Slides を使用して、外部リソースからベクター ベースの SVG 画像を Java スライドに追加する方法を学びます。高品質のビジュアルで魅力的なプレゼンテーションを作成します。
 ### [Java スライドで SVG 画像オブジェクトを図形のグループに変換する](./convert-svg-image-object-into-group-of-shapes-in-java-slides/)
 Aspose.Slides for Java を使用して、Java スライドで SVG 画像を図形のグループに変換する方法を学びます。コード例付きのステップバイステップ ガイド。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

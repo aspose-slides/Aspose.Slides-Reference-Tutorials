@@ -3,14 +3,10 @@ title: Aynı Sunumda Slaydı Klonla
 linktitle: Aynı Sunumda Slaydı Klonla
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Kılavuzumuzla Aspose.Slides for Java'yı kullanarak slaytları aynı sunumda kopyalayın. PowerPoint işlemlerini kolaylaştırmak isteyen geliştiriciler için mükemmeldir.
+type: docs
 weight: 15
 url: /tr/java/java-powerpoint-slide-cloning-techniques/clone-slide-within-same-presentation-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 Aspose.Slides for Java dünyasına dalmaya ve aynı sunumda slaytları nasıl kopyalayacağınızı öğrenmeye hazır mısınız? Bu eğitim, önkoşullardan son uygulamaya kadar bilmeniz gereken her şeyde size yol gösterecektir. Başlayalım!
 ## Önkoşullar
@@ -71,9 +67,3 @@ Aspose.Slides for Java, Java uygulamalarında PowerPoint sunumlarıyla çalışm
 Aspose.Slides for Java dokümantasyonu şu adreste mevcuttur:[Web sitesi](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java'yı nasıl satın alabilirim?
  Aspose.Slides for Java'yı ziyaret ederek satın alabilirsiniz.[satın alma sayfası](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Menguasai Efek Bevel di Aspose.Slides - Tutorial Langkah Demi Langkah
 linktitle: Menerapkan Efek Bevel pada Bentuk di Slide Presentasi menggunakan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Sempurnakan slide presentasi Anda dengan Aspose.Slides untuk .NET! Pelajari cara menerapkan efek bevel yang menawan dalam panduan langkah demi langkah ini.
+type: docs
 weight: 24
 url: /id/net/shape-effects-and-manipulation-in-slides/applying-bevel-effects-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam dunia presentasi yang dinamis, menambahkan daya tarik visual ke slide Anda dapat meningkatkan dampak pesan Anda secara signifikan. Aspose.Slides for .NET menyediakan perangkat canggih untuk memanipulasi dan mempercantik slide presentasi Anda secara terprogram. Salah satu fitur menariknya adalah kemampuan untuk menerapkan efek bevel pada bentuk, menambah kedalaman dan dimensi pada visual Anda.
 ## Prasyarat
@@ -79,9 +75,3 @@ Ya, Aspose.Slides diperbarui secara berkala untuk memastikan kompatibilitas deng
 Meskipun tidak umum, Anda dapat bereksperimen dengan menumpuk beberapa bentuk atau memanipulasi properti kemiringan untuk mendapatkan efek serupa.
 ### 5. Apakah ada efek 3D lain yang tersedia di Aspose.Slides?
 Sangat! Aspose.Slides menawarkan beragam efek 3D untuk menambah kedalaman dan realisme pada elemen presentasi Anda.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

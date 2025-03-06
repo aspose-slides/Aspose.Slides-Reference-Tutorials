@@ -3,14 +3,10 @@ title: Buku Kerja Pemulihan Bagan di Slide Java
 linktitle: Buku Kerja Pemulihan Bagan di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara memulihkan buku kerja dari bagan di Java Slides dengan Aspose.Slides. Panduan langkah demi langkah untuk otomatisasi PowerPoint.
+type: docs
 weight: 17
 url: /id/java/data-manipulation/chart-recover-workbook-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Pengantar Buku Kerja Pemulihan Bagan di Slide Java
 
@@ -113,9 +109,3 @@ Sangat! Aspose.Slides untuk Java adalah perpustakaan yang kuat untuk mengotomati
 ### Bagaimana saya bisa mengakses dokumentasi lebih lanjut untuk Aspose.Slides untuk Java?
 
  Untuk dokumentasi dan referensi terperinci tentang Aspose.Slides untuk Java, kunjungi halaman dokumentasi di[Di Sini](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

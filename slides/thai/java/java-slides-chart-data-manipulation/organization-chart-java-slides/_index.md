@@ -3,14 +3,10 @@ title: แผนผังองค์กรใน Java Slides
 linktitle: แผนผังองค์กรใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีสร้างแผนภูมิองค์กรที่น่าทึ่งใน Java Slides ด้วยบทช่วยสอน Aspose.Slides ทีละขั้นตอน ปรับแต่งและแสดงภาพโครงสร้างองค์กรของคุณได้อย่างง่ายดาย
+type: docs
 weight: 22
 url: /th/java/chart-data-manipulation/organization-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการสร้างแผนผังองค์กรใน Java Slides โดยใช้ Aspose.Slides
 
@@ -107,9 +103,3 @@ finally
 ### เป็นไปได้ไหมที่จะสร้างโครงสร้างองค์กรที่ซับซ้อนที่มีหลายระดับ?
 
 ใช่ Aspose.Slides ช่วยให้คุณสร้างโครงสร้างองค์กรที่ซับซ้อนได้หลายระดับโดยการเพิ่มและจัดเรียงรูปร่างภายในแผนผังองค์กร คุณสามารถกำหนดความสัมพันธ์แบบลำดับชั้นระหว่างรูปร่างเพื่อแสดงโครงสร้างที่ต้องการได้
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Обновление свойств презентации с испол�
 linktitle: Обновление свойств презентации с использованием другой презентации в качестве шаблона в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Улучшите презентации PowerPoint с помощью обновленных метаданных с помощью Aspose.Slides для Java. Научитесь обновлять такие свойства, как автор, заголовок и ключевые слова, с помощью шаблонов в Java Slides.
+type: docs
 weight: 14
 url: /ru/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Введение в обновление свойств презентации с использованием другой презентации в качестве шаблона в слайдах Java
 
@@ -126,9 +122,3 @@ private static void updateByTemplate(String path, IDocumentProperties template)
 ### Существуют ли какие-либо ограничения на типы презентаций, которые можно обновлять?
 
 Нет, вы можете обновлять свойства презентаций в различных форматах, включая PPTX, ODP и PPT.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

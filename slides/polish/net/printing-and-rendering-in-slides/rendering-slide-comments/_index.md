@@ -3,14 +3,10 @@ title: Renderowanie komentarzy do slajdów w Aspose.Slides
 linktitle: Renderowanie komentarzy do slajdów w Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak renderować komentarze do slajdów w Aspose.Slides dla .NET, korzystając z naszego samouczka krok po kroku. Dostosuj wygląd komentarzy i zwiększ automatyzację programu PowerPoint.
+type: docs
 weight: 12
 url: /pl/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 Witamy w naszym kompleksowym samouczku na temat renderowania komentarzy do slajdów przy użyciu Aspose.Slides dla .NET! Aspose.Slides to potężna biblioteka, która umożliwia programistom bezproblemową pracę z prezentacjami programu PowerPoint w aplikacjach .NET. W tym przewodniku skupimy się na konkretnym zadaniu — renderowaniu komentarzy do slajdów — i przeprowadzimy Cię przez ten proces krok po kroku.
 ## Warunki wstępne
@@ -90,9 +86,3 @@ Odp.: Absolutnie! Samouczek zawiera opcje dostosowywania koloru, szerokości i p
  Odp.: Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### P: Gdzie mogę szukać pomocy i wsparcia dla Aspose.Slides?
  O: Odwiedź[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) za wsparcie społeczności.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

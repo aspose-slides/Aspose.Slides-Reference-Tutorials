@@ -3,14 +3,10 @@ title: Δημιουργήστε μικρογραφία σε διαφάνειες
 linktitle: Δημιουργήστε μικρογραφία με προσαρμοσμένες διαστάσεις
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε προσαρμοσμένες μικρογραφίες εικόνων από παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Βελτιώστε την εμπειρία και τη λειτουργικότητα του χρήστη.
+type: docs
 weight: 13
 url: /el/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Η δημιουργία προσαρμοσμένων μικρογραφιών εικόνων των παρουσιάσεών σας στο PowerPoint μπορεί να είναι πολύτιμο πλεονέκτημα, είτε δημιουργείτε μια διαδραστική εφαρμογή, είτε βελτιώνετε την εμπειρία χρήστη είτε βελτιστοποιείτε περιεχόμενο για διάφορες πλατφόρμες. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας προσαρμοσμένων μικρογραφιών εικόνων από παρουσιάσεις PowerPoint χρησιμοποιώντας τη βιβλιοθήκη Aspose.Slides for .NET. Αυτή η ισχυρή βιβλιοθήκη σάς επιτρέπει να χειρίζεστε, να μετατρέπετε και να βελτιώνετε αρχεία PowerPoint μέσω προγραμματισμού σε εφαρμογές .NET.
 
@@ -119,9 +115,3 @@ bmp.Save(destFileName, System.Drawing.Imaging.ImageFormat.Jpeg);
 
 ### Διατίθεται τεχνική υποστήριξη για το Aspose.Slides για .NET;
  Ναι, μπορείτε να έχετε πρόσβαση σε τεχνική υποστήριξη και φόρουμ κοινότητας[εδώ](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

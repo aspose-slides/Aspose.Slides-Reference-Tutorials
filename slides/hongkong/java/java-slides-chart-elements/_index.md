@@ -3,14 +3,10 @@ title: Java 投影片圖表元素
 linktitle: Java 投影片圖表元素
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 透過我們的綜合教程，了解如何使用 Aspose.Slides for Java 在 Java 投影片中建立動態圖表。今天就提升您的演講技巧！
+type: docs
 weight: 15
 url: /zh-hant/java/chart-elements/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 您準備好將您的演講技巧提升到新的水平了嗎？使用 Aspose.Slides for Java 深入了解 Java 投影片中的動態圖表世界。在這份綜合指南中，我們將引導您了解掌握圖表元素並使您的簡報真正脫穎而出所需了解的一切。
 
@@ -62,9 +58,3 @@ Aspose.Slides for Java 是一個功能強大的 API，使開發人員和簡報�
 使用 Aspose.Slides for Java 在 PowerPoint 簡報中建立令人驚嘆的地圖圖表。面向 Java 開發人員的分步指南和原始程式碼。
 ### [Java 投影片中的旭日圖](./sunburst-chart-java-slides/)
 使用 Aspose.Slides 在 Java 投影片中建立令人驚嘆的旭日圖。了解分步圖表建立和資料操作。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

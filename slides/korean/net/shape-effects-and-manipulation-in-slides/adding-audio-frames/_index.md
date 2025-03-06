@@ -3,14 +3,10 @@ title: Aspose.Slides를 사용하여 프레젠테이션 슬라이드에 오디�
 linktitle: Aspose.Slides를 사용하여 프레젠테이션 슬라이드에 오디오 프레임 추가
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides로 프레젠테이션을 향상하세요! 이전과는 전혀 다른 방식으로 청중의 관심을 끌면서 오디오 프레임을 원활하게 추가하는 방법을 알아보세요.
+type: docs
 weight: 14
 url: /ko/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 역동적인 프레젠테이션 세계에서 오디오 요소를 통합하면 청중의 전반적인 경험을 크게 향상시킬 수 있습니다. .NET용 Aspose.Slides는 개발자가 오디오 프레임을 프레젠테이션 슬라이드에 원활하게 통합하여 새로운 참여 및 상호 작용 계층을 추가할 수 있도록 지원합니다. 이 단계별 가이드는 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드에 오디오 프레임을 추가하는 과정을 안내합니다.
 ## 전제 조건
@@ -67,9 +63,3 @@ pres.Save(dataDir + "AudioFrameEmbed_out.pptx", SaveFormat.Pptx);
  방문하다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 도움을 구하고 지역사회에 참여하기 위해.
 ### .NET용 Aspose.Slides를 어떻게 구매하나요?
  도서관에서 구매하실 수 있습니다.[Aspose 매장](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

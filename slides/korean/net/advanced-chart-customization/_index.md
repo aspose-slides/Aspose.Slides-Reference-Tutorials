@@ -3,14 +3,10 @@ title: 고급 차트 사용자 정의
 linktitle: 고급 차트 사용자 정의
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 고급 차트 사용자 정의로 프레젠테이션을 향상하세요. 시각적으로 멋진 차트를 만들고 정확한 요구 사항에 맞게 조정하는 방법을 알아보세요.
+type: docs
 weight: 23
 url: /ko/net/advanced-chart-customization/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 소개
 
@@ -37,9 +33,3 @@ Aspose.Slides for .NET을 사용하여 데이터 시각화를 향상시키는 �
 Aspose.Slides for .NET을 사용하여 차트 추세선을 만드는 방법을 알아보세요. 단계별 지침과 코드 예제를 통해 데이터 시각화를 강화하세요.
 ### [차트 엔터티 및 서식 지정](./chart-entities/)
 .NET용 Aspose.Slides를 사용하여 PowerPoint에서 동적 차트를 만들고 서식을 지정하는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드입니다.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Knoten an bestimmter Position in SmartArt entfernen
 linktitle: Knoten an bestimmter Position in SmartArt entfernen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java einen Knoten an einer bestimmten Position in SmartArt entfernen. Verbessern Sie mühelos die Präsentationsanpassung.
+type: docs
 weight: 15
 url: /de/java/java-powerpoint-smartart-manipulation/remove-node-specific-position-smartart-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 Im Bereich der Java-Entwicklung erweist sich Aspose.Slides als leistungsstarkes Tool zur programmgesteuerten Bearbeitung von Präsentationen. Ob zum Erstellen, Ändern oder Verwalten von Folien – Aspose.Slides für Java bietet eine Reihe robuster Funktionen, um diese Aufgaben effizient zu rationalisieren. Eine solche häufige Operation ist das Entfernen eines Knotens an einer bestimmten Position innerhalb eines SmartArt-Objekts. In diesem Tutorial wird der schrittweise Prozess zur Erledigung dieser Aufgabe mit Aspose.Slides für Java erläutert.
 ## Voraussetzungen
@@ -66,9 +62,3 @@ Mit Aspose.Slides für Java wird die Bearbeitung von SmartArt-Objekten in Präse
  Um Aspose.Slides für Java zu kaufen, besuchen Sie die Kaufseite[Hier](https://purchase.aspose.com/buy).
 ### Wo finde ich eine ausführliche Dokumentation für Aspose.Slides für Java?
  Sie haben Zugriff auf die ausführliche Dokumentation[Hier](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: 隐藏 Java 幻灯片中的图表信息
 linktitle: 隐藏 Java 幻灯片中的图表信息
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 隐藏 Java Slides 中的图表元素。通过分步指导和源代码自定义演示文稿，使其更清晰、更美观。
+type: docs
 weight: 13
 url: /zh/java/customization-and-formatting/hide-information-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 幻灯片中隐藏图表信息的简介
 
@@ -176,9 +172,3 @@ finally
 ### 如何以编程方式更改图表的标题和轴标签？
 
 您可以通过访问图表和轴的各自属性并设置所需的文本和格式来设置图表和轴的标题和标签。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

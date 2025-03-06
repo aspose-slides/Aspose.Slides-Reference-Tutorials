@@ -3,14 +3,10 @@ title: Afdrukken en renderen in dia's
 linktitle: Afdrukken en renderen in dia's
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter uw vaardigheden voor het afdrukken en renderen van dia's met Aspose.Slides-tutorials voor .NET. Leer stapsgewijze technieken voor uitvoer van hoge kwaliteit. Duik nu in diamanipulatie!
+type: docs
 weight: 10
 url: /nl/net/printing-and-rendering-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Invoering:
 
@@ -45,9 +41,3 @@ Leer hoe u uw presentatiedia's kunt verbeteren met Aspose.Slides voor .NET. Ontd
 Leer hoe u specifieke dia's uit PowerPoint-presentaties kunt afdrukken met Aspose.Slides voor .NET. Onze stapsgewijze handleiding behandelt de installatie, aanpassing en afhandeling van uitzonderingen en biedt een naadloze manier om PowerPoint-taken te automatiseren.
 ### [Ondersteuning van digitale handtekeningen in Aspose.Slides](./digital-signature-support/)
 Verbeter de beveiliging van presentaties met digitale handtekeningen met Aspose.Slides voor .NET. Leer stap voor stap handtekeningen toevoegen en verifiëren in PowerPoint.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

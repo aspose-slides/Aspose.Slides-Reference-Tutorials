@@ -3,14 +3,10 @@ title: จัดการส่วนหัวและส่วนท้าย�
 linktitle: จัดการส่วนหัวและส่วนท้ายในสไลด์
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: เรียนรู้วิธีเพิ่มส่วนหัวและส่วนท้ายแบบไดนามิกในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ .NET
+type: docs
 weight: 14
 url: /th/net/chart-creation-and-customization/header-footer-manager/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 # การสร้างส่วนหัวและส่วนท้ายแบบไดนามิกใน Aspose.Slides สำหรับ .NET
 
@@ -135,9 +131,3 @@ presentation.Save(dataDir + "Presentation.ppt", SaveFormat.Ppt);
 
 ### คำถามที่ 5: มีชุมชนหรือฟอรัมสนับสนุนสำหรับ Aspose.Slides สำหรับ .NET หรือไม่
  A5: ได้ คุณสามารถเยี่ยมชมฟอรัมสนับสนุน Aspose.Slides สำหรับ .NET ได้[ที่นี่](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

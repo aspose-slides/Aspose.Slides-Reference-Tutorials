@@ -3,14 +3,10 @@ title: PowerPoint で OLE オブジェクト データを変更する
 linktitle: PowerPoint で OLE オブジェクト データを変更する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint の OLE オブジェクト データを変更する方法を学びます。効率的で簡単な更新のためのステップ バイ ステップ ガイドです。
+type: docs
 weight: 14
 url: /ja/java/java-powerpoint-animation-shape-manipulation/change-ole-object-data-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 PowerPoint プレゼンテーションの OLE オブジェクト データを変更することは、各スライドを手動で編集せずに埋め込みコンテンツを更新する必要がある場合に重要なタスクになります。この包括的なガイドでは、PowerPoint プレゼンテーションの処理用に設計された強力なライブラリである Aspose.Slides for Java を使用して、プロセスを順を追って説明します。熟練した開発者でも、初心者でも、このチュートリアルは役立ち、簡単に理解できます。
 ## 前提条件
@@ -104,9 +100,3 @@ OLE (オブジェクトのリンクと埋め込み) オブジェクトを使用�
 はい、[無料トライアル](https://releases.aspose.com/) Aspose.Slides の機能をテストします。
 ### Aspose.Slides のドキュメントはどこにありますか?
 詳細なドキュメントは[Aspose.Slides ドキュメント ページ](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

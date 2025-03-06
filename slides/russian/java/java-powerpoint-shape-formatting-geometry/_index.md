@@ -3,14 +3,10 @@ title: Форматирование и геометрия фигур Java PowerP
 linktitle: Форматирование и геометрия фигур Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Откройте для себя учебные пособия по форматированию фигур и геометрии Java PowerPoint. Научитесь заполнять фигуры, находить фигуры и создавать собственную геометрию с помощью Aspose.Slides для Java.
+type: docs
 weight: 26
 url: /ru/java/java-powerpoint-shape-formatting-geometry/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 
 Создание визуально привлекательных презентаций PowerPoint часто требует точного форматирования фигур и геометрических манипуляций. С помощью Aspose.Slides для Java разработчики могут вывести свои презентации на новый уровень. В этой статье рассматриваются основные учебные пособия по заполнению фигур, поиску фигур и созданию собственной геометрии, позволяющей выделить ваши слайды.
@@ -78,9 +74,3 @@ url: /ru/java/java-powerpoint-shape-formatting-geometry/
 Узнайте, как получить данные о эффективном скосе формы в PowerPoint с помощью Aspose.Slides для Java. Улучшите свои презентации с помощью потрясающих визуальных эффектов.
 ### [Скрыть фигуры в PowerPoint](./hide-shapes-powerpoint/)
 Узнайте, как скрыть фигуры в PowerPoint с помощью Aspose.Slides для Java, с помощью нашего подробного пошагового руководства. Идеально подходит для Java-разработчиков всех уровней.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

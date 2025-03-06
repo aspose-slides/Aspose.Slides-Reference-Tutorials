@@ -3,14 +3,10 @@ title: Cree presentaciones dinámicas con marcos de zoom de Aspose.Slides
 linktitle: Crear marco de zoom en diapositivas de presentación con Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a crear presentaciones cautivadoras con marcos de zoom utilizando Aspose.Slides para .NET. Siga nuestra guía paso a paso para disfrutar de una experiencia de diapositivas atractiva.
+type: docs
 weight: 17
 url: /es/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introducción
 En el ámbito de las presentaciones, las diapositivas cautivadoras son clave para dejar una impresión duradera. Aspose.Slides para .NET proporciona un potente conjunto de herramientas y, en esta guía, lo guiaremos a través del proceso de incorporación de atractivos marcos de zoom en las diapositivas de su presentación.
 ## Requisitos previos
@@ -93,9 +89,3 @@ Sí, puedes personalizar varios aspectos, como el ancho de línea, el color de r
  Puedes adquirir una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 ### P: ¿Dónde puedo comprar la versión completa de Aspose.Slides para .NET?
  Puedes adquirir la versión completa.[aquí](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

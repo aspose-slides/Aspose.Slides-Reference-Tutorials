@@ -3,14 +3,10 @@ title: Alakzati sorrend módosítása a PowerPointban
 linktitle: Alakzati sorrend módosítása a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ebből a lépésenkénti oktatóanyagból megtudhatja, hogyan módosíthatja az alakzatok sorrendjét a PowerPointban az Aspose.Slides for Java segítségével. Fejlessze prezentációs készségeit könnyedén.
+type: docs
 weight: 15
 url: /hu/java/java-powerpoint-animation-shape-manipulation/change-shape-order-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 tetszetős és jól strukturált prezentációk készítése ijesztő feladat lehet. A megfelelő eszközökkel és technikákkal azonban jelentősen megkönnyítheti a munkát. Az Aspose.Slides for Java egy hatékony könyvtár, amely segít a PowerPoint prezentációk programozott kezelésében és kezelésében. Ebben az oktatóanyagban végigvezetjük a PowerPoint dián az Aspose.Slides for Java segítségével az alakzatok sorrendjének megváltoztatásának lépésein.
 ## Előfeltételek
@@ -77,9 +73,3 @@ Igen, az Aspose.Slides for Java támogatja a PPT, PPTX és más PowerPoint form�
  Ingyenes próbaverziót letölthet a webhelyről[Aspose.Slides for Java letöltési oldal](https://releases.aspose.com/).
 ### Hol találok további dokumentációt az Aspose.Slides for Java-ról?
  A részletes dokumentációt megtalálja a[Aspose.Slides for Java dokumentációs oldal](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

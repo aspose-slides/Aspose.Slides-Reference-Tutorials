@@ -3,14 +3,10 @@ title: 投影片中的形狀效果和操作
 linktitle: 投影片中的形狀效果和操作
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 利用形狀效果和操作的 Aspose.Slides 教學來增強簡報的視覺吸引力。了解如何使用形狀效果、動畫等創建令人驚嘆的幻燈片。
+type: docs
 weight: 11
 url: /zh-hant/net/shape-effects-and-manipulation-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 介紹
 
@@ -67,9 +63,3 @@ Aspose.Slides 提供了一系列為 .NET 開發人員量身訂製的形狀操作
 透過學習如何使用 Aspose.Slides 中的簡報投影片中的連接器連接形狀，增強您的簡報能力。今天就提升您的視覺敘事能力！
 ### [使用簡報投影片中的連線網站與 Aspose.Slides 連接形狀](./connecting-shape-using-connection-site/)
 透過學習如何使用 Aspose.Slides 中的簡報投影片中的連結點來連接形狀，提升您的簡報技能。請遵循我們的詳細指南和程式碼範例。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

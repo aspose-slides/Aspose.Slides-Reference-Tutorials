@@ -3,14 +3,10 @@ title: Définir l'angle de la ligne de connecteur dans PowerPoint
 linktitle: Définir l'angle de la ligne de connecteur dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir les angles des lignes de connecteur dans les présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Personnalisez vos diapositives avec précision.
+type: docs
 weight: 17
 url: /fr/java/java-powerpoint-animation-shape-manipulation/set-connector-line-angle-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Dans ce didacticiel, nous verrons comment définir l'angle des lignes de connecteur dans les présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Les lignes de connexion sont essentielles pour illustrer les relations et les flux entre les formes dans vos diapositives. En ajustant leurs angles, vous pouvez vous assurer que vos présentations transmettent votre message de manière claire et efficace.
 ## Conditions préalables
@@ -84,9 +80,3 @@ Aspose.Slides s'efforce de prendre en charge la plupart des fonctionnalités de 
 Certainement! Aspose.Slides offre de nombreuses options pour personnaliser les lignes de connecteur, notamment les styles, l'épaisseur et les extrémités, vous permettant de créer des présentations visuellement attrayantes.
 ### Où puis-je trouver de l'aide pour les requêtes liées à Aspose.Slides ?
  Vous pouvez visiter le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour obtenir de l'aide concernant toute question ou problème que vous rencontrez au cours de votre processus de développement.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

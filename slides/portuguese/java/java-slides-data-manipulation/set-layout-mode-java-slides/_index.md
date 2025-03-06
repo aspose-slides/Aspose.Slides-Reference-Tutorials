@@ -3,14 +3,10 @@ title: Definir modo de layout em slides Java
 linktitle: Definir modo de layout em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como definir modos de layout para slides Java usando Aspose.Slides. Personalize o posicionamento e o dimensionamento do gráfico neste guia passo a passo com código-fonte.
+type: docs
 weight: 23
 url: /pt/java/data-manipulation/set-layout-mode-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introdução à definição do modo de layout em slides Java
 
@@ -99,9 +95,3 @@ finally
 ### Onde posso encontrar mais informações sobre Aspose.Slides para Java?
 
  Você pode encontrar mais informações sobre Aspose.Slides para Java no[documentação](https://reference.aspose.com/slides/java/). Inclui referências detalhadas de API e exemplos para ajudá-lo a trabalhar com slides e gráficos de maneira eficaz em Java.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

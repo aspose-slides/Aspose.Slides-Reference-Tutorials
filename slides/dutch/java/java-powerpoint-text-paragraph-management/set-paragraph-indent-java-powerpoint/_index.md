@@ -3,14 +3,10 @@ title: Stel de alinea-inspringing in Java PowerPoint in
 linktitle: Stel de alinea-inspringing in Java PowerPoint in
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u alinea-inspringingen in PowerPoint-dia's programmatisch kunt instellen met Aspose.Slides voor Java. Verbeter moeiteloos de opmaak van uw presentatie.
+type: docs
 weight: 16
 url: /nl/java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 In deze zelfstudie leert u hoe u PowerPoint-presentaties programmatisch kunt manipuleren met Aspose.Slides voor Java. We zullen ons specifiek concentreren op het instellen van alinea-inspringingen binnen dia's. Aspose.Slides voor Java biedt een krachtige set API's waarmee ontwikkelaars PowerPoint-presentaties kunnen maken, wijzigen, converteren en beheren zonder afhankelijk te zijn van Microsoft Office Automation.
 ## Vereisten
@@ -89,9 +85,3 @@ Aspose.Slides voor Java is een krachtige bibliotheek voor het programmatisch wer
  Ja, u kunt een gratis proefperiode krijgen van[hier](https://releases.aspose.com/).
 ### Waar kan ik ondersteuning krijgen voor Aspose.Slides voor Java?
  U kunt ondersteuning krijgen via het communityforum[hier](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

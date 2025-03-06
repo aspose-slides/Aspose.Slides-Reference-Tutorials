@@ -3,14 +3,10 @@ title: 在 Java 中设置 SmartArt 形状节点的填充格式
 linktitle: 在 Java 中设置 SmartArt 形状节点的填充格式
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 在 Java 中设置 SmartArt 形状节点的填充格式。使用鲜艳的色彩和迷人的视觉效果增强您的演示文稿。
+type: docs
 weight: 12
 url: /zh/java/java-powerpoint-smartart-manipulation/set-fill-format-smartart-shape-node-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 在数字内容创作的动态环境中，Aspose.Slides for Java 是一款功能强大的工具，可轻松高效地制作视觉效果极佳的演示文稿。无论您是经验丰富的开发人员还是刚刚起步，掌握幻灯片中形状的操作技巧对于创建引人入胜的演示文稿并给观众留下深刻印象至关重要。
 ## 先决条件
@@ -69,9 +65,3 @@ presentation.save(dataDir + "FillFormat_SmartArt_ShapeNode_out.pptx", SaveFormat
 当然！Aspose.Slides for Java 提供了广泛的自定义选项，可以根据您的喜好定制 SmartArt 形状的外观。
 ### Aspose.Slides for Java 是否适合初学者和有经验的开发人员？
 是的，Aspose.Slides for Java 适合各种技能水平的开发人员，提供直观的 API 和全面的文档，以方便集成和使用。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

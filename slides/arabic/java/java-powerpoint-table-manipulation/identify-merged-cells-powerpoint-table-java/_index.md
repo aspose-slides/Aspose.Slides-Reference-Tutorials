@@ -3,14 +3,10 @@ title: تحديد الخلايا المدمجة في جدول PowerPoint باس�
 linktitle: تحديد الخلايا المدمجة في جدول PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحديد الخلايا المدمجة في جداول PowerPoint برمجياً باستخدام Aspose.Slides لـ Java. مثالية لمطوري جافا.
+type: docs
 weight: 15
 url: /ar/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 في مجال تطوير Java، يمكن أن تكون معالجة عروض PowerPoint التقديمية برمجيًا مهمة بالغة الأهمية، خاصة عند التعامل مع جداول البيانات المعقدة. يوفر Aspose.Slides for Java مجموعة أدوات قوية تمكن المطورين من إدارة الجوانب المختلفة لعروض PowerPoint التقديمية بسلاسة. أحد التحديات الشائعة التي يواجهها المطورون هو تحديد الخلايا المدمجة داخل الجداول المضمنة في العروض التقديمية. يهدف هذا البرنامج التعليمي إلى إرشادك خلال عملية تحديد الخلايا المدمجة باستخدام Aspose.Slides لـ Java.
 ## المتطلبات الأساسية
@@ -71,9 +67,3 @@ Aspose.Slides for Java هي مكتبة قوية لمعالجة عروض PowerPoi
  يمكن العثور على الوثائق[هنا](https://reference.aspose.com/slides/java/).
 ### كيف يمكنني الحصول على الدعم لـ Aspose.Slides لـ Java؟
 للحصول على الدعم، قم بزيارة منتدى Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

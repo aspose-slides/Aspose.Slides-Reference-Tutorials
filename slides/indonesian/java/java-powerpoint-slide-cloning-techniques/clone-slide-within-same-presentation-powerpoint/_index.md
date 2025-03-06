@@ -3,14 +3,10 @@ title: Kloning Slide dalam Presentasi yang Sama
 linktitle: Kloning Slide dalam Presentasi yang Sama
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Kloning slide dalam presentasi yang sama menggunakan Aspose.Slides untuk Java dengan panduan kami. Sempurna untuk pengembang yang ingin menyederhanakan manipulasi PowerPoint.
+type: docs
 weight: 15
 url: /id/java/java-powerpoint-slide-cloning-techniques/clone-slide-within-same-presentation-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Apakah Anda siap untuk terjun ke dunia Aspose.Slides untuk Java dan mempelajari cara mengkloning slide dalam presentasi yang sama? Tutorial ini akan memandu Anda melalui semua yang perlu Anda ketahui, mulai dari prasyarat hingga implementasi akhir. Mari kita mulai!
 ## Prasyarat
@@ -71,9 +67,3 @@ Aspose.Slides for Java adalah API yang kuat untuk bekerja dengan presentasi Powe
 Dokumentasi untuk Aspose.Slides untuk Java tersedia di[Asumsikan situs web](https://reference.aspose.com/slides/java/).
 ### Bagaimana saya bisa membeli Aspose.Slides untuk Java?
  Anda dapat membeli Aspose.Slides untuk Java dengan mengunjungi[halaman pembelian](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

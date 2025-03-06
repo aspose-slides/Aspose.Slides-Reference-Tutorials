@@ -3,14 +3,10 @@ title: Lägga till hyperlänkar till Slides i .NET med Aspose.Slides
 linktitle: Lägg till hyperlänk till bild
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du lägger till hyperlänkar till PowerPoint-bilder med Aspose.Slides för .NET. Förbättra dina presentationer med interaktiva element.
+type: docs
 weight: 12
 url: /sv/net/hyperlink-manipulation/add-hyperlink/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 I en värld av digitala presentationer är interaktivitet nyckeln. Att lägga till hyperlänkar till dina bilder kan göra din presentation mer engagerande och informativ. Aspose.Slides för .NET är ett kraftfullt bibliotek som låter dig skapa, ändra och manipulera PowerPoint-presentationer programmatiskt. I den här handledningen visar vi dig hur du lägger till hyperlänkar till dina bilder med Aspose.Slides för .NET. 
 
@@ -110,9 +106,3 @@ Aspose.Slides erbjuder ett brett utbud av interaktiva funktioner, inklusive åtg
 ### 5. Är Aspose.Slides tillgängligt för andra programmeringsspråk?
 
 Ja, Aspose.Slides är tillgängligt för olika programmeringsspråk, inklusive Java och Python.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

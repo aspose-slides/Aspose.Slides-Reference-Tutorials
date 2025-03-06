@@ -3,14 +3,10 @@ title: Pfeilförmige Linie in PowerPoint hinzufügen
 linktitle: Pfeilförmige Linie in PowerPoint hinzufügen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java pfeilförmige Linien zu PowerPoint-Präsentationen hinzufügen. Verbessern Sie mühelos die visuelle Attraktivität.
+type: docs
 weight: 10
 url: /de/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 Das Hinzufügen pfeilförmiger Linien zu PowerPoint-Präsentationen kann die visuelle Attraktivität steigern und dabei helfen, Informationen effektiv zu vermitteln. Aspose.Slides für Java bietet Java-Entwicklern eine umfassende Lösung, um PowerPoint-Präsentationen programmgesteuert zu bearbeiten. In diesem Tutorial führen wir Sie durch den Prozess des Hinzufügens pfeilförmiger Linien zu Ihren PowerPoint-Folien mit Aspose.Slides für Java.
 ## Voraussetzungen
@@ -80,9 +76,3 @@ Sie können die Dokumentation erkunden, die Bibliothek herunterladen und über d
  Dokumentation:[Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/)
  Herunterladen:[Aspose.Slides für Java herunterladen](https://releases.aspose.com/slides/java/)
  Unterstützung:[Aspose.Slides für Java-Supportforum](https://forum.aspose.com/c/slides/11)
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

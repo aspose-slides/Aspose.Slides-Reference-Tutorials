@@ -3,14 +3,10 @@ title: Chuyển đổi sang PDF với các slide ẩn trong Java Slides
 linktitle: Chuyển đổi sang PDF với các slide ẩn trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách chuyển đổi bản trình bày PowerPoint sang PDF với các trang trình bày ẩn bằng Aspose.Slides cho Java. Làm theo hướng dẫn từng bước của chúng tôi với mã nguồn để tạo PDF liền mạch.
+type: docs
 weight: 27
 url: /vi/java/presentation-conversion/convert-pdf-hidden-slides-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu Chuyển đổi bản trình bày PowerPoint sang PDF với các slide ẩn bằng Aspose.Slides cho Java
 
@@ -119,9 +115,3 @@ slide.setHidden(false);
 ### Làm cách nào để tải xuống Aspose.Slides cho Java?
 
  Bạn có thể tải xuống Aspose.Slides cho Java từ trang web Aspose. Tham quan[Trang tải xuống Aspose.Slides cho Java](https://releases.aspose.com/slides/java/) để có được phiên bản mới nhất.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

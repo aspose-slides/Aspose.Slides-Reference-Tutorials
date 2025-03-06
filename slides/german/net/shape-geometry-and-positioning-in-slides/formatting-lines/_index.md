@@ -3,14 +3,10 @@ title: Formatieren Sie Präsentationszeilen mit dem Aspose.Slides .NET-Tutorial
 linktitle: Formatieren von Linien in Präsentationsfolien mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Ihre Präsentationsfolien mit Aspose.Slides für .NET. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um Zeilen mühelos zu formatieren. Laden Sie jetzt die kostenlose Testversion herunter!
+type: docs
 weight: 10
 url: /de/net/shape-geometry-and-positioning-in-slides/formatting-lines/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 Das Erstellen optisch ansprechender Präsentationsfolien ist für eine effektive Kommunikation unerlässlich. Aspose.Slides für .NET bietet eine leistungsstarke Lösung zum programmgesteuerten Bearbeiten und Formatieren von Präsentationselementen. In diesem Tutorial konzentrieren wir uns auf das Formatieren von Zeilen in Präsentationsfolien mit Aspose.Slides für .NET.
 ## Voraussetzungen
@@ -79,9 +75,3 @@ Ja, Aspose.Slides unterstützt verschiedene Programmiersprachen, darunter Java u
  Eine vorläufige Lizenz erhalten Sie bei[Aspose.Slides Temporäre Lizenz](https://purchase.aspose.com/temporary-license/).
 ### F5: Wo kann ich Aspose.Slides für .NET kaufen?
  Sie können das Produkt kaufen bei[Aspose.Slides kaufen](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

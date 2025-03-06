@@ -3,14 +3,10 @@ title: تحويل العروض التقديمية إلى PDF محمي بكلمة
 linktitle: تحويل العروض التقديمية إلى PDF محمي بكلمة مرور
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تأمين العروض التقديمية عن طريق حماية كلمة المرور وتحويلها إلى ملفات PDF باستخدام Aspose.Slides for .NET. تعزيز أمن البيانات الآن.
+type: docs
 weight: 16
 url: /ar/net/presentation-conversion/password-protect-presentations-convert-to-password-protected-pdf/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 في العصر الرقمي الحالي، يعد تأمين العروض التقديمية الحساسة أمرًا بالغ الأهمية. إحدى الطرق الفعالة لضمان سرية عروض PowerPoint التقديمية هي تحويلها إلى ملفات PDF محمية بكلمة مرور. باستخدام Aspose.Slides for .NET، يمكنك تحقيق ذلك بسلاسة. في هذا الدليل الشامل، سنرشدك خلال عملية تحويل العروض التقديمية إلى ملفات PDF محمية بكلمة مرور باستخدام Aspose.Slides for .NET API. بحلول نهاية هذا البرنامج التعليمي، سيكون لديك المعرفة والأدوات اللازمة لحماية العروض التقديمية الخاصة بك بسهولة.
 
@@ -81,9 +77,3 @@ presentation.Save(outPath + "PasswordProtectedPDF_out.pdf", SaveFormat.Pdf, pdfO
 ### أين يمكنني الوصول إلى وثائق Aspose.Slides for .NET API؟
 
  يمكنك الوصول إلى وثائق Aspose.Slides for .NET على[هنا](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

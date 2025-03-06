@@ -3,14 +3,10 @@ title: Cách chuyển đổi các slide thuyết trình riêng lẻ
 linktitle: Cách chuyển đổi các slide thuyết trình riêng lẻ
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách dễ dàng chuyển đổi các trang trình bày riêng lẻ bằng Aspose.Slides cho .NET. Tạo, thao tác và lưu các slide theo chương trình.
+type: docs
 weight: 12
 url: /vi/net/presentation-conversion/how-to-convert-individual-presentation-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu Aspose.Slides cho .NET
 
@@ -145,9 +141,3 @@ Tuyệt đối! Aspose.Slides for .NET hỗ trợ chuyển đổi sang nhiều �
 ### Tôi có thể tùy chỉnh bố cục slide bằng Aspose.Slides không?
 
 Có, bạn có thể tùy chỉnh bố cục trang chiếu, thêm hình dạng, hình ảnh và áp dụng hoạt ảnh bằng Aspose.Slides for .NET, mang lại cho bạn toàn quyền kiểm soát bản trình bày của mình.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

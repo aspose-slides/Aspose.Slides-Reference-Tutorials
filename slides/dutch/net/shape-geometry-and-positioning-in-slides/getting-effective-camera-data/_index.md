@@ -3,14 +3,10 @@ title: Beheers effectieve cameragegevensextractie met Aspose.Slides
 linktitle: Effectieve cameragegevens verkrijgen in presentatiedia's
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Ontgrendel het potentieel van Aspose.Slides voor .NET met onze stapsgewijze handleiding voor het extraheren van effectieve cameragegevens uit presentatiedia's.
+type: docs
 weight: 18
 url: /nl/net/shape-geometry-and-positioning-in-slides/getting-effective-camera-data/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 Heeft u zich ooit afgevraagd hoe u cameragegevens kunt extraheren en manipuleren die zijn ingebed in uw presentatiedia's? Zoek niet verder! Deze tutorial begeleidt u bij het verkrijgen van effectieve cameragegevens met Aspose.Slides voor .NET. Aspose.Slides is een krachtige bibliotheek waarmee u naadloos kunt werken met presentatiebestanden in uw .NET-toepassingen.
 ## Vereisten
@@ -72,9 +68,3 @@ Ja, Aspose.Slides ondersteunt verschillende .NET-frameworks, waaronder .NET Core
  Er kan een tijdelijke licentie worden verkregen[hier](https://purchase.aspose.com/temporary-license/).
 ### Waar kan ik Aspose.Slides voor .NET kopen?
  Om Aspose.Slides te kopen, ga naar de[aankooppagina](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

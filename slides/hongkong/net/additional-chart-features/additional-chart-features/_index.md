@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides for .NET 探索進階圖表功能
 linktitle: Aspose.Slides 中的其他圖表功能
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解 Aspose.Slides for .NET 中的進階圖表功能，以增強您的 PowerPoint 簡報。清除資料點、恢復工作簿等等！
+type: docs
 weight: 10
 url: /zh-hant/net/additional-chart-features/additional-chart-features/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 在資料視覺化和簡報設計領域，Aspose.Slides for .NET 是一款功能強大的工具，可建立令人驚嘆的圖表並增強 PowerPoint 簡報。本逐步指南將引導您了解 Aspose.Slides for .NET 提供的各種進階圖表功能。無論您是開發人員還是演示愛好者，本教學都將幫助您充分利用該程式庫的潛力。
 
@@ -152,9 +148,3 @@ Aspose.Slides for .NET 提供了一個強大的平台，在 PowerPoint 簡報中
 ### 我如何獲得 Aspose.Slides for .NET 的支援或協助？
 
 如有任何技術問題或支持，您可以訪問[Aspose.Slides 論壇](https://forum.aspose.com/)，您可以在其中找到常見問題的答案並從社區獲得幫助。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

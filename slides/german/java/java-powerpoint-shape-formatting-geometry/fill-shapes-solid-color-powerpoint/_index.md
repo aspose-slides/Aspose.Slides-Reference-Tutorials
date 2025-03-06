@@ -3,14 +3,10 @@ title: Füllen Sie Formen mit Volltonfarbe in PowerPoint
 linktitle: Füllen Sie Formen mit Volltonfarbe in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Formen in PowerPoint mit Volltonfarben füllen. Eine Schritt-für-Schritt-Anleitung für Entwickler.
+type: docs
 weight: 13
 url: /de/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 Wenn Sie schon einmal mit PowerPoint-Präsentationen gearbeitet haben, wissen Sie, dass das Hinzufügen von Formen und Anpassen ihrer Farben entscheidend dazu beitragen kann, Ihre Folien optisch ansprechend und informativ zu gestalten. Mit Aspose.Slides für Java wird dieser Vorgang zum Kinderspiel. Egal, ob Sie Entwickler sind und die Erstellung von PowerPoint-Präsentationen automatisieren möchten, oder ob Sie Ihren Folien einen Farbtupfer hinzufügen möchten, dieses Tutorial führt Sie durch den Vorgang des Füllens von Formen mit Volltonfarben mithilfe von Aspose.Slides für Java.
 ## Voraussetzungen
@@ -89,9 +85,3 @@ Ja, mit Aspose.Slides für Java können Sie vorhandene PowerPoint-Präsentatione
  Ja, Sie können eine kostenlose Testversion herunterladen von der[Aspose-Website](https://releases.aspose.com/).
 ### Wo finde ich weitere Dokumentation und Support?
  Eine ausführliche Dokumentation finden Sie auf der[Aspose-Website](https://reference.aspose.com/slides/java/) und Sie können Unterstützung auf der[Aspose-Foren](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

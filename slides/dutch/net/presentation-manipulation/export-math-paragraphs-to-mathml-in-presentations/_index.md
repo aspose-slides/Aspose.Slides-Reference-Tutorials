@@ -3,14 +3,10 @@ title: Wiskundige alinea's exporteren naar MathML in presentaties
 linktitle: Wiskundige alinea's exporteren naar MathML in presentaties
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter uw presentaties door wiskundige paragrafen naar MathML te exporteren met behulp van Aspose.Slides voor .NET. Volg onze stapsgewijze handleiding voor nauwkeurige wiskundige weergave. Download Aspose.Slides en begin vandaag nog met het maken van boeiende presentaties.
+type: docs
 weight: 14
 url: /nl/net/presentation-manipulation/export-math-paragraphs-to-mathml-in-presentations/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 In de wereld van moderne presentaties speelt wiskundige inhoud vaak een cruciale rol bij het overbrengen van complexe ideeën en gegevens. Als je met Aspose.Slides voor .NET werkt, heb je geluk! Deze tutorial leidt u door het proces van het exporteren van wiskundige paragrafen naar MathML, zodat u wiskundige inhoud naadloos in uw presentaties kunt integreren. Laten we dus een duik nemen in de wereld van MathML en Aspose.Slides.
 
@@ -77,10 +73,3 @@ Nee, je hoeft geen expert te zijn. Aspose.Slides voor .NET vereenvoudigt het pro
 Ja, u kunt MathML-inhoud eenvoudig integreren in uw bestaande presentaties met Aspose.Slides voor .NET.
 
 Nu u hebt geleerd hoe u wiskundige paragrafen kunt exporteren naar MathML met Aspose.Slides voor .NET, bent u klaar om dynamische en boeiende presentaties met wiskundige inhoud te maken. Veel plezier met presenteren!
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

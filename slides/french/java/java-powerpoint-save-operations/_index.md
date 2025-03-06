@@ -3,14 +3,10 @@ title: Opérations d'enregistrement Java PowerPoint
 linktitle: Opérations d'enregistrement Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment enregistrer des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Tutoriels sur l'enregistrement dans un fichier, le streaming et l'ajout d'une protection par mot de passe.
+type: docs
 weight: 20
 url: /fr/java/java-powerpoint-save-operations/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction
 
@@ -36,9 +32,3 @@ Découvrez comment enregistrer des présentations PowerPoint dans des fichiers p
 Découvrez comment enregistrer des présentations PowerPoint dans un flux à l'aide d'Aspose.Slides pour Java. Suivez notre guide étape par étape pour une intégration transparente.
 ### [Enregistrer PowerPoint avec mot de passe](./save-powerpoint-with-password/)
 Découvrez comment ajouter une protection par mot de passe aux présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Sécurisez vos diapositives en toute simplicité.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

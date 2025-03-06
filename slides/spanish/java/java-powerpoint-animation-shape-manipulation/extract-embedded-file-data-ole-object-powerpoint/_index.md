@@ -3,14 +3,10 @@ title: Extraiga datos de archivos incrustados de un objeto OLE en PowerPoint
 linktitle: Extraiga datos de archivos incrustados de un objeto OLE en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a extraer datos de archivos incrustados de presentaciones de PowerPoint utilizando Aspose.Slides para Java, mejorando las capacidades de gestión de documentos.
+type: docs
 weight: 22
 url: /es/java/java-powerpoint-animation-shape-manipulation/extract-embedded-file-data-ole-object-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introducción
 En el ámbito de la programación Java, extraer datos de archivos incrustados de objetos OLE (Object Linking and Embedding) dentro de presentaciones de PowerPoint es una tarea que surge con frecuencia, particularmente en aplicaciones de gestión de documentos o extracción de datos. Aspose.Slides para Java ofrece una solución sólida para manejar presentaciones de PowerPoint mediante programación. En este tutorial, exploraremos cómo extraer datos de archivos incrustados de objetos OLE usando Aspose.Slides para Java.
@@ -91,9 +87,3 @@ Sí, Aspose.Slides garantiza la compatibilidad con presentaciones de PowerPoint 
 Por supuesto, Aspose.Slides proporciona API integrales para automatizar tareas como la extracción de datos de archivos incrustados, lo que permite un procesamiento de documentos eficiente y optimizado.
 ### ¿Dónde puedo encontrar más ayuda o soporte para Aspose.Slides?
  Para cualquier consulta, asistencia técnica o soporte de la comunidad, puede visitar el foro Aspose.Diapositivas o consultar la documentación.[Aspose.Slides](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

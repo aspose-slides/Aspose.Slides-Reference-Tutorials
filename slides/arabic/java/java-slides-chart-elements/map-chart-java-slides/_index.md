@@ -3,14 +3,10 @@ title: مخطط الخريطة في شرائح جافا
 linktitle: مخطط الخريطة في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بإنشاء مخططات خريطة مذهلة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة والكود المصدري لمطوري Java.
+type: docs
 weight: 15
 url: /ar/java/chart-elements/map-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة إلى مخطط الخريطة في شرائح Java باستخدام Aspose.Slides لـ Java
 
@@ -135,9 +131,3 @@ try {
 ### كيف يمكنني دمج Aspose.Slides for Java في مشروعي؟
 
  تحميل المكتبة من[هنا](https://releases.aspose.com/slides/java/) وإضافته إلى مسار الفصل الخاص بمشروعك.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

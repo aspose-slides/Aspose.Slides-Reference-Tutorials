@@ -3,14 +3,10 @@ title: Dostosowywanie i formatowanie slajdów Java
 linktitle: Dostosowywanie i formatowanie slajdów Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Odkryj moc Aspose.Slides for Java w dostosowywaniu i formatowaniu slajdów Java. Dowiedz się krok po kroku z naszych tutoriali. Podnieś swoje umiejętności prezentacji.
+type: docs
 weight: 12
 url: /pl/java/customization-and-formatting/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
  W tym artykule zagłębimy się w świat dostosowywania i formatowania slajdów w Javie za pomocą Aspose.Slides for Java. Niezależnie od tego, czy jesteś doświadczonym programistą, czy dopiero zaczynasz od prezentacji Java, nasza lista samouczków będzie Twoim przewodnikiem po wykorzystaniu pełnego potencjału Aspose.Slides.|
 
@@ -53,9 +49,3 @@ Dowiedz się, jak ustawić właściwości czcionki na slajdach Java za pomocą A
 Ulepsz swoje wykresy za pomocą Aspose.Slides dla Java. Dowiedz się, jak ustawić oś pozycji na slajdach Java, tworzyć wspaniałe prezentacje i z łatwością dostosowywać układy wykresów.
 ### [Ustawianie kąta obrotu w slajdach Java](./setting-rotation-angle-java-slides/)
 Zoptymalizuj swoje slajdy Java za pomocą Aspose.Slides for Java. Naucz się ustawiać kąty obrotu elementów tekstowych. Przewodnik krok po kroku z kodem źródłowym.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

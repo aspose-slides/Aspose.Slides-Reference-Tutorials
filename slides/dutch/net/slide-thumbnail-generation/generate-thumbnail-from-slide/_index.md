@@ -3,14 +3,10 @@ title: Genereer diaminiaturen met Aspose.Slides voor .NET
 linktitle: Miniatuur genereren van dia
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-diaminiaturen kunt genereren met Aspose.Slides voor .NET. Verbeter uw presentaties eenvoudig.
+type: docs
 weight: 11
 url: /nl/net/slide-thumbnail-generation/generate-thumbnail-from-slide/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 In de wereld van digitale presentaties is het maken van aantrekkelijke en informatieve diaminiaturen een essentieel onderdeel van het trekken van de aandacht van uw publiek. Aspose.Slides voor .NET is een krachtige bibliotheek waarmee u miniaturen kunt genereren van dia's in uw .NET-toepassingen. In deze stapsgewijze handleiding laten we u zien hoe u dit kunt bereiken met Aspose.Slides voor .NET.
 
@@ -110,10 +106,3 @@ Ja, Aspose biedt verschillende licentieopties, waaronder tijdelijke licenties vo
 
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Slides voor .NET als ik problemen ondervind of vragen heb?
  U kunt hulp zoeken en deelnemen aan discussies op het Aspose-communityondersteuningsforum[hier](https://forum.aspose.com/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Získejte efektivní data fotoaparátu v PowerPointu
 linktitle: Získejte efektivní data fotoaparátu v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: V tomto podrobném průvodci se dozvíte, jak získat efektivní data fotoaparátu ze snímků aplikace PowerPoint pomocí Aspose.Slides for Java.
+type: docs
 weight: 24
 url: /cs/java/java-powerpoint-shape-formatting-geometry/get-camera-effective-data-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 Aspose.Slides for Java je výkonná knihovna, která umožňuje vývojářům programově vytvářet, upravovat a spravovat prezentace PowerPoint. Ať už automatizujete generování sestav, vytváříte vlastní snímky nebo jednoduše pracujete s daty prezentace, Aspose.Slides poskytuje komplexní sadu funkcí, které splní vaše potřeby. V této příručce se ponoříme do toho, jak získat efektivní data fotoaparátu ze snímku aplikace PowerPoint pomocí Aspose.Slides for Java. Provedeme vás každým krokem a zajistíme, abyste procesu jasně porozuměli.
 ## Předpoklady
@@ -74,9 +70,3 @@ Aspose.Slides je k dispozici pro více programovacích jazyků včetně .NET, al
  Ano, komerční licence lze zakoupit[tady](https://purchase.aspose.com/buy).
 ### Kde najdu dokumentaci k Aspose.Slides for Java?
  Dokumentace je k dispozici[tady](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

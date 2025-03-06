@@ -3,14 +3,10 @@ title: احفظ PowerPoint بالخط العادي الافتراضي باستخ
 linktitle: احفظ PowerPoint بالخط العادي الافتراضي باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية التعامل مع عروض PowerPoint التقديمية برمجياً باستخدام Aspose.Slides لـ Java. إتقان التعامل مع Java PowerPoint من خلال البرامج التعليمية خطوة بخطوة.
+type: docs
 weight: 12
 url: /ar/java/java-powerpoint-text-font-customization/save-powerpoint-default-regular-font-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 في مجال تطوير Java، يمكن أن يؤدي إنشاء عروض PowerPoint التقديمية ومعالجتها برمجيًا إلى تحسين خيارات الإنتاجية والتخصيص بشكل كبير. Aspose.Slides for Java هي مكتبة قوية تمكن المطورين من التعامل بكفاءة مع ملفات PowerPoint، وتقدم مجموعة شاملة من الميزات بدءًا من التعديلات البسيطة وحتى العروض التقديمية المعقدة.
 ## المتطلبات الأساسية
@@ -73,9 +69,3 @@ try {
  نعم، يمكنك الحصول على دعم المجتمع[هنا](https://forum.aspose.com/c/slides/11).
 ### هل يمكنني تجربة Aspose.Slides لـ Java مجانًا؟
  نعم، قم بتنزيل نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Właściwości czcionki dla indywidualnej legendy w slajdach Java
 linktitle: Właściwości czcionki dla indywidualnej legendy w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Ulepsz prezentacje programu PowerPoint za pomocą niestandardowych stylów czcionek, rozmiarów i kolorów poszczególnych legend w Java Slides za pomocą Aspose.Slides for Java.
+type: docs
 weight: 12
 url: /pl/java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Wprowadzenie do właściwości czcionek dla poszczególnych legend w slajdach Java
 
@@ -117,9 +113,3 @@ Pamiętaj, aby po zakończeniu zwalniania zasobów pozbyć się obiektu prezenta
 ```java
 if (pres != null) pres.dispose();
 ```
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Hapus Segmen dari Bentuk Geometri di PowerPoint
 linktitle: Hapus Segmen dari Bentuk Geometri di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menghapus segmen dari bentuk geometri di PowerPoint menggunakan Aspose.Slides untuk Java dengan panduan langkah demi langkah kami yang terperinci.
+type: docs
 weight: 22
 url: /id/java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-shape-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Apakah Anda ingin memanipulasi bentuk dalam presentasi PowerPoint Anda menggunakan Java? Anda datang ke tempat yang tepat! Aspose.Slides for Java adalah API tangguh yang memungkinkan Anda membuat, memodifikasi, dan mengelola slide dalam presentasi Anda dengan mudah. Dalam tutorial ini, kami akan memandu Anda melalui proses menghapus segmen dari bentuk geometri di PowerPoint. Baik Anda seorang pengembang berpengalaman atau baru memulai, panduan ini akan memberi Anda pendekatan langkah demi langkah untuk menguasai tugas ini. Siap untuk terjun? Mari kita mulai!
 ## Prasyarat
@@ -75,9 +71,3 @@ Sangat! Aspose.Slides untuk Java mendukung berbagai bentuk yang dapat Anda manip
  Ya, Anda memerlukan lisensi untuk fungsionalitas penuh. Anda dapat membelinya[Di Sini](https://purchase.aspose.com/buy) atau dapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Slides untuk Java?
  Dokumentasi komprehensif tersedia[Di Sini](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

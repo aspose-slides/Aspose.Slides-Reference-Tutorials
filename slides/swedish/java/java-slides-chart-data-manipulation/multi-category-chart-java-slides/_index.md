@@ -3,14 +3,10 @@ title: Flerkategoridiagram i Java Slides
 linktitle: Flerkategoridiagram i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Skapa flerkategoridiagram i Java Slides med Aspose.Slides för Java. Steg-för-steg-guide med källkod för imponerande datavisualisering i presentationer.
+type: docs
 weight: 20
 url: /sv/java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion till flerkategoridiagram i Java Slides med Aspose.Slides
 
@@ -161,9 +157,3 @@ Ja, du kan lägga till ytterligare serier i diagrammet genom att följa en likna
 ### Hur kan jag lägga till en titel i diagrammet?
 
  Du kan lägga till en titel till diagrammet genom att använda`ch.getChartTitle().getTextFrame().setText("Chart Title");` metod.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

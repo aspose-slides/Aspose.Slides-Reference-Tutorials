@@ -3,14 +3,10 @@ title: Mastering Animation Targets με Aspose.Slides για .NET
 linktitle: Ορισμός στόχων κινούμενης εικόνας για σχήματα διαφανειών παρουσίασης χρησιμοποιώντας το Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να ζωντανεύετε τις παρουσιάσεις σας με το Aspose.Slides για .NET! Ορίστε στόχους κινουμένων σχεδίων χωρίς κόπο και μαγέψτε το κοινό σας.
+type: docs
 weight: 22
 url: /el/net/shape-effects-and-manipulation-in-slides/setting-animation-targets-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Στον δυναμικό κόσμο των παρουσιάσεων, η προσθήκη κινούμενων εικόνων στις διαφάνειές σας μπορεί να αλλάξει το παιχνίδι. Το Aspose.Slides for .NET δίνει τη δυνατότητα στους προγραμματιστές να δημιουργούν ελκυστικές και οπτικά ελκυστικές παρουσιάσεις, επιτρέποντας τον ακριβή έλεγχο των στόχων κινούμενων εικόνων για σχήματα διαφανειών. Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία ορισμού στόχων κινούμενων εικόνων χρησιμοποιώντας το Aspose.Slides για .NET. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, αυτό το σεμινάριο θα σας βοηθήσει να αξιοποιήσετε τη δύναμη των κινούμενων εικόνων στις παρουσιάσεις σας.
 ## Προαπαιτούμενα
@@ -66,9 +62,3 @@ foreach (ISlide slide in pres.Slides)
 Ναι, το Aspose.Slides παρέχει επιλογές για την προσαρμογή της διάρκειας και του χρονισμού κάθε κινούμενης εικόνας.
 ### Πού μπορώ να βρω περισσότερα παραδείγματα και τεκμηρίωση για το Aspose.Slides;
  Εξερευνήστε το[Aspose.Slides για τεκμηρίωση .NET](https://reference.aspose.com/slides/net/) για λεπτομερείς πληροφορίες και παραδείγματα.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Akses Node Anak di SmartArt menggunakan Java
 linktitle: Akses Node Anak di SmartArt menggunakan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengakses dan memanipulasi node anak di SmartArt menggunakan Aspose.Slides untuk Java dengan panduan langkah demi langkah ini.
+type: docs
 weight: 10
 url: /id/java/java-powerpoint-smartart-manipulation/access-child-nodes-smartart-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Pernah bertanya-tanya bagaimana Anda bisa memanipulasi grafik SmartArt dalam presentasi Anda secara terprogram? Aspose.Slides untuk Java adalah perpustakaan masuk Anda untuk mengelola dan mengedit presentasi PowerPoint. Alat canggih ini memungkinkan pengembang mengakses dan memanipulasi berbagai elemen dalam presentasi, termasuk grafik SmartArt. Dalam tutorial ini, kami akan memandu Anda mengakses node anak di SmartArt menggunakan Java, menjadikan presentasi Anda lebih dinamis dan interaktif. Di akhir panduan ini, Anda akan dibekali dengan pengetahuan untuk melintasi dan memanipulasi node SmartArt dengan mudah.
 ## Prasyarat
@@ -85,9 +81,3 @@ Ya, Aspose.Slides untuk Java memungkinkan Anda memanipulasi berbagai elemen sepe
  Dokumentasi tersedia[Di Sini](https://reference.aspose.com/slides/java/).
 ### Apa IDE terbaik untuk dikembangkan dengan Aspose.Slides untuk Java?
 IntelliJ IDEA dan Eclipse adalah IDE populer yang bekerja dengan baik dengan Aspose.Slides untuk Java.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

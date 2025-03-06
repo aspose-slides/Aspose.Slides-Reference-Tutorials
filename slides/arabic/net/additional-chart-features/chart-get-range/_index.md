@@ -3,14 +3,10 @@ title: كيفية الحصول على نطاق بيانات المخطط في As
 linktitle: احصل على نطاق بيانات الرسم البياني
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية استخراج نطاق بيانات المخطط من عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة للمطورين.
+type: docs
 weight: 11
 url: /ar/net/additional-chart-features/chart-get-range/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 هل تتطلع إلى استخراج نطاق البيانات من مخطط في عرض PowerPoint التقديمي الخاص بك باستخدام Aspose.Slides for .NET؟ لقد جئت إلى المكان المناسب. في هذا الدليل المفصّل خطوة بخطوة، سنرشدك خلال عملية الحصول على نطاق بيانات المخطط من العرض التقديمي الخاص بك. Aspose.Slides for .NET هي مكتبة قوية تمكنك من العمل مع مستندات PowerPoint برمجياً، والحصول على نطاق بيانات المخطط هو مجرد واحدة من المهام العديدة التي يمكن أن تساعدك على إنجازها.
 
@@ -97,9 +93,3 @@ Console.WriteLine("GetRange result: {0}", result);
 
 ### ما نوع خيارات الدعم المتاحة لـ Aspose.Slides لمستخدمي .NET؟
  يمكنك الحصول على الدعم والمساعدة من مجتمع Aspose على موقعهم[منتدى الدعم](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

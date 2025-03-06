@@ -3,14 +3,10 @@ title: Java PowerPoint'te Paragraf Yazı Tipi Özelliklerini Yönetme
 linktitle: Java PowerPoint'te Paragraf Yazı Tipi Özelliklerini Yönetme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Bu takip edilmesi kolay, adım adım kılavuzla Aspose.Slides'ı kullanarak Java PowerPoint sunumlarında paragraf yazı tipi özelliklerini nasıl yöneteceğinizi ve özelleştireceğinizi öğrenin.
+type: docs
 weight: 10
 url: /tr/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-font-properties-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 Görsel olarak çekici PowerPoint sunumları oluşturmak etkili iletişim için çok önemlidir. İster bir iş teklifi ister bir okul projesi hazırlıyor olun, doğru yazı tipi özellikleri slaytlarınızı daha ilgi çekici hale getirebilir. Bu eğitim, Aspose.Slides for Java'yı kullanarak paragraf yazı tipi özelliklerini yönetme konusunda size rehberlik edecektir. Dalmaya hazır mısınız? Başlayalım!
 ## Önkoşullar
@@ -117,9 +113,3 @@ Evet, paragrafın her bölümü kendi yazı tipi özelliklerine sahip olabilir.
 Evet, Aspose.Slides for Java, metin için degrade dolguyu destekler.
 ### Değişiklikleri geri almak istersem ne olur?
 Değişiklik yapmadan önce orijinal sunuyu yeniden yükleyin veya yedeğini alın.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

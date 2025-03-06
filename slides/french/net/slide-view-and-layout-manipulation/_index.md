@@ -3,14 +3,10 @@ title: Affichage des diapositives et manipulation de la mise en page
 linktitle: Affichage des diapositives et manipulation de la mise en page
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Optimisez les vues et les mises en page des diapositives avec les didacticiels Aspose.Slides sur la vue des diapositives et la manipulation de la mise en page. Améliorez l’impact de la présentation et l’excellence visuelle à l’aide de puissants outils .NET.
+type: docs
 weight: 20
 url: /fr/net/slide-view-and-layout-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction
 
@@ -33,9 +29,3 @@ Découvrez comment gérer des présentations dans un état d'affichage normal à
 Découvrez comment lier des vidéos à des diapositives PowerPoint à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape comprend le code source et des conseils pour créer des présentations interactives et attrayantes avec des vidéos liées.
 ### [Gérer le contrôle ActiveX dans la présentation](./manage-activex-control/)
 Découvrez comment améliorer les présentations PowerPoint avec des contrôles ActiveX à l'aide d'Aspose.Slides pour .NET. Notre guide étape par étape couvre l'insertion, la manipulation, la personnalisation, la gestion des événements, etc.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

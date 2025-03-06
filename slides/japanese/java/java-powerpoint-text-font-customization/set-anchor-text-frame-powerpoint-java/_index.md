@@ -3,14 +3,10 @@ title: Java を使用して PowerPoint のテキスト フレームのアンカ�
 linktitle: Java を使用して PowerPoint のテキスト フレームのアンカーを設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides で Java を使用して PowerPoint にテキスト フレーム アンカーを設定する方法を学びます。プレゼンテーションを強化します。
+type: docs
 weight: 13
 url: /ja/java/java-powerpoint-text-font-customization/set-anchor-text-frame-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 このチュートリアルでは、Aspose.Slides を利用して Java で PowerPoint プレゼンテーションのテキスト フレームのアンカーを設定する方法を学習します。テキスト フレームをアンカーすると、図形内のテキストの位置と動作を正確に制御できるため、スライドが視覚的に魅力的で効果的に構造化されます。
 ## 前提条件
@@ -75,9 +71,3 @@ Aspose.Slides for Java は、Java 開発者が PowerPoint プレゼンテーシ�
 はい、無料トライアルをダウンロードできます[ここ](https://releases.aspose.com/).
 ### Aspose.Slides for Java のサポートはどこで受けられますか?
 サポートフォーラムにアクセスしてください[ここ](https://forum.aspose.com/c/slides/11)ご質問やサポートがございましたら、
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

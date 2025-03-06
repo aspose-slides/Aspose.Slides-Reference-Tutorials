@@ -3,14 +3,10 @@ title: Μετατροπή εικόνων ενσωμάτωσης HTML σε δια
 linktitle: Μετατροπή εικόνων ενσωμάτωσης HTML σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μετατροπή PowerPoint σε HTML με ενσωματωμένες εικόνες. Οδηγός βήμα προς βήμα χρησιμοποιώντας το Aspose.Slides για Java. Μάθετε να αυτοματοποιείτε τις μετατροπές παρουσιάσεων σε Java χωρίς κόπο.
+type: docs
 weight: 11
 url: /el/java/presentation-conversion/convert-html-embedding-images-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στη Μετατροπή εικόνων ενσωμάτωσης HTML σε διαφάνειες Java
 
@@ -129,10 +125,3 @@ try {
 ### Πώς χειρίζομαι τα σφάλματα κατά τη μετατροπή;
 
 Μπορείτε να τυλίξετε τον κώδικα μετατροπής σε ένα μπλοκ try-catch για να χειριστείτε εξαιρέσεις που ενδέχεται να προκύψουν κατά τη διαδικασία μετατροπής.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

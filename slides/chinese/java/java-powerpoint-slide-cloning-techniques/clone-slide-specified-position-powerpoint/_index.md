@@ -3,14 +3,10 @@ title: 在 PowerPoint 中的指定位置克隆幻灯片
 linktitle: 在 PowerPoint 中的指定位置克隆幻灯片
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 轻松克隆 PowerPoint 幻灯片到指定位置。为初学者和专家提供详细的分步指南。
+type: docs
 weight: 10
 url: /zh/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-position-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 您准备好提升您的 PowerPoint 技能了吗？无论您是经验丰富的开发人员还是尝试自动化幻灯片操作的新手，您都来对地方了。在本教程中，我们将引导您完成使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中的指定位置克隆幻灯片的过程。系好安全带，让我们一起踏上这段旅程吧！
 ## 先决条件
@@ -84,9 +80,3 @@ destPres.save(dataDir + "CloneAnotherPresentationAtSpecifiedPosition_out.pptx", 
 Aspose.Slides 提供强大的功能、丰富的文档和出色的支持，使其成为 PowerPoint 操作的首选。
 ### 在哪里可以找到有关 Aspose.Slides 的更多教程？
 查看[文档](https://reference.aspose.com/slides/java/)获得全面的教程和示例。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

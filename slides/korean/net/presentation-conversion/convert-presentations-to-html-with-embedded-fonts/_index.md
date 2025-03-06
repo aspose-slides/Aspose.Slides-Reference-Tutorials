@@ -3,14 +3,10 @@ title: 포함된 글꼴을 사용하여 프레젠테이션을 HTML로 변환
 linktitle: 포함된 글꼴을 사용하여 프레젠테이션을 HTML로 변환
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션을 글꼴이 포함된 HTML로 변환합니다. 독창성을 원활하게 유지하세요.
+type: docs
 weight: 13
 url: /ko/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 오늘날 디지털 시대에는 프레젠테이션과 문서를 온라인으로 공유하는 것이 일반적인 관행이 되었습니다. 그러나 자주 발생하는 문제 중 하나는 프레젠테이션을 HTML로 변환할 때 글꼴이 올바르게 표시되는지 확인하는 것입니다. 이 단계별 튜토리얼은 .NET용 Aspose.Slides를 사용하여 프레젠테이션을 글꼴이 포함된 HTML로 변환하는 과정을 안내하여 문서가 의도한 대로 보이도록 보장합니다.
 
@@ -124,10 +120,3 @@ pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
 ### 5. .NET용 Aspose.Slides에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
 
  문서를 포함한 풍부한 리소스에 액세스할 수 있습니다.[.NET API 참조용 Aspose.Slides](https://reference.aspose.com/slides/net/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

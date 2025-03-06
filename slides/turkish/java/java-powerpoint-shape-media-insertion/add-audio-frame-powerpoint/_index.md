@@ -3,14 +3,10 @@ title: PowerPoint'te Ses Çerçevesi Ekleme
 linktitle: PowerPoint'te Ses Çerçevesi Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarına nasıl ses çerçeveleri ekleyeceğinizi öğrenin. Sunumlarınızı ilgi çekici ses öğeleriyle zahmetsizce geliştirin.
+type: docs
 weight: 12
 url: /tr/java/java-powerpoint-shape-media-insertion/add-audio-frame-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 Sunumları ses öğeleriyle geliştirmek, etki ve etkileşimi önemli ölçüde artırabilir. Aspose.Slides for Java ile ses çerçevelerini PowerPoint sunumlarına entegre etmek kusursuz bir süreç haline geliyor. Bu eğitim, Aspose.Slides for Java kullanarak sunumlarınıza ses çerçeveleri ekleme sürecinde size adım adım rehberlik edecektir.
 ## Önkoşullar
@@ -79,9 +75,3 @@ Evet, farklı platformlarla uyumlu gömülü ses çerçeveleriyle PowerPoint sun
 Aspose.Slides for Java, ses oynatıcınızın görünümünü tercihlerinize göre uyarlamanıza olanak tanıyan kapsamlı kişiselleştirme seçenekleri sunar.
 ### Aspose.Slides for Java'nın deneme sürümü mevcut mu?
  Evet, Aspose.Slides for Java'nın ücretsiz deneme sürümüne kendi sitelerinden erişebilirsiniz.[İnternet sitesi](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

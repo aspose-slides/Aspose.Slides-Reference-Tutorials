@@ -3,14 +3,10 @@ title: 在 Java PowerPoint 中的表格单元格内添加图像
 linktitle: 在 Java PowerPoint 中的表格单元格内添加图像
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 通过本详细的分步指南了解如何使用 Aspose.Slides for Java 在 Java PowerPoint 演示文稿的表格单元格内添加图像。
+type: docs
 weight: 10
 url: /zh/java/java-powerpoint-table-manipulation/add-image-inside-table-cells-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 如果您希望通过在表格单元格中嵌入图像来增强 Java PowerPoint 演示文稿的效果，那么您来对地方了！今天，我们将深入了解使用 Aspose.Slides for Java 的详细分步指南。本教程将引导您完成整个过程，确保即使是新手也可以跟上并获得令人惊叹的效果。
 ## 先决条件
@@ -108,9 +104,3 @@ Aspose.Slides 支持各种图像格式，包括 JPEG、PNG、BMP 等。
 您可以参考[文档](https://reference.aspose.com/slides/java/)以获取更多详细信息和示例。
 ### 如何购买 Aspose.Slides for Java？
 您可以从[Aspose 网站](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Lijn tekst verticaal uit in Java PowerPoint
 linktitle: Lijn tekst verticaal uit in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u tekst in Java PowerPoint-presentaties verticaal uitlijnt met Aspose.Slides voor naadloze dia-opmaak.
+type: docs
 weight: 10
 url: /nl/java/java-powerpoint-text-alignment-formatting/vertically-align-text-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 In deze zelfstudie leert u hoe u tekst in tabelcellen in een PowerPoint-presentatie verticaal uitlijnt met behulp van Aspose.Slides voor Java. Het verticaal uitlijnen van tekst is een cruciaal aspect van diaontwerp en zorgt ervoor dat uw inhoud netjes en professioneel wordt gepresenteerd. Aspose.Slides biedt krachtige functies om presentaties programmatisch te manipuleren en op te maken, waardoor u volledige controle krijgt over elk aspect van uw dia's.
 ## Vereisten
@@ -95,9 +91,3 @@ Aspose.Slides ondersteunt het genereren van presentaties die compatibel zijn met
  Bezoek de[Aspose.Slides-documentatie](https://reference.aspose.com/slides/java/) voor uitgebreide handleidingen, API-referenties en codevoorbeelden.
 ### Hoe kan ik ondersteuning krijgen voor Aspose.Slides?
  Voor technische assistentie en gemeenschapsondersteuning gaat u naar de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: PPT को PPTX प्रारूप में बदलें
 linktitle: PPT को PPTX प्रारूप में बदलें
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: जानें कि Aspose.Slides for .NET का उपयोग करके आसानी से PPT को PPTX में कैसे बदला जाए। सहज प्रारूप परिवर्तन के लिए कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
+type: docs
 weight: 25
 url: /hi/net/presentation-manipulation/convert-ppt-to-pptx-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 अगर आपको कभी भी .NET का उपयोग करके पुराने PPT प्रारूप से नए PPTX प्रारूप में PowerPoint फ़ाइलों को बदलने की आवश्यकता हुई है, तो आप सही जगह पर हैं। इस चरण-दर-चरण ट्यूटोरियल में, हम आपको Aspose.Slides for .NET API का उपयोग करके प्रक्रिया के माध्यम से चलेंगे। इस शक्तिशाली लाइब्रेरी के साथ, आप आसानी से ऐसे रूपांतरणों को आसानी से संभाल सकते हैं। चलिए शुरू करते हैं!
 
@@ -83,10 +79,3 @@ Aspose.Slides for .NET एक .NET लाइब्रेरी है जो ड
 ### 5. मैं Aspose.Slides for .NET के बारे में सहायता कहां से प्राप्त कर सकता हूं या प्रश्न कहां पूछ सकता हूं?
  आप अपने प्रश्नों के उत्तर पा सकते हैं और सहायता प्राप्त कर सकते हैं[Aspose.Slides फ़ोरम](https://forum.aspose.com/).
 
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: تحويل العرض التقديمي إلى HTML مع الحفاظ عل
 linktitle: تحويل العرض التقديمي إلى HTML مع الحفاظ على الخطوط الأصلية في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بتحويل عروض PowerPoint التقديمية إلى HTML مع الحفاظ على الخطوط الأصلية باستخدام Aspose.Slides لـ Java.
+type: docs
 weight: 14
 url: /ar/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة لتحويل العرض التقديمي إلى HTML مع الحفاظ على الخطوط الأصلية في شرائح Java
 
@@ -115,9 +111,3 @@ finally
 ### كيف يمكنني تخصيص مخرجات HTML بشكل أكبر؟
 
  يمكنك استكشاف`HtmlOptions` فئة لتخصيص الجوانب المختلفة لمخرجات HTML، مثل حجم الشريحة وجودة الصورة والمزيد.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

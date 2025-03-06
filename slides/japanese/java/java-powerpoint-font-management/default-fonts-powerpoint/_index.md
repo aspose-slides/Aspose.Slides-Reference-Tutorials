@@ -3,14 +3,10 @@ title: Aspose.Slides for Java を使用した PowerPoint のデフォルト フ�
 linktitle: Aspose.Slides for Java を使用した PowerPoint のデフォルト フォント
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint プレゼンテーションで既定のフォントを設定する方法を学びます。一貫性を確保し、視覚的な魅力を簡単に高めることができます。
+type: docs
 weight: 11
 url: /ja/java/java-powerpoint-font-management/default-fonts-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 多くのプロジェクトでは、カスタム フォントを使用して PowerPoint プレゼンテーションを作成することが一般的な要件となっています。Aspose.Slides for Java は、異なる環境間で一貫性を保ちながら、デフォルトのフォントを管理するためのシームレスなソリューションを提供します。このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションでデフォルトのフォントを設定する手順を説明します。
 ## 前提条件
@@ -75,9 +71,3 @@ Aspose.Slides for Java は幅広いバージョンの PowerPoint をサポート
 はい、Aspose.Slides for Javaは、以下の無料トライアルで試すことができます。[リリース](https://releases.aspose.com/).
 ### Aspose.Slides for Java の一時ライセンスはどこで入手できますか?
  Aspose.Slides for Javaの一時ライセンスは、[購入ページ](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Klonovat snímek na konci jiné prezentace
 linktitle: Klonovat snímek na konci jiné prezentace
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak klonovat snímek na konci jiné prezentace pomocí Aspose.Slides for Java, v tomto komplexním výukovém programu krok za krokem.
+type: docs
 weight: 11
 url: /cs/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-presentation-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 Ocitli jste se někdy v situaci, kdy jste potřebovali sloučit snímky z více powerpointových prezentací? To může být docela problém, že? Tak už ne! Aspose.Slides for Java je výkonná knihovna, se kterou je manipulace s prezentacemi v PowerPointu hračkou. V tomto tutoriálu vás provedeme procesem klonování snímku z jedné prezentace a jeho přidání na konec jiné prezentace pomocí Aspose.Slides for Java. Věřte mi, že na konci této příručky budete své prezentace zvládat jako profesionál!
 ## Předpoklady
@@ -85,9 +81,3 @@ Aspose.Slides for Java je komerční produkt, ale můžete si stáhnout bezplatn
 Ne, jakmile si knihovnu stáhnete, nepotřebujete k jejímu používání připojení k internetu.
 ### Kde mohu získat podporu, pokud narazím na problémy?
  Podporu můžete získat na fórech komunity Aspose[tady](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

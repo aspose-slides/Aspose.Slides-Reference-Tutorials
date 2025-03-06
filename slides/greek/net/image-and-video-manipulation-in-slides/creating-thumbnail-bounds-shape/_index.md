@@ -3,14 +3,10 @@ title: Δημιουργία μικρογραφίας με όρια για σχή
 linktitle: Δημιουργία μικρογραφίας με όρια για σχήμα στο Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ξεκλειδώστε τη δύναμη του Aspose.Slides για .NET! Μάθετε να δημιουργείτε μικρογραφίες σχημάτων χωρίς κόπο με όρια χρησιμοποιώντας τον βήμα προς βήμα οδηγό μας.
+type: docs
 weight: 10
 url: /el/net/image-and-video-manipulation-in-slides/creating-thumbnail-bounds-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Εάν είστε προγραμματιστής .NET που αναζητά μια ισχυρή λύση για τη δημιουργία μικρογραφιών εικόνων με όρια για σχήματα σε παρουσιάσεις PowerPoint, το Aspose.Slides για .NET είναι το εργαλείο σας. Αυτή η ισχυρή βιβλιοθήκη παρέχει απρόσκοπτη ενοποίηση, επιτρέποντάς σας να χειρίζεστε και να εξάγετε πολύτιμες πληροφορίες από αρχεία PowerPoint αποτελεσματικά. Σε αυτό το σεμινάριο, θα ακολουθήσουμε τη διαδικασία δημιουργίας μιας μικρογραφίας με όρια για ένα σχήμα χρησιμοποιώντας το Aspose.Slides.
 ## Προαπαιτούμενα
@@ -64,9 +60,3 @@ bitmap.Save(dataDir + "Shape_thumbnail_Bound_Shape_out.png", ImageFormat.Png);
  Επισκέψου το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) να συνδεθείτε με την κοινότητα και να ζητήσετε βοήθεια από έμπειρους προγραμματιστές.
 ### Μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Slides;
  Ναι, μπορείτε να αποκτήσετε προσωρινή άδεια[εδώ](https://purchase.aspose.com/temporary-license/) για βραχυπρόθεσμες ανάγκες έργου.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Đặt Tự động điều chỉnh khung văn bản trong Java PowerPoin
 linktitle: Đặt Tự động điều chỉnh khung văn bản trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt tính năng tự động điều chỉnh cho khung văn bản trong Java PowerPoint bằng Aspose.Slides cho Java. Tạo bài thuyết trình năng động một cách dễ dàng.
+type: docs
 weight: 14
 url: /vi/java/java-powerpoint-text-font-customization/set-autofit-text-frame-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Trong phát triển ứng dụng Java, việc tạo các bản trình bày PowerPoint năng động và hấp dẫn về mặt hình ảnh theo chương trình là một yêu cầu chung. Aspose.Slides for Java cung cấp một bộ API mạnh mẽ để đạt được điều này một cách dễ dàng. Một tính năng thiết yếu là cài đặt tự động điều chỉnh cho khung văn bản, đảm bảo văn bản điều chỉnh gọn gàng trong các hình dạng mà không cần điều chỉnh thủ công. Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình từng bước, tận dụng Aspose.Slides cho Java để tự động hóa việc khớp văn bản trong các trang chiếu PowerPoint.
 ## Điều kiện tiên quyết
@@ -90,9 +86,3 @@ Aspose.Slides cho Java là một API Java mạnh mẽ cho phép các nhà phát 
  Bạn có thể tìm tài liệu chi tiết về Aspose.Slides for Java[đây](https://reference.aspose.com/slides/java/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Slides cho Java?
  Bạn có thể nhận được sự hỗ trợ cộng đồng và chuyên nghiệp cho Aspose.Slides for Java từ[đây](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

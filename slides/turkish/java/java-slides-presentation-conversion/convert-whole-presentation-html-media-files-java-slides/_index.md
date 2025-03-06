@@ -3,14 +3,10 @@ title: Java Slaytlarındaki Medya Dosyalarıyla Tüm Sunumu HTML'ye Dönüştür
 linktitle: Java Slaytlarındaki Medya Dosyalarıyla Tüm Sunumu HTML'ye Dönüştürün
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Java Slaytlar'ı kullanarak sunumları medya dosyalarıyla HTML'ye nasıl dönüştüreceğinizi öğrenin. Aspose.Slides for Java API ile adım adım kılavuzumuzu takip edin.
+type: docs
 weight: 30
 url: /tr/java/presentation-conversion/convert-whole-presentation-html-media-files-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java Slaytlarında Medya Dosyalarıyla Tüm Sunumu HTML'ye Dönüştürmeye Giriş
 
@@ -129,9 +125,3 @@ Evet, Aspose.Slides for Java, Java uygulamalarında sunumla ilgili görevlerin y
 ### Dönüştürülen HTML sunumuna nasıl erişebilirim?
 
  Dönüşümü tamamladıktan sonra, belirtilen dosyayı bularak HTML sunumuna erişebilirsiniz.`htmlDocumentFileName` değişken.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

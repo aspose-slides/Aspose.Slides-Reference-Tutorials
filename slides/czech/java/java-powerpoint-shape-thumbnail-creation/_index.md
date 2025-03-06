@@ -3,14 +3,10 @@ title: Java PowerPoint Shape a vytváření miniatur
 linktitle: Java PowerPoint Shape a vytváření miniatur
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet tvary a miniatury v PowerPointu pomocí Aspose.Slides Java. Podrobné návody na vytváření skupinových tvarů, miniatury měřítka a efekty přiblížení.
+type: docs
 weight: 24
 url: /cs/java/java-powerpoint-shape-thumbnail-creation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 
 Vytváření vizuálně přitažlivých a organizovaných prezentací v PowerPointu je nezbytné pro efektivní komunikaci. S Aspose.Slides for Java můžete bez námahy vylepšit své prezentace vytvářením různých tvarů a miniatur. Tento článek poskytuje podrobného průvodce zvládnutím těchto technik a zajišťuje, že vaše snímky budou poutavé a profesionální.
@@ -56,9 +52,3 @@ Naučte se vytvářet miniatury podřízených poznámek SmartArt v Javě pomoc�
  Naučte se, jak vytvořit Souhrnný zoom v PowerPointu pomocí Aspose.Slides pro Javu, pomocí tohoto komplexního výukového programu krok za krokem.
 ### [Vytvořte Zoom Frame v PowerPointu](./create-zoom-frame-powerpoint/)
 Naučte se vytvářet poutavé rámečky přiblížení v PowerPointu pomocí Aspose.Slides for Java. Postupujte podle našeho průvodce a přidejte do svých prezentací interaktivní prvky.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

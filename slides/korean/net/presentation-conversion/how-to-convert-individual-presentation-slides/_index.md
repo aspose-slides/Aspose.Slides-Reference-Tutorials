@@ -3,14 +3,10 @@ title: 개별 프레젠테이션 슬라이드를 변환하는 방법
 linktitle: 개별 프레젠테이션 슬라이드를 변환하는 방법
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 개별 프레젠테이션 슬라이드를 손쉽게 변환하는 방법을 알아보세요. 프로그래밍 방식으로 슬라이드를 생성, 조작 및 저장합니다.
+type: docs
 weight: 12
 url: /ko/net/presentation-conversion/how-to-convert-individual-presentation-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## .NET용 Aspose.Slides 소개
 
@@ -145,9 +141,3 @@ Aspose.Slides for .NET을 사용하면 개별 프레젠테이션 슬라이드를
 ### Aspose.Slides를 사용하여 슬라이드 레이아웃을 사용자 정의할 수 있나요?
 
 예, .NET용 Aspose.Slides를 사용하여 슬라이드 레이아웃을 사용자 정의하고, 모양, 이미지를 추가하고, 애니메이션을 적용할 수 있으므로 프레젠테이션을 완벽하게 제어할 수 있습니다.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

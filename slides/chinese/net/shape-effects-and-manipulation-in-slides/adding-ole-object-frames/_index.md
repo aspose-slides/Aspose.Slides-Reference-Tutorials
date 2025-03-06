@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 将 OLE 对象框架添加到演示文稿中
 linktitle: 使用 Aspose.Slides 将 OLE 对象框架添加到演示文稿中
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用动态内容增强 PowerPoint 演示文稿！按照我们的分步指南使用 Aspose.Slides for .NET。立即提升参与度！
+type: docs
 weight: 15
 url: /zh/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 在本教程中，我们将深入研究使用 Aspose.Slides for .NET 将 OLE（对象链接和嵌入）对象框架添加到演示幻灯片的过程。Aspose.Slides 是一个功能强大的库，使开发人员能够以编程方式处理 PowerPoint 文件。按照此分步指南，将 OLE 对象无缝嵌入到您的演示幻灯片中，使用动态和交互式内容增强您的 PowerPoint 文件。
 ## 先决条件
@@ -88,9 +84,3 @@ pres.Save(dataDir + "OleEmbed_out.pptx", SaveFormat.Pptx);
 答：当然，您可以根据自己的喜好调整 OLE 对象框架的大小、位置和其他属性。
 ### 问：如果我在实施过程中遇到挑战，可以向哪里寻求帮助？
 答：访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)寻求社区支持和指导。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

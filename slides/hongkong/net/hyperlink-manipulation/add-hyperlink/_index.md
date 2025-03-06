@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 將超連結新增至 .NET 中的投影片
 linktitle: 新增超連結到幻燈片
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 新增超連結到 PowerPoint 投影片。透過互動元素增強您的簡報。
+type: docs
 weight: 12
 url: /zh-hant/net/hyperlink-manipulation/add-hyperlink/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 在數位演示領域，互動性是關鍵。在幻燈片中添加超連結可以使您的簡報更具吸引力和資訊量。 Aspose.Slides for .NET 是一個功能強大的函式庫，可讓您以程式設計方式建立、修改和操作 PowerPoint 簡報。在本教學中，我們將向您展示如何使用 Aspose.Slides for .NET 將超連結新增至投影片中。 
 
@@ -110,9 +106,3 @@ Aspose.Slides 提供了廣泛的互動功能，包括操作按鈕、多媒體元
 ### 5. Aspose.Slides 是否可用於其他程式語言？
 
 是的，Aspose.Slides 可用於各種程式語言，包括 Java 和 Python。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

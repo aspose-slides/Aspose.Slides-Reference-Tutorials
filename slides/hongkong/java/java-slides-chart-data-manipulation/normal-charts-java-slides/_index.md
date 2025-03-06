@@ -3,14 +3,10 @@ title: Java 投影片中的普通圖表
 linktitle: Java 投影片中的普通圖表
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 在 Java 投影片中建立普通圖表。用於在 PowerPoint 簡報中建立、自訂和儲存圖表的逐步指南和原始程式碼。
+type: docs
 weight: 21
 url: /zh-hant/java/chart-data-manipulation/normal-charts-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 投影片中的普通圖表簡介
 
@@ -244,9 +240,3 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ### 如何將圖表儲存為不同的文件格式？
 
 若要將圖表儲存為不同的檔案格式，請變更`SaveFormat`中的參數`pres.save()`方法轉換為所需的格式（例如，PDF、PNG、JPEG）。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

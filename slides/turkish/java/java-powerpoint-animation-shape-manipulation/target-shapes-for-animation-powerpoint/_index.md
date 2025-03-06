@@ -3,14 +3,10 @@ title: PowerPoint'te Animasyon için Hedef Şekiller
 linktitle: PowerPoint'te Animasyon için Hedef Şekiller
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarında belirli şekilleri nasıl canlandıracağınızı öğrenin. Zahmetsizce ilgi çekici slaytlar oluşturun.
+type: docs
 weight: 11
 url: /tr/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-animation-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 Dinamik sunumlar dünyasında animasyonlar izleyicinin ilgisini çekmede ve bilgiyi etkili bir şekilde aktarmada çok önemli bir rol oynamaktadır. Aspose.Slides for Java, geliştiricilerin belirli şekillere göre tasarlanmış karmaşık animasyonlarla büyüleyici PowerPoint sunumları oluşturmalarına olanak tanır. Bu eğitim, Aspose.Slides for Java kullanarak animasyon için şekilleri hedefleme sürecinde size rehberlik edecek ve sunumlarınızın akıcı geçişler ve hassas animasyonlarla öne çıkmasını sağlayacaktır.
 ## Önkoşullar
@@ -66,9 +62,3 @@ Evet, Aspose.Slides for Java, PowerPoint sunumlarında karmaşık animasyonlar o
  adresinden geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for Java'yı nereden satın alabilirim?
  Aspose.Slides for Java'yı web sitesinden satın alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

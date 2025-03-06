@@ -3,14 +3,10 @@ title: Aspose.Slides .NET で特定のチャート シリーズ データ ポイ
 linktitle: 特定のチャートシリーズのデータポイントをクリアする
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーション内の特定のグラフ シリーズ データ ポイントをクリアする方法を学習します。ステップ バイ ステップ ガイド。
+type: docs
 weight: 13
 url: /ja/net/additional-chart-features/clear-specific-chart-series-data-points-data/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Aspose.Slides for .NET は、PowerPoint プレゼンテーションをプログラムで操作できる強力なライブラリです。このチュートリアルでは、Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーション内の特定のグラフ シリーズ データ ポイントをクリアする手順を説明します。このチュートリアルを完了すると、グラフ データ ポイントを簡単に操作できるようになります。
 
@@ -99,9 +95,3 @@ Aspose.Slides は主に .NET 言語向けに設計されています。ただし
 
 ### Aspose.Slides for .NET のコミュニティまたは開発者コミュニティはありますか?
 はい、フォーラムで Aspose コミュニティに参加して、ディスカッション、質問、経験の共有を行うことができます。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Извлечь аудио из временной шкалы PowerPoint
 linktitle: Извлечь аудио из временной шкалы
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как извлечь аудио из презентаций PowerPoint с помощью Aspose.Slides для .NET. Улучшайте свой мультимедийный контент с легкостью.
+type: docs
 weight: 13
 url: /ru/net/audio-and-video-extraction/extract-audio-from-timeline/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 В мире мультимедийных презентаций звук может стать мощным инструментом для эффективной передачи вашего сообщения. Aspose.Slides для .NET предлагает простое решение для извлечения аудио из презентаций PowerPoint. В этом пошаговом руководстве мы покажем вам, как извлечь аудио из презентации PowerPoint с помощью Aspose.Slides для .NET.
 
@@ -114,9 +110,3 @@ Aspose.Slides for .NET совместим с различными версиям
 ### 5. Где я могу найти подробную документацию по Aspose.Slides для .NET?
 
  Вы можете найти подробную документацию и примеры для Aspose.Slides для .NET.[здесь](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

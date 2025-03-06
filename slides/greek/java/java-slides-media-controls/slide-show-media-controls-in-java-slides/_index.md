@@ -3,14 +3,10 @@ title: Στοιχεία ελέγχου πολυμέσων προβολής δι�
 linktitle: Στοιχεία ελέγχου πολυμέσων προβολής διαφανειών σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ενεργοποιείτε και να χρησιμοποιείτε τα στοιχεία ελέγχου πολυμέσων σε διαφάνειες Java με το Aspose.Slides για Java. Βελτιώστε τις Παρουσιάσεις σας με Στοιχεία ελέγχου πολυμέσων.
+type: docs
 weight: 11
 url: /el/java/media-controls/slide-show-media-controls-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στα στοιχεία ελέγχου πολυμέσων προβολής διαφανειών σε διαφάνειες Java
 
@@ -112,9 +108,3 @@ try {
 ### Υπάρχει τρόπος να προσθέσετε υπότιτλους σε βίντεο στο Java Slides;
 
 Ναι, μπορείτε να προσθέσετε υπότιτλους σε βίντεο σε Java Slides προσθέτοντας πλαίσια κειμένου ή σχήματα στη διαφάνεια που περιέχει το βίντεο. Στη συνέχεια, μπορείτε να συγχρονίσετε το κείμενο με την αναπαραγωγή βίντεο χρησιμοποιώντας τις ρυθμίσεις χρονισμού.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

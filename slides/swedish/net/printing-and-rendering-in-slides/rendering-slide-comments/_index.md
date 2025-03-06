@@ -3,14 +3,10 @@ title: Återge bildkommentarer i Aspose.Slides
 linktitle: Återge bildkommentarer i Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Utforska hur du återger bildkommentarer i Aspose.Slides för .NET med vår steg-för-steg handledning. Anpassa kommentarens utseende och lyft din PowerPoint-automatisering.
+type: docs
 weight: 12
 url: /sv/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 Välkommen till vår omfattande handledning om hur du renderar bildkommentarer med Aspose.Slides för .NET! Aspose.Slides är ett kraftfullt bibliotek som gör det möjligt för utvecklare att arbeta sömlöst med PowerPoint-presentationer i sina .NET-applikationer. I den här guiden kommer vi att fokusera på en specifik uppgift - att återge bildkommentarer - och gå igenom processen steg för steg.
 ## Förutsättningar
@@ -90,9 +86,3 @@ A: Absolut! Handledningen innehåller alternativ för att anpassa färg, bredd o
  S: Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### F: Var kan jag söka hjälp och support för Aspose.Slides?
  A: Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för samhällsstöd.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

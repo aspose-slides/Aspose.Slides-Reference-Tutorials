@@ -3,14 +3,10 @@ title: Hoạt hình các phần tử chuỗi trong biểu đồ
 linktitle: Hoạt hình các phần tử chuỗi trong biểu đồ
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách tạo hiệu ứng cho chuỗi biểu đồ bằng Aspose.Slides cho .NET. Tạo bài thuyết trình hấp dẫn với hình ảnh động. Hướng dẫn chuyên môn với các ví dụ về mã.
+type: docs
 weight: 13
 url: /vi/net/chart-formatting-and-animation/animating-series-elements/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Bạn đang tìm cách cải thiện bản trình bày PowerPoint của mình bằng các biểu đồ và hình ảnh động bắt mắt? Aspose.Slides for .NET có thể giúp bạn đạt được điều đó. Trong hướng dẫn từng bước này, chúng tôi sẽ chỉ cho bạn cách tạo hiệu ứng động cho các phần tử chuỗi trong biểu đồ bằng Aspose.Slides cho .NET. Thư viện mạnh mẽ này cho phép bạn tạo, thao tác và tùy chỉnh bản trình bày PowerPoint theo chương trình, cung cấp cho bạn toàn quyền kiểm soát các trang chiếu và nội dung của chúng.
 
@@ -107,10 +103,3 @@ Có, Aspose.Slides for .NET có thể được sử dụng với nhiều ngôn n
 ### 5. Làm cách nào tôi có thể nhận được sự hỗ trợ hoặc trợ giúp của cộng đồng với Aspose.Slides cho .NET?
 
  Nếu có thắc mắc hoặc cần hỗ trợ, bạn có thể truy cập[Diễn đàn Aspose.Slides cho .NET](https://forum.aspose.com/) để hỗ trợ cộng đồng.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

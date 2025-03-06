@@ -3,14 +3,10 @@ title: Benutzerdefinierten Fehler in Java-Folien hinzufügen
 linktitle: Benutzerdefinierten Fehler in Java-Folien hinzufügen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides benutzerdefinierte Fehlerbalken zu PowerPoint-Diagrammen in Java Slides hinzufügen. Schritt-für-Schritt-Anleitung mit Quellcode zur präzisen Datenvisualisierung.
+type: docs
 weight: 11
 url: /de/java/chart-data-manipulation/add-custom-error-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung in das Hinzufügen benutzerdefinierter Fehlerbalken in Java-Folien mit Aspose.Slides
 
@@ -154,9 +150,3 @@ Sie können die Datenpunkte durchlaufen und für jeden Punkt benutzerdefinierte 
 ### Ist es möglich, Fehlerbalken für bestimmte Datenpunkte auszublenden?
 
  Ja, Sie können die Sichtbarkeit von Fehlerbalken für einzelne Datenpunkte steuern, indem Sie die`setVisible` Eigentum der`IErrorBarsFormat` Objekt.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

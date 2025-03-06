@@ -3,14 +3,10 @@ title: Akses Properti Bawaan di PowerPoint
 linktitle: Akses Properti Bawaan di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengakses properti bawaan di PowerPoint menggunakan Aspose.Slides untuk Java. Tutorial ini memandu Anda dalam mengambil penulis, tanggal pembuatan, dan banyak lagi.
+type: docs
 weight: 10
 url: /id/java/java-powerpoint-properties-management/access-built-in-properties-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam tutorial ini, kita akan menjelajahi cara mengakses properti bawaan dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Aspose.Slides adalah perpustakaan canggih yang memungkinkan pengembang Java bekerja dengan presentasi PowerPoint secara terprogram, memungkinkan tugas-tugas seperti membaca dan memodifikasi properti dengan lancar.
 ## Prasyarat
@@ -105,9 +101,3 @@ Ya, selain properti bawaan, Anda juga dapat mengambil dan memodifikasi properti 
  Ya, Anda dapat menemukan dokumentasi komprehensif dan mengakses forum dukungan di[Asumsikan situs web](https://reference.aspose.com/slides/java/).
 ### Apakah ada versi uji coba yang tersedia untuk Aspose.Slides untuk Java?
  Ya, Anda dapat mengunduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

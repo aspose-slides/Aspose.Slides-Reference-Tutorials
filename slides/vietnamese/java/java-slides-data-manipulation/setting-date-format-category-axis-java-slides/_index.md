@@ -3,14 +3,10 @@ title: Thiết lập định dạng ngày cho trục danh mục trong Java Slide
 linktitle: Thiết lập định dạng ngày cho trục danh mục trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt định dạng ngày cho trục danh mục trong biểu đồ PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn từng bước với mã nguồn.
+type: docs
 weight: 26
 url: /vi/java/data-manipulation/setting-date-format-category-axis-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu Định dạng ngày tháng cho trục danh mục trong Java Slides
 
@@ -143,9 +139,3 @@ Có, bạn có thể đặt các định dạng ngày khác nhau cho các trục
 ### Làm cách nào để thêm nhiều điểm dữ liệu hơn vào biểu đồ?
 
  Để thêm nhiều điểm dữ liệu vào biểu đồ, hãy sử dụng`getDataPoints().addDataPointForLineSeries`phương pháp trên chuỗi dữ liệu và cung cấp các giá trị dữ liệu.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

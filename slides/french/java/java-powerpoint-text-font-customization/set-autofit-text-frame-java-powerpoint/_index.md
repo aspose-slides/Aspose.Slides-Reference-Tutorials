@@ -3,14 +3,10 @@ title: Définir l'ajustement automatique du cadre de texte dans Java PowerPoint
 linktitle: Définir l'ajustement automatique du cadre de texte dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir l'ajustement automatique des blocs de texte dans Java PowerPoint à l'aide d'Aspose.Slides pour Java. Créez des présentations dynamiques sans effort.
+type: docs
 weight: 14
 url: /fr/java/java-powerpoint-text-font-customization/set-autofit-text-frame-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Dans le développement d’applications Java, la création par programme de présentations PowerPoint dynamiques et visuellement attrayantes est une exigence courante. Aspose.Slides pour Java fournit un ensemble puissant d'API pour y parvenir sans effort. Une fonctionnalité essentielle consiste à définir l'ajustement automatique des blocs de texte, garantissant que le texte s'ajuste parfaitement dans les formes sans ajustements manuels. Ce didacticiel vous guidera tout au long du processus, étape par étape, en tirant parti d'Aspose.Slides for Java pour automatiser l'ajustement du texte dans les diapositives PowerPoint.
 ## Conditions préalables
@@ -90,9 +86,3 @@ Aspose.Slides for Java est une API Java robuste qui permet aux développeurs de 
  Vous pouvez trouver une documentation détaillée pour Aspose.Slides pour Java[ici](https://reference.aspose.com/slides/java/).
 ### Comment puis-je obtenir de l’assistance pour Aspose.Slides pour Java ?
  Vous pouvez obtenir une assistance communautaire et professionnelle pour Aspose.Slides for Java à partir de[ici](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

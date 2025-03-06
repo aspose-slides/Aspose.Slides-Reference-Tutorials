@@ -3,14 +3,10 @@ title: Invertir si es negativo para series individuales en diapositivas de Java
 linktitle: Invertir si es negativo para series individuales en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a utilizar la función Invertir si es negativo en Aspose.Slides para Java para mejorar los gráficos en presentaciones de PowerPoint.
+type: docs
 weight: 11
 url: /es/java/data-manipulation/invert-if-negative-individual-series-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introducción a invertir si es negativo para series individuales en diapositivas de Java
 
@@ -135,9 +131,3 @@ Sí, puedes personalizar la apariencia de los puntos de datos invertidos. Aspose
 ### ¿Dónde puedo acceder a la documentación de Aspose.Slides para Java?
 
 Puede acceder a la documentación de Aspose.Slides para Java en[aquí](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

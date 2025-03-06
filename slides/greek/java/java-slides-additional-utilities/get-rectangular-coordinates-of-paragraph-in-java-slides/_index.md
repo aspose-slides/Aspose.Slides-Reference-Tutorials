@@ -3,14 +3,10 @@ title: Λάβετε ορθογώνιες συντεταγμένες παραγρ
 linktitle: Λάβετε ορθογώνιες συντεταγμένες παραγράφου σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ανακτάτε τις συντεταγμένες παραγράφου σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας με τον πηγαίο κώδικα για ακριβή τοποθέτηση.
+type: docs
 weight: 13
 url: /el/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στην ανάκτηση ορθογώνιων συντεταγμένων μιας παραγράφου στο Aspose.Slides for Java
 
@@ -116,9 +112,3 @@ finally
 ### Χρειάζομαι άδεια χρήσης για να χρησιμοποιήσω το Aspose.Slides για Java;
 
 Ναι, συνήθως χρειάζεστε μια έγκυρη άδεια χρήσης για να χρησιμοποιήσετε το Aspose.Slides για Java σε περιβάλλον παραγωγής. Μπορείτε να αποκτήσετε άδεια από τον ιστότοπο Aspose. Ωστόσο, ενδέχεται να προσφέρουν μια δοκιμαστική έκδοση για σκοπούς δοκιμής και αξιολόγησης.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

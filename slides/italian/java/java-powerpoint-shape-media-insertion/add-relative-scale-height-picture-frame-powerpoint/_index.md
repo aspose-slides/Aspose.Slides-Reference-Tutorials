@@ -3,14 +3,10 @@ title: Aggiungi la cornice per l'altezza in scala relativa in PowerPoint
 linktitle: Aggiungi la cornice per l'altezza in scala relativa in PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come aggiungere cornici di altezza in scala relativa nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java, migliorando il tuo contenuto visivo.
+type: docs
 weight: 15
 url: /it/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-picture-frame-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## introduzione
 In questo tutorial imparerai come aggiungere una cornice con altezza relativa in scala nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java.
 ## Prerequisiti
@@ -72,9 +68,3 @@ Aspose.Slides per Java è compatibile con varie versioni di PowerPoint, garanten
 Sì, Aspose.Slides per Java supporta vari formati di immagine, inclusi PNG, GIF, BMP e altri.
 ### Esiste un forum della community o un canale di supporto disponibile per gli utenti di Aspose.Slides?
 Sì, puoi visitare il forum Aspose.Slides per qualsiasi domanda, discussione o assistenza riguardante la libreria.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

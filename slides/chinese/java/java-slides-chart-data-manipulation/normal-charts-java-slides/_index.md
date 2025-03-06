@@ -3,14 +3,10 @@ title: Java 幻灯片中的普通图表
 linktitle: Java 幻灯片中的普通图表
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 在 Java 幻灯片中创建普通图表。在 PowerPoint 演示文稿中创建、自定义和保存图表的分步指南和源代码。
+type: docs
 weight: 21
 url: /zh/java/chart-data-manipulation/normal-charts-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 幻灯片中的普通图表简介
 
@@ -244,9 +240,3 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ### 如何将图表保存为不同的文件格式？
 
 要将图表保存为其他文件格式，请更改`SaveFormat`参数`pres.save()`方法转换为所需的格式（例如 PDF、PNG、JPEG）。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

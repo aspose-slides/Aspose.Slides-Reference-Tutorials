@@ -3,14 +3,10 @@ title: Bagan Corong di Slide Java
 linktitle: Bagan Corong di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat Bagan Corong dalam presentasi PowerPoint dengan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan kode sumber untuk visualisasi data yang efektif.
+type: docs
 weight: 18
 url: /id/java/chart-data-manipulation/funnel-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Pengantar Membuat Bagan Corong di Aspose.Slides untuk Java
 
@@ -141,9 +137,3 @@ Anda dapat menyesuaikan posisi dan ukuran Bagan Corong dengan memodifikasi koord
 ### Bisakah saya mengekspor grafik ke format lain, seperti PDF atau gambar?
 
 Ya, Aspose.Slides untuk Java memungkinkan Anda mengekspor presentasi dengan Bagan Corong ke berbagai format, termasuk PDF, format gambar, dan lainnya. Anda dapat menggunakan`SaveFormat` opsi untuk menentukan format output yang diinginkan saat menyimpan presentasi.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

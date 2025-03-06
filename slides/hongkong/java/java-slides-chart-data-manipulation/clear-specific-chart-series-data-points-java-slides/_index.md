@@ -3,14 +3,10 @@ title: 清除Java投影片中的特定圖表系列資料點數據
 linktitle: 清除Java投影片中的特定圖表系列資料點數據
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 從 Java Slides 中的圖表系列中清除特定資料點。具有原始程式碼的分步指南，可實現有效的資料視覺化管理。
+type: docs
 weight: 15
 url: /zh-hant/java/chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java投影片中清除特定圖表系列資料點資料簡介
 
@@ -125,9 +121,3 @@ finally
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的更多資訊？
 
 您可以在以下位置找到全面的文件和範例[Aspose.Slides for Java 文檔](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

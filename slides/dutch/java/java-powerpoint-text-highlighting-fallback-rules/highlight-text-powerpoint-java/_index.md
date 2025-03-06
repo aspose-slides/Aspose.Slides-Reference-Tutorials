@@ -3,14 +3,10 @@ title: Markeer tekst in PowerPoint met Java
 linktitle: Markeer tekst in PowerPoint met Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u tekst in PowerPoint kunt markeren met Aspose.Slides voor Java. Automatiseer en verbeter presentaties moeiteloos met onze gedetailleerde gids.
+type: docs
 weight: 10
 url: /nl/java/java-powerpoint-text-highlighting-fallback-rules/highlight-text-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 In het huidige digitale tijdperk, waarin visuele communicatie een centrale rol speelt in zakelijke presentaties en educatief materiaal, is de mogelijkheid om PowerPoint-presentaties programmatisch te manipuleren en te verbeteren een aanzienlijk voordeel. Aspose.Slides voor Java biedt ontwikkelaars een robuuste set tools om PowerPoint-dia's naadloos te integreren en te manipuleren met behulp van de Java-programmeertaal. Of u nu het maken van presentaties automatiseert, bestaande aanpast of gegevens uit dia's extraheert, Aspose.Slides voor Java biedt de nodige functionaliteiten om deze taken efficiënt uit te voeren.
 ## Vereisten
@@ -66,9 +62,3 @@ Aspose.Slides voor Java is een Java API waarmee ontwikkelaars PowerPoint-present
 Aspose.Slides voor Java ondersteunt het opslaan van presentaties in verschillende formaten, waaronder PPTX, PPT, PDF en meer.
 ### Is Aspose.Slides voor Java compatibel met Java SE Development Kit?
 Ja, Aspose.Slides voor Java is compatibel met de Java SE Development Kit.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

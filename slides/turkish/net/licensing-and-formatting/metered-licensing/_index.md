@@ -3,14 +3,10 @@ title: Ölçülü Lisanslama Kullanımı
 linktitle: Ölçülü Lisanslama Kullanımı
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET ile Ölçülü Lisanslamayı nasıl verimli bir şekilde kullanabileceğinizi öğrenin. Gerçek kullanım için ödeme yaparken API'leri sorunsuz bir şekilde entegre edin.
+type: docs
 weight: 11
 url: /tr/net/licensing-and-formatting/metered-licensing/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## giriiş
 
@@ -118,9 +114,3 @@ Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarıyla programlı ol
 
 ### Aspose.Slides desteği ve tartışmaları için bir forum var mı?
  Evet, Aspose.Slides forumunda destek bulabilir ve tartışmalara katılabilirsiniz:[bu bağlantı](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Rendu 3D dans PowerPoint
 linktitle: Rendu 3D dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à créer de superbes rendus 3D dans PowerPoint à l'aide d'Aspose.Slides pour Java. Élevez vos présentations.
+type: docs
 weight: 11
 url: /fr/java/java-powerpoint-rendering-techniques/3d-rendering-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Dans ce didacticiel, nous explorerons comment intégrer un rendu 3D époustouflant dans vos présentations PowerPoint à l'aide d'Aspose.Slides pour Java. En suivant ces instructions étape par étape, vous serez en mesure de créer des effets visuels captivants qui impressionneront votre public.
 ## Conditions préalables
@@ -76,9 +72,3 @@ Absolument! Aspose.Slides offre une prise en charge étendue pour l'ajout d'anim
 Bien qu'Aspose.Slides offre des fonctionnalités avancées de rendu 3D, il est essentiel de prendre en compte les implications en termes de performances, en particulier lorsque vous travaillez avec des scènes complexes ou de grandes présentations.
 ### Où puis-je trouver des ressources supplémentaires et une assistance pour Aspose.Slides ?
  Vous pouvez visiter le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour obtenir de l'aide, de la documentation et le soutien de la communauté.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

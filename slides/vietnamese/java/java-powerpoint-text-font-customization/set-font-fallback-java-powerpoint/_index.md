@@ -3,14 +3,10 @@ title: Đặt phông chữ dự phòng trong Java PowerPoint
 linktitle: Đặt phông chữ dự phòng trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt dự phòng phông chữ trong Java PowerPoint bằng Aspose.Slides cho Java để đảm bảo hiển thị văn bản nhất quán.
+type: docs
 weight: 16
 url: /vi/java/java-powerpoint-text-font-customization/set-font-fallback-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào sự phức tạp của việc thiết lập phông chữ dự phòng trong bản trình bày Java PowerPoint bằng Aspose.Slides cho Java. Dự phòng phông chữ rất quan trọng để đảm bảo rằng văn bản trong bản trình bày của bạn hiển thị chính xác trên các thiết bị và hệ điều hành khác nhau, ngay cả khi không có sẵn phông chữ được yêu cầu.
 ## Điều kiện tiên quyết
@@ -57,9 +53,3 @@ Có, Aspose.Slides cho Java tương thích với các IDE Java phổ biến như
 Có, bạn có thể lấy giấy phép tạm thời cho các sản phẩm Aspose từ[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể tìm hỗ trợ cho Aspose.Slides cho Java ở đâu?
  Để được hỗ trợ liên quan đến Aspose.Slides cho Java, hãy truy cập[diễn đàn giả định](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

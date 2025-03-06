@@ -3,14 +3,10 @@ title: تحويل العرض التقديمي إلى HTML مع تضمين جمي
 linktitle: تحويل العرض التقديمي إلى HTML مع تضمين جميع الخطوط في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحويل العروض التقديمية إلى HTML باستخدام الخطوط المضمنة باستخدام Aspose.Slides لـ Java. يضمن هذا الدليل التفصيلي خطوة بخطوة التنسيق المتسق للمشاركة السلسة.
+type: docs
 weight: 13
 url: /ar/java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة لتحويل العرض التقديمي إلى HTML مع تضمين جميع الخطوط في شرائح Java
 
@@ -112,9 +108,3 @@ finally
 ### أين يمكنني العثور على المزيد من الموارد والوثائق الخاصة بـ Aspose.Slides لـ Java؟
 
  يمكنك الوصول إلى الوثائق والموارد الشاملة الخاصة بـ Aspose.Slides for Java على[Aspose.Slides لمراجع Java API](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Aspose.Slides에서 프레젠테이션의 인쇄 출력 미리보기
 linktitle: Aspose.Slides에서 프레젠테이션의 인쇄 출력 미리보기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션의 인쇄 출력을 미리 보는 방법을 알아보세요. 소스 코드가 포함된 이 단계별 가이드를 따라 인쇄 미리보기를 생성하고 맞춤화하세요.
+type: docs
 weight: 11
 url: /ko/net/printing-and-rendering-in-slides/presentation-print-preview/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 개발자가 .NET 애플리케이션에서 PowerPoint 프레젠테이션을 원활하게 조작하고 향상할 수 있도록 지원하는 강력한 라이브러리인 Aspose.Slides for .NET의 세계에 오신 것을 환영합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 포괄적인 가이드는 Aspose.Slides의 잠재력을 최대한 활용하기 위한 필수 단계를 안내합니다.
 ## 전제 조건
@@ -75,9 +71,3 @@ pres.Print(printerSettings);
  방문하다[임시면허](https://purchase.aspose.com/temporary-license/) 테스트 목적으로 임시 라이센스를 취득합니다.
 ### 지원이 필요하거나 더 궁금한 점이 있으신가요?
  방문하다[Aspose.슬라이드 포럼](https://forum.aspose.com/c/slides/11) 도움을 받고 지역 사회와 연결됩니다.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

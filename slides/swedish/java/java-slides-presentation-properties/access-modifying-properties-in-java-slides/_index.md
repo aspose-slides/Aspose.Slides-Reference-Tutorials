@@ -3,14 +3,10 @@ title: Få åtkomst till ändringsegenskaper i Java Slides
 linktitle: Få åtkomst till ändringsegenskaper i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du kommer åt och ändrar egenskaper i Java Slides med Aspose.Slides för Java. Förbättra dina presentationer med anpassade egenskaper.
+type: docs
 weight: 11
 url: /sv/java/presentation-properties/access-modifying-properties-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion till Access Modifying Properties i Java Slides
 
@@ -121,9 +117,3 @@ Du kan hantera fel genom att använda Javas undantagshanteringsmekanismer. Aspos
 ### Var kan jag hitta mer dokumentation och exempel?
 
  Du kan hitta omfattande dokumentation och kodexempel för Aspose.Slides för Java på[här](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

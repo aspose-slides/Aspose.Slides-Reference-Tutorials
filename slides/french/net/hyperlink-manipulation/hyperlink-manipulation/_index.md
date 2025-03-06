@@ -3,14 +3,10 @@ title: Manipulation des liens hypertextes dans Aspose.Slides
 linktitle: Manipulation des liens hypertextes dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment ajouter et supprimer des hyperliens dans Aspose.Slides pour .NET. Améliorez facilement vos présentations avec des liens interactifs.
+type: docs
 weight: 10
 url: /fr/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Les hyperliens sont des éléments essentiels dans les présentations, car ils constituent un moyen pratique de naviguer entre les diapositives ou d'accéder à des ressources externes. Aspose.Slides pour .NET offre des fonctionnalités puissantes pour ajouter et supprimer des hyperliens dans vos diapositives de présentation. Dans ce didacticiel, nous vous guiderons tout au long du processus de manipulation des liens hypertexte à l'aide d'Aspose.Slides pour .NET. Nous aborderons l'ajout d'hyperliens à une diapositive et la suppression d'hyperliens d'une diapositive. Alors, plongeons-nous !
 
@@ -125,9 +121,3 @@ Absolument. Aspose.Slides prend en charge divers formats PowerPoint, notamment P
 
 ### Comment puis-je obtenir une licence temporaire pour Aspose.Slides ?
  Si vous avez besoin d'une licence temporaire pour Aspose.Slides, vous pouvez en obtenir une[ici](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

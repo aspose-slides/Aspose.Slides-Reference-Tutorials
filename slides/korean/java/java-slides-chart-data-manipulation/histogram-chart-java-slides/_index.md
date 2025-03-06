@@ -3,14 +3,10 @@ title: Java 슬라이드의 히스토그램 차트
 linktitle: Java 슬라이드의 히스토그램 차트
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 히스토그램 차트를 만드는 방법을 알아보세요. 데이터 시각화를 위한 소스 코드가 포함된 단계별 가이드입니다.
+type: docs
 weight: 19
 url: /ko/java/chart-data-manipulation/histogram-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides를 사용하는 Java 슬라이드의 히스토그램 차트 소개
 
@@ -116,9 +112,3 @@ finally
 ### 히스토그램 차트의 모양을 사용자 정의할 수 있나요?
 
 예, Aspose.Slides API를 사용하여 색상, 레이블, 축을 포함한 차트의 모양을 사용자 정의할 수 있습니다.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

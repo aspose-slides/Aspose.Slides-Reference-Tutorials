@@ -3,14 +3,10 @@ title: 透過 PowerPoint 中的 ActiveX 控制項連結視頻
 linktitle: 透過 ActiveX 控制項連結視頻
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 將影片連結到 PowerPoint 投影片。本逐步指南包括原始程式碼和使用連結影片建立互動且引人入勝的簡報的提示。
+type: docs
 weight: 12
 url: /zh-hant/net/slide-view-and-layout-manipulation/linking-video-activex-control/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 使用 Aspose.Slides for .NET 在簡報中透過 ActiveX 控制項連結視頻
 
 在 Aspose.Slides for .NET 中，您可以使用 ActiveX 控制項以程式設計方式將影片連結到簡報投影片。這使您可以建立互動式簡報，其中可以直接在幻燈片中播放影片內容。在本逐步指南中，我們將引導您完成使用 Aspose.Slides for .NET 將影片連結到簡報投影片的過程。
@@ -84,9 +80,3 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 透過遵循本指南中概述的步驟，您可以使用 Aspose.Slides for .NET 在簡報中透過 ActiveX 控制項輕鬆連結影片。此功能使您能夠創建無縫結合多媒體內容的引人入勝的互動式簡報。
 
 有關更多詳細資訊和進階選項，您可以參考[Aspose.Slides for .NET 文檔](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

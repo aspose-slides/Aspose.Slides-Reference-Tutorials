@@ -3,14 +3,10 @@ title: Gráfico de funil em slides Java
 linktitle: Gráfico de funil em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Explore Aspose.Slides for Java com tutoriais passo a passo. Crie gráficos de funil impressionantes e muito mais.
+type: docs
 weight: 14
 url: /pt/java/chart-elements/funnel-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introdução ao gráfico de funil em slides Java
 
@@ -148,9 +144,3 @@ Você pode tratar erros e exceções usando mecanismos padrão de tratamento de 
 ### Onde posso encontrar mais exemplos e documentação para Aspose.Slides for Java?
 
  Você pode encontrar mais exemplos e documentação detalhada sobre como usar Aspose.Slides para Java no[documentação](https://docs.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

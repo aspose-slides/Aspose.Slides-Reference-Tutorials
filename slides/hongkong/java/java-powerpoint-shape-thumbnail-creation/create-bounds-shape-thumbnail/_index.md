@@ -3,14 +3,10 @@ title: 建立邊界形狀縮圖
 linktitle: 建立邊界形狀縮圖
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 建立帶有邊界的形狀縮圖。本逐步教學將引導您完成整個過程。
+type: docs
 weight: 10
 url: /zh-hant/java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnail/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 Aspose.Slides for Java 是一個功能強大的函式庫，可讓 Java 開發人員以程式設計方式建立、操作和轉換 PowerPoint 簡報。在本教程中，我們將學習如何使用 Aspose.Slides for Java 建立具有邊界的形狀的縮圖。
 ## 先決條件
@@ -61,9 +57,3 @@ Aspose.Slides for Java 支援各種 PowerPoint 檔案格式，包括 PPT、PPTX�
 是的，Aspose.Slides for Java 提供了處理 PowerPoint 簡報的廣泛功能，包括投影片操作、文字擷取和圖表生成。
 ### Aspose.Slides for Java 是否有試用版？
 是的，您可以從以下位置下載免費試用版[這裡](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

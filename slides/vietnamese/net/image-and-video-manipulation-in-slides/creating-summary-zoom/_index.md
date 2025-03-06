@@ -3,14 +3,10 @@ title: Aspose.Slides - Tóm tắt thành thạo Phóng to .NET
 linktitle: Tạo Tóm tắt Phóng to các slide thuyết trình bằng Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Nâng cao bản trình bày của bạn với Aspose.Slides cho .NET! Tìm hiểu cách tạo Thu phóng tóm tắt hấp dẫn một cách dễ dàng. Tải xuống ngay để có trải nghiệm trượt động.
+type: docs
 weight: 16
 url: /vi/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Trong thế giới năng động của các bài thuyết trình, Aspose.Slides for .NET nổi bật như một công cụ mạnh mẽ giúp nâng cao trải nghiệm tạo slide của bạn. Một trong những tính năng đáng chú ý mà nó cung cấp là khả năng tạo Thu phóng Tóm tắt, một cách hấp dẫn trực quan để trình bày bộ sưu tập các trang trình bày. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo Trang trình bày Thu phóng Tóm tắt bằng Aspose.Slides cho .NET.
 ## Điều kiện tiên quyết
@@ -83,9 +79,3 @@ Tuyệt đối! Bạn có thể đưa các siêu liên kết vào các trang chi
 Kể từ phiên bản mới nhất, không có giới hạn nghiêm ngặt nào về số lượng phần bạn có thể thêm vào bản trình bày.
 ### Có phiên bản dùng thử cho Aspose.Slides không?
 Có, bạn có thể khám phá các tính năng của Aspose.Slides bằng cách tải xuống[phiên bản dùng thử miễn phí](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

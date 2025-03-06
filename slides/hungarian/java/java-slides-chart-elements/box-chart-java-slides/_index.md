@@ -3,14 +3,10 @@ title: Dobozdiagram a Java Slides-ben
 linktitle: Dobozdiagram a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre dobozdiagramokat Java prezentációkban az Aspose.Slides segítségével. Lépésről lépésre útmutató és forráskód a hatékony adatok megjelenítéséhez.
+type: docs
 weight: 10
 url: /hu/java/chart-elements/box-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Az Aspose.Slides for Java Box Chart bemutatása
 
@@ -152,9 +148,3 @@ Testreszabhatja a dobozdiagram megjelenését a tulajdonságok, például a vona
 ### Mit jelent a QuartileMethodType.Exclusive?
 
  A`QuartileMethodType.Exclusive` A beállítás azt határozza meg, hogy a kvartilis számításokat kizárólagos módszerrel kell elvégezni. Adataitól és követelményeitől függően különböző kvartilis számítási módszereket választhat.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

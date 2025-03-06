@@ -3,14 +3,10 @@ title: 将演示文稿转换为 HTML 时呈现注释
 linktitle: 将演示文稿转换为 HTML 时呈现注释
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何在使用 Aspose.Slides for .NET 将演示文稿转换为 HTML 时有效地呈现演讲者备注。本分步指南提供源代码示例和见解，以帮助您实现无缝转换和备注保存。
+type: docs
 weight: 28
 url: /zh/net/presentation-manipulation/render-notes-while-converting-presentation-to-html/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 在当今的数字时代，将演示文稿转换为 HTML 格式已成为一种常见要求。它允许您轻松地在网络上共享演示文稿，让更广泛的受众可以访问它们。Aspose.Slides for .NET 是一款功能强大的工具，可简化此过程。在本分步教程中，我们将指导您完成使用 Aspose.Slides for .NET 将演示文稿转换为 HTML 的过程。
 
@@ -83,10 +79,3 @@ Aspose.Slides for .NET 可精确控制转换过程，确保高质量的 HTML 输
 如果您遇到任何问题或有疑问，可以向[Aspose.Slides 论坛](https://forum.aspose.com/).
 
 通过遵循这些步骤，您可以使用 Aspose.Slides for .NET 轻松地将 PowerPoint 演示文稿转换为 HTML。享受与更多受众在线分享您的演示文稿的乐趣吧！
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

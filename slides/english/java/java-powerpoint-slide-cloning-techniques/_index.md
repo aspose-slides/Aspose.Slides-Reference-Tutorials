@@ -3,14 +3,10 @@ title: Java PowerPoint Slide Cloning Techniques
 linktitle: Java PowerPoint Slide Cloning Techniques
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Master slide cloning in PowerPoint using Aspose.Slides for Java. Learn to clone slides within the same presentation or across presentations seamlessly.
+type: docs
 weight: 27
 url: /java/java-powerpoint-slide-cloning-techniques/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ##  Introduction
 
 Cloning slides in PowerPoint presentations can save you a ton of time and streamline your workflow. With Aspose.Slides for Java, you can easily clone slides within the same presentation or across different presentations. Whether you're a beginner or an expert, these step-by-step tutorials will guide you through the process, making it effortless to enhance your presentations.
@@ -53,9 +49,3 @@ Learn how to Clone slides between presentations in Java using Aspose.Slides. Ste
 Clone slides within the same presentation using Aspose.Slides for Java with our guide. Perfect for developers looking to streamline PowerPoint manipulations.
 ### [Clone Slide to End within Same Presentation](./clone-slide-end-within-same-presentation-powerpoint/)
 Learn how to clone a slide to the end of a presentation using Aspose.Slides for Java with this step-by-step guide. Perfect for Java developers.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

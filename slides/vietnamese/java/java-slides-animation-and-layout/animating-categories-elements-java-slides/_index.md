@@ -3,14 +3,10 @@ title: Tạo hoạt ảnh cho các thành phần danh mục trong Java Slides
 linktitle: Tạo hoạt ảnh cho các thành phần danh mục trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tối ưu hóa bản trình bày Java của bạn với Aspose.Slides for Java. Tìm hiểu cách tạo hiệu ứng động cho các thành phần danh mục trong trang chiếu PowerPoint theo từng bước.
+type: docs
 weight: 10
 url: /vi/java/animation-and-layout/animating-categories-elements-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu về các thành phần danh mục hoạt hình trong Java Slides
 
@@ -121,10 +117,3 @@ Có, bạn có thể áp dụng hoạt ảnh tương tự cho các loại biểu
 ### Làm cách nào để tìm hiểu thêm về Aspose.Slides cho Java?
 
  Để có tài liệu toàn diện và các tài nguyên bổ sung, hãy truy cập[Aspose.Slides để tham khảo API Java](https://reference.aspose.com/slides/java/) . Bạn cũng có thể tải xuống thư viện từ[đây](https://releases.aspose.com/slides/java/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

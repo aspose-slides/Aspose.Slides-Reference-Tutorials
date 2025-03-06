@@ -3,14 +3,10 @@ title: Folie nach sequenziellem Index löschen
 linktitle: Folie nach sequenziellem Index löschen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie Schritt für Schritt, wie Sie PowerPoint-Folien mit Aspose.Slides für .NET löschen. Unser Handbuch enthält klare Anweisungen und vollständigen Quellcode, mit dem Sie Folien programmgesteuert anhand ihres sequentiellen Indexes entfernen können.
+type: docs
 weight: 24
 url: /de/net/slide-access-and-manipulation/remove-slide-using-index/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung zum Löschen von Folien anhand des sequenziellen Indexes
 
@@ -90,9 +86,3 @@ Natürlich können Sie Folien basierend auf Bedingungen wie Folieninhalt, Notize
 ### Wie erfahre ich mehr über Aspose.Slides für .NET?
 
  Sie können die ausführliche Dokumentation und API-Referenz für Aspose.Slides für .NET auf der[Dokumentationsseite](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

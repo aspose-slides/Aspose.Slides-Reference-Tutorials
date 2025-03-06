@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 进行幻灯片背景操作
 linktitle: 幻灯片背景操作
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides 增强您的幻灯片设计！在本综合教程中学习如何操作幻灯片背景。提供分步说明和代码示例。
+type: docs
 weight: 11
 url: /zh/net/slide-background-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 介绍
 
@@ -41,9 +37,3 @@ url: /zh/net/slide-background-manipulation/
 在本分步指南中学习如何使用 Aspose.Slides 掌握设置幻灯片背景。通过引人入胜的视觉效果将您的演示文稿提升到一个新的水平。
 ### [更改普通幻灯片背景](./change-slide-background-normal/)
 了解如何更改普通幻灯片背景以吸引观众。遵循此综合指南使用 Aspose.Slides for .NET，其中包含分步说明和代码示例。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

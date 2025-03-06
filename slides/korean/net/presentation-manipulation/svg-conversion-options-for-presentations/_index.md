@@ -3,14 +3,10 @@ title: 프리젠테이션을 위한 SVG 변환 옵션
 linktitle: 프리젠테이션을 위한 SVG 변환 옵션
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 프레젠테이션용 SVG 변환을 수행하는 방법을 알아보세요. 이 포괄적인 가이드에서는 단계별 지침, 소스 코드 예제 및 다양한 SVG 변환 옵션을 다룹니다.
+type: docs
 weight: 30
 url: /ko/net/presentation-manipulation/svg-conversion-options-for-presentations/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 디지털 시대에 영상은 정보를 효과적으로 전달하는 데 중요한 역할을 합니다. .NET에서 프레젠테이션 작업을 할 때 프레젠테이션 요소를 확장 가능한 벡터 그래픽(SVG)으로 변환하는 기능은 중요한 기능입니다. .NET용 Aspose.Slides는 SVG 변환을 위한 강력한 솔루션을 제공하여 렌더링 프로세스에 대한 유연성과 제어 기능을 제공합니다. 이 단계별 튜토리얼에서는 필수 코드 조각을 포함하여 프레젠테이션 모양을 SVG로 변환하기 위해 .NET용 Aspose.Slides를 활용하는 방법을 살펴보겠습니다.
 
@@ -85,10 +81,3 @@ using (FileStream stream = new FileStream(outPath + "YourFileName.svg", FileMode
  다음에서 추가 리소스, 문서 및 지원을 찾을 수 있습니다.[Aspose.Slides API 참조](https://reference.aspose.com/slides/net/).
 
 이제 Aspose.Slides for .NET을 사용한 SVG 변환에 대해 확실히 이해했으므로 확장 가능한 고품질 그래픽으로 프레젠테이션을 향상할 수 있습니다. 즐거운 코딩하세요!
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

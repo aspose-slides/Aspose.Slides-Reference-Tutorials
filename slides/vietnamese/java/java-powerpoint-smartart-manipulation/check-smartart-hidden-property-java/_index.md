@@ -3,14 +3,10 @@ title: Kiểm tra thuộc tính ẩn SmartArt bằng Java
 linktitle: Kiểm tra thuộc tính ẩn SmartArt bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Khám phá cách kiểm tra thuộc tính ẩn SmartArt trong PowerPoint bằng Aspose.Slides for Java, nâng cao thao tác trình bày.
+type: docs
 weight: 24
 url: /vi/java/java-powerpoint-smartart-manipulation/check-smartart-hidden-property-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Trong thế giới năng động của lập trình Java, việc thao tác các bài thuyết trình PowerPoint theo chương trình là một kỹ năng quý giá. Aspose.Slides cho Java là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, sửa đổi và thao tác các bản trình bày PowerPoint một cách liền mạch. Một trong những nhiệm vụ thiết yếu trong thao tác trình bày là kiểm tra thuộc tính ẩn của đối tượng SmartArt. Hướng dẫn này sẽ hướng dẫn bạn quy trình kiểm tra thuộc tính ẩn của SmartArt bằng Aspose.Slides cho Java.
 ## Điều kiện tiên quyết
@@ -80,9 +76,3 @@ Tuyệt đối! Aspose.Slides for Java cung cấp các khả năng mở rộng �
 Có, Aspose.Slides cho Java hỗ trợ nhiều định dạng tệp PowerPoint, bao gồm PPT, PPTX, POT, POTX, PPS, v.v.
 ### Có cộng đồng hoặc diễn đàn nào để tôi có thể nhận trợ giúp về Aspose.Slides cho Java không?
 Có, bạn có thể truy cập diễn đàn Aspose.Slides (https://forum.aspose.com/c/slides/11) để đặt câu hỏi, chia sẻ ý tưởng và nhận được sự hỗ trợ từ cộng đồng.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

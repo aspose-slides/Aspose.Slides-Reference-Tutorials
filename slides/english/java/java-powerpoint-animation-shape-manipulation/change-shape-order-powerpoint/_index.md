@@ -3,14 +3,10 @@ title: Change Shape Order in PowerPoint
 linktitle: Change Shape Order in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to change the shape order in PowerPoint using Aspose.Slides for Java with this step-by-step tutorial. Enhance your presentation skills effortlessly.
+type: docs
 weight: 15
 url: /java/java-powerpoint-animation-shape-manipulation/change-shape-order-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Creating visually appealing and well-structured presentations can be a daunting task. However, with the right tools and techniques, you can make it significantly easier. Aspose.Slides for Java is a powerful library that helps you manipulate and manage PowerPoint presentations programmatically. In this tutorial, we’ll walk you through the steps to change the shape order in a PowerPoint slide using Aspose.Slides for Java.
 ## Prerequisites
@@ -77,10 +73,3 @@ Yes, Aspose.Slides for Java supports PPT, PPTX, and other PowerPoint formats.
 You can download a free trial from the [Aspose.Slides for Java download page](https://releases.aspose.com/).
 ### Where can I find more documentation on Aspose.Slides for Java?
 You can find detailed documentation on the [Aspose.Slides for Java documentation page](https://reference.aspose.com/slides/java/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

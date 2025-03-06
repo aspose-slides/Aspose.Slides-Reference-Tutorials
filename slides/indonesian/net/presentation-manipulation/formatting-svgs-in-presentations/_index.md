@@ -3,14 +3,10 @@ title: Memformat SVG dalam Presentasi
 linktitle: Memformat SVG dalam Presentasi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Optimalkan presentasi Anda dengan SVG yang menakjubkan menggunakan Aspose.Slides untuk .NET. Pelajari langkah demi langkah cara memformat SVG untuk visual yang berdampak. Tingkatkan permainan presentasi Anda hari ini!
+type: docs
 weight: 31
 url: /id/net/presentation-manipulation/formatting-svgs-in-presentations/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Apakah Anda ingin menyempurnakan presentasi Anda dengan bentuk SVG yang menarik? Aspose.Slides untuk .NET dapat menjadi alat utama Anda untuk mencapai hal ini. Dalam tutorial komprehensif ini, kami akan memandu Anda melalui proses pemformatan bentuk SVG dalam presentasi menggunakan Aspose.Slides untuk .NET. Ikuti kode sumber yang disediakan dan ubah presentasi Anda menjadi karya yang menarik secara visual.
 
@@ -119,10 +115,3 @@ Anda dapat mengunjungi forum komunitas Aspose (tautan disediakan di atas) untuk 
 Untuk membuat presentasi yang menarik secara visual, fokuslah pada konsistensi desain, gunakan grafik berkualitas tinggi, dan jaga konten Anda tetap ringkas dan menarik. Bereksperimenlah dengan opsi pemformatan yang berbeda, seperti yang ditunjukkan dalam tutorial ini.
 
 Sekarang, lanjutkan dan terapkan teknik-teknik ini untuk membuat presentasi menakjubkan yang memikat audiens Anda!
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

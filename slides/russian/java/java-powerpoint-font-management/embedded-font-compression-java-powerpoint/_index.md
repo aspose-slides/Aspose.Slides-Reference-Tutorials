@@ -3,14 +3,10 @@ title: Встроенное сжатие шрифтов в Java PowerPoint
 linktitle: Встроенное сжатие шрифтов в Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как сжимать встроенные шрифты в презентациях Java PowerPoint с помощью Aspose.Slides. Оптимизируйте размеры файлов без особых усилий.
+type: docs
 weight: 12
 url: /ru/java/java-powerpoint-font-management/embedded-font-compression-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 В динамичной среде цифровых презентаций возможность оптимизировать размеры файлов без ущерба для качества имеет первостепенное значение. Aspose.Slides для Java предлагает мощное решение для повышения эффективности презентаций PowerPoint за счет встроенного сжатия шрифтов. Из этого руководства вы узнаете, как использовать эту функцию для эффективного уменьшения размера файлов, обеспечения более плавного распространения и повышения производительности ваших презентаций.
 ## Предварительные условия
@@ -68,9 +64,3 @@ System.out.println(String.format("Result file size = %d bytes", outputFile.lengt
  Конечно! Вы можете обратиться за поддержкой к сообществу Aspose.Slides через специальный[Форум](https://forum.aspose.com/c/slides/11) или рассмотрите возможность приобретения временной лицензии на приоритетную помощь.
 ### Как я могу приобрести лицензионную версию Aspose.Slides для Java?
 Вы можете приобрести лицензионную версию Aspose.Slides for Java на веб-сайте, воспользовавшись предоставленным[Купить ссылку](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

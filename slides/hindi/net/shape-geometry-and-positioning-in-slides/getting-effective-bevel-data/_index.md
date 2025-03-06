@@ -3,14 +3,10 @@ title: स्लाइड्स में प्रभावी बेवल ड
 linktitle: प्रेजेंटेशन स्लाइड में आकार के लिए प्रभावी बेवल डेटा प्राप्त करना
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: Aspose.Slides का उपयोग करके प्रभावी बेवल डेटा के साथ अपनी प्रस्तुति स्लाइड्स को बेहतर बनाने का तरीका जानें। चरण-दर-चरण निर्देशों और नमूना कोड के साथ एक व्यापक गाइड।
+type: docs
 weight: 20
 url: /hi/net/shape-geometry-and-positioning-in-slides/getting-effective-bevel-data/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## परिचय
 Aspose.Slides for .NET की आकर्षक दुनिया में आपका स्वागत है, यह आपके लिए अद्वितीय आसानी से शानदार प्रेजेंटेशन बनाने का प्रवेश द्वार है। इस ट्यूटोरियल में, हम Aspose.Slides for .NET का उपयोग करके प्रेजेंटेशन स्लाइड में आकृतियों के लिए प्रभावी बेवल डेटा प्राप्त करने की पेचीदगियों पर चर्चा करेंगे।
 ## आवश्यक शर्तें
@@ -73,9 +69,3 @@ Console.WriteLine("Height: " + threeDEffectiveData.BevelTop.Height);
  हां, आप .NET के लिए Aspose.Slides खरीद सकते हैं[यहाँ](https://purchase.aspose.com/buy) वाणिज्यिक परियोजनाओं के लिए इसकी प्रीमियम सुविधाओं को अनलॉक करने के लिए।
 ### यदि कार्यान्वयन के दौरान मुझे कोई समस्या आती है तो क्या होगा?
  Aspose.Slides for .NET समुदाय से सहायता प्राप्त करें[सहयता मंच](https://forum.aspose.com/c/slides/11) त्वरित एवं उपयोगी समाधान के लिए।
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

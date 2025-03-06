@@ -3,14 +3,10 @@ title: Java 幻灯片中的多类别图表
 linktitle: Java 幻灯片中的多类别图表
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 在 Java 幻灯片中创建多类别图表。带有源代码的分步指南，可在演示文稿中实现令人印象深刻的数据可视化。
+type: docs
 weight: 20
 url: /zh/java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 使用 Aspose.Slides 在 Java Slides 中制作多类别图表的介绍
 
@@ -161,9 +157,3 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ### 如何为图表添加标题？
 
 您可以使用`ch.getChartTitle().getTextFrame().setText("Chart Title");`方法。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Gérer l'en-tête et le pied de page dans les diapositives
 linktitle: Gérer l'en-tête et le pied de page dans les diapositives
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment ajouter des en-têtes et des pieds de page dynamiques dans des présentations PowerPoint à l'aide d'Aspose.Slides pour .NET.
+type: docs
 weight: 14
 url: /fr/net/chart-creation-and-customization/header-footer-manager/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 # Création d'en-têtes et de pieds de page dynamiques dans Aspose.Slides pour .NET
 
@@ -135,9 +131,3 @@ A2 : Oui, vous pouvez explorer un essai gratuit d'Aspose.Slides pour .NET[ici]
 
 ### Q5 : Existe-t-il une communauté ou un forum d'assistance pour Aspose.Slides pour .NET ?
  A5 : Oui, vous pouvez visiter le forum de support Aspose.Slides pour .NET[ici](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

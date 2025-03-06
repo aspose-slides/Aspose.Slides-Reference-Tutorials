@@ -3,14 +3,10 @@ title: Stel de automatische reeksvulkleur in Java-dia's in
 linktitle: Stel de automatische reeksvulkleur in Java-dia's in
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u de automatische opvulkleur van reeksen in Java Slides instelt met behulp van Aspose.Slides voor Java. Stapsgewijze handleiding met codevoorbeelden voor dynamische presentaties.
+type: docs
 weight: 14
 url: /nl/java/data-manipulation/set-automatic-series-fill-color-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot het instellen van de automatische reeksvulkleur in Java-dia's
 
@@ -130,9 +126,3 @@ Ja, Aspose.Slides voor Java biedt een breed scala aan functies, waaronder diaman
 ### Waar kan ik meer bronnen en documentatie vinden?
 
  Uitgebreide documentatie voor Aspose.Slides voor Java vindt u op[hier](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: ضبط لغة العرض وشكل النص في Java
 linktitle: ضبط لغة العرض وشكل النص في Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية أتمتة عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. يمكنك إنشاء الشرائح وتعديلها وتحسينها برمجيًا بسهولة.
+type: docs
 weight: 19
 url: /ar/java/java-powerpoint-text-font-customization/set-presentation-language-shape-text-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 يمكن أن يؤدي إنشاء عروض PowerPoint التقديمية ومعالجتها برمجيًا في Java إلى تبسيط أتمتة سير العمل وتحسين الإنتاجية. يوفر Aspose.Slides for Java مجموعة قوية من الأدوات لتحقيق هذه المهام بكفاءة. يرشدك هذا البرنامج التعليمي خلال الخطوات الأساسية لتعيين لغة العرض التقديمي وشكل النص باستخدام Aspose.Slides لـ Java.
 ## المتطلبات الأساسية
@@ -73,9 +69,3 @@ pres.dispose();
  الوثائق التفصيلية متاحة[هنا](https://reference.aspose.com/slides/java/).
 ### ما خيارات الدعم المتوفرة لـ Aspose.Slides لـ Java؟
  يمكنك زيارة منتدى Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11) لدعم المجتمع.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

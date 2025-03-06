@@ -3,14 +3,10 @@ title: Zugriff auf integrierte Eigenschaften in PowerPoint
 linktitle: Zugriff auf integrierte Eigenschaften in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java auf integrierte Eigenschaften in PowerPoint zugreifen. Dieses Tutorial führt Sie durch das Abrufen von Autor, Erstellungsdatum und mehr.
+type: docs
 weight: 10
 url: /de/java/java-powerpoint-properties-management/access-built-in-properties-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java auf integrierte Eigenschaften in PowerPoint-Präsentationen zugreifen können. Aspose.Slides ist eine leistungsstarke Bibliothek, die es Java-Entwicklern ermöglicht, programmgesteuert mit PowerPoint-Präsentationen zu arbeiten und Aufgaben wie das nahtlose Lesen und Ändern von Eigenschaften zu ermöglichen.
 ## Voraussetzungen
@@ -105,9 +101,3 @@ Ja, neben integrierten Eigenschaften können Sie mit Aspose.Slides für Java auc
  Ja, Sie finden umfassende Dokumentation und Zugriff auf Support-Foren auf der[Aspose-Website](https://reference.aspose.com/slides/java/).
 ### Gibt es eine Testversion von Aspose.Slides für Java?
  Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

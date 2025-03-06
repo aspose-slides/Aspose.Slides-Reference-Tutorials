@@ -3,14 +3,10 @@ title: Beherrschen der Formausrichtung mit Aspose.Slides für .NET
 linktitle: Ausrichten von Formen in Präsentationsfolien mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Lernen Sie, mit Aspose.Slides für .NET Formen in Präsentationsfolien mühelos auszurichten. Verbessern Sie die visuelle Attraktivität durch präzise Ausrichtung. Jetzt herunterladen!
+type: docs
 weight: 10
 url: /de/net/shape-alignment-and-formatting-in-slides/aligning-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 Das Erstellen optisch ansprechender Präsentationsfolien erfordert häufig eine präzise Ausrichtung der Formen. Aspose.Slides für .NET bietet eine leistungsstarke Lösung, um dies mühelos zu erreichen. In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für .NET Formen in Präsentationsfolien ausrichten.
 ## Voraussetzungen
@@ -86,9 +82,3 @@ Auf jeden Fall! Aspose.Slides bietet Methoden, um Formen sowohl horizontal als a
 Aspose.Slides für .NET ist in erster Linie für Windows-Anwendungen konzipiert, aber Aspose bietet auch Bibliotheken für Java und andere Plattformen.
 ### Wie kann ich weitere Hilfe oder Unterstützung erhalten?
  Besuche den[Aspose.Slides Forum](https://forum.aspose.com/c/slides/11) für Community-Unterstützung und Diskussionen.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

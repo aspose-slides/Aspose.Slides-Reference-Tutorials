@@ -3,14 +3,10 @@ title: Uzyskaj efektywne dane dotyczące kształtu skosu w programie PowerPoint
 linktitle: Uzyskaj efektywne dane dotyczące kształtu skosu w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak pobrać efektywne dane dotyczące skosów kształtu w programie PowerPoint przy użyciu aplikacji Aspose.Slides dla języka Java. Wzbogać swoje prezentacje oszałamiającymi efektami wizualnymi.
+type: docs
 weight: 26
 url: /pl/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effective-data-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 W nowoczesnych prezentacjach biznesowych atrakcyjność wizualna odgrywa kluczową rolę w skutecznym przekazywaniu informacji. Jednym z elementów, który może poprawić efekt wizualny kształtów w prezentacjach programu PowerPoint, jest efekt fazy. Aspose.Slides dla Java zapewnia potężne narzędzia umożliwiające dostęp i manipulowanie różnymi właściwościami kształtów, w tym efektami skosu. W tym samouczku przeprowadzimy Cię przez proces pobierania danych dotyczących efektywnego skosu kształtu przy użyciu Aspose.Slides dla Java.
 ## Warunki wstępne
@@ -62,9 +58,3 @@ Aspose.Slides zapewnia kompatybilność z różnymi wersjami programu PowerPoint
 Absolutnie masz pełną kontrolę nad właściwościami efektu fazy i możesz je dostosować do swoich wymagań.
 ### Gdzie mogę znaleźć więcej zasobów i wsparcia dla Aspose.Slides?
  Możesz odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) w przypadku jakichkolwiek pytań, wsparcia lub dodatkowych zasobów.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Sunumlarda Kompozit Geometri Şekillerinde Uzmanlaşmak
 linktitle: Aspose.Slides ile Geometri Şeklinde Kompozit Nesneler Oluşturma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak kompozit geometri şekilleriyle etkileyici sunumlar oluşturmayı öğrenin. Etkileyici sonuçlar için adım adım kılavuzumuzu izleyin.
+type: docs
 weight: 14
 url: /tr/net/shape-geometry-and-positioning-in-slides/creating-composite-objects-geometry-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 Geometri şekillerinde kompozit nesneler oluşturarak sunumlarınızı geliştirmek için Aspose.Slides for .NET'in gücünün kilidini açın. Bu eğitim, Aspose.Slides'ı kullanarak karmaşık geometriye sahip, görsel açıdan çekici slaytlar oluşturma sürecinde size rehberlik edecektir.
 ## Önkoşullar
@@ -88,9 +84,3 @@ Aspose.Slides, Java ve Python dahil olmak üzere çeşitli programlama dillerini
  Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) Toplumsal destek ve yardım için.
 ### S: Geçici lisans satın alabilir miyim?
  Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

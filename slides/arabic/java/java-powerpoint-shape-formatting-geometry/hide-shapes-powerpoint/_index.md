@@ -3,14 +3,10 @@ title: إخفاء الأشكال في PowerPoint
 linktitle: إخفاء الأشكال في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إخفاء الأشكال في PowerPoint باستخدام Aspose.Slides لـ Java من خلال دليلنا التفصيلي خطوة بخطوة. مثالي لمطوري Java من جميع المستويات.
+type: docs
 weight: 27
 url: /ar/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 مرحبًا بك في برنامجنا التعليمي الشامل حول إخفاء الأشكال في PowerPoint باستخدام Aspose.Slides لـ Java! إذا كنت بحاجة في أي وقت مضى إلى إخفاء أشكال معينة في عروض PowerPoint التقديمية برمجياً، فأنت في المكان الصحيح. سيرشدك هذا الدليل خلال كل خطوة بأسلوب محادثة بسيط. سواء كنت مطورًا متمرسًا أو بدأت للتو في استخدام Java، فنحن نوفر لك كل ما تحتاجه.
 ## المتطلبات الأساسية
@@ -85,9 +81,3 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
 ### أين يمكنني الحصول على الدعم لـ Aspose.Slides؟
  يمكنك الحصول على الدعم من[منتدى دعم Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

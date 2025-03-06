@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 縮放框架建立動態簡報
 linktitle: 使用 Aspose.Slides 在簡報投影片中建立縮放框架
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 學習使用 Aspose.Slides for .NET 建立具有縮放框架的迷人簡報。按照我們的逐步指南獲得引人入勝的幻燈片體驗。
+type: docs
 weight: 17
 url: /zh-hant/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 在簡報領域，引人入勝的幻燈片是給人留下持久印象的關鍵。 Aspose.Slides for .NET 提供了強大的工具集，在本指南中，我們將引導您完成將引人入勝的縮放框架合併到簡報投影片中的過程。
 ## 先決條件
@@ -93,9 +89,3 @@ pres.Save(resultPath, SaveFormat.Pptx);
 您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### Q：哪裡可以購買完整版的 Aspose.Slides for .NET？
 您可以購買完整版[這裡](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

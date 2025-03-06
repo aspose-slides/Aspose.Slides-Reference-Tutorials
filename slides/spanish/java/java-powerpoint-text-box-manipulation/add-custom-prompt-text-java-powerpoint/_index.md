@@ -3,14 +3,10 @@ title: Agregar texto de mensaje personalizado en Java PowerPoint
 linktitle: Agregar texto de mensaje personalizado en Java PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo agregar texto de mensaje personalizado en Java PowerPoint usando Aspose.Slides. Mejore la interacción del usuario sin esfuerzo con este tutorial.
+type: docs
 weight: 12
 url: /es/java/java-powerpoint-text-box-manipulation/add-custom-prompt-text-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introducción
 En la era digital actual, crear presentaciones dinámicas y atractivas es crucial para una comunicación eficaz. Aspose.Slides para Java permite a los desarrolladores manipular presentaciones de PowerPoint mediante programación, ofreciendo amplias funciones para personalizar diapositivas, formas, texto y más. Este tutorial lo guiará a través del proceso de agregar texto de mensaje personalizado a marcadores de posición en presentaciones de PowerPoint de Java usando Aspose.Slides.
 ## Requisitos previos
@@ -75,9 +71,3 @@ Aspose.Slides admite una amplia gama de versiones de PowerPoint, lo que garantiz
  Puedes conseguir un[licencia temporal](https://purchase.aspose.com/temporary-license/) para evaluar todas las características de Aspose.Slides.
 ### ¿Aspose.Slides para Java admite la adición de animaciones personalizadas a las diapositivas?
 Sí, Aspose.Slides proporciona API para administrar animaciones de diapositivas mediante programación.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

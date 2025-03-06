@@ -3,14 +3,10 @@ title: Định hình lại các slide thuyết trình bằng Aspose.Slides cho .
 linktitle: Thay đổi thứ tự hình dạng trong các slide thuyết trình bằng Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách định hình lại các trang trình bày bằng Aspose.Slides cho .NET. Hãy làm theo hướng dẫn từng bước này để sắp xếp lại các hình dạng và nâng cao sức hấp dẫn trực quan.
+type: docs
 weight: 26
 url: /vi/net/shape-effects-and-manipulation-in-slides/changing-order-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Tạo các slide thuyết trình hấp dẫn trực quan là một khía cạnh quan trọng của giao tiếp hiệu quả. Aspose.Slides for .NET trao quyền cho các nhà phát triển thao tác với các trang trình bày theo chương trình, cung cấp nhiều chức năng. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình thay đổi thứ tự hình dạng trong các slide thuyết trình bằng Aspose.Slides cho .NET.
 ## Điều kiện tiên quyết
@@ -74,9 +70,3 @@ Trả lời: Có, Aspose.Slides cho .NET tương thích với cả môi trườn
  Đáp: Hãy ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để nhận được sự hỗ trợ và gắn kết với cộng đồng.
 ### Câu hỏi: Làm cách nào tôi có thể nhận được giấy phép tạm thời cho Aspose.Slides cho .NET?
  A: Bạn có thể có được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) cho mục đích đánh giá.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

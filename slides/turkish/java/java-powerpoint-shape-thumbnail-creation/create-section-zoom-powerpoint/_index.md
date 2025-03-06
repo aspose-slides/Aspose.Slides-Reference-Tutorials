@@ -3,14 +3,10 @@ title: PowerPoint'te Bölüm Yakınlaştırma Oluştur
 linktitle: PowerPoint'te Bölüm Yakınlaştırma Oluştur
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak PowerPoint sunumlarında nasıl bölüm yakınlaştırma oluşturulacağını öğrenin. Gezinmeyi ve etkileşimi zahmetsizce geliştirin.
+type: docs
 weight: 13
 url: /tr/java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## giriiş
 Bu eğitimde Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarında bölüm yakınlaştırmaları oluşturmayı ele alacağız. Bölüm yakınlaştırmaları, sunumunuzun farklı bölümleri arasında sorunsuz bir şekilde gezinmenize olanak tanıyan, hem organizasyonu hem de genel kullanıcı deneyimini geliştiren güçlü bir özelliktir. Karmaşık sunumları kolayca sindirilebilir bölümlere ayırarak mesajınızı etkili bir şekilde iletebilir ve izleyicilerinizin ilgisini çekebilirsiniz.
@@ -76,9 +72,3 @@ Aspose.Slides for Java, PPTX, PPT ve daha fazlasını içeren çeşitli PowerPoi
 Evet, bu eğitimde özetlenen benzer adımları izleyerek Aspose.Slides for Java'yı kullanarak mevcut sunumlarınıza bölüm yakınlaştırmaları ekleyebilirsiniz.
 ### Aspose.Slides for Java ile ilgili ek destek veya yardımı nereden bulabilirim?
  Ek destek veya yardım için Aspose.Slides for Java forumunu ziyaret edebilirsiniz.[Burada](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

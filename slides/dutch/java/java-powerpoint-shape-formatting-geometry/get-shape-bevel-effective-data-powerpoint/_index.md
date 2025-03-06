@@ -3,14 +3,10 @@ title: Ontvang Shape Bevel-effectieve gegevens in PowerPoint
 linktitle: Ontvang Shape Bevel-effectieve gegevens in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u effectieve gegevens over vormafschuining kunt ophalen in PowerPoint met behulp van Aspose.Slides voor Java. Verbeter uw presentaties met verbluffende visuele effecten.
+type: docs
 weight: 26
 url: /nl/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effective-data-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 In moderne bedrijfspresentaties speelt visuele aantrekkingskracht een cruciale rol bij het effectief overbrengen van informatie. Een van de elementen die de visuele impact van vormen in PowerPoint-presentaties kunnen verbeteren, is het schuine effect. Aspose.Slides voor Java biedt krachtige tools voor toegang tot en manipuleren van verschillende eigenschappen van vormen, inclusief hun schuine effecten. In deze zelfstudie begeleiden we u bij het ophalen van effectieve gegevens over de schuine kant van de vorm met behulp van Aspose.Slides voor Java.
 ## Vereisten
@@ -62,9 +58,3 @@ Aspose.Slides zorgt voor compatibiliteit met verschillende versies van PowerPoin
 Absoluut, u heeft volledige controle over de eigenschappen van het schuine effect en kunt deze aanpassen aan uw wensen.
 ### Waar kan ik meer bronnen en ondersteuning vinden voor Aspose.Slides?
  U kunt een bezoek brengen aan de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor eventuele vragen, ondersteuning of aanvullende bronnen.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: 在 PowerPoint 中建立群組形狀
 linktitle: 在 PowerPoint 中建立群組形狀
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中建立群組形狀。輕鬆改善組織和視覺吸引力。
+type: docs
 weight: 11
 url: /zh-hant/java/java-powerpoint-shape-thumbnail-creation/create-group-shape-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 在現代演示中，結合視覺吸引力和結構良好的元素對於有效傳達訊息至關重要。 PowerPoint 中的群組形狀可讓您將多個形狀組織到一個單元中，從而更輕鬆地進行操作和格式化。 Aspose.Slides for Java 提供了強大的功能來以程式設計方式建立和操作群組形狀，從而為您的簡報設計提供靈活性和控制。
 ## 先決條件
@@ -79,9 +75,3 @@ Aspose.Slides for Java產生與各種版本相容的PowerPoint簡報，確保交
 Aspose.Slides for Java 對可以加入到群組形狀中的形狀數量沒有嚴格限制。
 ### 我可以使用 Aspose.Slides for Java 將動畫套用到群組形狀嗎？
 是的，Aspose.Slides for Java 提供了將動畫應用於群組形狀的全面支持，從而實現動態演示。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

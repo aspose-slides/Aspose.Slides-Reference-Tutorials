@@ -3,14 +3,10 @@ title: 在 PowerPoint 中取得形狀斜角有效數據
 linktitle: 在 PowerPoint 中取得形狀斜角有效數據
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 中擷取形狀斜角有效資料。透過令人驚嘆的視覺效果增強您的簡報。
+type: docs
 weight: 26
 url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effective-data-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 在現代商業簡報中，視覺吸引力在有效傳達訊息方面起著至關重要的作用。斜角效果是增強 PowerPoint 簡報中形狀視覺效果的元素之一。 Aspose.Slides for Java 提供了強大的工具來存取和操作形狀的各種屬性，包括它們的斜角效果。在本教程中，我們將引導您完成使用 Aspose.Slides for Java 檢索形狀斜角有效資料的過程。
 ## 先決條件
@@ -62,9 +58,3 @@ Aspose.Slides 確保與各種版本的 PowerPoint 的兼容性，讓您能夠在
 當然，您可以完全控制斜角效果屬性，並可以根據您的要求進行自訂。
 ### 在哪裡可以找到有關 Aspose.Slides 的更多資源和支援？
 您可以訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)如有任何問題、支援或其他資源。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

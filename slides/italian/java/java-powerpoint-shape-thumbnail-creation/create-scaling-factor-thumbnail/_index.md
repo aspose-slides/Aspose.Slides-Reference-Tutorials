@@ -3,14 +3,10 @@ title: Crea miniatura del fattore di scala
 linktitle: Crea miniatura del fattore di scala
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come creare miniature dei fattori di ridimensionamento in Java utilizzando Aspose.Slides per Java. Guida facile da seguire con istruzioni passo passo.
+type: docs
 weight: 12
 url: /it/java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thumbnail/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## introduzione
 In questo tutorial, ti guideremo attraverso il processo di creazione di una miniatura del fattore di scala utilizzando Aspose.Slides per Java. Segui queste istruzioni passo passo per ottenere il risultato desiderato.
 ## Prerequisiti
@@ -70,9 +66,3 @@ Sì, Aspose.Slides per Java può essere utilizzato con qualsiasi Java Integrated
  È possibile acquistare Aspose.Slides per Java da[pagina di acquisto](https://purchase.aspose.com/buy).
 ### Ho bisogno di una licenza temporanea per utilizzare Aspose.Slides per Java?
  Sì, puoi ottenere una licenza temporanea da[pagina della licenza temporanea](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

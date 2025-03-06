@@ -3,14 +3,10 @@ title: 依序索引存取投影片
 linktitle: 依序索引存取投影片
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 透過順序索引存取投影片。請按照此帶有原始程式碼的逐步指南輕鬆導航和操作 PowerPoint 簡報。
+type: docs
 weight: 12
 url: /zh-hant/net/slide-access-and-manipulation/access-slide-by-index/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 透過順序索引存取投影片簡介
 
@@ -90,9 +86,3 @@ Aspose.Slides for .NET 提供了廣泛的功能，包括從頭開始建立簡報
 ### 我如何了解有關使用 Aspose.Slides 進行 PowerPoint 自動化的更多資訊？
 
 要了解有關使用 Aspose.Slides 進行 PowerPoint 自動化的更多信息，您可以瀏覽其網站上提供的詳細文件和程式碼範例[文件](https://reference.aspose.com/slides/net/)頁。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

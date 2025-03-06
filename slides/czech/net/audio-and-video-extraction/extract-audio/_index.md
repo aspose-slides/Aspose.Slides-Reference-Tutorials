@@ -3,14 +3,10 @@ title: Extrahujte zvuk ze snímku
 linktitle: Extrahujte zvuk ze snímku
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: LZjistěte, jak extrahovat zvuk ze snímků pomocí Aspose.Slides for .NET. Vylepšete své prezentace pomocí tohoto podrobného průvodce.
+type: docs
 weight: 11
 url: /cs/net/audio-and-video-extraction/extract-audio/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Ve světě prezentací může přidání zvuku do snímků zvýšit celkový dopad a zapojení. Aspose.Slides for .NET poskytuje výkonnou sadu nástrojů pro práci s prezentacemi a v tomto tutoriálu prozkoumáme, jak extrahovat zvuk ze snímku v podrobném průvodci. Ať už jste vývojář, který chce tento proces automatizovat, nebo se jen zajímáte o pochopení toho, jak se to dělá, tento tutoriál vás celým procesem provede.
 
@@ -91,9 +87,3 @@ Ano, Aspose.Slides for .NET nabízí širokou škálu funkcí pro práci s preze
 
 ### 5. Kde mohu najít další podporu nebo se zeptat na otázky týkající se Aspose.Slides pro .NET?
  Můžete navštívit[Aspose.Slides for .NET Support Forum](https://forum.aspose.com/) hledat pomoc, klást otázky nebo sdílet své zkušenosti s komunitou Aspose.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

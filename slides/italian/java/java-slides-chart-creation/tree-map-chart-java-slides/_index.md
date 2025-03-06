@@ -3,14 +3,10 @@ title: Grafico della mappa ad albero nelle diapositive Java
 linktitle: Grafico della mappa ad albero nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Crea grafici a mappa ad albero nelle diapositive Java utilizzando Aspose.Slides per Java. Guida passo passo con codice sorgente per la visualizzazione dei dati gerarchici.
+type: docs
 weight: 13
 url: /it/java/chart-creation/tree-map-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduzione al grafico della mappa ad albero nelle diapositive Java
 
@@ -156,9 +152,3 @@ Sì, puoi creare più grafici ad albero in un'unica presentazione seguendo gli s
 ### Come faccio a salvare la presentazione con il grafico della mappa ad albero?
 
  Usa il`pres.save()` metodo per salvare la presentazione con il grafico della Mappa ad Albero nel formato desiderato (es. PPTX).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

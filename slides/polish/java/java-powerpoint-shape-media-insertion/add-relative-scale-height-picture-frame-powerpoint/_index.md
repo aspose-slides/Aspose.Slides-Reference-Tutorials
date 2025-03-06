@@ -3,14 +3,10 @@ title: Dodaj ramkę obrazu o względnej wysokości w programie PowerPoint
 linktitle: Dodaj ramkę obrazu o względnej wysokości w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodawać ramki obrazów o względnej wysokości w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java, poprawiając zawartość wizualną.
+type: docs
 weight: 15
 url: /pl/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-picture-frame-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 W tym samouczku dowiesz się, jak dodać ramkę obrazu ze względną wysokością w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java.
 ## Warunki wstępne
@@ -72,9 +68,3 @@ Aspose.Slides for Java jest kompatybilny z różnymi wersjami programu PowerPoin
 Tak, Aspose.Slides for Java obsługuje różne formaty obrazów, w tym PNG, GIF, BMP i inne.
 ### Czy dla użytkowników Aspose.Slides dostępne jest forum społecznościowe lub kanał wsparcia?
 Tak, możesz odwiedzić forum Aspose.Slides w przypadku jakichkolwiek pytań, dyskusji lub pomocy dotyczącej biblioteki.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

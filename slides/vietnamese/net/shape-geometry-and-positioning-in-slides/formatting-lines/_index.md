@@ -3,14 +3,10 @@ title: Định dạng dòng trình bày với Aspose.Slides Hướng dẫn .NET
 linktitle: Định dạng dòng trong slide thuyết trình bằng Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Cải thiện các trang trình bày của bạn với Aspose.Slides cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để định dạng dòng một cách dễ dàng. Tải về dùng thử miễn phí ngay bây giờ!
+type: docs
 weight: 10
 url: /vi/net/shape-geometry-and-positioning-in-slides/formatting-lines/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Tạo các slide thuyết trình hấp dẫn trực quan là điều cần thiết để giao tiếp hiệu quả. Aspose.Slides for .NET cung cấp một giải pháp mạnh mẽ để thao tác và định dạng các thành phần trình bày theo chương trình. Trong hướng dẫn này, chúng tôi sẽ tập trung vào việc định dạng các dòng trong các slide thuyết trình bằng Aspose.Slides cho .NET.
 ## Điều kiện tiên quyết
@@ -79,9 +75,3 @@ Có, Aspose.Slides hỗ trợ nhiều ngôn ngữ lập trình khác nhau, bao g
  Bạn có thể nhận được giấy phép tạm thời từ[Giấy phép tạm thời Aspose.Slides](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi 5: Tôi có thể mua Aspose.Slides cho .NET ở đâu?
  Bạn có thể mua sản phẩm từ[Mua Aspose.Slides](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

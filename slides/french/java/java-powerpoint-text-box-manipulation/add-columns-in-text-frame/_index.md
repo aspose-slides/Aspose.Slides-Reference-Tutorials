@@ -3,14 +3,10 @@ title: Ajouter des colonnes dans un cadre de texte à l'aide d'Aspose.Slides pou
 linktitle: Ajouter des colonnes dans un cadre de texte à l'aide d'Aspose.Slides pour Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajouter des colonnes dans des blocs de texte à l'aide d'Aspose.Slides pour Java pour améliorer vos présentations PowerPoint. Notre guide étape par étape simplifie le processus.
+type: docs
 weight: 11
 url: /fr/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Dans ce didacticiel, nous allons explorer comment manipuler des blocs de texte pour ajouter des colonnes à l'aide d'Aspose.Slides pour Java. Aspose.Slides est une bibliothèque puissante qui permet aux développeurs Java de créer, manipuler et convertir des présentations PowerPoint par programme. L'ajout de colonnes aux blocs de texte améliore l'attrait visuel et l'organisation du texte dans les diapositives, rendant les présentations plus attrayantes et plus faciles à lire.
 ## Conditions préalables
@@ -85,9 +81,3 @@ Non, Aspose.Slides définit automatiquement une largeur égale pour les colonnes
  Une documentation détaillée est disponible[ici](https://reference.aspose.com/slides/java/).
 ### Comment puis-je obtenir une assistance technique pour Aspose.Slides pour Java ?
  Vous pouvez demander le soutien de la communauté[ici](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Mengelola Header dan Footer di Catatan dengan Aspose.Slides .NET
 linktitle: Kelola Header dan Footer di Slide Catatan
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengelola header dan footer di slide catatan PowerPoint menggunakan Aspose.Slides untuk .NET. Sempurnakan presentasi Anda dengan mudah.
+type: docs
 weight: 11
 url: /id/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Di era digital saat ini, membuat presentasi yang menarik dan informatif adalah keterampilan yang penting. Sebagai bagian dari proses ini, Anda mungkin sering kali perlu menyertakan header dan footer di slide catatan Anda untuk memberikan konteks dan informasi tambahan. Aspose.Slides for .NET adalah alat canggih yang memungkinkan Anda mengelola pengaturan header dan footer di slide catatan dengan mudah. Dalam panduan langkah demi langkah ini, kita akan mempelajari cara mencapai hal ini menggunakan Aspose.Slides untuk .NET.
 
@@ -124,9 +120,3 @@ Tentu saja, Aspose.Slides untuk .NET memungkinkan Anda mengotomatiskan presentas
 
 ### Apakah dukungan teknis tersedia untuk Aspose.Slides untuk pengguna .NET?
  Ya, Anda dapat memperoleh dukungan dan bantuan dari komunitas Aspose dan pakar di bidang tersebut[Asumsikan forum dukungan](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

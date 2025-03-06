@@ -3,14 +3,10 @@ title: Ορίστε τα δικαιώματα πρόσβασης σε PDF σε �
 linktitle: Ορίστε τα δικαιώματα πρόσβασης σε PDF σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ασφαλίζετε τα έγγραφά σας PDF με δικαιώματα πρόσβασης σε Java Slides χρησιμοποιώντας το Aspose.Slides. Αυτός ο οδηγός βήμα προς βήμα καλύπτει την προστασία με κωδικό πρόσβασης και πολλά άλλα.
+type: docs
 weight: 17
 url: /el/java/additional-utilities/set-access-permissions-to-pdf-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στον ορισμό δικαιωμάτων πρόσβασης σε PDF σε διαφάνειες Java
 
@@ -108,9 +104,3 @@ finally
 ### Πού μπορώ να βρω περισσότερους πόρους και τεκμηρίωση για το Aspose.Slides για Java;
 
  Μπορείτε να αποκτήσετε πρόσβαση σε ολοκληρωμένη τεκμηρίωση για το Aspose.Slides για Java στη διεύθυνση[εδώ](https://reference.aspose.com/slides/java/) . Επιπλέον, μπορείτε να κάνετε λήψη της βιβλιοθήκης από[εδώ](https://releases.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

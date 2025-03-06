@@ -3,14 +3,10 @@ title: Φόρτωση απαρίθμησης μορφής σε διαφάνει�
 linktitle: Φόρτωση απαρίθμησης μορφής σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ελέγχετε τη μορφή των παρουσιάσεων του PowerPoint σε Java χρησιμοποιώντας το Aspose.Slides. Ακολουθήστε τον αναλυτικό οδηγό μας με παραδείγματα πηγαίου κώδικα για αποτελεσματικό εντοπισμό μορφής.
+type: docs
 weight: 14
 url: /el/java/additional-utilities/load-format-enumeration-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στη φόρτωση της μορφής παρουσίασης σε διαφάνειες Java
 
@@ -72,10 +68,3 @@ boolean isOldFormat = PresentationFactory.getInstance().getPresentationInfo(data
 ### Είναι το Aspose.Slides για Java κατάλληλο για εμπορικά έργα;
 
 Ναι, το Aspose.Slides για Java είναι κατάλληλο για εμπορικά έργα. Παρέχει ένα ισχυρό σύνολο δυνατοτήτων για εργασία με παρουσιάσεις PowerPoint σε εφαρμογές Java και χρησιμοποιείται ευρέως τόσο σε εμπορικά όσο και σε εταιρικά περιβάλλοντα.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Videó kibontása a diából az Aspose.Slides segítségével .NET-hez
 linktitle: Videó kibontása a diából
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan bonthat ki videókat a PowerPoint diákból az Aspose.Slides for .NET segítségével. Ez a lépésenkénti útmutató leegyszerűsíti a folyamatot az Ön számára.
+type: docs
 weight: 14
 url: /hu/net/audio-and-video-extraction/extract-video/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Az Aspose.Slides for .NET egy hatékony könyvtár, amely lehetővé teszi a PowerPoint prezentációk kezelését .NET környezetben. Az egyik hasznos funkció, amelyet kínál, az a képesség, hogy videókat kinyerhet a diákból. Ebben a lépésről lépésre bemutatjuk, hogyan bonthat ki videót egy PowerPoint diából az Aspose.Slides for .NET segítségével.
 
@@ -114,9 +110,3 @@ Az Aspose.Slides for .NET egy olyan könyvtár, amely lehetővé teszi a .NET-al
 
 ### Hol kaphatok támogatást az Aspose.Slides for .NET-hez?
  Támogatást találhat a[Aspose.Slides fórum](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

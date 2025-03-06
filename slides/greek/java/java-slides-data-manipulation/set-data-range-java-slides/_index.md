@@ -3,14 +3,10 @@ title: Ορισμός εύρους δεδομένων σε διαφάνειες 
 linktitle: Ορισμός εύρους δεδομένων σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε εύκολα εύρη δεδομένων σε διαφάνειες Java με το Aspose.Slides για Java. Δημιουργήστε δυναμικές και βασισμένες σε δεδομένα παρουσιάσεις με αυτόν τον οδηγό βήμα προς βήμα.
+type: docs
 weight: 18
 url: /el/java/data-manipulation/set-data-range-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στο Set Range Data σε Java Slides
 
@@ -101,9 +97,3 @@ presentation.save(dataDir + "SetDataRange_out.pptx", SaveFormat.Pptx);
 ### Πού μπορώ να βρω περισσότερη τεκμηρίωση και παραδείγματα για το Aspose.Slides για Java;
 
  Μπορείτε να βρείτε εκτενή τεκμηρίωση και παραδείγματα για το Aspose.Slides για Java στον ιστότοπο τεκμηρίωσης Aspose:[Aspose.Slides for Java API References](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

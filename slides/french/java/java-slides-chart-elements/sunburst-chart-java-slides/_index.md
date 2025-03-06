@@ -3,14 +3,10 @@ title: Graphique Sunburst dans les diapositives Java
 linktitle: Graphique Sunburst dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Créez de superbes graphiques Sunburst dans des diapositives Java avec Aspose.Slides. Apprenez étape par étape la création de graphiques et la manipulation des données.
+type: docs
 weight: 16
 url: /fr/java/chart-elements/sunburst-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction au graphique Sunburst dans Java Slides avec Aspose.Slides
 
@@ -172,9 +168,3 @@ Pour ajouter des info-bulles au graphique Sunburst, vous pouvez définir le form
 ### Est-il possible de créer des graphiques Sunburst interactifs avec des hyperliens ?
 
 Oui, vous pouvez créer des graphiques Sunburst interactifs avec des hyperliens en ajoutant des hyperliens vers des éléments ou des segments de graphique spécifiques. Reportez-vous à la documentation Aspose.Slides pour plus de détails sur l'ajout d'hyperliens.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

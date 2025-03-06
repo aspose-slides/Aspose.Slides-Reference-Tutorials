@@ -3,14 +3,10 @@ title: Java 投影片中單一圖例的字體屬性
 linktitle: Java 投影片中單一圖例的字體屬性
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java，透過 Java 投影片中各個圖例的自訂字體樣式、大小和顏色來增強 PowerPoint 簡報。
+type: docs
 weight: 12
 url: /zh-hant/java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 投影片中單一圖例的字體屬性簡介
 
@@ -117,9 +113,3 @@ finally
 ```java
 if (pres != null) pres.dispose();
 ```
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

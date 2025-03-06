@@ -3,14 +3,10 @@ title: ลบโหนดในตำแหน่งเฉพาะใน SmartA
 linktitle: ลบโหนดในตำแหน่งเฉพาะใน SmartArt
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีลบโหนดที่ตำแหน่งเฉพาะภายใน SmartArt โดยใช้ Aspose.Slides สำหรับ Java ปรับปรุงการปรับแต่งการนำเสนอได้อย่างง่ายดาย
+type: docs
 weight: 15
 url: /th/java/java-powerpoint-smartart-manipulation/remove-node-specific-position-smartart-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## การแนะนำ
 ในขอบเขตของการพัฒนา Java Aspose.Slides กลายเป็นเครื่องมืออันทรงพลังสำหรับจัดการการนำเสนอโดยทางโปรแกรม ไม่ว่าจะเป็นการสร้าง การแก้ไข หรือการจัดการสไลด์ Aspose.Slides สำหรับ Java มอบชุดคุณสมบัติที่แข็งแกร่งเพื่อปรับปรุงงานเหล่านี้อย่างมีประสิทธิภาพ การดำเนินการทั่วไปประการหนึ่งคือการลบโหนดที่ตำแหน่งเฉพาะภายในวัตถุ SmartArt บทช่วยสอนนี้จะเจาะลึกกระบวนการทีละขั้นตอนในการทำให้สิ่งนี้สำเร็จโดยใช้ Aspose.Slides สำหรับ Java
 ## ข้อกำหนดเบื้องต้น
@@ -66,9 +62,3 @@ pres.save(dataDir + "RemoveSmartArtNodeByPosition_out.pptx", SaveFormat.Pptx);
  หากต้องการซื้อ Aspose.Slides สำหรับ Java โปรดไปที่หน้าการซื้อ[ที่นี่](https://purchase.aspose.com/buy).
 ### ฉันจะหาเอกสารประกอบโดยละเอียดสำหรับ Aspose.Slides สำหรับ Java ได้ที่ไหน
  คุณสามารถเข้าถึงเอกสารที่ครอบคลุม[ที่นี่](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

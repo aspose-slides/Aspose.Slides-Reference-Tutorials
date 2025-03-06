@@ -3,14 +3,10 @@ title: Legenda do tamanho da fonte em slides Java
 linktitle: Legenda do tamanho da fonte em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprimore as apresentações do PowerPoint com Aspose.Slides para Java. Aprenda como personalizar os tamanhos das fontes das legendas e muito mais em nosso guia passo a passo.
+type: docs
 weight: 13
 url: /pt/java/chart-elements/font-size-legend-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introdução à legenda do tamanho da fonte em slides Java
 
@@ -139,9 +135,3 @@ Aqui, desativamos a escala automática do eixo e especificamos os valores mínim
 ### Onde posso encontrar mais informações e documentação sobre Aspose.Slides?
 
  Você pode encontrar documentação abrangente e referências de API para Aspose.Slides for Java no site de documentação do Aspose. Visita[aqui](https://reference.aspose.com/slides/java/) para obter informações detalhadas sobre como usar a biblioteca.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

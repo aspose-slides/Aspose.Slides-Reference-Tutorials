@@ -3,14 +3,10 @@ title: Akses Properti Presentasi
 linktitle: Akses Properti Presentasi
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Buka kekuatan Aspose.Slides untuk Java. Kuasai manajemen presentasi dengan tutorial ini. Akses, modifikasi, dan tingkatkan properti presentasi dengan mudah.
+type: docs
 weight: 11
 url: /id/java/java-powerpoint-properties-management/access-presentation-properties/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Di bidang pengembangan Java, mengelola presentasi dengan lancar bisa menjadi upaya yang menantang. Namun, dengan munculnya Aspose.Slides untuk Java, pengembang diberdayakan dengan perangkat yang kuat untuk menavigasi kompleksitas ini dengan mudah. Tutorial ini berfungsi sebagai panduan Anda, mengungkap seluk-beluk memanfaatkan Aspose.Slides untuk mengakses properti presentasi. Kami akan mempelajari prasyarat, mengimpor paket, dan memecah setiap contoh menjadi langkah-langkah yang mudah dipahami, memastikan perjalanan Anda menuju penguasaan tetap lancar dan memperkaya.
 ## Prasyarat
@@ -68,9 +64,3 @@ Sangat! Aspose.Slides menyediakan API komprehensif untuk tidak hanya mengakses t
  Untuk pertanyaan atau bantuan apa pun, Anda dapat mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11), di mana para ahli dan masyarakat siap membantu.
 ### Bisakah saya mendapatkan lisensi sementara untuk Aspose.Slides?
  Ya, lisensi sementara tersedia untuk tujuan evaluasi atau pengujian. Anda dapat memperoleh lisensi sementara dari[halaman pembelian](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

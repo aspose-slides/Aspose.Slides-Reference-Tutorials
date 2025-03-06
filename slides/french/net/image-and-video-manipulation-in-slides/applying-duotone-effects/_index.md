@@ -3,14 +3,10 @@ title: Maîtriser les effets bicolores dans Aspose.Slides pour .NET
 linktitle: Application d'effets bicolores dans les diapositives de présentation avec Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Créez des diapositives de présentation captivantes avec Aspose.Slides pour .NET. Apprenez à appliquer les effets bicolores étape par étape. Élevez vos présentations maintenant !
+type: docs
 weight: 18
 url: /fr/net/image-and-video-manipulation-in-slides/applying-duotone-effects/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Créer des diapositives de présentation visuellement époustouflantes est essentiel pour engager votre public. Un moyen efficace d’améliorer vos diapositives consiste à appliquer des effets bicolores. Dans ce didacticiel, nous vous guiderons tout au long du processus d'application d'effets bicolores dans les diapositives de présentation à l'aide d'Aspose.Slides pour .NET.
 ## Conditions préalables
@@ -85,9 +81,3 @@ Oui, Aspose.Slides est régulièrement mis à jour pour garantir la compatibilit
 Absolument. Explorez la documentation Aspose.Slides pour connaître les options de personnalisation avancées.
 ### Existe-t-il une version d’essai disponible pour Aspose.Slides ?
  Oui, vous pouvez télécharger une version d'essai gratuite[ici](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

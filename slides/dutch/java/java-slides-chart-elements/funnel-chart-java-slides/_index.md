@@ -3,14 +3,10 @@ title: Trechterdiagram in Java-dia's
 linktitle: Trechterdiagram in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Verken Aspose.Slides voor Java met stapsgewijze zelfstudies. Maak verbluffende trechterdiagrammen en meer.
+type: docs
 weight: 14
 url: /nl/java/chart-elements/funnel-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot het trechterdiagram in Java-dia's
 
@@ -148,9 +144,3 @@ U kunt fouten en uitzonderingen afhandelen met behulp van standaard Java-mechani
 ### Waar kan ik meer voorbeelden en documentatie vinden voor Aspose.Slides voor Java?
 
  Meer voorbeelden en gedetailleerde documentatie over het gebruik van Aspose.Slides voor Java vindt u in de[documentatie](https://docs.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

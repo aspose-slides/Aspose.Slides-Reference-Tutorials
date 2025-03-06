@@ -3,14 +3,10 @@ title: 在 Java Slides 中获取图表图像
 linktitle: 在 Java Slides 中获取图表图像
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java Slides 中获取图表图像。本分步指南提供了无缝集成的源代码和技巧。
+type: docs
 weight: 19
 url: /zh/java/data-manipulation/get-chart-image-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 幻灯片中获取图表图像的简介
 
@@ -96,9 +92,3 @@ Aspose.Slides for Java 提供了多种用于处理 PowerPoint 演示文稿的功
 ### 我可以以不同的格式保存图表图像吗？
 
 当然可以！您可以通过在`ImageIO.write`方法。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

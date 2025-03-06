@@ -3,14 +3,10 @@ title: Uzyskaj dostęp do węzła podrzędnego w określonej pozycji w SmartArt
 linktitle: Uzyskaj dostęp do węzła podrzędnego w określonej pozycji w SmartArt
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dzięki temu szczegółowemu przewodnikowi nauczysz się manipulować grafiką SmartArt w Aspose.Slides dla języka Java. Zawiera instrukcje krok po kroku, przykłady i najlepsze praktyki.
+type: docs
 weight: 11
 url: /pl/java/java-powerpoint-smartart-manipulation/access-child-node-specific-position-smartart-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 Czy chcesz przenieść swoje prezentacje na wyższy poziom dzięki wyrafinowanej grafice SmartArt? Nie szukaj dalej! Aspose.Slides for Java oferuje potężny pakiet do tworzenia, manipulowania i zarządzania slajdami prezentacji, w tym możliwość pracy z obiektami SmartArt. W tym kompleksowym samouczku przeprowadzimy Cię przez proces uzyskiwania dostępu do węzła podrzędnego i manipulowania nim w określonym miejscu grafiki SmartArt przy użyciu biblioteki Aspose.Slides for Java.
 
@@ -102,9 +98,3 @@ Gratulacje! Pomyślnie uzyskałeś dostęp do węzła podrzędnego w grafice Sma
  Możesz uzyskać wsparcie od[Forum społeczności Aspose](https://forum.aspose.com/c/slides/11) lub zapoznaj się z obszernym[dokumentacja](https://reference.aspose.com/slides/java/).
 ### Czy mogę kupić pełną licencję na Aspose.Slides dla Java?
  Tak, możesz kupić pełną licencję na stronie[strona zakupu](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

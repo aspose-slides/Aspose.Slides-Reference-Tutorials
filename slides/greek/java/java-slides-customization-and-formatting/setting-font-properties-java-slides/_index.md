@@ -3,14 +3,10 @@ title: Ρύθμιση ιδιοτήτων γραμματοσειράς σε δι�
 linktitle: Ρύθμιση ιδιοτήτων γραμματοσειράς σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε ιδιότητες γραμματοσειράς σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java. Αυτός ο οδηγός βήμα προς βήμα περιλαμβάνει παραδείγματα κώδικα και συχνές ερωτήσεις.
+type: docs
 weight: 15
 url: /el/java/customization-and-formatting/setting-font-properties-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στη ρύθμιση των ιδιοτήτων γραμματοσειράς σε διαφάνειες Java
 
@@ -141,9 +137,3 @@ for (ISlide slide : pres.getSlides()) {
     // Αποκτήστε πρόσβαση και προσαρμόστε τις ιδιότητες γραμματοσειράς των στοιχείων κειμένου εδώ
 }
 ```
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

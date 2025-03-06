@@ -3,14 +3,10 @@ title: Pobierz wszystkie slajdy w prezentacji
 linktitle: Pobierz wszystkie slajdy w prezentacji
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak odzyskać wszystkie slajdy z prezentacji programu PowerPoint przy użyciu Aspose.Slides dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku z pełnym kodem źródłowym, aby efektywnie pracować z prezentacjami w sposób programowy. Przeglądaj właściwości slajdów, instalację, dostosowywanie i nie tylko.
+type: docs
 weight: 13
 url: /pl/net/slide-access-and-manipulation/access-all-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Wprowadzenie do Aspose.Slides dla .NET
 
@@ -143,9 +139,3 @@ Absolutnie. Możesz dodawać tekst, obrazy, kształty, wykresy i inne elementy d
 ### Gdzie mogę znaleźć więcej informacji o Aspose.Slides dla .NET?
 
  Aby uzyskać bardziej szczegółowe informacje, odniesienia do API i przykłady kodu, możesz odwiedzić stronę[Aspose.Slides dla dokumentacji .NET](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

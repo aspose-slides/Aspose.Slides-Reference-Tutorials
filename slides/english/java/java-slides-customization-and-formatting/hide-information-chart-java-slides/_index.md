@@ -3,14 +3,10 @@ title: Hide Information from Chart in Java Slides
 linktitle: Hide Information from Chart in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to hide chart elements in Java Slides with Aspose.Slides for Java. Customize presentations for clarity and aesthetics with step-by-step guidance and source code.
+type: docs
 weight: 13
 url: /java/customization-and-formatting/hide-information-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction to Hide Information from Chart in Java Slides
 
@@ -176,10 +172,3 @@ Yes, you can change the chart type dynamically by creating a new chart of the de
 ### How can I change the chart's title and axis labels programmatically?
 
 You can set the title and labels of the chart and axes by accessing their respective properties and setting the desired text and formatting.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

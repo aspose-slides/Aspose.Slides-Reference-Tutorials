@@ -3,14 +3,10 @@ title: Formátování grafu a animace
 linktitle: Formátování grafu a animace
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vylepšete své prezentace pomocí dynamických grafů pomocí Aspose.Slides pro .NET. Naučte se formátování grafu a animaci krok za krokem. Zvyšte své prezentační dovednosti ještě dnes!
+type: docs
 weight: 22
 url: /cs/net/chart-formatting-and-animation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod
 
@@ -39,9 +35,3 @@ Naučte se přidávat podmanivé animace do prvků kategorií grafu pomocí Aspo
 Naučte se animovat řady grafů pomocí Aspose.Slides pro .NET. Vytvářejte dynamické prezentace s poutavou vizualizací dat.
 ### [Animace prvků řady v grafu](./animating-series-elements/)
 Naučte se animovat řady grafů pomocí Aspose.Slides pro .NET. Vytvářejte poutavé prezentace s dynamickými vizuálními prvky. Odborný průvodce s příklady kódu.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

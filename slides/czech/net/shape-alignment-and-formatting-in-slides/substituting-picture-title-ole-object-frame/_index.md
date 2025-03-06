@@ -3,14 +3,10 @@ title: Průvodce vkládáním objektů OLE s Aspose.Slides pro .NET
 linktitle: Nahrazení názvu obrázku rámečku objektu OLE v prezentačních snímcích
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak vylepšit snímky prezentace pomocí dynamických objektů OLE pomocí Aspose.Slides for .NET. Postupujte podle našeho podrobného průvodce pro bezproblémovou integraci.
+type: docs
 weight: 15
 url: /cs/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 Vytváření dynamických a poutavých prezentačních snímků často zahrnuje začlenění různých multimediálních prvků. V tomto tutoriálu prozkoumáme, jak nahradit název obrázku OLE (Object Linking and Embedding) Object Frame ve snímcích prezentace pomocí výkonné knihovny Aspose.Slides for .NET. Aspose.Slides zjednodušuje proces manipulace s objekty OLE a poskytuje vývojářům nástroje pro snadné vylepšení jejich prezentací.
 ## Předpoklady
@@ -87,9 +83,3 @@ Od nejnovější verze se Aspose.Slides zaměřuje na vkládání a zobrazován�
 Rozhodně. Máte plnou programovou kontrolu nad objekty OLE, což vám umožňuje upravovat jejich vlastnosti a vzhled podle potřeby.
 ### Existují nějaká omezení velikosti vložených objektů OLE?
 I když existují omezení velikosti, jsou obecně velkorysé. Pro zajištění optimálního výkonu se doporučuje testovat s vaším konkrétním případem použití.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Slide Transition Effects
 linktitle: Slide Transition Effects
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Enhance your presentations with captivating slide transition effects using Aspose.Slides for .NET. Learn how to add dynamic animations to slides for an engaging viewing experience.
+type: docs
 weight: 19
 url: /net/slide-transition-effects/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction:
 
@@ -41,9 +37,3 @@ Learn how to add stunning transition effects to your presentation slides using A
 earn how to set transition morph type on slides using Aspose.Slides for .NET. Step-by-step guide with code examples. Enhance your presentations now! 
 ### [Simple Slide Transitions](./simple-slide-transitions/)
 Learn how to enhance your PowerPoint presentations with simple slide transitions using Aspose.Slides for .NET. Step-by-step guide with source code. Engage your audience with captivating visuals!
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

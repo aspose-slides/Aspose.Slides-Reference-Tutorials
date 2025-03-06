@@ -3,14 +3,10 @@ title: Aspose.Slides에서 경사 효과 마스터하기 - 단계별 튜토리�
 linktitle: Aspose.Slides를 사용하여 프레젠테이션 슬라이드의 모양에 경사 효과 적용
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 프레젠테이션 슬라이드를 향상하세요! 이 단계별 가이드에서 매혹적인 경사 효과를 적용하는 방법을 알아보세요.
+type: docs
 weight: 24
 url: /ko/net/shape-effects-and-manipulation-in-slides/applying-bevel-effects-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 역동적인 프레젠테이션 세계에서 슬라이드에 시각적 매력을 더하면 메시지의 영향력이 크게 향상될 수 있습니다. Aspose.Slides for .NET은 프레젠테이션 슬라이드를 프로그래밍 방식으로 조작하고 아름답게 만드는 강력한 툴킷을 제공합니다. 이러한 흥미로운 기능 중 하나는 모양에 경사 효과를 적용하여 시각적 개체에 깊이와 차원을 추가하는 기능입니다.
 ## 전제 조건
@@ -79,9 +75,3 @@ pres.Save(dataDir + "Bevel_out.pptx", SaveFormat.Pptx);
 일반적이지는 않지만 여러 모양을 쌓거나 경사 속성을 조작하여 비슷한 효과를 얻을 수 있습니다.
 ### 5. Aspose.Slides에서 사용할 수 있는 다른 3D 효과가 있습니까?
 전적으로! Aspose.Slides는 프레젠테이션 요소에 깊이와 현실감을 더해주는 다양한 3D 효과를 제공합니다.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

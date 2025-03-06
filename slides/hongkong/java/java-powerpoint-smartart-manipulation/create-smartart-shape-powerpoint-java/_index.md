@@ -3,14 +3,10 @@ title: 使用 Java 在 PowerPoint 中建立 SmartArt 形狀
 linktitle: 使用 Java 在 PowerPoint 中建立 SmartArt 形狀
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Java 和 Aspose.Slides 建立動態 PowerPoint 簡報。了解以程式設計方式添加 SmartArt 形狀以增強視覺效果。
+type: docs
 weight: 10
 url: /zh-hant/java/java-powerpoint-smartart-manipulation/create-smartart-shape-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 在 Java 程式設計領域，創建具有視覺吸引力的簡報是一項常見要求。無論是用於商業宣傳、學術簡報還是只是分享訊息，以程式設計方式產生動態 PowerPoint 投影片的能力都可以改變遊戲規則。 Aspose.Slides for Java 成為促進這一過程的強大工具，提供了一套全面的功能來輕鬆高效地操作簡報。
 ## 先決條件
@@ -67,9 +63,3 @@ pres.save(dataDir + "SimpleSmartArt_out.pptx", SaveFormat.Pptx);
 ### 我可以在購買前試用 Aspose.Slides for Java 嗎？
 當然！您可以透過下載免費試用版來探索 Aspose.Slides for Java 的功能[這裡](https://releases.aspose.com/).
 使用 Java 和 Aspose.Slides 建立動態 PowerPoint 簡報。了解以程式設計方式添加 SmartArt 形狀以增強視覺效果。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

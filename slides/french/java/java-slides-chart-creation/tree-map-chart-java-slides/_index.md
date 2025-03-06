@@ -3,14 +3,10 @@ title: Graphique de carte arborescente dans les diapositives Java
 linktitle: Graphique de carte arborescente dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Créez des graphiques arborescents dans Java Slides à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec code source pour visualiser les données hiérarchiques.
+type: docs
 weight: 13
 url: /fr/java/chart-creation/tree-map-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction au graphique arborescent dans Java Slides
 
@@ -156,9 +152,3 @@ Oui, vous pouvez créer plusieurs graphiques Tree Map dans une seule présentati
 ### Comment puis-je enregistrer la présentation avec le graphique Tree Map ?
 
  Utilisez le`pres.save()` méthode pour enregistrer la présentation avec le graphique Tree Map dans le format souhaité (par exemple, PPTX).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Sunburst diagram a Java Slides-ben
 linktitle: Sunburst diagram a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Az Aspose.Slides segítségével lenyűgöző Sunburst diagramokat készíthet a Java Slides-ben. Ismerje meg a diagramok létrehozását és adatkezelését lépésről lépésre.
+type: docs
 weight: 16
 url: /hu/java/chart-elements/sunburst-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés a Sunburst Chart-ba a Java Slides alkalmazásban az Aspose.Slides segítségével
 
@@ -172,9 +168,3 @@ Ha eszköztippeket szeretne hozzáadni a Sunburst diagramhoz, beállíthatja az 
 ### Lehetséges interaktív Sunburst diagramok létrehozása hiperhivatkozásokkal?
 
 Igen, létrehozhat interaktív Sunburst diagramokat hiperhivatkozásokkal, ha hiperhivatkozásokat ad hozzá adott diagramelemekhez vagy szegmensekhez. A hiperhivatkozások hozzáadásával kapcsolatos részletekért tekintse meg az Aspose.Slides dokumentációját.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

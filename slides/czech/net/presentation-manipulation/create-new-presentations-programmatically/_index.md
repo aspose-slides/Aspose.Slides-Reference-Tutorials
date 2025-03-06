@@ -3,14 +3,10 @@ title: Vytvářejte nové prezentace programově
 linktitle: Vytvářejte nové prezentace programově
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se vytvářet prezentace programově pomocí Aspose.Slides pro .NET. Podrobný průvodce se zdrojovým kódem pro efektivní automatizaci.
+type: docs
 weight: 10
 url: /cs/net/presentation-manipulation/create-new-presentations-programmatically/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Pokud chcete vytvářet prezentace programově v .NET, Aspose.Slides for .NET je mocný nástroj, který vám pomůže tohoto úkolu efektivně dosáhnout. Tento tutoriál vás krok za krokem provede procesem vytváření nových prezentací pomocí poskytnutého zdrojového kódu.
 
@@ -91,9 +87,3 @@ Nyní můžete tento kód začít začleňovat do svých projektů .NET a vytvá
 
 4. ### Mohu Aspose.Slides for .NET před nákupem vyzkoušet?
     Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Slides pro .NET[tady](https://releases.aspose.com/). Zkušební verze má omezení, takže nezapomeňte zkontrolovat, zda splňuje vaše požadavky.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

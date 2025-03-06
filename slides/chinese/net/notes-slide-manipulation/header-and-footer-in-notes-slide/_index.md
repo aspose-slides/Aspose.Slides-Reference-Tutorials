@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides .NET 管理笔记中的页眉和页脚
 linktitle: 管理注释幻灯片中的页眉和页脚
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 管理 PowerPoint 注释幻灯片中的页眉和页脚。轻松增强您的演示文稿。
+type: docs
 weight: 11
 url: /zh/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 在当今的数字时代，创建引人入胜且信息丰富的演示文稿是一项至关重要的技能。作为此过程的一部分，您可能经常需要在笔记幻灯片中包含页眉和页脚以提供额外的背景和信息。Aspose.Slides for .NET 是一个功能强大的工具，可让您轻松管理笔记幻灯片中的页眉和页脚设置。在本分步指南中，我们将探讨如何使用 Aspose.Slides for .NET 实现这一点。
 
@@ -124,9 +120,3 @@ using (Presentation presentation = new Presentation("presentation.pptx"))
 
 ### Aspose.Slides for .NET 用户可以获得技术支持吗？
 是的，您可以从 Aspose 社区和专家处获得支持和帮助[Aspose 支持论坛](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

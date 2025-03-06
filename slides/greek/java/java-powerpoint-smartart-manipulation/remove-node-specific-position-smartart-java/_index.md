@@ -3,14 +3,10 @@ title: Αφαιρέστε τον κόμβο σε συγκεκριμένη θέσ
 linktitle: Αφαιρέστε τον κόμβο σε συγκεκριμένη θέση στο SmartArt
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς μπορείτε να αφαιρέσετε έναν κόμβο σε μια συγκεκριμένη θέση στο SmartArt χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε την προσαρμογή της παρουσίασης χωρίς κόπο.
+type: docs
 weight: 15
 url: /el/java/java-powerpoint-smartart-manipulation/remove-node-specific-position-smartart-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Στον τομέα της ανάπτυξης Java, το Aspose.Slides αναδεικνύεται ως ένα ισχυρό εργαλείο για τον προγραμματισμό των παρουσιάσεων. Είτε πρόκειται για τη δημιουργία, την τροποποίηση ή τη διαχείριση διαφανειών, το Aspose.Slides για Java παρέχει ένα ισχυρό σύνολο λειτουργιών για τον εξορθολογισμό αυτών των εργασιών αποτελεσματικά. Μια τέτοια κοινή λειτουργία είναι η αφαίρεση ενός κόμβου σε μια συγκεκριμένη θέση μέσα σε ένα αντικείμενο SmartArt. Αυτό το σεμινάριο εμβαθύνει στη διαδικασία βήμα προς βήμα για την επίτευξη αυτού του στόχου χρησιμοποιώντας το Aspose.Slides για Java.
 ## Προαπαιτούμενα
@@ -66,9 +62,3 @@ pres.save(dataDir + "RemoveSmartArtNodeByPosition_out.pptx", SaveFormat.Pptx);
  Για να αγοράσετε Aspose.Slides για Java, επισκεφτείτε τη σελίδα αγοράς[εδώ](https://purchase.aspose.com/buy).
 ### Πού μπορώ να βρω λεπτομερή τεκμηρίωση για το Aspose.Slides για Java;
  Μπορείτε να αποκτήσετε πρόσβαση στην πλήρη τεκμηρίωση[εδώ](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

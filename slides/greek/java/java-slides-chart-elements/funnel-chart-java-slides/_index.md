@@ -3,14 +3,10 @@ title: Γράφημα διοχέτευσης σε διαφάνειες Java
 linktitle: Γράφημα διοχέτευσης σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Εξερευνήστε το Aspose.Slides για Java με οδηγίες βήμα προς βήμα. Δημιουργήστε εντυπωσιακά γραφήματα διοχέτευσης και πολλά άλλα.
+type: docs
 weight: 14
 url: /el/java/chart-elements/funnel-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στο διάγραμμα διοχέτευσης σε διαφάνειες Java
 
@@ -148,9 +144,3 @@ finally
 ### Πού μπορώ να βρω περισσότερα παραδείγματα και τεκμηρίωση για το Aspose.Slides για Java;
 
  Μπορείτε να βρείτε περισσότερα παραδείγματα και λεπτομερή τεκμηρίωση σχετικά με τη χρήση του Aspose.Slides για Java στο[τεκμηρίωση](https://docs.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

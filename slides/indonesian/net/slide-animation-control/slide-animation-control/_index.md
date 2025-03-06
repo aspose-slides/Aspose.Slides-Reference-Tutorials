@@ -3,14 +3,10 @@ title: Animasi Master Slide dengan Aspose.Slides untuk .NET
 linktitle: Kontrol Animasi Slide di Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Tingkatkan presentasi Anda dengan Aspose.Slides untuk .NET! Belajar mengontrol animasi slide dengan mudah. Unduh perpustakaannya sekarang!
+type: docs
 weight: 10
 url: /id/net/slide-animation-control/slide-animation-control/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Menyempurnakan presentasi Anda dengan animasi slide yang menawan dapat meningkatkan dampak keseluruhan secara signifikan terhadap audiens Anda. Dalam tutorial ini, kita akan mempelajari cara mengontrol animasi slide menggunakan Aspose.Slides untuk .NET. Aspose.Slides adalah perpustakaan canggih yang memungkinkan manipulasi presentasi PowerPoint dengan lancar di lingkungan .NET.
 ## Prasyarat
@@ -81,9 +77,3 @@ Menganimasikan slide dalam presentasi Anda menambahkan sentuhan dinamis, membuat
  Anda bisa mendapatkan lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya dapat membeli Aspose.Slides untuk .NET?
  Beli perpustakaan[Di Sini](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

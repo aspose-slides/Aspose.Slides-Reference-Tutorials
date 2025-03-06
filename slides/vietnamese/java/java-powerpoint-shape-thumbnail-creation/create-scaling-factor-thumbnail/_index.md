@@ -3,14 +3,10 @@ title: Tạo hình thu nhỏ hệ số tỷ lệ
 linktitle: Tạo hình thu nhỏ hệ số tỷ lệ
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo hình thu nhỏ hệ số tỷ lệ trong Java bằng Aspose.Slides cho Java. Hướng dẫn dễ làm theo với hướng dẫn từng bước.
+type: docs
 weight: 12
 url: /vi/java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thumbnail/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo hình thu nhỏ có hệ số tỷ lệ bằng Aspose.Slides cho Java. Thực hiện theo các hướng dẫn từng bước này để đạt được kết quả mong muốn.
 ## Điều kiện tiên quyết
@@ -70,9 +66,3 @@ Có, Aspose.Slides cho Java có thể được sử dụng với bất kỳ Môi
  Bạn có thể mua Aspose.Slides cho Java từ[trang mua hàng](https://purchase.aspose.com/buy).
 ### Tôi có cần giấy phép tạm thời để sử dụng Aspose.Slides cho Java không?
  Có, bạn có thể xin giấy phép tạm thời từ[trang giấy phép tạm thời](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

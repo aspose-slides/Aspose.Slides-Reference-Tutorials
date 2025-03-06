@@ -3,14 +3,10 @@ title: 验证 Java 幻灯片中添加的图表布局
 linktitle: 验证 Java 幻灯片中添加的图表布局
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 掌握 PowerPoint 中的图表布局验证。学习以编程方式操作图表以获得出色的演示文稿。
+type: docs
 weight: 10
 url: /zh/java/data-manipulation/validate-chart-layout-added-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for Java 中验证图表布局的简介
 
@@ -101,10 +97,3 @@ finally
 ### 如果我想修改其他图表属性该怎么办？
 
 您可以访问各种图表属性并根据您的需求进行自定义。浏览 Aspose.Slides 文档，获取有关图表操作的全面信息。
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

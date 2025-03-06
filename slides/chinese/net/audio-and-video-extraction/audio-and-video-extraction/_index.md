@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides for .NET 掌握音频和视频提取
 linktitle: 使用 Aspose.Slides 从幻灯片中提取音频和视频
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 从 PowerPoint 幻灯片中提取音频和视频。轻松提取多媒体。
+type: docs
 weight: 10
 url: /zh/net/audio-and-video-extraction/audio-and-video-extraction/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 介绍
 
@@ -139,10 +135,3 @@ Aspose 提供各种许可选项，包括免费试用和临时许可证。您可�
 
 ### 我可以使用 Aspose.Slides for .NET 执行哪些其他任务？
  Aspose.Slides for .NET 提供了广泛的功能，包括创建、修改和转换 PowerPoint 演示文稿。您可以浏览文档以了解更多详细信息：[Aspose.Slides for .NET 文档](https://reference.aspose.com/slides/net/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

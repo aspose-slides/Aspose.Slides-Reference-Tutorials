@@ -3,14 +3,10 @@ title: Módosítsa a beépített tulajdonságokat a PowerPointban
 linktitle: Módosítsa a beépített tulajdonságokat a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan módosíthatja a PowerPoint-prezentációk beépített tulajdonságait az Aspose.Slides for Java segítségével. Fejlessze prezentációit programozottan.
+type: docs
 weight: 12
 url: /hu/java/java-powerpoint-properties-management/modify-built-in-properties-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Az Aspose.Slides for Java feljogosítja a fejlesztőket arra, hogy programozottan kezeljék a PowerPoint-prezentációkat. Az egyik alapvető funkció a beépített tulajdonságok, például szerző, cím, tárgy, megjegyzések és kezelő módosítása. Ez az oktatóanyag lépésről lépésre végigvezeti a folyamaton.
 ## Előfeltételek
@@ -69,9 +65,3 @@ Teljesen! Létrehozhat szkripteket vagy alkalmazásokat a prezentációk kötege
 Míg az Aspose.Slides kiterjedt funkcionalitást biztosít, egyes speciális funkciók a PowerPoint formátumától és verziójától függően korlátozásokkal járhatnak.
 ### Rendelkezésre áll technikai támogatás az Aspose.Slides számára?
  Igen, kérhet segítséget, és részt vehet az erről szóló megbeszéléseken[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Dukungan untuk Interupsi di Java Slides
 linktitle: Dukungan untuk Interupsi di Java Slides
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Penanganan interupsi Master Java Slides dengan Aspose.Slides untuk Java. Panduan terperinci ini memberikan petunjuk langkah demi langkah dan contoh kode untuk manajemen interupsi yang lancar.
+type: docs
 weight: 12
 url: /id/java/media-controls/support-for-interrupt-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 # Pengantar Dukungan untuk Interupsi di Slide Java dengan Aspose.Slides untuk Java
 
 Aspose.Slides untuk Java adalah perpustakaan yang kuat untuk membuat, memanipulasi, dan bekerja dengan presentasi PowerPoint dalam aplikasi Java. Dalam panduan komprehensif ini, kita akan mempelajari cara memanfaatkan dukungan interupsi di Java Slides menggunakan Aspose.Slides untuk Java. Baik Anda seorang pengembang berpengalaman atau baru memulai, tutorial langkah demi langkah ini akan memandu Anda melalui proses dengan penjelasan mendetail dan contoh kode.
@@ -137,9 +133,3 @@ Penanganan interupsi sangat berguna dalam skenario ketika Anda perlu memproses p
 ### Di mana saya dapat mengakses lebih banyak sumber daya dan dokumentasi untuk Aspose.Slides untuk Java?
 
 Anda dapat menemukan dokumentasi, tutorial, dan contoh komprehensif untuk Aspose.Slides untuk Java di[Asumsikan situs web](https://reference.aspose.com/slides/java/). Selain itu, Anda dapat menghubungi tim dukungan Aspose untuk mendapatkan bantuan terkait kasus penggunaan spesifik Anda.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

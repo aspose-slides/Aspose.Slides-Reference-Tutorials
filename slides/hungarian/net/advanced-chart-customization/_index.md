@@ -3,14 +3,10 @@ title: Speciális diagram testreszabása
 linktitle: Speciális diagram testreszabása
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Javítsa prezentációit a diagramok speciális testreszabásával az Aspose.Slides for .NET segítségével. Tanulja meg, hogyan készíthet vizuálisan lenyűgöző diagramokat, és hogyan szabhatja azokat pontosan az Ön igényeihez.
+type: docs
 weight: 23
 url: /hu/net/advanced-chart-customization/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés
 
@@ -37,9 +33,3 @@ Ismerje meg, hogyan javíthatja az adatvizualizációkat az Aspose.Slides for .N
 Ismerje meg, hogyan hozhat létre diagram trendvonalait az Aspose.Slides for .NET segítségével. Javítsa az adatvizualizációt lépésről lépésre szóló útmutatásokkal és kódpéldákkal.
 ### [Diagram entitások és formázás](./chart-entities/)
 Tanulja meg dinamikus diagramok létrehozását és formázását a PowerPointban az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató forráskóddal.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

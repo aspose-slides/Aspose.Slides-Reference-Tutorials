@@ -3,14 +3,10 @@ title: Java PowerPoint 프레젠테이션에 내부 그림자 적용
 linktitle: Java PowerPoint 프레젠테이션에 내부 그림자 적용
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션의 모양에 내부 그림자 효과를 적용하는 방법을 알아보세요. 이 단계별 가이드를 통해 슬라이드를 향상해 보세요.
+type: docs
 weight: 12
 url: /ko/java/java-powerpoint-animation-effects/apply-inner-shadow-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 시각적으로 매력적인 프레젠테이션을 만드는 것은 아이디어를 효과적으로 전달하는 데 중요합니다. 프레젠테이션을 크게 향상시킬 수 있는 도구 중 하나는 내부 그림자를 사용하는 것입니다. 이 튜토리얼은 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 모양에 내부 그림자를 적용하는 과정을 안내합니다. 이 튜토리얼을 마치면 슬라이드 요소를 조작하여 놀라운 효과를 만드는 방법을 포괄적으로 이해하게 될 것입니다.
 ## 전제 조건
@@ -98,9 +94,3 @@ Aspose.Slides for Java는 프로그래밍 방식으로 PowerPoint 프레젠테�
 예. 흐림 반경, 방향, 거리, 색상 등 그림자 효과의 다양한 매개변수를 필요에 맞게 사용자 정의할 수 있습니다.
 ### 더 자세한 문서는 어디서 찾을 수 있나요?
  당신은[Aspose.Slides 문서](https://reference.aspose.com/slides/java/) 자세한 정보와 예시를 확인하세요.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

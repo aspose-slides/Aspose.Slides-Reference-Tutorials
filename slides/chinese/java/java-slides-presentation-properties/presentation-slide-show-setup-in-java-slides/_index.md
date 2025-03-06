@@ -3,14 +3,10 @@ title: Java Slides 中的演示幻灯片设置
 linktitle: Java Slides 中的演示幻灯片设置
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides 优化您的 Java 幻灯片。使用自定义设置创建引人入胜的演示文稿。浏览分步指南和常见问题解答。
+type: docs
 weight: 16
 url: /zh/java/presentation-properties/presentation-slide-show-setup-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java Slides 中演示幻灯片放映设置简介
 
@@ -150,9 +146,3 @@ try {
 ### 如何进一步自定义幻灯片放映设置？
 
 您可以探索 Aspose.Slides for Java 提供的其他幻灯片放映设置，以根据您的需要定制幻灯片放映体验。请参阅以下文档：[这里](https://reference.aspose.com/slides/java/)了解可用选项和配置的详细信息。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

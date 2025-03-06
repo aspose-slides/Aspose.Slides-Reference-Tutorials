@@ -3,14 +3,10 @@ title: Aspose.Slides .NET ile Slaytlardan Köprü Bağlantıları Nasıl Kaldır
 linktitle: Köprüleri Slayttan Kaldırma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak PowerPoint slaytlarından köprüleri nasıl kaldıracağınızı öğrenin. Temiz ve profesyonel sunumlar oluşturun.
+type: docs
 weight: 11
 url: /tr/net/hyperlink-manipulation/remove-hyperlinks/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Profesyonel sunum dünyasında slaytlarınızın düzgün ve düzenli görünmesini sağlamak çok önemlidir. Slaytları karmaşık hale getiren ortak unsurlardan biri de köprülerdir. Sununuzdaki web sitelerine, belgelere veya diğer slaytlara giden köprülerle ilgileniyor olsanız da, daha temiz ve daha odaklanmış bir görünüm için bunları kaldırmak isteyebilirsiniz. Aspose.Slides for .NET ile bu görevi kolayca gerçekleştirebilirsiniz. Bu adım adım kılavuzda Aspose.Slides for .NET kullanarak slaytlardan köprüleri kaldırma sürecinde size yol göstereceğiz.
 
@@ -88,9 +84,3 @@ Evet, Aspose.Slides for .NET slayt oluşturma, düzenleme ve çeşitli formatlar
 
 ### Aspose.Slides for .NET için teknik destek mevcut mu?
  Evet, teknik destek arayabilir ve Aspose topluluğuyla etkileşime geçebilirsiniz.[Forumu aspose](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

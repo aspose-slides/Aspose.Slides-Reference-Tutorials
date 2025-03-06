@@ -3,14 +3,10 @@ title: Normál diagramok a Java Slides-ben
 linktitle: Normál diagramok a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Hozzon létre normál diagramokat a Java Slides-ben az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató és forráskód diagramok létrehozásához, testreszabásához és mentéséhez PowerPoint prezentációkban.
+type: docs
 weight: 21
 url: /hu/java/chart-data-manipulation/normal-charts-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés a Java Slides normál diagramjaiba
 
@@ -244,9 +240,3 @@ Ebben az oktatóanyagban megtanultuk, hogyan lehet normál diagramokat létrehoz
 ### Hogyan menthetem el a diagramot másik fájlformátumba?
 
  A diagram másik fájlformátumba mentéséhez módosítsa a`SaveFormat` paraméter a`pres.save()` módszert a kívánt formátumra (pl. PDF, PNG, JPEG).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

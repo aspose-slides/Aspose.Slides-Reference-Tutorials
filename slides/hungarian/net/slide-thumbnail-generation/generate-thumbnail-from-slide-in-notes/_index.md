@@ -3,14 +3,10 @@ title: Bélyegkép létrehozása a Jegyzetek diájából
 linktitle: Bélyegkép létrehozása a Jegyzetek diájából
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre bélyegképeket a prezentáció jegyzetek részében található diákból az Aspose.Slides for .NET segítségével. Növelje vizuális tartalmait!
+type: docs
 weight: 12
 url: /hu/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 modern prezentációk világában a vizuális tartalom a király. A vonzó diák elkészítése elengedhetetlen a hatékony kommunikációhoz. A prezentációk tökéletesítésének egyik módja az, hogy bélyegképeket készít a diákból, különösen akkor, ha konkrét részleteket szeretne kiemelni vagy áttekintést szeretne megosztani. Az Aspose.Slides for .NET egy hatékony eszköz, amely segíthet ennek zökkenőmentes elérésében. Ebben a lépésenkénti útmutatóban végigvezetjük a bemutatók jegyzetek részében található diákból bélyegképek létrehozásának folyamatán az Aspose.Slides for .NET használatával.
 
@@ -118,9 +114,3 @@ Teljesen! Az Aspose.Slides for .NET lehetőséget biztosít a bélyegképek megj
 
 ### Hol kaphatok támogatást vagy további segítséget az Aspose.Slides for .NET-hez?
  Segítséget találhat, és kapcsolatba léphet az Aspose közösséggel a webhelyen[Aspose támogatási fórum](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

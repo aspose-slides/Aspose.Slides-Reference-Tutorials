@@ -3,14 +3,10 @@ title: 创建缩放因子缩略图
 linktitle: 创建缩放因子缩略图
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java 中创建缩放比例缩略图。指南简单易懂，包含分步说明。
+type: docs
 weight: 12
 url: /zh/java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thumbnail/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 在本教程中，我们将指导您使用 Aspose.Slides for Java 创建缩放因子缩略图的过程。按照这些分步说明操作，即可获得所需的结果。
 ## 先决条件
@@ -70,9 +66,3 @@ ImageIO.write(bitmap, ".png", new File(dataDir + "Scaling Factor Thumbnail_out.p
 您可以从以下网站购买 Aspose.Slides for Java[购买页面](https://purchase.aspose.com/buy).
 ### 我是否需要临时许可证才能使用 Aspose.Slides for Java？
 是的，你可以从[临时执照页面](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

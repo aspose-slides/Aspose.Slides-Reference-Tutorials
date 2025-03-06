@@ -3,14 +3,10 @@ title: Vlastnosti písma pro jednotlivé legendy v Java Slides
 linktitle: Vlastnosti písma pro jednotlivé legendy v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Vylepšete PowerPointové prezentace o vlastní styly písma, velikosti a barvy pro jednotlivé legendy v Java Slides pomocí Aspose.Slides for Java.
+type: docs
 weight: 12
 url: /cs/java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod do vlastností písma pro jednotlivé legendy v Java Slides
 
@@ -117,9 +113,3 @@ Nezapomeňte zlikvidovat objekt prezentace, když budete s uvolněním prostřed
 ```java
 if (pres != null) pres.dispose();
 ```
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

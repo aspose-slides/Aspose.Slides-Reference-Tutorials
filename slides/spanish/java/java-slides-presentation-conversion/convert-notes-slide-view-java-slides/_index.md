@@ -3,14 +3,10 @@ title: Convertir la vista de diapositivas de notas en diapositivas de Java
 linktitle: Convertir la vista de diapositivas de notas en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo convertir vistas de diapositivas de notas en Java Slides usando Aspose.Slides para Java. Guía paso a paso con ejemplos de código para una manipulación eficiente de PowerPoint.
+type: docs
 weight: 15
 url: /es/java/presentation-conversion/convert-notes-slide-view-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introducción a la vista de diapositivas de notas de conversión en diapositivas de Java utilizando Aspose.Slides
 
@@ -105,10 +101,3 @@ Aspose.Slides está diseñado para funcionar con varios formatos de PowerPoint, 
 ### ¿Dónde puedo encontrar más ejemplos de código y tutoriales para Aspose.Slides para Java?
 
  Puede encontrar una gran cantidad de ejemplos de código y tutoriales en[Documentación de Aspose.Slides para Java](https://reference.aspose.com/slides/java/)Explore la documentación para obtener más información sobre las capacidades de esta poderosa biblioteca.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Προσθήκη εικόνας από αντικείμενο SVG από 
 linktitle: Προσθήκη εικόνας από αντικείμενο SVG από εξωτερικό πόρο σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε εικόνες SVG που βασίζονται σε διανύσματα από εξωτερικούς πόρους σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides. Δημιουργήστε εντυπωσιακές παρουσιάσεις με γραφικά υψηλής ποιότητας.
+type: docs
 weight: 12
 url: /el/java/image-handling/add-image-from-svg-object-from-external-resource-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στην Προσθήκη εικόνας από αντικείμενο SVG από εξωτερικό πόρο σε διαφάνειες Java
 
@@ -122,9 +118,3 @@ p.save(outPptxPath, SaveFormat.Pptx);
 ### Μπορώ να εφαρμόσω κινούμενα σχέδια σε εικόνες SVG που προστίθενται σε διαφάνειες;
 
 Ναι, μπορείτε να εφαρμόσετε κινούμενα σχέδια σε εικόνες SVG στις διαφάνειές σας χρησιμοποιώντας το Aspose.Slides για να δημιουργήσετε δυναμικές παρουσιάσεις.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

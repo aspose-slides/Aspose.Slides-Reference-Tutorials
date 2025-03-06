@@ -3,14 +3,10 @@ title: Zapisz program PowerPoint z domyślną czcionką zwykłą przy użyciu j�
 linktitle: Zapisz program PowerPoint z domyślną czcionką zwykłą przy użyciu języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak programowo manipulować prezentacjami programu PowerPoint przy użyciu Aspose.Slides dla Java. Opanuj obsługę języka Java PowerPoint dzięki samouczkom krok po kroku.
+type: docs
 weight: 12
 url: /pl/java/java-powerpoint-text-font-customization/save-powerpoint-default-regular-font-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 W dziedzinie programowania w języku Java programowe tworzenie prezentacji programu PowerPoint i manipulowanie nimi może znacznie zwiększyć produktywność i możliwości dostosowywania. Aspose.Slides dla Java to solidna biblioteka, która umożliwia programistom efektywną obsługę plików programu PowerPoint, oferując kompleksowy zestaw funkcji, od prostych modyfikacji po złożone prezentacje.
 ## Warunki wstępne
@@ -73,9 +69,3 @@ Aspose.Slides dla Java wymaga JDK 1.8 lub nowszego dla kompatybilności.
  Tak, możesz uzyskać wsparcie społeczne[Tutaj](https://forum.aspose.com/c/slides/11).
 ### Czy mogę bezpłatnie wypróbować Aspose.Slides dla Java?
  Tak, pobierz bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: A diagram adattartományának lekérése az Aspose.Slides-ben .NET-hez
 linktitle: Chart Data Range lekérése
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan vonhatja ki a diagram adattartományát a PowerPoint prezentációkból az Aspose.Slides for .NET segítségével. Lépésről lépésre szóló útmutató fejlesztőknek.
+type: docs
 weight: 11
 url: /hu/net/additional-chart-features/chart-get-range/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Szeretné kivonni az adattartományt a PowerPoint-prezentáció diagramjából az Aspose.Slides for .NET segítségével? Jó helyre jöttél. Ebben a lépésről lépésre bemutatott útmutatóban végigvezetjük a diagram adattartományának a prezentációból való kinyerésének folyamatán. Az Aspose.Slides for .NET egy nagy teljesítményű könyvtár, amely lehetővé teszi a PowerPoint-dokumentumok programozott kezelését, és a diagram adattartományának lekérése csak egy a sok feladat közül, amelyekben segíthet.
 
@@ -97,9 +93,3 @@ Igen, dolgozhat diákkal, alakzatokkal, szöveggel, képekkel és egyéb elemekk
 
 ### Milyen támogatási lehetőségek állnak rendelkezésre az Aspose.Slides .NET-felhasználók számára?
  Támogatást és segítséget kaphat az Aspose közösségtől[támogatói fórum](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

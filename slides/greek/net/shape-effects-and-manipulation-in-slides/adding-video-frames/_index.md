@@ -3,14 +3,10 @@ title: Οδηγός προσθήκης καρέ βίντεο με το Aspose.Sl
 linktitle: Προσθήκη πλαισίων βίντεο σε διαφάνειες παρουσίασης χρησιμοποιώντας το Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Αναζωογονήστε τις παρουσιάσεις με δυναμικά καρέ βίντεο χρησιμοποιώντας το Aspose.Slides για .NET. Ακολουθήστε τον οδηγό μας για απρόσκοπτη ενσωμάτωση και δημιουργήστε ελκυστικές.
+type: docs
 weight: 19
 url: /el/net/shape-effects-and-manipulation-in-slides/adding-video-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Στο δυναμικό τοπίο των παρουσιάσεων, η ενσωμάτωση στοιχείων πολυμέσων μπορεί να αυξήσει τη συνολική επίδραση και αφοσίωση. Η προσθήκη πλαισίων βίντεο στις διαφάνειές σας μπορεί να αλλάξει το παιχνίδι, να τραβήξει την προσοχή του κοινού σας με τρόπο που το στατικό περιεχόμενο δεν μπορεί. Το Aspose.Slides for .NET παρέχει μια ισχυρή λύση για την απρόσκοπτη ενσωμάτωση καρέ βίντεο στις διαφάνειες της παρουσίασής σας.
 ## Προαπαιτούμενα
@@ -71,9 +67,3 @@ pres.Save(dataDir + "VideoFrame_out.pptx", SaveFormat.Pptx);
  Ναι, μπορείτε να εξερευνήσετε τις δυνατότητες του Aspose.Slides για .NET κατεβάζοντας τη δοκιμαστική έκδοση[εδώ](https://releases.aspose.com/).
 ### Ε5: Πού μπορώ να βρω υποστήριξη για το Aspose.Slides για .NET;
  Για οποιαδήποτε απορία ή βοήθεια, επισκεφθείτε το[Aspose.Slides Forum](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

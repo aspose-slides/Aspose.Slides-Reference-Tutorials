@@ -3,14 +3,10 @@ title: Hoe u de achtergrond van een dia in Aspose.Slides .NET kunt wijzigen
 linktitle: Wijzig de normale dia-achtergrond
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u dia-achtergronden kunt wijzigen met Aspose.Slides voor .NET en verbluffende PowerPoint-presentaties kunt maken.
+type: docs
 weight: 15
 url: /nl/net/slide-background-manipulation/change-slide-background-normal/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 In de wereld van presentatieontwerp is het maken van opvallende en boeiende dia's essentieel. Aspose.Slides voor .NET is een krachtig hulpmiddel waarmee u PowerPoint-presentaties programmatisch kunt manipuleren. In deze stapsgewijze handleiding laten we u zien hoe u de achtergrond van een dia kunt wijzigen met Aspose.Slides voor .NET. Dit kan u helpen de visuele aantrekkingskracht van uw presentaties te vergroten en ze effectiever te maken. 
 
@@ -103,9 +99,3 @@ Zeker! U kunt door uw dia's bladeren en de gewenste achtergrondwijzigingen op me
 ### 5. Hoe verkrijg ik een tijdelijke licentie voor Aspose.Slides voor .NET?
 
  Als u een tijdelijke licentie nodig heeft voor uw project, kunt u deze verkrijgen bij[hier](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

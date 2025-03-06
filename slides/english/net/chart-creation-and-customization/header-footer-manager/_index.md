@@ -3,14 +3,10 @@ title: Manage Header and Footer in Slides
 linktitle: Manage Header and Footer in Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to add dynamic headers and footers in PowerPoint presentations using Aspose.Slides for .NET.
+type: docs
 weight: 14
 url: /net/chart-creation-and-customization/header-footer-manager/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 # Creating Dynamic Headers and Footers in Aspose.Slides for .NET
 
@@ -135,10 +131,3 @@ A4: Temporary licenses can be obtained [here](https://purchase.aspose.com/tempor
 
 ### Q5: Is there a community or support forum for Aspose.Slides for .NET?
 A5: Yes, you can visit the Aspose.Slides for .NET support forum [here](https://forum.aspose.com/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

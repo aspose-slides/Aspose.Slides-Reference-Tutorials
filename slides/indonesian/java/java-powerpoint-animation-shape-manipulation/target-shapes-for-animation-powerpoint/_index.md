@@ -3,14 +3,10 @@ title: Bentuk Target untuk Animasi di PowerPoint
 linktitle: Bentuk Target untuk Animasi di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menganimasikan bentuk tertentu dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Buat slide yang menarik dengan mudah.
+type: docs
 weight: 11
 url: /id/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-animation-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam dunia presentasi yang dinamis, animasi memainkan peran penting dalam menarik penonton dan menyampaikan informasi secara efektif. Aspose.Slides untuk Java memberdayakan pengembang untuk membuat presentasi PowerPoint yang menawan dengan animasi rumit yang disesuaikan dengan bentuk tertentu. Tutorial ini akan memandu Anda melalui proses penargetan bentuk untuk animasi menggunakan Aspose.Slides untuk Java, memastikan presentasi Anda menonjol dengan transisi yang lancar dan animasi yang presisi.
 ## Prasyarat
@@ -66,9 +62,3 @@ Ya, Aspose.Slides for Java menyediakan fitur ekstensif untuk membuat animasi rum
  Anda dapat memperoleh lisensi sementara dari[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya dapat membeli Aspose.Slides untuk Java?
  Anda dapat membeli Aspose.Slides untuk Java dari situs web[Di Sini](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

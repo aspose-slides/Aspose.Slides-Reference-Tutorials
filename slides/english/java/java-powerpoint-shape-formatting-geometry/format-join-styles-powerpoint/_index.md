@@ -3,14 +3,10 @@ title: Format Join Styles in PowerPoint
 linktitle: Format Join Styles in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to enhance your PowerPoint presentations by setting different line join styles for shapes using Aspose.Slides for Java. Follow our step-by-step guide.
+type: docs
 weight: 15
 url: /java/java-powerpoint-shape-formatting-geometry/format-join-styles-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Creating visually appealing PowerPoint presentations can be a daunting task, especially when you want every detail to be perfect. This is where Aspose.Slides for Java comes in handy. It's a powerful API that allows you to create, manipulate, and manage presentations programmatically. One of the features that you can utilize is setting different line join styles for shapes, which can significantly enhance the aesthetics of your slides. In this tutorial, we'll dive into how you can use Aspose.Slides for Java to set join styles for shapes in PowerPoint presentations. 
 ## Prerequisites
@@ -116,10 +112,3 @@ Yes, you can get a free trial from [here](https://releases.aspose.com/).
 Line join styles refer to the shape of the corners where two lines meet. Common styles include Miter, Bevel, and Round.
 ### Where can I find more documentation on Aspose.Slides for Java?
 You can find detailed documentation [here](https://reference.aspose.com/slides/java/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

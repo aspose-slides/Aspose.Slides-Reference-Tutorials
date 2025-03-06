@@ -3,14 +3,10 @@ title: Java スライドでグラフ データを更新して外部ワークブ�
 linktitle: Java スライドでグラフ データを更新して外部ワークブックを設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、外部ワークブックを設定し、Java スライドでグラフ データを更新する方法を学習します。PowerPoint の自動化スキルを強化します。
+type: docs
 weight: 20
 url: /ja/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java スライドでグラフ データを更新して外部ワークブックを設定する方法の概要
 
@@ -103,9 +99,3 @@ finally
 ### Aspose.Slides for Java の詳細なドキュメントやリソースはどこで入手できますか?
 
 詳細なドキュメントと追加リソースについては、Aspose.Slides for Javaのドキュメントをご覧ください。[ここ](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: 프레젠테이션 내의 모든 슬라이드 검색
 linktitle: 프레젠테이션 내의 모든 슬라이드 검색
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션 내의 모든 슬라이드를 검색하는 방법을 알아보세요. 프로그래밍 방식으로 프레젠테이션을 효율적으로 작업하려면 전체 소스 코드가 포함된 이 단계별 가이드를 따르세요. 슬라이드 속성, 설치, 사용자 정의 등을 살펴보세요.
+type: docs
 weight: 13
 url: /ko/net/slide-access-and-manipulation/access-all-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## .NET용 Aspose.Slides 소개
 
@@ -143,9 +139,3 @@ Install-Package Aspose.Slides
 ### .NET용 Aspose.Slides에 대한 자세한 정보는 어디서 찾을 수 있나요?
 
  더 자세한 정보, API 참조, 코드 예시를 보려면 다음을 방문하세요.[.NET 문서용 Aspose.Slides](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

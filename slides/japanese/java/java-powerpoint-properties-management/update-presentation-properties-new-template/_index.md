@@ -3,14 +3,10 @@ title: 新しいテンプレートでプレゼンテーションのプロパテ�
 linktitle: 新しいテンプレートでプレゼンテーションのプロパティを更新する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用してプレゼンテーションのプロパティを更新する方法を学びます。シームレスなメタデータ変更により、Java プロジェクトを強化します。
+type: docs
 weight: 13
 url: /ja/java/java-powerpoint-properties-management/update-presentation-properties-new-template/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 Java 開発の分野では、Aspose.Slides は PowerPoint プレゼンテーションをプログラムで操作するための強力なツールとして知られています。Java ライブラリを使用すると、開発者はプレゼンテーションの作成、変更、変換などのタスクを自動化できるため、企業や個人にとって非常に貴重な資産となります。ただし、Aspose.Slides の潜在能力を最大限に活用するには、その機能と、それを Java プロジェクトに効果的に統合する方法をしっかりと理解する必要があります。このチュートリアルでは、新しいテンプレートを使用してプレゼンテーション プロパティを更新する方法を段階的に説明し、各概念を完全に理解できるようにします。
 ## 前提条件
@@ -79,9 +75,3 @@ updateByTemplate(dataDir + "doc3.ppt", template);
 確かに、Aspose.Slides はプレゼンテーション プロパティの広範なカスタマイズ オプションを提供しており、特定の要件に合わせてカスタマイズできます。
 ### Aspose.Slides の追加サポートとリソースはどこで見つかりますか?
 Aspose.Slides のドキュメントを参照したり、コミュニティ フォーラムに参加したり、Aspose サポートに連絡して支援や問い合わせを受けることもできます。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

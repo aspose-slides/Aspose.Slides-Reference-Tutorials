@@ -3,14 +3,10 @@ title: Dodaj niestandardowe węzły podrzędne w SmartArt przy użyciu języka J
 linktitle: Dodaj niestandardowe węzły podrzędne w SmartArt przy użyciu języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodawać niestandardowe węzły podrzędne do grafiki SmartArt w prezentacjach programu PowerPoint przy użyciu języka Java z Aspose.Slides. Bez wysiłku wzbogacaj swoje slajdy profesjonalną grafiką.
+type: docs
 weight: 11
 url: /pl/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 SmartArt to zaawansowana funkcja programu PowerPoint, która umożliwia użytkownikom szybkie i łatwe tworzenie profesjonalnie wyglądającej grafiki. W tym samouczku dowiemy się, jak dodawać niestandardowe węzły podrzędne do grafiki SmartArt przy użyciu języka Java i Aspose.Slides.
 ## Warunki wstępne
@@ -83,9 +79,3 @@ Absolutnie! Dzięki Aspose.Slides for Java możesz programowo dostosować wyglą
 Tak, możesz znaleźć obszerną dokumentację i dostęp do forów wsparcia społeczności na stronie internetowej Aspose.
 ### Czy dostępna jest wersja próbna Aspose.Slides dla Java?
  Tak, możesz pobrać bezpłatną wersję próbną Aspose.Slides dla Java ze strony internetowej, aby zapoznać się z jej funkcjami i możliwościami przed dokonaniem zakupu[Tutaj](https://releases.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

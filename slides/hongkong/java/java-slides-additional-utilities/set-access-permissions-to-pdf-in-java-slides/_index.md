@@ -3,14 +3,10 @@ title: 在 Java 幻燈片中設定 PDF 的存取權限
 linktitle: 在 Java 幻燈片中設定 PDF 的存取權限
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 在 Java Slides 中透過存取權保護 PDF 文件。本逐步指南涵蓋密碼保護等內容。
+type: docs
 weight: 17
 url: /zh-hant/java/additional-utilities/set-access-permissions-to-pdf-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 在 Java 幻燈片中設定 PDF 存取權限簡介
 
@@ -108,9 +104,3 @@ Aspose.Slides for Java 提供各種安全功能，包括加密、數位簽章和
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的更多資源和文件？
 
 您可以存取 Aspose.Slides for Java 的綜合文件：[這裡](https://reference.aspose.com/slides/java/) 。此外，您可以從以下位置下載該庫[這裡](https://releases.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

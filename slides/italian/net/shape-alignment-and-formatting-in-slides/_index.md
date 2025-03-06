@@ -3,14 +3,10 @@ title: Allineamento delle forme e formattazione nelle diapositive
 linktitle: Allineamento delle forme e formattazione nelle diapositive
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Esplora i tutorial completi di Aspose.Slides sull'allineamento e la formattazione delle forme nelle applicazioni .NET. Impara ad allineare e formattare le forme senza sforzo, migliorando le tue presentazioni di diapositive con precisione.
+type: docs
 weight: 14
 url: /it/net/shape-alignment-and-formatting-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## introduzione
 
@@ -48,9 +44,3 @@ Scopri come creare accattivanti diapositive di presentazione con forme abbozzate
 Scopri come aggiungere l'offset allungato a sinistra per una cornice in PowerPoint utilizzando Aspose.Slides per .NET. Guida passo passo con esempio di codice sorgente completo.
 ### [Sostituzione del titolo dell'immagine della cornice dell'oggetto OLE nelle diapositive della presentazione](./substituting-picture-title-ole-object-frame/)
 Scopri come sostituire i titoli delle immagini dei fotogrammi degli oggetti OLE nelle diapositive della presentazione utilizzando Aspose.Slides per .NET. Guida passo passo con il codice sorgente completo.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

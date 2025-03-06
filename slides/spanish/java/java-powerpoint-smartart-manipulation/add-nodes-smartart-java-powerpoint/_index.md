@@ -3,14 +3,10 @@ title: Agregar nodos a SmartArt en Java PowerPoint
 linktitle: Agregar nodos a SmartArt en Java PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo agregar nodos SmartArt a presentaciones de PowerPoint de Java usando Aspose.Slides para Java. Mejore el atractivo visual sin esfuerzo.
+type: docs
 weight: 15
 url: /es/java/java-powerpoint-smartart-manipulation/add-nodes-smartart-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introducción
 En el ámbito de las presentaciones de PowerPoint en Java, la manipulación de los nodos SmartArt puede mejorar en gran medida el atractivo visual y la eficacia de las diapositivas. Aspose.Slides para Java ofrece una solución sólida para que los desarrolladores de Java integren perfectamente las funcionalidades SmartArt en sus presentaciones. En este tutorial, profundizaremos en el proceso de agregar nodos a SmartArt en presentaciones de PowerPoint Java usando Aspose.Slides.
 ## Requisitos previos
@@ -75,9 +71,3 @@ Por supuesto, puede recorrer diapositivas y agregar nodos SmartArt según sea ne
 Sí, Aspose.Slides para Java ofrece un conjunto completo de funciones para la manipulación de PowerPoint, incluida la creación de diapositivas, animación y gestión de formas.
 ### ¿Dónde puedo buscar asistencia o soporte para Aspose.Slides para Java?
  Puedes visitar el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para obtener apoyo de la comunidad o explore la documentación para obtener orientación detallada.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Uzyskaj szerokość i wysokość z obszaru wykresu w Java Slides
 linktitle: Uzyskaj szerokość i wysokość z obszaru wykresu w Java Slides
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak pobrać wymiary obszaru wykresu w Java Slides za pomocą Aspose.Slides dla Java. Popraw swoje umiejętności automatyzacji programu PowerPoint.
+type: docs
 weight: 21
 url: /pl/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Wstęp
 
@@ -113,10 +109,3 @@ Tak, Aspose.Slides for Java to potężna biblioteka do automatyzacji zadań prog
 ### Jak mogę dowiedzieć się więcej o Aspose.Slides dla Java?
 
  Obszerną dokumentację i przykłady można znaleźć na stronie dokumentacji Aspose.Slides for Java[Tutaj](https://reference.aspose.com/slides/java/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

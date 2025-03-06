@@ -3,14 +3,10 @@ title: Teknik Rendering Java PowerPoint
 linktitle: Teknik Rendering Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara merender komentar, grafik 3D, emoji, dan lainnya di PowerPoint menggunakan Aspose.Slides untuk Java. Tutorial komprehensif untuk presentasi yang lebih baik.
+type: docs
 weight: 22
 url: /id/java/java-powerpoint-rendering-techniques/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Perkenalan
 
@@ -42,9 +38,3 @@ Pelajari cara membuat rendering 3D yang menakjubkan di PowerPoint menggunakan As
 Pelajari cara merender emoji dalam presentasi PowerPoint dengan mudah menggunakan Aspose.Slides untuk Java. Tingkatkan keterlibatan dengan visual ekspresif.
 ### [Opsi Render di PowerPoint](./render-options-powerpoint/)
 Pelajari cara memanipulasi opsi rendering dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Sesuaikan slide Anda untuk dampak visual yang optimal.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

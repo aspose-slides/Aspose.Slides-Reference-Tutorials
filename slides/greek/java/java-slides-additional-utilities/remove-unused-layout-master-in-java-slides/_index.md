@@ -3,14 +3,10 @@ title: Καταργήστε το αχρησιμοποίητο Layout Master στ
 linktitle: Καταργήστε το αχρησιμοποίητο Layout Master στις διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Καταργήστε τα μη χρησιμοποιημένα Layout Masters με το Aspose.Slides. Βήμα προς βήμα οδηγός και κώδικας. Βελτιώστε την αποτελεσματικότητα της παρουσίασης.
+type: docs
 weight: 10
 url: /el/java/additional-utilities/remove-unused-layout-master-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στην Κατάργηση του Μη χρησιμοποιημένου Layout Master σε διαφάνειες Java
 
@@ -127,9 +123,3 @@ System.out.println("Layout slides number in result presentation = " + pres.getLa
 ### Πού μπορώ να έχω πρόσβαση στον πηγαίο κώδικα που χρησιμοποιείται σε αυτό το άρθρο;
 
 Μπορείτε να βρείτε τον πηγαίο κώδικα που χρησιμοποιείται σε αυτό το άρθρο στα αποσπάσματα κώδικα που παρέχονται σε κάθε βήμα. Απλώς αντιγράψτε και επικολλήστε τον κώδικα στο έργο σας Java για να εφαρμόσετε την αφαίρεση αχρησιμοποίητων βασικών στοιχείων διάταξης στις παρουσιάσεις σας.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

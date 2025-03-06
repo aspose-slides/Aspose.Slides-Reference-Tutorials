@@ -3,14 +3,10 @@ title: PowerPoint에서 이미지 채우기를 위한 스트레치 오프셋 추
 linktitle: PowerPoint에서 이미지 채우기를 위한 스트레치 오프셋 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 이미지 채우기를 위한 스트레치 오프셋을 추가하는 방법을 알아보세요. 단계별 튜토리얼이 포함되어 있습니다.
+type: docs
 weight: 16
 url: /ko/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 이미지 채우기를 위한 스트레치 오프셋을 추가하는 방법을 배웁니다. 이 기능을 사용하면 슬라이드 내의 이미지를 조작하여 이미지 모양을 더 효과적으로 제어할 수 있습니다.
 ## 전제 조건
@@ -68,9 +64,3 @@ Aspose.Slides for Java는 다양한 크기의 이미지를 처리할 수 있지�
 예, Aspose.Slides for Java의 광범위한 API를 사용하여 이미지에 광범위한 효과와 변형을 적용할 수 있습니다.
 ### Aspose.Slides for Java에 대한 추가 리소스와 지원은 어디서 찾을 수 있나요?
  당신은 방문 할 수 있습니다[Java 문서용 Aspose.Slides](https://reference.aspose.com/slides/java/) 자세한 가이드를 확인하고[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 지역 사회 지원을 위해.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

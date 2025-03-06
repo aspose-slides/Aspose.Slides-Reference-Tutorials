@@ -3,14 +3,10 @@ title: Thêm hộp văn bản trên slide theo lập trình với Java
 linktitle: Thêm hộp văn bản trên slide theo lập trình với Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm hộp văn bản vào trang chiếu PowerPoint theo chương trình bằng Aspose.Slides cho Java. Cải thiện năng suất của bạn với hướng dẫn từng bước này.
+type: docs
 weight: 24
 url: /vi/java/java-powerpoint-text-font-customization/add-text-box-slide-programmatically-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Việc tạo và thao tác các bản trình bày PowerPoint theo chương trình có thể hợp lý hóa nhiều quy trình công việc, từ tạo báo cáo đến tự động hóa bản trình bày. Aspose.Slides for Java cung cấp một API mạnh mẽ cho phép các nhà phát triển thực hiện các tác vụ này một cách hiệu quả. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách thêm hộp văn bản vào slide bằng Aspose.Slides cho Java. Đến cuối hướng dẫn này, bạn sẽ hiểu rõ về cách tích hợp chức năng này vào các ứng dụng Java của mình.
 ## Điều kiện tiên quyết
@@ -71,9 +67,3 @@ Chắc chắn rồi, nó được thiết kế để xử lý các tác vụ ph�
  Bạn có thể có được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) từ Aspose.
 ### Aspose.Slides có hỗ trợ chuyển đổi bài thuyết trình sang các định dạng khác không?
 Có, nó hỗ trợ nhiều định dạng khác nhau bao gồm PDF và hình ảnh.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

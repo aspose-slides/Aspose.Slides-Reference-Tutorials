@@ -3,14 +3,10 @@ title: Renderizando comentários de slides em Aspose.Slides
 linktitle: Renderizando comentários de slides em Aspose.Slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Explore como renderizar comentários de slides em Aspose.Slides for .NET com nosso tutorial passo a passo. Personalize a aparência dos comentários e eleve a automação do PowerPoint.
+type: docs
 weight: 12
 url: /pt/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 Bem-vindo ao nosso tutorial abrangente sobre renderização de comentários de slides usando Aspose.Slides for .NET! Aspose.Slides é uma biblioteca poderosa que permite aos desenvolvedores trabalhar perfeitamente com apresentações do PowerPoint em seus aplicativos .NET. Neste guia, nos concentraremos em uma tarefa específica – renderizar comentários de slides – e orientaremos você passo a passo no processo.
 ## Pré-requisitos
@@ -90,9 +86,3 @@ R: Absolutamente! O tutorial inclui opções para personalizar a cor, largura e 
  R: Você pode obter uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
 ### P: Onde posso procurar ajuda e suporte para Aspose.Slides?
  R: Visite o[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) para apoio comunitário.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

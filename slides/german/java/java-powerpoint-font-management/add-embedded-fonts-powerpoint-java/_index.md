@@ -3,14 +3,10 @@ title: Eingebettete Schriftarten in PowerPoint mit Java hinzufügen
 linktitle: Eingebettete Schriftarten in PowerPoint mit Java hinzufügen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java eingebettete Schriftarten zu PowerPoint-Präsentationen hinzufügen. Sorgen Sie für eine einheitliche Anzeige auf allen Geräten.
+type: docs
 weight: 10
 url: /de/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 In diesem Tutorial führen wir Sie durch den Prozess des Hinzufügens eingebetteter Schriftarten zu PowerPoint-Präsentationen mit Java, insbesondere durch die Nutzung von Aspose.Slides für Java. Eingebettete Schriftarten stellen sicher, dass Ihre Präsentation auf verschiedenen Geräten einheitlich aussieht, auch wenn die Originalschriftart nicht verfügbar ist. Lassen Sie uns die Schritte durchgehen:
 ## Voraussetzungen
@@ -73,9 +69,3 @@ Ja, das Einbetten von Schriftarten kann die Dateigröße der Präsentation leich
 Aspose.Slides für Java unterstützt das Einbetten von TrueType-Schriftarten, die eine breite Palette von Schriftarten abdecken, die häufig in Präsentationen verwendet werden.
 ### Kann ich Schriftarten programmgesteuert mit Aspose.Slides für Java einbetten?
 Ja, wie in diesem Tutorial gezeigt, können Sie Schriftarten programmgesteuert mit der Aspose.Slides-API für Java einbetten.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

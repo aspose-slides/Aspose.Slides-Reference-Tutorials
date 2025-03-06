@@ -3,14 +3,10 @@ title: 管理正常视图状态下的演示
 linktitle: 管理正常视图状态下的演示
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 管理正常视图状态下的演示文稿。通过分步指导和完整的源代码以编程方式创建、修改和增强演示文稿。
+type: docs
 weight: 11
 url: /zh/net/slide-view-and-layout-manipulation/manage-presentation-normal-view-state/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 无论您是在制作动态销售宣传、教育讲座还是引人入胜的网络研讨会，演示文稿都是有效沟通的基石。Microsoft PowerPoint 长期以来一直是创建精美幻灯片的首选软件。然而，当谈到以编程方式管理演示文稿时，Aspose.Slides for .NET 库被证明是一种非常宝贵的工具。在本指南中，我们将探讨如何使用 Aspose.Slides for .NET 管理正常视图状态下的演示文稿，使您能够无缝地创建、修改和增强演示文稿。
 
@@ -125,9 +121,3 @@ Aspose.Slides 支持多种编程语言，包括 C#、VB.NET 等。
 
 ## 结论
 在本指南中，我们探讨了如何使用 Aspose.Slides for .NET 管理正常视图状态下的演示文稿。借助其强大的功能，您可以以编程方式创建、修改和增强演示文稿，确保您的内容有效地吸引观众。无论您是专业演示者还是从事演示相关应用程序的开发人员，Aspose.Slides for .NET 都是您实现无缝演示文稿管理的门户。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Ta bort rad eller kolumn i PowerPoint-tabellen med Java
 linktitle: Ta bort rad eller kolumn i PowerPoint-tabellen med Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du tar bort rader eller kolumner från PowerPoint-tabeller med Java med Aspose.Slides för Java. Enkel steg-för-steg-guide för utvecklare.
+type: docs
 weight: 18
 url: /sv/java/java-powerpoint-table-manipulation/remove-row-column-powerpoint-table-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 den här handledningen kommer vi att utforska hur man tar bort en rad eller kolumn från en PowerPoint-tabell med hjälp av Java med hjälp av Aspose.Slides. Aspose.Slides för Java är ett kraftfullt bibliotek som låter utvecklare skapa, manipulera och konvertera PowerPoint-presentationer programmatiskt. Denna handledning fokuserar specifikt på processen att ändra tabeller i PowerPoint-bilder, och visar steg för steg hur man tar bort specifika rader eller kolumner från en tabell.
 ## Förutsättningar
@@ -78,9 +74,3 @@ Aspose.Slides tillhandahåller omfattande stöd för att skapa, ändra och konve
 Ja, Aspose.Slides används ofta i företagsmiljöer för att automatisera PowerPoint-uppgifter på grund av dess robusta funktioner och prestanda.
 ### Kan jag prova Aspose.Slides innan jag köper?
  Ja, du kan ladda ner en gratis testversion av Aspose.Slides från[här](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

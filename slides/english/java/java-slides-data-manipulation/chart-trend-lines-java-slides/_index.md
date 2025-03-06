@@ -3,14 +3,10 @@ title: Chart Trend Lines in Java Slides
 linktitle: Chart Trend Lines in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to add various trend lines to Java Slides using Aspose.Slides for Java. Step-by-step guide with code examples for effective data visualization.
+type: docs
 weight: 15
 url: /java/data-manipulation/chart-trend-lines-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction to Chart Trend Lines in Java Slides: A Step-by-Step Guide
 
@@ -194,10 +190,3 @@ Yes, you can customize the trend line equation display using the `setDisplayEqua
 ### How can I access more resources and examples for Aspose.Slides for Java?
 
 You can access additional resources, documentation, and examples for Aspose.Slides for Java on the [Aspose website](https://reference.aspose.com/slides/java/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Lägg till föräldrakommentarer till Slide med Aspose.Slides
 linktitle: Lägg till föräldrars kommentarer till bild
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du lägger till interaktiva kommentarer och svar på dina PowerPoint-presentationer med Aspose.Slides för .NET. Förbättra engagemang och samarbete.
+type: docs
 weight: 12
 url: /sv/net/slide-comments-manipulation/add-parent-comments/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Vill du förbättra dina PowerPoint-presentationer med interaktiva funktioner? Aspose.Slides för .NET låter dig infoga kommentarer och svar, vilket skapar en dynamisk och engagerande upplevelse för din publik. I denna steg-för-steg handledning kommer vi att visa dig hur du lägger till föräldrars kommentarer till bilder med Aspose.Slides för .NET. Låt oss dyka in och utforska denna spännande funktion.
 
@@ -164,9 +160,3 @@ Aspose.Slides för .NET är designad för att fungera med ett brett utbud av Pow
 
 ### Finns det några licensalternativ för Aspose.Slides för .NET?
  Ja, du kan utforska licensalternativ, inklusive tillfälliga licenser, på Asposes webbplats[här](https://purchase.aspose.com/buy) eller prova den kostnadsfria provperioden[här](https://releases.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

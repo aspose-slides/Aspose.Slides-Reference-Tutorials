@@ -3,14 +3,10 @@ title: Nastavení obrázku jako pozadí snímku pomocí Aspose.Slides
 linktitle: Nastavte obrázek jako pozadí snímku
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak nastavit pozadí obrázků v PowerPointu pomocí Aspose.Slides for .NET. Vylepšete své prezentace s lehkostí.
+type: docs
 weight: 13
 url: /cs/net/slide-background-manipulation/set-image-as-background/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Ve světě prezentačního designu a automatizace je Aspose.Slides for .NET výkonný a všestranný nástroj, který umožňuje vývojářům snadno manipulovat s prezentacemi v PowerPointu. Ať už vytváříte přizpůsobené sestavy, vytváříte úžasné prezentace nebo automatizujete generování snímků, Aspose.Slides pro .NET je cenným přínosem. V tomto podrobném průvodci vám ukážeme, jak pomocí této pozoruhodné knihovny nastavit obrázek jako pozadí snímku.
 
@@ -119,9 +115,3 @@ Aspose.Slides for .NET je primárně určen pro prostředí Windows. Pro macOS z
 ### 5. Nabízí Aspose.Slides for .NET zkušební verzi?
 
  Ano, můžete získat bezplatnou zkušební verzi Aspose.Slides pro .NET z webové stránky na adrese[tento odkaz](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

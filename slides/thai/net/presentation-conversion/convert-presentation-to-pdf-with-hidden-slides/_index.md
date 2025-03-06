@@ -3,14 +3,10 @@ title: แปลงการนำเสนอเป็น PDF ด้วยส�
 linktitle: แปลงการนำเสนอเป็น PDF ด้วยสไลด์ที่ซ่อนอยู่
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: เรียนรู้วิธีใช้ Aspose.Slides สำหรับ .NET เพื่อแปลงงานนำเสนอเป็น PDF ด้วยสไลด์ที่ซ่อนไว้ได้อย่างราบรื่น
+type: docs
 weight: 26
 url: /th/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับ Aspose.Slides สำหรับ .NET
 
@@ -99,9 +95,3 @@ class Program
 ### มีเอกสารประกอบสำหรับ Aspose.Slides สำหรับ .NET หรือไม่
 
  ใช่ คุณสามารถค้นหาเอกสารประกอบและตัวอย่างการใช้งานสำหรับ Aspose.Slides สำหรับ .NET ได้ที่[ที่นี่](https://reference.aspose.com/slides/net).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

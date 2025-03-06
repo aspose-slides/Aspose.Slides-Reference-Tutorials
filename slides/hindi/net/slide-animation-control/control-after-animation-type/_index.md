@@ -3,14 +3,10 @@ title: Aspose.Slides के साथ PowerPoint में एनीमेशन
 linktitle: स्लाइड में एनीमेशन टाइप के बाद नियंत्रण
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: Aspose.Slides for .NET का उपयोग करके PowerPoint स्लाइड में एनीमेशन के बाद के प्रभावों को नियंत्रित करना सीखें। गतिशील दृश्य तत्वों के साथ अपनी प्रस्तुतियों को बेहतर बनाएँ।
+type: docs
 weight: 11
 url: /hi/net/slide-animation-control/control-after-animation-type/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## परिचय
 गतिशील एनिमेशन के साथ अपनी प्रस्तुतियों को बेहतर बनाना आपके दर्शकों को आकर्षित करने का एक महत्वपूर्ण पहलू है। Aspose.Slides for .NET स्लाइड्स में आफ्टर-एनीमेशन प्रभावों को नियंत्रित करने के लिए एक शक्तिशाली समाधान प्रदान करता है। इस ट्यूटोरियल में, हम आपको स्लाइड्स पर आफ्टर-एनीमेशन प्रकार में हेरफेर करने के लिए Aspose.Slides for .NET का उपयोग करने की प्रक्रिया के माध्यम से मार्गदर्शन करेंगे। इस चरण-दर-चरण मार्गदर्शिका का पालन करके, आप अधिक इंटरैक्टिव और नेत्रहीन आकर्षक प्रस्तुतियाँ बनाने में सक्षम होंगे।
 ## आवश्यक शर्तें
@@ -91,9 +87,3 @@ pres.Save(outPath, SaveFormat.Pptx);
 Aspose.Slides विभिन्न प्रारूपों का समर्थन करता है, जिसमें PPTX, PPT, PDF, और बहुत कुछ शामिल है। पूरी सूची के लिए दस्तावेज़ देखें।
 ### मैं Aspose.Slides से संबंधित सहायता कहां से प्राप्त कर सकता हूं या प्रश्न कहां पूछ सकता हूं?
  दौरा करना[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) समर्थन और सामुदायिक संपर्क के लिए।
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

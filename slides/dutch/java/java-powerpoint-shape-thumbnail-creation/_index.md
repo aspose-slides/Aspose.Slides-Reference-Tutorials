@@ -3,14 +3,10 @@ title: Java PowerPoint-vorm en miniatuurcreatie
 linktitle: Java PowerPoint-vorm en miniatuurcreatie
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer vormen en miniaturen maken in PowerPoint met Aspose.Slides Java. Gedetailleerde tutorials over het maken van groepsvormen, schaalfactorminiaturen en zoomeffecten.
+type: docs
 weight: 24
 url: /nl/java/java-powerpoint-shape-thumbnail-creation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 
 Het creëren van visueel aantrekkelijke en georganiseerde PowerPoint-presentaties is essentieel voor effectieve communicatie. Met Aspose.Slides voor Java kunt u uw presentaties moeiteloos verbeteren door verschillende vormen en miniaturen te maken. Dit artikel biedt een stapsgewijze handleiding om deze technieken onder de knie te krijgen, zodat uw dia's zowel boeiend als professioneel zijn.
@@ -56,9 +52,3 @@ Leer hoe u SmartArt-miniaturen van onderliggende notities kunt maken in Java met
  Leer hoe u een samenvattingszoom in PowerPoint kunt maken met Aspose.Slides voor Java met deze uitgebreide stapsgewijze zelfstudie.
 ### [Maak een zoomframe in PowerPoint](./create-zoom-frame-powerpoint/)
 Leer hoe u boeiende zoomframes in PowerPoint kunt maken met Aspose.Slides voor Java. Volg onze gids om interactieve elementen aan uw presentaties toe te voegen.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

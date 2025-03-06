@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में श्रृंखला 
 linktitle: जावा स्लाइड्स में श्रृंखला को एनिमेट करना
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java में सीरीज एनिमेशन के साथ अपनी प्रस्तुतियों को अनुकूलित करें। आकर्षक PowerPoint एनिमेशन बनाने के लिए स्रोत कोड उदाहरणों के साथ हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
+type: docs
 weight: 11
 url: /hi/java/animation-and-layout/animating-series-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for Java में सीरीज को एनिमेट करने का परिचय
 
@@ -129,9 +125,3 @@ finally
 ### मैं एनीमेशन अवधि और विलंब को कैसे अनुकूलित कर सकता हूं?
 
 आप एनीमेशन प्रभाव पर गुण सेट करके एनीमेशन अवधि और देरी को अनुकूलित कर सकते हैं। उपलब्ध अनुकूलन विकल्पों के विवरण के लिए Aspose.Slides for Java दस्तावेज़ देखें।
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

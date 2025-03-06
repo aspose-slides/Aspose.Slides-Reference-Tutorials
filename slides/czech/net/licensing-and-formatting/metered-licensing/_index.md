@@ -3,14 +3,10 @@ title: Měřené využití licencí
 linktitle: Měřené využití licencí
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Zjistěte, jak efektivně používat Metered Licensing s Aspose.Slides pro .NET. Bezproblémově integrujte rozhraní API a přitom platíte za skutečné použití.
+type: docs
 weight: 11
 url: /cs/net/licensing-and-formatting/metered-licensing/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod
 
@@ -118,9 +114,3 @@ Aspose.Slides for .NET je výkonná knihovna, která umožňuje vývojářům pr
 
 ### Existuje fórum pro podporu a diskuze Aspose.Slides?
  Ano, můžete najít podporu a zapojit se do diskuzí na fóru Aspose.Slides na adrese[tento odkaz](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

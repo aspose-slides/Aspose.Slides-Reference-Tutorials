@@ -3,14 +3,10 @@ title: Скрыть информацию из диаграммы в слайда
 linktitle: Скрыть информацию из диаграммы в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как скрыть элементы диаграммы в слайдах Java с помощью Aspose.Slides для Java. Настраивайте презентации для ясности и эстетики с помощью пошаговых инструкций и исходного кода.
+type: docs
 weight: 13
 url: /ru/java/customization-and-formatting/hide-information-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Введение в скрытие информации из диаграммы в слайдах Java
 
@@ -176,9 +172,3 @@ finally
 ### Как программно изменить заголовок диаграммы и метки осей?
 
 Вы можете установить заголовок и метки диаграммы и осей, открыв их соответствующие свойства и задав нужный текст и форматирование.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Inbäddad teckensnittskomprimering i Java PowerPoint
 linktitle: Inbäddad teckensnittskomprimering i Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du komprimerar inbäddade teckensnitt i Java PowerPoint-presentationer med Aspose.Slides. Optimera filstorlekar utan ansträngning.
+type: docs
 weight: 12
 url: /sv/java/java-powerpoint-font-management/embedded-font-compression-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 I det dynamiska landskapet av digitala presentationer är möjligheten att optimera filstorlekar utan att kompromissa med kvaliteten avgörande. Aspose.Slides för Java erbjuder en kraftfull lösning för att förbättra effektiviteten i PowerPoint-presentationer genom att möjliggöra inbäddad teckensnittskomprimering. Denna handledning guidar dig genom processen att utnyttja den här funktionen för att effektivt minska filstorlekarna, vilket säkerställer smidigare distribution och förbättrad prestanda för dina presentationer.
 ## Förutsättningar
@@ -68,9 +64,3 @@ Ja, Aspose.Slides erbjuder funktioner för kryptering och lösenordsskydd för a
  Säkert! Du kan söka stöd från Aspose.Slides-communityt genom den dedikerade[forum](https://forum.aspose.com/c/slides/11) eller överväga att skaffa en tillfällig licens för prioriterad hjälp.
 ### Hur kan jag köpa en licensierad version av Aspose.Slides för Java?
 Du kan köpa en licensierad version av Aspose.Slides för Java från webbplatsen med hjälp av det medföljande[köplänk](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

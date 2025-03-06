@@ -3,14 +3,10 @@ title: Stel het anker van het tekstframe in PowerPoint in met Java
 linktitle: Stel het anker van het tekstframe in PowerPoint in met Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u tekstframe-ankers in PowerPoint instelt met behulp van Java met Aspose.Slides. Verbeter uw presentaties.
+type: docs
 weight: 13
 url: /nl/java/java-powerpoint-text-font-customization/set-anchor-text-frame-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 In deze tutorial leert u hoe u met behulp van Aspose.Slides het anker van een tekstkader in PowerPoint-presentaties kunt instellen met behulp van Java. Door tekstkaders te verankeren, kunt u de positie en het gedrag van tekst binnen een vorm nauwkeurig bepalen, zodat uw dia's visueel aantrekkelijk en effectief gestructureerd zijn.
 ## Vereisten
@@ -75,9 +71,3 @@ Aspose.Slides voor Java is een krachtige bibliotheek waarmee Java-ontwikkelaars 
  Ja, u kunt een gratis proefversie downloaden[hier](https://releases.aspose.com/).
 ### Waar kan ik ondersteuning krijgen voor Aspose.Slides voor Java?
  U kunt het ondersteuningsforum bezoeken[hier](https://forum.aspose.com/c/slides/11) voor eventuele vragen of hulp.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

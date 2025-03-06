@@ -3,14 +3,10 @@ title: คุณสมบัติย่อหน้าท้ายใน Java P
 linktitle: คุณสมบัติย่อหน้าท้ายใน Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้การสร้างและปรับแต่งงานนำเสนอ PowerPoint ใน Java โดยทางโปรแกรมด้วย Aspose.Slides สำรวจบทช่วยสอนและเคล็ดลับที่จำเป็นเพื่อการบูรณาการที่ราบรื่น
+type: docs
 weight: 11
 url: /th/java/java-powerpoint-text-alignment-formatting/end-paragraph-properties-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## การแนะนำ
 การสร้างและจัดการงานนำเสนอ PowerPoint โดยทางโปรแกรมสามารถปรับปรุงเวิร์กโฟลว์และเพิ่มผลผลิตในโดเมนต่างๆ ตั้งแต่การนำเสนอทางธุรกิจไปจนถึงสื่อการศึกษา Aspose.Slides สำหรับ Java มี API ที่มีประสิทธิภาพซึ่งช่วยให้นักพัฒนาสามารถทำงานต่างๆ ได้โดยอัตโนมัติ เช่น การเพิ่มสไลด์ การแทรกข้อความ การจัดรูปแบบเนื้อหา และการส่งออกงานนำเสนอในรูปแบบต่างๆ บทช่วยสอนนี้จะแนะนำคุณตลอดขั้นตอนสำคัญในการเริ่มต้นใช้งาน Aspose.Slides สำหรับ Java ซึ่งสาธิตวิธีใช้ประโยชน์จากคุณสมบัติต่างๆ อย่างมีประสิทธิภาพ
 ## ข้อกำหนดเบื้องต้น
@@ -89,9 +85,3 @@ if (pres != null) {
 ได้ คุณสามารถเพิ่มภาพเคลื่อนไหวและการเปลี่ยนภาพให้กับสไลด์ผ่าน Aspose.Slides API
 ### ฉันจะรับการสนับสนุนได้ที่ไหน หากฉันประสบปัญหาหรือมีคำถาม
  ท่านสามารถเยี่ยมชมได้ที่[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides/11) สำหรับการสนับสนุนและการอภิปรายในชุมชน
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

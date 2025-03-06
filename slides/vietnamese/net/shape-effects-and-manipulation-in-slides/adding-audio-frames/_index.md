@@ -3,14 +3,10 @@ title: Thêm khung âm thanh vào slide thuyết trình bằng Aspose.Slides
 linktitle: Thêm khung âm thanh vào slide thuyết trình bằng Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Cải thiện bản trình bày với Aspose.Slides cho .NET! Tìm hiểu cách thêm khung âm thanh một cách liền mạch, thu hút khán giả của bạn hơn bao giờ hết.
+type: docs
 weight: 14
 url: /vi/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Trong thế giới năng động của các bài thuyết trình, việc kết hợp các yếu tố âm thanh có thể nâng cao đáng kể trải nghiệm tổng thể cho khán giả của bạn. Aspose.Slides for .NET trao quyền cho các nhà phát triển tích hợp liền mạch các khung âm thanh vào các trang trình bày, thêm một lớp tương tác và tương tác mới. Hướng dẫn từng bước này sẽ hướng dẫn bạn quy trình thêm khung âm thanh vào các trang trình bày bằng Aspose.Slides cho .NET.
 ## Điều kiện tiên quyết
@@ -67,9 +63,3 @@ Có, Aspose.Slides cung cấp tính linh hoạt trong việc định cấu hình
  Tham quan[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để tìm kiếm sự hỗ trợ và tham gia với cộng đồng.
 ### Làm cách nào để mua Aspose.Slides cho .NET?
  Bạn có thể mua thư viện từ[Cửa hàng Aspose](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

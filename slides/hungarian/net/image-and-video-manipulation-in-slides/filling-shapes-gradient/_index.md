@@ -3,14 +3,10 @@ title: Hozzon létre lenyűgöző színátmeneteket a PowerPointban az Aspose.Sl
 linktitle: Alakzatok kitöltése színátmenettel a bemutató diákban az Aspose.Slides segítségével
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Javítsa prezentációit az Aspose.Slides for .NET segítségével! Ismerje meg az alakzatok színátmenetekkel való kitöltésének lépésről lépésre történő folyamatát. Töltse le ingyenes próbaverzióját most!
+type: docs
 weight: 21
 url: /hu/net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 vizuálisan lebilincselő prezentációs diák elkészítése elengedhetetlen a közönség figyelmének megragadásához és fenntartásához. Ebben az oktatóanyagban végigvezetjük Önt a diák javításának folyamatán az Aspose.Slides for .NET segítségével egy ellipszis alakzat színátmenettel való kitöltésével.
 ## Előfeltételek
@@ -77,9 +73,3 @@ V: Természetesen! Az Aspose.Slides for .NET támogatja a színátmenetes kitöl
  V: Kérjen segítséget, és lépjen kapcsolatba a közösséggel[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
 ### K: Vásárolhatok ideiglenes licencet az Aspose.Slides for .NET számára?
  V: Természetesen kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

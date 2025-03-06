@@ -3,14 +3,10 @@ title: Aspose.Slides で効果的なライト リグ データをマスターす
 linktitle: プレゼンテーションスライドで効果的なライトリグデータを取得する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET でプレゼンテーション スライドを強化しましょう。効果的なライト リグ データを段階的に取得する方法を学びます。今すぐビジュアル ストーリーテリングを向上させましょう。
+type: docs
 weight: 19
 url: /ja/net/shape-geometry-and-positioning-in-slides/getting-effective-light-rig-data/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 ダイナミックで視覚的に魅力的なプレゼンテーション スライドを作成することは、今日のデジタル時代における一般的な要件です。重要な要素の 1 つは、ライト リグのプロパティを操作して全体的な美観を向上させることです。このチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーション スライドで効果的なライト リグ データを取得するプロセスについて説明します。
 ## 前提条件
@@ -68,9 +64,3 @@ Aspose.Slides は主に C# などの .NET 言語をサポートしています�
 サポートフォーラムにアクセスする[ここ](https://forum.aspose.com/c/slides/11).
 ### Aspose.Slides for .NET の一時ライセンスを購入できますか?
 はい、一時免許証を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

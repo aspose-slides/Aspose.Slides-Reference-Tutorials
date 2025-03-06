@@ -3,14 +3,10 @@ title: Přidávání zvukových rámců do snímků prezentace pomocí Aspose.Sl
 linktitle: Přidávání zvukových rámců do snímků prezentace pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vylepšete prezentace pomocí Aspose.Slides pro .NET! Naučte se plynule přidávat zvukové snímky a zapojte své publikum jako nikdy předtím.
+type: docs
 weight: 14
 url: /cs/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 V dynamickém světě prezentací může začlenění zvukových prvků výrazně zlepšit celkový zážitek pro vaše publikum. Aspose.Slides for .NET umožňuje vývojářům bezproblémově integrovat zvukové snímky do snímků prezentace, čímž přidává novou vrstvu zapojení a interaktivity. Tento podrobný průvodce vás provede procesem přidávání zvukových snímků do snímků prezentace pomocí Aspose.Slides pro .NET.
 ## Předpoklady
@@ -67,9 +63,3 @@ Ano, Aspose.Slides poskytuje flexibilitu při konfiguraci nastavení přehrává
  Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) vyhledat pomoc a zapojit se do komunity.
 ### Jak si koupím Aspose.Slides pro .NET?
  Knihovnu si můžete zakoupit od[Aspose obchod](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

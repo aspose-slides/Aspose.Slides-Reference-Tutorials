@@ -3,14 +3,10 @@ title: Menambahkan Garis Berbentuk Panah ke Slide Tertentu dengan Aspose.Slides
 linktitle: Menambahkan Garis Berbentuk Panah ke Slide Tertentu dengan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Sempurnakan presentasi Anda dengan garis berbentuk panah menggunakan Aspose.Slides untuk .NET. Pelajari cara menambahkan elemen visual secara dinamis untuk memikat audiens Anda.
+type: docs
 weight: 13
 url: /id/net/shape-effects-and-manipulation-in-slides/adding-arrow-lines-to-specific-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Membuat presentasi yang menarik secara visual seringkali memerlukan lebih dari sekedar teks dan gambar. Aspose.Slides untuk .NET memberikan solusi ampuh bagi pengembang yang ingin menyempurnakan presentasi mereka secara dinamis. Dalam tutorial ini, kita akan mempelajari proses menambahkan garis berbentuk panah ke slide tertentu menggunakan Aspose.Slides, membuka kemungkinan baru untuk membuat presentasi yang menarik dan informatif.
 ## Prasyarat
@@ -80,9 +76,3 @@ Kesimpulannya, Aspose.Slides for .NET memberdayakan pengembang untuk membawa pre
  A: Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### T: Di mana saya dapat membeli Aspose.Slides untuk .NET?
  A: Anda dapat membeli Aspose.Slides[Di Sini](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

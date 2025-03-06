@@ -3,14 +3,10 @@ title: Tisk prezentací s výchozí tiskárnou v Aspose.Slides
 linktitle: Tisk prezentací s výchozí tiskárnou v Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Odemkněte bezproblémový tisk v PowerPointu v .NET pomocí Aspose.Slides. Pro snadnou integraci postupujte podle našeho podrobného průvodce. Zvyšte funkčnost své aplikace nyní!
+type: docs
 weight: 10
 url: /cs/net/printing-and-rendering-in-slides/printing-with-default-printer/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 V oblasti vývoje .NET vyniká Aspose.Slides jako výkonný nástroj pro vytváření, manipulaci a vykreslování prezentací v PowerPointu. Mezi jeho řadou funkcí je možnost tisknout prezentace přímo na výchozí tiskárně, což je užitečná funkce, kterou vývojáři často hledají. Tento tutoriál vás provede procesem krok za krokem a zpřístupní jej, i když jste v Aspose.Slides relativně nováčci.
 ## Předpoklady
@@ -55,9 +51,3 @@ Aspose.Slides je samozřejmě pravidelně aktualizován, aby byla zajištěna ko
  Ano, můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/) pro testování a hodnocení.
 ### Jak mohu vyhledat pomoc nebo se spojit s komunitou Aspose.Slides?
  Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) klást otázky, sdílet postřehy a spojit se s ostatními vývojáři.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

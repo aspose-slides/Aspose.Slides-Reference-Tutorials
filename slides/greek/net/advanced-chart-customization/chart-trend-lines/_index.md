@@ -3,14 +3,10 @@ title: Εξερεύνηση γραμμών τάσης γραφήματος στ�
 linktitle: Γραμμές τάσης γραφήματος
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε διάφορες γραμμές τάσης σε γραφήματα χρησιμοποιώντας το Aspose.Slides για .NET σε αυτόν τον αναλυτικό οδηγό. Βελτιώστε τις δεξιότητες οπτικοποίησης δεδομένων σας με ευκολία!
+type: docs
 weight: 12
 url: /el/net/advanced-chart-customization/chart-trend-lines/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Στον κόσμο της οπτικοποίησης και της παρουσίασης δεδομένων, η ενσωμάτωση γραφημάτων μπορεί να είναι ένας ισχυρός τρόπος για την αποτελεσματική μετάδοση πληροφοριών. Το Aspose.Slides for .NET παρέχει ένα σύνολο εργαλείων με πλούσια χαρακτηριστικά για εργασία με γραφήματα, συμπεριλαμβανομένης της δυνατότητας προσθήκης γραμμών τάσης στα γραφήματα σας. Σε αυτό το σεμινάριο, θα εμβαθύνουμε στη διαδικασία προσθήκης γραμμών τάσης σε ένα γράφημα με τρόπο βήμα προς βήμα χρησιμοποιώντας το Aspose.Slides για .NET. 
 
@@ -149,9 +145,3 @@ pres.Save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 
 ### Χρειάζομαι μια προσωρινή άδεια χρήσης για το Aspose.Slides για .NET;
  Μπορείτε να αποκτήσετε μια προσωρινή άδεια χρήσης για το Aspose.Slides για .NET από[αυτός ο σύνδεσμος](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

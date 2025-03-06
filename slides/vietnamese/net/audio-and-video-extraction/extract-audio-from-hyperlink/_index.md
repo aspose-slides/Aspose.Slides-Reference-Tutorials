@@ -3,14 +3,10 @@ title: Trích xuất âm thanh từ các siêu liên kết PowerPoint bằng Asp
 linktitle: Trích xuất âm thanh từ siêu liên kết
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Trích xuất âm thanh từ các siêu liên kết trong bản trình bày PowerPoint bằng Aspose.Slides for .NET. Nâng cao các dự án đa phương tiện của bạn một cách dễ dàng.
+type: docs
 weight: 12
 url: /vi/net/audio-and-video-extraction/extract-audio-from-hyperlink/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Trong thế giới thuyết trình đa phương tiện, âm thanh đóng một vai trò quan trọng trong việc nâng cao tác động tổng thể của các trang trình bày của bạn. Bạn đã bao giờ bắt gặp một bản trình bày PowerPoint có siêu liên kết âm thanh và tự hỏi làm cách nào để trích xuất âm thanh cho các mục đích sử dụng khác chưa? Với Aspose.Slides cho .NET, bạn có thể dễ dàng đạt được nhiệm vụ này. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình trích xuất âm thanh từ siêu liên kết trong bản trình bày PowerPoint.
 
@@ -109,10 +105,3 @@ Có, bạn có thể nhận được giấy phép tạm thời cho Aspose.Slides
 
 ### Có định dạng âm thanh nào khác được hỗ trợ để trích xuất ngoài MPG không?
 Aspose.Slides for .NET cho phép bạn trích xuất âm thanh ở nhiều định dạng khác nhau, không giới hạn ở MPG. Bạn có thể chuyển đổi nó sang định dạng ưa thích sau khi giải nén.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

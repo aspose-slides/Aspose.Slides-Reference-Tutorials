@@ -3,14 +3,10 @@ title: How to Set Macro Hyperlink Click in Aspose.Slides for .NET
 linktitle: Hyperlink Management using Macros
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to set macro hyperlinks in your presentations with Aspose.Slides for .NET. Enhance interactivity and engage your audience.
+type: docs
 weight: 13
 url: /net/hyperlink-manipulation/macro-hyperlink/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 In the world of modern software development, creating dynamic and interactive presentations is a key aspect. Aspose.Slides for .NET is a powerful library that allows you to work with presentations in a seamless manner. Whether you are building a business presentation or an educational slideshow, the ability to set macro hyperlink clicks can greatly enhance the user experience. In this step-by-step guide, we will walk you through the process of setting a macro hyperlink click using Aspose.Slides for .NET. 
 
@@ -110,9 +106,3 @@ Yes, you can customize the AutoShape's appearance by adjusting its properties, s
 
 ### Where can I get help or support for Aspose.Slides for .NET?
 If you encounter issues or have questions, you can seek help on the Aspose support forum [here](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

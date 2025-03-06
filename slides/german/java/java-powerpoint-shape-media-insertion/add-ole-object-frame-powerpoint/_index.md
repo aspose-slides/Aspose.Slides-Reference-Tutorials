@@ -3,14 +3,10 @@ title: OLE-Objektrahmen in PowerPoint hinzufügen
 linktitle: OLE-Objektrahmen in PowerPoint hinzufügen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java OLE-Objektrahmen nahtlos in PowerPoint-Präsentationen integrieren.
+type: docs
 weight: 13
 url: /de/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 Das Hinzufügen eines OLE-Objektrahmens (Object Linking and Embedding) in PowerPoint-Präsentationen kann die visuelle Attraktivität und Funktionalität Ihrer Folien erheblich verbessern. Mit Aspose.Slides für Java wird dieser Prozess rationalisiert und effizient. In diesem Tutorial führen wir Sie durch die erforderlichen Schritte, um OLE-Objektrahmen nahtlos in Ihre PowerPoint-Präsentationen zu integrieren.
 ### Voraussetzungen
@@ -84,9 +80,3 @@ Auf jeden Fall! Aspose.Slides bietet umfangreiche Optionen zum Anpassen des Auss
  Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
 ### Wo finde ich Unterstützung für Aspose.Slides für Java?
  Sie können im Aspose.Slides-Forum Unterstützung und Hilfe suchen.[Hier](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

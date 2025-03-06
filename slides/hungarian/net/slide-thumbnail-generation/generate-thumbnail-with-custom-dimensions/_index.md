@@ -3,14 +3,10 @@ title: Bélyegkép létrehozása a Diákban egyéni méretekkel
 linktitle: Indexkép létrehozása egyéni méretekkel
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre egyéni bélyegképeket PowerPoint-prezentációkból az Aspose.Slides for .NET segítségével. Növelje a felhasználói élményt és a funkcionalitást.
+type: docs
 weight: 13
 url: /hu/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 PowerPoint-prezentációk egyéni bélyegképeinek létrehozása értékes eszköz lehet, akár interaktív alkalmazást épít, akár a felhasználói élményt fokozza, akár a tartalmat optimalizálja különböző platformokra. Ebben az oktatóanyagban végigvezetjük a PowerPoint prezentációkból az Aspose.Slides for .NET könyvtár használatával egyéni miniatűrképek létrehozásának folyamatán. Ez a hatékony könyvtár lehetővé teszi a PowerPoint-fájlok programozott kezelését, konvertálását és javítását .NET-alkalmazásokban.
 
@@ -119,9 +115,3 @@ Noha a .NET programozás bizonyos ismerete hasznos, az Aspose.Slides for .NET fe
 
 ### Rendelkezésre áll technikai támogatás az Aspose.Slides for .NET számára?
  Igen, hozzáférhet a technikai támogatáshoz és a közösségi fórumokhoz[itt](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

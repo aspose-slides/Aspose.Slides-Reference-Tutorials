@@ -3,14 +3,10 @@ title: Ẩn thông tin khỏi biểu đồ trong Java Slides
 linktitle: Ẩn thông tin khỏi biểu đồ trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách ẩn các thành phần biểu đồ trong Java Slides với Aspose.Slides for Java. Tùy chỉnh bản trình bày để rõ ràng và có tính thẩm mỹ với hướng dẫn từng bước và mã nguồn.
+type: docs
 weight: 13
 url: /vi/java/customization-and-formatting/hide-information-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu về Ẩn thông tin khỏi biểu đồ trong Java Slides
 
@@ -176,9 +172,3 @@ Có, bạn có thể thay đổi loại biểu đồ một cách linh hoạt b�
 ### Làm cách nào để thay đổi tiêu đề và nhãn trục của biểu đồ theo chương trình?
 
 Bạn có thể đặt tiêu đề và nhãn của biểu đồ và trục bằng cách truy cập các thuộc tính tương ứng của chúng và đặt văn bản cũng như định dạng mong muốn.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

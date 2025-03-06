@@ -3,14 +3,10 @@ title: Java 投影片圖表資料操作
 linktitle: Java 投影片圖表資料操作
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 釋放 Java 投影片圖表資料操作的強大功能。輕鬆創造令人驚嘆的視覺效果和見解。
+type: docs
 weight: 11
 url: /zh-hant/java/chart-data-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 您準備好將基於 Java 的幻燈片簡報提升到新的水平了嗎？透過 Aspose.Slides for Java，您可以輕鬆地操作圖表數據，創建令人驚嘆的視覺效果和富有洞察力的簡報來吸引觀眾。在本文中，我們將探討 Aspose.Slides 如何幫助 Java 開發人員讓資料驅動的圖表變得栩栩如生。
 
 ## 了解 Java 的 Aspose.Slides
@@ -58,9 +54,3 @@ Aspose.Slides for Java 可讓您建立互動式視覺效果，以使用者友善
 透過 Aspose.Slides 逐步教學，了解如何在 Java Slides 中建立令人驚嘆的組織結構圖。輕鬆自訂和視覺化您的組織結構。
 ### [Java 投影片中的圓餅圖](./pie-chart-java-slides/)
 了解如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中建立令人驚嘆的圓餅圖。為 Java 開發人員提供帶有原始程式碼的分步指南。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

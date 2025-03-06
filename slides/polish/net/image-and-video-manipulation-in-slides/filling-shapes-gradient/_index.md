@@ -3,14 +3,10 @@ title: Twórz wspaniałe gradienty w programie PowerPoint za pomocą Aspose.Slid
 linktitle: Wypełnianie kształtów gradientem na slajdach prezentacji za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ulepsz swoje prezentacje dzięki Aspose.Slides dla .NET! Poznaj krok po kroku proces wypełniania kształtów gradientami. Pobierz teraz bezpłatną wersję próbną!
+type: docs
 weight: 21
 url: /pl/net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 Tworzenie atrakcyjnych wizualnie slajdów prezentacji jest niezbędne, aby przyciągnąć i utrzymać uwagę odbiorców. W tym samouczku przeprowadzimy Cię przez proces ulepszania slajdów poprzez wypełnienie elipsy gradientem za pomocą Aspose.Slides dla .NET.
 ## Warunki wstępne
@@ -77,9 +73,3 @@ Odp.: Oczywiście! Aspose.Slides dla .NET obsługuje wypełnianie gradientem ró
  O: Poproś o pomoc i nawiąż kontakt ze społecznością na stronie[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### P: Czy mogę kupić tymczasową licencję na Aspose.Slides dla .NET?
  Odpowiedź: Oczywiście, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java PowerPoint でフォントを明示的に置き換える
 linktitle: Java PowerPoint でフォントを明示的に置き換える
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides で Java を使用して、PowerPoint プレゼンテーションのフォントを簡単に置き換えます。シームレスなフォント移行プロセスについては、詳細なガイドに従ってください。
+type: docs
 weight: 12
 url: /ja/java/java-powerpoint-font-management-text-replacement/replace-fonts-explicitly-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 Java を使用して PowerPoint プレゼンテーションのフォントを置き換えたいとお考えですか? フォント スタイルの統一性が必要なプロジェクトに取り組んでいる場合でも、単に異なるフォントの外観を好む場合でも、Aspose.Slides for Java を使用すると、この作業が簡単になります。この包括的なチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションのフォントを明示的に置き換える手順を説明します。このガイドを読み終えると、特定のニーズに合わせてフォントをシームレスに交換できるようになります。
 ## 前提条件
@@ -90,9 +86,3 @@ Aspose.Slides for Java は、開発者が Java を使用して PowerPoint プレ
 いいえ、Aspose.Slides ライブラリをダウンロードしてプロジェクトに組み込むと、オフラインで使用できます。
 ### Aspose.Slides で問題が発生した場合、どこでサポートを受けることができますか?
 サポートを受けるには[Aspose.Slides サポート フォーラム](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: รูปร่างโคลนใน PowerPoint
 linktitle: รูปร่างโคลนใน PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีโคลนรูปร่างในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ปรับปรุงขั้นตอนการทำงานของคุณด้วยบทช่วยสอนที่ปฏิบัติตามง่ายนี้
+type: docs
 weight: 16
 url: /th/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีการโคลนรูปร่างในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java การโคลนรูปร่างทำให้คุณสามารถทำซ้ำรูปร่างที่มีอยู่ภายในงานนำเสนอได้ ซึ่งจะเป็นประโยชน์อย่างยิ่งสำหรับการสร้างเลย์เอาต์ที่สอดคล้องกันหรือทำซ้ำองค์ประกอบในสไลด์
 ## ข้อกำหนดเบื้องต้น
@@ -61,9 +57,3 @@ srcPres.save(dataDir + "CloneShape_out.pptx", SaveFormat.Pptx);
 ได้ คุณสามารถโคลนสไลด์ ข้อความ รูปภาพ และองค์ประกอบอื่นๆ ภายในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java
 ### มีรุ่นทดลองใช้งานสำหรับ Aspose.Slides สำหรับ Java หรือไม่
  ใช่ คุณสามารถดาวน์โหลด Aspose.Slides สำหรับ Java เวอร์ชันทดลองใช้ฟรีได้จาก[เว็บไซต์](https://releases.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

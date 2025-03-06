@@ -3,14 +3,10 @@ title: Miniatuur maken met schaalfactor voor vorm in Aspose.Slides
 linktitle: Miniatuur maken met schaalfactor voor vorm in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer PowerPoint-miniatuurafbeeldingen met specifieke grenzen maken met Aspose.Slides voor .NET. Volg onze stapsgewijze handleiding voor een naadloze integratie.
+type: docs
 weight: 12
 url: /nl/net/image-and-video-manipulation-in-slides/creating-thumbnail-scaling-factor-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 Welkom bij onze uitgebreide handleiding over het maken van miniaturen met grenzen voor vormen in Aspose.Slides voor .NET. Aspose.Slides is een krachtige bibliotheek waarmee ontwikkelaars naadloos kunnen werken met PowerPoint-presentaties in hun .NET-toepassingen. In deze zelfstudie verdiepen we ons in het proces van het genereren van miniaturen met specifieke grenzen voor vormen binnen een presentatie met behulp van Aspose.Slides.
 ## Vereisten
@@ -59,9 +55,3 @@ Ja, Aspose.Slides is compatibel met verschillende .NET-frameworks en biedt flexi
  Voor vragen of hulp kunt u terecht op het ondersteuningsforum van Aspose.Slides[hier](https://forum.aspose.com/c/slides/11).
 ### V5: Kan ik Aspose.Slides voor .NET kopen?
  Zeker! Als u Aspose.Slides voor .NET wilt kopen, gaat u naar de aankooppagina[hier](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

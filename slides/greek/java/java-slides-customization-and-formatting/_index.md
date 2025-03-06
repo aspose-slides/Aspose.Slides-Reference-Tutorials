@@ -3,14 +3,10 @@ title: Προσαρμογή και μορφοποίηση διαφανειών J
 linktitle: Προσαρμογή και μορφοποίηση διαφανειών Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ανακαλύψτε τη δύναμη του Aspose.Slides για Java στην προσαρμογή και τη μορφοποίηση διαφανειών Java. Μάθετε βήμα προς βήμα στα σεμινάρια μας. Αυξήστε τις δεξιότητές σας στην παρουσίαση.
+type: docs
 weight: 12
 url: /el/java/customization-and-formatting/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
  Σε αυτό το άρθρο, θα εμβαθύνουμε στον κόσμο της προσαρμογής και μορφοποίησης διαφανειών Java χρησιμοποιώντας το Aspose.Slides για Java. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε με παρουσιάσεις Java, η λίστα των μαθημάτων μας θα είναι ο οδηγός σας για να αξιοποιήσετε πλήρως τις δυνατότητες του Aspose.Slides.|
 
@@ -53,9 +49,3 @@ url: /el/java/customization-and-formatting/
 Βελτιώστε τα γραφήματα σας με το Aspose.Slides για Java. Μάθετε πώς να ορίζετε τον άξονα θέσης σε διαφάνειες Java, να δημιουργείτε εκπληκτικές παρουσιάσεις και να προσαρμόζετε εύκολα τις διατάξεις γραφημάτων.
 ### [Ρύθμιση γωνίας περιστροφής σε διαφάνειες Java](./setting-rotation-angle-java-slides/)
 Βελτιστοποιήστε τις διαφάνειες Java με το Aspose.Slides for Java. Μάθετε να ορίζετε γωνίες περιστροφής για στοιχεία κειμένου. Οδηγός βήμα προς βήμα με τον πηγαίο κώδικα.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

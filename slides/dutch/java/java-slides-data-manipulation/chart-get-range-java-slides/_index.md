@@ -3,14 +3,10 @@ title: Grafiek Haal bereik op in Java-dia's
 linktitle: Grafiek Haal bereik op in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u diagrambereiken kunt ophalen in Java Slides met behulp van de Aspose.Slides voor Java API. Stapsgewijze handleiding met broncode voor effectieve toegang tot kaartgegevens.
+type: docs
 weight: 16
 url: /nl/java/data-manipulation/chart-get-range-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot het diagrambereik in Java-dia's
 
@@ -102,10 +98,3 @@ Ja, u kunt het uiterlijk van diagrammen aanpassen, zoals het wijzigen van kleure
 ### Waar kan ik meer bronnen en documentatie vinden voor Aspose.Slides voor Java?
 
  Uitgebreide documentatie en bronnen voor Aspose.Slides voor Java vindt u op de site:[Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

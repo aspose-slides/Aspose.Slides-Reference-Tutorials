@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में लेखन सुरक
 linktitle: जावा स्लाइड्स में लेखन सुरक्षा हटाएँ
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके Java Slides प्रस्तुतियों में लेखन सुरक्षा को हटाने का तरीका जानें। स्रोत कोड सहित चरण-दर-चरण मार्गदर्शिका।
+type: docs
 weight: 10
 url: /hi/java/document-protection/remove-write-protection-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## जावा स्लाइड्स में लेखन सुरक्षा हटाने का परिचय
 
@@ -112,9 +108,3 @@ finally
 ### मैं Aspose.Slides for Java के बारे में अधिक जानकारी कहां पा सकता हूं?
 
  आप Aspose.Slides for Java के लिए दस्तावेज़ देख सकते हैं[यहाँ](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

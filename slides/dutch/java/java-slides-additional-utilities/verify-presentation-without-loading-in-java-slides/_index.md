@@ -3,14 +3,10 @@ title: Verifieer de presentatie zonder Java-dia's te laden
 linktitle: Verifieer de presentatie zonder Java-dia's te laden
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u presentaties kunt verifiëren zonder ze in Java Slides te laden met Aspose.Slides voor Java. Garandeer de bestandsintegriteit efficiënt met deze stapsgewijze handleiding.
+type: docs
 weight: 18
 url: /nl/java/additional-utilities/verify-presentation-without-loading-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot het verifiëren van de presentatie zonder Java-dia's te laden
 
@@ -84,9 +80,3 @@ Absoluut! Aspose.Slides voor Java biedt een breed scala aan functies voor het we
 ### Waar kan ik meer bronnen en documentatie vinden voor Aspose.Slides voor Java?
 
  U kunt toegang krijgen tot uitgebreide documentatie en bronnen voor Aspose.Slides voor Java op[hier](https://reference.aspose.com/slides/java/). Deze documentatie helpt u bij het beheersen van de API en zijn functionaliteiten.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

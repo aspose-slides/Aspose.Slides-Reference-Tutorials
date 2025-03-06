@@ -3,14 +3,10 @@ title: Java Slides Chart Elements
 linktitle: Java Slides Chart Elements
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create dynamic charts in Java slides using Aspose.Slides for Java with our comprehensive tutorials. Elevate your presentation skills today!
+type: docs
 weight: 15
 url: /java/chart-elements/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Are you ready to take your presentation skills to the next level? Dive into the world of dynamic charts in Java slides using Aspose.Slides for Java. In this comprehensive guide, we'll walk you through everything you need to know to master chart elements and make your presentations truly stand out.
 
@@ -62,9 +58,3 @@ Explore Aspose.Slides for Java with step-by-step tutorials. Create stunning funn
 Create Stunning Map Charts in PowerPoint Presentations with Aspose.Slides for Java. Step-by-step guide and source code for Java developers.
 ### [Sunburst Chart in Java Slides](./sunburst-chart-java-slides/)
 Create Stunning Sunburst Charts in Java Slides with Aspose.Slides. Learn Step-by-Step Chart Creation and Data Manipulation.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Vypočítat vzorce v Java Slides
 linktitle: Vypočítat vzorce v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vypočítat vzorce v Java Slides pomocí Aspose.Slides pro Java. Podrobný průvodce se zdrojovým kódem pro dynamické prezentace v PowerPointu.
+type: docs
 weight: 10
 url: /cs/java/data-manipulation/calculate-formulas-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod do výpočtu vzorců v Java Slides pomocí Aspose.Slides
 
@@ -118,10 +114,3 @@ V této příručce jsme se naučili, jak vypočítat vzorce v Java Slides pomoc
 ### Jak vypočítám vzorce v sešitu?
 
  Vzorce v sešitu můžete vypočítat pomocí`calculateFormulas` metoda`IChartDataWorkbook` v Aspose.Slides.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

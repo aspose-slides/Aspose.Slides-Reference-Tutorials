@@ -3,14 +3,10 @@ title: 在 Java 幻灯片中设置分类轴的日期格式
 linktitle: 在 Java 幻灯片中设置分类轴的日期格式
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 设置 PowerPoint 图表中类别轴的日期格式。带有源代码的分步指南。
+type: docs
 weight: 26
 url: /zh/java/data-manipulation/setting-date-format-category-axis-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 幻灯片中分类轴日期格式设置简介
 
@@ -143,9 +139,3 @@ public static String convertToOADate(GregorianCalendar date) throws ParseExcepti
 ### 如何向图表添加更多数据点？
 
 要向图表添加更多数据点，请使用`getDataPoints().addDataPointForLineSeries`方法在数据系列上提供数据值。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

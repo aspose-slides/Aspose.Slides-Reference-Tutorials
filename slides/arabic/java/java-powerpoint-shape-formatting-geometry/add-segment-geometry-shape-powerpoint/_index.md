@@ -3,14 +3,10 @@ title: إضافة قطعة إلى الشكل الهندسي في PowerPoint
 linktitle: إضافة قطعة إلى الشكل الهندسي في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة شرائح إلى الأشكال الهندسية في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java باستخدام هذا الدليل المفصل خطوة بخطوة.
+type: docs
 weight: 19
 url: /ar/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-shape-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 قد يمثل إنشاء عروض تقديمية جذابة وديناميكية تحديًا، خاصة عندما تريد إضافة أشكال وتصميمات مخصصة. وهنا يأتي دور Aspose.Slides for Java. تسمح لك واجهة برمجة التطبيقات القوية هذه بمعالجة ملفات PowerPoint برمجيًا، مما يمنحك المرونة اللازمة لإضافة أشكال وقطاعات هندسية معقدة بسهولة. في هذا البرنامج التعليمي، سنرشدك إلى كيفية إضافة شرائح إلى الأشكال الهندسية في عرض تقديمي لـ PowerPoint باستخدام Aspose.Slides for Java. سواء كنت مطورًا يتطلع إلى أتمتة إنشاء العروض التقديمية أو مجرد شخص يحب التعمق في البرمجة، سيكون هذا الدليل مصدرًا شاملاً لك.
 ## المتطلبات الأساسية
@@ -82,9 +78,3 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
 يمكنك إضافة أشكال مختلفة بما في ذلك المستطيلات والأشكال البيضاوية والخطوط والأشكال الهندسية المخصصة.
 ### كيف يمكنني الحصول على الدعم لـ Aspose.Slides لـ Java؟
  يمكنك الحصول على الدعم من[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) حيث يمكنك طرح الأسئلة والحصول على المساعدة من المجتمع والمطورين.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: PowerPoint에서 커넥터를 사용하여 도형 연결
 linktitle: PowerPoint에서 커넥터를 사용하여 도형 연결
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 커넥터를 사용하여 모양을 연결하는 방법을 알아보세요. 초보자를 위한 단계별 튜토리얼입니다.
+type: docs
 weight: 18
 url: /ko/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connectors-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java의 도움으로 PowerPoint 프레젠테이션에서 커넥터를 사용하여 모양을 연결하는 방법을 살펴보겠습니다. 효율적으로 모양을 연결하고 시각적으로 매력적인 슬라이드를 만들려면 다음 단계별 지침을 따르세요.
 ## 전제 조건
@@ -86,9 +82,3 @@ Aspose.Slides for Java는 PPTX, PPT, ODP를 포함한 다양한 PowerPoint 형�
 물론, Aspose.Slides for Java를 사용하면 프로그래밍 방식으로 모양과 연결선에 텍스트를 쉽게 추가할 수 있습니다.
 ### Java 사용자를 위한 Aspose.Slides에 사용할 수 있는 커뮤니티 포럼이나 지원 채널이 있습니까?
  예, Aspose.Slides 포럼에서 유용한 리소스를 찾고, 질문하고, 다른 사용자와 소통할 수 있습니다.[여기](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

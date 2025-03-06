@@ -3,14 +3,10 @@ title: Adicionar quadro de vídeo de fonte da Web no PowerPoint
 linktitle: Adicionar quadro de vídeo de fonte da Web no PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como aprimorar suas apresentações do PowerPoint adicionando quadros de vídeo de fontes da web usando Aspose.Slides para Java.
+type: docs
 weight: 18
 url: /pt/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 Neste tutorial, aprenderemos como adicionar um quadro de vídeo de uma fonte da web, como o YouTube, a uma apresentação do PowerPoint usando Aspose.Slides for Java. Seguindo estas instruções passo a passo, você poderá aprimorar suas apresentações incorporando elementos multimídia envolventes.
 ## Pré-requisitos
@@ -88,9 +84,3 @@ Absolutamente! Aspose.Slides oferece amplas opções para personalizar a aparên
 Aspose.Slides oferece suporte a uma ampla variedade de versões do PowerPoint, garantindo compatibilidade entre diferentes plataformas.
 ### Onde posso encontrar mais recursos e suporte para Aspose.Slides?
  Você pode visitar o[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) para assistência, documentação e apoio comunitário.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

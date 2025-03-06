@@ -3,14 +3,10 @@ title: Clonar slide na mesma apresentação
 linktitle: Clonar slide na mesma apresentação
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como clonar slides na mesma apresentação do PowerPoint usando Aspose.Slides for .NET. Siga este guia passo a passo com exemplos completos de código-fonte para manipular suas apresentações com eficiência.
+type: docs
 weight: 21
 url: /pt/net/slide-access-and-manipulation/clone-slide-within-same-presentation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introdução ao Aspose.Slides para .NET
 
@@ -109,9 +105,3 @@ Sim, você pode clonar slides entre diferentes apresentações usando técnicas 
 ### Onde posso encontrar mais informações sobre Aspose.Slides para .NET?
 
  Para documentação e exemplos mais detalhados, você pode visitar o[Documentação do Aspose.Slides para .NET](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

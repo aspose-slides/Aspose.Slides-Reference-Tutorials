@@ -3,14 +3,10 @@ title: Hiperhivatkozás hozzáadása a PowerPoint szövegdobozhoz Java használa
 linktitle: Hiperhivatkozás hozzáadása a PowerPoint szövegdobozhoz Java használatával
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat hiperhivatkozásokat PowerPoint szövegmezőkhöz az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató példákkal Java fejlesztők számára.
+type: docs
 weight: 23
 url: /hu/java/java-powerpoint-text-font-customization/add-hyperlink-text-box-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 mai digitális korban a hatékony kommunikáció szempontjából kulcsfontosságú a vonzó és informatív, dinamikus prezentációk létrehozása. Azok a Java-fejlesztők, akik alkalmazásaikat interaktív funkciókkal kívánják bővíteni, gyakran az Aspose.Slides for Java-hoz fordulnak, egy olyan hatékony könyvtárhoz, amely lehetővé teszi a PowerPoint prezentációk programozott kezelését. Ez az oktatóanyag egy ilyen funkcióval foglalkozik: hiperhivatkozások hozzáadása a PowerPoint prezentációk szövegdobozaihoz Java használatával. Az útmutató végére világosan megérti, hogyan lehet ezt a funkciót zökkenőmentesen implementálni Java-alkalmazásaiba.
 ## Előfeltételek
@@ -80,9 +76,3 @@ Az alábbi lépések követésével sikeresen megtanulta, hogyan adhat hiperhiva
  Igen, az ideiglenes licencek megvásárolhatók[itt](https://purchase.aspose.com/temporary-license/).
 ### Az Aspose.Slides kompatibilis más Java könyvtárakkal?
 Az Aspose.Slides jól integrálható különféle Java könyvtárakkal az átfogó PowerPoint manipuláció érdekében.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

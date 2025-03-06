@@ -3,14 +3,10 @@ title: Uzyskaj wartości i skalę jednostek z osi w slajdach Java
 linktitle: Uzyskaj wartości i skalę jednostek z osi w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak uzyskać wartości i skalę jednostkową z osi w Java Slides przy użyciu Aspose.Slides dla Java. Zwiększ swoje możliwości analizy danych.
+type: docs
 weight: 20
 url: /pl/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Wprowadzenie do pobierania wartości i skali jednostek z osi w slajdach Java
 
@@ -126,9 +122,3 @@ Tak, możesz używać Aspose.Slides for Java w projektach komercyjnych. Oferuje 
 ### Gdzie mogę znaleźć więcej zasobów i dokumentacji dla Aspose.Slides dla Java?
 
  Obszerną dokumentację i dodatkowe zasoby można znaleźć na stronie[Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/) strona internetowa.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

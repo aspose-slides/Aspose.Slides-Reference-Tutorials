@@ -3,14 +3,10 @@ title: Sesuaikan Tingkat Zoom dengan Mudah dengan Aspose.Slides .NET
 linktitle: Menyesuaikan Tingkat Zoom untuk Slide Presentasi di Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menyesuaikan tingkat zoom slide presentasi dengan mudah menggunakan Aspose.Slides untuk .NET. Tingkatkan pengalaman PowerPoint Anda dengan kontrol yang presisi.
+type: docs
 weight: 17
 url: /id/net/printing-and-rendering-in-slides/adjusting-zoom-level/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam dunia presentasi yang dinamis, mengontrol tingkat zoom sangat penting untuk memberikan pengalaman yang menarik dan menarik secara visual kepada audiens Anda. Aspose.Slides untuk .NET menyediakan seperangkat alat canggih untuk memanipulasi slide presentasi secara terprogram. Dalam tutorial ini, kita akan mempelajari cara menyesuaikan tingkat zoom untuk slide presentasi menggunakan Aspose.Slides di lingkungan .NET.
 ## Prasyarat
@@ -64,9 +60,3 @@ In this tutorial, we explored the step-by-step process of adjusting the zoom lev
  Untuk pertanyaan atau masalah apa pun, kunjungi forum Aspose.Slides[Di Sini](https://forum.aspose.com/c/slides/11) untuk mencari komunitas dan dukungan.
 ### 5. Bagaimana cara membeli Aspose.Slides untuk .NET?
  Untuk membeli Aspose.Slides untuk .NET, klik[Di Sini](https://purchase.aspose.com/buy)untuk mengeksplorasi opsi lisensi.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

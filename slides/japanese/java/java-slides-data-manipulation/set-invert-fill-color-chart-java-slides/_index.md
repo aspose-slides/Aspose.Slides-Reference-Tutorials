@@ -3,14 +3,10 @@ title: Java スライドで塗りつぶしカラーチャートの反転を設�
 linktitle: Java スライドで塗りつぶしカラーチャートの反転を設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して Java スライド チャートの塗りつぶし色を反転する方法を学びます。このステップ バイ ステップ ガイドとソース コードを使用して、チャートの視覚化を強化します。
+type: docs
 weight: 22
 url: /ja/java/data-manipulation/set-invert-fill-color-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java スライドで反転塗りつぶしカラーチャートを設定する方法の紹介
 
@@ -157,9 +153,3 @@ if (pres != null) pres.dispose();
 ### チャートを異なる形式で保存できますか?
 
 はい、Aspose.Slides for Javaを使用して、チャートをさまざまな形式で保存できます。提供されたコード例では、プレゼンテーションをPPTXファイルとして保存しました。`SaveFormat`要件に応じて、PDF、PNG、SVG などの他の形式で保存するオプションがあります。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

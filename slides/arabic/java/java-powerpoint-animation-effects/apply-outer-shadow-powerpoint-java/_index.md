@@ -3,14 +3,10 @@ title: تطبيق الظل الخارجي في PowerPoint مع Java
 linktitle: تطبيق الظل الخارجي في PowerPoint مع Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تطبيق تأثير الظل الخارجي في PowerPoint باستخدام Java باستخدام Aspose.Slides. قم بتحسين عروضك التقديمية بعمق وجاذبية بصرية.
+type: docs
 weight: 13
 url: /ar/java/java-powerpoint-animation-effects/apply-outer-shadow-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 غالبًا ما يتضمن إنشاء عروض PowerPoint التقديمية الجذابة إضافة تأثيرات متنوعة إلى الأشكال والنص. أحد هذه التأثيرات هو الظل الخارجي، الذي يمكن أن يجعل العناصر بارزة ويضيف عمقًا إلى شرائحك. في هذا البرنامج التعليمي، ستتعلم كيفية تطبيق تأثير الظل الخارجي على شكل في PowerPoint باستخدام Java مع Aspose.Slides.
 ## المتطلبات الأساسية
@@ -125,9 +121,3 @@ presentation.save("output.pptx", SaveFormat.Pptx);
 
 ### أين يمكنني العثور على المزيد من الموارد والدعم لـ Aspose.Slides؟
  يمكنك الرجوع إلى[توثيق](https://reference.aspose.com/slides/java/) للحصول على مراجع تفصيلية لواجهة برمجة التطبيقات (API) واستكشاف[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لدعم المجتمع والمناقشات.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

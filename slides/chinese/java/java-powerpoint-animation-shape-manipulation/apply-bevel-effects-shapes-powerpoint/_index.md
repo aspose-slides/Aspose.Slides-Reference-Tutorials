@@ -3,14 +3,10 @@ title: 在 PowerPoint 中对形状应用斜面效果
 linktitle: 在 PowerPoint 中对形状应用斜面效果
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 通过我们的分步指南，了解如何使用 Aspose.Slides for Java 将斜面效果应用于 PowerPoint 中的形状。增强您的演示文稿。
+type: docs
 weight: 13
 url: /zh/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-shapes-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 创建具有视觉吸引力的演示文稿对于吸引和保持观众的注意力至关重要。在形状上添加斜面效果可以增强幻灯片的整体美感，使您的演示文稿脱颖而出。在本教程中，我们将引导您完成使用 Aspose.Slides for Java 在 PowerPoint 中将斜面效果应用于形状的过程。无论您是希望自动创建演示文稿的开发人员，还是只是喜欢摆弄设计的人，本指南都能满足您的需求。
 ## 先决条件
@@ -96,9 +92,3 @@ Aspose.Slides for Java 是一个强大的 API，允许开发人员以编程方�
 是的，Aspose.Slides for Java 允许您应用各种 3D 效果，包括深度、灯光和相机效果。
 ### 在哪里可以获得 Aspose.Slides for Java 的支持？
 您可以从 Aspose 社区和支持团队获得支持[支持论坛](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Преобразование с помощью параметров XPS �
 linktitle: Преобразование с помощью параметров XPS в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как конвертировать презентации PowerPoint в формат XPS на Java с помощью Aspose.Slides. Настройте параметры для плавного процесса преобразования.
+type: docs
 weight: 34
 url: /ru/java/presentation-conversion/convert-with-xps-options-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Введение в преобразование с параметрами XPS в слайдах Java
 
@@ -118,10 +114,3 @@ finally
 ### Как обрабатывать исключения при использовании Aspose.Slides для Java?
 
 Для обработки исключений вы можете использовать блоки try-catch в своем коде при работе с Aspose.Slides. Обратитесь к документации за конкретными рекомендациями по обработке исключений.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

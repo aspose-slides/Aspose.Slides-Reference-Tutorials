@@ -3,14 +3,10 @@ title: Representar comentarios de diapositivas en Aspose.Slides
 linktitle: Representar comentarios de diapositivas en Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Explore cómo representar comentarios de diapositivas en Aspose.Slides para .NET con nuestro tutorial paso a paso. Personalice la apariencia de los comentarios y mejore la automatización de PowerPoint.
+type: docs
 weight: 12
 url: /es/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introducción
 ¡Bienvenido a nuestro tutorial completo sobre cómo representar comentarios de diapositivas usando Aspose.Slides para .NET! Aspose.Slides es una potente biblioteca que permite a los desarrolladores trabajar sin problemas con presentaciones de PowerPoint en sus aplicaciones .NET. En esta guía, nos centraremos en una tarea específica (presentar comentarios de diapositivas) y le guiaremos paso a paso a través del proceso.
 ## Requisitos previos
@@ -90,9 +86,3 @@ R: ¡Absolutamente! El tutorial incluye opciones para personalizar el color, el 
  R: Puede obtener una licencia temporal[aquí](https://purchase.aspose.com/temporary-license/).
 ### P: ¿Dónde puedo buscar ayuda y soporte para Aspose.Slides?
  R: Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para el apoyo de la comunidad.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

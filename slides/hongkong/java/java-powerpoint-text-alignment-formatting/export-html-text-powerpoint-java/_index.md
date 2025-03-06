@@ -3,14 +3,10 @@ title: 使用 Java 在 PowerPoint 中匯出 HTML 文本
 linktitle: 使用 Java 在 PowerPoint 中匯出 HTML 文本
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Java 和 Aspose.Slides 從 PowerPoint 匯出 HTML 文字。開發人員的分步指南。非常適合整合到您的 Java 應用程式中。
+type: docs
 weight: 12
 url: /zh-hant/java/java-powerpoint-text-alignment-formatting/export-html-text-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 在本教程中，您將學習如何在 Aspose.Slides for Java 的幫助下使用 Java 從 PowerPoint 簡報中匯出 HTML 文字。 Aspose.Slides 是一個功能強大的函式庫，可讓開發人員以程式設計方式操作 PowerPoint 簡報，讓將文字匯出為 HTML 等任務變得簡單且有效率。
 ## 先決條件
@@ -82,9 +78,3 @@ Aspose.Slides 支援從 Office 97 到 Office 365 的 PowerPoint 簡報。
 是的，您需要有效的許可證才能在商業應用程式中使用 Aspose.Slides。
 ### 在哪裡可以找到有關 Aspose.Slides 的更多範例和文件？
 參觀[Aspose.Slides for Java 文檔](https://reference.aspose.com/slides/java/)取得全面的指南和 API 參考。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

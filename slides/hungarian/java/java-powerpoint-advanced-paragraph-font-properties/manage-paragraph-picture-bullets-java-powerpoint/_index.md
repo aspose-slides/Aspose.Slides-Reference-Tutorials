@@ -3,14 +3,10 @@ title: Bekezdéskép-felsorolások kezelése Java PowerPointban
 linktitle: Bekezdéskép-felsorolások kezelése Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat egyéni képsorokat a PowerPoint diákhoz az Aspose.Slides for Java segítségével. Kövesse ezt a részletes, lépésenkénti útmutatót a zökkenőmentes integráció érdekében.
+type: docs
 weight: 11
 url: /hu/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-picture-bullets-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 vonzó és tetszetős prezentációk készítése a modern üzleti világban kulcsfontosságú készség. A Java fejlesztők kihasználhatják az Aspose.Slides-t, hogy a PowerPoint diák testreszabott képsoraival javítsák prezentációikat. Ez az oktatóanyag lépésről lépésre végigvezeti a folyamaton, biztosítva, hogy magabiztosan adhasson képjeleket prezentációihoz.
 ## Előfeltételek
@@ -108,9 +104,3 @@ Igen, bármilyen képet használhat a képsorokhoz, amennyiben az elérhető a p
 Igen, több bekezdést is hozzáadhat különböző listajelstílusokkal egyetlen AutoShape-hoz, ha minden bekezdést külön-külön hoz létre és konfigurál.
 ### Hol találhatok további példákat és támogatást?
  További példákat találhat a[dokumentáció](https://reference.aspose.com/slides/java/) és támogatást kaphat az Aspose közösségtől[fórumok](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

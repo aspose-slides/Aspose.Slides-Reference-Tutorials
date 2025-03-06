@@ -3,14 +3,10 @@ title: Duplicera bilden till den angivna sektionen i presentationen
 linktitle: Duplicera bilden till den angivna sektionen i presentationen
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du duplicerar bilder inom en angiven sektion med Aspose.Slides för .NET. Steg-för-steg-guide för effektiv hantering av objektglas.
+type: docs
 weight: 19
 url: /sv/net/slide-access-and-manipulation/clone-slide-into-specified-section/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 en värld av dynamiska presentationer står Aspose.Slides för .NET som ett pålitligt verktyg för utvecklare. Oavsett om du skapar fängslande bildspel eller automatiserar bildhantering, erbjuder Aspose.Slides för .NET en robust plattform för att effektivisera dina presentationsprojekt. I den här handledningen kommer vi att dyka in i processen att duplicera bilder i en angiven del av en presentation. Den här steg-för-steg-guiden hjälper dig att förstå förutsättningarna, importera namnrymder och bemästra processen.
 
@@ -113,9 +109,3 @@ Nej, Aspose.Slides för .NET är speciellt utformad för .NET-applikationer. Om 
 ### 5. Var kan jag söka hjälp och support för Aspose.Slides för .NET?
 
  För eventuella frågor eller problem kan du besöka[Aspose.Slides för .NET supportforum](https://forum.aspose.com/). Communityn och experterna där kan hjälpa dig med dina frågor.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

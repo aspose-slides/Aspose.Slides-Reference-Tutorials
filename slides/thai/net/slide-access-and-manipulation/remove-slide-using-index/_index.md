@@ -3,14 +3,10 @@ title: ลบสไลด์ตามดัชนีตามลำดับ
 linktitle: ลบสไลด์ตามดัชนีตามลำดับ
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: เรียนรู้วิธีลบสไลด์ PowerPoint ทีละขั้นตอนโดยใช้ Aspose.Slides สำหรับ .NET คู่มือของเราให้คำแนะนำที่ชัดเจนและซอร์สโค้ดที่สมบูรณ์เพื่อช่วยคุณลบสไลด์โดยทางโปรแกรมตามดัชนีตามลำดับ
+type: docs
 weight: 24
 url: /th/net/slide-access-and-manipulation/remove-slide-using-index/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## รู้เบื้องต้นเกี่ยวกับการลบสไลด์ตามดัชนีลำดับ
 
@@ -90,9 +86,3 @@ presentation.Save(outputPath, SaveFormat.Pptx);
 ### ฉันจะเรียนรู้เพิ่มเติมเกี่ยวกับ Aspose.Slides สำหรับ .NET ได้อย่างไร
 
  คุณสามารถสำรวจเอกสารประกอบโดยละเอียดและการอ้างอิง API สำหรับ Aspose.Slides สำหรับ .NET ได้บน[หน้าเอกสาร](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

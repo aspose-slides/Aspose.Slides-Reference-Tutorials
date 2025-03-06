@@ -3,14 +3,10 @@ title: Efekty kształtów i manipulacja na slajdach
 linktitle: Efekty kształtów i manipulacja na slajdach
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Zwiększ atrakcyjność wizualną swojej prezentacji dzięki samouczkom Aspose.Slides na temat efektów kształtów i manipulacji. Dowiedz się, jak tworzyć wspaniałe slajdy, korzystając z efektów kształtów, animacji i nie tylko.
+type: docs
 weight: 11
 url: /pl/net/shape-effects-and-manipulation-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Wstęp
 
@@ -67,9 +63,3 @@ Dowiedz się, jak ulepszyć slajdy prezentacji, dostosowując kąty linii łącz
 Popraw swoje umiejętności prezentacji, ucząc się, jak łączyć kształty za pomocą łączników na slajdach prezentacji za pomocą Aspose.Slides. Ulepsz swoje wizualne opowiadanie historii już dziś!
 ### [Łączenie kształtu za pomocą witryny połączenia w slajdach prezentacji za pomocą Aspose.Slides](./connecting-shape-using-connection-site/)
 Popraw swoje umiejętności prezentacji, ucząc się, jak łączyć kształty za pomocą miejsc połączeń na slajdach prezentacji za pomocą Aspose.Slides. Postępuj zgodnie z naszym szczegółowym przewodnikiem i przykładami kodu.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

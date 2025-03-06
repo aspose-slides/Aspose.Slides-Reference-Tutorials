@@ -3,14 +3,10 @@ title: Handledning för att lägga till videoramar med Aspose.Slides för .NET
 linktitle: Lägga till videoramar till presentationsbilder med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Återuppliva presentationer med dynamiska videoramar med Aspose.Slides för .NET. Följ vår guide för sömlös integration och skapa engagerande.
+type: docs
 weight: 19
 url: /sv/net/shape-effects-and-manipulation-in-slides/adding-video-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 I det dynamiska landskapet av presentationer kan inkorporering av multimediaelement höja den övergripande effekten och engagemanget. Att lägga till videorutor till dina bilder kan förändra spelet och fånga din publiks uppmärksamhet på ett sätt som statiskt innehåll inte kan. Aspose.Slides för .NET ger en robust lösning för att sömlöst integrera videoramar i dina presentationsbilder.
 ## Förutsättningar
@@ -71,9 +67,3 @@ Absolut! Du har full kontroll över uppspelningsalternativ, som uppspelningsläg
  Ja, du kan utforska funktionerna i Aspose.Slides för .NET genom att ladda ner testversionen[här](https://releases.aspose.com/).
 ### F5: Var kan jag hitta support för Aspose.Slides för .NET?
  För eventuella frågor eller hjälp, besök[Aspose.Slides Forum](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

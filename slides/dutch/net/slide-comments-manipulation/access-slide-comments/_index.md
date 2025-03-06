@@ -3,14 +3,10 @@ title: Toegang tot dia-opmerkingen met Aspose.Slides
 linktitle: Toegang tot diaopmerkingen
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u toegang krijgt tot diaopmerkingen in PowerPoint-presentaties met behulp van Aspose.Slides voor .NET. Verbeter moeiteloos de samenwerking en workflow.
+type: docs
 weight: 11
 url: /nl/net/slide-comments-manipulation/access-slide-comments/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 In de wereld van dynamische en interactieve presentaties kan het beheren van opmerkingen in uw dia's een cruciaal onderdeel van het samenwerkingsproces zijn. Aspose.Slides voor .NET biedt een robuuste en veelzijdige oplossing voor het openen en manipuleren van dia-opmerkingen, waardoor uw presentatieworkflow wordt verbeterd. In deze stapsgewijze handleiding gaan we dieper in op het proces van toegang tot dia-opmerkingen met behulp van Aspose.Slides voor .NET.
 
@@ -116,9 +112,3 @@ Ja, Aspose.Slides voor .NET kan worden gebruikt in verschillende .NET-toepassing
 
 ### Kan ik een licentie kopen voor Aspose.Slides voor .NET?
  Ja, u kunt een licentie voor Aspose.Slides voor .NET kopen bij[deze link](https://purchase.aspose.com/buy) om het volledige potentieel van de bibliotheek in uw projecten te ontsluiten.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Trädkarta i Java Slides
 linktitle: Trädkarta i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Skapa trädkartadiagram i Java Slides med Aspose.Slides för Java. Steg-för-steg guide med källkod för visualisering av hierarkisk data.
+type: docs
 weight: 13
 url: /sv/java/chart-creation/tree-map-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion till Tree Map Chart i Java Slides
 
@@ -156,9 +152,3 @@ Ja, du kan skapa flera trädkartor i en enda presentation genom att följa samma
 ### Hur sparar jag presentationen med trädkartan?
 
  Använd`pres.save()` metod för att spara presentationen med trädkartan i önskat format (t.ex. PPTX).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

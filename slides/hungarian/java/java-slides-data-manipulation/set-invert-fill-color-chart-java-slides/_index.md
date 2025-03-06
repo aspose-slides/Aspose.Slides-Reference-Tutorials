@@ -3,14 +3,10 @@ title: Invert Fill Color Chart beállítása a Java Slides alkalmazásban
 linktitle: Invert Fill Color Chart beállítása a Java Slides alkalmazásban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthat be invertált kitöltési színeket a Java Slides diagramokhoz az Aspose.Slides segítségével. Fejlessze diagramja vizualizációját ezzel a lépésenkénti útmutatóval és forráskóddal.
+type: docs
 weight: 22
 url: /hu/java/data-manipulation/set-invert-fill-color-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés az invertált kitöltési színdiagram beállításába a Java diákban
 
@@ -157,9 +153,3 @@ Igen, az Aspose.Slides for Java segítségével testreszabhatja a diagram megjel
 ### Elmenthetem a diagramot különböző formátumokban?
 
  Igen, a diagramot különböző formátumokban mentheti az Aspose.Slides for Java segítségével. A megadott kódpéldában a prezentációt PPTX fájlként mentettük el. Használhat különböző`SaveFormat` lehetőségekkel mentheti el más formátumban, például PDF, PNG vagy SVG, az Ön igényeitől függően.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

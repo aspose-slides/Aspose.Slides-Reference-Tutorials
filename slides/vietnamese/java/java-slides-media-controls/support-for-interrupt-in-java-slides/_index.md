@@ -3,14 +3,10 @@ title: Hỗ trợ ngắt trong Java Slides
 linktitle: Hỗ trợ ngắt trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Làm chủ việc xử lý gián đoạn Java Slides với Aspose.Slides cho Java. Hướng dẫn chi tiết này cung cấp hướng dẫn từng bước và ví dụ về mã để quản lý ngắt liền mạch.
+type: docs
 weight: 12
 url: /vi/java/media-controls/support-for-interrupt-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 # Giới thiệu về Hỗ trợ ngắt trong Java Slides với Aspose.Slides for Java
 
 Aspose.Slides for Java là một thư viện mạnh mẽ để tạo, thao tác và làm việc với các bản trình bày PowerPoint trong các ứng dụng Java. Trong hướng dẫn toàn diện này, chúng ta sẽ khám phá cách sử dụng tính năng hỗ trợ ngắt trong Java Slides bằng Aspose.Slides for Java. Cho dù bạn là nhà phát triển dày dạn hay chỉ mới bắt đầu, hướng dẫn từng bước này sẽ hướng dẫn bạn qua quy trình với các giải thích chi tiết và ví dụ về mã.
@@ -137,9 +133,3 @@ Xử lý ngắt đặc biệt hữu ích trong các tình huống mà bạn cầ
 ### Tôi có thể truy cập thêm tài nguyên và tài liệu về Aspose.Slides cho Java ở đâu?
 
 Bạn có thể tìm thấy tài liệu, hướng dẫn và ví dụ toàn diện về Aspose.Slides for Java trên[trang web giả định](https://reference.aspose.com/slides/java/). Ngoài ra, bạn có thể liên hệ với nhóm hỗ trợ Aspose để được hỗ trợ về trường hợp sử dụng cụ thể của bạn.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

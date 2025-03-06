@@ -3,14 +3,10 @@ title: Đặt thụt lề đoạn văn trong Java PowerPoint
 linktitle: Đặt thụt lề đoạn văn trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt thụt lề đoạn văn trong các trang chiếu PowerPoint theo chương trình bằng cách sử dụng Aspose.Slides cho Java. Nâng cao định dạng bản trình bày của bạn một cách dễ dàng.
+type: docs
 weight: 16
 url: /vi/java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Trong hướng dẫn này, bạn sẽ tìm hiểu cách thao tác các bản trình bày PowerPoint theo chương trình bằng Aspose.Slides cho Java. Cụ thể, chúng ta sẽ tập trung vào việc thiết lập thụt lề đoạn văn trong các slide. Aspose.Slides cho Java cung cấp một bộ API mạnh mẽ cho phép các nhà phát triển tạo, sửa đổi, chuyển đổi và quản lý bản trình bày PowerPoint mà không cần dựa vào Microsoft Office Automation.
 ## Điều kiện tiên quyết
@@ -89,9 +85,3 @@ Aspose.Slides for Java là một thư viện mạnh mẽ để làm việc với
  Có, bạn có thể dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 ### Tôi có thể nhận hỗ trợ cho Aspose.Slides cho Java ở đâu?
  Bạn có thể nhận được hỗ trợ từ diễn đàn cộng đồng[đây](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

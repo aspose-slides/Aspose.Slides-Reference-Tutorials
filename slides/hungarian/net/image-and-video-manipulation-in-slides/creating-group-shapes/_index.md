@@ -3,14 +3,10 @@ title: Aspose.Slides – Csoportalakzatok létrehozása .NET-ben
 linktitle: Csoportalakzatok létrehozása prezentációs diákban az Aspose.Slides segítségével
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre csoportalakzatokat a PowerPointban az Aspose.Slides for .NET segítségével. Kövesse lépésről lépésre útmutatónkat a tetszetős prezentációkhoz.
+type: docs
 weight: 11
 url: /hu/net/image-and-video-manipulation-in-slides/creating-group-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Ha szeretné fokozni prezentációs diákjainak vizuális vonzerejét, és hatékonyabban szeretné rendszerezni a tartalmat, a csoportformák beépítése hatékony megoldás. Az Aspose.Slides for .NET zökkenőmentes módot kínál csoportalakzatok létrehozására és manipulálására a PowerPoint-prezentációkban. Ebben az oktatóanyagban végigvezetjük a csoportalakzatok létrehozásának folyamatát az Aspose.Slides segítségével, könnyen követhető lépésekre bontva.
 ## Előfeltételek
@@ -102,10 +98,3 @@ Látogassa meg az Aspose.Slides-t[fórum](https://forum.aspose.com/c/slides/11) 
  Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### Hol vásárolhatok teljes licencet az Aspose.Slides-hez?
  Engedélyt vásárolhat a[vásárlási oldal](https://purchase.aspose.com/buy).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

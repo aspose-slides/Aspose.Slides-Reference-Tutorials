@@ -3,14 +3,10 @@ title: Clonar formas no PowerPoint
 linktitle: Clonar formas no PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como clonar formas em apresentações do PowerPoint usando Aspose.Slides para Java. Simplifique seu fluxo de trabalho com este tutorial fácil de seguir.
+type: docs
 weight: 16
 url: /pt/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 Neste tutorial, exploraremos como clonar formas em apresentações do PowerPoint usando Aspose.Slides para Java. A clonagem de formas permite duplicar formas existentes em uma apresentação, o que pode ser particularmente útil para criar layouts consistentes ou repetir elementos em slides.
 ## Pré-requisitos
@@ -61,9 +57,3 @@ Com certeza, depois que as formas forem clonadas e adicionadas a um slide, você
 Sim, você pode clonar slides, texto, imagens e outros elementos em uma apresentação do PowerPoint usando Aspose.Slides for Java.
 ### Existe uma versão de teste disponível para Aspose.Slides for Java?
  Sim, você pode baixar uma versão de avaliação gratuita do Aspose.Slides for Java no site[local na rede Internet](https://releases.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Hur man får diagramdataintervall i Aspose.Slides för .NET
 linktitle: Hämta diagramdataintervall
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du extraherar diagramdataintervall från PowerPoint-presentationer med Aspose.Slides för .NET. En steg-för-steg-guide för utvecklare.
+type: docs
 weight: 11
 url: /sv/net/additional-chart-features/chart-get-range/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Vill du extrahera dataintervallet från ett diagram i din PowerPoint-presentation med Aspose.Slides för .NET? Du har kommit till rätt ställe. I den här steg-för-steg-guiden kommer vi att leda dig genom processen för att erhålla diagramdataintervallet från din presentation. Aspose.Slides för .NET är ett kraftfullt bibliotek som gör att du kan arbeta med PowerPoint-dokument programmatiskt, och att få kartdataintervallet är bara en av de många uppgifter det kan hjälpa dig att utföra.
 
@@ -97,9 +93,3 @@ Ja, du kan arbeta med bilder, former, text, bilder och andra element i en PowerP
 
 ### Vilken typ av supportalternativ finns tillgängliga för Aspose.Slides för .NET-användare?
  Du kan få stöd och hjälp från Aspose-gemenskapen på deras[supportforum](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

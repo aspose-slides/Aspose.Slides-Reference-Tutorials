@@ -3,14 +3,10 @@ title: Ställ in automatisk seriefyllningsfärg i Java Slides
 linktitle: Ställ in automatisk seriefyllningsfärg i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ställer in automatisk seriefyllningsfärg i Java Slides med Aspose.Slides för Java. Steg-för-steg guide med kodexempel för dynamiska presentationer.
+type: docs
 weight: 14
 url: /sv/java/data-manipulation/set-automatic-series-fill-color-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion till att ställa in automatisk seriefyllningsfärg i Java Slides
 
@@ -130,9 +126,3 @@ Ja, Aspose.Slides för Java erbjuder ett brett utbud av funktioner, inklusive bi
 ### Var kan jag hitta mer resurser och dokumentation?
 
  Du kan få tillgång till omfattande dokumentation för Aspose.Slides för Java på[här](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

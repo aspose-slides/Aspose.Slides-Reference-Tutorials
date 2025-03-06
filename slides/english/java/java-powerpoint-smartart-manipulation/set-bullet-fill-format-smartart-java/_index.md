@@ -3,14 +3,10 @@ title: Set Bullet Fill Format in SmartArt using Java
 linktitle: Set Bullet Fill Format in SmartArt using Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set bullet fill format in SmartArt using Java with Aspose.Slides. Step-by-step guide for efficient presentation manipulation.
+type: docs
 weight: 18
 url: /java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 In the realm of Java programming, the efficient manipulation of presentations is a common requirement, especially when dealing with SmartArt elements. Aspose.Slides for Java emerges as a powerful tool for such tasks, offering an array of functionalities to handle presentations programmatically. In this tutorial, we'll delve into the process of setting bullet fill format in SmartArt using Java with Aspose.Slides, step by step.
 ## Prerequisites
@@ -75,10 +71,3 @@ Indeed, Aspose.Slides empowers you to customize every aspect of SmartArt shapes,
 Yes, you can explore the features of Aspose.Slides with a free trial. Simply download it from the [website](https://releases.aspose.com/slides/java/) and start exploring.
 ### Where can I find support for Aspose.Slides for Java?
 For any queries or assistance, you can visit the Aspose.Slides forum at [this link](https://forum.aspose.com/c/slides/11).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

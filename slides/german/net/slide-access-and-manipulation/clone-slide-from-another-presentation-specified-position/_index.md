@@ -3,14 +3,10 @@ title: Folie aus einer anderen Präsentation an die angegebene Position klonen
 linktitle: Folie aus einer anderen Präsentation an die angegebene Position klonen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Folien aus verschiedenen Präsentationen an eine bestimmte Position klonen. Schritt-für-Schritt-Anleitung mit vollständigem Quellcode, die das Klonen von Folien, die Angabe der Position und das Speichern von Präsentationen abdeckt.
+type: docs
 weight: 16
 url: /de/net/slide-access-and-manipulation/clone-slide-from-another-presentation-specified-position/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung in das Klonen von Folien aus verschiedenen Präsentationen an eine bestimmte Position
 
@@ -141,9 +137,3 @@ Natürlich können Sie den Inhalt, die Formatierung und die Eigenschaften der ge
 ### Wo finde ich weitere Informationen zu Aspose.Slides für .NET?
 
  Weitere Informationen finden Sie im[Dokumentation](https://reference.aspose.com/slides/net/) für detaillierte Informationen, Beispiele und API-Referenzen zu Aspose.Slides für .NET.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

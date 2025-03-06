@@ -3,14 +3,10 @@ title: Προσθήκη Stretch Offset στα αριστερά στο PowerPoint
 linktitle: Προσθήκη Stretch Offset στα αριστερά για το πλαίσιο εικόνας στο Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να βελτιώνετε τις παρουσιάσεις του PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για να προσθέσετε μετατόπιση τεντώματος προς τα αριστερά για κορνίζες.
+type: docs
 weight: 14
 url: /el/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Το Aspose.Slides for .NET είναι μια ισχυρή βιβλιοθήκη που δίνει τη δυνατότητα στους προγραμματιστές να χειρίζονται τις παρουσιάσεις του PowerPoint με ευκολία. Σε αυτό το σεμινάριο, θα εξερευνήσουμε τη διαδικασία προσθήκης μιας μετατόπισης τεντώματος προς τα αριστερά για μια κορνίζα χρησιμοποιώντας το Aspose.Slides για .NET. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα για να βελτιώσετε τις δεξιότητές σας στην εργασία με εικόνες και σχήματα σε παρουσιάσεις PowerPoint.
 ## Προαπαιτούμενα
@@ -89,9 +85,3 @@ pres.Save(dataDir + "StretchOffsetLeftForPictureFrame_out.pptx", SaveFormat.Pptx
  Α: Εξερευνήστε το[Τεκμηρίωση Aspose.Slides](https://reference.aspose.com/slides/net/) για ολοκληρωμένα παραδείγματα και καθοδήγηση.
 ### Ε: Μπορώ να εφαρμόσω πολλαπλές μετατοπίσεις τεντώματος σε ένα μόνο σχήμα;
 Α: Ναι, μπορείτε να συνδυάσετε πολλαπλές μετατοπίσεις τεντώματος για να επιτύχετε πολύπλοκα και προσαρμοσμένα οπτικά εφέ.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

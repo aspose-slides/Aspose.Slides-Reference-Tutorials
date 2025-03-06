@@ -3,14 +3,10 @@ title: Java를 사용하여 PowerPoint 테이블의 셀 분할
 linktitle: Java를 사용하여 PowerPoint 테이블의 셀 분할
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 프로그래밍 방식으로 PowerPoint 표 셀을 분할, 병합 및 서식 지정하는 방법을 알아보세요. 마스터 프레젠테이션 디자인.
+type: docs
 weight: 11
 url: /ko/java/java-powerpoint-table-manipulation/split-cells-powerpoint-table-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 이 튜토리얼에서는 Aspose.Slides를 사용하여 Java에서 PowerPoint 테이블을 조작하는 방법을 배웁니다. 표는 프레젠테이션의 기본 구성 요소로, 데이터를 효과적으로 구성하고 표시하는 데 자주 사용됩니다. Aspose.Slides는 프로그래밍 방식으로 테이블을 생성, 수정 및 향상할 수 있는 강력한 기능을 제공하여 디자인과 레이아웃에 유연성을 제공합니다.
 ## 전제 조건
@@ -99,9 +95,3 @@ Aspose.Slides for Java를 사용하여 프로그래밍 방식으로 PowerPoint �
  Aspose.Slides 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/slides/11).
 ### Aspose.Slides for Java에 대한 임시 라이선스를 얻을 수 있나요?
  예, 다음에서 임시 면허증을 받으실 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

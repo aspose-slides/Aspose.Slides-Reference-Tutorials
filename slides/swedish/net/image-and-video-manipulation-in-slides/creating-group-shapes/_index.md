@@ -3,14 +3,10 @@ title: Aspose.Slides - Skapa gruppformer i .NET
 linktitle: Skapa gruppformer i presentationsbilder med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du skapar gruppformer i PowerPoint med Aspose.Slides för .NET. Följ vår steg-för-steg-guide för visuellt tilltalande presentationer.
+type: docs
 weight: 11
 url: /sv/net/image-and-video-manipulation-in-slides/creating-group-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 Om du vill förbättra det visuella tilltalande av dina presentationsbilder och organisera innehåll mer effektivt, är inkorporering av gruppformer en kraftfull lösning. Aspose.Slides för .NET ger ett sömlöst sätt att skapa och manipulera gruppformer i dina PowerPoint-presentationer. I den här självstudien går vi igenom processen att skapa gruppformer med Aspose.Slides, och dela upp det i lätta att följa steg.
 ## Förutsättningar
@@ -102,10 +98,3 @@ Besök Aspose.Slides[forum](https://forum.aspose.com/c/slides/11) för samhälls
  Du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### Var kan jag köpa en fullständig licens för Aspose.Slides?
  Du kan köpa en licens från[köpsidan](https://purchase.aspose.com/buy).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

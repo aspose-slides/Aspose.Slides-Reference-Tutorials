@@ -3,14 +3,10 @@ title: Thêm văn bản lời nhắc tùy chỉnh trong Java PowerPoint
 linktitle: Thêm văn bản lời nhắc tùy chỉnh trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm văn bản lời nhắc tùy chỉnh trong Java PowerPoint bằng Aspose.Slides. Tăng cường tương tác người dùng một cách dễ dàng với hướng dẫn này.
+type: docs
 weight: 12
 url: /vi/java/java-powerpoint-text-box-manipulation/add-custom-prompt-text-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Trong thời đại kỹ thuật số ngày nay, việc tạo ra các bài thuyết trình năng động và hấp dẫn là điều tối quan trọng để giao tiếp hiệu quả. Aspose.Slides dành cho Java trao quyền cho các nhà phát triển thao tác với các bản trình bày PowerPoint theo chương trình, cung cấp các tính năng mở rộng để tùy chỉnh các trang chiếu, hình dạng, văn bản, v.v. Hướng dẫn này sẽ hướng dẫn bạn quy trình thêm văn bản lời nhắc tùy chỉnh vào phần giữ chỗ trong bản trình bày Java PowerPoint bằng Aspose.Slides.
 ## Điều kiện tiên quyết
@@ -75,9 +71,3 @@ Aspose.Slides hỗ trợ nhiều phiên bản PowerPoint, đảm bảo tính tư
  Bạn có thể nhận được một[giấy phép tạm thời](https://purchase.aspose.com/temporary-license/) để đánh giá đầy đủ tính năng của Aspose.Slides.
 ### Aspose.Slides for Java có hỗ trợ thêm hình động tùy chỉnh vào trang trình bày không?
 Có, Aspose.Slides cung cấp API để quản lý hoạt ảnh trang trình bày theo chương trình.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

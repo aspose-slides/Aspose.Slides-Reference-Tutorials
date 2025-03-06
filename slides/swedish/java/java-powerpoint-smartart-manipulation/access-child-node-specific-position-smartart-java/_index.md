@@ -3,14 +3,10 @@ title: Åtkomst till underordnad nod vid specifik position i SmartArt
 linktitle: Åtkomst till underordnad nod vid specifik position i SmartArt
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig att manipulera SmartArt i Aspose.Slides för Java med den här detaljerade guiden. Steg-för-steg-instruktioner, exempel och bästa praxis ingår.
+type: docs
 weight: 11
 url: /sv/java/java-powerpoint-smartart-manipulation/access-child-node-specific-position-smartart-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 Vill du ta dina presentationer till nästa nivå med sofistikerad SmartArt-grafik? Kolla inte vidare! Aspose.Slides för Java erbjuder en kraftfull svit för att skapa, manipulera och hantera presentationsbilder, inklusive möjligheten att arbeta med SmartArt-objekt. I den här omfattande självstudien går vi igenom att komma åt och manipulera en underordnad nod på en specifik position i en SmartArt-grafik, med hjälp av Aspose.Slides för Java-biblioteket.
 
@@ -102,9 +98,3 @@ Grattis! Du har framgångsrikt nått och manipulerat en underordnad nod i en Sma
  Du kan få stöd från[Aspose gemenskapsforum](https://forum.aspose.com/c/slides/11) eller hänvisa till den omfattande[dokumentation](https://reference.aspose.com/slides/java/).
 ### Kan jag köpa en fullständig licens för Aspose.Slides för Java?
  Ja, du kan köpa en fullständig licens från[köpsidan](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

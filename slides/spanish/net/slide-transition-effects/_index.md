@@ -3,14 +3,10 @@ title: Efectos de transición de diapositivas
 linktitle: Efectos de transición de diapositivas
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Mejore sus presentaciones con cautivadores efectos de transición de diapositivas utilizando Aspose.Slides para .NET. Aprenda a agregar animaciones dinámicas a las diapositivas para disfrutar de una experiencia visual atractiva.
+type: docs
 weight: 19
 url: /es/net/slide-transition-effects/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introducción:
 
@@ -41,9 +37,3 @@ Aprenda a agregar impresionantes efectos de transición a las diapositivas de su
 Aprenda cómo configurar el tipo de transformación de transición en diapositivas usando Aspose.Slides para .NET. Guía paso a paso con ejemplos de código. ¡Mejora tus presentaciones ahora! 
 ### [Transiciones de diapositivas simples](./simple-slide-transitions/)
 Aprenda cómo mejorar sus presentaciones de PowerPoint con transiciones de diapositivas simples usando Aspose.Slides para .NET. Guía paso a paso con código fuente. ¡Atrae a tu audiencia con imágenes cautivadoras!
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

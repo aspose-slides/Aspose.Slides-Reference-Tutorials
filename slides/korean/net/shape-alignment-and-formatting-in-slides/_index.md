@@ -3,14 +3,10 @@ title: 슬라이드의 도형 정렬 및 서식 지정
 linktitle: 슬라이드의 도형 정렬 및 서식 지정
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET 애플리케이션의 모양 정렬 및 형식 지정에 대한 포괄적인 Aspose.Slides 자습서를 살펴보세요. 손쉽게 모양을 정렬하고 서식을 지정하는 방법을 배워 슬라이드 프레젠테이션을 정밀하게 향상하세요.
+type: docs
 weight: 14
 url: /ko/net/shape-alignment-and-formatting-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 소개
 
@@ -48,9 +44,3 @@ Aspose.Slides for .NET을 사용하여 스케치된 모양으로 매력적인 �
 .NET용 Aspose.Slides를 사용하여 PowerPoint에서 그림 프레임의 왼쪽에 스트레치 오프셋을 추가하는 방법을 알아보세요. 전체 소스 코드 예제가 포함된 단계별 가이드입니다.
 ### [프레젠테이션 슬라이드에서 OLE 개체 프레임의 그림 제목 대체](./substituting-picture-title-ole-object-frame/)
 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드에서 OLE 개체 프레임의 그림 제목을 대체하는 방법을 알아보세요. 완전한 소스 코드가 포함된 단계별 가이드입니다.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

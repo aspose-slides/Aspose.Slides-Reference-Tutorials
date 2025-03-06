@@ -3,14 +3,10 @@ title: Quản lý phông chữ nhúng trong Java PowerPoint
 linktitle: Quản lý phông chữ nhúng trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Dễ dàng quản lý các phông chữ được nhúng trong bản trình bày Java PowerPoint với Aspose.Slides. Hướng dẫn từng bước để tối ưu hóa các trang trình bày của bạn một cách nhất quán.
+type: docs
 weight: 11
 url: /vi/java/java-powerpoint-font-management-text-replacement/manage-embedded-fonts-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Trong thế giới thuyết trình ngày càng phát triển, việc quản lý phông chữ hiệu quả có thể tạo ra sự khác biệt lớn về chất lượng và khả năng tương thích của các tệp PowerPoint của bạn. Aspose.Slides for Java cung cấp giải pháp toàn diện để quản lý phông chữ được nhúng, đảm bảo bản trình bày của bạn trông hoàn hảo trên mọi thiết bị. Cho dù bạn đang xử lý các bản trình bày cũ hay tạo bản trình bày mới, hướng dẫn này sẽ hướng dẫn bạn quy trình quản lý phông chữ được nhúng trong bản trình bày Java PowerPoint bằng Aspose.Slides. Hãy đi sâu vào!
 ## Điều kiện tiên quyết
@@ -108,9 +104,3 @@ Aspose.Slides cho Java tương thích với JDK 8 và các phiên bản mới h�
 Quản lý phông chữ được nhúng đảm bảo rằng bản trình bày của bạn trông nhất quán trên các thiết bị và nền tảng khác nhau, đồng thời giúp giảm kích thước tệp bằng cách xóa các phông chữ không cần thiết.
 ### Tôi có thể nhận hỗ trợ cho Aspose.Slides cho Java ở đâu?
  Bạn có thể nhận được sự hỗ trợ từ[Diễn đàn hỗ trợ Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

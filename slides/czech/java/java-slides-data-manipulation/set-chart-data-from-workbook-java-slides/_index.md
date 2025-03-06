@@ -3,14 +3,10 @@ title: Nastavení dat grafu ze sešitu v Java Slides
 linktitle: Nastavení dat grafu ze sešitu v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak nastavit data grafu z excelového sešitu v Java Slides pomocí Aspose.Slides. Podrobný průvodce s příklady kódu pro dynamické prezentace.
+type: docs
 weight: 15
 url: /cs/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod k nastavení dat grafu ze sešitu v Java Slides
 
@@ -146,9 +142,3 @@ Ano, data grafu můžete dynamicky aktualizovat v prezentaci úpravou podkladov�
 ### Kde najdu další příklady a zdroje pro práci s Aspose.Slides for Java?
 
  Další příklady a zdroje můžete prozkoumat na[Aspose webové stránky](https://www.aspose.com/). Dokumentace Aspose.Slides for Java navíc poskytuje komplexní pokyny pro práci s knihovnou.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

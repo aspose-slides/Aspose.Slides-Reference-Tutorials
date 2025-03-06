@@ -3,14 +3,10 @@ title: Acceso y manipulación de diapositivas
 linktitle: Acceso y manipulación de diapositivas
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Explore tutoriales completos sobre acceso y manipulación de diapositivas usando Aspose.Slides para .NET. Aprenda a crear, modificar y mejorar presentaciones mediante programación.
+type: docs
 weight: 10
 url: /es/net/slide-access-and-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introducción:
 
 ¡Bienvenido a un mundo de manipulación de presentaciones dinámicas con Aspose.Slides para .NET! Esta colección de tutoriales es la clave para desbloquear todo el potencial de Aspose.Slides API, ofreciéndole las herramientas y el conocimiento para acceder y manipular diapositivas sin problemas en sus aplicaciones .NET. Desde la creación de presentaciones cautivadoras hasta la implementación de modificaciones complejas, estos tutoriales le brindan una hoja de ruta completa. Ya sea que sea un desarrollador experimentado o recién esté comenzando su viaje con Aspose.Slides, nuestras guías paso a paso y ejemplos de código le permitirán aprovechar el poder de las diapositivas para contar historias visuales impactantes. Únase a nosotros mientras nos embarcamos en un viaje hacia el ámbito del acceso y la manipulación de diapositivas, explorando las capacidades que Aspose.Slides pone a su alcance.
@@ -48,9 +44,3 @@ Aprenda a ajustar las posiciones de las diapositivas dentro de presentaciones us
 Aprenda cómo borrar diapositivas de PowerPoint paso a paso usando Aspose.Slides para .NET. Nuestra guía proporciona instrucciones claras y código fuente completo para ayudarle a eliminar diapositivas mediante programación según su índice secuencial.
 ### [Eliminar diapositiva mediante referencia](./remove-slide-using-reference/)
 Aprenda cómo eliminar diapositivas mediante programación en presentaciones de PowerPoint usando Aspose.Slides para .NET. Simplifique la manipulación de la presentación con esta guía paso a paso.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

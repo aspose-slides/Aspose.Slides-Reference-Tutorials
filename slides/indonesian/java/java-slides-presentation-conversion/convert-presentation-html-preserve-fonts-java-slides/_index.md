@@ -3,14 +3,10 @@ title: Mengonversi Presentasi ke HTML dengan Mempertahankan Font Asli di Slide J
 linktitle: Mengonversi Presentasi ke HTML dengan Mempertahankan Font Asli di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Konversikan presentasi PowerPoint ke HTML sambil mempertahankan font asli menggunakan Aspose.Slides untuk Java.
+type: docs
 weight: 14
 url: /id/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Pengantar Mengonversi Presentasi ke HTML dengan Mempertahankan Font Asli di Slide Java
 
@@ -115,9 +111,3 @@ Contoh kode ini dirancang untuk file PPTX. Jika Anda perlu mengonversi file PPT 
 ### Bagaimana cara menyesuaikan keluaran HTML lebih lanjut?
 
  Anda dapat menjelajahi`HtmlOptions` kelas untuk menyesuaikan berbagai aspek keluaran HTML, seperti ukuran slide, kualitas gambar, dan banyak lagi.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

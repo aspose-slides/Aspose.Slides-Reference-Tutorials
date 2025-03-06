@@ -3,14 +3,10 @@ title: Java スライドのグラフのフォント プロパティ
 linktitle: Java スライドのグラフのフォント プロパティ
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java スライドのグラフ フォント プロパティを強化します。フォント サイズ、スタイル、色をカスタマイズして、インパクトのあるプレゼンテーションを実現します。
+type: docs
 weight: 11
 url: /ja/java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java スライドのグラフのフォント プロパティの概要
 
@@ -106,9 +102,3 @@ finally
 ### 特定のグラフ要素のフォント プロパティをカスタマイズするにはどうすればよいですか?
 
 軸ラベルや凡例テキストなどの特定のグラフ要素のフォント プロパティをカスタマイズするには、それらの要素にアクセスし、上記と同様の方法を使用してフォント プロパティを設定します。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

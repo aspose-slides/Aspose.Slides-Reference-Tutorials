@@ -3,14 +3,10 @@ title: Java Slaytlarında Markdown'a Dönüştürme
 linktitle: Java Slaytlarında Markdown'a Dönüştürme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile PowerPoint sunumlarını Markdown'a dönüştürün. Slaytlarınızı zahmetsizce dönüştürmek için bu adım adım kılavuzu izleyin.
+type: docs
 weight: 24
 url: /tr/java/presentation-conversion/convert-to-markdown-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giriş Java Slaytlarında Markdown'a Dönüştürme
 
@@ -140,9 +136,3 @@ Evet, Aspose.Slides for Java hem küçük hem de büyük ölçekli dönüşümle
 ### Daha fazla belge ve kaynağı nerede bulabilirim?
 
  Aspose.Slides for Java belgelerine şu adresten ulaşabilirsiniz:[Java API Referansları için Aspose.Slides](https://reference.aspose.com/slides/java/) ayrıntılı bilgi ve ek örnekler için.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

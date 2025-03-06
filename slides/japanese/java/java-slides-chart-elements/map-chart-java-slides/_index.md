@@ -3,14 +3,10 @@ title: Java スライドのマップチャート
 linktitle: Java スライドのマップチャート
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションで魅力的なマップ チャートを作成します。Java 開発者向けのステップ バイ ステップ ガイドとソース コード。
+type: docs
 weight: 15
 url: /ja/java/chart-elements/map-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for Java を使用した Java スライドのマップ チャートの紹介
 
@@ -135,9 +131,3 @@ try {
 ### Aspose.Slides for Java をプロジェクトに統合するにはどうすればよいですか?
 
 ライブラリをダウンロードするには[ここ](https://releases.aspose.com/slides/java/)プロジェクトのクラスパスに追加します。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

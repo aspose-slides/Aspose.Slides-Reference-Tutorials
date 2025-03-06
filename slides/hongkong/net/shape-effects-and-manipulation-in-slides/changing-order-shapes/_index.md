@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides for .NET 重塑簡報投影片
 linktitle: 使用 Aspose.Slides 變更簡報投影片中的形狀順序
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 重塑簡報投影片。請按照此逐步指南重新排列形狀並增強視覺吸引力。
+type: docs
 weight: 26
 url: /zh-hant/net/shape-effects-and-manipulation-in-slides/changing-order-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 創建具有視覺吸引力的簡報投影片是有效溝通的重要方面。 Aspose.Slides for .NET 使開發人員能夠以程式設計方式操作投影片，提供廣泛的功能。在本教學中，我們將深入研究使用 Aspose.Slides for .NET 變更簡報投影片中形狀順序的過程。
 ## 先決條件
@@ -74,9 +70,3 @@ Aspose.Slides for .NET 簡化了以程式設計方式操作簡報投影片的任
 答：訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)獲得支持並與社區互動。
 ### Q：如何取得 Aspose.Slides for .NET 的臨時授權？
 答：您可以獲得[臨時執照](https://purchase.aspose.com/temporary-license/)出於評估目的。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

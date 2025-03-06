@@ -3,14 +3,10 @@ title: Maak een vormminiatuur in PowerPoint
 linktitle: Maak een vormminiatuur in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u vormminiaturen kunt genereren in PowerPoint-presentaties met Aspose.Slides voor Java. Stap-voor-stap handleiding meegeleverd.
+type: docs
 weight: 14
 url: /nl/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 In deze zelfstudie gaan we dieper in op het maken van vormminiaturen in PowerPoint-presentaties met behulp van Aspose.Slides voor Java. Aspose.Slides is een krachtige bibliotheek waarmee ontwikkelaars programmatisch met PowerPoint-bestanden kunnen werken, waardoor verschillende taken kunnen worden geautomatiseerd, waaronder het genereren van vormminiaturen.
 ## Vereisten
@@ -64,9 +60,3 @@ Ja, naast PNG ondersteunt Aspose.Slides het opslaan van miniaturen in verschille
  Absoluut! U kunt een gratis proefversie van Aspose.Slides downloaden van[hier](https://releases.aspose.com/) om de kenmerken en mogelijkheden ervan te evalueren.
 ### Waar kan ik ondersteuning vinden voor Aspose.Slides?
  Als u vragen heeft of hulp nodig heeft met Aspose.Slides, kunt u terecht op de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) Voor ondersteuning.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

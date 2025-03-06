@@ -3,14 +3,10 @@ title: Gráfico obter intervalo em slides Java
 linktitle: Gráfico obter intervalo em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como recuperar intervalos de gráficos em Java Slides usando Aspose.Slides for Java API. Guia passo a passo com código-fonte para acesso eficaz aos dados do gráfico.
+type: docs
 weight: 16
 url: /pt/java/data-manipulation/chart-get-range-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introdução ao intervalo de obtenção de gráfico em slides Java
 
@@ -102,10 +98,3 @@ Sim, você pode personalizar a aparência dos gráficos, como alterar cores, fon
 ### Onde posso encontrar mais recursos e documentação para Aspose.Slides for Java?
 
  Você pode encontrar documentação e recursos abrangentes para Aspose.Slides for Java no site:[Aspose.Slides para documentação Java](https://reference.aspose.com/slides/java/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

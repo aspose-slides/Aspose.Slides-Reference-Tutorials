@@ -3,14 +3,10 @@ title: Licenc és formázás
 linktitle: Licenc és formázás
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Az Aspose.Slides licencelésének és formázásának megértése átfogó oktatóanyagok segítségével. Ismerje meg, hogyan kezelheti hatékonyan a licenceket, és hogyan érheti el prezentációinak kifogástalan formázását.
+type: docs
 weight: 21
 url: /hu/net/licensing-and-formatting/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés
 
@@ -35,9 +31,3 @@ Ismerje meg, hogyan használhatja hatékonyan a mért licencelést az Aspose.Sli
 Ismerje meg, hogyan javíthatja a diagramok látványvilágát az Aspose.Slides for .NET segítségével. Adjon dinamikus színeket az adatpontokhoz a hatásosabb prezentációk érdekében.
 ### [Egyéni hibasávok hozzáadása a diagramhoz](./add-custom-error/)
 Ismerje meg, hogyan adhat egyéni hibasávokat diagramokhoz az Aspose.Slides for .NET segítségével. Hibasávok létrehozása, stílusa és testreszabása a pontos adatmegjelenítés érdekében.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

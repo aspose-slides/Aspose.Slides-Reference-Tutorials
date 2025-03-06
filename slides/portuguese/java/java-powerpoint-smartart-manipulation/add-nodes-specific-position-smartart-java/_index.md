@@ -3,14 +3,10 @@ title: Adicionar nós em posições específicas no SmartArt usando Java
 linktitle: Adicionar nós em posições específicas no SmartArt usando Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Descubra como adicionar nós em posições específicas no SmartArt usando Java com Aspose.Slides. Crie apresentações dinâmicas sem esforço.
+type: docs
 weight: 16
 url: /pt/java/java-powerpoint-smartart-manipulation/add-nodes-specific-position-smartart-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 Neste tutorial, orientaremos você no processo de adição de nós em posições específicas no SmartArt usando Java com Aspose.Slides. SmartArt é um recurso do PowerPoint que permite criar diagramas e gráficos visualmente atraentes.
 ## Pré-requisitos
@@ -74,9 +70,3 @@ Sim, você pode personalizar a aparência dos nós, incluindo tamanho, cor e est
 Sim, Aspose.Slides fornece bibliotecas para várias linguagens de programação, incluindo .NET e Python.
 ### Existe uma versão de teste disponível para Aspose.Slides?
  Sim, você pode baixar uma versão de avaliação gratuita em[aqui](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

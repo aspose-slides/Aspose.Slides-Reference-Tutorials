@@ -3,14 +3,10 @@ title: 如何使用 Aspose.Slides .NET 从图表恢复工作簿
 linktitle: 从图表恢复工作簿
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中的图表中恢复工作簿。按照我们的分步指南有效地提取数据。
+type: docs
 weight: 12
 url: /zh/net/additional-chart-features/chart-recover-workbook/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 如果您希望在 .NET 中使用 PowerPoint 演示文稿，Aspose.Slides for .NET 是一个功能强大的库，可以帮助您实现目标。在本教程中，我们将指导您使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中的图表中恢复工作簿的过程。当您需要从演示文稿中的图表中提取数据时，此强大功能非常有用。我们将把这个过程分解为易于遵循的步骤，确保您清楚地了解如何完成此任务。
 
@@ -105,9 +101,3 @@ Aspose.Slides for .NET 是一个功能强大的 .NET 库，用于处理 Microsof
 ### 5、SEO优化的标题长度上限是多少？
 
 为了SEO优化，建议将标题保持在60个字符以内，以确保它在搜索引擎结果中正确显示。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

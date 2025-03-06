@@ -3,14 +3,10 @@ title: Animaciones de formas simplificadas con Aspose.Slides
 linktitle: Aplicar animaciones a formas en diapositivas de presentación con Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Cree presentaciones impresionantes con Aspose.Slides para .NET. Aprenda a aplicar animaciones a formas en esta guía paso a paso. ¡Mejora tus diapositivas ahora!
+type: docs
 weight: 21
 url: /es/net/shape-effects-and-manipulation-in-slides/applying-animations-to-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introducción
 En el mundo de las presentaciones dinámicas, agregar animaciones a las formas puede mejorar significativamente el atractivo visual y la participación de sus diapositivas. Aspose.Slides para .NET proporciona un potente conjunto de herramientas para lograr esto sin problemas. En este tutorial, lo guiaremos a través del proceso de aplicar animaciones a formas usando Aspose.Slides, permitiéndole crear presentaciones cautivadoras que dejen una impresión duradera.
 ## Requisitos previos
@@ -85,9 +81,3 @@ Aspose.Slides garantiza la compatibilidad con varias versiones de PowerPoint, lo
  Sí, puedes adquirir una licencia.[aquí](https://purchase.aspose.com/buy) para desbloquear todo el potencial de Aspose.Slides.
 ### ¿Puedo probar Aspose.Slides antes de comprarlo?
  ¡Ciertamente! Utilice el[prueba gratis](https://releases.aspose.com/) para experimentar las capacidades de Aspose.Slides antes de comprometerse.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

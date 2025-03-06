@@ -3,14 +3,10 @@ title: Pemformatan dan Pembaruan Tabel Java PowerPoint
 linktitle: Pemformatan dan Pembaruan Tabel Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Sempurnakan presentasi Java PowerPoint dengan pemformatan tabel dan pembaruan menggunakan Aspose.Slides. Pelajari cara menambahkan batas, memformat teks dalam kolom dan baris & memperbarui tabel.
+type: docs
 weight: 31
 url: /id/java/java-powerpoint-table-formatting-updates/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Perkenalan
 
@@ -40,9 +36,3 @@ Pelajari cara memformat teks di dalam kolom tabel di PowerPoint menggunakan Aspo
 Pelajari cara memformat teks di dalam baris tabel di PowerPoint menggunakan Aspose.Slides untuk Java. Sempurnakan presentasi Anda dengan panduan langkah demi langkah kami.
 ### [Perbarui Tabel yang Ada di PowerPoint menggunakan Java](./update-existing-table-powerpoint-java/)
 Pelajari cara memperbarui tabel yang ada di PowerPoint menggunakan Java dengan Aspose.Slides. Panduan langkah demi langkah, instruksi terperinci, dan FAQ disertakan.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

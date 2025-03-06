@@ -3,14 +3,10 @@ title: Add Embedded Video Frame in PowerPoint
 linktitle: Add Embedded Video Frame in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to embed video frames in PowerPoint using Aspose.Slides for Java with this step-by-step tutorial. Enhance your presentations easily.
+type: docs
 weight: 21
 url: /java/java-powerpoint-animation-shape-manipulation/add-embedded-video-frame-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Adding videos to your PowerPoint presentations can make them more engaging and informative. Using Aspose.Slides for Java, you can easily embed videos directly into your slides. In this tutorial, we'll walk you through the process step-by-step, ensuring you understand every part of the code and how it functions. Whether you're a seasoned developer or just starting, this guide will help you enhance your presentations with embedded videos.
 ## Prerequisites
@@ -97,10 +93,3 @@ Aspose.Slides supports various video formats including MP4, AVI, and WMV.
 Yes, you need a valid license to use Aspose.Slides. You can obtain a temporary license for evaluation.
 ### Can I customize the size and position of the video frame?
 Yes, you can customize the size and position by setting the appropriate parameters when adding the video frame.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

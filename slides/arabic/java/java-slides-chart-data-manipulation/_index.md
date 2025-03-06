@@ -3,14 +3,10 @@ title: معالجة بيانات مخطط شرائح جافا
 linktitle: معالجة بيانات مخطط شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: أطلق العنان لقوة معالجة بيانات مخطط شرائح Java باستخدام Aspose.Slides لـ Java. أنشئ صورًا ورؤى مذهلة دون عناء.
+type: docs
 weight: 11
 url: /ar/java/chart-data-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 هل أنت مستعد للارتقاء بعروض الشرائح المستندة إلى Java إلى المستوى التالي؟ باستخدام Aspose.Slides for Java، يمكنك التعامل مع بيانات المخطط بسهولة، وإنشاء عروض تقديمية مذهلة ومذهلة تأسر جمهورك. في هذه المقالة، سنستكشف كيف يعمل Aspose.Slides على تمكين مطوري Java من إنشاء مخططات تعتمد على البيانات.
 
 ## فهم Aspose.Slides لجافا
@@ -58,9 +54,3 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
 تعرف على كيفية إنشاء مخططات تنظيمية مذهلة في Java Slides من خلال البرامج التعليمية خطوة بخطوة في Aspose.Slides. قم بتخصيص وتصور الهيكل التنظيمي الخاص بك دون عناء.
 ### [الرسم البياني الدائري في شرائح جافا](./pie-chart-java-slides/)
 تعرف على كيفية إنشاء مخططات دائرية مذهلة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع الكود المصدري لمطوري Java.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

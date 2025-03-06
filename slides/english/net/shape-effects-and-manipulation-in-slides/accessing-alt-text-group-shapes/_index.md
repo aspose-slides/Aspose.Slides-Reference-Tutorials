@@ -3,14 +3,10 @@ title: Accessing Alternative Text in Group Shapes using Aspose.Slides
 linktitle: Accessing Alternative Text in Group Shapes
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to access alternative text in group shapes using Aspose.Slides for .NET. Step-by-step guide with code examples.
+type: docs
 weight: 10
 url: /net/shape-effects-and-manipulation-in-slides/accessing-alt-text-group-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 When it comes to managing and manipulating presentations, Aspose.Slides for .NET offers a powerful set of tools. In this article, we will delve into a specific aspect of this API - Accessing Alternative Text in Group Shapes. Whether you're an experienced developer or just starting with Aspose.Slides, this comprehensive guide will walk you through the process, providing step-by-step instructions and code examples. By the end, you'll have a solid understanding of how to effectively work with alternative text in group shapes using Aspose.Slides.
 
@@ -122,10 +118,3 @@ You can use screen readers or accessibility testing tools to evaluate the effect
 ### Is Aspose.Slides suitable for both beginners and experienced developers?
 
 Yes, Aspose.Slides is designed to cater to developers of all skill levels. Beginners can follow the step-by-step guide provided in the documentation, while experienced developers can leverage its advanced features.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

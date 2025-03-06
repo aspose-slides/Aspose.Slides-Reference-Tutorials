@@ -3,14 +3,10 @@ title: Χειρισμός πίνακα Java PowerPoint
 linktitle: Χειρισμός πίνακα Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Κύριος χειρισμός πινάκων Java PowerPoint με Aspose.Slides. Μάθετε να προσθέτετε εικόνες, να χωρίζετε κελιά, να δημιουργείτε πίνακες και πολλά άλλα μέσα από τα αναλυτικά μας σεμινάρια βήμα προς βήμα.
+type: docs
 weight: 30
 url: /el/java/java-powerpoint-table-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 
 Η εξοικείωση με τον χειρισμό πινάκων σε παρουσιάσεις PowerPoint μπορεί να βελτιώσει σημαντικά την αποτελεσματικότητα και την οπτική ελκυστικότητα των διαφανειών σας. Το Aspose.Slides για Java προσφέρει ένα ισχυρό σύνολο δυνατοτήτων για το χειρισμό πινάκων μέσω προγραμματισμού. Είτε προσθέτετε εικόνες σε κελιά πίνακα, είτε διαχωρίζετε ή συγχωνεύετε κελιά είτε δημιουργείτε πίνακες από την αρχή, αυτοί οι σεμινάριοι θα σας καθοδηγήσουν σε κάθε διαδικασία βήμα προς βήμα. Ας εμβαθύνουμε στον κόσμο της χειραγώγησης πινάκων Java PowerPoint!
@@ -64,9 +60,3 @@ url: /el/java/java-powerpoint-table-manipulation/
 Μάθετε πώς να μορφοποιείτε κείμενο μέσα σε πίνακες PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα για προγραμματιστές.
 ### [Δημιουργήστε τυπικούς πίνακες στο PowerPoint με Java](./create-standard-tables-powerpoint-java/)
 Μάθετε πώς να δημιουργείτε τυπικούς πίνακες στο PowerPoint με Java χρησιμοποιώντας το Aspose.Slides. Ακολουθήστε τον λεπτομερή, βήμα προς βήμα οδηγό μας για μια απρόσκοπτη εμπειρία.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

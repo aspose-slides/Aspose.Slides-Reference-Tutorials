@@ -3,14 +3,10 @@ title: Dodaj niestandardowe słupki błędów do wykresu
 linktitle: Dodaj niestandardowe słupki błędów do wykresu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak tworzyć wspaniałe prezentacje za pomocą Aspose.Slides dla .NET, dodając niestandardowe słupki błędów do swoich wykresów. Ulepsz swoją grę w wizualizację danych już dziś!
+type: docs
 weight: 13
 url: /pl/net/licensing-and-formatting/add-custom-error/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 świecie dynamicznych prezentacji wykresy odgrywają kluczową rolę w przekazywaniu złożonych danych w zrozumiały sposób. Aspose.Slides dla .NET umożliwia przeniesienie gry prezentacyjnej na wyższy poziom. W tym przewodniku krok po kroku zagłębimy się w proces dodawania niestandardowych słupków błędów do wykresów za pomocą Aspose.Slides dla .NET. Niezależnie od tego, czy jesteś doświadczonym programistą, czy nowicjuszem, ten samouczek sprawnie przeprowadzi Cię przez cały proces.
 
@@ -132,9 +128,3 @@ Jeśli chcesz zaimponować odbiorcom oszałamiającymi prezentacjami, Aspose.Sli
 Nadszedł czas, aby wykorzystać nowo zdobytą wiedzę i stworzyć atrakcyjne prezentacje, które pozostawią niezatarte wrażenie.
 
 Pamiętaj, że dzięki Aspose.Slides dla .NET niebo jest nieograniczone, jeśli chodzi o dostosowywanie prezentacji i innowacje. Miłej prezentacji!
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

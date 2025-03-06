@@ -3,14 +3,10 @@ title: Vymažte konkrétní datové body řady grafů pomocí Aspose.Slides .NET
 linktitle: Vymazat konkrétní datové body řady grafů
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak vymazat konkrétní datové body řady grafů v prezentacích PowerPoint pomocí Aspose.Slides pro .NET. Průvodce krok za krokem.
+type: docs
 weight: 13
 url: /cs/net/additional-chart-features/clear-specific-chart-series-data-points-data/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Aspose.Slides for .NET je výkonná knihovna, která umožňuje programově pracovat s prezentacemi PowerPoint. V tomto tutoriálu vás provedeme procesem vymazání konkrétních datových bodů řad grafů v prezentaci PowerPoint pomocí Aspose.Slides pro .NET. Na konci tohoto tutoriálu budete schopni snadno manipulovat s datovými body grafu.
 
@@ -99,9 +95,3 @@ Ano, vzhled grafů můžete upravit úpravou jejich vlastností, jako jsou barvy
 
 ### Existuje komunita nebo komunita vývojářů pro Aspose.Slides pro .NET?
 Ano, můžete se připojit ke komunitě Aspose na jejich fóru pro diskuse, dotazy a sdílení vašich zkušeností.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

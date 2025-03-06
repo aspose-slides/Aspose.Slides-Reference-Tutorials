@@ -3,14 +3,10 @@ title: PowerPoint の OLE オブジェクトから埋め込まれたファイル
 linktitle: PowerPoint の OLE オブジェクトから埋め込まれたファイル データを抽出する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint プレゼンテーションから埋め込みファイル データを抽出し、ドキュメント管理機能を強化する方法を学習します。
+type: docs
 weight: 22
 url: /ja/java/java-powerpoint-animation-shape-manipulation/extract-embedded-file-data-ole-object-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 導入
 Java プログラミングの分野では、PowerPoint プレゼンテーション内の OLE (オブジェクトのリンクと埋め込み) オブジェクトから埋め込まれたファイル データを抽出するというタスクが頻繁に発生します。特にドキュメント管理やデータ抽出アプリケーションではそうです。Aspose.Slides for Java は、PowerPoint プレゼンテーションをプログラムで処理するための堅牢なソリューションを提供します。このチュートリアルでは、Aspose.Slides for Java を使用して OLE オブジェクトから埋め込まれたファイル データを抽出する方法について説明します。
@@ -91,9 +87,3 @@ Aspose.Slides は、OLE オブジェクト、グラフなど、さまざまな�
 はい、Aspose.Slides は、埋め込まれたファイル データの抽出などのタスクを自動化するための包括的な API を提供し、効率的で合理化されたドキュメント処理を可能にします。
 ### Aspose.Slides に関するさらなる支援やサポートはどこで受けられますか?
 ご質問、技術サポート、コミュニティサポートについては、Aspose.スライドフォーラムにアクセスするか、ドキュメントを参照してください。[Aspose.Slides](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

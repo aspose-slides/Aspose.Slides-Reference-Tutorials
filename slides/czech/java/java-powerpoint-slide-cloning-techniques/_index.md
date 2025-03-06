@@ -3,14 +3,10 @@ title: Techniky klonování snímků Java PowerPoint
 linktitle: Techniky klonování snímků Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Hlavní klonování snímků v aplikaci PowerPoint pomocí Aspose.Slides pro Javu. Naučte se bezproblémově klonovat snímky v rámci jedné prezentace nebo napříč prezentacemi.
+type: docs
 weight: 27
 url: /cs/java/java-powerpoint-slide-cloning-techniques/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ##  Úvod
 
 Klonování snímků v prezentacích PowerPoint vám může ušetřit spoustu času a zefektivnit váš pracovní postup. S Aspose.Slides for Java můžete snadno klonovat snímky v rámci stejné prezentace nebo napříč různými prezentacemi. Ať už jste začátečník nebo expert, tyto podrobné návody vás provedou celým procesem, takže vylepšování vašich prezentací bude snadné.
@@ -53,9 +49,3 @@ Naučte se klonovat snímky mezi prezentacemi v Javě pomocí Aspose.Slides. Vý
 Klonujte snímky v rámci stejné prezentace pomocí Aspose.Slides for Java s naším průvodcem. Ideální pro vývojáře, kteří chtějí zjednodušit manipulaci s PowerPointem.
 ### [Klonovat posunutím do konce v rámci stejné prezentace](./clone-slide-end-within-same-presentation-powerpoint/)
 Naučte se, jak klonovat snímek na konec prezentace pomocí Aspose.Slides for Java, pomocí tohoto podrobného průvodce. Ideální pro vývojáře v Javě.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

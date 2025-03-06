@@ -3,14 +3,10 @@ title: Aspose.Slides 部分縮放 - 提升您的簡報
 linktitle: 使用 Aspose.Slides 在簡報投影片中建立部分縮放
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 建立具有部分縮放功能的引人入勝的簡報投影片。透過互動式功能提升您的簡報。
+type: docs
 weight: 13
 url: /zh-hant/net/image-and-video-manipulation-in-slides/creating-section-zoom/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 透過互動式功能增強簡報投影片對於保持觀眾的參與度至關重要。實現這一目標的一種有效方法是合併部分縮放，使您可以在簡報的不同部分之間無縫導航。在本教學中，我們將探討如何使用 Aspose.Slides for .NET 在簡報投影片中建立部分縮放。
 ## 先決條件
@@ -74,9 +70,3 @@ pres.Save(resultPath, SaveFormat.Pptx);
 是的，您可以使用以下方式探索 Aspose.Slides 的功能[免費試用](https://releases.aspose.com/).
 ### 在哪裡可以獲得 Aspose.Slides 相關查詢的支援？
 如需任何支援或疑問，請訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

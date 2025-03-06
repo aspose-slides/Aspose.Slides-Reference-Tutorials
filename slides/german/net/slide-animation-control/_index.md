@@ -3,14 +3,10 @@ title: Steuerung der Folienanimation
 linktitle: Steuerung der Folienanimation
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Ihre Präsentationen mit dynamischen Animationen mithilfe von Aspose.Slides für .NET. In diesem umfassenden Tutorial erfahren Sie Schritt für Schritt, wie Sie Folienanimationen steuern.
+type: docs
 weight: 18
 url: /de/net/slide-animation-control/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung:
 
@@ -40,9 +36,3 @@ Erfahren Sie, wie Sie Animationstypen in PowerPoint-Folien mit Aspose.Slides fü
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET Animationen auf einer Folie wiederholen. Diese Schritt-für-Schritt-Anleitung enthält Quellcode und klare Anweisungen zum programmgesteuerten Hinzufügen fesselnder Animationen zu PowerPoint-Präsentationen.
 ### [Animation auf Folie zurückspulen](./rewind-animation-on-slide/)
 Erfahren Sie, wie Sie Animationen auf PowerPoint-Folien mit Aspose.Slides für .NET zurückspulen. Folgen Sie dieser Schritt-für-Schritt-Anleitung mit vollständigen Quellcodebeispielen, um Ihre Präsentationen dynamisch zu verbessern.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

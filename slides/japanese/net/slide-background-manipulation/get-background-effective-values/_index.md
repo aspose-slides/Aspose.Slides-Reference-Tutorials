@@ -3,14 +3,10 @@ title: スライドの効果的な背景値を取得する
 linktitle: スライドの効果的な背景値を取得する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、PowerPoint のスライドの効果的な背景値を抽出する方法を学びます。今すぐプレゼンテーション デザイン スキルを強化しましょう。
+type: docs
 weight: 11
 url: /ja/net/slide-background-manipulation/get-background-effective-values/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ダイナミックで魅力的なプレゼンテーションの世界では、Aspose.Slides for .NET は、開発者や専門家が PowerPoint ファイルのさまざまな側面を操作および制御できるようにする強力なツールです。このステップ バイ ステップ ガイドでは、Aspose.Slides for .NET を使用してスライドの有効な背景値を取得するプロセスについて説明します。このスキルは、プレゼンテーションの背景デザインや配色を操作して視覚的に魅力的なスライドを作成する必要があるときに特に役立ちます。 
 
@@ -115,10 +111,3 @@ Aspose.Slides for .NET は、開発者が PowerPoint プレゼンテーション
 ### Aspose.Slides for .NET のサポートはどこで受けられますか?
 
 サポートを受けたり質問したりできます[Aspose.Slides フォーラム](https://forum.aspose.com/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

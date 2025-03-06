@@ -3,14 +3,10 @@ title: Configuración de presentación de diapositivas en diapositivas de Java
 linktitle: Configuración de presentación de diapositivas en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Optimice su presentación de diapositivas Java con Aspose.Slides. Cree presentaciones atractivas con configuraciones personalizadas. Explore guías paso a paso y preguntas frecuentes.
+type: docs
 weight: 16
 url: /es/java/presentation-properties/presentation-slide-show-setup-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introducción a la configuración de la presentación de diapositivas en Java Slides
 
@@ -150,9 +146,3 @@ En este tutorial, hemos aprendido cómo configurar una presentación de diaposit
 ### ¿Cómo puedo personalizar aún más la configuración de la presentación de diapositivas?
 
  Puede explorar configuraciones de presentación de diapositivas adicionales proporcionadas por Aspose.Slides para Java para adaptar la experiencia de la presentación de diapositivas a sus necesidades. Consulte la documentación en[aquí](https://reference.aspose.com/slides/java/) para obtener información detallada sobre las opciones y configuraciones disponibles.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

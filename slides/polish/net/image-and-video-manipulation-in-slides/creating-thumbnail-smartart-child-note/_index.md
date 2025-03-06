@@ -3,14 +3,10 @@ title: Tworzenie miniatury notatki podrzędnej SmartArt w Aspose.Slides
 linktitle: Tworzenie miniatury notatki podrzędnej SmartArt w Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak tworzyć urzekające miniatury notatek podrzędnych SmartArt za pomocą Aspose.Slides dla .NET. Ulepsz swoje prezentacje dzięki dynamicznym efektom wizualnym!
+type: docs
 weight: 15
 url: /pl/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 dziedzinie prezentacji dynamicznych Aspose.Slides dla .NET wyróżnia się jako potężne narzędzie, zapewniające programistom możliwość programowego manipulowania i ulepszania prezentacji PowerPoint. Intrygującą funkcją jest możliwość generowania miniatur dla notatek podrzędnych SmartArt, dodając warstwę atrakcyjności wizualnej do prezentacji. Ten przewodnik krok po kroku przeprowadzi Cię przez proces tworzenia miniaturek notatek podrzędnych SmartArt przy użyciu Aspose.Slides dla .NET.
 ## Warunki wstępne
@@ -66,9 +62,3 @@ Odp.: Absolutnie! Aspose.Slides oferuje różnorodne układy SmartArt, dzięki c
  O: Odwiedź[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) aby nawiązać kontakt ze społecznością, zadawać pytania i znajdować rozwiązania.
 ### P: Czy mogę kupić Aspose.Slides dla .NET?
  Odp.: Oczywiście! Poznaj opcje zakupu[Tutaj](https://purchase.aspose.com/buy) aby odblokować pełny potencjał Aspose.Slides w swoich projektach.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

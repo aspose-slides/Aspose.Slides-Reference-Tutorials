@@ -3,14 +3,10 @@ title: Handledning för inbäddning av videoramar med Aspose.Slides för .NET
 linktitle: Lägga till videoramar från webbkälla i presentationsbilder med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du sömlöst bäddar in videoramar i PowerPoint-bilder med Aspose.Slides för .NET. Förbättra presentationer med multimedia utan ansträngning.
+type: docs
 weight: 20
 url: /sv/net/shape-effects-and-manipulation-in-slides/adding-video-frames-from-web-source/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 den dynamiska presentationsvärlden kan inkorporering av multimediaelement avsevärt öka engagemanget och leverera effektfulla budskap. Ett kraftfullt sätt att uppnå detta är genom att bädda in videoramar i presentationsbilder. I den här handledningen kommer vi att undersöka hur du gör detta sömlöst med Aspose.Slides för .NET. Aspose.Slides är ett robust bibliotek som tillåter utvecklare att manipulera PowerPoint-presentationer programmatiskt, vilket ger omfattande möjligheter för att skapa, redigera och förbättra bilder.
 ## Förutsättningar
@@ -79,9 +75,3 @@ Aspose.Slides uppdateras regelbundet för att bibehålla kompatibilitet med de s
 Ja, du kan bädda in flera videor genom att lägga till ytterligare videorutor till en bild.
 ### Var kan jag hitta stöd för Aspose.Slides-relaterade frågor?
  Besök[Aspose.Slides Forum](https://forum.aspose.com/c/slides/11) för samhällsstöd och diskussioner.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

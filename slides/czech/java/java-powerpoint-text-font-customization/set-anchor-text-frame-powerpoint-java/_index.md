@@ -3,14 +3,10 @@ title: Nastavte ukotvení textového rámečku v PowerPointu s Javou
 linktitle: Nastavte ukotvení textového rámečku v PowerPointu s Javou
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak nastavit ukotvení textového rámečku v PowerPointu pomocí Java s Aspose.Slides. Vylepšete své prezentace.
+type: docs
 weight: 13
 url: /cs/java/java-powerpoint-text-font-customization/set-anchor-text-frame-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 tomto tutoriálu se naučíte, jak nastavit ukotvení textového rámečku v prezentacích PowerPoint pomocí Javy s pomocí Aspose.Slides. Ukotvení textových rámečků vám umožňuje přesně ovládat polohu a chování textu v rámci tvaru a zajistit, aby vaše snímky byly vizuálně přitažlivé a efektivně strukturované.
 ## Předpoklady
@@ -75,9 +71,3 @@ Aspose.Slides for Java je výkonná knihovna, která umožňuje vývojářům Ja
  Ano, můžete si stáhnout bezplatnou zkušební verzi[tady](https://releases.aspose.com/).
 ### Kde mohu získat podporu pro Aspose.Slides pro Java?
  Můžete navštívit fórum podpory[tady](https://forum.aspose.com/c/slides/11) pro jakékoli dotazy nebo pomoc.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

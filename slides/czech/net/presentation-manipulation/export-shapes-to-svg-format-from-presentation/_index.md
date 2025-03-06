@@ -3,14 +3,10 @@ title: Exportujte tvary z prezentace do formátu SVG
 linktitle: Exportujte tvary z prezentace do formátu SVG
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se exportovat tvary z PowerPointové prezentace do formátu SVG pomocí Aspose.Slides for .NET. Podrobný průvodce včetně zdrojového kódu. Efektivně extrahujte tvary pro různé aplikace.
+type: docs
 weight: 16
 url: /cs/net/presentation-manipulation/export-shapes-to-svg-format-from-presentation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 dnešním digitálním světě hrají prezentace zásadní roli při efektivním předávání informací. Někdy však potřebujeme exportovat konkrétní tvary z našich prezentací do různých formátů pro různé účely. Jedním z takových formátů je SVG (Scalable Vector Graphics), známý pro svou škálovatelnost a přizpůsobivost. V tomto tutoriálu vás provedeme procesem exportu tvarů do formátu SVG z prezentace pomocí Aspose.Slides pro .NET.
 
@@ -87,9 +83,3 @@ Možnost exportu tvarů se může lišit v závislosti na složitosti tvaru a fu
 Nyní, když jste se naučili exportovat tvary do formátu SVG, můžete své prezentace vylepšit a učinit je univerzálnějšími pro různé účely. Šťastné kódování!
 
  Další podrobnosti a pokročilé funkce naleznete v části[Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

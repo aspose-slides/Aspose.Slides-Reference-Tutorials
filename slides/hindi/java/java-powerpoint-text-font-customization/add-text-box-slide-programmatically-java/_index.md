@@ -3,14 +3,10 @@ title: जावा के साथ प्रोग्रामेटिक र
 linktitle: जावा के साथ प्रोग्रामेटिक रूप से स्लाइड पर टेक्स्ट बॉक्स जोड़ें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके PowerPoint स्लाइड में प्रोग्रामेटिक रूप से टेक्स्ट बॉक्स जोड़ना सीखें। इस चरण-दर-चरण मार्गदर्शिका के साथ अपनी उत्पादकता में सुधार करें।
+type: docs
 weight: 24
 url: /hi/java/java-powerpoint-text-font-customization/add-text-box-slide-programmatically-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## परिचय
 प्रोग्रामेटिक रूप से पावरपॉइंट प्रेजेंटेशन बनाना और उसमें हेरफेर करना, रिपोर्ट बनाने से लेकर प्रेजेंटेशन को स्वचालित करने तक कई वर्कफ़्लो को सुव्यवस्थित कर सकता है। Aspose.Slides for Java एक शक्तिशाली API प्रदान करता है जो डेवलपर्स को इन कार्यों को कुशलतापूर्वक करने की अनुमति देता है। इस ट्यूटोरियल में, हम आपको Aspose.Slides for Java का उपयोग करके स्लाइड में टेक्स्ट बॉक्स जोड़ने के बारे में मार्गदर्शन करेंगे। इस ट्यूटोरियल के अंत तक, आपको इस कार्यक्षमता को अपने Java अनुप्रयोगों में एकीकृत करने के तरीके के बारे में स्पष्ट समझ होगी।
 ## आवश्यक शर्तें
@@ -71,9 +67,3 @@ pres.save(dataDir + "TextBox_out.pptx", SaveFormat.Pptx);
  आप प्राप्त कर सकते हैं[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) Aspose से.
 ### क्या Aspose.Slides प्रस्तुतियों को अन्य प्रारूपों में परिवर्तित करने का समर्थन करता है?
 हां, यह पीडीएफ और छवियों सहित विभिन्न प्रारूपों का समर्थन करता है।
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Kořenový adresář ClsId v Java Slides
 linktitle: Kořenový adresář ClsId v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Přečtěte si, jak nastavit ClsId kořenového adresáře v Aspose.Slides pro prezentace Java. Přizpůsobte chování hypertextového odkazu pomocí CLSID.
+type: docs
 weight: 10
 url: /cs/java/media-controls/root-directory-clsid-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod do nastavení ClsId kořenového adresáře v Aspose.Slides pro Javu
 
@@ -111,9 +107,3 @@ Ne, ClsId kořenového adresáře se obvykle nastavuje na úrovni prezentace a v
 ### Existují nějaká omezení pro CLSID, které mohu použít?
 
 CLSID, které můžete použít, jsou obvykle určeny aplikacemi nainstalovanými v systému. Měli byste používat CLSID, které odpovídají platným aplikacím schopným zpracovávat hypertextové odkazy. Uvědomte si, že použití neplatného CLSID může vést k neočekávanému chování.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

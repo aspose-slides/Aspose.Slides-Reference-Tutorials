@@ -3,14 +3,10 @@ title: Sunumu Normal Görünüm Durumunda Yönetme
 linktitle: Sunumu Normal Görünüm Durumunda Yönetme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak sunumları normal görünüm durumunda nasıl yöneteceğinizi öğrenin. Adım adım rehberlik ve eksiksiz kaynak koduyla sunumları programlı bir şekilde oluşturun, değiştirin ve geliştirin.
+type: docs
 weight: 11
 url: /tr/net/slide-view-and-layout-manipulation/manage-presentation-normal-view-state/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 İster dinamik bir satış sunumu, ister eğitici bir ders veya ilgi çekici bir web semineri hazırlıyor olun, sunumlar etkili iletişimin temel taşıdır. Microsoft PowerPoint uzun süredir çarpıcı slayt gösterileri oluşturmak için başvurulan yazılım olmuştur. Ancak konu sunumları programlı olarak yönetmek olduğunda Aspose.Slides for .NET kütüphanesinin paha biçilemez bir araç olduğu kanıtlanıyor. Bu kılavuzda, sunumlarınızı sorunsuz bir şekilde oluşturmanızı, değiştirmenizi ve geliştirmenizi sağlayacak şekilde sunumları normal görünüm durumunda yönetmek için Aspose.Slides for .NET'in nasıl kullanılacağını keşfedeceğiz.
 
@@ -125,9 +121,3 @@ Aspose.Slides for .NET'in kapsamlı belgelerine şu adresten ulaşabilirsiniz:[A
 
 ## Çözüm
 Bu kılavuzda, Aspose.Slides for .NET kullanarak sunumların normal görünüm durumunda nasıl yönetileceğini araştırdık. Sağlam özellikleri sayesinde sunumları programlı olarak oluşturabilir, değiştirebilir ve geliştirebilirsiniz; böylece içeriğinizin hedef kitlenizi etkili bir şekilde cezbetmesini sağlayabilirsiniz. İster profesyonel bir sunumcu olun ister sunumla ilgili uygulamalar üzerinde çalışan bir geliştirici olun, Aspose.Slides for .NET kusursuz sunum yönetimine açılan kapınızdır.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

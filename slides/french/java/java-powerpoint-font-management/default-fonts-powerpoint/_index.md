@@ -3,14 +3,10 @@ title: Polices par défaut dans PowerPoint avec Aspose.Slides pour Java
 linktitle: Polices par défaut dans PowerPoint avec Aspose.Slides pour Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir les polices par défaut dans les présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Assurez la cohérence et améliorez l’attrait visuel sans effort.
+type: docs
 weight: 11
 url: /fr/java/java-powerpoint-font-management/default-fonts-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 La création de présentations PowerPoint avec des polices personnalisées est une exigence courante dans de nombreux projets. Aspose.Slides pour Java fournit une solution transparente pour gérer les polices par défaut, garantissant ainsi la cohérence entre différents environnements. Dans ce didacticiel, nous vous guiderons tout au long du processus de définition des polices par défaut dans les présentations PowerPoint à l'aide d'Aspose.Slides pour Java.
 ## Conditions préalables
@@ -75,9 +71,3 @@ Aspose.Slides for Java prend en charge une large gamme de versions de PowerPoint
  Oui, vous pouvez explorer Aspose.Slides pour Java grâce à un essai gratuit disponible sur[releases.aspose.com](https://releases.aspose.com/).
 ### Où puis-je obtenir une licence temporaire pour Aspose.Slides pour Java ?
  Vous pouvez obtenir une licence temporaire pour Aspose.Slides pour Java auprès du[page d'achat](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

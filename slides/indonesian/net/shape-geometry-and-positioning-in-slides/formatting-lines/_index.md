@@ -3,14 +3,10 @@ title: Format Garis Presentasi dengan Aspose.Slides .NET Tutorial
 linktitle: Memformat Garis pada Slide Presentasi menggunakan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Sempurnakan slide presentasi Anda dengan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah kami untuk memformat garis dengan mudah. Unduh uji coba gratis sekarang!
+type: docs
 weight: 10
 url: /id/net/shape-geometry-and-positioning-in-slides/formatting-lines/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Membuat slide presentasi yang menarik secara visual sangat penting untuk komunikasi yang efektif. Aspose.Slides untuk .NET memberikan solusi ampuh untuk memanipulasi dan memformat elemen presentasi secara terprogram. Dalam tutorial ini, kita akan fokus pada pemformatan garis dalam slide presentasi menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -79,9 +75,3 @@ Ya, Aspose.Slides mendukung berbagai bahasa pemrograman, termasuk Java dan Pytho
  Anda bisa mendapatkan lisensi sementara dari[Lisensi Sementara Aspose.Slides](https://purchase.aspose.com/temporary-license/).
 ### Q5: Di mana saya dapat membeli Aspose.Slides untuk .NET?
  Anda dapat membeli produk dari[Aspose.Slide Pembelian](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

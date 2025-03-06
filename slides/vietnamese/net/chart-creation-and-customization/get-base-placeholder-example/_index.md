@@ -3,14 +3,10 @@ title: Lấy ví dụ về phần giữ chỗ cơ sở
 linktitle: Lấy ví dụ về phần giữ chỗ cơ sở
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Khám phá Aspose.Slides for .NET, một thư viện mạnh mẽ để làm việc với các bản trình bày PowerPoint trong C#. Tìm hiểu cách tạo các slide động một cách dễ dàng.
+type: docs
 weight: 13
 url: /vi/net/chart-creation-and-customization/get-base-placeholder-example/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Trong thế giới phát triển .NET, việc tạo các bản trình bày PowerPoint năng động và hấp dẫn là một yêu cầu chung. Aspose.Slides for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các tệp PowerPoint. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình bắt đầu với Aspose.Slides cho .NET, chia nhỏ từng ví dụ thành nhiều bước. Đến cuối hướng dẫn này, bạn sẽ được trang bị đầy đủ để khai thác các khả năng của Aspose.Slides cho .NET để tạo các bài thuyết trình ấn tượng. Hãy đi sâu vào!
 
@@ -132,9 +128,3 @@ Nếu bạn cần giấy phép tạm thời, bạn có thể yêu cầu một gi
 
 ### 5. Tôi có thể nhận hỗ trợ hoặc đặt câu hỏi về Aspose.Slides cho .NET ở đâu?
  Để được hỗ trợ và thảo luận, bạn có thể truy cập diễn đàn Aspose.Slides for .NET[đây](https://forum.aspose.com/). Đó là một nơi tuyệt vời để nhận trợ giúp và kết nối với cộng đồng Aspose.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java PowerPoint에서 사용자 정의 글머리 기호 번호 설정
 linktitle: Java PowerPoint에서 사용자 정의 글머리 기호 번호 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java PowerPoint에서 사용자 정의 글머리 기호 번호를 설정하여 프로그래밍 방식으로 프레젠테이션 명확성과 구조를 향상시키는 방법을 알아보세요.
+type: docs
 weight: 15
 url: /ko/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 오늘날의 디지털 시대에 역동적인 프레젠테이션을 만드는 것은 아이디어와 데이터를 효과적으로 전달하는 데 매우 중요합니다. Aspose.Slides for Java는 프로그래밍 방식으로 PowerPoint 프레젠테이션을 조작할 수 있는 강력한 도구 키트를 제공하여 프레젠테이션 작성 프로세스를 향상시키는 광범위한 기능을 제공합니다. 이 기사에서는 Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션에서 사용자 정의 글머리 기호 번호를 설정하는 방법을 살펴봅니다. 숙련된 개발자이든 초보자이든 이 튜토리얼은 프로세스를 단계별로 안내하여 이 기능을 효율적으로 활용할 수 있도록 해줍니다.
 ## 전제 조건
@@ -86,9 +82,3 @@ Aspose.Slides는 97-2003부터 최신 버전까지 PowerPoint 형식을 지원�
  예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Aspose.Slides는 어디서 구입할 수 있나요?
  Aspose.Slides는 다음에서 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

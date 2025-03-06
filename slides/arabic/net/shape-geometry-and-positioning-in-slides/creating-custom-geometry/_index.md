@@ -3,14 +3,10 @@ title: إنشاء هندسة مخصصة في C# باستخدام Aspose.Slides �
 linktitle: إنشاء هندسة مخصصة في شكل هندسي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعلم كيفية إنشاء أشكال هندسية مخصصة في Aspose.Slides لـ .NET. ارفع مستوى عروضك التقديمية بأشكال فريدة. دليل خطوة بخطوة لمطوري C#.
+type: docs
 weight: 15
 url: /ar/net/shape-geometry-and-positioning-in-slides/creating-custom-geometry/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 في عالم العروض التقديمية الديناميكي، يمكن أن تؤدي إضافة أشكال وأشكال هندسية فريدة إلى رفع مستوى المحتوى الخاص بك، مما يجعله أكثر جاذبية وجاذبية بصريًا. يوفر Aspose.Slides for .NET حلاً قويًا لإنشاء أشكال هندسية مخصصة داخل الأشكال، مما يسمح لك بالتحرر من التصميمات التقليدية. سيرشدك هذا البرنامج التعليمي خلال عملية إنشاء أشكال هندسية مخصصة في GeometryShape باستخدام Aspose.Slides لـ .NET.
 ## المتطلبات الأساسية
@@ -98,9 +94,3 @@ private static GeometryPath CreateStarGeometry(float outerRadius, float innerRad
  اطلب المساعدة وتفاعل مع المجتمع في[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### 5. أين يمكنني شراء Aspose.Slides لـ .NET؟
  يمكنك شراء Aspose.Slides لـ .NET[هنا](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

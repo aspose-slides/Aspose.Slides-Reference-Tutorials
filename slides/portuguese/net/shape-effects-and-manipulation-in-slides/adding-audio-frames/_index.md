@@ -3,14 +3,10 @@ title: Adicionando quadros de áudio a slides de apresentação usando Aspose.Sl
 linktitle: Adicionando quadros de áudio a slides de apresentação usando Aspose.Slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprimore as apresentações com Aspose.Slides for .NET! Aprenda a adicionar quadros de áudio perfeitamente, envolvendo seu público como nunca antes.
+type: docs
 weight: 14
 url: /pt/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 No mundo dinâmico das apresentações, a incorporação de elementos de áudio pode melhorar significativamente a experiência geral do seu público. Aspose.Slides for .NET permite que os desenvolvedores integrem perfeitamente quadros de áudio em slides de apresentação, adicionando uma nova camada de envolvimento e interatividade. Este guia passo a passo orientará você no processo de adição de quadros de áudio a slides de apresentação usando Aspose.Slides for .NET.
 ## Pré-requisitos
@@ -67,9 +63,3 @@ Sim, Aspose.Slides oferece flexibilidade na definição de configurações de re
  Visite a[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) buscar assistência e se envolver com a comunidade.
 ### Como faço para adquirir o Aspose.Slides para .NET?
  Você pode adquirir a biblioteca no[Aspose loja](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

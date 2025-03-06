@@ -3,14 +3,10 @@ title: Màu chuỗi biểu đồ tự động trong các trang trình bày Java
 linktitle: Màu chuỗi biểu đồ tự động trong các trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo biểu đồ động với chuỗi màu tự động trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Tăng cường trực quan hóa dữ liệu của bạn một cách dễ dàng.
+type: docs
 weight: 14
 url: /vi/java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu về Màu chuỗi biểu đồ tự động trong Aspose.Slides cho Java
 
@@ -194,9 +190,3 @@ Có, bạn có thể định dạng thêm biểu đồ, chuỗi và nhãn nếu 
 ### Tôi có thể tìm thêm thông tin về cách làm việc với Aspose.Slides cho Java ở đâu?
 
  Để biết thêm thông tin và tài liệu chi tiết về Aspose.Slides cho Java, bạn có thể truy cập tài liệu tham khảo[đây](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

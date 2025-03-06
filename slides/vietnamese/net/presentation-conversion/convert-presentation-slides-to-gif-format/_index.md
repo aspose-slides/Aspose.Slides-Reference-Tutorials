@@ -3,14 +3,10 @@ title: Chuyển đổi slide thuyết trình sang định dạng GIF
 linktitle: Chuyển đổi slide thuyết trình sang định dạng GIF
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách sử dụng Aspose.Slides cho .NET để chuyển đổi các trang chiếu PowerPoint thành ảnh GIF động bằng hướng dẫn từng bước này.
+type: docs
 weight: 21
 url: /vi/net/presentation-conversion/convert-presentation-slides-to-gif-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu về Aspose.Slides cho .NET
 
@@ -137,9 +133,3 @@ Có, Aspose.Slides for .NET có thể được sử dụng trong cả dự án c
 ### Tôi có thể tìm thêm ví dụ về mã và tài liệu ở đâu?
 
  Bạn có thể tìm thêm các ví dụ về mã và tài liệu chi tiết về cách sử dụng Aspose.Slides cho .NET trong phần[tài liệu](https://reference.aspose.com).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java를 사용하여 PowerPoint에서 HTML 텍스트 내보내기
 linktitle: Java를 사용하여 PowerPoint에서 HTML 텍스트 내보내기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides와 함께 Java를 사용하여 PowerPoint에서 HTML 텍스트를 내보내는 방법을 알아보세요. 개발자를 위한 단계별 가이드. Java 애플리케이션에 통합하는 데 적합합니다.
+type: docs
 weight: 12
 url: /ko/java/java-powerpoint-text-alignment-formatting/export-html-text-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java의 도움으로 Java를 사용하여 PowerPoint 프레젠테이션에서 HTML 텍스트를 내보내는 방법을 배웁니다. Aspose.Slides는 개발자가 PowerPoint 프레젠테이션을 프로그래밍 방식으로 조작하여 텍스트를 HTML로 내보내는 등의 작업을 간단하고 효율적으로 만들 수 있는 강력한 라이브러리입니다.
 ## 전제 조건
@@ -82,9 +78,3 @@ Aspose.Slides는 Office 97에서 Office 365까지 PowerPoint 프레젠테이션�
 예, Aspose.Slides를 상업용 애플리케이션에서 사용하려면 유효한 라이선스가 필요합니다.
 ### Aspose.Slides에 대한 추가 예제와 문서는 어디서 찾을 수 있나요?
  방문하다[Java 문서용 Aspose.Slides](https://reference.aspose.com/slides/java/) 포괄적인 가이드 및 API 참조를 확인하세요.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

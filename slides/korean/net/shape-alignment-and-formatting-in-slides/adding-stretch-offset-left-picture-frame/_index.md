@@ -3,14 +3,10 @@ title: Aspose.Slide를 사용하여 PowerPoint에서 왼쪽에 스트레치 오�
 linktitle: Aspose.Slides의 그림 프레임 왼쪽에 스트레치 오프셋 추가
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션을 향상시키는 방법을 알아보세요. 사진 프레임의 왼쪽에 스트레치 오프셋을 추가하려면 단계별 가이드를 따르세요.
+type: docs
 weight: 14
 url: /ko/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 Aspose.Slides for .NET은 개발자가 PowerPoint 프레젠테이션을 쉽게 조작할 수 있도록 지원하는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 그림 프레임의 왼쪽에 스트레치 오프셋을 추가하는 과정을 살펴보겠습니다. PowerPoint 프레젠테이션 내에서 이미지 및 모양 작업 기술을 향상하려면 이 단계별 가이드를 따르세요.
 ## 전제 조건
@@ -89,9 +85,3 @@ A: Aspose.Slides는 최신 .NET 프레임워크 버전과의 호환성을 보장
  A: 탐색해 보세요.[Aspose.Slides 문서](https://reference.aspose.com/slides/net/) 포괄적인 예시와 지침을 확인하세요.
 ### Q: 단일 모양에 여러 스트레치 오프셋을 적용할 수 있습니까?
 A: 예, 여러 스트레치 오프셋을 결합하여 복잡하고 사용자 정의된 시각 효과를 얻을 수 있습니다.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

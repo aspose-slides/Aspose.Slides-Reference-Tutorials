@@ -3,14 +3,10 @@ title: Voeg een pijlvormige lijn toe in PowerPoint
 linktitle: Voeg een pijlvormige lijn toe in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u pijlvormige lijnen aan PowerPoint-presentaties kunt toevoegen met Aspose.Slides voor Java. Verbeter de visuele aantrekkingskracht moeiteloos.
+type: docs
 weight: 10
 url: /nl/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 Het toevoegen van pijlvormige lijnen aan PowerPoint-presentaties kan de visuele aantrekkingskracht vergroten en helpen bij het effectief overbrengen van informatie. Aspose.Slides voor Java biedt een uitgebreide oplossing voor Java-ontwikkelaars om PowerPoint-presentaties programmatisch te manipuleren. In deze zelfstudie begeleiden we u bij het proces van het toevoegen van pijlvormige lijnen aan uw PowerPoint-dia's met behulp van Aspose.Slides voor Java.
 ## Vereisten
@@ -80,9 +76,3 @@ U kunt de documentatie verkennen, de bibliotheek downloaden en toegang krijgen t
  Documentatie:[Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/)
  Downloaden:[Aspose.Slides voor Java-download](https://releases.aspose.com/slides/java/)
  Steun:[Aspose.Slides voor Java-ondersteuningsforum](https://forum.aspose.com/c/slides/11)
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Uspořádat rozložení grafu Typ v SmartArt pomocí Java
 linktitle: Uspořádat rozložení grafu Typ v SmartArt pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Zvládněte uspořádání typů rozložení grafů v SmartArt pomocí Java s Aspose.Slides, bez námahy vylepšujte vizuály prezentace.
+type: docs
 weight: 13
 url: /cs/java/java-powerpoint-smartart-manipulation/organize-chart-layout-type-smartart-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 tomto tutoriálu projdeme procesem organizace typu rozložení grafu v SmartArt pomocí Java, konkrétně s využitím knihovny Aspose.Slides. SmartArt v prezentacích může výrazně zlepšit vizuální přitažlivost a jasnost vašich dat, takže je nezbytné zvládnout manipulaci s nimi.
 ## Předpoklady
@@ -59,9 +55,3 @@ Ano, vývojáři mohou nahlédnout do podrobné dokumentace poskytnuté Aspose.S
 Ano, před rozhodnutím o koupi máte přístup k bezplatné zkušební verzi Aspose.Slides a prozkoumejte její funkce.
 ### Kde mohu hledat podporu pro dotazy související s Aspose.Slides?
  Pro jakoukoli pomoc nebo dotazy týkající se Aspose.Slides můžete navštívit fórum podpory[tady](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

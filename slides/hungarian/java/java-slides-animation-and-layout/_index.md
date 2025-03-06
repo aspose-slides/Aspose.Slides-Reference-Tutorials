@@ -3,14 +3,10 @@ title: Java Slides animáció és elrendezés
 linktitle: Java Slides animáció és elrendezés
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Tanuljon meg Java Slides animációt és elrendezést az Aspose.Slides for Java segítségével. Mester interaktív prezentációk. Merüljön el a dinamikus tartalomkészítésben.
+type: docs
 weight: 14
 url: /hu/java/animation-and-layout/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Szeretne életet lehelni prezentációiba, és lebilincselő diákat készíteni Java segítségével? Az Aspose.Slides for Java a legjobb megoldás. Ebben az átfogó útmutatóban megvizsgáljuk, hogyan lehet elsajátítani a Java dia-animációt és elrendezést, így biztosítva, hogy prezentációi kitűnjenek a többi közül.
 
@@ -46,9 +42,3 @@ Optimalizálja Java prezentációit az Aspose.Slides for Java segítségével. I
 Optimalizálja prezentációit sorozatanimációkkal az Aspose.Slides for Java programban. Kövesse lépésenkénti útmutatónkat forráskód-példákkal, hogy lenyűgöző PowerPoint-animációkat készítsen.
 ### [Sorozatelemek animálása a Java diákban](./animating-series-elements-java-slides/)
 Ismerje meg, hogyan animálhat sorozatelemeket a PowerPoint diákban az Aspose.Slides for Java segítségével. Kövesse ezt az átfogó, lépésenkénti útmutatót a forráskóddal, hogy javítsa prezentációit.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

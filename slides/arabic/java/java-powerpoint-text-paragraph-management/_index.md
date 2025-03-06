@@ -3,14 +3,10 @@ title: جافا باور بوينت إدارة النصوص والفقرات
 linktitle: جافا باور بوينت إدارة النصوص والفقرات
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: إتقان إدارة النصوص والفقرات في Java PowerPoint باستخدام Aspose.Slides. تعلم كيفية استيراد نص HTML وإدارة تباعد الأسطر وإنشاء التعداد النقطي ومحاذاة الفقرات.
+type: docs
 weight: 26
 url: /ar/java/java-powerpoint-text-paragraph-management/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 
 يمكن أن يؤدي إنشاء عروض PowerPoint التقديمية جيدة التنظيم وجذابة بصريًا إلى تحسين اتصالاتك بشكل كبير. مع Aspose.Slides for Java، تصبح إدارة النص والفقرات مهمة واضحة. سواء كنت بحاجة إلى استيراد نص HTML، أو إدارة تباعد الأسطر، أو إنشاء رموز نقطية متعددة المستويات، فإن برامجنا التعليمية التفصيلية سترشدك خلال العملية. دعنا نستكشف كيف يمكنك الارتقاء بعروض Java PowerPoint التقديمية إلى المستوى التالي.
@@ -59,9 +55,3 @@ url: /ar/java/java-powerpoint-text-paragraph-management/
 تعرف على كيفية تعيين المسافات البادئة للفقرة في شرائح PowerPoint برمجياً باستخدام Aspose.Slides لـ Java. قم بتحسين تنسيق العرض التقديمي الخاص بك دون عناء.
 ### [محاذاة الفقرات في PowerPoint باستخدام Java](./align-paragraphs-powerpoint-java/)
 تعرف على كيفية محاذاة الفقرات في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. اتبع دليلنا خطوة بخطوة للتنسيق الدقيق.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

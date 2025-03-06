@@ -3,14 +3,10 @@ title: Java スライドにすべてのフォントを埋め込んでプレゼ�
 linktitle: Java スライドにすべてのフォントを埋め込んでプレゼンテーションを HTML に変換する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、プレゼンテーションを埋め込みフォント付きの HTML に変換する方法を学びます。このステップ バイ ステップ ガイドでは、シームレスな共有のための一貫した書式設定を保証します。
+type: docs
 weight: 13
 url: /ja/java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java スライドにすべてのフォントを埋め込んでプレゼンテーションを HTML に変換する方法の紹介
 
@@ -112,9 +108,3 @@ HTML ファイルのソース コードを調べて、フォント参照を探�
 ### Aspose.Slides for Java のその他のリソースやドキュメントはどこで入手できますか?
 
  Aspose.Slides for Javaの包括的なドキュメントとリソースは、以下からアクセスできます。[Aspose.Slides for Java API リファレンス](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

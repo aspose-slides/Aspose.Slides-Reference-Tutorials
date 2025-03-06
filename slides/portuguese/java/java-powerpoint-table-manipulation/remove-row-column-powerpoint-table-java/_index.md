@@ -3,14 +3,10 @@ title: Remover linha ou coluna na tabela do PowerPoint usando Java
 linktitle: Remover linha ou coluna na tabela do PowerPoint usando Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como remover linhas ou colunas de tabelas do PowerPoint usando Java com Aspose.Slides for Java. Guia passo a passo fácil para desenvolvedores.
+type: docs
 weight: 18
 url: /pt/java/java-powerpoint-table-manipulation/remove-row-column-powerpoint-table-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 Neste tutorial, exploraremos como remover uma linha ou coluna de uma tabela do PowerPoint usando Java com a ajuda de Aspose.Slides. Aspose.Slides for Java é uma biblioteca poderosa que permite aos desenvolvedores criar, manipular e converter apresentações do PowerPoint programaticamente. Este tutorial concentra-se especificamente no processo de modificação de tabelas em slides do PowerPoint, demonstrando passo a passo como remover linhas ou colunas específicas de uma tabela.
 ## Pré-requisitos
@@ -78,9 +74,3 @@ Aspose.Slides fornece suporte abrangente para criação, modificação e convers
 Sim, Aspose.Slides é amplamente utilizado em ambientes corporativos para automatizar tarefas do PowerPoint devido aos seus recursos e desempenho robustos.
 ### Posso experimentar o Aspose.Slides antes de comprar?
  Sim, você pode baixar uma avaliação gratuita do Aspose.Slides em[aqui](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

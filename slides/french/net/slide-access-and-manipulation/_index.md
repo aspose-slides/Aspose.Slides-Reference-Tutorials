@@ -3,14 +3,10 @@ title: Accès aux diapositives et manipulation
 linktitle: Accès aux diapositives et manipulation
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Explorez des didacticiels complets sur l'accès et la manipulation des diapositives à l'aide d'Aspose.Slides pour .NET. Apprenez à créer, modifier et améliorer des présentations par programmation.
+type: docs
 weight: 10
 url: /fr/net/slide-access-and-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction:
 
 Bienvenue dans un monde de manipulation de présentations dynamiques avec Aspose.Slides pour .NET ! Cette collection de didacticiels est votre clé pour libérer tout le potentiel de l'API Aspose.Slides, vous offrant les outils et les connaissances nécessaires pour accéder et manipuler de manière transparente les diapositives dans vos applications .NET. De la création de présentations captivantes à la mise en œuvre de modifications complexes, ces didacticiels vous fournissent une feuille de route complète. Que vous soyez un développeur chevronné ou que vous commenciez tout juste votre parcours avec Aspose.Slides, nos guides étape par étape et nos exemples de code vous permettront d'exploiter la puissance des diapositives pour une narration visuelle percutante. Rejoignez-nous alors que nous embarquons dans un voyage dans le domaine de l'accès et de la manipulation des diapositives, en explorant les capacités qu'Aspose.Slides met à votre disposition.
@@ -48,9 +44,3 @@ Découvrez comment ajuster la position des diapositives dans les présentations 
 Apprenez à effacer des diapositives PowerPoint étape par étape à l'aide d'Aspose.Slides pour .NET. Notre guide fournit des instructions claires et un code source complet pour vous aider à supprimer par programme les diapositives par leur index séquentiel.
 ### [Supprimer la diapositive via la référence](./remove-slide-using-reference/)
 Découvrez comment supprimer des diapositives par programmation dans des présentations PowerPoint à l'aide d'Aspose.Slides for .NET. Simplifiez la manipulation de la présentation avec ce guide étape par étape.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

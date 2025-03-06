@@ -3,14 +3,10 @@ title: Définir les propriétés de la police de texte dans PowerPoint avec Java
 linktitle: Définir les propriétés de la police de texte dans PowerPoint avec Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir les propriétés de police de texte dans PowerPoint à l'aide d'Aspose.Slides pour Java. Guide simple étape par étape pour les développeurs Java.#Apprenez à manipuler les propriétés de la police de texte PowerPoint à l'aide d'Aspose.Slides pour Java avec ce didacticiel étape par étape pour les développeurs Java.
+type: docs
 weight: 18
 url: /fr/java/java-powerpoint-text-font-customization/set-text-font-properties-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Dans ce didacticiel, vous apprendrez à utiliser Aspose.Slides for Java pour définir par programme diverses propriétés de police de texte dans une présentation PowerPoint. Nous aborderons la définition du type de police, du style (gras, italique), du soulignement, de la taille et de la couleur du texte dans les diapositives.
 ## Conditions préalables
@@ -89,9 +85,3 @@ Oui, vous pouvez utiliser Aspose.Slides pour travailler avec des modèles PowerP
 Oui, Aspose.Slides permet d'exporter des présentations vers différents formats, dont PDF.
 ### Où puis-je trouver plus d’aide et de support pour Aspose.Slides ?
  Visite[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien et les conseils de la communauté.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

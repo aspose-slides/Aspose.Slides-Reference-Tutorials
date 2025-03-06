@@ -3,14 +3,10 @@ title: Java kullanarak SmartArt'taki Alt Düğümlere erişme
 linktitle: Java kullanarak SmartArt'taki Alt Düğümlere erişme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Bu adım adım kılavuzla Aspose.Slides for Java'yı kullanarak SmartArt'ta alt düğümlere nasıl erişeceğinizi ve bunları nasıl yöneteceğinizi öğrenin.
+type: docs
 weight: 10
 url: /tr/java/java-powerpoint-smartart-manipulation/access-child-nodes-smartart-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 Sunumlarınızda SmartArt grafiklerini programlı olarak nasıl değiştirebileceğinizi hiç merak ettiniz mi? Aspose.Slides for Java, PowerPoint sunumlarını yönetmek ve düzenlemek için başvuracağınız kitaplıktır. Bu güçlü araç, geliştiricilerin SmartArt grafikleri de dahil olmak üzere bir sunumdaki çeşitli öğelere erişmesine ve bunları yönetmesine olanak tanır. Bu eğitimde, Java kullanarak SmartArt'taki alt düğümlere erişme konusunda size rehberlik ederek sunumlarınızı daha dinamik ve etkileşimli hale getireceğiz. Bu kılavuzun sonunda SmartArt düğümlerini kolaylıkla geçme ve yönetme bilgisine sahip olacaksınız.
 ## Önkoşullar
@@ -85,9 +81,3 @@ Evet, Aspose.Slides for Java, bir sunumdaki metin, şekiller, resimler ve grafik
  Belgeler mevcut[Burada](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java ile geliştirme için en iyi IDE hangisidir?
 IntelliJ IDEA ve Eclipse, Aspose.Slides for Java ile iyi çalışan popüler IDE'lerdir.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

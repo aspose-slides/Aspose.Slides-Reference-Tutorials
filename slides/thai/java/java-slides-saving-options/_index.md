@@ -3,14 +3,10 @@ title: ตัวเลือกการบันทึก Java Slides
 linktitle: ตัวเลือกการบันทึก Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้เกี่ยวกับตัวเลือกการบันทึก Java Slides ด้วย Aspose.Slides สำหรับ Java สำรวจบทช่วยสอนและคำแนะนำที่ครอบคลุมเพื่อการจัดการและการปรับแต่งสไลด์ที่มีประสิทธิภาพ
+type: docs
 weight: 25
 url: /th/java/saving-options/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 
 ในโลกของการนำเสนอแบบไดนามิก Java ได้กลายเป็นภาษาอเนกประสงค์ โดยมีเครื่องมือและไลบรารีมากมายเพื่อปรับปรุงสไลด์โชว์ของคุณ เมื่อพูดถึงการจัดการและปรับแต่งสไลด์ Aspose.Slides สำหรับ Java ถือเป็นโซลูชันที่ทรงพลัง ในบทความนี้ เราจะเจาะลึกขอบเขตที่น่าตื่นเต้นของตัวเลือกการบันทึก Java Slides โดยใช้ Aspose.Slides สำหรับ Java
@@ -50,9 +46,3 @@ Aspose.Slides สำหรับ Java รองรับรูปแบบอื
 เรียนรู้วิธีบันทึกงานนำเสนอ PowerPoint เป็นแบบอ่านอย่างเดียวใน Java โดยใช้ Aspose.Slides ปกป้องเนื้อหาของคุณด้วยคำแนะนำทีละขั้นตอนและตัวอย่างโค้ด
 ### [บันทึกคุณสมบัติใน Java Slides](./save-properties-in-java-slides/)
 เพิ่มประสิทธิภาพการนำเสนอ PowerPoint ของคุณด้วย Aspose.Slides สำหรับ Java เรียนรู้การตั้งค่าคุณสมบัติ ปิดใช้งานการเข้ารหัส เพิ่มการป้องกันด้วยรหัสผ่าน และบันทึกได้อย่างง่ายดาย
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

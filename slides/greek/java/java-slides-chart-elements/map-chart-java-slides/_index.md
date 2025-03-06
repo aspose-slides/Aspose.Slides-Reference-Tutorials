@@ -3,14 +3,10 @@ title: Γράφημα χάρτη σε διαφάνειες Java
 linktitle: Γράφημα χάρτη σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Δημιουργήστε εντυπωσιακά γραφήματα χαρτών σε παρουσιάσεις PowerPoint με το Aspose.Slides για Java. Οδηγός βήμα προς βήμα και πηγαίος κώδικας για προγραμματιστές Java.
+type: docs
 weight: 15
 url: /el/java/chart-elements/map-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στο χάρτη χάρτη σε διαφάνειες Java με χρήση Aspose.Slides για Java
 
@@ -135,9 +131,3 @@ try {
 ### Πώς μπορώ να ενσωματώσω το Aspose.Slides για Java στο έργο μου;
 
  Κατεβάστε τη βιβλιοθήκη από[εδώ](https://releases.aspose.com/slides/java/) και προσθέστε το στη διαδρομή τάξης του έργου σας.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

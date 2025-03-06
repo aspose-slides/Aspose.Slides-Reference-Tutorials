@@ -3,14 +3,10 @@ title: Substitution de polices dans Java PowerPoint
 linktitle: Substitution de polices dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment effectuer une substitution de police dans des présentations Java PowerPoint à l'aide d'Aspose.Slides. Améliorez la compatibilité et la cohérence sans effort.
+type: docs
 weight: 14
 url: /fr/java/java-powerpoint-font-management/fonts-substitution-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 
 Dans le domaine du développement Java, Aspose.Slides apparaît comme un outil puissant, offrant une myriade de fonctionnalités pour manipuler des présentations PowerPoint par programme. Parmi ses nombreuses fonctionnalités, la substitution de polices se démarque comme un aspect crucial, garantissant la cohérence et la compatibilité entre les différents systèmes. Ce didacticiel explore le processus de substitution de polices dans les présentations Java PowerPoint à l'aide d'Aspose.Slides. Que vous soyez un développeur chevronné ou un novice s'aventurant dans le monde de la programmation Java, ce guide vise à fournir une approche complète, étape par étape, pour implémenter la substitution de polices de manière transparente.
@@ -94,9 +90,3 @@ Aspose.Slides est optimisé pour les performances, garantissant des processus de
 
 ### Une assistance technique est-elle disponible pour les utilisateurs d'Aspose.Slides ?
 Oui, Aspose offre une assistance technique complète aux utilisateurs d'Aspose.Slides via ses forums dédiés, fournissant une assistance et des conseils pour la mise en œuvre et le dépannage.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

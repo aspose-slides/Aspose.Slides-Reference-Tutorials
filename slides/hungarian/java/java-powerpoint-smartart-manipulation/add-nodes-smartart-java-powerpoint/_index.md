@@ -3,14 +3,10 @@ title: Csomópontok hozzáadása a SmartArthoz a Java PowerPointban
 linktitle: Csomópontok hozzáadása a SmartArthoz a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat hozzá SmartArt-csomópontokat Java PowerPoint-prezentációkhoz az Aspose.Slides for Java segítségével. Fokozza a vizuális vonzerőt erőfeszítés nélkül.
+type: docs
 weight: 15
 url: /hu/java/java-powerpoint-smartart-manipulation/add-nodes-smartart-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Java PowerPoint prezentációk területén a SmartArt-csomópontok manipulálása nagymértékben javíthatja a diák vizuális vonzerejét és hatékonyságát. Az Aspose.Slides for Java robusztus megoldást kínál a Java fejlesztők számára a SmartArt funkciók zökkenőmentes integrálására prezentációikba. Ebben az oktatóanyagban a Java PowerPoint prezentációkban az Aspose.Slides segítségével csomópontok SmartArthoz való hozzáadásának folyamatát mutatjuk be.
 ## Előfeltételek
@@ -75,9 +71,3 @@ Egyáltalán ismételheti a diákat, és szükség szerint hozzáadhat SmartArt-
 Igen, az Aspose.Slides for Java szolgáltatások átfogó készletét kínálja a PowerPoint manipulációhoz, beleértve a diakészítést, animációt és alakkezelést.
 ### Hol kérhetek segítséget vagy támogatást az Aspose.Slides for Java-hoz?
  Meglátogathatja a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásért, vagy részletes útmutatásért tekintse meg a dokumentációt.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

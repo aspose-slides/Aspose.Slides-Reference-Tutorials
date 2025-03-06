@@ -3,14 +3,10 @@ title: Sunumu HTML5 Formatına Dönüştür
 linktitle: Sunumu HTML5 Formatına Dönüştür
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak PowerPoint sunumlarını HTML5 formatına nasıl dönüştüreceğinizi öğrenin. Web paylaşımı için kolay ve etkili dönüştürme.
+type: docs
 weight: 22
 url: /tr/net/presentation-conversion/convert-presentation-to-html5-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Aspose.Slides for .NET'i kullanarak Sunumu HTML5 Formatına Dönüştürün
 
 Bu kılavuzda, Aspose.Slides for .NET kitaplığını kullanarak bir PowerPoint sunumunu (PPT/PPTX) HTML5 formatına dönüştürme sürecinde size yol göstereceğiz. Aspose.Slides, PowerPoint sunumlarını çeşitli formatlarda değiştirmenize ve dönüştürmenize olanak tanıyan güçlü bir kütüphanedir.
@@ -85,9 +81,3 @@ Evet, Aspose.Slides for .NET, animasyonlar ve geçişler içeren sunumların HTM
 ### Aspose.Slides'ın deneme sürümü mevcut mu?
 
  Evet, Aspose.Slides for .NET'in ücretsiz deneme sürümünü şu adresten edinebilirsiniz:[indirme sayfası](https://releases.aspose.com/slides/net).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

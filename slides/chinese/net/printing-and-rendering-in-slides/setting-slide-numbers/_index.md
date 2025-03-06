@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 设置演示文稿的幻灯片编号
 linktitle: 使用 Aspose.Slides 设置演示文稿的幻灯片编号
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 探索幻灯片操作的无缝世界。了解如何轻松设置幻灯片编号，增强您的演示体验。
+type: docs
 weight: 16
 url: /zh/net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 在动态的演示世界中，控制幻灯片的顺序和组织对于有效沟通至关重要。Aspose.Slides for .NET 提供了一个强大的解决方案来操纵演示文稿中的幻灯片编号，让您可以灵活地无缝自定义内容。
 ## 先决条件
@@ -67,9 +63,3 @@ Aspose.Slides for .NET 使您能够通过轻松设置幻灯片编号来控制演
 访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)获得社区支持或探索高级支持选项。
 ### 我可以在购买之前试用 Aspose.Slides 吗？
 是的，你可以从以下网站下载免费试用版[这里](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

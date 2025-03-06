@@ -3,14 +3,10 @@ title: การแยกเสียงและวิดีโอ
 linktitle: การแยกเสียงและวิดีโอ
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: สำรวจบทช่วยสอน Aspose.Slides ที่ครอบคลุมเกี่ยวกับการแยกเสียงและวิดีโอในแอปพลิเคชัน .NET เรียนรู้วิธีแยกและจัดการองค์ประกอบมัลติมีเดียจากงานนำเสนอ PowerPoint โดยทางโปรแกรม
+type: docs
 weight: 15
 url: /th/net/audio-and-video-extraction/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## การแนะนำ:
 
@@ -35,9 +31,3 @@ url: /th/net/audio-and-video-extraction/
 เรียนรู้วิธีแยกเสียงจากไทม์ไลน์ของ PowerPoint โดยใช้ Aspose.Slides สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ด
 ### [แยกวิดีโอออกจากสไลด์](./extract-video/)
 การแยกวิดีโอหลักจากสไลด์ PowerPoint โดยใช้ Aspose.Slides สำหรับ .NET ปฏิบัติตามคำแนะนำของเราพร้อมตัวอย่างโค้ด
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

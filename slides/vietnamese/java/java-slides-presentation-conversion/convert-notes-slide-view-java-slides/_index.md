@@ -3,14 +3,10 @@ title: Chuyển đổi dạng xem slide ghi chú trong Java Slides
 linktitle: Chuyển đổi dạng xem slide ghi chú trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách chuyển đổi chế độ xem slide ghi chú trong Java Slides bằng Aspose.Slides cho Java. Hướng dẫn từng bước với các ví dụ về mã để thao tác PowerPoint hiệu quả.
+type: docs
 weight: 15
 url: /vi/java/presentation-conversion/convert-notes-slide-view-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu về Chuyển đổi dạng xem slide ghi chú trong Java Slide bằng Aspose.Slides
 
@@ -105,10 +101,3 @@ Aspose.Slides được thiết kế để hoạt động với nhiều định d
 ### Tôi có thể tìm thêm ví dụ về mã và hướng dẫn về Aspose.Slides cho Java ở đâu?
 
  Bạn có thể tìm thấy rất nhiều ví dụ về mã và hướng dẫn trong[Aspose.Slides cho tài liệu Java](https://reference.aspose.com/slides/java/)Khám phá tài liệu để tìm hiểu thêm về khả năng của thư viện mạnh mẽ này.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

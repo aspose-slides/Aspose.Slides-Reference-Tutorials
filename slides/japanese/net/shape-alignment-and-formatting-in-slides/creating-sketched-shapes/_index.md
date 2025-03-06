@@ -3,14 +3,10 @@ title: Aspose.Slides で魅力的なスケッチ図形を作成する
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドにスケッチ図形を作成する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、プレゼンテーション スライドにクリエイティブなスケッチ図形を追加する方法を学びます。視覚的な魅力を簡単に高めることができます。
+type: docs
 weight: 13
 url: /ja/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 Aspose.Slides for .NET を使用してプレゼンテーション スライドにスケッチ図形を作成する手順を説明したガイドへようこそ。プレゼンテーションに創造性を加えたい場合は、スケッチ図形を使用すると、手描きのようなユニークな外観を実現できます。このチュートリアルでは、プロセスを簡単な手順に分解して順を追って説明し、スムーズな操作を実現します。
 ## 前提条件
@@ -78,9 +74,3 @@ pres.Save(outPptxFile, SaveFormat.Pptx);
  Aspose.Slides for .NETを購入するには、[購入ページ](https://purchase.aspose.com/buy).
 ### 5. 一時ライセンスを提供していますか?
 はい、一時ライセンスは利用可能です[ここ](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

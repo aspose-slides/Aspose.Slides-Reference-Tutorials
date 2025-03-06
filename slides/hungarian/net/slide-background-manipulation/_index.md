@@ -3,14 +3,10 @@ title: Dia háttér-manipuláció az Aspose.Slides segítségével
 linktitle: Dia háttér manipuláció
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Növelje diakialakítását az Aspose.Slides segítségével! Ebben az átfogó oktatóanyagban megtudhatja, hogyan kezelheti a dia hátterét. Részletes utasítások és kódpéldák.
+type: docs
 weight: 11
 url: /hu/net/slide-background-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés
 
@@ -41,9 +37,3 @@ Ismerje meg, hogyan állíthat be képet dia háttérként az Aspose.Slides for 
 Ebből a lépésről lépésre szóló útmutatóból megtudhatja, hogyan sajátíthatja el a dia hátterének beállítását az Aspose.Slides segítségével. Emelje prezentációit a következő szintre magával ragadó látványvilággal.
 ### [Normál dia hátterének módosítása](./change-slide-background-normal/)
 Ismerje meg, hogyan módosíthatja a normál dia hátterét, hogy elbűvölje közönségét. Kövesse ezt az átfogó útmutatót az Aspose.Slides for .NET használatával, lépésenkénti utasításokkal és kódpéldákkal kiegészítve.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

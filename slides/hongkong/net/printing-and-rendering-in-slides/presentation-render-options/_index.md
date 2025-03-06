@@ -3,14 +3,10 @@ title: Aspose.Slides 渲染選項 - 提升您的簡報
 linktitle: 探索 Aspose.Slides 中簡報投影片的渲染選項
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 探索 Aspose.Slides 的 .NET 渲染選項。自訂字體、佈局等，以打造引人入勝的簡報。毫不費力地增強您的幻燈片。
+type: docs
 weight: 15
 url: /zh-hant/net/printing-and-rendering-in-slides/presentation-render-options/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 創建令人驚嘆的簡報通常需要微調渲染選項以實現所需的視覺效果。在本教學中，我們將使用 Aspose.Slides for .NET 深入研究簡報投影片的渲染選項。請跟隨詳細步驟和範例了解如何最佳化簡報。
 ## 先決條件
 在我們開始這次渲染冒險之前，請確保您具備以下先決條件：
@@ -74,9 +70,3 @@ pres.Slides[0].GetThumbnail(renderingOpts, 4 / 3f, 4 / 3f).Save(Path.Combine(Run
 答：是的，使用指定字型檔路徑`AddFonts`方法中的`FontsLoader`班級。
 ### Q：我可以在哪裡尋求協助或與社區聯繫？
 答：訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)以尋求支持和社區參與。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

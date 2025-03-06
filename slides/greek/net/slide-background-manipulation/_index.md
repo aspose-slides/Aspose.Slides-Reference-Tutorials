@@ -3,14 +3,10 @@ title: Χειρισμός φόντου διαφανειών με χρήση Aspo
 linktitle: Χειρισμός φόντου διαφανειών
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Βελτιώστε τη σχεδίαση της διαφάνειας σας με το Aspose.Slides! Μάθετε πώς να χειρίζεστε το φόντο των διαφανειών σε αυτό το περιεκτικό σεμινάριο. Παρέχονται οδηγίες βήμα προς βήμα και παραδείγματα κώδικα.
+type: docs
 weight: 11
 url: /el/net/slide-background-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή
 
@@ -41,9 +37,3 @@ url: /el/net/slide-background-manipulation/
 Μάθετε πώς να κυριαρχείτε στη ρύθμιση του φόντου διαφανειών χρησιμοποιώντας το Aspose.Slides σε αυτόν τον αναλυτικό οδηγό. Ανεβάστε τις παρουσιάσεις σας στο επόμενο επίπεδο με συναρπαστικά γραφικά.
 ### [Αλλαγή του κανονικού φόντου διαφάνειας](./change-slide-background-normal/)
 Μάθετε πώς να αλλάζετε το κανονικό φόντο της διαφάνειας για να αιχμαλωτίσετε το κοινό σας. Ακολουθήστε αυτόν τον αναλυτικό οδηγό χρησιμοποιώντας το Aspose.Slides για .NET, με οδηγίες βήμα προς βήμα και παραδείγματα κώδικα.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

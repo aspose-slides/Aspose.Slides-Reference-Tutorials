@@ -3,14 +3,10 @@ title: Convierta a PDF con diapositivas ocultas en Java Slides
 linktitle: Convierta a PDF con diapositivas ocultas en Java Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo convertir presentaciones de PowerPoint a PDF con diapositivas ocultas usando Aspose.Slides para Java. Siga nuestra guía paso a paso con código fuente para una generación de PDF perfecta.
+type: docs
 weight: 27
 url: /es/java/presentation-conversion/convert-pdf-hidden-slides-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introducción a convertir presentaciones de PowerPoint a PDF con diapositivas ocultas usando Aspose.Slides para Java
 
@@ -119,9 +115,3 @@ slide.setHidden(false);
 ### ¿Cómo descargo Aspose.Slides para Java?
 
  Puede descargar Aspose.Slides para Java desde el sitio web de Aspose. Visita el[Página de descarga de Aspose.Slides para Java](https://releases.aspose.com/slides/java/) para obtener la última versión.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

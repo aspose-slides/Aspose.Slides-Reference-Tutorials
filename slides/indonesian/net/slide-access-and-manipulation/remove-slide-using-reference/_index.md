@@ -3,14 +3,10 @@ title: Hapus Slide melalui Referensi
 linktitle: Hapus Slide melalui Referensi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menghapus slide dalam presentasi PowerPoint dengan Aspose.Slides untuk .NET, pustaka canggih untuk pengembang .NET.
+type: docs
 weight: 25
 url: /id/net/slide-access-and-manipulation/remove-slide-using-reference/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Sebagai penulis SEO yang mahir, saya di sini untuk memberi Anda panduan komprehensif tentang penggunaan Aspose.Slides untuk .NET untuk menghapus slide dari presentasi PowerPoint. Dalam tutorial langkah demi langkah ini, kami akan memecah proses menjadi langkah-langkah yang dapat dikelola, memastikan bahwa Anda dapat mengikutinya dengan mudah. Jadi, mari kita mulai!
 
@@ -105,9 +101,3 @@ Ya, Anda dapat menelusuri slide dan menghapus beberapa slide secara terprogram.
 
 ### Bisakah saya membatalkan penghapusan slide menggunakan Aspose.Slides untuk .NET?
 Setelah slide dihapus, slide tersebut tidak dapat dibatalkan dengan mudah. Dianjurkan untuk menyimpan cadangan presentasi Anda sebelum melakukan perubahan tersebut.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

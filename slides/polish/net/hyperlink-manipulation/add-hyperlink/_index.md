@@ -3,14 +3,10 @@ title: Dodawanie hiperłączy do slajdów w .NET przy użyciu Aspose.Slides
 linktitle: Dodaj hiperłącze do slajdu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak dodawać hiperłącza do slajdów programu PowerPoint za pomocą Aspose.Slides dla .NET. Wzbogać swoje prezentacje elementami interaktywnymi.
+type: docs
 weight: 12
 url: /pl/net/hyperlink-manipulation/add-hyperlink/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 W świecie prezentacji cyfrowych interaktywność jest kluczowa. Dodanie hiperłączy do slajdów może sprawić, że prezentacja będzie bardziej wciągająca i pouczająca. Aspose.Slides dla .NET to potężna biblioteka, która umożliwia programowe tworzenie, modyfikowanie i manipulowanie prezentacjami programu PowerPoint. W tym samouczku pokażemy, jak dodać hiperłącza do slajdów za pomocą Aspose.Slides dla .NET. 
 
@@ -110,9 +106,3 @@ Aspose.Slides oferuje szeroką gamę funkcji interaktywnych, w tym przyciski akc
 ### 5. Czy Aspose.Slides jest dostępny dla innych języków programowania?
 
 Tak, Aspose.Slides jest dostępny dla różnych języków programowania, w tym Java i Python.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

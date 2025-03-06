@@ -3,14 +3,10 @@ title: Сравнение слайдов в презентации
 linktitle: Сравнение слайдов в презентации
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как сравнивать слайды в презентациях с помощью Aspose.Slides для .NET. Пошаговое руководство с исходным кодом для точного сравнения.
+type: docs
 weight: 12
 url: /ru/net/chart-creation-and-customization/check-slides-comparison/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Введение в сравнение слайдов в презентации
 
@@ -147,9 +143,3 @@ url: /ru/net/chart-creation-and-customization/check-slides-comparison/
 ### Существуют ли какие-либо передовые методы оптимизации производительности сравнения презентаций?
 
 Да, реализация эффективных алгоритмов и управление использованием памяти являются ключом к оптимизации производительности сравнения презентаций.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

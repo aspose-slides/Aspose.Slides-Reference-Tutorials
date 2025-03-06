@@ -3,14 +3,10 @@ title: Datos de formato de marco de texto efectivo en Java PowerPoint
 linktitle: Datos de formato de marco de texto efectivo en Java PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a formatear marcos de texto en presentaciones de PowerPoint en Java con Aspose.Slides para Java. Mejore el atractivo visual de sus diapositivas sin esfuerzo.
+type: docs
 weight: 15
 url: /es/java/java-powerpoint-font-management/effective-text-frame-format-data-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introducción
 En el ámbito de las presentaciones basadas en Java, Aspose.Slides para Java surge como una potente herramienta que permite a los desarrolladores crear presentaciones de diapositivas dinámicas y visualmente cautivadoras con facilidad. Uno de los aspectos críticos de la creación de presentaciones atractivas radica en formatear eficazmente los marcos de texto. En esta guía completa, profundizamos en las complejidades de aprovechar Aspose.Slides para Java para dominar el arte del formato de marcos de texto.
 ## Requisitos previos
@@ -76,9 +72,3 @@ De hecho, Aspose.Slides para Java admite la exportación de presentaciones a for
 Sí, puedes aplicar animaciones a marcos de texto y otros elementos dentro de tus presentaciones de PowerPoint usando Aspose.Slides para Java.
 ### ¿Hay soporte técnico disponible para Aspose.Slides para Java?
  Sí, el soporte técnico para Aspose.Slides para Java está disponible a través de[foro](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

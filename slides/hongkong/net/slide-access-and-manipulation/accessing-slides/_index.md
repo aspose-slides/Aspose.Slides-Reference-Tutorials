@@ -3,14 +3,10 @@ title: 造訪 Aspose.Slides 中的投影片
 linktitle: 造訪 Aspose.Slides 中的投影片
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 以程式設計方式存取和操作 PowerPoint 投影片。本逐步指南涵蓋了載入、修改和儲存簡報以及原始程式碼範例。
+type: docs
 weight: 10
 url: /zh-hant/net/slide-access-and-manipulation/accessing-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for .NET 簡介
 
@@ -138,9 +134,3 @@ Aspose.Slides for .NET 提供了超越我們在本指南中介紹的廣泛功能
 ### Aspose.Slides 適合從頭開始建立簡報嗎？
 
 絕對地！ Aspose.Slides 讓您能夠從頭開始建立新的簡報、新增投影片、設定版面並用內容填滿它們，從而提供對簡報建立過程的完全控制。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

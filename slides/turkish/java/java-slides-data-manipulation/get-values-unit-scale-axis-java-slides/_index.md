@@ -3,14 +3,10 @@ title: Java Slaytlarında Eksenden Değerler ve Birim Ölçeği Alma
 linktitle: Java Slaytlarında Eksenden Değerler ve Birim Ölçeği Alma
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java Slides'ta eksenlerden değerleri ve birim ölçeğini nasıl alacağınızı öğrenin. Veri analizi yeteneklerinizi geliştirin.
+type: docs
 weight: 20
 url: /tr/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java Slaytlarında Eksenden Değerler ve Birim Ölçeği Alma Konusuna Giriş
 
@@ -126,9 +122,3 @@ Evet, Aspose.Slides for Java'yı ticari projelerde kullanabilirsiniz. Çeşitli 
 ### Aspose.Slides for Java için daha fazla kaynağı ve belgeyi nerede bulabilirim?
 
  Kapsamlı belgeleri ve ek kaynakları şu adreste bulabilirsiniz:[Aspose.Slides for Java belgeleri](https://reference.aspose.com/slides/java/) İnternet sitesi.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

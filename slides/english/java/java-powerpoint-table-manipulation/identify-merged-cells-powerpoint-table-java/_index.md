@@ -3,14 +3,10 @@ title: Identify Merged Cells in PowerPoint Table using Java
 linktitle: Identify Merged Cells in PowerPoint Table using Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to identify merged cells in PowerPoint tables programmatically using Aspose.Slides for Java. Perfect for Java developers.
+type: docs
 weight: 15
 url: /java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 In the realm of Java development, manipulating PowerPoint presentations programmatically can be a crucial task, especially when dealing with complex data tables. Aspose.Slides for Java provides a powerful toolkit that enables developers to manage various aspects of PowerPoint presentations seamlessly. One common challenge developers face is identifying merged cells within tables embedded in presentations. This tutorial aims to guide you through the process of identifying merged cells using Aspose.Slides for Java.
 ## Prerequisites
@@ -71,10 +67,3 @@ Yes, you can obtain a free trial from [here](https://releases.aspose.com/).
 The documentation can be found [here](https://reference.aspose.com/slides/java/).
 ### How can I get support for Aspose.Slides for Java?
 For support, visit the Aspose.Slides forum [here](https://forum.aspose.com/c/slides/11).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

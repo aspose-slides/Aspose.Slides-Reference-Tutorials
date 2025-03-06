@@ -3,14 +3,10 @@ title: Options de deuxième tracé pour les graphiques dans les diapositives Jav
 linktitle: Options de deuxième tracé pour les graphiques dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment personnaliser des graphiques dans Java Slides à l'aide d'Aspose.Slides pour Java. Explorez les options de deuxième intrigue et améliorez vos présentations.
+type: docs
 weight: 12
 url: /fr/java/chart-creation/second-plot-options-charts-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction aux options de deuxième tracé pour les graphiques dans les diapositives Java
 
@@ -97,9 +93,3 @@ Pour modifier la taille du deuxième secteur d'un graphique à secteurs, utilise
 ### Comment définir la position de la division dans un graphique à secteurs ?
 
  Vous pouvez définir la position de la division dans un graphique à secteurs à l'aide de l'option`setPieSplitPosition` méthode. Ajustez la valeur pour spécifier la position souhaitée.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

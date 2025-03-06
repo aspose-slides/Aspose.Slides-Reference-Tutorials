@@ -3,14 +3,10 @@ title: Aspose.Slides でのスライド サムネイル生成
 linktitle: Aspose.Slides でのスライド サムネイル生成
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: ステップバイステップのガイドとコード例を使用して、Aspose.Slides for .NET でスライドのサムネイルを生成します。外観をカスタマイズし、サムネイルを保存します。プレゼンテーションのプレビューを強化します。
+type: docs
 weight: 10
 url: /ja/net/slide-thumbnail-generation/slide-thumbnail-generation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Aspose.Slides を使用して .NET アプリケーションでスライドのサムネイルを生成することを検討している場合は、ここが最適な場所です。スライドのサムネイルの作成は、カスタム PowerPoint ビューアーの構築やプレゼンテーションの画像プレビューの生成など、さまざまなシナリオで役立つ機能です。この包括的なガイドでは、プロセスを段階的に説明します。前提条件、名前空間のインポート、各例を複数の手順に分割して、スライドのサムネイル生成をシームレスに実装できるようにします。
 
@@ -115,9 +111,3 @@ A: はい、パラメータを変更することで寸法を調整できます�
 A: はい、Aspose.Slides は個人用アプリケーションと商用アプリケーションの両方に適した堅牢なソリューションです。ライセンスの詳細については、Aspose Web サイトをご覧ください。
 
 さらに詳しいサポートやご質問については、[Aspose.Slides サポート フォーラム](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

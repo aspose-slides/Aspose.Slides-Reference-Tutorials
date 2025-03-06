@@ -3,14 +3,10 @@ title: Java Slaytlarında Güneş Patlaması Grafiği
 linktitle: Java Slaytlarında Güneş Patlaması Grafiği
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides ile Java Slaytlarında Çarpıcı Sunburst Grafikleri oluşturun. Adım Adım Grafik Oluşturmayı ve Veri İşlemeyi Öğrenin.
+type: docs
 weight: 16
 url: /tr/java/chart-elements/sunburst-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides ile Java Slaytlarında Sunburst Grafiğine Giriş
 
@@ -172,9 +168,3 @@ Sunburst grafiğine araç ipuçları eklemek için veri etiketi biçimini, grafi
 ### Köprülerle etkileşimli Sunburst grafikleri oluşturmak mümkün müdür?
 
 Evet, belirli grafik öğelerine veya bölümlerine köprüler ekleyerek köprülerle etkileşimli Sunburst grafikleri oluşturabilirsiniz. Köprü eklemeyle ilgili ayrıntılar için Aspose.Slides belgelerine bakın.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

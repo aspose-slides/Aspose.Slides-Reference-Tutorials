@@ -3,14 +3,10 @@ title: Trendlinien in Java-Foliendiagrammen
 linktitle: Trendlinien in Java-Foliendiagrammen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java verschiedene Trendlinien zu Java-Folien hinzufügen. Schritt-für-Schritt-Anleitung mit Codebeispielen für eine effektive Datenvisualisierung.
+type: docs
 weight: 15
 url: /de/java/data-manipulation/chart-trend-lines-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung in Diagrammtrendlinien in Java-Folien: Eine Schritt-für-Schritt-Anleitung
 
@@ -194,9 +190,3 @@ Ja, Sie können mehrere Trendlinien zu einer einzigen Chartserie hinzufügen. Ru
 ### Wie kann ich auf weitere Ressourcen und Beispiele für Aspose.Slides für Java zugreifen?
 
  Sie können auf zusätzliche Ressourcen, Dokumentation und Beispiele für Aspose.Slides für Java zugreifen auf der[Aspose-Website](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

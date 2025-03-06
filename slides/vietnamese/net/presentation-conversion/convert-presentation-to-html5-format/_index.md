@@ -3,14 +3,10 @@ title: Chuyển đổi bản trình bày sang định dạng HTML5
 linktitle: Chuyển đổi bản trình bày sang định dạng HTML5
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách chuyển đổi bản trình bày PowerPoint sang định dạng HTML5 bằng Aspose.Slides cho .NET. Chuyển đổi dễ dàng và hiệu quả để chia sẻ web.
+type: docs
 weight: 22
 url: /vi/net/presentation-conversion/convert-presentation-to-html5-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Chuyển đổi bản trình bày sang định dạng HTML5 bằng Aspose.Slides cho .NET
 
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình chuyển đổi bản trình bày PowerPoint (PPT/PPTX) sang định dạng HTML5 bằng thư viện Aspose.Slides cho .NET. Aspose.Slides là một thư viện mạnh mẽ cho phép bạn thao tác và chuyển đổi bản trình bày PowerPoint ở nhiều định dạng khác nhau.
@@ -85,9 +81,3 @@ Có, Aspose.Slides for .NET hỗ trợ chuyển đổi bản trình bày có ho�
 ### Có phiên bản dùng thử của Aspose.Slides không?
 
  Có, bạn có thể tải phiên bản dùng thử miễn phí của Aspose.Slides cho .NET từ[trang tải xuống](https://releases.aspose.com/slides/net).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

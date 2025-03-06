@@ -3,14 +3,10 @@ title: Führungslinienfarbe in Java-Folien
 linktitle: Führungslinienfarbe in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java die Farben der Führungslinien in PowerPoint-Diagrammen ändern. Schritt-für-Schritt-Anleitung mit Quellcodebeispielen.
+type: docs
 weight: 12
 url: /de/java/data-manipulation/leader-line-color-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung in die Führungslinienfarbe in Aspose.Slides für Java
 
@@ -120,9 +116,3 @@ Technischen Support für Aspose.Slides für Java erhalten Sie im Aspose-Supportf
 ### Kann ich Aspose.Slides für Java mit anderen Java-Bibliotheken und -Frameworks verwenden?
 
 Ja, Sie können Aspose.Slides für Java je nach Bedarf für Ihr Projekt in andere Java-Bibliotheken und Frameworks integrieren. Aspose.Slides bietet APIs für die Arbeit mit verschiedenen PowerPoint-Funktionen, sodass es mit anderen Tools und Technologien kombiniert werden kann, um leistungsstarke Anwendungen zu erstellen.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

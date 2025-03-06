@@ -3,14 +3,10 @@ title: Intégrer des polices dans HTML à l'aide d'Aspose.Slides pour Java
 linktitle: Intégrer des polices dans HTML à l'aide d'Aspose.Slides pour Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment intégrer des polices dans HTML à l'aide d'Aspose.Slides pour Java pour garantir une typographie cohérente sur différentes plates-formes et appareils.
+type: docs
 weight: 13
 url: /fr/java/java-powerpoint-font-management/embed-fonts-in-html/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Aspose.Slides for Java est un outil puissant pour les développeurs Java cherchant à manipuler des présentations PowerPoint par programme. Dans ce didacticiel, nous aborderons le processus d'intégration de polices dans HTML à l'aide d'Aspose.Slides pour Java. En intégrant des polices, vous garantissez que vos présentations conservent leur apparence souhaitée sur différentes plates-formes et appareils, même si les polices requises ne sont pas installées localement.
 ## Conditions préalables
@@ -62,9 +58,3 @@ Oui, Aspose.Slides prend en charge l'intégration de polices dans divers formats
  Vous pouvez visiter le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour le soutien de la communauté ou contactez le support Aspose pour une assistance professionnelle.
 ### Puis-je acheter une licence temporaire pour Aspose.Slides pour Java ?
 Oui, vous pouvez acquérir une licence temporaire auprès du[page d'achat](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Teckensnittsegenskaper för diagram i Java Slides
 linktitle: Teckensnittsegenskaper för diagram i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Förbättra diagramtypsnittsegenskaper i Java Slides med Aspose.Slides för Java. Anpassa teckenstorlek, stil och färg för effektfulla presentationer.
+type: docs
 weight: 11
 url: /sv/java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion till teckensnittsegenskaper för diagram i Java Slides
 
@@ -106,9 +102,3 @@ finally
 ### Hur anpassar jag teckensnittsegenskaper för specifika diagramelement?
 
 För att anpassa teckensnittsegenskaper för specifika diagramelement, såsom axeletiketter eller förklaringstext, kan du komma åt dessa element och ställa in deras teckensnittsegenskaper med liknande metoder som visas ovan.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

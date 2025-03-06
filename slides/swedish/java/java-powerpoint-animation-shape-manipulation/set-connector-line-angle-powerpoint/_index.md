@@ -3,14 +3,10 @@ title: Ställ in Connector Line Angle i PowerPoint
 linktitle: Ställ in Connector Line Angle i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ställer in kontaktlinjevinklar i PowerPoint-presentationer med Aspose.Slides för Java. Anpassa dina diabilder med precision.
+type: docs
 weight: 17
 url: /sv/java/java-powerpoint-animation-shape-manipulation/set-connector-line-angle-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 den här handledningen kommer vi att undersöka hur du ställer in vinkeln på anslutningslinjer i PowerPoint-presentationer med Aspose.Slides för Java. Anslutningslinjer är viktiga för att illustrera relationer och flöden mellan former i dina bilder. Genom att justera deras vinklar kan du se till att dina presentationer förmedlar ditt budskap tydligt och effektivt.
 ## Förutsättningar
@@ -84,9 +80,3 @@ Aspose.Slides strävar efter att stödja de flesta PowerPoint-funktioner. För s
 Säkert! Aspose.Slides erbjuder omfattande alternativ för att anpassa anslutningslinjer, inklusive stilar, tjocklek och slutpunkter, så att du kan skapa visuellt tilltalande presentationer.
 ### Var kan jag hitta stöd för Aspose.Slides-relaterade frågor?
  Du kan besöka[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för hjälp med alla frågor eller problem som du stöter på under din utvecklingsprocess.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

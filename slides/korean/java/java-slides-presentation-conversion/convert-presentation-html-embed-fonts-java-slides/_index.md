@@ -3,14 +3,10 @@ title: Java 슬라이드에 모든 글꼴을 포함하여 프레젠테이션을 
 linktitle: Java 슬라이드에 모든 글꼴을 포함하여 프레젠테이션을 HTML로 변환
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 프레젠테이션을 글꼴이 포함된 HTML로 변환하는 방법을 알아보세요. 이 단계별 가이드는 원활한 공유를 위한 일관된 형식을 보장합니다.
+type: docs
 weight: 13
 url: /ko/java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 슬라이드에 모든 글꼴을 포함하여 프레젠테이션을 HTML로 변환하는 방법 소개
 
@@ -112,9 +108,3 @@ HTML 파일의 소스 코드를 검사하고 글꼴 참조를 찾을 수 있습�
 ### Aspose.Slides for Java에 대한 추가 리소스와 문서는 어디서 찾을 수 있나요?
 
  Aspose.Slides for Java에 대한 포괄적인 문서와 리소스에 액세스할 수 있습니다.[Java API 참조용 Aspose.Slides](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

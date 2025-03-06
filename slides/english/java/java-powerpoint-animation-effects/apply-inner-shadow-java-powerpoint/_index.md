@@ -3,14 +3,10 @@ title: Apply Inner Shadow in Java PowerPoint Presentations
 linktitle: Apply Inner Shadow in Java PowerPoint Presentations
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to apply inner shadow effects to shapes in Java PowerPoint presentations using Aspose.Slides. Enhance your slides with this step-by-step guide.
+type: docs
 weight: 12
 url: /java/java-powerpoint-animation-effects/apply-inner-shadow-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Creating visually appealing presentations is crucial for effectively communicating your ideas. One of the tools that can significantly enhance your presentations is the use of inner shadows. This tutorial will guide you through the process of applying inner shadows to shapes in PowerPoint presentations using Aspose.Slides for Java. By the end of this tutorial, you'll have a comprehensive understanding of how to manipulate slide elements to create stunning effects.
 ## Prerequisites
@@ -98,10 +94,3 @@ You can add various shapes using the `addAutoShape` method and specifying the sh
 Yes, you can customize various parameters of the shadow effect, such as blur radius, direction, distance, and color, to suit your needs.
 ### Where can I find more detailed documentation?
 You can refer to the [Aspose.Slides documentation](https://reference.aspose.com/slides/java/) for detailed information and examples.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

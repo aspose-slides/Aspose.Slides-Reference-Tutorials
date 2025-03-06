@@ -3,14 +3,10 @@ title: Tạo hình học tùy chỉnh trong C# bằng Aspose.Slides cho .NET
 linktitle: Tạo hình học tùy chỉnh trong hình dạng hình học bằng Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách tạo hình học tùy chỉnh trong Aspose.Slides cho .NET. Nâng cao bài thuyết trình của bạn với các hình dạng độc đáo. Hướng dẫn từng bước dành cho nhà phát triển C#.
+type: docs
 weight: 15
 url: /vi/net/shape-geometry-and-positioning-in-slides/creating-custom-geometry/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Trong thế giới năng động của bản trình bày, việc thêm các hình dạng và hình học độc đáo có thể nâng cao nội dung của bạn, khiến nó trở nên hấp dẫn và hấp dẫn về mặt hình ảnh hơn. Aspose.Slides for .NET cung cấp một giải pháp mạnh mẽ để tạo các hình học tùy chỉnh trong các hình dạng, cho phép bạn thoát khỏi các thiết kế thông thường. Hướng dẫn này sẽ hướng dẫn bạn qua quy trình tạo hình học tùy chỉnh trong GeometryShape bằng cách sử dụng Aspose.Slides cho .NET.
 ## Điều kiện tiên quyết
@@ -98,9 +94,3 @@ Có, Aspose.Slides hỗ trợ nhiều ngôn ngữ lập trình khác nhau, nhưn
  Tìm kiếm sự hỗ trợ và tham gia với cộng đồng tại[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### 5. Tôi có thể mua Aspose.Slides cho .NET ở đâu?
  Bạn có thể mua Aspose.Slides cho .NET[đây](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

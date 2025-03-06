@@ -3,14 +3,10 @@ title: 向幻灯片添加纯线
 linktitle: 向幻灯片添加纯线
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 以编程方式向 PowerPoint 幻灯片添加纯线。通过此分步指南提高您的工作效率。
+type: docs
 weight: 14
 url: /zh/java/java-powerpoint-shape-media-insertion/add-plain-line-slide/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 Aspose.Slides for Java 是一个功能强大的库，允许 Java 开发人员以编程方式处理 PowerPoint 演示文稿。使用 Aspose.Slides，您可以轻松创建、修改和转换 PowerPoint 文件，从而节省时间和精力。在本教程中，我们将引导您完成使用 Aspose.Slides for Java 在 PowerPoint 演示文稿的幻灯片中添加纯线的过程。
 ## 先决条件
@@ -66,9 +62,3 @@ pres.save("Your Document Directory/LineShape1_out.pptx", SaveFormat.Pptx);
 是的，您可以使用 Aspose.Slides API 向幻灯片添加文本、图像和其他内容。
 ### Aspose.Slides 有免费试用版吗？
 是的，您可以从下载 Aspose.Slides 的免费试用版[这里](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

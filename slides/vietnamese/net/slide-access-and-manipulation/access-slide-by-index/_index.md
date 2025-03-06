@@ -3,14 +3,10 @@ title: Truy cập Slide theo chỉ mục tuần tự
 linktitle: Truy cập Slide theo chỉ mục tuần tự
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách truy cập các trang trình bày theo chỉ mục tuần tự bằng Aspose.Slides cho .NET. Hãy làm theo hướng dẫn từng bước kèm theo mã nguồn này để dễ dàng điều hướng và thao tác với bản trình bày PowerPoint.
+type: docs
 weight: 12
 url: /vi/net/slide-access-and-manipulation/access-slide-by-index/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu Access Slide by Sequential Index
 
@@ -90,9 +86,3 @@ Aspose.Slides cho .NET cung cấp nhiều chức năng, bao gồm tạo bản tr
 ### Làm cách nào tôi có thể tìm hiểu thêm về tự động hóa PowerPoint bằng Aspose.Slides?
 
  Để tìm hiểu thêm về tự động hóa PowerPoint bằng Aspose.Slides, bạn có thể khám phá tài liệu chi tiết và mẫu mã có sẵn trên[tài liệu](https://reference.aspose.com/slides/net/) trang.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

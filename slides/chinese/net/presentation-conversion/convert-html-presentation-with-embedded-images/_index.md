@@ -3,14 +3,10 @@ title: 转换嵌入图像的 HTML 演示文稿
 linktitle: 转换嵌入图像的 HTML 演示文稿
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 将 PowerPoint 演示文稿转换为带有嵌入图像的 HTML。无缝转换的分步指南。
+type: docs
 weight: 11
 url: /zh/net/presentation-conversion/convert-html-presentation-with-embedded-images/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 在当今的数字世界中，将 PowerPoint 演示文稿转换为 HTML 的需求变得越来越重要。无论是用于在线共享内容还是创建基于 Web 的演示文稿，将 PowerPoint 文件转换为 HTML 的能力都是一项宝贵的资产。Aspose.Slides for .NET 是一个功能强大的库，可让您无缝执行此类转换。在本分步指南中，我们将引导您完成使用 Aspose.Slides for .NET 转换带有嵌入图像的 HTML 演示文稿的过程。
 
@@ -119,9 +115,3 @@ Aspose.Slides for .NET 支持转换包含各种元素（包括动画）的演示
 
 ### 使用 Aspose.Slides for .NET 我可以将 PowerPoint 演示文稿转换为哪些其他格式？
 Aspose.Slides for .NET 支持转换为各种格式，包括 PDF、图像等。查看文档以获取受支持格式的完整列表。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

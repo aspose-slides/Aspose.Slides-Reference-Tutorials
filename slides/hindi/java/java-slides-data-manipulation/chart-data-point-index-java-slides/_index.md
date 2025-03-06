@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में चार्ट डेट
 linktitle: जावा स्लाइड्स में चार्ट डेटा पॉइंट इंडेक्स
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके Java Slides में चार्ट डेटा पॉइंट इंडेक्स में हेरफेर करना सीखें। PowerPoint चार्ट से डेटा को आसानी से निकालें और उसके साथ काम करें।
+type: docs
 weight: 12
 url: /hi/java/data-manipulation/chart-data-point-index-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## जावा स्लाइड्स में चार्ट डेटा पॉइंट इंडेक्स का परिचय
 
@@ -102,9 +98,3 @@ try {
 ### मैं Aspose.Slides for Java के लिए और अधिक उदाहरण और दस्तावेज़ कहां पा सकता हूं?
 
  आप Aspose प्रलेखन वेबसाइट पर Aspose.Slides for Java के लिए व्यापक उदाहरण और प्रलेखन पा सकते हैं[यहाँ](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

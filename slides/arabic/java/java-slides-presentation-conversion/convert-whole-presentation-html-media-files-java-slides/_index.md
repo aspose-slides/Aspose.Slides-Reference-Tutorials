@@ -3,14 +3,10 @@ title: تحويل العرض التقديمي بالكامل إلى HTML باس�
 linktitle: تحويل العرض التقديمي بالكامل إلى HTML باستخدام ملفات الوسائط في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحويل العروض التقديمية إلى HTML باستخدام ملفات الوسائط باستخدام Java Slides. اتبع دليلنا خطوة بخطوة مع Aspose.Slides for Java API.
+type: docs
 weight: 30
 url: /ar/java/presentation-conversion/convert-whole-presentation-html-media-files-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة لتحويل العرض التقديمي بالكامل إلى HTML باستخدام ملفات الوسائط في شرائح Java
 
@@ -129,9 +125,3 @@ finally
 ### كيف يمكنني الوصول إلى عرض HTML المحول؟
 
  بمجرد الانتهاء من التحويل، يمكنك الوصول إلى العرض التقديمي بتنسيق HTML عن طريق تحديد موقع الملف المحدد في ملف`htmlDocumentFileName` عامل.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

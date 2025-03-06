@@ -3,14 +3,10 @@ title: Klonuj kształty w programie PowerPoint
 linktitle: Klonuj kształty w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak klonować kształty w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Usprawnij swój przepływ pracy dzięki temu łatwemu do zrozumienia samouczkowi.
+type: docs
 weight: 16
 url: /pl/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 W tym samouczku omówimy, jak klonować kształty w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Klonowanie kształtów umożliwia powielanie istniejących kształtów w prezentacji, co może być szczególnie przydatne przy tworzeniu spójnych układów lub powtarzających się elementów na slajdach.
 ## Warunki wstępne
@@ -61,9 +57,3 @@ Oczywiście po sklonowaniu kształtów i dodaniu ich do slajdu możesz w razie p
 Tak, możesz klonować slajdy, tekst, obrazy i inne elementy prezentacji programu PowerPoint za pomocą Aspose.Slides for Java.
 ### Czy dostępna jest wersja próbna Aspose.Slides dla Java?
  Tak, możesz pobrać bezpłatną wersję próbną Aspose.Slides dla Java z[strona internetowa](https://releases.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

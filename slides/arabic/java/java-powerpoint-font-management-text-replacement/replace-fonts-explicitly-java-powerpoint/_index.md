@@ -3,14 +3,10 @@ title: استبدال الخطوط بشكل صريح في Java PowerPoint
 linktitle: استبدال الخطوط بشكل صريح في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: استبدل الخطوط بسهولة في عروض PowerPoint التقديمية باستخدام Java باستخدام Aspose.Slides. اتبع دليلنا التفصيلي لعملية انتقال سلسة للخط.
+type: docs
 weight: 12
 url: /ar/java/java-powerpoint-font-management-text-replacement/replace-fonts-explicitly-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 هل تتطلع إلى استبدال الخطوط في عروض PowerPoint التقديمية باستخدام Java؟ سواء كنت تعمل على مشروع يتطلب التوحيد في أنماط الخطوط أو ببساطة تفضل جمالية مختلفة للخط، فإن استخدام Aspose.Slides for Java يجعل هذه المهمة واضحة. في هذا البرنامج التعليمي الشامل، سنرشدك خلال خطوات استبدال الخطوط بشكل صريح في عرض PowerPoint التقديمي باستخدام Aspose.Slides for Java. بحلول نهاية هذا الدليل، ستكون قادرًا على تبديل الخطوط بسلاسة لتلبية احتياجاتك الخاصة.
 ## المتطلبات الأساسية
@@ -90,9 +86,3 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
 لا، بمجرد تنزيل مكتبة Aspose.Slides وإدراجها في مشروعك، يمكنك استخدامها دون الاتصال بالإنترنت.
 ### أين يمكنني الحصول على الدعم إذا واجهت مشكلات مع Aspose.Slides؟
  يمكنك الحصول على الدعم من[منتدى دعم Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

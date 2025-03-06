@@ -3,14 +3,10 @@ title: Aspose.Slides for .NET ile Grafik Serisini Canlandırın
 linktitle: Grafikteki Animasyon Serisi
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET ile grafik serilerini nasıl canlandıracağınızı öğrenin. Dinamik sunumlarla izleyicilerinizin ilgisini çekin. Şimdi başla!
+type: docs
 weight: 12
 url: /tr/net/chart-formatting-and-animation/animating-series/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Animasyonlu grafiklerle sunumlarınıza biraz heyecan katmak mı istiyorsunuz? Aspose.Slides for .NET grafiklerinizi hayata geçirmek için burada. Bu adım adım kılavuzda, Aspose.Slides for .NET kullanarak bir grafikteki serilerin nasıl canlandırılacağını size göstereceğiz. Ancak aksiyona dalmadan önce önkoşulları ele alalım.
 
@@ -113,9 +109,3 @@ Evet, benzersiz ve ilgi çekici sunumlar oluşturmak için her grafik serisine y
 
 ### Aspose.Slides for .NET lisansını nereden satın alabilirim?
  Aspose.Slides for .NET lisansını satın alma sayfasından alabilirsiniz.[Burada](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

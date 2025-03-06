@@ -3,14 +3,10 @@ title: Aspose.Slides を使用してプレゼンテーション スライドに�
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドにオーディオ フレームを追加する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET でプレゼンテーションを強化しましょう。オーディオ フレームをシームレスに追加して、これまでにないほど視聴者を引き付ける方法を学習します。
+type: docs
 weight: 14
 url: /ja/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 プレゼンテーションのダイナミックな世界では、オーディオ要素を組み込むことで、視聴者の全体的なエクスペリエンスを大幅に向上させることができます。Aspose.Slides for .NET を使用すると、開発者はオーディオ フレームをプレゼンテーション スライドにシームレスに統合して、エンゲージメントとインタラクティブ性の新たなレイヤーを追加できます。このステップ バイ ステップ ガイドでは、Aspose.Slides for .NET を使用してプレゼンテーション スライドにオーディオ フレームを追加するプロセスについて説明します。
 ## 前提条件
@@ -67,9 +63,3 @@ Aspose.Slides for .NET は、WAV、MP3 など、さまざまなオーディオ�
 訪問[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)支援を求め、コミュニティと関わること。
 ### Aspose.Slides for .NET を購入するにはどうすればよいですか?
 ライブラリは以下から購入できます。[Aspose ストア](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

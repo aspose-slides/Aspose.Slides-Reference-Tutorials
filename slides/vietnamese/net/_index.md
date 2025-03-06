@@ -1,15 +1,12 @@
 ---
 title: Giải phóng sức mạnh của thao tác và chuyển đổi bản trình bày
 linktitle: Hướng dẫn Aspose.Slides cho .NET
+type: docs
 weight: 10
 url: /vi/net/
 description: Khám phá thế giới thao tác trình bày, chuyển đổi và xử lý PowerPoint với hướng dẫn Aspose.Slides for .NET. Tìm hiểu cách tạo, chuyển đổi và nâng cao bản trình bày để có kết quả ấn tượng.
+is_root: true
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 Chào mừng bạn đến với bộ sưu tập toàn diện các hướng dẫn Aspose.Slides for .NET, nơi bạn sẽ khám phá nghệ thuật thao tác, chuyển đổi và xử lý bản trình bày. Những hướng dẫn này đóng vai trò là hướng dẫn giúp bạn nắm vững các khả năng của Aspose.Slides, cho phép bạn điều hướng liền mạch qua các khía cạnh khác nhau của việc tạo, tùy chỉnh và chuyển đổi bản trình bày. Cho dù bạn đang tìm cách tự động hóa các tác vụ PowerPoint, chuyển đổi bản trình bày sang các định dạng khác nhau hay nâng cao trang trình bày bằng đa phương tiện, những hướng dẫn này đều cung cấp hướng dẫn từng bước để hỗ trợ hành trình phát triển của bạn.
 
 ## Chuyển đổi bản trình bày: Chuyển đổi trang trình bày một cách dễ dàng
@@ -63,9 +60,3 @@ Cải thiện bản trình bày slide của bạn bằng các hình ảnh và vi
 Nâng cao kỹ năng thao tác slide của bạn với các hướng dẫn Aspose.Slides về hình học và định vị hình dạng trong các slide. Tìm hiểu cách lập trình điều khiển các hình dạng, kích thước và căn chỉnh của chúng.
 ### [Căn chỉnh và định dạng hình dạng trong slide](./shape-alignment-and-formatting-in-slides/)
 Khám phá các hướng dẫn toàn diện về Aspose.Slides về căn chỉnh và định dạng hình dạng trong các ứng dụng .NET. Tìm hiểu cách căn chỉnh và định dạng hình dạng một cách dễ dàng, nâng cao độ chính xác cho bản trình bày slide của bạn. 
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Méretes licencelés a Java Slides-ben
 linktitle: Méretes licencelés a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimalizálja Aspose.Slides-jét Java-használatra a Méretes licenceléssel. Ismerje meg, hogyan állíthatja be, és figyelheti az API-fogyasztást.
+type: docs
 weight: 10
 url: /hu/java/licensing-and-initialization/metered-licensing-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés az Aspose.Slides for Java mérőszámos licencelésébe
 
@@ -111,10 +107,3 @@ Ha túllépi a mért korlátot, előfordulhat, hogy frissítenie kell a licencet
 ### Szükségem van internetkapcsolatra a mérőórás engedélyezéshez?
 
 Igen, internetkapcsolat szükséges a mért licenc beállításához és érvényesítéséhez.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

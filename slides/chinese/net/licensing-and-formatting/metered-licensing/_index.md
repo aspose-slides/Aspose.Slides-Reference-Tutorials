@@ -3,14 +3,10 @@ title: 计量许可使用情况
 linktitle: 计量许可使用情况
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何高效地使用 Aspose.Slides for .NET 的计量许可。无缝集成 API，同时按实际使用量付费。
+type: docs
 weight: 11
 url: /zh/net/licensing-and-formatting/metered-licensing/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 介绍
 
@@ -118,9 +114,3 @@ Aspose.Slides for .NET 是一个功能强大的库，可让开发人员以编程
 
 ### 是否有一个针对 Aspose.Slides 支持和讨论的论坛？
 是的，您可以在 Aspose.Slides 论坛上寻求支持并参与讨论[此链接](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Aspose.Slides for Java를 사용하는 PowerPoint의 기본 글꼴
 linktitle: Aspose.Slides for Java를 사용하는 PowerPoint의 기본 글꼴
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 기본 글꼴을 설정하는 방법을 알아보세요. 일관성을 보장하고 시각적 매력을 쉽게 향상할 수 있습니다.
+type: docs
 weight: 11
 url: /ko/java/java-powerpoint-font-management/default-fonts-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 사용자 정의 글꼴을 사용하여 PowerPoint 프레젠테이션을 만드는 것은 많은 프로젝트에서 일반적인 요구 사항입니다. Aspose.Slides for Java는 기본 글꼴을 관리하는 원활한 솔루션을 제공하여 다양한 환경에서 일관성을 보장합니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 기본 글꼴을 설정하는 과정을 안내합니다.
 ## 전제 조건
@@ -75,9 +71,3 @@ Aspose.Slides for Java는 다양한 PowerPoint 버전을 지원하여 다양한 
  예, 다음에서 제공되는 무료 평가판을 통해 Aspose.Slides for Java를 탐색할 수 있습니다.[releases.aspose.com](https://releases.aspose.com/).
 ### Aspose.Slides for Java의 임시 라이선스는 어디서 얻을 수 있나요?
  Aspose.Slides for Java에 대한 임시 라이선스는 다음 사이트에서 얻을 수 있습니다.[구매 페이지](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

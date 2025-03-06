@@ -3,14 +3,10 @@ title: Java スライドの通常のチャート
 linktitle: Java スライドの通常のチャート
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java スライドに通常のグラフを作成します。PowerPoint プレゼンテーションでグラフを作成、カスタマイズ、保存するためのステップバイステップ ガイドとソース コード。
+type: docs
 weight: 21
 url: /ja/java/chart-data-manipulation/normal-charts-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java スライドでの通常のチャートの紹介
 
@@ -244,9 +240,3 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ### チャートを別のファイル形式で保存するにはどうすればよいですか?
 
 チャートを別のファイル形式で保存するには、`SaveFormat`パラメータの`pres.save()`メソッドを目的の形式 (例: PDF、PNG、JPEG) に変更します。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

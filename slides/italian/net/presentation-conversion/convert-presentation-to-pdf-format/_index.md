@@ -3,14 +3,10 @@ title: Converti la presentazione in formato PDF
 linktitle: Converti la presentazione in formato PDF
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come convertire le presentazioni in PDF utilizzando Aspose.Slides per .NET. Guida passo passo con il codice sorgente. Conversione efficiente ed efficace.
+type: docs
 weight: 24
 url: /it/net/presentation-conversion/convert-presentation-to-pdf-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduzione ad Aspose.Slides per .NET
 
@@ -111,9 +107,3 @@ Sì, Aspose.Slides fornisce supporto per molte animazioni e transizioni di Power
 ### È disponibile una versione di prova?
 
  Sì, puoi scaricare una versione di prova gratuita di Aspose.Slides per .NET da[Qui](https://products.aspose.com/slides/net).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

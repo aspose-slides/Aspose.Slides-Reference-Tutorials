@@ -3,14 +3,10 @@ title: Usuń węzeł w określonej pozycji w SmartArt
 linktitle: Usuń węzeł w określonej pozycji w SmartArt
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak usunąć węzeł w określonej pozycji w SmartArt za pomocą Aspose.Slides dla Java. Zwiększ możliwości dostosowywania prezentacji bez wysiłku.
+type: docs
 weight: 15
 url: /pl/java/java-powerpoint-smartart-manipulation/remove-node-specific-position-smartart-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 dziedzinie programowania w języku Java Aspose.Slides jawi się jako potężne narzędzie do programowego manipulowania prezentacjami. Niezależnie od tego, czy tworzysz, modyfikujesz czy zarządzasz slajdami, Aspose.Slides dla Java zapewnia solidny zestaw funkcji efektywnie usprawniających te zadania. Jedną z takich typowych operacji jest usuwanie węzła w określonym miejscu obiektu SmartArt. W tym samouczku opisano krok po kroku proces realizacji tego za pomocą Aspose.Slides dla Java.
 ## Warunki wstępne
@@ -66,9 +62,3 @@ Dzięki Aspose.Slides dla Java manipulowanie obiektami SmartArt w prezentacjach 
  Aby kupić Aspose.Slides dla Java, odwiedź stronę zakupu[Tutaj](https://purchase.aspose.com/buy).
 ### Gdzie mogę znaleźć szczegółową dokumentację Aspose.Slides dla Java?
  Możesz uzyskać dostęp do obszernej dokumentacji[Tutaj](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

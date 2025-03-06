@@ -3,14 +3,10 @@ title: 在 Java 幻燈片中設定外部工作簿
 linktitle: 在 Java 幻燈片中設定外部工作簿
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java Slides 中設定外部工作簿。透過 Excel 資料整合建立動態簡報。
+type: docs
 weight: 19
 url: /zh-hant/java/data-manipulation/set-external-workbook-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 在 Java 投影片中設定外部工作簿簡介
 
@@ -123,9 +119,3 @@ Aspose.Slides for Java 會定期更新，以確保與最新 Java 版本的兼容
 ### 我可以新增引用同一外部工作簿的多個圖表嗎？
 
 是的，您可以在簡報中新增多個圖表，所有圖表都引用同一外部工作簿。只需對您要建立的每個圖表重複本教學中概述的步驟即可。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

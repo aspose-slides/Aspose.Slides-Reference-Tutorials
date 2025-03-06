@@ -3,14 +3,10 @@ title: Thêm nút vào SmartArt trong Java PowerPoint
 linktitle: Thêm nút vào SmartArt trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm nút SmartArt vào bản trình bày Java PowerPoint bằng Aspose.Slides cho Java. Tăng cường sự hấp dẫn thị giác một cách dễ dàng.
+type: docs
 weight: 15
 url: /vi/java/java-powerpoint-smartart-manipulation/add-nodes-smartart-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Trong lĩnh vực trình bày PowerPoint bằng Java, thao tác với các nút SmartArt có thể nâng cao đáng kể sự hấp dẫn trực quan và tính hiệu quả của các trang chiếu của bạn. Aspose.Slides for Java cung cấp một giải pháp mạnh mẽ cho các nhà phát triển Java để tích hợp liền mạch các chức năng SmartArt vào bản trình bày của họ. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình thêm nút vào SmartArt trong bản trình bày Java PowerPoint bằng Aspose.Slides.
 ## Điều kiện tiên quyết
@@ -75,9 +71,3 @@ Hoàn toàn có thể, bạn có thể lặp qua các trang trình bày và thê
 Có, Aspose.Slides cho Java cung cấp một bộ tính năng toàn diện để thao tác trên PowerPoint, bao gồm tạo trang chiếu, hoạt ảnh và quản lý hình dạng.
 ### Tôi có thể tìm kiếm sự trợ giúp hoặc hỗ trợ cho Aspose.Slides cho Java ở đâu?
  Bạn có thể ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được cộng đồng hỗ trợ hoặc khám phá tài liệu để được hướng dẫn chi tiết.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

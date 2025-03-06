@@ -3,14 +3,10 @@ title: Chuyển đổi từng slide trong Java Slide
 linktitle: Chuyển đổi từng slide trong Java Slide
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách chuyển đổi từng trang chiếu PowerPoint riêng lẻ sang HTML bằng các ví dụ về mã bằng cách sử dụng Aspose.Slides cho Java.
+type: docs
 weight: 12
 url: /vi/java/presentation-conversion/convert-individual-slide-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu về Chuyển đổi từng slide trong Java Slides
 
@@ -174,9 +170,3 @@ Bạn đã chuyển đổi thành công các slide riêng lẻ từ bản trình
 ### Làm cách nào để xử lý định dạng bổ sung cho hình dạng và văn bản trong trang chiếu?
 
  Bạn có thể mở rộng`CustomFormattingController` lớp để xử lý định dạng hình dạng cụ thể bằng cách triển khai`writeShapeStart` Và`writeShapeEnd` các phương thức và áp dụng logic định dạng tùy chỉnh bên trong chúng.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

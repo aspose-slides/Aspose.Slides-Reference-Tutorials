@@ -3,14 +3,10 @@ title: Menautkan Video melalui Kontrol ActiveX di PowerPoint
 linktitle: Menghubungkan Video melalui Kontrol ActiveX
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menautkan video ke slide PowerPoint menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah ini mencakup kode sumber dan tips untuk membuat presentasi interaktif dan menarik dengan video tertaut.
+type: docs
 weight: 12
 url: /id/net/slide-view-and-layout-manipulation/linking-video-activex-control/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 Menautkan Video melalui Kontrol ActiveX dalam Presentasi menggunakan Aspose.Slides untuk .NET
 
 Di Aspose.Slides for .NET, Anda dapat menautkan video ke slide presentasi secara terprogram menggunakan kontrol ActiveX. Hal ini memungkinkan Anda membuat presentasi interaktif dimana konten video dapat diputar langsung di dalam slide. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses menautkan video ke slide presentasi menggunakan Aspose.Slides untuk .NET.
@@ -84,9 +80,3 @@ Ukuran video yang tertaut mungkin memengaruhi ukuran dan performa presentasi And
 Dengan mengikuti langkah-langkah yang diuraikan dalam panduan ini, Anda dapat dengan mudah menautkan video melalui kontrol ActiveX dalam presentasi menggunakan Aspose.Slides untuk .NET. Fitur ini memungkinkan Anda membuat presentasi menarik dan interaktif yang menggabungkan konten multimedia dengan lancar.
 
  Untuk detail lebih lanjut dan opsi lanjutan, Anda dapat merujuk ke[Aspose.Slides untuk dokumentasi .NET](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

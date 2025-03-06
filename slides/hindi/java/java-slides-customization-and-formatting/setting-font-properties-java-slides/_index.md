@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में फ़ॉन्ट गु
 linktitle: जावा स्लाइड्स में फ़ॉन्ट गुण सेट करना
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके Java स्लाइड में फ़ॉन्ट गुण सेट करना सीखें। इस चरण-दर-चरण मार्गदर्शिका में कोड उदाहरण और FAQ शामिल हैं।
+type: docs
 weight: 15
 url: /hi/java/customization-and-formatting/setting-font-properties-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## जावा स्लाइड्स में फ़ॉन्ट गुण सेट करने का परिचय
 
@@ -141,9 +137,3 @@ for (ISlide slide : pres.getSlides()) {
     // यहां टेक्स्ट तत्वों के फ़ॉन्ट गुणों तक पहुंचें और उन्हें अनुकूलित करें
 }
 ```
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

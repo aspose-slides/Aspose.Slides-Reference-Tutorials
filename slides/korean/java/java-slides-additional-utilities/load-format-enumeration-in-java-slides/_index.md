@@ -3,14 +3,10 @@ title: Java 슬라이드에서 형식 열거 로드
 linktitle: Java 슬라이드에서 형식 열거 로드
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java에서 PowerPoint 프레젠테이션 형식을 확인하는 방법을 알아보세요. 효과적인 형식 감지를 위한 소스 코드 예제가 포함된 단계별 가이드를 따르세요.
+type: docs
 weight: 14
 url: /ko/java/additional-utilities/load-format-enumeration-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 슬라이드에서 프레젠테이션 형식 로드 소개
 
@@ -72,10 +68,3 @@ Aspose 지원 포럼을 방문하거나 웹 사이트에 제공된 채널을 통
 ### Aspose.Slides for Java는 상업용 프로젝트에 적합합니까?
 
 예, Aspose.Slides for Java는 상업용 프로젝트에 적합합니다. 이는 Java 애플리케이션에서 PowerPoint 프레젠테이션 작업을 위한 강력한 기능 세트를 제공하며 상업 및 기업 환경 모두에서 널리 사용됩니다.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Pemformatan Bagan dan Animasi di Aspose.Slides
 linktitle: Pemformatan Bagan dan Animasi di Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara memformat dan menganimasikan bagan di Aspose.Slides untuk .NET, menyempurnakan presentasi Anda dengan visual yang menawan.
+type: docs
 weight: 10
 url: /id/net/chart-formatting-and-animation/chart-formatting-and-animation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Membuat presentasi yang menarik dengan bagan dan animasi dinamis dapat meningkatkan dampak pesan Anda secara signifikan. Aspose.Slides untuk .NET memberdayakan Anda untuk mencapai hal itu. Dalam tutorial ini, kami akan memandu Anda melalui proses menganimasikan dan memformat bagan menggunakan Aspose.Slides untuk .NET. Kami akan membagi langkah-langkah tersebut menjadi beberapa bagian yang dapat dikelola untuk memastikan Anda memahami konsepnya secara menyeluruh.
 
@@ -176,10 +172,3 @@ Aspose.Slides for .NET menyediakan alat canggih untuk pemformatan bagan dan anim
 
  Untuk dukungan dan pertanyaan, kunjungi forum Aspose.Slides di[https://forum.aspose.com/](https://forum.aspose.com/).
 
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

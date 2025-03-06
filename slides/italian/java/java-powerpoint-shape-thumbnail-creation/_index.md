@@ -3,14 +3,10 @@ title: Creazione di forme e miniature Java PowerPoint
 linktitle: Creazione di forme e miniature Java PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Impara a creare forme e miniature in PowerPoint utilizzando Aspose.Slides Java. Tutorial dettagliati sulla creazione di forme di gruppo, miniature dei fattori di ridimensionamento ed effetti di zoom.
+type: docs
 weight: 24
 url: /it/java/java-powerpoint-shape-thumbnail-creation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## introduzione
 
 Creare presentazioni PowerPoint visivamente accattivanti e organizzate è essenziale per una comunicazione efficace. Con Aspose.Slides per Java, puoi migliorare facilmente le tue presentazioni creando varie forme e miniature. Questo articolo fornisce una guida passo passo per padroneggiare queste tecniche, assicurando che le tue diapositive siano coinvolgenti e professionali.
@@ -56,9 +52,3 @@ Scopri come creare miniature di note secondarie SmartArt in Java con Aspose.Slid
  Scopri come creare uno zoom di riepilogo in PowerPoint utilizzando Aspose.Slides per Java con questo tutorial completo passo dopo passo.
 ### [Crea cornice di zoom in PowerPoint](./create-zoom-frame-powerpoint/)
 Scopri come creare fotogrammi Zoom accattivanti in PowerPoint utilizzando Aspose.Slides per Java. Segui la nostra guida per aggiungere elementi interattivi alle tue presentazioni.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

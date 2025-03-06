@@ -3,14 +3,10 @@ title: .NET용 Aspose.Slides에서 이중톤 효과 마스터하기
 linktitle: Aspose.Slides를 사용하여 프레젠테이션 슬라이드에 이중톤 효과 적용
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 매력적인 프레젠테이션 슬라이드를 만드세요. 이중톤 효과를 단계별로 적용하는 방법을 알아보세요. 지금 프레젠테이션을 한 단계 더 발전시키세요!
+type: docs
 weight: 18
 url: /ko/net/image-and-video-manipulation-in-slides/applying-duotone-effects/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 시각적으로 멋진 프레젠테이션 슬라이드를 만드는 것은 청중의 관심을 끄는 데 필수적입니다. 슬라이드를 향상시키는 효과적인 방법 중 하나는 이중톤 효과를 적용하는 것입니다. 이 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드에 이중톤 효과를 적용하는 과정을 안내합니다.
 ## 전제 조건
@@ -85,9 +81,3 @@ Aspose.Slides는 회색조, 세피아 등을 포함한 다양한 이미지 변�
 전적으로. 고급 사용자 정의 옵션에 대해서는 Aspose.Slides 문서를 살펴보세요.
 ### Aspose.Slides에 사용할 수 있는 평가판이 있습니까?
  예, 무료 평가판을 다운로드할 수 있습니다[여기](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

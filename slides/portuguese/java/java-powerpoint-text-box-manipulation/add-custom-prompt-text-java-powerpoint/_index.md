@@ -3,14 +3,10 @@ title: Adicionar texto de prompt personalizado em Java PowerPoint
 linktitle: Adicionar texto de prompt personalizado em Java PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como adicionar texto de prompt personalizado em Java PowerPoint usando Aspose.Slides. Melhore a interação do usuário sem esforço com este tutorial.
+type: docs
 weight: 12
 url: /pt/java/java-powerpoint-text-box-manipulation/add-custom-prompt-text-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 Na era digital de hoje, criar apresentações dinâmicas e envolventes é crucial para uma comunicação eficaz. Aspose.Slides for Java permite que os desenvolvedores manipulem apresentações do PowerPoint de forma programática, oferecendo recursos abrangentes para personalizar slides, formas, texto e muito mais. Este tutorial irá guiá-lo através do processo de adição de texto de prompt personalizado a espaços reservados em apresentações Java PowerPoint usando Aspose.Slides.
 ## Pré-requisitos
@@ -75,9 +71,3 @@ Aspose.Slides oferece suporte a uma ampla variedade de versões do PowerPoint, g
  Você pode obter um[licença temporária](https://purchase.aspose.com/temporary-license/) para avaliar todos os recursos do Aspose.Slides.
 ### O Aspose.Slides for Java suporta a adição de animações personalizadas aos slides?
 Sim, Aspose.Slides fornece APIs para gerenciar animações de slides de forma programática.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

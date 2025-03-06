@@ -3,14 +3,10 @@ title: Slaydı PowerPoint'te Belirtilen Bölüme Klonlayın
 linktitle: Slaydı PowerPoint'te Belirtilen Bölüme Klonlayın
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak slaytları PowerPoint'teki belirli bölümlere zahmetsizce kopyalayın. Bu adım adım kılavuzla sunumlarınızı geliştirin.
+type: docs
 weight: 13
 url: /tr/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-section-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 PowerPoint sunumu oluşturma sürecinizi kolaylaştırmak mı istiyorsunuz? Slaytları sunumunuzun belirli bölümlerine zahmetsizce kopyalayabildiğinizi hayal edin. Aspose.Slides for Java ile bu artık çok kolay. Bu eğitim, süreç boyunca size adım adım yol gösterecek ve sunumlarınızı kolaylıkla ve hassas bir şekilde geliştirebilmenizi sağlayacaktır.
 ## Önkoşullar
@@ -80,9 +76,3 @@ Kesinlikle! Bir slayt koleksiyonunu yineleyebilir ve her birini gerektiği gibi 
  Deneme sürümünün bazı sınırlamaları vardır. Tüm özellikler için bir almayı düşünün[geçici lisans](https://purchase.aspose.com/temporary-license/).
 ### Daha ayrıntılı belgeleri nerede bulabilirim?
  Ayrıntılı belgeler şu adreste mevcuttur:[Aspose.Slides dokümantasyon sayfası](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

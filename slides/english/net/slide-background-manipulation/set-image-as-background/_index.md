@@ -3,14 +3,10 @@ title: Setting Image as Slide Background using Aspose.Slides
 linktitle: Set an Image as Slide Background
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to set image backgrounds in PowerPoint using Aspose.Slides for .NET. Enhance your presentations with ease.
+type: docs
 weight: 13
 url: /net/slide-background-manipulation/set-image-as-background/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 In the world of presentation design and automation, Aspose.Slides for .NET is a powerful and versatile tool that allows developers to manipulate PowerPoint presentations with ease. Whether you're building customized reports, creating stunning presentations, or automating slide generation, Aspose.Slides for .NET is a valuable asset. In this step-by-step guide, we'll show you how to set an image as a slide background using this remarkable library.
 
@@ -119,10 +115,3 @@ Aspose.Slides for .NET is primarily designed for Windows environments. For macOS
 ### 5. Does Aspose.Slides for .NET offer a trial version?
 
 Yes, you can get a free trial of Aspose.Slides for .NET from the website at [this link](https://releases.aspose.com/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

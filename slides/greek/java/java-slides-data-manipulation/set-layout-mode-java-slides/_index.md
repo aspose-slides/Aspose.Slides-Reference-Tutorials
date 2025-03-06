@@ -3,14 +3,10 @@ title: Ορίστε τη λειτουργία διάταξης στις διαφ
 linktitle: Ορίστε τη λειτουργία διάταξης στις διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε λειτουργίες διάταξης για διαφάνειες Java χρησιμοποιώντας το Aspose.Slides. Προσαρμόστε τη θέση και το μέγεθος του γραφήματος σε αυτόν τον οδηγό βήμα προς βήμα με τον πηγαίο κώδικα.
+type: docs
 weight: 23
 url: /el/java/data-manipulation/set-layout-mode-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στο Set Layout Mode σε Java Slides
 
@@ -99,9 +95,3 @@ finally
 ### Πού μπορώ να βρω περισσότερες πληροφορίες σχετικά με το Aspose.Slides for Java;
 
  Μπορείτε να βρείτε περισσότερες πληροφορίες σχετικά με το Aspose.Slides for Java στο[τεκμηρίωση](https://reference.aspose.com/slides/java/). Περιλαμβάνει λεπτομερείς αναφορές και παραδείγματα API για να σας βοηθήσει να εργάζεστε αποτελεσματικά με διαφάνειες και γραφήματα σε Java.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

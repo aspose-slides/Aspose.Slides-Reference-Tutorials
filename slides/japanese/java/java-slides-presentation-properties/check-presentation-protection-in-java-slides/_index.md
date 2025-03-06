@@ -3,14 +3,10 @@ title: Java スライドのプレゼンテーション保護を確認する
 linktitle: Java スライドのプレゼンテーション保護を確認する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して Java スライドのプレゼンテーション保護をチェックする方法を学びます。このステップバイステップ ガイドでは、書き込み保護とオープン保護のチェックのコード例を示します。
+type: docs
 weight: 15
 url: /ja/java/presentation-properties/check-presentation-protection-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java スライドでのプレゼンテーション保護の確認の概要
 
@@ -117,9 +113,3 @@ Aspose.Slides for Java は、Aspose Web サイトからダウンロードする�
 ### Aspose.Slides for Java は最新の PowerPoint ファイル形式と互換性がありますか?
 
 はい、Aspose.Slides for Java は、.pptx ファイルを含む最新の PowerPoint ファイル形式をサポートしています。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

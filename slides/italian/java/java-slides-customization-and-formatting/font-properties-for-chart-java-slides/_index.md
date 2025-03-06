@@ -3,14 +3,10 @@ title: Proprietà dei caratteri per il grafico nelle diapositive Java
 linktitle: Proprietà dei caratteri per il grafico nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Migliora le proprietà dei caratteri del grafico nelle diapositive Java con Aspose.Slides per Java. Personalizza la dimensione, lo stile e il colore del carattere per presentazioni di grande impatto.
+type: docs
 weight: 11
 url: /it/java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduzione alle proprietà dei caratteri per il grafico nelle diapositive Java
 
@@ -106,9 +102,3 @@ In questo tutorial, hai imparato come personalizzare le proprietà del carattere
 ### Come posso personalizzare le proprietà dei caratteri per elementi specifici del grafico?
 
 Per personalizzare le proprietà dei caratteri per elementi specifici del grafico, come le etichette degli assi o il testo della legenda, puoi accedere a tali elementi e impostare le relative proprietà dei caratteri utilizzando metodi simili a quelli mostrati sopra.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

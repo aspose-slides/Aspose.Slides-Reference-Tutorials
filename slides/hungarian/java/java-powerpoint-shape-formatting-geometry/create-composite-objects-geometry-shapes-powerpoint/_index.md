@@ -3,14 +3,10 @@ title: Hozzon létre összetett objektumokat geometriai alakzatokban
 linktitle: Hozzon létre összetett objektumokat geometriai alakzatokban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ezzel az átfogó oktatóanyaggal megtudhatja, hogyan hozhat létre összetett objektumokat geometriai alakzatokban az Aspose.Slides for Java segítségével. Java fejlesztőknek tökéletes.
+type: docs
 weight: 20
 url: /hu/java/java-powerpoint-shape-formatting-geometry/create-composite-objects-geometry-shapes-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Halihó! Szeretett volna valaha is lenyűgöző és bonyolult formákat létrehozni PowerPoint-prezentációiban Java használatával? Nos, jó helyen jársz. Ebben az oktatóanyagban belemerülünk a hatékony Aspose.Slides for Java könyvtárba, amellyel összetett objektumokat hozhatunk létre geometriai alakzatokban. Akár tapasztalt fejlesztő, akár csak most kezdi, ez a lépésről lépésre bemutató útmutató segít Önnek pillanatok alatt lenyűgöző eredményeket elérni. Készen áll az indulásra? Merüljünk el!
 ## Előfeltételek
@@ -99,9 +95,3 @@ Az Aspose.Slides for Java egy hatékony könyvtár PowerPoint prezentációk lé
  Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
 ### Hol találok további dokumentációt és támogatást?
  Nézze meg a[dokumentáció](https://reference.aspose.com/slides/java/) és[támogatói fórum](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

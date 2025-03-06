@@ -3,14 +3,10 @@ title: Přístup ke snímku pomocí jedinečného identifikátoru
 linktitle: Přístup ke snímku pomocí jedinečného identifikátoru
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se přistupovat ke snímkům aplikace PowerPoint pomocí jedinečných identifikátorů pomocí Aspose.Slides for .NET. Tento podrobný průvodce pokrývá načítání prezentací, přístup ke snímkům podle indexu nebo ID, úpravy obsahu a ukládání změn.
+type: docs
 weight: 11
 url: /cs/net/slide-access-and-manipulation/access-slide-by-id/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod do Aspose.Slides pro .NET
 
@@ -116,9 +112,3 @@ Absolutně. Ať už pracujete na jednoduché prezentaci s několika snímky nebo
 ### Kde najdu podrobnější dokumentaci a zdroje?
 
  Komplexní dokumentaci, ukázky kódu, výukové programy a další naleznete na Aspose.Slides pro .NET v[dokumentace](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

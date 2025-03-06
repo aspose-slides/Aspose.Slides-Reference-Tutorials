@@ -3,14 +3,10 @@ title: Java スライドでプレゼンテーション全体を HTML に変換�
 linktitle: Java スライドでプレゼンテーション全体を HTML に変換する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して、Java で PowerPoint プレゼンテーションを HTML に変換する方法を学びます。コード例付きのステップバイステップ ガイド。
+type: docs
 weight: 29
 url: /ja/java/presentation-conversion/convert-whole-presentation-html-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java スライドでプレゼンテーション全体を HTML に変換する方法の紹介
 
@@ -121,9 +117,3 @@ finally
 ### プレゼンテーション全体ではなく、特定のスライドを変換できますか?
 
 はい、プレゼンテーションを保存する前にコード内で特定のスライドを選択して変換できます。これにより、どのスライドを HTML に変換するかを制御できます。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

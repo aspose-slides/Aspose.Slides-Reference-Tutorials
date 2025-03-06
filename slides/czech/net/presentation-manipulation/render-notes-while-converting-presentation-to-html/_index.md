@@ -3,14 +3,10 @@ title: Vykreslování poznámek při převodu prezentace do HTML
 linktitle: Vykreslování poznámek při převodu prezentace do HTML
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak efektivně vykreslit poznámky řečníka při převodu prezentace do HTML pomocí Aspose.Slides for .NET. Tento podrobný průvodce poskytuje příklady zdrojového kódu a přehledy, které vám pomohou dosáhnout bezproblémového převodu se zachováním poznámek.
+type: docs
 weight: 28
 url: /cs/net/presentation-manipulation/render-notes-while-converting-presentation-to-html/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 V dnešní digitální době se převod prezentací do formátu HTML stal běžným požadavkem. Umožňuje vám snadno sdílet vaše prezentace na webu a zpřístupnit je širšímu publiku. Aspose.Slides for .NET je výkonný nástroj, který tento proces zjednodušuje. V tomto podrobném tutoriálu vás provedeme procesem převodu prezentace do HTML pomocí Aspose.Slides for .NET.
 
@@ -83,10 +79,3 @@ Ano, Aspose.Slides for .NET podporuje různé formáty PowerPoint, včetně PPT,
  Pokud narazíte na nějaké problémy nebo máte dotazy, můžete vyhledat pomoc na[Fórum Aspose.Slides](https://forum.aspose.com/).
 
 Pomocí následujících kroků můžete snadno převést své PowerPointové prezentace do HTML pomocí Aspose.Slides for .NET. Užijte si sdílení svých prezentací online s širším publikem!
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

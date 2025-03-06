@@ -3,14 +3,10 @@ title: ShapeUtil を使用したジオメトリ シェイプの習得 - Aspose.S
 linktitle: プレゼンテーションスライドのジオメトリシェイプに ShapeUtil を使用する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: 動的なジオメトリ シェイプ用の ShapeUtil を備えた Aspose.Slides for .NET のパワーを体験してください。魅力的なプレゼンテーションを簡単に作成できます。今すぐダウンロードしてください。Aspose.Slides を使用して PowerPoint プレゼンテーションを強化する方法を学習します。ジオメトリ シェイプの操作には ShapeUtil をご利用ください。.NET ソース コードを使用したステップ バイ ステップ ガイド。プレゼンテーションを効果的に最適化します。
+type: docs
 weight: 17
 url: /ja/net/shape-geometry-and-positioning-in-slides/using-shapeutil-geometry-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 視覚的に魅力的でダイナミックなプレゼンテーション スライドを作成することは必須のスキルであり、Aspose.Slides for .NET はこれを実現するための強力なツールキットを提供します。このチュートリアルでは、プレゼンテーション スライドでジオメトリ シェイプを処理するための ShapeUtil の使用について説明します。熟練した開発者でも、Aspose.Slides を使い始めたばかりの開発者でも、このガイドでは ShapeUtil を使用してプレゼンテーションを強化するプロセスを順を追って説明します。
 ## 前提条件
@@ -92,9 +88,3 @@ Aspose.Slides は主に .NET 言語をサポートしています。ただし、
 コミュニティサポートフォーラムにアクセス[ここ](https://forum.aspose.com/c/slides/11).
 ### Aspose.Slides for .NET の一時ライセンスを購入できますか?
 はい、一時免許証を取得できます[ここ](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

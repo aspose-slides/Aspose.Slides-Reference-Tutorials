@@ -3,14 +3,10 @@ title: Java PowerPoint SmartArt 조작
 linktitle: Java PowerPoint SmartArt 조작
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: GroupDocs.Slides for Java 튜토리얼을 통해 Java PowerPoint SmartArt를 효과적으로 조작하는 방법을 알아보세요. 하위 노드에 액세스하고, 노드를 추가하고, 레이아웃을 변경하는 등의 작업을 수행하세요!
+type: docs
 weight: 32
 url: /ko/java/java-powerpoint-smartart-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 소개
 
@@ -75,9 +71,3 @@ Aspose.Slides와 함께 Java를 사용하여 SmartArt에서 차트 레이아웃 
 Aspose.Slides for Java를 효율적이고 프로그래밍 방식으로 사용하여 PowerPoint 프레젠테이션의 SmartArt에서 노드를 제거하는 방법을 알아보세요.
 ### [SmartArt의 특정 위치에서 노드 제거](./remove-node-specific-position-smartart-java/)
 Aspose.Slides for Java를 사용하여 SmartArt 내의 특정 위치에서 노드를 제거하는 방법을 알아보세요. 손쉽게 프레젠테이션 사용자 정의를 향상하세요.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

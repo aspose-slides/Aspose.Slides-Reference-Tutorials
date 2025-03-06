@@ -3,14 +3,10 @@ title: Διάσπαρτο γράφημα σε διαφάνειες Java
 linktitle: Διάσπαρτο γράφημα σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε Διαγράμματα Scatter σε Java χρησιμοποιώντας το Aspose.Slides. Οδηγός βήμα προς βήμα με πηγαίο κώδικα Java για οπτικοποίηση δεδομένων σε παρουσιάσεις.
+type: docs
 weight: 11
 url: /el/java/chart-creation/scattered-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στο διάσπαρτο γράφημα στο Aspose.Slides για Java
 
@@ -176,9 +172,3 @@ series.getMarker().setSymbol(MarkerStyleType.Circle);
 Μη διστάσετε να εξερευνήσετε περισσότερες επιλογές προσαρμογής στην τεκμηρίωση Aspose.Slides for Java.
 
  Θυμηθείτε να αντικαταστήσετε`"Your Document Directory"` με την πραγματική διαδρομή όπου θέλετε να αποθηκεύσετε την παρουσίαση.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

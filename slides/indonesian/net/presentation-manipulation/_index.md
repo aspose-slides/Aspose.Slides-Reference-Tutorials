@@ -3,14 +3,10 @@ title: Manipulasi Presentasi
 linktitle: Manipulasi Presentasi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Buka potensi manipulasi presentasi dengan tutorial Aspose.Slides untuk .NET. Pelajari cara membuat, menyesuaikan, dan menyempurnakan presentasi PowerPoint secara dinamis secara terprogram. Tingkatkan keterampilan pemrosesan PowerPoint Anda hari ini!
+type: docs
 weight: 11
 url: /id/net/presentation-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 Di bidang pemrosesan PowerPoint, Aspose.Slides untuk .NET muncul sebagai alat yang ampuh untuk manipulasi presentasi. Kumpulan tutorial ini memberikan panduan komprehensif dalam memanfaatkan kemampuan Aspose.Slides untuk memanipulasi dan menyempurnakan presentasi secara terprogram. Mulai dari membuat, memodifikasi, dan mengatur slide hingga mengelola teks, gambar, dan elemen multimedia, tutorial ini menawarkan perjalanan langkah demi langkah menuju dunia pembuatan dan penyesuaian presentasi yang dinamis. Baik Anda mengotomatiskan tugas presentasi, membuat laporan, atau membuat tayangan slide interaktif, tutorial ini memberdayakan pengembang dengan pengetahuan untuk menggunakan Aspose.Slides secara efektif.
 
 ## Manipulasi Presentasi
@@ -55,9 +51,3 @@ Pelajari cara mengekspor presentasi PowerPoint ke HTML dengan file CSS menggunak
 Pelajari cara melakukan konversi SVG untuk presentasi menggunakan Aspose.Slides untuk .NET. Panduan komprehensif ini mencakup petunjuk langkah demi langkah, contoh kode sumber, dan berbagai opsi konversi SVG.
 ### [Memformat SVG dalam Presentasi](./formatting-svgs-in-presentations/)
 Optimalkan presentasi Anda dengan SVG yang menakjubkan menggunakan Aspose.Slides untuk .NET. Pelajari langkah demi langkah cara memformat SVG untuk visual yang berdampak. Tingkatkan permainan presentasi Anda hari ini! 
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Slide Show Media Controls v Java Slides
 linktitle: Slide Show Media Controls v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Přečtěte si, jak povolit a používat ovládací prvky médií v aplikaci Java Slides pomocí Aspose.Slides for Java. Vylepšete své prezentace pomocí ovládacích prvků médií.
+type: docs
 weight: 11
 url: /cs/java/media-controls/slide-show-media-controls-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod do ovládání médií prezentace v aplikaci Java Slides
 
@@ -112,9 +108,3 @@ V tomto tutoriálu jsme prozkoumali, jak povolit a používat ovládací prvky m
 ### Existuje způsob, jak přidat titulky nebo titulky k videím v Java Slides?
 
 Ano, k videím v Java Slides můžete přidat titulky nebo titulky přidáním textových rámečků nebo tvarů do snímku obsahujícího video. Text pak můžete synchronizovat s přehráváním videa pomocí nastavení časování.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

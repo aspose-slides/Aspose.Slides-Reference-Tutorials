@@ -3,14 +3,10 @@ title: Penggunaan Lisensi Terukur
 linktitle: Penggunaan Lisensi Terukur
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menggunakan Lisensi Terukur secara efisien dengan Aspose.Slides untuk .NET. Integrasikan API dengan lancar sambil membayar untuk penggunaan sebenarnya.
+type: docs
 weight: 11
 url: /id/net/licensing-and-formatting/metered-licensing/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Perkenalan
 
@@ -118,9 +114,3 @@ Aspose.Slides for .NET adalah perpustakaan canggih yang memungkinkan pengembang 
 
 ### Apakah ada forum untuk dukungan dan diskusi Aspose.Slides?
  Ya, Anda dapat menemukan dukungan dan terlibat dalam diskusi di forum Aspose.Slides di[Link ini](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

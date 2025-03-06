@@ -3,14 +3,10 @@ title: Förbättra presentationer - Formatera rektangelformer med Aspose.Slides
 linktitle: Formatera rektangelform i presentationsbilder med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig att formatera rektangelformer i PowerPoint-presentationer med Aspose.Slides för .NET. Lyft dina bilder med dynamiska visuella element.
+type: docs
 weight: 12
 url: /sv/net/shape-geometry-and-positioning-in-slides/formatting-rectangle-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 Aspose.Slides för .NET är ett kraftfullt bibliotek som underlättar arbetet med PowerPoint-presentationer i .NET-miljön. Om du vill förbättra dina presentationer genom att formatera rektangelformer dynamiskt, är den här handledningen för dig. I den här steg-för-steg-guiden går vi igenom processen att formatera en rektangelform i en presentation med Aspose.Slides för .NET.
 ## Förutsättningar
@@ -80,9 +76,3 @@ Ja, Aspose.Slides stöder andra .NET-språk som VB.NET och F# förutom C#.
  Ja, du kan komma åt den kostnadsfria provperioden[här](https://releases.aspose.com/).
 ### F5: Var kan jag köpa Aspose.Slides för .NET?
  Du kan köpa Aspose.Slides för .NET[här](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Adicionar erro personalizado em slides Java
 linktitle: Adicionar erro personalizado em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como adicionar barras de erro personalizadas a gráficos do PowerPoint em Java Slides usando Aspose.Slides. Guia passo a passo com código-fonte para visualização precisa dos dados.
+type: docs
 weight: 11
 url: /pt/java/chart-data-manipulation/add-custom-error-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introdução à adição de barras de erro personalizadas em slides Java usando Aspose.Slides
 
@@ -154,9 +150,3 @@ Você pode percorrer os pontos de dados e definir valores personalizados da barr
 ### É possível ocultar barras de erro para pontos de dados específicos?
 
  Sim, você pode controlar a visibilidade das barras de erro para pontos de dados individuais definindo a opção`setVisible` propriedade do`IErrorBarsFormat` objeto.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

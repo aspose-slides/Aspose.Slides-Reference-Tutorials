@@ -3,14 +3,10 @@ title: 在 Java 幻灯片中添加甜甜圈标注
 linktitle: 在 Java 幻灯片中添加甜甜圈标注
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 学习使用 Aspose.Slides for Java 在 Java 幻灯片中添加甜甜圈标注。带有源代码的分步指南，用于增强演示文稿。
+type: docs
 weight: 12
 url: /zh/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 使用 Aspose.Slides for Java 在 Java Slides 中添加甜甜圈标注的简介
 
@@ -184,9 +180,3 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 ### 如何调整幻灯片上环形图的位置和大小？
 
 您可以通过修改`addChart`方法。该方法中的四个数字分别对应于图表左上角的 X 和 Y 坐标以及图表的宽度和高度。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

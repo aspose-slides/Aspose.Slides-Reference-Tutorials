@@ -3,14 +3,10 @@ title: Opsi Plot Kedua untuk Bagan di Slide Java
 linktitle: Opsi Plot Kedua untuk Bagan di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menyesuaikan bagan di Java Slides menggunakan Aspose.Slides for Java. Jelajahi opsi plot kedua dan tingkatkan presentasi Anda.
+type: docs
 weight: 12
 url: /id/java/chart-creation/second-plot-options-charts-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Pengantar Opsi Plot Kedua untuk Bagan di Slide Java
 
@@ -97,9 +93,3 @@ Untuk mengubah ukuran pai kedua dalam diagram Pie of Pie, gunakan`setSecondPieSi
 ### Bagaimana cara mengatur posisi pemisahan pada diagram Pie of Pie?
 
  Anda dapat mengatur posisi pemisahan dalam diagram Pie of Pie menggunakan`setPieSplitPosition` metode. Sesuaikan nilainya untuk menentukan posisi yang diinginkan.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

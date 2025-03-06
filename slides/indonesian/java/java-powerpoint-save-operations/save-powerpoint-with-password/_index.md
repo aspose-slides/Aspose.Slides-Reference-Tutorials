@@ -3,14 +3,10 @@ title: Simpan PowerPoint dengan Kata Sandi
 linktitle: Simpan PowerPoint dengan Kata Sandi
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan perlindungan kata sandi ke presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Amankan slide Anda dengan mudah.
+type: docs
 weight: 12
 url: /id/java/java-powerpoint-save-operations/save-powerpoint-with-password/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam tutorial ini, kami akan memandu Anda melalui proses menyimpan presentasi PowerPoint dengan kata sandi menggunakan Aspose.Slides untuk Java. Menambahkan kata sandi ke presentasi Anda dapat meningkatkan keamanannya, memastikan bahwa hanya individu yang berwenang yang dapat mengakses kontennya.
 ## Prasyarat
@@ -71,9 +67,3 @@ Ya, Aspose.Slides memungkinkan Anda mengatur kata sandi terpisah untuk izin meng
  Ya, Anda dapat mengunduh uji coba gratis dari Aspose[situs web](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan dukungan teknis untuk Aspose.Slides?
 Anda dapat mengunjungi forum Aspose.Slides untuk mendapatkan bantuan teknis dari komunitas dan staf pendukung Aspose.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

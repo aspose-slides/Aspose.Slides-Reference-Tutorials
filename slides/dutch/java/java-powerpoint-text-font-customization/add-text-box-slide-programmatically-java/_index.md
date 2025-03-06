@@ -3,14 +3,10 @@ title: Voeg tekstvak op dia programmatisch toe met Java
 linktitle: Voeg tekstvak op dia programmatisch toe met Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u programmatisch een tekstvak aan PowerPoint-dia's kunt toevoegen met Aspose.Slides voor Java. Verbeter uw productiviteit met deze stapsgewijze handleiding.
+type: docs
 weight: 24
 url: /nl/java/java-powerpoint-text-font-customization/add-text-box-slide-programmatically-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 Door PowerPoint-presentaties programmatisch te maken en te manipuleren, kunnen veel workflows worden gestroomlijnd, van het genereren van rapporten tot het automatiseren van presentaties. Aspose.Slides voor Java biedt een krachtige API waarmee ontwikkelaars deze taken efficiënt kunnen uitvoeren. In deze zelfstudie begeleiden we u bij het toevoegen van een tekstvak aan een dia met behulp van Aspose.Slides voor Java. Aan het einde van deze tutorial heeft u een duidelijk inzicht in hoe u deze functionaliteit in uw Java-applicaties kunt integreren.
 ## Vereisten
@@ -71,9 +67,3 @@ Absoluut, het is ontworpen om complexe taken efficiënt uit te voeren.
  U kunt een[tijdelijke licentie](https://purchase.aspose.com/temporary-license/) van Aspose.
 ### Ondersteunt Aspose.Slides het converteren van presentaties naar andere formaten?
 Ja, het ondersteunt verschillende formaten, waaronder PDF en afbeeldingen.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

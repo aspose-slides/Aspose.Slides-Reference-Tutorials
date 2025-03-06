@@ -3,14 +3,10 @@ title: Aspose.Slides for .NET ile Slayt Küçük Resimleri Oluşturun
 linktitle: Slayttan Küçük Resim Oluştur
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET ile PowerPoint slayt küçük resimlerini nasıl oluşturacağınızı öğrenin. Sunumlarınızı kolayca geliştirin.
+type: docs
 weight: 11
 url: /tr/net/slide-thumbnail-generation/generate-thumbnail-from-slide/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Dijital sunum dünyasında ilgi çekici ve bilgilendirici slayt küçük resimleri oluşturmak, izleyicilerinizin dikkatini çekmenin önemli bir parçasıdır. Aspose.Slides for .NET, .NET uygulamalarınızdaki slaytlardan küçük resimler oluşturmanıza olanak tanıyan güçlü bir kitaplıktır. Bu adım adım kılavuzda bunu Aspose.Slides for .NET ile nasıl başaracağınızı göstereceğiz.
 
@@ -110,10 +106,3 @@ Evet, Aspose, deneme amaçlı geçici lisanslar da dahil olmak üzere çeşitli 
 
 ### Sorunlarla karşılaşırsam veya sorularım olursa Aspose.Slides for .NET için nasıl destek alabilirim?
  Aspose topluluk destek forumunda yardım isteyebilir ve tartışmalara katılabilirsiniz[Burada](https://forum.aspose.com/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

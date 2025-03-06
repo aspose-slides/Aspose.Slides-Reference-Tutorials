@@ -3,14 +3,10 @@ title: How to Set Transition Morph Type on Slide Using Aspose.Slides
 linktitle: Set Transition Morph Type on Slide
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to set transition morph type on slides using Aspose.Slides for .NET. Step-by-step guide with code examples. Enhance your presentations now! 
+type: docs
 weight: 12
 url: /net/slide-transition-effects/set-transition-morph-type/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 In the world of dynamic presentations, the right transitions can make a world of difference. Aspose.Slides for .NET empowers developers to create stunning PowerPoint presentations, and one of its exciting features is the ability to set transition effects. In this step-by-step guide, we'll delve into how to set the Transition Morph Type on a slide using Aspose.Slides for .NET. This not only adds a professional touch to your presentations but also enhances the overall user experience.
 
@@ -107,10 +103,3 @@ For any technical or product-related questions, you can visit the [Aspose.Slides
 Aspose.Slides for .NET offers a variety of transition effects, including fades, pushes, wipes, and more. You can explore the documentation on the [Aspose.Slides for .NET documentation page](https://reference.aspose.com/slides/net/) for details on all available transition types.
 
 
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

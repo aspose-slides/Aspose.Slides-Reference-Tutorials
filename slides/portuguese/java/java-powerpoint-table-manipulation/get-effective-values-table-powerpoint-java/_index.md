@@ -3,14 +3,10 @@ title: Obtenha valores efetivos de tabela no PowerPoint com Java
 linktitle: Obtenha valores efetivos de tabela no PowerPoint com Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como extrair valores efetivos de tabela no PowerPoint usando Aspose.Slides para Java. Aprimore suas apresentações de maneira programática.
+type: docs
 weight: 14
 url: /pt/java/java-powerpoint-table-manipulation/get-effective-values-table-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 Na era digital de hoje, a criação de apresentações dinâmicas e envolventes é crucial para uma comunicação eficaz tanto em ambientes empresariais como educacionais. Aspose.Slides for Java fornece uma solução poderosa para desenvolvedores Java manipularem e aprimorarem apresentações do PowerPoint de forma programática. Este tutorial irá guiá-lo através do processo de extração de valores efetivos de tabelas em apresentações do PowerPoint usando Aspose.Slides para Java. Ao final deste tutorial, você estará equipado com o conhecimento para acessar e utilizar programaticamente dados de formatação de tabela em seus aplicativos Java.
 ## Pré-requisitos
@@ -65,9 +61,3 @@ Sim, Aspose.Slides for Java fornece APIs abrangentes para trabalhar com slides, 
  Visite o fórum de suporte da comunidade[aqui](https://forum.aspose.com/c/slides/11) para assistência.
 ### Posso comprar uma licença temporária do Aspose.Slides for Java?
  Sim, você pode comprar uma licença temporária[aqui](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: 将演示文稿转换为 HTML5 格式
 linktitle: 将演示文稿转换为 HTML5 格式
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 将 PowerPoint 演示文稿转换为 HTML5 格式。轻松高效地进行网络共享。
+type: docs
 weight: 22
 url: /zh/net/presentation-conversion/convert-presentation-to-html5-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 使用 Aspose.Slides for .NET 将演示文稿转换为 HTML5 格式
 
 在本指南中，我们将引导您使用 Aspose.Slides for .NET 库将 PowerPoint 演示文稿 (PPT/PPTX) 转换为 HTML5 格式的过程。Aspose.Slides 是一个功能强大的库，可让您操作和转换各种格式的 PowerPoint 演示文稿。
@@ -85,9 +81,3 @@ namespace PresentationToHTML5Converter
 ### 是否有 Aspose.Slides 的试用版？
 
 是的，你可以从以下网站获取 Aspose.Slides for .NET 的免费试用版[下载页面](https://releases.aspose.com/slides/net).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Slaytlarda Şekil Efektleri ve Manipülasyon
 linktitle: Slaytlarda Şekil Efektleri ve Manipülasyon
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides şekil efektleri ve manipülasyon eğitimleriyle sunumunuzun görsel çekiciliğini artırın. Şekil efektlerini, animasyonları ve daha fazlasını kullanarak çarpıcı slaytlar oluşturmayı öğrenin.
+type: docs
 weight: 11
 url: /tr/net/shape-effects-and-manipulation-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## giriiş
 
@@ -67,9 +63,3 @@ Aspose.Slides for .NET'i kullanarak bağlayıcı çizgi açılarını ayarlayara
 Aspose.Slides ile sunum slaytlarındaki bağlayıcıları kullanarak şekilleri nasıl bağlayacağınızı öğrenerek sunum becerilerinizi geliştirin. Bugün görsel hikaye anlatımınızı geliştirin!
 ### [Aspose.Slides ile Sunum Slaytlarında Bağlantı Sitesini Kullanarak Shape'i Bağlama](./connecting-shape-using-connection-site/)
 Aspose.Slides ile sunum slaytlarındaki bağlantı sitelerini kullanarak şekilleri nasıl bağlayacağınızı öğrenerek sunum becerilerinizi geliştirin. Ayrıntılı kılavuzumuzu ve kod örneklerimizi takip edin.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

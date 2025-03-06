@@ -3,14 +3,10 @@ title: Aspose.Slides で SmartArt 子ノートのサムネイルを作成する
 linktitle: Aspose.Slides で SmartArt 子ノートのサムネイルを作成する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して魅力的な SmartArt 子ノート サムネイルを作成する方法を学びます。ダイナミックなビジュアルでプレゼンテーションのレベルを高めましょう。
+type: docs
 weight: 15
 url: /ja/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 動的プレゼンテーションの分野では、Aspose.Slides for .NET は強力なツールとして際立っており、開発者に PowerPoint プレゼンテーションをプログラムで操作および強化する機能を提供します。興味深い機能の 1 つは、SmartArt 子ノートのサムネイルを生成して、プレゼンテーションに視覚的な魅力を加える機能です。このステップ バイ ステップ ガイドでは、Aspose.Slides for .NET を使用して SmartArt 子ノートのサムネイルを作成する手順を説明します。
 ## 前提条件
@@ -66,9 +62,3 @@ A: もちろんです! Aspose.Slides ではさまざまな SmartArt レイアウ
  A: をご覧ください[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティと関わり、質問し、解決策を見つけます。
 ### Q: Aspose.Slides for .NET を購入できますか?
  A: もちろんです！購入オプションをご覧ください[ここ](https://purchase.aspose.com/buy)プロジェクトで Aspose.Slides の可能性を最大限に引き出します。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

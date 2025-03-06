@@ -3,14 +3,10 @@ title: Formátování textu uvnitř řádku tabulky v PowerPointu pomocí Javy
 linktitle: Formátování textu uvnitř řádku tabulky v PowerPointu pomocí Javy
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se formátovat text uvnitř řádků tabulky v PowerPointu pomocí Aspose.Slides for Java. Vylepšete své prezentace pomocí našeho podrobného průvodce.
+type: docs
 weight: 12
 url: /cs/java/java-powerpoint-table-formatting-updates/format-text-inside-table-row-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 Při práci s prezentacemi je vytváření vizuálně přitažlivých snímků zásadní pro udržení pozornosti publika. Formátování textu uvnitř řádků tabulky může výrazně zlepšit čitelnost a estetiku vašich snímků. V tomto tutoriálu prozkoumáme, jak formátovat text v řádku tabulky v PowerPointu pomocí Aspose.Slides for Java.
 ## Předpoklady
@@ -89,9 +85,3 @@ Aspose.Slides je k dispozici pro několik platforem, včetně .NET a C++. Pro Ja
  Ano, můžete si zakoupit licenci od[nákupní stránku](https://purchase.aspose.com/buy).
 ### Jaké formáty souborů podporuje Aspose.Slides for Java?
 Aspose.Slides for Java podporuje různé formáty včetně PPT, PPTX, ODP a dalších.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

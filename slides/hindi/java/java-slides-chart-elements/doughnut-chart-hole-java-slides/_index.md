@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में डोनट चार्
 linktitle: जावा स्लाइड्स में डोनट चार्ट होल
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके Java स्लाइड्स में कस्टम होल साइज़ के साथ डोनट चार्ट बनाएँ। चार्ट कस्टमाइज़ेशन के लिए सोर्स कोड के साथ चरण-दर-चरण मार्गदर्शिका।
+type: docs
 weight: 11
 url: /hi/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## जावा स्लाइड्स में छेद वाले डोनट चार्ट का परिचय
 
@@ -98,9 +94,3 @@ finally
 ### क्या चार्ट में शीर्षक जोड़ना संभव है?
 
  ज़रूर! आप चार्ट में शीर्षक जोड़ सकते हैं`setTitle` विधि पर`IChart` ऑब्जेक्ट और वांछित शीर्षक पाठ प्रदान करना।
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

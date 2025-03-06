@@ -3,14 +3,10 @@ title: Java PowerPoint 高階段落和字型屬性
 linktitle: Java PowerPoint 高階段落和字型屬性
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides 掌握 Java PowerPoint 中的高階段落和字體屬性。了解自訂字體、新增圖片項目符號以及使用後備字體。
+type: docs
 weight: 28
 url: /zh-hant/java/java-powerpoint-advanced-paragraph-font-properties/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 
 創建精美的 PowerPoint 簡報需要微調各種元素，從段落格式到字體管理。 Aspose.Slides for Java 提供了強大的工具來有效管理這些進階屬性。在本文中，我們將探索幫助您自訂段落字體屬性、新增圖片項目符號和使用後備字體的教學課程。讓我們深入研究這些先進技術，讓您的簡報脫穎而出！
@@ -39,9 +35,3 @@ url: /zh-hant/java/java-powerpoint-advanced-paragraph-font-properties/
 透過這個詳細的逐步教學，了解如何使用 Aspose.Slides for Java 在 PowerPoint 中取得部分矩形。非常適合 Java 開發人員。
 ### [在 Java PowerPoint 中使用後備字體進行渲染](./render-with-fallback-font-java-powerpoint/)
 了解如何使用 Aspose.Slides 在 Java PowerPoint 簡報中呈現具有後備字體的文字。請遵循此逐步指南以實現無縫實施。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

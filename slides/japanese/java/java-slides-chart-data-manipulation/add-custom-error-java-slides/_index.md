@@ -3,14 +3,10 @@ title: Javaスライドにカスタムエラーを追加する
 linktitle: Javaスライドにカスタムエラーを追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して、Java スライドの PowerPoint グラフにカスタム エラー バーを追加する方法を学びます。正確なデータ視覚化のためのソース コード付きのステップ バイ ステップ ガイド。
+type: docs
 weight: 11
 url: /ja/java/chart-data-manipulation/add-custom-error-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides を使用して Java スライドにカスタム エラー バーを追加する方法の紹介
 
@@ -154,9 +150,3 @@ finally
 ### 特定のデータ ポイントのエラー バーを非表示にすることは可能ですか?
 
 はい、個々のデータポイントのエラーバーの表示を制御するには、`setVisible`の財産`IErrorBarsFormat`物体。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

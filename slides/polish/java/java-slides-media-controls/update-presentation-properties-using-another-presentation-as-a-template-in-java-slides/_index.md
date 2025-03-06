@@ -3,14 +3,10 @@ title: Zaktualizuj właściwości prezentacji, używając innej prezentacji jako
 linktitle: Zaktualizuj właściwości prezentacji, używając innej prezentacji jako szablonu w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Ulepsz prezentacje programu PowerPoint dzięki zaktualizowanym metadanym, korzystając z Aspose.Slides dla Java. Dowiedz się, jak aktualizować właściwości, takie jak autor, tytuł i słowa kluczowe, za pomocą szablonów w Java Slides.
+type: docs
 weight: 14
 url: /pl/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Wprowadzenie do aktualizowania właściwości prezentacji przy użyciu innej prezentacji jako szablonu w slajdach Java
 
@@ -126,9 +122,3 @@ Tak, możesz dostosować kod, aby zaktualizować określone właściwości w opa
 ### Czy istnieją jakieś ograniczenia dotyczące rodzaju prezentacji, które można aktualizować?
 
 Nie, możesz aktualizować właściwości prezentacji w różnych formatach, w tym PPTX, ODP i PPT.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

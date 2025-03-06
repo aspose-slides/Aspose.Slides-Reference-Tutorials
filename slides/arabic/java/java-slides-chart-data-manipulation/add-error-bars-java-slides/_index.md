@@ -3,14 +3,10 @@ title: إضافة أشرطة الخطأ في شرائح جافا
 linktitle: إضافة أشرطة الخطأ في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة أشرطة الخطأ إلى مخططات PowerPoint في Java باستخدام Aspose.Slides. دليل خطوة بخطوة مع التعليمات البرمجية المصدر لتخصيص أشرطة الخطأ.
+type: docs
 weight: 13
 url: /ar/java/chart-data-manipulation/add-error-bars-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة لإضافة أشرطة الأخطاء في شرائح Java باستخدام Aspose.Slides
 
@@ -132,9 +128,3 @@ finally
 ### أين يمكنني العثور على مزيد من المعلومات حول Aspose.Slides لـ Java؟
 
  يمكنك الرجوع إلى[Aspose.Slides لتوثيق جافا](https://reference.aspose.com/slides/java/) للحصول على معلومات مفصلة حول استخدام المكتبة.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

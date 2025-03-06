@@ -3,14 +3,10 @@ title: Dar formato a estilos de unión en PowerPoint
 linktitle: Dar formato a estilos de unión en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo mejorar sus presentaciones de PowerPoint configurando diferentes estilos de unión de líneas para formas usando Aspose.Slides para Java. Sigue nuestra guía paso a paso.
+type: docs
 weight: 15
 url: /es/java/java-powerpoint-shape-formatting-geometry/format-join-styles-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introducción
 Crear presentaciones de PowerPoint visualmente atractivas puede ser una tarea desalentadora, especialmente cuando quieres que cada detalle sea perfecto. Aquí es donde Aspose.Slides para Java resulta útil. Es una API poderosa que le permite crear, manipular y administrar presentaciones mediante programación. Una de las características que puede utilizar es configurar diferentes estilos de unión de líneas para formas, lo que puede mejorar significativamente la estética de sus diapositivas. En este tutorial, profundizaremos en cómo puede usar Aspose.Slides para Java para establecer estilos de unión para formas en presentaciones de PowerPoint. 
 ## Requisitos previos
@@ -116,9 +112,3 @@ Sí, puede utilizar Aspose.Slides para Java en cualquier IDE compatible con Java
 Los estilos de unión de líneas se refieren a la forma de las esquinas donde se unen dos líneas. Los estilos comunes incluyen inglete, bisel y redondo.
 ### ¿Dónde puedo encontrar más documentación sobre Aspose.Slides para Java?
  Puedes encontrar documentación detallada.[aquí](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

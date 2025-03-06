@@ -3,14 +3,10 @@ title: Hantera Paragraph Picture Bullets i Java PowerPoint
 linktitle: Hantera Paragraph Picture Bullets i Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du lägger till anpassade bildpunkter till PowerPoint-bilder med Aspose.Slides för Java. Följ denna detaljerade, steg-för-steg-guide för sömlös integration.
+type: docs
 weight: 11
 url: /sv/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-picture-bullets-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 Att skapa engagerande och visuellt tilltalande presentationer är en avgörande färdighet i den moderna affärsvärlden. Java-utvecklare kan utnyttja Aspose.Slides för att förbättra sina presentationer med anpassade bildpunkter i PowerPoint-bilder. Denna handledning guidar dig genom processen steg för steg, vilket säkerställer att du med säkerhet kan lägga till bildpunkter i dina presentationer.
 ## Förutsättningar
@@ -108,9 +104,3 @@ Ja, du kan använda vilken bild som helst för bildkulorna så länge den är ti
 Ja, du kan lägga till flera stycken med olika punktstilar till en enda AutoShape genom att skapa och konfigurera varje stycke individuellt.
 ### Var kan jag hitta fler exempel och stöd?
  Du kan hitta fler exempel i[dokumentation](https://reference.aspose.com/slides/java/) och få stöd från Aspose-gemenskapen på[forum](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

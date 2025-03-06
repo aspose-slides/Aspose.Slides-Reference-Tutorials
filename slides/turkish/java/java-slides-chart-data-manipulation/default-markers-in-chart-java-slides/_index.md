@@ -3,14 +3,10 @@ title: Java Slaytlarındaki Grafikteki Varsayılan İşaretçiler
 linktitle: Java Slaytlarındaki Grafikteki Varsayılan İşaretçiler
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak grafiklerde varsayılan işaretleyicilerle Java Slaytları oluşturmayı öğrenin. Kaynak koduyla adım adım kılavuz.
+type: docs
 weight: 16
 url: /tr/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java Slaytlarındaki Grafikteki Varsayılan İşaretleyicilere Giriş
 
@@ -146,9 +142,3 @@ Her veri noktası için işaretçi stilini ayarlayarak işaretçi sembollerini �
 ### Veri noktalarına etiket ekleyebilir miyim?
 
  Evet, kullanarak veri noktalarına etiket ekleyebilirsiniz.`IDataPoint.getLabel()` yöntemini kullanın ve bunları gerektiği gibi özelleştirin.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

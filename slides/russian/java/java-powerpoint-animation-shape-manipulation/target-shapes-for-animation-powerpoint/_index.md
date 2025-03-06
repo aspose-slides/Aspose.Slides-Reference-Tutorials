@@ -3,14 +3,10 @@ title: Целевые фигуры для анимации в PowerPoint
 linktitle: Целевые фигуры для анимации в PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как анимировать определенные фигуры в презентациях PowerPoint с помощью Aspose.Slides для Java. Создавайте привлекательные слайды без особых усилий.
+type: docs
 weight: 11
 url: /ru/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-animation-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 В мире динамических презентаций анимация играет решающую роль в привлечении аудитории и эффективной передаче информации. Aspose.Slides для Java позволяет разработчикам создавать увлекательные презентации PowerPoint со сложной анимацией, адаптированной к конкретным формам. Это руководство проведет вас через процесс выбора фигур для анимации с помощью Aspose.Slides for Java, гарантируя, что ваши презентации будут выделяться плавными переходами и точной анимацией.
 ## Предварительные условия
@@ -66,9 +62,3 @@ try {
  Вы можете приобрести временную лицензию у[здесь](https://purchase.aspose.com/temporary-license/).
 ### Где я могу приобрести Aspose.Slides для Java?
  Вы можете приобрести Aspose.Slides для Java на сайте.[здесь](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

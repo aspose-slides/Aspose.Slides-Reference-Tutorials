@@ -3,14 +3,10 @@ title: Képkeretek hozzáadása oktatóanyag az Aspose.Slides .NET segítségév
 linktitle: Képkeretek hozzáadása relatív léptékmagassággal az Aspose.Slides-ben
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan adhat hozzá relatív méretarányú képkereteket az Aspose.Slides for .NET-hez. Kövesse ezt a lépésről lépésre szóló útmutatót a zökkenőmentes prezentációkhoz.
+type: docs
 weight: 17
 url: /hu/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Az Aspose.Slides for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy .NET-alkalmazásaikban könnyedén hozzanak létre, kezeljenek és alakítsanak át PowerPoint-prezentációkat. Ebben az oktatóanyagban a relatív méretarányú képkeretek hozzáadásának folyamatát mutatjuk be az Aspose.Slides for .NET segítségével. Kövesse ezt a lépésenkénti útmutatót prezentációkészítési készségeinek fejlesztéséhez.
 ## Előfeltételek
@@ -68,9 +64,3 @@ Az Aspose.Slides elsősorban a .NET nyelveket támogatja, de felfedezhet más As
  Meglátogatni a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) hogy kérjen segítséget a közösségtől és az Aspose szakértőitől.
 ### Hol vásárolhatom meg az Aspose.Slides-t .NET-hez?
  Az Aspose.Slides for .NET megvásárolható itt[vásárlási oldal](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

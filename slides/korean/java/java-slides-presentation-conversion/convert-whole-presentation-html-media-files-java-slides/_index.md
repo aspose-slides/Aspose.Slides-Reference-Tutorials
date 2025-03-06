@@ -3,14 +3,10 @@ title: Java 슬라이드의 미디어 파일을 사용하여 전체 프레젠테
 linktitle: Java 슬라이드의 미디어 파일을 사용하여 전체 프레젠테이션을 HTML로 변환
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Java Slides를 사용하여 미디어 파일이 포함된 프레젠테이션을 HTML로 변환하는 방법을 알아보세요. Java API용 Aspose.Slides에 대한 단계별 가이드를 따르세요.
+type: docs
 weight: 30
 url: /ko/java/presentation-conversion/convert-whole-presentation-html-media-files-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 슬라이드의 미디어 파일을 사용하여 전체 프레젠테이션을 HTML로 변환하는 방법 소개
 
@@ -129,9 +125,3 @@ finally
 ### 변환된 HTML 프리젠테이션에 어떻게 액세스할 수 있나요?
 
  변환이 완료되면 다음에 지정된 파일을 찾아 HTML 프리젠테이션에 액세스할 수 있습니다.`htmlDocumentFileName` 변하기 쉬운.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

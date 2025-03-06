@@ -3,14 +3,10 @@ title: Comment définir un clic de lien hypertexte de macro dans Aspose.Slides p
 linktitle: Gestion des hyperliens à l'aide de macros
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment définir des hyperliens de macro dans vos présentations avec Aspose.Slides pour .NET. Améliorez l’interactivité et engagez votre public.
+type: docs
 weight: 13
 url: /fr/net/hyperlink-manipulation/macro-hyperlink/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Dans le monde du développement de logiciels moderne, la création de présentations dynamiques et interactives est un aspect clé. Aspose.Slides for .NET est une bibliothèque puissante qui vous permet de travailler avec des présentations de manière transparente. Que vous créiez une présentation professionnelle ou un diaporama éducatif, la possibilité de définir des clics sur des liens hypertextes macro peut considérablement améliorer l'expérience utilisateur. Dans ce guide étape par étape, nous vous guiderons tout au long du processus de définition d'un clic de lien hypertexte de macro à l'aide d'Aspose.Slides pour .NET. 
 
@@ -110,9 +106,3 @@ Oui, vous pouvez personnaliser l'apparence de la forme automatique en ajustant s
 
 ### Où puis-je obtenir de l’aide ou du support pour Aspose.Slides pour .NET ?
  Si vous rencontrez des problèmes ou avez des questions, vous pouvez demander de l'aide sur le forum d'assistance Aspose.[ici](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

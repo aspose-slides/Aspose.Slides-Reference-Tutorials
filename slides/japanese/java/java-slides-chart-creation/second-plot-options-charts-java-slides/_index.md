@@ -3,14 +3,10 @@ title: Java スライドのチャートの 2 番目のプロット オプショ�
 linktitle: Java スライドのチャートの 2 番目のプロット オプション
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して Java スライドのグラフをカスタマイズする方法を学びます。2 番目のプロット オプションを調べて、プレゼンテーションを強化します。
+type: docs
 weight: 12
 url: /ja/java/chart-creation/second-plot-options-charts-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java スライドのチャートの 2 番目のプロット オプションの紹介
 
@@ -97,9 +93,3 @@ presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pp
 ### 円グラフの分割位置を設定するにはどうすればよいですか?
 
 円グラフの分割位置は、`setPieSplitPosition`方法。値を調整して目的の位置を指定します。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Szórt diagram a Java diákban
 linktitle: Szórt diagram a Java diákban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre szóródiagramokat Java nyelven az Aspose.Slides segítségével. Lépésről lépésre útmutató Java forráskóddal az adatok megjelenítéséhez prezentációkban.
+type: docs
 weight: 11
 url: /hu/java/chart-creation/scattered-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés az Aspose.Slides for Java szórt diagramjába
 
@@ -176,9 +172,3 @@ series.getMarker().setSymbol(MarkerStyleType.Circle);
 Nyugodtan fedezze fel a további testreszabási lehetőségeket az Aspose.Slides for Java dokumentációjában.
 
  Ne felejtse el cserélni`"Your Document Directory"` azzal a tényleges elérési úttal, ahová a prezentációt menteni szeretné.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

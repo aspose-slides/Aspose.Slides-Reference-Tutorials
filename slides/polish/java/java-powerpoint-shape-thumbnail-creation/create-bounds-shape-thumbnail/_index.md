@@ -3,14 +3,10 @@ title: Utwórz miniaturę kształtu obwiedni
 linktitle: Utwórz miniaturę kształtu obwiedni
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak tworzyć miniatury kształtów z granicami za pomocą Aspose.Slides dla Java. Ten samouczek krok po kroku przeprowadzi Cię przez cały proces.
+type: docs
 weight: 10
 url: /pl/java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnail/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 Aspose.Slides for Java to potężna biblioteka, która umożliwia programistom Java programowe tworzenie, manipulowanie i konwertowanie prezentacji programu PowerPoint. W tym samouczku dowiemy się, jak utworzyć miniaturę kształtu z granicami za pomocą Aspose.Slides dla Java.
 ## Warunki wstępne
@@ -61,9 +57,3 @@ Tak, możesz dostosować właściwości miniatur, takie jak rozmiar i jakość, 
 Tak, Aspose.Slides for Java zapewnia rozbudowaną funkcjonalność do pracy z prezentacjami programu PowerPoint, w tym manipulowanie slajdami, wyodrębnianie tekstu i generowanie wykresów.
 ### Czy dostępna jest wersja próbna Aspose.Slides dla Java?
  Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

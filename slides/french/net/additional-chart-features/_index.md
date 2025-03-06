@@ -3,14 +3,10 @@ title: Fonctionnalités graphiques supplémentaires
 linktitle: Fonctionnalités graphiques supplémentaires
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Explorez les fonctionnalités avancées de graphiques dans Aspose.Slides pour .NET ! Apprenez à créer des graphiques dynamiques et interactifs avec des styles personnalisés, des courbes de tendance et bien plus encore. Améliorez vos présentations grâce à une visualisation de données puissante.
+type: docs
 weight: 24
 url: /fr/net/additional-chart-features/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction
 
@@ -36,9 +32,3 @@ Découvrez comment extraire efficacement les données d'un graphique à l'aide d
 Découvrez comment récupérer un classeur à partir d'un graphique à l'aide d'Aspose.Slides pour .NET. Extrayez les données du graphique et créez des classeurs Excel par programmation.
 ### [Effacer les points de données d'une série de graphiques spécifiques](./clear-specific-chart-series-data-points-data/)
 Découvrez comment effacer des points de données de graphique spécifiques dans Aspose.Slides pour .NET. Guide étape par étape avec code source inclus.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

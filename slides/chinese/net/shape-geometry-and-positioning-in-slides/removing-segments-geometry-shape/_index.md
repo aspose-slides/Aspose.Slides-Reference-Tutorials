@@ -3,14 +3,10 @@ title: 删除形状片段 - Aspose.Slides .NET 教程
 linktitle: 删除演示文稿幻灯片中的几何形状的线段
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides API for .NET 从演示文稿幻灯片中的几何形状中删除线段。带有源代码的分步指南。
+type: docs
 weight: 16
 url: /zh/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 创建具有视觉吸引力的演示文稿通常需要操纵形状和元素以实现所需的设计。借助 Aspose.Slides for .NET，开发人员可以轻松控制形状的几何形状，从而可以删除特定的部分。在本教程中，我们将指导您使用 Aspose.Slides for .NET 从演示文稿幻灯片中的几何形状中删除部分。
 ## 先决条件
@@ -72,9 +68,3 @@ shape.SetGeometryPath(path);
 不可以，保存后更改不可逆转。修改前请考虑保存备份。
 ### 我可以在哪里寻求额外的支持或帮助？
 访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)获得社区支持和讨论。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java 슬라이드에 도넛 설명선 추가
 linktitle: Java 슬라이드에 도넛 설명선 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드에 도넛 설명선을 추가하는 방법을 알아보세요. 향상된 프레젠테이션을 위한 소스 코드가 포함된 단계별 가이드입니다.
+type: docs
 weight: 12
 url: /ko/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for Java를 사용하여 Java 슬라이드에 도넛 설명선 추가 소개
 
@@ -184,9 +180,3 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 ### 슬라이드에서 도넛 차트의 위치와 크기를 조정하려면 어떻게 해야 하나요?
 
  다음의 매개변수를 수정하여 도넛 차트의 위치와 크기를 변경할 수 있습니다.`addChart` 방법. 해당 메서드의 4개 숫자는 각각 차트 왼쪽 위 모서리의 X 및 Y 좌표와 너비 및 높이에 해당합니다.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Αλλαγή δεδομένων αντικειμένου OLE στο Power
 linktitle: Αλλαγή δεδομένων αντικειμένου OLE στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς μπορείτε να αλλάξετε τα δεδομένα αντικειμένου OLE στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Ένας οδηγός βήμα προς βήμα για αποτελεσματικές και εύκολες ενημερώσεις.
+type: docs
 weight: 14
 url: /el/java/java-powerpoint-animation-shape-manipulation/change-ole-object-data-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Η αλλαγή των δεδομένων αντικειμένων OLE σε παρουσιάσεις PowerPoint μπορεί να είναι μια κρίσιμη εργασία όταν χρειάζεται να ενημερώσετε το ενσωματωμένο περιεχόμενο χωρίς να κάνετε μη αυτόματη επεξεργασία κάθε διαφάνειας. Αυτός ο περιεκτικός οδηγός θα σας καθοδηγήσει στη διαδικασία χρησιμοποιώντας το Aspose.Slides για Java, μια ισχυρή βιβλιοθήκη που έχει σχεδιαστεί για το χειρισμό παρουσιάσεων PowerPoint. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, θα βρείτε αυτό το σεμινάριο χρήσιμο και εύκολο στην παρακολούθηση.
 ## Προαπαιτούμενα
@@ -104,9 +100,3 @@ if (ole != null) {
  Ναι, μπορείτε να πάρετε ένα[δωρεάν δοκιμή](https://releases.aspose.com/) για να δοκιμάσετε τις δυνατότητες του Aspose.Slides.
 ### Πού μπορώ να βρω την τεκμηρίωση για το Aspose.Slides;
  Μπορείτε να βρείτε αναλυτική τεκμηρίωση στο[Σελίδα τεκμηρίωσης Aspose.Slides](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

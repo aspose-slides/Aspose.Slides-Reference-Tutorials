@@ -3,14 +3,10 @@ title: Přidejte na snímek čáru ve tvaru šipky
 linktitle: Přidejte na snímek čáru ve tvaru šipky
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak přidat čáry ve tvaru šipky do snímků aplikace PowerPoint pomocí Aspose.Slides for Java. Přizpůsobte styly, barvy a pozice bez námahy.
+type: docs
 weight: 11
 url: /cs/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-slide/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 tomto tutoriálu prozkoumáme, jak přidat čáru ve tvaru šipky na snímek pomocí Aspose.Slides for Java. Aspose.Slides je výkonné Java API, které umožňuje vývojářům vytvářet, upravovat a převádět PowerPointové prezentace programově. Přidáním čar ve tvaru šipek na snímky můžete zvýšit vizuální přitažlivost a jasnost vašich prezentací.
 ## Předpoklady
@@ -78,9 +74,3 @@ Aspose.Slides podporuje různé formáty PowerPoint, což zajišťuje kompatibil
 Ano, můžete přidat text na řádek vytvořením TextFrame a odpovídajícím nastavením jeho vlastností.
 ### Kde najdu další zdroje a podporu pro Aspose.Slides?
  Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) za podporu a prozkoumání[dokumentace](https://reference.aspose.com/slides/java/) pro podrobné informace.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

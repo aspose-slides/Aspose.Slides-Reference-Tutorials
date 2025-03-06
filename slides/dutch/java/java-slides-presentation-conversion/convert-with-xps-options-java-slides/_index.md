@@ -3,14 +3,10 @@ title: Converteren met XPS-opties in Java-dia's
 linktitle: Converteren met XPS-opties in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-presentaties in Java naar XPS-indeling converteert met behulp van Aspose.Slides. Pas opties aan voor een naadloos conversieproces.
+type: docs
 weight: 34
 url: /nl/java/presentation-conversion/convert-with-xps-options-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot converteren met XPS-opties in Java-dia's
 
@@ -118,10 +114,3 @@ Absoluut! Aspose.Slides voor Java ondersteunt een breed scala aan exportformaten
 ### Hoe ga ik om met uitzonderingen tijdens het gebruik van Aspose.Slides voor Java?
 
 Om uitzonderingen af te handelen, kunt u try-catch-blokken rond uw code gebruiken wanneer u met Aspose.Slides werkt. Raadpleeg de documentatie voor specifieke richtlijnen voor het omgaan met uitzonderingen.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

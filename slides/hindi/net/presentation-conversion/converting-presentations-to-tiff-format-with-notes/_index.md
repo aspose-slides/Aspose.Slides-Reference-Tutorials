@@ -3,14 +3,10 @@ title: नोट्स के साथ प्रस्तुतियों क
 linktitle: नोट्स के साथ प्रस्तुतियों को TIFF प्रारूप में परिवर्तित करना
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: .NET के लिए Aspose.Slides का उपयोग करके स्पीकर नोट्स के साथ PowerPoint प्रस्तुतियों को TIFF प्रारूप में परिवर्तित करें। उच्च-गुणवत्ता, कुशल रूपांतरण।
+type: docs
 weight: 10
 url: /hi/net/presentation-conversion/converting-presentations-to-tiff-format-with-notes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 डिजिटल प्रस्तुतियों की दुनिया में, उन्हें विभिन्न प्रारूपों में परिवर्तित करने की क्षमता अविश्वसनीय रूप से उपयोगी हो सकती है। ऐसा ही एक प्रारूप है TIFF, जिसका मतलब है टैग की गई छवि फ़ाइल प्रारूप। TIFF फ़ाइलें अपनी उच्च-गुणवत्ता वाली छवियों और विभिन्न अनुप्रयोगों के साथ संगतता के लिए प्रसिद्ध हैं। इस चरण-दर-चरण ट्यूटोरियल में, हम आपको दिखाएंगे कि Aspose.Slides for .NET API का उपयोग करके, नोट्स के साथ प्रस्तुतियों को TIFF प्रारूप में कैसे परिवर्तित किया जाए।
 
@@ -82,9 +78,3 @@ pres.Save(destFileName, SaveFormat.TiffNotes);
  हां, Aspose.Slides for .NET विभिन्न आउटपुट प्रारूपों का समर्थन करता है, जिसमें PDF, चित्र और बहुत कुछ शामिल है। विवरण के लिए दस्तावेज़ देखें।
 
 अब जब आपके पास .NET के लिए Aspose.Slides का उपयोग करके नोट्स के साथ प्रस्तुतियों को TIFF प्रारूप में परिवर्तित करने का ज्ञान है, तो आगे बढ़ें और अपनी परियोजनाओं में इस शक्तिशाली API की संभावनाओं का पता लगाएं।
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

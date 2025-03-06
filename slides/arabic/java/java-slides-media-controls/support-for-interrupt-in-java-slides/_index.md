@@ -3,14 +3,10 @@ title: دعم المقاطعة في شرائح جافا
 linktitle: دعم المقاطعة في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: التعامل مع انقطاع شرائح Java الرئيسية باستخدام Aspose.Slides لـ Java. يوفر هذا الدليل التفصيلي إرشادات خطوة بخطوة وأمثلة التعليمات البرمجية لإدارة المقاطعة بسلاسة.
+type: docs
 weight: 12
 url: /ar/java/media-controls/support-for-interrupt-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 # مقدمة لدعم المقاطعة في شرائح Java باستخدام Aspose.Slides لـ Java
 
 Aspose.Slides for Java هي مكتبة قوية لإنشاء عروض PowerPoint التقديمية ومعالجتها والعمل معها في تطبيقات Java. في هذا الدليل الشامل، سنستكشف كيفية الاستفادة من دعم المقاطعة في Java Slides باستخدام Aspose.Slides for Java. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيرشدك هذا البرنامج التعليمي خطوة بخطوة خلال العملية مع شرح تفصيلي وأمثلة على التعليمات البرمجية.
@@ -137,9 +133,3 @@ tokenSource.interrupt();
 ### أين يمكنني الوصول إلى المزيد من الموارد والوثائق الخاصة بـ Aspose.Slides لـ Java؟
 
 يمكنك العثور على وثائق شاملة وبرامج تعليمية وأمثلة لـ Aspose.Slides for Java على الموقع[موقع أسبوز](https://reference.aspose.com/slides/java/). بالإضافة إلى ذلك، يمكنك التواصل مع فريق دعم Aspose للحصول على المساعدة في حالة الاستخدام المحددة الخاصة بك.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Revelando la magia de la recuperación efectiva de datos en bisel en diap
 linktitle: Obtención de datos de bisel efectivos para la forma en diapositivas de presentación
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda cómo mejorar las diapositivas de su presentación con datos de bisel efectivos utilizando Aspose.Slides. Una guía completa con instrucciones paso a paso y código de muestra.
+type: docs
 weight: 20
 url: /es/net/shape-geometry-and-positioning-in-slides/getting-effective-bevel-data/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introducción
 Bienvenido al fascinante mundo de Aspose.Slides para .NET, su puerta de entrada para crear presentaciones impresionantes con una facilidad incomparable. En este tutorial, profundizaremos en las complejidades de obtener datos de bisel efectivos para formas en diapositivas de presentación usando Aspose.Slides para .NET.
 ## Requisitos previos
@@ -73,9 +69,3 @@ Sí, Aspose.Slides para .NET admite una amplia gama de versiones de .NET Framewo
  Sí, puedes comprar Aspose.Slides para .NET[aquí](https://purchase.aspose.com/buy) para desbloquear sus funciones premium para proyectos comerciales.
 ### ¿Qué pasa si encuentro problemas durante la implementación?
  Busque ayuda de la comunidad Aspose.Slides para .NET en el[Foro de soporte](https://forum.aspose.com/c/slides/11) para soluciones rápidas y útiles.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

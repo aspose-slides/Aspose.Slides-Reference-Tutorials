@@ -3,14 +3,10 @@ title: قم بإنشاء عروض تقديمية ديناميكية باستخد
 linktitle: إنشاء إطار تكبير/تصغير في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعلم كيفية إنشاء عروض تقديمية جذابة باستخدام إطارات التكبير/التصغير باستخدام Aspose.Slides لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على تجربة شرائح جذابة.
+type: docs
 weight: 17
 url: /ar/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 في عالم العروض التقديمية، تعتبر الشرائح الجذابة هي المفتاح لترك انطباع دائم. يوفر Aspose.Slides for .NET مجموعة أدوات قوية، وفي هذا الدليل، سنرشدك خلال عملية دمج إطارات التكبير/التصغير الجذابة في شرائح العرض التقديمي.
 ## المتطلبات الأساسية
@@ -93,9 +89,3 @@ pres.Save(resultPath, SaveFormat.Pptx);
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني شراء الإصدار الكامل من Aspose.Slides لـ .NET؟
  يمكنك شراء النسخة الكاملة[هنا](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: 在 Java 投影片中設定反轉填滿色彩圖表
 linktitle: 在 Java 投影片中設定反轉填滿色彩圖表
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 設定 Java Slides 圖表的反轉填滿顏色。透過此逐步指南和原始碼增強圖表視覺化效果。
+type: docs
 weight: 22
 url: /zh-hant/java/data-manipulation/set-invert-fill-color-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 投影片中設定反轉填滿色彩圖表簡介
 
@@ -157,9 +153,3 @@ if (pres != null) pres.dispose();
 ### 我可以以不同的格式儲存圖表嗎？
 
 是的，您可以使用 Aspose.Slides for Java 以不同的格式儲存圖表。在提供的程式碼範例中，我們將簡報儲存為 PPTX 檔案。您可以使用不同的`SaveFormat`根據您的要求，可以選擇將其儲存為其他格式，例如 PDF、PNG 或 SVG。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Настройка текста и шрифтов Java PowerPoint
 linktitle: Настройка текста и шрифтов Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Изучите руководства по настройке текста и шрифтов Java PowerPoint с помощью Aspose.Slides. Узнайте о вращении, замене шрифтов и многом другом, чтобы улучшить свои презентации.
+type: docs
 weight: 29
 url: /ru/java/java-powerpoint-text-font-customization/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 
 Раскройте весь потенциал своих презентаций PowerPoint с помощью наших руководств по настройке текста и шрифтов Java PowerPoint с помощью Aspose.Slides. Независимо от того, являетесь ли вы новичком или опытным пользователем, наши подробные руководства помогут вам без особых усилий улучшить ваши презентации.
@@ -106,9 +102,3 @@ url: /ru/java/java-powerpoint-text-font-customization/
 Узнайте, как интегрировать пользовательские шрифты в презентации PowerPoint с помощью Aspose.Slides для Java. Повышайте визуальную привлекательность без особых усилий.
 ### [Создайте WordArt в PowerPoint с помощью Java](./create-wordart-powerpoint-java/)
 Узнайте, как создавать захватывающие WordArt в презентациях PowerPoint, используя Java с Aspose.Slides. Пошаговое руководство для разработчиков.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

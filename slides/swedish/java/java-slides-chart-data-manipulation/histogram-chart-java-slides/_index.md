@@ -3,14 +3,10 @@ title: Histogramdiagram i Java Slides
 linktitle: Histogramdiagram i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du skapar histogramdiagram i PowerPoint-presentationer med Aspose.Slides för Java. Steg-för-steg guide med källkod för datavisualisering.
+type: docs
 weight: 19
 url: /sv/java/chart-data-manipulation/histogram-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion till histogramdiagram i Java Slides med Aspose.Slides
 
@@ -116,9 +112,3 @@ Ett histogramdiagram används för att visualisera distributionen av data över 
 ### Kan jag anpassa utseendet på histogramdiagrammet?
 
 Ja, du kan anpassa diagrammets utseende, inklusive dess färger, etiketter och axlar, med Aspose.Slides API.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

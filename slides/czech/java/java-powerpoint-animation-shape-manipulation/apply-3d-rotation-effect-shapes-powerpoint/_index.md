@@ -3,14 +3,10 @@ title: Aplikujte efekt 3D rotace na tvary v PowerPointu
 linktitle: Aplikujte efekt 3D rotace na tvary v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak aplikovat efekty 3D rotace na tvary v PowerPointu pomocí Aspose.Slides for Java s tímto komplexním, podrobným výukovým programem.
+type: docs
 weight: 12
 url: /cs/java/java-powerpoint-animation-shape-manipulation/apply-3d-rotation-effect-shapes-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 Jste připraveni posunout své powerpointové prezentace na další úroveň? Přidáním efektů 3D rotace mohou být vaše snímky dynamičtější a poutavější. Ať už jste zkušený vývojář nebo teprve začínáte, tento podrobný tutoriál vám ukáže, jak aplikovat efekty 3D rotace na tvary v PowerPointu pomocí Aspose.Slides for Java. Pojďme se rovnou ponořit!
 ## Předpoklady
@@ -88,9 +84,3 @@ různým tvarům, jako jsou obdélníky, čáry, elipsy a vlastní tvary, může
  Můžete navštívit[Fórum podpory](https://forum.aspose.com/c/slides/11) o pomoc a projednání jakýchkoli problémů.
 ### Mohu používat Aspose.Slides pro Javu v komerčních projektech?
  Ano, ale musíte si zakoupit licenci. Můžete si koupit jeden z[nákupní stránku](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

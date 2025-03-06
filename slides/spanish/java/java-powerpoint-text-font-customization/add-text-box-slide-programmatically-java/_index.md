@@ -3,14 +3,10 @@ title: Agregar cuadro de texto en diapositiva mediante programación con Java
 linktitle: Agregar cuadro de texto en diapositiva mediante programación con Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo agregar mediante programación un cuadro de texto a diapositivas de PowerPoint usando Aspose.Slides para Java. Mejore su productividad con esta guía paso a paso.
+type: docs
 weight: 24
 url: /es/java/java-powerpoint-text-font-customization/add-text-box-slide-programmatically-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introducción
 Crear y manipular presentaciones de PowerPoint mediante programación puede optimizar muchos flujos de trabajo, desde la generación de informes hasta la automatización de presentaciones. Aspose.Slides para Java proporciona una potente API que permite a los desarrolladores realizar estas tareas de manera eficiente. En este tutorial, lo guiaremos para agregar un cuadro de texto a una diapositiva usando Aspose.Slides para Java. Al final de este tutorial, comprenderá claramente cómo integrar esta funcionalidad en sus aplicaciones Java.
 ## Requisitos previos
@@ -71,9 +67,3 @@ Absolutamente, está diseñado para manejar tareas complejas de manera eficiente
  Puedes obtener un[licencia temporal](https://purchase.aspose.com/temporary-license/) de Aspose.
 ### ¿Aspose.Slides admite la conversión de presentaciones a otros formatos?
 Sí, admite varios formatos, incluidos PDF e imágenes.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

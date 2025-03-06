@@ -3,14 +3,10 @@ title: Εφαρμογή εφέ περιστροφής 3D σε σχήματα σ�
 linktitle: Εφαρμογή εφέ περιστροφής 3D σε σχήματα στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να εφαρμόζετε εφέ περιστροφής 3D σε σχήματα στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java με αυτόν τον περιεκτικό, βήμα προς βήμα σεμινάριο.
+type: docs
 weight: 12
 url: /el/java/java-powerpoint-animation-shape-manipulation/apply-3d-rotation-effect-shapes-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Είστε έτοιμοι να μεταφέρετε τις παρουσιάσεις σας στο PowerPoint στο επόμενο επίπεδο; Η προσθήκη εφέ περιστροφής 3D μπορεί να κάνει τις διαφάνειές σας πιο δυναμικές και ελκυστικές. Είτε είστε έμπειρος προγραμματιστής είτε μόλις ξεκινάτε, αυτός ο αναλυτικός οδηγός θα σας δείξει πώς να εφαρμόζετε εφέ περιστροφής 3D σε σχήματα στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Ας βουτήξουμε αμέσως!
 ## Προαπαιτούμενα
@@ -88,9 +84,3 @@ pres.save(dataDir + "Rotation_out.pptx", SaveFormat.Pptx);
  Μπορείτε να επισκεφθείτε το[φόρουμ υποστήριξης](https://forum.aspose.com/c/slides/11) για βοήθεια και για συζήτηση τυχόν ζητημάτων.
 ### Μπορώ να χρησιμοποιήσω το Aspose.Slides για Java σε εμπορικά έργα;
  Ναι, αλλά πρέπει να αγοράσετε άδεια. Μπορείτε να αγοράσετε ένα από το[σελίδα αγοράς](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Mettre à jour les propriétés de la présentation avec un nouveau modè
 linktitle: Mettre à jour les propriétés de la présentation avec un nouveau modèle
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment mettre à jour les propriétés de présentation à l’aide d’Aspose.Slides pour Java. Améliorez vos projets Java avec une modification transparente des métadonnées.
+type: docs
 weight: 13
 url: /fr/java/java-powerpoint-properties-management/update-presentation-properties-new-template/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Dans le domaine du développement Java, Aspose.Slides constitue un outil puissant pour manipuler des présentations PowerPoint par programme. Grâce à sa bibliothèque Java, les développeurs peuvent automatiser des tâches telles que la création, la modification et la conversion de présentations, ce qui en fait un atout inestimable pour les entreprises et les particuliers. Cependant, exploiter tout le potentiel d'Aspose.Slides nécessite une solide compréhension de ses fonctionnalités et de la manière de les intégrer efficacement dans vos projets Java. Dans ce didacticiel, nous aborderons étape par étape la mise à jour des propriétés de présentation à l'aide d'un nouveau modèle, en nous assurant que vous comprenez parfaitement chaque concept.
 ## Conditions préalables
@@ -79,9 +75,3 @@ En effet, Aspose.Slides offre des fonctionnalités et une fiabilité de niveau e
 Certes, Aspose.Slides offre des options de personnalisation étendues pour les propriétés de présentation, vous permettant de les adapter à vos besoins spécifiques.
 ### Où puis-je trouver une assistance et des ressources supplémentaires pour Aspose.Slides ?
 Vous pouvez explorer la documentation Aspose.Slides, rejoindre les forums de la communauté ou contacter le support Aspose pour toute assistance ou demande de renseignements.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

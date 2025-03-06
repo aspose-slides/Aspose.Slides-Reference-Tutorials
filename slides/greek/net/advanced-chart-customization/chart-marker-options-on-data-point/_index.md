@@ -3,14 +3,10 @@ title: Χρήση επιλογών δείκτη γραφήματος στο Data
 linktitle: Επιλογές δείκτη γραφήματος στο σημείο δεδομένων
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να βελτιώσετε τα γραφήματα του PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Προσαρμόστε τους δείκτες σημείων δεδομένων με εικόνες. Δημιουργήστε ελκυστικές παρουσιάσεις.
+type: docs
 weight: 11
 url: /el/net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Όταν εργάζεστε με παρουσιάσεις και οπτικοποίηση δεδομένων, το Aspose.Slides για .NET προσφέρει ένα ευρύ φάσμα ισχυρών λειτουργιών για τη δημιουργία, την προσαρμογή και τον χειρισμό γραφημάτων. Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να χρησιμοποιήσετε επιλογές δεικτών γραφήματος σε σημεία δεδομένων για να βελτιώσετε τις παρουσιάσεις γραφημάτων σας. Αυτός ο οδηγός βήμα προς βήμα θα σας καθοδηγήσει στη διαδικασία, ξεκινώντας από τις προϋποθέσεις και την εισαγωγή χώρων ονομάτων, έως την ανάλυση κάθε παραδείγματος σε πολλαπλά βήματα.
 
@@ -152,9 +148,3 @@ pres.Save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 
 ### Υπάρχει διαθέσιμη δοκιμαστική έκδοση του Aspose.Slides για .NET;
  Ναι, μπορείτε να δοκιμάσετε το Aspose.Slides για .NET κατεβάζοντας μια δωρεάν δοκιμαστική έκδοση από[εδώ](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

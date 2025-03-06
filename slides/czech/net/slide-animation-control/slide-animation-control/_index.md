@@ -3,14 +3,10 @@ title: Master Slide Animace s Aspose.Slides pro .NET
 linktitle: Ovládání animace snímku v Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Pozvedněte své prezentace pomocí Aspose.Slides pro .NET! Naučte se ovládat animace snímků bez námahy. Stáhněte si knihovnu nyní!
+type: docs
 weight: 10
 url: /cs/net/slide-animation-control/slide-animation-control/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 Vylepšení vašich prezentací pomocí podmanivých animací snímků může výrazně zvýšit celkový dopad na vaše publikum. V tomto tutoriálu prozkoumáme, jak ovládat animace snímků pomocí Aspose.Slides pro .NET. Aspose.Slides je výkonná knihovna, která umožňuje bezproblémovou manipulaci s PowerPoint prezentacemi v prostředí .NET.
 ## Předpoklady
@@ -81,9 +77,3 @@ Animace snímků ve vašich prezentacích dodává dynamický nádech, díky če
  Dočasnou licenci můžete získat od[tady](https://purchase.aspose.com/temporary-license/).
 ### Kde mohu zakoupit Aspose.Slides pro .NET?
  Kupte si knihovnu[tady](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

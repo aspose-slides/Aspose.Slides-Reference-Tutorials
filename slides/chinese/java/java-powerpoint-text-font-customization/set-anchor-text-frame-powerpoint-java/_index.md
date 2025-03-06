@@ -3,14 +3,10 @@ title: 使用 Java 在 PowerPoint 中设置文本框的锚点
 linktitle: 使用 Java 在 PowerPoint 中设置文本框的锚点
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Java 和 Aspose.Slides 在 PowerPoint 中设置文本框架锚点。增强您的演示文稿。
+type: docs
 weight: 13
 url: /zh/java/java-powerpoint-text-font-customization/set-anchor-text-frame-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 在本教程中，您将学习如何在 Aspose.Slides 的帮助下使用 Java 在 PowerPoint 演示文稿中设置文本框的锚点。锚定文本框可让您精确控制形状内文本的位置和行为，确保您的幻灯片具有视觉吸引力且结构有效。
 ## 先决条件
@@ -75,9 +71,3 @@ Aspose.Slides for Java 是一个功能强大的库，允许 Java 开发人员创
 是的，您可以下载免费试用版[这里](https://releases.aspose.com/).
 ### 在哪里可以获得 Aspose.Slides for Java 的支持？
 您可以访问支持论坛[这里](https://forum.aspose.com/c/slides/11)如有任何疑问或需要帮助。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

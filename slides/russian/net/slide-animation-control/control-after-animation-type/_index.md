@@ -3,14 +3,10 @@ title: Освоение эффектов после анимации в PowerPoi
 linktitle: Управление после ввода анимации на слайде
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как управлять эффектами после анимации в слайдах PowerPoint с помощью Aspose.Slides для .NET. Улучшите свои презентации с помощью динамических визуальных элементов.
+type: docs
 weight: 11
 url: /ru/net/slide-animation-control/control-after-animation-type/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 Дополнение ваших презентаций динамической анимацией — важнейший аспект привлечения аудитории. Aspose.Slides для .NET предоставляет мощное решение для управления эффектами послеанимации на слайдах. В этом руководстве мы покажем вам процесс использования Aspose.Slides для .NET для управления типом послеанимации на слайдах. Следуя этому пошаговому руководству, вы сможете создавать более интерактивные и визуально привлекательные презентации.
 ## Предварительные условия
@@ -91,9 +87,3 @@ pres.Save(outPath, SaveFormat.Pptx);
 Aspose.Slides поддерживает различные форматы, включая PPTX, PPT, PDF и другие. Полный список смотрите в документации.
 ### Где я могу получить поддержку или задать вопросы, связанные с Aspose.Slides?
  Посетить[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) за поддержку и взаимодействие с сообществом.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

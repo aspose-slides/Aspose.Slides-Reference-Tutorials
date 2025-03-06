@@ -3,14 +3,10 @@ title: Ρύθμιση άξονα θέσης σε διαφάνειες Java
 linktitle: Ρύθμιση άξονα θέσης σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Βελτιώστε τα γραφήματα σας με το Aspose.Slides για Java. Μάθετε πώς να ορίζετε τον άξονα θέσης σε διαφάνειες Java, να δημιουργείτε εκπληκτικές παρουσιάσεις και να προσαρμόζετε εύκολα τις διατάξεις γραφημάτων.
+type: docs
 weight: 16
 url: /el/java/customization-and-formatting/setting-position-axis-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στη ρύθμιση του άξονα θέσης στο Aspose.Slides για Java
 
@@ -104,9 +100,3 @@ if (pres != null) pres.dispose();
 ```
 
 Αυτό είναι για αυτό το σεμινάριο. Έχετε μάθει πώς να ορίζετε τον άξονα θέσης σε ένα γράφημα χρησιμοποιώντας το Aspose.Slides για Java.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

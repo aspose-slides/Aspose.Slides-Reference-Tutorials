@@ -3,14 +3,10 @@ title: Γράφημα διοχέτευσης σε διαφάνειες Java
 linktitle: Γράφημα διοχέτευσης σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε να δημιουργείτε γραφήματα διοχέτευσης σε παρουσιάσεις PowerPoint με το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για αποτελεσματική οπτικοποίηση δεδομένων.
+type: docs
 weight: 18
 url: /el/java/chart-data-manipulation/funnel-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στη δημιουργία γραφήματος διοχέτευσης στο Aspose.Slides για Java
 
@@ -141,9 +137,3 @@ pres.save(dataDir + "Funnel.pptx", SaveFormat.Pptx);
 ### Μπορώ να εξαγάγω το γράφημα σε διαφορετικές μορφές, όπως PDF ή εικόνα;
 
 Ναι, το Aspose.Slides για Java σάς επιτρέπει να εξάγετε την παρουσίαση με το διάγραμμα διοχέτευσης σε διάφορες μορφές, όπως PDF, μορφές εικόνας και άλλα. Μπορείτε να χρησιμοποιήσετε το`SaveFormat` επιλογές για να καθορίσετε την επιθυμητή μορφή εξόδου κατά την αποθήκευση της παρουσίασης.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

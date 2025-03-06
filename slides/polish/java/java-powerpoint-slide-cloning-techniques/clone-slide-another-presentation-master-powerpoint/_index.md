@@ -3,14 +3,10 @@ title: Klonuj slajd do innej prezentacji z mistrzem
 linktitle: Klonuj slajd do innej prezentacji z mistrzem
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak klonować slajdy między prezentacjami w Javie za pomocą Aspose.Slides. Samouczek krok po kroku dotyczący konserwacji slajdów wzorcowych.
+type: docs
 weight: 14
 url: /pl/java/java-powerpoint-slide-cloning-techniques/clone-slide-another-presentation-master-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 Aspose.Slides dla Java to potężna biblioteka, która umożliwia programistom programowe tworzenie, modyfikowanie i manipulowanie prezentacjami programu PowerPoint. W tym artykule znajduje się kompleksowy samouczek krok po kroku dotyczący klonowania slajdu z jednej prezentacji do drugiej, zachowując jego slajd główny, przy użyciu Aspose.Slides dla języka Java.
 ## Warunki wstępne
@@ -87,9 +83,3 @@ Aspose.Slides dla Java oferuje bezpłatną wersję próbną. Aby uzyskać pełn�
  Licencję tymczasową można uzyskać od firmy[Strona zakupu Aspose](https://purchase.aspose.com/temporary-license/).
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?  
  Odwiedzić[Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/) aby uzyskać więcej przykładów i szczegółowych informacji.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

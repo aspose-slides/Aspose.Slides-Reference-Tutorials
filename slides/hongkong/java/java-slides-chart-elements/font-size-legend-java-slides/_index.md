@@ -3,14 +3,10 @@ title: Java 投影片中的字體大小圖例
 linktitle: Java 投影片中的字體大小圖例
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 增強 PowerPoint 簡報。在我們的逐步指南中了解如何自訂圖例字體大小等。
+type: docs
 weight: 13
 url: /zh-hant/java/chart-elements/font-size-legend-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 投影片中字體大小圖例簡介
 
@@ -139,9 +135,3 @@ chart.getAxes().getVerticalAxis().setMaxValue(10);
 ### 在哪裡可以找到有關 Aspose.Slides 的更多資訊和文件？
 
 您可以在 Aspose 文件網站上找到 Aspose.Slides for Java 的綜合文件和 API 參考。訪問[這裡](https://reference.aspose.com/slides/java/)有關使用圖書館的詳細資訊。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

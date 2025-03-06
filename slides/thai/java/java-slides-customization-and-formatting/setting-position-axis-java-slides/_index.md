@@ -3,14 +3,10 @@ title: การตั้งค่าแกนตำแหน่งใน Java S
 linktitle: การตั้งค่าแกนตำแหน่งใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: ปรับปรุงแผนภูมิของคุณด้วย Aspose.Slides สำหรับ Java เรียนรู้วิธีการตั้งค่าแกนตำแหน่งในสไลด์ Java สร้างงานนำเสนอที่น่าทึ่ง และปรับแต่งเค้าโครงแผนภูมิได้อย่างง่ายดาย
+type: docs
 weight: 16
 url: /th/java/customization-and-formatting/setting-position-axis-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## รู้เบื้องต้นเกี่ยวกับการตั้งค่าแกนตำแหน่งใน Aspose.Slides สำหรับ Java
 
@@ -104,9 +100,3 @@ if (pres != null) pres.dispose();
 ```
 
 เพียงเท่านี้สำหรับบทช่วยสอนนี้ คุณได้เรียนรู้วิธีการตั้งค่าแกนตำแหน่งในแผนภูมิโดยใช้ Aspose.Slides สำหรับ Java
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

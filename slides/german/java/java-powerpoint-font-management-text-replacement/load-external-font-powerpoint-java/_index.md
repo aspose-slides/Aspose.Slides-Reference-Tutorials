@@ -3,14 +3,10 @@ title: Externe Schriftart mit Java in PowerPoint laden
 linktitle: Externe Schriftart mit Java in PowerPoint laden
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java benutzerdefinierte Schriftarten in PowerPoint-Präsentationen laden. Werten Sie Ihre Folien mit einzigartiger Typografie auf.
+type: docs
 weight: 10
 url: /de/java/java-powerpoint-font-management-text-replacement/load-external-font-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 In diesem Tutorial führen wir Sie durch den Prozess des Ladens einer externen Schriftart in PowerPoint-Präsentationen mit Aspose.Slides für Java. Benutzerdefinierte Schriftarten können Ihren Präsentationen eine einzigartige Note verleihen und ein einheitliches Branding oder einheitliche Stileinstellungen auf verschiedenen Plattformen gewährleisten.
 ## Voraussetzungen
@@ -67,9 +63,3 @@ Ja, Sie können mehrere externe Schriftarten laden, indem Sie den Vorgang für j
 Solange die Schriftartdatei im TrueType-Format (.ttf) vorliegt und angemessene Größenbeschränkungen aufweist, sollten Sie sie erfolgreich laden können.
 ### Hat das Laden externer Schriftarten Auswirkungen auf die Kompatibilität der Präsentation mit verschiedenen PowerPoint-Versionen?
 Nein, die Präsentation bleibt zwischen verschiedenen PowerPoint-Versionen kompatibel, solange die Schriftarten eingebettet oder extern geladen sind.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

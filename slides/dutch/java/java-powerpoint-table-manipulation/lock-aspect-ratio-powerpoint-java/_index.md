@@ -3,14 +3,10 @@ title: Vergrendel de beeldverhouding in PowerPoint met Java
 linktitle: Vergrendel de beeldverhouding in PowerPoint met Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u de beeldverhouding in PowerPoint-presentaties kunt vergrendelen met Java met Aspose.Slides. Perfect voor Java-ontwikkelaars die nauwkeurige controle willen over het dia-ontwerp.
+type: docs
 weight: 16
 url: /nl/java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 Op het gebied van Java-ontwikkeling kan het programmatisch manipuleren van PowerPoint-presentaties de workflows stroomlijnen en de productiviteit aanzienlijk verhogen. Aspose.Slides voor Java biedt een robuuste toolkit voor Java-ontwikkelaars om taken te automatiseren zoals het wijzigen van dia's, het toevoegen van inhoud en het rechtstreeks toepassen van opmaak vanuit Java-code. Deze tutorial richt zich op een fundamenteel aspect van het beheer van PowerPoint-presentaties: het vergrendelen van beeldverhoudingen.
 ## Vereisten
@@ -65,9 +61,3 @@ Ja, Aspose.Slides voor Java is ontworpen om complexe scenario's in bedrijfstoepa
  U kunt ondersteuning zoeken bij de Aspose.Slides-community[hier](https://forum.aspose.com/c/slides/11).
 ### Hoe kan ik Aspose.Slides voor Java uitproberen voordat ik een aankoop doe?
  U kunt een gratis proefversie krijgen[hier](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

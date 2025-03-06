@@ -3,14 +3,10 @@ title: Tô màu biểu đồ với Aspose.Slides cho .NET
 linktitle: Thêm màu vào điểm dữ liệu trong biểu đồ
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách thêm màu vào các điểm dữ liệu trong biểu đồ bằng Aspose.Slides cho .NET. Cải thiện bài thuyết trình của bạn một cách trực quan và thu hút khán giả một cách hiệu quả.
+type: docs
 weight: 12
 url: /vi/net/licensing-and-formatting/add-color-to-data-points/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình thêm màu vào các điểm dữ liệu trong biểu đồ bằng Aspose.Slides cho .NET. Aspose.Slides là một thư viện mạnh mẽ để làm việc với các bản trình bày PowerPoint trong các ứng dụng .NET. Việc thêm màu vào các điểm dữ liệu trong biểu đồ có thể làm cho bản trình bày của bạn hấp dẫn trực quan hơn và dễ hiểu hơn.
 
@@ -119,9 +115,3 @@ Thêm màu vào các điểm dữ liệu trong biểu đồ là một cách hi�
 
 ### Làm cách nào để nhận được hỗ trợ cho Aspose.Slides cho .NET?
     Để được hỗ trợ và thảo luận, hãy truy cập[Diễn đàn Aspose.Slides](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

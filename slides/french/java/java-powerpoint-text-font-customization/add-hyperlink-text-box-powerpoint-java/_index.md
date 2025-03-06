@@ -3,14 +3,10 @@ title: Ajouter un lien hypertexte vers une zone de texte dans PowerPoint à l'ai
 linktitle: Ajouter un lien hypertexte vers une zone de texte dans PowerPoint à l'aide de Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajouter des hyperliens aux zones de texte PowerPoint à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec des exemples pour les développeurs Java.
+type: docs
 weight: 23
 url: /fr/java/java-powerpoint-text-font-customization/add-hyperlink-text-box-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 À l'ère numérique d'aujourd'hui, la création de présentations dynamiques qui engagent et informent est cruciale pour une communication efficace. Les développeurs Java cherchant à améliorer leurs applications avec des fonctionnalités interactives se tournent souvent vers Aspose.Slides for Java, une bibliothèque puissante qui permet la manipulation de présentations PowerPoint par programme. Ce didacticiel aborde l'une de ces fonctionnalités : l'ajout d'hyperliens vers des zones de texte dans des présentations PowerPoint à l'aide de Java. À la fin de ce guide, vous comprendrez clairement comment implémenter cette fonctionnalité de manière transparente dans vos applications Java.
 ## Conditions préalables
@@ -80,9 +76,3 @@ En suivant ces étapes, vous avez appris avec succès comment ajouter des hyperl
  Oui, des licences temporaires sont disponibles à l'achat[ici](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides est-il compatible avec d’autres bibliothèques Java ?
 Aspose.Slides s'intègre bien à diverses bibliothèques Java pour une manipulation complète de PowerPoint.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

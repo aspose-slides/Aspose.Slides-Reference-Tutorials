@@ -3,14 +3,10 @@ title: Δημιουργία μικρογραφιών σχήματος PowerPoint
 linktitle: Δημιουργία μικρογραφίας για το σχήμα στο Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε μικρογραφίες για σχήματα σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Ένας αναλυτικός οδηγός βήμα προς βήμα για προγραμματιστές.
+type: docs
 weight: 14
 url: /el/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Το Aspose.Slides for .NET είναι μια ισχυρή βιβλιοθήκη που δίνει τη δυνατότητα στους προγραμματιστές να εργάζονται απρόσκοπτα με παρουσιάσεις PowerPoint. Ένα από τα αξιοσημείωτα χαρακτηριστικά του είναι η δυνατότητα δημιουργίας μικρογραφιών για σχήματα μέσα σε μια παρουσίαση. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία δημιουργίας μικρογραφιών για σχήματα χρησιμοποιώντας το Aspose.Slides για .NET.
 ## Προαπαιτούμενα
@@ -61,9 +57,3 @@ bitmap.Save(dataDir + "Shape_thumbnail_out.png", ImageFormat.Png);
 Α: Το Aspose.Slides παρέχει ευελιξία για τη δημιουργία μικρογραφιών για διάφορα σχήματα, συμπεριλαμβανομένων πλαισίων κειμένου, εικόνων και άλλων.
 ### Ε: Μπορώ να προσαρμόσω το μέγεθος και την ανάλυση των μικρογραφιών που δημιουργούνται;
  Α: Ναι, μπορείτε να προσαρμόσετε τις παραμέτρους όταν καλείτε το`GetThumbnail` μέθοδος ελέγχου του μεγέθους και της ανάλυσης.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

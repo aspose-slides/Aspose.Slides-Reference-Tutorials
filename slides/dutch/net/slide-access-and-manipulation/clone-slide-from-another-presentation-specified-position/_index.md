@@ -3,14 +3,10 @@ title: Kloon dia van andere presentatie naar opgegeven positie
 linktitle: Kloon dia van andere presentatie naar opgegeven positie
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u dia's uit verschillende presentaties naar een opgegeven positie kunt klonen met Aspose.Slides voor .NET. Stapsgewijze handleiding met volledige broncode, waarin het klonen van dia's, positiespecificatie en het opslaan van presentaties worden behandeld.
+type: docs
 weight: 16
 url: /nl/net/slide-access-and-manipulation/clone-slide-from-another-presentation-specified-position/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot het klonen van dia's van een andere presentatie naar een opgegeven positie
 
@@ -141,9 +137,3 @@ Absoluut, u kunt de inhoud, opmaak en eigenschappen van de gekloonde dia wijzige
 ### Waar kan ik meer informatie vinden over Aspose.Slides voor .NET?
 
  U kunt verwijzen naar de[documentatie](https://reference.aspose.com/slides/net/) voor gedetailleerde informatie, voorbeelden en API-referenties met betrekking tot Aspose.Slides voor .NET.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

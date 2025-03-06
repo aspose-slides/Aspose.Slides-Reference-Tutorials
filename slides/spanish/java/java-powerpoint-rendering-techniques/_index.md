@@ -3,14 +3,10 @@ title: Técnicas de renderizado de PowerPoint en Java
 linktitle: Técnicas de renderizado de PowerPoint en Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a representar comentarios, gráficos 3D, emojis y más en PowerPoint usando Aspose.Slides para Java. Tutoriales completos para presentaciones mejoradas.
+type: docs
 weight: 22
 url: /es/java/java-powerpoint-rendering-techniques/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introducción
 
@@ -42,9 +38,3 @@ Aprenda a crear impresionantes representaciones 3D en PowerPoint usando Aspose.S
 Aprenda a representar emojis en presentaciones de PowerPoint sin esfuerzo utilizando Aspose.Slides para Java. Mejore el compromiso con imágenes expresivas.
 ### [Opciones de renderizado en PowerPoint](./render-options-powerpoint/)
 Aprenda a manipular las opciones de renderizado en presentaciones de PowerPoint usando Aspose.Slides para Java. Personalice sus diapositivas para lograr un impacto visual óptimo.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Alakzatok exportálása SVG formátumba a prezentációból
 linktitle: Alakzatok exportálása SVG formátumba a prezentációból
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan exportálhat alakzatokat egy PowerPoint prezentációból SVG formátumba az Aspose.Slides for .NET segítségével. Lépésről lépésre útmutató forráskóddal. Hatékonyan bontsa ki a formákat különféle alkalmazásokhoz.
+type: docs
 weight: 16
 url: /hu/net/presentation-manipulation/export-shapes-to-svg-format-from-presentation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 mai digitális világban a prezentációk döntő szerepet játszanak az információ hatékony közvetítésében. Néha azonban speciális alakzatokat kell exportálnunk prezentációinkból különböző formátumokba különböző célokra. Az egyik ilyen formátum az SVG (Scalable Vector Graphics), amely skálázhatóságáról és alkalmazkodóképességéről ismert. Ebben az oktatóanyagban végigvezetjük az alakzatok SVG formátumba történő exportálásán egy prezentációból az Aspose.Slides for .NET segítségével.
 
@@ -87,9 +83,3 @@ Az alakzatok exportálása az alakzat összetettségétől és a könyvtár ált
 Most, hogy megtanulta, hogyan exportálhat alakzatokat SVG formátumba, javíthatja prezentációit, és sokoldalúbbá teheti azokat különböző célokra. Boldog kódolást!
 
  További részletekért és speciális funkciókért tekintse meg a[Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: المخطط التنظيمي في شرائح جافا
 linktitle: المخطط التنظيمي في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء مخططات تنظيمية مذهلة في Java Slides من خلال البرامج التعليمية خطوة بخطوة في Aspose.Slides. قم بتخصيص وتصور الهيكل التنظيمي الخاص بك دون عناء.
+type: docs
 weight: 22
 url: /ar/java/chart-data-manipulation/organization-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة لإنشاء مخطط هيكلي في شرائح Java باستخدام Aspose.Slides
 
@@ -107,9 +103,3 @@ finally
 ### هل يمكن إنشاء هياكل تنظيمية معقدة ذات مستويات متعددة؟
 
 نعم، يتيح لك Aspose.Slides إنشاء هياكل تنظيمية معقدة ذات مستويات متعددة عن طريق إضافة الأشكال وترتيبها داخل المخطط الهيكلي. يمكنك تحديد العلاقات الهرمية بين الأشكال لتمثيل البنية المطلوبة.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

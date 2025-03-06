@@ -3,14 +3,10 @@ title: Efekt pola tekstowego Akapit w programie Java PowerPoint
 linktitle: Efekt pola tekstowego Akapit w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ulepszyć prezentacje programu PowerPoint w Javie za pomocą dynamicznych efektów tekstowych przy użyciu Aspose.Slides w celu bezproblemowej integracji i dostosowywania.
+type: docs
 weight: 16
 url: /pl/java/java-powerpoint-text-box-manipulation/effect-text-box-paragraph-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 Aspose.Slides for Java umożliwia programistom programowe manipulowanie prezentacjami programu PowerPoint, oferując solidny zestaw funkcji do tworzenia, modyfikowania i konwertowania slajdów. W tym samouczku szczegółowo opisano wykorzystanie Aspose.Slides do dodawania efektów w polach tekstowych i zarządzania nimi, dynamicznie ulepszając prezentacje za pomocą kodu Java.
 ## Warunki wstępne
@@ -64,9 +60,3 @@ Aspose.Slides dla Java obsługuje Java 6 i nowsze wersje.
  Możesz uzyskać tymczasową licencję od[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Czy Aspose.Slides for Java obsługuje formaty plików programu PowerPoint inne niż .pptx?
 Tak, obsługuje różne formaty programu PowerPoint, w tym .ppt, .pptx, .pptm itp.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Bloquear relación de aspecto en PowerPoint usando Java
 linktitle: Bloquear relación de aspecto en PowerPoint usando Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo bloquear la relación de aspecto en presentaciones de PowerPoint usando Java con Aspose.Slides. Perfecto para desarrolladores de Java que desean un control preciso sobre el diseño de diapositivas.
+type: docs
 weight: 16
 url: /es/java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introducción
 En el ámbito del desarrollo de Java, la manipulación de presentaciones de PowerPoint mediante programación puede optimizar los flujos de trabajo y mejorar significativamente la productividad. Aspose.Slides para Java ofrece un sólido conjunto de herramientas para que los desarrolladores de Java automaticen tareas como modificar diapositivas, agregar contenido y aplicar formato directamente desde el código Java. Este tutorial se centra en un aspecto fundamental de la gestión de presentaciones de PowerPoint: bloquear las proporciones de aspecto.
 ## Requisitos previos
@@ -65,9 +61,3 @@ Sí, Aspose.Slides para Java está diseñado para manejar escenarios complejos e
  Puede buscar apoyo en la comunidad Aspose.Slides[aquí](https://forum.aspose.com/c/slides/11).
 ### ¿Cómo puedo probar Aspose.Slides para Java antes de comprarlo?
  Puedes obtener una versión de prueba gratuita.[aquí](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

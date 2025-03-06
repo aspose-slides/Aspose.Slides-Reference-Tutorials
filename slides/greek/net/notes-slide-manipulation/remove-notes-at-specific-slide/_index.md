@@ -3,14 +3,10 @@ title: Πώς να αφαιρέσετε σημειώσεις σε μια συγ�
 linktitle: Κατάργηση Σημειώσεων σε Συγκεκριμένη Διαφάνεια
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να αφαιρείτε σημειώσεις από μια συγκεκριμένη διαφάνεια στο PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Βελτιώστε τις παρουσιάσεις σας χωρίς κόπο.
+type: docs
 weight: 12
 url: /el/net/notes-slide-manipulation/remove-notes-at-specific-slide/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία κατάργησης σημειώσεων σε μια συγκεκριμένη διαφάνεια σε μια παρουσίαση του PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Το Aspose.Slides είναι μια ισχυρή βιβλιοθήκη που σας επιτρέπει να εργάζεστε με αρχεία PowerPoint μέσω προγραμματισμού. Είτε είστε προγραμματιστής είτε κάποιος που θέλει να αυτοματοποιήσει εργασίες σε παρουσιάσεις PowerPoint, αυτό το σεμινάριο θα σας βοηθήσει να το πετύχετε εύκολα.
 
@@ -86,9 +82,3 @@ presentation.Save(dataDir + "ModifiedPresentation.pptx", SaveFormat.Pptx);
 
 ### Υπάρχει διαθέσιμη δοκιμαστική έκδοση του Aspose.Slides για .NET;
 Ναι, μπορείτε να εξερευνήσετε το Aspose.Slides κατεβάζοντας μια δωρεάν δοκιμή από[εδώ](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

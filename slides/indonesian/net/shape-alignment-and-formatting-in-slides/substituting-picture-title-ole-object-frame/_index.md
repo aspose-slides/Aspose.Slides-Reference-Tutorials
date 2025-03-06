@@ -3,14 +3,10 @@ title: Menyematkan Panduan Objek OLE dengan Aspose.Slides untuk .NET
 linktitle: Mengganti Judul Gambar Bingkai Objek OLE dalam Slide Presentasi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menyempurnakan slide presentasi Anda dengan objek OLE dinamis menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
+type: docs
 weight: 15
 url: /id/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Membuat slide presentasi yang dinamis dan menarik sering kali melibatkan penggabungan berbagai elemen multimedia. Dalam tutorial ini, kita akan menjelajahi cara mengganti judul gambar Bingkai Objek OLE (Penautan dan Penyematan Objek) dalam slide presentasi menggunakan pustaka Aspose.Slides untuk .NET yang canggih. Aspose.Slides menyederhanakan proses penanganan objek OLE, menyediakan alat bagi pengembang untuk menyempurnakan presentasi mereka dengan mudah.
 ## Prasyarat
@@ -87,9 +83,3 @@ Pada versi terbaru, Aspose.Slides berfokus pada penyematan dan tampilan objek OL
 Tentu. Anda memiliki kontrol terprogram penuh atas objek OLE, memungkinkan Anda mengubah properti dan tampilannya sesuai kebutuhan.
 ### Apakah ada batasan ukuran objek OLE yang disematkan?
 Meskipun ada batasan ukuran, mereka umumnya murah hati. Disarankan untuk menguji dengan kasus penggunaan spesifik Anda untuk memastikan kinerja optimal.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

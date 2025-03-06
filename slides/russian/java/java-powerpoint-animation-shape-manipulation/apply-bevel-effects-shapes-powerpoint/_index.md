@@ -3,14 +3,10 @@ title: Применение эффектов скоса к фигурам в Pow
 linktitle: Применение эффектов скоса к фигурам в PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как применять эффекты скоса к фигурам в PowerPoint с помощью Aspose.Slides для Java, с помощью нашего пошагового руководства. Улучшите свои презентации.
+type: docs
 weight: 13
 url: /ru/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-shapes-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 Создание визуально привлекательных презентаций имеет решающее значение для привлечения и удержания внимания вашей аудитории. Добавление эффектов скоса к фигурам может улучшить общую эстетику ваших слайдов, делая вашу презентацию заметной. В этом уроке мы познакомим вас с процессом применения эффектов скоса к фигурам в PowerPoint с помощью Aspose.Slides для Java. Являетесь ли вы разработчиком, желающим автоматизировать создание презентаций, или просто любителем дизайна, это руководство поможет вам.
 ## Предварительные условия
@@ -96,9 +92,3 @@ Aspose.Slides для Java — это мощный API, который позво
 Да, Aspose.Slides for Java позволяет применять различные 3D-эффекты, включая глубину, освещение и эффекты камеры.
 ### Где я могу получить поддержку Aspose.Slides для Java?
  Вы можете получить поддержку от сообщества Aspose и команды поддержки на их[форум поддержки](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

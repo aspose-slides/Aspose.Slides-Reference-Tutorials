@@ -3,14 +3,10 @@ title: Chuyển đổi hình ảnh nhúng HTML trong Java Slides
 linktitle: Chuyển đổi hình ảnh nhúng HTML trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Chuyển đổi PowerPoint sang HTML bằng hình ảnh nhúng. Hướng dẫn từng bước sử dụng Aspose.Slides cho Java. Tìm hiểu cách tự động hóa chuyển đổi bản trình bày trong Java một cách dễ dàng.
+type: docs
 weight: 11
 url: /vi/java/presentation-conversion/convert-html-embedding-images-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu Chuyển đổi hình ảnh nhúng HTML trong Java Slides
 
@@ -129,10 +125,3 @@ Có, bạn có thể tùy chỉnh mẫu HTML bằng cách sửa đổi tệp HTM
 ### Làm cách nào để xử lý lỗi trong quá trình chuyển đổi?
 
 Bạn có thể bọc mã chuyển đổi trong khối try-catch để xử lý các trường hợp ngoại lệ có thể xảy ra trong quá trình chuyển đổi.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

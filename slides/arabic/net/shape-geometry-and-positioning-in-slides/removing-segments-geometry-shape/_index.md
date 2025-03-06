@@ -3,14 +3,10 @@ title: إزالة شرائح الشكل - البرنامج التعليمي Aspo
 linktitle: إزالة الأجزاء من الشكل الهندسي في شرائح العرض التقديمي
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إزالة الأجزاء من الأشكال الهندسية في شرائح العرض التقديمي باستخدام Aspose.Slides API لـ .NET. دليل خطوة بخطوة مع كود المصدر.
+type: docs
 weight: 16
 url: /ar/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 غالبًا ما يتضمن إنشاء عروض تقديمية جذابة بصريًا معالجة الأشكال والعناصر لتحقيق التصميم المطلوب. باستخدام Aspose.Slides for .NET، يمكن للمطورين التحكم بسهولة في هندسة الأشكال، مما يسمح بإزالة أجزاء معينة. في هذا البرنامج التعليمي، سنرشدك خلال عملية إزالة الأجزاء من الشكل الهندسي في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET.
 ## المتطلبات الأساسية
@@ -72,9 +68,3 @@ shape.SetGeometryPath(path);
 لا، لا يمكن التراجع عن التغييرات بعد الحفظ. فكر في حفظ النسخ الاحتياطية قبل التعديل.
 ### أين يمكنني الحصول على دعم أو مساعدة إضافية؟
  قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لدعم المجتمع والمناقشات.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

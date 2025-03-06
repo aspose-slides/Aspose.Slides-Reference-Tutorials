@@ -3,14 +3,10 @@ title: Aspose.Slides .NET을 사용하여 확대/축소 수준을 쉽게 조정�
 linktitle: Aspose.Slides에서 프레젠테이션 슬라이드의 확대/축소 수준 조정
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드 확대/축소 수준을 쉽게 조정하는 방법을 알아보세요. 정확한 제어로 PowerPoint 경험을 향상시키세요.
+type: docs
 weight: 17
 url: /ko/net/printing-and-rendering-in-slides/adjusting-zoom-level/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 역동적인 프레젠테이션 세계에서 확대/축소 수준을 제어하는 것은 청중에게 매력적이고 시각적으로 매력적인 경험을 제공하는 데 매우 중요합니다. Aspose.Slides for .NET은 프레젠테이션 슬라이드를 프로그래밍 방식으로 조작하기 위한 강력한 도구 세트를 제공합니다. 이 튜토리얼에서는 .NET 환경에서 Aspose.Slides를 사용하여 프레젠테이션 슬라이드의 확대/축소 수준을 조정하는 방법을 살펴보겠습니다.
 ## 전제 조건
@@ -64,9 +60,3 @@ In this tutorial, we explored the step-by-step process of adjusting the zoom lev
  질문이나 문제가 있는 경우 Aspose.Slides 포럼을 방문하세요.[여기](https://forum.aspose.com/c/slides/11) 지역 사회와 지원을 구합니다.
 ### 5. .NET용 Aspose.Slides를 어떻게 구매하나요?
  .NET용 Aspose.Slides를 구입하려면 다음을 클릭하세요.[여기](https://purchase.aspose.com/buy)라이선스 옵션을 살펴보세요.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

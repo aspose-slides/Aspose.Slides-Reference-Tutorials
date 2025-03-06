@@ -3,14 +3,10 @@ title: استنساخ الشريحة إلى عرض تقديمي آخر مع ال
 linktitle: استنساخ الشريحة إلى عرض تقديمي آخر مع السيد
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية استنساخ الشرائح بين العروض التقديمية في Java باستخدام Aspose.Slides. برنامج تعليمي خطوة بخطوة حول صيانة الشرائح الرئيسية.
+type: docs
 weight: 14
 url: /ar/java/java-powerpoint-slide-cloning-techniques/clone-slide-another-presentation-master-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 Aspose.Slides for Java هي مكتبة قوية تسمح للمطورين بإنشاء عروض PowerPoint التقديمية وتعديلها ومعالجتها برمجياً. توفر هذه المقالة برنامجًا تعليميًا شاملاً خطوة بخطوة حول كيفية استنساخ شريحة من عرض تقديمي إلى آخر مع الاحتفاظ بالشريحة الرئيسية الخاصة بها، باستخدام Aspose.Slides لـ Java.
 ## المتطلبات الأساسية
@@ -87,9 +83,3 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
  يمكنك الحصول على ترخيص مؤقت من[Aspose صفحة الشراء](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق؟  
  قم بزيارة[Aspose.Slides لتوثيق جافا](https://reference.aspose.com/slides/java/) لمزيد من الأمثلة والمعلومات التفصيلية.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

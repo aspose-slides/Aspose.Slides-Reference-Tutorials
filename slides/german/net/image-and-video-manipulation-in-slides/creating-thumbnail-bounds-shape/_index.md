@@ -3,14 +3,10 @@ title: Erstellen einer Miniaturansicht mit Grenzen für die Form in Aspose.Slide
 linktitle: Erstellen einer Miniaturansicht mit Grenzen für die Form in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Entfesseln Sie die Leistungsfähigkeit von Aspose.Slides für .NET! Lernen Sie mit unserer Schritt-für-Schritt-Anleitung, wie Sie mühelos Form-Miniaturansichten mit Begrenzungen erstellen.
+type: docs
 weight: 10
 url: /de/net/image-and-video-manipulation-in-slides/creating-thumbnail-bounds-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 Wenn Sie ein .NET-Entwickler sind und nach einer robusten Lösung zum Erstellen von Miniaturbildern mit Begrenzungen für Formen in PowerPoint-Präsentationen suchen, ist Aspose.Slides für .NET Ihr bevorzugtes Tool. Diese leistungsstarke Bibliothek bietet eine nahtlose Integration, mit der Sie PowerPoint-Dateien effizient bearbeiten und wertvolle Informationen daraus extrahieren können. In diesem Tutorial führen wir Sie durch den Prozess zum Erstellen einer Miniaturansicht mit Begrenzungen für eine Form mit Aspose.Slides.
 ## Voraussetzungen
@@ -64,9 +60,3 @@ Ja, Aspose.Slides wird regelmäßig aktualisiert, um die Kompatibilität mit den
  Besuche den[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) um mit der Community in Kontakt zu treten und Hilfe von erfahrenen Entwicklern zu suchen.
 ### Kann ich eine temporäre Lizenz für Aspose.Slides erhalten?
  Ja, Sie können eine vorübergehende Lizenz erhalten[Hier](https://purchase.aspose.com/temporary-license/) für kurzfristige Projektbedarfe.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

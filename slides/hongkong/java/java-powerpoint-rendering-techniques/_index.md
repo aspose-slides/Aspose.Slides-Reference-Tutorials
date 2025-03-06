@@ -3,14 +3,10 @@ title: Java PowerPoint 渲染技術
 linktitle: Java PowerPoint 渲染技術
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 中渲染註解、3D 圖形、表情符號等。用於增強演示的綜合教程。
+type: docs
 weight: 22
 url: /zh-hant/java/java-powerpoint-rendering-techniques/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 介紹
 
@@ -42,9 +38,3 @@ PowerPoint 中的評論可以提供有價值的背景資訊和回饋，使協作
 了解如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中輕鬆呈現表情符號。透過富有表現力的視覺效果增強參與度。
 ### [PowerPoint 中的渲染選項](./render-options-powerpoint/)
 了解如何使用 Aspose.Slides for Java 操作 PowerPoint 簡報中的渲染選項。自訂您的投影片以獲得最佳視覺效果。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

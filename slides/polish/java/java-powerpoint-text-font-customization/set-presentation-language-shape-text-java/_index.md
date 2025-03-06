@@ -3,14 +3,10 @@ title: Ustaw język prezentacji i kształt tekstu w Javie
 linktitle: Ustaw język prezentacji i kształt tekstu w Javie
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak zautomatyzować prezentacje programu PowerPoint za pomocą Aspose.Slides dla Java. Programowo z łatwością twórz, modyfikuj i ulepszaj slajdy.
+type: docs
 weight: 19
 url: /pl/java/java-powerpoint-text-font-customization/set-presentation-language-shape-text-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 Programowe tworzenie prezentacji programu PowerPoint w języku Java i manipulowanie nimi może usprawnić automatyzację przepływu pracy i zwiększyć produktywność. Aspose.Slides dla Java zapewnia solidny zestaw narzędzi do wydajnej realizacji tych zadań. Ten samouczek poprowadzi Cię przez niezbędne kroki, aby ustawić język prezentacji i kształtować tekst za pomocą Aspose.Slides dla Java.
 ## Warunki wstępne
@@ -73,9 +69,3 @@ Tak, Aspose.Slides zapewnia kompleksowe interfejsy API do tworzenia prezentacji 
  Dostępna jest szczegółowa dokumentacja[Tutaj](https://reference.aspose.com/slides/java/).
 ### Jakie opcje wsparcia są dostępne dla Aspose.Slides dla Java?
  Możesz odwiedzić forum Aspose.Slides[Tutaj](https://forum.aspose.com/c/slides/11) za wsparcie społeczności.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java スライドでフォーマット列挙を読み込む
 linktitle: Java スライドでフォーマット列挙を読み込む
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して Java で PowerPoint プレゼンテーションの形式を確認する方法を学びます。効果的な形式検出については、ソース コードの例を含むステップ バイ ステップ ガイドに従ってください。
+type: docs
 weight: 14
 url: /ja/java/additional-utilities/load-format-enumeration-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java スライドでのプレゼンテーション形式の読み込みの概要
 
@@ -72,10 +68,3 @@ Aspose.Slides for Java のサポートを受けるには、Aspose サポート �
 ### Aspose.Slides for Java は商用プロジェクトに適していますか?
 
 はい、Aspose.Slides for Java は商用プロジェクトに適しています。Java アプリケーションで PowerPoint プレゼンテーションを操作するための強力な機能セットを提供し、商用環境とエンタープライズ環境の両方で広く使用されています。
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: PowerPoint'te Yerleşik Özellikleri Değiştirme
 linktitle: PowerPoint'te Yerleşik Özellikleri Değiştirme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarındaki yerleşik özellikleri nasıl değiştireceğinizi öğrenin. Sunumlarınızı programlı olarak geliştirin.
+type: docs
 weight: 12
 url: /tr/java/java-powerpoint-properties-management/modify-built-in-properties-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 Aspose.Slides for Java, geliştiricilerin PowerPoint sunumlarını programlı olarak değiştirmesine olanak tanır. Önemli özelliklerden biri yazar, başlık, konu, yorumlar ve yönetici gibi yerleşik özellikleri değiştirmektir. Bu eğitim, süreç boyunca size adım adım yol gösterir.
 ## Önkoşullar
@@ -69,9 +65,3 @@ Kesinlikle! Sunum grupları için özellik değişikliklerini otomatikleştirmek
 Aspose.Slides kapsamlı işlevsellik sağlarken bazı gelişmiş özelliklerin PowerPoint formatına ve sürümüne bağlı olarak sınırlamaları olabilir.
 ### Aspose.Slides için teknik destek mevcut mu?
  Evet, yardım isteyebilir ve konuyla ilgili tartışmalara katılabilirsiniz.[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

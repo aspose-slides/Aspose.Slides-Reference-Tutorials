@@ -3,14 +3,10 @@ title: Konversikan Presentasi ke PDF yang Dilindungi Kata Sandi
 linktitle: Konversikan Presentasi ke PDF yang Dilindungi Kata Sandi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengamankan presentasi dengan melindungi kata sandi dan mengonversinya menjadi PDF menggunakan Aspose.Slides untuk .NET. Tingkatkan keamanan data sekarang.
+type: docs
 weight: 16
 url: /id/net/presentation-conversion/password-protect-presentations-convert-to-password-protected-pdf/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Di era digital saat ini, mengamankan presentasi sensitif Anda adalah hal yang terpenting. Salah satu cara efektif untuk memastikan kerahasiaan presentasi PowerPoint Anda adalah dengan mengonversinya menjadi PDF yang dilindungi kata sandi. Dengan Aspose.Slides untuk .NET, Anda dapat mencapainya dengan lancar. Dalam panduan komprehensif ini, kami akan memandu Anda melalui proses mengonversi presentasi ke PDF yang dilindungi kata sandi menggunakan Aspose.Slides untuk .NET API. Di akhir tutorial ini, Anda akan memiliki pengetahuan dan alat untuk menjaga presentasi Anda dengan mudah.
 
@@ -81,9 +77,3 @@ Ya, PDF yang dilindungi kata sandi menawarkan tingkat keamanan yang lebih tinggi
 ### Di mana saya dapat mengakses dokumentasi Aspose.Slides for .NET API?
 
  Anda dapat mengakses dokumentasi Aspose.Slides untuk .NET di[Di Sini](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

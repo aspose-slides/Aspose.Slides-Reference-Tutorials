@@ -3,14 +3,10 @@ title: Create Section Zoom in PowerPoint
 linktitle: Create Section Zoom in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create section zooms in PowerPoint presentations using Aspose.Slides for Java. Enhance navigation and engagement effortlessly.
+type: docs
 weight: 13
 url: /java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction
 In this tutorial, we will delve into creating section zooms in PowerPoint presentations using Aspose.Slides for Java. Section zooms are a powerful feature that allows you to seamlessly navigate through different sections of your presentation, enhancing both the organization and the overall user experience. By breaking down complex presentations into easily digestible sections, you can effectively convey your message and engage your audience.
@@ -76,10 +72,3 @@ Aspose.Slides for Java supports section zooms in various PowerPoint formats, inc
 Yes, you can add section zooms to existing presentations using Aspose.Slides for Java by following similar steps outlined in this tutorial.
 ### Where can I find additional support or assistance with Aspose.Slides for Java?
 For additional support or assistance, you can visit the Aspose.Slides for Java forum [here](https://forum.aspose.com/c/slides/11).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

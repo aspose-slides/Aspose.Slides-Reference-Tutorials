@@ -3,14 +3,10 @@ title: Java Slaytlarında Önceden Tanımlanmış Görünüm Türü Olarak Kayde
 linktitle: Java Slaytlarında Önceden Tanımlanmış Görünüm Türü Olarak Kaydetme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java Slides'ta önceden tanımlanmış görünüm türlerini nasıl ayarlayacağınızı öğrenin. Kod örnekleri ve SSS içeren adım adım kılavuz.
+type: docs
 weight: 10
 url: /tr/java/saving-options/save-as-predefined-view-type-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java Slaytlarında Önceden Tanımlanmış Görünüm Türü Olarak Kaydetmeye Giriş
 
@@ -113,9 +109,3 @@ Evet, Aspose.Slides for Java toplu işlem görevleri için çok uygundur. Birden
 ### Aspose.Slides for Java hakkında daha fazla bilgi ve belgeyi nerede bulabilirim?
 
  Aspose.Slides for Java ile ilgili kapsamlı dokümantasyon ve referanslar için lütfen dokümantasyon web sitesini ziyaret edin:[Aspose.Slides for Java Belgelendirmesi](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

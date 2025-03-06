@@ -3,14 +3,10 @@ title: บันทึก PowerPoint เพื่อสตรีม
 linktitle: บันทึก PowerPoint เพื่อสตรีม
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีบันทึกงานนำเสนอ PowerPoint ลงในสตรีมโดยใช้ Aspose.Slides สำหรับ Java ปฏิบัติตามคำแนะนำทีละขั้นตอนของเราเพื่อการบูรณาการที่ราบรื่น
+type: docs
 weight: 11
 url: /th/java/java-powerpoint-save-operations/save-powerpoint-to-stream/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## การแนะนำ
 ในขอบเขตของการเขียนโปรแกรม Java การจัดการงานนำเสนอ PowerPoint ถือเป็นงานที่สำคัญ ไม่ว่าจะเป็นการสร้างรายงาน การนำเสนอ หรือการสร้างเนื้อหาแบบไดนามิก Aspose.Slides สำหรับ Java มีชุดเครื่องมือและฟังก์ชันการทำงานที่มีประสิทธิภาพเพื่อให้ทำงานกับไฟล์ PowerPoint ได้อย่างราบรื่น ในบทช่วยสอนนี้ เราจะเจาะลึกประเด็นพื้นฐานประการหนึ่ง นั่นคือ การบันทึกงานนำเสนอ PowerPoint ลงในสตรีม เราจะอธิบายแต่ละขั้นตอนเพื่อให้มั่นใจว่ามีความเข้าใจที่ชัดเจนของกระบวนการ และจัดเตรียมข้อกำหนดเบื้องต้นที่จำเป็นและนำเข้าแพ็คเกจเพื่อเริ่มต้นใช้งาน
 ## ข้อกำหนดเบื้องต้น
@@ -69,9 +65,3 @@ if (presentation != null) presentation.dispose();
  ใช่ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ฟรีได้จาก[เว็บไซต์](https://releases.aspose.com/).
 ### ฉันจะรับการสนับสนุนสำหรับ Aspose.Slides สำหรับ Java ได้ที่ไหน
  สำหรับความช่วยเหลือด้านเทคนิคและการสนับสนุนชุมชน โปรดไปที่[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

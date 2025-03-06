@@ -3,14 +3,10 @@ title: Java PowerPoint'te Özel Bilgi İstemi Metni Ekleme
 linktitle: Java PowerPoint'te Özel Bilgi İstemi Metni Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides'ı kullanarak Java PowerPoint'te özel bilgi istemi metnini nasıl ekleyeceğinizi öğrenin. Bu eğitimle kullanıcı etkileşimini zahmetsizce geliştirin.
+type: docs
 weight: 12
 url: /tr/java/java-powerpoint-text-box-manipulation/add-custom-prompt-text-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 Günümüzün dijital çağında dinamik ve ilgi çekici sunumlar oluşturmak etkili iletişim için çok önemlidir. Aspose.Slides for Java, slaytları, şekilleri, metinleri ve daha fazlasını özelleştirmek için kapsamlı özellikler sunarak geliştiricilerin PowerPoint sunumlarını programlı olarak değiştirmelerine olanak tanır. Bu eğitim, Aspose.Slides kullanarak Java PowerPoint sunumlarındaki yer tutuculara özel bilgi istemi metni ekleme sürecinde size rehberlik edecektir.
 ## Önkoşullar
@@ -75,9 +71,3 @@ Aspose.Slides, çok çeşitli PowerPoint sürümlerini destekleyerek uyumluluk v
  Alabilirsin[geçici lisans](https://purchase.aspose.com/temporary-license/) Aspose.Slides'ın tüm özelliklerini değerlendirmek için.
 ### Aspose.Slides for Java, slaytlara özel animasyonlar eklemeyi destekliyor mu?
 Evet, Aspose.Slides slayt animasyonlarını programlı bir şekilde yönetmek için API'ler sağlar.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

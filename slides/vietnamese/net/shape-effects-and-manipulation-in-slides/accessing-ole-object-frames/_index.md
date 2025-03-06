@@ -3,14 +3,10 @@ title: Truy cập các khung đối tượng OLE trong các slide thuyết trìn
 linktitle: Truy cập các khung đối tượng OLE trong các slide thuyết trình bằng Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách truy cập và thao tác các khung đối tượng OLE trong các trang trình bày bằng Aspose.Slides cho .NET. Nâng cao khả năng xử lý slide của bạn với hướng dẫn từng bước và các ví dụ về mã thực tế.
+type: docs
 weight: 11
 url: /vi/net/shape-effects-and-manipulation-in-slides/accessing-ole-object-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu
 
@@ -103,9 +99,3 @@ Có, bạn có thể quản lý các tương tác và hành vi của các đối
 Trong thế giới thuyết trình, khả năng khai thác sức mạnh của khung đối tượng OLE có thể nâng nội dung của bạn lên tầm cao mới về tính tương tác và mức độ tương tác. Aspose.Slides for .NET đơn giản hóa quá trình truy cập và thao tác các khung đối tượng OLE, cho phép bạn tích hợp liền mạch nội dung từ các ứng dụng khác và làm phong phú thêm bản trình bày của bạn. Bằng cách làm theo hướng dẫn từng bước và sử dụng các ví dụ về mã được cung cấp, bạn sẽ mở ra vô số khả năng tạo ra các trang trình bày năng động và hấp dẫn.
 
 Khai phá tiềm năng của khung đối tượng OLE bằng Aspose.Slides và biến bản trình bày của bạn thành trải nghiệm tương tác thu hút sự chú ý của khán giả.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

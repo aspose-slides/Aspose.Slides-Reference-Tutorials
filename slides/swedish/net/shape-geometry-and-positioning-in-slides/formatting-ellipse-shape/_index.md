@@ -3,14 +3,10 @@ title: Handledning för formatering av ellipsformer med Aspose.Slides för .NET
 linktitle: Formatera Ellipsform i Slides med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Skapa fantastiska ellipsformer i PowerPoint med Aspose.Slides för .NET. Följ vår steg-för-steg-guide för professionella presentationer.
+type: docs
 weight: 11
 url: /sv/net/shape-geometry-and-positioning-in-slides/formatting-ellipse-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 Att förbättra dina PowerPoint-presentationer med visuellt tilltalande former är avgörande för att fängsla din publik. En sådan form är ellipsen, som kan lägga till en touch av elegans och professionalism till dina bilder. I den här självstudien guidar vi dig genom processen att formatera ellipsformer i PowerPoint med Aspose.Slides för .NET.
 ## Förutsättningar
@@ -85,9 +81,3 @@ Aspose.Slides säkerställer kompatibilitet med olika PowerPoint-versioner, inkl
  Sök hjälp från samhället på[Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
 ### Finns det ett direktköpsalternativ för Aspose.Slides för .NET?
  Ja, du kan köpa biblioteket direkt[här](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

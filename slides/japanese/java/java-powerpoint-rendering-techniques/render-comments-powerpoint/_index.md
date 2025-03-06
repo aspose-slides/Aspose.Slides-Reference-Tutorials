@@ -3,14 +3,10 @@ title: PowerPoint でコメントをレンダリングする
 linktitle: PowerPoint でコメントをレンダリングする
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint プレゼンテーションでコメントをレンダリングする方法を学びます。外観をカスタマイズし、画像プレビューを効率的に生成します。
+type: docs
 weight: 10
 url: /ja/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションでコメントをレンダリングするプロセスについて説明します。コメントのレンダリングは、コメントが含まれたプレゼンテーションの画像プレビューを生成するなど、さまざまな目的に役立ちます。
 ## 前提条件
@@ -76,9 +72,3 @@ try {
 はい、Aspose.Slides を使用すると、PowerPoint アプリケーションを開かずに画像にコメントをレンダリングできます。
 ### PDF ドキュメントに直接コメントをレンダリングする方法はありますか?
 はい、Aspose.Slides は PDF ドキュメントにコメントを直接レンダリングする機能を提供しており、ドキュメント ワークフローへのシームレスな統合が可能です。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

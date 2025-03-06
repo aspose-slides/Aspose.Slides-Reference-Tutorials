@@ -3,14 +3,10 @@ title: プレゼンテーションをNotesでTIFF形式に変換する
 linktitle: プレゼンテーションをNotesでTIFF形式に変換する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションをスピーカーのメモ付きの TIFF 形式に変換します。高品質で効率的な変換です。
+type: docs
 weight: 10
 url: /ja/net/presentation-conversion/converting-presentations-to-tiff-format-with-notes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 デジタル プレゼンテーションの世界では、プレゼンテーションをさまざまな形式に変換できると非常に便利です。そのような形式の 1 つが TIFF (Tagged Image File Format) です。TIFF ファイルは、高品質の画像とさまざまなアプリケーションとの互換性で知られています。このステップ バイ ステップのチュートリアルでは、Aspose.Slides for .NET API を使用して、プレゼンテーションをメモ付きの TIFF 形式に変換する方法を説明します。
 
@@ -82,9 +78,3 @@ pres.Save(destFileName, SaveFormat.TiffNotes);
  はい、Aspose.Slides for .NET は PDF、画像など、さまざまな出力形式をサポートしています。詳細についてはドキュメントを確認してください。
 
 Aspose.Slides for .NET を使用してプレゼンテーションをメモ付きの TIFF 形式に変換する方法がわかったので、この強力な API の可能性をプロジェクトで探ってみましょう。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

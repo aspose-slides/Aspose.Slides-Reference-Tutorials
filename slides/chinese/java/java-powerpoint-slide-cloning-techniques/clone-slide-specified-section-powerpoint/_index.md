@@ -3,14 +3,10 @@ title: 将幻灯片克隆到 PowerPoint 中的指定部分
 linktitle: 将幻灯片克隆到 PowerPoint 中的指定部分
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 轻松将幻灯片克隆到 PowerPoint 中的特定部分。使用此分步指南增强您的演示文稿。
+type: docs
 weight: 13
 url: /zh/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-section-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 您是否希望简化 PowerPoint 演示文稿的创建过程？想象一下，能够毫不费力地将幻灯片克隆到演示文稿的特定部分。使用 Aspose.Slides for Java，这变得轻而易举。本教程将逐步指导您完成该过程，确保您能够轻松准确地增强演示文稿。
 ## 先决条件
@@ -80,9 +76,3 @@ if (presentation != null) presentation.dispose();
 试用版有一些限制。如需完整功能，请考虑购买[临时执照](https://purchase.aspose.com/temporary-license/).
 ### 在哪里可以找到更详细的文档？
 详细文档可在[Aspose.Slides 文档页面](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

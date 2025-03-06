@@ -3,14 +3,10 @@ title: Формируйте геометрию и позиционировани
 linktitle: Геометрия фигур и позиционирование на слайдах
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Совершенствуйте свои навыки манипулирования слайдами с помощью учебных пособий Aspose.Slides по геометрии фигур и расположению на слайдах. Научитесь программно управлять фигурами, их размерами и выравниванием.
+type: docs
 weight: 13
 url: /ru/net/shape-geometry-and-positioning-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Введение
 
@@ -55,9 +51,3 @@ url: /ru/net/shape-geometry-and-positioning-in-slides/
 Узнайте, как улучшить слайды презентации с помощью эффективных данных скоса с помощью Aspose.Slides. Подробное руководство с пошаговыми инструкциями и примером кода.
 ### [Скрытие фигур на слайдах презентации с помощью Aspose.Slides](./hiding-shapes/)
 Узнайте, как скрыть фигуры на слайдах презентации с помощью Aspose.Slides для .NET. Пошаговое руководство с исходным кодом, часто задаваемыми вопросами и рекомендациями по созданию динамических презентаций.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

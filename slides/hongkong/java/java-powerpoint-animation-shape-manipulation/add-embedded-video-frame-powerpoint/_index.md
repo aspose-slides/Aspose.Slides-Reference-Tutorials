@@ -3,14 +3,10 @@ title: 在 PowerPoint 中新增嵌入視訊幀
 linktitle: 在 PowerPoint 中新增嵌入視訊幀
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 透過此逐步教學，了解如何使用 Aspose.Slides for Java 在 PowerPoint 中嵌入視訊畫面。輕鬆增強您的簡報。
+type: docs
 weight: 21
 url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-frame-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 將影片新增至 PowerPoint 簡報中可以使其更具吸引力和資訊量。使用 Aspose.Slides for Java，您可以輕鬆地將影片直接嵌入到投影片中。在本教程中，我們將逐步引導您完成該過程，確保您了解程式碼的每個部分及其工作原理。無論您是經驗豐富的開發人員還是新手，本指南都將幫助您透過嵌入影片增強簡報。
 ## 先決條件
@@ -97,9 +93,3 @@ Aspose.Slides 支援各種視訊格式，包括 MP4、AVI 和 WMV。
 是的，您需要有效的許可證才能使用 Aspose.Slides。您可以獲得臨時評估許可證。
 ### 我可以自訂視訊畫面的大小和位置嗎？
 是的，您可以在新增視訊畫面時透過設定適當的參數來自訂大小和位置。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

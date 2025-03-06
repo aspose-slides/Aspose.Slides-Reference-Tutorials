@@ -3,14 +3,10 @@ title: 使用 Java 在 PowerPoint 中对齐段落
 linktitle: 使用 Java 在 PowerPoint 中对齐段落
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 对齐 PowerPoint 演示文稿中的段落。按照我们的分步指南进行精确格式化。
+type: docs
 weight: 17
 url: /zh/java/java-powerpoint-text-paragraph-management/align-paragraphs-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 在本教程中，您将学习如何使用 Aspose.Slides for Java 对齐 PowerPoint 演示文稿中的段落。幻灯片中文本的正确对齐可提高可读性和美感，使您的演示文稿更加专业和引人入胜。本指南将引导您完成以编程方式居中对齐段落所需的步骤，确保您可以轻松地在幻灯片中实现一致的格式。
 ## 先决条件
@@ -76,9 +72,3 @@ pres.save(dataDir + "Centeralign_out.pptx", SaveFormat.Pptx);
 Aspose.Slides 支持多种 PowerPoint 格式，确保跨不同版本的兼容性。
 ### 我可以在购买之前试用 Aspose.Slides 吗？
 是的，你可以从以下网站下载免费试用版[这里](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Erweiterte Absatz- und Schrifteigenschaften in Java PowerPoint
 linktitle: Erweiterte Absatz- und Schrifteigenschaften in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Beherrschen Sie erweiterte Absatz- und Schrifteigenschaften in Java PowerPoint mit Aspose.Slides. Erfahren Sie, wie Sie Schriftarten anpassen, Bildaufzählungszeichen hinzufügen und Ersatzschriftarten verwenden.
+type: docs
 weight: 28
 url: /de/java/java-powerpoint-advanced-paragraph-font-properties/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 
 Das Erstellen ansprechender PowerPoint-Präsentationen erfordert die Feinabstimmung verschiedener Elemente, von der Absatzformatierung bis zur Schriftartenverwaltung. Aspose.Slides für Java bietet robuste Tools zur effektiven Verwaltung dieser erweiterten Eigenschaften. In diesem Artikel erkunden wir Tutorials, die Ihnen dabei helfen, Absatzschriftarteneigenschaften anzupassen, Bildaufzählungszeichen hinzuzufügen und Ersatzschriftarten zu verwenden. Lassen Sie uns in diese fortgeschrittenen Techniken eintauchen, damit Ihre Präsentationen hervorstechen!
@@ -39,9 +35,3 @@ Erfahren Sie, wie Sie mit Aspose.Slides für Java benutzerdefinierte Bildaufzäh
 Erfahren Sie in diesem ausführlichen Schritt-für-Schritt-Tutorial, wie Sie mit Aspose.Slides für Java das Portionsrechteck in PowerPoint erstellen. Perfekt für Java-Entwickler.
 ### [Rendern mit Ersatzschriftart in Java PowerPoint](./render-with-fallback-font-java-powerpoint/)
 Erfahren Sie, wie Sie mit Aspose.Slides Text mit Ersatzschriftarten in Java PowerPoint-Präsentationen rendern. Folgen Sie dieser Schritt-für-Schritt-Anleitung für eine nahtlose Implementierung.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

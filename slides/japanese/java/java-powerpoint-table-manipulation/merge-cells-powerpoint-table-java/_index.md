@@ -3,14 +3,10 @@ title: Java を使用して PowerPoint の表のセルを結合する
 linktitle: Java を使用して PowerPoint の表のセルを結合する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint の表のセルを結合する方法を学びます。このステップバイステップ ガイドを使用して、プレゼンテーションのレイアウトを強化します。
+type: docs
 weight: 17
 url: /ja/java/java-powerpoint-table-manipulation/merge-cells-powerpoint-table-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint テーブル内のセルを効果的に結合する方法を学習します。Aspose.Slides は、開発者がプログラムで PowerPoint プレゼンテーションを作成、操作、変換できるようにする強力なライブラリです。テーブル内のセルを結合することで、プレゼンテーション スライドのレイアウトと構造をカスタマイズし、明瞭性と視覚的な魅力を高めることができます。
 ## 前提条件
@@ -96,9 +92,3 @@ Aspose.Slides for Java は、PowerPoint プレゼンテーションをプログ�
 ドキュメントは以下からご覧いただけます[ここ](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java のサポートを受けるにはどうすればよいですか?
 Aspose.Slidesコミュニティフォーラムからサポートを受けることができます[ここ](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

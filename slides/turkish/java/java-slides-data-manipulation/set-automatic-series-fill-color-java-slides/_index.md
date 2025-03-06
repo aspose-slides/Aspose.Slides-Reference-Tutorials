@@ -3,14 +3,10 @@ title: Java Slaytlarında Otomatik Seri Dolgu Rengini Ayarlama
 linktitle: Java Slaytlarında Otomatik Seri Dolgu Rengini Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java Slides'ta otomatik seri dolgu rengini nasıl ayarlayacağınızı öğrenin. Dinamik sunumlar için kod örnekleri içeren adım adım kılavuz.
+type: docs
 weight: 14
 url: /tr/java/data-manipulation/set-automatic-series-fill-color-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java Slaytlarında Otomatik Seri Dolgu Rengini Ayarlamaya Giriş
 
@@ -130,9 +126,3 @@ Evet, Aspose.Slides for Java; slayt düzenleme, metin biçimlendirme ve animasyo
 ### Daha fazla kaynak ve belgeyi nerede bulabilirim?
 
  Aspose.Slides for Java'nın kapsamlı belgelerine şu adresten ulaşabilirsiniz:[Burada](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

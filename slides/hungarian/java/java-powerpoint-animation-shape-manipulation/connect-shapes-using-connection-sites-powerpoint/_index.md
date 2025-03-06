@@ -3,14 +3,10 @@ title: Kapcsolja össze az alakzatokat a PowerPoint kapcsolati webhelyeivel
 linktitle: Kapcsolja össze az alakzatokat a PowerPoint kapcsolati webhelyeivel
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan kapcsolhat össze alakzatokat a PowerPointban az Aspose.Slides for Java segítségével. Automatizálja prezentációit könnyedén.
+type: docs
 weight: 19
 url: /hu/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connection-sites-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan kapcsolhat össze alakzatokat a PowerPoint kapcsolati webhelyeivel az Aspose.Slides for Java használatával. Ez a nagy teljesítményű könyvtár lehetővé teszi a PowerPoint-prezentációk programozott kezelését, zökkenőmentessé és hatékonysá téve az olyan feladatokat, mint az alakzatok összekapcsolása.
 ## Előfeltételek
@@ -74,9 +70,3 @@ Igen, az Aspose.Slides for Java funkciók széles skáláját kínálja PowerPoi
  Igen, tesztelési és értékelési célokra rendelkezésre állnak ideiglenes licencek. Beszerezhetsz egyet[itt](https://purchase.aspose.com/temporary-license/).
 ### Hol vásárolhatok licencet az Aspose.Slides for Java-hoz?
 Licenceket vásárolhat az Aspose webhelyéről[itt](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

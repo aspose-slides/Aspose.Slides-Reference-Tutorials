@@ -3,14 +3,10 @@ title: Balikkan Jika Negatif untuk Seri Individual di Slide Java
 linktitle: Balikkan Jika Negatif untuk Seri Individual di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menggunakan fitur Balikkan Jika Negatif di Aspose.Slides untuk Java untuk menyempurnakan visual bagan dalam presentasi PowerPoint.
+type: docs
 weight: 11
 url: /id/java/data-manipulation/invert-if-negative-individual-series-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Pengantar Pembalikan Jika Negatif untuk Seri Individual di Slide Java
 
@@ -135,9 +131,3 @@ Ya, Anda dapat menyesuaikan tampilan titik data terbalik. Aspose.Slides untuk Ja
 ### Di mana saya dapat mengakses dokumentasi Aspose.Slides untuk Java?
 
 Anda dapat mengakses dokumentasi Aspose.Slides untuk Java di[Di Sini](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

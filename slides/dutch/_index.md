@@ -3,14 +3,11 @@ title: Aspose.Slides-tutorials voor PowerPoint-verwerking
 linktitle: Aspose.Slides-tutorials
 additionalTitle: Stel API-referenties voor
 description: Beheers de verwerking van presentaties met Aspose.Slides-tutorials. Maak, wijzig en verbeter PowerPoint-presentaties efficiënt. Excelleer in dynamische inhoudsmanipulatie.
+type: docs
 weight: 10
 url: /nl/
+is_root: true
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 Ontdek het uitgebreide aanbod aan tutorials voor Aspose.Slides. Ontdek het domein van presentatieverwerking terwijl u zich verdiept in de kunst om Aspose.Slides optimaal te benutten. Deze zelfstudies bieden stapsgewijze begeleiding, zodat u taken onder de knie krijgt zoals het maken, wijzigen, opmaken en multimedia-integratie van dia's in PowerPoint-presentaties. Of u nu een doorgewinterde ontwikkelaar of een nieuwkomer bent, deze bronnen voorzien u van de vaardigheden die u nodig heeft om uit te blinken in het maken van dynamische en boeiende presentaties met Aspose.Slides.
 
 ## Aspose.Slides voor .NET: de PowerPoint-verwerkings-API
@@ -65,9 +62,3 @@ Dit zijn links naar enkele nuttige bronnen:
 - [Beeldverwerking van Java-dia's](./java/image-handling/)
 - [Java Slides-documentbeveiliging](./java/document-protection/)
 - [Opties voor het opslaan van Java-dia's](./java/saving-options/)
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

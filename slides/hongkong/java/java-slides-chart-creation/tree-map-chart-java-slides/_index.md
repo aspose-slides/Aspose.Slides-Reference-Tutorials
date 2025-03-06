@@ -3,14 +3,10 @@ title: Java 投影片中的樹狀圖
 linktitle: Java 投影片中的樹狀圖
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 在 Java 投影片中建立樹狀圖。包含用於視覺化分層資料的原始程式碼的逐步指南。
+type: docs
 weight: 13
 url: /zh-hant/java/chart-creation/tree-map-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 投影片樹狀圖簡介
 
@@ -156,9 +152,3 @@ finally
 ### 如何保存帶有樹形圖的簡報？
 
 使用`pres.save()`方法以所需的格式（例如，PPTX）保存帶有樹形圖的簡報。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

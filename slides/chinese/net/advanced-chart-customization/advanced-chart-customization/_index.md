@@ -3,14 +3,10 @@ title: Aspose.Slides 中的高级图表定制
 linktitle: Aspose.Slides 中的高级图表定制
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解 Aspose.Slides for .NET 中的高级图表自定义。通过分步指导创建具有视觉吸引力的图表。
+type: docs
 weight: 10
 url: /zh/net/advanced-chart-customization/advanced-chart-customization/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 创建具有视觉吸引力和信息量的图表是许多应用程序中数据呈现的重要组成部分。Aspose.Slides for .NET 提供了强大的图表自定义工具，允许您微调图表的各个方面。在本教程中，我们将探索使用 Aspose.Slides for .NET 的高级图表自定义技术。
 
@@ -308,9 +304,3 @@ Aspose.Slides for .NET 支持各种 .NET 版本，包括 .NET Framework 和 .NET
 
 ### 在哪里可以找到更多有关 Aspose.Slides for .NET 的教程和示例？
 您可以在 Aspose.Slides 上找到丰富的教程、代码示例和文档[网站](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

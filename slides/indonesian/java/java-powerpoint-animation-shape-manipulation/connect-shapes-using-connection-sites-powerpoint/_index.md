@@ -3,14 +3,10 @@ title: Hubungkan Bentuk menggunakan Situs Koneksi di PowerPoint
 linktitle: Hubungkan Bentuk menggunakan Situs Koneksi di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menghubungkan bentuk di PowerPoint menggunakan Aspose.Slides untuk Java. Otomatiskan presentasi Anda dengan mudah.
+type: docs
 weight: 19
 url: /id/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connection-sites-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam tutorial ini, kita akan menjelajahi cara menghubungkan bentuk menggunakan situs koneksi di PowerPoint menggunakan Aspose.Slides untuk Java. Pustaka canggih ini memungkinkan kita memanipulasi presentasi PowerPoint secara terprogram, membuat tugas seperti menghubungkan bentuk menjadi lancar dan efisien.
 ## Prasyarat
@@ -74,9 +70,3 @@ Ya, Aspose.Slides for Java menyediakan berbagai fungsi untuk membuat, mengedit, 
  Ya, lisensi sementara tersedia untuk tujuan pengujian dan evaluasi. Anda bisa mendapatkannya[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya dapat membeli lisensi Aspose.Slides untuk Java?
 Anda dapat membeli lisensi dari situs web Aspose[Di Sini](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

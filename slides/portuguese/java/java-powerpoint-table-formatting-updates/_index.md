@@ -3,14 +3,10 @@ title: Formatação e atualizações de tabelas Java PowerPoint
 linktitle: Formatação e atualizações de tabelas Java PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprimore apresentações Java PowerPoint com formatação e atualizações de tabelas usando Aspose.Slides. Aprenda a adicionar bordas, formatar texto em colunas e linhas e atualizar tabelas.
+type: docs
 weight: 31
 url: /pt/java/java-powerpoint-table-formatting-updates/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introdução
 
@@ -40,9 +36,3 @@ Aprenda como formatar texto dentro de colunas de tabela no PowerPoint usando Asp
 Aprenda como formatar texto dentro de linhas de tabela no PowerPoint usando Aspose.Slides para Java. Aprimore suas apresentações com nosso guia passo a passo.
 ### [Atualizar tabela existente no PowerPoint usando Java](./update-existing-table-powerpoint-java/)
 Aprenda como atualizar tabelas existentes no PowerPoint usando Java com Aspose.Slides. Guia passo a passo, instruções detalhadas e perguntas frequentes incluídas.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: إضافة إطار كائن OLE في PowerPoint
 linktitle: إضافة إطار كائن OLE في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية دمج إطارات كائنات OLE بسلاسة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java.
+type: docs
 weight: 13
 url: /ar/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 يمكن أن تؤدي إضافة إطار كائن OLE (ربط الكائنات وتضمينها) في عروض PowerPoint التقديمية إلى تحسين المظهر المرئي ووظائف الشرائح بشكل كبير. مع Aspose.Slides لـ Java، تصبح هذه العملية مبسطة وفعالة. في هذا البرنامج التعليمي، سنرشدك خلال الخطوات المطلوبة لدمج إطارات كائنات OLE بسلاسة في عروض PowerPoint التقديمية.
 ### المتطلبات الأساسية
@@ -84,9 +80,3 @@ pres.save(outPath + "OleEmbed_out.pptx", SaveFormat.Pptx);
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
 ### أين يمكنني العثور على الدعم لـ Aspose.Slides لـ Java؟
  يمكنك طلب الدعم والمساعدة من منتدى Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

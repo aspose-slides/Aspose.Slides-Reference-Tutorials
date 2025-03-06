@@ -3,14 +3,10 @@ title: Zvládnutí animací přetáčení v prezentacích pomocí Aspose.Slides
 linktitle: Přetočit animaci na snímku
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se přetáčet animace na snímcích PowerPoint pomocí Aspose.Slides for .NET. Postupujte podle tohoto podrobného průvodce s úplnými příklady zdrojového kódu.
+type: docs
 weight: 13
 url: /cs/net/slide-animation-control/rewind-animation-on-slide/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 dynamickém světě prezentací může zapojení podmanivých animací výrazně zvýšit zapojení. Aspose.Slides for .NET poskytuje výkonnou sadu nástrojů, která vašim prezentacím vdechne život. Jednou ze zajímavých funkcí je schopnost přetáčet animace na snímcích. V tomto komplexním průvodci vás provedeme procesem krok za krokem, což vám umožní využít plný potenciál přetáčení animace pomocí Aspose.Slides pro .NET.
 ## Předpoklady
@@ -84,9 +80,3 @@ Ano, kód můžete přizpůsobit tak, aby se animace přetáčení selektivně a
  Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) vyhledat pomoc a zapojit se do komunity.
 ### Mohu si zakoupit dočasnou licenci pro Aspose.Slides pro .NET?
  Ano, můžete získat dočasnou licenci od[tady](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

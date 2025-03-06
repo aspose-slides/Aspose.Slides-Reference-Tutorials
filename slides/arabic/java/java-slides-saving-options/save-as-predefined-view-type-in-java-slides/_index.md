@@ -3,14 +3,10 @@ title: حفظ كنوع عرض محدد مسبقًا في شرائح Java
 linktitle: حفظ كنوع عرض محدد مسبقًا في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين أنواع العرض المحددة مسبقًا في Java Slides باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية والأسئلة الشائعة.
+type: docs
 weight: 10
 url: /ar/java/saving-options/save-as-predefined-view-type-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة للحفظ كنوع عرض محدد مسبقًا في شرائح Java
 
@@ -113,9 +109,3 @@ finally
 ### أين يمكنني العثور على مزيد من المعلومات والوثائق الخاصة بـ Aspose.Slides لـ Java؟
 
  للحصول على الوثائق والمراجع الشاملة المتعلقة بـ Aspose.Slides for Java، يرجى زيارة موقع التوثيق:[Aspose.Slides لتوثيق جافا](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

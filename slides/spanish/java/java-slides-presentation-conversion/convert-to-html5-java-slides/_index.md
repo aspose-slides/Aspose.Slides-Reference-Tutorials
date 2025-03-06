@@ -3,14 +3,10 @@ title: Convertir a HTML5 en diapositivas Java
 linktitle: Convertir a HTML5 en diapositivas Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Convierta presentaciones de PowerPoint a HTML5 en Java usando Aspose.Slides. Aprenda a automatizar el proceso de conversión con ejemplos de código paso a paso.
+type: docs
 weight: 23
 url: /es/java/presentation-conversion/convert-to-html5-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introducción a convertir presentaciones de PowerPoint a HTML5 en Java usando Aspose.Slides
 
@@ -109,9 +105,3 @@ Puede personalizar aún más la salida HTML5 ajustando las opciones en el`Html5O
 ### ¿Aspose.Slides es compatible con las últimas versiones de Java?
 
 Aspose.Slides se actualiza periódicamente para admitir las últimas versiones de Java, así que asegúrese de estar utilizando una versión compatible de la biblioteca.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

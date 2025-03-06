@@ -3,14 +3,10 @@ title: Alinhamento e formatação de formas em slides
 linktitle: Alinhamento e formatação de formas em slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Explore os tutoriais abrangentes do Aspose.Slides sobre alinhamento e formatação de formas em aplicativos .NET. Aprenda a alinhar e formatar formas sem esforço, aprimorando suas apresentações de slides com precisão.
+type: docs
 weight: 14
 url: /pt/net/shape-alignment-and-formatting-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introdução
 
@@ -48,9 +44,3 @@ Aprenda como criar slides de apresentação cativantes com formas esboçadas usa
 Aprenda como adicionar deslocamento de estiramento à esquerda para um porta-retratos no PowerPoint usando Aspose.Slides for .NET. Guia passo a passo com exemplo completo de código-fonte.
 ### [Substituindo o título da imagem do quadro do objeto OLE nos slides da apresentação](./substituting-picture-title-ole-object-frame/)
 Aprenda como substituir títulos de imagens de quadros de objetos OLE em slides de apresentação usando Aspose.Slides for .NET. Guia passo a passo com código-fonte completo.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

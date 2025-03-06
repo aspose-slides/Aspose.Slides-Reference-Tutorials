@@ -3,14 +3,10 @@ title: Java Slaytlarında Boşluk Genişliğini Ayarlama
 linktitle: Java Slaytlarında Boşluk Genişliğini Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile Java Slides'ta Boşluk Genişliğini nasıl ayarlayacağınızı öğrenin. PowerPoint sunumlarınız için grafik görsellerini geliştirin.
+type: docs
 weight: 21
 url: /tr/java/data-manipulation/set-gap-width-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for Java'da Boşluk Genişliğini Ayarlamaya Giriş
 
@@ -162,9 +158,3 @@ Evet, Aspose.Slides for Java, grafik özelleştirmesi için kapsamlı yetenekler
 ### Daha fazla kaynak ve belgeyi nerede bulabilirim?
 
  Aspose.Slides for Java'da kapsamlı belgeler ve ek kaynaklar bulabilirsiniz.[Web sitesi](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Buat Persegi Panjang Berformat di PowerPoint
 linktitle: Buat Persegi Panjang Berformat di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat dan memformat persegi panjang di PowerPoint menggunakan Aspose.Slides untuk Java dengan panduan langkah demi langkah ini.
+type: docs
 weight: 18
 url: /id/java/java-powerpoint-shape-formatting-geometry/create-formatted-rectangle-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan persegi panjang berformat dalam slide PowerPoint menggunakan Aspose.Slides untuk Java. Kami akan menguraikan setiap langkah, memastikan Anda dapat mengikuti dan menerapkannya dalam proyek Anda sendiri.
 ## Prasyarat
@@ -95,9 +91,3 @@ Ya, Anda dapat menggunakan Aspose.Slides untuk Java dengan IDE apa pun yang komp
  Ya, membuangnya`Presentation` objek membantu mengosongkan sumber daya dan menghindari kebocoran memori.
 ### Di mana saya dapat menemukan dokumentasi Aspose.Slides untuk Java?
  Dokumentasi tersedia[Di Sini](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

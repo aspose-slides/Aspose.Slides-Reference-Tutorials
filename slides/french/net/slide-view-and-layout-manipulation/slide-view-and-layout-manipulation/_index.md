@@ -3,14 +3,10 @@ title: Affichage des diapositives et manipulation de la mise en page dans Aspose
 linktitle: Affichage des diapositives et manipulation de la mise en page dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment manipuler les vues et les mises en page des diapositives dans PowerPoint à l'aide d'Aspose.Slides for .NET. Guide étape par étape avec des exemples de code.
+type: docs
 weight: 10
 url: /fr/net/slide-view-and-layout-manipulation/slide-view-and-layout-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Dans le monde du développement de logiciels, la création et la manipulation de présentations PowerPoint par programmation sont une exigence courante. Aspose.Slides pour .NET fournit une boîte à outils puissante qui permet aux développeurs de travailler de manière transparente avec des fichiers PowerPoint. Un aspect crucial du travail avec des présentations est l’affichage des diapositives et la manipulation de la mise en page. Dans ce guide, nous aborderons le processus d'utilisation d'Aspose.Slides pour .NET pour gérer les vues et les mises en page des diapositives, en proposant des instructions étape par étape et des exemples de code.
 
@@ -136,10 +132,3 @@ presentation.Save("modified.pptx", SaveFormat.Pptx);
 ## Conclusion
 
 Aspose.Slides pour .NET simplifie le processus de travail avec des présentations PowerPoint par programmation. Dans ce guide, nous avons exploré les étapes fondamentales de l’affichage des diapositives et de la manipulation de la mise en page. Du chargement de présentations à la personnalisation du contenu des diapositives, Aspose.Slides fournit une boîte à outils robuste permettant aux développeurs de créer des présentations dynamiques et attrayantes sans effort.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

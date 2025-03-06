@@ -3,14 +3,10 @@ title: Java スライドで未使用のレイアウト マスターを削除す�
 linktitle: Java スライドで未使用のレイアウト マスターを削除する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して未使用のレイアウト マスターを削除します。ステップ バイ ステップのガイドとコード。プレゼンテーションの効率を高めます。
+type: docs
 weight: 10
 url: /ja/java/additional-utilities/remove-unused-layout-master-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java スライドで未使用のレイアウト マスターを削除する方法の紹介
 
@@ -127,9 +123,3 @@ System.out.println("Layout slides number in result presentation = " + pres.getLa
 ### この記事で使用されているソースコードにはどこでアクセスできますか?
 
 この記事で使用されているソース コードは、各手順で提供されるコード スニペット内にあります。プレゼンテーション内の未使用のレイアウト マスターを削除するには、コードをコピーして Java プロジェクトに貼り付けるだけです。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Manipulation des diapositives de notes
 linktitle: Manipulation des diapositives de notes
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Améliorez vos présentations avec précision ! Explorez le didacticiel Aspose.Slides sur la manipulation des diapositives de notes dans .NET. Apprenez à ajouter, modifier et gérer les notes du présentateur par programmation.
+type: docs
 weight: 16
 url: /fr/net/notes-slide-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 
 Bienvenue dans le didacticiel complet Aspose.Slides sur la manipulation des diapositives Notes pour les développeurs .NET. Dans ce didacticiel, nous plongerons dans le monde fascinant des notes du présentateur et comment vous pouvez les manipuler par programme à l'aide de la bibliothèque Aspose.Slides. Les notes du présentateur jouent un rôle central dans les présentations, offrant des informations précieuses au présentateur et améliorant l'impact global du contenu. À la fin de ce didacticiel, vous comprendrez parfaitement comment ajouter, modifier et gérer efficacement les notes du présentateur dans vos présentations PowerPoint.
@@ -43,9 +39,3 @@ Découvrez comment personnaliser l’en-tête et le pied de page des diapositive
 Découvrez comment supprimer des notes d'une diapositive spécifique dans des présentations PowerPoint à l'aide d'Aspose.Slides for .NET. Suivez notre guide étape par étape avec le code source complet pour manipuler de manière transparente vos diapositives par programme.
 ### [Supprimer les notes de toutes les diapositives](./remove-notes-from-all-slides/)
 Découvrez comment supprimer des notes de toutes les diapositives de vos présentations PowerPoint à l'aide d'Aspose.Slides for .NET. Suivez ce guide étape par étape avec des exemples complets de code source pour atteindre facilement votre objectif.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

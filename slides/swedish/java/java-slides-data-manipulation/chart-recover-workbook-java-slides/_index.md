@@ -3,14 +3,10 @@ title: Arbetsbok för diagramåterställning i Java Slides
 linktitle: Arbetsbok för diagramåterställning i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du återställer arbetsböcker från diagram i Java Slides med Aspose.Slides. Steg-för-steg-guide för PowerPoint-automatisering.
+type: docs
 weight: 17
 url: /sv/java/data-manipulation/chart-recover-workbook-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion till Chart Recover Workbook i Java Slides
 
@@ -113,9 +109,3 @@ Absolut! Aspose.Slides för Java är ett kraftfullt bibliotek för att automatis
 ### Hur får jag tillgång till ytterligare dokumentation för Aspose.Slides för Java?
 
  För detaljerad dokumentation och referenser om Aspose.Slides för Java, besök dokumentationssidan på[här](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

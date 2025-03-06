@@ -3,14 +3,10 @@ title: Επικύρωση διάταξης γραφήματος που προσ�
 linktitle: Επικύρωση διάταξης γραφήματος που προστέθηκε σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Επικύρωση διάταξης κύριου γραφήματος στο PowerPoint με Aspose.Slides για Java. Μάθετε να χειρίζεστε γραφήματα μέσω προγραμματισμού για εντυπωσιακές παρουσιάσεις.
+type: docs
 weight: 10
 url: /el/java/data-manipulation/validate-chart-layout-added-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στην επικύρωση διάταξης γραφήματος στο Aspose.Slides για Java
 
@@ -101,10 +97,3 @@ finally
 ### Τι γίνεται αν θέλω να τροποποιήσω άλλες ιδιότητες γραφήματος;
 
 Μπορείτε να αποκτήσετε πρόσβαση σε διάφορες ιδιότητες γραφήματος και να τις προσαρμόσετε σύμφωνα με τις απαιτήσεις σας. Εξερευνήστε την τεκμηρίωση Aspose.Slides για ολοκληρωμένες πληροφορίες σχετικά με τη χειραγώγηση γραφημάτων.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

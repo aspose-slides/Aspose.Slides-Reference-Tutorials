@@ -3,14 +3,10 @@ title: Ajouter une colonne dans des zones de texte avec Aspose.Slides pour Java
 linktitle: Ajouter une colonne dans des zones de texte avec Aspose.Slides pour Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajouter des colonnes aux zones de texte dans PowerPoint à l'aide d'Aspose.Slides pour Java. Améliorez vos présentations avec ce guide étape par étape.
+type: docs
 weight: 10
 url: /fr/java/java-powerpoint-text-box-manipulation/add-column-in-text-boxes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Dans ce didacticiel, nous explorerons comment améliorer les zones de texte en ajoutant des colonnes à l'aide d'Aspose.Slides pour Java. Aspose.Slides est une puissante bibliothèque Java qui permet aux développeurs de créer, manipuler et convertir des présentations PowerPoint par programme sans nécessiter Microsoft Office. L'ajout de colonnes aux zones de texte peut considérablement améliorer la lisibilité et l'organisation du contenu dans les diapositives, rendant ainsi vos présentations plus attrayantes et professionnelles.
 ## Conditions préalables
@@ -86,9 +82,3 @@ Oui, Aspose.Slides prend en charge Java 11 et les versions supérieures.
 Non, Aspose.Slides ne nécessite pas l'installation de Microsoft Office sur la machine.
 ### Où puis-je trouver plus de documentation sur Aspose.Slides pour Java ?
  Une documentation détaillée est disponible[ici](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

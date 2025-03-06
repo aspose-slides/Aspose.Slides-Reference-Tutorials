@@ -3,14 +3,10 @@ title: Skopiuj slajd do dokładnej lokalizacji w innej prezentacji
 linktitle: Skopiuj slajd do dokładnej lokalizacji w innej prezentacji
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak kopiować slajdy w określone lokalizacje w różnych prezentacjach za pomocą Aspose.Slides dla .NET. Ten przewodnik krok po kroku zawiera kod źródłowy i instrukcje dotyczące bezproblemowej manipulacji programem PowerPoint.
+type: docs
 weight: 18
 url: /pl/net/slide-access-and-manipulation/clone-slide-to-specific-position-in-another-presentation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Wprowadzenie do Aspose.Slides dla .NET
 
@@ -98,9 +94,3 @@ Tak, Aspose.Slides pozwala programowo manipulować zawartością slajdów, w tym
 ### Gdzie mogę znaleźć więcej dokumentacji i przykładów Aspose.Slides?
 
  Obszerną dokumentację i przykłady Aspose.Slides dla .NET można znaleźć w dokumentacji:[Aspose.Slides dla dokumentacji .NET](https://reference.aspose.com/slides/net/)
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

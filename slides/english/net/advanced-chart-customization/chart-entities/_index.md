@@ -3,14 +3,10 @@ title: Creating Beautiful Charts with Aspose.Slides for .NET
 linktitle: Chart Entities and Formatting
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to create stunning charts with Aspose.Slides for .NET. Elevate your data visualization game with our step-by-step guide.
+type: docs
 weight: 13
 url: /net/advanced-chart-customization/chart-entities/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 In today's data-driven world, effective data visualization is key to conveying information to your audience. Aspose.Slides for .NET is a powerful library that enables you to create stunning presentations and slides, including eye-catching charts. In this tutorial, we will walk you through the process of creating beautiful charts using Aspose.Slides for .NET. We will break down each example into multiple steps to help you understand and implement chart entities and formatting. So, let's get started!
 
@@ -266,10 +262,3 @@ If you need a temporary license, you can obtain one from [this link](https://pur
 
 Yes, you can find the Aspose.Slides community and support forum [here](https://forum.aspose.com/).
 
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

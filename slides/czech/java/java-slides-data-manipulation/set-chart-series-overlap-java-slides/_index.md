@@ -3,14 +3,10 @@ title: Nastavte překrytí sérií grafů v Java Slides
 linktitle: Nastavte překrytí sérií grafů v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Série hlavních grafů se překrývají v Java Slides s Aspose.Slides pro Java. Naučte se krok za krokem, jak přizpůsobit vizuály grafu pro úžasné prezentace.
+type: docs
 weight: 16
 url: /cs/java/data-manipulation/set-chart-series-overlap-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod k nastavení překrývání řad grafů v Java Slides
 
@@ -114,9 +110,3 @@ Absolutně! Aspose.Slides for Java poskytuje rozhraní API pro vytváření prez
 ### Kde najdu další zdroje a příklady pro Aspose.Slides pro Java?
 
  Kompletní dokumentaci a příklady naleznete na referenční stránce Aspose.Slides for Java:[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/)
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

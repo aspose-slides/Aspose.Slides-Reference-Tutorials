@@ -3,14 +3,10 @@ title: 将演示文稿转换为 HTML 并保留 Java 幻灯片中的原始字体
 linktitle: 将演示文稿转换为 HTML 并保留 Java 幻灯片中的原始字体
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 将 PowerPoint 演示文稿转换为 HTML 同时保留原始字体。
+type: docs
 weight: 14
 url: /zh/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 如何在 Java 幻灯片中将演示文稿转换为 HTML 并保留原始字体
 
@@ -115,9 +111,3 @@ finally
 ### 我如何进一步自定义 HTML 输出？
 
 您可以探索`HtmlOptions`类来定制 HTML 输出的各个方面，例如幻灯片大小、图像质量等等。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

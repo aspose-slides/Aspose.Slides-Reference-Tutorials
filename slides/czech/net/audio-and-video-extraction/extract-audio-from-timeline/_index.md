@@ -3,14 +3,10 @@ title: Extrahujte zvuk z časové osy aplikace PowerPoint
 linktitle: Extrahujte zvuk z časové osy
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se extrahovat zvuk z prezentací PowerPoint pomocí Aspose.Slides for .NET. Snadno vylepšete svůj multimediální obsah.
+type: docs
 weight: 13
 url: /cs/net/audio-and-video-extraction/extract-audio-from-timeline/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Ve světě multimediálních prezentací může být zvuk mocným nástrojem pro efektivní předání vašeho sdělení. Aspose.Slides for .NET nabízí bezproblémové řešení pro extrahování zvuku z prezentací aplikace PowerPoint. V tomto podrobném průvodci vám ukážeme, jak extrahovat zvuk z prezentace PowerPoint pomocí Aspose.Slides for .NET.
 
@@ -114,9 +110,3 @@ Ano, Aspose.Slides poskytuje rozsáhlé funkce pro manipulaci a úpravy zvuku, j
 ### 5. Kde najdu komplexní dokumentaci k Aspose.Slides pro .NET?
 
  Můžete najít podrobnou dokumentaci a příklady pro Aspose.Slides pro .NET[tady](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

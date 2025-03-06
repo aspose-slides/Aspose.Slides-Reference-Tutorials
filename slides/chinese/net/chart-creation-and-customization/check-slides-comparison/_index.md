@@ -3,14 +3,10 @@ title: 比较演示文稿中的幻灯片
 linktitle: 比较演示文稿中的幻灯片
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 比较演示文稿中的幻灯片。带有源代码的分步指南，可进行准确的比较。
+type: docs
 weight: 12
 url: /zh/net/chart-creation-and-customization/check-slides-comparison/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 演示文稿中幻灯片比较简介
 
@@ -147,9 +143,3 @@ url: /zh/net/chart-creation-and-customization/check-slides-comparison/
 ### 是否有任何优化演示比较性能的最佳实践？
 
 是的，实现高效的算法和管理内存使用是优化演示比较性能的关键。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Agregar comentarios de padres a la diapositiva usando Aspose.Slides
 linktitle: Agregar comentarios de los padres a la diapositiva
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a agregar comentarios y respuestas interactivos a sus presentaciones de PowerPoint usando Aspose.Slides para .NET. Mejorar el compromiso y la colaboración.
+type: docs
 weight: 12
 url: /es/net/slide-comments-manipulation/add-parent-comments/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ¿Está buscando mejorar sus presentaciones de PowerPoint con funciones interactivas? Aspose.Slides para .NET le permite incorporar comentarios y respuestas, creando una experiencia dinámica y atractiva para su audiencia. En este tutorial paso a paso, le mostraremos cómo agregar comentarios de los padres a las diapositivas usando Aspose.Slides para .NET. Profundicemos y exploremos esta interesante característica.
 
@@ -164,9 +160,3 @@ Aspose.Slides para .NET está diseñado para funcionar con una amplia gama de ve
 
 ### ¿Hay opciones de licencia disponibles para Aspose.Slides para .NET?
  Sí, puede explorar opciones de licencia, incluidas licencias temporales, en el sitio web de Aspose[aquí](https://purchase.aspose.com/buy) o prueba la prueba gratuita[aquí](https://releases.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

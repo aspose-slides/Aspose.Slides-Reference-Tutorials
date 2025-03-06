@@ -3,14 +3,10 @@ title: Hapus Poin Data Seri Bagan Tertentu dengan Aspose.Slides .NET
 linktitle: Hapus Poin Data Seri Bagan Tertentu
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menghapus titik data rangkaian bagan tertentu dalam presentasi PowerPoint dengan Aspose.Slides untuk .NET. Panduan langkah demi langkah.
+type: docs
 weight: 13
 url: /id/net/additional-chart-features/clear-specific-chart-series-data-points-data/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Aspose.Slides for .NET adalah perpustakaan canggih yang memungkinkan Anda bekerja dengan presentasi PowerPoint secara terprogram. Dalam tutorial ini, kami akan memandu Anda melalui proses pembersihan titik data rangkaian bagan tertentu dalam presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Di akhir tutorial ini, Anda akan dapat memanipulasi titik data bagan dengan mudah.
 
@@ -99,9 +95,3 @@ Ya, Anda dapat menyesuaikan tampilan bagan dengan mengubah propertinya, seperti 
 
 ### Apakah ada komunitas atau komunitas pengembang untuk Aspose.Slides untuk .NET?
 Ya, Anda dapat bergabung dengan komunitas Aspose di forum mereka untuk berdiskusi, bertanya, dan berbagi pengalaman Anda.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

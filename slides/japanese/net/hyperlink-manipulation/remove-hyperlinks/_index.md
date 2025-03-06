@@ -3,14 +3,10 @@ title: Aspose.Slides .NET を使用してスライドからハイパーリンク
 linktitle: スライドからハイパーリンクを削除する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint スライドからハイパーリンクを削除する方法を学びます。すっきりとしたプロフェッショナルなプレゼンテーションを作成します。
+type: docs
 weight: 11
 url: /ja/net/hyperlink-manipulation/remove-hyperlinks/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 プロフェッショナルなプレゼンテーションの世界では、スライドがきちんと整っていることを確認することが不可欠です。スライドを乱雑にする一般的な要素の 1 つはハイパーリンクです。プレゼンテーション内の Web サイト、ドキュメント、または他のスライドへのハイパーリンクを扱っている場合、それらを削除して、よりすっきりとした、より焦点の合った外観にしたい場合があります。Aspose.Slides for .NET を使用すると、このタスクを簡単に実行できます。このステップ バイ ステップ ガイドでは、Aspose.Slides for .NET を使用してスライドからハイパーリンクを削除する手順を説明します。
 
@@ -88,9 +84,3 @@ presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 
 ### Aspose.Slides for .NET のテクニカル サポートは受けられますか?
 はい、技術サポートを求めたり、Asposeコミュニティに参加したりすることができます。[Aspose フォーラム](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

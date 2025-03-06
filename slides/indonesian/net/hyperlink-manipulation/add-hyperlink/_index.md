@@ -3,14 +3,10 @@ title: Menambahkan Hyperlink ke Slide di .NET menggunakan Aspose.Slides
 linktitle: Tambahkan Hyperlink ke Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menambahkan hyperlink ke slide PowerPoint dengan Aspose.Slides untuk .NET. Sempurnakan presentasi Anda dengan elemen interaktif.
+type: docs
 weight: 12
 url: /id/net/hyperlink-manipulation/add-hyperlink/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Dalam dunia presentasi digital, interaktivitas adalah kuncinya. Menambahkan hyperlink ke slide Anda dapat membuat presentasi Anda lebih menarik dan informatif. Aspose.Slides for .NET adalah pustaka canggih yang memungkinkan Anda membuat, memodifikasi, dan memanipulasi presentasi PowerPoint secara terprogram. Dalam tutorial ini, kami akan menunjukkan cara menambahkan hyperlink ke slide Anda menggunakan Aspose.Slides untuk .NET. 
 
@@ -110,9 +106,3 @@ Aspose.Slides menawarkan berbagai fitur interaktif, termasuk tombol aksi, elemen
 ### 5. Apakah Aspose.Slides tersedia untuk bahasa pemrograman lain?
 
 Ya, Aspose.Slides tersedia untuk berbagai bahasa pemrograman, termasuk Java dan Python.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

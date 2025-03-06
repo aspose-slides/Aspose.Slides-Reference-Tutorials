@@ -3,14 +3,10 @@ title: 將 ODP 格式轉換為 PPTX 格式
 linktitle: 將 ODP 格式轉換為 PPTX 格式
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 輕鬆將 ODP 轉換為 PPTX。請按照我們的逐步指南進行無縫簡報格式轉換。
+type: docs
 weight: 22
 url: /zh-hant/net/presentation-manipulation/convert-odp-format-to-pptx-format/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 在當今的數位時代，文件格式轉換已成為一種常見的必需品。隨著企業和個人努力追求相容性和靈活性，在不同文件格式之間進行轉換的能力是非常寶貴的。如果您希望使用 .NET 將文件從 ODP（OpenDocument 簡報）格式轉換為 PPTX（PowerPoint 簡報）格式，那麼您來對地方了。在本逐步教程中，我們將探索如何使用 Aspose.Slides for .NET 完成此任務。
 
@@ -87,9 +83,3 @@ Aspose.Slides for .NET 是專門為 .NET 應用程式設計的。其他程式語
 ### 5. 我可以取得 Aspose.Slides for .NET 的臨時授權嗎？
 
 是的，您可以獲得用於測試和評估目的的臨時許可證。查找更多信息[這裡](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

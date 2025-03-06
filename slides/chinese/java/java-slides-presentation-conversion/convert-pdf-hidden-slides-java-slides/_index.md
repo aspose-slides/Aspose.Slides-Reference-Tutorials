@@ -3,14 +3,10 @@ title: 使用 Java Slides 中的隐藏幻灯片转换为 PDF
 linktitle: 使用 Java Slides 中的隐藏幻灯片转换为 PDF
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 将 PowerPoint 演示文稿转换为带有隐藏幻灯片的 PDF。按照我们的分步指南和源代码进行无缝 PDF 生成。
+type: docs
 weight: 27
 url: /zh/java/presentation-conversion/convert-pdf-hidden-slides-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 使用 Aspose.Slides for Java 将 PowerPoint 演示文稿转换为带隐藏幻灯片的 PDF 的简介
 
@@ -119,9 +115,3 @@ slide.setHidden(false);
 ### 如何下载适用于 Java 的 Aspose.Slides？
 
 您可以从 Aspose 网站下载 Aspose.Slides for Java。请访问[Aspose.Slides for Java 下载页面](https://releases.aspose.com/slides/java/)获取最新版本。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

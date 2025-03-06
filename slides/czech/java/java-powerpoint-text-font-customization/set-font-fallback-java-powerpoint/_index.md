@@ -3,14 +3,10 @@ title: Nastavte záložní písmo v Java PowerPointu
 linktitle: Nastavte záložní písmo v Java PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak nastavit záložní písma v Java PowerPoint pomocí Aspose.Slides pro Java, abyste zajistili konzistentní zobrazení textu.
+type: docs
 weight: 16
 url: /cs/java/java-powerpoint-text-font-customization/set-font-fallback-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 V tomto tutoriálu se ponoříme do složitosti nastavení záložních písem v prezentacích Java PowerPoint pomocí Aspose.Slides for Java. Záložní písma jsou zásadní pro zajištění správného zobrazení textu ve vašich prezentacích na různých zařízeních a operačních systémech, i když požadovaná písma nejsou k dispozici.
 ## Předpoklady
@@ -57,9 +53,3 @@ Ano, Aspose.Slides for Java je kompatibilní s populárními Java IDE, jako jsou
 Ano, dočasné licence pro produkty Aspose lze získat od[tady](https://purchase.aspose.com/temporary-license/).
 ### Kde najdu podporu pro Aspose.Slides pro Java?
  Podporu související s Aspose.Slides for Java naleznete na[Aspose fórum](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

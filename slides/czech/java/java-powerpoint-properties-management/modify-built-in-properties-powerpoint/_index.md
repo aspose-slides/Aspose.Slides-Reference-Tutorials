@@ -3,14 +3,10 @@ title: Upravte vestavěné vlastnosti v PowerPointu
 linktitle: Upravte vestavěné vlastnosti v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se upravovat vestavěné vlastnosti v prezentacích PowerPoint pomocí Aspose.Slides for Java. Vylepšete své prezentace programově.
+type: docs
 weight: 12
 url: /cs/java/java-powerpoint-properties-management/modify-built-in-properties-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 Aspose.Slides for Java umožňuje vývojářům programově manipulovat s prezentacemi v PowerPointu. Jednou ze základních funkcí je úprava vestavěných vlastností, jako je autor, název, předmět, komentáře a správce. Tento tutoriál vás provede procesem krok za krokem.
 ## Předpoklady
@@ -69,9 +65,3 @@ Absolutně! Můžete vytvářet skripty nebo aplikace pro automatizaci úprav vl
 Zatímco Aspose.Slides poskytuje rozsáhlé funkce, některé pokročilé funkce mohou mít omezení v závislosti na formátu a verzi aplikace PowerPoint.
 ### Je k dispozici technická podpora pro Aspose.Slides?
  Ano, můžete vyhledat pomoc a účastnit se diskusí na[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Aspose.Slides - Hubungkan Bentuk dengan Mulus di .NET
 linktitle: Menghubungkan Bentuk menggunakan Konektor dalam Presentasi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Jelajahi kekuatan Aspose.Slides untuk .NET, menghubungkan bentuk dengan mudah dalam presentasi Anda. Tinggikan slide Anda dengan konektor dinamis.
+type: docs
 weight: 29
 url: /id/net/shape-effects-and-manipulation-in-slides/connecting-shapes-using-connectors/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Dalam dunia presentasi yang dinamis, kemampuan untuk menghubungkan bentuk menggunakan konektor menambah lapisan kecanggihan pada slide Anda. Aspose.Slides untuk .NET memberdayakan pengembang untuk mencapai hal ini dengan lancar. Tutorial ini akan memandu Anda melalui prosesnya, menguraikan setiap langkah untuk memastikan pemahaman yang jelas.
 ## Prasyarat
@@ -81,9 +77,3 @@ Aspose.Slides untuk .NET mendukung penyambungan berbagai bentuk, termasuk bentuk
 Jelajahi dokumentasi Aspose.Slides untuk mengetahui metode menyesuaikan tampilan konektor, seperti gaya garis dan warna.
 ### Apakah ada forum komunitas untuk dukungan Aspose.Slides?
  Ya, Anda dapat menemukan bantuan dan berbagi pengalaman Anda di[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

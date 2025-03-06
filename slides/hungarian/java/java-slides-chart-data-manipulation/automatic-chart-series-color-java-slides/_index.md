@@ -3,14 +3,10 @@ title: Automatikus diagramsorozat színe a Java diákban
 linktitle: Automatikus diagramsorozat színe a Java diákban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre dinamikus diagramokat automatikus sorozatszínnel PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. Fokozatmentesen javíthatja az adatok megjelenítését.
+type: docs
 weight: 14
 url: /hu/java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés az automatikus diagramsorozat színébe az Aspose.Slides for Java programban
 
@@ -194,9 +190,3 @@ Igen, szükség szerint tovább formázhatja a diagramot, a sorozatokat és a c�
 ### Hol találhatok további információt az Aspose.Slides for Java programmal való munkáról?
 
  Az Aspose.Slides for Java-ról további információkért és részletes dokumentációért tekintse meg a referenciadokumentációt[itt](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

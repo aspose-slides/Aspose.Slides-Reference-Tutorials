@@ -3,14 +3,10 @@ title: Definir pasta de trabalho externa em slides Java
 linktitle: Definir pasta de trabalho externa em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como definir pastas de trabalho externas em Java Slides usando Aspose.Slides for Java. Crie apresentações dinâmicas com integração de dados do Excel.
+type: docs
 weight: 19
 url: /pt/java/data-manipulation/set-external-workbook-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introdução à definição de pasta de trabalho externa em slides Java
 
@@ -123,9 +119,3 @@ Aspose.Slides for Java é atualizado regularmente para garantir compatibilidade 
 ### Posso adicionar vários gráficos referenciando a mesma pasta de trabalho externa?
 
 Sim, você pode adicionar vários gráficos à sua apresentação, todos fazendo referência à mesma pasta de trabalho externa. Basta repetir as etapas descritas neste tutorial para cada gráfico que deseja criar.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

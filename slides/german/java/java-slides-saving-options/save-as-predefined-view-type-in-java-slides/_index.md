@@ -3,14 +3,10 @@ title: Als vordefinierter Ansichtstyp in Java-Folien speichern
 linktitle: Als vordefinierter Ansichtstyp in Java-Folien speichern
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java vordefinierte Ansichtstypen in Java Slides festlegen. Schritt-für-Schritt-Anleitung mit Codebeispielen und FAQs.
+type: docs
 weight: 10
 url: /de/java/saving-options/save-as-predefined-view-type-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Einführung in „Als vordefinierten Ansichtstyp speichern“ in Java-Folien
 
@@ -113,9 +109,3 @@ Ja, Aspose.Slides für Java eignet sich gut für Stapelverarbeitungsaufgaben. Si
 ### Wo finde ich weitere Informationen und Dokumentation zu Aspose.Slides für Java?
 
  Umfassende Dokumentationen und Referenzen zu Aspose.Slides für Java finden Sie auf der Dokumentationswebsite:[Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Vormverbindingsbeheersing met Aspose.Slides voor .NET
 linktitle: Vorm verbinden met behulp van Connection Site in Presentatie
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Maak boeiende presentaties met Aspose.Slides voor .NET, waarbij vormen naadloos met elkaar worden verbonden. Volg onze gids voor een soepele, boeiende ervaring.
+type: docs
 weight: 30
 url: /nl/net/shape-effects-and-manipulation-in-slides/connecting-shape-using-connection-site/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 In de dynamische wereld van presentaties is het maken van visueel aantrekkelijke dia's met onderling verbonden vormen cruciaal voor effectieve communicatie. Aspose.Slides voor .NET biedt een krachtige oplossing om dit te bereiken, doordat u vormen kunt verbinden met behulp van verbindingssites. Deze tutorial leidt u stap voor stap door het proces van het verbinden van vormen, zodat uw presentaties opvallen met naadloze visuele overgangen.
 ## Vereisten
@@ -82,9 +78,3 @@ Met Aspose.Slides kunt u twee vormen verbinden met één enkele connector. Als u
  Ja, u kunt een gratis proefversie downloaden[hier](https://releases.aspose.com/).
 ### Waar kan ik ondersteuning krijgen voor Aspose.Slides?
  Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor gemeenschapsondersteuning en discussies.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

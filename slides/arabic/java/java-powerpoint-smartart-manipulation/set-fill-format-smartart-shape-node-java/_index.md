@@ -3,14 +3,10 @@ title: قم بتعيين تنسيق التعبئة لعقدة شكل SmartArt ف
 linktitle: قم بتعيين تنسيق التعبئة لعقدة شكل SmartArt في Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين تنسيق التعبئة لعقد أشكال SmartArt في Java باستخدام Aspose.Slides. عزز عروضك التقديمية بألوان نابضة بالحياة ومرئيات آسرة.
+type: docs
 weight: 12
 url: /ar/java/java-powerpoint-smartart-manipulation/set-fill-format-smartart-shape-node-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 في المشهد الديناميكي لإنشاء المحتوى الرقمي، تبرز Aspose.Slides for Java كأداة قوية لصياغة عروض تقديمية مذهلة بصريًا بسهولة وكفاءة. سواء كنت مطورًا متمرسًا أو بدأت للتو، فإن إتقان فن التعامل مع الأشكال داخل الشرائح يعد أمرًا بالغ الأهمية لإنشاء عروض تقديمية جذابة تترك انطباعًا دائمًا على جمهورك.
 ## المتطلبات الأساسية
@@ -69,9 +65,3 @@ presentation.save(dataDir + "FillFormat_SmartArt_ShapeNode_out.pptx", SaveFormat
 قطعاً! يوفر Aspose.Slides for Java نطاقًا واسعًا من خيارات التخصيص لتخصيص مظهر أشكال SmartArt وفقًا لتفضيلاتك.
 ### هل Aspose.Slides for Java مناسب لكل من المطورين المبتدئين وذوي الخبرة؟
 نعم، Aspose.Slides for Java يلبي احتياجات المطورين من جميع مستويات المهارة، ويقدم واجهات برمجة التطبيقات البديهية والوثائق الشاملة لتسهيل التكامل والاستخدام السهل.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

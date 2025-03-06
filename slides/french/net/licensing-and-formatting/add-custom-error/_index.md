@@ -3,14 +3,10 @@ title: Ajouter des barres d'erreur personnalisées au graphique
 linktitle: Ajouter des barres d'erreur personnalisées au graphique
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Apprenez à créer de superbes présentations avec Aspose.Slides pour .NET en ajoutant des barres d'erreur personnalisées à vos graphiques. Améliorez votre jeu de visualisation de données dès aujourd'hui !
+type: docs
 weight: 13
 url: /fr/net/licensing-and-formatting/add-custom-error/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Dans le monde des présentations dynamiques, les graphiques jouent un rôle central en transmettant des données complexes de manière compréhensible. Aspose.Slides pour .NET vous permet de faire passer votre jeu de présentation au niveau supérieur. Dans ce guide étape par étape, nous approfondirons le processus d'ajout de barres d'erreur personnalisées à vos graphiques à l'aide d'Aspose.Slides pour .NET. Que vous soyez un développeur chevronné ou un nouveau venu, ce tutoriel vous guidera tout au long du processus en douceur.
 
@@ -132,9 +128,3 @@ Si vous êtes prêt à impressionner votre public avec des présentations épous
 Il est maintenant temps de mettre à profit vos nouvelles connaissances et de créer des présentations attrayantes qui laissent une impression durable.
 
 N'oubliez pas qu'avec Aspose.Slides pour .NET, il n'y a aucune limite en matière de personnalisation et d'innovation des présentations. Bonne présentation !
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

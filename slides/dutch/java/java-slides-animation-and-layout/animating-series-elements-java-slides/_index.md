@@ -3,14 +3,10 @@ title: Serie-elementen animeren in Java-dia's
 linktitle: Serie-elementen animeren in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u serie-elementen in PowerPoint-dia's kunt animeren met Aspose.Slides voor Java. Volg deze uitgebreide stapsgewijze handleiding met broncode om uw presentaties te verbeteren.
+type: docs
 weight: 12
 url: /nl/java/animation-and-layout/animating-series-elements-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot het animeren van serie-elementen in Java-dia's
 
@@ -130,9 +126,3 @@ Ja, nadat u de presentatie heeft opgeslagen, kunt u deze openen in de PowerPoint
 ### Zijn er meer geavanceerde animatie-opties beschikbaar in Aspose.Slides voor Java?
 
 Ja, Aspose.Slides voor Java biedt een breed scala aan geavanceerde animatie-opties, waaronder bewegingspaden, timing en interactieve animaties. U kunt de documentatie en voorbeelden van Aspose.Slides verkennen om geavanceerde animaties in uw presentaties te implementeren.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

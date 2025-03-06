@@ -3,14 +3,10 @@ title: Wypełnianie kształtów jednolitym kolorem w programie PowerPoint
 linktitle: Wypełnianie kształtów jednolitym kolorem w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak wypełniać kształty jednolitymi kolorami w programie PowerPoint przy użyciu aplikacji Aspose.Slides dla języka Java. Przewodnik krok po kroku dla programistów.
+type: docs
 weight: 13
 url: /pl/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 Jeśli kiedykolwiek pracowałeś z prezentacjami programu PowerPoint, wiesz, że dodawanie kształtów i dostosowywanie ich kolorów może być kluczowym aspektem tworzenia atrakcyjnych wizualnie slajdów i dostarczających informacji. Dzięki Aspose.Slides dla Java proces ten staje się dziecinnie prosty. Niezależnie od tego, czy jesteś programistą chcącym zautomatyzować tworzenie prezentacji programu PowerPoint, czy też osobą interesującą się dodaniem odrobiny koloru do swoich slajdów, ten samouczek poprowadzi Cię przez proces wypełniania kształtów jednolitymi kolorami przy użyciu Aspose.Slides dla Java.
 ## Warunki wstępne
@@ -89,9 +85,3 @@ Tak, Aspose.Slides for Java umożliwia otwieranie, edytowanie i zapisywanie istn
  Tak, możesz pobrać bezpłatną wersję próbną ze strony[Strona Aspose](https://releases.aspose.com/).
 ### Gdzie mogę znaleźć więcej dokumentacji i wsparcia?
  Szczegółowa dokumentacja dostępna jest na stronie[Strona Aspose](https://reference.aspose.com/slides/java/) możesz szukać wsparcia na stronie[Fora Aspose](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

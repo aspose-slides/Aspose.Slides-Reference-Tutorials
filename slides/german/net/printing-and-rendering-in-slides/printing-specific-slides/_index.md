@@ -3,14 +3,10 @@ title: Drucken Sie Präsentationsfolien mit Aspose.Slides in .NET
 linktitle: Drucken bestimmter Präsentationsfolien mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides Präsentationsfolien in .NET drucken. Schritt-für-Schritt-Anleitung für Entwickler. Laden Sie die Bibliothek herunter und beginnen Sie noch heute mit dem Drucken.
+type: docs
 weight: 18
 url: /de/net/printing-and-rendering-in-slides/printing-specific-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 In der Welt der .NET-Entwicklung sticht Aspose.Slides als leistungsstarkes Tool für die Arbeit mit Präsentationsdateien hervor. Wenn Sie schon einmal Präsentationsfolien programmgesteuert drucken mussten, sind Sie hier richtig. In diesem Tutorial erfahren Sie, wie Sie dies mit Aspose.Slides für .NET erreichen.
 ## Voraussetzungen
@@ -63,9 +59,3 @@ A: Ja, Sie können dies erreichen, indem Sie den Code so ändern, dass bestimmte
  A: Absolut! Sie können eine kostenlose Testversion herunterladen[Hier](https://releases.aspose.com/).
 ### F: Wie kaufe ich Aspose.Slides für .NET?
  A: Sie können die Bibliothek kaufen[Hier](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

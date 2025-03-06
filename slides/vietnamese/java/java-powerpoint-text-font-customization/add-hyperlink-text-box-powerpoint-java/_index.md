@@ -3,14 +3,10 @@ title: Thêm siêu liên kết vào hộp văn bản trong PowerPoint bằng Jav
 linktitle: Thêm siêu liên kết vào hộp văn bản trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm siêu liên kết vào hộp văn bản PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn từng bước với các ví dụ dành cho nhà phát triển Java.
+type: docs
 weight: 23
 url: /vi/java/java-powerpoint-text-font-customization/add-hyperlink-text-box-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Trong thời đại kỹ thuật số ngày nay, việc tạo ra các bài thuyết trình năng động, thu hút và cung cấp nhiều thông tin là rất quan trọng để giao tiếp hiệu quả. Các nhà phát triển Java đang tìm cách nâng cao ứng dụng của họ bằng các tính năng tương tác thường chuyển sang Aspose.Slides for Java, một thư viện mạnh mẽ cho phép thao tác các bản trình bày PowerPoint theo chương trình. Hướng dẫn này đi sâu vào một tính năng như vậy: thêm siêu liên kết vào hộp văn bản trong bản trình bày PowerPoint bằng Java. Đến cuối hướng dẫn này, bạn sẽ hiểu rõ về cách triển khai chức năng này một cách liền mạch vào các ứng dụng Java của mình.
 ## Điều kiện tiên quyết
@@ -80,9 +76,3 @@ Bằng cách làm theo các bước này, bạn đã học thành công cách th
  Có, giấy phép tạm thời có sẵn để mua[đây](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides có tương thích với các thư viện Java khác không?
 Aspose.Slides tích hợp tốt với nhiều thư viện Java khác nhau để thao tác PowerPoint toàn diện.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: รับตำแหน่งที่แท้จริงของป�
 linktitle: รับตำแหน่งที่แท้จริงของป้ายกำกับข้อมูลแผนภูมิใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีรับตำแหน่งที่แท้จริงของป้ายกำกับข้อมูลแผนภูมิใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ด
+type: docs
 weight: 18
 url: /th/java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการรับตำแหน่งที่แท้จริงของป้ายกำกับข้อมูลแผนภูมิใน Java Slides
 
@@ -161,9 +157,3 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

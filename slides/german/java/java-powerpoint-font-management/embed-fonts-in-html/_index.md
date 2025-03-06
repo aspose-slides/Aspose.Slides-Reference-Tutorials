@@ -3,14 +3,10 @@ title: Betten Sie Schriftarten in HTML ein mit Aspose.Slides für Java
 linktitle: Betten Sie Schriftarten in HTML ein mit Aspose.Slides für Java
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Schriftarten in HTML einbetten, um eine konsistente Typografie über verschiedene Plattformen und Geräte hinweg sicherzustellen.
+type: docs
 weight: 13
 url: /de/java/java-powerpoint-font-management/embed-fonts-in-html/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 Aspose.Slides für Java ist ein leistungsstarkes Tool für Java-Entwickler, die PowerPoint-Präsentationen programmgesteuert bearbeiten möchten. In diesem Tutorial werden wir uns mit dem Einbetten von Schriftarten in HTML mithilfe von Aspose.Slides für Java befassen. Durch das Einbetten von Schriftarten stellen Sie sicher, dass Ihre Präsentationen auf verschiedenen Plattformen und Geräten ihr beabsichtigtes Erscheinungsbild beibehalten, auch wenn die erforderlichen Schriftarten nicht lokal installiert sind.
 ## Voraussetzungen
@@ -62,9 +58,3 @@ Ja, Aspose.Slides unterstützt das Einbetten von Schriftarten in verschiedene Au
  Besuchen Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) für Community-Support oder wenden Sie sich an den Aspose-Support, um professionelle Hilfe zu erhalten.
 ### Kann ich eine temporäre Lizenz für Aspose.Slides für Java erwerben?
 Ja, Sie können eine temporäre Lizenz erwerben bei der[Kaufseite](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

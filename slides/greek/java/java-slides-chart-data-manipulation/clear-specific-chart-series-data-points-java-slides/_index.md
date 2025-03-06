@@ -3,14 +3,10 @@ title: Εκκαθάριση δεδομένων σημείων δεδομένων
 linktitle: Εκκαθάριση δεδομένων σημείων δεδομένων σειρών γραφήματος σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς μπορείτε να διαγράψετε συγκεκριμένα σημεία δεδομένων από μια σειρά γραφημάτων σε Java Slides με το Aspose.Slides for Java. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για αποτελεσματική διαχείριση οπτικοποίησης δεδομένων.
+type: docs
 weight: 15
 url: /el/java/chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στην εκκαθάριση δεδομένων σημείων δεδομένων σειρών γραφημάτων σε διαφάνειες Java
 
@@ -125,9 +121,3 @@ finally
 ### Πού μπορώ να βρω περισσότερες πληροφορίες σχετικά με το Aspose.Slides for Java;
 
  Μπορείτε να βρείτε ολοκληρωμένη τεκμηρίωση και παραδείγματα στο[Aspose.Slides για τεκμηρίωση Java](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Java PowerPoint でフォント ファミリを管理する
 linktitle: Java PowerPoint でフォント ファミリを管理する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java PowerPoint プレゼンテーションのフォント ファミリを管理する方法を学びます。フォント スタイル、色などを簡単にカスタマイズします。
+type: docs
 weight: 10
 url: /ja/java/java-powerpoint-font-management/manage-font-family-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して Java PowerPoint プレゼンテーションのフォント ファミリを管理する方法について説明します。フォントはスライドの見た目の魅力と読みやすさに重要な役割を果たすため、フォントを効果的に操作する方法を知っておくことが重要です。
 ## 前提条件
@@ -70,9 +66,3 @@ Aspose.Slides for Java を使用すると、Java PowerPoint プレゼンテー�
 はい、Aspose.Slides は、PowerPoint プレゼンテーションを完全にコードで作成、変更、操作するための API を提供します。
 ### Aspose.Slides for Java の試用版はありますか?
 はい、Aspose.Slides for Javaの無料試用版をこちらからダウンロードできます。[ここ](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

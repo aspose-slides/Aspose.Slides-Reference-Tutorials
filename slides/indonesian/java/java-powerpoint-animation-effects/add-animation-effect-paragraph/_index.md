@@ -3,14 +3,10 @@ title: Tambahkan Efek Animasi di Paragraf dengan Aspose.Slides untuk Java
 linktitle: Tambahkan Efek Animasi di Paragraf dengan Aspose.Slides untuk Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan efek animasi ke paragraf dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java dengan panduan langkah demi langkah kami yang mudah.
+type: docs
 weight: 10
 url: /id/java/java-powerpoint-animation-effects/add-animation-effect-paragraph/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Apakah Anda siap untuk membuat presentasi PowerPoint Anda menonjol dengan animasi yang menakjubkan? Dalam tutorial ini, kami akan memandu Anda tentang cara menambahkan efek animasi ke paragraf menggunakan Aspose.Slides untuk Java. Baik Anda seorang pengembang Java berpengalaman atau baru memulai, panduan ini akan memberi Anda proses langkah demi langkah yang jelas dan menarik. Ayo selami!
 ## Prasyarat
@@ -85,9 +81,3 @@ Aspose.Slides mendukung berbagai animasi, termasuk efek masuk, keluar, penekanan
 Ya, Aspose.Slides dirancang untuk bekerja dengan presentasi yang dibuat dalam berbagai versi PowerPoint.
 ### Di mana saya bisa mendapatkan bantuan jika saya mengalami masalah?
  Anda dapat mengunjungi[forum dukungan](https://forum.aspose.com/c/slides/11) untuk bantuan dari komunitas Aspose.Slides dan tim dukungan.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

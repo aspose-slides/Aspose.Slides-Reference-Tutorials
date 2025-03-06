@@ -3,14 +3,10 @@ title: Dodaj obraz z obiektu SVG w slajdach Java
 linktitle: Dodaj obraz z obiektu SVG w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodawać obrazy SVG do slajdów Java za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku z kodem umożliwiającym tworzenie wspaniałych prezentacji.
+type: docs
 weight: 11
 url: /pl/java/image-handling/add-image-from-svg-object-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Wprowadzenie do dodawania obrazu z obiektu SVG w slajdach Java
 
@@ -124,9 +120,3 @@ Aspose.Slides dla Java może obsługiwać szeroką gamę obrazów SVG. Jednak ba
 ### Czy mogę dostosować wygląd obrazu SVG, np. kolory lub style, po dodaniu go do slajdu?
 
 Tak, możesz dostosować wygląd obrazu SVG za pomocą rozbudowanego API Aspose.Slides for Java. W razie potrzeby możesz zmieniać kolory, stosować style i wprowadzać inne dostosowania.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

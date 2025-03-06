@@ -3,14 +3,10 @@ title: Aspose.Slides ile Sunumda OLE Nesne Verilerini Değiştirme
 linktitle: Aspose.Slides ile Sunumda OLE Nesne Verilerini Değiştirme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: OLE nesne verilerini zahmetsizce değiştirme konusunda Aspose.Slides for .NET'in gücünü keşfedin. Sunumlarınızı dinamik içerikle geliştirin.
+type: docs
 weight: 25
 url: /tr/net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 Dinamik ve etkileşimli PowerPoint sunumları oluşturmak günümüzün dijital dünyasında yaygın bir gereksinimdir. Bunu başarmak için güçlü bir araç, geliştiricilerin PowerPoint sunumlarını programlı olarak değiştirmesine ve geliştirmesine olanak tanıyan güçlü bir kitaplık olan Aspose.Slides for .NET'tir. Bu eğitimde Aspose.Slides'ı kullanarak sunum slaytlarındaki OLE (Nesne Bağlama ve Gömme) nesne verilerini değiştirme sürecini derinlemesine inceleyeceğiz.
 ## Önkoşullar
@@ -92,9 +88,3 @@ Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarıyla programlı ol
  Evet, ücretsiz deneme sürümüne erişebilirsiniz[Burada](https://releases.aspose.com/).
 ### Aspose.Slides for .NET için nereden destek alabilirim?
  Destek ve tartışmalar için şu adresi ziyaret edin:[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

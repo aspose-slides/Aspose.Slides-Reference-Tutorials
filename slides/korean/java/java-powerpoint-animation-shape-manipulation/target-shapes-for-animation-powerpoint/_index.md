@@ -3,14 +3,10 @@ title: PowerPoint 애니메이션의 대상 모양
 linktitle: PowerPoint 애니메이션의 대상 모양
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 특정 모양에 애니메이션을 적용하는 방법을 알아보세요. 손쉽게 매력적인 슬라이드를 만들어 보세요.
+type: docs
 weight: 11
 url: /ko/java/java-powerpoint-animation-shape-manipulation/target-shapes-for-animation-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 역동적인 프레젠테이션의 세계에서 애니메이션은 청중의 관심을 끌고 정보를 효과적으로 전달하는 데 중요한 역할을 합니다. Aspose.Slides for Java는 개발자가 특정 모양에 맞춰진 복잡한 애니메이션을 사용하여 매력적인 PowerPoint 프레젠테이션을 만들 수 있도록 지원합니다. 이 튜토리얼에서는 Java용 Aspose.Slides를 사용하여 애니메이션용 모양을 타겟팅하는 과정을 안내하여 프레젠테이션이 유동적인 전환과 정확한 애니메이션으로 돋보이도록 합니다.
 ## 전제 조건
@@ -66,9 +62,3 @@ PowerPoint 프레젠테이션의 애니메이션을 마스터하면 아이디어
  에서 임시 라이센스를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Java용 Aspose.Slides를 어디서 구입할 수 있나요?
  웹사이트에서 Java용 Aspose.Slides를 구매할 수 있습니다.[여기](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

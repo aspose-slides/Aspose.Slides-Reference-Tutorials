@@ -3,14 +3,10 @@ title: PowerPoint mentése jelszóval
 linktitle: PowerPoint mentése jelszóval
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat jelszóvédelmet a PowerPoint-prezentációkhoz az Aspose.Slides for Java használatával. Könnyedén rögzítse diákjait.
+type: docs
 weight: 12
 url: /hu/java/java-powerpoint-save-operations/save-powerpoint-with-password/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük a PowerPoint-prezentáció jelszóval történő mentésének folyamatán az Aspose.Slides for Java használatával. Jelszó hozzáadása a prezentációhoz növelheti annak biztonságát, biztosítva, hogy csak az arra jogosult személyek férhessenek hozzá annak tartalmához.
 ## Előfeltételek
@@ -71,9 +67,3 @@ Igen, az Aspose.Slides lehetővé teszi, hogy külön jelszavakat állítson be 
  Igen, letölthet egy ingyenes próbaverziót az Aspose-tól[weboldal](https://releases.aspose.com/).
 ### Hogyan kaphatok technikai támogatást az Aspose.Slides-hez?
 Látogassa meg az Aspose.Slides fórumot, ahol technikai segítséget kérhet a közösségtől és az Aspose támogatási személyzetétől.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

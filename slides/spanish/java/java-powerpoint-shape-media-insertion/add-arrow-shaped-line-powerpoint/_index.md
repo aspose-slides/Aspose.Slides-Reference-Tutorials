@@ -3,14 +3,10 @@ title: Agregar línea en forma de flecha en PowerPoint
 linktitle: Agregar línea en forma de flecha en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a agregar líneas en forma de flecha a presentaciones de PowerPoint usando Aspose.Slides para Java. Mejore el atractivo visual sin esfuerzo.
+type: docs
 weight: 10
 url: /es/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introducción
 Agregar líneas en forma de flecha a las presentaciones de PowerPoint puede mejorar el atractivo visual y ayudar a transmitir información de manera efectiva. Aspose.Slides para Java ofrece una solución integral para que los desarrolladores de Java manipulen presentaciones de PowerPoint mediante programación. En este tutorial, lo guiaremos a través del proceso de agregar líneas en forma de flecha a sus diapositivas de PowerPoint usando Aspose.Slides para Java.
 ## Requisitos previos
@@ -80,9 +76,3 @@ Puede explorar la documentación, descargar la biblioteca y acceder a los foros 
  Documentación:[Documentación de Aspose.Slides para Java](https://reference.aspose.com/slides/java/)
  Descargar:[Descargar Aspose.Slides para Java](https://releases.aspose.com/slides/java/)
  Apoyo:[Foro de soporte de Aspose.Slides para Java](https://forum.aspose.com/c/slides/11)
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

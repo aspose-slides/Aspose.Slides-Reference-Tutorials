@@ -3,14 +3,10 @@ title: Chuyển đổi bản trình bày sang TIFF với kích thước mặc đ
 linktitle: Chuyển đổi bản trình bày sang TIFF với kích thước mặc định
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách dễ dàng chuyển đổi bản trình bày thành hình ảnh TIFF với kích thước mặc định bằng Aspose.Slides for .NET.
+type: docs
 weight: 27
 url: /vi/net/presentation-manipulation/convert-presentation-to-tiff-with-default-size/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu
 
@@ -90,9 +86,3 @@ Tuyệt đối! Aspose.Slides for .NET cung cấp nhiều tùy chọn để tùy
 ### Tôi có thể tìm thêm thông tin về Aspose.Slides cho .NET ở đâu?
 
  Để có tài liệu và ví dụ toàn diện, hãy truy cập[Aspose.Slides cho tài liệu .NET](https://reference.aspose.com/slides/net).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

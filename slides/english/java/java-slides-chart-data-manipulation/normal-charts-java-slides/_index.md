@@ -3,14 +3,10 @@ title: Normal Charts in Java Slides
 linktitle: Normal Charts in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Create Normal Charts in Java Slides with Aspose.Slides for Java. Step-by-step guide and source code for creating, customizing, and saving charts in PowerPoint presentations.
+type: docs
 weight: 21
 url: /java/chart-data-manipulation/normal-charts-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction to Normal Charts in Java Slides
 
@@ -244,10 +240,3 @@ You can customize the chart title further by modifying the properties of `chart.
 ### How do I save the chart to a different file format?
 
 To save the chart to a different file format, change the `SaveFormat` parameter in the `pres.save()` method to the desired format (e.g., PDF, PNG, JPEG).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

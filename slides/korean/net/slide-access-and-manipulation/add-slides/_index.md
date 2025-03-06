@@ -3,14 +3,10 @@ title: 프레젠테이션에 추가 슬라이드 삽입
 linktitle: 프레젠테이션에 추가 슬라이드 삽입
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션에 추가 슬라이드를 삽입하는 방법을 알아보세요. 이 단계별 가이드는 프레젠테이션을 원활하게 향상시키기 위한 소스 코드 예제와 자세한 지침을 제공합니다. 맞춤형 콘텐츠, 삽입 팁, FAQ가 포함되어 있습니다.
+type: docs
 weight: 15
 url: /ko/net/slide-access-and-manipulation/add-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 프레젠테이션에 추가 슬라이드 삽입 소개
 
@@ -111,9 +107,3 @@ Aspose.Slides' API를 사용하여 모양과 속성에 액세스하여 새 슬�
 ### .NET용 Aspose.Slides에 대한 자세한 정보는 어디서 찾을 수 있나요?
 
  자세한 문서와 예시는 다음을 참조하세요.[.NET 문서용 Aspose.Slides](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

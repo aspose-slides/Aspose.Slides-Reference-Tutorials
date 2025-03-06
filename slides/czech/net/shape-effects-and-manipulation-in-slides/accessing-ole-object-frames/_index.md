@@ -3,14 +3,10 @@ title: Přístup k rámečkům objektů OLE v prezentačních snímcích pomocí
 linktitle: Přístup k rámečkům objektů OLE v prezentačních snímcích pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se přistupovat a manipulovat s rámečky objektů OLE v rámci snímků prezentace pomocí Aspose.Slides for .NET. Vylepšete své možnosti zpracování snímků pomocí podrobných pokynů a praktických příkladů kódu.
+type: docs
 weight: 11
 url: /cs/net/shape-effects-and-manipulation-in-slides/accessing-ole-object-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod
 
@@ -103,9 +99,3 @@ Ano, pomocí Aspose.Slides můžete spravovat interakce a chování objektů OLE
 Ve světě prezentací může možnost využít sílu rámců objektů OLE pozvednout váš obsah do nových výšin interaktivity a zapojení. Aspose.Slides for .NET zjednodušuje proces přístupu k rámcům objektů OLE a manipulaci s nimi, což vám umožňuje bezproblémově integrovat obsah z jiných aplikací a obohatit vaše prezentace. Budete-li se řídit podrobným průvodcem a využitím poskytnutých příkladů kódu, odemknete svět možností pro dynamické a podmanivé snímky.
 
 Odemkněte potenciál rámců objektů OLE pomocí Aspose.Slides a přeměňte své prezentace na interaktivní zážitky, které upoutají pozornost vašeho publika.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

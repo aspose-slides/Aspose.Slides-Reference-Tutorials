@@ -3,14 +3,10 @@ title: Celranden toevoegen aan tabel in Java PowerPoint
 linktitle: Celranden toevoegen aan tabel in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u celranden aan tabellen kunt toevoegen in Java PowerPoint-presentaties met behulp van Aspose.Slides. Met deze stapsgewijze handleiding kunt u uw dia's eenvoudig verbeteren.
+type: docs
 weight: 10
 url: /nl/java/java-powerpoint-table-formatting-updates/add-cell-borders-table-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 Hallo daar! Dus je wilt celranden toevoegen aan een tabel in een PowerPoint-presentatie met behulp van Java, hè? Nou, je bent op de juiste plek! Deze tutorial begeleidt u stap voor stap door het proces met behulp van de Aspose.Slides voor Java-bibliotheek. Aan het einde van deze handleiding begrijpt u goed hoe u als een professional tabellen in uw PowerPoint-dia's kunt manipuleren. Laten we erin duiken en uw presentaties er strak en professioneel uit laten zien!
 ## Vereisten
@@ -100,9 +96,3 @@ Absoluut! U kunt afbeeldingen in tabelcellen invoegen met Aspose.Slides.
 Ja, u kunt het proces automatiseren door dia's te doorlopen en de logica voor het maken van tabellen op elke dia toe te passen.
 ### Welke bestandsformaten ondersteunt Aspose.Slides?
 Aspose.Slides ondersteunt verschillende formaten, waaronder PPT, PPTX, PDF en meer.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

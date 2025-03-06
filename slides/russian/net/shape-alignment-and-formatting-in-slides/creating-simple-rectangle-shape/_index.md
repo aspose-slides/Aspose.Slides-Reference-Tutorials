@@ -3,14 +3,10 @@ title: Создание прямоугольных фигур с помощью 
 linktitle: Создание простой прямоугольной формы в слайдах презентации с помощью Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Исследуйте мир динамических презентаций PowerPoint с помощью Aspose.Slides для .NET. Узнайте, как создавать привлекательные прямоугольные формы на слайдах, с помощью этого пошагового руководства.
+type: docs
 weight: 12
 url: /ru/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 Если вы хотите улучшить свои .NET-приложения с помощью динамичных и визуально привлекательных презентаций PowerPoint, Aspose.Slides for .NET — ваше идеальное решение. В этом уроке мы покажем вам процесс создания простой прямоугольной формы на слайдах презентации с помощью Aspose.Slides для .NET.
 ## Предварительные условия
@@ -65,9 +61,3 @@ pres.Save(dataDir + "RectShp1_out.pptx", SaveFormat.Pptx);
  Да, вы можете приобрести временную лицензию[здесь](https://purchase.aspose.com/temporary-license/).
 ### Где я могу найти документацию по Aspose.Slides для .NET?
  Обратитесь к документации[здесь](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

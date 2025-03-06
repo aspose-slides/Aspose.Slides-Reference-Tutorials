@@ -3,14 +3,10 @@ title: Установите формат заполнения маркера в 
 linktitle: Установите формат заполнения маркера в SmartArt с помощью Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как установить формат заполнения маркеров в SmartArt с помощью Java с Aspose.Slides. Пошаговое руководство по эффективному манипулированию презентациями.
+type: docs
 weight: 18
 url: /ru/java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 В области программирования на Java эффективное манипулирование презентациями является общим требованием, особенно при работе с элементами SmartArt. Aspose.Slides for Java представляет собой мощный инструмент для таких задач, предлагая набор функций для программной обработки презентаций. В этом уроке мы шаг за шагом углубимся в процесс настройки формата заполнения маркеров в SmartArt с использованием Java с Aspose.Slides.
 ## Предварительные условия
@@ -75,9 +71,3 @@ presentation.save(dataDir + "out.pptx", SaveFormat.Pptx);
  Да, вы можете изучить возможности Aspose.Slides с помощью бесплатной пробной версии. Просто скачайте его с[Веб-сайт](https://releases.aspose.com/slides/java/) и начните исследовать.
 ### Где я могу найти поддержку Aspose.Slides для Java?
  По любым вопросам или помощи вы можете посетить форум Aspose.Slides по адресу:[эта ссылка](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

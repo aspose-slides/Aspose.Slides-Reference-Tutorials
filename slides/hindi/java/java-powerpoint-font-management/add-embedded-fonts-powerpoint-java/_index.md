@@ -3,14 +3,10 @@ title: जावा का उपयोग करके PowerPoint में ए
 linktitle: जावा का उपयोग करके PowerPoint में एम्बेडेड फ़ॉन्ट जोड़ें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java के साथ Java का उपयोग करके PowerPoint प्रस्तुतियों में एम्बेडेड फ़ॉन्ट जोड़ना सीखें। सभी डिवाइस पर एक समान प्रदर्शन सुनिश्चित करें।
+type: docs
 weight: 10
 url: /hi/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## परिचय
 इस ट्यूटोरियल में, हम आपको जावा का उपयोग करके पावरपॉइंट प्रेजेंटेशन में एम्बेडेड फ़ॉन्ट जोड़ने की प्रक्रिया के बारे में बताएंगे, विशेष रूप से जावा के लिए Aspose.Slides का लाभ उठाते हुए। एम्बेडेड फ़ॉन्ट यह सुनिश्चित करते हैं कि आपकी प्रस्तुति विभिन्न डिवाइस पर एक जैसी दिखाई दे, भले ही मूल फ़ॉन्ट उपलब्ध न हो। आइए चरणों में गोता लगाएँ:
 ## आवश्यक शर्तें
@@ -73,9 +69,3 @@ presentation.save(dataDir + "AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
 Aspose.Slides for Java ट्रूटाइप फ़ॉन्ट्स को एम्बेड करने का समर्थन करता है, जो प्रस्तुतियों में आमतौर पर उपयोग किए जाने वाले फ़ॉन्ट्स की एक विस्तृत श्रृंखला को कवर करता है।
 ### क्या मैं Aspose.Slides for Java का उपयोग करके प्रोग्रामेटिक रूप से फ़ॉन्ट एम्बेड कर सकता हूँ?
 हां, जैसा कि इस ट्यूटोरियल में दिखाया गया है, आप Aspose.Slides for Java API का उपयोग करके प्रोग्रामेटिक रूप से फ़ॉन्ट एम्बेड कर सकते हैं।
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

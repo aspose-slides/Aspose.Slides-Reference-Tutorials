@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में लीडर लाइन
 linktitle: जावा स्लाइड्स में लीडर लाइन का रंग
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके PowerPoint चार्ट में लीडर लाइन के रंग बदलने का तरीका जानें। स्रोत कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
+type: docs
 weight: 12
 url: /hi/java/data-manipulation/leader-line-color-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for Java में लीडर लाइन कलर का परिचय
 
@@ -120,9 +116,3 @@ pres.save(outPath, SaveFormat.Pptx);
 ### क्या मैं अन्य Java लाइब्रेरीज़ और फ्रेमवर्क के साथ Aspose.Slides for Java का उपयोग कर सकता हूँ?
 
 हां, आप अपनी परियोजना के लिए आवश्यकतानुसार Aspose.Slides for Java को अन्य Java लाइब्रेरीज़ और फ़्रेमवर्क के साथ एकीकृत कर सकते हैं। Aspose.Slides विभिन्न PowerPoint सुविधाओं के साथ काम करने के लिए API प्रदान करता है, जिससे इसे शक्तिशाली एप्लिकेशन बनाने के लिए अन्य टूल और तकनीकों के साथ संयोजित करना संभव हो जाता है।
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

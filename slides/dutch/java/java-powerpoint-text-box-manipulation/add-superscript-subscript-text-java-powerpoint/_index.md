@@ -3,14 +3,10 @@ title: Voeg superscript- en subscripttekst toe in Java PowerPoint
 linktitle: Voeg superscript- en subscripttekst toe in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u superscript- en subscript-tekst kunt toevoegen aan Java PowerPoint-presentaties met Aspose.Slides voor Java. Perfect voor het verbeteren van uw dia's.
+type: docs
 weight: 13
 url: /nl/java/java-powerpoint-text-box-manipulation/add-superscript-subscript-text-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 Het maken van boeiende en informatieve PowerPoint-presentaties vereist vaak het gebruik van opmaakfuncties zoals superscript- en subscript-tekst. Deze tutorial leidt u door het proces van het opnemen van superscript- en subscript-tekst in uw Java PowerPoint-presentaties met behulp van Aspose.Slides voor Java.
 ## Vereisten
@@ -93,9 +89,3 @@ Aspose.Slides voor Java is een robuuste bibliotheek waarmee ontwikkelaars PowerP
  Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
 ### Waar kan ik ondersteuning krijgen voor Aspose.Slides voor Java?
  Voor ondersteuning en discussies kunt u terecht op de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: 在 Aspose.Slides for .NET 中建立可變超鏈接
 linktitle: 可變超連結創建
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 透過可變超連結增強您的 PowerPoint 簡報。以前所未有的方式吸引您的觀眾！
+type: docs
 weight: 14
 url: /zh-hant/net/hyperlink-manipulation/mutable-hyperlink/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 在現代軟體開發領域，使用互動式超連結建立動態簡報對於吸引受眾至關重要。 Aspose.Slides for .NET 是一個功能強大的工具，可讓您操作和自訂 PowerPoint 簡報，包括建立可變超連結。在本逐步指南中，我們將引導您完成使用 Aspose.Slides for .NET 建立可變超連結的過程。 
 
@@ -100,9 +96,3 @@ Aspose.Slides for .NET 支援多個版本的 .NET Framework，包括 2.0、3.5�
 
 ### 5. Aspose.Slides for .NET適合創建互動式電子學習內容嗎？
 是的，Aspose.Slides for .NET 是一款多功能工具，可用於建立互動式電子學習內容，包括超連結、測驗和多媒體元素。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

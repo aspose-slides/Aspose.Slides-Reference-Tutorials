@@ -3,14 +3,10 @@ title: Skapa sektionszoom i PowerPoint
 linktitle: Skapa sektionszoom i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du skapar avsnittszoomningar i PowerPoint-presentationer med Aspose.Slides för Java. Förbättra navigering och engagemang utan ansträngning.
+type: docs
 weight: 13
 url: /sv/java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion
 den här handledningen kommer vi att fördjupa oss i att skapa avsnittszoomningar i PowerPoint-presentationer med Aspose.Slides för Java. Sektionszoomningar är en kraftfull funktion som gör att du sömlöst kan navigera genom olika delar av din presentation, vilket förbättrar både organisationen och den övergripande användarupplevelsen. Genom att bryta ner komplexa presentationer i lättsmälta avsnitt kan du effektivt förmedla ditt budskap och engagera din publik.
@@ -76,9 +72,3 @@ Aspose.Slides för Java stöder sektionszoomningar i olika PowerPoint-format, in
 Ja, du kan lägga till avsnittszoomningar till befintliga presentationer med Aspose.Slides för Java genom att följa liknande steg som beskrivs i den här handledningen.
 ### Var kan jag hitta ytterligare support eller hjälp med Aspose.Slides för Java?
  För ytterligare support eller hjälp kan du besöka Aspose.Slides for Java-forumet[här](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

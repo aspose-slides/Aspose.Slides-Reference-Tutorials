@@ -3,14 +3,10 @@ title: 從 PowerPoint 中的 OLE 物件提取嵌入文件數據
 linktitle: 從 PowerPoint 中的 OLE 物件提取嵌入文件數據
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 從 PowerPoint 簡報中提取嵌入的文件數據，從而增強文件管理功能。
+type: docs
 weight: 22
 url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/extract-embedded-file-data-ole-object-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 介紹
 在 Java 程式設計領域，從 PowerPoint 簡報中的 OLE（物件連結和嵌入）物件中提取嵌入文件資料是一項經常出現的任務，特別是在文件管理或資料擷取應用程式中。 Aspose.Slides for Java 提供了一個強大的解決方案，用於以程式設計方式處理 PowerPoint 簡報。在本教程中，我們將探討如何使用 Aspose.Slides for Java 從 OLE 物件中提取嵌入檔案資料。
@@ -91,9 +87,3 @@ Aspose.Slides 為從各種嵌入物件（包括 OLE 物件、圖表等）提取�
 當然，Aspose.Slides 提供了全面的 API，用於自動化任務，例如提取嵌入文件數據，從而實現高效且簡化的文件處理。
 ### 在哪裡可以找到有關 Aspose.Slides 的進一步幫助或支援？
 如需任何疑問、技術協助或社群支持，您可以造訪 Aspose.幻燈片 論壇或參考文檔[Aspose.Slides](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

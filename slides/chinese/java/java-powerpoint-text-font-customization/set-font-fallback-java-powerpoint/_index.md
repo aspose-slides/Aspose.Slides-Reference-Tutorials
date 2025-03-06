@@ -3,14 +3,10 @@ title: 在 Java PowerPoint 中设置字体后备
 linktitle: 在 Java PowerPoint 中设置字体后备
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java PowerPoint 中设置字体回退以确保文本显示的一致性。
+type: docs
 weight: 16
 url: /zh/java/java-powerpoint-text-font-customization/set-font-fallback-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 在本教程中，我们将深入探讨使用 Aspose.Slides for Java 在 Java PowerPoint 演示文稿中设置字体回退的复杂性。字体回退对于确保演示文稿中的文本在不同设备和操作系统上正确显示至关重要，即使没有所需的字体。
 ## 先决条件
@@ -57,9 +53,3 @@ slide.getFontsManager().setFontFallBackRules(new IFontFallBackRule[]{firstRule, 
 是的，可以从以下地址获取 Aspose 产品的临时许可证[这里](https://purchase.aspose.com/temporary-license/).
 ### 在哪里可以找到对 Aspose.Slides for Java 的支持？
 有关 Aspose.Slides for Java 的支持，请访问[Aspose 论坛](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

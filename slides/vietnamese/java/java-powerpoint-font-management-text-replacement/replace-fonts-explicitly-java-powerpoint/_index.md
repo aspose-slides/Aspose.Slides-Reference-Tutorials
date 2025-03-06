@@ -3,14 +3,10 @@ title: Thay thế phông chữ rõ ràng trong Java PowerPoint
 linktitle: Thay thế phông chữ rõ ràng trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Dễ dàng thay thế phông chữ trong bản trình bày PowerPoint bằng Java với Aspose.Slides. Hãy làm theo hướng dẫn chi tiết của chúng tôi để có quá trình chuyển đổi phông chữ liền mạch.
+type: docs
 weight: 12
 url: /vi/java/java-powerpoint-font-management-text-replacement/replace-fonts-explicitly-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Bạn đang tìm cách thay thế phông chữ trong bản trình bày PowerPoint của mình bằng Java? Cho dù bạn đang làm việc trên một dự án yêu cầu tính đồng nhất về kiểu phông chữ hay chỉ đơn giản là thích một phông chữ có tính thẩm mỹ khác, thì việc sử dụng Aspose.Slides cho Java sẽ giúp công việc này trở nên đơn giản. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn các bước để thay thế phông chữ một cách rõ ràng trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Đến cuối hướng dẫn này, bạn sẽ có thể hoán đổi phông chữ một cách liền mạch để đáp ứng nhu cầu cụ thể của mình.
 ## Điều kiện tiên quyết
@@ -90,9 +86,3 @@ Aspose.Slides cho Java là một API mạnh mẽ cho phép các nhà phát tri�
 Không, sau khi tải xuống và đưa thư viện Aspose.Slides vào dự án của mình, bạn có thể sử dụng nó ngoại tuyến.
 ### Tôi có thể nhận hỗ trợ ở đâu nếu gặp sự cố với Aspose.Slides?
  Bạn có thể nhận được sự hỗ trợ từ[Diễn đàn hỗ trợ Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

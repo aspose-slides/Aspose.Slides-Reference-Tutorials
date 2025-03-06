@@ -3,14 +3,10 @@ title: Thao tác siêu liên kết
 linktitle: Thao tác siêu liên kết
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Nâng cao các ứng dụng .NET của bạn bằng thao tác siêu liên kết toàn diện bằng Aspose.Slides. Tìm hiểu cách quản lý siêu liên kết, tạo bản trình bày tương tác và tăng cường sự tham gia của người dùng một cách dễ dàng.
+type: docs
 weight: 13
 url: /vi/net/hyperlink-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu:
 
@@ -31,9 +27,3 @@ Tìm hiểu cách thêm siêu liên kết vào trang chiếu trong PowerPoint b�
 Tìm hiểu cách quản lý hiệu quả các siêu liên kết trong bản trình bày bằng Aspose.Slides cho .NET. Tự động hóa các tác vụ, tạo menu tương tác và nâng cao mức độ tương tác của người dùng.
 ### [Tạo siêu liên kết có thể thay đổi](./mutable-hyperlink/)
 Tìm hiểu cách tạo siêu liên kết có thể thay đổi bằng Aspose.Slides cho .NET. Hướng dẫn từng bước với mã nguồn để tạo bản trình bày sinh động.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

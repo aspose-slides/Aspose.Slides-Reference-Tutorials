@@ -3,14 +3,10 @@ title: Converti in animazione in diapositive Java
 linktitle: Converti in animazione in diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come convertire presentazioni PowerPoint in animazioni in Java con Aspose.Slides. Coinvolgi il tuo pubblico con immagini dinamiche.
+type: docs
 weight: 21
 url: /it/java/presentation-conversion/convert-to-animation-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 # Introduzione alla conversione in animazione in diapositive Java con Aspose.Slides per Java
 
@@ -134,10 +130,3 @@ Sì, puoi personalizzare il formato file dei fotogrammi esportati. Nel nostro es
 ### Dove posso trovare ulteriori risorse e documentazione per Aspose.Slides per Java?
 
  È possibile trovare documentazione e risorse estese per Aspose.Slides per Java su[Aspose.Slides per riferimento API Java](https://reference.aspose.com/slides/java/) pagina.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

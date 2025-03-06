@@ -3,14 +3,10 @@ title: Maîtriser les animations de rembobinage dans les présentations avec Asp
 linktitle: Rembobiner l'animation sur la diapositive
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment rembobiner des animations sur des diapositives PowerPoint à l'aide d'Aspose.Slides pour .NET. Suivez ce guide étape par étape avec des exemples complets de code source.
+type: docs
 weight: 13
 url: /fr/net/slide-animation-control/rewind-animation-on-slide/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Dans le monde dynamique des présentations, l’intégration d’animations captivantes peut améliorer considérablement l’engagement. Aspose.Slides pour .NET fournit un ensemble d'outils puissants pour donner vie à vos présentations. Une fonctionnalité intéressante est la possibilité de rembobiner les animations sur les diapositives. Dans ce guide complet, nous vous guiderons pas à pas tout au long du processus, vous permettant d'exploiter tout le potentiel du rembobinage d'animation à l'aide d'Aspose.Slides pour .NET.
 ## Conditions préalables
@@ -84,9 +80,3 @@ Oui, vous pouvez personnaliser le code pour appliquer une animation de rembobina
  Visiter le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) demander de l’aide et s’engager auprès de la communauté.
 ### Puis-je acheter une licence temporaire pour Aspose.Slides pour .NET ?
  Oui, vous pouvez acquérir une licence temporaire auprès de[ici](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

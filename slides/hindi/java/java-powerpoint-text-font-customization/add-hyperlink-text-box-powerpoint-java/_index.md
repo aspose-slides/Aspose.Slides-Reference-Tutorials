@@ -3,14 +3,10 @@ title: जावा का उपयोग करके PowerPoint में ट
 linktitle: जावा का उपयोग करके PowerPoint में टेक्स्ट बॉक्स में हाइपरलिंक जोड़ें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके PowerPoint टेक्स्ट बॉक्स में हाइपरलिंक जोड़ना सीखें। Java डेवलपर्स के लिए उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
+type: docs
 weight: 23
 url: /hi/java/java-powerpoint-text-font-customization/add-hyperlink-text-box-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## परिचय
 आज के डिजिटल युग में, प्रभावी संचार के लिए गतिशील प्रस्तुतियाँ बनाना जो संलग्न और सूचित करती हैं, महत्वपूर्ण है। जावा डेवलपर्स अपने अनुप्रयोगों को इंटरैक्टिव सुविधाओं के साथ बढ़ाने की चाहत रखते हैं, अक्सर जावा के लिए Aspose.Slides का सहारा लेते हैं, जो एक शक्तिशाली लाइब्रेरी है जो प्रोग्रामेटिक रूप से पावरपॉइंट प्रस्तुतियों में हेरफेर करने में सक्षम बनाती है। यह ट्यूटोरियल ऐसी ही एक सुविधा पर चर्चा करता है: जावा का उपयोग करके पावरपॉइंट प्रस्तुतियों में टेक्स्ट बॉक्स में हाइपरलिंक जोड़ना। इस गाइड के अंत तक, आपको इस बात की स्पष्ट समझ हो जाएगी कि अपने जावा अनुप्रयोगों में इस कार्यक्षमता को कैसे सहजता से लागू किया जाए।
 ## आवश्यक शर्तें
@@ -80,9 +76,3 @@ pptxPresentation.save(dataDir + "hLinkPPTX_out.pptx", SaveFormat.Pptx);
  हां, अस्थायी लाइसेंस खरीदने के लिए उपलब्ध हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### क्या Aspose.Slides अन्य जावा लाइब्रेरीज़ के साथ संगत है?
 Aspose.Slides व्यापक पावरपॉइंट हेरफेर के लिए विभिन्न जावा पुस्तकालयों के साथ अच्छी तरह से एकीकृत होता है।
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

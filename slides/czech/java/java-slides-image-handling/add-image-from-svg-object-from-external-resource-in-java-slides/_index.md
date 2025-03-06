@@ -3,14 +3,10 @@ title: Přidejte obrázek z objektu SVG z externího zdroje v Java Slides
 linktitle: Přidejte obrázek z objektu SVG z externího zdroje v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se přidávat vektorové obrázky SVG z externích zdrojů do snímků Java pomocí Aspose.Slides. Vytvářejte úžasné prezentace s vysoce kvalitními vizuálními prvky.
+type: docs
 weight: 12
 url: /cs/java/image-handling/add-image-from-svg-object-from-external-resource-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod k přidání obrázku z objektu SVG z externího zdroje v Java Slides
 
@@ -122,9 +118,3 @@ Ano, Aspose.Slides for Java je kompatibilní s nejnovějšími verzemi Java. Uji
 ### Mohu použít animace na obrázky SVG přidané do snímků?
 
 Ano, můžete použít animace na obrázky SVG ve svých snímcích pomocí Aspose.Slides k vytvoření dynamických prezentací.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

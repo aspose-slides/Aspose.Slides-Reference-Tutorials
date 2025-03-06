@@ -3,14 +3,10 @@ title: Java를 사용하여 PowerPoint 표의 셀 병합
 linktitle: Java를 사용하여 PowerPoint 표의 셀 병합
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 테이블의 셀을 병합하는 방법을 알아보세요. 이 단계별 가이드를 통해 프레젠테이션 레이아웃을 향상하세요.
+type: docs
 weight: 17
 url: /ko/java/java-powerpoint-table-manipulation/merge-cells-powerpoint-table-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 테이블 내의 셀을 효과적으로 병합하는 방법을 배웁니다. Aspose.Slides는 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 생성, 조작 및 변환할 수 있는 강력한 라이브러리입니다. 표의 셀을 병합하면 프레젠테이션 슬라이드의 레이아웃과 구조를 사용자 정의하여 명확성과 시각적 매력을 높일 수 있습니다.
 ## 전제 조건
@@ -96,9 +92,3 @@ Aspose.Slides for Java는 PowerPoint 프레젠테이션을 프로그래밍 방�
  문서를 찾을 수 있습니다[여기](https://reference.aspose.com/slides/java/).
 ### Java용 Aspose.Slides에 대한 지원을 어떻게 받을 수 있나요?
  Aspose.Slides 커뮤니티 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

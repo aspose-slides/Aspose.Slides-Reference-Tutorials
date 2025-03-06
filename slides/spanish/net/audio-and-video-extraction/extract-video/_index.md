@@ -3,14 +3,10 @@ title: Cómo extraer vídeo de una diapositiva usando Aspose.Slides para .NET
 linktitle: Extraer vídeo de diapositiva
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a extraer videos de diapositivas de PowerPoint usando Aspose.Slides para .NET. Esta guía paso a paso le simplifica el proceso.
+type: docs
 weight: 14
 url: /es/net/audio-and-video-extraction/extract-video/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Aspose.Slides para .NET es una poderosa biblioteca que le permite trabajar con presentaciones de PowerPoint en un entorno .NET. Una de las funciones útiles que ofrece es la posibilidad de extraer vídeos de diapositivas. En esta guía paso a paso, le mostraremos cómo extraer un video de una diapositiva de PowerPoint usando Aspose.Slides para .NET.
 
@@ -114,9 +110,3 @@ Aspose.Slides para .NET es una biblioteca que permite que las aplicaciones .NET 
 
 ### ¿Dónde puedo obtener soporte para Aspose.Slides para .NET?
  Puedes encontrar soporte en el[Foro Aspose.Slides](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

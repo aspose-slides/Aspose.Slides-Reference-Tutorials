@@ -3,14 +3,10 @@ title: SVG's opmaken in presentaties
 linktitle: SVG's opmaken in presentaties
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Optimaliseer uw presentaties met verbluffende SVG's met Aspose.Slides voor .NET. Leer stap voor stap hoe u SVG's kunt formatteren voor indrukwekkende beelden. Verbeter vandaag nog uw presentatiespel!
+type: docs
 weight: 31
 url: /nl/net/presentation-manipulation/formatting-svgs-in-presentations/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Wilt u uw presentaties verfraaien met opvallende SVG-vormen? Aspose.Slides voor .NET kan uw ultieme hulpmiddel zijn om dit te bereiken. In deze uitgebreide zelfstudie leiden we u door het proces van het opmaken van SVG-vormen in presentaties met Aspose.Slides voor .NET. Volg de meegeleverde broncode en transformeer uw presentaties in visueel aantrekkelijke meesterwerken.
 
@@ -119,10 +115,3 @@ U kunt het Aspose-communityforum (link hierboven) bezoeken om technische onderst
 Om visueel aantrekkelijke presentaties te maken, concentreert u zich op ontwerpconsistentie, gebruikt u grafische afbeeldingen van hoge kwaliteit en houdt u uw inhoud beknopt en boeiend. Experimenteer met verschillende opmaakopties, zoals gedemonstreerd in deze tutorial.
 
 Ga nu aan de slag en pas deze technieken toe om verbluffende presentaties te maken die uw publiek boeien!
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

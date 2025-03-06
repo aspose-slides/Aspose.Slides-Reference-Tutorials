@@ -3,14 +3,10 @@ title: Hinzufügen eines Streckungsversatzes zum Ausfüllen von Bildern in Power
 linktitle: Hinzufügen eines Streckungsversatzes zum Ausfüllen von Bildern in Folien
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Aspose.Slides für .NET verbessern. Folgen Sie einer Schritt-für-Schritt-Anleitung, um einen Streckungsoffset für die Bildfüllung hinzuzufügen.
+type: docs
 weight: 18
 url: /de/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 In der dynamischen Welt der Präsentationen spielen visuelle Elemente eine entscheidende Rolle, um die Aufmerksamkeit des Publikums zu fesseln. Aspose.Slides für .NET ermöglicht Entwicklern, ihre PowerPoint-Präsentationen durch eine Reihe robuster Funktionen zu verbessern. Eine dieser Funktionen ist die Möglichkeit, einen Streckungsoffset für die Bildfüllung hinzuzufügen, wodurch kreative und optisch ansprechende Folien erstellt werden können.
 ## Voraussetzungen
@@ -75,9 +71,3 @@ Ja, Aspose.Slides für .NET ist sowohl für Desktop- als auch für Webanwendunge
  Weitere Informationen finden Sie im[Dokumentation](https://reference.aspose.com/slides/net/) für detaillierte Informationen.
 ### Kann ich Aspose.Slides für .NET kaufen?
  Ja, Sie können das Produkt kaufen[Hier](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

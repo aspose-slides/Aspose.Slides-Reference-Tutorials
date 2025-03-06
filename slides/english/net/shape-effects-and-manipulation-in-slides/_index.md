@@ -3,14 +3,10 @@ title: Shape Effects and Manipulation in Slides
 linktitle: Shape Effects and Manipulation in Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Enhance your presentation's visual appeal with Aspose.Slides tutorials on shape effects and manipulation. Learn how to create stunning slides using shape effects, animations, and more.  
+type: docs
 weight: 11
 url: /net/shape-effects-and-manipulation-in-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction
 
@@ -67,9 +63,3 @@ Learn how to enhance your presentation slides by adjusting connector line angles
 Enhance your presentation prowess by learning how to connect shapes using connectors in presentation slides with Aspose.Slides. Elevate your visual storytelling today!
 ### [Connecting Shape using Connection Site in Presentation Slides with Aspose.Slides](./connecting-shape-using-connection-site/)
 Enhance your presentation skills by learning how to connect shapes using connection sites in presentation slides with Aspose.Slides. Follow our detailed guide and code examples.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

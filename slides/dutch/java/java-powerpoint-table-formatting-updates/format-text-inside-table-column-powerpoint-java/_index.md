@@ -3,14 +3,10 @@ title: Maak tekst in de tabelkolom op in PowerPoint met behulp van Java
 linktitle: Maak tekst in de tabelkolom op in PowerPoint met behulp van Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer in deze zelfstudie hoe u tekst in tabelkolommen in PowerPoint kunt opmaken met Aspose.Slides voor Java. Verbeter uw presentaties programmatisch.
+type: docs
 weight: 11
 url: /nl/java/java-powerpoint-table-formatting-updates/format-text-inside-table-column-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 Ben je klaar om in de wereld van PowerPoint-presentaties te duiken, maar dan met een twist? Laten we, in plaats van uw dia's handmatig op te maken, een efficiëntere route kiezen met behulp van Aspose.Slides voor Java. Deze zelfstudie begeleidt u bij het programmatisch opmaken van tekst in tabelkolommen in PowerPoint-presentaties. Zet je gordel maar vast, want dit wordt een leuke rit!
 ## Vereisten
@@ -92,9 +88,3 @@ Absoluut! Aspose.Slides biedt uitgebreide opmaakopties, inclusief lettertypestij
  U kunt een gratis proefversie downloaden van de[Aspose gratis proefpagina](https://releases.aspose.com/).
 ### Waar kan ik meer voorbeelden en documentatie vinden?
  Bekijk de[Aspose.Slides-documentatie](https://reference.aspose.com/slides/java/) voor gedetailleerde voorbeelden en handleidingen.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

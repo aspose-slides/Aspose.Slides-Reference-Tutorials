@@ -3,14 +3,10 @@ title: Stel grafiekgegevens uit de werkmap in Java-dia's in
 linktitle: Stel grafiekgegevens uit de werkmap in Java-dia's in
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u diagramgegevens vanuit een Excel-werkmap in Java Slides instelt met behulp van Aspose.Slides. Stapsgewijze handleiding met codevoorbeelden voor dynamische presentaties.
+type: docs
 weight: 15
 url: /nl/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot het instellen van diagramgegevens uit de werkmap in Java-dia's
 
@@ -146,9 +142,3 @@ Ja, u kunt diagramgegevens dynamisch bijwerken in een presentatie door de onderl
 ### Waar kan ik meer voorbeelden en bronnen vinden voor het werken met Aspose.Slides voor Java?
 
  U kunt aanvullende voorbeelden en bronnen bekijken op de[Aspose-website](https://www.aspose.com/). Bovendien biedt de Aspose.Slides voor Java-documentatie uitgebreide richtlijnen voor het werken met de bibliotheek.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

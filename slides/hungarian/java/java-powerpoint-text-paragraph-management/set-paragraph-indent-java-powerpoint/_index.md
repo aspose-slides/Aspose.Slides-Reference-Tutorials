@@ -3,14 +3,10 @@ title: Állítsa be a bekezdés behúzását a Java PowerPointban
 linktitle: Állítsa be a bekezdés behúzását a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthat be bekezdésbehúzásokat a PowerPoint diákon programozottan az Aspose.Slides for Java segítségével. Fokozza a prezentáció formázását könnyedén.
+type: docs
 weight: 16
 url: /hu/java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 Ebből az oktatóanyagból megtudhatja, hogyan kezelheti programozottan a PowerPoint-prezentációkat az Aspose.Slides for Java használatával. Konkrétan a bekezdések behúzásának beállítására fogunk összpontosítani a diákon belül. Az Aspose.Slides for Java hatékony API-készletet biztosít, amely lehetővé teszi a fejlesztők számára PowerPoint-prezentációk létrehozását, módosítását, konvertálását és kezelését anélkül, hogy a Microsoft Office Automationra támaszkodna.
 ## Előfeltételek
@@ -89,9 +85,3 @@ Az Aspose.Slides for Java egy hatékony könyvtár a PowerPoint prezentációk p
  Igen, ingyenes próbaverziót kaphat a webhelyen[itt](https://releases.aspose.com/).
 ### Hol kaphatok támogatást az Aspose.Slides for Java számára?
  Támogatást kaphat a közösségi fórumon[itt](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

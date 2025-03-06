@@ -3,14 +3,10 @@ title: Thêm đoạn vào hình dạng hình học trong PowerPoint
 linktitle: Thêm đoạn vào hình dạng hình học trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm các phân đoạn vào hình dạng hình học trong bản trình bày PowerPoint bằng Aspose.Slides cho Java với hướng dẫn từng bước chi tiết này.
+type: docs
 weight: 19
 url: /vi/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-shape-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Tạo bản trình bày hấp dẫn và năng động có thể là một thách thức, đặc biệt khi bạn muốn thêm hình dạng và thiết kế tùy chỉnh. Đó là lúc Aspose.Slides for Java phát huy tác dụng. API mạnh mẽ này cho phép bạn thao tác với các tệp PowerPoint theo chương trình, mang lại cho bạn sự linh hoạt để thêm các hình dạng và phân đoạn hình học phức tạp một cách dễ dàng. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn cách thêm các phân đoạn vào các hình dạng hình học trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Cho dù bạn là nhà phát triển đang tìm cách tự động hóa việc tạo bản trình bày hay chỉ là người thích tìm hiểu về mã hóa thì hướng dẫn này sẽ là nguồn tài nguyên toàn diện cho bạn.
 ## Điều kiện tiên quyết
@@ -82,9 +78,3 @@ Không, Aspose.Slides for Java được thiết kế đặc biệt để sử d�
 Bạn có thể thêm nhiều hình dạng khác nhau bao gồm hình chữ nhật, hình elip, đường thẳng và hình dạng hình học tùy chỉnh.
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho Aspose.Slides cho Java?
  Bạn có thể nhận được sự hỗ trợ từ[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) nơi bạn có thể đặt câu hỏi và nhận trợ giúp từ cộng đồng và nhà phát triển.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

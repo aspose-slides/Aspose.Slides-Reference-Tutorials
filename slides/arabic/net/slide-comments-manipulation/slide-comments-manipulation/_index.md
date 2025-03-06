@@ -3,14 +3,10 @@ title: معالجة تعليقات الشرائح باستخدام Aspose.Slides
 linktitle: معالجة تعليقات الشرائح باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية التعامل مع تعليقات الشرائح في عروض PowerPoint التقديمية باستخدام Aspose.Slides API لـ .NET. استكشف الإرشادات خطوة بخطوة وأمثلة التعليمات البرمجية المصدر لإضافة تعليقات الشرائح وتحريرها وتنسيقها.
+type: docs
 weight: 10
 url: /ar/net/slide-comments-manipulation/slide-comments-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 يعد تحسين العروض التقديمية أمرًا ضروريًا للتواصل الفعال. تلعب تعليقات الشرائح دورًا حاسمًا في توفير السياق والتفسيرات والتعليقات داخل العرض التقديمي. توفر Aspose.Slides، وهي واجهة برمجة تطبيقات قوية للعمل مع عروض PowerPoint التقديمية بتنسيق .NET، مجموعة من الأدوات والميزات للتعامل مع تعليقات الشرائح بكفاءة. في هذا الدليل الشامل، سوف نتعمق في عملية معالجة تعليقات الشرائح باستخدام Aspose.Slides، الذي يغطي كل شيء بدءًا من المفاهيم الأساسية وحتى التقنيات المتقدمة. سواء كنت مطورًا أو مقدمًا يتطلع إلى تحسين عروض PowerPoint التقديمية، فسيزودك هذا الدليل بالمعرفة والمهارات اللازمة لتحقيق أقصى استفادة من تعليقات الشرائح باستخدام Aspose.Slides.
 
@@ -126,9 +122,3 @@ presentation.Save("cleaned.pptx", SaveFormat.Pptx);
 ## خاتمة
 
 تتيح لك معالجة تعليقات الشرائح باستخدام Aspose.Slides إمكانية التحكم في التعليقات التوضيحية للعرض التقديمي. بدءًا من إضافة التعليقات وتحريرها وحتى تنسيقها وحذفها، يوفر Aspose.Slides مجموعة شاملة من الأدوات لتحسين سير عمل العرض التقديمي. من خلال أتمتة هذه المهام، يمكنك تبسيط التعاون وتحسين وضوح العروض التقديمية الخاصة بك. أثناء استكشافك لإمكانيات Aspose.Slides، ستكتشف طرقًا جديدة لجعل عروضك التقديمية مؤثرة وجذابة.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

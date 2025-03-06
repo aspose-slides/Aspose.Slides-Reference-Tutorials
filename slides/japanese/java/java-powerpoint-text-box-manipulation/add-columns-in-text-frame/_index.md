@@ -3,14 +3,10 @@ title: Aspose.Slides for Java を使用してテキスト フレームに列を�
 linktitle: Aspose.Slides for Java を使用してテキスト フレームに列を追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用してテキスト フレームに列を追加し、PowerPoint プレゼンテーションを強化する方法を学びます。ステップ バイ ステップ ガイドでプロセスを簡素化します。
+type: docs
 weight: 11
 url: /ja/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用してテキスト フレームを操作し、列を追加する方法について説明します。Aspose.Slides は、Java 開発者がプログラムで PowerPoint プレゼンテーションを作成、操作、変換できるようにする強力なライブラリです。テキスト フレームに列を追加すると、スライド内のテキストの視覚的な魅力と構成が向上し、プレゼンテーションがより魅力的で読みやすくなります。
 ## 前提条件
@@ -85,9 +81,3 @@ pres.save(outPptxFileName, SaveFormat.Pptx);
 詳細なドキュメントが利用可能[ここ](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java のテクニカル サポートを受けるにはどうすればよいですか?
 コミュニティからサポートを求めることができます[ここ](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

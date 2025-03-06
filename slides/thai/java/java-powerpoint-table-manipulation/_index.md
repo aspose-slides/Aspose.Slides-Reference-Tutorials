@@ -3,14 +3,10 @@ title: การจัดการตาราง Java PowerPoint
 linktitle: การจัดการตาราง Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: การจัดการตาราง Java PowerPoint ต้นแบบด้วย Aspose.Slides เรียนรู้การเพิ่มรูปภาพ แยกเซลล์ สร้างตาราง และอื่นๆ ผ่านบทช่วยสอนทีละขั้นตอนโดยละเอียดของเรา
+type: docs
 weight: 30
 url: /th/java/java-powerpoint-table-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## การแนะนำ
 
 การเรียนรู้การจัดการตารางในงานนำเสนอ PowerPoint สามารถเพิ่มประสิทธิภาพและความสวยงามของสไลด์ได้อย่างมาก Aspose.Slides สำหรับ Java นำเสนอชุดคุณลักษณะที่มีประสิทธิภาพในการจัดการตารางโดยทางโปรแกรม ไม่ว่าคุณจะเพิ่มรูปภาพลงในเซลล์ตาราง แบ่งหรือรวมเซลล์ หรือสร้างตารางตั้งแต่ต้น บทช่วยสอนเหล่านี้จะแนะนำคุณตลอดแต่ละกระบวนการทีละขั้นตอน มาเจาะลึกโลกของการจัดการตาราง Java PowerPoint กันเถอะ!
@@ -64,9 +60,3 @@ url: /th/java/java-powerpoint-table-manipulation/
 เรียนรู้วิธีจัดรูปแบบข้อความภายในตาราง PowerPoint โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดสำหรับนักพัฒนา
 ### [สร้างตารางมาตรฐานใน PowerPoint ด้วย Java](./create-standard-tables-powerpoint-java/)
 เรียนรู้วิธีสร้างตารางมาตรฐานใน PowerPoint ด้วย Java โดยใช้ Aspose.Slides ปฏิบัติตามคำแนะนำโดยละเอียดทีละขั้นตอนของเราเพื่อประสบการณ์ที่ราบรื่น
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Buat Bingkai Zoom di PowerPoint
 linktitle: Buat Bingkai Zoom di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat Zoom Frames yang menarik di PowerPoint menggunakan Aspose.Slides for Java. Ikuti panduan kami untuk menambahkan elemen interaktif ke presentasi Anda.
+type: docs
 weight: 17
 url: /id/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Membuat presentasi PowerPoint yang menarik adalah sebuah seni, dan terkadang, penambahan terkecil dapat membuat perbedaan besar. Salah satu fitur tersebut adalah Zoom Frame, yang memungkinkan Anda memperbesar slide atau gambar tertentu, menciptakan presentasi yang dinamis dan interaktif. Dalam tutorial ini, kami akan memandu Anda melalui proses pembuatan Zoom Frame di PowerPoint menggunakan Aspose.Slides untuk Java.
 ## Prasyarat
@@ -117,9 +113,3 @@ Ya, Aspose.Slides memungkinkan Anda menyesuaikan berbagai properti Zoom Frames, 
 Sangat! Anda dapat menambahkan gambar khusus ke Zoom Frames dengan membaca file gambar dan menambahkannya ke presentasi.
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
  Anda dapat menemukan dokumentasi dan contoh yang komprehensif di[Aspose.Slides untuk halaman dokumentasi Java](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

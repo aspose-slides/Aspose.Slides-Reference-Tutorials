@@ -3,14 +3,10 @@ title: Existing Chart in Java Slides
 linktitle: Existing Chart in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Enhance your PowerPoint presentations with Aspose.Slides for Java. Learn to modify existing charts programmatically. Step-by-step guide with source code for chart customization.
+type: docs
 weight: 12
 url: /java/chart-elements/existing-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction to Existing Chart in Java Slides using Aspose.Slides for Java
 
@@ -188,10 +184,3 @@ To modify series names, use `fact.getCell(worksheetIndex, columnIndex, rowIndex,
 ### Is there a way to remove a series from the chart?
 
 Yes, you can remove a series from the chart by using the `chart.getChartData().getSeries().removeAt(index)` method, where `index` is the index of the series you want to remove.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

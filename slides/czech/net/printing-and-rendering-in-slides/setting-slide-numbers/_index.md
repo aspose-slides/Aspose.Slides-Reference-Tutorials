@@ -3,14 +3,10 @@ title: Nastavení čísel snímků pro prezentace pomocí Aspose.Slides
 linktitle: Nastavení čísel snímků pro prezentace pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Prozkoumejte bezproblémový svět manipulace se snímky s Aspose.Slides pro .NET. Naučte se, jak bez námahy nastavit čísla snímků a vylepšit tak zážitek z prezentace.
+type: docs
 weight: 16
 url: /cs/net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Úvod
 V dynamickém světě prezentací je kontrola sekvence a organizace snímků zásadní pro efektivní komunikaci. Aspose.Slides for .NET poskytuje výkonné řešení pro manipulaci s čísly snímků ve vašich prezentacích, což vám dává flexibilitu pro bezproblémové přizpůsobení obsahu.
 ## Předpoklady
@@ -67,9 +63,3 @@ Absolutně! Aspose.Slides poskytuje rozsáhlé možnosti přizpůsobení vzhledu
  Navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) pro komunitní podporu nebo prozkoumejte možnosti prémiové podpory.
 ### Mohu vyzkoušet Aspose.Slides před nákupem?
  Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

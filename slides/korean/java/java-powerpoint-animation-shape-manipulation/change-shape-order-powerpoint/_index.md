@@ -3,14 +3,10 @@ title: PowerPoint에서 도형 순서 변경
 linktitle: PowerPoint에서 도형 순서 변경
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 이 단계별 튜토리얼을 통해 Java용 Aspose.Slides를 사용하여 PowerPoint에서 모양 순서를 변경하는 방법을 알아보세요. 손쉽게 프레젠테이션 기술을 향상시켜 보세요.
+type: docs
 weight: 15
 url: /ko/java/java-powerpoint-animation-shape-manipulation/change-shape-order-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 시각적으로 매력적이고 잘 구성된 프레젠테이션을 만드는 것은 어려운 작업일 수 있습니다. 그러나 올바른 도구와 기술을 사용하면 훨씬 쉽게 만들 수 있습니다. Aspose.Slides for Java는 프로그래밍 방식으로 PowerPoint 프레젠테이션을 조작하고 관리하는 데 도움이 되는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 슬라이드의 모양 순서를 변경하는 단계를 안내합니다.
 ## 전제 조건
@@ -77,9 +73,3 @@ Aspose.Slides for Java는 Microsoft PowerPoint를 사용하지 않고 PowerPoint
  다음에서 무료 평가판을 다운로드할 수 있습니다.[Aspose.Slides for Java 다운로드 페이지](https://releases.aspose.com/).
 ### Aspose.Slides for Java에 대한 추가 문서는 어디서 찾을 수 있나요?
  자세한 문서는 다음에서 찾을 수 있습니다.[Java 문서 페이지용 Aspose.Slides](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

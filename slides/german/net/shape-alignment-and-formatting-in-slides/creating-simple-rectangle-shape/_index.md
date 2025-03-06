@@ -3,14 +3,10 @@ title: Erstellen rechteckiger Formen mit Aspose.Slides für .NET
 linktitle: Erstellen einer einfachen rechteckigen Form in Präsentationsfolien mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Entdecken Sie die Welt dynamischer PowerPoint-Präsentationen mit Aspose.Slides für .NET. Erfahren Sie in dieser Schritt-für-Schritt-Anleitung, wie Sie ansprechende Rechteckformen in Folien erstellen.
+type: docs
 weight: 12
 url: /de/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 Wenn Sie Ihre .NET-Anwendungen mit dynamischen und optisch ansprechenden PowerPoint-Präsentationen verbessern möchten, ist Aspose.Slides für .NET die richtige Lösung für Sie. In diesem Tutorial führen wir Sie durch den Prozess der Erstellung einer einfachen Rechteckform in Präsentationsfolien mit Aspose.Slides für .NET.
 ## Voraussetzungen
@@ -65,9 +61,3 @@ Ja, Aspose.Slides für .NET ist plattformunabhängig und kann sowohl in Windows-
  Ja, Sie können eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
 ### Wo finde ich die Dokumentation für Aspose.Slides für .NET?
  Weitere Informationen finden Sie in der Dokumentation[Hier](https://reference.aspose.com/slides/net/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

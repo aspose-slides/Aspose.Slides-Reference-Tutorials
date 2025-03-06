@@ -3,14 +3,10 @@ title: 管理 Java PowerPoint 中的嵌入字體
 linktitle: 管理 Java PowerPoint 中的嵌入字體
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides 輕鬆管理 Java PowerPoint 簡報中的嵌入字型。優化投影片以保持一致性的分步指南。
+type: docs
 weight: 11
 url: /zh-hant/java/java-powerpoint-font-management-text-replacement/manage-embedded-fonts-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 在不斷發展的簡報世界中，有效管理字體可以對 PowerPoint 文件的品質和相容性產生巨大影響。 Aspose.Slides for Java 提供了一個全面的解決方案來管理嵌入字體，確保您的簡報在任何裝置上看起來都很完美。無論您是處理舊簡報或建立新簡報，本指南都將引導您完成使用 Aspose.Slides 管理 Java PowerPoint 簡報中嵌入字體的過程。讓我們深入了解吧！
 ## 先決條件
@@ -108,9 +104,3 @@ Aspose.Slides for Java 與 JDK 8 及更高版本相容。
 管理嵌入字體可確保您的簡報在不同裝置和平台上看起來一致，並透過刪除不必要的字體來幫助縮小檔案大小。
 ### 在哪裡可以獲得 Aspose.Slides for Java 的支援？
 您可以從以下方面獲得支持[Aspose.Slides 支援論壇](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

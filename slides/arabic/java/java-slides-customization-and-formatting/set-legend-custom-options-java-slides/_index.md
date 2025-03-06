@@ -3,14 +3,10 @@ title: قم بتعيين خيارات Legend المخصصة في شرائح Java
 linktitle: قم بتعيين خيارات Legend المخصصة في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين خيارات وسيلة الإيضاح المخصصة في Java Slides باستخدام Aspose.Slides لـ Java. قم بتخصيص موضع وسيلة الإيضاح وحجمها في مخططات PowerPoint الخاصة بك.
+type: docs
 weight: 14
 url: /ar/java/customization-and-formatting/set-legend-custom-options-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة لتعيين خيارات وسيلة الإيضاح المخصصة في شرائح Java
 
@@ -135,9 +131,3 @@ finally
 ## هل يمكنني تخصيص سمات وسيلة الإيضاح الأخرى؟
 
 نعم، يمكنك تخصيص سمات مختلفة لوسيلة الإيضاح، مثل نمط الخط والحدود ولون الخلفية والمزيد. استكشف وثائق Aspose.Slides للحصول على معلومات تفصيلية حول تخصيص وسائل الإيضاح بشكل أكبر.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

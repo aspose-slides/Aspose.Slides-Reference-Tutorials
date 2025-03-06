@@ -3,14 +3,10 @@ title: Thêm Độ lệch kéo dài sang trái trong PowerPoint bằng Aspose.Sl
 linktitle: Thêm Độ lệch kéo dài sang trái cho Khung ảnh trong Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách cải thiện bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Làm theo hướng dẫn từng bước của chúng tôi để thêm độ lệch kéo dài sang trái cho khung ảnh.
+type: docs
 weight: 14
 url: /vi/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Aspose.Slides for .NET là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác các bản trình bày PowerPoint một cách dễ dàng. Trong hướng dẫn này, chúng ta sẽ khám phá quy trình thêm phần bù kéo dài ở bên trái cho khung ảnh bằng Aspose.Slides cho .NET. Hãy làm theo hướng dẫn từng bước này để nâng cao kỹ năng làm việc với hình ảnh và hình dạng trong bản trình bày PowerPoint của bạn.
 ## Điều kiện tiên quyết
@@ -89,9 +85,3 @@ Trả lời: Aspose.Slides được cập nhật thường xuyên để đảm b
  A: Khám phá[Tài liệu Aspose.Slides](https://reference.aspose.com/slides/net/) để có ví dụ và hướng dẫn toàn diện.
 ### Câu hỏi: Tôi có thể áp dụng nhiều khoảng giãn cách cho một hình dạng không?
 Trả lời: Có, bạn có thể kết hợp nhiều độ lệch kéo dài để đạt được hiệu ứng hình ảnh phức tạp và tùy chỉnh.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

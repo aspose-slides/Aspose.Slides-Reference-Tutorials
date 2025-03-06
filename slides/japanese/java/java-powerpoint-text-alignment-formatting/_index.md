@@ -3,14 +3,10 @@ title: Java PowerPoint テキストの配置と書式設定
 linktitle: Java PowerPoint テキストの配置と書式設定
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Java PowerPoint テキストの配置と書式設定のチュートリアルをご覧ください。Aspose.Slides for Java を使用してテキストの配置、書式設定、エクスポート、強調表示を行う方法を学習します。
+type: docs
 weight: 23
 url: /ja/java/java-powerpoint-text-alignment-formatting/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 
 Java PowerPoint プレゼンテーションでテキストの配置と書式設定をマスターすることは、洗練されたプロフェッショナルなスライドを作成するために不可欠です。Aspose.Slides for Java を使用すると、シームレスなテキストの書式設定と配置を簡単に実現できます。初心者でも経験豊富な開発者でも、当社のチュートリアルはプレゼンテーションの強化に役立ちます。チュートリアルを詳しく見て、PowerPoint スキルを向上させる方法を確認しましょう。
@@ -49,9 +45,3 @@ Aspose.Slides for Java を使用して PowerPoint プレゼンテーション内
 Aspose.Slides を使用して、Java PowerPoint プレゼンテーションの SmartArt ノードからテキストを抽出する方法を学びます。開発者向けの簡単なステップバイステップ ガイドです。
 ### [Java PowerPoint で正規表現を使用してテキストを強調表示する](./highlight-text-using-regex-java-powerpoint/)
 Aspose.Slides for Java で正規表現パターンを使用して PowerPoint のテキストを強調表示する方法を学びます。プレゼンテーションを動的に強化します。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

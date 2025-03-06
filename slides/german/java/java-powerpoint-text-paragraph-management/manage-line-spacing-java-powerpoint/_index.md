@@ -3,14 +3,10 @@ title: Zeilenabstand in Java PowerPoint verwalten
 linktitle: Zeilenabstand in Java PowerPoint verwalten
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java mühelos den Zeilenabstand in Java PowerPoint-Präsentationen verwalten. Verbessern Sie Ihre Folien.
+type: docs
 weight: 12
 url: /de/java/java-powerpoint-text-paragraph-management/manage-line-spacing-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Einführung
 Bei der Java-Programmierung ist die Verwaltung des Zeilenabstands in PowerPoint-Präsentationen entscheidend für die Erstellung optisch ansprechender Folien, die Informationen effektiv vermitteln. Ob Sie den Abstand zwischen Absätzen anpassen oder den Abstand vor und nach jedem Absatz steuern möchten, Aspose.Slides für Java bietet umfassende Tools, um diese Aufgaben nahtlos zu erledigen.
 ## Voraussetzungen
@@ -66,9 +62,3 @@ Sie können die ausführliche Dokumentation erkunden[Hier](https://reference.asp
  Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
 ### Wie kann ich technischen Support für Aspose.Slides erhalten?
  Für technische Unterstützung besuchen Sie Aspose.Slides[Hilfeforum](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

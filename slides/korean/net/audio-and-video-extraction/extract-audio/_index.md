@@ -3,14 +3,10 @@ title: 슬라이드에서 오디오 추출
 linktitle: 슬라이드에서 오디오 추출
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: L.NET용 Aspose.Slides를 사용하여 슬라이드에서 오디오를 추출하는 방법을 알아보세요. 이 단계별 가이드를 통해 프레젠테이션을 향상해 보세요.
+type: docs
 weight: 11
 url: /ko/net/audio-and-video-extraction/extract-audio/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 프레젠테이션 세계에서 슬라이드에 오디오를 추가하면 전체적인 효과와 참여도가 향상될 수 있습니다. .NET용 Aspose.Slides는 프레젠테이션 작업을 위한 강력한 도구 세트를 제공하며, 이 튜토리얼에서는 단계별 가이드를 통해 슬라이드에서 오디오를 추출하는 방법을 살펴보겠습니다. 이 프로세스를 자동화하려는 개발자이거나 단순히 프로세스 수행 방법을 이해하는 데 관심이 있는 개발자라면 이 튜토리얼에서 프로세스를 안내할 것입니다.
 
@@ -91,9 +87,3 @@ System.Console.WriteLine("Length: " + audio.Length);
 
 ### 5. Aspose.Slides for .NET과 관련된 추가 지원이나 질문은 어디서 찾을 수 있나요?
  당신은 방문 할 수 있습니다[.NET 지원 포럼용 Aspose.Slides](https://forum.aspose.com/) 도움을 구하고, 질문을 하고, Aspose 커뮤니티와 경험을 공유하세요.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Převod prezentace do HTML s vložením všech písem do Java Slides
 linktitle: Převod prezentace do HTML s vložením všech písem do Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se převádět prezentace do HTML pomocí vložených písem pomocí Aspose.Slides for Java. Tento podrobný průvodce zajišťuje konzistentní formátování pro bezproblémové sdílení.
+type: docs
 weight: 13
 url: /cs/java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod do převodu prezentace do HTML s vložením všech písem do Java Slides
 
@@ -112,9 +108,3 @@ Ano, tato metoda funguje pro prezentace se složitým obsahem, včetně obrázk�
 ### Kde najdu další zdroje a dokumentaci k Aspose.Slides for Java?
 
  Máte přístup ke komplexní dokumentaci a zdrojům pro Aspose.Slides pro Java na[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

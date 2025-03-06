@@ -3,14 +3,10 @@ title: Tạo biểu đồ đẹp với Aspose.Slides cho .NET
 linktitle: Thực thể và định dạng biểu đồ
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách tạo biểu đồ tuyệt đẹp với Aspose.Slides cho .NET. Nâng cao trò chơi trực quan hóa dữ liệu của bạn với hướng dẫn từng bước của chúng tôi.
+type: docs
 weight: 13
 url: /vi/net/advanced-chart-customization/chart-entities/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Trong thế giới dựa trên dữ liệu ngày nay, trực quan hóa dữ liệu hiệu quả là chìa khóa để truyền tải thông tin đến khán giả của bạn. Aspose.Slides for .NET là một thư viện mạnh mẽ cho phép bạn tạo các bản trình bày và trang trình bày ấn tượng, bao gồm các biểu đồ bắt mắt. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo biểu đồ đẹp mắt bằng Aspose.Slides cho .NET. Chúng tôi sẽ chia từng ví dụ thành nhiều bước để giúp bạn hiểu và triển khai các thực thể và định dạng biểu đồ. Vậy hãy bắt đầu!
 
@@ -265,10 +261,3 @@ Aspose.Slides for .NET là một thư viện mạnh mẽ cho phép các nhà ph�
 ### 5. Có cộng đồng hoặc diễn đàn hỗ trợ nào cho Aspose.Slides cho .NET không?
 
  Có, bạn có thể tìm thấy cộng đồng Aspose.Slides và diễn đàn hỗ trợ[đây](https://forum.aspose.com/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

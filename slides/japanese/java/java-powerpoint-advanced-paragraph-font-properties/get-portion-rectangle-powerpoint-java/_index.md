@@ -3,14 +3,10 @@ title: Java を使用して PowerPoint で部分四角形を取得する
 linktitle: Java を使用して PowerPoint で部分四角形を取得する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: この詳細なステップバイステップのチュートリアルで、Aspose.Slides for Java を使用して PowerPoint で部分四角形を取得する方法を学びます。Java 開発者に最適です。
+type: docs
 weight: 12
 url: /ja/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 Aspose.Slides for Java を使用すると、Java で動的なプレゼンテーションを簡単に作成できます。このチュートリアルでは、Aspose.Slides を使用して PowerPoint で部分四角形を取得する方法について詳しく説明します。環境の設定からコードの詳細な説明まで、すべてを網羅します。それでは、始めましょう。
 ## 前提条件
@@ -142,9 +138,3 @@ Aspose.Slides for Java は、開発者がプログラムで PowerPoint プレゼ
 ドキュメントは入手可能です[ここ](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java のサポートを受けるにはどうすればよいですか?
  Asposeフォーラムからサポートを受けることができます[ここ](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

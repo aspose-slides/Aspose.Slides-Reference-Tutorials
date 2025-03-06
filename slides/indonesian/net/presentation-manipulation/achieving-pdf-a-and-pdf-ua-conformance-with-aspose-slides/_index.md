@@ -3,14 +3,10 @@ title: Mencapai Kesesuaian PDF/A dan PDF/UA dengan Aspose.Slides
 linktitle: Mencapai Kesesuaian PDF/A dan PDF/UA
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pastikan kepatuhan PDF/A dan PDF/UA dengan Aspose.Slides untuk .NET. Buat presentasi yang mudah diakses dan dipertahankan dengan mudah.
+type: docs
 weight: 23
 url: /id/net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-with-aspose-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Perkenalan
 
@@ -131,9 +127,3 @@ Untuk memastikan aksesibilitas dalam dokumen PDF/UA, Anda dapat memanfaatkan fit
 ### Apakah kepatuhan PDF/UA diperlukan untuk semua dokumen?
 
 Kepatuhan PDF/UA sangat penting terutama untuk dokumen yang dimaksudkan agar dapat diakses oleh pengguna penyandang disabilitas. Namun, perlunya kepatuhan PDF/UA bergantung pada kebutuhan spesifik audiens target Anda.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

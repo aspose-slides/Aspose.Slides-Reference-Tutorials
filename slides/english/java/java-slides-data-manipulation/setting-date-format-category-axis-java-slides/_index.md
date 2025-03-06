@@ -3,14 +3,10 @@ title: Setting Date Format For Category Axis in Java Slides
 linktitle: Setting Date Format For Category Axis in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set a date format for the category axis in a PowerPoint chart using Aspose.Slides for Java. Step-by-step guide with source code.
+type: docs
 weight: 26
 url: /java/data-manipulation/setting-date-format-category-axis-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction to Setting Date Format For Category Axis in Java Slides
 
@@ -143,10 +139,3 @@ Yes, you can set different date formats for category axes in different charts wi
 ### How do I add more data points to the chart?
 
 To add more data points to the chart, use the `getDataPoints().addDataPointForLineSeries` method on the data series and provide the data values.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

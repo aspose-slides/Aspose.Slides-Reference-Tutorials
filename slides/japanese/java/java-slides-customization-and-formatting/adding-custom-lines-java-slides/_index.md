@@ -3,14 +3,10 @@ title: Java スライドにカスタム ラインを追加する
 linktitle: Java スライドにカスタム ラインを追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: カスタム ラインを使用して Java スライドを強化します。Aspose.Slides for Java を使用したステップ バイ ステップ ガイド。プレゼンテーションにラインを追加してカスタマイズし、インパクトのあるビジュアルを作成する方法を学びます。
+type: docs
 weight: 10
 url: /ja/java/customization-and-formatting/adding-custom-lines-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java スライドにカスタム ラインを追加する方法の紹介
 
@@ -112,9 +108,3 @@ shape.getLineFormat().setWidth(2); //線の太さを2ポイントに設定する
 ### スライドに複数の行を追加することは可能ですか?
 
 はい、このチュートリアルで説明した手順を繰り返すことで、スライドに複数の行を追加できます。各行は個別にカスタマイズできます。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

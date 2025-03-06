@@ -3,14 +3,10 @@ title: Få åtkomst till Slide by Sequential Index
 linktitle: Få åtkomst till Slide by Sequential Index
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du kommer åt bilder genom sekventiellt index med Aspose.Slides för .NET. Följ den här steg-för-steg-guiden med källkod för att enkelt navigera och manipulera PowerPoint-presentationer.
+type: docs
 weight: 12
 url: /sv/net/slide-access-and-manipulation/access-slide-by-index/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion till Access Slide by Sequential Index
 
@@ -90,9 +86,3 @@ Aspose.Slides för .NET erbjuder ett brett utbud av funktioner, inklusive att sk
 ### Hur kan jag lära mig mer om PowerPoint-automatisering med Aspose.Slides?
 
  För att lära dig mer om PowerPoint-automatisering med Aspose.Slides kan du utforska den detaljerade dokumentationen och kodexemplen som finns på deras[dokumentation](https://reference.aspose.com/slides/net/) sida.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

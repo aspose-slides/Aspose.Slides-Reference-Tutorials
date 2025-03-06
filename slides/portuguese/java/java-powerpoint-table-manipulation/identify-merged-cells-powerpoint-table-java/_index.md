@@ -3,14 +3,10 @@ title: Identifique células mescladas na tabela do PowerPoint usando Java
 linktitle: Identifique células mescladas na tabela do PowerPoint usando Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como identificar células mescladas em tabelas do PowerPoint de forma programática usando Aspose.Slides para Java. Perfeito para desenvolvedores Java.
+type: docs
 weight: 15
 url: /pt/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 No domínio do desenvolvimento Java, a manipulação programática de apresentações do PowerPoint pode ser uma tarefa crucial, especialmente ao lidar com tabelas de dados complexas. Aspose.Slides for Java fornece um kit de ferramentas poderoso que permite aos desenvolvedores gerenciar vários aspectos das apresentações do PowerPoint de maneira integrada. Um desafio comum que os desenvolvedores enfrentam é identificar células mescladas em tabelas incorporadas em apresentações. Este tutorial tem como objetivo guiá-lo através do processo de identificação de células mescladas usando Aspose.Slides para Java.
 ## Pré-requisitos
@@ -71,9 +67,3 @@ Aspose.Slides for Java é uma biblioteca poderosa para manipular apresentações
  A documentação pode ser encontrada[aqui](https://reference.aspose.com/slides/java/).
 ### Como posso obter suporte para Aspose.Slides para Java?
 Para suporte, visite o fórum Aspose.Slides[aqui](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

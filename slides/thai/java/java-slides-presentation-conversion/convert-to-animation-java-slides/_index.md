@@ -3,14 +3,10 @@ title: แปลงเป็นภาพเคลื่อนไหวใน Jav
 linktitle: แปลงเป็นภาพเคลื่อนไหวใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีแปลงงานนำเสนอ PowerPoint เป็นภาพเคลื่อนไหวใน Java ด้วย Aspose.Slides ดึงดูดผู้ชมของคุณด้วยภาพแบบไดนามิก
+type: docs
 weight: 21
 url: /th/java/presentation-conversion/convert-to-animation-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 # ข้อมูลเบื้องต้นเกี่ยวกับการแปลงเป็นภาพเคลื่อนไหวใน Java Slides ด้วย Aspose.Slides สำหรับ Java
 
@@ -134,10 +130,3 @@ try {
 ### ฉันจะหาแหล่งข้อมูลเพิ่มเติมและเอกสารประกอบสำหรับ Aspose.Slides สำหรับ Java ได้ที่ไหน
 
  คุณสามารถค้นหาเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.Slides สำหรับ Java ได้ที่[Aspose.Slides สำหรับการอ้างอิง Java API](https://reference.aspose.com/slides/java/) หน้าหนังสือ.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

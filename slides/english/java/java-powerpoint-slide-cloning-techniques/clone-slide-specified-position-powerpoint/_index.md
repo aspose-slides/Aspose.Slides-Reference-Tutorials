@@ -3,14 +3,10 @@ title: Clone Slide at Specified Position in PowerPoint
 linktitle: Clone Slide at Specified Position in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Clone PowerPoint slides at specified positions effortlessly with Aspose.Slides for Java. Detailed step-by-step guide for beginners and experts.
+type: docs
 weight: 10
 url: /java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-position-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Are you ready to step up your PowerPoint game? Whether you're an experienced developer or a newbie trying to automate slide manipulations, you've come to the right place. In this tutorial, we’ll walk you through the process of cloning slides at a specified position in a PowerPoint presentation using Aspose.Slides for Java. Buckle up, and let's dive into this journey together!
 ## Prerequisites
@@ -84,10 +80,3 @@ You can obtain a temporary license from the [Aspose website](https://purchase.as
 Aspose.Slides offers robust features, extensive documentation, and excellent support, making it a preferred choice for PowerPoint manipulations.
 ### Where can I find more tutorials on Aspose.Slides?
 Check out the [documentation](https://reference.aspose.com/slides/java/) for comprehensive tutorials and examples.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

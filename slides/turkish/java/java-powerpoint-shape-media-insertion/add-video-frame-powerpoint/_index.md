@@ -3,14 +3,10 @@ title: PowerPoint'te Video Çerçevesi Ekleme
 linktitle: PowerPoint'te Video Çerçevesi Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak video içeriğini PowerPoint sunumlarına nasıl sorunsuz bir şekilde entegre edebileceğinizi öğrenin. Hedef kitlenizin ilgisini çekecek multimedya öğeleri içeren slaytlarınız.
+type: docs
 weight: 17
 url: /tr/java/java-powerpoint-shape-media-insertion/add-video-frame-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 Bu eğitimde Aspose.Slides for Java kullanarak PowerPoint sunumuna video karesi ekleme sürecinde size rehberlik edeceğiz. Bu adım adım talimatları izleyerek video içeriğini sunumlarınıza sorunsuz bir şekilde ve kolaylıkla entegre edebileceksiniz.
 ## Önkoşullar
@@ -64,9 +60,3 @@ Evet, Aspose.Slides for Java, JDK sürüm 6 ve üzeri ile uyumludur.
 Evet, video karesinin oynatma modunu ve ses düzeyini tercihlerinize göre ayarlayabilirsiniz.
 ### Aspose.Slides için daha fazla desteği ve kaynağı nerede bulabilirim?
  Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) yardım, dokümantasyon ve topluluk desteği için.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

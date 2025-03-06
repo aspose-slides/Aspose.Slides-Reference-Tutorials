@@ -3,14 +3,10 @@ title: Notizen aus allen Folien entfernen
 linktitle: Notizen aus allen Folien entfernen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Notizen aus PowerPoint-Folien entfernen. Machen Sie Ihre Präsentationen übersichtlicher und professioneller.
+type: docs
 weight: 13
 url: /de/net/notes-slide-manipulation/remove-notes-from-all-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Wenn Sie ein .NET-Entwickler sind, der mit PowerPoint-Präsentationen arbeitet, müssen Sie möglicherweise Notizen aus allen Folien Ihrer Präsentation entfernen. Dies kann nützlich sein, wenn Sie Ihre Folien bereinigen und alle zusätzlichen Informationen entfernen möchten, die nicht für Ihr Publikum bestimmt sind. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess der Verwendung von Aspose.Slides für .NET, um diese Aufgabe effizient zu erledigen.
 
@@ -101,9 +97,3 @@ Ja, Aspose.Slides ist auch für Java, C verfügbar++ und viele andere Programmie
 ### 5. Unterstützt Aspose.Slides für .NET die neuesten PowerPoint-Formate?
 
 Ja, Aspose.Slides für .NET unterstützt eine Vielzahl von PowerPoint-Formaten, einschließlich der neuesten Versionen. Weitere Einzelheiten finden Sie in der Dokumentation.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

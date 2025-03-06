@@ -3,14 +3,10 @@ title: Biểu đồ rải rác trong Java Slides
 linktitle: Biểu đồ rải rác trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo Biểu đồ phân tán trong Java bằng Aspose.Slides. Hướng dẫn từng bước với mã nguồn Java để trực quan hóa dữ liệu trong bản trình bày.
+type: docs
 weight: 11
 url: /vi/java/chart-creation/scattered-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu về Biểu đồ phân tán trong Aspose.Slides cho Java
 
@@ -176,9 +172,3 @@ series.getMarker().setSymbol(MarkerStyleType.Circle);
 Vui lòng khám phá thêm các tùy chọn tùy chỉnh trong tài liệu Aspose.Slides for Java.
 
  Nhớ thay thế`"Your Document Directory"` với đường dẫn thực tế mà bạn muốn lưu bản trình bày.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

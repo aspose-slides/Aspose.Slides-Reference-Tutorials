@@ -3,14 +3,10 @@ title: 在 Java PowerPoint 中添加自定义提示文本
 linktitle: 在 Java PowerPoint 中添加自定义提示文本
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 在 Java PowerPoint 中添加自定义提示文本。通过本教程轻松增强用户交互。
+type: docs
 weight: 12
 url: /zh/java/java-powerpoint-text-box-manipulation/add-custom-prompt-text-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 在当今的数字时代，创建动态且引人入胜的演示文稿对于有效沟通至关重要。Aspose.Slides for Java 使开发人员能够以编程方式操作 PowerPoint 演示文稿，提供广泛的功能来自定义幻灯片、形状、文本等。本教程将指导您使用 Aspose.Slides 将自定义提示文本添加到 Java PowerPoint 演示文稿中的占位符。
 ## 先决条件
@@ -75,9 +71,3 @@ Aspose.Slides 支持广泛的 PowerPoint 版本，确保兼容性和可靠性。
 您可以获得[临时执照](https://purchase.aspose.com/temporary-license/)评估 Aspose.Slides 的全部功能。
 ### Aspose.Slides for Java 是否支持在幻灯片中添加自定义动画？
 是的，Aspose.Slides 提供 API 来以编程方式管理幻灯片动画。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

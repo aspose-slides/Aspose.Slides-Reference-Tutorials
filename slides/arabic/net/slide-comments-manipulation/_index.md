@@ -3,14 +3,10 @@ title: التلاعب بتعليقات الشرائح
 linktitle: التلاعب بتعليقات الشرائح
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: عزز مهاراتك في معالجة الشرائح من خلال دروس Aspose.Slides حول معالجة تعليقات الشرائح. تعلم كيفية إضافة التعليقات وتحريرها وإدارتها برمجيًا في عروض PowerPoint التقديمية باستخدام .NET.
+type: docs
 weight: 12
 url: /ar/net/slide-comments-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة
 
@@ -31,9 +27,3 @@ url: /ar/net/slide-comments-manipulation/
 أضف العمق والتفاعل إلى عروضك التقديمية باستخدام Aspose.Slides API. تعرف على كيفية دمج التعليقات بسهولة في شرائحك باستخدام .NET. تعزيز المشاركة وجذب جمهورك.
 ### [إدارة التعليقات الحديثة](./modern-comments/)
 عزز عمليات التعاون والتعليقات من خلال إدارة التعليقات الحديثة باستخدام Aspose.Slides. تعرف على كيفية تبسيط عملية الاتصال في عروضك التقديمية وزيادة الإنتاجية إلى أقصى حد.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

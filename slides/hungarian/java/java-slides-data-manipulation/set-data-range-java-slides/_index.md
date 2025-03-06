@@ -3,14 +3,10 @@ title: Állítsa be az adattartományt a Java Slides alkalmazásban
 linktitle: Állítsa be az adattartományt a Java Slides alkalmazásban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Az Aspose.Slides for Java segítségével megtudhatja, hogyan állíthat be könnyedén adattartományokat a Java diákon. Hozzon létre dinamikus és adatvezérelt prezentációkat ezzel a lépésről lépésre bemutató útmutatóval.
+type: docs
 weight: 18
 url: /hu/java/data-manipulation/set-data-range-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Bevezetés a Java Slides adattartományának beállításába
 
@@ -101,9 +97,3 @@ Az Aspose.Slides for Java API használatával egy prezentáción belül meghatá
 ### Hol találok további dokumentációt és példákat az Aspose.Slides for Java-hoz?
 
  Az Aspose.Slides for Java-hoz kiterjedt dokumentációt és példákat találhat az Aspose dokumentációs webhelyén:[Aspose.Slides a Java API hivatkozásokhoz](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

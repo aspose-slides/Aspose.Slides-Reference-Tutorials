@@ -3,14 +3,10 @@ title: Grafico a torta nelle diapositive Java
 linktitle: Grafico a torta nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come creare straordinari grafici a torta nelle presentazioni PowerPoint utilizzando Aspose.Slides per Java. Guida passo passo con codice sorgente per sviluppatori Java.
+type: docs
 weight: 23
 url: /it/java/chart-data-manipulation/pie-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduzione alla creazione di un grafico a torta in diapositive Java utilizzando Aspose.Slides
 
@@ -287,9 +283,3 @@ Sì, Aspose.Slides per Java supporta vari tipi di grafici, inclusi grafici a bar
 ### Come posso trovare ulteriori informazioni ed esempi per lavorare con Aspose.Slides per Java?
 
  Per ulteriori informazioni, documentazione dettagliata ed esempi aggiuntivi, è possibile visitare il[Aspose.Slides per la documentazione Java](https://reference.aspose.com/slides/java/). Fornisce risorse complete per aiutarti a utilizzare la libreria in modo efficace.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

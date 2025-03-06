@@ -3,14 +3,10 @@ title: Histogram Chart v Java Slides
 linktitle: Histogram Chart v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet histogramové grafy v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Podrobný průvodce se zdrojovým kódem pro vizualizaci dat.
+type: docs
 weight: 19
 url: /cs/java/chart-data-manipulation/histogram-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod do Histogram Chart v Java Slides pomocí Aspose.Slides
 
@@ -116,9 +112,3 @@ Histogram Chart se používá k vizualizaci rozložení dat v nepřetržitém in
 ### Mohu upravit vzhled histogramového grafu?
 
 Ano, vzhled grafu, včetně jeho barev, štítků a os, můžete upravit pomocí rozhraní Aspose.Slides API.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

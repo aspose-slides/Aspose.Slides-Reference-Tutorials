@@ -3,14 +3,10 @@ title: عرض تعليقات الشرائح في Aspose.Slides
 linktitle: عرض تعليقات الشرائح في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: اكتشف كيفية عرض تعليقات الشرائح في Aspose.Slides لـ .NET من خلال برنامجنا التعليمي خطوة بخطوة. قم بتخصيص مظهر التعليق ورفع مستوى أتمتة PowerPoint.
+type: docs
 weight: 12
 url: /ar/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 مرحبًا بك في برنامجنا التعليمي الشامل حول عرض تعليقات الشرائح باستخدام Aspose.Slides لـ .NET! Aspose.Slides هي مكتبة قوية تمكن المطورين من العمل بسلاسة مع عروض PowerPoint التقديمية في تطبيقات .NET الخاصة بهم. في هذا الدليل، سنركز على مهمة محددة - عرض تعليقات الشرائح - ونرشدك خلال العملية خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -90,9 +86,3 @@ System.Diagnostics.Process.Start(resultPath);
  ج: يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### س: أين يمكنني طلب المساعدة والدعم بشأن Aspose.Slides؟
  ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لدعم المجتمع.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

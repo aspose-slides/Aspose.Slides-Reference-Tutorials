@@ -3,14 +3,10 @@ title: Définition des couleurs automatiques des tranches de graphique à secteu
 linktitle: Définition des couleurs automatiques des tranches de graphique à secteurs dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment créer des diagrammes circulaires dynamiques avec des couleurs de tranche automatiques dans des présentations Java PowerPoint à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec le code source.
+type: docs
 weight: 24
 url: /fr/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction à la définition automatique des couleurs des tranches de graphique à secteurs dans les diapositives Java
 
@@ -202,9 +198,3 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 Vous pouvez ajuster la taille de la police, le gras et le style italique selon vos besoins.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Wykres Uzyskaj zakres w slajdach Java
 linktitle: Wykres Uzyskaj zakres w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak pobierać zakresy wykresów w Java Slides za pomocą Aspose.Slides for Java API. Przewodnik krok po kroku z kodem źródłowym umożliwiający skuteczny dostęp do danych wykresów.
+type: docs
 weight: 16
 url: /pl/java/data-manipulation/chart-get-range-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Wprowadzenie do zakresu uzyskiwania wykresów w slajdach Java
 
@@ -102,10 +98,3 @@ Tak, możesz dostosować wygląd wykresów, na przykład zmieniając kolory, czc
 ### Gdzie mogę znaleźć więcej zasobów i dokumentacji dla Aspose.Slides dla Java?
 
  Obszerną dokumentację i zasoby dotyczące Aspose.Slides for Java można znaleźć na stronie:[Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

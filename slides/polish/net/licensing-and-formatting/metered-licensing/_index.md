@@ -3,14 +3,10 @@ title: Pomiarowe wykorzystanie licencji
 linktitle: Pomiarowe wykorzystanie licencji
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak efektywnie korzystać z licencjonowania licznikowego z Aspose.Slides dla .NET. Bezproblemowo integruj interfejsy API, płacąc za rzeczywiste wykorzystanie.
+type: docs
 weight: 11
 url: /pl/net/licensing-and-formatting/metered-licensing/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Wstęp
 
@@ -118,9 +114,3 @@ Aspose.Slides dla .NET to potężna biblioteka, która umożliwia programistom p
 
 ### Czy istnieje forum wsparcia i dyskusji Aspose.Slides?
  Tak, możesz znaleźć wsparcie i wziąć udział w dyskusjach na forum Aspose.Slides pod adresem[ten link](https://forum.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

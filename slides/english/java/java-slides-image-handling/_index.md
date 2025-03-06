@@ -3,14 +3,10 @@ title: Java Slides Image Handling Using Aspose.Slides For Java
 linktitle: Java Slides Image Handling
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to handle images in Java slides using Aspose.Slides for Java tutorials. Explore step-by-step guidance for efficient image management.
+type: docs
 weight: 23
 url: /java/image-handling/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Are you ready to enhance your Java slides with stunning images? In this article, we will delve into the world of image handling using Aspose.Slides for Java tutorials. Whether you're a seasoned developer or just starting your journey, this comprehensive guide will walk you through the process, step by step.
 
@@ -46,9 +42,3 @@ Learn how to add SVG images to Java Slides with Aspose.Slides for Java. Step-by-
 Learn how to add vector based SVG images from external resources to Java slides using Aspose.Slides. Create stunning presentations with high-quality visuals.
 ### [Convert SVG Image Object into Group of Shapes in Java Slides](./convert-svg-image-object-into-group-of-shapes-in-java-slides/)
 Learn how to convert SVG images into a group of shapes in Java Slides using Aspose.Slides for Java. Step-by-step guide with code examples.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

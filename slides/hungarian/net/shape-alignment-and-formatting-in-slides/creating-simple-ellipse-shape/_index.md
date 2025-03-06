@@ -3,14 +3,10 @@ title: Hozzon létre ellipszis alakzatot egyszerűen az Aspose.Slides .NET segí
 linktitle: Egyszerű ellipszis alakzat létrehozása bemutató diákban az Aspose.Slides segítségével
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre lenyűgöző ellipszis alakzatokat prezentációs diákban az Aspose.Slides for .NET segítségével. Egyszerű lépések a dinamikus tervezésért!
+type: docs
 weight: 11
 url: /hu/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Bevezetés
 A prezentációtervezés dinamikus világában a formák, például az ellipszisek beépítése egy kis kreativitást és professzionalizmust adhat. Az Aspose.Slides for .NET hatékony megoldást kínál a prezentációs fájlok programozott kezeléséhez. Ez az oktatóanyag végigvezeti Önt az Aspose.Slides for .NET segítségével egyszerű ellipszis-alakzat létrehozásának folyamatán.
 ## Előfeltételek
@@ -69,9 +65,3 @@ Igen, az Aspose.Slides rendszeresen frissül a legújabb .NET-keretrendszerekkel
  Kövesd a[ideiglenes licenc hivatkozás](https://purchase.aspose.com/temporary-license/) ideiglenes engedélyt kérni tesztelési célból.
 ### Segítségre van szüksége, vagy konkrét kérdései vannak?
  Meglátogatni a[Aspose.Slides támogatási fórum](https://forum.aspose.com/c/slides/11) hogy segítséget kérjen a közösségtől és a szakértőktől.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: ใบอนุญาตและการจัดรูปแบบ
 linktitle: ใบอนุญาตและการจัดรูปแบบ
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: เพิ่มความเข้าใจเกี่ยวกับใบอนุญาตและการจัดรูปแบบ Aspose.Slides ผ่านบทช่วยสอนที่ครอบคลุม เรียนรู้วิธีจัดการใบอนุญาตอย่างมีประสิทธิภาพและจัดรูปแบบการนำเสนอของคุณอย่างไร้ที่ติ
+type: docs
 weight: 21
 url: /th/net/licensing-and-formatting/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## การแนะนำ
 
@@ -35,9 +31,3 @@ url: /th/net/licensing-and-formatting/
 เรียนรู้วิธีปรับปรุงภาพแผนภูมิด้วย Aspose.Slides สำหรับ .NET เพิ่มสีไดนามิกให้กับจุดข้อมูลเพื่อการนำเสนอที่มีประสิทธิภาพยิ่งขึ้น
 ### [เพิ่มแถบข้อผิดพลาดแบบกำหนดเองลงในแผนภูมิ](./add-custom-error/)
 เรียนรู้วิธีเพิ่มแถบข้อผิดพลาดแบบกำหนดเองลงในแผนภูมิโดยใช้ Aspose.Slides สำหรับ .NET สร้าง จัดรูปแบบ และปรับแต่งแถบข้อผิดพลาดเพื่อการแสดงภาพข้อมูลที่แม่นยำ
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

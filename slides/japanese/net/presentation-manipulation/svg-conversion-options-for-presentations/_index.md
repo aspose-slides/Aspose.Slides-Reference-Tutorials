@@ -3,14 +3,10 @@ title: プレゼンテーション用の SVG 変換オプション
 linktitle: プレゼンテーション用の SVG 変換オプション
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用してプレゼンテーションの SVG 変換を実行する方法を学びます。この包括的なガイドでは、ステップバイステップの手順、ソース コードの例、およびさまざまな SVG 変換オプションについて説明します。
+type: docs
 weight: 30
 url: /ja/net/presentation-manipulation/svg-conversion-options-for-presentations/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 デジタル時代において、ビジュアルは情報を効果的に伝える上で重要な役割を果たします。.NET でプレゼンテーションを操作する場合、プレゼンテーション要素をスケーラブル ベクター グラフィックス (SVG) に変換する機能は貴重な機能です。Aspose.Slides for .NET は、レンダリング プロセスに柔軟性と制御性を提供する強力な SVG 変換ソリューションを提供します。このステップ バイ ステップのチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーションの図形を SVG に変換する方法を、重要なコード スニペットを含めて説明します。
 
@@ -85,10 +81,3 @@ using (FileStream stream = new FileStream(outPath + "YourFileName.svg", FileMode
 追加のリソース、ドキュメント、サポートについては、[Aspose.Slides API リファレンス](https://reference.aspose.com/slides/net/).
 
 Aspose.Slides for .NET を使用した SVG 変換について十分に理解できたので、高品質でスケーラブルなグラフィックを使用してプレゼンテーションを強化できます。コーディングを楽しんでください。
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

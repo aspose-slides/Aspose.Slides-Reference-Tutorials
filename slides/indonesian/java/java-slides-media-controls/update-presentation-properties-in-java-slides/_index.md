@@ -3,14 +3,10 @@ title: Perbarui Properti Presentasi di Slide Java
 linktitle: Perbarui Properti Presentasi di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara memperbarui properti presentasi di slide Java menggunakan Aspose.Slides for Java. Sesuaikan penulis, judul, dan lainnya untuk presentasi yang berdampak.
+type: docs
 weight: 13
 url: /id/java/media-controls/update-presentation-properties-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Pengantar Memperbarui Properti Presentasi di Slide Java
 
@@ -116,9 +112,3 @@ Ya, Aspose.Slides for Java dapat digunakan untuk proyek pribadi dan komersial. I
 ### Bagaimana saya bisa mengakses dokumentasi Aspose.Slides untuk Java?
 
  Anda dapat mengakses dokumentasi Aspose.Slides for Java dengan mengunjungi tautan berikut:[Aspose.Slide untuk Dokumentasi Java](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Sunburst Chart in Java Slides
 linktitle: Sunburst Chart in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Create Stunning Sunburst Charts in Java Slides with Aspose.Slides. Learn Step-by-Step Chart Creation and Data Manipulation.
+type: docs
 weight: 16
 url: /java/chart-elements/sunburst-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction to Sunburst Chart in Java Slides with Aspose.Slides
 
@@ -172,10 +168,3 @@ To add tooltips to the Sunburst chart, you can set the data label format to disp
 ### Is it possible to create interactive Sunburst charts with hyperlinks?
 
 Yes, you can create interactive Sunburst charts with hyperlinks by adding hyperlinks to specific chart elements or segments. Refer to the Aspose.Slides documentation for details on adding hyperlinks.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

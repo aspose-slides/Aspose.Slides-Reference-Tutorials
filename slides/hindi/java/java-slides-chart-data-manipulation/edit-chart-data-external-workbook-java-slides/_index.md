@@ -3,14 +3,10 @@ title: जावा स्लाइड्स में बाह्य कार
 linktitle: जावा स्लाइड्स में बाह्य कार्यपुस्तिका में चार्ट डेटा संपादित करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: जावा के लिए Aspose.Slides का उपयोग करके बाहरी कार्यपुस्तिका में चार्ट डेटा को संपादित करना सीखें। स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
+type: docs
 weight: 17
 url: /hi/java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## जावा स्लाइड्स में बाह्य कार्यपुस्तिका में चार्ट डेटा संपादित करने का परिचय
 
@@ -107,9 +103,3 @@ if (pres != null) pres.dispose();
 ### मैं एकाधिक प्रस्तुतियों के लिए इस प्रक्रिया को स्वचालित कैसे कर सकता हूँ?
 
 आप एकाधिक प्रस्तुतियों को संसाधित करने, प्रत्येक को लोड करने, वांछित परिवर्तन करने और संशोधित प्रस्तुतियों को एक-एक करके सहेजने के लिए एक लूप बना सकते हैं।
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

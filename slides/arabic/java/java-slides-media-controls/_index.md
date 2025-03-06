@@ -3,14 +3,10 @@ title: عناصر التحكم في الوسائط باستخدام Aspose.Slide
 linktitle: عناصر التحكم في وسائط شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تنفيذ عناصر التحكم في الوسائط في شرائح Java باستخدام Aspose.Slides لبرامج Java التعليمية. قم بتحسين عروضك التقديمية بالصوت والفيديو بسلاسة.
+type: docs
 weight: 22
 url: /ar/java/media-controls/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 في العصر الرقمي الحالي، لا تقتصر العروض التقديمية على شرائح ثابتة تحتوي على نصوص وصور فقط. لقد تطورت إلى تجارب ديناميكية وتفاعلية تجذب الجمهور وتأسره. إذا كنت مطور Java وتتطلع إلى إضافة بُعد جديد إلى عروضك التقديمية، فأنت في المكان الصحيح. في هذه المقالة، سنستكشف كيفية تنفيذ عناصر التحكم في الوسائط في شرائح Java باستخدام Aspose.Slides لبرامج Java التعليمية.
 
@@ -55,9 +51,3 @@ url: /ar/java/media-controls/
 تعرف على كيفية تحديث خصائص العرض التقديمي في شرائح Java باستخدام Aspose.Slides لـ Java. قم بتخصيص المؤلف والعنوان والمزيد للعروض التقديمية المؤثرة.
 ### [قم بتحديث خصائص العرض التقديمي باستخدام عرض تقديمي آخر كقالب في شرائح Java](./update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/)
 قم بتحسين عروض PowerPoint التقديمية باستخدام بيانات التعريف المحدثة باستخدام Aspose.Slides لـ Java. تعرف على كيفية تحديث خصائص مثل المؤلف والعنوان والكلمات الرئيسية باستخدام القوالب في Java Slides.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

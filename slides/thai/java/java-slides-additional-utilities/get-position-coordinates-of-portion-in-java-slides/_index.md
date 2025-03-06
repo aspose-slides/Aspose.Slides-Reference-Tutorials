@@ -3,14 +3,10 @@ title: รับพิกัดตำแหน่งของส่วนใน 
 linktitle: รับพิกัดตำแหน่งของส่วนใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีดึงพิกัดส่วนข้อความในสไลด์ Java โดยใช้ Aspose.Slides สำหรับ Java API ควบคุมตำแหน่งข้อความในงานนำเสนอ PowerPoint ได้อย่างแม่นยำ
+type: docs
 weight: 12
 url: /th/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการรับพิกัดตำแหน่งของส่วนใน Java Slides
 
@@ -124,9 +120,3 @@ finally
 ### ฉันจะรับการสนับสนุนหรือความช่วยเหลือเพิ่มเติมเกี่ยวกับ Aspose.Slides สำหรับ Java ได้อย่างไร
 
 คุณสามารถเข้าถึงการสนับสนุนและทรัพยากรเพิ่มเติมได้จากเว็บไซต์ Aspose มีฟอรัม เอกสาร และตัวเลือกการสนับสนุนระดับพรีเมียมสำหรับผู้ใช้
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

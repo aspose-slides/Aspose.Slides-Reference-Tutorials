@@ -3,14 +3,10 @@ title: Java 投影片中的檢查密碼範例
 linktitle: Java 投影片中的檢查密碼範例
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 驗證 Java Slides 中的密碼。透過逐步指導增強簡報的安全性。
+type: docs
 weight: 14
 url: /zh-hant/java/presentation-properties/check-password-example-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Java 投影片中檢查密碼範例簡介
 
@@ -103,9 +99,3 @@ presentationInfo.removePassword("current_password");
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的更多文件？
 
 您可以在 Aspose 網站上找到 Aspose.Slides for Java 的綜合文檔[這裡](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

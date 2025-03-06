@@ -3,14 +3,10 @@ title: Kontrol Media Menggunakan Aspose.Slides Untuk Java
 linktitle: Kontrol Media Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menerapkan kontrol media di slide Java menggunakan tutorial Aspose.Slides untuk Java. Sempurnakan presentasi Anda dengan audio dan video dengan lancar.
+type: docs
 weight: 22
 url: /id/java/media-controls/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Di era digital saat ini, presentasi bukan hanya sekedar slide statis dengan teks dan gambar. Mereka telah berkembang menjadi pengalaman yang dinamis dan interaktif yang melibatkan dan memikat penonton. Jika Anda seorang pengembang Java yang ingin menambahkan dimensi baru pada presentasi Anda, Anda berada di tempat yang tepat. Pada artikel ini, kita akan mempelajari cara mengimplementasikan kontrol media di slide Java menggunakan tutorial Aspose.Slides untuk Java.
 
@@ -55,9 +51,3 @@ Penanganan interupsi Master Java Slides dengan Aspose.Slides untuk Java. Panduan
 Pelajari cara memperbarui properti presentasi di slide Java menggunakan Aspose.Slides for Java. Sesuaikan penulis, judul, dan lainnya untuk presentasi yang berdampak.
 ### [Perbarui Properti Presentasi Menggunakan Presentasi Lain sebagai Templat di Slide Java](./update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/)
 Sempurnakan presentasi PowerPoint dengan metadata yang diperbarui menggunakan Aspose.Slides untuk Java. Pelajari cara memperbarui properti seperti penulis, judul, dan kata kunci menggunakan templat di Java Slides.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

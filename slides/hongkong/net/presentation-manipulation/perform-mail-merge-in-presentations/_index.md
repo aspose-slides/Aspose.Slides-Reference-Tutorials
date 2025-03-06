@@ -3,14 +3,10 @@ title: 在簡報中執行郵件合併
 linktitle: 在簡報中執行郵件合併
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 在此逐步指南中了解如何使用 Aspose.Slides for .NET 在簡報中合併郵件。輕鬆建立動態、個人化的簡報。
+type: docs
 weight: 21
 url: /zh-hant/net/presentation-manipulation/perform-mail-merge-in-presentations/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 在 .NET 開發領域，創建動態且個人化的簡報是一項常見要求。 Aspose.Slides for .NET 是簡化此流程的強大工具。在本教程中，我們將深入研究使用 Aspose.Slides for .NET 在簡報中執行郵件合併的迷人領域。
 ## 先決條件
@@ -154,9 +150,3 @@ Aspose.Slides for .NET 支援多種圖表，包括我們範例中所示的折線
 當然！您可以從以下位置免費試用 Aspose.Slides for .NET[這裡](https://releases.aspose.com/).
 ## 結論
 在本教程中，我們探索了 Aspose.Slides for .NET 在簡報中執行郵件合併的令人興奮的功能。透過遵循逐步指南，您可以輕鬆建立動態且個人化的簡報。使用 Aspose.Slides 提升您的 .NET 開發體驗，實現無縫簡報產生。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

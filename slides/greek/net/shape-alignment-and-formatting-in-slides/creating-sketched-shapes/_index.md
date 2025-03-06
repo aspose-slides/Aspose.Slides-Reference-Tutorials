@@ -3,14 +3,10 @@ title: Δημιουργήστε εκπληκτικά σκιαγραφημένα 
 linktitle: Δημιουργία σκιαγραφημένων σχημάτων σε διαφάνειες παρουσίασης με το Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε δημιουργικά σκιαγραφημένα σχήματα στις διαφάνειες της παρουσίασής σας χρησιμοποιώντας το Aspose.Slides για .NET. Βελτιώστε την οπτική απήχηση χωρίς κόπο!
+type: docs
 weight: 13
 url: /el/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Καλώς ήρθατε στον αναλυτικό οδηγό μας για τη δημιουργία σκιαγραφημένων σχημάτων σε διαφάνειες παρουσίασης χρησιμοποιώντας το Aspose.Slides για .NET. Αν θέλετε να προσθέσετε μια πινελιά δημιουργικότητας στις παρουσιάσεις σας, τα σκιαγραφημένα σχήματα παρέχουν μια μοναδική και χειροποίητη αισθητική. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία, αναλύοντάς την σε απλά βήματα για να εξασφαλίσουμε μια ομαλή εμπειρία.
 ## Προαπαιτούμενα
@@ -78,9 +74,3 @@ pres.Save(outPptxFile, SaveFormat.Pptx);
  Για να αγοράσετε Aspose.Slides για .NET, επισκεφθείτε τη διεύθυνση[σελίδα αγοράς](https://purchase.aspose.com/buy).
 ### 5. Προσφέρετε προσωρινές άδειες;
  Ναι, είναι διαθέσιμες προσωρινές άδειες[εδώ](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

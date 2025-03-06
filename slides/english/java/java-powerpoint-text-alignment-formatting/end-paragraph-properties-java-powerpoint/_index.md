@@ -3,14 +3,10 @@ title: End Paragraph Properties in Java PowerPoint
 linktitle: End Paragraph Properties in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn to create and customize PowerPoint presentations in Java programmatically with Aspose.Slides. Explore tutorials and essential tips for seamless integration.
+type: docs
 weight: 11
 url: /java/java-powerpoint-text-alignment-formatting/end-paragraph-properties-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Creating and manipulating PowerPoint presentations programmatically can streamline workflows and enhance productivity in various domains, from business presentations to educational materials. Aspose.Slides for Java provides a robust API that enables developers to automate tasks such as adding slides, inserting text, formatting content, and exporting presentations in different formats. This tutorial will guide you through the essential steps to get started with Aspose.Slides for Java, demonstrating how to leverage its features effectively.
 ## Prerequisites
@@ -89,10 +85,3 @@ Absolutely, Aspose.Slides provides APIs to add and manipulate charts, tables, an
 Yes, you can add animations and transitions to slides through the Aspose.Slides API.
 ### Where can I find support if I encounter issues or have questions?
 You can visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for support and community discussions.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

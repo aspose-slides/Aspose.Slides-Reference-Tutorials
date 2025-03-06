@@ -3,14 +3,10 @@ title: Dodaj węzły w określonej pozycji w SmartArt przy użyciu języka Java
 linktitle: Dodaj węzły w określonej pozycji w SmartArt przy użyciu języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodawać węzły w określonych pozycjach w SmartArt przy użyciu Java z Aspose.Slides. Twórz dynamiczne prezentacje bez wysiłku.
+type: docs
 weight: 16
 url: /pl/java/java-powerpoint-smartart-manipulation/add-nodes-specific-position-smartart-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 W tym samouczku przeprowadzimy Cię przez proces dodawania węzłów w określonych pozycjach w SmartArt przy użyciu języka Java z Aspose.Slides. SmartArt to funkcja programu PowerPoint umożliwiająca tworzenie atrakcyjnych wizualnie diagramów i wykresów.
 ## Warunki wstępne
@@ -74,9 +70,3 @@ Tak, możesz dostosować wygląd węzłów, w tym ich rozmiar, kolor i styl.
 Tak, Aspose.Slides udostępnia biblioteki dla wielu języków programowania, w tym .NET i Python.
 ### Czy dostępna jest wersja próbna Aspose.Slides?
  Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

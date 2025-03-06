@@ -3,14 +3,10 @@ title: Aspose.Slides を使用してプレゼンテーション スライドに�
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドにプレーン ラインを追加する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides を使用して、.NET で PowerPoint プレゼンテーションを強化します。ステップ バイ ステップ ガイドに従って、簡単にプレーン ラインを追加します。
+type: docs
 weight: 16
 url: /ja/net/shape-effects-and-manipulation-in-slides/adding-plain-lines/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 導入
 魅力的で視覚的に魅力的な PowerPoint プレゼンテーションを作成するには、さまざまな図形や要素を組み込む必要があります。.NET を使用している場合、Aspose.Slides はプロセスを簡素化する強力なツールです。このチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーション スライドに単純な線を追加することに焦点を当てています。このわかりやすいガイドに従って、プレゼンテーションを強化してください。
 ## 前提条件
@@ -71,9 +67,3 @@ A: はい、Aspose.Slides は最新の .NET フレームワークをサポート
 訪問[ここ](https://purchase.aspose.com/temporary-license/)一時ライセンスの場合。
 ### Q: 問題が発生していますか? どこでサポートを受けられますか?
  A: 支援を求める[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

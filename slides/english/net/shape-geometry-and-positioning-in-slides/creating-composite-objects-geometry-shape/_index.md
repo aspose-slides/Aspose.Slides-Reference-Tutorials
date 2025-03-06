@@ -3,14 +3,10 @@ title: Mastering Composite Geometry Shapes in Presentations
 linktitle: Creating Composite Objects in Geometry Shape with Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to create stunning presentations with composite geometry shapes using Aspose.Slides for .NET. Follow our step-by-step guide for impressive results.
+type: docs
 weight: 14
 url: /net/shape-geometry-and-positioning-in-slides/creating-composite-objects-geometry-shape/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduction
 Unlock the power of Aspose.Slides for .NET to enhance your presentations by creating composite objects in geometry shapes. This tutorial will guide you through the process of generating visually appealing slides with intricate geometry using Aspose.Slides.
 ## Prerequisites
@@ -88,10 +84,3 @@ Yes, you can try Aspose.Slides for .NET with the [free trial](https://releases.a
 Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for community support and assistance.
 ### Q: Can I purchase a temporary license?
 Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

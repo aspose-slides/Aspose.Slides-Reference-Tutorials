@@ -3,14 +3,10 @@ title: Opzioni di salvataggio delle diapositive Java
 linktitle: Opzioni di salvataggio delle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri le opzioni di salvataggio delle diapositive Java con Aspose.Slides per Java. Esplora tutorial e guide completi per una gestione e una personalizzazione efficienti delle diapositive.
+type: docs
 weight: 25
 url: /it/java/saving-options/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 
 Nel mondo delle presentazioni dinamiche, Java è emerso come un linguaggio versatile, offrendo una miriade di strumenti e librerie per migliorare le tue presentazioni. Quando si tratta di gestire e personalizzare le diapositive, Aspose.Slides per Java si distingue come una potente soluzione. In questo articolo, approfondiremo l'entusiasmante regno delle opzioni di salvataggio di Java Slides utilizzando Aspose.Slides per Java.
@@ -50,9 +46,3 @@ Scopri come impostare tipi di visualizzazione predefiniti in Diapositive Java ut
 Scopri come salvare le presentazioni PowerPoint come di sola lettura in Java utilizzando Aspose.Slides. Proteggi i tuoi contenuti con istruzioni dettagliate ed esempi di codice.
 ### [Salva proprietà nelle diapositive Java](./save-properties-in-java-slides/)
 Ottimizza le tue presentazioni PowerPoint con Aspose.Slides per Java. Impara a impostare proprietà, disabilitare la crittografia, aggiungere la protezione tramite password e salvare senza sforzo.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

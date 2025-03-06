@@ -3,14 +3,10 @@ title: Java kullanarak PowerPoint Tablosunda Hücreleri Böl
 linktitle: Java kullanarak PowerPoint Tablosunda Hücreleri Böl
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint tablo hücrelerini programlı olarak nasıl böleceğinizi, birleştireceğinizi ve biçimlendireceğinizi öğrenin. Usta sunum tasarımı.
+type: docs
 weight: 11
 url: /tr/java/java-powerpoint-table-manipulation/split-cells-powerpoint-table-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## giriiş
 Bu eğitimde Aspose.Slides'ı kullanarak Java'da PowerPoint tablolarını nasıl değiştireceğinizi öğreneceksiniz. Tablolar sunumların temel bir bileşenidir ve genellikle verileri etkili bir şekilde organize etmek ve sunmak için kullanılır. Aspose.Slides, tabloları programlı olarak oluşturmak, değiştirmek ve geliştirmek için güçlü yetenekler sunarak tasarım ve düzende esneklik sunar.
 ## Önkoşullar
@@ -99,9 +95,3 @@ Aspose.Slides for Java kullanarak PowerPoint tablolarını programlı olarak de�
  Aspose.Slides forumundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/slides/11).
 ### Aspose.Slides for Java için geçici bir lisans alabilir miyim?
  Evet, adresinden geçici lisans alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

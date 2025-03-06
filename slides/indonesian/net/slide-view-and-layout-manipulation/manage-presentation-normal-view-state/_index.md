@@ -3,14 +3,10 @@ title: Kelola Presentasi dalam Keadaan Tampilan Normal
 linktitle: Kelola Presentasi dalam Keadaan Tampilan Normal
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengelola presentasi dalam keadaan tampilan normal menggunakan Aspose.Slides untuk .NET. Membuat, memodifikasi, dan menyempurnakan presentasi secara terprogram dengan panduan langkah demi langkah dan kode sumber lengkap.
+type: docs
 weight: 11
 url: /id/net/slide-view-and-layout-manipulation/manage-presentation-normal-view-state/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Baik Anda menyusun promosi penjualan yang dinamis, ceramah yang mendidik, atau webinar yang menarik, presentasi adalah landasan komunikasi yang efektif. Microsoft PowerPoint telah lama menjadi perangkat lunak pilihan untuk membuat tayangan slide yang menakjubkan. Namun, ketika mengelola presentasi secara terprogram, pustaka Aspose.Slides untuk .NET terbukti menjadi alat yang sangat berharga. Dalam panduan ini, kita akan mempelajari cara menggunakan Aspose.Slides untuk .NET untuk mengelola presentasi dalam keadaan tampilan normal, memungkinkan Anda membuat, memodifikasi, dan menyempurnakan presentasi Anda dengan lancar.
 
@@ -125,9 +121,3 @@ Anda dapat mengakses dokumentasi komprehensif untuk Aspose.Slides untuk .NET di[
 
 ## Kesimpulan
 Dalam panduan ini, kita telah menjelajahi cara mengelola presentasi dalam keadaan tampilan normal menggunakan Aspose.Slides untuk .NET. Dengan fitur-fitur canggihnya, Anda dapat membuat, memodifikasi, dan menyempurnakan presentasi secara terprogram, memastikan konten Anda memikat audiens secara efektif. Baik Anda seorang presenter profesional atau pengembang yang mengerjakan aplikasi terkait presentasi, Aspose.Slides for .NET adalah pintu gerbang Anda menuju manajemen presentasi yang lancar.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

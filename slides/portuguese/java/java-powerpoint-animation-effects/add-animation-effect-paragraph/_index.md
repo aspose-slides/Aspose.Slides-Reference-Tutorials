@@ -3,14 +3,10 @@ title: Adicione efeito de animação em parágrafo com Aspose.Slides para Java
 linktitle: Adicione efeito de animação em parágrafo com Aspose.Slides para Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda a adicionar efeitos de animação a parágrafos em apresentações do PowerPoint usando Aspose.Slides for Java com nosso guia passo a passo fácil.
+type: docs
 weight: 10
 url: /pt/java/java-powerpoint-animation-effects/add-animation-effect-paragraph/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 Você está pronto para destacar suas apresentações do PowerPoint com animações incríveis? Neste tutorial, orientaremos você sobre como adicionar efeitos de animação a parágrafos usando Aspose.Slides para Java. Quer você seja um desenvolvedor Java experiente ou esteja apenas começando, este guia fornecerá um processo passo a passo claro e envolvente. Vamos mergulhar!
 ## Pré-requisitos
@@ -85,9 +81,3 @@ Aspose.Slides suporta uma ampla gama de animações, incluindo efeitos de entrad
 Sim, o Aspose.Slides foi projetado para funcionar com apresentações criadas em várias versões do PowerPoint.
 ### Onde posso obter ajuda se tiver problemas?
  Você pode visitar o[Fórum de suporte](https://forum.aspose.com/c/slides/11) pela assistência da comunidade Aspose.Slides e da equipe de suporte.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

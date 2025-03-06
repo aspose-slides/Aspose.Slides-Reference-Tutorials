@@ -3,14 +3,10 @@ title: Aspose.Slides - إضافة مقاطع فيديو مضمنة في العر
 linktitle: Aspose.Slides - إضافة مقاطع فيديو مضمنة في العروض التقديمية بتنسيق .NET
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بتحسين العروض التقديمية الخاصة بك باستخدام مقاطع الفيديو المضمنة باستخدام Aspose.Slides لـ .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
+type: docs
 weight: 19
 url: /ar/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 في عالم العروض التقديمية الديناميكي، يمكن لدمج عناصر الوسائط المتعددة أن يعزز المشاركة بشكل كبير. يوفر Aspose.Slides for .NET حلاً قويًا لدمج إطارات الفيديو المضمنة في شرائح العرض التقديمي. سيرشدك هذا البرنامج التعليمي خلال العملية، مع تفصيل كل خطوة لضمان تجربة سلسة.
 ## المتطلبات الأساسية
@@ -79,9 +75,3 @@ pres.Save(resultPath, SaveFormat.Pptx);
 عادةً ما يكون عدد مقاطع الفيديو المضمنة محدودًا بسعة برنامج العرض التقديمي الخاص بك.
 ### كيف يمكنني طلب المزيد من المساعدة أو مشاركة تجربتي؟
  قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لدعم المجتمع والمناقشات.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

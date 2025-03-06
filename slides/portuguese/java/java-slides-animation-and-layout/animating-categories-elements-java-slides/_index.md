@@ -3,14 +3,10 @@ title: Animando elementos de categorias em slides Java
 linktitle: Animando elementos de categorias em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Otimize suas apresentações Java com Aspose.Slides for Java. Aprenda passo a passo como animar elementos de categoria em slides do PowerPoint.
+type: docs
 weight: 10
 url: /pt/java/animation-and-layout/animating-categories-elements-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introdução à animação de elementos de categorias em slides Java
 
@@ -121,10 +117,3 @@ Sim, você pode aplicar animações semelhantes a outros tipos de gráficos, mod
 ### Como posso aprender mais sobre Aspose.Slides para Java?
 
  Para obter documentação abrangente e recursos adicionais, visite o[Referência da API Aspose.Slides para Java](https://reference.aspose.com/slides/java/) . Você também pode baixar a biblioteca em[aqui](https://releases.aspose.com/slides/java/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

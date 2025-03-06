@@ -3,14 +3,10 @@ title: Add Custom Document Properties in Java Slides
 linktitle: Add Custom Document Properties in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to enhance PowerPoint presentations with custom document properties in Java Slides. Step-by-step guide with code examples using Aspose.Slides for Java.
+type: docs
 weight: 13
 url: /java/presentation-properties/add-custom-document-properties-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction to Adding Custom Document Properties in Java Slides
 
@@ -141,10 +137,3 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 This code will display the names and values of all custom properties in the presentation.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

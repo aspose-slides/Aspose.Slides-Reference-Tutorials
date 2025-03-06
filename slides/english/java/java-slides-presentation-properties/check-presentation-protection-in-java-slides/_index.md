@@ -3,14 +3,10 @@ title: Check Presentation Protection in Java Slides
 linktitle: Check Presentation Protection in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to check presentation protection in Java slides using Aspose.Slides for Java. This step-by-step guide provides code examples for write and open protection checks.
+type: docs
 weight: 15
 url: /java/presentation-properties/check-presentation-protection-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduction to Checking Presentation Protection in Java Slides
 
@@ -117,10 +113,3 @@ If you forget the protection password for a presentation, there is no built-in w
 ### Is Aspose.Slides for Java compatible with the latest PowerPoint file formats?
 
 Yes, Aspose.Slides for Java supports the latest PowerPoint file formats, including .pptx files.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

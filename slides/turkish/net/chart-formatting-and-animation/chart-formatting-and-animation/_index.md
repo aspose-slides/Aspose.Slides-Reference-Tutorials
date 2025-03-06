@@ -3,14 +3,10 @@ title: Aspose.Slides'ta Grafik Formatlama ve Animasyon
 linktitle: Aspose.Slides'ta Grafik Formatlama ve Animasyon
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'te grafikleri nasıl formatlayıp canlandıracağınızı öğrenin ve sunumlarınızı büyüleyici görsellerle zenginleştirin.
+type: docs
 weight: 10
 url: /tr/net/chart-formatting-and-animation/chart-formatting-and-animation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Dinamik grafikler ve animasyonlarla ilgi çekici sunumlar oluşturmak, mesajınızın etkisini büyük ölçüde artırabilir. Aspose.Slides for .NET tam da bunu başarmanıza olanak sağlar. Bu eğitimde, Aspose.Slides for .NET'i kullanarak grafikleri canlandırma ve biçimlendirme sürecinde size rehberlik edeceğiz. Konsepti iyice kavramanızı sağlamak için adımları yönetilebilir bölümlere ayıracağız.
 
@@ -176,10 +172,3 @@ Aspose.Slides for .NET, grafik formatlama ve animasyon için güçlü araçlar s
 
  Destek ve sorularınız için Aspose.Slides forumunu ziyaret edin:[https://forum.aspose.com/](https://forum.aspose.com/).
 
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

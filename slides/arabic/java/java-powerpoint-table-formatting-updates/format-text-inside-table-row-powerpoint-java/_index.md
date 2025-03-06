@@ -3,14 +3,10 @@ title: تنسيق النص داخل صف الجدول في PowerPoint باستخ
 linktitle: تنسيق النص داخل صف الجدول في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تنسيق النص داخل صفوف الجدول في PowerPoint باستخدام Aspose.Slides لـ Java. قم بتعزيز العروض التقديمية الخاصة بك من خلال دليلنا خطوة بخطوة.
+type: docs
 weight: 12
 url: /ar/java/java-powerpoint-table-formatting-updates/format-text-inside-table-row-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 عند العمل مع العروض التقديمية، يعد إنشاء شرائح جذابة بصريًا أمرًا ضروريًا للحفاظ على تفاعل جمهورك. يمكن أن يؤدي تنسيق النص داخل صفوف الجدول إلى تحسين قابلية القراءة وجماليات الشرائح بشكل كبير. في هذا البرنامج التعليمي، سنستكشف كيفية تنسيق النص داخل صف جدول في PowerPoint باستخدام Aspose.Slides لـ Java.
 ## المتطلبات الأساسية
@@ -89,9 +85,3 @@ if (presentation != null) presentation.dispose();
  نعم، يمكنك شراء ترخيص من[صفحة الشراء](https://purchase.aspose.com/buy).
 ### ما تنسيقات الملفات التي يدعمها Aspose.Slides لـ Java؟
 يدعم Aspose.Slides for Java مجموعة متنوعة من التنسيقات بما في ذلك PPT وPPTX وODP والمزيد.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

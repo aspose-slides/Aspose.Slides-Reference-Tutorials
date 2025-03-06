@@ -3,14 +3,10 @@ title: Java를 사용하여 PowerPoint에서 부분 사각형 가져오기
 linktitle: Java를 사용하여 PowerPoint에서 부분 사각형 가져오기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 이 상세한 단계별 튜토리얼을 통해 Java용 Aspose.Slides를 사용하여 PowerPoint에서 직사각형 부분을 얻는 방법을 알아보세요. Java 개발자에게 적합합니다.
+type: docs
 weight: 12
 url: /ko/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 Aspose.Slides for Java를 사용하면 Java로 동적 프레젠테이션을 만드는 것이 매우 쉽습니다. 이 튜토리얼에서는 Aspose.Slides를 사용하여 PowerPoint에서 직사각형 부분을 가져오는 핵심을 살펴보겠습니다. 환경 설정부터 코드 분석까지 단계별로 모든 것을 다룰 것입니다. 자, 시작해 봅시다!
 ## 전제 조건
@@ -142,9 +138,3 @@ Aspose.Slides for Java는 개발자가 프로그래밍 방식으로 PowerPoint �
  문서를 사용할 수 있습니다[여기](https://reference.aspose.com/slides/java/).
 ### Java용 Aspose.Slides에 대한 지원을 어떻게 받을 수 있나요?
  Aspose 포럼에서 지원을 받을 수 있습니다.[여기](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

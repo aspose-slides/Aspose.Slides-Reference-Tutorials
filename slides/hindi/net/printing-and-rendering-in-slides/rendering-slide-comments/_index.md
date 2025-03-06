@@ -3,14 +3,10 @@ title: Aspose.Slides में स्लाइड टिप्पणियाँ
 linktitle: Aspose.Slides में स्लाइड टिप्पणियाँ प्रस्तुत करना
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: हमारे चरण-दर-चरण ट्यूटोरियल के साथ Aspose.Slides for .NET में स्लाइड टिप्पणियाँ प्रस्तुत करने का तरीका जानें। टिप्पणी की उपस्थिति को अनुकूलित करें और अपने PowerPoint स्वचालन को उन्नत करें।
+type: docs
 weight: 12
 url: /hi/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## परिचय
 .NET के लिए Aspose.Slides का उपयोग करके स्लाइड टिप्पणियाँ प्रस्तुत करने पर हमारे व्यापक ट्यूटोरियल में आपका स्वागत है! Aspose.Slides एक शक्तिशाली लाइब्रेरी है जो डेवलपर्स को उनके .NET अनुप्रयोगों में PowerPoint प्रस्तुतियों के साथ सहजता से काम करने में सक्षम बनाती है। इस गाइड में, हम एक विशिष्ट कार्य पर ध्यान केंद्रित करेंगे - स्लाइड टिप्पणियाँ प्रस्तुत करना - और आपको चरण दर चरण प्रक्रिया के माध्यम से चलना होगा।
 ## आवश्यक शर्तें
@@ -90,9 +86,3 @@ System.Diagnostics.Process.Start(resultPath);
  उत्तर: आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[यहाँ](https://purchase.aspose.com/temporary-license/).
 ### प्रश्न: मैं Aspose.Slides के लिए सहायता और समर्थन कहां से प्राप्त कर सकता हूं?
  उत्तर: यहाँ जाएँ[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सामुदायिक समर्थन के लिए.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: 특정 위치에서 다른 프레젠테이션이 끝나면 슬라이드 �
 linktitle: 특정 위치에서 다른 프레젠테이션이 끝나면 슬라이드 복제
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Java에서 슬라이드를 복제하는 방법 알아보기 Aspose.Slides for Java를 사용하여 한 PowerPoint 프레젠테이션에서 다른 PowerPoint 프레젠테이션으로 슬라이드를 복제하는 방법에 대한 단계별 가이드입니다.
+type: docs
 weight: 12
 url: /ko/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-specific-position-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 소개
 PowerPoint 프레젠테이션으로 작업할 때 한 프레젠테이션의 슬라이드를 다른 프레젠테이션에서 재사용해야 하는 경우가 종종 있습니다. Aspose.Slides for Java는 이러한 작업을 프로그래밍 방식으로 쉽게 수행할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 한 프레젠테이션의 슬라이드를 다른 프레젠테이션의 특정 위치로 복제하는 방법을 안내합니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 가이드는 이 기능을 익히는 데 도움이 될 것입니다.
 ## 전제 조건
@@ -79,9 +75,3 @@ Aspose.Slides for Java는 무료 평가판을 제공합니다. 전체 기능을 
 대용량 프레젠테이션의 경우 프레젠테이션을 적절하게 처리하고 대용량 파일 처리를 위한 Aspose의 고급 기능 사용을 고려하여 효율적인 메모리 관리를 보장하세요.
 ### 복제된 슬라이드를 사용자 정의할 수 있나요?
 전적으로. 복제 후 Aspose.Slides for Java의 광범위한 API를 사용하여 필요에 맞게 슬라이드를 조작할 수 있습니다.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

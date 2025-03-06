@@ -3,14 +3,10 @@ title: Rekverschuiving toevoegen voor afbeeldingsinvulling in PowerPoint-present
 linktitle: Rekverschuiving toevoegen voor invuldia's
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-presentaties kunt verbeteren met Aspose.Slides voor .NET. Volg een stapsgewijze handleiding om een rekverschuiving toe te voegen voor de afbeeldingsvulling.
+type: docs
 weight: 18
 url: /nl/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 In de dynamische wereld van presentaties spelen beelden een cruciale rol bij het trekken van de aandacht van het publiek. Aspose.Slides voor .NET stelt ontwikkelaars in staat hun PowerPoint-presentaties te verbeteren door een robuuste reeks functies te bieden. Eén zo'n functie is de mogelijkheid om een rekverschuiving toe te voegen voor de afbeeldingsvulling, waardoor creatieve en visueel aantrekkelijke dia's mogelijk zijn.
 ## Vereisten
@@ -75,9 +71,3 @@ Ja, Aspose.Slides voor .NET is geschikt voor zowel desktop- als webapplicaties.
  Verwijs naar de[documentatie](https://reference.aspose.com/slides/net/) voor gedetailleerde informatie.
 ### Kan ik Aspose.Slides voor .NET kopen?
  Ja, u kunt het product kopen[hier](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

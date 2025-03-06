@@ -3,14 +3,10 @@ title: الوصول إلى تنسيقات التخطيط في شرائح Java
 linktitle: الوصول إلى تنسيقات التخطيط في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية الوصول إلى تنسيقات التخطيط ومعالجتها في Java Slides باستخدام Aspose.Slides for Java. قم بتخصيص أنماط الأشكال والخطوط بسهولة في عروض PowerPoint التقديمية.
+type: docs
 weight: 10
 url: /ar/java/presentation-properties/access-layout-formats-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## مقدمة إلى تنسيقات تخطيط الوصول في شرائح Java
 
@@ -142,9 +138,3 @@ IShape shape = layoutSlide.getShapes().get_Item(0); // قم بالوصول إل�
 ```
 
  يمكنك بعد ذلك استخدام`IFillFormat` و`ILineFormat` الطرق كما هو موضح في الإجابات السابقة لتعديل تنسيقات تعبئة الشكل والخط.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

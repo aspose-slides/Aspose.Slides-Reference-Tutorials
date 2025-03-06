@@ -3,14 +3,10 @@ title: Добавьте линию в форме стрелки на слайд
 linktitle: Добавьте линию в форме стрелки на слайд
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как добавлять линии в форме стрелок к слайдам PowerPoint с помощью Aspose.Slides для Java. Настраивайте стили, цвета и положения без особых усилий.
+type: docs
 weight: 11
 url: /ru/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-slide/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 В этом уроке мы рассмотрим, как добавить линию в форме стрелки на слайд с помощью Aspose.Slides для Java. Aspose.Slides — это мощный Java API, который позволяет разработчикам программно создавать, изменять и конвертировать презентации PowerPoint. Добавление к слайдам линий в форме стрелок может повысить визуальную привлекательность и ясность ваших презентаций.
 ## Предварительные условия
@@ -78,9 +74,3 @@ Aspose.Slides поддерживает различные форматы PowerPo
 Да, вы можете добавить текст в строку, создав TextFrame и соответствующим образом задав его свойства.
 ### Где я могу найти дополнительные ресурсы и поддержку для Aspose.Slides?
  Посетить[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) за поддержку и изучить[документация](https://reference.aspose.com/slides/java/) для получения подробной информации.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

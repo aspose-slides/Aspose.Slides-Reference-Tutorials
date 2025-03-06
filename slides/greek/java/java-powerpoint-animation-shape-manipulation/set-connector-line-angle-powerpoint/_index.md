@@ -3,14 +3,10 @@ title: Ορίστε τη γωνία γραμμής σύνδεσης στο Power
 linktitle: Ορίστε τη γωνία γραμμής σύνδεσης στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε γωνίες γραμμής σύνδεσης σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Προσαρμόστε τις διαφάνειές σας με ακρίβεια.
+type: docs
 weight: 17
 url: /el/java/java-powerpoint-animation-shape-manipulation/set-connector-line-angle-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να ορίσετε τη γωνία των γραμμών σύνδεσης σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Οι γραμμές σύνδεσης είναι απαραίτητες για την απεικόνιση των σχέσεων και των ροών μεταξύ των σχημάτων στις διαφάνειές σας. Προσαρμόζοντας τις γωνίες τους, μπορείτε να διασφαλίσετε ότι οι παρουσιάσεις σας μεταφέρουν το μήνυμά σας καθαρά και αποτελεσματικά.
 ## Προαπαιτούμενα
@@ -84,9 +80,3 @@ public static double getDirection(float w, float h, boolean flipH, boolean flipV
 Σίγουρα! Το Aspose.Slides παρέχει εκτενείς επιλογές για την προσαρμογή των γραμμών σύνδεσης, συμπεριλαμβανομένων των στυλ, του πάχους και των τελικών σημείων, επιτρέποντάς σας να δημιουργείτε οπτικά ελκυστικές παρουσιάσεις.
 ### Πού μπορώ να βρω υποστήριξη για ερωτήματα που σχετίζονται με το Aspose.Slides;
  Μπορείτε να επισκεφθείτε το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για βοήθεια με τυχόν απορίες ή ζητήματα που αντιμετωπίζετε κατά τη διαδικασία ανάπτυξής σας.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

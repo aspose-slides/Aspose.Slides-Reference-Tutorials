@@ -3,14 +3,10 @@ title: Cập nhật thuộc tính bản trình bày trong Java Slides
 linktitle: Cập nhật thuộc tính bản trình bày trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách cập nhật các thuộc tính bản trình bày trong các trang trình bày Java bằng Aspose.Slides cho Java. Tùy chỉnh tác giả, tiêu đề, v.v. để có bài thuyết trình hiệu quả.
+type: docs
 weight: 13
 url: /vi/java/media-controls/update-presentation-properties-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu về Cập nhật thuộc tính bản trình bày trong Java Slides
 
@@ -116,9 +112,3 @@ Có, Aspose.Slides for Java có thể được sử dụng cho cả dự án cá
 ### Làm cách nào tôi có thể truy cập tài liệu về Aspose.Slides cho Java?
 
  Bạn có thể truy cập tài liệu về Aspose.Slides for Java bằng cách truy cập liên kết sau:[Aspose.Slides cho Tài liệu Java](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: إنشاء جدول من الصفر في PowerPoint باستخدام Java
 linktitle: إنشاء جدول من الصفر في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء جداول ديناميكية في PowerPoint باستخدام Aspose.Slides لـ Java من خلال برنامجنا التعليمي الشامل خطوة بخطوة.
+type: docs
 weight: 22
 url: /ar/java/java-powerpoint-table-manipulation/create-table-from-scratch-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 هل سبق لك أن كنت بحاجة إلى إنشاء جدول ديناميكي في عرض تقديمي لـ PowerPoint باستخدام Java؟ حسنا، أنت في المكان الصحيح! في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء جدول من البداية باستخدام Aspose.Slides for Java. سواء كنت مطور Java ذو خبرة أو بدأت للتو، ستجد هذا الدليل سهل المتابعة ومفيدًا بشكل لا يصدق. دعنا نتعمق في شرائح PowerPoint ونحولها إلى شيء غير عادي!
 ## المتطلبات الأساسية
@@ -90,9 +86,3 @@ Aspose.Slides for Java هي مكتبة قوية للعمل مع ملفات Power
 Aspose.Slides متوافق مع Java SE 6 وما فوق.
 ### أين يمكنني العثور على وثائق Aspose.Slides؟
  الوثائق متاحة[هنا](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

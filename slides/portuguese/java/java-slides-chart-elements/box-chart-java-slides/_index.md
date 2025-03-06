@@ -3,14 +3,10 @@ title: Gráfico de caixa em slides Java
 linktitle: Gráfico de caixa em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como criar Box Charts em apresentações Java com Aspose.Slides. Guia passo a passo e código-fonte incluídos para visualização eficaz dos dados.
+type: docs
 weight: 10
 url: /pt/java/chart-elements/box-chart-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introdução ao Box Chart em Aspose.Slides para Java
 
@@ -152,9 +148,3 @@ Você pode personalizar a aparência do Box Chart modificando propriedades como 
 ### O que significa QuartileMethodType.Exclusive?
 
  O`QuartileMethodType.Exclusive` configuração especifica que os cálculos do quartil devem ser feitos usando o método exclusivo. Você pode escolher diferentes métodos de cálculo de quartil dependendo de seus dados e requisitos.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

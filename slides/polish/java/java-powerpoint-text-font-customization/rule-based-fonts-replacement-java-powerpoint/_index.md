@@ -3,14 +3,10 @@ title: Zastępowanie czcionek oparte na regułach w programie Java PowerPoint
 linktitle: Zastępowanie czcionek oparte na regułach w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak zautomatyzować wymianę czcionek w prezentacjach Java PowerPoint przy użyciu Aspose.Slides. Bez wysiłku zwiększ dostępność i spójność.
+type: docs
 weight: 11
 url: /pl/java/java-powerpoint-text-font-customization/rule-based-fonts-replacement-java-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Wstęp
 W dziedzinie automatyzacji programu PowerPoint opartej na Javie efektywne zarządzanie czcionkami ma kluczowe znaczenie dla zapewnienia spójności i dostępności prezentacji. Aspose.Slides for Java oferuje solidne narzędzia do płynnej obsługi zastępowania czcionek, zwiększając niezawodność i atrakcyjność wizualną plików programu PowerPoint. Ten samouczek omawia proces zastępowania czcionek w oparciu o reguły przy użyciu Aspose.Slides dla Java, umożliwiając programistom łatwą automatyzację zarządzania czcionkami.
 ## Warunki wstępne
@@ -81,9 +77,3 @@ Tak, Aspose.Slides umożliwia programistom definiowanie niestandardowych reguł 
 Tak, Aspose.Slides oferuje solidną obsługę aplikacji Java, umożliwiając bezproblemową integrację i manipulowanie plikami PowerPoint.
 ### Gdzie mogę znaleźć więcej zasobów i wsparcia dla Aspose.Slides?
  Aby uzyskać dodatkowe zasoby, dokumentację i wsparcie, odwiedź stronę[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

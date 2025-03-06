@@ -3,14 +3,10 @@ title: Normalne wykresy w slajdach Java
 linktitle: Normalne wykresy w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Twórz normalne wykresy w slajdach Java za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku i kod źródłowy tworzenia, dostosowywania i zapisywania wykresów w prezentacjach programu PowerPoint.
+type: docs
 weight: 21
 url: /pl/java/chart-data-manipulation/normal-charts-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Wprowadzenie do normalnych wykresów w slajdach Java
 
@@ -244,9 +240,3 @@ W tym samouczku nauczyliśmy się, jak tworzyć normalne wykresy w Java Slides p
 ### Jak zapisać wykres w innym formacie pliku?
 
  Aby zapisać wykres w innym formacie pliku, zmień opcję`SaveFormat` parametr w`pres.save()` metodę do żądanego formatu (np. PDF, PNG, JPEG).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

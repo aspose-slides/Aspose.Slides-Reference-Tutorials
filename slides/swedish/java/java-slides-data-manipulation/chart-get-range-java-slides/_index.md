@@ -3,14 +3,10 @@ title: Chart Get Range i Java Slides
 linktitle: Chart Get Range i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du hämtar diagramintervall i Java Slides med Aspose.Slides för Java API. Steg-för-steg guide med källkod för effektiv tillgång till sjökortsdata.
+type: docs
 weight: 16
 url: /sv/java/data-manipulation/chart-get-range-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion till Chart Get Range i Java Slides
 
@@ -102,10 +98,3 @@ Ja, du kan anpassa utseendet på diagram, som att ändra färger, teckensnitt oc
 ### Var kan jag hitta mer resurser och dokumentation för Aspose.Slides för Java?
 
  Du kan hitta omfattande dokumentation och resurser för Aspose.Slides för Java på webbplatsen:[Aspose.Slides för Java-dokumentation](https://reference.aspose.com/slides/java/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

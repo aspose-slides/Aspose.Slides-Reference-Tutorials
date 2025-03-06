@@ -3,14 +3,10 @@ title: 원본 글꼴 보존 - 프레젠테이션을 HTML로 변환
 linktitle: 원본 글꼴 보존 - 프레젠테이션을 HTML로 변환
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 프레젠테이션을 HTML로 변환하는 동안 원본 글꼴을 유지하는 방법을 알아보세요. 손쉽게 글꼴 일관성과 시각적 효과를 보장하세요.
+type: docs
 weight: 14
 url: /ko/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 이 종합 가이드에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션을 HTML로 변환할 때 원본 글꼴을 유지하는 과정을 안내합니다. 필요한 C# 소스 코드를 제공하고 각 단계를 자세히 설명하겠습니다. 이 튜토리얼이 끝나면 변환된 HTML 문서의 글꼴이 원본 프리젠테이션에 충실하게 유지되도록 할 수 있습니다.
 
@@ -102,10 +98,3 @@ pres.Save("output.html", SaveFormat.Html, htmlOptionsEmbed);
 ### Q5: 추가 리소스와 지원은 어디서 이용할 수 있나요?
 
  Aspose 웹사이트에서 더 많은 문서, 튜토리얼 및 지원을 찾을 수 있습니다. 방문하다[.NET 문서용 Aspose.Slides](https://reference.aspose.com/slides/net/) 자세한 내용은.
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

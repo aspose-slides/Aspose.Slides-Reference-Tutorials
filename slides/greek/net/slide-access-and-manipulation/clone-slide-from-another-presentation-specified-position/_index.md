@@ -3,14 +3,10 @@ title: Κλωνοποίηση Διαφάνεια από διαφορετική �
 linktitle: Κλωνοποίηση Διαφάνεια από διαφορετική παρουσίαση σε καθορισμένη θέση
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να κλωνοποιείτε διαφάνειες από διαφορετικές παρουσιάσεις σε μια καθορισμένη θέση χρησιμοποιώντας το Aspose.Slides για .NET. Οδηγός βήμα προς βήμα με πλήρη πηγαίο κώδικα, που καλύπτει την κλωνοποίηση διαφανειών, την προδιαγραφή θέσης και την αποθήκευση παρουσίασης.
+type: docs
 weight: 16
 url: /el/net/slide-access-and-manipulation/clone-slide-from-another-presentation-specified-position/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στην κλωνοποίηση διαφανειών από διαφορετική παρουσίαση σε καθορισμένη θέση
 
@@ -141,9 +137,3 @@ namespace SlideCloningDemo
 ### Πού μπορώ να βρω περισσότερες πληροφορίες σχετικά με το Aspose.Slides για .NET;
 
  Μπορείτε να ανατρέξετε στο[τεκμηρίωση](https://reference.aspose.com/slides/net/) για λεπτομερείς πληροφορίες, παραδείγματα και αναφορές API που σχετίζονται με το Aspose.Slides για .NET.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

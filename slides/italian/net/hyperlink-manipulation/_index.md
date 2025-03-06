@@ -3,14 +3,10 @@ title: Manipolazione dei collegamenti ipertestuali
 linktitle: Manipolazione dei collegamenti ipertestuali
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Migliora le tue applicazioni .NET con la manipolazione completa dei collegamenti ipertestuali utilizzando Aspose.Slides. Scopri come gestire i collegamenti ipertestuali, creare presentazioni interattive e aumentare il coinvolgimento degli utenti senza sforzo.
+type: docs
 weight: 13
 url: /it/net/hyperlink-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduzione:
 
@@ -31,9 +27,3 @@ Scopri come aggiungere collegamenti ipertestuali alle diapositive in PowerPoint 
 Scopri come gestire in modo efficace i collegamenti ipertestuali nelle presentazioni utilizzando Aspose.Slides per .NET. Automatizza le attività, crea menu interattivi e migliora il coinvolgimento degli utenti.
 ### [Creazione di collegamenti ipertestuali mutabili](./mutable-hyperlink/)
 Impara a creare collegamenti ipertestuali modificabili utilizzando Aspose.Slides per .NET. Guida passo passo con codice sorgente per presentazioni dinamiche.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

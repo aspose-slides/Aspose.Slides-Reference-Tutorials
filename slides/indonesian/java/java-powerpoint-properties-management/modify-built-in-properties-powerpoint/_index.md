@@ -3,14 +3,10 @@ title: Ubah Properti Bawaan di PowerPoint
 linktitle: Ubah Properti Bawaan di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengubah properti bawaan dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Sempurnakan presentasi Anda secara terprogram.
+type: docs
 weight: 12
 url: /id/java/java-powerpoint-properties-management/modify-built-in-properties-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Perkenalan
 Aspose.Slides untuk Java memberdayakan pengembang untuk memanipulasi presentasi PowerPoint secara terprogram. Salah satu fitur penting adalah memodifikasi properti bawaan, seperti penulis, judul, subjek, komentar, dan pengelola. Tutorial ini memandu Anda melalui proses langkah demi langkah.
 ## Prasyarat
@@ -69,9 +65,3 @@ Sangat! Anda dapat membuat skrip atau aplikasi untuk mengotomatiskan modifikasi 
 Meskipun Aspose.Slides menyediakan fungsionalitas yang luas, beberapa fitur lanjutan mungkin memiliki keterbatasan tergantung pada format dan versi PowerPoint.
 ### Apakah dukungan teknis tersedia untuk Aspose.Slides?
  Ya, Anda dapat mencari bantuan dan berpartisipasi dalam diskusi mengenai[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

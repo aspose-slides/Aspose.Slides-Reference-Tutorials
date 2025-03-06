@@ -3,14 +3,10 @@ title: استنساخ الشريحة داخل نفس العرض التقديمي
 linktitle: استنساخ الشريحة داخل نفس العرض التقديمي
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: استنساخ الشرائح داخل نفس العرض التقديمي باستخدام Aspose.Slides لـ Java مع دليلنا. مثالي للمطورين الذين يتطلعون إلى تبسيط عمليات معالجة PowerPoint.
+type: docs
 weight: 15
 url: /ar/java/java-powerpoint-slide-cloning-techniques/clone-slide-within-same-presentation-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 هل أنت مستعد للتعمق في عالم Aspose.Slides لـ Java وتعلم كيفية استنساخ الشرائح داخل نفس العرض التقديمي؟ سيرشدك هذا البرنامج التعليمي إلى كل ما تحتاج إلى معرفته، بدءًا من المتطلبات الأساسية وحتى التنفيذ النهائي. هيا بنا نبدأ!
 ## المتطلبات الأساسية
@@ -71,9 +67,3 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
 الوثائق الخاصة بـ Aspose.Slides for Java متاحة على الموقع[موقع أسبوز](https://reference.aspose.com/slides/java/).
 ### كيف يمكنني شراء Aspose.Slides لجافا؟
  يمكنك شراء Aspose.Slides لـ Java من خلال زيارة الموقع[صفحة الشراء](https://purchase.aspose.com/buy).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

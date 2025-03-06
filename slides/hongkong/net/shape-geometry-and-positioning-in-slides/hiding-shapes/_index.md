@@ -3,14 +3,10 @@ title: 使用 Aspose.Slides 隱藏 PowerPoint 中的形狀 .NET 教學課程
 linktitle: 使用 Aspose.Slides 隱藏簡報投影片中的形狀
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 隱藏 PowerPoint 投影片中的形狀。使用此逐步指南以程式設計方式自訂簡報。
+type: docs
 weight: 21
 url: /zh-hant/net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 在動態的演示世界中，自訂是關鍵。 Aspose.Slides for .NET 提供了一個強大的解決方案，以程式設計方式操作 PowerPoint 簡報。一個常見的要求是能夠隱藏投影片中的特定形狀。本教學將引導您完成使用 Aspose.Slides for .NET 在簡報投影片中隱藏形狀的過程。
 ## 先決條件
@@ -77,9 +73,3 @@ Congratulations! You've successfully hidden shapes in your presentation using As
 是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)用於測試目的。
 ### 我如何獲得 Aspose.Slides 的社區支持？
 加入 Aspose.Slides 社區[論壇](https://forum.aspose.com/c/slides/11)進行討論和尋求幫助。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

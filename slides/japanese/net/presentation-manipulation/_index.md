@@ -3,14 +3,10 @@ title: プレゼンテーション操作
 linktitle: プレゼンテーション操作
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET チュートリアルでプレゼンテーション操作の可能性を解き放ちましょう。プログラムで PowerPoint プレゼンテーションを動的に作成、カスタマイズ、強化する方法を学びます。今すぐ PowerPoint 処理スキルを高めましょう。
+type: docs
 weight: 11
 url: /ja/net/presentation-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 PowerPoint 処理の分野では、Aspose.Slides for .NET がプレゼンテーション操作の強力なツールとして登場しました。このチュートリアル集は、Aspose.Slides の機能を活用してプレゼンテーションをプログラムで操作および強化するための包括的なガイダンスを提供します。スライドの作成、変更、配置から、テキスト、画像、マルチメディア要素の管理まで、これらのチュートリアルは動的なプレゼンテーションの生成とカスタマイズの世界を段階的に紹介します。プレゼンテーション タスクの自動化、レポートの生成、インタラクティブなスライドショーの構築など、開発者はこれらのチュートリアルによって Aspose.Slides を効果的に活用するための知識を得ることができます。
 
 ## プレゼンテーション操作
@@ -55,9 +51,3 @@ Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーション�
 Aspose.Slides for .NET を使用してプレゼンテーションの SVG 変換を実行する方法を学びます。この包括的なガイドでは、ステップバイステップの手順、ソース コードの例、およびさまざまな SVG 変換オプションについて説明します。
 ### [プレゼンテーションでの SVG のフォーマット](./formatting-svgs-in-presentations/)
 Aspose.Slides for .NET を使用して、魅力的な SVG でプレゼンテーションを最適化します。インパクトのあるビジュアルのために SVG をフォーマットする方法をステップごとに学習します。今すぐプレゼンテーションのレベルを上げましょう。 
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

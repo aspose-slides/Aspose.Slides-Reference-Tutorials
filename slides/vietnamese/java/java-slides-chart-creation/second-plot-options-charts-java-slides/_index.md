@@ -3,14 +3,10 @@ title: Tùy chọn sơ đồ thứ hai cho biểu đồ trong Java Slides
 linktitle: Tùy chọn sơ đồ thứ hai cho biểu đồ trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tùy chỉnh biểu đồ trong Java Slides bằng Aspose.Slides for Java. Khám phá các tùy chọn cốt truyện thứ hai và cải thiện bài thuyết trình của bạn.
+type: docs
 weight: 12
 url: /vi/java/chart-creation/second-plot-options-charts-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu về Tùy chọn ô thứ hai cho biểu đồ trong Java Slides
 
@@ -97,9 +93,3 @@ Trong hướng dẫn này, chúng ta đã học cách thêm tùy chọn biểu �
 ### Làm cách nào để đặt vị trí phần tách trong biểu đồ Pie of Pie?
 
  Bạn có thể đặt vị trí của phần phân chia trong biểu đồ Pie of Pie bằng cách sử dụng`setPieSplitPosition` phương pháp. Điều chỉnh giá trị để xác định vị trí mong muốn.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Aspose.Slides의 차트 생성 및 사용자 정의
 linktitle: Aspose.Slides의 차트 생성 및 사용자 정의
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 PowerPoint에서 차트를 만들고 사용자 정의하는 방법을 알아보세요. 동적 프레젠테이션을 만들기 위한 단계별 가이드입니다.
+type: docs
 weight: 10
 url: /ko/net/chart-creation-and-customization/chart-creation-and-customization/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## 소개
 
@@ -114,9 +110,3 @@ using (Presentation presentation = new Presentation(dataDir + "presentation.ppt"
 
 ### .NET용 Aspose.Slides의 임시 라이선스를 구입할 수 있나요?
 예, Aspose 웹사이트에서 임시 라이선스를 얻을 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

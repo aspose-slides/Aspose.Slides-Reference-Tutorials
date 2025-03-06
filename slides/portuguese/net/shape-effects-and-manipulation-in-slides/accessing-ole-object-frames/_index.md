@@ -3,14 +3,10 @@ title: Acessando quadros de objetos OLE em slides de apresentação com Aspose.S
 linktitle: Acessando quadros de objetos OLE em slides de apresentação com Aspose.Slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como acessar e manipular quadros de objetos OLE em slides de apresentação usando Aspose.Slides for .NET. Aprimore seus recursos de processamento de slides com orientação passo a passo e exemplos práticos de código.
+type: docs
 weight: 11
 url: /pt/net/shape-effects-and-manipulation-in-slides/accessing-ole-object-frames/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introdução
 
@@ -103,9 +99,3 @@ Sim, você pode gerenciar interações e comportamentos de objetos OLE nos slide
 No mundo das apresentações, a capacidade de aproveitar o poder dos quadros de objetos OLE pode elevar seu conteúdo a novos patamares de interatividade e envolvimento. Aspose.Slides for .NET simplifica o processo de acesso e manipulação de quadros de objetos OLE, permitindo integrar perfeitamente o conteúdo de outros aplicativos e enriquecer suas apresentações. Seguindo o guia passo a passo e utilizando os exemplos de código fornecidos, você desbloqueará um mundo de possibilidades para slides dinâmicos e cativantes.
 
 Libere o potencial dos quadros de objetos OLE com Aspose.Slides e transforme suas apresentações em experiências interativas que cativam a atenção do público.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

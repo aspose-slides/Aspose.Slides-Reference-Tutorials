@@ -3,14 +3,10 @@ title: Konvertera presentation till HTML med Bädda in alla teckensnitt i Java S
 linktitle: Konvertera presentation till HTML med Bädda in alla teckensnitt i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du konverterar presentationer till HTML med inbäddade typsnitt med Aspose.Slides för Java. Denna steg-för-steg-guide säkerställer konsekvent formatering för sömlös delning.
+type: docs
 weight: 13
 url: /sv/java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introduktion till konvertering av presentation till HTML med Bädda in alla teckensnitt i Java Slides
 
@@ -112,9 +108,3 @@ Ja, den här metoden fungerar för presentationer med komplext innehåll, inklus
 ### Var kan jag hitta mer resurser och dokumentation för Aspose.Slides för Java?
 
  Du kan få tillgång till omfattande dokumentation och resurser för Aspose.Slides för Java på[Aspose.Slides för Java API-referenser](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

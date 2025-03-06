@@ -3,14 +3,10 @@ title: Crea splendide forme di schizzo con Aspose.Slides
 linktitle: Creazione di forme di schizzo nelle diapositive della presentazione con Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come aggiungere forme di schizzo creative alle diapositive della presentazione utilizzando Aspose.Slides per .NET. Migliora l'attrattiva visiva senza sforzo!
+type: docs
 weight: 13
 url: /it/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## introduzione
 Benvenuti nella nostra guida passo passo sulla creazione di forme di schizzo nelle diapositive di presentazione utilizzando Aspose.Slides per .NET. Se vuoi aggiungere un tocco di creatività alle tue presentazioni, le forme abbozzate forniscono un'estetica unica e disegnata a mano. In questo tutorial ti guideremo attraverso il processo, suddividendolo in semplici passaggi per garantire un'esperienza fluida.
 ## Prerequisiti
@@ -78,9 +74,3 @@ L'aggiunta di forme di schizzo alle diapositive della presentazione può miglior
  Per acquistare Aspose.Slides per .NET, visitare il sito[pagina di acquisto](https://purchase.aspose.com/buy).
 ### 5. Offrite licenze temporanee?
  Sì, sono disponibili licenze temporanee[Qui](https://purchase.aspose.com/temporary-license/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Chuyển đổi bản trình bày sang HTML bằng cách nhúng tất c�
 linktitle: Chuyển đổi bản trình bày sang HTML bằng cách nhúng tất cả các phông chữ trong trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách chuyển đổi bản trình bày sang HTML bằng phông chữ được nhúng bằng Aspose.Slides cho Java. Hướng dẫn từng bước này đảm bảo định dạng nhất quán để chia sẻ liền mạch.
+type: docs
 weight: 13
 url: /vi/java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Giới thiệu Chuyển đổi bản trình bày sang HTML bằng cách nhúng tất cả phông chữ vào trang trình bày Java
 
@@ -112,9 +108,3 @@ Có, phương pháp này áp dụng cho các bản trình bày có nội dung ph
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Slides cho Java ở đâu?
 
  Bạn có thể truy cập tài liệu và tài nguyên toàn diện cho Aspose.Slides for Java tại[Aspose.Slides cho tài liệu tham khảo API Java](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

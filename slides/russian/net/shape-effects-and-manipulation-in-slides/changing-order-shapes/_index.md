@@ -3,14 +3,10 @@ title: Изменение формы слайдов презентации с п
 linktitle: Изменение порядка фигур в слайдах презентации с помощью Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как изменить форму слайдов презентации с помощью Aspose.Slides для .NET. Следуйте этому пошаговому руководству, чтобы изменить порядок фигур и повысить визуальную привлекательность.
+type: docs
 weight: 26
 url: /ru/net/shape-effects-and-manipulation-in-slides/changing-order-shapes/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Введение
 Создание визуально привлекательных слайдов презентации — важнейший аспект эффективной коммуникации. Aspose.Slides for .NET дает разработчикам возможность программно манипулировать слайдами, предлагая широкий спектр функций. В этом уроке мы углубимся в процесс изменения порядка фигур на слайдах презентации с помощью Aspose.Slides для .NET.
 ## Предварительные условия
@@ -74,9 +70,3 @@ Aspose.Slides для .NET упрощает задачу программного
  А: Посетите[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) чтобы получить поддержку и взаимодействовать с сообществом.
 ### Вопрос: Как я могу получить временную лицензию на Aspose.Slides для .NET?
  О: Вы можете приобрести[временная лицензия](https://purchase.aspose.com/temporary-license/) в целях оценки.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

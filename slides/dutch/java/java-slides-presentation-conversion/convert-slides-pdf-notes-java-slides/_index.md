@@ -3,14 +3,10 @@ title: Converteer dia's naar PDF met notities in Java-dia's
 linktitle: Converteer dia's naar PDF met notities in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-dia's naar PDF kunt converteren met notities in Java met behulp van Aspose.Slides voor Java. Stapsgewijze handleiding voor Java-ontwikkelaars. Verbeter het delen van uw presentaties.
+type: docs
 weight: 19
 url: /nl/java/presentation-conversion/convert-slides-pdf-notes-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Inleiding tot het converteren van dia's naar PDF met notities in Java
 
@@ -128,9 +124,3 @@ Zeker! U kunt de dia's in uw presentatie doorlopen en ze naar de nieuwe presenta
 ### Waar kan ik meer documentatie vinden voor Aspose.Slides voor Java?
 
  U kunt gedetailleerde documentatie voor Aspose.Slides voor Java vinden op de site:[Aspose.Slides voor Java API-referentie](https://reference.aspose.com/slides/java/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

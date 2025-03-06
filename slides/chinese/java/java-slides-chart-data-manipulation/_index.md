@@ -3,14 +3,10 @@ title: Java 幻灯片图表数据处理
 linktitle: Java 幻灯片图表数据处理
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 解锁 Java Slides 图表数据处理功能。轻松创建令人惊叹的视觉效果和见解。
+type: docs
 weight: 11
 url: /zh/java/chart-data-manipulation/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 您准备好将基于 Java 的幻灯片演示提升到一个新的水平了吗？使用 Aspose.Slides for Java，您可以毫不费力地处理图表数据，创建视觉上令人惊叹且富有洞察力的演示文稿，吸引观众。在本文中，我们将探讨 Aspose.Slides 如何帮助 Java 开发人员制作出栩栩如生的数据驱动图表。
 
 ## 了解 Java 版 Aspose.Slides
@@ -58,9 +54,3 @@ Aspose.Slides for Java 允许您创建交互式视觉效果，以用户友好的
 通过 Aspose.Slides 分步教程学习如何在 Java Slides 中创建出色的组织结构图。轻松自定义和可视化您的组织结构。
 ### [Java 幻灯片中的饼图](./pie-chart-java-slides/)
 了解如何使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中创建令人惊叹的饼图。为 Java 开发人员提供带有源代码的分步指南。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

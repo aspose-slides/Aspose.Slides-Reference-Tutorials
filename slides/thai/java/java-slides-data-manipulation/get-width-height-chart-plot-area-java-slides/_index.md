@@ -3,14 +3,10 @@ title: รับความกว้างและความสูงจา�
 linktitle: รับความกว้างและความสูงจากพื้นที่แปลงแผนภูมิใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีดึงข้อมูลขนาดพื้นที่ลงจุดแผนภูมิใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java พัฒนาทักษะการทำงานอัตโนมัติของ PowerPoint ของคุณ
+type: docs
 weight: 21
 url: /th/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## การแนะนำ
 
@@ -113,10 +109,3 @@ finally
 ### ฉันจะเรียนรู้เพิ่มเติมเกี่ยวกับ Aspose.Slides สำหรับ Java ได้อย่างไร
 
  คุณสามารถค้นหาเอกสารและตัวอย่างที่ครอบคลุมได้ที่หน้าเอกสารประกอบของ Aspose.Slides สำหรับ Java[ที่นี่](https://reference.aspose.com/slides/java/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

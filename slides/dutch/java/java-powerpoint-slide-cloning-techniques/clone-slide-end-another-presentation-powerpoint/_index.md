@@ -3,14 +3,10 @@ title: Kloon dia aan het einde van een andere presentatie
 linktitle: Kloon dia aan het einde van een andere presentatie
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u een dia aan het einde van een andere presentatie kunt klonen met Aspose.Slides voor Java in deze uitgebreide stapsgewijze zelfstudie.
+type: docs
 weight: 11
 url: /nl/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-presentation-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Invoering
 Bent u ooit in een situatie terechtgekomen waarin u dia's uit meerdere PowerPoint-presentaties moest samenvoegen? Het kan nogal een gedoe zijn, toch? Nou, niet meer! Aspose.Slides voor Java is een krachtige bibliotheek die het manipuleren van PowerPoint-presentaties een fluitje van een cent maakt. In deze zelfstudie leiden we u door het proces van het klonen van een dia uit de ene presentatie en het toevoegen ervan aan het einde van een andere presentatie met behulp van Aspose.Slides voor Java. Geloof me, aan het einde van deze handleiding beheert u uw presentaties als een professional!
 ## Vereisten
@@ -85,9 +81,3 @@ Aspose.Slides voor Java is een commercieel product, maar u kunt er een gratis pr
 Nee, zodra u de bibliotheek heeft gedownload, heeft u geen internetverbinding nodig om deze te gebruiken.
 ### Waar kan ik ondersteuning krijgen als ik problemen tegenkom?
  U kunt ondersteuning krijgen van de Aspose-communityforums[hier](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

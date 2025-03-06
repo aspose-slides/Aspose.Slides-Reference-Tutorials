@@ -3,14 +3,10 @@ title: Λάβετε πληροφορίες μορφής αρχείου σε δι
 linktitle: Λάβετε πληροφορίες μορφής αρχείου σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ανακτάτε πληροφορίες μορφής αρχείου σε Java Slides χρησιμοποιώντας το Aspose.Slides for Java API. Προσδιορίστε μορφές παρουσίασης με παραδείγματα κώδικα.
+type: docs
 weight: 11
 url: /el/java/additional-utilities/get-file-format-information-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Εισαγωγή στη λήψη πληροφοριών μορφής αρχείου σε διαφάνειες Java
 
@@ -117,9 +113,3 @@ switch (info.getLoadFormat())
 ### Πώς μπορώ να επικοινωνήσω με την υποστήριξη της Aspose για βοήθεια;
 
 Μπορείτε να επικοινωνήσετε με την υποστήριξη της Aspose μέσω του ιστότοπού της. Παρέχουν ειδικά κανάλια υποστήριξης για να σας βοηθήσουν με τυχόν απορίες ή προβλήματα που μπορεί να αντιμετωπίσετε κατά τη χρήση των προϊόντων τους.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

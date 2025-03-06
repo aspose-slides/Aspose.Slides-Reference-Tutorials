@@ -3,14 +3,10 @@ title: Encontre a forma no slide
 linktitle: Encontre a forma no slide
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Encontre facilmente formas em slides do PowerPoint com Aspose.Slides for Java. Siga nosso guia passo a passo para uma experiência de codificação perfeita.
+type: docs
 weight: 14
 url: /pt/java/java-powerpoint-shape-formatting-geometry/find-shape-slide-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introdução
 Você está cansado de vasculhar os slides do PowerPoint para encontrar formas específicas? Imagine ser capaz de automatizar esse processo sem esforço com apenas algumas linhas de código. Bem-vindo ao nosso guia detalhado sobre como usar Aspose.Slides for Java para localizar formas em seus arquivos de apresentação. Neste tutorial, detalharemos as etapas necessárias para encontrar formas em um slide usando Aspose.Slides for Java, desde a configuração do seu ambiente até a execução do código.
 ## Pré-requisitos
@@ -88,9 +84,3 @@ Sim, Aspose.Slides oferece suporte a vários formatos de arquivo, incluindo .ppt
  Sim, você pode obter um teste gratuito em[Página de teste gratuito do Aspose](https://releases.aspose.com/).
 ### Onde posso obter suporte para Aspose.Slides?
  Você pode encontrar suporte no[Fórum Aspose Slides](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

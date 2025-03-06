@@ -3,14 +3,10 @@ title: Obtenha largura e altura da área de plotagem do gráfico em slides Java
 linktitle: Obtenha largura e altura da área de plotagem do gráfico em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como recuperar dimensões da área de plotagem do gráfico em Java Slides usando Aspose.Slides for Java. Aprimore suas habilidades de automação do PowerPoint.
+type: docs
 weight: 21
 url: /pt/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Introdução
 
@@ -113,10 +109,3 @@ Sim, Aspose.Slides for Java é uma biblioteca poderosa para automatizar tarefas 
 ### Como posso aprender mais sobre Aspose.Slides para Java?
 
  Você pode encontrar documentação extensa e exemplos na página de documentação Aspose.Slides for Java[aqui](https://reference.aspose.com/slides/java/).
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: 使用 Java 識別 PowerPoint 表格中的合併儲存格
 linktitle: 使用 Java 識別 PowerPoint 表格中的合併儲存格
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 以程式設計方式識別 PowerPoint 表格中的合併儲存格。非常適合 Java 開發人員。
+type: docs
 weight: 15
 url: /zh-hant/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介紹
 在 Java 開發領域，以程式設計方式操作 PowerPoint 簡報可能是一項至關重要的任務，尤其是在處理複雜的資料表時。 Aspose.Slides for Java 提供了一個強大的工具包，使開發人員能夠無縫管理 PowerPoint 簡報的各個方面。開發人員面臨的一項常見挑戰是識別簡報中嵌入的表格內的合併儲存格。本教學課程旨在引導您完成使用 Aspose.Slides for Java 識別合併儲存格的過程。
 ## 先決條件
@@ -71,9 +67,3 @@ Aspose.Slides for Java 是一個功能強大的函式庫，用於使用 Java 以
 文件可以找到[這裡](https://reference.aspose.com/slides/java/).
 ### 我如何獲得 Aspose.Slides for Java 的支援？
 如需支持，請造訪 Aspose.Slides 論壇[這裡](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

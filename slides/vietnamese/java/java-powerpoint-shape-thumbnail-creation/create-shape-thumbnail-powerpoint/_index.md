@@ -3,14 +3,10 @@ title: Tạo hình thu nhỏ hình dạng trong PowerPoint
 linktitle: Tạo hình thu nhỏ hình dạng trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo hình thu nhỏ hình dạng trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn từng bước được cung cấp.
+type: docs
 weight: 14
 url: /vi/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-powerpoint/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào việc tạo hình thu nhỏ hình dạng trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Aspose.Slides là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp PowerPoint theo chương trình, cho phép tự động hóa các tác vụ khác nhau, bao gồm cả việc tạo hình thu nhỏ hình dạng.
 ## Điều kiện tiên quyết
@@ -64,9 +60,3 @@ Có, ngoài PNG, Aspose.Slides hỗ trợ lưu hình thu nhỏ ở nhiều đị
  Tuyệt đối! Bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Slides từ[đây](https://releases.aspose.com/) để đánh giá các tính năng và khả năng của nó.
 ### Tôi có thể tìm hỗ trợ cho Aspose.Slides ở đâu?
  Nếu bạn có bất kỳ câu hỏi nào hoặc cần hỗ trợ với Aspose.Slides, bạn có thể truy cập[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để hỗ trợ.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

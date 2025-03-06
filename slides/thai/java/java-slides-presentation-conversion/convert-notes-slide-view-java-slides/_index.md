@@ -3,14 +3,10 @@ title: แปลงมุมมองสไลด์ Notes ใน Java Slides
 linktitle: แปลงมุมมองสไลด์ Notes ใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีแปลงมุมมองสไลด์บันทึกย่อใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมตัวอย่างโค้ดเพื่อการจัดการ PowerPoint ที่มีประสิทธิภาพ
+type: docs
 weight: 15
 url: /th/java/presentation-conversion/convert-notes-slide-view-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการแปลงมุมมองสไลด์ Notes ใน Java Slides โดยใช้ Aspose.Slides
 
@@ -105,10 +101,3 @@ Aspose.Slides ได้รับการออกแบบมาเพื่อ
 ### ฉันจะหาตัวอย่างโค้ดและบทช่วยสอนเพิ่มเติมสำหรับ Aspose.Slides สำหรับ Java ได้ที่ไหน
 
  คุณสามารถค้นหาตัวอย่างโค้ดและบทช่วยสอนมากมายได้ใน[Aspose.Slides สำหรับเอกสาร Java](https://reference.aspose.com/slides/java/)สำรวจเอกสารประกอบเพื่อเรียนรู้เพิ่มเติมเกี่ยวกับความสามารถของไลบรารีอันทรงพลังนี้
-
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

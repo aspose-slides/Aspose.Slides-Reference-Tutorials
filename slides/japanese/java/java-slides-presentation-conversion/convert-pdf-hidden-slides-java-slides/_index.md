@@ -3,14 +3,10 @@ title: Java スライドで非表示スライドを PDF に変換する
 linktitle: Java スライドで非表示スライドを PDF に変換する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションを非表示のスライドを含む PDF に変換する方法を学びます。ソース コードを含むステップ バイ ステップ ガイドに従って、シームレスな PDF 生成を実現してください。
+type: docs
 weight: 27
 url: /ja/java/presentation-conversion/convert-pdf-hidden-slides-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for Java を使用して PowerPoint プレゼンテーションを非表示スライド付きの PDF に変換する方法の紹介
 
@@ -119,9 +115,3 @@ slide.setHidden(false);
 ### Aspose.Slides for Java をダウンロードするにはどうすればいいですか?
 
 Aspose.Slides for JavaはAsposeのWebサイトからダウンロードできます。[Aspose.Slides for Java のダウンロード ページ](https://releases.aspose.com/slides/java/)最新バージョンを入手してください。
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

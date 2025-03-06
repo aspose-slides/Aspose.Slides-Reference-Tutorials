@@ -3,14 +3,10 @@ title: Java Slaytlarında Lider Çizgi Rengi
 linktitle: Java Slaytlarında Lider Çizgi Rengi
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint grafiklerinde öncü çizgi renklerini nasıl değiştireceğinizi öğrenin. Kaynak kodu örnekleriyle adım adım kılavuz.
+type: docs
 weight: 12
 url: /tr/java/data-manipulation/leader-line-color-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Aspose.Slides for Java'da Lider Çizgi Rengine Giriş
 
@@ -120,9 +116,3 @@ Soru sorabileceğiniz, sorunları bildirebileceğiniz ve Aspose topluluğuyla et
 ### Aspose.Slides for Java'yı diğer Java kütüphaneleri ve çerçeveleriyle birlikte kullanabilir miyim?
 
 Evet, projenizin gerektirdiği şekilde Aspose.Slides for Java'yı diğer Java kütüphaneleri ve çerçeveleriyle entegre edebilirsiniz. Aspose.Slides, çeşitli PowerPoint özellikleriyle çalışmak için API'ler sağlayarak, güçlü uygulamalar oluşturmak için onu diğer araç ve teknolojilerle birleştirmeyi mümkün kılar.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

@@ -3,14 +3,10 @@ title: Získejte souřadnice pozice části v Java Slides
 linktitle: Získejte souřadnice pozice části v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se získávat souřadnice textové části ve snímcích Java pomocí Aspose.Slides for Java API. Získejte přesnou kontrolu nad umístěním textu v prezentacích PowerPoint.
+type: docs
 weight: 12
 url: /cs/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 ## Úvod k získání souřadnic polohy části v Java Slides
 
@@ -124,9 +120,3 @@ Ano, Aspose.Slides for Java podporuje různé formáty souborů PowerPoint, vče
 ### Jak mohu získat další podporu nebo pomoc s Aspose.Slides for Java?
 
 další podpoře a zdrojům máte přístup na webu Aspose. Poskytují uživatelům fóra, dokumentaci a možnosti prémiové podpory.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

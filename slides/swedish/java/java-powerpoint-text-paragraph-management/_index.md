@@ -3,14 +3,10 @@ title: Java PowerPoint-text- och styckehantering
 linktitle: Java PowerPoint-text- och styckehantering
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Bemästra Java PowerPoint-text- och styckehantering med Aspose.Slides. Lär dig att importera HTML-text, hantera radavstånd, skapa punkter och justera stycken.
+type: docs
 weight: 26
 url: /sv/java/java-powerpoint-text-paragraph-management/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 
 Att skapa välstrukturerade och visuellt tilltalande PowerPoint-presentationer kan förbättra din kommunikation avsevärt. Med Aspose.Slides för Java blir det en enkel uppgift att hantera text och stycken. Oavsett om du behöver importera HTML-text, hantera radavstånd eller skapa flernivåpunkter, kommer våra detaljerade självstudiekurser att guida dig genom processen. Låt oss utforska hur du kan ta dina Java PowerPoint-presentationer till nästa nivå.
@@ -59,9 +55,3 @@ Lär dig hur du lägger till styckepunkter i PowerPoint-bilder med Aspose.Slides
 Lär dig hur du ställer in styckeindrag i PowerPoint-bilder programmatiskt med Aspose.Slides för Java. Förbättra din presentationsformatering utan ansträngning.
 ### [Justera stycken i PowerPoint med Java](./align-paragraphs-powerpoint-java/)
 Lär dig hur du anpassar stycken i PowerPoint-presentationer med Aspose.Slides för Java. Följ vår steg-för-steg-guide för exakt formatering.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

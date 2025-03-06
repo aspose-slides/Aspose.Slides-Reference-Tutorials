@@ -3,14 +3,10 @@ title: محاذاة الفقرات في PowerPoint باستخدام Java
 linktitle: محاذاة الفقرات في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية محاذاة الفقرات في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. اتبع دليلنا خطوة بخطوة للتنسيق الدقيق.
+type: docs
 weight: 17
 url: /ar/java/java-powerpoint-text-paragraph-management/align-paragraphs-powerpoint-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## مقدمة
 ستتعلم في هذا البرنامج التعليمي كيفية محاذاة الفقرات في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تعمل المحاذاة الصحيحة للنص داخل الشرائح على تحسين سهولة القراءة والجاذبية الجمالية، مما يجعل عروضك التقديمية أكثر احترافية وجاذبية. سيرشدك هذا الدليل خلال الخطوات المطلوبة لمحاذاة الفقرات إلى المنتصف برمجيًا، مما يضمن إمكانية تحقيق تنسيق متسق عبر الشرائح دون عناء.
 ## المتطلبات الأساسية
@@ -76,9 +72,3 @@ pres.save(dataDir + "Centeralign_out.pptx", SaveFormat.Pptx);
 يدعم Aspose.Slides مجموعة واسعة من تنسيقات PowerPoint، مما يضمن التوافق عبر الإصدارات المختلفة.
 ### هل يمكنني تجربة Aspose.Slides قبل الشراء؟
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

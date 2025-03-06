@@ -3,14 +3,10 @@ title: 使用 Java 合并 PowerPoint 表格中的单元格
 linktitle: 使用 Java 合并 PowerPoint 表格中的单元格
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 合并 PowerPoint 表格中的单元格。通过本分步指南增强您的演示文稿布局。
+type: docs
 weight: 17
 url: /zh/java/java-powerpoint-table-manipulation/merge-cells-powerpoint-table-java/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## 介绍
 在本教程中，您将学习如何使用 Aspose.Slides for Java 有效地合并 PowerPoint 表格中的单元格。Aspose.Slides 是一个功能强大的库，允许开发人员以编程方式创建、操作和转换 PowerPoint 演示文稿。通过合并表格中的单元格，您可以自定义演示文稿幻灯片的布局和结构，从而提高清晰度和视觉吸引力。
 ## 先决条件
@@ -96,9 +92,3 @@ Aspose.Slides for Java 是一个 Java API，用于以编程方式创建、操作
 您可以找到文档[这里](https://reference.aspose.com/slides/java/).
 ### 如何获得 Aspose.Slides for Java 的支持？
 您可以从 Aspose.Slides 社区论坛获得支持[这里](https://forum.aspose.com/c/slides/11).
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

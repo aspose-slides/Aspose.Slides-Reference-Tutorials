@@ -3,14 +3,10 @@ title: Konversi Presentasi HTML dengan Gambar Tersemat
 linktitle: Konversi Presentasi HTML dengan Gambar Tersemat
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengonversi presentasi PowerPoint ke HTML dengan gambar yang disematkan menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah untuk konversi yang lancar.
+type: docs
 weight: 11
 url: /id/net/presentation-conversion/convert-html-presentation-with-embedded-images/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 
 Di dunia digital saat ini, kebutuhan untuk mengubah presentasi PowerPoint ke HTML menjadi semakin penting. Baik untuk berbagi konten online atau membuat presentasi berbasis web, kemampuan untuk mengonversi file PowerPoint Anda ke HTML dapat menjadi aset berharga. Aspose.Slides for .NET adalah perpustakaan canggih yang memungkinkan Anda melakukan konversi tersebut dengan lancar. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses mengonversi presentasi HTML dengan gambar yang disematkan menggunakan Aspose.Slides untuk .NET.
 
@@ -119,9 +115,3 @@ Aspose.Slides for .NET mendukung konversi presentasi dengan berbagai elemen, ter
 
 ### Format apa lagi yang bisa saya gunakan untuk mengonversi presentasi PowerPoint menggunakan Aspose.Slides untuk .NET?
 Aspose.Slides untuk .NET mendukung konversi ke berbagai format, termasuk PDF, gambar, dan lainnya. Periksa dokumentasi untuk daftar lengkap format yang didukung.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}

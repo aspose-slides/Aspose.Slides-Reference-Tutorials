@@ -3,14 +3,10 @@ title: Java PowerPoint-animering och effekter
 linktitle: Java PowerPoint-animering och effekter
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Bemästra Java PowerPoint-animationer och effekter med våra omfattande handledningar. Lär dig att lägga till animationer, yttre och inre skuggor med Aspose.Slides för Java.
+type: docs
 weight: 22
 url: /sv/java/java-powerpoint-animation-effects/
 ---
-
-{< blocks/products/pf/main-wrap-class >}
-{< blocks/products/pf/main-container >}
-{< blocks/products/pf/tutorial-page-section >}
-
 ## Introduktion
 
 Java PowerPoint-presentationer kan vara dynamiska och visuellt fantastiska med rätt animationer och effekter. Med Aspose.Slides för Java har du ett kraftfullt verktyg till ditt förfogande för att förbättra dina bilder. Oavsett om du är nybörjare eller avancerad användare, hjälper våra tutorials dig att bemästra konsten att lägga till animationer och skuggeffekter till dina PowerPoint-presentationer. Låt oss dyka in i dessa handledningar och se hur du kan höja dina bilder!
@@ -39,9 +35,3 @@ Lär dig hur du enkelt applicerar yttre skuggeffekter i Java PowerPoint-presenta
 Lär dig hur du applicerar inre skuggeffekter på former i Java PowerPoint-presentationer med Aspose.Slides. Förbättra dina bilder med denna steg-för-steg-guide.
 ### [Applicera Outer Shadow i PowerPoint med Java](./apply-outer-shadow-powerpoint-java/)
 Lär dig hur du applicerar yttre skuggeffekt i PowerPoint med Java med Aspose.Slides. Förbättra dina presentationer med djup och visuell tilltalande.
-{< /blocks/products/pf/tutorial-page-section >}
-
-{< /blocks/products/pf/main-container >}
-{< /blocks/products/pf/main-wrap-class >}
-
-{< blocks/products/products-backtop-button >}
