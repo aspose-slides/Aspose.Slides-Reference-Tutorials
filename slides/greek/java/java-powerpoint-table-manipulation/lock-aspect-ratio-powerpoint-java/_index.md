@@ -3,10 +3,16 @@ title: Κλείδωμα αναλογίας διαστάσεων στο PowerPoin
 linktitle: Κλείδωμα αναλογίας διαστάσεων στο PowerPoint χρησιμοποιώντας Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να κλειδώνετε την αναλογία διαστάσεων σε παρουσιάσεις PowerPoint χρησιμοποιώντας Java με Aspose.Slides. Ιδανικό για προγραμματιστές Java που θέλουν ακριβή έλεγχο στη σχεδίαση διαφανειών.
-type: docs
 weight: 16
 url: /el/java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Κλείδωμα αναλογίας διαστάσεων στο PowerPoint χρησιμοποιώντας Java
+
 ## Εισαγωγή
 Στον τομέα της ανάπτυξης Java, ο χειρισμός των παρουσιάσεων του PowerPoint μέσω προγραμματισμού μπορεί να βελτιστοποιήσει τις ροές εργασίας και να βελτιώσει σημαντικά την παραγωγικότητα. Το Aspose.Slides for Java προσφέρει μια ισχυρή εργαλειοθήκη για προγραμματιστές Java για την αυτοματοποίηση εργασιών όπως η τροποποίηση διαφανειών, η προσθήκη περιεχομένου και η εφαρμογή μορφοποίησης απευθείας από κώδικα Java. Αυτό το σεμινάριο εστιάζει σε μια θεμελιώδη πτυχή της διαχείρισης παρουσιάσεων του PowerPoint: το κλείδωμα των αναλογιών διαστάσεων.
 ## Προαπαιτούμενα
@@ -61,3 +67,9 @@ pres.save(dataDir + "pres-out.pptx", SaveFormat.Pptx);
  Μπορείτε να αναζητήσετε υποστήριξη από την κοινότητα Aspose.Slides[εδώ](https://forum.aspose.com/c/slides/11).
 ### Πώς μπορώ να δοκιμάσω το Aspose.Slides για Java πριν το αγοράσω;
  Μπορείτε να αποκτήσετε μια δωρεάν δοκιμαστική έκδοση[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

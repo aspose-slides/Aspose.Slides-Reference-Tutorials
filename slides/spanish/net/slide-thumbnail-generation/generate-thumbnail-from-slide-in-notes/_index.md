@@ -3,10 +3,16 @@ title: Generar miniatura a partir de diapositivas en Notas
 linktitle: Generar miniatura a partir de diapositivas en Notas
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a generar miniaturas de diapositivas en la sección de notas de su presentación usando Aspose.Slides para .NET. ¡Mejora tu contenido visual!
-type: docs
 weight: 12
 url: /es/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generar miniatura a partir de diapositivas en Notas
+
 
 En el mundo de las presentaciones modernas, el contenido visual es el rey. Crear diapositivas atractivas es esencial para una comunicación eficaz. Una forma de mejorar sus presentaciones es generando miniaturas a partir de diapositivas, especialmente cuando desea enfatizar detalles específicos o compartir una descripción general. Aspose.Slides para .NET es una herramienta poderosa que puede ayudarlo a lograr esto sin problemas. En esta guía paso a paso, lo guiaremos a través del proceso de generar miniaturas de diapositivas en la sección de notas de una presentación usando Aspose.Slides para .NET.
 
@@ -114,3 +120,9 @@ Sí, Aspose.Slides para .NET es compatible con varios marcos .NET, incluidos .NE
 
 ### ¿Dónde puedo obtener soporte o ayuda adicional con Aspose.Slides para .NET?
  Puede encontrar ayuda e interactuar con la comunidad de Aspose en el[Foro de soporte de Aspose](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

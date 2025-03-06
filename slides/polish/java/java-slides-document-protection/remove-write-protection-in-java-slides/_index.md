@@ -3,10 +3,16 @@ title: Usuń ochronę przed zapisem w slajdach Java
 linktitle: Usuń ochronę przed zapisem w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak usunąć ochronę przed zapisem w prezentacjach Java Slides przy użyciu Aspose.Slides for Java. Przewodnik krok po kroku z dołączonym kodem źródłowym.
-type: docs
 weight: 10
 url: /pl/java/document-protection/remove-write-protection-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Usuń ochronę przed zapisem w slajdach Java
+
 
 ## Wprowadzenie do usuwania ochrony przed zapisem w slajdach Java
 
@@ -108,3 +114,9 @@ Tak, programowe usuwanie ochrony przed zapisem powinno być wykonywane ostrożni
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Slides dla Java?
 
  Możesz zapoznać się z dokumentacją Aspose.Slides for Java pod adresem[Tutaj](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

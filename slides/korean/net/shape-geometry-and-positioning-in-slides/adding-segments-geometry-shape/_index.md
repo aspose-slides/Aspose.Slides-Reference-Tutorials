@@ -3,10 +3,16 @@ title: 비주얼 마스터하기 - .NET에서 Aspose.Slides를 사용하여 세�
 linktitle: Aspose.Slides를 사용하여 프레젠테이션의 기하학 모양에 세그먼트 추가
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides를 사용하여 .NET 애플리케이션을 향상시키는 방법을 알아보세요. 이 튜토리얼에서는 매력적인 프레젠테이션을 위해 기하학 모양에 세그먼트를 추가하는 방법을 안내합니다.
-type: docs
 weight: 13
 url: /ko/net/shape-geometry-and-positioning-in-slides/adding-segments-geometry-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 비주얼 마스터하기 - .NET에서 Aspose.Slides를 사용하여 세그먼트 추가
+
 ## 소개
 .NET 개발 세계에서는 시각적으로 매력적인 프레젠테이션을 만드는 것이 일반적인 요구 사항입니다. Aspose.Slides for .NET은 강력한 프레젠테이션 생성 기능을 .NET 애플리케이션에 원활하게 통합할 수 있게 해주는 강력한 라이브러리입니다. 이 튜토리얼은 프리젠테이션 디자인의 특정 측면, 즉 기하학적 모양에 세그먼트를 추가하는 데 중점을 둡니다.
 ## 전제 조건
@@ -72,3 +78,9 @@ pres.Save(resultPath, SaveFormat.Pptx);
  탐색[선적 서류 비치](https://reference.aspose.com/slides/net/) 포괄적인 가이드와 예시를 보려면
 ### 구매하기 전에 Aspose.Slides를 무료로 사용해 볼 수 있나요?
  예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

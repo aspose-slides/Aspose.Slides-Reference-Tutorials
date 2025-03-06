@@ -3,10 +3,16 @@ title: Nastavení prezentace prezentace v aplikaci Java Slides
 linktitle: Nastavení prezentace prezentace v aplikaci Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimalizujte svou prezentaci Java pomocí Aspose.Slides. Vytvářejte poutavé prezentace s přizpůsobeným nastavením. Prozkoumejte podrobné průvodce a často kladené dotazy.
-type: docs
 weight: 16
 url: /cs/java/presentation-properties/presentation-slide-show-setup-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavení prezentace prezentace v aplikaci Java Slides
+
 
 ## Úvod do nastavení prezentace prezentace v aplikaci Java Slides
 
@@ -146,3 +152,9 @@ V tomto tutoriálu jsme se naučili, jak nastavit prezentaci prezentace v Javě 
 ### Jak mohu dále upravit nastavení prezentace?
 
  Můžete prozkoumat další nastavení prezentace, která poskytuje Aspose.Slides pro Java, a přizpůsobit tak prezentaci vašim potřebám. Podívejte se na dokumentaci na[tady](https://reference.aspose.com/slides/java/) pro podrobné informace o dostupných možnostech a konfiguracích.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Generate SVG with Custom Shape IDs in Presentations
 linktitle: Generate SVG with Custom Shape IDs in Presentations
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Generate engaging presentations with custom SVG shapes and IDs using Aspose.Slides for .NET. Learn how to create interactive slides step by step with source code examples. Enhance visual appeal and user interaction in your presentations.
-type: docs
 weight: 19
 url: /net/presentation-manipulation/generate-svg-with-custom-shape-ids-in-presentations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generate SVG with Custom Shape IDs in Presentations
+
 
 Are you looking to harness the power of Aspose.Slides for .NET to generate SVG files with custom shape IDs? You're in the right place! In this step-by-step tutorial, we'll guide you through the process using the following source code snippet. By the end, you'll be well-equipped to create SVG files with custom shape IDs in your presentations.
 
@@ -79,3 +85,10 @@ And there you have it! You've successfully generated SVG files with custom shape
 
 Now, go ahead and explore the endless possibilities of SVG generation with Aspose.Slides for .NET. Happy coding!
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

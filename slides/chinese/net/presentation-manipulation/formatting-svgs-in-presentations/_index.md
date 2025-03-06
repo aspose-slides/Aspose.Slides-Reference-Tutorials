@@ -3,10 +3,16 @@ title: 在演示文稿中格式化 SVG
 linktitle: 在演示文稿中格式化 SVG
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 以令人惊叹的 SVG 优化您的演示文稿。逐步了解如何格式化 SVG 以获得具有影响力的视觉效果。立即提升您的演示水平！
-type: docs
 weight: 31
 url: /zh/net/presentation-manipulation/formatting-svgs-in-presentations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在演示文稿中格式化 SVG
+
 
 您是否希望使用引人注目的 SVG 形状来增强您的演示文稿？Aspose.Slides for .NET 可以成为您实现这一目标的终极工具。在本综合教程中，我们将引导您完成使用 Aspose.Slides for .NET 在演示文稿中格式化 SVG 形状的过程。按照提供的源代码进行操作，将您的演示文稿转变为具有视觉吸引力的杰作。
 
@@ -115,3 +121,10 @@ Aspose.Slides for .NET 主要为 C# 设计，但它也可以与其他 .NET 语�
 要创建具有视觉吸引力的演示文稿，请注重设计一致性、使用高质量图形，并保持内容简洁且引人入胜。尝试不同的格式选项，如本教程中所示。
 
 现在，继续应用这些技术来创建吸引观众的精彩演示文稿！
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

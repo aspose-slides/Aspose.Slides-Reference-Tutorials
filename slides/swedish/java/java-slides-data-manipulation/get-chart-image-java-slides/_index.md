@@ -3,10 +3,16 @@ title: Få diagrambild i Java Slides
 linktitle: Få diagrambild i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du skaffar diagrambilder i Java Slides med Aspose.Slides för Java. Den här steg-för-steg-guiden ger källkod och tips för sömlös integration.
-type: docs
 weight: 19
 url: /sv/java/data-manipulation/get-chart-image-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Få diagrambild i Java Slides
+
 
 ## Introduktion till Hämta diagrambild i Java Slides
 
@@ -92,3 +98,9 @@ Ja, Aspose.Slides för Java kan användas för kommersiella ändamål. Det ger l
 ### Kan jag spara diagrambilden i ett annat format?
 
  Säkert! Du kan spara diagrambilden i olika format, till exempel JPEG eller GIF, genom att ange lämplig filtillägg i`ImageIO.write` metod.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

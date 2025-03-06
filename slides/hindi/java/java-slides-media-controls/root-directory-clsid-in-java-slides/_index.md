@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में रूट निर्द
 linktitle: जावा स्लाइड्स में रूट निर्देशिका ClsId
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: जावा प्रस्तुतियों के लिए Aspose.Slides में रूट डायरेक्टरी ClsId सेट करना सीखें। CLSID के साथ हाइपरलिंक व्यवहार को अनुकूलित करें।
-type: docs
 weight: 10
 url: /hi/java/media-controls/root-directory-clsid-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में रूट निर्देशिका ClsId
+
 
 ## Aspose.Slides for Java में रूट डायरेक्टरी ClsId सेट करने का परिचय
 
@@ -107,3 +113,9 @@ try {
 ### क्या मेरे द्वारा उपयोग किये जा सकने वाले CLSID पर कोई सीमाएं हैं?
 
 आप जिन CLSID का उपयोग कर सकते हैं, वे आम तौर पर सिस्टम पर इंस्टॉल किए गए एप्लिकेशन द्वारा निर्धारित किए जाते हैं। आपको ऐसे CLSID का उपयोग करना चाहिए जो हाइपरलिंक को संभालने में सक्षम वैध एप्लिकेशन से मेल खाते हों। ध्यान रखें कि अमान्य CLSID का उपयोग करने से अप्रत्याशित व्यवहार हो सकता है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

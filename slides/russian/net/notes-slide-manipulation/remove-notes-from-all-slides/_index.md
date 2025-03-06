@@ -3,10 +3,16 @@ title: Удалить примечания со всех слайдов
 linktitle: Удалить примечания со всех слайдов
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как удалять заметки из слайдов PowerPoint с помощью Aspose.Slides для .NET. Сделайте ваши презентации более чистыми и профессиональными.
-type: docs
 weight: 13
 url: /ru/net/notes-slide-manipulation/remove-notes-from-all-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Удалить примечания со всех слайдов
+
 
 Если вы разработчик .NET и работаете с презентациями PowerPoint, вы можете столкнуться с необходимостью удалить примечания со всех слайдов презентации. Это может быть полезно, если вы хотите очистить слайды и удалить любую дополнительную информацию, не предназначенную для вашей аудитории. В этом пошаговом руководстве мы покажем вам процесс использования Aspose.Slides для .NET для эффективного решения этой задачи.
 
@@ -97,3 +103,9 @@ presentation.Save(dataDir + "PresentationWithoutNotes.pptx", SaveFormat.Pptx);
 ### 5. Поддерживает ли Aspose.Slides for .NET новейшие форматы PowerPoint?
 
 Да, Aspose.Slides for .NET поддерживает широкий спектр форматов PowerPoint, включая последние версии. Подробную информацию можно найти в документации.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

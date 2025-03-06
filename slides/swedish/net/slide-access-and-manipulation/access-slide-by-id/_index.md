@@ -3,10 +3,16 @@ title: Få åtkomst till Slide av Unique Identifier
 linktitle: Få åtkomst till Slide av Unique Identifier
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du kommer åt PowerPoint-bilder med unika identifierare med Aspose.Slides för .NET. Den här steg-för-steg-guiden täcker inläsning av presentationer, åtkomst till bilder efter index eller ID, modifiering av innehåll och spara ändringar.
-type: docs
 weight: 11
 url: /sv/net/slide-access-and-manipulation/access-slide-by-id/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Få åtkomst till Slide av Unique Identifier
+
 
 ## Introduktion till Aspose.Slides för .NET
 
@@ -112,3 +118,9 @@ Absolut. Oavsett om du arbetar med en enkel presentation med några bilder eller
 ### Var kan jag hitta mer detaljerad dokumentation och resurser?
 
  Du kan hitta omfattande dokumentation, kodexempel, handledning och mer på Aspose.Slides för .NET i[dokumentation](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

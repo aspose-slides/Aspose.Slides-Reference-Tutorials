@@ -3,10 +3,16 @@ title: A Java Slides diagramjának betűtípus tulajdonságai
 linktitle: A Java Slides diagramjának betűtípus tulajdonságai
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Javítsa a diagram betűtípus-tulajdonságait a Java Slides-ben az Aspose.Slides for Java segítségével. Testreszabhatja a betűméretet, stílust és színt a hatásos prezentációk érdekében.
-type: docs
 weight: 11
 url: /hu/java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A Java Slides diagramjának betűtípus tulajdonságai
+
 
 ## Bevezetés a Java Slides diagramjának betűtípus tulajdonságaiba
 
@@ -102,3 +108,9 @@ Ebben az oktatóanyagban megtanulta, hogyan szabhatja testre egy diagram betűt�
 ### Hogyan szabhatom testre a betűtípus tulajdonságait adott diagramelemekhez?
 
 Ha testre szeretné szabni a betűtípus tulajdonságait bizonyos diagramelemekhez, például a tengelycímkékhez vagy a jelmagyarázat szövegéhez, elérheti ezeket az elemeket, és beállíthatja a betűtípus tulajdonságait a fentiekhez hasonló módszerekkel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

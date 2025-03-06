@@ -3,10 +3,16 @@ title: Tampilan Slide dan Manipulasi Tata Letak di Aspose.Slides
 linktitle: Tampilan Slide dan Manipulasi Tata Letak di Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara memanipulasi tampilan slide dan tata letak di PowerPoint menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan contoh kode.
-type: docs
 weight: 10
 url: /id/net/slide-view-and-layout-manipulation/slide-view-and-layout-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tampilan Slide dan Manipulasi Tata Letak di Aspose.Slides
+
 
 Dalam dunia pengembangan perangkat lunak, membuat dan memanipulasi presentasi PowerPoint secara terprogram merupakan kebutuhan umum. Aspose.Slides for .NET menyediakan toolkit canggih yang memungkinkan pengembang bekerja dengan file PowerPoint dengan lancar. Salah satu aspek penting dalam bekerja dengan presentasi adalah tampilan slide dan manipulasi tata letak. Dalam panduan ini, kita akan mempelajari proses penggunaan Aspose.Slides untuk .NET untuk mengelola tampilan slide dan tata letak, menawarkan petunjuk langkah demi langkah dan contoh kode.
 
@@ -132,3 +138,10 @@ presentation.Save("modified.pptx", SaveFormat.Pptx);
 ## Kesimpulan
 
 Aspose.Slides untuk .NET menyederhanakan proses bekerja dengan presentasi PowerPoint secara terprogram. Dalam panduan ini, kita menjelajahi langkah-langkah dasar tampilan slide dan manipulasi tata letak. Dari memuat presentasi hingga menyesuaikan konten slide, Aspose.Slides menyediakan perangkat canggih bagi pengembang untuk membuat presentasi yang dinamis dan menarik dengan mudah.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

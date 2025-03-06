@@ -3,10 +3,16 @@ title: تحديد الخطوط المستخدمة في العرض التقديم
 linktitle: تحديد الخطوط المستخدمة في العرض التقديمي باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحديد الخطوط المخصصة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. قم بتحسين الشرائح الخاصة بك باستخدام الطباعة الفريدة دون عناء.
-type: docs
 weight: 22
 url: /ar/java/java-powerpoint-text-font-customization/specify-fonts-used-presentation-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحديد الخطوط المستخدمة في العرض التقديمي باستخدام Java
+
 ## مقدمة
 في العصر الرقمي الحالي، يعد إنشاء عروض تقديمية جذابة بصريًا أمرًا بالغ الأهمية للتواصل الفعال في مجال الأعمال والأوساط الأكاديمية على حدٍ سواء. يوفر Aspose.Slides for Java منصة قوية لمطوري Java لإنشاء عروض PowerPoint التقديمية ومعالجتها بشكل ديناميكي. سيرشدك هذا البرنامج التعليمي خلال عملية تحديد الخطوط المستخدمة في العرض التقديمي باستخدام Aspose.Slides for Java. في النهاية، ستكون مجهزًا بالمعرفة اللازمة لدمج الخطوط المخصصة بسلاسة في مشاريع PowerPoint الخاصة بك، مما يعزز جاذبيتها البصرية ويضمن اتساق العلامة التجارية.
 ## المتطلبات الأساسية
@@ -71,3 +77,9 @@ try {
 لا يفرض Aspose.Slides قيودًا صارمة على عدد الخطوط المخصصة؛ ومع ذلك، ضع في اعتبارك الآثار المترتبة على الأداء.
 ### هل يمكنني تحميل الخطوط ديناميكيًا في وقت التشغيل دون تضمينها في تطبيقي؟
 نعم، يمكنك تحميل الخطوط من مصادر خارجية أو من الذاكرة كما هو موضح في هذا البرنامج التعليمي.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

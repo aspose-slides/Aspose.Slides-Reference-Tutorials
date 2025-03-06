@@ -3,10 +3,16 @@ title: Dianézet és elrendezés-manipuláció
 linktitle: Dianézet és elrendezés-manipuláció
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Optimalizálja a dianézeteket és az elrendezéseket az Aspose.Slides dianézet és az elrendezés manipulációs oktatóanyagaival. Növelje a prezentáció hatását és a vizuális kiválóságot a hatékony .NET-eszközök segítségével.
-type: docs
 weight: 20
 url: /hu/net/slide-view-and-layout-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dianézet és elrendezés-manipuláció
+
 
 ## Bevezetés
 
@@ -29,3 +35,9 @@ Ismerje meg, hogyan kezelheti a prezentációkat normál nézetben az Aspose.Sli
 Ismerje meg, hogyan kapcsolhat össze videókat PowerPoint diákkal az Aspose.Slides for .NET segítségével. Ez a részletes útmutató forráskódot és tippeket tartalmaz az interaktív és lebilincselő prezentációk létrehozásához linkelt videókkal.
 ### [ActiveX-vezérlők kezelése a prezentációban](./manage-activex-control/)
 Ismerje meg, hogyan javíthatja a PowerPoint bemutatókat ActiveX-vezérlőkkel az Aspose.Slides for .NET segítségével. Lépésről lépésre szóló útmutatónk kiterjed a beillesztésre, a manipulációra, a testreszabásra, az eseménykezelésre és még sok másra.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

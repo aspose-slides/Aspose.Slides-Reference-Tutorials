@@ -3,10 +3,16 @@ title: Biểu đồ các đường xu hướng trong Java Slides
 linktitle: Biểu đồ các đường xu hướng trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm các đường xu hướng khác nhau vào Trang trình bày Java bằng Aspose.Slides cho Java. Hướng dẫn từng bước với các ví dụ về mã để trực quan hóa dữ liệu hiệu quả.
-type: docs
 weight: 15
 url: /vi/java/data-manipulation/chart-trend-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Biểu đồ các đường xu hướng trong Java Slides
+
 
 ## Giới thiệu về Đường xu hướng biểu đồ trong Trang trình bày Java: Hướng dẫn từng bước
 
@@ -190,3 +196,9 @@ Có, bạn có thể thêm nhiều đường xu hướng vào một chuỗi bi�
 ### Làm cách nào tôi có thể truy cập nhiều tài nguyên và ví dụ hơn cho Aspose.Slides cho Java?
 
  Bạn có thể truy cập các tài nguyên, tài liệu và ví dụ bổ sung cho Aspose.Slides cho Java trên[trang web giả định](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

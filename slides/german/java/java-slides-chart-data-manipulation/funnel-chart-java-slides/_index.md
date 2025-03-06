@@ -3,10 +3,16 @@ title: Trichterdiagramm in Java-Folien
 linktitle: Trichterdiagramm in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Trichterdiagramme in PowerPoint-Präsentationen erstellen. Schritt-für-Schritt-Anleitung mit Quellcode für eine effektive Datenvisualisierung.
-type: docs
 weight: 18
 url: /de/java/chart-data-manipulation/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trichterdiagramm in Java-Folien
+
 
 ## Einführung in das Erstellen eines Trichterdiagramms in Aspose.Slides für Java
 
@@ -137,3 +143,9 @@ Sie können die Position und Größe des Trichterdiagramms anpassen, indem Sie d
 ### Kann ich das Diagramm in andere Formate wie PDF oder Bild exportieren?
 
 Ja, Aspose.Slides für Java ermöglicht es Ihnen, die Präsentation mit dem Trichterdiagramm in verschiedene Formate zu exportieren, darunter PDF, Bildformate und mehr. Sie können das`SaveFormat` Optionen zum Angeben des gewünschten Ausgabeformats beim Speichern der Präsentation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

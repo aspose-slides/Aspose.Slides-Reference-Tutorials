@@ -3,10 +3,16 @@ title: Díra prstencového grafu v Java Slides
 linktitle: Díra prstencového grafu v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Vytvářejte prstencové grafy s vlastními velikostmi děr v Java Slides pomocí Aspose.Slides for Java. Podrobný průvodce se zdrojovým kódem pro přizpůsobení grafu.
-type: docs
 weight: 11
 url: /cs/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Díra prstencového grafu v Java Slides
+
 
 ## Úvod do prstencového grafu s dírou v Java Slides
 
@@ -94,3 +100,9 @@ finally
 ### Je možné do grafu přidat název?
 
  Rozhodně! Do grafu můžete přidat název pomocí`setTitle` metoda na`IChart` objekt a poskytnutí požadovaného textu nadpisu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Egyéni sorok hozzáadása a Java Slides-hez
 linktitle: Egyéni sorok hozzáadása a Java Slides-hez
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Javítsa Java-diáit egyéni vonalakkal. Útmutató lépésről lépésre az Aspose.Slides for Java használatához. Tanuljon meg vonalakat hozzáadni és testreszabni a prezentációkban a hatásos látvány érdekében.
-type: docs
 weight: 10
 url: /hu/java/customization-and-formatting/adding-custom-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Egyéni sorok hozzáadása a Java Slides-hez
+
 
 ## Bevezetés az egyéni sorok hozzáadásához a Java Slides-ben
 
@@ -108,3 +114,9 @@ shape.getLineFormat().setWidth(2); // Állítsa be a vonalvastagságot 2 pontra
 ### Lehetséges több sort is hozzáadni egy diához?
 
 Igen, több sort is hozzáadhat egy diához az oktatóanyagban említett lépések megismétlésével. Minden sor önállóan testreszabható.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

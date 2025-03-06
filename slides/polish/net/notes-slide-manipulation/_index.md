@@ -3,10 +3,16 @@ title: Uwagi Manipulacja slajdami
 linktitle: Uwagi Manipulacja slajdami
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ulepsz swoje prezentacje z precyzją! Zapoznaj się z samouczkiem Aspose.Slides na temat manipulacji slajdami notatek w .NET. Dowiedz się, jak programowo dodawać, edytować i zarządzać notatkami prelegenta.
-type: docs
 weight: 16
 url: /pl/net/notes-slide-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uwagi Manipulacja slajdami
+
 ## Wstęp
 
 Witamy w kompleksowym samouczku Aspose.Slides na temat manipulacji slajdami w programie Notes dla programistów .NET. W tym samouczku zagłębimy się w fascynujący świat notatek prelegenta i w jaki sposób można nimi programowo manipulować za pomocą biblioteki Aspose.Slides. Notatki prelegenta odgrywają kluczową rolę w prezentacjach, oferując prezenterowi cenne spostrzeżenia i zwiększając ogólny wpływ treści. Pod koniec tego samouczka będziesz mieć solidną wiedzę, jak skutecznie dodawać, edytować i zarządzać notatkami prelegenta w prezentacjach programu PowerPoint.
@@ -39,3 +45,9 @@ Dowiedz się, jak dostosować nagłówek i stopkę na slajdach z notatkami za po
 Dowiedz się, jak usuwać notatki z określonego slajdu w prezentacjach programu PowerPoint za pomocą Aspose.Slides dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku z pełnym kodem źródłowym, aby płynnie programowo manipulować slajdami.
 ### [Usuń notatki ze wszystkich slajdów](./remove-notes-from-all-slides/)
 Dowiedz się, jak usuwać notatki ze wszystkich slajdów w prezentacjach programu PowerPoint za pomocą Aspose.Slides dla .NET. Postępuj zgodnie z tym przewodnikiem krok po kroku z pełnymi przykładami kodu źródłowego, aby łatwo osiągnąć swój cel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

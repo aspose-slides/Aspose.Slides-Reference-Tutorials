@@ -3,10 +3,16 @@ title: مخطط القمع في شرائح جافا
 linktitle: مخطط القمع في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعلم كيفية إنشاء مخططات قمعية في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع التعليمات البرمجية المصدر لتصور البيانات بشكل فعال.
-type: docs
 weight: 18
 url: /ar/java/chart-data-manipulation/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مخطط القمع في شرائح جافا
+
 
 ## مقدمة لإنشاء مخطط قمع في Aspose.Slides لـ Java
 
@@ -137,3 +143,9 @@ pres.save(dataDir + "Funnel.pptx", SaveFormat.Pptx);
 ### هل يمكنني تصدير المخطط إلى تنسيقات مختلفة، مثل PDF أو صورة؟
 
 نعم، يتيح لك Aspose.Slides for Java تصدير العرض التقديمي باستخدام Funnel Chart إلى تنسيقات مختلفة، بما في ذلك PDF وتنسيقات الصور والمزيد. يمكنك استخدام ال`SaveFormat` خيارات لتحديد تنسيق الإخراج المطلوب عند حفظ العرض التقديمي.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

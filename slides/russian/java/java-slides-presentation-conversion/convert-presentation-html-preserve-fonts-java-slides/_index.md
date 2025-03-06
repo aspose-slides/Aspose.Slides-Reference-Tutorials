@@ -3,10 +3,16 @@ title: Преобразование презентации в HTML с сохра
 linktitle: Преобразование презентации в HTML с сохранением оригинальных шрифтов в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Преобразуйте презентации PowerPoint в HTML, сохраняя оригинальные шрифты с помощью Aspose.Slides для Java.
-type: docs
 weight: 14
 url: /ru/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразование презентации в HTML с сохранением оригинальных шрифтов в слайдах Java
+
 
 ## Введение в преобразование презентации в HTML с сохранением оригинальных шрифтов в слайдах Java
 
@@ -111,3 +117,9 @@ finally
 ### Как я могу дополнительно настроить вывод HTML?
 
  Вы можете изучить`HtmlOptions` класс для настройки различных аспектов вывода HTML, таких как размер слайда, качество изображения и т. д.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mit Aspose.Slides übergeordnete Kommentare zur Folie hinzufügen
 linktitle: Übergeordnete Kommentare zur Folie hinzufügen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET interaktive Kommentare und Antworten zu Ihren PowerPoint-Präsentationen hinzufügen. Steigern Sie Engagement und Zusammenarbeit.
-type: docs
 weight: 12
 url: /de/net/slide-comments-manipulation/add-parent-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mit Aspose.Slides übergeordnete Kommentare zur Folie hinzufügen
+
 
 Möchten Sie Ihre PowerPoint-Präsentationen mit interaktiven Funktionen erweitern? Mit Aspose.Slides für .NET können Sie Kommentare und Antworten einfügen und so ein dynamisches und ansprechendes Erlebnis für Ihr Publikum schaffen. In diesem Schritt-für-Schritt-Tutorial zeigen wir Ihnen, wie Sie mit Aspose.Slides für .NET übergeordnete Kommentare zu Folien hinzufügen. Lassen Sie uns eintauchen und diese spannende Funktion erkunden.
 
@@ -160,3 +166,9 @@ Aspose.Slides für .NET ist für die Verwendung mit einer Vielzahl von PowerPoin
 
 ### Gibt es Lizenzierungsoptionen für Aspose.Slides für .NET?
  Ja, Sie können Lizenzierungsoptionen, einschließlich temporärer Lizenzen, auf der Aspose-Website erkunden[Hier](https://purchase.aspose.com/buy) oder testen Sie die kostenlose Testversion[Hier](https://releases.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

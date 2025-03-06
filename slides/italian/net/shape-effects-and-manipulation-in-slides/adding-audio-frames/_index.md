@@ -3,10 +3,16 @@ title: Aggiunta di fotogrammi audio alle diapositive della presentazione utilizz
 linktitle: Aggiunta di fotogrammi audio alle diapositive della presentazione utilizzando Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Migliora le presentazioni con Aspose.Slides per .NET! Impara ad aggiungere facilmente fotogrammi audio, coinvolgendo il tuo pubblico come mai prima d'ora.
-type: docs
 weight: 14
 url: /it/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiunta di fotogrammi audio alle diapositive della presentazione utilizzando Aspose.Slides
+
 ## introduzione
 Nel dinamico mondo delle presentazioni, incorporare elementi audio può migliorare significativamente l'esperienza complessiva del tuo pubblico. Aspose.Slides per .NET consente agli sviluppatori di integrare perfettamente i fotogrammi audio nelle diapositive di presentazione, aggiungendo un nuovo livello di coinvolgimento e interattività. Questa guida passo passo ti guiderà attraverso il processo di aggiunta di fotogrammi audio alle diapositive di presentazione utilizzando Aspose.Slides per .NET.
 ## Prerequisiti
@@ -63,3 +69,9 @@ Sì, Aspose.Slides offre flessibilità nella configurazione delle impostazioni d
  Visitare il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) cercare assistenza e impegnarsi con la comunità.
 ### Come posso acquistare Aspose.Slides per .NET?
  È possibile acquistare la libreria da[Aspose negozio](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

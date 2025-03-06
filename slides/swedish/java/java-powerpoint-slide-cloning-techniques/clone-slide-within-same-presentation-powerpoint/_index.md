@@ -3,10 +3,16 @@ title: Klona bild i samma presentation
 linktitle: Klona bild i samma presentation
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Klona bilder i samma presentation med Aspose.Slides för Java med vår guide. Perfekt för utvecklare som vill effektivisera PowerPoint-manipulationer.
-type: docs
 weight: 15
 url: /sv/java/java-powerpoint-slide-cloning-techniques/clone-slide-within-same-presentation-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Klona bild i samma presentation
+
 ## Introduktion
 Är du redo att dyka in i Aspose.Slides-världen för Java och lära dig hur man klona bilder i samma presentation? Den här handledningen går igenom allt du behöver veta, från förutsättningar till den slutliga implementeringen. Låt oss börja!
 ## Förutsättningar
@@ -67,3 +73,9 @@ Aspose.Slides för Java är ett kraftfullt API för att arbeta med PowerPoint-pr
 Dokumentationen för Aspose.Slides för Java finns tillgänglig på[Aspose hemsida](https://reference.aspose.com/slides/java/).
 ### Hur kan jag köpa Aspose.Slides för Java?
  Du kan köpa Aspose.Slides för Java genom att besöka[köpsidan](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java Slaytlarında Tüm Sunumu HTML'ye Dönüştürün
 linktitle: Java Slaytlarında Tüm Sunumu HTML'ye Dönüştürün
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides'ı kullanarak PowerPoint sunumlarını Java'da HTML'ye nasıl dönüştüreceğinizi öğrenin. Kod örnekleri içeren adım adım kılavuz.
-type: docs
 weight: 29
 url: /tr/java/presentation-conversion/convert-whole-presentation-html-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarında Tüm Sunumu HTML'ye Dönüştürün
+
 
 ## Java Slaytlarında Tüm Sunumu HTML'ye Dönüştürmeye Giriş
 
@@ -117,3 +123,9 @@ Evet, Aspose.Slides for Java; PDF, PPTX ve görseller dahil olmak üzere çeşit
 ### Sununun tamamı yerine belirli slaytları dönüştürebilir miyim?
 
 Evet, sunuyu kaydetmeden önce belirli slaytları kodda seçerek dönüştürebilirsiniz. Bu, hangi slaytların HTML'ye dönüştürüleceğini kontrol etmenizi sağlar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

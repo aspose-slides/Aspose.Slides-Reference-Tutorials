@@ -3,10 +3,16 @@ title: 프레젠테이션에 레이아웃 슬라이드 추가
 linktitle: 프레젠테이션에 레이아웃 슬라이드 추가
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션을 향상시키는 방법을 알아보세요. 전문적인 터치를 위해 레이아웃 슬라이드를 추가하세요.
-type: docs
 weight: 11
 url: /ko/net/chart-creation-and-customization/add-layout-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 프레젠테이션에 레이아웃 슬라이드 추가
+
 
 오늘날의 디지털 시대에 영향력 있는 프레젠테이션을 만드는 것은 필수적인 기술입니다. 잘 구성되어 있고 시각적으로 매력적인 프레젠테이션은 메시지를 효과적으로 전달할 수 있습니다. Aspose.Slides for .NET은 멋진 프레젠테이션을 즉시 만드는 데 도움이 되는 강력한 도구입니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션에 레이아웃 슬라이드를 추가하는 방법을 살펴보겠습니다. 프로세스를 따라하기 쉬운 단계로 나누어 개념을 철저하게 이해할 수 있도록 하겠습니다. 시작하자!
 
@@ -104,3 +110,9 @@ Aspose.Slides for .NET은 개발자가 프로그래밍 방식으로 PowerPoint �
 
 ### .NET용 Aspose.Slides에 대한 지원이나 도움을 어디서 구할 수 있나요?
  질문이 있거나 도움이 필요한 경우 Aspose.Slides for .NET 포럼을 방문하세요.[Aspose 커뮤니티 포럼](https://forum.aspose.com/). 커뮤니티는 활성화되어 있으며 사용자 쿼리를 해결하는 데 도움이 됩니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

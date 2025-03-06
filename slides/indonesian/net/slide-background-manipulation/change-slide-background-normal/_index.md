@@ -3,10 +3,16 @@ title: Cara Mengubah Latar Belakang Slide di Aspose.Slides .NET
 linktitle: Ubah Latar Belakang Slide Normal
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengubah latar belakang slide menggunakan Aspose.Slides untuk .NET dan membuat presentasi PowerPoint yang menakjubkan.
-type: docs
 weight: 15
 url: /id/net/slide-background-manipulation/change-slide-background-normal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cara Mengubah Latar Belakang Slide di Aspose.Slides .NET
+
 
 Dalam dunia desain presentasi, membuat slide yang menarik dan menarik adalah hal yang penting. Aspose.Slides for .NET adalah alat canggih yang memungkinkan Anda memanipulasi presentasi PowerPoint secara terprogram. Dalam panduan langkah demi langkah ini, kami akan menunjukkan cara mengubah latar belakang slide menggunakan Aspose.Slides untuk .NET. Hal ini dapat membantu Anda meningkatkan daya tarik visual presentasi Anda dan membuatnya lebih berdampak. 
 
@@ -99,3 +105,9 @@ Tentu! Anda dapat mengulang slide Anda dan menerapkan perubahan latar belakang y
 ### 5. Bagaimana cara mendapatkan lisensi sementara untuk Aspose.Slides untuk .NET?
 
  Jika Anda memerlukan lisensi sementara untuk proyek Anda, Anda bisa mendapatkannya dari[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

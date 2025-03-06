@@ -3,10 +3,16 @@ title: Frissítse a meglévő táblázatot a PowerPointban Java használatával
 linktitle: Frissítse a meglévő táblázatot a PowerPointban Java használatával
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan frissítheti a meglévő táblázatokat a PowerPointban Java használatával az Aspose.Slides segítségével. Lépésről lépésre, részletes utasítások és GYIK mellékelve.
-type: docs
 weight: 13
 url: /hu/java/java-powerpoint-table-formatting-updates/update-existing-table-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Frissítse a meglévő táblázatot a PowerPointban Java használatával
+
 ## Bevezetés
 Meglévő táblázat frissítése egy PowerPoint-prezentációban Java használatával ijesztő feladatnak tűnhet, de az Aspose.Slides for Java-val ez egy séta a parkban. Ez a lépésenkénti útmutató végigvezeti Önt a teljes folyamaton, biztosítva, hogy minden részt alaposan megértsen.
 ## Előfeltételek
@@ -92,3 +98,9 @@ Igen, ismételheti a táblázat sorait és oszlopait, hogy egyszerre több cell�
 Igen, az Aspose.Slides számos programozási nyelvet támogat, beleértve a .NET-et, a Python-t és a C-t++.
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Slides számára?
  Ideiglenes engedélyt szerezhet a[Aspose vásárlási oldal](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

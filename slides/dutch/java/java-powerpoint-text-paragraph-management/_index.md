@@ -3,10 +3,16 @@ title: Java PowerPoint-tekst- en alineabeheer
 linktitle: Java PowerPoint-tekst- en alineabeheer
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Beheers Java PowerPoint-tekst- en alineabeheer met Aspose.Slides. Leer HTML-tekst importeren, regelafstand beheren, opsommingstekens maken en alinea's uitlijnen.
-type: docs
 weight: 26
 url: /nl/java/java-powerpoint-text-paragraph-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint-tekst- en alineabeheer
+
 ## Invoering
 
 Het maken van goed gestructureerde en visueel aantrekkelijke PowerPoint-presentaties kan uw communicatie aanzienlijk verbeteren. Met Aspose.Slides voor Java wordt het beheren van tekst en alinea's een eenvoudige taak. Of u nu HTML-tekst moet importeren, de regelafstand moet beheren of opsommingstekens met meerdere niveaus moet maken, onze gedetailleerde tutorials begeleiden u door het proces. Laten we eens kijken hoe u uw Java PowerPoint-presentaties naar een hoger niveau kunt tillen.
@@ -55,3 +61,9 @@ Leer hoe u alinea-opsommingstekens kunt toevoegen aan PowerPoint-dia's met behul
 Leer hoe u alinea-inspringingen in PowerPoint-dia's programmatisch kunt instellen met Aspose.Slides voor Java. Verbeter moeiteloos de opmaak van uw presentatie.
 ### [Lijn alinea's uit in PowerPoint met behulp van Java](./align-paragraphs-powerpoint-java/)
 Leer hoe u alinea's in PowerPoint-presentaties uitlijnt met Aspose.Slides voor Java. Volg onze stapsgewijze handleiding voor nauwkeurige opmaak.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

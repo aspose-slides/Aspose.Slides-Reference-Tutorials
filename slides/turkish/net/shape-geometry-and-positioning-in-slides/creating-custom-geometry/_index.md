@@ -3,10 +3,16 @@ title: Aspose.Slides for .NET ile C#'ta Özel Geometri Oluşturma
 linktitle: Aspose.Slides Kullanarak Geometri Şeklinde Özel Geometri Oluşturma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'te özel geometri oluşturmayı öğrenin. Sunumlarınızı benzersiz şekillerle zenginleştirin. C# geliştiricileri için adım adım kılavuz.
-type: docs
 weight: 15
 url: /tr/net/shape-geometry-and-positioning-in-slides/creating-custom-geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides for .NET ile C#'ta Özel Geometri Oluşturma
+
 ## giriiş
 Sunumların dinamik dünyasında, benzersiz şekiller ve geometriler eklemek içeriğinizi geliştirerek onu daha ilgi çekici ve görsel olarak çekici hale getirebilir. Aspose.Slides for .NET, şekiller içinde özel geometriler oluşturmak için güçlü bir çözüm sunarak geleneksel tasarımlardan kurtulmanıza olanak tanır. Bu eğitim, Aspose.Slides for .NET'i kullanarak GeometryShape'te özel geometri oluşturma sürecinde size rehberlik edecektir.
 ## Önkoşullar
@@ -94,3 +100,9 @@ Evet, Aspose.Slides çeşitli programlama dillerini destekler ancak bu eğitim C
  Yardım isteyin ve toplulukla etkileşime geçin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11).
 ### 5. Aspose.Slides for .NET'i nereden satın alabilirim?
  .NET için Aspose.Slides'ı satın alabilirsiniz[Burada](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

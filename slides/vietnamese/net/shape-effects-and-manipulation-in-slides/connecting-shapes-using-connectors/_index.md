@@ -3,10 +3,16 @@ title: Aspose.Slides - Kết nối các hình dạng liền mạch trong .NET
 linktitle: Kết nối các hình bằng cách sử dụng Connectors trong bài thuyết trình
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Khám phá sức mạnh của Aspose.Slides dành cho .NET, kết nối các hình dạng một cách dễ dàng trong bản trình bày của bạn. Nâng tầm trang trình bày của bạn bằng các đầu nối động.
-type: docs
 weight: 29
 url: /vi/net/shape-effects-and-manipulation-in-slides/connecting-shapes-using-connectors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides - Kết nối các hình dạng liền mạch trong .NET
+
 ## Giới thiệu
 Trong thế giới năng động của bản trình bày, khả năng kết nối các hình dạng bằng cách sử dụng trình kết nối sẽ tăng thêm sự tinh tế cho trang trình bày của bạn. Aspose.Slides for .NET trao quyền cho các nhà phát triển để đạt được điều này một cách liền mạch. Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình, chia nhỏ từng bước để đảm bảo bạn hiểu rõ ràng.
 ## Điều kiện tiên quyết
@@ -77,3 +83,9 @@ Aspose.Slides for .NET hỗ trợ kết nối nhiều hình dạng khác nhau, b
 Khám phá tài liệu Aspose.Slides để biết các phương pháp tùy chỉnh giao diện của trình kết nối, chẳng hạn như kiểu đường và màu sắc.
 ### Có diễn đàn cộng đồng nào hỗ trợ Aspose.Slides không?
  Có, bạn có thể tìm sự trợ giúp và chia sẻ kinh nghiệm của mình trong[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

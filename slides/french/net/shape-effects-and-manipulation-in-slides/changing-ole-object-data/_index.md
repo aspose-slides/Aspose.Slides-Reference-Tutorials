@@ -3,10 +3,16 @@ title: Modification des données d'objet OLE dans la présentation avec Aspose.S
 linktitle: Modification des données d'objet OLE dans la présentation avec Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez la puissance d'Aspose.Slides pour .NET pour modifier facilement les données des objets OLE. Améliorez vos présentations avec du contenu dynamique.
-type: docs
 weight: 25
 url: /fr/net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modification des données d'objet OLE dans la présentation avec Aspose.Slides
+
 ## Introduction
 Créer des présentations PowerPoint dynamiques et interactives est une exigence courante dans le monde numérique d'aujourd'hui. Aspose.Slides for .NET est un outil puissant pour y parvenir, une bibliothèque robuste qui permet aux développeurs de manipuler et d'améliorer les présentations PowerPoint par programmation. Dans ce didacticiel, nous aborderons le processus de modification des données d'objet OLE (Object Linking and Embedding) dans les diapositives de présentation à l'aide d'Aspose.Slides.
 ## Conditions préalables
@@ -88,3 +94,9 @@ Aspose.Slides for .NET est une bibliothèque puissante qui permet aux développe
  Oui, vous pouvez accéder à l'essai gratuit[ici](https://releases.aspose.com/).
 ### Où puis-je obtenir de l’assistance pour Aspose.Slides pour .NET ?
  Pour obtenir de l'aide et des discussions, visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

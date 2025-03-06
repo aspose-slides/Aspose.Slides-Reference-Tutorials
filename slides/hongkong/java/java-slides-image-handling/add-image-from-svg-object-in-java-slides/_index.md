@@ -3,10 +3,16 @@ title: 在 Java 投影片中從 SVG 物件新增映像
 linktitle: 在 Java 投影片中從 SVG 物件新增映像
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 將 SVG 影像新增至 Java 投影片。帶有程式碼的分步指南，可實現令人驚嘆的演示。
-type: docs
 weight: 11
 url: /zh-hant/java/image-handling/add-image-from-svg-object-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 投影片中從 SVG 物件新增映像
+
 
 ## 在 Java 投影片中從 SVG 物件新增影像簡介
 
@@ -120,3 +126,9 @@ Aspose.Slides for Java 可以處理各種 SVG 圖像。但是，非常大或複�
 ### 將 SVG 圖像添加到幻燈片後，我可以自訂其外觀，例如顏色或樣式嗎？
 
 是的，您可以使用 Aspose.Slides for Java 的擴充 API 自訂 SVG 影像的外觀。您可以根據需要變更顏色、套用樣式以及進行其他調整。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

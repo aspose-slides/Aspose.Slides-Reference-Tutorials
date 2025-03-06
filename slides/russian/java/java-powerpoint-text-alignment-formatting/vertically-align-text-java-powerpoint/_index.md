@@ -3,10 +3,16 @@ title: Вертикальное выравнивание текста в Java Po
 linktitle: Вертикальное выравнивание текста в Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как выровнять текст по вертикали в презентациях Java PowerPoint с помощью Aspose.Slides для плавного форматирования слайдов.
-type: docs
 weight: 10
 url: /ru/java/java-powerpoint-text-alignment-formatting/vertically-align-text-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Вертикальное выравнивание текста в Java PowerPoint
+
 ## Введение
 В этом уроке вы узнаете, как вертикально выровнять текст в ячейках таблицы в презентации PowerPoint с помощью Aspose.Slides для Java. Вертикальное выравнивание текста — важнейший аспект дизайна слайдов, гарантирующий аккуратное и профессиональное представление вашего контента. Aspose.Slides предоставляет мощные функции для программного управления и форматирования презентаций, предоставляя вам полный контроль над каждым аспектом ваших слайдов.
 ## Предварительные условия
@@ -91,3 +97,9 @@ Aspose.Slides поддерживает создание презентаций, 
  Посетить[Документация Aspose.Slides](https://reference.aspose.com/slides/java/) подробные руководства, ссылки на API и примеры кода.
 ### Как я могу получить поддержку для Aspose.Slides?
  Для получения технической помощи и поддержки сообщества посетите[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

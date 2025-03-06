@@ -3,10 +3,16 @@ title: Establecer el modo de diseño en diapositivas de Java
 linktitle: Establecer el modo de diseño en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a configurar modos de diseño para diapositivas Java usando Aspose.Slides. Personalice el posicionamiento y el tamaño del gráfico en esta guía paso a paso con código fuente.
-type: docs
 weight: 23
 url: /es/java/data-manipulation/set-layout-mode-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Establecer el modo de diseño en diapositivas de Java
+
 
 ## Introducción a establecer el modo de diseño en diapositivas de Java
 
@@ -95,3 +101,9 @@ finally
 ### ¿Dónde puedo encontrar más información sobre Aspose.Slides para Java?
 
  Puede encontrar más información sobre Aspose.Slides para Java en el[documentación](https://reference.aspose.com/slides/java/). Incluye referencias API detalladas y ejemplos para ayudarle a trabajar con diapositivas y gráficos de forma eficaz en Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

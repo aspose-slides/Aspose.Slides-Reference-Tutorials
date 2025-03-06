@@ -3,10 +3,16 @@ title: Výukový program formátování tvarů elipsy s Aspose.Slides pro .NET
 linktitle: Formátování tvaru elipsy na snímcích pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vytvářejte úžasné tvary elipsy v PowerPointu pomocí Aspose.Slides pro .NET. Postupujte podle našeho podrobného průvodce pro profesionální prezentace.
-type: docs
 weight: 11
 url: /cs/net/shape-geometry-and-positioning-in-slides/formatting-ellipse-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Výukový program formátování tvarů elipsy s Aspose.Slides pro .NET
+
 ## Úvod
 Vylepšení vašich prezentací v PowerPointu o vizuálně přitažlivé tvary je zásadní pro to, abyste zaujali své publikum. Jedním z takových tvarů je elipsa, která může vašim snímkům dodat punc elegance a profesionality. V tomto tutoriálu vás provedeme procesem formátování tvarů elipsy v PowerPointu pomocí Aspose.Slides pro .NET.
 ## Předpoklady
@@ -81,3 +87,9 @@ Aspose.Slides zajišťuje kompatibilitu s různými verzemi aplikace PowerPoint,
  Požádejte o pomoc komunitu na adrese[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Existuje možnost přímého nákupu Aspose.Slides pro .NET?
  Ano, knihovnu si můžete zakoupit přímo[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

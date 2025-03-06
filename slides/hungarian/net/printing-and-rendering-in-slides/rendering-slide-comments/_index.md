@@ -3,10 +3,16 @@ title: Dia megjegyzések megjelenítése az Aspose.Slides-ben
 linktitle: Dia megjegyzések megjelenítése az Aspose.Slides-ben
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Fedezze fel, hogyan jeleníthet meg diakommentárokat az Aspose.Slides for .NET-ben a lépésenkénti oktatóanyagunk segítségével. Testreszabhatja a megjegyzések megjelenését, és javíthatja PowerPoint automatizálását.
-type: docs
 weight: 12
 url: /hu/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dia megjegyzések megjelenítése az Aspose.Slides-ben
+
 ## Bevezetés
 Üdvözöljük átfogó oktatóanyagunkban a diakommentárok megjelenítéséről az Aspose.Slides for .NET használatával! Az Aspose.Slides egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára, hogy zökkenőmentesen dolgozzanak PowerPoint prezentációkkal .NET-alkalmazásaikban. Ebben az útmutatóban egy konkrét feladatra összpontosítunk – a diák megjegyzéseinek megjelenítésére –, és lépésről lépésre végigvezetjük a folyamaton.
 ## Előfeltételek
@@ -86,3 +92,9 @@ V: Abszolút! Az oktatóanyag tartalmazza a megjegyzésterület színének, szé
  V: Kaphat ideiglenes engedélyt[itt](https://purchase.aspose.com/temporary-license/).
 ### K: Hol kérhetek segítséget és támogatást az Aspose.Slides-hez?
  V: Látogassa meg a[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11) közösségi támogatásért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

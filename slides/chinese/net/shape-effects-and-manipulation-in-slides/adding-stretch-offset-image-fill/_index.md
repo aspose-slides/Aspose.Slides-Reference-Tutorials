@@ -3,10 +3,16 @@ title: 在 PowerPoint 演示文稿中添加图像填充的拉伸偏移
 linktitle: 在幻灯片中添加图像填充的拉伸偏移
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 增强 PowerPoint 演示文稿。按照分步指南添加图像填充的拉伸偏移。
-type: docs
 weight: 18
 url: /zh/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 PowerPoint 演示文稿中添加图像填充的拉伸偏移
+
 ## 介绍
 在动态的演示世界中，视觉效果在吸引观众注意力方面起着关键作用。Aspose.Slides for .NET 通过提供一组强大的功能，使开发人员能够增强他们的 PowerPoint 演示文稿。其中一项功能是能够为图像填充添加拉伸偏移，从而制作出富有创意且视觉吸引力的幻灯片。
 ## 先决条件
@@ -71,3 +77,9 @@ pres.Save(dataDir + "AddStretchOffsetForImageFill_out.pptx", SaveFormat.Pptx);
 请参阅[文档](https://reference.aspose.com/slides/net/)了解详细信息。
 ### 我可以购买 Aspose.Slides for .NET 吗？
 是的，你可以购买该产品[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

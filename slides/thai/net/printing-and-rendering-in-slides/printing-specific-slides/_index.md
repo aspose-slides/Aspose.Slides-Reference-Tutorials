@@ -3,10 +3,16 @@ title: พิมพ์สไลด์การนำเสนอด้วย Asp
 linktitle: การพิมพ์สไลด์การนำเสนอเฉพาะด้วย Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: เรียนรู้วิธีพิมพ์สไลด์การนำเสนอใน .NET โดยใช้ Aspose.Slides คำแนะนำทีละขั้นตอนสำหรับนักพัฒนา ดาวน์โหลดห้องสมุดและเริ่มพิมพ์วันนี้
-type: docs
 weight: 18
 url: /th/net/printing-and-rendering-in-slides/printing-specific-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# พิมพ์สไลด์การนำเสนอด้วย Aspose.Slides ใน .NET
+
 ## การแนะนำ
 ในโลกของการพัฒนา .NET นั้น Aspose.Slides มีความโดดเด่นในฐานะเครื่องมืออันทรงพลังสำหรับการทำงานกับไฟล์การนำเสนอ หากคุณเคยพบว่าตัวเองต้องการการพิมพ์สไลด์การนำเสนอโดยทางโปรแกรม แสดงว่าคุณมาถูกที่แล้ว ในบทช่วยสอนนี้ เราจะสำรวจวิธีการบรรลุเป้าหมายนี้โดยใช้ Aspose.Slides สำหรับ .NET
 ## ข้อกำหนดเบื้องต้น
@@ -59,3 +65,9 @@ presentation.Print(printerSettings, "Please set your printer name here");
  ตอบ: แน่นอน! คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
 ### ถาม: ฉันจะซื้อ Aspose.Slides สำหรับ .NET ได้อย่างไร
  ตอบ: คุณสามารถซื้อห้องสมุดได้[ที่นี่](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

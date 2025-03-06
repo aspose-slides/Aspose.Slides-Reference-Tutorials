@@ -3,10 +3,16 @@ title: Java PowerPoint の図形の書式設定とジオメトリ
 linktitle: Java PowerPoint の図形の書式設定とジオメトリ
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Java PowerPoint の図形の書式設定とジオメトリのチュートリアルをご覧ください。Aspose.Slides for Java を使用して図形の塗りつぶし、図形の検索、カスタム ジオメトリの作成を学習します。
-type: docs
 weight: 26
 url: /ja/java/java-powerpoint-shape-formatting-geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint の図形の書式設定とジオメトリ
+
 ## 導入
 
 視覚的に魅力的な PowerPoint プレゼンテーションを作成するには、多くの場合、正確な図形の書式設定と幾何学的操作が必要です。Aspose.Slides for Java を使用すると、開発者はプレゼンテーションを次のレベルに引き上げることができます。この記事では、図形の塗りつぶし、図形の検索、カスタム ジオメトリの作成に関する重要なチュートリアルを紹介し、スライドを目立たせます。
@@ -74,3 +80,9 @@ Aspose.Slides for Java を使用して PowerPoint でカスタム図形を作成
 Aspose.Slides for Java を使用して、PowerPoint で図形のベベルの有効データを取得する方法を学びます。魅力的な視覚効果でプレゼンテーションを強化します。
 ### [PowerPoint で図形を非表示にする](./hide-shapes-powerpoint/)
 詳細なステップバイステップ ガイドを使用して、Aspose.Slides for Java を使用して PowerPoint で図形を非表示にする方法を学びます。あらゆるレベルの Java 開発者に最適です。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

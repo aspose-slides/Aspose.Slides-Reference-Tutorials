@@ -3,10 +3,16 @@ title: プレゼンテーションを HTML に変換しながらノートをレ�
 linktitle: プレゼンテーションを HTML に変換しながらノートをレンダリングする
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用してプレゼンテーションを HTML に変換しながら、スピーカー ノートを効果的にレンダリングする方法を学びます。このステップ バイ ステップ ガイドでは、ノートを保持しながらシームレスな変換を実現するためのソース コードの例と洞察を提供します。
-type: docs
 weight: 28
 url: /ja/net/presentation-manipulation/render-notes-while-converting-presentation-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# プレゼンテーションを HTML に変換しながらノートをレンダリングする
+
 
 今日のデジタル時代では、プレゼンテーションを HTML 形式に変換することが一般的な要件になっています。これにより、プレゼンテーションを Web 上で簡単に共有し、より幅広いユーザーがアクセスできるようになります。Aspose.Slides for .NET は、このプロセスを簡素化する強力なツールです。このステップ バイ ステップのチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーションを HTML に変換するプロセスについて説明します。
 
@@ -79,3 +85,10 @@ Aspose.Slides for .NET は、変換プロセスを正確に制御し、高品質
 問題が発生した場合や質問がある場合は、[Aspose.Slides フォーラム](https://forum.aspose.com/).
 
 これらの手順に従うと、Aspose.Slides for .NET を使用して PowerPoint プレゼンテーションを HTML に簡単に変換できます。プレゼンテーションをオンラインでより多くのユーザーと共有しましょう。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

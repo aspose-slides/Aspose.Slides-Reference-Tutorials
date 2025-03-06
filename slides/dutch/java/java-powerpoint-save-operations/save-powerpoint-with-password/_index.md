@@ -3,10 +3,16 @@ title: Bewaar PowerPoint met wachtwoord
 linktitle: Bewaar PowerPoint met wachtwoord
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u wachtwoordbeveiliging kunt toevoegen aan PowerPoint-presentaties met Aspose.Slides voor Java. Beveilig uw dia's met gemak.
-type: docs
 weight: 12
 url: /nl/java/java-powerpoint-save-operations/save-powerpoint-with-password/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bewaar PowerPoint met wachtwoord
+
 ## Invoering
 In deze zelfstudie begeleiden we u bij het opslaan van een PowerPoint-presentatie met een wachtwoord met Aspose.Slides voor Java. Het toevoegen van een wachtwoord aan uw presentatie kan de beveiliging ervan verbeteren, zodat alleen geautoriseerde personen toegang hebben tot de inhoud.
 ## Vereisten
@@ -67,3 +73,9 @@ Ja, met Aspose.Slides kunt u afzonderlijke wachtwoorden instellen voor bewerking
  Ja, u kunt een gratis proefversie downloaden van Aspose[website](https://releases.aspose.com/).
 ### Hoe kan ik technische ondersteuning krijgen voor Aspose.Slides?
 U kunt het Aspose.Slides-forum bezoeken voor technische assistentie van de community en het ondersteunend personeel van Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

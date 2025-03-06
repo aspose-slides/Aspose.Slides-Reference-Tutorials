@@ -3,10 +3,16 @@ title: Java Slides Saving Options
 linktitle: Java Slides Saving Options
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn about Java Slides saving options with Aspose.Slides for Java. Explore comprehensive tutorials and guides for efficient slide management and customization.
-type: docs
 weight: 25
 url: /java/saving-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slides Saving Options
+
 
 
 In the world of dynamic presentations, Java has emerged as a versatile language, offering a plethora of tools and libraries to enhance your slideshows. When it comes to managing and customizing slides, Aspose.Slides for Java stands out as a powerful solution. In this article, we'll delve into the exciting realm of Java Slides saving options using Aspose.Slides for Java.
@@ -46,3 +52,9 @@ Learn how to set predefined view types in Java Slides using Aspose.Slides for Ja
 Learn how to save PowerPoint presentations as read-only in Java using Aspose.Slides. Protect your content with step-by-step instructions and code examples.
 ### [Save Properties in Java Slides](./save-properties-in-java-slides/)
 Optimize your PowerPoint presentations with Aspose.Slides for Java. Learn to set properties, disable encryption, add password protection, and save effortlessly.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

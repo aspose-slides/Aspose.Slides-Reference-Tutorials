@@ -3,10 +3,16 @@ title: Thực thể biểu đồ trong Java Slides
 linktitle: Thực thể biểu đồ trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo và tùy chỉnh biểu đồ Java Slides bằng Aspose.Slides. Nâng cao bản trình bày của bạn với các thực thể biểu đồ mạnh mẽ.
-type: docs
 weight: 13
 url: /vi/java/data-manipulation/chart-entities-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thực thể biểu đồ trong Java Slides
+
 
 ## Giới thiệu về các thực thể biểu đồ trong Java Slides
 
@@ -301,3 +307,9 @@ Bạn có thể tùy chỉnh màu biểu đồ bằng cách đặt định dạn
 ### Aspose.Slides cho Java có tương thích với các phiên bản Java mới nhất không?
 
 Có, Aspose.Slides cho Java được cập nhật thường xuyên để hỗ trợ các phiên bản Java mới nhất và cung cấp khả năng tương thích trên nhiều môi trường Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

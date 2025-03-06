@@ -3,10 +3,16 @@ title: Criar miniatura de nota infantil SmartArt
 linktitle: Criar miniatura de nota infantil SmartArt
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como criar miniaturas de notas infantis SmartArt em Java com Aspose.Slides, aprimorando suas apresentações em PowerPoint sem esforço.
-type: docs
 weight: 15
 url: /pt/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Criar miniatura de nota infantil SmartArt
+
 ## Introdução
 Neste tutorial, exploraremos como criar miniaturas de notas infantis SmartArt em Java usando Aspose.Slides. Aspose.Slides é uma API Java poderosa que permite aos desenvolvedores trabalhar com apresentações do PowerPoint de forma programática, permitindo-lhes criar, modificar e manipular slides com facilidade.
 ## Pré-requisitos
@@ -70,3 +76,9 @@ Sim, o Aspose.Slides foi projetado para lidar com tarefas de automação do Powe
 Certamente! Aspose.Slides fornece suporte abrangente para criação e manipulação de diagramas SmartArt de complexidades variadas.
 ### O Aspose.Slides oferece suporte técnico para desenvolvedores?
  Sim, Aspose.Slides fornece suporte técnico dedicado para desenvolvedores por meio de seus[fórum](https://forum.aspose.com/c/slides/11) e outros canais.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Organiser le type de disposition de graphique dans SmartArt à l'aide de 
 linktitle: Organiser le type de disposition de graphique dans SmartArt à l'aide de Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Maîtrisez les types de disposition d'organigrammes dans SmartArt à l'aide de Java avec Aspose.Slides, améliorant ainsi les visuels de présentation sans effort.
-type: docs
 weight: 13
 url: /fr/java/java-powerpoint-smartart-manipulation/organize-chart-layout-type-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Organiser le type de disposition de graphique dans SmartArt à l'aide de Java
+
 ## Introduction
 Dans ce didacticiel, nous passerons en revue le processus d'organisation du type de disposition de graphique dans SmartArt à l'aide de Java, en tirant spécifiquement parti de la bibliothèque Aspose.Slides. SmartArt dans les présentations peut grandement améliorer l’attrait visuel et la clarté de vos données, ce qui rend essentiel la maîtrise de leur manipulation.
 ## Conditions préalables
@@ -55,3 +61,9 @@ Oui, les développeurs peuvent se référer à la documentation détaillée four
 Oui, vous pouvez accéder à une version d'essai gratuite d'Aspose.Slides pour explorer ses fonctionnalités avant de prendre une décision d'achat.
 ### Où puis-je demander de l'aide pour les requêtes liées à Aspose.Slides ?
  Pour toute assistance ou question concernant Aspose.Slides, vous pouvez visiter le forum d'assistance[ici](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

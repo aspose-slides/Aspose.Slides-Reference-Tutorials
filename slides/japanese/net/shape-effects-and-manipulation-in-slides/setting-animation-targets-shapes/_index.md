@@ -3,10 +3,16 @@ title: Aspose.Slides for .NET でアニメーション ターゲットをマス�
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドの図形にアニメーション ターゲットを設定する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用してプレゼンテーションに活気を与える方法を学びましょう。アニメーション ターゲットを簡単に設定し、視聴者を魅了します。
-type: docs
 weight: 22
 url: /ja/net/shape-effects-and-manipulation-in-slides/setting-animation-targets-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides for .NET でアニメーション ターゲットをマスターする
+
 ## 導入
 プレゼンテーションのダイナミックな世界では、スライドにアニメーションを追加すると状況が一変します。Aspose.Slides for .NET を使用すると、スライドの図形のアニメーション ターゲットを正確に制御できるため、開発者は魅力的で視覚的に魅力的なプレゼンテーションを作成できます。このステップ バイ ステップ ガイドでは、Aspose.Slides for .NET を使用してアニメーション ターゲットを設定する手順を説明します。熟練した開発者でも、初心者でも、このチュートリアルはプレゼンテーションでアニメーションのパワーを活用するのに役立ちます。
 ## 前提条件
@@ -62,3 +68,9 @@ foreach (ISlide slide in pres.Slides)
 はい、Aspose.Slides には、各アニメーションの継続時間とタイミングをカスタマイズするオプションが用意されています。
 ### Aspose.Slides のその他の例やドキュメントはどこで入手できますか?
 探索する[Aspose.Slides for .NET ドキュメント](https://reference.aspose.com/slides/net/)詳細な情報と例については、こちらをご覧ください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

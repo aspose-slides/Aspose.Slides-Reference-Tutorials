@@ -3,10 +3,16 @@ title: Salvar como somente leitura em slides Java
 linktitle: Salvar como somente leitura em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como salvar apresentações do PowerPoint como somente leitura em Java usando Aspose.Slides. Proteja seu conteúdo com instruções passo a passo e exemplos de código.
-type: docs
 weight: 11
 url: /pt/java/saving-options/save-as-read-only-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Salvar como somente leitura em slides Java
+
 
 ## Introdução para salvar como somente leitura em slides Java usando Aspose.Slides para Java
 
@@ -127,3 +133,9 @@ Se você esquecer a senha de proteção contra gravação, não haverá uma mane
 ### Posso alterar a senha somente leitura depois de defini-la?
 
  Sim, você pode alterar a senha somente leitura após defini-la. Use o`setReadProtection(String newPassword)` método com a nova senha para atualizar a senha de proteção somente leitura.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Add Embedded Fonts in PowerPoint using Java
 linktitle: Add Embedded Fonts in PowerPoint using Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to add embedded fonts to PowerPoint presentations using Java with Aspose.Slides for Java. Ensure consistent display across devices.
-type: docs
 weight: 10
 url: /java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Embedded Fonts in PowerPoint using Java
+
 ## Introduction
 In this tutorial, we'll guide you through the process of adding embedded fonts to PowerPoint presentations using Java, specifically leveraging Aspose.Slides for Java. Embedded fonts ensure that your presentation appears consistent across different devices, even if the original font isn't available. Let's dive into the steps:
 ## Prerequisites
@@ -69,3 +75,10 @@ Yes, embedding fonts can slightly increase the file size of the presentation, bu
 Aspose.Slides for Java supports embedding TrueType fonts, which covers a wide range of fonts commonly used in presentations.
 ### Can I embed fonts programmatically using Aspose.Slides for Java?
 Yes, as demonstrated in this tutorial, you can embed fonts programmatically using the Aspose.Slides for Java API.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Cloning Shapes in Presentation Slides with Aspose.Slides
 linktitle: Cloning Shapes in Presentation Slides with Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to efficiently clone shapes in presentation slides using Aspose.Slides API. Create dynamic presentations with ease. Explore the step-by-step guide, FAQs, and more.
-type: docs
 weight: 27
 url: /net/shape-effects-and-manipulation-in-slides/cloning-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cloning Shapes in Presentation Slides with Aspose.Slides
+
 
 ## Introduction
 
@@ -97,3 +103,10 @@ Cloned shapes retain their interactions and hyperlinks from the source shape. Yo
 ## Conclusion
 
 Unlocking the power of cloning shapes in presentation slides with Aspose.Slides opens up a world of creative possibilities for content creators and developers alike. This guide has walked you through the process, from installation to advanced customization, providing you with the tools you need to make your presentations stand out. With Aspose.Slides, you can streamline your workflow and bring your presentation visions to life effortlessly.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

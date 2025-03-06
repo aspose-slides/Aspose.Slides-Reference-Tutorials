@@ -3,10 +3,16 @@ title: Java PowerPoint 保存操作
 linktitle: Java PowerPoint 保存操作
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 保存 PowerPoint 演示文稿。有关保存到文件、流和添加密码保护的教程。
-type: docs
 weight: 20
 url: /zh/java/java-powerpoint-save-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint 保存操作
+
 
 ## 介绍
 
@@ -32,3 +38,9 @@ url: /zh/java/java-powerpoint-save-operations/
 了解如何使用 Aspose.Slides for Java 将 PowerPoint 演示文稿保存到流中。按照我们的分步指南进行无缝集成。
 ### [使用密码保存 PowerPoint](./save-powerpoint-with-password/)
 了解如何使用 Aspose.Slides for Java 为 PowerPoint 演示文稿添加密码保护。轻松保护您的幻灯片。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

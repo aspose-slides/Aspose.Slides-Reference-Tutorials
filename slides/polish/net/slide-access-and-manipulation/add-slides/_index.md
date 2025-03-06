@@ -3,10 +3,16 @@ title: Wstaw dodatkowe slajdy do prezentacji
 linktitle: Wstaw dodatkowe slajdy do prezentacji
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak wstawiać dodatkowe slajdy do prezentacji programu PowerPoint za pomocą Aspose.Slides dla .NET. Ten przewodnik krok po kroku zawiera przykłady kodu źródłowego i szczegółowe instrukcje dotyczące płynnego ulepszania prezentacji. Zawiera konfigurowalną treść, wskazówki dotyczące wstawiania i często zadawane pytania.
-type: docs
 weight: 15
 url: /pl/net/slide-access-and-manipulation/add-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wstaw dodatkowe slajdy do prezentacji
+
 
 ## Wprowadzenie do wstawiania dodatkowych slajdów do prezentacji
 
@@ -107,3 +113,9 @@ Absolutnie. Możesz zmienić układ, projekt i formatowanie wstawionych slajdów
 ### Gdzie mogę znaleźć więcej informacji o Aspose.Slides dla .NET?
 
  Szczegółową dokumentację i przykłady można znaleźć w dokumencie[Aspose.Slides dla dokumentacji .NET](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

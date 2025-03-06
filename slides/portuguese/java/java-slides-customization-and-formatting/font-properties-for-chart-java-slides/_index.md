@@ -3,10 +3,16 @@ title: Propriedades de fonte para gráfico em slides Java
 linktitle: Propriedades de fonte para gráfico em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprimore as propriedades da fonte do gráfico em slides Java com Aspose.Slides para Java. Personalize o tamanho, o estilo e a cor da fonte para apresentações impactantes.
-type: docs
 weight: 11
 url: /pt/java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Propriedades de fonte para gráfico em slides Java
+
 
 ## Introdução às propriedades de fonte para gráfico em slides Java
 
@@ -102,3 +108,9 @@ Neste tutorial, você aprendeu como personalizar as propriedades da fonte para u
 ### Como posso personalizar as propriedades da fonte para elementos específicos do gráfico?
 
 Para personalizar propriedades de fonte para elementos específicos do gráfico, como rótulos de eixo ou texto de legenda, você pode acessar esses elementos e definir suas propriedades de fonte usando métodos semelhantes aos mostrados acima.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

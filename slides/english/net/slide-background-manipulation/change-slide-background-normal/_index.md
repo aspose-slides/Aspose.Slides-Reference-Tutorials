@@ -3,10 +3,16 @@ title: How to Change the Background of a Slide in Aspose.Slides .NET
 linktitle: Change Normal Slide Background
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to change slide backgrounds using Aspose.Slides for .NET and create stunning PowerPoint presentations.
-type: docs
 weight: 15
 url: /net/slide-background-manipulation/change-slide-background-normal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# How to Change the Background of a Slide in Aspose.Slides .NET
+
 
 In the world of presentation design, creating eye-catching and engaging slides is essential. Aspose.Slides for .NET is a powerful tool that allows you to manipulate PowerPoint presentations programmatically. In this step-by-step guide, we will show you how to change the background of a slide using Aspose.Slides for .NET. This can help you enhance the visual appeal of your presentations and make them more impactful. 
 
@@ -99,3 +105,10 @@ Yes, you can try Aspose.Slides for .NET with a free trial. You can download it f
 ### 5. How do I obtain a temporary license for Aspose.Slides for .NET?
 
 If you need a temporary license for your project, you can get one from [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

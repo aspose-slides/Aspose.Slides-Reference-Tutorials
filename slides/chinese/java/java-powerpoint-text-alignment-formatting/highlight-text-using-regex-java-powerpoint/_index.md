@@ -3,10 +3,16 @@ title: 在 Java PowerPoint 中使用正则表达式突出显示文本
 linktitle: 在 Java PowerPoint 中使用正则表达式突出显示文本
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 的正则表达式模式突出显示 PowerPoint 中的文本。动态增强您的演示文稿。
-type: docs
 weight: 15
 url: /zh/java/java-powerpoint-text-alignment-formatting/highlight-text-using-regex-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java PowerPoint 中使用正则表达式突出显示文本
+
 ## 介绍
 在基于 Java 的 PowerPoint 演示文稿创建和操作开发领域，Aspose.Slides for Java 是一个出色的强大解决方案。本教程重点介绍如何利用 Aspose.Slides 在 PowerPoint 演示文稿中使用正则表达式 (regex) 突出显示文本。在本指南结束时，您将掌握如何实施正则表达式模式来突出显示幻灯片中的特定文本，从而增强功能和视觉清晰度。
 ## 先决条件
@@ -62,3 +68,9 @@ presentation.save(dataDir + "SomePresentation-out.pptx", SaveFormat.Pptx);
 当然，它提供了除了突出显示之外的广泛的文本处理功能，包括字体样式、对齐等等。
 ### 我可以在购买之前试用 Aspose.Slides for Java 吗？
 是的，你可以从[免费试用](https://releases.aspose.com/)来评估其能力。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

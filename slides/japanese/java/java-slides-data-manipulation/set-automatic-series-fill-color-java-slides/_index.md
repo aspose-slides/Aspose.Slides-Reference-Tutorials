@@ -3,10 +3,16 @@ title: Java スライドでシリーズの自動塗りつぶし色を設定す�
 linktitle: Java スライドでシリーズの自動塗りつぶし色を設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java スライドでシリーズの自動塗りつぶし色を設定する方法を学びます。動的なプレゼンテーションのコード例を含むステップバイステップ ガイド。
-type: docs
 weight: 14
 url: /ja/java/data-manipulation/set-automatic-series-fill-color-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java スライドでシリーズの自動塗りつぶし色を設定する
+
 
 ## Java スライドでシリーズの塗りつぶし色を自動設定する方法の紹介
 
@@ -126,3 +132,9 @@ finally
 ### より多くのリソースやドキュメントはどこで見つかりますか?
 
  Aspose.Slides for Javaの包括的なドキュメントは以下からアクセスできます。[ここ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

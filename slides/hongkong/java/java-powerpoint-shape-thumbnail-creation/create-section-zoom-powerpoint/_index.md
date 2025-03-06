@@ -3,10 +3,16 @@ title: 在 PowerPoint 中建立剖面縮放
 linktitle: 在 PowerPoint 中建立剖面縮放
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中建立部分縮放。輕鬆增強導航和參與度。
-type: docs
 weight: 13
 url: /zh-hant/java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 PowerPoint 中建立剖面縮放
+
 
 ## 介紹
 在本教程中，我們將深入研究使用 Aspose.Slides for Java 在 PowerPoint 簡報中建立部分縮放。部分縮放是一項強大的功能，可讓您無縫導航簡報的不同部分，從而增強組織和整體使用者體驗。透過將複雜的簡報分解為易於理解的部分，您可以有效地傳達訊息並吸引觀眾。
@@ -72,3 +78,9 @@ Aspose.Slides for Java 支援各種 PowerPoint 格式的部分縮放，包括 PP
 是的，您可以按照本教學中概述的類似步驟，使用 Aspose.Slides for Java 將部分縮放新增至現有簡報中。
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的其他支援或協助？
 如需其他支援或協助，您可以造訪 Aspose.Slides for Java 論壇[這裡](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

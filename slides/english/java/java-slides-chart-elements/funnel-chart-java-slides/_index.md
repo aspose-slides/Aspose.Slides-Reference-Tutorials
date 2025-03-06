@@ -3,10 +3,16 @@ title: Funnel Chart in Java Slides
 linktitle: Funnel Chart in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Explore Aspose.Slides for Java with step-by-step tutorials. Create stunning funnel charts and more.
-type: docs
 weight: 14
 url: /java/chart-elements/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Funnel Chart in Java Slides
+
 
 ## Introduction to Funnel Chart in Java Slides
 
@@ -144,3 +150,10 @@ You can handle errors and exceptions using standard Java exception handling mech
 ### Where can I find more examples and documentation for Aspose.Slides for Java?
 
 You can find more examples and detailed documentation on using Aspose.Slides for Java in the [documentation](https://docs.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Usuń notatki ze wszystkich slajdów
 linktitle: Usuń notatki ze wszystkich slajdów
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak usuwać notatki ze slajdów programu PowerPoint za pomocą Aspose.Slides dla .NET. Spraw, aby Twoje prezentacje były czystsze i bardziej profesjonalne.
-type: docs
 weight: 13
 url: /pl/net/notes-slide-manipulation/remove-notes-from-all-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Usuń notatki ze wszystkich slajdów
+
 
 Jeśli jesteś programistą .NET pracującym z prezentacjami programu PowerPoint, możesz natknąć się na potrzebę usunięcia notatek ze wszystkich slajdów w prezentacji. Może to być przydatne, gdy chcesz uporządkować slajdy i wyeliminować wszelkie dodatkowe informacje, które nie są przeznaczone dla odbiorców. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces korzystania z Aspose.Slides dla .NET, aby skutecznie wykonać to zadanie.
 
@@ -97,3 +103,9 @@ Tak, Aspose.Slides jest również dostępny dla Java, C++ i wiele innych język�
 ### 5. Czy Aspose.Slides for .NET obsługuje najnowsze formaty PowerPoint?
 
 Tak, Aspose.Slides dla .NET obsługuje szeroką gamę formatów programu PowerPoint, w tym najnowsze wersje. Szczegóły można znaleźć w dokumentacji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

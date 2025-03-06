@@ -3,10 +3,16 @@ title: PowerPoint에서 그룹 모양 만들기
 linktitle: PowerPoint에서 그룹 모양 만들기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 그룹 모양을 만드는 방법을 알아보세요. 정리와 시각적 매력을 쉽게 개선할 수 있습니다.
-type: docs
 weight: 11
 url: /ko/java/java-powerpoint-shape-thumbnail-creation/create-group-shape-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint에서 그룹 모양 만들기
+
 ## 소개
 현대 프레젠테이션에서는 시각적으로 매력적이고 잘 구성된 요소를 통합하는 것이 정보를 효과적으로 전달하는 데 중요합니다. PowerPoint의 그룹 도형을 사용하면 여러 도형을 단일 단위로 구성하여 더 쉽게 조작하고 서식을 지정할 수 있습니다. Aspose.Slides for Java는 프로그래밍 방식으로 그룹 모양을 생성하고 조작할 수 있는 강력한 기능을 제공하여 프레젠테이션 디자인에 대한 유연성과 제어 기능을 제공합니다.
 ## 전제 조건
@@ -75,3 +81,9 @@ Aspose.Slides for Java는 다양한 버전과 호환되는 PowerPoint 프레젠�
 Aspose.Slides for Java는 그룹 도형에 추가할 수 있는 도형의 수에 엄격한 제한을 두지 않습니다.
 ### Aspose.Slides for Java를 사용하여 그룹 모양에 애니메이션을 적용할 수 있나요?
 예, Aspose.Slides for Java는 그룹 모양에 애니메이션을 적용하여 동적 프레젠테이션을 가능하게 하는 포괄적인 지원을 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

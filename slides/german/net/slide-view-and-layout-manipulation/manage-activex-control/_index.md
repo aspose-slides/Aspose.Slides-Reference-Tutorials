@@ -3,10 +3,16 @@ title: Verwalten von ActiveX-Steuerelementen in PowerPoint
 linktitle: Verwalten von ActiveX-Steuerelementen in PowerPoint
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie PowerPoint-Präsentationen mit ActiveX-Steuerelementen mithilfe von Aspose.Slides für .NET verbessern können. Unsere Schritt-für-Schritt-Anleitung behandelt Einfügung, Bearbeitung, Anpassung, Ereignisbehandlung und mehr.
-type: docs
 weight: 13
 url: /de/net/slide-view-and-layout-manipulation/manage-activex-control/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verwalten von ActiveX-Steuerelementen in PowerPoint
+
 ActiveX-Steuerelemente sind leistungsstarke Elemente, die die Funktionalität und Interaktivität Ihrer PowerPoint-Präsentationen verbessern können. Mit diesen Steuerelementen können Sie Objekte wie Multimedia-Player, Dateneingabeformulare und mehr direkt in Ihre Folien einbetten und bearbeiten. In diesem Artikel erfahren Sie, wie Sie ActiveX-Steuerelemente in PowerPoint mit Aspose.Slides für .NET verwalten, einer vielseitigen Bibliothek, die eine nahtlose Integration und Bearbeitung von PowerPoint-Dateien in Ihren .NET-Anwendungen ermöglicht.
 
 ## Hinzufügen von ActiveX-Steuerelementen zu PowerPoint-Folien
@@ -149,3 +155,9 @@ Sie können Ereignisse, die von ActiveX-Steuerelementen ausgelöst werden, behan
 ### Kann ich ein ActiveX-Steuerelement aus einer Folie entfernen?
 
  Ja, Sie können ein ActiveX-Steuerelement von einer Folie entfernen, indem Sie`Remove` Methode der`Shapes` Sammlung. Übergeben Sie den Verweis an die`IOleObjectFrame` Darstellung des Steuerelements als Argument für den`Remove` Methode, und das Steuerelement wird von der Folie entfernt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

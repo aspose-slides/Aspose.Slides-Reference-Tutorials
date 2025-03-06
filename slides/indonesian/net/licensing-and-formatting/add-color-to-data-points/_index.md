@@ -3,10 +3,16 @@ title: Pewarnaan Bagan dengan Aspose.Slides untuk .NET
 linktitle: Tambahkan Warna ke Titik Data di Bagan
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menambahkan warna ke titik data dalam bagan dengan Aspose.Slides untuk .NET. Sempurnakan presentasi Anda secara visual dan libatkan audiens Anda secara efektif.
-type: docs
 weight: 12
 url: /id/net/licensing-and-formatting/add-color-to-data-points/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pewarnaan Bagan dengan Aspose.Slides untuk .NET
+
 
 Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses penambahan warna pada titik data dalam bagan menggunakan Aspose.Slides untuk .NET. Aspose.Slides adalah perpustakaan yang kuat untuk bekerja dengan presentasi PowerPoint dalam aplikasi .NET. Menambahkan warna pada titik data dalam bagan dapat membuat presentasi Anda lebih menarik secara visual dan lebih mudah dipahami.
 
@@ -115,3 +121,9 @@ Menambahkan warna pada titik data dalam bagan adalah cara ampuh untuk membuat pr
 
 ### Bagaimana cara mendapatkan dukungan untuk Aspose.Slides untuk .NET?
     Untuk dukungan dan diskusi, kunjungi[Forum Aspose.Slide](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

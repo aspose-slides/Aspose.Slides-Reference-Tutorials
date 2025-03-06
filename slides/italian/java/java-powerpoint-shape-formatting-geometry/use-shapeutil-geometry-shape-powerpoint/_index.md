@@ -3,10 +3,16 @@ title: Utilizzare ShapeUtil per la forma geometrica in PowerPoint
 linktitle: Utilizzare ShapeUtil per la forma geometrica in PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Crea forme personalizzate in PowerPoint con Aspose.Slides per Java. Segui questa guida passo passo per migliorare le tue presentazioni.
-type: docs
 weight: 23
 url: /it/java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-shape-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utilizzare ShapeUtil per la forma geometrica in PowerPoint
+
 ## introduzione
 La creazione di presentazioni PowerPoint visivamente accattivanti spesso richiede molto più del semplice utilizzo di forme e testo standard. Immagina di poter aggiungere forme e percorsi di testo personalizzati direttamente nelle tue diapositive, migliorando l'impatto visivo della tua presentazione. Utilizzando Aspose.Slides per Java, puoi raggiungere questo obiettivo facilmente. Questo tutorial ti guiderà attraverso il processo di utilizzo di`ShapeUtil` classe per creare forme geometriche nelle presentazioni di PowerPoint. Che tu sia uno sviluppatore esperto o abbia appena iniziato, questa guida passo passo ti aiuterà a sfruttare la potenza di Aspose.Slides per Java per creare contenuti straordinari e personalizzati.
 ## Prerequisiti
@@ -75,3 +81,9 @@ Aspose.Slides offre una versione di prova gratuita, da cui puoi scaricare[Qui](h
  IL`ShapeUtil` La classe in Aspose.Slides fornisce metodi di utilità per lavorare con le forme, come la conversione di percorsi grafici in percorsi geometrici.
 ### Dove posso ottenere supporto per Aspose.Slides?
  Puoi ottenere supporto da[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

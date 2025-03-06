@@ -3,10 +3,16 @@ title: PowerPoint에서 도형에 경사 효과 적용
 linktitle: PowerPoint에서 도형에 경사 효과 적용
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 단계별 가이드를 통해 Java용 Aspose.Slides를 사용하여 PowerPoint의 모양에 경사 효과를 적용하는 방법을 알아보세요. 프레젠테이션을 향상시키세요.
-type: docs
 weight: 13
 url: /ko/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint에서 도형에 경사 효과 적용
+
 ## 소개
 시각적으로 매력적인 프레젠테이션을 만드는 것은 청중의 관심을 끌고 유지하는 데 중요합니다. 도형에 경사 효과를 추가하면 슬라이드의 전반적인 미학이 향상되어 프레젠테이션이 돋보이게 됩니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint의 도형에 경사 효과를 적용하는 과정을 안내합니다. 프레젠테이션 작성을 자동화하려는 개발자이거나 디자인 작업을 좋아하는 사람이라면 이 가이드가 도움이 될 것입니다.
 ## 전제 조건
@@ -92,3 +98,9 @@ Aspose.Slides for Java를 사용하면 직사각형, 타원, 선, 사용자 정�
 예, Aspose.Slides for Java를 사용하면 깊이, 조명, 카메라 효과를 포함한 다양한 3D 효과를 적용할 수 있습니다.
 ### Java용 Aspose.Slides에 대한 지원은 어디서 받을 수 있나요?
  Aspose 커뮤니티 및 지원 팀으로부터 지원을 받을 수 있습니다.[지원 포럼](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Extract Embedded File Data from OLE Object in PowerPoint
 linktitle: Extract Embedded File Data from OLE Object in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to extract embedded file data from PowerPoint presentations using Aspose.Slides for Java, enhancing document management capabilities.
-type: docs
 weight: 22
 url: /java/java-powerpoint-animation-shape-manipulation/extract-embedded-file-data-ole-object-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extract Embedded File Data from OLE Object in PowerPoint
+
 
 ## Introduction
 In the realm of Java programming, extracting embedded file data from OLE (Object Linking and Embedding) objects within PowerPoint presentations is a task that often arises, particularly in document management or data extraction applications. Aspose.Slides for Java offers a robust solution for handling PowerPoint presentations programmatically. In this tutorial, we'll explore how to extract embedded file data from OLE objects using Aspose.Slides for Java.
@@ -87,3 +93,10 @@ Yes, a valid license is required for commercial usage of Aspose.Slides. You can 
 Absolutely, Aspose.Slides provides comprehensive APIs for automating tasks such as extracting embedded file data, allowing for efficient and streamlined document processing.
 ### Where can I find further assistance or support for Aspose.Slides?
 For any queries, technical assistance, or community support, you can visit the Aspose.Slides forum or refer to the documentation [Aspose.Slides](https://reference.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tworzenie i dostosowywanie wykresów
 linktitle: Tworzenie i dostosowywanie wykresów
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Zwiększ możliwości prezentacji swojej aplikacji .NET dzięki Aspose.Slides. Zapoznaj się z naszym samouczkiem dotyczącym tworzenia i dostosowywania wykresów, zapoznając się z przewodnikami krok po kroku i przykładami kodu.
-type: docs
 weight: 14
 url: /pl/net/chart-creation-and-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tworzenie i dostosowywanie wykresów
+
 
 ## Wstęp:
 
@@ -27,3 +33,9 @@ Dowiedz się, jak porównywać slajdy w prezentacjach za pomocą Aspose.Slides d
 Dowiedz się, jak używać Aspose.Slides dla .NET do tworzenia dynamicznych prezentacji programu PowerPoint z podstawowymi obiektami zastępczymi.
 ### [Zarządzaj nagłówkiem i stopką w Prezentacjach](./header-footer-manager/)
 Dowiedz się, jak zarządzać nagłówkami i stopkami na slajdach za pomocą Aspose.Slides dla .NET. Dostosuj swoje prezentacje z łatwością i precyzją.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

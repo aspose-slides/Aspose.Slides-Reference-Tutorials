@@ -3,10 +3,16 @@ title: Funnel Chart in Java Slides
 linktitle: Funnel Chart in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn to create Funnel Charts in PowerPoint presentations with Aspose.Slides for Java. Step-by-step guide with source code for effective data visualization.
-type: docs
 weight: 18
 url: /java/chart-data-manipulation/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Funnel Chart in Java Slides
+
 
 ## Introduction to Creating a Funnel Chart in Aspose.Slides for Java
 
@@ -137,3 +143,10 @@ You can adjust the position and size of the Funnel Chart by modifying the coordi
 ### Can I export the chart to different formats, such as PDF or image?
 
 Yes, Aspose.Slides for Java allows you to export the presentation with the Funnel Chart to various formats, including PDF, image formats, and more. You can use the `SaveFormat` options to specify the desired output format when saving the presentation.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

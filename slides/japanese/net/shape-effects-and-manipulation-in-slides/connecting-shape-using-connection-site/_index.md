@@ -3,10 +3,16 @@ title: Aspose.Slides for .NET による図形接続の習得
 linktitle: プレゼンテーションの接続サイトを使用して図形を接続する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、シームレスに図形を接続し、魅力的なプレゼンテーションを作成します。スムーズで魅力的なエクスペリエンスを実現するには、ガイドに従ってください。
-type: docs
 weight: 30
 url: /ja/net/shape-effects-and-manipulation-in-slides/connecting-shape-using-connection-site/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides for .NET による図形接続の習得
+
 ## 導入
 プレゼンテーションのダイナミックな世界では、相互接続された図形を使用して視覚的に魅力的なスライドを作成することが、効果的なコミュニケーションに不可欠です。Aspose.Slides for .NET は、接続サイトを使用して図形を接続できるようにすることで、これを実現する強力なソリューションを提供します。このチュートリアルでは、図形を接続するプロセスを段階的に説明し、シームレスな視覚的遷移でプレゼンテーションを目立たせます。
 ## 前提条件
@@ -78,3 +84,9 @@ Aspose.Slides を使用すると、1 つのコネクタで 2 つの図形を接�
 はい、無料試用版をダウンロードできます[ここ](https://releases.aspose.com/).
 ### Aspose.Slides のサポートはどこで受けられますか?
 訪問[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティのサポートとディスカッションのため。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

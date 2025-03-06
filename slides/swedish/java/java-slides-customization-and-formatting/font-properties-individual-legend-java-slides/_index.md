@@ -3,10 +3,16 @@ title: Teckensnittsegenskaper för individuella förklaringar i Java Slides
 linktitle: Teckensnittsegenskaper för individuella förklaringar i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Förbättra PowerPoint-presentationer med anpassade teckensnittsstilar, storlekar och färger för enskilda legender i Java Slides med Aspose.Slides för Java.
-type: docs
 weight: 12
 url: /sv/java/customization-and-formatting/font-properties-individual-legend-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Teckensnittsegenskaper för individuella förklaringar i Java Slides
+
 
 ## Introduktion till teckensnittsegenskaper för individuella förklaringar i Java Slides
 
@@ -113,3 +119,9 @@ Kom ihåg att kassera presentationsobjektet när du är klar med att frigöra re
 ```java
 if (pres != null) pres.dispose();
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

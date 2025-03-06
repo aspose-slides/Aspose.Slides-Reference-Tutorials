@@ -3,10 +3,16 @@ title: Podziel komórki w tabeli programu PowerPoint przy użyciu języka Java
 linktitle: Podziel komórki w tabeli programu PowerPoint przy użyciu języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak programowo dzielić, scalać i formatować komórki tabeli programu PowerPoint przy użyciu programu Aspose.Slides dla języka Java. Mistrzowski projekt prezentacji.
-type: docs
 weight: 11
 url: /pl/java/java-powerpoint-table-manipulation/split-cells-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Podziel komórki w tabeli programu PowerPoint przy użyciu języka Java
+
 ## Wstęp
 W tym samouczku dowiesz się, jak manipulować tabelami programu PowerPoint w Javie za pomocą Aspose.Slides. Tabele są podstawowym elementem prezentacji, często używanym do efektywnego organizowania i prezentowania danych. Aspose.Slides zapewnia solidne możliwości programowego tworzenia, modyfikowania i ulepszania tabel, oferując elastyczność w projektowaniu i układzie.
 ## Warunki wstępne
@@ -95,3 +101,9 @@ Programowe manipulowanie tabelami programu PowerPoint przy użyciu Aspose.Slides
  Możesz uzyskać pomoc na forum Aspose.Slides[Tutaj](https://forum.aspose.com/c/slides/11).
 ### Czy mogę uzyskać tymczasową licencję na Aspose.Slides dla Java?
  Tak, możesz uzyskać licencję tymczasową od[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

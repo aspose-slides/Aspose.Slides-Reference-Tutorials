@@ -3,10 +3,16 @@ title: PowerPoint でズーム フレームを作成する
 linktitle: PowerPoint でズーム フレームを作成する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint で魅力的なズーム フレームを作成する方法を学びます。プレゼンテーションにインタラクティブな要素を追加するには、ガイドに従ってください。
-type: docs
 weight: 17
 url: /ja/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint でズーム フレームを作成する
+
 ## 導入
 魅力的な PowerPoint プレゼンテーションの作成は芸術であり、時には、ほんの少しの追加が大きな違いを生むことがあります。そのような機能の 1 つがズーム フレームです。これを使用すると、特定のスライドや画像にズームインして、ダイナミックでインタラクティブなプレゼンテーションを作成できます。このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint でズーム フレームを作成する手順を説明します。
 ## 前提条件
@@ -113,3 +119,9 @@ Aspose.Slides for Java は、PowerPoint プレゼンテーションをプログ�
 もちろんです! 画像ファイルを読み取ってプレゼンテーションに追加することで、ズーム フレームにカスタム画像を追加できます。
 ### その他の例やドキュメントはどこで見つかりますか?
 包括的なドキュメントと例については、[Aspose.Slides for Java ドキュメント ページ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

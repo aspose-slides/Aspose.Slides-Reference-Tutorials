@@ -3,10 +3,16 @@ title: Java Slaytlarında Salt Okunur Olarak Kaydet
 linktitle: Java Slaytlarında Salt Okunur Olarak Kaydet
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides'ı kullanarak PowerPoint sunumlarını Java'da salt okunur olarak nasıl kaydedeceğinizi öğrenin. İçeriğinizi adım adım talimatlar ve kod örnekleriyle koruyun.
-type: docs
 weight: 11
 url: /tr/java/saving-options/save-as-read-only-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarında Salt Okunur Olarak Kaydet
+
 
 ## Aspose.Slides for Java Kullanarak Java Slaytlarında Salt Okunur Olarak Kaydetmeye Giriş
 
@@ -127,3 +133,9 @@ Yazma koruması parolasını unutursanız, onu kurtarmanın yerleşik bir yolu y
 ### Salt okunur şifreyi ayarladıktan sonra değiştirebilir miyim?
 
  Evet, salt okunur şifreyi ayarladıktan sonra değiştirebilirsiniz. Kullan`setReadProtection(String newPassword)` Salt okunur koruma parolasını güncellemek için yeni parola yöntemini kullanın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

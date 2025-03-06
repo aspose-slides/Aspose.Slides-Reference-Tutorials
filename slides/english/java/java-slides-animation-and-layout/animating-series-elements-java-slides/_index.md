@@ -3,10 +3,16 @@ title: Animating Series Elements in Java Slides
 linktitle: Animating Series Elements in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to animate series elements in PowerPoint slides using Aspose.Slides for Java. Follow this comprehensive step-by-step guide with source code to enhance your presentations.
-type: docs
 weight: 12
 url: /java/animation-and-layout/animating-series-elements-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Animating Series Elements in Java Slides
+
 
 ## Introduction to Animating Series Elements in Java Slides
 
@@ -126,3 +132,10 @@ Yes, after saving the presentation, you can open it in the PowerPoint applicatio
 ### Are there more advanced animation options available in Aspose.Slides for Java?
 
 Yes, Aspose.Slides for Java offers a wide range of advanced animation options, including motion paths, timing, and interactive animations. You can explore the documentation and examples provided by Aspose.Slides to implement advanced animations in your presentations.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

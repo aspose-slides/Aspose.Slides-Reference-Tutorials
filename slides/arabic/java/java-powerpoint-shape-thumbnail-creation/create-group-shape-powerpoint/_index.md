@@ -3,10 +3,16 @@ title: إنشاء شكل المجموعة في PowerPoint
 linktitle: إنشاء شكل المجموعة في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء أشكال جماعية في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تحسين التنظيم والجاذبية البصرية دون عناء.
-type: docs
 weight: 11
 url: /ar/java/java-powerpoint-shape-thumbnail-creation/create-group-shape-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء شكل المجموعة في PowerPoint
+
 ## مقدمة
 في العروض التقديمية الحديثة، يعد دمج العناصر الجذابة بصريًا والمنظمة بشكل جيد أمرًا ضروريًا لنقل المعلومات بشكل فعال. تسمح لك أشكال المجموعات في PowerPoint بتنظيم أشكال متعددة في وحدة واحدة، مما يسهل المعالجة والتنسيق. يوفر Aspose.Slides for Java وظائف قوية لإنشاء أشكال المجموعة ومعالجتها برمجيًا، مما يوفر المرونة والتحكم في تصميم العرض التقديمي الخاص بك.
 ## المتطلبات الأساسية
@@ -75,3 +81,9 @@ pres.save(dataDir + "GroupShape_out.pptx", SaveFormat.Pptx);
 لا يفرض Aspose.Slides for Java أي قيود صارمة على عدد الأشكال التي يمكن إضافتها إلى شكل المجموعة.
 ### هل يمكنني تطبيق الرسوم المتحركة على أشكال المجموعة باستخدام Aspose.Slides لـ Java؟
 نعم، يوفر Aspose.Slides for Java دعمًا شاملاً لتطبيق الرسوم المتحركة على أشكال المجموعة، مما يتيح العروض التقديمية الديناميكية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

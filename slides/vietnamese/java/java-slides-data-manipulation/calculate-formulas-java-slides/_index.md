@@ -3,10 +3,16 @@ title: Tính toán công thức trong Java Slides
 linktitle: Tính toán công thức trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tính toán công thức trong Java Slides bằng Aspose.Slides for Java. Hướng dẫn từng bước với mã nguồn cho bản trình bày PowerPoint động.
-type: docs
 weight: 10
 url: /vi/java/data-manipulation/calculate-formulas-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tính toán công thức trong Java Slides
+
 
 ## Giới thiệu về Tính công thức trong Java Slide bằng Aspose.Slides
 
@@ -114,3 +120,10 @@ Trong hướng dẫn này, chúng ta đã học cách tính toán các công th�
 ### Làm cách nào để tính toán các công thức trong sổ làm việc?
 
  Bạn có thể tính toán các công thức trong sổ làm việc bằng cách sử dụng`calculateFormulas` phương pháp của`IChartDataWorkbook` trong Aspose.Slides.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java PowerPoint Table Manipulation
 linktitle: Java PowerPoint Table Manipulation
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Master Java PowerPoint table manipulation with Aspose.Slides. Learn to add images, split cells, create tables, and more through our detailed step-by-step tutorials.
-type: docs
 weight: 30
 url: /java/java-powerpoint-table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint Table Manipulation
+
 ## Introduction
 
 Mastering table manipulation in PowerPoint presentations can significantly enhance your slides' effectiveness and visual appeal. Aspose.Slides for Java offers a robust set of features to manipulate tables programmatically. Whether you're adding images to table cells, splitting or merging cells, or creating tables from scratch, these tutorials will guide you through each process step-by-step. Let's delve into the world of Java PowerPoint table manipulation!
@@ -60,3 +66,9 @@ Learn how to set the first row as header in PowerPoint tables using Aspose.Slide
 Learn how to format text inside PowerPoint tables using Aspose.Slides for Java. Step-by-step guide with code examples for developers.
 ### [Create Standard Tables in PowerPoint with Java](./create-standard-tables-powerpoint-java/)
 Learn how to create standard tables in PowerPoint with Java using Aspose.Slides. Follow our detailed, step-by-step guide for a seamless experience.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

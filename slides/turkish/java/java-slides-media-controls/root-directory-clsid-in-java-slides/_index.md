@@ -3,10 +3,16 @@ title: Java Slaytlarında Kök Dizin ClsId
 linktitle: Java Slaytlarında Kök Dizin ClsId
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java sunumlarında Kök Dizin ClsId'yi nasıl ayarlayacağınızı öğrenin. Köprü davranışını CLSID ile özelleştirin.
-type: docs
 weight: 10
 url: /tr/java/media-controls/root-directory-clsid-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarında Kök Dizin ClsId
+
 
 ## Aspose.Slides for Java'da Kök Dizin ClsId Ayarlamaya Giriş
 
@@ -107,3 +113,9 @@ Hayır, Kök Dizin ClsId genellikle sunum düzeyinde ayarlanır ve sunum içinde
 ### Kullanabileceğim CLSID'lerde herhangi bir sınırlama var mı?
 
 Kullanabileceğiniz CLSID'ler genellikle sistemde yüklü uygulamalar tarafından belirlenir. Köprüleri işleyebilen geçerli uygulamalara karşılık gelen CLSID'leri kullanmalısınız. Geçersiz bir CLSID kullanmanın beklenmeyen davranışlara yol açabileceğini unutmayın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -1,12 +1,17 @@
 ---
 title: Entfesseln Sie die Macht der Präsentationsmanipulation und -konvertierung
 linktitle: Aspose.Slides für .NET-Tutorials
-type: docs
 weight: 10
 url: /de/net/
 description: Entdecken Sie die Welt der Präsentationsbearbeitung, Konvertierung und PowerPoint-Verarbeitung mit Aspose.Slides für .NET-Tutorials. Erfahren Sie, wie Sie Präsentationen erstellen, konvertieren und verbessern, um beeindruckende Ergebnisse zu erzielen.
-is_root: true
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Entfesseln Sie die Macht der Präsentationsmanipulation und -konvertierung
+
 Willkommen bei der umfassenden Sammlung von Aspose.Slides für .NET-Tutorials, in denen Sie die Kunst der Präsentationsbearbeitung, -konvertierung und -verarbeitung in PowerPoint entdecken. Diese Tutorials dienen Ihnen als Leitfaden zur Beherrschung der Funktionen von Aspose.Slides und ermöglichen Ihnen eine nahtlose Navigation durch verschiedene Aspekte der Präsentationserstellung, -anpassung und -transformation. Egal, ob Sie PowerPoint-Aufgaben automatisieren, Präsentationen in andere Formate konvertieren oder Folien mit Multimedia verbessern möchten, diese Tutorials bieten Schritt-für-Schritt-Anleitungen, die Sie bei Ihrer Entwicklung unterstützen.
 
 ## Präsentationskonvertierung: Folien mit Leichtigkeit umwandeln
@@ -60,3 +65,9 @@ Verbessern Sie Ihre Folienpräsentationen mit fesselnden Bildern und Videos mith
 Verbessern Sie Ihre Fähigkeiten zur Folienbearbeitung mit Aspose.Slides-Tutorials zur Formgeometrie und Positionierung in Folien. Lernen Sie, Formen, ihre Abmessungen und Ausrichtung programmgesteuert zu steuern.
 ### [Ausrichtung und Formatierung von Formen in Folien](./shape-alignment-and-formatting-in-slides/)
 Entdecken Sie die umfassenden Aspose.Slides-Tutorials zur Ausrichtung und Formatierung von Formen in .NET-Anwendungen. Lernen Sie, Formen mühelos auszurichten und zu formatieren und Ihre Folienpräsentationen präzise zu verbessern. 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

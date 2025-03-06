@@ -3,10 +3,16 @@ title: Создание миниатюр фигур PowerPoint — Aspose.Slides
 linktitle: Создание миниатюры фигуры в Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как создавать миниатюры фигур в презентациях PowerPoint с помощью Aspose.Slides для .NET. Подробное пошаговое руководство для разработчиков.
-type: docs
 weight: 14
 url: /ru/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание миниатюр фигур PowerPoint — Aspose.Slides .NET
+
 ## Введение
 Aspose.Slides for .NET — это мощная библиотека, которая позволяет разработчикам беспрепятственно работать с презентациями PowerPoint. Одной из его примечательных особенностей является возможность создавать миниатюры фигур в презентации. Это руководство проведет вас через процесс создания миниатюр фигур с помощью Aspose.Slides для .NET.
 ## Предварительные условия
@@ -57,3 +63,9 @@ bitmap.Save(dataDir + "Shape_thumbnail_out.png", ImageFormat.Png);
 О: Aspose.Slides обеспечивает гибкость в создании эскизов различных фигур, включая текстовые поля, изображения и многое другое.
 ### Вопрос: Могу ли я настроить размер и разрешение создаваемых миниатюр?
  О: Да, вы можете настроить параметры при вызове`GetThumbnail` метод управления размером и разрешением.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

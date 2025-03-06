@@ -3,10 +3,16 @@ title: Инвертировать, если отрицательный резу�
 linktitle: Инвертировать, если отрицательный результат для отдельных серий в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как использовать функцию «Инвертировать, если отрицательный» в Aspose.Slides для Java, чтобы улучшить визуальные эффекты диаграмм в презентациях PowerPoint.
-type: docs
 weight: 11
 url: /ru/java/data-manipulation/invert-if-negative-individual-series-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Инвертировать, если отрицательный результат для отдельных серий в слайдах Java
+
 
 ## Введение в инвертирование, если отрицательное значение для отдельных серий в слайдах Java
 
@@ -131,3 +137,9 @@ finally
 ### Где я могу получить доступ к документации Aspose.Slides для Java?
 
 Вы можете получить доступ к документации по Aspose.Slides для Java по адресу[здесь](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

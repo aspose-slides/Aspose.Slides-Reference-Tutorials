@@ -3,10 +3,16 @@ title: Agregar desplazamiento de estiramiento para relleno de imagen en PowerPoi
 linktitle: Agregar desplazamiento de estiramiento para relleno de imagen en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo agregar un desplazamiento de extensión para el relleno de imágenes en presentaciones de PowerPoint usando Aspose.Slides para Java. Tutorial paso a paso incluido.
-type: docs
 weight: 16
 url: /es/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar desplazamiento de estiramiento para relleno de imagen en PowerPoint
+
 ## Introducción
 En este tutorial, aprenderá cómo usar Aspose.Slides para Java para agregar un desplazamiento de estiramiento para el relleno de imágenes en presentaciones de PowerPoint. Esta función le permite manipular imágenes dentro de sus diapositivas, brindándole un mayor control sobre su apariencia.
 ## Requisitos previos
@@ -64,3 +70,9 @@ Aspose.Slides para Java puede manejar imágenes de varios tamaños, pero se reco
 Sí, puede aplicar una amplia gama de efectos y transformaciones a imágenes utilizando la extensa API de Aspose.Slides para Java.
 ### ¿Dónde puedo encontrar más recursos y soporte para Aspose.Slides para Java?
  Puedes visitar el[Documentación de Aspose.Slides para Java](https://reference.aspose.com/slides/java/) para obtener guías detalladas y explorar[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para el apoyo de la comunidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

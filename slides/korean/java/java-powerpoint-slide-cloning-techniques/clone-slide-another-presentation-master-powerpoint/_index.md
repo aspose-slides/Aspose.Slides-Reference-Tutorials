@@ -3,10 +3,16 @@ title: 마스터를 사용하여 슬라이드를 다른 프레젠테이션으로
 linktitle: 마스터를 사용하여 슬라이드를 다른 프레젠테이션으로 복제
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java 프레젠테이션 간에 슬라이드를 복제하는 방법을 알아보세요. 마스터 슬라이드 유지 관리에 대한 단계별 튜토리얼입니다.
-type: docs
 weight: 14
 url: /ko/java/java-powerpoint-slide-cloning-techniques/clone-slide-another-presentation-master-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 마스터를 사용하여 슬라이드를 다른 프레젠테이션으로 복제
+
 ## 소개
 Aspose.Slides for Java는 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 생성, 수정 및 조작할 수 있는 강력한 라이브러리입니다. 이 문서에서는 Aspose.Slides for Java를 사용하여 마스터 슬라이드를 유지하면서 한 프레젠테이션에서 다른 프레젠테이션으로 슬라이드를 복제하는 방법에 대한 포괄적인 단계별 자습서를 제공합니다.
 ## 전제 조건
@@ -83,3 +89,9 @@ Aspose.Slides for Java는 무료 평가판을 제공합니다. 전체 기능을 
  임시면허를 취득할 수 있습니다.[구매 페이지 제안](https://purchase.aspose.com/temporary-license/).
 ### 더 많은 예제와 문서는 어디에서 찾을 수 있나요?  
  방문하다[Java 문서용 Aspose.Slides](https://reference.aspose.com/slides/java/) 더 많은 예시와 자세한 정보를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

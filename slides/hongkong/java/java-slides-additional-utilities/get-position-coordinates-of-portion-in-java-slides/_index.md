@@ -3,10 +3,16 @@ title: 取得Java幻燈片中部分的位置座標
 linktitle: 取得Java幻燈片中部分的位置座標
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 學習使用 Aspose.Slides for Java API 檢索 Java 投影片中的文字部分座標。精確控制 PowerPoint 簡報中的文字位置。
-type: docs
 weight: 12
 url: /zh-hant/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 取得Java幻燈片中部分的位置座標
+
 
 ## Java投影片中取得部分位置座標的介紹
 
@@ -120,3 +126,9 @@ finally
 ### 我如何獲得 Aspose.Slides for Java 的進一步支援或協助？
 
 您可以在 Aspose 網站上取得其他支援和資源。他們為用戶提供論壇、文件和高級支援選項。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

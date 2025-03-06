@@ -3,10 +3,16 @@ title: Stel toegangsrechten in voor PDF in Java-dia's
 linktitle: Stel toegangsrechten in voor PDF in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u uw PDF-documenten kunt beveiligen met toegangsrechten in Java Slides met Aspose.Slides. Deze stapsgewijze handleiding behandelt wachtwoordbeveiliging en meer.
-type: docs
 weight: 17
 url: /nl/java/additional-utilities/set-access-permissions-to-pdf-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stel toegangsrechten in voor PDF in Java-dia's
+
 
 ## Inleiding tot het instellen van toegangsrechten tot PDF in Java-dia's
 
@@ -104,3 +110,9 @@ Aspose.Slides voor Java biedt verschillende beveiligingsfuncties, waaronder code
 ### Waar kan ik meer bronnen en documentatie vinden voor Aspose.Slides voor Java?
 
  Uitgebreide documentatie voor Aspose.Slides voor Java vindt u op[hier](https://reference.aspose.com/slides/java/) . Bovendien kunt u de bibliotheek downloaden van[hier](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

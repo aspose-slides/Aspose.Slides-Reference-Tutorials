@@ -3,10 +3,16 @@ title: Modyfikuj wbudowane właściwości w programie PowerPoint
 linktitle: Modyfikuj wbudowane właściwości w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak modyfikować wbudowane właściwości w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Ulepsz swoje prezentacje programowo.
-type: docs
 weight: 12
 url: /pl/java/java-powerpoint-properties-management/modify-built-in-properties-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modyfikuj wbudowane właściwości w programie PowerPoint
+
 ## Wstęp
 Aspose.Slides for Java umożliwia programistom programowe manipulowanie prezentacjami programu PowerPoint. Jedną z istotnych funkcji jest modyfikowanie wbudowanych właściwości, takich jak autor, tytuł, temat, komentarze i menedżer. Ten samouczek przeprowadzi Cię przez proces krok po kroku.
 ## Warunki wstępne
@@ -65,3 +71,9 @@ Absolutnie! Możesz tworzyć skrypty lub aplikacje, aby zautomatyzować modyfika
 Chociaż Aspose.Slides zapewnia szeroką funkcjonalność, niektóre zaawansowane funkcje mogą mieć ograniczenia w zależności od formatu i wersji programu PowerPoint.
 ### Czy dostępna jest pomoc techniczna dla Aspose.Slides?
  Tak, możesz szukać pomocy i brać udział w dyskusjach na temat[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

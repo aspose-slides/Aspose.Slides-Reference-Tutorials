@@ -3,10 +3,16 @@ title: Маркеры по умолчанию на диаграмме в сла�
 linktitle: Маркеры по умолчанию на диаграмме в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как создавать слайды Java с маркерами по умолчанию на диаграммах с помощью Aspose.Slides для Java. Пошаговое руководство с исходным кодом.
-type: docs
 weight: 16
 url: /ru/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Маркеры по умолчанию на диаграмме в слайдах Java
+
 
 ## Введение в маркеры по умолчанию в диаграмме в слайдах Java
 
@@ -142,3 +148,9 @@ pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ### Могу ли я добавлять метки к точкам данных?
 
  Да, вы можете добавлять метки к точкам данных, используя`IDataPoint.getLabel()` метод и настройте их по мере необходимости.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

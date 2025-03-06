@@ -3,10 +3,16 @@ title: Aspose.Slides ile Sunum Slaytlarındaki Şekilleri Klonlamak
 linktitle: Aspose.Slides ile Sunum Slaytlarındaki Şekilleri Klonlamak
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides API'sini kullanarak sunum slaytlarındaki şekilleri verimli bir şekilde nasıl kopyalayacağınızı öğrenin. Kolaylıkla dinamik sunumlar oluşturun. Adım adım kılavuzu, SSS'leri ve daha fazlasını keşfedin.
-type: docs
 weight: 27
 url: /tr/net/shape-effects-and-manipulation-in-slides/cloning-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides ile Sunum Slaytlarındaki Şekilleri Klonlamak
+
 
 ## giriiş
 
@@ -97,3 +103,9 @@ Klonlanmış şekiller, kaynak şekildeki etkileşimlerini ve köprülerini koru
 ## Çözüm
 
 Aspose.Slides ile sunum slaytlarında şekilleri klonlamanın gücünün kilidini açmak, içerik oluşturucular ve geliştiriciler için yaratıcı olasılıklarla dolu bir dünyanın kapılarını açıyor. Bu kılavuz, kurulumdan gelişmiş özelleştirmeye kadar tüm süreç boyunca size yol göstererek sunumlarınızı öne çıkarmak için ihtiyaç duyduğunuz araçları sağlar. Aspose.Slides ile iş akışınızı kolaylaştırabilir ve sunum vizyonlarınızı zahmetsizce hayata geçirebilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

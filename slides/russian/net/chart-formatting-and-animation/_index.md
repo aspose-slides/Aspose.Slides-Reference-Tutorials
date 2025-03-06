@@ -3,10 +3,16 @@ title: Форматирование диаграммы и анимация
 linktitle: Форматирование диаграммы и анимация
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Улучшите свои презентации с помощью динамических диаграмм с помощью Aspose.Slides для .NET. Шаг за шагом изучите форматирование диаграмм и анимацию. Совершенствуйте свои навыки презентации уже сегодня!
-type: docs
 weight: 22
 url: /ru/net/chart-formatting-and-animation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Форматирование диаграммы и анимация
+
 
 ## Введение
 
@@ -35,3 +41,9 @@ url: /ru/net/chart-formatting-and-animation/
 Узнайте, как анимировать серии диаграмм с помощью Aspose.Slides для .NET. Создавайте динамические презентации с увлекательной визуализацией данных.
 ### [Анимация элементов серии в диаграмме](./animating-series-elements/)
 Научитесь анимировать серии диаграмм с помощью Aspose.Slides для .NET. Создавайте увлекательные презентации с динамичными визуальными эффектами. Экспертное руководство с примерами кода.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

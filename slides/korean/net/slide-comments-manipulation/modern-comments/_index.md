@@ -3,10 +3,16 @@ title: Aspose.Slides를 사용한 최신 댓글 관리
 linktitle: 최신 댓글 관리
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션의 최신 댓글을 관리하는 방법을 알아보세요. 손쉽게 협업하세요!
-type: docs
 weight: 14
 url: /ko/net/slide-comments-manipulation/modern-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides를 사용한 최신 댓글 관리
+
 
 Aspose.Slides for .NET은 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 작업할 수 있게 해주는 강력한 라이브러리입니다. 제공되는 기능 중 하나는 최신 댓글 관리로, 프레젠테이션에서 댓글을 원활하게 추가, 수정 및 상호 작용할 수 있습니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 최신 댓글을 관리하는 과정을 안내합니다.
 
@@ -109,3 +115,9 @@ PowerPoint 프레젠테이션의 최신 주석을 사용하면 공동 작업자�
 ### 5. 구매하기 전에 Aspose.Slides for .NET을 사용해 볼 수 있나요?
 
  틀림없이! 다음에서 .NET용 Aspose.Slides의 무료 평가판에 액세스할 수 있습니다.[무료 평가판 링크](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

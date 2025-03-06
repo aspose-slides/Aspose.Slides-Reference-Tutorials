@@ -3,10 +3,16 @@ title: Управление свойствами Java PowerPoint
 linktitle: Управление свойствами Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как управлять свойствами PowerPoint с помощью Aspose.Slides для Java. Получите доступ к свойствам, измените и обновите их без особых усилий с помощью наших подробных руководств.
-type: docs
 weight: 21
 url: /ru/java/java-powerpoint-properties-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление свойствами Java PowerPoint
+
 
 ## Введение
 
@@ -38,3 +44,9 @@ url: /ru/java/java-powerpoint-properties-management/
 Узнайте, как изменять встроенные свойства в презентациях PowerPoint с помощью Aspose.Slides для Java. Улучшайте свои презентации программно.
 ### [Обновить свойства презентации с помощью нового шаблона](./update-presentation-properties-new-template/)
 Узнайте, как обновить свойства презентации с помощью Aspose.Slides для Java. Улучшите свои проекты Java с помощью плавного изменения метаданных.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

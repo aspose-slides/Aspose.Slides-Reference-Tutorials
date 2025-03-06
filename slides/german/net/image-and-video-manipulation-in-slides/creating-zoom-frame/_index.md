@@ -3,10 +3,16 @@ title: Erstellen Sie dynamische Präsentationen mit Aspose.Slides Zoom Frames
 linktitle: Erstellen eines Zoomrahmens in Präsentationsfolien mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET fesselnde Präsentationen mit Zoom-Frames erstellen. Folgen Sie unserer Schritt-für-Schritt-Anleitung für ein fesselndes Folienerlebnis.
-type: docs
 weight: 17
 url: /de/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen Sie dynamische Präsentationen mit Aspose.Slides Zoom Frames
+
 ## Einführung
 Im Bereich Präsentationen sind fesselnde Folien der Schlüssel, um einen bleibenden Eindruck zu hinterlassen. Aspose.Slides für .NET bietet ein leistungsstarkes Toolset und in diesem Handbuch führen wir Sie durch den Prozess der Einbindung ansprechender Zoom-Frames in Ihre Präsentationsfolien.
 ## Voraussetzungen
@@ -89,3 +95,9 @@ Ja, Sie können verschiedene Aspekte wie Linienbreite, Füllfarbe und Strichstil
  Sie können eine temporäre Lizenz erwerben[Hier](https://purchase.aspose.com/temporary-license/).
 ### F: Wo kann ich die Vollversion von Aspose.Slides für .NET kaufen?
  Sie können die Vollversion erwerben[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

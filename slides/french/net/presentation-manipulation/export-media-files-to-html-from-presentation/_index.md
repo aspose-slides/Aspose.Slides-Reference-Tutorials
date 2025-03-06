@@ -3,10 +3,16 @@ title: Exporter des fichiers multimédias au format HTML à partir d'une présen
 linktitle: Exporter des fichiers multimédias au format HTML à partir d'une présentation
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Optimisez le partage de vos présentations avec Aspose.Slides pour .NET ! Découvrez comment exporter des fichiers multimédias au format HTML à partir de votre présentation dans ce guide étape par étape.
-type: docs
 weight: 15
 url: /fr/net/presentation-manipulation/export-media-files-to-html-from-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exporter des fichiers multimédias au format HTML à partir d'une présentation
+
 
 Dans ce didacticiel, nous vous guiderons tout au long du processus d'exportation de fichiers multimédias au format HTML à partir d'une présentation à l'aide d'Aspose.Slides pour .NET. Aspose.Slides est une API puissante qui vous permet de travailler avec des présentations PowerPoint par programme. À la fin de ce guide, vous serez en mesure de convertir facilement vos présentations au format HTML. Alors, commençons!
 
@@ -84,3 +90,9 @@ A3 : Oui, Aspose.Slides pour .NET prend en charge divers formats d'exportation, 
  A5 : Vous pouvez acheter une licence auprès de[ce lien](https://purchase.aspose.com/buy).
 
 Maintenant que vous avez terminé ce didacticiel, vous disposez des compétences nécessaires pour exporter des fichiers multimédias au format HTML à partir de présentations PowerPoint à l'aide d'Aspose.Slides pour .NET. Profitez du partage en ligne de vos présentations riches en multimédia !
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: スライドをメモ付きPDFに変換する
 linktitle: スライドをメモ付きPDFに変換する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、発表者のメモを含むプレゼンテーション スライドを簡単に PDF に変換します。コンテンツとコンテキストをシームレスに保持します。
-type: docs
 weight: 18
 url: /ja/net/presentation-conversion/convert-slides-to-pdf-with-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# スライドをメモ付きPDFに変換する
+
 
 # Aspose.Slides for .NET を使用してスライドをメモ付きの PDF に変換する手順を段階的に説明するチュートリアル ガイドを作成します。
 
@@ -98,3 +104,9 @@ auxPresentation.Save(outPath + "PDFnotes_out.pdf", SaveFormat.Pdf, pdfOptions);
 はい、一時ライセンスは以下からご購入いただけます。[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 結論として、Aspose.Slides for .NET を使用すると、メモをそのままにして PowerPoint スライドを PDF 形式に簡単に変換できます。これは、重要なコンテキストが失われないようにしながら、同僚やクライアントとプレゼンテーションを共有する必要のあるプロフェッショナルにとって貴重なツールです。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

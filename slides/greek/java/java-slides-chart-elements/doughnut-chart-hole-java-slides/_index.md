@@ -3,10 +3,16 @@ title: Τρύπα γραφήματος ντόνατ σε διαφάνειες Ja
 linktitle: Τρύπα γραφήματος ντόνατ σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Δημιουργήστε γραφήματα ντόνατ με προσαρμοσμένα μεγέθη οπών σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με πηγαίο κώδικα για προσαρμογή γραφήματος.
-type: docs
 weight: 11
 url: /el/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Τρύπα γραφήματος ντόνατ σε διαφάνειες Java
+
 
 ## Εισαγωγή στο γράφημα ντόνατ με τρύπα σε διαφάνειες Java
 
@@ -94,3 +100,9 @@ finally
 ### Είναι δυνατόν να προστεθεί ένας τίτλος στο γράφημα;
 
  Σίγουρα! Μπορείτε να προσθέσετε έναν τίτλο στο γράφημα χρησιμοποιώντας το`setTitle` μέθοδος στο`IChart` αντικείμενο και παρέχοντας το επιθυμητό κείμενο τίτλου.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

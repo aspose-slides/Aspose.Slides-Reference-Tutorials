@@ -3,10 +3,16 @@ title: Diagramjelölő-beállítások használata az adatponton az Aspose.Slides
 linktitle: Diagramjelölő beállításai az adatponton
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan javíthatja PowerPoint diagramjait az Aspose.Slides for .NET segítségével. Testreszabhatja az adatpontjelzőket képekkel. Hozzon létre vonzó prezentációkat.
-type: docs
 weight: 11
 url: /hu/net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Diagramjelölő-beállítások használata az adatponton az Aspose.Slides .NET-ben
+
 
 Amikor prezentációkkal és adatvizualizációval dolgozik, az Aspose.Slides for .NET hatékony funkciók széles skáláját kínálja diagramok létrehozásához, testreszabásához és kezeléséhez. Ebben az oktatóanyagban megvizsgáljuk, hogyan használhatja a diagramjelölő-beállításokat az adatpontokon a diagrambemutatók javítása érdekében. Ez a lépésenkénti útmutató végigvezeti a folyamaton, kezdve az előfeltételektől és a névterek importálásától az egyes példák több lépésre bontásáig.
 
@@ -148,3 +154,9 @@ Az Aspose.Slides for .NET úgy lett kialakítva, hogy különböző PowerPoint-f
 
 ### Elérhető az Aspose.Slides .NET-hez készült próbaverziója?
  Igen, kipróbálhatja az Aspose.Slides for .NET alkalmazást, ha letölt egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thêm Nút Trợ lý vào SmartArt trong Java PowerPoint
 linktitle: Thêm Nút Trợ lý vào SmartArt trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm nút trợ lý vào SmartArt trong bản trình bày Java PowerPoint bằng Aspose.Slides. Nâng cao kỹ năng chỉnh sửa PowerPoint của bạn.
-type: docs
 weight: 17
 url: /vi/java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm Nút Trợ lý vào SmartArt trong Java PowerPoint
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm nút trợ lý vào SmartArt trong bản trình bày Java PowerPoint bằng Aspose.Slides.
 ## Điều kiện tiên quyết
@@ -70,3 +76,9 @@ Aspose.Slides hỗ trợ các phiên bản PowerPoint từ 97-2003 đến phiên
 Có, bạn có thể tùy chỉnh giao diện bằng cách sử dụng các thuộc tính và phương thức khác nhau do Aspose.Slides cung cấp.
 ### Có giới hạn nào về số lượng nút trong SmartArt không?
 SmartArt trong PowerPoint hỗ trợ một số lượng lớn các nút nhưng bạn nên giữ nó ở mức hợp lý để dễ đọc hơn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

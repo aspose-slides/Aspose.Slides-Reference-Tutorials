@@ -3,10 +3,16 @@ title: Shape Alignment and Formatting in Slides
 linktitle: Shape Alignment and Formatting in Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Explore the comprehensive Aspose.Slides tutorials on shape alignment and formatting in .NET applications. Learn to align and format shapes effortlessly, enhancing your slide presentations with precision. 
-type: docs
 weight: 14
 url: /net/shape-alignment-and-formatting-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Shape Alignment and Formatting in Slides
+
 
 ## Introduction
 
@@ -44,3 +50,9 @@ Learn how to create captivating presentation slides with sketched shapes using A
 Learn how to add stretch offset to the left for a picture frame in PowerPoint using Aspose.Slides for .NET. Step-by-step guide with complete source code example.
 ### [Substituting Picture Title of OLE Object Frame in Presentation Slides](./substituting-picture-title-ole-object-frame/)
 Learn how to substitute picture titles of OLE object frames in presentation slides using Aspose.Slides for .NET. Step-by-step guide with complete source code.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Betűtípus-tulajdonságok beállítása a Java Slides-ben
 linktitle: Betűtípus-tulajdonságok beállítása a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthat be betűtípus-tulajdonságokat Java diákban az Aspose.Slides for Java segítségével. Ez a lépésenkénti útmutató kódpéldákat és GYIK-ket tartalmaz.
-type: docs
 weight: 15
 url: /hu/java/customization-and-formatting/setting-font-properties-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Betűtípus-tulajdonságok beállítása a Java Slides-ben
+
 
 ## Bevezetés a betűtípus tulajdonságainak beállításába a Java Slides programban
 
@@ -137,3 +143,9 @@ for (ISlide slide : pres.getSlides()) {
     // Itt érheti el és testreszabhatja a szöveges elemek betűtípus-tulajdonságait
 }
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

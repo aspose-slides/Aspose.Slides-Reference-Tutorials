@@ -3,10 +3,16 @@ title: إتقان استخراج الصوت والفيديو باستخدام As
 linktitle: استخراج الصوت والفيديو من الشرائح باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية استخراج الصوت والفيديو من شرائح PowerPoint باستخدام Aspose.Slides for .NET. استخراج الوسائط المتعددة بسهولة.
-type: docs
 weight: 10
 url: /ar/net/audio-and-video-extraction/audio-and-video-extraction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان استخراج الصوت والفيديو باستخدام Aspose.Slides لـ .NET
+
 
 ## مقدمة
 
@@ -135,3 +141,10 @@ foreach (ISlide slide in pres.Slides)
 
 ### ما المهام الأخرى التي يمكنني تنفيذها باستخدام Aspose.Slides لـ .NET؟
  يوفر Aspose.Slides for .NET مجموعة واسعة من الميزات، بما في ذلك إنشاء عروض PowerPoint التقديمية وتعديلها وتحويلها. يمكنك استكشاف الوثائق لمزيد من التفاصيل:[Aspose.Slides لتوثيق .NET](https://reference.aspose.com/slides/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

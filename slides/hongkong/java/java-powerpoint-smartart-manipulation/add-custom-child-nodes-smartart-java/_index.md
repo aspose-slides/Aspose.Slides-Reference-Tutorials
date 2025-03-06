@@ -3,10 +3,16 @@ title: 使用 Java 在 SmartArt 中新增自訂子節點
 linktitle: 使用 Java 在 SmartArt 中新增自訂子節點
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Java 和 Aspose.Slides 將自訂子節點新增至 PowerPoint 簡報中的 SmartArt。輕鬆使用專業圖形增強您的投影片。
-type: docs
 weight: 11
 url: /zh-hant/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 SmartArt 中新增自訂子節點
+
 ## 介紹
 SmartArt 是 PowerPoint 中的一項強大功能，可讓使用者快速輕鬆地建立具有專業外觀的圖形。在本教程中，我們將學習如何使用 Java 和 Aspose.Slides 將自訂子節點新增至 SmartArt。
 ## 先決條件
@@ -79,3 +85,9 @@ Aspose.Slides for Java 旨在與不同版本的 PowerPoint 無縫協作，確保
 是的，您可以在 Aspose 網站上找到全面的文件並造訪社群支援論壇。
 ### Aspose.Slides for Java 是否有試用版？
 是的，您可以在購買之前從網站下載 Aspose.Slides for Java 的免費試用版，以探索其功能和功能[這裡](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

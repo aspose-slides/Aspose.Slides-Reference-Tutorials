@@ -3,10 +3,16 @@ title: Java スライドで凡例のカスタム オプションを設定する
 linktitle: Java スライドで凡例のカスタム オプションを設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して Java スライドでカスタム凡例オプションを設定する方法を学習します。PowerPoint グラフの凡例の位置とサイズをカスタマイズします。
-type: docs
 weight: 14
 url: /ja/java/customization-and-formatting/set-legend-custom-options-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java スライドで凡例のカスタム オプションを設定する
+
 
 ## Java スライドで凡例のカスタム オプションを設定する方法の紹介
 
@@ -131,3 +137,9 @@ finally
 ## 他の凡例属性をカスタマイズできますか?
 
 はい、フォント スタイル、境界線、背景色など、凡例のさまざまな属性をカスタマイズできます。凡例のカスタマイズの詳細については、Aspose.Slides のドキュメントを参照してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

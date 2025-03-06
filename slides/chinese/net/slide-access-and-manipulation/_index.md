@@ -3,10 +3,16 @@ title: 幻灯片访问和操作
 linktitle: 幻灯片访问和操作
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 探索使用 Aspose.Slides for .NET 进行幻灯片访问和操作的综合教程。学习以编程方式创建、修改和增强演示文稿。
-type: docs
 weight: 10
 url: /zh/net/slide-access-and-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 幻灯片访问和操作
+
 ## 介绍：
 
 欢迎来到使用 Aspose.Slides for .NET 进行动态演示操作的世界！本教程集是释放 Aspose.Slides API 全部潜力的关键，为您提供无缝访问和操作 .NET 应用程序中幻灯片的工具和知识。从创建引人入胜的演示文稿到实施复杂的修改，这些教程为您提供了全面的路线图。无论您是经验丰富的开发人员还是刚刚开始使用 Aspose.Slides，我们的分步指南和代码示例都将使您能够利用幻灯片的强大功能进行具有影响力的视觉叙事。加入我们，踏上幻灯片访问和操作领域的旅程，探索 Aspose.Slides 为您带来的功能。
@@ -44,3 +50,9 @@ url: /zh/net/slide-access-and-manipulation/
 了解如何使用 Aspose.Slides for .NET 逐步删除 PowerPoint 幻灯片。我们的指南提供了清晰的说明和完整的源代码，以帮助您以编程方式按顺序索引删除幻灯片。
 ### [通过引用删除幻灯片](./remove-slide-using-reference/)
 了解如何使用 Aspose.Slides for .NET 以编程方式删除 PowerPoint 演示文稿中的幻灯片。通过本分步指南简化演示文稿操作。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

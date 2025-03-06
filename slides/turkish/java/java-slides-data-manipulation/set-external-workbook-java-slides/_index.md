@@ -3,10 +3,16 @@ title: Java Slaytlarında Harici Çalışma Kitabını Ayarlama
 linktitle: Java Slaytlarında Harici Çalışma Kitabını Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java Slides'ta harici çalışma kitaplarını nasıl ayarlayacağınızı öğrenin. Excel veri entegrasyonuyla dinamik sunumlar oluşturun.
-type: docs
 weight: 19
 url: /tr/java/data-manipulation/set-external-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarında Harici Çalışma Kitabını Ayarlama
+
 
 ## Java Slaytlarında Harici Çalışma Kitabı Ayarlamaya Giriş
 
@@ -119,3 +125,9 @@ Aspose.Slides for Java, en son Java sürümleriyle uyumluluğun sağlanması ama
 ### Aynı harici çalışma kitabına başvuran birden fazla grafik ekleyebilir miyim?
 
 Evet, sununuza hepsi aynı harici çalışma kitabına başvuran birden fazla grafik ekleyebilirsiniz. Oluşturmak istediğiniz her grafik için bu eğitimde özetlenen adımları tekrarlamanız yeterlidir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

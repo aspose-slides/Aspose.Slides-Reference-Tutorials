@@ -3,10 +3,16 @@ title: Remodeler les diapositives de présentation avec Aspose.Slides pour .NET
 linktitle: Modification de l'ordre des formes dans les diapositives de présentation à l'aide d'Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment remodeler les diapositives de présentation à l'aide d'Aspose.Slides pour .NET. Suivez ce guide étape par étape pour réorganiser les formes et améliorer l'attrait visuel.
-type: docs
 weight: 26
 url: /fr/net/shape-effects-and-manipulation-in-slides/changing-order-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Remodeler les diapositives de présentation avec Aspose.Slides pour .NET
+
 ## Introduction
 Créer des diapositives de présentation visuellement attrayantes est un aspect crucial d’une communication efficace. Aspose.Slides for .NET permet aux développeurs de manipuler les diapositives par programme, offrant un large éventail de fonctionnalités. Dans ce didacticiel, nous aborderons le processus de modification de l'ordre des formes dans les diapositives de présentation à l'aide d'Aspose.Slides pour .NET.
 ## Conditions préalables
@@ -70,3 +76,9 @@ R : Oui, Aspose.Slides pour .NET est compatible avec les environnements Windows 
  R : Visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) pour obtenir du soutien et interagir avec la communauté.
 ### Q : Comment puis-je obtenir une licence temporaire pour Aspose.Slides pour .NET ?
  R : Vous pouvez acquérir un[permis temporaire](https://purchase.aspose.com/temporary-license/) à des fins d’évaluation.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

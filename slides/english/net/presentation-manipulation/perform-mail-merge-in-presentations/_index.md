@@ -3,10 +3,16 @@ title: Perform Mail Merge in Presentations
 linktitle: Perform Mail Merge in Presentations
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn mail merge in presentations using Aspose.Slides for .NET in this step-by-step guide. Create dynamic, personalized presentations effortlessly.
-type: docs
 weight: 21
 url: /net/presentation-manipulation/perform-mail-merge-in-presentations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Perform Mail Merge in Presentations
+
 ## Introduction
 In the world of .NET development, creating dynamic and personalized presentations is a common requirement. One powerful tool that simplifies this process is Aspose.Slides for .NET. In this tutorial, we'll delve into the fascinating realm of performing mail merge in presentations using Aspose.Slides for .NET.
 ## Prerequisites
@@ -150,3 +156,10 @@ For support and assistance, you can visit the [Aspose.Slides forum](https://foru
 Certainly! You can avail of a free trial of Aspose.Slides for .NET from [here](https://releases.aspose.com/).
 ## Conclusion
 In this tutorial, we explored the exciting capabilities of Aspose.Slides for .NET in performing mail merge in presentations. By following the step-by-step guide, you can create dynamic and personalized presentations effortlessly. Elevate your .NET development experience with Aspose.Slides for seamless presentation generation.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

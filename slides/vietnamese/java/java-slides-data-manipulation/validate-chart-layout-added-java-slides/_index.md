@@ -3,10 +3,16 @@ title: Xác thực bố cục biểu đồ được thêm vào các trang trình
 linktitle: Xác thực bố cục biểu đồ được thêm vào các trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Xác thực bố cục biểu đồ chính trong PowerPoint bằng Aspose.Slides cho Java. Tìm hiểu cách thao tác biểu đồ theo chương trình để có được bài thuyết trình ấn tượng.
-type: docs
 weight: 10
 url: /vi/java/data-manipulation/validate-chart-layout-added-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xác thực bố cục biểu đồ được thêm vào các trang trình bày Java
+
 
 ## Giới thiệu về Xác thực bố cục biểu đồ trong Aspose.Slides cho Java
 
@@ -97,3 +103,10 @@ Có, bạn có thể tùy chỉnh dữ liệu biểu đồ bằng cách thêm v�
 ### Nếu tôi muốn sửa đổi các thuộc tính biểu đồ khác thì sao?
 
 Bạn có thể truy cập các thuộc tính biểu đồ khác nhau và tùy chỉnh chúng theo yêu cầu của bạn. Khám phá tài liệu Aspose.Slides để biết thông tin toàn diện về thao tác biểu đồ.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

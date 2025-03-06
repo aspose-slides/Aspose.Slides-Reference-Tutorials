@@ -3,10 +3,16 @@ title: Open een met een wachtwoord beveiligde presentatie in Java-dia's
 linktitle: Open een met een wachtwoord beveiligde presentatie in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Met wachtwoord beveiligde presentaties ontgrendelen in Java. Leer hoe u met een wachtwoord beveiligde PowerPoint-dia's kunt openen en openen met Aspose.Slides voor Java. Stapsgewijze handleiding met code.
-type: docs
 weight: 15
 url: /nl/java/additional-utilities/open-password-protected-presentation-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Open een met een wachtwoord beveiligde presentatie in Java-dia's
+
 
 ## Inleiding tot het openen van een met een wachtwoord beveiligde presentatie in Java-dia's
 
@@ -113,3 +119,9 @@ Aspose.Slides biedt de mogelijkheid om het wachtwoord voor een presentatie in te
 ### Waar kan ik meer voorbeelden en documentatie vinden voor Aspose.Slides voor Java?
 
  Uitgebreide documentatie en aanvullende voorbeelden vindt u in de[Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/) en op de[Aspose.Slides-forum](https://forum.aspose.com/c/slides).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Prezentáció konvertálása HTML-be az eredeti betűtípusok megőrzés�
 linktitle: Prezentáció konvertálása HTML-be az eredeti betűtípusok megőrzésével a Java diákban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Az Aspose.Slides for Java segítségével PowerPoint-prezentációkat alakíthat HTML-formátumba, miközben megőrzi az eredeti betűtípusokat.
-type: docs
 weight: 14
 url: /hu/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Prezentáció konvertálása HTML-be az eredeti betűtípusok megőrzésével a Java diákban
+
 
 ## Bevezetés a prezentáció konvertálásába HTML-be az eredeti betűtípusok megőrzésével a Java diákban
 
@@ -111,3 +117,9 @@ Ez a kódpélda PPTX fájlokhoz készült. Ha régebbi PPT-fájlokat kell konver
 ### Hogyan szabhatom tovább a HTML-kimenetet?
 
  Feltárhatod a`HtmlOptions` osztályt a HTML-kimenet különböző szempontjainak testreszabásához, például a diamérethez, a képminőséghez és egyebekhez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java PowerPoint-tabelopmaak en updates
 linktitle: Java PowerPoint-tabelopmaak en updates
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Verbeter Java PowerPoint-presentaties met tabelopmaak en updates met Aspose.Slides. Leer randen toevoegen, tekst in kolommen en rijen opmaken en tabellen bijwerken.
-type: docs
 weight: 31
 url: /nl/java/java-powerpoint-table-formatting-updates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint-tabelopmaak en updates
+
 
 ## Invoering
 
@@ -36,3 +42,9 @@ Leer in deze zelfstudie hoe u tekst in tabelkolommen in PowerPoint kunt opmaken 
 Leer hoe u tekst in tabelrijen in PowerPoint kunt opmaken met Aspose.Slides voor Java. Verbeter uw presentaties met onze stapsgewijze handleiding.
 ### [Update de bestaande tabel in PowerPoint met Java](./update-existing-table-powerpoint-java/)
 Leer hoe u bestaande tabellen in PowerPoint kunt bijwerken met Java met Aspose.Slides. Inclusief stapsgewijze handleiding, gedetailleerde instructies en veelgestelde vragen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

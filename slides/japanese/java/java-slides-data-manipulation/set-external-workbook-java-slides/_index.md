@@ -3,10 +3,16 @@ title: Java スライドで外部ワークブックを設定する
 linktitle: Java スライドで外部ワークブックを設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して Java スライドに外部ワークブックを設定する方法を学習します。Excel データ統合により動的なプレゼンテーションを作成します。
-type: docs
 weight: 19
 url: /ja/java/data-manipulation/set-external-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java スライドで外部ワークブックを設定する
+
 
 ## Java スライドで外部ワークブックを設定する方法の紹介
 
@@ -119,3 +125,9 @@ Aspose.Slides for Java は、最新の Java バージョンとの互換性を確
 ### 同じ外部ブックを参照する複数のグラフを追加できますか?
 
 はい、同じ外部ブックを参照する複数のグラフをプレゼンテーションに追加できます。作成するグラフごとに、このチュートリアルで説明されている手順を繰り返すだけです。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

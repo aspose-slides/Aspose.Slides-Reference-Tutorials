@@ -3,10 +3,16 @@ title: Voeg aangepaste onderliggende knooppunten toe in SmartArt met behulp van 
 linktitle: Voeg aangepaste onderliggende knooppunten toe in SmartArt met behulp van Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u aangepaste onderliggende knooppunten kunt toevoegen aan SmartArt in PowerPoint-presentaties met behulp van Java met Aspose.Slides. Verbeter uw dia's moeiteloos met professionele afbeeldingen.
-type: docs
 weight: 11
 url: /nl/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg aangepaste onderliggende knooppunten toe in SmartArt met behulp van Java
+
 ## Invoering
 SmartArt is een krachtige functie in PowerPoint waarmee gebruikers snel en eenvoudig professioneel ogende afbeeldingen kunnen maken. In deze zelfstudie leren we hoe u aangepaste onderliggende knooppunten aan SmartArt kunt toevoegen met behulp van Java met Aspose.Slides.
 ## Vereisten
@@ -79,3 +85,9 @@ Absoluut! Met Aspose.Slides voor Java kunt u het uiterlijk, de grootte, de kleur
 Ja, u kunt uitgebreide documentatie en toegang tot community-ondersteuningsforums vinden op de Aspose-website.
 ### Is er een proefversie beschikbaar voor Aspose.Slides voor Java?
  Ja, u kunt een gratis proefversie van Aspose.Slides voor Java downloaden van de website om de functies en mogelijkheden ervan te verkennen voordat u een aankoop doet[hier](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

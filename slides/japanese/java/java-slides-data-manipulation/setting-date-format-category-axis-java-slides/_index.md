@@ -3,10 +3,16 @@ title: Java スライドのカテゴリ軸の日付形式を設定する
 linktitle: Java スライドのカテゴリ軸の日付形式を設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint グラフのカテゴリ軸の日付形式を設定する方法を学びます。ソース コード付きのステップ バイ ステップ ガイド。
-type: docs
 weight: 26
 url: /ja/java/data-manipulation/setting-date-format-category-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java スライドのカテゴリ軸の日付形式を設定する
+
 
 ## Java スライドのカテゴリ軸の日付形式設定の概要
 
@@ -139,3 +145,9 @@ Aspose.Slides for Java を使用して、Java スライド チャートのカテ
 ### グラフにデータポイントを追加するにはどうすればよいですか?
 
 チャートにデータポイントを追加するには、`getDataPoints().addDataPointForLineSeries`データ シリーズにメソッドを適用し、データ値を提供します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

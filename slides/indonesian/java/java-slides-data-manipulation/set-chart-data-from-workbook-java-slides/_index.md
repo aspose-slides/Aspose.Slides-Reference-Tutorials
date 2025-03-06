@@ -3,10 +3,16 @@ title: Atur Data Bagan Dari Buku Kerja di Slide Java
 linktitle: Atur Data Bagan Dari Buku Kerja di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur data bagan dari buku kerja Excel di Java Slides menggunakan Aspose.Slides. Panduan langkah demi langkah dengan contoh kode untuk presentasi dinamis.
-type: docs
 weight: 15
 url: /id/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Atur Data Bagan Dari Buku Kerja di Slide Java
+
 
 ## Pengantar Mengatur Data Bagan Dari Buku Kerja di Slide Java
 
@@ -142,3 +148,9 @@ Ya, Anda bisa memperbarui data bagan secara dinamis dalam presentasi dengan memo
 ### Di mana saya dapat menemukan lebih banyak contoh dan sumber daya untuk bekerja dengan Aspose.Slides untuk Java?
 
  Anda dapat menjelajahi contoh dan sumber tambahan di[Asumsikan situs web](https://www.aspose.com/). Selain itu, dokumentasi Aspose.Slides untuk Java memberikan panduan komprehensif tentang cara bekerja dengan perpustakaan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

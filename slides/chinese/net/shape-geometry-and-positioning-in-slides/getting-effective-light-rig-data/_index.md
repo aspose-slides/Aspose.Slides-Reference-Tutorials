@@ -3,10 +3,16 @@ title: 使用 Aspose.Slides 掌握有效的灯光设备数据
 linktitle: 在演示幻灯片中获取有效的灯光设备数据
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 增强您的演示幻灯片！逐步了解如何检索有效的灯光设备数据。立即提升您的视觉叙事能力！
-type: docs
 weight: 19
 url: /zh/net/shape-geometry-and-positioning-in-slides/getting-effective-light-rig-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Slides 掌握有效的灯光设备数据
+
 ## 介绍
 在当今的数字时代，创建动态且具有视觉吸引力的演示幻灯片是一项常见要求。一个重要方面是操纵灯光设备属性以增强整体美感。本教程将指导您完成使用 Aspose.Slides for .NET 获取演示幻灯片中有效灯光设备数据的过程。
 ## 先决条件
@@ -64,3 +70,9 @@ Aspose.Slides 主要支持 .NET 语言，例如 C#。不过，也有类似的产
 访问支持论坛[这里](https://forum.aspose.com/c/slides/11).
 ### 我可以购买 Aspose.Slides for .NET 的临时许可证吗？
 是的，你可以获得临时驾照[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

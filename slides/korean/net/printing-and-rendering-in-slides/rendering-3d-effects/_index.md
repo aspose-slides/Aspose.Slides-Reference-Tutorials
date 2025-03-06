@@ -3,10 +3,16 @@ title: 3D 효과 마스터하기 - Aspose.Slides 튜토리얼
 linktitle: Aspose.Slides를 사용하여 프레젠테이션 슬라이드에서 3D 효과 렌더링
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드에 매혹적인 3D 효과를 추가하는 방법을 알아보세요. 놀라운 영상을 보려면 단계별 가이드를 따르세요!
-type: docs
 weight: 13
 url: /ko/net/printing-and-rendering-in-slides/rendering-3d-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 3D 효과 마스터하기 - Aspose.Slides 튜토리얼
+
 ## 소개
 효과적인 의사소통을 위해서는 시각적으로 매력적인 프레젠테이션 슬라이드를 만드는 것이 필수적입니다. Aspose.Slides for .NET은 3D 효과 렌더링 기능을 포함하여 슬라이드를 향상시키는 강력한 기능을 제공합니다. 이 튜토리얼에서는 Aspose.Slides를 활용하여 프레젠테이션 슬라이드에 멋진 3D 효과를 손쉽게 추가하는 방법을 살펴보겠습니다.
 ## 전제 조건
@@ -77,3 +83,9 @@ pres.Slides[0].GetThumbnail(2, 2).Save(outPngFile, ImageFormat.Png);
 예, Aspose.Slides의 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 ### 문제가 발생하면 어떻게 지원을 받을 수 있나요?
  Aspose.Slides 포럼을 방문하세요[여기](https://forum.aspose.com/c/slides/11) 지역 사회 지원 및 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

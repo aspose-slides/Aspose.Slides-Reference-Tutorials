@@ -3,10 +3,16 @@ title: Aspose.Slides for Java'yı kullanarak Metin Çerçevesine Sütunlar Eklem
 linktitle: Aspose.Slides for Java'yı kullanarak Metin Çerçevesine Sütunlar Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: PowerPoint sunumlarınızı geliştirmek için Aspose.Slides for Java'yı kullanarak metin çerçevelerine nasıl sütun ekleyeceğinizi öğrenin. Adım adım kılavuzumuz süreci basitleştirir.
-type: docs
 weight: 11
 url: /tr/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides for Java'yı kullanarak Metin Çerçevesine Sütunlar Ekleme
+
 ## giriiş
 Bu eğitimde Aspose.Slides for Java kullanarak sütun eklemek için metin çerçevelerini nasıl değiştireceğimizi inceleyeceğiz. Aspose.Slides, Java geliştiricilerinin PowerPoint sunumlarını programlı olarak oluşturmasına, değiştirmesine ve dönüştürmesine olanak tanıyan güçlü bir kitaplıktır. Metin çerçevelerine sütun eklemek, slaytlardaki metnin görsel çekiciliğini ve organizasyonunu geliştirerek sunumları daha ilgi çekici ve okunması kolay hale getirir.
 ## Önkoşullar
@@ -81,3 +87,9 @@ Hayır, Aspose.Slides bir metin çerçevesindeki sütunlar için eşit genişli�
  Detaylı dokümantasyon mevcut[Burada](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java için nasıl teknik destek alabilirim?
  Topluluktan destek isteyebilirsiniz[Burada](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

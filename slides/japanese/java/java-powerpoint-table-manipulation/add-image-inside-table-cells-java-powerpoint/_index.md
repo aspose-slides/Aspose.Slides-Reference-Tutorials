@@ -3,10 +3,16 @@ title: Java PowerPoint で表のセル内に画像を追加する
 linktitle: Java PowerPoint で表のセル内に画像を追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用した詳細なステップバイステップ ガイドで、Java PowerPoint プレゼンテーションのテーブル セル内に画像を追加する方法を学習します。
-type: docs
 weight: 10
 url: /ja/java/java-powerpoint-table-manipulation/add-image-inside-table-cells-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint で表のセル内に画像を追加する
+
 ## 導入
 表のセル内に画像を埋め込んで Java PowerPoint プレゼンテーションを強化したい場合、ここは最適な場所です。今日は、Aspose.Slides for Java を使用した詳細なステップバイステップ ガイドを紹介します。このチュートリアルでは、プロセス全体を順を追って説明し、初心者でも理解して素晴らしい結果を達成できるようにします。
 ## 前提条件
@@ -104,3 +110,9 @@ Aspose.Slides は、JPEG、PNG、BMP など、さまざまな画像形式をサ�
 参照するには[ドキュメンテーション](https://reference.aspose.com/slides/java/)より詳しい情報と例については、こちらをご覧ください。
 ### Aspose.Slides for Java を購入するにはどうすればよいですか?
 ご購入はこちらから[Aspose ウェブサイト](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

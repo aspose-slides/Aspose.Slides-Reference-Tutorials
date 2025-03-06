@@ -3,10 +3,16 @@ title: Lisensi Terukur di Java Slides
 linktitle: Lisensi Terukur di Java Slides
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Optimalkan penggunaan Aspose.Slides Anda untuk Java dengan Lisensi Terukur. Pelajari cara menyiapkannya dan memantau konsumsi API Anda.
-type: docs
 weight: 10
 url: /id/java/licensing-and-initialization/metered-licensing-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lisensi Terukur di Java Slides
+
 
 ## Pengantar Lisensi Terukur di Aspose.Slide untuk Java
 
@@ -107,3 +113,10 @@ Jika Anda melebihi batas terukur, Anda mungkin perlu meningkatkan lisensi atau m
 ### Apakah saya memerlukan koneksi internet untuk perizinan terukur?
 
 Ya, koneksi internet diperlukan untuk mengatur dan memvalidasi lisensi terukur.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

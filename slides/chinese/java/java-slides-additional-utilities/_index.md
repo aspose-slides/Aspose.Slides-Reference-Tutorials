@@ -3,10 +3,16 @@ title: 使用 Aspose.Slides for Java 教程解锁新的可能性
 linktitle: Java Slides 其他实用程序
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 教程发现 Java Slides 的其他实用程序。使用强大的功能提升您的演示文稿。立即探索！
-type: docs
 weight: 20
 url: /zh/java/additional-utilities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Slides for Java 教程解锁新的可能性
+
 您准备好将您的 Java Slides 演示文稿提升到一个新的水平了吗？Aspose.Slides for Java 提供了大量额外的实用程序和功能，可以将您的幻灯片变成引人入胜的杰作。在本文中，我们将探索 Aspose.Slides for Java 提供的各种工具和技术，使您能够创建令人印象深刻的演示文稿。
 
 ## Aspose.Slides for Java 的强大功能
@@ -48,3 +54,9 @@ Aspose.Slides for Java 是一个强大的库，它为 Java 开发人员提供了
 了解如何使用 Aspose.Slides 在 Java Slides 中通过访问权限保护您的 PDF 文档。本分步指南涵盖密码保护等内容。
 ### [在 Java 幻灯片中验证不加载的演示文稿](./verify-presentation-without-loading-in-java-slides/)
 了解如何使用 Aspose.Slides for Java 验证演示文稿而无需将其加载到 Java Slides 中。通过本分步指南有效确保文件完整性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

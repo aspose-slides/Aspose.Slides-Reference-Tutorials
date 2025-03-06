@@ -3,10 +3,16 @@ title: 將附加投影片插入簡報
 linktitle: 將附加投影片插入簡報
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 將其他投影片插入 PowerPoint 簡報中。本逐步指南提供了原始程式碼範例和詳細說明，可協助您無縫增強簡報。包括可自訂的內容、插入提示和常見問題。
-type: docs
 weight: 15
 url: /zh-hant/net/slide-access-and-manipulation/add-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將附加投影片插入簡報
+
 
 ## 將附加投影片插入簡報的簡介
 
@@ -107,3 +113,9 @@ presentation.Save("path_to_modified_presentation.pptx", SaveFormat.Pptx);
 ### 在哪裡可以找到有關 Aspose.Slides for .NET 的更多資訊？
 
 有關詳細文件和範例，請參閱[Aspose.Slides for .NET 文檔](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

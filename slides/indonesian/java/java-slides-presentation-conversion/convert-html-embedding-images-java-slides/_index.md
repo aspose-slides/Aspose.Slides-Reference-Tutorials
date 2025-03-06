@@ -3,10 +3,16 @@ title: Konversi Gambar Penyematan HTML di Slide Java
 linktitle: Konversi Gambar Penyematan HTML di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Konversi PowerPoint ke HTML dengan Gambar Tersemat. Panduan langkah demi langkah menggunakan Aspose.Slides untuk Java. Pelajari cara mengotomatiskan konversi presentasi di Java dengan mudah.
-type: docs
 weight: 11
 url: /id/java/presentation-conversion/convert-html-embedding-images-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konversi Gambar Penyematan HTML di Slide Java
+
 
 ## Pengantar Mengonversi Gambar Penyematan HTML di Slide Java
 
@@ -125,3 +131,10 @@ Ya, Anda dapat menyesuaikan template HTML dengan memodifikasi file HTML dan CSS 
 ### Bagaimana cara menangani kesalahan selama konversi?
 
 Anda dapat menggabungkan kode konversi dalam blok coba-tangkap untuk menangani pengecualian yang mungkin terjadi selama proses konversi.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

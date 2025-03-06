@@ -3,10 +3,16 @@ title: PowerPoint'te Şekilleri Resimle Doldurma
 linktitle: PowerPoint'te Şekilleri Resimle Doldurma
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarında şekilleri resimlerle nasıl dolduracağınızı öğrenin. Görsel çekiciliği zahmetsizce geliştirin.
-type: docs
 weight: 12
 url: /tr/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint'te Şekilleri Resimle Doldurma
+
 ## giriiş
 PowerPoint sunumları, çekiciliğini artırmak ve bilgileri etkili bir şekilde iletmek için genellikle resimlerle dolu şekiller gibi görsel öğeler gerektirir. Aspose.Slides for Java, bu görevi sorunsuz bir şekilde gerçekleştirmek için güçlü bir araç seti sağlar. Bu derste Aspose.Slides for Java kullanarak şekilleri resimlerle nasıl dolduracağımızı adım adım öğreneceğiz.
 ## Önkoşullar
@@ -80,3 +86,9 @@ Aspose.Slides for Java, PowerPoint 97 ve üzeri ile uyumlu sunumlar oluşturarak
 Aspose.Slides for Java, aralarında JPEG, PNG, GIF, BMP ve TIFF'in de bulunduğu çok çeşitli görüntü formatlarını destekler.
 ### Doldurulan şekillere efekt uygulayabilir miyim?
 Evet, Aspose.Slides for Java, doldurulmuş şekillere gölgeler, yansımalar ve 3D döndürmeler gibi çeşitli efektleri uygulamak için kapsamlı API'ler sağlar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

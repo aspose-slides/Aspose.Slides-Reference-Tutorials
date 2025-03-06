@@ -3,10 +3,16 @@ title: जावा पावरपॉइंट टेक्स्ट और प
 linktitle: जावा पावरपॉइंट टेक्स्ट और पैराग्राफ प्रबंधन
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides के साथ Java PowerPoint टेक्स्ट और पैराग्राफ़ प्रबंधन में महारत हासिल करें। HTML टेक्स्ट आयात करना, लाइन स्पेसिंग प्रबंधित करना, बुलेट बनाना और पैराग्राफ़ संरेखित करना सीखें।
-type: docs
 weight: 26
 url: /hi/java/java-powerpoint-text-paragraph-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा पावरपॉइंट टेक्स्ट और पैराग्राफ प्रबंधन
+
 ## परिचय
 
 अच्छी तरह से संरचित और आकर्षक पावरपॉइंट प्रेजेंटेशन बनाना आपके संचार को काफी हद तक बेहतर बना सकता है। Aspose.Slides for Java के साथ, टेक्स्ट और पैराग्राफ़ को मैनेज करना एक सीधा-सादा काम बन जाता है। चाहे आपको HTML टेक्स्ट को आयात करना हो, लाइन स्पेसिंग को मैनेज करना हो या मल्टीलेवल बुलेट बनाना हो, हमारे विस्तृत ट्यूटोरियल आपको इस प्रक्रिया में मार्गदर्शन करेंगे। आइए जानें कि आप अपने Java PowerPoint प्रेजेंटेशन को अगले स्तर तक कैसे ले जा सकते हैं।
@@ -55,3 +61,9 @@ Aspose.Slides for Java का उपयोग करके PowerPoint में 
 Aspose.Slides for Java का उपयोग करके PowerPoint स्लाइड में पैराग्राफ़ इंडेंट को प्रोग्रामेटिक रूप से सेट करना सीखें। अपनी प्रेजेंटेशन फ़ॉर्मेटिंग को आसानी से बेहतर बनाएँ।
 ### [जावा का उपयोग करके PowerPoint में पैराग्राफ संरेखित करें](./align-paragraphs-powerpoint-java/)
 Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों में पैराग्राफ़ को संरेखित करना सीखें। सटीक फ़ॉर्मेटिंग के लिए हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Οδηγός προσθήκης πλαισίων εικόνων με το
 linktitle: Προσθήκη πλαισίων εικόνων με ύψος σχετικής κλίμακας στο Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε να προσθέτετε κορνίζες με σχετικό ύψος κλίμακας στο Aspose.Slides για .NET. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα για απρόσκοπτες παρουσιάσεις.
-type: docs
 weight: 17
 url: /el/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Οδηγός προσθήκης πλαισίων εικόνων με το Aspose.Slides .NET
+
 ## Εισαγωγή
 Το Aspose.Slides for .NET είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να δημιουργούν, να χειρίζονται και να μετατρέπουν παρουσιάσεις PowerPoint στις εφαρμογές τους .NET χωρίς κόπο. Σε αυτό το σεμινάριο, θα βουτήξουμε στη διαδικασία προσθήκης πλαισίων εικόνων με σχετικό ύψος κλίμακας χρησιμοποιώντας το Aspose.Slides για .NET. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα για να βελτιώσετε τις δεξιότητές σας στη δημιουργία παρουσιάσεων.
 ## Προαπαιτούμενα
@@ -64,3 +70,9 @@ presentation.Save(dataDir + "Adding Picture Frame with Relative Scale_out.pptx",
  Επισκέψου το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) να ζητήσει βοήθεια από την κοινότητα και τους ειδικούς της Aspose.
 ### Πού μπορώ να αγοράσω Aspose.Slides για .NET;
  Μπορείτε να αγοράσετε Aspose.Slides για .NET από το[σελίδα αγοράς](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

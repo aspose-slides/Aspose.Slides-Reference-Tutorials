@@ -3,10 +3,16 @@ title: Dominar la alineación de formas con Aspose.Slides para .NET
 linktitle: Alinear formas en diapositivas de presentación usando Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a alinear formas sin esfuerzo en diapositivas de presentación usando Aspose.Slides para .NET. Mejore el atractivo visual con una alineación precisa. ¡Descargar ahora!
-type: docs
 weight: 10
 url: /es/net/shape-alignment-and-formatting-in-slides/aligning-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominar la alineación de formas con Aspose.Slides para .NET
+
 ## Introducción
 La creación de diapositivas de presentación visualmente atractivas a menudo requiere una alineación precisa de las formas. Aspose.Slides para .NET proporciona una solución poderosa para lograr esto con facilidad. En este tutorial, exploraremos cómo alinear formas en diapositivas de presentación usando Aspose.Slides para .NET.
 ## Requisitos previos
@@ -82,3 +88,9 @@ Aspose.Slides ofrece varias opciones de alineación, incluidas AlignTop, AlignRi
 Aspose.Slides para .NET está diseñado principalmente para aplicaciones de Windows, pero Aspose también proporciona bibliotecas para Java y otras plataformas.
 ### ¿Cómo puedo obtener más ayuda o soporte?
  Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para apoyo y debates de la comunidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: PowerPoint でカメラの有効データを取得する
 linktitle: PowerPoint でカメラの有効データを取得する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: このステップバイステップ ガイドでは、Aspose.Slides for Java を使用して PowerPoint スライドから有効なカメラ データを取得する方法を学習します。
-type: docs
 weight: 24
 url: /ja/java/java-powerpoint-shape-formatting-geometry/get-camera-effective-data-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint でカメラの有効データを取得する
+
 ## 導入
 Aspose.Slides for Java は、開発者がプログラムで PowerPoint プレゼンテーションを作成、変更、管理できるようにする強力なライブラリです。レポート生成の自動化、カスタム スライドの作成、またはプレゼンテーション データの操作など、Aspose.Slides はニーズを満たす包括的な機能セットを提供します。このガイドでは、Aspose.Slides for Java を使用して PowerPoint スライドからカメラ有効データを取得する方法について詳しく説明します。各ステップを順を追って説明し、プロセスを明確に理解できるようにします。
 ## 前提条件
@@ -70,3 +76,9 @@ Aspose.Slides は .NET を含む複数のプログラミング言語で利用で
 はい、商用ライセンスは購入できます[ここ](https://purchase.aspose.com/buy).
 ### Aspose.Slides for Java のドキュメントはどこにありますか?
 ドキュメントは入手可能です[ここ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

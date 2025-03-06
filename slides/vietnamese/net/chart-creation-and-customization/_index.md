@@ -3,10 +3,16 @@ title: Tạo và tùy chỉnh biểu đồ
 linktitle: Tạo và tùy chỉnh biểu đồ
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Nâng cao khả năng trình bày của ứng dụng .NET của bạn với Aspose.Slides. Đi sâu vào hướng dẫn của chúng tôi về cách tạo và tùy chỉnh biểu đồ, khám phá hướng dẫn từng bước và ví dụ về mã.
-type: docs
 weight: 14
 url: /vi/net/chart-creation-and-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo và tùy chỉnh biểu đồ
+
 
 ## Giới thiệu:
 
@@ -27,3 +33,9 @@ Tìm hiểu cách so sánh các trang trình bày trong bản trình bày bằng
 Tìm hiểu cách sử dụng Aspose.Slides cho .NET để tạo bản trình bày PowerPoint động với phần giữ chỗ cơ sở.
 ### [Quản lý Header và Footer trong Slide](./header-footer-manager/)
 Tìm hiểu cách quản lý đầu trang và chân trang trong trang trình bày bằng Aspose.Slides cho .NET. Tùy chỉnh bài thuyết trình của bạn một cách dễ dàng và chính xác.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

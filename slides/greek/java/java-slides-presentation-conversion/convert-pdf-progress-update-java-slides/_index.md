@@ -3,10 +3,16 @@ title: Μετατροπή σε PDF με Ενημέρωση προόδου σε J
 linktitle: Μετατροπή σε PDF με Ενημέρωση προόδου σε Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μετατρέψτε το PowerPoint σε PDF με ενημερώσεις προόδου σε Java χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με πηγαίο κώδικα και παρακολούθηση προόδου για απρόσκοπτη μετατροπή.
-type: docs
 weight: 36
 url: /el/java/presentation-conversion/convert-pdf-progress-update-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μετατροπή σε PDF με Ενημέρωση προόδου σε Java Slides
+
 
 ## Εισαγωγή στη μετατροπή του PowerPoint σε PDF με ενημερώσεις προόδου σε Java χρησιμοποιώντας Aspose.Slides για Java
 
@@ -118,3 +124,10 @@ class ExportProgressHandler implements IProgressCallback
 ### Πώς μπορώ να προσαρμόσω τις επιλογές μετατροπής PDF;
 
  Μπορείτε να προσαρμόσετε τις επιλογές μετατροπής PDF τροποποιώντας το`PdfOptions` αντικείμενο πριν καλέσετε το`presentation.save` μέθοδος. Αυτό περιλαμβάνει ρυθμίσεις ιδιοτήτων όπως μέγεθος σελίδας, ποιότητα και άλλα.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

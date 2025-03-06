@@ -3,10 +3,16 @@ title: Zachowywanie oryginalnych czcionek — Konwertuj prezentację do formatu 
 linktitle: Zachowywanie oryginalnych czcionek — Konwertuj prezentację do formatu HTML
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak zachować oryginalne czcionki podczas konwersji prezentacji do formatu HTML za pomocą Aspose.Slides dla .NET. Bez wysiłku zapewnij spójność czcionki i efekt wizualny.
-type: docs
 weight: 14
 url: /pl/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zachowywanie oryginalnych czcionek — Konwertuj prezentację do formatu HTML
+
 
 W tym obszernym przewodniku przeprowadzimy Cię przez proces zachowywania oryginalnych czcionek podczas konwersji prezentacji do formatu HTML przy użyciu Aspose.Slides dla .NET. Dostarczymy Ci niezbędny kod źródłowy C# i szczegółowo wyjaśnimy każdy krok. Pod koniec tego samouczka będziesz mieć pewność, że czcionki w przekonwertowanym dokumencie HTML pozostaną wierne oryginalnej prezentacji.
 
@@ -98,3 +104,10 @@ Aspose.Slides dla .NET skupia się przede wszystkim na prezentacjach programu Po
 ### P5: Gdzie mogę uzyskać dostęp do dodatkowych zasobów i wsparcia?
 
  Więcej dokumentacji, samouczków i wsparcia można znaleźć na stronie internetowej Aspose. Odwiedzać[Aspose.Slides dla dokumentacji .NET](https://reference.aspose.com/slides/net/) aby uzyskać szczegółowe informacje.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

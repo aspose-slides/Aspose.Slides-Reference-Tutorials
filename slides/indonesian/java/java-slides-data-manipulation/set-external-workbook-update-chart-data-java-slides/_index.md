@@ -3,10 +3,16 @@ title: Atur Buku Kerja Eksternal Dengan Perbarui Data Bagan di Slide Java
 linktitle: Atur Buku Kerja Eksternal Dengan Perbarui Data Bagan di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur buku kerja eksternal dan memperbarui data bagan di Java Slides menggunakan Aspose.Slides untuk Java. Tingkatkan keterampilan otomatisasi PowerPoint Anda.
-type: docs
 weight: 20
 url: /id/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Atur Buku Kerja Eksternal Dengan Perbarui Data Bagan di Slide Java
+
 
 ## Pengantar Mengatur Buku Kerja Eksternal Dengan Memperbarui Data Bagan di Slide Java
 
@@ -99,3 +105,9 @@ Ya, Anda bisa mengkustomisasi tampilan bagan, termasuk judul, label, warna, dan 
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan sumber daya untuk Aspose.Slides untuk Java?
 
  Untuk dokumentasi terperinci dan sumber daya tambahan, kunjungi dokumentasi Aspose.Slides untuk Java di[Di Sini](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

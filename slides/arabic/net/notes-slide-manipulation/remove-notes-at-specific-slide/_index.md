@@ -3,10 +3,16 @@ title: كيفية إزالة الملاحظات من شريحة معينة با�
 linktitle: إزالة الملاحظات من شريحة معينة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إزالة الملاحظات من شريحة معينة في PowerPoint باستخدام Aspose.Slides لـ .NET. تبسيط العروض التقديمية الخاصة بك دون عناء.
-type: docs
 weight: 12
 url: /ar/net/notes-slide-manipulation/remove-notes-at-specific-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# كيفية إزالة الملاحظات من شريحة معينة باستخدام Aspose.Slides .NET
+
 
 في هذا الدليل التفصيلي خطوة بخطوة، سنرشدك خلال عملية إزالة الملاحظات من شريحة معينة في عرض تقديمي لـ PowerPoint باستخدام Aspose.Slides for .NET. Aspose.Slides هي مكتبة قوية تتيح لك العمل مع ملفات PowerPoint برمجيًا. سواء كنت مطورًا أو شخصًا يتطلع إلى أتمتة المهام في عروض PowerPoint التقديمية، سيساعدك هذا البرنامج التعليمي على تحقيق ذلك بسهولة.
 
@@ -82,3 +88,9 @@ Aspose.Slides for .NET هي مكتبة قوية للعمل مع ملفات Power
 
 ### هل تتوفر نسخة تجريبية من Aspose.Slides لـ .NET؟
 نعم، يمكنك استكشاف Aspose.Slides عن طريق تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

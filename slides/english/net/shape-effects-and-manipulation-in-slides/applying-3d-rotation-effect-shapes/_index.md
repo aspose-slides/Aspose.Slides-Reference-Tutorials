@@ -3,10 +3,16 @@ title: Mastering 3D Rotation in Presentations with Aspose.Slides for .NET
 linktitle: Applying 3D Rotation Effect on Shapes in Presentation Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Enhance your presentations with Aspose.Slides for .NET! Learn to apply 3D rotation effects to shapes in this tutorial. Create dynamic and visually stunning presentation.
-type: docs
 weight: 23
 url: /net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effect-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering 3D Rotation in Presentations with Aspose.Slides for .NET
+
 ## Introduction
 Creating engaging and dynamic presentation slides is a key aspect of effective communication. Aspose.Slides for .NET provides a powerful set of tools to enhance your presentations, including the ability to apply 3D rotation effects to shapes. In this tutorial, we will walk through the process of applying a 3D rotation effect to shapes in presentation slides using Aspose.Slides for .NET.
 ## Prerequisites
@@ -60,3 +66,10 @@ Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for commun
 Yes, you can obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### Where can I find detailed documentation for Aspose.Slides for .NET?
 The documentation is available [here](https://reference.aspose.com/slides/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

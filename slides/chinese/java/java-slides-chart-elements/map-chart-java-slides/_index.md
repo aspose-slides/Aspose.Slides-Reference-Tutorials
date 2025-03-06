@@ -3,10 +3,16 @@ title: Java 幻灯片中的地图图表
 linktitle: Java 幻灯片中的地图图表
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中创建令人惊叹的地图图表。为 Java 开发人员提供分步指南和源代码。
-type: docs
 weight: 15
 url: /zh/java/chart-elements/map-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 幻灯片中的地图图表
+
 
 ## 使用 Aspose.Slides for Java 在 Java Slides 中制作地图图表简介
 
@@ -131,3 +137,9 @@ try {
 ### 如何将 Aspose.Slides for Java 集成到我的项目中？
 
 下载地址：[这里](https://releases.aspose.com/slides/java/)并将其添加到项目的类路径中。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: जावा के लिए Aspose.Slides का उपयोग कर
 linktitle: जावा स्लाइड्स मीडिया नियंत्रण
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java ट्यूटोरियल का उपयोग करके Java स्लाइड में मीडिया नियंत्रण लागू करना सीखें। ऑडियो और वीडियो के साथ अपनी प्रस्तुतियों को सहजता से बेहतर बनाएँ।
-type: docs
 weight: 22
 url: /hi/java/media-controls/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा के लिए Aspose.Slides का उपयोग करके मीडिया नियंत्रण
+
 
 आज के डिजिटल युग में, प्रस्तुतियाँ केवल पाठ और छवियों के साथ स्थिर स्लाइड के बारे में नहीं हैं। वे गतिशील, इंटरैक्टिव अनुभवों में विकसित हुए हैं जो दर्शकों को आकर्षित और मोहित करते हैं। यदि आप एक जावा डेवलपर हैं जो अपनी प्रस्तुतियों में एक नया आयाम जोड़ना चाहते हैं, तो आप सही जगह पर हैं। इस लेख में, हम जावा ट्यूटोरियल के लिए Aspose.Slides का उपयोग करके जावा स्लाइड में मीडिया नियंत्रण को लागू करने का तरीका जानेंगे।
 
@@ -51,3 +57,9 @@ Aspose.Slides for Java के साथ Java स्लाइड्स में 
 Aspose.Slides for Java का उपयोग करके Java स्लाइड में प्रेजेंटेशन प्रॉपर्टीज़ को अपडेट करना सीखें। प्रभावशाली प्रेजेंटेशन के लिए लेखक, शीर्षक और बहुत कुछ कस्टमाइज़ करें।
 ### [जावा स्लाइड्स में टेम्पलेट के रूप में किसी अन्य प्रेजेंटेशन का उपयोग करके प्रेजेंटेशन गुण अपडेट करें](./update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/)
 Java के लिए Aspose.Slides का उपयोग करके अपडेट किए गए मेटाडेटा के साथ PowerPoint प्रस्तुतियों को बेहतर बनाएँ। Java स्लाइड्स में टेम्प्लेट का उपयोग करके लेखक, शीर्षक और कीवर्ड जैसे गुणों को अपडेट करना सीखें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

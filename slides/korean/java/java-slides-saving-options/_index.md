@@ -3,10 +3,16 @@ title: Java 슬라이드 저장 옵션
 linktitle: Java 슬라이드 저장 옵션
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드 저장 옵션에 대해 알아보세요. 효율적인 슬라이드 관리 및 사용자 정의를 위한 포괄적인 튜토리얼과 가이드를 살펴보세요.
-type: docs
 weight: 25
 url: /ko/java/saving-options/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 슬라이드 저장 옵션
+
 
 
 동적 프레젠테이션의 세계에서 Java는 슬라이드쇼를 향상시키기 위한 다양한 도구와 라이브러리를 제공하는 다재다능한 언어로 부상했습니다. 슬라이드 관리 및 사용자 정의와 관련하여 Aspose.Slides for Java는 강력한 솔루션으로 돋보입니다. 이 기사에서는 Aspose.Slides for Java를 사용하여 Java 슬라이드 저장 옵션의 흥미로운 영역을 살펴보겠습니다.
@@ -46,3 +52,9 @@ Aspose.Slides for Java를 사용하여 Java Slides에서 사전 정의된 보기
 Aspose.Slides를 사용하여 Java에서 PowerPoint 프레젠테이션을 읽기 전용으로 저장하는 방법을 알아보세요. 단계별 지침과 코드 예제를 통해 콘텐츠를 보호하세요.
 ### [Java 슬라이드에 속성 저장](./save-properties-in-java-slides/)
 Aspose.Slides for Java로 PowerPoint 프레젠테이션을 최적화하세요. 속성 설정, 암호화 비활성화, 비밀번호 보호 추가 및 손쉽게 저장하는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

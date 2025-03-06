@@ -3,10 +3,16 @@ title: Definir pasta de trabalho externa com atualização de dados de gráfico 
 linktitle: Definir pasta de trabalho externa com atualização de dados de gráfico em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como definir pastas de trabalho externas e atualizar dados de gráficos em Java Slides usando Aspose.Slides for Java. Aprimore suas habilidades de automação do PowerPoint.
-type: docs
 weight: 20
 url: /pt/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definir pasta de trabalho externa com atualização de dados de gráfico em slides Java
+
 
 ## Introdução à definição de pasta de trabalho externa com atualização de dados de gráfico em slides Java
 
@@ -99,3 +105,9 @@ Sim, você pode personalizar a aparência do gráfico, incluindo título, rótul
 ### Onde posso encontrar mais documentação e recursos para Aspose.Slides for Java?
 
  Para documentação detalhada e recursos adicionais, visite a documentação Aspose.Slides for Java em[aqui](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

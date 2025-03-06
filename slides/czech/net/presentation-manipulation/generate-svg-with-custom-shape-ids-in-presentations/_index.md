@@ -3,10 +3,16 @@ title: Generujte SVG s ID vlastních tvarů v prezentacích
 linktitle: Generujte SVG s ID vlastních tvarů v prezentacích
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Vytvářejte poutavé prezentace s vlastními tvary a ID SVG pomocí Aspose.Slides pro .NET. Naučte se vytvářet interaktivní snímky krok za krokem s příklady zdrojového kódu. Vylepšete vizuální přitažlivost a interakci uživatele ve svých prezentacích.
-type: docs
 weight: 19
 url: /cs/net/presentation-manipulation/generate-svg-with-custom-shape-ids-in-presentations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generujte SVG s ID vlastních tvarů v prezentacích
+
 
 Chcete využít sílu Aspose.Slides pro .NET ke generování souborů SVG s vlastními ID tvarů? Jste na správném místě! V tomto podrobném tutoriálu vás provedeme procesem pomocí následujícího fragmentu zdrojového kódu. Nakonec budete dobře vybaveni k vytváření souborů SVG s vlastními ID tvarů ve vašich prezentacích.
 
@@ -78,3 +84,10 @@ A tady to máte! Úspěšně jste vygenerovali soubory SVG s uživatelskými ID 
     Další dokumentaci naleznete na adrese[Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/).
 
 Nyní pokračujte a prozkoumejte nekonečné možnosti generování SVG s Aspose.Slides pro .NET. Šťastné kódování!
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

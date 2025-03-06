@@ -3,10 +3,16 @@ title: SmartArt-alakzat létrehozása a PowerPointban Java használatával
 linktitle: SmartArt-alakzat létrehozása a PowerPointban Java használatával
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Hozzon létre dinamikus PowerPoint-prezentációkat Java használatával az Aspose.Slides segítségével. Ismerje meg a SmartArt-alakzatok programozott hozzáadását a továbbfejlesztett látvány érdekében.
-type: docs
 weight: 10
 url: /hu/java/java-powerpoint-smartart-manipulation/create-smartart-shape-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# SmartArt-alakzat létrehozása a PowerPointban Java használatával
+
 ## Bevezetés
 Java programozás területén általános követelmény a vizuálisan vonzó prezentációk készítése. Legyen szó üzleti prezentációkról, tudományos prezentációkról vagy egyszerűen információmegosztásról, a dinamikus PowerPoint-diák programozott létrehozásának lehetősége megváltoztathatja a játékot. Az Aspose.Slides for Java hatékony eszközként jelenik meg ennek a folyamatnak a megkönnyítésére, és átfogó funkciókat kínál a prezentációk egyszerű és hatékony kezeléséhez.
 ## Előfeltételek
@@ -63,3 +69,9 @@ Igen, az Aspose.Slides for Java támogatja a prezentációk exportálását szá
 ### Kipróbálhatom az Aspose.Slides for Java programot vásárlás előtt?
  Biztosan! Fedezze fel az Aspose.Slides for Java képességeit, ha letölt egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
 Hozzon létre dinamikus PowerPoint-prezentációkat Java használatával az Aspose.Slides segítségével. Ismerje meg a SmartArt-alakzatok programozott hozzáadását a továbbfejlesztett látvány érdekében.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

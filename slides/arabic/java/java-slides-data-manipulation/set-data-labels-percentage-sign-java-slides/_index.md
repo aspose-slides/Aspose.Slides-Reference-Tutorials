@@ -3,10 +3,16 @@ title: تعيين النسبة المئوية لتسميات البيانات، 
 linktitle: تعيين النسبة المئوية لتسميات البيانات، تسجيل الدخول إلى شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين تسميات البيانات بعلامات النسبة المئوية في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. قم بإنشاء مخططات جذابة مع إرشادات خطوة بخطوة وكود المصدر.
-type: docs
 weight: 17
 url: /ar/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعيين النسبة المئوية لتسميات البيانات، تسجيل الدخول إلى شرائح Java
+
 
 ## مقدمة لتعيين النسبة المئوية لتسميات البيانات تسجيل الدخول Aspose.Slides لـ Java
 
@@ -176,3 +182,10 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 ### كيف يمكنني إضافة المزيد من السلاسل إلى المخطط؟
 
  يمكنك إضافة سلسلة إضافية إلى المخطط باستخدام`add` الطريقة على`IChartSeriesCollection` هدف.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Quản lý đoạn văn và văn bản Java PowerPoint
 linktitle: Quản lý đoạn văn và văn bản Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Quản lý đoạn văn và văn bản PowerPoint Java thành thạo với Aspose.Slides. Tìm hiểu cách nhập văn bản HTML, quản lý khoảng cách dòng, tạo dấu đầu dòng và căn chỉnh các đoạn văn.
-type: docs
 weight: 26
 url: /vi/java/java-powerpoint-text-paragraph-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý đoạn văn và văn bản Java PowerPoint
+
 ## Giới thiệu
 
 Việc tạo các bản trình bày PowerPoint có cấu trúc tốt và hấp dẫn về mặt hình ảnh có thể nâng cao đáng kể khả năng giao tiếp của bạn. Với Aspose.Slides cho Java, việc quản lý văn bản và đoạn văn trở thành một nhiệm vụ đơn giản. Cho dù bạn cần nhập văn bản HTML, quản lý giãn cách dòng hay tạo dấu đầu dòng nhiều cấp độ, hướng dẫn chi tiết của chúng tôi sẽ hướng dẫn bạn thực hiện quy trình. Hãy khám phá cách bạn có thể đưa bản trình bày Java PowerPoint của mình lên một tầm cao mới.
@@ -55,3 +61,9 @@ Tìm hiểu cách thêm dấu đầu dòng đoạn văn trong trang chiếu Powe
 Tìm hiểu cách đặt thụt lề đoạn văn trong các trang chiếu PowerPoint theo chương trình bằng cách sử dụng Aspose.Slides cho Java. Nâng cao định dạng bản trình bày của bạn một cách dễ dàng.
 ### [Căn chỉnh đoạn văn trong PowerPoint bằng Java](./align-paragraphs-powerpoint-java/)
 Tìm hiểu cách căn chỉnh các đoạn văn trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi để định dạng chính xác.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

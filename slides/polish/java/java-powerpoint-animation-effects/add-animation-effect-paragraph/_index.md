@@ -3,10 +3,16 @@ title: Dodaj efekt animacji w akapicie za pomocą Aspose.Slides dla Java
 linktitle: Dodaj efekt animacji w akapicie za pomocą Aspose.Slides dla Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodawać efekty animacji do akapitów w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java, korzystając z naszego łatwego przewodnika krok po kroku.
-type: docs
 weight: 10
 url: /pl/java/java-powerpoint-animation-effects/add-animation-effect-paragraph/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj efekt animacji w akapicie za pomocą Aspose.Slides dla Java
+
 ## Wstęp
 Czy jesteś gotowy, aby Twoje prezentacje PowerPoint wyróżniały się niesamowitymi animacjami? W tym samouczku przeprowadzimy Cię przez proces dodawania efektów animacji do akapitów za pomocą Aspose.Slides dla Java. Niezależnie od tego, czy jesteś doświadczonym programistą Java, czy dopiero zaczynasz, ten przewodnik zapewni Ci przejrzysty i wciągający proces krok po kroku. Zanurzmy się!
 ## Warunki wstępne
@@ -81,3 +87,9 @@ Aspose.Slides obsługuje szeroką gamę animacji, w tym efekty wejścia, wyjści
 Tak, Aspose.Slides jest przeznaczony do pracy z prezentacjami utworzonymi w różnych wersjach programu PowerPoint.
 ### Gdzie mogę uzyskać pomoc, jeśli napotkam problemy?
  Możesz odwiedzić[forum wsparcia](https://forum.aspose.com/c/slides/11) o pomoc społeczności Aspose.Slides i zespołu wsparcia.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

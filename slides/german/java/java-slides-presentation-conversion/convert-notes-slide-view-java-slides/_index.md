@@ -3,10 +3,16 @@ title: Konvertieren Sie die Notizen-Folienansicht in Java-Folien
 linktitle: Konvertieren Sie die Notizen-Folienansicht in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Notizen-Folienansichten mit Aspose.Slides für Java in Java-Folien konvertieren. Schritt-für-Schritt-Anleitung mit Codebeispielen zur effizienten PowerPoint-Bearbeitung.
-type: docs
 weight: 15
 url: /de/java/presentation-conversion/convert-notes-slide-view-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertieren Sie die Notizen-Folienansicht in Java-Folien
+
 
 ## Einführung in die Konvertierung der Notes-Folienansicht in Java-Folien mit Aspose.Slides
 
@@ -101,3 +107,10 @@ Aspose.Slides ist für die Arbeit mit verschiedenen PowerPoint-Formaten konzipie
 ### Wo finde ich weitere Codebeispiele und Tutorials für Aspose.Slides für Java?
 
  Eine Fülle von Codebeispielen und Tutorials finden Sie im[Aspose.Slides für Java-Dokumentation](https://reference.aspose.com/slides/java/)Sehen Sie sich die Dokumentation an, um mehr über die Funktionen dieser leistungsstarken Bibliothek zu erfahren.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

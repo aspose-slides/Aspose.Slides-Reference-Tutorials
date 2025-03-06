@@ -3,10 +3,16 @@ title: Tambahkan Garis Biasa ke Slide
 linktitle: Tambahkan Garis Biasa ke Slide
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan garis polos ke slide PowerPoint secara terprogram menggunakan Aspose.Slides for Java. Tingkatkan produktivitas Anda dengan panduan langkah demi langkah ini.
-type: docs
 weight: 14
 url: /id/java/java-powerpoint-shape-media-insertion/add-plain-line-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Garis Biasa ke Slide
+
 ## Perkenalan
 Aspose.Slides untuk Java adalah perpustakaan canggih yang memungkinkan pengembang Java bekerja dengan presentasi PowerPoint secara terprogram. Dengan Aspose.Slides, Anda dapat membuat, memodifikasi, dan mengonversi file PowerPoint dengan mudah, menghemat waktu dan tenaga Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses menambahkan garis polos ke slide dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java.
 ## Prasyarat
@@ -62,3 +68,9 @@ Sangat! Aspose.Slides menawarkan berbagai jenis bentuk, termasuk persegi panjang
 Ya, Anda dapat menambahkan teks, gambar, dan konten lainnya ke slide menggunakan Aspose.Slides API.
 ### Apakah ada uji coba gratis yang tersedia untuk Aspose.Slides?
  Ya, Anda dapat mengunduh uji coba gratis Aspose.Slides dari[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

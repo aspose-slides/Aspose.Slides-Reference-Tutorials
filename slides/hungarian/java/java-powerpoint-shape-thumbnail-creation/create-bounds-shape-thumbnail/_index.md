@@ -3,10 +3,16 @@ title: Határok alakzatának bélyegképének létrehozása
 linktitle: Határok alakzatának bélyegképének létrehozása
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre korlátos alakzat-bélyegképeket az Aspose.Slides for Java segítségével. Ez a lépésenkénti oktatóanyag végigvezeti a folyamaton.
-type: docs
 weight: 10
 url: /hu/java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Határok alakzatának bélyegképének létrehozása
+
 ## Bevezetés
 Az Aspose.Slides for Java egy hatékony könyvtár, amely lehetővé teszi a Java fejlesztők számára PowerPoint prezentációk programozott létrehozását, kezelését és konvertálását. Ebben az oktatóanyagban megtanuljuk, hogyan hozhat létre bélyegképet egy határokkal rendelkező alakzatról az Aspose.Slides for Java segítségével.
 ## Előfeltételek
@@ -57,3 +63,9 @@ Igen, igénye szerint módosíthatja a miniatűrök tulajdonságait, például m
 Igen, az Aspose.Slides for Java kiterjedt funkcionalitást biztosít a PowerPoint-prezentációkkal való munkavégzéshez, beleértve a diakezelést, a szövegkivonást és a diagramkészítést.
 ### Elérhető az Aspose.Slides for Java próbaverziója?
  Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

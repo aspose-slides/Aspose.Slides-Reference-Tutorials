@@ -3,10 +3,16 @@ title: Βελτιώστε τις Παρουσιάσεις - Μορφοποιήσ
 linktitle: Μορφοποίηση ορθογώνιου σχήματος σε διαφάνειες παρουσίασης χρησιμοποιώντας το Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε να μορφοποιείτε ορθογώνια σχήματα σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Ανυψώστε τις διαφάνειές σας με δυναμικά οπτικά στοιχεία.
-type: docs
 weight: 12
 url: /el/net/shape-geometry-and-positioning-in-slides/formatting-rectangle-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Βελτιώστε τις Παρουσιάσεις - Μορφοποιήστε ορθογώνια σχήματα με Aspose.Slides
+
 ## Εισαγωγή
 Το Aspose.Slides for .NET είναι μια ισχυρή βιβλιοθήκη που διευκολύνει την εργασία με παρουσιάσεις PowerPoint στο περιβάλλον .NET. Εάν θέλετε να βελτιώσετε τις παρουσιάσεις σας μορφοποιώντας ορθογώνια σχήματα δυναμικά, αυτό το σεμινάριο είναι για εσάς. Σε αυτόν τον οδηγό βήμα προς βήμα, θα σας καθοδηγήσουμε στη διαδικασία μορφοποίησης ενός σχήματος ορθογωνίου σε μια παρουσίαση χρησιμοποιώντας το Aspose.Slides για .NET.
 ## Προαπαιτούμενα
@@ -76,3 +82,9 @@ pres.Save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
  Ναι, μπορείτε να έχετε πρόσβαση στη δωρεάν δοκιμή[εδώ](https://releases.aspose.com/).
 ### Ε5: Πού μπορώ να αγοράσω Aspose.Slides για .NET;
  Μπορείτε να αγοράσετε Aspose.Slides για .NET[εδώ](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

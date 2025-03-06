@@ -3,10 +3,16 @@ title: Biểu đồ hiện có trong Java Slides
 linktitle: Biểu đồ hiện có trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Cải thiện bản trình bày PowerPoint của bạn với Aspose.Slides cho Java. Tìm hiểu cách sửa đổi các biểu đồ hiện có theo chương trình. Hướng dẫn từng bước với mã nguồn để tùy chỉnh biểu đồ.
-type: docs
 weight: 12
 url: /vi/java/chart-elements/existing-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Biểu đồ hiện có trong Java Slides
+
 
 ## Giới thiệu về Biểu đồ hiện có trong Java Slides bằng Aspose.Slides for Java
 
@@ -184,3 +190,9 @@ Trong hướng dẫn toàn diện này, chúng ta đã học cách sửa đổi 
 ### Có cách nào để xóa một chuỗi khỏi biểu đồ không?
 
  Có, bạn có thể xóa một chuỗi khỏi biểu đồ bằng cách sử dụng`chart.getChartData().getSeries().removeAt(index)` phương pháp, ở đâu`index`là chỉ mục của chuỗi bạn muốn xóa.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

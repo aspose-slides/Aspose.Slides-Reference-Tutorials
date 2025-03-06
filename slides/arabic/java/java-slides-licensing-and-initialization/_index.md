@@ -3,10 +3,16 @@ title: ترخيص شرائح جافا وتهيئتها
 linktitle: ترخيص شرائح جافا وتهيئتها
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: اكتشف كيفية ترخيص Aspose.Slides لـ Java وتهيئته بشكل فعال في برامجنا التعليمية الشاملة. ابدأ مع Java Slides الآن!
-type: docs
 weight: 10
 url: /ar/java/licensing-and-initialization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ترخيص شرائح جافا وتهيئتها
+
 
 في عالم Java Slides، يعد الترخيص والتهيئة بمثابة الخطوات الأولى الحاسمة. يوفر Aspose.Slides for Java منصة قوية لإنشاء عروض تقديمية وعروض شرائح مذهلة. في هذه المقالة، سنرشدك خلال عملية الترخيص وتهيئة Aspose.Slides لـ Java، مما يضمن حصولك على جميع الأدوات التي تحتاجها لإنشاء عروض تقديمية جذابة.
 
@@ -38,3 +44,9 @@ url: /ar/java/licensing-and-initialization/
 ## برامج تعليمية حول ترخيص شرائح Java وتهيئتها
 ### [الترخيص المقنن في شرائح جافا](./metered-licensing-java-slides/)
 قم بتحسين Aspose.Slides لاستخدام Java من خلال الترخيص المقنن. تعرف على كيفية إعداده ومراقبة استهلاك واجهة برمجة التطبيقات لديك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lückenbreite in Java-Folien festlegen
 linktitle: Lückenbreite in Java-Folien festlegen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java die Lückenbreite in Java-Folien festlegen. Verbessern Sie die Diagrammdarstellung Ihrer PowerPoint-Präsentationen.
-type: docs
 weight: 21
 url: /de/java/data-manipulation/set-gap-width-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lückenbreite in Java-Folien festlegen
+
 
 ## Einführung in das Einstellen der Lückenbreite in Aspose.Slides für Java
 
@@ -158,3 +164,9 @@ Ja, Aspose.Slides für Java bietet umfangreiche Möglichkeiten zur Diagrammanpas
 ### Wo finde ich weitere Ressourcen und Dokumentation?
 
  Eine umfassende Dokumentation und weitere Ressourcen zu Aspose.Slides für Java finden Sie auf der[Aspose-Website](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

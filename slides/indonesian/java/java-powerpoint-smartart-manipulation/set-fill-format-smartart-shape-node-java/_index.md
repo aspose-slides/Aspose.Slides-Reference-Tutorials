@@ -3,10 +3,16 @@ title: Atur Format Isi untuk Node Bentuk SmartArt di Java
 linktitle: Atur Format Isi untuk Node Bentuk SmartArt di Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur format isian untuk simpul bentuk SmartArt di Java menggunakan Aspose.Slides. Sempurnakan presentasi Anda dengan warna-warna cerah dan visual menawan.
-type: docs
 weight: 12
 url: /id/java/java-powerpoint-smartart-manipulation/set-fill-format-smartart-shape-node-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Atur Format Isi untuk Node Bentuk SmartArt di Java
+
 ## Perkenalan
 Dalam lanskap dinamis pembuatan konten digital, Aspose.Slides for Java menonjol sebagai alat yang ampuh untuk membuat presentasi visual yang menakjubkan dengan mudah dan efisien. Baik Anda seorang pengembang berpengalaman atau baru memulai, menguasai seni memanipulasi bentuk dalam slide sangat penting untuk menciptakan presentasi menawan yang meninggalkan kesan mendalam pada audiens Anda.
 ## Prasyarat
@@ -65,3 +71,9 @@ Anda dapat menemukan sumber daya dukungan yang luas, termasuk forum dan dokument
 Sangat! Aspose.Slides for Java menyediakan berbagai pilihan penyesuaian untuk menyesuaikan tampilan bentuk SmartArt sesuai dengan preferensi Anda.
 ### Apakah Aspose.Slides untuk Java cocok untuk pemula dan pengembang berpengalaman?
 Ya, Aspose.Slides for Java melayani pengembang dari semua tingkat keahlian, menawarkan API intuitif dan dokumentasi komprehensif untuk memfasilitasi integrasi dan penggunaan yang mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

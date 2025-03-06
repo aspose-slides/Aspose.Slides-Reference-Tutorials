@@ -3,10 +3,16 @@ title: Frissítse a Java Slides prezentációs tulajdonságait
 linktitle: Frissítse a Java Slides prezentációs tulajdonságait
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan frissítheti a prezentáció tulajdonságait Java diákban az Aspose.Slides for Java segítségével. Szabja személyre a szerzőt, a címet és egyebeket a hatásos prezentációk érdekében.
-type: docs
 weight: 13
 url: /hu/java/media-controls/update-presentation-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Frissítse a Java Slides prezentációs tulajdonságait
+
 
 ## Bevezetés a Java Slides prezentációs tulajdonságainak frissítésébe
 
@@ -112,3 +118,9 @@ Igen, az Aspose.Slides for Java használható személyes és kereskedelmi projek
 ### Hogyan érhetem el az Aspose.Slides for Java dokumentációját?
 
  Az Aspose.Slides for Java dokumentációját a következő hivatkozásra kattintva érheti el:[Aspose.Slides a Java dokumentációhoz](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

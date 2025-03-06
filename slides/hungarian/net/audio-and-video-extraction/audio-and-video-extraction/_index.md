@@ -3,10 +3,16 @@ title: Hang- és videokivonás elsajátítása az Aspose.Slides segítségével 
 linktitle: Hang és videó kinyerése a diákból az Aspose.Slides segítségével
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan vonhat ki hangot és videót a PowerPoint diákból az Aspose.Slides for .NET segítségével. Könnyű multimédiás kivonás.
-type: docs
 weight: 10
 url: /hu/net/audio-and-video-extraction/audio-and-video-extraction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hang- és videokivonás elsajátítása az Aspose.Slides segítségével .NET-hez
+
 
 ## Bevezetés
 
@@ -135,3 +141,10 @@ Az Aspose különféle licencelési lehetőségeket kínál, beleértve az ingye
 
 ### Milyen egyéb feladatokat hajthatok végre az Aspose.Slides for .NET segítségével?
  Az Aspose.Slides for .NET szolgáltatások széles skáláját kínálja, beleértve a PowerPoint prezentációk létrehozását, módosítását és konvertálását. További részletekért tekintse meg a dokumentációt:[Aspose.Slides a .NET-dokumentációhoz](https://reference.aspose.com/slides/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

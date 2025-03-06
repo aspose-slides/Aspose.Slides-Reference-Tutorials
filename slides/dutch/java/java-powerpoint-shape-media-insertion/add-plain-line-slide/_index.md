@@ -3,10 +3,16 @@ title: Voeg een gewone lijn toe aan de dia
 linktitle: Voeg een gewone lijn toe aan de dia
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u programmatisch een gewone lijn aan een PowerPoint-dia kunt toevoegen met Aspose.Slides voor Java. Verhoog uw productiviteit met deze stapsgewijze handleiding.
-type: docs
 weight: 14
 url: /nl/java/java-powerpoint-shape-media-insertion/add-plain-line-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg een gewone lijn toe aan de dia
+
 ## Invoering
 Aspose.Slides voor Java is een krachtige bibliotheek waarmee Java-ontwikkelaars programmatisch met PowerPoint-presentaties kunnen werken. Met Aspose.Slides kunt u eenvoudig PowerPoint-bestanden maken, wijzigen en converteren, waardoor u tijd en moeite bespaart. In deze zelfstudie begeleiden we u bij het toevoegen van een gewone lijn aan een dia in een PowerPoint-presentatie met behulp van Aspose.Slides voor Java.
 ## Vereisten
@@ -62,3 +68,9 @@ Absoluut! Aspose.Slides biedt een breed scala aan vormtypen, waaronder rechthoek
 Ja, u kunt tekst, afbeeldingen en andere inhoud aan de dia toevoegen met behulp van de Aspose.Slides API.
 ### Is er een gratis proefversie beschikbaar voor Aspose.Slides?
  Ja, u kunt een gratis proefversie van Aspose.Slides downloaden van[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

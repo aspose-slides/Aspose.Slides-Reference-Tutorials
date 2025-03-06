@@ -3,10 +3,16 @@ title: 將簡報轉換為 PDF 並更新進度
 linktitle: 將簡報轉換為 PDF 並更新進度
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 將簡報轉換為具有進度更新的 PDF。包含原始碼的分步指南。
-type: docs
 weight: 29
 url: /zh-hant/net/presentation-conversion/convert-presentation-to-pdf-with-progress-update/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將簡報轉換為 PDF 並更新進度
+
 
 在當今的數位時代，將簡報轉換為 PDF 是一項常見要求，尤其是在商業和教育領域。 Aspose.Slides for .NET 提供了一個強大的解決方案來輕鬆完成此任務。在本逐步教學中，我們將引導您完成將簡報轉換為 PDF 的過程，同時追蹤轉換進度。
 
@@ -85,3 +91,9 @@ class ExportProgressHandler : IProgressCallback
 
 ### Q：在哪裡可以獲得 Aspose.Slides for .NET 的支援？
 答：您可以在以下位置找到支持和社群討論：[https://forum.aspose.com/](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

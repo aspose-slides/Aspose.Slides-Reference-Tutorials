@@ -3,10 +3,16 @@ title: Aspose.Slides - .NET'te Grup Şekilleri Oluşturma
 linktitle: Aspose.Slides ile Sunum Slaytlarında Grup Şekilleri Oluşturma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET ile PowerPoint'te grup şekilleri oluşturmayı öğrenin. Görsel olarak çekici sunumlar için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 11
 url: /tr/net/image-and-video-manipulation-in-slides/creating-group-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides - .NET'te Grup Şekilleri Oluşturma
+
 ## giriiş
 Sunum slaytlarınızın görsel çekiciliğini artırmak ve içeriği daha verimli bir şekilde düzenlemek istiyorsanız grup şekillerini birleştirmek güçlü bir çözümdür. Aspose.Slides for .NET, PowerPoint sunumlarınızda grup şekilleri oluşturmanın ve değiştirmenin kusursuz bir yolunu sunar. Bu eğitimde Aspose.Slides'ı kullanarak grup şekilleri oluşturma sürecini takip edilmesi kolay adımlara ayırarak anlatacağız.
 ## Önkoşullar
@@ -98,3 +104,10 @@ Aspose.Slides'ı ziyaret edin[forum](https://forum.aspose.com/c/slides/11) toplu
  Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides'ın tam lisansını nereden satın alabilirim?
  Lisansı şuradan satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

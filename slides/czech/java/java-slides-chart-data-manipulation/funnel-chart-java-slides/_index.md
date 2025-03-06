@@ -3,10 +3,16 @@ title: Graf trychtýře v Java Slides
 linktitle: Graf trychtýře v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet trychtýřové grafy v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Podrobný průvodce se zdrojovým kódem pro efektivní vizualizaci dat.
-type: docs
 weight: 18
 url: /cs/java/chart-data-manipulation/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Graf trychtýře v Java Slides
+
 
 ## Úvod do vytváření diagramu trychtýře v Aspose.Slides pro Java
 
@@ -137,3 +143,9 @@ Pozici a velikost grafu cesty můžete upravit úpravou souřadnic a rozměrů p
 ### Mohu exportovat graf do různých formátů, jako je PDF nebo obrázek?
 
 Ano, Aspose.Slides for Java umožňuje exportovat prezentaci s trychtýřovým grafem do různých formátů, včetně PDF, obrázkových formátů a dalších. Můžete použít`SaveFormat` možnosti určit požadovaný výstupní formát při ukládání prezentace.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

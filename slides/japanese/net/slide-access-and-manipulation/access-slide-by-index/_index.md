@@ -3,10 +3,16 @@ title: 順次インデックスでスライドにアクセス
 linktitle: 順次インデックスでスライドにアクセス
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、シーケンシャル インデックスでスライドにアクセスする方法を学びます。ソース コードを含むこのステップ バイ ステップ ガイドに従って、PowerPoint プレゼンテーションを簡単にナビゲートおよび操作します。
-type: docs
 weight: 12
 url: /ja/net/slide-access-and-manipulation/access-slide-by-index/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 順次インデックスでスライドにアクセス
+
 
 ## シーケンシャルインデックスによるアクセススライドの紹介
 
@@ -86,3 +92,9 @@ Aspose.Slides for .NET は、プレゼンテーションを最初から作成し
 ### Aspose.Slides を使用した PowerPoint 自動化について詳しく知るにはどうすればよいですか?
 
  Aspose.Slidesを使用したPowerPointの自動化の詳細については、次のWebサイトにある詳細なドキュメントとコードサンプルを参照してください。[ドキュメンテーション](https://reference.aspose.com/slides/net/)ページ。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

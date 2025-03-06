@@ -3,10 +3,16 @@ title: Establecer el ángulo de la línea del conector en PowerPoint
 linktitle: Establecer el ángulo de la línea del conector en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a configurar los ángulos de las líneas del conector en presentaciones de PowerPoint usando Aspose.Slides para Java. Personaliza tus diapositivas con precisión.
-type: docs
 weight: 17
 url: /es/java/java-powerpoint-animation-shape-manipulation/set-connector-line-angle-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Establecer el ángulo de la línea del conector en PowerPoint
+
 ## Introducción
 En este tutorial, exploraremos cómo configurar el ángulo de las líneas conectoras en presentaciones de PowerPoint usando Aspose.Slides para Java. Las líneas conectoras son esenciales para ilustrar relaciones y flujos entre formas en tus diapositivas. Al ajustar sus ángulos, puede asegurarse de que sus presentaciones transmitan su mensaje de manera clara y efectiva.
 ## Requisitos previos
@@ -80,3 +86,9 @@ Aspose.Slides se esfuerza por admitir la mayoría de las funciones de PowerPoint
 ¡Ciertamente! Aspose.Slides ofrece amplias opciones para personalizar líneas de conectores, incluidos estilos, grosor y puntos finales, lo que le permite crear presentaciones visualmente atractivas.
 ### ¿Dónde puedo encontrar soporte para consultas relacionadas con Aspose.Slides?
  Puedes visitar el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para obtener ayuda con cualquier consulta o problema que encuentre durante su proceso de desarrollo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

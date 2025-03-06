@@ -3,10 +3,16 @@ title: Invert, ha negatív a Java Slides egyes sorozatainál
 linktitle: Invert, ha negatív a Java Slides egyes sorozatainál
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan használhatja az Aspose.Slides for Java programban az Invert If Negative funkciót a diagramok megjelenítésének javítására a PowerPoint-prezentációkban.
-type: docs
 weight: 11
 url: /hu/java/data-manipulation/invert-if-negative-individual-series-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Invert, ha negatív a Java Slides egyes sorozatainál
+
 
 ## Bevezetés az Invert If Negative használatához a Java Slides egyes sorozataihoz
 
@@ -131,3 +137,9 @@ Igen, testreszabhatja az invertált adatpontok megjelenését. Az Aspose.Slides 
 ### Hol érhetem el az Aspose.Slides for Java dokumentációját?
 
 Az Aspose.Slides for Java dokumentációját a következő címen érheti el[itt](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

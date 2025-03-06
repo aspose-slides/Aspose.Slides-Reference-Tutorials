@@ -3,10 +3,16 @@ title: Zugriff auf die Folie über den sequenziellen Index
 linktitle: Zugriff auf die Folie über den sequenziellen Index
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET per sequentiellem Index auf Folien zugreifen. Folgen Sie dieser Schritt-für-Schritt-Anleitung mit Quellcode, um PowerPoint-Präsentationen einfach zu navigieren und zu bearbeiten.
-type: docs
 weight: 12
 url: /de/net/slide-access-and-manipulation/access-slide-by-index/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zugriff auf die Folie über den sequenziellen Index
+
 
 ## Einführung in Access Slide by Sequential Index
 
@@ -86,3 +92,9 @@ Aspose.Slides für .NET bietet eine breite Palette an Funktionen, darunter das E
 ### Wie kann ich mehr über die PowerPoint-Automatisierung mit Aspose.Slides erfahren?
 
  Um mehr über die PowerPoint-Automatisierung mit Aspose.Slides zu erfahren, können Sie die ausführliche Dokumentation und die Codebeispiele erkunden, die auf deren[Dokumentation](https://reference.aspose.com/slides/net/) Seite.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

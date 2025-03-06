@@ -3,10 +3,16 @@ title: Java PowerPoint 文字對齊和格式設置
 linktitle: Java PowerPoint 文字對齊和格式設置
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解 Java PowerPoint 文字對齊和格式設定教學。學習使用 Aspose.Slides for Java 對齊、格式化、匯出和突出顯示文字。
-type: docs
 weight: 23
 url: /zh-hant/java/java-powerpoint-text-alignment-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint 文字對齊和格式設置
+
 ## 介紹
 
 掌握 Java PowerPoint 簡報中的文字對齊和格式設定對於創建精美、專業的投影片至關重要。使用Aspose.Slides for Java，您可以輕鬆實現無縫文字格式化和對齊。無論您是初學者還是經驗豐富的開發人員，我們的教程都將幫助您增強簡報。讓我們深入研究教程，看看如何提高您的 PowerPoint 技能！
@@ -45,3 +51,9 @@ url: /zh-hant/java/java-powerpoint-text-alignment-formatting/
 了解如何使用 Aspose.Slides 從 Java PowerPoint 簡報中的 SmartArt 節點擷取文字。為開發人員提供簡單的逐步指南。
 ### [在 Java PowerPoint 中使用正規表示式來反白顯示文本](./highlight-text-using-regex-java-powerpoint/)
 了解如何使用 Aspose.Slides for Java 的正規表示式模式在 PowerPoint 中反白顯示文字。動態增強您的簡報。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

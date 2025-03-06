@@ -3,10 +3,16 @@ title: Converteer Notes-diaweergave in Java-dia's
 linktitle: Converteer Notes-diaweergave in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u diaweergaven van notities in Java Slides kunt converteren met Aspose.Slides voor Java. Stapsgewijze handleiding met codevoorbeelden voor efficiënte PowerPoint-manipulatie.
-type: docs
 weight: 15
 url: /nl/java/presentation-conversion/convert-notes-slide-view-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converteer Notes-diaweergave in Java-dia's
+
 
 ## Inleiding tot het converteren van notities-diaweergave in Java-dia's met behulp van Aspose.Slides
 
@@ -101,3 +107,10 @@ Aspose.Slides is ontworpen om te werken met verschillende PowerPoint-formaten, i
 ### Waar kan ik meer codevoorbeelden en tutorials vinden voor Aspose.Slides voor Java?
 
  U kunt een schat aan codevoorbeelden en tutorials vinden in de[Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/)Bekijk de documentatie voor meer informatie over de mogelijkheden van deze krachtige bibliotheek.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

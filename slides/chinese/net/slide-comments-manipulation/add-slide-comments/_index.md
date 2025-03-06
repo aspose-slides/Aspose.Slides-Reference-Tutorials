@@ -3,10 +3,16 @@ title: 向幻灯片添加评论
 linktitle: 向幻灯片添加评论
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides API 为您的演示文稿添加深度和互动性。了解如何使用 .NET 轻松地将评论集成到您的幻灯片中。增强参与度并吸引观众。
-type: docs
 weight: 13
 url: /zh/net/slide-comments-manipulation/add-slide-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 向幻灯片添加评论
+
 
 在演示文稿管理领域，向幻灯片添加注释的功能可能会改变游戏规则。注释不仅可以增强协作，还可以帮助理解和修改幻灯片内容。借助功能强大且用途广泛的库 Aspose.Slides for .NET，您可以毫不费力地将注释合并到演示文稿幻灯片中。在本分步指南中，我们将引导您完成使用 Aspose.Slides for .NET 向幻灯片添加注释的过程。无论您是经验丰富的开发人员还是 .NET 开发领域的新手，本教程都将提供您所需的所有见解。
 
@@ -104,3 +110,9 @@ using (Presentation pres = new Presentation())
 ### 5. 在购买之前我可以试用 Aspose.Slides for .NET 吗？
 
 是的，您可以通过免费试用探索 Aspose.Slides for .NET。访问[Aspose.Slides 免费试用页面](https://releases.aspose.com/)开始。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

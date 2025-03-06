@@ -3,10 +3,16 @@ title: Ottieni valori e scala unitaria da Axis nelle diapositive Java
 linktitle: Ottieni valori e scala unitaria da Axis nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come ottenere valori e scala unitaria dagli assi in Diapositive Java utilizzando Aspose.Slides per Java. Migliora le tue capacità di analisi dei dati.
-type: docs
 weight: 20
 url: /it/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ottieni valori e scala unitaria da Axis nelle diapositive Java
+
 
 ## Introduzione all'acquisizione di valori e scala unitaria da Axis nelle diapositive Java
 
@@ -122,3 +128,9 @@ Sì, puoi utilizzare Aspose.Slides per Java in progetti commerciali. Offre opzio
 ### Dove posso trovare ulteriori risorse e documentazione per Aspose.Slides per Java?
 
  È possibile trovare documentazione completa e risorse aggiuntive su[Aspose.Slides per la documentazione Java](https://reference.aspose.com/slides/java/) sito web.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

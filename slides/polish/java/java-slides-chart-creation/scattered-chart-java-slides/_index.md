@@ -3,10 +3,16 @@ title: Wykres rozproszony w slajdach Java
 linktitle: Wykres rozproszony w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak tworzyć wykresy punktowe w Javie przy użyciu Aspose.Slides. Przewodnik krok po kroku z kodem źródłowym Java do wizualizacji danych w prezentacjach.
-type: docs
 weight: 11
 url: /pl/java/chart-creation/scattered-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wykres rozproszony w slajdach Java
+
 
 ## Wprowadzenie do wykresu rozproszonego w Aspose.Slides dla Java
 
@@ -172,3 +178,9 @@ series.getMarker().setSymbol(MarkerStyleType.Circle);
 Zachęcamy do zapoznania się z większą liczbą opcji dostosowywania w dokumentacji Aspose.Slides for Java.
 
  Pamiętaj o wymianie`"Your Document Directory"` z rzeczywistą ścieżką, w której chcesz zapisać prezentację.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manage Embedded Fonts in Java PowerPoint
 linktitle: Manage Embedded Fonts in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Effortlessly manage embedded fonts in Java PowerPoint presentations with Aspose.Slides. Step-by-step guide to optimize your slides for consistency.
-type: docs
 weight: 11
 url: /java/java-powerpoint-font-management-text-replacement/manage-embedded-fonts-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manage Embedded Fonts in Java PowerPoint
+
 ## Introduction
 In the ever-evolving world of presentations, managing fonts efficiently can make a huge difference in the quality and compatibility of your PowerPoint files. Aspose.Slides for Java offers a comprehensive solution to manage embedded fonts, ensuring your presentations look perfect on any device. Whether you're dealing with legacy presentations or creating new ones, this guide will walk you through the process of managing embedded fonts in your Java PowerPoint presentations using Aspose.Slides. Let's dive in!
 ## Prerequisites
@@ -104,3 +110,10 @@ Aspose.Slides for Java is compatible with JDK 8 and later versions.
 Managing embedded fonts ensures that your presentations look consistent across different devices and platforms, and helps reduce file size by removing unnecessary fonts.
 ### Where can I get support for Aspose.Slides for Java?
 You can get support from the [Aspose.Slides support forum](https://forum.aspose.com/c/slides/11).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

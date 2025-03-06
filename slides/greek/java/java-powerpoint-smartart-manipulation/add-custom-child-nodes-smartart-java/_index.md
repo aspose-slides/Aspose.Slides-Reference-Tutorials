@@ -3,10 +3,16 @@ title: Προσθέστε προσαρμοσμένους θυγατρικούς 
 linktitle: Προσθέστε προσαρμοσμένους θυγατρικούς κόμβους στο SmartArt χρησιμοποιώντας Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε προσαρμοσμένους θυγατρικούς κόμβους στο SmartArt σε παρουσιάσεις PowerPoint χρησιμοποιώντας Java με Aspose.Slides. Βελτιώστε τις διαφάνειές σας με επαγγελματικά γραφικά χωρίς κόπο.
-type: docs
 weight: 11
 url: /el/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθέστε προσαρμοσμένους θυγατρικούς κόμβους στο SmartArt χρησιμοποιώντας Java
+
 ## Εισαγωγή
 Το SmartArt είναι μια ισχυρή δυνατότητα στο PowerPoint που επιτρέπει στους χρήστες να δημιουργούν γραφικά με επαγγελματική εμφάνιση γρήγορα και εύκολα. Σε αυτό το σεμινάριο, θα μάθουμε πώς να προσθέτουμε προσαρμοσμένους θυγατρικούς κόμβους στο SmartArt χρησιμοποιώντας Java με Aspose.Slides.
 ## Προαπαιτούμενα
@@ -79,3 +85,9 @@ pres.save(dataDir + "ModifiedPresentation.pptx", SaveFormat.Pptx);
 Ναι, μπορείτε να βρείτε ολοκληρωμένη τεκμηρίωση και πρόσβαση σε φόρουμ υποστήριξης κοινότητας στον ιστότοπο Aspose.
 ### Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Slides για Java;
  Ναι, μπορείτε να κατεβάσετε μια δωρεάν δοκιμαστική έκδοση του Aspose.Slides για Java από τον ιστότοπο για να εξερευνήσετε τις δυνατότητες και τις δυνατότητές του πριν κάνετε μια αγορά[εδώ](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

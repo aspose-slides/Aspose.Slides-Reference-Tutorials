@@ -3,10 +3,16 @@ title: استنساخ الشريحة في نهاية عرض تقديمي آخر
 linktitle: استنساخ الشريحة في نهاية عرض تقديمي آخر
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية استنساخ شريحة في نهاية عرض تقديمي آخر باستخدام Aspose.Slides for Java في هذا البرنامج التعليمي الشامل خطوة بخطوة.
-type: docs
 weight: 11
 url: /ar/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-presentation-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استنساخ الشريحة في نهاية عرض تقديمي آخر
+
 ## مقدمة
 هل سبق لك أن وجدت نفسك في موقف حيث كنت بحاجة إلى دمج الشرائح من عروض PowerPoint التقديمية المتعددة؟ يمكن أن يكون من المتاعب تماما، أليس كذلك؟ حسنا، ليس بعد الآن! Aspose.Slides for Java هي مكتبة قوية تجعل التعامل مع عروض PowerPoint التقديمية أمرًا سهلاً. في هذا البرنامج التعليمي، سنرشدك خلال عملية استنساخ شريحة من عرض تقديمي واحد وإضافتها إلى نهاية عرض تقديمي آخر باستخدام Aspose.Slides for Java. ثق بي، بحلول نهاية هذا الدليل، ستتعامل مع عروضك التقديمية مثل المحترفين!
 ## المتطلبات الأساسية
@@ -81,3 +87,9 @@ Aspose.Slides for Java هي مكتبة تسمح للمطورين بإنشاء ع
 لا، بمجرد تنزيل المكتبة، لن تحتاج إلى اتصال بالإنترنت لاستخدامها.
 ### أين يمكنني الحصول على الدعم إذا واجهت مشاكل؟
  يمكنك الحصول على الدعم من منتديات مجتمع Aspose[هنا](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

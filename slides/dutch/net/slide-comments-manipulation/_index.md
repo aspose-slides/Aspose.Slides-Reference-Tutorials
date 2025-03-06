@@ -3,10 +3,16 @@ title: Manipulatie van dia-opmerkingen
 linktitle: Manipulatie van dia-opmerkingen
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter uw vaardigheden op het gebied van diamanipulatie met Aspose.Slides-tutorials over het manipuleren van dia-opmerkingen. Leer hoe u opmerkingen programmatisch kunt toevoegen, bewerken en beheren in PowerPoint-presentaties met behulp van .NET.
-type: docs
 weight: 12
 url: /nl/net/slide-comments-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulatie van dia-opmerkingen
+
 
 ## Invoering
 
@@ -27,3 +33,9 @@ Leer hoe u uw presentaties kunt verbeteren met interactieve elementen door ouder
 Voeg diepte en interactie toe aan uw presentaties met de Aspose.Slides API. Leer hoe u eenvoudig opmerkingen in uw dia's kunt integreren met behulp van .NET. Vergroot de betrokkenheid en fascineer uw publiek.
 ### [Modern commentaarbeheer](./modern-comments/)
 Verbeter de samenwerkings- en feedbackprocessen met modern commentaarbeheer met behulp van Aspose.Slides. Leer hoe u de communicatie in uw presentaties kunt stroomlijnen en de productiviteit kunt maximaliseren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

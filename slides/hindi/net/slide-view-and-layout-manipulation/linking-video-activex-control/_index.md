@@ -3,10 +3,16 @@ title: PowerPoint में ActiveX नियंत्रण के माध्
 linktitle: ActiveX नियंत्रण के माध्यम से वीडियो लिंक करना
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: Aspose.Slides for .NET का उपयोग करके PowerPoint स्लाइड्स से वीडियो लिंक करना सीखें। इस चरण-दर-चरण मार्गदर्शिका में लिंक किए गए वीडियो के साथ इंटरैक्टिव और आकर्षक प्रस्तुतियाँ बनाने के लिए स्रोत कोड और युक्तियाँ शामिल हैं।
-type: docs
 weight: 12
 url: /hi/net/slide-view-and-layout-manipulation/linking-video-activex-control/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint में ActiveX नियंत्रण के माध्यम से वीडियो लिंक करना
+
 .NET के लिए Aspose.Slides का उपयोग करके किसी प्रस्तुति में ActiveX नियंत्रण के माध्यम से वीडियो लिंक करना
 
 Aspose.Slides for .NET में, आप ActiveX नियंत्रण का उपयोग करके किसी वीडियो को किसी प्रस्तुतिकरण स्लाइड से प्रोग्रामेटिक रूप से लिंक कर सकते हैं। यह आपको इंटरैक्टिव प्रस्तुतिकरण बनाने की अनुमति देता है जहाँ वीडियो सामग्री को सीधे स्लाइड के भीतर चलाया जा सकता है। इस चरण-दर-चरण मार्गदर्शिका में, हम आपको Aspose.Slides for .NET का उपयोग करके किसी वीडियो को प्रस्तुतिकरण स्लाइड से लिंक करने की प्रक्रिया से अवगत कराएँगे।
@@ -80,3 +86,9 @@ presentation.Save(outputPresentationPath, SaveFormat.Pptx);
 इस गाइड में बताए गए चरणों का पालन करके, आप आसानी से Aspose.Slides for .NET का उपयोग करके किसी प्रस्तुति में ActiveX नियंत्रण के माध्यम से वीडियो लिंक कर सकते हैं। यह सुविधा आपको आकर्षक और इंटरैक्टिव प्रस्तुतिकरण बनाने में सक्षम बनाती है जो मल्टीमीडिया सामग्री को सहजता से शामिल करती है।
 
  अधिक जानकारी और उन्नत विकल्पों के लिए, आप देख सकते हैं[.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

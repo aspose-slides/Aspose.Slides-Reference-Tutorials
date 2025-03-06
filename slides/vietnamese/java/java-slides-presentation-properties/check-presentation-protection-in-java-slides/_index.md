@@ -3,10 +3,16 @@ title: Kiểm tra tính năng bảo vệ bản trình bày trong Java Slides
 linktitle: Kiểm tra tính năng bảo vệ bản trình bày trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách kiểm tra tính năng bảo vệ bản trình bày trong các trang trình bày Java bằng Aspose.Slides for Java. Hướng dẫn từng bước này cung cấp các ví dụ về mã để kiểm tra bảo vệ ghi và mở.
-type: docs
 weight: 15
 url: /vi/java/presentation-properties/check-presentation-protection-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kiểm tra tính năng bảo vệ bản trình bày trong Java Slides
+
 
 ## Giới thiệu về Kiểm tra tính năng bảo vệ bản trình bày trong Java Slides
 
@@ -113,3 +119,9 @@ Nếu bạn quên mật khẩu bảo vệ cho bài thuyết trình thì không c
 ### Aspose.Slides for Java có tương thích với các định dạng tệp PowerPoint mới nhất không?
 
 Có, Aspose.Slides for Java hỗ trợ các định dạng tệp PowerPoint mới nhất, bao gồm các tệp .pptx.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

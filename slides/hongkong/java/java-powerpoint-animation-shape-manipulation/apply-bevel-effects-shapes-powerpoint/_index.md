@@ -3,10 +3,16 @@ title: 在 PowerPoint 中對形狀套用斜角效果
 linktitle: 在 PowerPoint 中對形狀套用斜角效果
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 透過我們的逐步指南，了解如何使用 Aspose.Slides for Java 將斜角效果套用到 PowerPoint 中的形狀。增強您的簡報。
-type: docs
 weight: 13
 url: /zh-hant/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 PowerPoint 中對形狀套用斜角效果
+
 ## 介紹
 創建具有視覺吸引力的演示對於吸引和保持觀眾的注意力至關重要。在形狀中添加斜角效果可以增強投影片的整體美感，讓您的簡報脫穎而出。在本教學中，我們將引導您完成使用 Aspose.Slides for Java 將斜角效果套用至 PowerPoint 中的形狀的過程。無論您是希望自動建立簡報的開發人員，還是只是喜歡修改設計的人，本指南都能滿足您的需求。
 ## 先決條件
@@ -92,3 +98,9 @@ Aspose.Slides for Java 是一個功能強大的 API，可讓開發人員以程�
 是的，Aspose.Slides for Java 可讓您套用各種 3D 效果，包括深度、光線和相機效果。
 ### 在哪裡可以獲得 Aspose.Slides for Java 的支援？
 您可以從 Aspose 社群和支援團隊獲得支持[支援論壇](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

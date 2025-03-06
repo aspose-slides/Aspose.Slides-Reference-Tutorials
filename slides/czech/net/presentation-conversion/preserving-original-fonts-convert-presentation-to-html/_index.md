@@ -3,10 +3,16 @@ title: Zachování původních písem – Převeďte prezentaci do HTML
 linktitle: Zachování původních písem – Převeďte prezentaci do HTML
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak zachovat původní písma při převodu prezentací do HTML pomocí Aspose.Slides for .NET. Zajistěte konzistenci písma a vizuální dopad bez námahy.
-type: docs
 weight: 14
 url: /cs/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zachování původních písem – Převeďte prezentaci do HTML
+
 
 V tomto komplexním průvodci vás provedeme procesem zachování původních písem při převodu prezentace do HTML pomocí Aspose.Slides for .NET. Poskytneme vám potřebný zdrojový kód C# a podrobně vysvětlíme každý krok. Na konci tohoto kurzu budete schopni zajistit, aby písma v převedeném HTML dokumentu zůstala věrná původní prezentaci.
 
@@ -98,3 +104,10 @@ Aspose.Slides for .NET se primárně zaměřuje na prezentace v PowerPointu. Pro
 ### Q5: Kde mohu získat přístup k dalším zdrojům a podpoře?
 
  Další dokumentaci, návody a podporu najdete na webu Aspose. Návštěva[Aspose.Slides pro .NET dokumentaci](https://reference.aspose.com/slides/net/) pro podrobné informace.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

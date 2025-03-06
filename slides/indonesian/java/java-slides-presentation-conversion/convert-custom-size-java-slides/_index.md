@@ -3,10 +3,16 @@ title: Konversi dengan Ukuran Khusus di Slide Java
 linktitle: Konversi dengan Ukuran Khusus di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengonversi presentasi PowerPoint menjadi gambar TIFF dengan ukuran khusus menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan contoh kode untuk pengembang.
-type: docs
 weight: 31
 url: /id/java/presentation-conversion/convert-custom-size-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konversi dengan Ukuran Khusus di Slide Java
+
 
 ## Pengantar Konversi dengan Ukuran Khusus di Slide Java
 
@@ -137,3 +143,9 @@ Ya, Anda dapat mengatur DPI dengan menggunakan`setDpiX` Dan`setDpiY` metode di`T
 ### Di mana saya dapat menemukan informasi lebih lanjut tentang Aspose.Slides untuk Java?
 
  Untuk dokumentasi detail dan informasi tambahan tentang Aspose.Slides for Java, silakan kunjungi dokumentasi:[Aspose.Slides untuk Referensi API Java](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

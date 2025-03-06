@@ -3,10 +3,16 @@ title: Khóa tỷ lệ khung hình trong PowerPoint bằng Java
 linktitle: Khóa tỷ lệ khung hình trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách khóa tỷ lệ khung hình trong bản trình bày PowerPoint bằng Java với Aspose.Slides. Hoàn hảo cho các nhà phát triển Java muốn kiểm soát chính xác thiết kế slide.
-type: docs
 weight: 16
 url: /vi/java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Khóa tỷ lệ khung hình trong PowerPoint bằng Java
+
 ## Giới thiệu
 Trong lĩnh vực phát triển Java, việc thao tác các bản trình bày PowerPoint theo chương trình có thể hợp lý hóa quy trình làm việc và nâng cao năng suất một cách đáng kể. Aspose.Slides for Java cung cấp bộ công cụ mạnh mẽ dành cho các nhà phát triển Java để tự động hóa các tác vụ như sửa đổi trang trình bày, thêm nội dung và áp dụng định dạng trực tiếp từ mã Java. Hướng dẫn này tập trung vào khía cạnh cơ bản của quản lý bản trình bày PowerPoint: khóa tỷ lệ khung hình.
 ## Điều kiện tiên quyết
@@ -61,3 +67,9 @@ Có, Aspose.Slides cho Java được thiết kế để xử lý các tình hu�
  Bạn có thể tìm kiếm sự hỗ trợ từ cộng đồng Aspose.Slides[đây](https://forum.aspose.com/c/slides/11).
 ### Làm cách nào tôi có thể dùng thử Aspose.Slides cho Java trước khi mua?
  Bạn có thể tải phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

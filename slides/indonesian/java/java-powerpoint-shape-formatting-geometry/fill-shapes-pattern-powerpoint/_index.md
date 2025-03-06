@@ -3,10 +3,16 @@ title: Isi Bentuk dengan Pola di PowerPoint
 linktitle: Isi Bentuk dengan Pola di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengisi bentuk dengan pola di PowerPoint menggunakan Aspose.Slides untuk Java. Ikuti panduan langkah demi langkah kami yang mudah untuk menyempurnakan presentasi Anda secara visual.
-type: docs
 weight: 11
 url: /id/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Isi Bentuk dengan Pola di PowerPoint
+
 ## Perkenalan
 Membuat presentasi yang menarik secara visual sangat penting untuk menarik audiens Anda. Salah satu cara untuk menyempurnakan slide PowerPoint Anda adalah dengan mengisi bentuk dengan pola. Dalam tutorial ini, kita akan memandu langkah-langkah mengisi bentuk dengan pola menggunakan Aspose.Slides untuk Java. Panduan ini dirancang untuk pengembang yang ingin memanfaatkan fitur canggih Aspose.Slides untuk membuat presentasi menakjubkan secara terprogram.
 ## Prasyarat
@@ -94,3 +100,9 @@ Aspose.Slides untuk Java adalah API canggih yang memungkinkan pengembang membuat
 Ya, Aspose.Slides untuk Java memungkinkan Anda membuka, mengedit, dan menyimpan presentasi PowerPoint yang ada.
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk Java?
  Anda bisa mendapatkan dukungan dari[Forum dukungan Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

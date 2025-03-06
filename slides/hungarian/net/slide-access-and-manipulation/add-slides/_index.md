@@ -3,10 +3,16 @@ title: További diák beszúrása a prezentációba
 linktitle: További diák beszúrása a prezentációba
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan illeszthet be további diákat a PowerPoint-prezentációkba az Aspose.Slides for .NET segítségével. Ez a lépésenkénti útmutató forráskód-példákat és részletes utasításokat tartalmaz a prezentációk zökkenőmentes javításához. Testreszabható tartalom, beillesztési tippek és GYIK mellékelve.
-type: docs
 weight: 15
 url: /hu/net/slide-access-and-manipulation/add-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# További diák beszúrása a prezentációba
+
 
 ## Bevezetés a további diák prezentációba történő beszúrásához
 
@@ -107,3 +113,9 @@ Teljesen. Az Aspose.Slides kiterjedt szolgáltatásaival módosíthatja a beille
 ### Hol találhatok további információt az Aspose.Slides for .NET-ről?
 
  A részletes dokumentációért és példákért lásd a[Aspose.Slides a .NET dokumentációhoz](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

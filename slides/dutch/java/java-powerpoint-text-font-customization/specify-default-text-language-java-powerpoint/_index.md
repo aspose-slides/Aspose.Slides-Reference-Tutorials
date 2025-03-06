@@ -3,10 +3,16 @@ title: Geef de standaardteksttaal op in Java PowerPoint
 linktitle: Geef de standaardteksttaal op in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u de standaardteksttaal in Java PowerPoint kunt opgeven met behulp van Aspose.Slides voor Java. Perfect voor ontwikkelaars die programmatisch tekstlokalisatie willen.
-type: docs
 weight: 21
 url: /nl/java/java-powerpoint-text-font-customization/specify-default-text-language-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geef de standaardteksttaal op in Java PowerPoint
+
 ## Invoering
 Op het gebied van de ontwikkeling van Java-applicaties is het programmatisch beheren en manipuleren van PowerPoint-presentaties een veel voorkomende vereiste. Aspose.Slides voor Java biedt een robuuste reeks functionaliteiten waarmee ontwikkelaars PowerPoint-presentaties naadloos kunnen maken, wijzigen en verbeteren via Java-code. Deze tutorial is bedoeld om u door de essentiële stappen te leiden voor het opgeven van de standaardteksttaal in een Java PowerPoint-presentatie met Aspose.Slides.
 ## Vereisten
@@ -66,3 +72,9 @@ Absoluut. Aspose.Slides voor Java is ontworpen met het oog op schaalbaarheid en 
 Ja, Aspose.Slides voor Java biedt API's die integratie met populaire cloudplatforms ondersteunen.
 ### Kan ik Aspose.Slides voor Java evalueren voordat ik het aanschaf?
  Ja, u kunt een gratis proefversie van Aspose.Slides voor Java verkrijgen via[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

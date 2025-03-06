@@ -3,10 +3,16 @@ title: Aspose.Slides'ta Sunumları Varsayılan Yazıcıyla Yazdırma
 linktitle: Aspose.Slides'ta Sunumları Varsayılan Yazıcıyla Yazdırma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides ile .NET'te kesintisiz PowerPoint yazdırmanın kilidini açın. Kolay entegrasyon için adım adım kılavuzumuzu izleyin. Uygulamanızın işlevselliğini şimdi yükseltin!
-type: docs
 weight: 10
 url: /tr/net/printing-and-rendering-in-slides/printing-with-default-printer/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides'ta Sunumları Varsayılan Yazıcıyla Yazdırma
+
 ## giriiş
 .NET geliştirme alanında Aspose.Slides, PowerPoint sunumları oluşturmak, düzenlemek ve işlemek için güçlü bir araç olarak öne çıkıyor. Bir dizi özelliği arasında, sunumları doğrudan varsayılan yazıcıya yazdırma yeteneği, geliştiricilerin sıklıkla aradığı kullanışlı bir işlevselliktir. Bu eğitim size süreç boyunca adım adım rehberlik edecek ve Aspose.Slides'ta nispeten yeni olsanız bile süreci erişilebilir kılacaktır.
 ## Önkoşullar
@@ -51,3 +57,9 @@ Kesinlikle Aspose.Slides, en son .NET framework sürümleriyle uyumluluğun sağ
  Evet, geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/) Test ve değerlendirme için.
 ### Nasıl yardım isteyebilirim veya Aspose.Slides topluluğuyla nasıl bağlantı kurabilirim?
  Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) sorular sormak, içgörüleri paylaşmak ve diğer geliştiricilerle bağlantı kurmak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

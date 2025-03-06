@@ -3,10 +3,16 @@ title: Tạo HTML đáp ứng từ bản trình bày
 linktitle: Tạo HTML đáp ứng từ bản trình bày
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách chuyển đổi bản trình bày sang HTML đáp ứng bằng Aspose.Slides cho .NET. Tạo nội dung hấp dẫn thích ứng liền mạch trên các thiết bị.
-type: docs
 weight: 17
 url: /vi/net/presentation-conversion/create-responsive-html-from-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo HTML đáp ứng từ bản trình bày
+
 
 Tạo HTML phản hồi từ bản trình bày bằng Aspose.Slides cho .NET là một kỹ năng có giá trị dành cho các nhà phát triển muốn chuyển đổi bản trình bày PowerPoint sang các định dạng thân thiện với web. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn từng bước thực hiện quy trình bằng cách sử dụng mã nguồn được cung cấp.
 
@@ -80,3 +86,9 @@ Chúc mừng! Bạn đã chuyển đổi thành công bản trình bày PowerPoi
  Bạn có thể tham gia diễn đàn cộng đồng Aspose để được hỗ trợ và thảo luận[đây](https://forum.aspose.com/).
 
 Bây giờ bạn đã có kiến thức để chuyển đổi bản trình bày sang HTML đáp ứng, hãy tiếp tục và làm cho nội dung của bạn có thể tiếp cận được với nhiều đối tượng hơn. Chúc mừng mã hóa!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

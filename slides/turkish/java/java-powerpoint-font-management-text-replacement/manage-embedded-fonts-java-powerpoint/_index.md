@@ -3,10 +3,16 @@ title: Java PowerPoint'te Gömülü Yazı Tiplerini Yönetme
 linktitle: Java PowerPoint'te Gömülü Yazı Tiplerini Yönetme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides ile Java PowerPoint sunumlarındaki gömülü yazı tiplerini zahmetsizce yönetin. Slaytlarınızı tutarlılık için optimize etmeye yönelik adım adım kılavuz.
-type: docs
 weight: 11
 url: /tr/java/java-powerpoint-font-management-text-replacement/manage-embedded-fonts-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint'te Gömülü Yazı Tiplerini Yönetme
+
 ## giriiş
 Sürekli gelişen sunum dünyasında, yazı tiplerini verimli bir şekilde yönetmek, PowerPoint dosyalarınızın kalitesinde ve uyumluluğunda büyük bir fark yaratabilir. Aspose.Slides for Java, gömülü yazı tiplerini yönetmek için kapsamlı bir çözüm sunarak sunumlarınızın her cihazda mükemmel görünmesini sağlar. İster eski sunumlarla uğraşıyor olun ister yeni sunumlar oluşturuyor olun, bu kılavuz Aspose.Slides'ı kullanarak Java PowerPoint sunumlarınızda gömülü yazı tiplerini yönetme sürecinde size yol gösterecektir. Hadi dalalım!
 ## Önkoşullar
@@ -104,3 +110,9 @@ Aspose.Slides for Java, JDK 8 ve sonraki sürümlerle uyumludur.
 Gömülü yazı tiplerini yönetmek, sunumlarınızın farklı cihaz ve platformlarda tutarlı görünmesini sağlar ve gereksiz yazı tiplerini kaldırarak dosya boyutunun azaltılmasına yardımcı olur.
 ### Aspose.Slides for Java için nereden destek alabilirim?
  adresinden destek alabilirsiniz.[Aspose.Slides destek forumu](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

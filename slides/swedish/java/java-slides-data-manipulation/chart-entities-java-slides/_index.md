@@ -3,10 +3,16 @@ title: Diagramenheter i Java Slides
 linktitle: Diagramenheter i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig att skapa och anpassa Java Slides-diagram med Aspose.Slides. Förbättra dina presentationer med kraftfulla diagramenheter.
-type: docs
 weight: 13
 url: /sv/java/data-manipulation/chart-entities-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Diagramenheter i Java Slides
+
 
 ## Introduktion till diagramenheter i Java Slides
 
@@ -301,3 +307,9 @@ Du kan anpassa diagramfärgerna genom att ställa in fyllningsformatet för olik
 ### Är Aspose.Slides för Java kompatibel med de senaste Java-versionerna?
 
 Ja, Aspose.Slides för Java uppdateras regelbundet för att stödja de senaste Java-versionerna och ger kompatibilitet över ett brett utbud av Java-miljöer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

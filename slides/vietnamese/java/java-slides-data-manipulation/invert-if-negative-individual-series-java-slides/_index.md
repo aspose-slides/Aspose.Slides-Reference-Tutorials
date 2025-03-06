@@ -3,10 +3,16 @@ title: Đảo ngược nếu phủ định cho từng chuỗi trong trang trình
 linktitle: Đảo ngược nếu phủ định cho từng chuỗi trong trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách sử dụng tính năng Đảo ngược nếu phủ định trong Aspose.Slides cho Java để nâng cao hình ảnh biểu đồ trong bản trình bày PowerPoint.
-type: docs
 weight: 11
 url: /vi/java/data-manipulation/invert-if-negative-individual-series-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đảo ngược nếu phủ định cho từng chuỗi trong trang trình bày Java
+
 
 ## Giới thiệu về Đảo ngược nếu phủ định cho từng chuỗi trong các trang trình bày Java
 
@@ -131,3 +137,9 @@ Có, bạn có thể tùy chỉnh giao diện của các điểm dữ liệu đ�
 ### Tôi có thể truy cập tài liệu Aspose.Slides cho Java ở đâu?
 
 Bạn có thể truy cập tài liệu về Aspose.Slides for Java tại[đây](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

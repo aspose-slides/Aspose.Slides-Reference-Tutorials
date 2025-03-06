@@ -3,10 +3,16 @@ title: Aspose.Slides for .NET ile Video Karelerini Gömme Eğitimi
 linktitle: Aspose.Slides ile Sunum Slaytlarına Web Kaynağından Video Kareleri Ekleme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak video karelerini PowerPoint slaytlarına nasıl sorunsuz bir şekilde yerleştireceğinizi öğrenin. Sunumlarınızı multimedya ile zahmetsizce geliştirin.
-type: docs
 weight: 20
 url: /tr/net/shape-effects-and-manipulation-in-slides/adding-video-frames-from-web-source/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides for .NET ile Video Karelerini Gömme Eğitimi
+
 ## giriiş
 Sunumların dinamik dünyasında, multimedya öğelerinin dahil edilmesi katılımı önemli ölçüde artırabilir ve etkili mesajlar iletebilir. Bunu başarmanın güçlü bir yolu, video çerçevelerini sunum slaytlarına yerleştirmektir. Bu eğitimde Aspose.Slides for .NET kullanarak bunu sorunsuz bir şekilde nasıl gerçekleştirebileceğimizi inceleyeceğiz. Aspose.Slides, geliştiricilerin PowerPoint sunumlarını programlı olarak değiştirmelerine olanak tanıyan, slayt oluşturma, düzenleme ve geliştirme için kapsamlı yetenekler sağlayan güçlü bir kitaplıktır.
 ## Önkoşullar
@@ -75,3 +81,9 @@ Aspose.Slides, en yeni .NET çerçeveleriyle uyumluluğu sürdürmek için düze
 Evet, bir slayda ek video kareleri ekleyerek birden fazla video gömebilirsiniz.
 ### Aspose.Slides ile ilgili sorgular için nereden destek bulabilirim?
  Ziyaret edin[Aspose.Slides Forumu](https://forum.aspose.com/c/slides/11) topluluk desteği ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إنشاء مخطط شرائح جافا
 linktitle: إنشاء مخطط شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء شرائح Java ديناميكية باستخدام المخططات باستخدام Aspose.Slides for Java. ترشدك برامجنا التعليمية الشاملة خلال العملية خطوة بخطوة.
-type: docs
 weight: 16
 url: /ar/java/chart-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء مخطط شرائح جافا
+
 
 هل أنت مستعد لإطلاق العنان لقوة المخططات الديناميكية في شرائح Java الخاصة بك؟ باستخدام Aspose.Slides لـ Java، يمكنك إنشاء مخططات جذابة دون عناء. سيأخذك هذا الدليل الشامل عبر الخطوات الأساسية، بدءًا من التثبيت وحتى إتقان الرسم البياني.
 
@@ -35,3 +41,9 @@ url: /ar/java/chart-creation/
 تعرف على كيفية تخصيص المخططات في Java Slides باستخدام Aspose.Slides لـ Java. استكشف خيارات الحبكة الثانية وحسّن عروضك التقديمية.
 ### [مخطط خريطة الشجرة في شرائح جافا](./tree-map-chart-java-slides/)
 قم بإنشاء مخططات خريطة الشجرة في شرائح Java باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع التعليمات البرمجية المصدر لتصور البيانات الهرمية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

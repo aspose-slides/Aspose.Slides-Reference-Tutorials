@@ -3,10 +3,16 @@ title: 在 Java PowerPoint 中向 SmartArt 新增助手節點
 linktitle: 在 Java PowerPoint 中向 SmartArt 新增助手節點
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 將輔助節點新增至 Java PowerPoint 簡報中的 SmartArt。提升您的 PowerPoint 編輯技能。
-type: docs
 weight: 17
 url: /zh-hant/java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java PowerPoint 中向 SmartArt 新增助手節點
+
 ## 介紹
 在本教學中，我們將引導您完成使用 Aspose.Slides 在 Java PowerPoint 簡報中為 SmartArt 新增輔助節點的過程。
 ## 先決條件
@@ -70,3 +76,9 @@ Aspose.Slides支援從97-2003到最新版本的PowerPoint版本。
 是的，您可以使用 Aspose.Slides 提供的各種屬性和方法自訂外觀。
 ### SmartArt 中的節點數量有限制嗎？
 PowerPoint 中的 SmartArt 支援大量節點，但建議保持合理以提高可讀性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

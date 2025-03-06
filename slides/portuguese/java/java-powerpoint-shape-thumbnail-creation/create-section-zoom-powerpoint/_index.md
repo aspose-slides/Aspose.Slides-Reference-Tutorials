@@ -3,10 +3,16 @@ title: Criar zoom de seção no PowerPoint
 linktitle: Criar zoom de seção no PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como criar zooms de seção em apresentações do PowerPoint usando Aspose.Slides para Java. Melhore a navegação e o envolvimento sem esforço.
-type: docs
 weight: 13
 url: /pt/java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Criar zoom de seção no PowerPoint
+
 
 ## Introdução
 Neste tutorial, nos aprofundaremos na criação de zooms de seção em apresentações do PowerPoint usando Aspose.Slides para Java. Os zooms de seção são um recurso poderoso que permite navegar perfeitamente pelas diferentes seções da sua apresentação, melhorando a organização e a experiência geral do usuário. Ao dividir apresentações complexas em seções de fácil digestão, você pode transmitir sua mensagem de maneira eficaz e envolver seu público.
@@ -72,3 +78,9 @@ Aspose.Slides for Java oferece suporte a zooms de seção em vários formatos de
 Sim, você pode adicionar zooms de seção a apresentações existentes usando Aspose.Slides for Java seguindo etapas semelhantes descritas neste tutorial.
 ### Onde posso encontrar suporte ou assistência adicional com Aspose.Slides for Java?
  Para suporte ou assistência adicional, você pode visitar o fórum Aspose.Slides for Java[aqui](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

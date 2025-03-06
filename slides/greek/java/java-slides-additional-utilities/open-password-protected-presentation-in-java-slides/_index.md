@@ -3,10 +3,16 @@ title: Ανοίξτε την παρουσίαση που προστατεύετ�
 linktitle: Ανοίξτε την παρουσίαση που προστατεύεται με κωδικό πρόσβασης σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ξεκλείδωμα παρουσιάσεων που προστατεύονται με κωδικό πρόσβασης σε Java. Μάθετε πώς να ανοίγετε και να αποκτάτε πρόσβαση σε διαφάνειες PowerPoint που προστατεύονται με κωδικό πρόσβασης χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με κώδικα.
-type: docs
 weight: 15
 url: /el/java/additional-utilities/open-password-protected-presentation-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ανοίξτε την παρουσίαση που προστατεύεται με κωδικό πρόσβασης σε διαφάνειες Java
+
 
 ## Εισαγωγή στην Ανοιχτή παρουσίαση με προστασία κωδικού πρόσβασης σε διαφάνειες Java
 
@@ -113,3 +119,9 @@ finally
 ### Πού μπορώ να βρω περισσότερα παραδείγματα και τεκμηρίωση για το Aspose.Slides για Java;
 
  Μπορείτε να βρείτε ολοκληρωμένη τεκμηρίωση και πρόσθετα παραδείγματα στο[Aspose.Slides για τεκμηρίωση Java](https://reference.aspose.com/slides/java/) και στο[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

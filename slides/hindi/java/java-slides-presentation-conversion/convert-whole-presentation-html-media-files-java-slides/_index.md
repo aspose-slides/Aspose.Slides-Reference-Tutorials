@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में मीडिया फ़
 linktitle: जावा स्लाइड्स में मीडिया फ़ाइलों के साथ संपूर्ण प्रस्तुति को HTML में बदलें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Java Slides का उपयोग करके मीडिया फ़ाइलों के साथ प्रेजेंटेशन को HTML में कैसे बदलें, यह जानें। Aspose.Slides for Java API के साथ हमारे चरण-दर-चरण गाइड का पालन करें।
-type: docs
 weight: 30
 url: /hi/java/presentation-conversion/convert-whole-presentation-html-media-files-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में मीडिया फ़ाइलों के साथ संपूर्ण प्रस्तुति को HTML में बदलें
+
 
 ## जावा स्लाइड्स में मीडिया फ़ाइलों के साथ संपूर्ण प्रस्तुति को HTML में परिवर्तित करने का परिचय
 
@@ -125,3 +131,9 @@ finally
 ### मैं परिवर्तित HTML प्रस्तुति तक कैसे पहुंच सकता हूं?
 
  एक बार जब आप रूपांतरण पूरा कर लेते हैं, तो आप निर्दिष्ट फ़ाइल का पता लगाकर HTML प्रस्तुति तक पहुँच सकते हैं`htmlDocumentFileName` चर।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Diaminiaturen genereren in Aspose.Slides
 linktitle: Diaminiaturen genereren in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Genereer diaminiaturen in Aspose.Slides voor .NET met stapsgewijze handleiding en codevoorbeelden. Pas het uiterlijk aan en sla miniaturen op. Verbeter presentatievoorbeelden.
-type: docs
 weight: 10
 url: /nl/net/slide-thumbnail-generation/slide-thumbnail-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Diaminiaturen genereren in Aspose.Slides
+
 
 Als u diaminiaturen wilt genereren in uw .NET-toepassingen met behulp van Aspose.Slides, bent u hier aan het juiste adres. Het maken van diaminiaturen kan een waardevolle functie zijn in verschillende scenario's, zoals het bouwen van aangepaste PowerPoint-viewers of het genereren van afbeeldingsvoorbeelden van presentaties. In deze uitgebreide handleiding leiden we u stap voor stap door het proces. We behandelen de vereisten, het importeren van naamruimten en het opsplitsen van elk voorbeeld in meerdere stappen, zodat u gemakkelijk het genereren van diaminiaturen naadloos kunt implementeren.
 
@@ -111,3 +117,9 @@ A: Ja, u kunt de afmetingen aanpassen door de parameters in het bestand te wijzi
 A: Ja, Aspose.Slides is een robuuste oplossing voor zowel persoonlijke als commerciële toepassingen. U kunt licentiegegevens vinden op de Aspose-website.
 
  Voor verdere hulp of vragen kunt u terecht op de[Ondersteuningsforum Aspose.Slides](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

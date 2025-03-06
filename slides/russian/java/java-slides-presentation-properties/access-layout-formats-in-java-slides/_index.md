@@ -3,10 +3,16 @@ title: Доступ к форматам макетов в слайдах Java
 linktitle: Доступ к форматам макетов в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как получать доступ к форматам макетов в Java Slides и управлять ими с помощью Aspose.Slides для Java. Легко настраивайте стили фигур и линий в презентациях PowerPoint.
-type: docs
 weight: 10
 url: /ru/java/presentation-properties/access-layout-formats-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Доступ к форматам макетов в слайдах Java
+
 
 ## Введение в форматы макетов доступа в слайдах Java
 
@@ -138,3 +144,9 @@ IShape shape = layoutSlide.getShapes().get_Item(0); // Доступ к перв�
 ```
 
  Затем вы можете использовать`IFillFormat` и`ILineFormat` методы, как показано в предыдущих ответах, для изменения форматов заливки и линий фигуры.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

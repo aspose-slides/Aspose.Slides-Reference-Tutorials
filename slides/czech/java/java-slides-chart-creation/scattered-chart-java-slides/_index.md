@@ -3,10 +3,16 @@ title: Rozptýlený graf v Java Slides
 linktitle: Rozptýlený graf v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet bodové grafy v Javě pomocí Aspose.Slides. Podrobný průvodce se zdrojovým kódem Java pro vizualizaci dat v prezentacích.
-type: docs
 weight: 11
 url: /cs/java/chart-creation/scattered-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rozptýlený graf v Java Slides
+
 
 ## Úvod do Scattered Chart v Aspose.Slides pro Javu
 
@@ -172,3 +178,9 @@ series.getMarker().setSymbol(MarkerStyleType.Circle);
 Neváhejte a prozkoumejte další možnosti přizpůsobení v dokumentaci Aspose.Slides for Java.
 
  Nezapomeňte vyměnit`"Your Document Directory"` se skutečnou cestou, kam chcete prezentaci uložit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

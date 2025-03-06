@@ -3,10 +3,16 @@ title: Přidejte barvu k datovým bodům v Java Slides
 linktitle: Přidejte barvu k datovým bodům v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak přidat barvu do datových bodů ve snímcích Java pomocí Aspose.Slides for Java.
-type: docs
 weight: 10
 url: /cs/java/chart-data-manipulation/add-color-data-points-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte barvu k datovým bodům v Java Slides
+
 
 ## Úvod do přidávání barvy do datových bodů v Java Slides
 
@@ -117,3 +123,9 @@ Chcete-li změnit barvu ostatních datových bodů, můžete postupovat podobný
 ### Kde najdu další příklady a dokumentaci?
 
  Další příklady a podrobnou dokumentaci k používání Aspose.Slides pro Javu naleznete na[Dokumentace Aspose.Slides](https://reference.aspose.com/slides/java/) webová stránka.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

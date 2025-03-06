@@ -3,10 +3,16 @@ title: Java용 Aspose.Slides를 사용한 문서 보호
 linktitle: Java 슬라이드 문서 보호
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java Slides 문서의 보안을 강화하는 방법을 알아보세요. 문서 보호에 대한 단계별 튜토리얼을 살펴보세요.
-type: docs
 weight: 24
 url: /ko/java/document-protection/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java용 Aspose.Slides를 사용한 문서 보호
+
 끊임없이 진화하는 디지털 문서의 세계에서는 콘텐츠의 보안과 무결성을 보장하는 것이 무엇보다 중요합니다. Java Slides 문서도 이 규칙에서 예외는 아니며, 여기서 Aspose.Slides for Java가 구출됩니다. 이 종합 가이드에서는 Aspose.Slides for Java를 사용한 문서 보호에 대한 필수 튜토리얼을 안내합니다.
 
 ## 문서 보호가 중요한 이유
@@ -34,3 +40,9 @@ Aspose.Slides for Java는 Java Slides 문서의 보안을 강화할 수 있는 �
 ## Java 슬라이드 문서 보호 튜토리얼
 ### [Java 슬라이드에서 쓰기 방지 제거](./remove-write-protection-in-java-slides/)
 Aspose.Slides for Java를 사용하여 Java Slides 프레젠테이션에서 쓰기 보호를 제거하는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

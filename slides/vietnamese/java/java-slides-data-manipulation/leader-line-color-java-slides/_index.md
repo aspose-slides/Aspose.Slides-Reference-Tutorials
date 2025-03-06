@@ -3,10 +3,16 @@ title: Màu đường dẫn trong Java Slides
 linktitle: Màu đường dẫn trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thay đổi màu của đường chỉ dẫn trong biểu đồ PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn từng bước với các ví dụ về mã nguồn.
-type: docs
 weight: 12
 url: /vi/java/data-manipulation/leader-line-color-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Màu đường dẫn trong Java Slides
+
 
 ## Giới thiệu về Màu đường dẫn trong Aspose.Slides cho Java
 
@@ -116,3 +122,9 @@ Bạn có thể nhận hỗ trợ kỹ thuật cho Aspose.Slides cho Java bằng
 ### Tôi có thể sử dụng Aspose.Slides cho Java với các thư viện và khung công tác Java khác không?
 
 Có, bạn có thể tích hợp Aspose.Slides cho Java với các thư viện và khung Java khác nếu cần cho dự án của bạn. Aspose.Slides cung cấp API để làm việc với nhiều tính năng PowerPoint khác nhau, giúp bạn có thể kết hợp nó với các công cụ và công nghệ khác để tạo ra các ứng dụng mạnh mẽ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

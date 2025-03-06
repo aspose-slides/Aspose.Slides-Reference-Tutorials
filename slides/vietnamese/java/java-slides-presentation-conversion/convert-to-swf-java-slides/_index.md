@@ -3,10 +3,16 @@ title: Chuyển đổi sang SWF trong Java Slides
 linktitle: Chuyển đổi sang SWF trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Chuyển đổi bản trình bày PowerPoint sang định dạng SWF trong Java bằng Aspose.Slides. Hãy làm theo hướng dẫn từng bước của chúng tôi với mã nguồn để chuyển đổi liền mạch.
-type: docs
 weight: 35
 url: /vi/java/presentation-conversion/convert-to-swf-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi sang SWF trong Java Slides
+
 
 ## Giới thiệu Chuyển đổi bản trình bày PowerPoint sang SWF trong Java bằng Aspose.Slides
 
@@ -124,3 +130,9 @@ Có, Aspose.Slides hỗ trợ nhiều định dạng đầu ra khác nhau, bao g
 ### Làm cách nào để xử lý lỗi trong quá trình chuyển đổi?
 
 Bạn có thể sử dụng khối try-catch để xử lý các trường hợp ngoại lệ có thể xảy ra trong quá trình chuyển đổi. Hãy nhớ kiểm tra tài liệu Aspose.Slides để biết các đề xuất xử lý lỗi cụ thể.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

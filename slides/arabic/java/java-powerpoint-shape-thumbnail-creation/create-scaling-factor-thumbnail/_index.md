@@ -3,10 +3,16 @@ title: إنشاء صورة مصغرة لعامل القياس
 linktitle: إنشاء صورة مصغرة لعامل القياس
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء صور مصغرة لعامل القياس في Java باستخدام Aspose.Slides لـ Java. دليل سهل المتابعة مع تعليمات خطوة بخطوة.
-type: docs
 weight: 12
 url: /ar/java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء صورة مصغرة لعامل القياس
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء صورة مصغرة لعامل القياس باستخدام Aspose.Slides لـ Java. اتبع هذه التعليمات خطوة بخطوة لتحقيق النتيجة المرجوة.
 ## المتطلبات الأساسية
@@ -66,3 +72,9 @@ ImageIO.write(bitmap, ".png", new File(dataDir + "Scaling Factor Thumbnail_out.p
  يمكنك شراء Aspose.Slides لـ Java من[صفحة الشراء](https://purchase.aspose.com/buy).
 ### هل أحتاج إلى ترخيص مؤقت لاستخدام Aspose.Slides لـ Java؟
  نعم يمكنك الحصول على ترخيص مؤقت من[صفحة الترخيص المؤقتة](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

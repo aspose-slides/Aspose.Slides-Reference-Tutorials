@@ -3,10 +3,16 @@ title: إضافة الارتباطات التشعبية إلى الشرائح ف
 linktitle: إضافة ارتباط تشعبي إلى الشريحة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إضافة ارتباطات تشعبية إلى شرائح PowerPoint باستخدام Aspose.Slides لـ .NET. تعزيز العروض التقديمية الخاصة بك مع العناصر التفاعلية.
-type: docs
 weight: 12
 url: /ar/net/hyperlink-manipulation/add-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة الارتباطات التشعبية إلى الشرائح في .NET باستخدام Aspose.Slides
+
 
 في عالم العروض الرقمية، يعد التفاعل أمرًا أساسيًا. يمكن أن تؤدي إضافة الارتباطات التشعبية إلى الشرائح الخاصة بك إلى جعل العرض التقديمي الخاص بك أكثر جاذبية وغني بالمعلومات. Aspose.Slides for .NET هي مكتبة قوية تسمح لك بإنشاء عروض PowerPoint التقديمية وتعديلها ومعالجتها برمجياً. سنوضح لك في هذا البرنامج التعليمي كيفية إضافة ارتباطات تشعبية إلى شرائحك باستخدام Aspose.Slides for .NET. 
 
@@ -106,3 +112,9 @@ presentation.Save("presentation-out.pptx", SaveFormat.Pptx);
 ### 5. هل Aspose.Slides متاح للغات البرمجة الأخرى؟
 
 نعم، Aspose.Slides متاح للعديد من لغات البرمجة، بما في ذلك Java وPython.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

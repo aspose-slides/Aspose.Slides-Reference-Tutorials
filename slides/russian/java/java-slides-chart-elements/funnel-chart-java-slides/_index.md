@@ -3,10 +3,16 @@ title: Воронкообразная диаграмма в слайдах Java
 linktitle: Воронкообразная диаграмма в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Изучите Aspose.Slides для Java с помощью пошаговых руководств. Создавайте потрясающие диаграммы-воронки и многое другое.
-type: docs
 weight: 14
 url: /ru/java/chart-elements/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Воронкообразная диаграмма в слайдах Java
+
 
 ## Введение в диаграмму воронки в слайдах Java
 
@@ -144,3 +150,9 @@ finally
 ### Где я могу найти дополнительные примеры и документацию для Aspose.Slides для Java?
 
  Дополнительные примеры и подробную документацию по использованию Aspose.Slides для Java можно найти в разделе[документация](https://docs.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

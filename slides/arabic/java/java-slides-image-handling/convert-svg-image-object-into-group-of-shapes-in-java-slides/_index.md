@@ -3,10 +3,16 @@ title: تحويل كائن صورة SVG إلى مجموعة من الأشكال 
 linktitle: تحويل كائن صورة SVG إلى مجموعة من الأشكال في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحويل صور SVG إلى مجموعة من الأشكال في Java Slides باستخدام Aspose.Slides for Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 13
 url: /ar/java/image-handling/convert-svg-image-object-into-group-of-shapes-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل كائن صورة SVG إلى مجموعة من الأشكال في شرائح Java
+
 
 ## مقدمة لتحويل كائن صورة SVG إلى مجموعة من الأشكال في شرائح Java
 
@@ -129,3 +135,9 @@ finally
 ### هل يمكنني تخصيص مظهر الأشكال المحولة؟
 
 بالتأكيد! يمكنك تخصيص مظهر الأشكال المحولة وحجمها وموضعها وفقًا لمتطلباتك. يوفر Aspose.Slides واجهات برمجة تطبيقات واسعة النطاق لمعالجة الأشكال.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Définir le langage de présentation et le texte de forme en Java
 linktitle: Définir le langage de présentation et le texte de forme en Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment automatiser des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Créez, modifiez et améliorez facilement des diapositives par programmation.
-type: docs
 weight: 19
 url: /fr/java/java-powerpoint-text-font-customization/set-presentation-language-shape-text-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définir le langage de présentation et le texte de forme en Java
+
 ## Introduction
 La création et la manipulation de présentations PowerPoint par programmation en Java peuvent rationaliser l'automatisation des flux de travail et améliorer la productivité. Aspose.Slides pour Java fournit un ensemble d'outils robustes pour réaliser ces tâches efficacement. Ce didacticiel vous guide à travers les étapes essentielles pour définir le langage de présentation et mettre en forme le texte à l'aide d'Aspose.Slides pour Java.
 ## Conditions préalables
@@ -69,3 +75,9 @@ Oui, Aspose.Slides fournit des API complètes pour créer des présentations ent
  Une documentation détaillée est disponible[ici](https://reference.aspose.com/slides/java/).
 ### Quelles options de support sont disponibles pour Aspose.Slides pour Java ?
  Vous pouvez visiter le forum Aspose.Slides[ici](https://forum.aspose.com/c/slides/11) pour le soutien de la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

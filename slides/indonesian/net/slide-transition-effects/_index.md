@@ -3,10 +3,16 @@ title: Efek Transisi Geser
 linktitle: Efek Transisi Geser
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Sempurnakan presentasi Anda dengan efek transisi slide yang menawan menggunakan Aspose.Slides untuk .NET. Pelajari cara menambahkan animasi dinamis ke slide untuk pengalaman menonton yang menarik.
-type: docs
 weight: 19
 url: /id/net/slide-transition-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Efek Transisi Geser
+
 
 ## Perkenalan:
 
@@ -37,3 +43,9 @@ Pelajari cara menambahkan efek transisi yang menakjubkan ke slide presentasi And
 pelajari cara menyetel jenis morf transisi pada slide menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan contoh kode. Sempurnakan presentasi Anda sekarang! 
 ### [Transisi Slide Sederhana](./simple-slide-transitions/)
 Pelajari cara menyempurnakan presentasi PowerPoint Anda dengan transisi slide sederhana menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan kode sumber. Libatkan audiens Anda dengan visual yang menawan!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

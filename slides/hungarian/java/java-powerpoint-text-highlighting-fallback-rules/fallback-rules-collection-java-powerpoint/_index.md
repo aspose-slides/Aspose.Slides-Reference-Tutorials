@@ -3,10 +3,16 @@ title: Tartalékszabályok gyűjteménye a Java PowerPointban
 linktitle: Tartalékszabályok gyűjteménye a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan kezelheti a tartalék betűtípus-szabályokat PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. Fokozatmentesen fokozza a kompatibilitást az eszközök között.
-type: docs
 weight: 11
 url: /hu/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tartalékszabályok gyűjteménye a Java PowerPointban
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet kezelni a tartalék betűkészlet-szabályokat az Aspose.Slides for Java használatával. A tartalék betűtípusok kulcsfontosságúak annak biztosításában, hogy prezentációi megfelelően jelenjenek meg a különböző környezetekben, különösen akkor, ha bizonyos betűtípusok nem állnak rendelkezésre. Lépésről lépésre végigvezetjük a szükséges csomagok importálásán, a környezet beállításán és a tartalék szabályok bevezetésén.
 ## Előfeltételek
@@ -73,3 +79,9 @@ A tartalék betűkészlet-szabályok alternatív betűtípusokat határoznak meg
  A részletes dokumentáció elérhető[itt](https://reference.aspose.com/slides/java/).
 ### Hogyan kaphatok támogatást az Aspose.Slides for Java számára?
 Támogatásért keresse fel az Aspose.Slides fórumot[itt](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

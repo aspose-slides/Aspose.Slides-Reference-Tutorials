@@ -3,10 +3,16 @@ title: Adding Picture Frames Tutorial with Aspose.Slides .NET
 linktitle: Adding Picture Frames with Relative Scale Height in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn to add picture frames with relative scale height in Aspose.Slides for .NET. Follow this step-by-step guide for seamless presentations.
-type: docs
 weight: 17
 url: /net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adding Picture Frames Tutorial with Aspose.Slides .NET
+
 ## Introduction
 Aspose.Slides for .NET is a powerful library that allows developers to create, manipulate, and convert PowerPoint presentations in their .NET applications effortlessly. In this tutorial, we'll dive into the process of adding picture frames with relative scale height using Aspose.Slides for .NET. Follow along with this step-by-step guide to enhance your presentation-building skills.
 ## Prerequisites
@@ -64,3 +70,10 @@ Yes, you can get a [free trial](https://releases.aspose.com/) to evaluate the li
 Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) to seek assistance from the community and Aspose experts.
 ### Where can I purchase Aspose.Slides for .NET?
 You can buy Aspose.Slides for .NET from the [purchase page](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

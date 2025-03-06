@@ -3,10 +3,16 @@ title: Δημιουργήστε μορφοποιημένο ορθογώνιο σ
 linktitle: Δημιουργήστε μορφοποιημένο ορθογώνιο στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε και να μορφοποιείτε ένα ορθογώνιο στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java με αυτόν τον οδηγό βήμα προς βήμα.
-type: docs
 weight: 18
 url: /el/java/java-powerpoint-shape-formatting-geometry/create-formatted-rectangle-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργήστε μορφοποιημένο ορθογώνιο στο PowerPoint
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας ενός μορφοποιημένου ορθογωνίου σε μια διαφάνεια του PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Θα αναλύσουμε κάθε βήμα, διασφαλίζοντας ότι μπορείτε να το ακολουθήσετε και να το εφαρμόσετε στα δικά σας έργα.
 ## Προαπαιτούμενα
@@ -91,3 +97,9 @@ if (pres != null) pres.dispose();
  Ναι, η απόρριψη του`Presentation` Το αντικείμενο βοηθά στην απελευθέρωση πόρων και στην αποφυγή διαρροών μνήμης.
 ### Πού μπορώ να βρω την τεκμηρίωση για το Aspose.Slides για Java;
  Η τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ställa in bildtext för dataetikett i Java Slides
 linktitle: Ställa in bildtext för dataetikett i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ställer in bildtexter för dataetiketter i Aspose.Slides för Java. Steg-för-steg guide med källkod.
-type: docs
 weight: 25
 url: /sv/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställa in bildtext för dataetikett i Java Slides
+
 
 ## Introduktion till inställning av bildtext för dataetikett i Aspose.Slides för Java
 
@@ -203,3 +209,9 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 ```
 
 Det här är några vanliga anpassningsalternativ för dataetiketter och bildtexter i Aspose.Slides för Java. Du kan skräddarsy utseendet ytterligare efter dina specifika behov.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

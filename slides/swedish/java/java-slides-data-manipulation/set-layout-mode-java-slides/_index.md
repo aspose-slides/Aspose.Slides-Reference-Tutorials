@@ -3,10 +3,16 @@ title: Ställ in layoutläge i Java Slides
 linktitle: Ställ in layoutläge i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ställer in layoutlägen för Java-bilder med Aspose.Slides. Anpassa diagrampositionering och storlek i denna steg-för-steg-guide med källkod.
-type: docs
 weight: 23
 url: /sv/java/data-manipulation/set-layout-mode-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställ in layoutläge i Java Slides
+
 
 ## Introduktion till Set Layout Mode i Java Slides
 
@@ -95,3 +101,9 @@ finally
 ### Var kan jag hitta mer information om Aspose.Slides för Java?
 
  Du kan hitta mer information om Aspose.Slides för Java i[dokumentation](https://reference.aspose.com/slides/java/). Den innehåller detaljerade API-referenser och exempel som hjälper dig att arbeta med bilder och diagram effektivt i Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

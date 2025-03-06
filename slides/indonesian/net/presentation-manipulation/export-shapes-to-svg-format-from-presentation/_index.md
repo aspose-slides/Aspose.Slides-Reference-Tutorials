@@ -3,10 +3,16 @@ title: Ekspor Bentuk ke Format SVG dari Presentasi
 linktitle: Ekspor Bentuk ke Format SVG dari Presentasi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengekspor bentuk dari presentasi PowerPoint ke format SVG menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan kode sumber disertakan. Ekstrak bentuk secara efisien untuk berbagai aplikasi.
-type: docs
 weight: 16
 url: /id/net/presentation-manipulation/export-shapes-to-svg-format-from-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekspor Bentuk ke Format SVG dari Presentasi
+
 
 Di dunia digital saat ini, presentasi memainkan peran penting dalam menyampaikan informasi secara efektif. Namun, terkadang kita perlu mengekspor bentuk tertentu dari presentasi kita ke format berbeda untuk berbagai tujuan. Salah satu format tersebut adalah SVG (Scalable Vector Graphics), yang dikenal dengan skalabilitas dan kemampuan beradaptasi. Dalam tutorial ini, kami akan memandu Anda melalui proses mengekspor bentuk ke format SVG dari presentasi menggunakan Aspose.Slides untuk .NET.
 
@@ -83,3 +89,9 @@ Kemampuan untuk mengekspor bentuk dapat bervariasi tergantung pada kompleksitas 
 Sekarang setelah Anda mempelajari cara mengekspor bentuk ke format SVG, Anda dapat menyempurnakan presentasi Anda dan membuatnya lebih serbaguna untuk berbagai tujuan. Selamat membuat kode!
 
  Untuk rincian lebih lanjut dan fitur lanjutan, lihat[Aspose.Slides untuk Referensi .NET API](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

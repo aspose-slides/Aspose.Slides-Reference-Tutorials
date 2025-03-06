@@ -3,10 +3,16 @@ title: Java を使用して PowerPoint の段落を揃える
 linktitle: Java を使用して PowerPoint の段落を揃える
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint プレゼンテーションの段落を揃える方法を学びます。正確な書式設定については、ステップバイステップのガイドに従ってください。
-type: docs
 weight: 17
 url: /ja/java/java-powerpoint-text-paragraph-management/align-paragraphs-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して PowerPoint の段落を揃える
+
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションの段落を揃える方法を学習します。スライド内のテキストを適切に揃えると、読みやすさと見た目の美しさが向上し、プレゼンテーションがよりプロフェッショナルで魅力的なものになります。このガイドでは、段落をプログラムで中央揃えするために必要な手順を順を追って説明し、スライド全体で一貫した書式を簡単に実現できるようにします。
 ## 前提条件
@@ -72,3 +78,9 @@ pres.save(dataDir + "Centeralign_out.pptx", SaveFormat.Pptx);
 Aspose.Slides は幅広い PowerPoint 形式をサポートしており、異なるバージョン間での互換性が確保されています。
 ### 購入前に Aspose.Slides を試すことはできますか?
 はい、無料試用版は以下からダウンロードできます。[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

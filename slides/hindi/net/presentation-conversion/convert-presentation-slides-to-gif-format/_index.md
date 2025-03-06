@@ -3,10 +3,16 @@ title: प्रेजेंटेशन स्लाइड्स को GIF प
 linktitle: प्रेजेंटेशन स्लाइड्स को GIF प्रारूप में बदलें
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: इस चरण-दर-चरण मार्गदर्शिका के साथ जानें कि PowerPoint स्लाइडों को गतिशील GIF में परिवर्तित करने के लिए Aspose.Slides for .NET का उपयोग कैसे करें।
-type: docs
 weight: 21
 url: /hi/net/presentation-conversion/convert-presentation-slides-to-gif-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# प्रेजेंटेशन स्लाइड्स को GIF प्रारूप में बदलें
+
 
 ## .NET के लिए Aspose.Slides का परिचय
 
@@ -133,3 +139,9 @@ class Program
 ### मैं और अधिक कोड उदाहरण और दस्तावेज़ कहां पा सकता हूं?
 
  आप .NET के लिए Aspose.Slides का उपयोग करने पर अधिक कोड उदाहरण और विस्तृत दस्तावेज़ पा सकते हैं।[प्रलेखन](https://reference.aspose.com).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Giữ nguyên phông chữ gốc - Chuyển đổi bản trình bày sang
 linktitle: Giữ nguyên phông chữ gốc - Chuyển đổi bản trình bày sang HTML
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách giữ nguyên phông chữ gốc trong khi chuyển đổi bản trình bày sang HTML bằng Aspose.Slides for .NET. Đảm bảo tính nhất quán của phông chữ và tác động trực quan một cách dễ dàng.
-type: docs
 weight: 14
 url: /vi/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Giữ nguyên phông chữ gốc - Chuyển đổi bản trình bày sang HTML
+
 
 Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình giữ nguyên phông chữ gốc khi chuyển đổi bản trình bày sang HTML bằng Aspose.Slides cho .NET. Chúng tôi sẽ cung cấp cho bạn mã nguồn C# cần thiết và giải thích chi tiết từng bước. Đến cuối hướng dẫn này, bạn sẽ có thể đảm bảo rằng các phông chữ trong tài liệu HTML đã chuyển đổi của bạn vẫn trung thực với bản trình bày gốc.
 
@@ -98,3 +104,10 @@ Aspose.Slides for .NET chủ yếu tập trung vào các bài thuyết trình Po
 ### Câu hỏi 5: Tôi có thể tiếp cận các tài nguyên và hỗ trợ bổ sung ở đâu?
 
  Bạn có thể tìm thêm tài liệu, hướng dẫn và hỗ trợ trên trang web Aspose. Thăm nom[Aspose.Slides cho Tài liệu .NET](https://reference.aspose.com/slides/net/) để biết thông tin chi tiết.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

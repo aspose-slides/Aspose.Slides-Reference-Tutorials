@@ -3,10 +3,16 @@ title: جافا باور بوينت تنسيق الأشكال والهندسة
 linktitle: جافا باور بوينت تنسيق الأشكال والهندسة
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: اكتشف تنسيقات الأشكال والهندسة الخاصة بـ Java PowerPoint. تعلم كيفية ملء الأشكال والعثور على الأشكال وإنشاء أشكال هندسية مخصصة باستخدام Aspose.Slides لـ Java.
-type: docs
 weight: 26
 url: /ar/java/java-powerpoint-shape-formatting-geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# جافا باور بوينت تنسيق الأشكال والهندسة
+
 ## مقدمة
 
 غالبًا ما يتطلب إنشاء عروض PowerPoint التقديمية الجذابة تنسيقًا دقيقًا للأشكال ومعالجة هندسية. باستخدام Aspose.Slides for Java، يمكن للمطورين الارتقاء بعروضهم التقديمية إلى المستوى التالي. تستكشف هذه المقالة البرامج التعليمية الأساسية حول ملء الأشكال، والعثور على الأشكال، وإنشاء أشكال هندسية مخصصة، مما يجعل شرائحك مميزة.
@@ -74,3 +80,9 @@ url: /ar/java/java-powerpoint-shape-formatting-geometry/
 تعرف على كيفية استرداد البيانات الفعالة لشطبة الشكل في PowerPoint باستخدام Aspose.Slides لـ Java. عزز عروضك التقديمية بمؤثرات بصرية مذهلة.
 ### [إخفاء الأشكال في PowerPoint](./hide-shapes-powerpoint/)
 تعرف على كيفية إخفاء الأشكال في PowerPoint باستخدام Aspose.Slides لـ Java من خلال دليلنا التفصيلي خطوة بخطوة. مثالي لمطوري Java من جميع المستويات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

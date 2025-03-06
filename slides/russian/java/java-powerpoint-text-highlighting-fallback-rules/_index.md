@@ -3,10 +3,16 @@ title: Правила выделения текста Java PowerPoint и рез�
 linktitle: Правила выделения текста Java PowerPoint и резервные правила
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Освойте правила выделения текста и резервного шрифта в Java PowerPoint с помощью Aspose.Slides. Следуйте нашим руководствам, чтобы легко улучшить и автоматизировать свои презентации.
-type: docs
 weight: 25
 url: /ru/java/java-powerpoint-text-highlighting-fallback-rules/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Правила выделения текста Java PowerPoint и резервные правила
+
 
 ## Введение
 
@@ -26,3 +32,9 @@ url: /ru/java/java-powerpoint-text-highlighting-fallback-rules/
 Узнайте, как выделить текст в PowerPoint с помощью Aspose.Slides для Java. Легко автоматизируйте и улучшайте презентации с помощью нашего подробного руководства.
 ### [Коллекция резервных правил в Java PowerPoint](./fallback-rules-collection-java-powerpoint/)
 Узнайте, как управлять правилами резервного шрифта в презентациях PowerPoint с помощью Aspose.Slides для Java. Улучшите совместимость между устройствами без особых усилий.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

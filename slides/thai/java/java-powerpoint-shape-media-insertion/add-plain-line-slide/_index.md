@@ -3,10 +3,16 @@ title: เพิ่มเส้นธรรมดาลงในสไลด์
 linktitle: เพิ่มเส้นธรรมดาลงในสไลด์
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีเพิ่มเส้นธรรมดาลงในสไลด์ PowerPoint โดยทางโปรแกรมโดยใช้ Aspose.Slides สำหรับ Java เพิ่มประสิทธิภาพการทำงานของคุณด้วยคำแนะนำทีละขั้นตอนนี้
-type: docs
 weight: 14
 url: /th/java/java-powerpoint-shape-media-insertion/add-plain-line-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เพิ่มเส้นธรรมดาลงในสไลด์
+
 ## การแนะนำ
 Aspose.Slides for Java เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนา Java สามารถทำงานกับงานนำเสนอ PowerPoint โดยทางโปรแกรม ด้วย Aspose.Slides คุณสามารถสร้าง แก้ไข และแปลงไฟล์ PowerPoint ได้อย่างง่ายดาย ประหยัดเวลาและความพยายาม ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการเพิ่มเส้นธรรมดาให้กับสไลด์ในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java
 ## ข้อกำหนดเบื้องต้น
@@ -62,3 +68,9 @@ pres.save("Your Document Directory/LineShape1_out.pptx", SaveFormat.Pptx);
 ได้ คุณสามารถเพิ่มข้อความ รูปภาพ และเนื้อหาอื่นๆ ลงในสไลด์ได้โดยใช้ Aspose.Slides API
 ### มีการทดลองใช้ฟรีสำหรับ Aspose.Slides หรือไม่
  ใช่ คุณสามารถดาวน์โหลด Aspose.Slides รุ่นทดลองใช้ฟรีได้จาก[ที่นี่](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

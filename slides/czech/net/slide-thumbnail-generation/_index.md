@@ -3,10 +3,16 @@ title: Generování miniatur snímků
 linktitle: Generování miniatur snímků
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se generovat miniatury snímků pomocí Aspose.Slides pro .NET. Výukový program krok za krokem s příklady kódu pro vytváření dynamických náhledů snímků. Vylepšete své prezentační aplikace pomocí této výkonné funkce.
-type: docs
 weight: 17
 url: /cs/net/slide-thumbnail-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generování miniatur snímků
+
 
 ## Úvod:
 
@@ -37,3 +43,9 @@ Naučte se generovat miniatury obrázků ze snímků aplikace PowerPoint pomocí
 Generujte miniatury ze snímků, které obsahují poznámky, pomocí Aspose.Slides pro .NET. Naučte se krok za krokem extrahovat poznámky, vytvářet miniatury a vylepšovat práci s PowerPointem. 
 ### [Generování miniatur s vlastními dimenzemi](./generate-thumbnail-with-custom-dimensions/)
 Naučte se generovat vlastní velikosti miniatur ve snímcích pomocí Aspose.Slides for .NET. Průvodce krok za krokem se zdrojovým kódem. Vylepšete své prezentace pomocí poutavých vizuálů. 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

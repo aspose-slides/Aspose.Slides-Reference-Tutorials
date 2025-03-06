@@ -3,10 +3,16 @@ title: Pembuatan Gambar Kecil Slide
 linktitle: Pembuatan Gambar Kecil Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara membuat gambar mini slide menggunakan Aspose.Slides untuk .NET. Tutorial langkah demi langkah dengan contoh kode untuk membuat pratinjau slide dinamis. Sempurnakan aplikasi presentasi Anda dengan fitur canggih ini.
-type: docs
 weight: 17
 url: /id/net/slide-thumbnail-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pembuatan Gambar Kecil Slide
+
 
 ## Perkenalan:
 
@@ -37,3 +43,9 @@ Pelajari cara menghasilkan gambar mini dari slide PowerPoint menggunakan Aspose.
 Hasilkan gambar mini dari slide yang menyertakan catatan menggunakan Aspose.Slides untuk .NET. Pelajari langkah demi langkah cara mengekstrak catatan, membuat thumbnail, dan menyempurnakan manipulasi PowerPoint Anda. 
 ### [Hasilkan Gambar Kecil dengan Dimensi Khusus](./generate-thumbnail-with-custom-dimensions/)
 Pelajari cara membuat gambar mini berukuran khusus di slide menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan kode sumber. Sempurnakan presentasi Anda dengan visual yang menarik. 
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

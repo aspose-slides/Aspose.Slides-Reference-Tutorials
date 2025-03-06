@@ -3,10 +3,16 @@ title: Efek Bentuk dan Manipulasi dalam Slide
 linktitle: Efek Bentuk dan Manipulasi dalam Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Tingkatkan daya tarik visual presentasi Anda dengan tutorial Aspose.Slides tentang efek dan manipulasi bentuk. Pelajari cara membuat slide menakjubkan menggunakan efek bentuk, animasi, dan banyak lagi.
-type: docs
 weight: 11
 url: /id/net/shape-effects-and-manipulation-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Efek Bentuk dan Manipulasi dalam Slide
+
 
 ## Perkenalan
 
@@ -63,3 +69,9 @@ Pelajari cara menyempurnakan slide presentasi Anda dengan menyesuaikan sudut gar
 Tingkatkan kecakapan presentasi Anda dengan mempelajari cara menghubungkan bentuk menggunakan konektor dalam slide presentasi dengan Aspose.Slides. Tingkatkan penceritaan visual Anda hari ini!
 ### [Menghubungkan Bentuk menggunakan Situs Koneksi dalam Slide Presentasi dengan Aspose.Slides](./connecting-shape-using-connection-site/)
 Tingkatkan keterampilan presentasi Anda dengan mempelajari cara menghubungkan bentuk menggunakan situs koneksi dalam slide presentasi dengan Aspose.Slides. Ikuti panduan terperinci dan contoh kode kami.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

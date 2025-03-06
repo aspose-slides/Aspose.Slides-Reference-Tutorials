@@ -3,10 +3,16 @@ title: 在 Aspose.Slides 中预览演示文稿的打印输出
 linktitle: 在 Aspose.Slides 中预览演示文稿的打印输出
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 预览 PowerPoint 演示文稿的打印输出。按照带有源代码的分步指南生成和自定义打印预览。
-type: docs
 weight: 11
 url: /zh/net/printing-and-rendering-in-slides/presentation-print-preview/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Aspose.Slides 中预览演示文稿的打印输出
+
 ## 介绍
 欢迎来到 Aspose.Slides for .NET 的世界，这是一个功能强大的库，使开发人员能够在其 .NET 应用程序中无缝操作和增强 PowerPoint 演示文稿。无论您是经验丰富的开发人员还是刚刚起步，本综合指南都将引导您完成充分利用 Aspose.Slides 潜力的基本步骤。
 ## 先决条件
@@ -71,3 +77,9 @@ pres.Print(printerSettings);
 访问[临时执照](https://purchase.aspose.com/temporary-license/)获得用于测试目的的临时许可证。
 ### 需要支持或者有更多疑问吗？
 访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)获得帮助并与社区建立联系。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

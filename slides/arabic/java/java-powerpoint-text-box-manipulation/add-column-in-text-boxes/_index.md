@@ -3,10 +3,16 @@ title: أضف عمودًا في مربعات النص باستخدام Aspose.Sl
 linktitle: أضف عمودًا في مربعات النص باستخدام Aspose.Slides لـ Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة أعمدة إلى مربعات النص في PowerPoint باستخدام Aspose.Slides لـ Java. قم بتحسين عروضك التقديمية باستخدام هذا الدليل المفصّل خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/java/java-powerpoint-text-box-manipulation/add-column-in-text-boxes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أضف عمودًا في مربعات النص باستخدام Aspose.Slides لـ Java
+
 ## مقدمة
 في هذا البرنامج التعليمي، سوف نستكشف كيفية تحسين مربعات النص عن طريق إضافة أعمدة باستخدام Aspose.Slides for Java. Aspose.Slides هي مكتبة Java قوية تسمح للمطورين بإنشاء عروض PowerPoint التقديمية ومعالجتها وتحويلها برمجياً دون الحاجة إلى Microsoft Office. يمكن أن تؤدي إضافة أعمدة إلى مربعات النص إلى تحسين إمكانية قراءة المحتوى وتنظيمه داخل الشرائح بشكل كبير، مما يجعل عروضك التقديمية أكثر جاذبية واحترافية.
 ## المتطلبات الأساسية
@@ -82,3 +88,9 @@ try {
 لا، لا يتطلب Aspose.Slides تثبيت Microsoft Office على الجهاز.
 ### أين يمكنني العثور على مزيد من الوثائق حول Aspose.Slides لـ Java؟
  الوثائق التفصيلية متاحة[هنا](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

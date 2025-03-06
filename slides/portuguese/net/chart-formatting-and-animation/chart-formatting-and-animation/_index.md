@@ -3,10 +3,16 @@ title: Formatação e animação de gráficos em Aspose.Slides
 linktitle: Formatação e animação de gráficos em Aspose.Slides
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como formatar e animar gráficos no Aspose.Slides for .NET, aprimorando suas apresentações com recursos visuais cativantes.
-type: docs
 weight: 10
 url: /pt/net/chart-formatting-and-animation/chart-formatting-and-animation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Formatação e animação de gráficos em Aspose.Slides
+
 
 Criar apresentações atraentes com gráficos e animações dinâmicas pode aumentar muito o impacto da sua mensagem. Aspose.Slides for .NET permite que você consiga exatamente isso. Neste tutorial, orientaremos você no processo de animação e formatação de gráficos usando Aspose.Slides for .NET. Dividiremos as etapas em seções gerenciáveis para garantir que você compreenda o conceito completamente.
 
@@ -172,3 +178,10 @@ Aspose.Slides for .NET fornece ferramentas poderosas para formatação e animaç
 
  Para suporte e perguntas, visite o fórum Aspose.Slides em[https://forum.aspose.com/](https://forum.aspose.com/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تحويل PPT إلى تنسيق PPTX
 linktitle: تحويل PPT إلى تنسيق PPTX
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تحويل PPT إلى PPTX بسهولة باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية لتحويل التنسيق بسلاسة.
-type: docs
 weight: 25
 url: /ar/net/presentation-manipulation/convert-ppt-to-pptx-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل PPT إلى تنسيق PPTX
+
 
 إذا كنت بحاجة في أي وقت إلى تحويل ملفات PowerPoint من تنسيق PPT الأقدم إلى تنسيق PPTX الأحدث باستخدام .NET، فأنت في المكان الصحيح. في هذا البرنامج التعليمي خطوة بخطوة، سنرشدك خلال العملية باستخدام Aspose.Slides for .NET API. باستخدام هذه المكتبة القوية، يمكنك التعامل مع مثل هذه التحويلات بسهولة. هيا بنا نبدأ!
 
@@ -79,3 +85,10 @@ Aspose.Slides for .NET هي مكتبة .NET تسمح للمطورين بإنشا
 ### 5. أين يمكنني الحصول على الدعم أو طرح الأسئلة حول Aspose.Slides for .NET؟
  يمكنك العثور على إجابات لأسئلتك وطلب الدعم في[منتديات Aspose.Slides](https://forum.aspose.com/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: PowerPoint で Web ソースからビデオ フレームを追加する
 linktitle: PowerPoint で Web ソースからビデオ フレームを追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して Web ソースからビデオ フレームを追加し、PowerPoint プレゼンテーションを強化する方法を学習します。
-type: docs
 weight: 18
 url: /ja/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint で Web ソースからビデオ フレームを追加する
+
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して、YouTube などの Web ソースからビデオ フレームを PowerPoint プレゼンテーションに追加する方法を学びます。これらのステップ バイ ステップの指示に従うことで、魅力的なマルチメディア要素を組み込むことでプレゼンテーションを強化できます。
 ## 前提条件
@@ -84,3 +90,9 @@ pres.save("YOUR_DIRECTORY/AddVideoFrameFromWebSource_out.pptx", SaveFormat.Pptx)
 Aspose.Slides は幅広いバージョンの PowerPoint をサポートしており、さまざまなプラットフォーム間での互換性が確保されています。
 ### Aspose.Slides のその他のリソースやサポートはどこで見つかりますか?
 訪問することができます[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)支援、ドキュメント、コミュニティ サポート。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

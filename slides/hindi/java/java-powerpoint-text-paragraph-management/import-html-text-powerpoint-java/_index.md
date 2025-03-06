@@ -3,10 +3,16 @@ title: जावा का उपयोग करके PowerPoint में HTM
 linktitle: जावा का उपयोग करके PowerPoint में HTML टेक्स्ट आयात करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: सहज एकीकरण के लिए Aspose.Slides के साथ Java का उपयोग करके PowerPoint स्लाइड में HTML टेक्स्ट को आयात करना सीखें। दस्तावेज़ प्रबंधन चाहने वाले डेवलपर्स के लिए आदर्श।
-type: docs
 weight: 10
 url: /hi/java/java-powerpoint-text-paragraph-management/import-html-text-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा का उपयोग करके PowerPoint में HTML टेक्स्ट आयात करें
+
 ## परिचय
 इस ट्यूटोरियल में, आप सीखेंगे कि Aspose.Slides की मदद से Java का उपयोग करके PowerPoint प्रेजेंटेशन में HTML टेक्स्ट कैसे इंपोर्ट करें। यह चरण-दर-चरण मार्गदर्शिका आपको आवश्यक पैकेज आयात करने से लेकर आपकी PowerPoint फ़ाइल को सहेजने तक की प्रक्रिया से गुज़रने में मदद करेगी।
 ## आवश्यक शर्तें
@@ -68,3 +74,9 @@ Aspose.Slides स्वचालित रूप से अधिकांश HT
 हां, Aspose.Slides जावा में पावरपॉइंट फ़ाइलों के कुशल बैच प्रसंस्करण के लिए API प्रदान करता है।
 ### मैं Aspose.Slides के लिए और अधिक उदाहरण और समर्थन कहां पा सकता हूं?
  दौरा करना[Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/) और[सहयता मंच](https://forum.aspose.com/c/slides/11) विस्तृत उदाहरण और सहायता के लिए.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

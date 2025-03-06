@@ -3,10 +3,16 @@ title: Java 中的计量许可幻灯片
 linktitle: Java 中的计量许可幻灯片
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用计量许可优化您的 Aspose.Slides for Java 使用情况。了解如何设置并监控您的 API 消耗。
-type: docs
 weight: 10
 url: /zh/java/licensing-and-initialization/metered-licensing-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 中的计量许可幻灯片
+
 
 ## Aspose.Slides for Java 中的计量许可简介
 
@@ -107,3 +113,10 @@ catch (Exception ex)
 ### 我是否需要互联网连接来进行计量许可？
 
 是的，需要互联网连接来设置和验证计量许可。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Воронкообразная диаграмма в слайдах Java
 linktitle: Воронкообразная диаграмма в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Научитесь создавать диаграммы-воронки в презентациях PowerPoint с помощью Aspose.Slides для Java. Пошаговое руководство с исходным кодом для эффективной визуализации данных.
-type: docs
 weight: 18
 url: /ru/java/chart-data-manipulation/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Воронкообразная диаграмма в слайдах Java
+
 
 ## Введение в создание диаграммы-воронки в Aspose.Slides для Java
 
@@ -137,3 +143,9 @@ pres.save(dataDir + "Funnel.pptx", SaveFormat.Pptx);
 ### Могу ли я экспортировать диаграмму в другие форматы, например PDF или изображение?
 
 Да, Aspose.Slides for Java позволяет экспортировать презентацию с воронкообразной диаграммой в различные форматы, включая PDF, форматы изображений и другие. Вы можете использовать`SaveFormat` параметры для указания желаемого формата вывода при сохранении презентации.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

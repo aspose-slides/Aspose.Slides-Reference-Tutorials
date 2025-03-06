@@ -3,10 +3,16 @@ title: Niestandardowy kąt obrotu ramki tekstowej w programie Java PowerPoint
 linktitle: Niestandardowy kąt obrotu ramki tekstowej w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dostosować kąty obrotu ramek tekstowych w programie Java PowerPoint za pomocą Aspose.Slides. Dynamicznie ulepszaj swoje prezentacje.
-type: docs
 weight: 14
 url: /pl/java/java-powerpoint-text-box-manipulation/custom-rotation-angle-text-frame-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Niestandardowy kąt obrotu ramki tekstowej w programie Java PowerPoint
+
 ## Wstęp
 W tym samouczku dowiemy się, jak manipulować kątami obrotu ramki tekstowej w prezentacjach Java PowerPoint za pomocą Aspose.Slides. Dostosowywanie kątów obrotu ma kluczowe znaczenie dla poprawy atrakcyjności wizualnej i przejrzystości tekstu na slajdach. Niezależnie od tego, czy tworzysz dynamiczne wykresy, czy dodajesz własne tytuły, precyzyjne obracanie ramek tekstowych może znacznie poprawić estetykę prezentacji.
 ## Warunki wstępne
@@ -64,3 +70,9 @@ Aspose.Slides for Java to solidna biblioteka, która umożliwia programistom Jav
 Tak, Aspose.Slides zaprojektowano tak, aby obsługiwał wymagania na poziomie przedsiębiorstwa dotyczące tworzenia prezentacji PowerPoint i zarządzania nimi.
 ### Jak uzyskać wsparcie dla Aspose.Slides dla Java?
  Aby uzyskać pomoc techniczną i interakcję ze społecznością, odwiedź stronę[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

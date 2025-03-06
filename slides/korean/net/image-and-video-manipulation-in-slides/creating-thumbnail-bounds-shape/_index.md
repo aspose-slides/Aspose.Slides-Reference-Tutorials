@@ -3,10 +3,16 @@ title: Aspose.Slides에서 모양의 경계를 사용하여 썸네일 만들기
 linktitle: Aspose.Slides에서 모양의 경계를 사용하여 썸네일 만들기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides의 강력한 기능을 활용해 보세요! 단계별 가이드를 사용하여 경계가 있는 모양 축소판을 쉽게 만드는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/net/image-and-video-manipulation-in-slides/creating-thumbnail-bounds-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides에서 모양의 경계를 사용하여 썸네일 만들기
+
 ## 소개
 PowerPoint 프레젠테이션에서 모양의 경계가 있는 축소판 이미지를 생성하기 위한 강력한 솔루션을 찾고 있는 .NET 개발자라면 Aspose.Slides for .NET이 가장 적합한 도구입니다. 이 강력한 라이브러리는 원활한 통합을 제공하므로 PowerPoint 파일에서 중요한 정보를 효율적으로 조작하고 추출할 수 있습니다. 이 튜토리얼에서는 Aspose.Slides를 사용하여 모양의 경계가 있는 썸네일을 만드는 과정을 안내합니다.
 ## 전제 조건
@@ -60,3 +66,9 @@ bitmap.Save(dataDir + "Shape_thumbnail_Bound_Shape_out.png", ImageFormat.Png);
  방문하다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 커뮤니티와 연결하고 숙련된 개발자의 도움을 구하세요.
 ### Aspose.Slides에 대한 임시 라이선스를 얻을 수 있나요?
  네, 임시 면허를 취득하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/) 단기 프로젝트 요구에 적합합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

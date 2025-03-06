@@ -3,10 +3,16 @@ title: Ölçeklendirme Faktörü Küçük Resmi Oluştur
 linktitle: Ölçeklendirme Faktörü Küçük Resmi Oluştur
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java'da ölçeklendirme faktörü küçük resimlerini nasıl oluşturacağınızı öğrenin. Adım adım talimatlar içeren takip edilmesi kolay kılavuz.
-type: docs
 weight: 12
 url: /tr/java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ölçeklendirme Faktörü Küçük Resmi Oluştur
+
 ## giriiş
 Bu eğitimde Aspose.Slides for Java'yı kullanarak ölçeklendirme faktörü küçük resmi oluşturma sürecinde size rehberlik edeceğiz. İstediğiniz sonuca ulaşmak için bu adım adım talimatları izleyin.
 ## Önkoşullar
@@ -66,3 +72,9 @@ Evet, Aspose.Slides for Java, Eclipse, IntelliJ IDEA veya NetBeans gibi herhangi
  Aspose.Slides for Java'yı şu adresten satın alabilirsiniz:[satın alma sayfası](https://purchase.aspose.com/buy).
 ### Aspose.Slides for Java'yı kullanmak için geçici bir lisansa ihtiyacım var mı?
  Evet, geçici lisansı şu adresten alabilirsiniz:[geçici lisans sayfası](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

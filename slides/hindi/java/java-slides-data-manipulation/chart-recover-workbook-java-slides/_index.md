@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में चार्ट रिक
 linktitle: जावा स्लाइड्स में चार्ट रिकवर वर्कबुक
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides के साथ Java Slides में चार्ट से वर्कबुक को पुनर्प्राप्त करना सीखें। PowerPoint स्वचालन के लिए चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 17
 url: /hi/java/data-manipulation/chart-recover-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में चार्ट रिकवर वर्कबुक
+
 
 ## जावा स्लाइड्स में चार्ट रिकवर वर्कबुक का परिचय
 
@@ -109,3 +115,9 @@ finally
 ### मैं Aspose.Slides for Java के लिए आगे के दस्तावेज़ों तक कैसे पहुँच सकता हूँ?
 
  Aspose.Slides for Java पर विस्तृत दस्तावेज़ीकरण और संदर्भों के लिए, दस्तावेज़ीकरण पृष्ठ पर जाएँ[यहाँ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

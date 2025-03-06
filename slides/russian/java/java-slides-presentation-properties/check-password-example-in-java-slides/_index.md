@@ -3,10 +3,16 @@ title: Пример проверки пароля в слайдах Java
 linktitle: Пример проверки пароля в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как проверять пароли в Java Slides с помощью Aspose.Slides для Java. Повысьте безопасность презентации с помощью пошаговых инструкций.
-type: docs
 weight: 14
 url: /ru/java/presentation-properties/check-password-example-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Пример проверки пароля в слайдах Java
+
 
 ## Введение в пример проверки пароля в слайдах Java
 
@@ -99,3 +105,9 @@ presentationInfo.removePassword("current_password");
 ### Где я могу найти дополнительную документацию по Aspose.Slides для Java?
 
  Вы можете найти подробную документацию по Aspose.Slides для Java на веб-сайте Aspose.[здесь](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

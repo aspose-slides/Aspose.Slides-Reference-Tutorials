@@ -3,10 +3,16 @@ title: Add Image Inside Table Cells in Java PowerPoint
 linktitle: Add Image Inside Table Cells in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to add images inside table cells in Java PowerPoint presentations with this detailed step-by-step guide using Aspose.Slides for Java.
-type: docs
 weight: 10
 url: /java/java-powerpoint-table-manipulation/add-image-inside-table-cells-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Image Inside Table Cells in Java PowerPoint
+
 ## Introduction
 If you're looking to enhance your Java PowerPoint presentations by embedding images within table cells, you've landed in the right place! Today, we’ll dive into a detailed, step-by-step guide using Aspose.Slides for Java. This tutorial will walk you through the entire process, ensuring even a novice can follow along and achieve stunning results.
 ## Prerequisites
@@ -104,3 +110,10 @@ Aspose.Slides supports various image formats including JPEG, PNG, BMP, and more.
 You can refer to the [documentation](https://reference.aspose.com/slides/java/) for more detailed information and examples.
 ### How can I purchase Aspose.Slides for Java?
 You can purchase it from the [Aspose website](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

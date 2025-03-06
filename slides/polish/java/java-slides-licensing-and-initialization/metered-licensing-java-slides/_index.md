@@ -3,10 +3,16 @@ title: Licencjonowanie odmierzone w slajdach Java
 linktitle: Licencjonowanie odmierzone w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Zoptymalizuj swój Aspose.Slides pod kątem wykorzystania Java dzięki licencjonowaniu odmierzanemu. Dowiedz się, jak to skonfigurować i monitorować wykorzystanie interfejsu API.
-type: docs
 weight: 10
 url: /pl/java/licensing-and-initialization/metered-licensing-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licencjonowanie odmierzone w slajdach Java
+
 
 ## Wprowadzenie do licencjonowania licznikowego w Aspose.Slides dla Java
 
@@ -107,3 +113,10 @@ Jeśli przekroczysz limit licznika, może być konieczne uaktualnienie licencji 
 ### Czy do licencjonowania licznikowego potrzebne jest połączenie internetowe?
 
 Tak, do ustawienia i sprawdzenia licencji licznikowych wymagane jest połączenie internetowe.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

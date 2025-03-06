@@ -3,10 +3,16 @@ title: Java 슬라이드의 인터럽트 지원
 linktitle: Java 슬라이드의 인터럽트 지원
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Java용 Aspose.Slides를 사용하여 마스터 Java 슬라이드 중단을 처리합니다. 이 세부 가이드에서는 원활한 인터럽트 관리를 위한 단계별 지침과 코드 예제를 제공합니다.
-type: docs
 weight: 12
 url: /ko/java/media-controls/support-for-interrupt-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 슬라이드의 인터럽트 지원
+
 # Aspose.Slides for Java를 사용한 Java 슬라이드의 인터럽트 지원 소개
 
 Aspose.Slides for Java는 Java 애플리케이션에서 PowerPoint 프레젠테이션을 생성, 조작 및 작업하기 위한 강력한 라이브러리입니다. 이 포괄적인 가이드에서는 Aspose.Slides for Java를 사용하여 Java 슬라이드에서 인터럽트 지원을 활용하는 방법을 살펴보겠습니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 이 단계별 튜토리얼은 자세한 설명과 코드 예제를 통해 프로세스를 안내합니다.
@@ -133,3 +139,9 @@ Java 슬라이드의 인터럽트 처리는 PowerPoint 프레젠테이션을 처
 ### Aspose.Slides for Java에 대한 추가 리소스와 문서는 어디에서 액세스할 수 있나요?
 
 Aspose.Slides for Java에 대한 포괄적인 문서, 튜토리얼 및 예제는 다음에서 찾을 수 있습니다.[Aspose 웹사이트](https://reference.aspose.com/slides/java/). 또한 특정 사용 사례에 대한 도움을 받으려면 Aspose 지원 팀에 문의할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

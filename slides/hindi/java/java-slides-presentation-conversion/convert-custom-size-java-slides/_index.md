@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में कस्टम आका
 linktitle: जावा स्लाइड्स में कस्टम आकार के साथ कनवर्ट करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके PowerPoint प्रस्तुतियों को कस्टम आकार के साथ TIFF छवियों में परिवर्तित करना सीखें। डेवलपर्स के लिए कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 31
 url: /hi/java/presentation-conversion/convert-custom-size-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में कस्टम आकार के साथ कनवर्ट करें
+
 
 ## जावा स्लाइड्स में कस्टम आकार के साथ कनवर्ट करने का परिचय
 
@@ -137,3 +143,9 @@ finally
 ### मैं Aspose.Slides for Java के बारे में अधिक जानकारी कहां पा सकता हूं?
 
  Aspose.Slides for Java के बारे में विस्तृत दस्तावेज़ीकरण और अतिरिक्त जानकारी के लिए, कृपया दस्तावेज़ीकरण देखें:[Aspose.Slides for Java API संदर्भ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

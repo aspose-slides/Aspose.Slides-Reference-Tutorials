@@ -3,10 +3,16 @@ title: Formátování tvaru a geometrie Java PowerPoint
 linktitle: Formátování tvaru a geometrie Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Objevte výukové programy formátování tvarů a geometrie Java PowerPoint. Naučte se vyplňovat tvary, hledat tvary a vytvářet vlastní geometrii pomocí Aspose.Slides pro Java.
-type: docs
 weight: 26
 url: /cs/java/java-powerpoint-shape-formatting-geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Formátování tvaru a geometrie Java PowerPoint
+
 ## Úvod
 
 Vytváření vizuálně atraktivních prezentací v PowerPointu často vyžaduje přesné formátování tvarů a geometrické manipulace. S Aspose.Slides for Java mohou vývojáři posunout své prezentace na další úroveň. Tento článek prozkoumává základní výukové programy o vyplňování tvarů, hledání tvarů a vytváření vlastní geometrie, aby vaše snímky vynikly.
@@ -74,3 +80,9 @@ V tomto podrobném podrobném průvodci se dozvíte, jak získat efektivní data
 Naučte se, jak načíst efektivní data tvaru zkosení v PowerPointu pomocí Aspose.Slides pro Java. Vylepšete své prezentace úžasnými vizuálními efekty.
 ### [Skrýt obrazce v PowerPointu](./hide-shapes-powerpoint/)
 Naučte se skrýt tvary v PowerPointu pomocí Aspose.Slides for Java s naším podrobným průvodcem krok za krokem. Ideální pro Java vývojáře všech úrovní.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

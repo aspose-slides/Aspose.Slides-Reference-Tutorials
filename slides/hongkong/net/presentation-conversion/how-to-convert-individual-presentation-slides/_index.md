@@ -3,10 +3,16 @@ title: 如何轉換個人簡報投影片
 linktitle: 如何轉換個人簡報投影片
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 輕鬆轉換單一簡報投影片。以程式設計方式建立、操作和儲存投影片。
-type: docs
 weight: 12
 url: /zh-hant/net/presentation-conversion/how-to-convert-individual-presentation-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 如何轉換個人簡報投影片
+
 
 ## .NET 的 Aspose.Slides 簡介
 
@@ -141,3 +147,9 @@ Aspose.Slides for .NET 提供了廣泛的附加功能，例如在簡報中新增
 ### 我可以使用 Aspose.Slides 自訂投影片佈局嗎？
 
 是的，您可以使用 Aspose.Slides for .NET 自訂投影片佈局、新增形狀、圖像以及應用程式動畫，從而完全控制簡報。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

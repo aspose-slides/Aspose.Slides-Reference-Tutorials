@@ -3,10 +3,16 @@ title: Biểu đồ nhiều danh mục trong Java Slides
 linktitle: Biểu đồ nhiều danh mục trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tạo biểu đồ nhiều danh mục trong Java Slides bằng Aspose.Slides cho Java. Hướng dẫn từng bước với mã nguồn để hiển thị dữ liệu ấn tượng trong bản trình bày.
-type: docs
 weight: 20
 url: /vi/java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Biểu đồ nhiều danh mục trong Java Slides
+
 
 ## Giới thiệu về Biểu đồ nhiều danh mục trong Java Slides với Aspose.Slides
 
@@ -157,3 +163,9 @@ Có, bạn có thể thêm chuỗi bổ sung vào biểu đồ bằng cách th�
 ### Làm cách nào để thêm tiêu đề vào biểu đồ?
 
  Bạn có thể thêm tiêu đề vào biểu đồ bằng cách sử dụng`ch.getChartTitle().getTextFrame().setText("Chart Title");` phương pháp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

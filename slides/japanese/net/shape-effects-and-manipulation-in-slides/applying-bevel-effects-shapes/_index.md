@@ -3,10 +3,16 @@ title: Aspose.Slides でベベル効果をマスターする - ステップバ�
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドの図形にベベル効果を適用する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用してプレゼンテーション スライドを強化しましょう。このステップ バイ ステップ ガイドで、魅力的なベベル効果を適用する方法を学びます。
-type: docs
 weight: 24
 url: /ja/net/shape-effects-and-manipulation-in-slides/applying-bevel-effects-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides でベベル効果をマスターする - ステップバイステップのチュートリアル
+
 ## 導入
 プレゼンテーションのダイナミックな世界では、スライドに視覚的な魅力を加えることで、メッセージの効果を大幅に高めることができます。Aspose.Slides for .NET は、プレゼンテーション スライドをプログラムで操作し、美しくするための強力なツールキットを提供します。そのような魅力的な機能の 1 つは、図形にベベル効果を適用して、ビジュアルに深みと次元を追加する機能です。
 ## 前提条件
@@ -75,3 +81,9 @@ pres.Save(dataDir + "Bevel_out.pptx", SaveFormat.Pptx);
 一般的ではありませんが、複数の図形を積み重ねたり、ベベルのプロパティを操作したりして、同様の効果を実現することもできます。
 ### 5. Aspose.Slides では他の 3D 効果も利用できますか?
 もちろんです! Aspose.Slides は、プレゼンテーション要素に深みとリアリティを加えるさまざまな 3D 効果を提供します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

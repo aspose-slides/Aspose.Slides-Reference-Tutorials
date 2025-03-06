@@ -3,10 +3,16 @@ title: Remplir les formes avec un dégradé dans PowerPoint
 linktitle: Remplir les formes avec un dégradé dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à remplir des formes avec un dégradé dans PowerPoint à l'aide d'Aspose.Slides pour Java avec ce guide détaillé étape par étape.
-type: docs
 weight: 10
 url: /fr/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Remplir les formes avec un dégradé dans PowerPoint
+
 ## Introduction
 Créer des présentations PowerPoint visuellement attrayantes est crucial pour captiver votre public. L’un des moyens efficaces d’améliorer vos diapositives consiste à remplir les formes avec des dégradés. Ce didacticiel vous guidera tout au long du processus d'utilisation d'Aspose.Slides pour Java pour remplir des formes avec des dégradés dans PowerPoint. Que vous soyez un développeur chevronné ou que vous débutiez tout juste, vous trouverez ce guide utile et facile à suivre. Plongeons dans le monde des dégradés et voyons comment ils peuvent transformer vos présentations.
 ## Conditions préalables
@@ -106,3 +112,9 @@ Les points de dégradé sont des points spécifiques dans un dégradé qui défi
  Pour obtenir de l'aide, visitez le[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Où puis-je télécharger la dernière version d’Aspose.Slides pour Java ?
  Vous pouvez télécharger la dernière version à partir du[Page de téléchargement d'Aspose.Slides](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Java PowerPoint 中管理段落图片项目符号
 linktitle: 在 Java PowerPoint 中管理段落图片项目符号
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 将自定义图片项目符号添加到 PowerPoint 幻灯片。按照此详细的分步指南进行操作，实现无缝集成。
-type: docs
 weight: 11
 url: /zh/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-picture-bullets-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java PowerPoint 中管理段落图片项目符号
+
 ## 介绍
 在现代商业世界中，创建引人入胜且具有视觉吸引力的演示文稿是一项关键技能。Java 开发人员可以利用 Aspose.Slides 在 PowerPoint 幻灯片中使用自定义图片项目符号来增强他们的演示文稿。本教程将逐步指导您完成该过程，确保您可以自信地将图片项目符号添加到演示文稿中。
 ## 先决条件
@@ -104,3 +110,9 @@ Aspose.Slides for Java 是一个功能强大的库，允许 Java 开发人员以
 是的，您可以通过单独创建和配置每个段落，将具有不同项目符号样式的多个段落添加到单个自选图形中。
 ### 在哪里可以找到更多示例和支持？
 您可以在[文档](https://reference.aspose.com/slides/java/)并获得 Aspose 社区的支持[论坛](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

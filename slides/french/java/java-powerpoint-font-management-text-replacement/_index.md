@@ -3,10 +3,16 @@ title: Gestion des polices Java PowerPoint et remplacement du texte
 linktitle: Gestion des polices Java PowerPoint et remplacement du texte
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Maîtrisez la gestion des polices Java PowerPoint et le remplacement de texte avec Aspose.Slides. Apprenez à charger des polices personnalisées, à gérer les polices intégrées et à remplacer du texte de manière transparente.
-type: docs
 weight: 27
 url: /fr/java/java-powerpoint-font-management-text-replacement/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion des polices Java PowerPoint et remplacement du texte
+
 ## Introduction
 
 Les polices et la gestion du texte sont des éléments cruciaux pour créer des présentations PowerPoint soignées et professionnelles. Avec Aspose.Slides pour Java, vous pouvez facilement charger des polices personnalisées, gérer les polices intégrées et remplacer efficacement le texte. Nos tutoriels vous guideront tout au long de ces processus, garantissant que vos présentations sont à la fois visuellement attrayantes et fonctionnelles. Explorons ces didacticiels pour améliorer vos compétences PowerPoint !
@@ -35,3 +41,9 @@ Gérez sans effort les polices intégrées dans les présentations Java PowerPoi
 Remplacez sans effort les polices dans les présentations PowerPoint à l'aide de Java avec Aspose.Slides. Suivez notre guide détaillé pour un processus de transition de polices fluide.
 ### [Remplacer le texte dans PowerPoint à l'aide de Java](./replace-text-powerpoint-java/)
 Découvrez comment remplacer du texte dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Suivez ce guide étape par étape pour automatiser les mises à jour de vos présentations.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

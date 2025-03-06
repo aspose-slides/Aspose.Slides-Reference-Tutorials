@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में त्रुटि बा
 linktitle: जावा स्लाइड्स में त्रुटि बार जोड़ें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides का उपयोग करके जावा में PowerPoint चार्ट में त्रुटि बार जोड़ना सीखें। त्रुटि बार को अनुकूलित करने के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 13
 url: /hi/java/chart-data-manipulation/add-error-bars-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में त्रुटि बार जोड़ें
+
 
 ## Aspose.Slides का उपयोग करके जावा स्लाइड्स में त्रुटि बार जोड़ने का परिचय
 
@@ -128,3 +134,9 @@ finally
 ### मैं Aspose.Slides for Java के बारे में अधिक जानकारी कहां पा सकता हूं?
 
  आप इसका संदर्भ ले सकते हैं[Aspose.Slides for Java दस्तावेज़](https://reference.aspose.com/slides/java/) पुस्तकालय के उपयोग के बारे में विस्तृत जानकारी के लिए कृपया देखें.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

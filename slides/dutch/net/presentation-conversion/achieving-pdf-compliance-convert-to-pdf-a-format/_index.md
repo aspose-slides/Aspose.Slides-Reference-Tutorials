@@ -3,10 +3,16 @@ title: Converteer PowerPoint naar PDF/A met Aspose.Slides voor .NET
 linktitle: Voldoen aan PDF-compatibiliteit - Converteren naar PDF/A-indeling
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u PDF-compatibiliteit kunt bereiken door PowerPoint-presentaties naar PDF/A-indeling te converteren met Aspose.Slides voor .NET. Zorg voor een lange levensduur en toegankelijkheid van documenten.
-type: docs
 weight: 25
 url: /nl/net/presentation-conversion/achieving-pdf-compliance-convert-to-pdf-a-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converteer PowerPoint naar PDF/A met Aspose.Slides voor .NET
+
 
 # Hoe u PDF-compatibiliteit kunt bereiken met Aspose.Slides voor .NET
 
@@ -99,3 +105,9 @@ Ja, Aspose.Slides ondersteunt batchconversies, waardoor u meerdere presentaties 
 
 ### Waar kan ik ondersteuning vinden voor Aspose.Slides voor .NET als ik problemen tegenkom?
  Als u vragen heeft of tegen problemen aanloopt, kunt u hulp en bijstand zoeken op de website[Aspose.Slides-forum](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aggiungi proprietà documento personalizzate nelle diapositive Java
 linktitle: Aggiungi proprietà documento personalizzate nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come migliorare le presentazioni di PowerPoint con proprietà di documento personalizzate in Presentazioni Java. Guida passo passo con esempi di codice utilizzando Aspose.Slides per Java.
-type: docs
 weight: 13
 url: /it/java/presentation-properties/add-custom-document-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiungi proprietà documento personalizzate nelle diapositive Java
+
 
 ## Introduzione all'aggiunta di proprietà di documento personalizzate nelle diapositive Java
 
@@ -137,3 +143,9 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 Questo codice visualizzerà i nomi e i valori di tutte le proprietà personalizzate nella presentazione.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

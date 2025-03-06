@@ -3,10 +3,16 @@ title: Terugspoelanimaties in presentaties beheersen met Aspose.Slides
 linktitle: Animatie terugspoelen op dia
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u animaties op PowerPoint-dia's kunt terugspoelen met Aspose.Slides voor .NET. Volg deze stapsgewijze handleiding met volledige broncodevoorbeelden.
-type: docs
 weight: 13
 url: /nl/net/slide-animation-control/rewind-animation-on-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Terugspoelanimaties in presentaties beheersen met Aspose.Slides
+
 ## Invoering
 In de dynamische wereld van presentaties kan het opnemen van boeiende animaties de betrokkenheid aanzienlijk vergroten. Aspose.Slides voor .NET biedt een krachtige toolset om uw presentaties tot leven te brengen. Een intrigerend kenmerk is de mogelijkheid om animaties op dia's terug te spoelen. In deze uitgebreide handleiding leiden we u stap voor stap door het proces, zodat u het volledige potentieel van het terugspoelen van animaties kunt benutten met Aspose.Slides voor .NET.
 ## Vereisten
@@ -80,3 +86,9 @@ Ja, u kunt de code aanpassen om terugspoelanimatie selectief toe te passen op sp
  Bezoek de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) om hulp te zoeken en betrokken te raken bij de gemeenschap.
 ### Kan ik een tijdelijke licentie kopen voor Aspose.Slides voor .NET?
  Ja, u kunt een tijdelijke licentie verkrijgen bij[hier](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

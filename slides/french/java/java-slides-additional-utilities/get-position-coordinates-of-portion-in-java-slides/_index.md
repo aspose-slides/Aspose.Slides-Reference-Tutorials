@@ -3,10 +3,16 @@ title: Obtenir les coordonnées de position d'une partie dans les diapositives J
 linktitle: Obtenir les coordonnées de position d'une partie dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à récupérer les coordonnées d'une partie de texte dans des diapositives Java à l'aide de l'API Aspose.Slides pour Java. Obtenez un contrôle précis sur le placement du texte dans les présentations PowerPoint.
-type: docs
 weight: 12
 url: /fr/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtenir les coordonnées de position d'une partie dans les diapositives Java
+
 
 ## Introduction pour obtenir les coordonnées de position d'une partie dans les diapositives Java
 
@@ -120,3 +126,9 @@ Oui, Aspose.Slides pour Java prend en charge divers formats de fichiers PowerPoi
 ### Comment puis-je obtenir une assistance ou une assistance supplémentaire avec Aspose.Slides pour Java ?
 
 Vous pouvez accéder à une assistance et à des ressources supplémentaires sur le site Web Aspose. Ils fournissent des forums, de la documentation et des options d’assistance premium aux utilisateurs.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

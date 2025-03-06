@@ -3,10 +3,16 @@ title: Konvertera individuella bilder i Java-bilder
 linktitle: Konvertera individuella bilder i Java-bilder
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du konverterar enskilda PowerPoint-bilder till HTML steg för steg med kodexempel med Aspose.Slides för Java.
-type: docs
 weight: 12
 url: /sv/java/presentation-conversion/convert-individual-slide-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertera individuella bilder i Java-bilder
+
 
 ## Introduktion till att konvertera individuella bilder i Java-bilder
 
@@ -170,3 +176,9 @@ Du har framgångsrikt konverterat enskilda bilder från en PowerPoint-presentati
 ### Hur hanterar jag ytterligare formatering för former och text i bilder?
 
  Du kan förlänga`CustomFormattingController` klass för att hantera formspecifik formatering genom att implementera`writeShapeStart` och`writeShapeEnd` metoder och tillämpa anpassad formateringslogik inom dem.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

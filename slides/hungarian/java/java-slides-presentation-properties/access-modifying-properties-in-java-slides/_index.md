@@ -3,10 +3,16 @@ title: Hozzáférés a Java Slides tulajdonságainak módosításához
 linktitle: Hozzáférés a Java Slides tulajdonságainak módosításához
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan érheti el és módosíthatja a Java Slides tulajdonságait az Aspose.Slides for Java segítségével. Fejlessze prezentációit egyéni tulajdonságokkal.
-type: docs
 weight: 11
 url: /hu/java/presentation-properties/access-modifying-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hozzáférés a Java Slides tulajdonságainak módosításához
+
 
 ## Bevezetés a Java Slides tulajdonságainak módosításához
 
@@ -117,3 +123,9 @@ A hibákat a Java kivételkezelési mechanizmusainak használatával kezelheti. 
 ### Hol találok további dokumentációt és példákat?
 
  Az Aspose.Slides for Java átfogó dokumentációját és kódpéldáit itt találja[itt](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

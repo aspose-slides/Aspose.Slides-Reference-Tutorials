@@ -3,10 +3,16 @@ title: .NET에서 Aspose.Slides를 사용하여 프레젠테이션 슬라이드 
 linktitle: Aspose.Slides를 사용하여 특정 프레젠테이션 슬라이드 인쇄하기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides를 사용하여 .NET에서 프레젠테이션 슬라이드를 인쇄하는 방법을 알아보세요. 개발자를 위한 단계별 가이드. 지금 라이브러리를 다운로드하고 인쇄를 시작해 보세요.
-type: docs
 weight: 18
 url: /ko/net/printing-and-rendering-in-slides/printing-specific-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET에서 Aspose.Slides를 사용하여 프레젠테이션 슬라이드 인쇄
+
 ## 소개
 .NET 개발 세계에서 Aspose.Slides는 프레젠테이션 파일 작업을 위한 강력한 도구로 돋보입니다. 프로그래밍 방식으로 프레젠테이션 슬라이드를 인쇄해야 하는 경우 올바른 위치에 오셨습니다. 이 튜토리얼에서는 .NET용 Aspose.Slides를 사용하여 이를 달성하는 방법을 살펴보겠습니다.
 ## 전제 조건
@@ -59,3 +65,9 @@ A: 예, 특정 슬라이드를 선택적으로 인쇄하도록 코드를 수정�
  답: 물론이죠! 무료 평가판을 다운로드할 수 있습니다[여기](https://releases.aspose.com/).
 ### Q: .NET용 Aspose.Slides를 어떻게 구매하나요?
  A: 도서관을 구입하실 수 있습니다[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

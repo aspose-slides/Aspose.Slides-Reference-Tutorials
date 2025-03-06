@@ -3,10 +3,16 @@ title: 在 Java 幻灯片中转换为 HTML5
 linktitle: 在 Java 幻灯片中转换为 HTML5
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides 在 Java 中将 PowerPoint 演示文稿转换为 HTML5。通过分步代码示例学习如何自动化转换过程。
-type: docs
 weight: 23
 url: /zh/java/presentation-conversion/convert-to-html5-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 幻灯片中转换为 HTML5
+
 
 ## 使用 Aspose.Slides 在 Java 中将 PowerPoint 演示文稿转换为 HTML5 的简介
 
@@ -105,3 +111,9 @@ try {
 ### Aspose.Slides 是否与最新的 Java 版本兼容？
 
 Aspose.Slides 定期更新以支持最新的 Java 版本，因此请确保您使用的是兼容版本的库。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

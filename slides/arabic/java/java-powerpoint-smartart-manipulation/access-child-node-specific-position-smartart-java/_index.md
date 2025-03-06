@@ -3,10 +3,16 @@ title: الوصول إلى عقدة الطفل في موضع محدد في Smart
 linktitle: الوصول إلى عقدة الطفل في موضع محدد في SmartArt
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعلم كيفية التعامل مع SmartArt في Aspose.Slides لـ Java باستخدام هذا الدليل التفصيلي. تم تضمين التعليمات والأمثلة وأفضل الممارسات خطوة بخطوة.
-type: docs
 weight: 11
 url: /ar/java/java-powerpoint-smartart-manipulation/access-child-node-specific-position-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الوصول إلى عقدة الطفل في موضع محدد في SmartArt
+
 ## مقدمة
 هل تتطلع إلى الارتقاء بعروضك التقديمية إلى المستوى التالي باستخدام رسومات SmartArt المتطورة؟ لا مزيد من البحث! يقدم Aspose.Slides for Java مجموعة قوية لإنشاء شرائح العرض التقديمي ومعالجتها وإدارتها، بما في ذلك القدرة على العمل مع كائنات SmartArt. في هذا البرنامج التعليمي الشامل، سنرشدك خلال الوصول إلى العقدة الفرعية ومعالجتها في موضع محدد داخل رسم SmartArt، باستخدام مكتبة Aspose.Slides for Java.
 
@@ -98,3 +104,9 @@ System.out.println(outString);
  يمكنك الحصول على الدعم من[Aspose منتدى المجتمع](https://forum.aspose.com/c/slides/11) أو الرجوع إلى واسعة النطاق[توثيق](https://reference.aspose.com/slides/java/).
 ### هل يمكنني شراء ترخيص كامل لـ Aspose.Slides لـ Java؟
  نعم، يمكنك شراء ترخيص كامل من[صفحة الشراء](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java スライドのチャート データ ポイント インデック�
 linktitle: Java スライドのチャート データ ポイント インデックス
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java スライドのグラフ データ ポイント インデックスを操作する方法を学びます。PowerPoint グラフからデータを簡単に抽出して操作します。
-type: docs
 weight: 12
 url: /ja/java/data-manipulation/chart-data-point-index-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java スライドのチャート データ ポイント インデックス
+
 
 ## Javaスライドでのチャートデータポイントインデックスの紹介
 
@@ -98,3 +104,9 @@ Aspose.Slides for Java を使用すると、グラフを含む PowerPoint プレ
 ### Aspose.Slides for Java のその他の例やドキュメントはどこで入手できますか?
 
  Aspose.Slides for Javaの包括的な例とドキュメントは、AsposeドキュメントWebサイトでご覧いただけます。[ここ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

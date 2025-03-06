@@ -3,10 +3,16 @@ title: Dodaj obraz do komórek tabeli w programie Java PowerPoint
 linktitle: Dodaj obraz do komórek tabeli w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodawać obrazy wewnątrz komórek tabeli w prezentacjach Java PowerPoint, korzystając ze szczegółowego przewodnika krok po kroku dotyczącego korzystania z Aspose.Slides dla języka Java.
-type: docs
 weight: 10
 url: /pl/java/java-powerpoint-table-manipulation/add-image-inside-table-cells-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj obraz do komórek tabeli w programie Java PowerPoint
+
 ## Wstęp
 Jeśli chcesz ulepszyć swoje prezentacje Java PowerPoint poprzez osadzanie obrazów w komórkach tabeli, trafiłeś we właściwe miejsce! Dzisiaj zagłębimy się w szczegółowy przewodnik krok po kroku dotyczący korzystania z Aspose.Slides dla Java. Ten samouczek przeprowadzi Cię przez cały proces, dzięki czemu nawet nowicjusz będzie mógł go wykonać i osiągnąć oszałamiające rezultaty.
 ## Warunki wstępne
@@ -104,3 +110,9 @@ Aspose.Slides obsługuje różne formaty obrazów, w tym JPEG, PNG, BMP i inne.
  Możesz zapoznać się z[dokumentacja](https://reference.aspose.com/slides/java/) aby uzyskać bardziej szczegółowe informacje i przykłady.
 ### Jak mogę kupić Aspose.Slides dla Java?
  Można go kupić w serwisie[Strona Aspose](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

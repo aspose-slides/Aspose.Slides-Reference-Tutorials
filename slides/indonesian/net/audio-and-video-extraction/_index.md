@@ -3,10 +3,16 @@ title: Ekstraksi Audio dan Video
 linktitle: Ekstraksi Audio dan Video
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Jelajahi tutorial Aspose.Slides komprehensif tentang ekstraksi audio dan video dalam aplikasi .NET. Pelajari cara mengekstrak dan memanipulasi elemen multimedia dari presentasi PowerPoint secara terprogram.
-type: docs
 weight: 15
 url: /id/net/audio-and-video-extraction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekstraksi Audio dan Video
+
 
 ## Perkenalan:
 
@@ -31,3 +37,9 @@ Pelajari cara mengekstrak audio dari hyperlink menggunakan Aspose.Slides untuk .
 Pelajari cara mengekstrak audio dari garis waktu PowerPoint menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan contoh kode.
 ### [Ekstrak Video dari Slide](./extract-video/)
 Ekstraksi video master dari slide PowerPoint menggunakan Aspose.Slides untuk .NET. Ikuti panduan kami dengan contoh kode.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

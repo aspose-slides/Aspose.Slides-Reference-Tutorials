@@ -3,10 +3,16 @@ title: 프레젠테이션 속성에 액세스
 linktitle: 프레젠테이션 속성에 액세스
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Java용 Aspose.Slides의 강력한 기능을 활용해 보세요. 이 튜토리얼을 통해 프레젠테이션 관리를 마스터해보세요. 프레젠테이션 속성에 쉽게 액세스하고 수정하고 향상할 수 있습니다.
-type: docs
 weight: 11
 url: /ko/java/java-powerpoint-properties-management/access-presentation-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 프레젠테이션 속성에 액세스
+
 ## 소개
 Java 개발 영역에서 프레젠테이션을 원활하게 관리하는 것은 어려운 일이 될 수 있습니다. 그러나 Java용 Aspose.Slides의 출현으로 개발자는 이러한 복잡성을 쉽게 탐색할 수 있는 강력한 툴킷을 갖게 되었습니다. 이 튜토리얼은 프레젠테이션 속성에 액세스하기 위해 Aspose.Slides를 활용하는 복잡한 과정을 공개하는 등불 역할을 합니다. 우리는 전제 조건을 조사하고, 패키지를 가져오고, 각 예를 소화 가능한 단계로 나누어 숙달을 향한 여정이 원활하고 풍요롭게 유지되도록 할 것입니다.
 ## 전제 조건
@@ -64,3 +70,9 @@ System.out.println("Name of Application: " + docProps.getNameOfApplication());
  질문이나 도움이 필요하면 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11), 전문가와 커뮤니티에서 즉시 도움을 받을 수 있습니다.
 ### Aspose.Slides에 대한 임시 라이선스를 얻을 수 있나요?
  예, 평가 또는 테스트 목적으로 임시 라이선스를 사용할 수 있습니다. 임시면허를 취득할 수 있습니다.[구매 페이지](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

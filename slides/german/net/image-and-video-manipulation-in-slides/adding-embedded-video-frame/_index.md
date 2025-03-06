@@ -3,10 +3,16 @@ title: Aspose.Slides - Eingebettete Videos in .NET-Präsentationen hinzufügen
 linktitle: Aspose.Slides - Eingebettete Videos in .NET-Präsentationen hinzufügen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Ihre Präsentationen mit eingebetteten Videos mithilfe von Aspose.Slides für .NET. Folgen Sie unserer Schritt-für-Schritt-Anleitung für eine nahtlose Integration.
-type: docs
 weight: 19
 url: /de/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides - Eingebettete Videos in .NET-Präsentationen hinzufügen
+
 ## Einführung
 In der dynamischen Welt der Präsentationen kann die Integration von Multimedia-Elementen das Engagement erheblich steigern. Aspose.Slides für .NET bietet eine leistungsstarke Lösung zum Einbinden eingebetteter Video-Frames in Ihre Präsentationsfolien. Dieses Tutorial führt Sie durch den Prozess und unterteilt jeden Schritt, um ein nahtloses Erlebnis zu gewährleisten.
 ## Voraussetzungen
@@ -75,3 +81,9 @@ Aspose.Slides unterstützt eine Vielzahl von Videoformaten, darunter MP4, AVI un
 Die Anzahl der eingebetteten Videos wird normalerweise durch die Kapazität Ihrer Präsentationssoftware begrenzt.
 ### Wie kann ich weitere Hilfe erhalten oder meine Erfahrungen teilen?
  Besuche den[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) für Community-Unterstützung und Diskussionen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

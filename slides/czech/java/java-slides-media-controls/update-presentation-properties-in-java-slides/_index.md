@@ -3,10 +3,16 @@ title: Aktualizujte vlastnosti prezentace v aplikaci Java Slides
 linktitle: Aktualizujte vlastnosti prezentace v aplikaci Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak aktualizovat vlastnosti prezentace na snímcích Java pomocí Aspose.Slides for Java. Přizpůsobte si autora, název a další pro působivé prezentace.
-type: docs
 weight: 13
 url: /cs/java/media-controls/update-presentation-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aktualizujte vlastnosti prezentace v aplikaci Java Slides
+
 
 ## Úvod k aktualizaci vlastností prezentace v Java Slides
 
@@ -112,3 +118,9 @@ Ano, Aspose.Slides for Java lze použít pro osobní i komerční projekty. Nab�
 ### Jak mohu získat přístup k dokumentaci pro Aspose.Slides for Java?
 
  K dokumentaci pro Aspose.Slides pro Java se dostanete kliknutím na následující odkaz:[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Guardar como tipo de vista predefinido en diapositivas de Java
 linktitle: Guardar como tipo de vista predefinido en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a configurar tipos de vista predefinidos en Java Slides usando Aspose.Slides para Java. Guía paso a paso con ejemplos de código y preguntas frecuentes.
-type: docs
 weight: 10
 url: /es/java/saving-options/save-as-predefined-view-type-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Guardar como tipo de vista predefinido en diapositivas de Java
+
 
 ## Introducción a Guardar como tipo de vista predefinido en diapositivas de Java
 
@@ -109,3 +115,9 @@ Sí, Aspose.Slides para Java es adecuado para tareas de procesamiento por lotes.
 ### ¿Dónde puedo encontrar más información y documentación sobre Aspose.Slides para Java?
 
  Para obtener documentación completa y referencias relacionadas con Aspose.Slides para Java, visite el sitio web de documentación:[Documentación de Aspose.Slides para Java](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

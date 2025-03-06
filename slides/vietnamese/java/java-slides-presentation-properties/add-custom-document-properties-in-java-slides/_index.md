@@ -3,10 +3,16 @@ title: Thêm thuộc tính tài liệu tùy chỉnh trong trang trình bày Java
 linktitle: Thêm thuộc tính tài liệu tùy chỉnh trong trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách nâng cao bản trình bày PowerPoint bằng các thuộc tính tài liệu tùy chỉnh trong Trang trình bày Java. Hướng dẫn từng bước với các ví dụ về mã sử dụng Aspose.Slides cho Java.
-type: docs
 weight: 13
 url: /vi/java/presentation-properties/add-custom-document-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm thuộc tính tài liệu tùy chỉnh trong trang trình bày Java
+
 
 ## Giới thiệu về Thêm thuộc tính tài liệu tùy chỉnh trong Java Slides
 
@@ -137,3 +143,9 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 Mã này sẽ hiển thị tên và giá trị của tất cả các thuộc tính tùy chỉnh trong bản trình bày.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

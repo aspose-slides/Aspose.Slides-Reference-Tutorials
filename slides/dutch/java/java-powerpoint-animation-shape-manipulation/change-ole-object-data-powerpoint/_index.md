@@ -3,10 +3,16 @@ title: Wijzig OLE-objectgegevens in PowerPoint
 linktitle: Wijzig OLE-objectgegevens in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u OLE-objectgegevens in PowerPoint kunt wijzigen met Aspose.Slides voor Java. Een stap-voor-stap handleiding voor efficiënte en gemakkelijke updates.
-type: docs
 weight: 14
 url: /nl/java/java-powerpoint-animation-shape-manipulation/change-ole-object-data-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wijzig OLE-objectgegevens in PowerPoint
+
 ## Invoering
 Het wijzigen van OLE-objectgegevens in PowerPoint-presentaties kan een cruciale taak zijn wanneer u ingesloten inhoud moet bijwerken zonder elke dia handmatig te bewerken. Deze uitgebreide gids leidt u door het proces met Aspose.Slides voor Java, een krachtige bibliotheek ontworpen voor het verwerken van PowerPoint-presentaties. Of u nu een doorgewinterde ontwikkelaar bent of net begint, u zult deze tutorial nuttig en gemakkelijk te volgen vinden.
 ## Vereisten
@@ -100,3 +106,9 @@ Ja, als het OLE-object een Excel-spreadsheet is, hebt u Aspose.Cells nodig om he
  Ja, je kunt een[gratis proefperiode](https://releases.aspose.com/) om de functies van Aspose.Slides te testen.
 ### Waar kan ik de documentatie voor Aspose.Slides vinden?
  Uitgebreide documentatie vindt u op de website[Aspose.Slides documentatiepagina](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

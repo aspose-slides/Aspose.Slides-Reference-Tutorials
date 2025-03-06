@@ -3,10 +3,16 @@ title: Bild- und Videobearbeitung in Folien
 linktitle: Bild- und Videobearbeitung in Folien
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Ihre Folienpräsentationen mit fesselnden Bildern und Videos mithilfe von Aspose.Slides für .NET. Erfahren Sie Schritt für Schritt, wie Sie Bilder und Videos in Folien bearbeiten, um visuell ansprechende Inhalte zu erstellen.
-type: docs
 weight: 12
 url: /de/net/image-and-video-manipulation-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bild- und Videobearbeitung in Folien
+
 
 ## Einführung in die Bild- und Videobearbeitung in Aspose.Slides
 
@@ -53,3 +59,9 @@ Erfahren Sie, wie Sie Ihre Präsentationsfolien verbessern können, indem Sie mi
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET eingebettete Dateidaten aus OLE-Objekten in PowerPoint-Präsentationen extrahieren. Folgen Sie dieser Schritt-für-Schritt-Anleitung mit Quellcode, um eingebettete Daten nahtlos abzurufen und zu verarbeiten.
 ### [Füllen von Formen mit Farbverlauf in Präsentationsfolien mithilfe von Aspose.Slides](./filling-shapes-gradient/)
 Erfahren Sie, wie Sie Ihre Präsentationsfolien mit faszinierenden Farbverläufen mithilfe von Aspose.Slides für .NET aufwerten. Folgen Sie dieser Schritt-für-Schritt-Anleitung mit vollständigem Quellcode, um Formen mit Farbverläufen zu füllen, von linear bis radial, und so Tiefe und Dimension hinzuzufügen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

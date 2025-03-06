@@ -3,10 +3,16 @@ title: 在 Java PowerPoint 中应用外阴影效果
 linktitle: 在 Java PowerPoint 中应用外阴影效果
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 通过我们详细的分步指南学习如何使用 Aspose.Slides 在 Java PowerPoint 演示文稿中轻松应用外阴影效果。
-type: docs
 weight: 11
 url: /zh/java/java-powerpoint-animation-effects/apply-outer-shadow-effects-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java PowerPoint 中应用外阴影效果
+
 ## 介绍
 创建引人入胜的演示文稿通常需要添加各种效果来增强幻灯片的视觉吸引力。外阴影就是这样一种效果，它可以使您的元素突出并增加内容的深度。在本教程中，我们将介绍使用 Aspose.Slides for Java 将外阴影效果应用于 PowerPoint 演示文稿中的形状的过程。
 ## 先决条件
@@ -114,3 +120,9 @@ Aspose.Slides for Java 是一个功能强大的库，允许您在 Java 应用程
 您可以从[Aspose 网站](https://purchase.aspose.com/temporary-license/).
 ### 在哪里可以找到 Aspose.Slides 的更多示例和文档？
 您可以在以下位置找到更多示例和详细文档[Aspose.Slides 文档页面](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

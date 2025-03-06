@@ -3,10 +3,16 @@ title: Verknüpfen von Videos über ActiveX-Steuerelemente in PowerPoint
 linktitle: Verknüpfen von Videos über ActiveX-Steuerelemente
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Videos mit PowerPoint-Folien verknüpfen. Diese Schritt-für-Schritt-Anleitung enthält Quellcode und Tipps zum Erstellen interaktiver und ansprechender Präsentationen mit verknüpften Videos.
-type: docs
 weight: 12
 url: /de/net/slide-view-and-layout-manipulation/linking-video-activex-control/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verknüpfen von Videos über ActiveX-Steuerelemente in PowerPoint
+
 Verknüpfen eines Videos über ein ActiveX-Steuerelement in einer Präsentation mit Aspose.Slides für .NET
 
 In Aspose.Slides für .NET können Sie mithilfe des ActiveX-Steuerelements ein Video programmgesteuert mit einer Präsentationsfolie verknüpfen. Auf diese Weise können Sie interaktive Präsentationen erstellen, bei denen der Videoinhalt direkt innerhalb der Folie abgespielt werden kann. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess der Verknüpfung eines Videos mit einer Präsentationsfolie mithilfe von Aspose.Slides für .NET.
@@ -80,3 +86,9 @@ Die Größe des verknüpften Videos kann sich auf die Gesamtgröße und Leistung
 Wenn Sie die in diesem Handbuch beschriebenen Schritte befolgen, können Sie mithilfe von Aspose.Slides für .NET ganz einfach ein Video über ein ActiveX-Steuerelement in eine Präsentation einbinden. Mit dieser Funktion können Sie ansprechende und interaktive Präsentationen erstellen, die Multimedia-Inhalte nahtlos integrieren.
 
  Weitere Einzelheiten und erweiterte Optionen finden Sie im[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java スライドでデータ ラベルの吹き出しを設定する
 linktitle: Java スライドでデータ ラベルの吹き出しを設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java でデータ ラベルのコールアウトを設定する方法を学びます。ソース コード付きのステップ バイ ステップ ガイド。
-type: docs
 weight: 25
 url: /ja/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java スライドでデータ ラベルの吹き出しを設定する
+
 
 ## Aspose.Slides for Java でデータ ラベルのコールアウトを設定する方法の概要
 
@@ -203,3 +209,9 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 ```
 
 これらは、Aspose.Slides for Java のデータ ラベルとコールアウトの一般的なカスタマイズ オプションです。特定のニーズに合わせて外観をさらにカスタマイズできます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

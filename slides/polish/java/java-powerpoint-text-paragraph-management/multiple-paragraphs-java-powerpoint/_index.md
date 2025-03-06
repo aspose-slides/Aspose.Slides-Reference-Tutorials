@@ -3,10 +3,16 @@ title: Wiele akapitów w programie Java PowerPoint
 linktitle: Wiele akapitów w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak tworzyć wiele akapitów w prezentacjach Java PowerPoint przy użyciu Aspose.Slides dla Java. Kompletny przewodnik z przykładami kodu.
-type: docs
 weight: 13
 url: /pl/java/java-powerpoint-text-paragraph-management/multiple-paragraphs-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wiele akapitów w programie Java PowerPoint
+
 ## Wstęp
 W tym samouczku omówimy, jak tworzyć slajdy z wieloma akapitami w Javie przy użyciu Aspose.Slides dla Java. Aspose.Slides to potężna biblioteka, która umożliwia programistom programowe manipulowanie prezentacjami programu PowerPoint, dzięki czemu idealnie nadaje się do automatyzacji zadań związanych z tworzeniem i formatowaniem slajdów.
 ## Warunki wstępne
@@ -113,3 +119,9 @@ Aspose.Slides obsługuje różne formaty programu PowerPoint, zapewniając kompa
  Tak, możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 ### Jak mogę uzyskać pomoc techniczną, jeśli zajdzie taka potrzeba?
  Możesz uzyskać wsparcie od społeczności Aspose.Slides[Tutaj](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

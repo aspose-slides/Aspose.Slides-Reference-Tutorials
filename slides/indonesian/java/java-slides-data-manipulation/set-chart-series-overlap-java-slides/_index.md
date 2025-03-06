@@ -3,10 +3,16 @@ title: Setel Tumpang Tindih Seri Bagan di Slide Java
 linktitle: Setel Tumpang Tindih Seri Bagan di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Seri bagan induk tumpang tindih di Java Slides dengan Aspose.Slides untuk Java. Pelajari langkah demi langkah cara menyesuaikan visual bagan untuk presentasi yang menakjubkan.
-type: docs
 weight: 16
 url: /id/java/data-manipulation/set-chart-series-overlap-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Setel Tumpang Tindih Seri Bagan di Slide Java
+
 
 ## Pengantar Mengatur Tumpang Tindih Seri Bagan di Slide Java
 
@@ -110,3 +116,9 @@ Sangat! Aspose.Slides untuk Java menyediakan API untuk membuat presentasi dari a
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan contoh untuk Aspose.Slides untuk Java?
 
  Untuk dokumentasi dan contoh yang komprehensif, kunjungi halaman referensi Aspose.Slides untuk Java:[Aspose.Slides untuk Referensi API Java](https://reference.aspose.com/slides/java/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

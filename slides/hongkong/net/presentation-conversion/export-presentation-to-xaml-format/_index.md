@@ -3,10 +3,16 @@ title: 將簡報匯出為 XAML 格式
 linktitle: 將簡報匯出為 XAML 格式
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 將簡報匯出為 XAML 格式。輕鬆創建互動內容！
-type: docs
 weight: 27
 url: /zh-hant/net/presentation-conversion/export-presentation-to-xaml-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將簡報匯出為 XAML 格式
+
 
 在軟體開發領域，擁有能夠簡化複雜任務的工具至關重要。 Aspose.Slides for .NET 就是這樣一種工具，它使您能夠以程式設計方式處理 PowerPoint 簡報。在本逐步教程中，我們將探索如何使用 Aspose.Slides for .NET 將簡報匯出為 XAML 格式。 
 
@@ -113,3 +119,9 @@ Aspose.Slides for .NET 是一個 .NET 函式庫，用於以程式設計方式處
 您可以找到支持和社區討論[這裡](https://forum.aspose.com/).
 
 如需更多教學和資源，請訪問[Aspose.Slides API 文檔](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

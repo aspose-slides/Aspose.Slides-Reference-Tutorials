@@ -3,10 +3,16 @@ title: ملء الأشكال مع التدرج في PowerPoint
 linktitle: ملء الأشكال مع التدرج في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية ملء الأشكال بالتدرج في PowerPoint باستخدام Aspose.Slides لـ Java من خلال هذا الدليل المفصل خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ملء الأشكال مع التدرج في PowerPoint
+
 ## مقدمة
 يعد إنشاء عروض PowerPoint التقديمية الجذابة بصريًا أمرًا بالغ الأهمية لجذب جمهورك. إحدى الطرق الفعالة لتحسين شرائحك هي ملء الأشكال بالتدرجات اللونية. سيرشدك هذا البرنامج التعليمي خلال عملية استخدام Aspose.Slides لـ Java لملء الأشكال بالتدرجات اللونية في PowerPoint. سواء كنت مطورًا متمرسًا أو بدأت للتو، ستجد هذا الدليل مفيدًا وسهل المتابعة. دعنا نتعمق في عالم التدرجات ونرى كيف يمكنها تحويل عروضك التقديمية.
 ## المتطلبات الأساسية
@@ -106,3 +112,9 @@ Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قو
  للحصول على الدعم، قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### أين يمكنني تنزيل أحدث إصدار من Aspose.Slides لـ Java؟
  يمكنك تنزيل أحدث إصدار من[صفحة تنزيل Aspose.Slides](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

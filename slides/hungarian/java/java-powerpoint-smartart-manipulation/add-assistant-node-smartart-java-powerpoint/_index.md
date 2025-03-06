@@ -3,10 +3,16 @@ title: Adjon hozzá Segédcsomópontot a SmartArthoz a Java PowerPointban
 linktitle: Adjon hozzá Segédcsomópontot a SmartArthoz a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat hozzá segédcsomópontot a SmartArthoz Java PowerPoint prezentációkban az Aspose.Slides használatával. Fejlessze PowerPoint szerkesztési készségeit.
-type: docs
 weight: 17
 url: /hu/java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá Segédcsomópontot a SmartArthoz a Java PowerPointban
+
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük Önt a Java PowerPoint prezentációkban az Aspose.Slides segítségével segédcsomópont hozzáadásának folyamatán.
 ## Előfeltételek
@@ -70,3 +76,9 @@ Az Aspose.Slides támogatja a PowerPoint 97-2003-as verzióit a legújabb verzi�
 Igen, testreszabhatja a megjelenést az Aspose.Slides által biztosított különféle tulajdonságokkal és módszerekkel.
 ### Van-e korlátozás a SmartArt-ban lévő csomópontok számára?
 A SmartArt a PowerPointban nagyszámú csomópontot támogat, de a jobb olvashatóság érdekében ajánlatos ésszerűnek tartani.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

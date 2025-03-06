@@ -3,10 +3,16 @@ title: Beheer eigenschappendiagrammen in Java-dia's
 linktitle: Beheer eigenschappendiagrammen in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer verbluffende grafieken maken en eigenschappen beheren in Java-dia's met Aspose.Slides. Stap-voor-stap handleiding met broncode voor krachtige presentaties.
-type: docs
 weight: 13
 url: /nl/java/data-manipulation/manage-properties-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer eigenschappendiagrammen in Java-dia's
+
 
 ## Inleiding tot het beheren van eigenschappen en diagrammen in Java Slides met Aspose.Slides
 
@@ -198,3 +204,9 @@ Ja, u kunt de diagramkleuren aanpassen door de vuleigenschappen van reeksgegeven
 ### Welke andere 3D-eigenschappen kan ik aanpassen?
 
 kunt andere 3D-eigenschappen van het diagram verkennen, zoals diepte, perspectief en belichting, door de Aspose.Slides-documentatie te raadplegen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

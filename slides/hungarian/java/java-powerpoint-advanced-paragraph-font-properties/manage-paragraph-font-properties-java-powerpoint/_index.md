@@ -3,10 +3,16 @@ title: Bekezdésbetűtípus-tulajdonságok kezelése a Java PowerPointban
 linktitle: Bekezdésbetűtípus-tulajdonságok kezelése a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ebből a könnyen követhető, lépésenkénti útmutatóból megtudhatja, hogyan kezelheti és testreszabhatja a bekezdés betűtípus-tulajdonságait Java PowerPoint prezentációkban az Aspose.Slides segítségével.
-type: docs
 weight: 10
 url: /hu/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-font-properties-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bekezdésbetűtípus-tulajdonságok kezelése a Java PowerPointban
+
 ## Bevezetés
 vizuálisan tetszetős PowerPoint-prezentációk készítése elengedhetetlen a hatékony kommunikációhoz. Akár üzleti javaslatot, akár iskolai projektet készít, a megfelelő betűtípus-tulajdonságok vonzóbbá tehetik diákjait. Ez az oktatóanyag végigvezeti Önt a bekezdésbetűtípus-tulajdonságok kezelésén az Aspose.Slides for Java használatával. Készen állsz a merülésre? Kezdjük el!
 ## Előfeltételek
@@ -113,3 +119,9 @@ Igen, a bekezdés minden részének saját betűtípus-tulajdonságai lehetnek.
 Igen, az Aspose.Slides for Java támogatja a szöveg színátmenetes kitöltését.
 ### Mi a teendő, ha vissza akarom vonni a változtatásokat?
 Töltse be újra az eredeti prezentációt, vagy készítsen biztonsági másolatot a módosítások elvégzése előtt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

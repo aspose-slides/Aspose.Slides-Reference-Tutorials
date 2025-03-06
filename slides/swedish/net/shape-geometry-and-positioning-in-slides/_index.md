@@ -3,10 +3,16 @@ title: Formgeometri och positionering i diabilder med Aspose.Slides
 linktitle: Formgeometri och positionering i diabilder
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Förbättra dina färdigheter med att manipulera bilder med Aspose.Slides-handledningar om formgeometri och positionering i bilder. Lär dig att programmera styra former, deras dimensioner och inriktning.
-type: docs
 weight: 13
 url: /sv/net/shape-geometry-and-positioning-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Formgeometri och positionering i diabilder med Aspose.Slides
+
 
 ## Introduktion
 
@@ -51,3 +57,9 @@ Lär dig hur du effektivt integrerar ljusriggdata i presentationsbilder med Aspo
 Lär dig hur du förbättrar dina presentationsbilder med effektiva avfasade data med Aspose.Slides. En omfattande guide med steg-för-steg-instruktioner och exempelkod.
 ### [Döljer former i presentationsbilder med Aspose.Slides](./hiding-shapes/)
 Lär dig hur du döljer former i presentationsbilder med Aspose.Slides för .NET. Steg-för-steg-guide med källkod, vanliga frågor och bästa metoder för dynamiska presentationer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

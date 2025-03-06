@@ -3,10 +3,16 @@ title: 使用 Aspose.Slides 掌握有效的相機資料擷取
 linktitle: 在簡報幻燈片中取得有效的相機數據
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 透過我們從簡報投影片中提取有效相機資料的逐步指南來釋放 Aspose.Slides for .NET 的潛力。
-type: docs
 weight: 18
 url: /zh-hant/net/shape-geometry-and-positioning-in-slides/getting-effective-camera-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Slides 掌握有效的相機資料擷取
+
 ## 介紹
 您是否想知道如何提取和操作簡報幻燈片中嵌入的相機資料？別再猶豫了！本教學將引導您完成使用 Aspose.Slides for .NET 取得有效相機資料的過程。 Aspose.Slides 是一個功能強大的函式庫，可讓您在 .NET 應用程式中無縫處理簡報檔案。
 ## 先決條件
@@ -68,3 +74,9 @@ Console.WriteLine("Zoom: " + threeDEffectiveData.Camera.Zoom);
 可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### 在哪裡可以購買 Aspose.Slides for .NET？
 要購買 Aspose.Slides，請訪問[購買頁面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

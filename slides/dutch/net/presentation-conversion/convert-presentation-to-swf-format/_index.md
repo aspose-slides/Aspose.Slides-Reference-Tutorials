@@ -3,10 +3,16 @@ title: Presentatie converteren naar SWF-indeling
 linktitle: Presentatie converteren naar SWF-indeling
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-presentaties naar SWF-indeling converteert met Aspose.Slides voor .NET. Creëer moeiteloos dynamische inhoud!
-type: docs
 weight: 28
 url: /nl/net/presentation-conversion/convert-presentation-to-swf-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Presentatie converteren naar SWF-indeling
+
 
 In het huidige digitale tijdperk zijn multimediapresentaties een krachtig communicatiemiddel. Soms wilt u uw presentaties misschien op een meer dynamische manier delen, bijvoorbeeld door ze naar de SWF-indeling (Shockwave Flash) te converteren. Deze handleiding leidt u door het proces van het converteren van een presentatie naar SWF-indeling met behulp van Aspose.Slides voor .NET.
 
@@ -111,3 +117,10 @@ Ja, u moet enige kennis hebben van C#-programmeren om Aspose.Slides effectief te
 
 ### Waar kan ik ondersteuning krijgen voor Aspose.Slides voor .NET?
  Als u vragen heeft of hulp nodig heeft, kunt u terecht bij de[Aspose.Slides voor .NET-forum](https://forum.aspose.com/)voor steun en gemeenschapshulp.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

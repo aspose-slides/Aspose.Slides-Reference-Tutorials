@@ -3,10 +3,16 @@ title: Δημιουργήστε προσαρμοσμένη γεωμετρία σ
 linktitle: Δημιουργήστε προσαρμοσμένη γεωμετρία στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε προσαρμοσμένα σχήματα γεωμετρίας στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Αυτός ο οδηγός θα σας βοηθήσει να βελτιώσετε τις παρουσιάσεις σας με μοναδικά σχήματα.
-type: docs
 weight: 21
 url: /el/java/java-powerpoint-shape-formatting-geometry/create-custom-geometry-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργήστε προσαρμοσμένη γεωμετρία στο PowerPoint
+
 ## Εισαγωγή
 Η δημιουργία προσαρμοσμένων σχημάτων και γεωμετριών στο PowerPoint μπορεί να βελτιώσει σημαντικά την οπτική ελκυστικότητα των παρουσιάσεών σας. Το Aspose.Slides for Java είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να χειρίζονται αρχεία PowerPoint μέσω προγραμματισμού. Σε αυτό το σεμινάριο, θα εξερευνήσουμε πώς να δημιουργήσετε προσαρμοσμένη γεωμετρία, συγκεκριμένα ένα σχήμα αστεριού, σε μια διαφάνεια του PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Ας βουτήξουμε!
 ## Προαπαιτούμενα
@@ -106,3 +112,9 @@ pres.save(resultPath, SaveFormat.Pptx);
 Δεν απαιτείται ειδική ρύθμιση εκτός από την εγκατάσταση του JDK και τη συμπερίληψη της βιβλιοθήκης Aspose.Slides στο έργο σας.
 ### Πού μπορώ να λάβω υποστήριξη για το Aspose.Slides;
  Μπορείτε να λάβετε υποστήριξη από το[Φόρουμ υποστήριξης Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

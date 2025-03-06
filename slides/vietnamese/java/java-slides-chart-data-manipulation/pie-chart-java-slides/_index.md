@@ -3,10 +3,16 @@ title: Biểu đồ hình tròn trong Java Slides
 linktitle: Biểu đồ hình tròn trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo Biểu đồ hình tròn tuyệt đẹp trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn từng bước với mã nguồn dành cho nhà phát triển Java.
-type: docs
 weight: 23
 url: /vi/java/chart-data-manipulation/pie-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Biểu đồ hình tròn trong Java Slides
+
 
 ## Giới thiệu về Tạo biểu đồ hình tròn trong Java Slide bằng Aspose.Slides
 
@@ -283,3 +289,9 @@ Có, Aspose.Slides cho Java hỗ trợ nhiều loại biểu đồ khác nhau, b
 ### Làm cách nào tôi có thể tìm thêm thông tin và ví dụ để làm việc với Aspose.Slides cho Java?
 
  Để biết thêm thông tin, tài liệu chi tiết và các ví dụ bổ sung, bạn có thể truy cập[Aspose.Slides cho tài liệu Java](https://reference.aspose.com/slides/java/). Nó cung cấp các tài nguyên toàn diện để giúp bạn sử dụng thư viện một cách hiệu quả.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

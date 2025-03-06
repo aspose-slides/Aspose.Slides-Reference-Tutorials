@@ -3,10 +3,16 @@ title: Aspose.Slides를 사용하여 슬라이드의 형상 기하학 및 위치
 linktitle: 슬라이드의 도형 기하학 및 위치 지정
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: 슬라이드의 모양 기하학 및 위치 지정에 대한 Aspose.Slides 튜토리얼을 통해 슬라이드 조작 기술을 향상하세요. 프로그래밍 방식으로 모양, 크기 및 정렬을 제어하는 방법을 알아보세요.
-type: docs
 weight: 13
 url: /ko/net/shape-geometry-and-positioning-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides를 사용하여 슬라이드의 형상 기하학 및 위치 지정
+
 
 ## 소개
 
@@ -51,3 +57,9 @@ Aspose.Slides를 사용하여 조명 장비 데이터를 프레젠테이션 슬�
 Aspose.Slides를 사용하여 효과적인 경사 데이터로 프레젠테이션 슬라이드를 향상시키는 방법을 알아보세요. 단계별 지침과 샘플 코드가 포함된 종합 가이드입니다.
 ### [Aspose.Slides를 사용하여 프레젠테이션 슬라이드에서 도형 숨기기](./hiding-shapes/)
 Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드에서 모양을 숨기는 방법을 알아보세요. 소스 코드, FAQ, 동적 프레젠테이션 모범 사례가 포함된 단계별 가이드입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

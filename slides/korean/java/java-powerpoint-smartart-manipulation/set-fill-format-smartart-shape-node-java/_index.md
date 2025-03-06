@@ -3,10 +3,16 @@ title: Java에서 SmartArt 모양 노드의 채우기 형식 설정
 linktitle: Java에서 SmartArt 모양 노드의 채우기 형식 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java에서 SmartArt 모양 노드의 채우기 형식을 설정하는 방법을 알아보세요. 생생한 색상과 시선을 사로잡는 시각적 요소로 프레젠테이션을 향상하세요.
-type: docs
 weight: 12
 url: /ko/java/java-powerpoint-smartart-manipulation/set-fill-format-smartart-shape-node-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 SmartArt 모양 노드의 채우기 형식 설정
+
 ## 소개
 디지털 콘텐츠 제작의 역동적인 환경에서 Aspose.Slides for Java는 시각적으로 멋진 프레젠테이션을 쉽고 효율적으로 제작할 수 있는 강력한 도구로 돋보입니다. 숙련된 개발자이든 이제 막 시작하는 개발자이든 청중에게 지속적인 인상을 남기는 매력적인 프레젠테이션을 만들기 위해서는 슬라이드 내에서 모양을 조작하는 기술을 익히는 것이 중요합니다.
 ## 전제 조건
@@ -65,3 +71,9 @@ Aspose 웹사이트에서 포럼 및 문서를 포함한 광범위한 지원 리
 전적으로! Aspose.Slides for Java는 기본 설정에 따라 SmartArt 모양의 모양을 조정할 수 있는 광범위한 사용자 정의 옵션을 제공합니다.
 ### Aspose.Slides for Java는 초보자와 숙련된 개발자 모두에게 적합합니까?
 예, Aspose.Slides for Java는 모든 기술 수준의 개발자에게 적합하며, 직관적인 API와 포괄적인 문서를 제공하여 쉽게 통합하고 사용할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

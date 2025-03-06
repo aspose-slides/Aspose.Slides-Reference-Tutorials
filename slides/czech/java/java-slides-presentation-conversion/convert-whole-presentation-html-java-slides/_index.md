@@ -3,10 +3,16 @@ title: Převeďte celou prezentaci do HTML v Java Slides
 linktitle: Převeďte celou prezentaci do HTML v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak převést PowerPointové prezentace do HTML v Javě pomocí Aspose.Slides. Podrobný průvodce s příklady kódu.
-type: docs
 weight: 29
 url: /cs/java/presentation-conversion/convert-whole-presentation-html-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převeďte celou prezentaci do HTML v Java Slides
+
 
 ## Úvod do převodu celé prezentace do HTML v Java Slides
 
@@ -117,3 +123,9 @@ Ano, Aspose.Slides for Java podporuje různé výstupní formáty, včetně PDF,
 ### Mohu převést konkrétní snímky místo celé prezentace?
 
 Ano, konkrétní snímky můžete převést tak, že je před uložením prezentace vyberete v kódu. To vám dává kontrolu nad tím, které snímky budou převedeny do HTML.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

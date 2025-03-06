@@ -3,10 +3,16 @@ title: Créer du HTML avec une mise en page réactive à partir d'une présentat
 linktitle: Créer du HTML avec une mise en page réactive à partir d'une présentation
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment convertir des présentations en HTML réactif à l'aide d'Aspose.Slides pour .NET. Créez sans effort du contenu interactif et adapté aux appareils.
-type: docs
 weight: 17
 url: /fr/net/presentation-manipulation/create-html-with-responsive-layout-from-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer du HTML avec une mise en page réactive à partir d'une présentation
+
 
 À l’ère numérique d’aujourd’hui, la création de contenu Web réactif est une compétence cruciale pour les développeurs et concepteurs Web. Heureusement, des outils comme Aspose.Slides pour .NET facilitent la génération de HTML avec des mises en page réactives à partir de présentations. Dans ce didacticiel étape par étape, nous vous guiderons tout au long du processus pour y parvenir à l'aide du code source fourni.
 
@@ -72,3 +78,9 @@ Pour toute demande d’assistance, visitez le site[Forum Aspose.Slides](https://
  Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
 
 Maintenant que vous disposez d'un guide complet pour créer du HTML réactif à partir de présentations, vous êtes sur la bonne voie pour améliorer l'accessibilité et l'attrait de votre contenu Web. Bon codage !
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

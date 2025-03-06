@@ -3,10 +3,16 @@ title: Festlegen von Diagrammdaten aus der Arbeitsmappe in Java-Folien
 linktitle: Festlegen von Diagrammdaten aus der Arbeitsmappe in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides Diagrammdaten aus einer Excel-Arbeitsmappe in Java Slides festlegen. Schritt-für-Schritt-Anleitung mit Codebeispielen für dynamische Präsentationen.
-type: docs
 weight: 15
 url: /de/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Festlegen von Diagrammdaten aus der Arbeitsmappe in Java-Folien
+
 
 ## Einführung in das Festlegen von Diagrammdaten aus einer Arbeitsmappe in Java-Folien
 
@@ -142,3 +148,9 @@ Ja, Sie können Diagrammdaten in einer Präsentation dynamisch aktualisieren, in
 ### Wo finde ich weitere Beispiele und Ressourcen zur Arbeit mit Aspose.Slides für Java?
 
  Weitere Beispiele und Ressourcen finden Sie auf der[Aspose-Website](https://www.aspose.com/). Darüber hinaus bietet die Aspose.Slides für Java-Dokumentation umfassende Anleitungen zur Arbeit mit der Bibliothek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

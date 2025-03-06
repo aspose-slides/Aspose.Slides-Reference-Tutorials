@@ -3,10 +3,16 @@ title: Animando séries em slides Java
 linktitle: Animando séries em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Otimize suas apresentações com animações em série no Aspose.Slides for Java. Siga nosso guia passo a passo com exemplos de código-fonte para criar animações envolventes em PowerPoint.
-type: docs
 weight: 11
 url: /pt/java/animation-and-layout/animating-series-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Animando séries em slides Java
+
 
 ## Introdução à animação de séries em Aspose.Slides para Java
 
@@ -125,3 +131,9 @@ Você pode estender o loop na Etapa 3 para adicionar animações para todas as s
 ### Como posso personalizar a duração e o atraso da animação?
 
 Você pode personalizar a duração e o atraso da animação definindo propriedades nos efeitos de animação. Verifique a documentação do Aspose.Slides for Java para obter detalhes sobre as opções de personalização disponíveis.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

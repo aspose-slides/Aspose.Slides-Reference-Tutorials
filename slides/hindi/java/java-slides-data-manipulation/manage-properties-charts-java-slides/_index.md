@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में गुण चार्ट
 linktitle: जावा स्लाइड्स में गुण चार्ट प्रबंधित करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides के साथ जावा स्लाइड में शानदार चार्ट बनाना और प्रॉपर्टीज़ को मैनेज करना सीखें। शक्तिशाली प्रस्तुतियों के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 13
 url: /hi/java/data-manipulation/manage-properties-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में गुण चार्ट प्रबंधित करें
+
 
 ## Aspose.Slides का उपयोग करके जावा स्लाइड्स में गुण और चार्ट प्रबंधित करने का परिचय
 
@@ -198,3 +204,9 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 ### मैं अन्य कौन से 3D गुण अनुकूलित कर सकता हूँ?
 
 आप Aspose.Slides दस्तावेज़न का संदर्भ लेकर चार्ट के अन्य 3D गुणों, जैसे गहराई, परिप्रेक्ष्य और प्रकाश व्यवस्था का पता लगा सकते हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

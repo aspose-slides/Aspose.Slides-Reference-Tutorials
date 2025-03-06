@@ -3,10 +3,16 @@ title: Externes Arbeitsbuch in Java-Folien festlegen
 linktitle: Externes Arbeitsbuch in Java-Folien festlegen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java externe Arbeitsmappen in Java Slides einrichten. Erstellen Sie dynamische Präsentationen mit Excel-Datenintegration.
-type: docs
 weight: 19
 url: /de/java/data-manipulation/set-external-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Externes Arbeitsbuch in Java-Folien festlegen
+
 
 ## Einführung in das Festlegen externer Arbeitsmappen in Java-Folien
 
@@ -119,3 +125,9 @@ Aspose.Slides für Java wird regelmäßig aktualisiert, um die Kompatibilität m
 ### Kann ich mehrere Diagramme hinzufügen, die auf dieselbe externe Arbeitsmappe verweisen?
 
 Ja, Sie können Ihrer Präsentation mehrere Diagramme hinzufügen, die alle auf dieselbe externe Arbeitsmappe verweisen. Wiederholen Sie einfach die in diesem Tutorial beschriebenen Schritte für jedes Diagramm, das Sie erstellen möchten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

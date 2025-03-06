@@ -3,10 +3,16 @@ title: Соедините фигуры с помощью сайтов подкл
 linktitle: Соедините фигуры с помощью сайтов подключения в PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как соединять фигуры в PowerPoint с помощью Aspose.Slides для Java. Автоматизируйте свои презентации без особых усилий.
-type: docs
 weight: 19
 url: /ru/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connection-sites-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Соедините фигуры с помощью сайтов подключения в PowerPoint
+
 ## Введение
 В этом уроке мы рассмотрим, как соединить фигуры с помощью сайтов соединения в PowerPoint с помощью Aspose.Slides для Java. Эта мощная библиотека позволяет нам программно манипулировать презентациями PowerPoint, делая такие задачи, как соединение фигур, простыми и эффективными.
 ## Предварительные условия
@@ -70,3 +76,9 @@ if (ellipse.getConnectionSiteCount() > (wantedIndex & 0xFFFFFFFFL))
  Да, временные лицензии доступны для тестирования и оценки. Вы можете получить один[здесь](https://purchase.aspose.com/temporary-license/).
 ### Где я могу приобрести лицензию на Aspose.Slides для Java?
 Вы можете приобрести лицензию на сайте Aspose.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

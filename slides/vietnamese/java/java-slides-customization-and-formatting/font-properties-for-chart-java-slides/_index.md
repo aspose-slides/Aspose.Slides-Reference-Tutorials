@@ -3,10 +3,16 @@ title: Thuộc tính phông chữ cho biểu đồ trong Java Slides
 linktitle: Thuộc tính phông chữ cho biểu đồ trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Nâng cao thuộc tính phông chữ biểu đồ trong các trang trình bày Java với Aspose.Slides cho Java. Tùy chỉnh kích thước phông chữ, kiểu dáng và màu sắc để có bài thuyết trình ấn tượng.
-type: docs
 weight: 11
 url: /vi/java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thuộc tính phông chữ cho biểu đồ trong Java Slides
+
 
 ## Giới thiệu về Thuộc tính phông chữ cho biểu đồ trong Java Slides
 
@@ -102,3 +108,9 @@ Trong hướng dẫn này, bạn đã học cách tùy chỉnh thuộc tính ph�
 ### Làm cách nào để tùy chỉnh thuộc tính phông chữ cho các thành phần biểu đồ cụ thể?
 
 Để tùy chỉnh thuộc tính phông chữ cho các thành phần biểu đồ cụ thể, chẳng hạn như nhãn trục hoặc văn bản chú giải, bạn có thể truy cập các thành phần đó và đặt thuộc tính phông chữ của chúng bằng các phương pháp tương tự như được hiển thị ở trên.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

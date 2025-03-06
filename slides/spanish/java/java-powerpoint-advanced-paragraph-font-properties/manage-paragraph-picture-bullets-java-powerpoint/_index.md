@@ -3,10 +3,16 @@ title: Administrar viñetas de imágenes de párrafo en Java PowerPoint
 linktitle: Administrar viñetas de imágenes de párrafo en Java PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a agregar viñetas de imágenes personalizadas a diapositivas de PowerPoint usando Aspose.Slides para Java. Siga esta guía detallada paso a paso para una integración perfecta.
-type: docs
 weight: 11
 url: /es/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-picture-bullets-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Administrar viñetas de imágenes de párrafo en Java PowerPoint
+
 ## Introducción
 Crear presentaciones atractivas y visualmente atractivas es una habilidad crucial en el mundo empresarial moderno. Los desarrolladores de Java pueden aprovechar Aspose.Slides para mejorar sus presentaciones con viñetas de imágenes personalizadas en diapositivas de PowerPoint. Este tutorial lo guiará a través del proceso paso a paso, asegurándole que pueda agregar viñetas con imágenes a sus presentaciones con confianza.
 ## Requisitos previos
@@ -104,3 +110,9 @@ Sí, puede utilizar cualquier imagen para las viñetas siempre que sea accesible
 Sí, puedes agregar varios párrafos con diferentes estilos de viñetas a una sola autoforma creando y configurando cada párrafo individualmente.
 ### ¿Dónde puedo encontrar más ejemplos y soporte?
  Puedes encontrar más ejemplos en el[documentación](https://reference.aspose.com/slides/java/) y obtenga apoyo de la comunidad de Aspose en el[foros](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

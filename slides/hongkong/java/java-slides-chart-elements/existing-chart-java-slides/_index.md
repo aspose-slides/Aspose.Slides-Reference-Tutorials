@@ -3,10 +3,16 @@ title: Java 投影片中的現有圖表
 linktitle: Java 投影片中的現有圖表
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 增強您的 PowerPoint 簡報。學習以程式方式修改現有圖表。帶有圖表自訂原始程式碼的分步指南。
-type: docs
 weight: 12
 url: /zh-hant/java/chart-elements/existing-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 投影片中的現有圖表
+
 
 ## 使用 Aspose.Slides for Java 介紹 Java 投影片中的現有圖表
 
@@ -184,3 +190,9 @@ pres.save(dataDir + "AsposeChartModified_out.pptx", SaveFormat.Pptx);
 ### 有沒有辦法從圖表中刪除系列？
 
 是的，您可以使用以下命令從圖表中刪除系列：`chart.getChartData().getSeries().removeAt(index)`方法，其中`index`是您要刪除的系列的索引。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

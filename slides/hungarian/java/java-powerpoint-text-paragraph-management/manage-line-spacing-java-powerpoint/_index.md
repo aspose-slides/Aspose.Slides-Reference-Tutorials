@@ -3,10 +3,16 @@ title: A sorköz kezelése a Java PowerPointban
 linktitle: A sorköz kezelése a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Tanulja meg, hogyan kezelheti könnyedén a sorközt a Java PowerPoint prezentációkban az Aspose.Slides for Java segítségével. Javítsa a diákat.
-type: docs
 weight: 12
 url: /hu/java/java-powerpoint-text-paragraph-management/manage-line-spacing-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A sorköz kezelése a Java PowerPointban
+
 ## Bevezetés
 A Java programozásban a sortávolság kezelése a PowerPoint-prezentációkban kulcsfontosságú a vizuálisan tetszetős diák létrehozásához, amelyek hatékonyan továbbítják az információkat. Akár beállítja a bekezdések közötti távolságot, akár az egyes bekezdések előtti és utáni térközöket, az Aspose.Slides for Java átfogó eszközöket biztosít ezeknek a feladatoknak a zökkenőmentes elvégzéséhez.
 ## Előfeltételek
@@ -62,3 +68,9 @@ Megtekintheti a részletes dokumentációt[itt](https://reference.aspose.com/sli
  Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
 ### Hogyan kaphatok technikai támogatást az Aspose.Slides-hez?
  Technikai segítségért látogasson el az Aspose.Slides oldalára[támogatói fórum](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

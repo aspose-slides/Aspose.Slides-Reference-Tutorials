@@ -3,10 +3,16 @@ title: Beheersing van audio- en video-extractie met Aspose.Slides voor .NET
 linktitle: Audio- en video-extractie uit dia's met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u audio en video uit PowerPoint-dia's kunt extraheren met Aspose.Slides voor .NET. Moeiteloze multimedia-extractie.
-type: docs
 weight: 10
 url: /nl/net/audio-and-video-extraction/audio-and-video-extraction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheersing van audio- en video-extractie met Aspose.Slides voor .NET
+
 
 ## Invoering
 
@@ -135,3 +141,10 @@ Aspose biedt verschillende licentieopties, waaronder gratis proefversies en tijd
 
 ### Welke andere taken kan ik uitvoeren met Aspose.Slides voor .NET?
  Aspose.Slides voor .NET biedt een breed scala aan functies, waaronder het maken, wijzigen en converteren van PowerPoint-presentaties. U kunt de documentatie raadplegen voor meer details:[Aspose.Slides voor .NET-documentatie](https://reference.aspose.com/slides/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

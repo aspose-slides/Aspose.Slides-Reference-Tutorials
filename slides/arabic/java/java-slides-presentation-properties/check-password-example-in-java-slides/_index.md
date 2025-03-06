@@ -3,10 +3,16 @@ title: التحقق من مثال كلمة المرور في شرائح جافا
 linktitle: التحقق من مثال كلمة المرور في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية التحقق من كلمات المرور في Java Slides باستخدام Aspose.Slides لـ Java. تعزيز أمان العرض التقديمي من خلال إرشادات خطوة بخطوة.
-type: docs
 weight: 14
 url: /ar/java/presentation-properties/check-password-example-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التحقق من مثال كلمة المرور في شرائح جافا
+
 
 ## مقدمة للتحقق من مثال كلمة المرور في شرائح جافا
 
@@ -99,3 +105,9 @@ presentationInfo.removePassword("current_password");
 ### أين يمكنني العثور على مزيد من الوثائق الخاصة بـ Aspose.Slides لـ Java؟
 
  يمكنك العثور على وثائق شاملة لـ Aspose.Slides for Java على موقع Aspose الإلكتروني[هنا](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

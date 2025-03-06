@@ -3,10 +3,16 @@ title: Υπόμνημα μεγέθους γραμματοσειράς σε δι�
 linktitle: Υπόμνημα μεγέθους γραμματοσειράς σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Βελτιώστε τις παρουσιάσεις PowerPoint με το Aspose.Slides για Java. Μάθετε πώς να προσαρμόζετε τα μεγέθη γραμματοσειρών θρυλικών και πολλά άλλα στον αναλυτικό οδηγό μας.
-type: docs
 weight: 13
 url: /el/java/chart-elements/font-size-legend-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Υπόμνημα μεγέθους γραμματοσειράς σε διαφάνειες Java
+
 
 ## Εισαγωγή στο Font Size Legend στις διαφάνειες Java
 
@@ -135,3 +141,9 @@ chart.getAxes().getVerticalAxis().setMaxValue(10);
 ### Πού μπορώ να βρω περισσότερες πληροφορίες και τεκμηρίωση για το Aspose.Slides;
 
  Μπορείτε να βρείτε ολοκληρωμένη τεκμηρίωση και αναφορές API για το Aspose.Slides για Java στον ιστότοπο τεκμηρίωσης του Aspose. Επίσκεψη[εδώ](https://reference.aspose.com/slides/java/) για λεπτομερείς πληροφορίες σχετικά με τη χρήση της βιβλιοθήκης.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Agregar marcos de objetos OLE a la presentación con Aspose.Slides
 linktitle: Agregar marcos de objetos OLE a la presentación con Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: ¡Aprenda cómo mejorar las presentaciones de PowerPoint con contenido dinámico! Siga nuestra guía paso a paso usando Aspose.Slides para .NET. ¡Impulse el compromiso ahora!
-type: docs
 weight: 15
 url: /es/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar marcos de objetos OLE a la presentación con Aspose.Slides
+
 ## Introducción
 En este tutorial, profundizaremos en el proceso de agregar marcos de objetos OLE (vinculación e incrustación de objetos) a diapositivas de presentación usando Aspose.Slides para .NET. Aspose.Slides es una poderosa biblioteca que permite a los desarrolladores trabajar con archivos de PowerPoint mediante programación. Siga esta guía paso a paso para incrustar fácilmente objetos OLE en las diapositivas de su presentación, mejorando sus archivos de PowerPoint con contenido dinámico e interactivo.
 ## Requisitos previos
@@ -84,3 +90,9 @@ R: Sí, Aspose.Slides admite los últimos formatos de archivos de PowerPoint, in
 R: Por supuesto, puedes ajustar el tamaño, la posición y otras propiedades del marco de objetos OLE según tus preferencias.
 ### P: ¿Dónde puedo buscar ayuda si encuentro desafíos durante la implementación?
  R: Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para el apoyo y orientación de la comunidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Atur Warna Isi Seri Otomatis di Slide Java
 linktitle: Atur Warna Isi Seri Otomatis di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur warna isian rangkaian otomatis di Java Slides menggunakan Aspose.Slides for Java. Panduan langkah demi langkah dengan contoh kode untuk presentasi dinamis.
-type: docs
 weight: 14
 url: /id/java/data-manipulation/set-automatic-series-fill-color-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Atur Warna Isi Seri Otomatis di Slide Java
+
 
 ## Pengantar Mengatur Warna Isi Seri Otomatis di Slide Java
 
@@ -126,3 +132,9 @@ Ya, Aspose.Slides for Java menawarkan berbagai fitur, termasuk manipulasi slide,
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi?
 
  Anda dapat mengakses dokumentasi komprehensif untuk Aspose.Slides untuk Java di[Di Sini](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

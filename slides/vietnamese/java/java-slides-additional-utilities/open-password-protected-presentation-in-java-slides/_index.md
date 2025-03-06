@@ -3,10 +3,16 @@ title: Mở bản trình bày được bảo vệ bằng mật khẩu trong Java
 linktitle: Mở bản trình bày được bảo vệ bằng mật khẩu trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Mở khóa các bản trình bày được bảo vệ bằng mật khẩu trong Java. Tìm hiểu cách mở và truy cập các trang chiếu PowerPoint được bảo vệ bằng mật khẩu bằng Aspose.Slides cho Java. Hướng dẫn từng bước với mã.
-type: docs
 weight: 15
 url: /vi/java/additional-utilities/open-password-protected-presentation-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mở bản trình bày được bảo vệ bằng mật khẩu trong Java Slides
+
 
 ## Giới thiệu về Mở bản trình bày được bảo vệ bằng mật khẩu trong Java Slides
 
@@ -113,3 +119,9 @@ Aspose.Slides cung cấp khả năng đặt và thay đổi mật khẩu cho b�
 ### Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.Slides cho Java ở đâu?
 
  Bạn có thể tìm thấy tài liệu đầy đủ và các ví dụ bổ sung trong[Aspose.Slides cho tài liệu Java](https://reference.aspose.com/slides/java/) và trên[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

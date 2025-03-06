@@ -3,10 +3,16 @@ title: تحويل الشرائح إلى PDF مع الملاحظات في شرا�
 linktitle: تحويل الشرائح إلى PDF مع الملاحظات في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحويل شرائح PowerPoint إلى PDF مع الملاحظات في Java باستخدام Aspose.Slides for Java. دليل خطوة بخطوة لمطوري جافا. تعزيز مشاركة العرض التقديمي الخاص بك.
-type: docs
 weight: 19
 url: /ar/java/presentation-conversion/convert-slides-pdf-notes-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل الشرائح إلى PDF مع الملاحظات في شرائح جافا
+
 
 ## مقدمة لتحويل الشرائح إلى PDF مع الملاحظات في Java
 
@@ -124,3 +130,9 @@ finally
 ### أين يمكنني العثور على مزيد من الوثائق الخاصة بـ Aspose.Slides لـ Java؟
 
  يمكنك العثور على وثائق مفصلة عن Aspose.Slides for Java على الموقع:[Aspose.Slides لمرجع Java API](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

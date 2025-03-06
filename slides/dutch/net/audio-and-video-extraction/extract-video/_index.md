@@ -3,10 +3,16 @@ title: Video uit dia extraheren met Aspose.Slides voor .NET
 linktitle: Extraheer video uit dia
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u video's uit PowerPoint-dia's kunt extraheren met Aspose.Slides voor .NET. Deze stapsgewijze handleiding vereenvoudigt het proces voor u.
-type: docs
 weight: 14
 url: /nl/net/audio-and-video-extraction/extract-video/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Video uit dia extraheren met Aspose.Slides voor .NET
+
 
 Aspose.Slides voor .NET is een krachtige bibliotheek waarmee u met PowerPoint-presentaties kunt werken in een .NET-omgeving. Een van de handige functies die het biedt, is de mogelijkheid om video's uit dia's te extraheren. In deze stapsgewijze handleiding laten we u zien hoe u een video uit een PowerPoint-dia kunt extraheren met Aspose.Slides voor .NET.
 
@@ -110,3 +116,9 @@ Aspose.Slides voor .NET is een bibliotheek waarmee .NET-toepassingen met PowerPo
 
 ### Waar kan ik ondersteuning krijgen voor Aspose.Slides voor .NET?
  Ondersteuning vindt u op de[Aspose.Slides-forum](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

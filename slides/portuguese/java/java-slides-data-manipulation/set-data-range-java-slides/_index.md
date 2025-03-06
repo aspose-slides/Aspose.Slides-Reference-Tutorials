@@ -3,10 +3,16 @@ title: Definir intervalo de dados em slides Java
 linktitle: Definir intervalo de dados em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como definir intervalos de dados em slides Java sem esforço com Aspose.Slides for Java. Crie apresentações dinâmicas e baseadas em dados com este guia passo a passo.
-type: docs
 weight: 18
 url: /pt/java/data-manipulation/set-data-range-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definir intervalo de dados em slides Java
+
 
 ## Introdução à definição de intervalo de dados em slides Java
 
@@ -97,3 +103,9 @@ Você pode acessar slides e formas específicas em uma apresentação usando a A
 ### Onde posso encontrar mais documentação e exemplos para Aspose.Slides for Java?
 
  Você pode encontrar documentação extensa e exemplos para Aspose.Slides for Java no site de documentação do Aspose:[Aspose.Slides para referências de API Java](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Get Light Rig Effective Data in PowerPoint
 linktitle: Get Light Rig Effective Data in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to retrieve light rig effective data from PowerPoint presentations using Aspose.Slides for Java in this detailed, step-by-step guide.
-type: docs
 weight: 25
 url: /java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-data-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Get Light Rig Effective Data in PowerPoint
+
 ## Introduction
 Are you looking to automate your PowerPoint presentation tasks using Java? Look no further! Aspose.Slides for Java is a powerful library that allows developers to create, manipulate, and convert PowerPoint files without needing Microsoft PowerPoint installed. In this comprehensive guide, we'll walk you through the steps to get light rig effective data from a PowerPoint presentation using Aspose.Slides for Java. Whether you're a seasoned Java developer or just starting, this tutorial will help you harness the full potential of Aspose.Slides in your projects.
 ## Prerequisites
@@ -66,3 +72,10 @@ You can obtain a temporary license from [here](https://purchase.aspose.com/tempo
 The documentation is available at [this link](https://reference.aspose.com/slides/java/).
 ### How do I get support for Aspose.Slides?
 You can get support from the Aspose.Slides support forum [here](https://forum.aspose.com/c/slides/11).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

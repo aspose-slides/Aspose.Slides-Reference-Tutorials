@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में रडार चार्
 linktitle: जावा स्लाइड्स में रडार चार्ट बनाना
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java API का उपयोग करके Java PowerPoint प्रस्तुतियों में रडार चार्ट बनाना सीखें।
-type: docs
 weight: 10
 url: /hi/java/chart-creation/radar-chart-creating-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में रडार चार्ट बनाना
+
 
 ## जावा स्लाइड्स में रडार चार्ट बनाने का परिचय
 
@@ -268,3 +274,9 @@ series.getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.
 ### मैं चार्ट को भिन्न फ़ाइल प्रारूप में कैसे सहेजूँ?
 
 आप फ़ाइल एक्सटेंशन को संशोधित करके आउटपुट प्रारूप बदल सकते हैं`outPath` परिवर्तनीय और उपयुक्त का उपयोग करना`SaveFormat` उदाहरण के लिए, PDF के रूप में सहेजने के लिए, उपयोग करें`SaveFormat.Pdf`.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

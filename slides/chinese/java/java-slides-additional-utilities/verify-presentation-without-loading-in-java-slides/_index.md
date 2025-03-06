@@ -3,10 +3,16 @@ title: 在 Java 幻灯片中验证不加载的演示文稿
 linktitle: 在 Java 幻灯片中验证不加载的演示文稿
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 验证演示文稿而无需将其加载到 Java Slides 中。通过本分步指南有效确保文件完整性。
-type: docs
 weight: 18
 url: /zh/java/additional-utilities/verify-presentation-without-loading-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 幻灯片中验证不加载的演示文稿
+
 
 ## Java Slides 中无需加载即可验证演示文稿的简介
 
@@ -80,3 +86,9 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
 ### 在哪里可以找到有关 Aspose.Slides for Java 的更多资源和文档？
 
 您可以在以下位置访问 Aspose.slides for Java 的综合文档和资源：[这里](https://reference.aspose.com/slides/java/)。本文档将帮助您掌握 API 及其功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

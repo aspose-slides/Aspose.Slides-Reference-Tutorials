@@ -3,10 +3,16 @@ title: Chuyển đổi bản trình bày thành HTML đáp ứng trong Java Slid
 linktitle: Chuyển đổi bản trình bày thành HTML đáp ứng trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách chuyển đổi bản trình bày sang HTML đáp ứng trong Java Slides một cách dễ dàng với Aspose.Slides. Làm cho nội dung của bạn có thể truy cập được trên mọi thiết bị.
-type: docs
 weight: 18
 url: /vi/java/presentation-conversion/convert-presentation-responsive-html-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi bản trình bày thành HTML đáp ứng trong Java Slides
+
 
 ## Giới thiệu về Chuyển đổi bản trình bày sang HTML đáp ứng trong Java Slides
 
@@ -108,3 +114,9 @@ Tuyệt đối! Aspose.Slides cung cấp các tính năng mạnh mẽ để xử
 ### Tôi có thể chuyển đổi bài thuyết trình sang các định dạng khác không?
 
 Có, Aspose.Slides hỗ trợ nhiều định dạng đầu ra, bao gồm PDF, hình ảnh, v.v. Bạn có thể khám phá tài liệu để biết thêm các tùy chọn chuyển đổi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

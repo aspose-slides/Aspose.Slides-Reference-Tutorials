@@ -3,10 +3,16 @@ title: 마스터 슬라이드를 사용하여 슬라이드를 새 프레젠테�
 linktitle: 마스터 슬라이드를 사용하여 슬라이드를 새 프레젠테이션으로 복사
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 마스터 슬라이드와 함께 슬라이드를 복사하는 방법을 알아보세요. 이 단계별 가이드를 통해 프레젠테이션 기술을 향상하세요.
-type: docs
 weight: 20
 url: /ko/net/slide-access-and-manipulation/clone-slide-to-another-presentation-with-master/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 마스터 슬라이드를 사용하여 슬라이드를 새 프레젠테이션으로 복사
+
 
 프레젠테이션 디자인 및 관리 분야에서는 효율성이 핵심입니다. 콘텐츠 작성자로서 저는 Aspose.Slides for .NET을 사용하여 마스터 슬라이드가 포함된 새 프레젠테이션에 슬라이드를 복사하는 과정을 안내하려고 왔습니다. 숙련된 개발자이든 이 영역에 새로 온 사람이든 관계없이 이 단계별 튜토리얼은 이 필수 기술을 익히는 데 도움이 될 것입니다. 바로 들어가 보겠습니다.
 
@@ -118,3 +124,9 @@ Aspose.Slides for .NET은 .NET 개발자가 프로그래밍 방식으로 PowerPo
 
 ### 커뮤니티 지원을 받고 .NET용 Aspose.Slides에 대해 토론할 수 있는 곳은 어디입니까?
  Aspose 커뮤니티에 가입하고 다음에서 지원을 요청할 수 있습니다.[.NET 지원 포럼용 Aspose.Slides](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

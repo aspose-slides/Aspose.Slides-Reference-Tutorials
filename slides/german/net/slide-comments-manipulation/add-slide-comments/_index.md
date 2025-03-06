@@ -3,10 +3,16 @@ title: Kommentare zur Folie hinzufügen
 linktitle: Kommentare zur Folie hinzufügen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verleihen Sie Ihren Präsentationen mit der Aspose.Slides API mehr Tiefe und Interaktion. Erfahren Sie, wie Sie mit .NET ganz einfach Kommentare in Ihre Folien integrieren. Steigern Sie das Engagement und fesseln Sie Ihr Publikum.
-type: docs
 weight: 13
 url: /de/net/slide-comments-manipulation/add-slide-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kommentare zur Folie hinzufügen
+
 
 In der Welt des Präsentationsmanagements kann die Möglichkeit, Kommentare zu Folien hinzuzufügen, bahnbrechend sein. Kommentare verbessern nicht nur die Zusammenarbeit, sondern helfen auch beim Verständnis und der Überarbeitung von Folieninhalten. Mit Aspose.Slides für .NET, einer leistungsstarken und vielseitigen Bibliothek, können Sie mühelos Kommentare in Ihre Präsentationsfolien einbauen. In dieser Schritt-für-Schritt-Anleitung führen wir Sie durch den Prozess des Hinzufügens von Kommentaren zu einer Folie mit Aspose.Slides für .NET. Egal, ob Sie ein erfahrener Entwickler oder ein Neuling in der Welt der .NET-Entwicklung sind, dieses Tutorial bietet Ihnen alle Einblicke, die Sie benötigen.
 
@@ -104,3 +110,9 @@ Um Aspose.Slides für .NET in Ihre .NET-Anwendung zu integrieren, können Sie di
 ### 5. Kann ich Aspose.Slides für .NET vor dem Kauf ausprobieren?
 
 Ja, Sie können Aspose.Slides für .NET mit einer kostenlosen Testversion erkunden. Besuchen Sie die[Kostenlose Testseite von Aspose.Slides](https://releases.aspose.com/) um loszulegen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

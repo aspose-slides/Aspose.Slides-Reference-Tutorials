@@ -3,10 +3,16 @@ title: Zarządzaj odstępami między wierszami w programie Java PowerPoint
 linktitle: Zarządzaj odstępami między wierszami w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak bez wysiłku zarządzać odstępami między wierszami w prezentacjach Java PowerPoint za pomocą Aspose.Slides dla Java. Ulepsz swoje slajdy.
-type: docs
 weight: 12
 url: /pl/java/java-powerpoint-text-paragraph-management/manage-line-spacing-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzaj odstępami między wierszami w programie Java PowerPoint
+
 ## Wstęp
 W programowaniu w języku Java zarządzanie odstępami między wierszami w prezentacjach programu PowerPoint ma kluczowe znaczenie dla tworzenia atrakcyjnych wizualnie slajdów, które skutecznie przekazują informacje. Niezależnie od tego, czy dostosowujesz odstępy między akapitami, czy kontrolujesz odstępy przed i po każdym akapicie, Aspose.Slides dla Java zapewnia kompleksowe narzędzia umożliwiające płynną realizację tych zadań.
 ## Warunki wstępne
@@ -62,3 +68,9 @@ Możesz zapoznać się ze szczegółową dokumentacją[Tutaj](https://reference.
  Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
 ### Jak mogę uzyskać pomoc techniczną dla Aspose.Slides?
  Aby uzyskać pomoc techniczną, odwiedź witrynę Aspose.Slides[forum wsparcia](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

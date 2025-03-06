@@ -3,10 +3,16 @@ title: Converti oggetto immagine SVG in gruppo di forme in diapositive Java
 linktitle: Converti oggetto immagine SVG in gruppo di forme in diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come convertire le immagini SVG in un gruppo di forme in Java Slides utilizzando Aspose.Slides per Java. Guida passo passo con esempi di codice.
-type: docs
 weight: 13
 url: /it/java/image-handling/convert-svg-image-object-into-group-of-shapes-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converti oggetto immagine SVG in gruppo di forme in diapositive Java
+
 
 ## Introduzione alla conversione di oggetti immagine SVG in gruppi di forme nelle diapositive Java
 
@@ -129,3 +135,9 @@ Sì, Aspose.Slides richiede una licenza valida per uso commerciale. È possibile
 ### Posso personalizzare l'aspetto delle forme convertite?
 
 Certamente! Puoi personalizzare l'aspetto, le dimensioni e il posizionamento delle forme convertite secondo le tue esigenze. Aspose.Slides fornisce API estese per la manipolazione della forma.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

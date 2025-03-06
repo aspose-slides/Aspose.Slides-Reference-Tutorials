@@ -3,10 +3,16 @@ title: Java 슬라이드의 카테고리 요소 애니메이션
 linktitle: Java 슬라이드의 카테고리 요소 애니메이션
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java로 Java 프레젠테이션을 최적화하세요. PowerPoint 슬라이드의 카테고리 요소에 애니메이션을 적용하는 방법을 단계별로 알아보세요.
-type: docs
 weight: 10
 url: /ko/java/animation-and-layout/animating-categories-elements-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 슬라이드의 카테고리 요소 애니메이션
+
 
 ## Java 슬라이드의 카테고리 요소 애니메이션 소개
 
@@ -117,3 +123,10 @@ Aspose.Slides for Java를 사용하여 Java 슬라이드의 카테고리 요소�
 ### Java용 Aspose.Slides에 대해 자세히 알아보려면 어떻게 해야 합니까?
 
  포괄적인 문서 및 추가 리소스를 보려면 다음을 방문하세요.[Java API 참조용 Aspose.Slides](https://reference.aspose.com/slides/java/) . 다음에서 라이브러리를 다운로드할 수도 있습니다.[여기](https://releases.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

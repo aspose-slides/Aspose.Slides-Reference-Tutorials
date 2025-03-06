@@ -3,10 +3,16 @@ title: Add Cell Borders to Table in Java PowerPoint
 linktitle: Add Cell Borders to Table in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to add cell borders to tables in Java PowerPoint presentations using Aspose.Slides. This step-by-step guide makes it easy to enhance your slides.
-type: docs
 weight: 10
 url: /java/java-powerpoint-table-formatting-updates/add-cell-borders-table-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Cell Borders to Table in Java PowerPoint
+
 ## Introduction
 Hey there! So, you're looking to add cell borders to a table in a PowerPoint presentation using Java, huh? Well, you're in the right place! This tutorial will guide you through the process step-by-step using the Aspose.Slides for Java library. By the end of this guide, you'll have a good grasp of how to manipulate tables in your PowerPoint slides like a pro. Let's dive in and make your presentations look sleek and professional!
 ## Prerequisites
@@ -96,3 +102,10 @@ Absolutely! You can insert images into table cells using Aspose.Slides.
 Yes, you can automate the process by looping through slides and applying the table creation logic to each slide.
 ### What file formats does Aspose.Slides support?
 Aspose.Slides supports various formats including PPT, PPTX, PDF, and more.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

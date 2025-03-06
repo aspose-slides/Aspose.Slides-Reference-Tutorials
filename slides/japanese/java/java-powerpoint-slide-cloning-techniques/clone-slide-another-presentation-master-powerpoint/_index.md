@@ -3,10 +3,16 @@ title: マスターを使用してスライドを別のプレゼンテーショ�
 linktitle: マスターを使用してスライドを別のプレゼンテーションに複製する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して Java でプレゼンテーション間でスライドを複製する方法を学びます。マスター スライドを維持するためのステップバイステップのチュートリアルです。
-type: docs
 weight: 14
 url: /ja/java/java-powerpoint-slide-cloning-techniques/clone-slide-another-presentation-master-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# マスターを使用してスライドを別のプレゼンテーションに複製する
+
 ## 導入
 Aspose.Slides for Java は、開発者がプログラムで PowerPoint プレゼンテーションを作成、変更、操作できるようにする強力なライブラリです。この記事では、Aspose.Slides for Java を使用して、マスター スライドを保持しながら、あるプレゼンテーションから別のプレゼンテーションにスライドを複製する方法について、包括的なステップ バイ ステップ チュートリアルを提供します。
 ## 前提条件
@@ -83,3 +89,9 @@ Aspose.Slides for Java には無料試用版が用意されています。全機
 臨時免許証は、[Aspose 購入ページ](https://purchase.aspose.com/temporary-license/).
 ### その他の例やドキュメントはどこで見つかりますか?  
 訪問[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/)より多くの例と詳細な情報については、こちらをご覧ください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

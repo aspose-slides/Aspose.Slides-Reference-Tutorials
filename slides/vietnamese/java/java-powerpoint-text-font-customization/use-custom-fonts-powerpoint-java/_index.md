@@ -3,10 +3,16 @@ title: Sử dụng Phông chữ Tùy chỉnh trong PowerPoint với Java
 linktitle: Sử dụng Phông chữ Tùy chỉnh trong PowerPoint với Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tích hợp phông chữ tùy chỉnh vào bản trình bày PowerPoint bằng Aspose.Slides cho Java. Tăng cường sự hấp dẫn thị giác một cách dễ dàng.
-type: docs
 weight: 25
 url: /vi/java/java-powerpoint-text-font-customization/use-custom-fonts-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sử dụng Phông chữ Tùy chỉnh trong PowerPoint với Java
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách tận dụng Aspose.Slides cho Java để cải thiện bản trình bày PowerPoint bằng cách tích hợp các phông chữ tùy chỉnh. Phông chữ tùy chỉnh có thể làm phong phú đáng kể sự hấp dẫn trực quan của các trang trình bày của bạn, đảm bảo chúng phù hợp hoàn hảo với yêu cầu thiết kế hoặc thương hiệu của bạn. Chúng tôi sẽ đề cập đến mọi thứ từ việc nhập các gói cần thiết đến thực hiện các bước cần thiết để tích hợp phông chữ tùy chỉnh một cách liền mạch vào bản trình bày của bạn.
 ## Điều kiện tiên quyết
@@ -70,3 +76,9 @@ Không, miễn là bạn đã cài đặt các tệp phông chữ cần thiết 
 Aspose.Slides for Java hỗ trợ sử dụng nhiều loại phông chữ tùy chỉnh và không có giới hạn vốn có nào được thư viện áp đặt.
 ### Tôi có thể nhúng phông chữ tùy chỉnh trực tiếp vào tệp PowerPoint bằng Aspose.Slides cho Java không?
 Có, Aspose.Slides cho Java cho phép bạn nhúng các phông chữ tùy chỉnh vào chính tệp bản trình bày để phân phối liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

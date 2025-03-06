@@ -3,10 +3,16 @@ title: Jak nastavit makro hypertextový odkaz Klikněte v Aspose.Slides pro .NET
 linktitle: Správa hypertextových odkazů pomocí maker
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak nastavit makro hypertextové odkazy v prezentacích pomocí Aspose.Slides pro .NET. Vylepšete interaktivitu a zapojte své publikum.
-type: docs
 weight: 13
 url: /cs/net/hyperlink-manipulation/macro-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jak nastavit makro hypertextový odkaz Klikněte v Aspose.Slides pro .NET
+
 
 Ve světě moderního vývoje softwaru je klíčovým aspektem vytváření dynamických a interaktivních prezentací. Aspose.Slides for .NET je výkonná knihovna, která vám umožní bezproblémově pracovat s prezentacemi. Ať už vytváříte obchodní prezentaci nebo vzdělávací prezentaci, možnost nastavit kliknutí na makro hypertextový odkaz může výrazně zlepšit uživatelský zážitek. V tomto podrobném průvodci vás provedeme procesem nastavení kliknutí na makro hypertextový odkaz pomocí Aspose.Slides pro .NET. 
 
@@ -106,3 +112,9 @@ Ano, vzhled automatického tvaru můžete upravit úpravou jeho vlastností, jak
 
 ### Kde mohu získat pomoc nebo podporu pro Aspose.Slides pro .NET?
  Pokud narazíte na problémy nebo máte dotazy, můžete vyhledat pomoc na fóru podpory Aspose[tady](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Slides でプレゼンテーション プロパティを調べる
 linktitle: Java スライド プレゼンテーション プロパティ
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java チュートリアルを使用して、Java スライドのプレゼンテーション プロパティを強化する方法を学びます。動的なプレゼンテーションのヒントとコツを紹介します。
-type: docs
 weight: 21
 url: /ja/java/presentation-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides でプレゼンテーション プロパティを調べる
+
 
 進化し続けるデジタル コミュニケーションの世界では、魅力的なプレゼンテーションが不可欠です。熟練したプロフェッショナルであっても、Java スライド プレゼンテーションを始めたばかりであっても、プレゼンテーション プロパティの技術を習得することは非常に重要です。幸い、Aspose.Slides for Java には、プレゼンテーションを輝かせる強力なツールと機能のセットが用意されています。
 
@@ -57,3 +63,9 @@ Aspose.Slides for Java を使用して Java スライドのプレゼンテーシ
 Aspose.Slides を使用して Java スライド ショーを最適化します。カスタマイズされた設定で魅力的なプレゼンテーションを作成します。ステップ バイ ステップ ガイドと FAQ をご覧ください。
 ### [Java スライドの読み取り専用推奨プロパティ](./read-only-recommended-properties-in-java-slides/)
 Aspose.Slides for Java を使用して、Java PowerPoint プレゼンテーションで読み取り専用の推奨プロパティを有効にする方法を学びます。プレゼンテーションのセキュリティを強化するには、ソース コードの例を含むステップ バイ ステップ ガイドに従ってください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

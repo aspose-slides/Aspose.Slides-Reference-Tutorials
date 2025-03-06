@@ -3,10 +3,16 @@ title: Menambahkan Pemformatan Catatan Bergaya dengan Aspose.Slides untuk .NET
 linktitle: Tambahkan Slide Catatan dengan Pemformatan Catatan Bergaya
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menambahkan format catatan bergaya ke presentasi PowerPoint Anda menggunakan Aspose.Slides untuk .NET. Sempurnakan slide Anda dengan simbol dan poin-poin.
-type: docs
 weight: 14
 url: /id/net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menambahkan Pemformatan Catatan Bergaya dengan Aspose.Slides untuk .NET
+
 
 Dalam dunia presentasi, yang penting bukan hanya tentang konten yang Anda sampaikan tetapi juga cara Anda menyajikannya. Pemformatan catatan yang bergaya dapat memberikan perbedaan yang signifikan pada dampak presentasi Anda. Dengan Aspose.Slides untuk .NET, Anda dapat dengan mudah menyempurnakan presentasi PowerPoint Anda dengan menambahkan catatan bergaya dengan poin-poin dan simbol. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses menambahkan format catatan bergaya ke slide PowerPoint Anda.
 
@@ -109,3 +115,9 @@ Ya, Anda dapat memperoleh lisensi sementara untuk tujuan pengujian dan evaluasi 
 
 ### Apakah ada forum komunitas atau dukungan yang tersedia untuk Aspose.Slides untuk .NET?
  Ya, Anda dapat mencari bantuan dan berpartisipasi dalam diskusi di forum komunitas Aspose.Slides for .NET[Di Sini](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

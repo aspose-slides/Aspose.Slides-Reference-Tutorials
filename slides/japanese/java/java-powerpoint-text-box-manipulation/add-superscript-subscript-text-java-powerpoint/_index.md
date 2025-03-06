@@ -3,10 +3,16 @@ title: Java PowerPoint で上付き文字と下付き文字を追加する
 linktitle: Java PowerPoint で上付き文字と下付き文字を追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java PowerPoint プレゼンテーションに上付き文字と下付き文字のテキストを追加する方法を学びます。スライドを強化するのに最適です。
-type: docs
 weight: 13
 url: /ja/java/java-powerpoint-text-box-manipulation/add-superscript-subscript-text-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint で上付き文字と下付き文字を追加する
+
 ## 導入
 魅力的で情報豊富な PowerPoint プレゼンテーションを作成するには、多くの場合、上付き文字や下付き文字などの書式設定機能を使用する必要があります。このチュートリアルでは、Aspose.Slides for Java を使用して、Java PowerPoint プレゼンテーションに上付き文字や下付き文字を組み込むプロセスについて説明します。
 ## 前提条件
@@ -89,3 +95,9 @@ Aspose.Slides for Java は、開発者がプログラムによって PowerPoint 
 はい、無料試用版は以下からダウンロードできます。[ここ](https://releases.aspose.com/).
 ### Aspose.Slides for Java のサポートはどこで受けられますか?
 サポートやディスカッションについては、[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

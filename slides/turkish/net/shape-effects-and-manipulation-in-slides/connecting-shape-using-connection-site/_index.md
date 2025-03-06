@@ -3,10 +3,16 @@ title: Aspose.Slides for .NET ile Bağlantı Ustalığını Şekillendirin
 linktitle: Sunumda Bağlantı Sitesini Kullanarak Shape'i Bağlama
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET ile şekilleri kusursuz bir şekilde birbirine bağlayan büyüleyici sunumlar oluşturun. Sorunsuz ve ilgi çekici bir deneyim için rehberimizi takip edin.
-type: docs
 weight: 30
 url: /tr/net/shape-effects-and-manipulation-in-slides/connecting-shape-using-connection-site/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides for .NET ile Bağlantı Ustalığını Şekillendirin
+
 ## giriiş
 Sunumların dinamik dünyasında, birbirine bağlı şekillerle görsel olarak çekici slaytlar oluşturmak, etkili iletişim için çok önemlidir. Aspose.Slides for .NET, bağlantı sitelerini kullanarak şekilleri birbirine bağlamanıza olanak tanıyarak bunu başarmanız için güçlü bir çözüm sunar. Bu eğitim, sunumlarınızın kesintisiz görsel geçişlerle öne çıkmasını sağlayarak şekilleri adım adım bağlama sürecinde size rehberlik edecektir.
 ## Önkoşullar
@@ -78,3 +84,9 @@ Aspose.Slides, iki şekli tek bir bağlayıcıyla bağlamanıza olanak tanır. D
  Evet, ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/).
 ### Aspose.Slides için nereden destek alabilirim?
  Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği ve tartışmalar için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

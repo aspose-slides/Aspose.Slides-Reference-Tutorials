@@ -3,10 +3,16 @@ title: Converteer dia's naar PDF met Notes
 linktitle: Converteer dia's naar PDF met Notes
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Converteer presentatiedia's met sprekernotities moeiteloos naar PDF met Aspose.Slides voor .NET. Bewaar inhoud en context naadloos.
-type: docs
 weight: 18
 url: /nl/net/presentation-conversion/convert-slides-to-pdf-with-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converteer dia's naar PDF met Notes
+
 
 # Schrijf een stapsgewijze zelfstudie over het converteren van dia's naar PDF met Notes met behulp van Aspose.Slides voor .NET
 
@@ -98,3 +104,9 @@ Ja, Aspose.Slides voor .NET ondersteunt verschillende uitvoerformaten, waaronder
  Ja, u kunt een tijdelijke licentie aanschaffen op[https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 Concluderend kunt u met Aspose.Slides voor .NET eenvoudig PowerPoint-dia's naar PDF-formaat converteren, terwijl de aantekeningen intact blijven. Het is een waardevol hulpmiddel voor professionals die presentaties moeten delen met collega's en klanten en er tegelijkertijd voor willen zorgen dat belangrijke context niet verloren gaat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Animieren von Serien in Java-Folien
 linktitle: Animieren von Serien in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Optimieren Sie Ihre Präsentationen mit Serienanimationen in Aspose.Slides für Java. Folgen Sie unserer Schritt-für-Schritt-Anleitung mit Quellcodebeispielen, um ansprechende PowerPoint-Animationen zu erstellen.
-type: docs
 weight: 11
 url: /de/java/animation-and-layout/animating-series-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Animieren von Serien in Java-Folien
+
 
 ## Einführung in die Animation von Serien in Aspose.Slides für Java
 
@@ -125,3 +131,9 @@ Sie können die Schleife in Schritt 3 erweitern, um Animationen für alle Reihen
 ### Wie kann ich die Dauer und Verzögerung der Animation anpassen?
 
 Sie können die Dauer und Verzögerung der Animation anpassen, indem Sie Eigenschaften für die Animationseffekte festlegen. Weitere Informationen zu den verfügbaren Anpassungsoptionen finden Sie in der Dokumentation zu Aspose.Slides für Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

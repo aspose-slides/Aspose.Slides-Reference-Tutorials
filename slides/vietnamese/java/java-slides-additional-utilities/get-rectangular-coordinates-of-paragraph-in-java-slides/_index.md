@@ -3,10 +3,16 @@ title: Lấy tọa độ hình chữ nhật của đoạn văn trong Java Slides
 linktitle: Lấy tọa độ hình chữ nhật của đoạn văn trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách truy xuất tọa độ đoạn trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi kèm theo mã nguồn để định vị chính xác.
-type: docs
 weight: 13
 url: /vi/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lấy tọa độ hình chữ nhật của đoạn văn trong Java Slides
+
 
 ## Giới thiệu về Truy xuất Tọa độ Hình chữ nhật của Đoạn văn trong Aspose.Slides cho Java
 
@@ -112,3 +118,9 @@ Có, Aspose.Slides cho Java rất phù hợp để xử lý hàng loạt tệp P
 ### Tôi có cần giấy phép để sử dụng Aspose.Slides cho Java không?
 
 Có, bạn thường cần có giấy phép hợp lệ để sử dụng Aspose.Slides cho Java trong môi trường sản xuất. Bạn có thể lấy giấy phép từ trang web Aspose. Tuy nhiên, họ có thể cung cấp phiên bản dùng thử cho mục đích thử nghiệm và đánh giá.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

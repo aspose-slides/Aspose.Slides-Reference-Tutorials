@@ -3,10 +3,16 @@ title: Thuộc tính được đề xuất chỉ đọc trong Java Slides
 linktitle: Thuộc tính được đề xuất chỉ đọc trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách bật thuộc tính Đề xuất chỉ đọc trong bản trình bày Java PowerPoint bằng Aspose.Slides cho Java. Hãy làm theo hướng dẫn từng bước của chúng tôi với các ví dụ về mã nguồn để tăng cường bảo mật cho bản trình bày.
-type: docs
 weight: 17
 url: /vi/java/presentation-properties/read-only-recommended-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thuộc tính được đề xuất chỉ đọc trong Java Slides
+
 
 ## Giới thiệu về Kích hoạt các thuộc tính được đề xuất chỉ đọc trong Java Slides
 
@@ -88,3 +94,9 @@ pres.getProtectionManager().setPassword("YourPassword");
 ```
 
  Nhớ thay thế`"YourPassword"` với mật khẩu bạn mong muốn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

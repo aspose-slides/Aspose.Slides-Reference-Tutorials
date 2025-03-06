@@ -3,10 +3,16 @@ title: Biểu đồ Sunburst trong Java Slides
 linktitle: Biểu đồ Sunburst trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tạo biểu đồ Sunburst tuyệt đẹp trong các slide Java với Aspose.Slides. Tìm hiểu cách tạo biểu đồ và thao tác dữ liệu từng bước.
-type: docs
 weight: 16
 url: /vi/java/chart-elements/sunburst-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Biểu đồ Sunburst trong Java Slides
+
 
 ## Giới thiệu về Biểu đồ Sunburst trong Java Slides với Aspose.Slides
 
@@ -168,3 +174,9 @@ Bạn có thể tùy chỉnh giao diện của biểu đồ Sunburst bằng các
 ### Có thể tạo biểu đồ Sunburst tương tác bằng siêu liên kết không?
 
 Có, bạn có thể tạo biểu đồ Sunburst tương tác bằng siêu liên kết bằng cách thêm siêu liên kết vào các thành phần hoặc phân đoạn biểu đồ cụ thể. Tham khảo tài liệu Aspose.Slides để biết chi tiết về cách thêm siêu liên kết.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

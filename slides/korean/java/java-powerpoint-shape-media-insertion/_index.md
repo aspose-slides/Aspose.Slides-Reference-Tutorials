@@ -3,10 +3,16 @@ title: Java PowerPoint 모양 및 미디어 삽입
 linktitle: Java PowerPoint 모양 및 미디어 삽입
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에 모양과 미디어를 삽입하는 방법을 알아보세요. 튜토리얼에는 라인, 오디오, OLE 개체 및 비디오 추가가 포함됩니다.
-type: docs
 weight: 23
 url: /ko/java/java-powerpoint-shape-media-insertion/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint 모양 및 미디어 삽입
+
 
 ## 소개
 
@@ -53,3 +59,9 @@ Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 이�
 Aspose.Slides for Java를 사용하여 비디오 콘텐츠를 PowerPoint 프레젠테이션에 원활하게 통합하는 방법을 알아보세요. 청중의 관심을 끌 수 있는 멀티미디어 요소가 포함된 슬라이드.
 ### [PowerPoint에서 웹 소스의 비디오 프레임 추가](./add-video-frame-web-source-powerpoint/)
 Aspose.Slides for Java를 사용하여 웹 소스에서 비디오 프레임을 추가하여 PowerPoint 프레젠테이션을 향상시키는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

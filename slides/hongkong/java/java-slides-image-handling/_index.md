@@ -3,10 +3,16 @@ title: Java 投影片影像處理使用 Aspose.Slides For Java
 linktitle: Java 投影片影像處理
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 教學處理 Java 投影片中的影像。探索高效影像管理的逐步指南。
-type: docs
 weight: 23
 url: /zh-hant/java/image-handling/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 投影片影像處理使用 Aspose.Slides For Java
+
 
 您準備好用精美的圖像來增強您的 Java 幻燈片了嗎？在本文中，我們將使用 Aspose.Slides for Java 教學深入研究影像處理的世界。無論您是經驗豐富的開發人員還是剛開始您的開發之旅，本綜合指南都將引導您逐步完成整個過程。
 
@@ -42,3 +48,9 @@ url: /zh-hant/java/image-handling/
 了解如何使用 Aspose.Slides 將外部資源中基於向量的 SVG 影像新增至 Java 投影片中。使用高品質的視覺效果創建令人驚嘆的簡報。
 ### [將 SVG 影像物件轉換為 Java 投影片中的形狀群組](./convert-svg-image-object-into-group-of-shapes-in-java-slides/)
 了解如何使用 Aspose.Slides for Java 將 SVG 映像轉換為 Java Slides 中的一組形狀。帶有程式碼範例的分步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

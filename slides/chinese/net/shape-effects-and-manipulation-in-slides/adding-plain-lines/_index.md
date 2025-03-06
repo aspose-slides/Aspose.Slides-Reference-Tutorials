@@ -3,10 +3,16 @@ title: 使用 Aspose.Slides 向演示幻灯片添加纯线条
 linktitle: 使用 Aspose.Slides 向演示幻灯片添加纯线条
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides 在 .NET 中增强您的 PowerPoint 演示文稿。按照我们的分步指南轻松添加纯线。
-type: docs
 weight: 16
 url: /zh/net/shape-effects-and-manipulation-in-slides/adding-plain-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Slides 向演示幻灯片添加纯线条
+
 ## 介绍
 创建引人入胜且具有视觉吸引力的 PowerPoint 演示文稿通常需要整合各种形状和元素。如果您使用 .NET，Aspose.Slides 是一款功能强大的工具，可简化此过程。本教程重点介绍如何使用 Aspose.Slides for .NET 向演示文稿幻灯片添加纯线。按照本简单易懂的指南进行操作，以增强您的演示文稿。
 ## 先决条件
@@ -67,3 +73,9 @@ pres.Save(dataDir + "LineShape1_out.pptx", SaveFormat.Pptx);
 答：参观[这里](https://purchase.aspose.com/temporary-license/)申请临时执照。
 ### 问：遇到问题？我可以在哪里获得支持？
 答：寻求帮助[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

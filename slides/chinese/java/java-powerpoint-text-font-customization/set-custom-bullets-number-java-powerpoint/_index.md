@@ -3,10 +3,16 @@ title: 在 Java PowerPoint 中设置自定义项目符号编号
 linktitle: 在 Java PowerPoint 中设置自定义项目符号编号
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 在 Java PowerPoint 中设置自定义项目符号编号，以编程方式增强演示文稿的清晰度和结构。
-type: docs
 weight: 15
 url: /zh/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java PowerPoint 中设置自定义项目符号编号
+
 ## 介绍
 在当今的数字时代，创建动态演示文稿对于有效传达想法和数据至关重要。Aspose.Slides for Java 提供了一个强大的工具包，可以通过编程来操作 PowerPoint 演示文稿，提供广泛的功能来增强您的演示文稿构建过程。本文深入探讨了如何使用 Aspose.Slides 在 Java PowerPoint 演示文稿中设置自定义项目符号编号。无论您是经验丰富的开发人员还是新手，本教程都将逐步指导您完成该过程，确保您能够有效地利用此功能。
 ## 先决条件
@@ -82,3 +88,9 @@ Aspose.Slides 支持从 97-2003 到最新版本的 PowerPoint 格式。
 是的，你可以从下载免费试用版[这里](https://releases.aspose.com/).
 ### 我可以在哪里购买 Aspose.Slides？
 您可以从以下位置购买 Aspose.Slides[这里](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

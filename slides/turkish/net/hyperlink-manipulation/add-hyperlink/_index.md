@@ -3,10 +3,16 @@ title: Aspose.Slides kullanarak .NET'teki Slaytlara Köprüler Ekleme
 linktitle: Slayda Köprü Ekleme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET ile PowerPoint slaytlarına nasıl köprü ekleyeceğinizi öğrenin. Sunumlarınızı etkileşimli öğelerle geliştirin.
-type: docs
 weight: 12
 url: /tr/net/hyperlink-manipulation/add-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides kullanarak .NET'teki Slaytlara Köprüler Ekleme
+
 
 Dijital sunum dünyasında etkileşim çok önemlidir. Slaytlarınıza köprüler eklemek sunumunuzu daha ilgi çekici ve bilgilendirici hale getirebilir. Aspose.Slides for .NET, PowerPoint sunumlarını programlı olarak oluşturmanıza, değiştirmenize ve yönetmenize olanak tanıyan güçlü bir kitaplıktır. Bu eğitimde size Aspose.Slides for .NET kullanarak slaytlarınıza nasıl köprü ekleyeceğinizi göstereceğiz. 
 
@@ -106,3 +112,9 @@ Aspose.Slides, eylem düğmeleri, multimedya öğeleri ve animasyonlar dahil olm
 ### 5. Aspose.Slides diğer programlama dilleri için de mevcut mu?
 
 Evet, Aspose.Slides, Java ve Python dahil olmak üzere çeşitli programlama dillerinde mevcuttur.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

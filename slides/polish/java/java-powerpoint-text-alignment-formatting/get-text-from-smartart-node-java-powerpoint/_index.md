@@ -3,10 +3,16 @@ title: Pobierz tekst z węzła SmartArt w programie Java PowerPoint
 linktitle: Pobierz tekst z węzła SmartArt w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak wyodrębnić tekst z węzłów SmartArt w prezentacjach Java PowerPoint za pomocą Aspose.Slides. Łatwy przewodnik krok po kroku dla programistów.
-type: docs
 weight: 14
 url: /pl/java/java-powerpoint-text-alignment-formatting/get-text-from-smartart-node-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pobierz tekst z węzła SmartArt w programie Java PowerPoint
+
 ## Wstęp
 tym samouczku przyjrzymy się, jak wyodrębnić tekst z węzłów SmartArt w prezentacjach Java PowerPoint za pomocą Aspose.Slides. Aspose.Slides to potężna biblioteka Java, która umożliwia programistom programowe tworzenie, manipulowanie i konwertowanie prezentacji programu PowerPoint. Wyodrębnianie tekstu z węzłów SmartArt może być przydatne w różnych zastosowaniach, takich jak ekstrakcja danych, analiza treści i nie tylko. Pod koniec tego przewodnika będziesz mieć pełną wiedzę, jak efektywnie pobierać tekst z węzłów SmartArt przy użyciu Aspose.Slides w Javie.
 ## Warunki wstępne
@@ -66,3 +72,9 @@ Aspose.Slides for Java to solidny interfejs API, który umożliwia programistom 
  Tak, możesz uzyskać bezpłatną wersję próbną Aspose.Slides dla Java[Tutaj](https://releases.aspose.com/).
 ### Gdzie mogę znaleźć pomoc dotyczącą Aspose.Slides dla Java?
  Aby uzyskać pomoc techniczną i wsparcie społeczności, odwiedź stronę[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

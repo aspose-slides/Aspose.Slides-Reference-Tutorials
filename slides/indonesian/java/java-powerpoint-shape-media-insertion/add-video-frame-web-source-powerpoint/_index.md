@@ -3,10 +3,16 @@ title: Tambahkan Bingkai Video dari Sumber Web di PowerPoint
 linktitle: Tambahkan Bingkai Video dari Sumber Web di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menyempurnakan presentasi PowerPoint Anda dengan menambahkan bingkai video dari sumber web menggunakan Aspose.Slides untuk Java.
-type: docs
 weight: 18
 url: /id/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Bingkai Video dari Sumber Web di PowerPoint
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menambahkan bingkai video dari sumber web, seperti YouTube, ke presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Dengan mengikuti petunjuk langkah demi langkah ini, Anda akan dapat menyempurnakan presentasi Anda dengan memasukkan elemen multimedia yang menarik.
 ## Prasyarat
@@ -84,3 +90,9 @@ Sangat! Aspose.Slides menyediakan opsi ekstensif untuk menyesuaikan tampilan dan
 Aspose.Slides mendukung berbagai versi PowerPoint, memastikan kompatibilitas di berbagai platform.
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Slides?
  Anda dapat mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk bantuan, dokumentasi, dan dukungan komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

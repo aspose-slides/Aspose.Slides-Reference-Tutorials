@@ -3,10 +3,16 @@ title: Voeg bovenliggende opmerkingen toe aan de dia met Aspose.Slides
 linktitle: Voeg ouderopmerkingen toe aan de dia
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u interactieve opmerkingen en antwoorden aan uw PowerPoint-presentaties kunt toevoegen met Aspose.Slides voor .NET. Verbeter de betrokkenheid en samenwerking.
-type: docs
 weight: 12
 url: /nl/net/slide-comments-manipulation/add-parent-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg bovenliggende opmerkingen toe aan de dia met Aspose.Slides
+
 
 Wilt u uw PowerPoint-presentaties verbeteren met interactieve functies? Met Aspose.Slides voor .NET kunt u opmerkingen en antwoorden opnemen, waardoor een dynamische en boeiende ervaring voor uw publiek ontstaat. In deze stapsgewijze zelfstudie laten we u zien hoe u ouderopmerkingen aan dia's kunt toevoegen met behulp van Aspose.Slides voor .NET. Laten we erin duiken en deze opwindende functie verkennen.
 
@@ -160,3 +166,9 @@ Aspose.Slides voor .NET is ontworpen om te werken met een breed scala aan PowerP
 
 ### Zijn er licentieopties beschikbaar voor Aspose.Slides voor .NET?
  Ja, u kunt licentieopties, inclusief tijdelijke licenties, verkennen op de Aspose-website[hier](https://purchase.aspose.com/buy) of probeer de gratis proefperiode[hier](https://releases.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

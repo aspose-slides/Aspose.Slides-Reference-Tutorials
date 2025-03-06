@@ -3,10 +3,16 @@ title: أصبحت الرسوم المتحركة للأشكال سهلة باست
 linktitle: تطبيق الرسوم المتحركة على الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بإنشاء عروض تقديمية مذهلة باستخدام Aspose.Slides لـ .NET. تعرف على كيفية تطبيق الرسوم المتحركة على الأشكال في هذا الدليل التفصيلي خطوة بخطوة. ارفع شرائحك الآن!
-type: docs
 weight: 21
 url: /ar/net/shape-effects-and-manipulation-in-slides/applying-animations-to-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# أصبحت الرسوم المتحركة للأشكال سهلة باستخدام Aspose.Slides
+
 ## مقدمة
 في عالم العروض التقديمية الديناميكية، يمكن أن تؤدي إضافة الرسوم المتحركة إلى الأشكال إلى تحسين المظهر المرئي والتفاعل مع شرائحك بشكل كبير. يوفر Aspose.Slides for .NET مجموعة أدوات قوية لتحقيق ذلك بسلاسة. في هذا البرنامج التعليمي، سنرشدك خلال عملية تطبيق الرسوم المتحركة على الأشكال باستخدام Aspose.Slides، مما يسمح لك بإنشاء عروض تقديمية جذابة تترك انطباعًا دائمًا.
 ## المتطلبات الأساسية
@@ -81,3 +87,9 @@ pres.Save(dataDir + "AnimExample_out.pptx", SaveFormat.Pptx);
  نعم، يمكنك الحصول على ترخيص[هنا](https://purchase.aspose.com/buy) لفتح الإمكانات الكاملة لـ Aspose.Slides.
 ### هل يمكنني تجربة Aspose.Slides قبل الشراء؟
  بالتأكيد! الاستفادة من[تجربة مجانية](https://releases.aspose.com/) لتجربة قدرات Aspose.Slides قبل الالتزام.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java kullanarak PowerPoint'te SmartArt Shape'e erişme
 linktitle: Java kullanarak PowerPoint'te SmartArt Shape'e erişme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides ile Java kullanarak PowerPoint'te SmartArt şekillerine nasıl erişeceğinizi ve bunları nasıl değiştireceğinizi öğrenin. Sorunsuz entegrasyon için bu adım adım kılavuzu izleyin.
-type: docs
 weight: 14
 url: /tr/java/java-powerpoint-smartart-manipulation/access-smartart-shape-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java kullanarak PowerPoint'te SmartArt Shape'e erişme
+
 ## giriiş
 Java kullanarak PowerPoint sunumlarındaki SmartArt şekillerini değiştirmek mi istiyorsunuz? Raporları otomatikleştiriyor, eğitim materyalleri oluşturuyor veya iş sunumları hazırlıyor olun, SmartArt şekillerine programlı olarak nasıl erişeceğinizi ve bunları nasıl değiştireceğinizi bilmek size çok zaman kazandırabilir. Bu eğitim Aspose.Slides for Java'yı kullanma sürecinde size rehberlik edecektir. Her adımı basit, anlaşılması kolay bir şekilde parçalara ayıracağız, böylece yeni başlayan biri olsanız bile, takip edebilecek ve profesyonel sonuçlar elde edebileceksiniz.
 ## Önkoşullar
@@ -84,3 +90,9 @@ Bu adımları izleyerek Aspose.Slides for Java'yı kullanarak PowerPoint sunumla
  Evet, Aspose topluluğundan destek alabilirsiniz[Burada](https://forum.aspose.com/c/slides/11).
 ### Aspose.Slides for Java için nasıl geçici lisans alabilirim?  
  Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

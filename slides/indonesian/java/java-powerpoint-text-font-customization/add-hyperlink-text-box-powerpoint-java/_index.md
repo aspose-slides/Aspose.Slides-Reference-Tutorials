@@ -3,10 +3,16 @@ title: Tambahkan Hyperlink ke Kotak Teks di PowerPoint menggunakan Java
 linktitle: Tambahkan Hyperlink ke Kotak Teks di PowerPoint menggunakan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan hyperlink ke kotak teks PowerPoint menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan contoh untuk pengembang Java.
-type: docs
 weight: 23
 url: /id/java/java-powerpoint-text-font-customization/add-hyperlink-text-box-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Hyperlink ke Kotak Teks di PowerPoint menggunakan Java
+
 ## Perkenalan
 Di era digital saat ini, menciptakan presentasi dinamis yang menarik dan memberikan informasi sangat penting untuk komunikasi yang efektif. Pengembang Java yang ingin menyempurnakan aplikasi mereka dengan fitur interaktif sering kali beralih ke Aspose.Slides untuk Java, pustaka canggih yang memungkinkan manipulasi presentasi PowerPoint secara terprogram. Tutorial ini membahas salah satu fitur tersebut: menambahkan hyperlink ke kotak teks dalam presentasi PowerPoint menggunakan Java. Di akhir panduan ini, Anda akan memiliki pemahaman yang jelas tentang cara mengimplementasikan fungsi ini dengan lancar ke dalam aplikasi Java Anda.
 ## Prasyarat
@@ -76,3 +82,9 @@ Dengan mengikuti langkah-langkah ini, Anda telah berhasil mempelajari cara menam
  Ya, lisensi sementara tersedia untuk dibeli[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Apakah Aspose.Slides kompatibel dengan perpustakaan Java lainnya?
 Aspose.Slides terintegrasi dengan baik dengan berbagai perpustakaan Java untuk manipulasi PowerPoint yang komprehensif.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

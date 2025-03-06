@@ -3,10 +3,16 @@ title: 使用 Aspose.Slides 將音訊幀新增至簡報幻燈片
 linktitle: 使用 Aspose.Slides 將音訊幀新增至簡報幻燈片
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 增強簡報！了解如何無縫添加音訊幀，以前所未有的方式吸引觀眾。
-type: docs
 weight: 14
 url: /zh-hant/net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Slides 將音訊幀新增至簡報幻燈片
+
 ## 介紹
 在動態的演示世界中，合併音訊元素可以顯著增強觀眾的整體體驗。 Aspose.Slides for .NET 使開發人員能夠將音訊幀無縫整合到簡報幻燈片中，從而增加了新的參與度和互動性。本逐步指南將引導您完成使用 Aspose.Slides for .NET 將音訊影格新增至簡報投影片的過程。
 ## 先決條件
@@ -63,3 +69,9 @@ Aspose.Slides for .NET 支援各種音訊格式，包括 WAV、MP3 等。檢查�
 參觀[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)尋求協助並與社區互動。
 ### 如何購買 Aspose.Slides for .NET？
 您可以從以下位置購買該庫[阿斯普斯商店](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

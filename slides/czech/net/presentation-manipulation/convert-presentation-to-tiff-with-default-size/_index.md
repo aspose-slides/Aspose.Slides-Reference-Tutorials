@@ -3,10 +3,16 @@ title: Převést prezentaci na TIFF s výchozí velikostí
 linktitle: Převést prezentaci na TIFF s výchozí velikostí
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak snadno převést prezentace na obrázky TIFF s jejich výchozí velikostí pomocí Aspose.Slides for .NET.
-type: docs
 weight: 27
 url: /cs/net/presentation-manipulation/convert-presentation-to-tiff-with-default-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převést prezentaci na TIFF s výchozí velikostí
+
 
 ## Úvod
 
@@ -86,3 +92,9 @@ Absolutně! Aspose.Slides for .NET poskytuje širokou škálu možností pro př
 ### Kde najdu další informace o Aspose.Slides pro .NET?
 
  Pro komplexní dokumentaci a příklady navštivte[Aspose.Slides pro dokumentaci .NET](https://reference.aspose.com/slides/net).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Jak ustawić kliknięcie hiperłącza makra w Aspose.Slides dla .NET
 linktitle: Zarządzanie hiperłączami za pomocą makr
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak ustawić hiperłącza makr w prezentacjach za pomocą Aspose.Slides dla .NET. Zwiększ interaktywność i zaangażuj odbiorców.
-type: docs
 weight: 13
 url: /pl/net/hyperlink-manipulation/macro-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jak ustawić kliknięcie hiperłącza makra w Aspose.Slides dla .NET
+
 
 W świecie nowoczesnego oprogramowania tworzenie dynamicznych i interaktywnych prezentacji jest kluczowym aspektem. Aspose.Slides dla .NET to potężna biblioteka, która pozwala na płynną pracę z prezentacjami. Niezależnie od tego, czy tworzysz prezentację biznesową, czy edukacyjny pokaz slajdów, możliwość ustawienia kliknięć makro hiperłączy może znacznie poprawić komfort użytkownika. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces ustawiania kliknięcia makro hiperłącza za pomocą Aspose.Slides dla .NET. 
 
@@ -106,3 +112,9 @@ Tak, możesz dostosować wygląd Autokształtu, dostosowując jego właściwośc
 
 ### Gdzie mogę uzyskać pomoc lub wsparcie dla Aspose.Slides dla .NET?
  Jeśli napotkasz problemy lub masz pytania, możesz szukać pomocy na forum pomocy technicznej Aspose[Tutaj](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

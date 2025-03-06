@@ -3,10 +3,16 @@ title: 在 Java 幻灯片中检查密码示例
 linktitle: 在 Java 幻灯片中检查密码示例
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java Slides 中验证密码。通过分步指导增强演示文稿的安全性。
-type: docs
 weight: 14
 url: /zh/java/presentation-properties/check-password-example-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 幻灯片中检查密码示例
+
 
 ## Java 幻灯片中检查密码示例的介绍
 
@@ -99,3 +105,9 @@ presentationInfo.removePassword("current_password");
 ### 在哪里可以找到有关 Aspose.Slides for Java 的更多文档？
 
 您可以在 Aspose 网站上找到有关 Aspose.slides for Java 的全面文档[这里](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

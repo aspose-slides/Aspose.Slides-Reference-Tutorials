@@ -3,10 +3,16 @@ title: 使用 Aspose.Slides 将父注释添加到幻灯片
 linktitle: 将家长评论添加到幻灯片
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 向您的 PowerPoint 演示文稿添加交互式评论和回复。增强参与度和协作。
-type: docs
 weight: 12
 url: /zh/net/slide-comments-manipulation/add-parent-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Slides 将父注释添加到幻灯片
+
 
 您是否希望使用交互式功能增强 PowerPoint 演示文稿？Aspose.Slides for .NET 允许您合并评论和回复，为您的观众创造动态且引人入胜的体验。在本分步教程中，我们将向您展示如何使用 Aspose.Slides for .NET 向幻灯片添加父评论。让我们深入探索这一令人兴奋的功能。
 
@@ -160,3 +166,9 @@ Aspose.Slides for .NET 旨在与多种 PowerPoint 版本兼容，确保与最新
 
 ### Aspose.Slides for .NET 是否有任何可用的许可选项？
 是的，您可以在 Aspose 网站上探索许可选项，包括临时许可证[这里](https://purchase.aspose.com/buy)或尝试免费试用[这里](https://releases.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: เทคนิคการโคลนสไลด์ Java PowerPoint
 linktitle: เทคนิคการโคลนสไลด์ Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: การโคลนสไลด์ต้นแบบใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java เรียนรู้การโคลนสไลด์ภายในงานนำเสนอเดียวกันหรือข้ามงานนำเสนอได้อย่างราบรื่น
-type: docs
 weight: 27
 url: /th/java/java-powerpoint-slide-cloning-techniques/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เทคนิคการโคลนสไลด์ Java PowerPoint
+
 ##  การแนะนำ
 
 การโคลนสไลด์ในงานนำเสนอ PowerPoint ช่วยให้คุณประหยัดเวลาได้มากและปรับปรุงขั้นตอนการทำงานของคุณ ด้วย Aspose.Slides สำหรับ Java คุณสามารถโคลนสไลด์ภายในงานนำเสนอเดียวกันหรือข้ามงานนำเสนอต่างๆ ได้อย่างง่ายดาย ไม่ว่าคุณจะเป็นมือใหม่หรือผู้เชี่ยวชาญ บทช่วยสอนแบบทีละขั้นตอนเหล่านี้จะแนะนำคุณตลอดกระบวนการ ทำให้การปรับปรุงการนำเสนอของคุณเป็นเรื่องง่าย
@@ -49,3 +55,9 @@ url: /th/java/java-powerpoint-slide-cloning-techniques/
 โคลนสไลด์ภายในงานนำเสนอเดียวกันโดยใช้ Aspose.Slides สำหรับ Java พร้อมคำแนะนำของเรา เหมาะสำหรับนักพัฒนาที่ต้องการปรับปรุงการปรับแต่ง PowerPoint
 ### [โคลนสไลด์เพื่อสิ้นสุดภายในการนำเสนอเดียวกัน](./clone-slide-end-within-same-presentation-powerpoint/)
 เรียนรู้วิธีโคลนสไลด์ที่ส่วนท้ายของงานนำเสนอโดยใช้ Aspose.Slides สำหรับ Java พร้อมคำแนะนำทีละขั้นตอนนี้ เหมาะสำหรับนักพัฒนา Java
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

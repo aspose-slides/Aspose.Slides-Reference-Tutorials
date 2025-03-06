@@ -3,10 +3,16 @@ title: Create Bounds Shape Thumbnail
 linktitle: Create Bounds Shape Thumbnail
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create shape thumbnails with bounds using Aspose.Slides for Java. This step-by-step tutorial guides you through the process.
-type: docs
 weight: 10
 url: /java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Create Bounds Shape Thumbnail
+
 ## Introduction
 Aspose.Slides for Java is a powerful library that allows Java developers to create, manipulate, and convert PowerPoint presentations programmatically. In this tutorial, we will learn how to create a thumbnail image of a shape with bounds using Aspose.Slides for Java.
 ## Prerequisites
@@ -57,3 +63,10 @@ Yes, you can adjust the properties of the thumbnail images, such as size and qua
 Yes, Aspose.Slides for Java provides extensive functionality for working with PowerPoint presentations, including slide manipulation, text extraction, and chart generation.
 ### Is there a trial version available for Aspose.Slides for Java?
 Yes, you can download a free trial version from [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

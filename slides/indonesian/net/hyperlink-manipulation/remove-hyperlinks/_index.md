@@ -3,10 +3,16 @@ title: Cara Menghapus Hyperlink dari Slide dengan Aspose.Slides .NET
 linktitle: Hapus Hyperlink dari Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menghapus hyperlink dari slide PowerPoint menggunakan Aspose.Slides untuk .NET. Buat presentasi yang bersih dan profesional.
-type: docs
 weight: 11
 url: /id/net/hyperlink-manipulation/remove-hyperlinks/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cara Menghapus Hyperlink dari Slide dengan Aspose.Slides .NET
+
 
 Dalam dunia presentasi profesional, memastikan slide Anda terlihat rapi dan rapi sangatlah penting. Salah satu elemen umum yang sering mengacaukan slide adalah hyperlink. Baik Anda berurusan dengan hyperlink ke situs web, dokumen, atau slide lain dalam presentasi Anda, Anda mungkin ingin menghapusnya agar tampilannya lebih bersih dan fokus. Dengan Aspose.Slides untuk .NET, Anda dapat dengan mudah mencapai tugas ini. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses menghapus hyperlink dari slide menggunakan Aspose.Slides untuk .NET.
 
@@ -84,3 +90,9 @@ Ya, Aspose.Slides untuk .NET menawarkan berbagai fitur, termasuk pembuatan slide
 
 ### Apakah dukungan teknis tersedia untuk Aspose.Slides untuk .NET?
  Ya, Anda dapat mencari dukungan teknis dan terlibat dengan komunitas Aspose di[Asumsikan forum](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

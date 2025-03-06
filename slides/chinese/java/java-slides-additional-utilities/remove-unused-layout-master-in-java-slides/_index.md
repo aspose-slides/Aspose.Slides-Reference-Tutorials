@@ -3,10 +3,16 @@ title: 删除 Java Slides 中未使用的布局母版
 linktitle: 删除 Java Slides 中未使用的布局母版
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides 删除未使用的布局母版。分步指南和代码。提高演示效率。
-type: docs
 weight: 10
 url: /zh/java/additional-utilities/remove-unused-layout-master-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 删除 Java Slides 中未使用的布局母版
+
 
 ## Java Slides 中移除未使用的布局母版的简介
 
@@ -123,3 +129,9 @@ System.out.println("Layout slides number in result presentation = " + pres.getLa
 ### 在哪里可以访问本文中使用的源代码？
 
 您可以在每步提供的代码片段中找到本文使用的源代码。只需将代码复制并粘贴到您的 Java 项目中，即可实现从演示文稿中删除未使用的布局母版。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

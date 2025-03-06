@@ -3,10 +3,16 @@ title: إضافة إزاحة تمتد لملء الصورة في PowerPoint
 linktitle: إضافة إزاحة تمتد لملء الصورة في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة إزاحة ممتدة لملء الصور في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. وشملت البرنامج التعليمي خطوة بخطوة.
-type: docs
 weight: 16
 url: /ar/java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة إزاحة تمتد لملء الصورة في PowerPoint
+
 ## مقدمة
 ستتعلم في هذا البرنامج التعليمي كيفية استخدام Aspose.Slides لـ Java لإضافة إزاحة ممتدة لملء الصورة في عروض PowerPoint التقديمية. تسمح لك هذه الميزة بمعالجة الصور داخل شرائحك، مما يمنحك تحكمًا أكبر في مظهرها.
 ## المتطلبات الأساسية
@@ -64,3 +70,9 @@ pres.save(dataDir + "AddStretchOffsetForImageFill_out.pptx", SaveFormat.Pptx);
 نعم، يمكنك تطبيق مجموعة واسعة من التأثيرات والتحويلات على الصور باستخدام Aspose.Slides لواجهة برمجة التطبيقات الشاملة لـ Java.
 ### أين يمكنني العثور على المزيد من الموارد والدعم لـ Aspose.Slides لـ Java؟
  يمكنك زيارة[Aspose.Slides لتوثيق جافا](https://reference.aspose.com/slides/java/) للحصول على أدلة مفصلة واستكشاف[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لدعم المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

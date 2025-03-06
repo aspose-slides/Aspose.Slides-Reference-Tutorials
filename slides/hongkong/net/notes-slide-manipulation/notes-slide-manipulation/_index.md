@@ -3,10 +3,16 @@ title: 使用 Aspose.Slides 進行投影片操作
 linktitle: 使用 Aspose.Slides 進行投影片操作
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 管理 PowerPoint 投影片中的頁首和頁尾。輕鬆刪除筆記並自訂您的簡報。
-type: docs
 weight: 10
 url: /zh-hant/net/notes-slide-manipulation/notes-slide-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Slides 進行投影片操作
+
 
 在當今的數位時代，創建引人入勝的簡報是一項基本技能。 Aspose.Slides for .NET 是一個功能強大的工具，可讓您輕鬆操作和自訂簡報投影片。在本逐步指南中，我們將引導您使用 Aspose.Slides for .NET 完成一些基本任務。我們將介紹如何管理註釋幻燈片中的頁首和頁尾、刪除特定幻燈片中的註釋以及從所有幻燈片中刪除註釋。
 
@@ -165,3 +171,10 @@ Aspose.Slides for .NET 讓您可以完全掌控您的 PowerPoint 簡報。透過
 ### 我可以使用 Aspose.Slides for .NET 操作 PowerPoint 簡報的其他方面嗎？
 
 是的，Aspose.Slides for .NET 提供了廣泛的 PowerPoint 簡報操作功能，包括投影片、形狀、文字等。瀏覽文件以取得詳細資訊。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: تحويل العرض التقديمي بالكامل إلى HTML في ش
 linktitle: تحويل العرض التقديمي بالكامل إلى HTML في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحويل عروض PowerPoint التقديمية إلى HTML في Java باستخدام Aspose.Slides. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 29
 url: /ar/java/presentation-conversion/convert-whole-presentation-html-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل العرض التقديمي بالكامل إلى HTML في شرائح Java
+
 
 ## مقدمة لتحويل العرض التقديمي بالكامل إلى HTML في شرائح Java
 
@@ -117,3 +123,9 @@ finally
 ### هل يمكنني تحويل شرائح معينة بدلاً من العرض التقديمي بأكمله؟
 
 نعم، يمكنك تحويل شرائح معينة عن طريق تحديدها في الكود قبل حفظ العرض التقديمي. يمنحك هذا التحكم في الشرائح التي سيتم تحويلها إلى HTML.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

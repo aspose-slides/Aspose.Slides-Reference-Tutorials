@@ -3,10 +3,16 @@ title: Wykres pudełkowy w slajdach Java
 linktitle: Wykres pudełkowy w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak tworzyć wykresy pudełkowe w prezentacjach Java za pomocą Aspose.Slides. Dołączony przewodnik krok po kroku i kod źródłowy umożliwiający efektywną wizualizację danych.
-type: docs
 weight: 10
 url: /pl/java/chart-elements/box-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wykres pudełkowy w slajdach Java
+
 
 ## Wprowadzenie do wykresu pudełkowego w Aspose.Slides dla Java
 
@@ -148,3 +154,9 @@ Możesz dostosować wygląd wykresu pudełkowego, modyfikując właściwości, t
 ### Co oznacza QuartileMethodType.Exclusive?
 
  The`QuartileMethodType.Exclusive` ustawienie określa, że obliczenia kwartylowe powinny być wykonywane przy użyciu metody wyłącznej. Możesz wybrać różne metody obliczania kwartylów w zależności od danych i wymagań.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

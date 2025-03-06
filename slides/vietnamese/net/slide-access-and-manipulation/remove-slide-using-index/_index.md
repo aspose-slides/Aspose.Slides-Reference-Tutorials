@@ -3,10 +3,16 @@ title: Xóa slide theo chỉ mục tuần tự
 linktitle: Xóa slide theo chỉ mục tuần tự
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách xóa từng bước các trang chiếu PowerPoint bằng Aspose.Slides cho .NET. Hướng dẫn của chúng tôi cung cấp hướng dẫn rõ ràng và mã nguồn hoàn chỉnh để giúp bạn loại bỏ các trang trình bày theo chỉ mục tuần tự của chúng theo chương trình.
-type: docs
 weight: 24
 url: /vi/net/slide-access-and-manipulation/remove-slide-using-index/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xóa slide theo chỉ mục tuần tự
+
 
 ## Giới thiệu về Xóa slide theo chỉ mục tuần tự
 
@@ -86,3 +92,9 @@ Hoàn toàn có thể xóa slide dựa trên các điều kiện như nội dung
 ### Làm cách nào để tìm hiểu thêm về Aspose.Slides cho .NET?
 
  Bạn có thể khám phá tài liệu chi tiết và tài liệu tham khảo API cho Aspose.Slides for .NET trên[trang tài liệu](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

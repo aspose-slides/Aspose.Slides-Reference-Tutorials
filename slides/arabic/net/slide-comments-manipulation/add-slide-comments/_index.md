@@ -3,10 +3,16 @@ title: إضافة تعليقات إلى الشريحة
 linktitle: إضافة تعليقات إلى الشريحة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: أضف العمق والتفاعل إلى عروضك التقديمية باستخدام Aspose.Slides API. تعرف على كيفية دمج التعليقات بسهولة في شرائحك باستخدام .NET. تعزيز المشاركة وجذب جمهورك.
-type: docs
 weight: 13
 url: /ar/net/slide-comments-manipulation/add-slide-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة تعليقات إلى الشريحة
+
 
 في عالم إدارة العروض التقديمية، يمكن أن تُغير القدرة على إضافة التعليقات إلى الشرائح قواعد اللعبة. لا تعمل التعليقات على تعزيز التعاون فحسب، بل تساعد أيضًا في فهم محتوى الشريحة ومراجعته. باستخدام Aspose.Slides for .NET، وهي مكتبة قوية ومتعددة الاستخدامات، يمكنك دمج التعليقات بسهولة في شرائح العرض التقديمي الخاص بك. في هذا الدليل المفصّل خطوة بخطوة، سنرشدك خلال عملية إضافة التعليقات إلى شريحة باستخدام Aspose.Slides for .NET. سواء كنت مطورًا متمرسًا أو وافدًا جديدًا إلى عالم تطوير .NET، فإن هذا البرنامج التعليمي سيوفر لك كل الأفكار التي تحتاجها.
 
@@ -104,3 +110,9 @@ using (Presentation pres = new Presentation())
 ### 5. هل يمكنني تجربة Aspose.Slides لـ .NET قبل شرائه؟
 
 نعم، يمكنك استكشاف Aspose.Slides لـ .NET باستخدام نسخة تجريبية مجانية. قم بزيارة[Aspose.Slides صفحة تجريبية مجانية](https://releases.aspose.com/) للبدء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tambahkan Slide Tata Letak ke Presentasi
 linktitle: Tambahkan Slide Tata Letak ke Presentasi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menyempurnakan presentasi PowerPoint Anda dengan Aspose.Slides untuk .NET. Tambahkan slide tata letak untuk sentuhan profesional.
-type: docs
 weight: 11
 url: /id/net/chart-creation-and-customization/add-layout-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Slide Tata Letak ke Presentasi
+
 
 Di era digital saat ini, membuat presentasi yang berdampak adalah keterampilan yang penting. Presentasi yang terstruktur dengan baik dan menarik secara visual dapat menyampaikan pesan Anda secara efektif. Aspose.Slides for .NET adalah alat canggih yang dapat membantu Anda membuat presentasi menakjubkan dalam waktu singkat. Dalam panduan langkah demi langkah ini, kita akan mempelajari cara menggunakan Aspose.Slides untuk .NET untuk menambahkan slide tata letak ke presentasi Anda. Kami akan membagi prosesnya menjadi langkah-langkah yang mudah diikuti, memastikan Anda memahami konsepnya secara menyeluruh. Mari kita mulai!
 
@@ -104,3 +110,9 @@ Aspose.Slides for .NET adalah pustaka .NET yang memungkinkan pengembang bekerja 
 
 ### Di mana saya bisa mendapatkan dukungan atau mencari bantuan dengan Aspose.Slides untuk .NET?
  Jika Anda memiliki pertanyaan atau memerlukan bantuan, Anda dapat mengunjungi forum Aspose.Slides for .NET di[Asumsikan Forum Komunitas](https://forum.aspose.com/). Komunitas aktif dan membantu dalam menjawab pertanyaan pengguna.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

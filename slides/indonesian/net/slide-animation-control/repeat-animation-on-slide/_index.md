@@ -3,10 +3,16 @@ title: Menguasai Animasi PowerPoint dengan Aspose.Slides .NET
 linktitle: Ulangi Animasi pada Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Sempurnakan presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Kontrol animasi dengan mudah, pikat penonton Anda, dan tinggalkan kesan mendalam.
-type: docs
 weight: 12
 url: /id/net/slide-animation-control/repeat-animation-on-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Animasi PowerPoint dengan Aspose.Slides .NET
+
 ## Perkenalan
 Dalam dunia presentasi yang dinamis, kemampuan mengontrol animasi memainkan peran penting dalam menarik dan menarik perhatian audiens. Aspose.Slides untuk .NET memberdayakan pengembang untuk mengambil alih jenis animasi dalam slide, memungkinkan presentasi yang lebih interaktif dan menarik secara visual. Dalam tutorial ini, kita akan menjelajahi cara mengontrol tipe animasi pada slide menggunakan Aspose.Slides untuk .NET, langkah demi langkah.
 ## Prasyarat
@@ -66,3 +72,9 @@ Aspose.Slides menyediakan dukungan untuk berbagai versi PowerPoint, memastikan k
  Mengunjungi[Di Sini](https://purchase.aspose.com/temporary-license/) untuk informasi tentang cara memperoleh izin sementara.
 ### Butuh bantuan atau memiliki pertanyaan lebih lanjut?
  Terlibat dengan komunitas Aspose.Slides di[forum dukungan](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

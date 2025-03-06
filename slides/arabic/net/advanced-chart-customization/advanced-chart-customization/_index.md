@@ -3,10 +3,16 @@ title: تخصيص الرسم البياني المتقدم في Aspose.Slides
 linktitle: تخصيص الرسم البياني المتقدم في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على التخصيص المتقدم للمخططات في Aspose.Slides لـ .NET. قم بإنشاء مخططات جذابة بصريًا مع إرشادات خطوة بخطوة.
-type: docs
 weight: 10
 url: /ar/net/advanced-chart-customization/advanced-chart-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تخصيص الرسم البياني المتقدم في Aspose.Slides
+
 
 يعد إنشاء مخططات جذابة وغنية بالمعلومات جزءًا أساسيًا من عرض البيانات في العديد من التطبيقات. يوفر Aspose.Slides for .NET أدوات قوية لتخصيص المخططات، مما يسمح لك بضبط كل جانب من جوانب المخططات الخاصة بك. في هذا البرنامج التعليمي، سنستكشف تقنيات تخصيص المخططات المتقدمة باستخدام Aspose.Slides لـ .NET.
 
@@ -304,3 +310,9 @@ pres.Save(dataDir + "FormattedChart_out.pptx", SaveFormat.Pptx);
 
 ### أين يمكنني العثور على المزيد من البرامج التعليمية والأمثلة حول Aspose.Slides لـ .NET؟
  يمكنك العثور على مجموعة كبيرة من البرامج التعليمية وأمثلة التعليمات البرمجية والوثائق على Aspose.Slides[موقع إلكتروني](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

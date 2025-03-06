@@ -3,10 +3,16 @@ title: Animuj serię wykresów za pomocą Aspose.Slides dla platformy .NET
 linktitle: Animacja serii na wykresie
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak animować serie wykresów za pomocą Aspose.Slides dla .NET. Zaangażuj odbiorców dynamicznymi prezentacjami. Zacznij teraz!
-type: docs
 weight: 12
 url: /pl/net/chart-formatting-and-animation/animating-series/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Animuj serię wykresów za pomocą Aspose.Slides dla platformy .NET
+
 
 Czy chcesz urozmaicić swoje prezentacje za pomocą animowanych wykresów? Aspose.Slides dla .NET jest tutaj, aby ożywić Twoje wykresy. W tym przewodniku krok po kroku pokażemy, jak animować serie na wykresie za pomocą Aspose.Slides dla .NET. Zanim jednak przejdziemy do akcji, omówmy warunki wstępne.
 
@@ -109,3 +115,9 @@ Tak, możesz dostosować efekty animacji dla każdej serii wykresów, aby stworz
 
 ### Gdzie mogę kupić licencję na Aspose.Slides dla .NET?
  Licencję na Aspose.Slides dla .NET możesz nabyć na stronie zakupu[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

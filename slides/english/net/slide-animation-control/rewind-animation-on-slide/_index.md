@@ -3,10 +3,16 @@ title: Mastering Rewind Animations in Presentations with Aspose.Slides
 linktitle: Rewind Animation on Slide
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to rewind animations on PowerPoint slides using Aspose.Slides for .NET. Follow this step-by-step guide with complete source code examples.
-type: docs
 weight: 13
 url: /net/slide-animation-control/rewind-animation-on-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mastering Rewind Animations in Presentations with Aspose.Slides
+
 ## Introduction
 In the dynamic world of presentations, incorporating captivating animations can significantly enhance engagement. Aspose.Slides for .NET provides a powerful toolset to breathe life into your presentations. One intriguing feature is the ability to rewind animations on slides. In this comprehensive guide, we'll walk you through the process step by step, allowing you to harness the full potential of animation rewind using Aspose.Slides for .NET.
 ## Prerequisites
@@ -80,3 +86,10 @@ Yes, you can explore the features by obtaining a free trial from [here](https://
 Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) to seek assistance and engage with the community.
 ### Can I purchase a temporary license for Aspose.Slides for .NET?
 Yes, you can acquire a temporary license from [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

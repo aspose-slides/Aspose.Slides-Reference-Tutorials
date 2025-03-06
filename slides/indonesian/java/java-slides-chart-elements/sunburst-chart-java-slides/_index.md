@@ -3,10 +3,16 @@ title: Bagan Sunburst di Slide Java
 linktitle: Bagan Sunburst di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Buat Bagan Sunburst yang Menakjubkan di Slide Java dengan Aspose.Slides. Pelajari Pembuatan Bagan Langkah demi Langkah dan Manipulasi Data.
-type: docs
 weight: 16
 url: /id/java/chart-elements/sunburst-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bagan Sunburst di Slide Java
+
 
 ## Pengantar Sunburst Chart di Java Slides dengan Aspose.Slides
 
@@ -168,3 +174,9 @@ Untuk menambahkan keterangan alat ke bagan Sunburst, Anda bisa mengatur format l
 ### Apakah mungkin membuat grafik Sunburst interaktif dengan hyperlink?
 
 Ya, Anda dapat membuat bagan Sunburst interaktif dengan hyperlink dengan menambahkan hyperlink ke elemen atau segmen bagan tertentu. Lihat dokumentasi Aspose.Slides untuk detail tentang penambahan hyperlink.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

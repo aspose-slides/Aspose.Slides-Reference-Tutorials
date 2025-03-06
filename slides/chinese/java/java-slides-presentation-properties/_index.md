@@ -3,10 +3,16 @@ title: 使用 Aspose.Slides 探索演示属性
 linktitle: Java 幻灯片演示属性
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 教程增强 Java 幻灯片演示属性。了解动态演示的技巧和窍门。
-type: docs
 weight: 21
 url: /zh/java/presentation-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Slides 探索演示属性
+
 
 在不断发展的数字通信世界中，引人入胜的演示文稿必不可少。无论您是经验丰富的专业人士还是刚刚开始使用 Java 幻灯片进行演示，掌握演示属性的技巧都至关重要。幸运的是，Aspose.Slides for Java 提供了一套强大的工具和功能，可让您的演示文稿大放异彩。
 
@@ -57,3 +63,9 @@ url: /zh/java/presentation-properties/
 使用 Aspose.Slides 优化您的 Java 幻灯片。使用自定义设置创建引人入胜的演示文稿。浏览分步指南和常见问题解答。
 ### [Java 幻灯片中的只读推荐属性](./read-only-recommended-properties-in-java-slides/)
 了解如何使用 Aspose.Slides for Java 在 Java PowerPoint 演示文稿中启用只读推荐属性。按照我们的分步指南和源代码示例来增强演示文稿的安全性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

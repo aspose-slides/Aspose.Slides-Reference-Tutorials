@@ -3,10 +3,16 @@ title: プレゼンテーション内のすべてのスライドを取得する
 linktitle: プレゼンテーション内のすべてのスライドを取得する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーション内のすべてのスライドを取得する方法を学びます。完全なソース コードを含むこのステップ バイ ステップ ガイドに従って、プログラムでプレゼンテーションを効率的に操作します。スライドのプロパティ、インストール、カスタマイズなどについて説明します。
-type: docs
 weight: 13
 url: /ja/net/slide-access-and-manipulation/access-all-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# プレゼンテーション内のすべてのスライドを取得する
+
 
 ## Aspose.Slides for .NET の紹介
 
@@ -139,3 +145,9 @@ Install-Package Aspose.Slides
 ### Aspose.Slides for .NET の詳細情報はどこで入手できますか?
 
 より詳しい情報、APIリファレンス、コード例については、[Aspose.Slides for .NET ドキュメント](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

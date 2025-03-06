@@ -3,10 +3,16 @@ title: 将演示文稿转换为受密码保护的 PDF
 linktitle: 将演示文稿转换为受密码保护的 PDF
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 通过密码保护和将演示文稿转换为 PDF 来保护演示文稿。立即增强数据安全性。
-type: docs
 weight: 16
 url: /zh/net/presentation-conversion/password-protect-presentations-convert-to-password-protected-pdf/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将演示文稿转换为受密码保护的 PDF
+
 
 在当今的数字时代，保护您的敏感演示文稿至关重要。确保 PowerPoint 演示文稿机密性的一种有效方法是将其转换为受密码保护的 PDF。使用 Aspose.Slides for .NET，您可以无缝实现这一点。在本综合指南中，我们将引导您完成使用 Aspose.Slides for .NET API 将演示文稿转换为受密码保护的 PDF 的过程。在本教程结束时，您将拥有轻松保护演示文稿的知识和工具。
 
@@ -77,3 +83,9 @@ presentation.Save(outPath + "PasswordProtectedPDF_out.pdf", SaveFormat.Pdf, pdfO
 ### 我可以在哪里访问 Aspose.Slides for .NET API 文档？
 
 您可以在以下位置访问 Aspose.Slides for .NET 的文档[这里](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java PowerPoint 텍스트 및 단락 관리
 linktitle: Java PowerPoint 텍스트 및 단락 관리
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java PowerPoint 텍스트 및 단락 관리를 마스터하세요. HTML 텍스트 가져오기, 줄 간격 관리, 글머리 기호 만들기, 단락 정렬 방법을 알아보세요.
-type: docs
 weight: 26
 url: /ko/java/java-powerpoint-text-paragraph-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint 텍스트 및 단락 관리
+
 ## 소개
 
 잘 구성되어 있고 시각적으로 매력적인 PowerPoint 프레젠테이션을 만들면 커뮤니케이션이 크게 향상될 수 있습니다. Aspose.Slides for Java를 사용하면 텍스트와 단락을 관리하는 작업이 간단해집니다. HTML 텍스트를 가져오거나, 줄 간격을 관리하거나, 다단계 글머리 기호를 생성해야 하는 경우 자세한 튜토리얼이 프로세스를 안내합니다. Java PowerPoint 프레젠테이션을 한 단계 더 발전시킬 수 있는 방법을 살펴보겠습니다.
@@ -55,3 +61,9 @@ Aspose.Slides for Java를 사용하여 PowerPoint 슬라이드에 단락 글머�
 Aspose.Slides for Java를 사용하여 프로그래밍 방식으로 PowerPoint 슬라이드에서 단락 들여쓰기를 설정하는 방법을 알아보세요. 손쉽게 프레젠테이션 형식을 향상하세요.
 ### [Java를 사용하여 PowerPoint에서 단락 정렬](./align-paragraphs-powerpoint-java/)
 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 단락을 정렬하는 방법을 알아보세요. 정확한 형식 지정을 위해서는 단계별 가이드를 따르세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

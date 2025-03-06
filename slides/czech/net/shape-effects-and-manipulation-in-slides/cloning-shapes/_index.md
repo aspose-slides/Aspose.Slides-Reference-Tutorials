@@ -3,10 +3,16 @@ title: Klonování tvarů v prezentačních snímcích pomocí Aspose.Slides
 linktitle: Klonování tvarů v prezentačních snímcích pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se efektivně klonovat tvary ve snímcích prezentace pomocí Aspose.Slides API. Snadno vytvářejte dynamické prezentace. Prozkoumejte podrobného průvodce, často kladené dotazy a další.
-type: docs
 weight: 27
 url: /cs/net/shape-effects-and-manipulation-in-slides/cloning-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Klonování tvarů v prezentačních snímcích pomocí Aspose.Slides
+
 
 ## Úvod
 
@@ -97,3 +103,9 @@ Klonované tvary si zachovávají své interakce a hypertextové odkazy ze zdroj
 ## Závěr
 
 Uvolnění síly klonování tvarů v prezentačních snímcích pomocí Aspose.Slides otevírá svět kreativních možností pro tvůrce obsahu i vývojáře. Tato příručka vás provede celým procesem, od instalace po pokročilé přizpůsobení, a poskytne vám nástroje, které potřebujete, aby vaše prezentace vynikly. S Aspose.Slides můžete zefektivnit svůj pracovní postup a bez námahy přivést své prezentační vize k životu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Meerdere alinea's in Java PowerPoint
 linktitle: Meerdere alinea's in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u meerdere alinea's kunt maken in Java PowerPoint-presentaties met Aspose.Slides voor Java. Volledige gids met codevoorbeelden.
-type: docs
 weight: 13
 url: /nl/java/java-powerpoint-text-paragraph-management/multiple-paragraphs-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Meerdere alinea's in Java PowerPoint
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u dia's met meerdere alinea's in Java kunt maken met behulp van Aspose.Slides voor Java. Aspose.Slides is een krachtige bibliotheek waarmee ontwikkelaars PowerPoint-presentaties programmatisch kunnen manipuleren, waardoor het ideaal is voor het automatiseren van taken met betrekking tot het maken en opmaken van dia's.
 ## Vereisten
@@ -113,3 +119,9 @@ Aspose.Slides ondersteunt verschillende PowerPoint-formaten, waardoor compatibil
  Ja, u kunt een gratis proefversie downloaden[hier](https://releases.aspose.com/).
 ### Hoe kan ik indien nodig technische ondersteuning krijgen?
  U kunt ondersteuning krijgen van de Aspose.Slides-community[hier](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

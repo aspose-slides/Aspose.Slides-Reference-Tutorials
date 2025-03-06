@@ -3,10 +3,16 @@ title: Atur Sudut Garis Konektor di PowerPoint
 linktitle: Atur Sudut Garis Konektor di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur sudut garis konektor dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Sesuaikan slide Anda dengan presisi.
-type: docs
 weight: 17
 url: /id/java/java-powerpoint-animation-shape-manipulation/set-connector-line-angle-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Atur Sudut Garis Konektor di PowerPoint
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara mengatur sudut garis konektor dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Garis penghubung sangat penting untuk mengilustrasikan hubungan dan aliran antar bentuk di slide Anda. Dengan menyesuaikan sudutnya, Anda dapat memastikan presentasi Anda menyampaikan pesan dengan jelas dan efektif.
 ## Prasyarat
@@ -80,3 +86,9 @@ Aspose.Slides berupaya mendukung sebagian besar fitur PowerPoint. Namun, untuk f
 Tentu! Aspose.Slides menyediakan opsi luas untuk menyesuaikan garis konektor, termasuk gaya, ketebalan, dan titik akhir, memungkinkan Anda membuat presentasi yang menarik secara visual.
 ### Di mana saya dapat menemukan dukungan untuk pertanyaan terkait Aspose.Slides?
  Anda dapat mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk bantuan dengan pertanyaan atau masalah apa pun yang Anda temui selama proses pengembangan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

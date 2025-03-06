@@ -3,10 +3,16 @@ title: Προσθήκη προσαρμοσμένων ιδιοτήτων εγγρ
 linktitle: Προσθήκη προσαρμοσμένων ιδιοτήτων εγγράφου σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να βελτιώνετε τις παρουσιάσεις του PowerPoint με προσαρμοσμένες ιδιότητες εγγράφων στις Διαφάνειες Java. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα χρησιμοποιώντας Aspose.Slides για Java.
-type: docs
 weight: 13
 url: /el/java/presentation-properties/add-custom-document-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη προσαρμοσμένων ιδιοτήτων εγγράφου σε διαφάνειες Java
+
 
 ## Εισαγωγή στην προσθήκη προσαρμοσμένων ιδιοτήτων εγγράφου σε διαφάνειες Java
 
@@ -137,3 +143,9 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 Αυτός ο κωδικός θα εμφανίσει τα ονόματα και τις τιμές όλων των προσαρμοσμένων ιδιοτήτων στην παρουσίαση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

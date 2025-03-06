@@ -3,10 +3,16 @@ title: Добавление пользовательских свойств до
 linktitle: Добавление пользовательских свойств документа в слайды Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как улучшить презентации PowerPoint с помощью настраиваемых свойств документа в Java Slides. Пошаговое руководство с примерами кода с использованием Aspose.Slides для Java.
-type: docs
 weight: 13
 url: /ru/java/presentation-properties/add-custom-document-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Добавление пользовательских свойств документа в слайды Java
+
 
 ## Введение в добавление пользовательских свойств документа в слайды Java
 
@@ -137,3 +143,9 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 Этот код отобразит имена и значения всех пользовательских свойств в презентации.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

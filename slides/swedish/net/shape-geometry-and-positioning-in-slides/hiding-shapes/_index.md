@@ -3,10 +3,16 @@ title: Dölj former i PowerPoint med Aspose.Slides .NET Tutorial
 linktitle: Döljer former i presentationsbilder med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du döljer former i PowerPoint-bilder med Aspose.Slides för .NET. Anpassa presentationer programmatiskt med denna steg-för-steg-guide.
-type: docs
 weight: 21
 url: /sv/net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dölj former i PowerPoint med Aspose.Slides .NET Tutorial
+
 ## Introduktion
 presentationens dynamiska värld är anpassning nyckeln. Aspose.Slides för .NET tillhandahåller en kraftfull lösning för att manipulera PowerPoint-presentationer programmatiskt. Ett vanligt krav är förmågan att dölja specifika former i en bild. Denna handledning guidar dig genom processen att dölja former i presentationsbilder med Aspose.Slides för .NET.
 ## Förutsättningar
@@ -73,3 +79,9 @@ Absolut! Du kan anpassa döljningslogiken baserat på olika attribut som formtyp
  Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/)för teständamål.
 ### Hur kan jag få gemenskapsstöd för Aspose.Slides?
  Gå med i Aspose.Slides-communityt på[forum](https://forum.aspose.com/c/slides/11) för diskussioner och hjälp.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

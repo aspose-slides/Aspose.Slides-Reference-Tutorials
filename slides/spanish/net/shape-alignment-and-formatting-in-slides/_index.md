@@ -3,10 +3,16 @@ title: Alineación de formas y formato en diapositivas
 linktitle: Alineación de formas y formato en diapositivas
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Explore los completos tutoriales de Aspose.Slides sobre alineación de formas y formato en aplicaciones .NET. Aprenda a alinear y dar formato a formas sin esfuerzo, mejorando sus presentaciones de diapositivas con precisión.
-type: docs
 weight: 14
 url: /es/net/shape-alignment-and-formatting-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alineación de formas y formato en diapositivas
+
 
 ## Introducción
 
@@ -44,3 +50,9 @@ Aprenda a crear diapositivas de presentación cautivadoras con formas esbozadas 
 Aprenda cómo agregar un desplazamiento elástico hacia la izquierda para un marco de imagen en PowerPoint usando Aspose.Slides para .NET. Guía paso a paso con ejemplo de código fuente completo.
 ### [Sustitución del título de imagen del marco de objeto OLE en diapositivas de presentación](./substituting-picture-title-ole-object-frame/)
 Aprenda a sustituir títulos de imágenes de marcos de objetos OLE en diapositivas de presentación usando Aspose.Slides para .NET. Guía paso a paso con código fuente completo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

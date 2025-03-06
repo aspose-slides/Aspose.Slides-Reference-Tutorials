@@ -3,10 +3,16 @@ title: 在 Java 投影片中新增自訂行
 linktitle: 在 Java 投影片中新增自訂行
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用自訂行增強您的 Java 投影片。使用 Aspose.Slides for Java 的逐步指南。了解在簡報中添加和自訂線條以獲得有影響力的視覺效果。
-type: docs
 weight: 10
 url: /zh-hant/java/customization-and-formatting/adding-custom-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 投影片中新增自訂行
+
 
 ## 在 Java 投影片中新增自訂行簡介
 
@@ -108,3 +114,9 @@ shape.getLineFormat().setWidth(2); //將線條粗細設定為 2 點
 ### 是否可以在幻燈片中添加多行？
 
 是的，您可以透過重複本教學中提到的步驟為投影片新增多行。每條線都可以獨立自訂。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

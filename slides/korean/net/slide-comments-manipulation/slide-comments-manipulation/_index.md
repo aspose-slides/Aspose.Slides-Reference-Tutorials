@@ -3,10 +3,16 @@ title: Aspose.Slides를 사용한 슬라이드 댓글 조작
 linktitle: Aspose.Slides를 사용한 슬라이드 댓글 조작
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides API를 사용하여 PowerPoint 프레젠테이션에서 슬라이드 주석을 조작하는 방법을 알아보세요. 슬라이드 댓글을 추가, 편집, 서식 지정하기 위한 단계별 가이드와 소스 코드 예제를 살펴보세요.
-type: docs
 weight: 10
 url: /ko/net/slide-comments-manipulation/slide-comments-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides를 사용한 슬라이드 댓글 조작
+
 
 효과적인 의사소통을 위해서는 프레젠테이션을 최적화하는 것이 필수적입니다. 슬라이드 댓글은 프레젠테이션 내에서 컨텍스트, 설명 및 피드백을 제공하는 데 중요한 역할을 합니다. .NET에서 PowerPoint 프레젠테이션 작업을 위한 강력한 API인 Aspose.Slides는 슬라이드 주석을 효율적으로 조작할 수 있는 다양한 도구와 기능을 제공합니다. 이 종합 가이드에서는 기본 개념부터 고급 기술까지 모든 것을 다루는 Aspose.Slides를 사용한 슬라이드 댓글 조작 프로세스를 자세히 살펴보겠습니다. PowerPoint 프레젠테이션을 향상시키려는 개발자이거나 발표자라면 이 가이드는 Aspose.Slides를 사용하여 슬라이드 댓글을 최대한 활용하는 데 필요한 지식과 기술을 제공합니다.
 
@@ -122,3 +128,9 @@ presentation.Save("cleaned.pptx", SaveFormat.Pptx);
 ## 결론
 
 Aspose.Slides를 사용한 슬라이드 댓글 조작을 사용하면 프레젠테이션 주석을 제어할 수 있습니다. Aspose.Slides는 댓글 추가 및 편집부터 서식 지정 및 삭제까지 프레젠테이션 작업 흐름을 최적화하기 위한 포괄적인 도구 세트를 제공합니다. 이러한 작업을 자동화하면 공동 작업을 간소화하고 프레젠테이션의 명확성을 높일 수 있습니다. Aspose.Slides의 기능을 탐색하면서 프레젠테이션을 효과적이고 매력적으로 만드는 새로운 방법을 발견하게 될 것입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

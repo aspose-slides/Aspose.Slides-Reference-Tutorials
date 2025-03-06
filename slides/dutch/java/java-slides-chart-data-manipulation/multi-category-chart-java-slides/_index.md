@@ -3,10 +3,16 @@ title: Grafiek met meerdere categorieën in Java-dia's
 linktitle: Grafiek met meerdere categorieën in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Maak diagrammen met meerdere categorieën in Java-dia's met Aspose.Slides voor Java. Stap-voor-stap handleiding met broncode voor indrukwekkende datavisualisatie in presentaties.
-type: docs
 weight: 20
 url: /nl/java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Grafiek met meerdere categorieën in Java-dia's
+
 
 ## Inleiding tot diagrammen met meerdere categorieën in Java-dia's met Aspose.Slides
 
@@ -157,3 +163,9 @@ Ja, u kunt extra reeksen aan het diagram toevoegen door een soortgelijk proces t
 ### Hoe kan ik een titel aan het diagram toevoegen?
 
  U kunt een titel aan het diagram toevoegen met behulp van de`ch.getChartTitle().getTextFrame().setText("Chart Title");` methode.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

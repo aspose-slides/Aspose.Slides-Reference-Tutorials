@@ -3,10 +3,16 @@ title: Επεξεργασία δεδομένων γραφήματος σε εξ�
 linktitle: Επεξεργασία δεδομένων γραφήματος σε εξωτερικό βιβλίο εργασίας σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να επεξεργάζεστε δεδομένα γραφήματος σε ένα εξωτερικό βιβλίο εργασίας χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με τον πηγαίο κώδικα.
-type: docs
 weight: 17
 url: /el/java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Επεξεργασία δεδομένων γραφήματος σε εξωτερικό βιβλίο εργασίας σε διαφάνειες Java
+
 
 ## Εισαγωγή στην επεξεργασία δεδομένων γραφήματος σε εξωτερικό βιβλίο εργασίας σε διαφάνειες Java
 
@@ -103,3 +109,9 @@ if (pres != null) pres.dispose();
 ### Πώς μπορώ να αυτοματοποιήσω αυτή τη διαδικασία για πολλαπλές παρουσιάσεις;
 
 Μπορείτε να δημιουργήσετε έναν βρόχο για να επεξεργαστείτε πολλές παρουσιάσεις, να φορτώσετε την καθεμία, να κάνετε τις επιθυμητές αλλαγές και να αποθηκεύσετε τις τροποποιημένες παρουσιάσεις μία προς μία.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

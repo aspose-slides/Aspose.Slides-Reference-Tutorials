@@ -3,10 +3,16 @@ title: Přístup k vestavěným vlastnostem v aplikaci PowerPoint
 linktitle: Přístup k vestavěným vlastnostem v aplikaci PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Zjistěte, jak získat přístup k integrovaným vlastnostem v PowerPointu pomocí Aspose.Slides for Java. Tento výukový program vás provede vyhledáním autora, data vytvoření a dalšími.
-type: docs
 weight: 10
 url: /cs/java/java-powerpoint-properties-management/access-built-in-properties-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přístup k vestavěným vlastnostem v aplikaci PowerPoint
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak získat přístup k vestavěným vlastnostem v prezentacích PowerPoint pomocí Aspose.Slides for Java. Aspose.Slides je výkonná knihovna, která vývojářům v jazyce Java umožňuje programově pracovat s prezentacemi aplikace PowerPoint a umožňuje bezproblémové provádění úkolů, jako je čtení a úprava vlastností.
 ## Předpoklady
@@ -101,3 +107,9 @@ Ano, kromě vestavěných vlastností můžete také načíst a upravit uživate
  Ano, na webu naleznete komplexní dokumentaci a přístup k fórům podpory[Aspose webové stránky](https://reference.aspose.com/slides/java/).
 ### Je k dispozici zkušební verze pro Aspose.Slides pro Java?
  Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ajouter des nœuds à une position spécifique dans SmartArt à l'aide de
 linktitle: Ajouter des nœuds à une position spécifique dans SmartArt à l'aide de Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajouter des nœuds à des positions spécifiques dans SmartArt à l'aide de Java avec Aspose.Slides. Créez des présentations dynamiques sans effort.
-type: docs
 weight: 16
 url: /fr/java/java-powerpoint-smartart-manipulation/add-nodes-specific-position-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter des nœuds à une position spécifique dans SmartArt à l'aide de Java
+
 ## Introduction
 Dans ce didacticiel, nous vous guiderons tout au long du processus d'ajout de nœuds à des positions spécifiques dans SmartArt à l'aide de Java avec Aspose.Slides. SmartArt est une fonctionnalité de PowerPoint qui vous permet de créer des diagrammes et des graphiques visuellement attrayants.
 ## Conditions préalables
@@ -70,3 +76,9 @@ Oui, vous pouvez personnaliser l’apparence des nœuds, notamment leur taille, 
 Oui, Aspose.Slides fournit des bibliothèques pour plusieurs langages de programmation, notamment .NET et Python.
 ### Existe-t-il une version d’essai disponible pour Aspose.Slides ?
  Oui, vous pouvez télécharger une version d'essai gratuite à partir de[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

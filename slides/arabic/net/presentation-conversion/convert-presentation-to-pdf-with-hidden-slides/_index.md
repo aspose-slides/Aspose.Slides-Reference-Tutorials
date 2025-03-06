@@ -3,10 +3,16 @@ title: تحويل العرض التقديمي إلى PDF باستخدام الش
 linktitle: تحويل العرض التقديمي إلى PDF باستخدام الشرائح المخفية
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية استخدام Aspose.Slides for .NET لتحويل العروض التقديمية إلى PDF مع شرائح مخفية بسلاسة.
-type: docs
 weight: 26
 url: /ar/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل العرض التقديمي إلى PDF باستخدام الشرائح المخفية
+
 
 ## مقدمة إلى Aspose.Slides لـ .NET
 
@@ -95,3 +101,9 @@ class Program
 ### هل هناك أي وثائق لـ Aspose.Slides لـ .NET؟
 
  نعم، يمكنك العثور على الوثائق وأمثلة الاستخدام لـ Aspose.Slides for .NET على الموقع[هنا](https://reference.aspose.com/slides/net).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Formeffekte und Manipulation in Folien
 linktitle: Formeffekte und Manipulation in Folien
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verbessern Sie die visuelle Attraktivität Ihrer Präsentation mit Aspose.Slides-Tutorials zu Formeffekten und Manipulation. Erfahren Sie, wie Sie mit Formeffekten, Animationen und mehr beeindruckende Folien erstellen.
-type: docs
 weight: 11
 url: /de/net/shape-effects-and-manipulation-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Formeffekte und Manipulation in Folien
+
 
 ## Einführung
 
@@ -63,3 +69,9 @@ Erfahren Sie, wie Sie Ihre Präsentationsfolien verbessern können, indem Sie di
 Verbessern Sie Ihre Präsentationsfähigkeiten, indem Sie lernen, wie Sie mit Aspose.Slides Formen mithilfe von Konnektoren in Präsentationsfolien verbinden. Verbessern Sie Ihr visuelles Storytelling noch heute!
 ### [Verbinden von Formen mithilfe der Verbindungsstelle in Präsentationsfolien mit Aspose.Slides](./connecting-shape-using-connection-site/)
 Verbessern Sie Ihre Präsentationsfähigkeiten, indem Sie lernen, wie Sie mit Aspose.Slides Formen mithilfe von Verbindungsstellen in Präsentationsfolien verbinden. Folgen Sie unserer ausführlichen Anleitung und den Codebeispielen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

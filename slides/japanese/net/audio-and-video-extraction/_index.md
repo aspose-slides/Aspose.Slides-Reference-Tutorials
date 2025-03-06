@@ -3,10 +3,16 @@ title: オーディオとビデオの抽出
 linktitle: オーディオとビデオの抽出
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: .NET アプリケーションでのオーディオとビデオの抽出に関する包括的な Aspose.Slides チュートリアルをご覧ください。PowerPoint プレゼンテーションからマルチメディア要素をプログラムで抽出して操作する方法を学習します。
-type: docs
 weight: 15
 url: /ja/net/audio-and-video-extraction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# オーディオとビデオの抽出
+
 
 ## 導入：
 
@@ -31,3 +37,9 @@ Aspose.Slides for .NET を使用してハイパーリンクからオーディオ
 Aspose.Slides for .NET を使用して PowerPoint タイムラインからオーディオを抽出する方法を学びます。コード例付きのステップバイステップ ガイドです。
 ### [スライドからビデオを抽出する](./extract-video/)
 Aspose.Slides for .NET を使用して PowerPoint スライドからビデオを抽出する方法を習得します。コード例を含むガイドに従ってください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

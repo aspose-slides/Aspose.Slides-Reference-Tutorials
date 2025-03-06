@@ -3,10 +3,16 @@ title: 使用 Java 取得 PowerPoint 中表格的有效值
 linktitle: 使用 Java 取得 PowerPoint 中表格的有效值
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 中提取有效的表格值。以程式設計方式增強您的簡報。
-type: docs
 weight: 14
 url: /zh-hant/java/java-powerpoint-table-manipulation/get-effective-values-table-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 取得 PowerPoint 中表格的有效值
+
 ## 介紹
 在當今的數位時代，創建動態且引人入勝的簡報對於商業和教育環境中的有效溝通至關重要。 Aspose.Slides for Java 為 Java 開發人員提供了一個強大的解決方案，以程式設計方式操作和增強 PowerPoint 簡報。本教學將引導您完成使用 Aspose.Slides for Java 從 PowerPoint 簡報中的表格中提取有效值的過程。學完本教學後，您將掌握在 Java 應用程式中以程式設計方式存取和利用表格式資料的知識。
 ## 先決條件
@@ -61,3 +67,9 @@ try {
 造訪社群支援論壇[這裡](https://forum.aspose.com/c/slides/11)尋求幫助。
 ### 我可以購買 Aspose.Slides for Java 的臨時授權嗎？
 是的，您可以購買臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

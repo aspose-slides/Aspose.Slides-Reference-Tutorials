@@ -3,10 +3,16 @@ title: Utilice fuentes personalizadas en PowerPoint con Java
 linktitle: Utilice fuentes personalizadas en PowerPoint con Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo integrar fuentes personalizadas en presentaciones de PowerPoint usando Aspose.Slides para Java. Mejore el atractivo visual sin esfuerzo.
-type: docs
 weight: 25
 url: /es/java/java-powerpoint-text-font-customization/use-custom-fonts-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utilice fuentes personalizadas en PowerPoint con Java
+
 ## Introducción
 En este tutorial, exploraremos cómo aprovechar Aspose.Slides para Java para mejorar las presentaciones de PowerPoint mediante la integración de fuentes personalizadas. Las fuentes personalizadas pueden enriquecer significativamente el atractivo visual de sus diapositivas, asegurando que se alineen perfectamente con su marca o sus requisitos de diseño. Cubriremos todo, desde importar los paquetes necesarios hasta ejecutar los pasos necesarios para integrar fuentes personalizadas sin problemas en sus presentaciones.
 ## Requisitos previos
@@ -70,3 +76,9 @@ Asegúrese de tener las licencias adecuadas para distribuir cualquier fuente per
 Aspose.Slides para Java admite el uso de una amplia gama de fuentes personalizadas y la biblioteca no impone ningún límite inherente.
 ### ¿Puedo incrustar fuentes personalizadas directamente en el archivo de PowerPoint usando Aspose.Slides para Java?
 Sí, Aspose.Slides para Java le permite incrustar fuentes personalizadas en el archivo de presentación para una distribución perfecta.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

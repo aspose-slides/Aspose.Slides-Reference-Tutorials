@@ -3,10 +3,16 @@ title: Update presentatie-eigenschappen in Java-dia's
 linktitle: Update presentatie-eigenschappen in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u presentatie-eigenschappen in Java-dia's kunt bijwerken met Aspose.Slides voor Java. Pas auteur, titel en meer aan voor indrukwekkende presentaties.
-type: docs
 weight: 13
 url: /nl/java/media-controls/update-presentation-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Update presentatie-eigenschappen in Java-dia's
+
 
 ## Inleiding tot het bijwerken van presentatie-eigenschappen in Java-dia's
 
@@ -112,3 +118,9 @@ Ja, Aspose.Slides voor Java kan worden gebruikt voor zowel persoonlijke als comm
 ### Hoe krijg ik toegang tot de documentatie voor Aspose.Slides voor Java?
 
  U kunt de documentatie voor Aspose.Slides voor Java openen via de volgende link:[Aspose.Slides voor Java-documentatie](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

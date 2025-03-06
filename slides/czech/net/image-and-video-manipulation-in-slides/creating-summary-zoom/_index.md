@@ -3,10 +3,16 @@ title: Aspose.Slides - Mastering Summary Zooms v .NET
 linktitle: Vytváření souhrnu Přiblížení snímků prezentace pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Pozvedněte své prezentace pomocí Aspose.Slides pro .NET! Naučte se bez námahy vytvářet poutavé zoomy souhrnu. Stáhněte si nyní pro zážitek z dynamického snímku.
-type: docs
 weight: 16
 url: /cs/net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides - Mastering Summary Zooms v .NET
+
 ## Úvod
 V dynamickém světě prezentací vyniká Aspose.Slides for .NET jako výkonný nástroj pro vylepšení vaší zkušenosti s vytvářením snímků. Jednou z pozoruhodných funkcí, které nabízí, je možnost vytvořit Souhrnný zoom, vizuálně poutavý způsob prezentace kolekce snímků. V tomto tutoriálu vás provedeme procesem vytváření Souhrnného přiblížení snímků prezentace pomocí Aspose.Slides for .NET.
 ## Předpoklady
@@ -79,3 +85,9 @@ Absolutně! Do snímků můžete zahrnout hypertextové odkazy, které budou bez
 Od nejnovější verze neexistují žádná přísná omezení počtu sekcí, které můžete do prezentace přidat.
 ### Je k dispozici zkušební verze pro Aspose.Slides?
 Ano, funkce Aspose.Slides můžete prozkoumat stažením souboru[zkušební verze zdarma](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

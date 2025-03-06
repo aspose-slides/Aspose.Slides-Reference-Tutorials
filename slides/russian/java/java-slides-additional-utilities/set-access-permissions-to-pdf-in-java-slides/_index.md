@@ -3,10 +3,16 @@ title: Установите права доступа к PDF в слайдах J
 linktitle: Установите права доступа к PDF в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как защитить ваши PDF-документы с помощью прав доступа в Java Slides с помощью Aspose.Slides. В этом пошаговом руководстве рассматривается защита паролем и многое другое.
-type: docs
 weight: 17
 url: /ru/java/additional-utilities/set-access-permissions-to-pdf-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Установите права доступа к PDF в слайдах Java
+
 
 ## Введение в установку прав доступа к PDF в слайдах Java
 
@@ -104,3 +110,9 @@ Aspose.Slides для Java предоставляет различные функ
 ### Где я могу найти дополнительные ресурсы и документацию по Aspose.Slides для Java?
 
  Вы можете получить доступ к полной документации по Aspose.Slides для Java по адресу[здесь](https://reference.aspose.com/slides/java/) . Кроме того, вы можете скачать библиотеку с сайта[здесь](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

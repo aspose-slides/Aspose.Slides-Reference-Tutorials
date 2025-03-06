@@ -3,10 +3,16 @@ title: Java PowerPoint で SmartArt にアシスタント ノードを追加す�
 linktitle: Java PowerPoint で SmartArt にアシスタント ノードを追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して Java PowerPoint プレゼンテーションの SmartArt にアシスタント ノードを追加する方法を学習します。PowerPoint 編集スキルを強化します。
-type: docs
 weight: 17
 url: /ja/java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint で SmartArt にアシスタント ノードを追加する
+
 ## 導入
 このチュートリアルでは、Aspose.Slides を使用して Java PowerPoint プレゼンテーションの SmartArt にアシスタント ノードを追加するプロセスについて説明します。
 ## 前提条件
@@ -70,3 +76,9 @@ Aspose.Slides は、PowerPoint バージョン 97 ～ 2003 から最新バージ
 はい、Aspose.Slides が提供するさまざまなプロパティとメソッドを使用して外観をカスタマイズできます。
 ### SmartArt 内のノードの数に制限はありますか?
 PowerPoint の SmartArt は多数のノードをサポートしますが、読みやすさを向上させるために適度な数に抑えることをお勧めします。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

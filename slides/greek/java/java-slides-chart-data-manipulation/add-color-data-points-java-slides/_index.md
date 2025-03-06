@@ -3,10 +3,16 @@ title: Προσθήκη χρώματος σε σημεία δεδομένων σ
 linktitle: Προσθήκη χρώματος σε σημεία δεδομένων σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε χρώμα σε σημεία δεδομένων σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java.
-type: docs
 weight: 10
 url: /el/java/chart-data-manipulation/add-color-data-points-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη χρώματος σε σημεία δεδομένων σε διαφάνειες Java
+
 
 ## Εισαγωγή στην προσθήκη χρώματος σε σημεία δεδομένων σε διαφάνειες Java
 
@@ -117,3 +123,9 @@ finally
 ### Πού μπορώ να βρω περισσότερα παραδείγματα και τεκμηρίωση;
 
  Μπορείτε να βρείτε περισσότερα παραδείγματα και λεπτομερή τεκμηρίωση σχετικά με τη χρήση του Aspose.Slides για Java στο[Τεκμηρίωση Aspose.Slides](https://reference.aspose.com/slides/java/) δικτυακός τόπος.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

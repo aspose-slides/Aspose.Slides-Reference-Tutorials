@@ -3,10 +3,16 @@ title: Khám phá các đường xu hướng của biểu đồ trong Aspose.Sli
 linktitle: Biểu đồ đường xu hướng
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách thêm các đường xu hướng khác nhau vào biểu đồ bằng Aspose.Slides cho .NET trong hướng dẫn từng bước này. Nâng cao kỹ năng trực quan hóa dữ liệu của bạn một cách dễ dàng!
-type: docs
 weight: 12
 url: /vi/net/advanced-chart-customization/chart-trend-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Khám phá các đường xu hướng của biểu đồ trong Aspose.Slides cho .NET
+
 
 Trong thế giới trực quan hóa và trình bày dữ liệu, việc kết hợp các biểu đồ có thể là một cách mạnh mẽ để truyền tải thông tin một cách hiệu quả. Aspose.Slides for .NET cung cấp một bộ công cụ giàu tính năng để làm việc với biểu đồ, bao gồm khả năng thêm các đường xu hướng vào biểu đồ của bạn. Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình thêm các đường xu hướng vào biểu đồ theo cách từng bước bằng cách sử dụng Aspose.Slides cho .NET. 
 
@@ -145,3 +151,9 @@ Aspose.Slides for .NET là một thư viện đa năng cho phép bạn tạo và
 
 ### Tôi có cần giấy phép tạm thời cho Aspose.Slides cho .NET không?
  Bạn có thể nhận được giấy phép tạm thời cho Aspose.Slides cho .NET từ[liên kết này](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

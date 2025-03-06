@@ -3,10 +3,16 @@ title: Festlegen automatischer Kreisdiagrammsegmentfarben in Java-Folien
 linktitle: Festlegen automatischer Kreisdiagrammsegmentfarben in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java dynamische Kreisdiagramme mit automatischen Segmentfarben in Java PowerPoint-Präsentationen erstellen. Schritt-für-Schritt-Anleitung mit Quellcode.
-type: docs
 weight: 24
 url: /de/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Festlegen automatischer Kreisdiagrammsegmentfarben in Java-Folien
+
 
 ## Einführung in das Festlegen automatischer Kreisdiagrammsegmentfarben in Java-Folien
 
@@ -198,3 +204,9 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 Sie können die Schriftgröße, Fettschrift und Kursivschrift nach Bedarf anpassen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

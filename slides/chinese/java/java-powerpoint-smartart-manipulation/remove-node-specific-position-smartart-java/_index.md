@@ -3,10 +3,16 @@ title: 删除 SmartArt 中特定位置的节点
 linktitle: 删除 SmartArt 中特定位置的节点
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 删除 SmartArt 中特定位置的节点。轻松增强演示文稿自定义。
-type: docs
 weight: 15
 url: /zh/java/java-powerpoint-smartart-manipulation/remove-node-specific-position-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 删除 SmartArt 中特定位置的节点
+
 ## 介绍
 在 Java 开发领域，Aspose.Slides 已成为一种强大的工具，可用于以编程方式处理演示文稿。无论是创建、修改还是管理幻灯片，Aspose.Slides for Java 都提供了一套强大的功能来高效地简化这些任务。其中一种常见操作是删除 SmartArt 对象中特定位置的节点。本教程将逐步介绍使用 Aspose.Slides for Java 完成此操作的过程。
 ## 先决条件
@@ -62,3 +68,9 @@ pres.save(dataDir + "RemoveSmartArtNodeByPosition_out.pptx", SaveFormat.Pptx);
 要购买 Aspose.Slides for Java，请访问购买页面[这里](https://purchase.aspose.com/buy).
 ### 在哪里可以找到 Aspose.Slides for Java 的详细文档？
 您可以访问全面的文档[这里](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

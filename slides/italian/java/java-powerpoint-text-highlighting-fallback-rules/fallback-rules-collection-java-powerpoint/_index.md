@@ -3,10 +3,16 @@ title: Raccolta di regole di fallback in Java PowerPoint
 linktitle: Raccolta di regole di fallback in Java PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come gestire le regole di fallback dei caratteri nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Migliora la compatibilità tra i dispositivi senza sforzo.
-type: docs
 weight: 11
 url: /it/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Raccolta di regole di fallback in Java PowerPoint
+
 ## introduzione
 In questo tutorial, approfondiremo come gestire le regole di fallback dei caratteri utilizzando Aspose.Slides per Java. I fallback dei caratteri sono fondamentali per garantire che le presentazioni vengano visualizzate correttamente in ambienti diversi, soprattutto quando non sono disponibili caratteri specifici. Ti guideremo passo dopo passo attraverso l'importazione dei pacchetti necessari, la configurazione dell'ambiente e l'implementazione delle regole di fallback.
 ## Prerequisiti
@@ -73,3 +79,9 @@ Le regole di fallback dei caratteri definiscono caratteri alternativi da utilizz
  È disponibile la documentazione dettagliata[Qui](https://reference.aspose.com/slides/java/).
 ### Come posso ottenere supporto per Aspose.Slides per Java?
 Per supporto, visitare il forum Aspose.Slides[Qui](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

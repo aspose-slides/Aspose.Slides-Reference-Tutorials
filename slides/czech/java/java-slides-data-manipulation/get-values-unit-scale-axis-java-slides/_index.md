@@ -3,10 +3,16 @@ title: Získejte hodnoty a měřítko jednotek z Axis v Java Slides
 linktitle: Získejte hodnoty a měřítko jednotek z Axis v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak získat hodnoty a měřítko jednotek z os v Java Slides pomocí Aspose.Slides for Java. Vylepšete své možnosti analýzy dat.
-type: docs
 weight: 20
 url: /cs/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získejte hodnoty a měřítko jednotek z Axis v Java Slides
+
 
 ## Úvod do získávání hodnot a měřítka jednotek z Axis v Java Slides
 
@@ -122,3 +128,9 @@ Ano, Aspose.Slides pro Javu můžete používat v komerčních projektech. Nabí
 ### Kde najdu další zdroje a dokumentaci k Aspose.Slides for Java?
 
  Kompletní dokumentaci a další zdroje naleznete na[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/) webová stránka.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

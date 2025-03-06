@@ -3,10 +3,16 @@ title: Vytvořte zoom souhrnu v aplikaci PowerPoint
 linktitle: Vytvořte zoom souhrnu v aplikaci PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak vytvořit Souhrnný zoom v PowerPointu pomocí Aspose.Slides pro Javu, pomocí tohoto komplexního výukového programu krok za krokem.
-type: docs
 weight: 16
 url: /cs/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořte zoom souhrnu v aplikaci PowerPoint
+
 ## Úvod
 Vítejte v našem komplexním tutoriálu o vytvoření souhrnného zoomu v PowerPointu pomocí Aspose.Slides pro Java. Pokud chcete do svých prezentací přidat dynamický a interaktivní prvek, je přiblížení souhrnu fantastická funkce. Umožňuje vám vytvořit jeden snímek, který lze přiblížit do různých částí vaší prezentace, a nabízí tak poutavější a přehlednější zážitek pro vaše publikum.
 V tomto podrobném průvodci vás provedeme celým procesem, od nastavení vývojového prostředí až po vytvoření a přizpůsobení rámce Souhrnné přiblížení. Ať už jste zkušený vývojář v jazyce Java nebo právě začínáte, tento průvodce se vám bude snadno řídit a je plný cenných informací.
@@ -107,3 +113,9 @@ Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Slides for Java z 
  Dočasnou licenci můžete získat od[Aspose nákupní stránku](https://purchase.aspose.com/temporary-license/).
 ### Kde najdu další příklady a podporu pro Aspose.Slides pro Javu?
  Další příklady a podporu můžete najít na[Fórum podpory Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

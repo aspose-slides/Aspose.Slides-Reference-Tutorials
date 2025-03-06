@@ -3,10 +3,16 @@ title: 프레젠테이션에서 복합 기하학 모양 마스터하기
 linktitle: Aspose.Slides를 사용하여 기하학 모양의 복합 개체 만들기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 복합 기하학 모양으로 멋진 프레젠테이션을 만드는 방법을 알아보세요. 인상적인 결과를 얻으려면 단계별 가이드를 따르십시오.
-type: docs
 weight: 14
 url: /ko/net/shape-geometry-and-positioning-in-slides/creating-composite-objects-geometry-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 프레젠테이션에서 복합 기하학 모양 마스터하기
+
 ## 소개
 Aspose.Slides for .NET의 강력한 기능을 활용하여 기하학적 모양으로 복합 개체를 만들어 프레젠테이션을 향상하세요. 이 튜토리얼은 Aspose.Slides를 사용하여 복잡한 기하학적 구조로 시각적으로 매력적인 슬라이드를 생성하는 과정을 안내합니다.
 ## 전제 조건
@@ -84,3 +90,9 @@ Aspose.Slides는 Java 및 Python을 포함한 다양한 프로그래밍 언어�
  방문하다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 지역 사회 지원 및 지원을 위해.
 ### Q: 임시 라이센스를 구매할 수 있나요?
  네, 임시 면허를 취득하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

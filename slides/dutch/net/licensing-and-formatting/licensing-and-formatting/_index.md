@@ -3,10 +3,16 @@ title: Licenties in Aspose.Slides
 linktitle: Licenties in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u Aspose.Slides voor .NET licentieert en ontketen de kracht van PowerPoint-manipulatie in uw .NET-toepassingen.
-type: docs
 weight: 10
 url: /nl/net/licensing-and-formatting/licensing-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licenties in Aspose.Slides
+
 
 In de wereld van .NET-ontwikkeling is Aspose.Slides een krachtige en veelzijdige bibliotheek waarmee u programmatisch met Microsoft PowerPoint-bestanden kunt werken. Of u nu PowerPoint-presentaties moet maken, manipuleren of converteren, Aspose.Slides heeft de oplossing voor u. Om de mogelijkheden ervan volledig te benutten, moet u het belang van licenties begrijpen. In deze stapsgewijze handleiding onderzoeken we hoe u Aspose.Slides voor .NET kunt licentiëren en ervoor kunt zorgen dat uw toepassing naadloos kan worden uitgevoerd.
 
@@ -92,3 +98,9 @@ Aspose.Slides voor .NET is een krachtige bibliotheek voor het werken met Microso
 
 ### Welke soort ondersteuning is beschikbaar voor Aspose.Slides voor .NET-gebruikers?
  Aspose biedt een communityforum waar u ondersteuning kunt zoeken en kunt communiceren met andere Aspose-gebruikers. U kunt toegang krijgen tot het forum op[https://forum.aspose.com/](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

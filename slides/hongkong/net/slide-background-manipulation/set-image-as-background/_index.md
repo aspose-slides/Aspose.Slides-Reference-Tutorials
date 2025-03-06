@@ -3,10 +3,16 @@ title: 使用 Aspose.Slides 將影像設定為投影片背景
 linktitle: 將圖像設定為幻燈片背景
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 在 PowerPoint 中設定圖片背景。輕鬆增強您的簡報。
-type: docs
 weight: 13
 url: /zh-hant/net/slide-background-manipulation/set-image-as-background/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Slides 將影像設定為投影片背景
+
 
 在簡報設計和自動化領域，Aspose.Slides for .NET 是一款功能強大且多功能的工具，可讓開發人員輕鬆操作 PowerPoint 簡報。無論您是建立自訂報告、建立令人驚嘆的簡報還是自動產生投影片，Aspose.Slides for .NET 都是一項寶貴的資產。在本逐步指南中，我們將向您展示如何使用這個出色的庫將圖像設定為幻燈片背景。
 
@@ -115,3 +121,9 @@ Aspose.Slides for .NET 主要是為 Windows 環境設計的。對於 macOS，請
 ### 5. Aspose.Slides for .NET 有提供試用版嗎？
 
 是的，您可以從以下網站取得 Aspose.Slides for .NET 的免費試用版：[這個連結](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

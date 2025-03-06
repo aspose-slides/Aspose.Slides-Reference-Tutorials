@@ -3,10 +3,16 @@ title: خصائص الخط في PowerPoint مع جافا
 linktitle: خصائص الخط في PowerPoint مع جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية التعامل مع خصائص الخط في عروض PowerPoint التقديمية باستخدام Java مع Aspose.Slides for Java. قم بتخصيص الخطوط بسهولة باستخدام هذا الدليل التفصيلي خطوة بخطوة.
-type: docs
 weight: 11
 url: /ar/java/java-powerpoint-font-management/font-properties-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# خصائص الخط في PowerPoint مع جافا
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية التعامل مع خصائص الخط في عروض PowerPoint التقديمية باستخدام Java، وتحديدًا باستخدام Aspose.Slides for Java. سنرشدك خلال كل خطوة، بدءًا من استيراد الحزم الضرورية وحتى حفظ العرض التقديمي المعدل. دعونا الغوص في!
 ## المتطلبات الأساسية
@@ -81,3 +87,9 @@ pres.save(dataDir + "WelcomeFont_out.pptx", SaveFormat.Pptx);
  نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
 ### أين يمكنني العثور على مزيد من الدعم والموارد لـ Aspose.Slides لـ Java؟
  يمكنك زيارة منتدى Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11) للدعم والتوثيق[هنا](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

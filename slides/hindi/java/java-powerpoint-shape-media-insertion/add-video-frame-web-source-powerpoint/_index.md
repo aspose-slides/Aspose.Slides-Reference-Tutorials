@@ -3,10 +3,16 @@ title: वेब स्रोत से PowerPoint में वीडियो 
 linktitle: वेब स्रोत से PowerPoint में वीडियो फ़्रेम जोड़ें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: जानें कि Aspose.Slides for Java का उपयोग करके वेब स्रोतों से वीडियो फ़्रेम जोड़कर अपने पावरपॉइंट प्रस्तुतीकरण को कैसे बेहतर बनाया जाए।
-type: docs
 weight: 18
 url: /hi/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# वेब स्रोत से PowerPoint में वीडियो फ़्रेम जोड़ें
+
 ## परिचय
 इस ट्यूटोरियल में, हम सीखेंगे कि Aspose.Slides for Java का उपयोग करके YouTube जैसे वेब स्रोत से वीडियो फ़्रेम को PowerPoint प्रेजेंटेशन में कैसे जोड़ा जाए। इन चरण-दर-चरण निर्देशों का पालन करके, आप आकर्षक मल्टीमीडिया तत्वों को शामिल करके अपनी प्रस्तुतियों को बेहतर बनाने में सक्षम होंगे।
 ## आवश्यक शर्तें
@@ -84,3 +90,9 @@ pres.save("YOUR_DIRECTORY/AddVideoFrameFromWebSource_out.pptx", SaveFormat.Pptx)
 Aspose.Slides PowerPoint संस्करणों की एक विस्तृत श्रृंखला का समर्थन करता है, जो विभिन्न प्लेटफार्मों पर संगतता सुनिश्चित करता है।
 ### मैं Aspose.Slides के लिए अधिक संसाधन और समर्थन कहां पा सकता हूं?
  आप यहां जा सकते हैं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) सहायता, दस्तावेज़ीकरण और सामुदायिक समर्थन के लिए।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

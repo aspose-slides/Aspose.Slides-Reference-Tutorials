@@ -3,10 +3,16 @@ title: 将演示文稿中的形状导出为 SVG 格式
 linktitle: 将演示文稿中的形状导出为 SVG 格式
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 将 PowerPoint 演示文稿中的形状导出为 SVG 格式。包含源代码的分步指南。高效提取各种应用程序的形状。
-type: docs
 weight: 16
 url: /zh/net/presentation-manipulation/export-shapes-to-svg-format-from-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将演示文稿中的形状导出为 SVG 格式
+
 
 在当今的数字世界中，演示文稿在有效传达信息方面发挥着至关重要的作用。但是，有时我们需要将演示文稿中的特定形状导出为不同的格式以用于各种目的。SVG（可缩放矢量图形）就是这样一种格式，以其可扩展性和适应性而闻名。在本教程中，我们将指导您完成使用 Aspose.Slides for .NET 将演示文稿中的形状导出为 SVG 格式的过程。
 
@@ -83,3 +89,9 @@ using (Stream stream = new FileStream(outSvgFileName, FileMode.Create, FileAcces
 现在您已经学会了如何将形状导出为 SVG 格式，您可以增强演示文稿并使其更适用于不同用途。祝您编码愉快！
 
 有关更多详细信息和高级功能，请参阅[Aspose.Slides for .NET API 参考](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

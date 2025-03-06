@@ -3,10 +3,16 @@ title: Calculate Formulas in Java Slides
 linktitle: Calculate Formulas in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to calculate formulas in Java Slides using Aspose.Slides for Java. Step-by-step guide with source code for dynamic PowerPoint presentations.
-type: docs
 weight: 10
 url: /java/data-manipulation/calculate-formulas-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Calculate Formulas in Java Slides
+
 
 ## Introduction to Calculating Formulas in Java Slides using Aspose.Slides
 
@@ -115,3 +121,10 @@ You can set values for chart data cells using the `setValue` method of `IChartDa
 
 You can calculate formulas in a workbook using the `calculateFormulas` method of `IChartDataWorkbook` in Aspose.Slides.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

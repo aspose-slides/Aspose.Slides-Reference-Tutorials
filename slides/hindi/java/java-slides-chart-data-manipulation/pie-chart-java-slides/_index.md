@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में पाई चार्ट
 linktitle: जावा स्लाइड्स में पाई चार्ट
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: जावा के लिए Aspose.Slides का उपयोग करके PowerPoint प्रस्तुतियों में शानदार पाई चार्ट बनाना सीखें। जावा डेवलपर्स के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 23
 url: /hi/java/chart-data-manipulation/pie-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में पाई चार्ट
+
 
 ## Aspose.Slides का उपयोग करके जावा स्लाइड्स में पाई चार्ट बनाने का परिचय
 
@@ -283,3 +289,9 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ### मैं Java के लिए Aspose.Slides के साथ काम करने के लिए अधिक जानकारी और उदाहरण कैसे पा सकता हूं?
 
  अधिक जानकारी, विस्तृत दस्तावेज़ीकरण और अतिरिक्त उदाहरणों के लिए, आप यहां जा सकते हैं[Aspose.Slides for Java दस्तावेज़](https://reference.aspose.com/slides/java/)यह आपको पुस्तकालय का प्रभावी ढंग से उपयोग करने में मदद करने के लिए व्यापक संसाधन प्रदान करता है।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

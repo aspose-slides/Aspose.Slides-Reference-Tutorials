@@ -3,10 +3,16 @@ title: Master Slide Animations with Aspose.Slides for .NET
 linktitle: Slide Animation Control in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Elevate your presentations with Aspose.Slides for .NET! Learn to control slide animations effortlessly. Download the library now!
-type: docs
 weight: 10
 url: /net/slide-animation-control/slide-animation-control/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Master Slide Animations with Aspose.Slides for .NET
+
 ## Introduction
 Enhancing your presentations with captivating slide animations can significantly elevate the overall impact on your audience. In this tutorial, we'll explore how to control slide animations using Aspose.Slides for .NET. Aspose.Slides is a powerful library that enables seamless manipulation of PowerPoint presentations in a .NET environment.
 ## Prerequisites
@@ -77,3 +83,10 @@ Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for commun
 You can get a temporary license from [here](https://purchase.aspose.com/temporary-license/).
 ### Where can I purchase Aspose.Slides for .NET?
 Purchase the library [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

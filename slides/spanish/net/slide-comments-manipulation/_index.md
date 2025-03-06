@@ -3,10 +3,16 @@ title: Manipulación de comentarios de diapositivas
 linktitle: Manipulación de comentarios de diapositivas
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Mejore sus habilidades de manipulación de diapositivas con los tutoriales de Aspose.Slides sobre manipulación de comentarios de diapositivas. Aprenda a agregar, editar y administrar comentarios mediante programación en presentaciones de PowerPoint usando .NET.
-type: docs
 weight: 12
 url: /es/net/slide-comments-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulación de comentarios de diapositivas
+
 
 ## Introducción
 
@@ -27,3 +33,9 @@ Aprenda cómo mejorar sus presentaciones con elementos interactivos agregando co
 Agregue profundidad e interacción a sus presentaciones con la API Aspose.Slides. Aprenda cómo integrar fácilmente comentarios en sus diapositivas usando .NET. Mejore el compromiso y cautive a su audiencia.
 ### [Gestión de comentarios moderna](./modern-comments/)
 Mejore los procesos de colaboración y retroalimentación con una gestión de comentarios moderna utilizando Aspose.Slides. Aprenda cómo agilizar la comunicación en sus presentaciones y maximizar la productividad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

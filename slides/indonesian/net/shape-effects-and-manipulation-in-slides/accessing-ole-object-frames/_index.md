@@ -3,10 +3,16 @@ title: Mengakses Bingkai Objek OLE di Slide Presentasi dengan Aspose.Slides
 linktitle: Mengakses Bingkai Objek OLE di Slide Presentasi dengan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengakses dan memanipulasi bingkai objek OLE dalam slide presentasi menggunakan Aspose.Slides untuk .NET. Tingkatkan kemampuan pemrosesan slide Anda dengan panduan langkah demi langkah dan contoh kode praktis.
-type: docs
 weight: 11
 url: /id/net/shape-effects-and-manipulation-in-slides/accessing-ole-object-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengakses Bingkai Objek OLE di Slide Presentasi dengan Aspose.Slides
+
 
 ## Perkenalan
 
@@ -99,3 +105,9 @@ Ya, Anda dapat mengelola interaksi dan perilaku objek OLE dalam slide presentasi
 Dalam dunia presentasi, kemampuan untuk memanfaatkan kekuatan bingkai objek OLE dapat meningkatkan konten Anda ke tingkat interaktivitas dan keterlibatan yang lebih tinggi. Aspose.Slides untuk .NET menyederhanakan proses mengakses dan memanipulasi bingkai objek OLE, memungkinkan Anda mengintegrasikan konten dari aplikasi lain dengan lancar dan memperkaya presentasi Anda. Dengan mengikuti panduan langkah demi langkah dan memanfaatkan contoh kode yang disediakan, Anda akan membuka banyak kemungkinan untuk slide yang dinamis dan menawan.
 
 Buka potensi bingkai objek OLE dengan Aspose.Slides dan ubah presentasi Anda menjadi pengalaman interaktif yang memikat perhatian audiens Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

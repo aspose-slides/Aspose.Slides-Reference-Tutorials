@@ -3,10 +3,16 @@ title: Πρόσβαση στο Slide by Unique Identifier
 linktitle: Πρόσβαση στο Slide by Unique Identifier
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να αποκτάτε πρόσβαση στις διαφάνειες του PowerPoint με μοναδικά αναγνωριστικά χρησιμοποιώντας το Aspose.Slides για .NET. Αυτός ο οδηγός βήμα προς βήμα καλύπτει τη φόρτωση παρουσιάσεων, την πρόσβαση στις διαφάνειες ανά ευρετήριο ή αναγνωριστικό, την τροποποίηση περιεχομένου και την αποθήκευση αλλαγών.
-type: docs
 weight: 11
 url: /el/net/slide-access-and-manipulation/access-slide-by-id/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Πρόσβαση στο Slide by Unique Identifier
+
 
 ## Εισαγωγή στο Aspose.Slides για .NET
 
@@ -112,3 +118,9 @@ presentation.Save(outputPath, SaveFormat.Pptx);
 ### Πού μπορώ να βρω πιο λεπτομερή τεκμηρίωση και πόρους;
 
  Μπορείτε να βρείτε ολοκληρωμένη τεκμηρίωση, δείγματα κώδικα, σεμινάρια και πολλά άλλα στο Aspose.Slides για .NET στο[τεκμηρίωση](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

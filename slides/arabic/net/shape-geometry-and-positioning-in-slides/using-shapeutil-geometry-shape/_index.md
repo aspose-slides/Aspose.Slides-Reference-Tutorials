@@ -3,10 +3,16 @@ title: إتقان الأشكال الهندسية باستخدام ShapeUtil - A
 linktitle: استخدام ShapeUtil للأشكال الهندسية في شرائح العرض التقديمي
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: اكتشف قوة Aspose.Slides لـ .NET باستخدام ShapeUtil للأشكال الهندسية الديناميكية. قم بإنشاء عروض تقديمية جذابة دون عناء. قم بالتنزيل الآن! تعرف على كيفية تحسين عروض PowerPoint التقديمية باستخدام Aspose.Slides. استكشف ShapeUtil لمعالجة الأشكال الهندسية. دليل خطوة بخطوة مع كود مصدر .NET. تحسين العروض التقديمية بشكل فعال.
-type: docs
 weight: 17
 url: /ar/net/shape-geometry-and-positioning-in-slides/using-shapeutil-geometry-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان الأشكال الهندسية باستخدام ShapeUtil - Aspose.Slides .NET
+
 ## مقدمة
 يعد إنشاء شرائح عرض تقديمي ديناميكية وجذابة بصريًا مهارة أساسية، ويوفر Aspose.Slides for .NET مجموعة أدوات قوية لتحقيق ذلك. في هذا البرنامج التعليمي، سوف نستكشف استخدام ShapeUtil للتعامل مع الأشكال الهندسية في شرائح العرض التقديمي. سواء كنت مطورًا متمرسًا أو بدأت للتو في استخدام Aspose.Slides، سيرشدك هذا الدليل خلال عملية استخدام ShapeUtil لتحسين عروضك التقديمية.
 ## المتطلبات الأساسية
@@ -88,3 +94,9 @@ pres.Save(resultPath, SaveFormat.Pptx);
  قم بزيارة منتدى دعم المجتمع[هنا](https://forum.aspose.com/c/slides/11).
 ### هل يمكنني شراء ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
  نعم يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

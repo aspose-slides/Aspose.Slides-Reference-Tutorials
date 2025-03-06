@@ -3,10 +3,16 @@ title: Agregar marco de video desde fuente web en PowerPoint
 linktitle: Agregar marco de video desde fuente web en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo mejorar sus presentaciones de PowerPoint agregando fotogramas de video de fuentes web usando Aspose.Slides para Java.
-type: docs
 weight: 18
 url: /es/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar marco de video desde fuente web en PowerPoint
+
 ## Introducción
 En este tutorial, aprenderemos cómo agregar un fotograma de video desde una fuente web, como YouTube, a una presentación de PowerPoint usando Aspose.Slides para Java. Si sigue estas instrucciones paso a paso, podrá mejorar sus presentaciones incorporando atractivos elementos multimedia.
 ## Requisitos previos
@@ -84,3 +90,9 @@ Sí, se requiere una conexión a Internet activa para transmitir el video desde 
 Aspose.Slides admite una amplia gama de versiones de PowerPoint, lo que garantiza la compatibilidad entre diferentes plataformas.
 ### ¿Dónde puedo encontrar más recursos y soporte para Aspose.Slides?
  Puedes visitar el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para asistencia, documentación y apoyo comunitario.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

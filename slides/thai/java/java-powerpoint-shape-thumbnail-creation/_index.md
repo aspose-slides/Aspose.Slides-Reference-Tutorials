@@ -3,10 +3,16 @@ title: Java PowerPoint รูปร่างและการสร้างร
 linktitle: Java PowerPoint รูปร่างและการสร้างรูปขนาดย่อ
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้การสร้างรูปร่างและรูปขนาดย่อใน PowerPoint โดยใช้ Aspose.Slides Java บทช่วยสอนโดยละเอียดเกี่ยวกับการสร้างรูปร่างกลุ่ม การปรับขนาดภาพขนาดย่อ และเอฟเฟกต์การซูม
-type: docs
 weight: 24
 url: /th/java/java-powerpoint-shape-thumbnail-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint รูปร่างและการสร้างรูปขนาดย่อ
+
 ## การแนะนำ
 
 การสร้างงานนำเสนอ PowerPoint ที่ดึงดูดสายตาและเป็นระเบียบถือเป็นสิ่งสำคัญสำหรับการสื่อสารที่มีประสิทธิภาพ ด้วย Aspose.Slides สำหรับ Java คุณสามารถเพิ่มประสิทธิภาพการนำเสนอของคุณได้อย่างง่ายดายโดยการสร้างรูปทรงและภาพขนาดย่อที่หลากหลาย บทความนี้ให้คำแนะนำทีละขั้นตอนในการฝึกฝนเทคนิคเหล่านี้ เพื่อให้มั่นใจว่าสไลด์ของคุณน่าดึงดูดและเป็นมืออาชีพ
@@ -52,3 +58,9 @@ url: /th/java/java-powerpoint-shape-thumbnail-creation/
  เรียนรู้วิธีสร้างการซูมสรุปใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ด้วยบทช่วยสอนแบบทีละขั้นตอนที่ครอบคลุมนี้
 ### [สร้างกรอบการซูมใน PowerPoint](./create-zoom-frame-powerpoint/)
 เรียนรู้วิธีสร้าง Zoom Frames ที่น่าสนใจใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ปฏิบัติตามคำแนะนำของเราเพื่อเพิ่มองค์ประกอบเชิงโต้ตอบให้กับงานนำเสนอของคุณ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

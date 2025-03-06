@@ -3,10 +3,16 @@ title: Java Slides Animation and Layout
 linktitle: Java Slides Animation and Layout
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn Java Slides Animation and Layout with Aspose.Slides for Java. Master interactive presentations. Dive into dynamic content creation.
-type: docs
 weight: 14
 url: /java/animation-and-layout/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slides Animation and Layout
+
 
 Are you looking to breathe life into your presentations and create captivating slides with Java? Aspose.Slides for Java is your go-to solution. In this comprehensive guide, we'll explore how to master Java slides animation and layout, ensuring your presentations stand out from the rest.
 
@@ -42,3 +48,9 @@ Optimize your Java presentations with Aspose.Slides for Java. Learn how to anima
 Optimize your presentations with series animations in Aspose.Slides for Java. Follow our step-by-step guide with source code examples to create engaging PowerPoint animations.
 ### [Animating Series Elements in Java Slides](./animating-series-elements-java-slides/)
 Learn how to animate series elements in PowerPoint slides using Aspose.Slides for Java. Follow this comprehensive step-by-step guide with source code to enhance your presentations.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

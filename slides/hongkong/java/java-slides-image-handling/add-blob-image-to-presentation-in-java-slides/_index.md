@@ -3,10 +3,16 @@ title: 將 Blob 影像新增至 Java 幻燈片中的簡報
 linktitle: 將 Blob 影像新增至 Java 幻燈片中的簡報
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何輕鬆地將 Blob 映像新增至 Java Slides 簡報中。請按照我們的逐步指南使用 Aspose.Slides for Java 進行程式碼範例。
-type: docs
 weight: 10
 url: /zh-hant/java/image-handling/add-blob-image-to-presentation-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將 Blob 影像新增至 Java 幻燈片中的簡報
+
 
 ## 將 Blob 影像新增至 Java 簡報中的簡介投影片
 
@@ -133,3 +139,9 @@ Aspose.Slides for Java 可以透過從網站下載庫來輕鬆安裝[這裡](htt
 ### Aspose.Slides 適合進階 PowerPoint 自動化任務嗎？
 
 絕對地！ Aspose.Slides 提供了 PowerPoint 自動化的進階功能，包括投影片建立、修改和資料擷取。它是簡化 PowerPoint 相關任務的強大工具。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

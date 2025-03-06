@@ -3,10 +3,16 @@ title: Vestavěná komprese písem v Java PowerPoint
 linktitle: Vestavěná komprese písem v Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se komprimovat vložená písma v prezentacích Java PowerPoint pomocí Aspose.Slides. Optimalizujte velikost souborů bez námahy.
-type: docs
 weight: 12
 url: /cs/java/java-powerpoint-font-management/embedded-font-compression-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vestavěná komprese písem v Java PowerPoint
+
 ## Úvod
 V dynamickém prostředí digitálních prezentací je schopnost optimalizovat velikosti souborů bez kompromisů v kvalitě prvořadá. Aspose.Slides for Java nabízí výkonné řešení pro zvýšení efektivity prezentací PowerPoint tím, že umožňuje vestavěnou kompresi písem. Tento výukový program vás provede procesem využití této funkce k efektivnímu zmenšení velikosti souborů, což zajistí hladší distribuci a lepší výkon vašich prezentací.
 ## Předpoklady
@@ -64,3 +70,9 @@ Ano, Aspose.Slides nabízí funkce šifrování a ochrany heslem pro ochranu va�
  Rozhodně! Můžete požádat o podporu od komunity Aspose.Slides prostřednictvím vyhrazené[Fórum](https://forum.aspose.com/c/slides/11) nebo zvážit získání dočasné licence pro přednostní asistenci.
 ### Jak si mohu zakoupit licencovanou verzi Aspose.Slides pro Java?
 Licencovanou verzi Aspose.Slides for Java si můžete zakoupit z webové stránky pomocí poskytnutého[koupit odkaz](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: หลายย่อหน้าใน Java PowerPoint
 linktitle: หลายย่อหน้าใน Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีสร้างหลายย่อหน้าในงานนำเสนอ Java PowerPoint โดยใช้ Aspose.Slides สำหรับ Java คู่มือฉบับสมบูรณ์พร้อมตัวอย่างโค้ด
-type: docs
 weight: 13
 url: /th/java/java-powerpoint-text-paragraph-management/multiple-paragraphs-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# หลายย่อหน้าใน Java PowerPoint
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะสำรวจวิธีสร้างสไลด์ที่มีหลายย่อหน้าใน Java โดยใช้ Aspose.Slides สำหรับ Java Aspose.Slides เป็นไลบรารีอันทรงพลังที่ช่วยให้นักพัฒนาจัดการงานนำเสนอ PowerPoint โดยทางโปรแกรม ทำให้เหมาะสำหรับงานอัตโนมัติที่เกี่ยวข้องกับการสร้างและการจัดรูปแบบสไลด์
 ## ข้อกำหนดเบื้องต้น
@@ -113,3 +119,9 @@ Aspose.Slides รองรับรูปแบบ PowerPoint ที่หลา
  ใช่ คุณสามารถดาวน์โหลดเวอร์ชันทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
 ### ฉันจะได้รับการสนับสนุนทางเทคนิคได้อย่างไรหากจำเป็น?
  คุณสามารถรับการสนับสนุนจากชุมชน Aspose.Slides[ที่นี่](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

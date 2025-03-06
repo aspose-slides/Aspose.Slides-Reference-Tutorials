@@ -3,10 +3,16 @@ title: Skapa fantastiska gradienter i PowerPoint med Aspose.Slides
 linktitle: Fylla former med gradient i presentationsbilder med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Förbättra dina presentationer med Aspose.Slides för .NET! Lär dig steg-för-steg-processen för att fylla former med gradienter. Ladda ner din kostnadsfria testversion nu!
-type: docs
 weight: 21
 url: /sv/net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa fantastiska gradienter i PowerPoint med Aspose.Slides
+
 ## Introduktion
 Att skapa visuellt fängslande presentationsbilder är viktigt för att fånga och behålla din publiks uppmärksamhet. I den här handledningen går vi igenom processen att förbättra dina bilder genom att fylla en ellipsform med en gradient med Aspose.Slides för .NET.
 ## Förutsättningar
@@ -73,3 +79,9 @@ A: Visst! Aspose.Slides för .NET stöder gradientfyllning för olika former som
  S: Sök hjälp och engagera dig i samhället[Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
 ### F: Kan jag köpa en tillfällig licens för Aspose.Slides för .NET?
  S: Visst kan du få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Erstellen von Folienminiaturen in Aspose.Slides
 linktitle: Erstellen von Folienminiaturen in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erstellen Sie Folienminiaturen in Aspose.Slides für .NET mit Schritt-für-Schritt-Anleitung und Codebeispielen. Passen Sie das Erscheinungsbild an und speichern Sie Miniaturansichten. Verbessern Sie die Präsentationsvorschau.
-type: docs
 weight: 10
 url: /de/net/slide-thumbnail-generation/slide-thumbnail-generation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen von Folienminiaturen in Aspose.Slides
+
 
 Wenn Sie mit Aspose.Slides Folienminiaturen in Ihren .NET-Anwendungen generieren möchten, sind Sie hier richtig. Das Erstellen von Folienminiaturen kann in verschiedenen Szenarien eine wertvolle Funktion sein, beispielsweise beim Erstellen benutzerdefinierter PowerPoint-Viewer oder beim Generieren von Bildvorschauen von Präsentationen. In dieser umfassenden Anleitung führen wir Sie Schritt für Schritt durch den Prozess. Wir behandeln Voraussetzungen, importieren Namespaces und unterteilen jedes Beispiel in mehrere Schritte, sodass Sie die Generierung von Folienminiaturen problemlos implementieren können.
 
@@ -111,3 +117,9 @@ A: Ja, Sie können die Abmessungen anpassen, indem Sie die Parameter im`GetThumb
 A: Ja, Aspose.Slides ist eine robuste Lösung für private und kommerzielle Anwendungen. Lizenzdetails finden Sie auf der Aspose-Website.
 
  Für weitere Hilfe oder Fragen besuchen Sie bitte die[Aspose.Slides Support-Forum](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

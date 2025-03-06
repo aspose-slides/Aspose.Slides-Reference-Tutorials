@@ -3,10 +3,16 @@ title: Imposta i dati del grafico dalla cartella di lavoro nelle diapositive Jav
 linktitle: Imposta i dati del grafico dalla cartella di lavoro nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come impostare i dati del grafico da una cartella di lavoro di Excel in Diapositive Java utilizzando Aspose.Slides. Guida passo passo con esempi di codice per presentazioni dinamiche.
-type: docs
 weight: 15
 url: /it/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Imposta i dati del grafico dalla cartella di lavoro nelle diapositive Java
+
 
 ## Introduzione all'impostazione dei dati del grafico dalla cartella di lavoro nelle diapositive Java
 
@@ -142,3 +148,9 @@ Sì, puoi aggiornare dinamicamente i dati del grafico in una presentazione modif
 ### Dove posso trovare altri esempi e risorse per lavorare con Aspose.Slides per Java?
 
  Puoi esplorare ulteriori esempi e risorse su[Sito web Aspose](https://www.aspose.com/). Inoltre, la documentazione Aspose.Slides per Java fornisce indicazioni complete su come lavorare con la libreria.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

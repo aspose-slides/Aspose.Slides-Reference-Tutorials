@@ -3,10 +3,16 @@ title: Spalten in Textfeldern hinzufügen mit Aspose.Slides für Java
 linktitle: Spalten in Textfeldern hinzufügen mit Aspose.Slides für Java
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Spalten zu Textfeldern in PowerPoint hinzufügen. Verbessern Sie Ihre Präsentationen mit dieser Schritt-für-Schritt-Anleitung.
-type: docs
 weight: 10
 url: /de/java/java-powerpoint-text-box-manipulation/add-column-in-text-boxes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Spalten in Textfeldern hinzufügen mit Aspose.Slides für Java
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie Textfelder durch Hinzufügen von Spalten mithilfe von Aspose.Slides für Java verbessern können. Aspose.Slides ist eine leistungsstarke Java-Bibliothek, mit der Entwickler PowerPoint-Präsentationen programmgesteuert erstellen, bearbeiten und konvertieren können, ohne Microsoft Office zu benötigen. Das Hinzufügen von Spalten zu Textfeldern kann die Lesbarkeit und Organisation von Inhalten in Folien erheblich verbessern und Ihre Präsentationen ansprechender und professioneller gestalten.
 ## Voraussetzungen
@@ -82,3 +88,9 @@ Ja, Aspose.Slides unterstützt Java 11 und höhere Versionen.
 Nein, für Aspose.Slides muss Microsoft Office nicht auf dem Computer installiert sein.
 ### Wo finde ich weitere Dokumentation zu Aspose.Slides für Java?
  Detaillierte Dokumentation ist verfügbar[Hier](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

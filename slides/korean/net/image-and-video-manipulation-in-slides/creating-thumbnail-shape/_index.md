@@ -3,10 +3,16 @@ title: PowerPoint 모양 축소판 만들기 - Aspose.Slides .NET
 linktitle: Aspose.Slides에서 모양의 썸네일 만들기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션의 모양에 대한 축소판을 만드는 방법을 알아보세요. 개발자를 위한 포괄적인 단계별 가이드입니다.
-type: docs
 weight: 14
 url: /ko/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint 모양 축소판 만들기 - Aspose.Slides .NET
+
 ## 소개
 Aspose.Slides for .NET은 개발자가 PowerPoint 프레젠테이션을 원활하게 사용할 수 있도록 지원하는 강력한 라이브러리입니다. 주목할만한 기능 중 하나는 프레젠테이션 내의 모양에 대한 축소판을 생성하는 기능입니다. 이 튜토리얼은 Aspose.Slides for .NET을 사용하여 모양의 썸네일을 만드는 과정을 안내합니다.
 ## 전제 조건
@@ -57,3 +63,9 @@ A: try-catch 블록을 사용하여 오류 처리 메커니즘을 구현하여 �
 A: Aspose.Slides는 텍스트 상자, 이미지 등을 포함한 다양한 모양의 썸네일을 생성할 수 있는 유연성을 제공합니다.
 ### Q: 생성된 썸네일의 크기와 해상도를 사용자 정의할 수 있나요?
  A: 예, 전화를 걸 때 매개변수를 조정할 수 있습니다.`GetThumbnail` 크기와 해상도를 제어하는 방법.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

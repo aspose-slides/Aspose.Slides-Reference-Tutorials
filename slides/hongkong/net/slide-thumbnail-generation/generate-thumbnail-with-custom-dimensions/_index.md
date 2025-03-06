@@ -3,10 +3,16 @@ title: 在具有自訂尺寸的幻燈片中產生縮圖
 linktitle: 產生具有自訂尺寸的縮圖
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 從 PowerPoint 簡報產生自訂縮圖。增強使用者體驗和功能。
-type: docs
 weight: 13
 url: /zh-hant/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在具有自訂尺寸的幻燈片中產生縮圖
+
 
 無論您是建立互動式應用程式、增強使用者體驗或優化各種平台的內容，建立 PowerPoint 簡報的自訂縮圖都是一項寶貴的資產。在本教學中，我們將引導您完成使用 Aspose.Slides for .NET 函式庫從 PowerPoint 簡報產生自訂縮圖的過程。這個功能強大的程式庫可讓您在 .NET 應用程式中以程式設計方式操作、轉換和增強 PowerPoint 檔案。
 
@@ -115,3 +121,9 @@ Aspose.Slides for .NET 是一個功能強大的程式庫，可讓開發人員在
 
 ### Aspose.Slides for .NET 是否提供技術支援？
 是的，您可以訪問技術支援和社區論壇[這裡](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

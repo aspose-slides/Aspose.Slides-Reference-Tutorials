@@ -3,10 +3,16 @@ title: 在 PowerPoint 中以圖片填滿形狀
 linktitle: 在 PowerPoint 中以圖片填滿形狀
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中以圖片填滿形狀。毫不費力地增強視覺吸引力。
-type: docs
 weight: 12
 url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 PowerPoint 中以圖片填滿形狀
+
 ## 介紹
 PowerPoint 簡報通常需要視覺元素，例如充滿圖像的形狀，以增強其吸引力並有效地傳達訊息。 Aspose.Slides for Java 提供了一組強大的工具來無縫完成此任務。在本教程中，我們將逐步學習如何使用 Aspose.Slides for Java 用圖片填滿形狀。
 ## 先決條件
@@ -80,3 +86,9 @@ Aspose.Slides for Java 產生與 PowerPoint 97 及更高版本相容的簡報，
 Aspose.Slides for Java 支援多種影像格式，包括 JPEG、PNG、GIF、BMP 和 TIFF 等。
 ### 我可以對填滿的形狀套用效果嗎？
 是的，Aspose.Slides for Java 提供了全面的 API，可將陰影、反射和 3D 旋轉等各種效果應用於填滿形狀。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

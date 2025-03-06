@@ -3,10 +3,16 @@ title: PowerPoint에서 이모티콘 렌더링
 linktitle: PowerPoint에서 이모티콘 렌더링
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 이모티콘을 쉽게 렌더링하는 방법을 알아보세요. 표현력이 풍부한 영상으로 참여도를 높입니다.
-type: docs
 weight: 12
 url: /ko/java/java-powerpoint-rendering-techniques/render-emojis-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint에서 이모티콘 렌더링
+
 ## 소개
 이모티콘은 프레젠테이션에 색상과 감정을 더해 커뮤니케이션의 필수적인 부분이 되었습니다. PowerPoint 슬라이드에 이모티콘을 통합하면 참여도를 높이고 복잡한 아이디어를 간단하게 전달할 수 있습니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint에서 이모티콘을 렌더링하는 과정을 안내합니다.
 ## 전제 조건
@@ -52,3 +58,9 @@ Aspose.Slides for Java는 표준 유니코드 이모티콘과 사용자 정의 �
 예, Aspose.Slides for Java는 모든 버전의 PowerPoint와 호환되므로 다양한 플랫폼에서 이모티콘을 원활하게 렌더링할 수 있습니다.
 ### Aspose.Slides for Java에 사용할 수 있는 평가판이 있습니까?
  예, 다음에서 Java용 Aspose.Slides의 무료 평가판을 다운로드할 수 있습니다.[웹사이트](https://releases.aspose.com/) 구매하기 전에 기능을 살펴보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

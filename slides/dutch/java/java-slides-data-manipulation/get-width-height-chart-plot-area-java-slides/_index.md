@@ -3,10 +3,16 @@ title: Haal de breedte en hoogte uit het diagramplotgebied in Java-dia's
 linktitle: Haal de breedte en hoogte uit het diagramplotgebied in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u de dimensies van het diagramplotgebied kunt ophalen in Java Slides met behulp van Aspose.Slides voor Java. Verbeter uw PowerPoint-automatiseringsvaardigheden.
-type: docs
 weight: 21
 url: /nl/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Haal de breedte en hoogte uit het diagramplotgebied in Java-dia's
+
 
 ## Invoering
 
@@ -109,3 +115,10 @@ Ja, Aspose.Slides voor Java is een krachtige bibliotheek voor het automatiseren 
 ### Hoe kan ik meer te weten komen over Aspose.Slides voor Java?
 
  Uitgebreide documentatie en voorbeelden vindt u op de documentatiepagina Aspose.Slides voor Java[hier](https://reference.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

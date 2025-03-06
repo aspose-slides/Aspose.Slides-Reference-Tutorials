@@ -3,10 +3,16 @@ title: 在 Java 幻燈片中將簡報轉換為響應式 HTML
 linktitle: 在 Java 幻燈片中將簡報轉換為響應式 HTML
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 輕鬆將 Java Slides 中的簡報轉換為響應式 HTML。讓您的內容可以在任何裝置上存取。
-type: docs
 weight: 18
 url: /zh-hant/java/presentation-conversion/convert-presentation-responsive-html-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 幻燈片中將簡報轉換為響應式 HTML
+
 
 ## 在 Java 幻燈片中將簡報轉換為響應式 HTML 簡介
 
@@ -108,3 +114,9 @@ finally
 ### 我也可以將簡報轉換為其他格式嗎？
 
 是的，Aspose.Slides 支援多種輸出格式，包括 PDF、圖像等。您可以瀏覽文件以取得其他轉換選項。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

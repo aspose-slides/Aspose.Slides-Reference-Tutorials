@@ -3,10 +3,16 @@ title: Aspose.Slides avsnittszoom - höj dina presentationer
 linktitle: Skapa sektionszoom i presentationsbilder med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du skapar engagerande presentationsbilder med sektionszoom med Aspose.Slides för .NET. Lyft dina presentationer med interaktiva funktioner.
-type: docs
 weight: 13
 url: /sv/net/image-and-video-manipulation-in-slides/creating-section-zoom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides avsnittszoom - höj dina presentationer
+
 ## Introduktion
 Att förbättra dina presentationsbilder med interaktiva funktioner är avgörande för att hålla din publik engagerad. Ett kraftfullt sätt att uppnå detta är genom att inkludera sektionszoomningar, så att du sömlöst kan navigera mellan olika delar av din presentation. I den här handledningen kommer vi att utforska hur man skapar avsnittszoomningar i presentationsbilder med Aspose.Slides för .NET.
 ## Förutsättningar
@@ -70,3 +76,9 @@ Absolut! Du har full kontroll över dimensionerna, placeringen och utformningen 
  Ja, du kan utforska funktionerna i Aspose.Slides genom att använda[gratis provperiod](https://releases.aspose.com/).
 ### Var kan jag få support för Aspose.Slides-relaterade frågor?
  För support eller frågor, besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

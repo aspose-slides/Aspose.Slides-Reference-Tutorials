@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में केवल पढ़न
 linktitle: जावा स्लाइड्स में केवल पढ़ने के लिए अनुशंसित गुण
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके Java PowerPoint प्रस्तुतियों में केवल पढ़ने के लिए अनुशंसित गुणों को सक्षम करने का तरीका जानें। बेहतर प्रस्तुति सुरक्षा के लिए स्रोत कोड उदाहरणों के साथ हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 17
 url: /hi/java/presentation-properties/read-only-recommended-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में केवल पढ़ने के लिए अनुशंसित गुण
+
 
 ## जावा स्लाइड्स में केवल पढ़ने के लिए अनुशंसित गुण सक्षम करने का परिचय
 
@@ -88,3 +94,9 @@ pres.getProtectionManager().setPassword("YourPassword");
 ```
 
  प्रतिस्थापित करना याद रखें`"YourPassword"` अपने इच्छित पासवर्ड के साथ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

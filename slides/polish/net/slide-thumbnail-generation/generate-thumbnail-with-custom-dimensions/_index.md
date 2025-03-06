@@ -3,10 +3,16 @@ title: Generuj miniatury na slajdach o niestandardowych wymiarach
 linktitle: Wygeneruj miniaturę z niestandardowymi wymiarami
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak generować niestandardowe miniatury z prezentacji programu PowerPoint za pomocą Aspose.Slides dla .NET. Zwiększ komfort użytkowania i funkcjonalność.
-type: docs
 weight: 13
 url: /pl/net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Generuj miniatury na slajdach o niestandardowych wymiarach
+
 
 Tworzenie niestandardowych miniatur prezentacji programu PowerPoint może być cennym nabytkiem, niezależnie od tego, czy tworzysz interaktywną aplikację, poprawiasz komfort użytkownika, czy optymalizujesz zawartość dla różnych platform. W tym samouczku przeprowadzimy Cię przez proces generowania niestandardowych miniatur z prezentacji programu PowerPoint przy użyciu biblioteki Aspose.Slides dla .NET. Ta potężna biblioteka umożliwia programowe manipulowanie, konwertowanie i ulepszanie plików programu PowerPoint w aplikacjach .NET.
 
@@ -115,3 +121,9 @@ Chociaż pewna znajomość programowania .NET jest korzystna, Aspose.Slides dla 
 
 ### Czy dostępna jest pomoc techniczna dla Aspose.Slides dla .NET?
  Tak, możesz uzyskać dostęp do pomocy technicznej i forów społeczności[Tutaj](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Set Paragraph Indent in Java PowerPoint
 linktitle: Set Paragraph Indent in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set paragraph indents in PowerPoint slides programmatically using Aspose.Slides for Java. Enhance your presentation formatting effortlessly.
-type: docs
 weight: 16
 url: /java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Set Paragraph Indent in Java PowerPoint
+
 ## Introduction
 In this tutorial, you will learn how to manipulate PowerPoint presentations programmatically using Aspose.Slides for Java. Specifically, we will focus on setting paragraph indents within slides. Aspose.Slides for Java provides a powerful set of APIs that allow developers to create, modify, convert, and manage PowerPoint presentations without relying on Microsoft Office Automation.
 ## Prerequisites
@@ -85,3 +91,10 @@ You can download it from [here](https://releases.aspose.com/slides/java/).
 Yes, you can get a free trial from [here](https://releases.aspose.com/).
 ### Where can I get support for Aspose.Slides for Java?
 You can get support from the community forum [here](https://forum.aspose.com/c/slides/11).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

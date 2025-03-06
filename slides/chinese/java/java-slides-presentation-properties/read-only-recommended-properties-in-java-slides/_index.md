@@ -3,10 +3,16 @@ title: Java 幻灯片中的只读推荐属性
 linktitle: Java 幻灯片中的只读推荐属性
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java PowerPoint 演示文稿中启用只读推荐属性。按照我们的分步指南和源代码示例来增强演示文稿的安全性。
-type: docs
 weight: 17
 url: /zh/java/presentation-properties/read-only-recommended-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 幻灯片中的只读推荐属性
+
 
 ## Java 幻灯片中启用只读推荐属性的简介
 
@@ -88,3 +94,9 @@ pres.getProtectionManager().setPassword("YourPassword");
 ```
 
 记得更换`"YourPassword"`使用您想要的密码。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

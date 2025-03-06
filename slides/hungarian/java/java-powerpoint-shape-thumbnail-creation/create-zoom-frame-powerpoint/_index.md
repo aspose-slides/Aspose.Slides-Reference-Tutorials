@@ -3,10 +3,16 @@ title: Hozzon létre zoom keretet a PowerPointban
 linktitle: Hozzon létre zoom keretet a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre lenyűgöző zoom kereteket a PowerPointban az Aspose.Slides for Java segítségével. Kövesse útmutatónkat, ha interaktív elemeket szeretne hozzáadni prezentációihoz.
-type: docs
 weight: 17
 url: /hu/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hozzon létre zoom keretet a PowerPointban
+
 ## Bevezetés
 Lebilincselő PowerPoint-prezentációk készítése művészet, és néha a legkisebb kiegészítések is óriási változást hozhatnak. Az egyik ilyen funkció a Zoom Frame, amely lehetővé teszi, hogy bizonyos diákra vagy képekre nagyítson, dinamikus és interaktív prezentációt készítve. Ebben az oktatóanyagban végigvezetjük a zoom keret létrehozásának folyamatán a PowerPointban az Aspose.Slides for Java használatával.
 ## Előfeltételek
@@ -113,3 +119,9 @@ Igen, az Aspose.Slides lehetővé teszi a nagyítási keretek különféle tulaj
 Teljesen! Egyéni képeket adhat hozzá a nagyítási keretekhez a képfájlok elolvasásával és a bemutatóhoz való hozzáadásával.
 ### Hol találok további példákat és dokumentációt?
  Részletes dokumentációt és példákat találhat az oldalon[Aspose.Slides for Java dokumentációs oldal](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

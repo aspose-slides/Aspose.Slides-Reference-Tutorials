@@ -3,10 +3,16 @@ title: Opciones de segunda trama para gráficos en diapositivas de Java
 linktitle: Opciones de segunda trama para gráficos en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a personalizar gráficos en Java Slides usando Aspose.Slides para Java. Explora opciones de segunda trama y mejora tus presentaciones.
-type: docs
 weight: 12
 url: /es/java/chart-creation/second-plot-options-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opciones de segunda trama para gráficos en diapositivas de Java
+
 
 ## Introducción a las opciones de segundo gráfico para gráficos en diapositivas de Java
 
@@ -93,3 +99,9 @@ Para cambiar el tamaño del segundo gráfico circular en un gráfico circular, u
 ### ¿Cómo configuro la posición de la división en un gráfico circular?
 
  Puede establecer la posición de la división en un gráfico circular utilizando el`setPieSplitPosition` método. Ajuste el valor para especificar la posición deseada.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

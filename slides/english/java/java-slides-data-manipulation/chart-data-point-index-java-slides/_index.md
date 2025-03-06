@@ -3,10 +3,16 @@ title: Chart Data Point Index in Java Slides
 linktitle: Chart Data Point Index in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to manipulate chart data point indexes in Java Slides using Aspose.Slides for Java. Extract and work with data from PowerPoint charts effortlessly.
-type: docs
 weight: 12
 url: /java/data-manipulation/chart-data-point-index-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chart Data Point Index in Java Slides
+
 
 ## Introduction to Chart Data Point Index in Java Slides
 
@@ -98,3 +104,10 @@ You can export a PowerPoint presentation with charts to different formats, such 
 ### Where can I find more examples and documentation for Aspose.Slides for Java?
 
 You can find comprehensive examples and documentation for Aspose.Slides for Java on the Aspose documentation website [here](https://reference.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

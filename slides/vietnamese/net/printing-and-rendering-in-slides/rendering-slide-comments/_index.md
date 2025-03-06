@@ -3,10 +3,16 @@ title: Hiển thị nhận xét slide trong Aspose.Slides
 linktitle: Hiển thị nhận xét slide trong Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Khám phá cách hiển thị nhận xét về trang trình bày trong Aspose.Slides cho .NET bằng hướng dẫn từng bước của chúng tôi. Tùy chỉnh giao diện nhận xét và nâng cao khả năng tự động hóa PowerPoint của bạn.
-type: docs
 weight: 12
 url: /vi/net/printing-and-rendering-in-slides/rendering-slide-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hiển thị nhận xét slide trong Aspose.Slides
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về hiển thị nhận xét slide bằng Aspose.Slides cho .NET! Aspose.Slides là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc liền mạch với các bản trình bày PowerPoint trong ứng dụng .NET của họ. Trong hướng dẫn này, chúng tôi sẽ tập trung vào một nhiệm vụ cụ thể - hiển thị nhận xét trên trang trình bày - và hướng dẫn bạn từng bước thực hiện quy trình.
 ## Điều kiện tiên quyết
@@ -86,3 +92,9 @@ Trả lời: Có, Aspose.Slides được cập nhật thường xuyên để h�
  A: Bạn có thể nhận được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể tìm kiếm trợ giúp và hỗ trợ cho Aspose.Slides ở đâu?
  Đáp: Hãy ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để hỗ trợ cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

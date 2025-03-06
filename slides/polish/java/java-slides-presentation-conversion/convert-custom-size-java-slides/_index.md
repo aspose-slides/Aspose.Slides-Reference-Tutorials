@@ -3,10 +3,16 @@ title: Konwertuj przy użyciu rozmiaru niestandardowego w slajdach Java
 linktitle: Konwertuj przy użyciu rozmiaru niestandardowego w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak konwertować prezentacje programu PowerPoint do obrazów TIFF o niestandardowym rozmiarze przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z przykładami kodu dla programistów.
-type: docs
 weight: 31
 url: /pl/java/presentation-conversion/convert-custom-size-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konwertuj przy użyciu rozmiaru niestandardowego w slajdach Java
+
 
 ## Wprowadzenie do konwersji z niestandardowym rozmiarem w slajdach Java
 
@@ -137,3 +143,9 @@ Tak, możesz dostosować DPI za pomocą`setDpiX` I`setDpiY` metody w`TiffOptions
 ### Gdzie mogę znaleźć więcej informacji na temat Aspose.Slides dla Java?
 
  Aby uzyskać szczegółową dokumentację i dodatkowe informacje na temat Aspose.Slides for Java, odwiedź dokumentację:[Aspose.Slides dla odniesienia do API Java](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Agregar marco de objeto OLE en PowerPoint
 linktitle: Agregar marco de objeto OLE en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo integrar perfectamente marcos de objetos OLE en presentaciones de PowerPoint utilizando Aspose.Slides para Java.
-type: docs
 weight: 13
 url: /es/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar marco de objeto OLE en PowerPoint
+
 ## Introducción
 Agregar un marco de objetos OLE (vinculación e incrustación de objetos) en presentaciones de PowerPoint puede mejorar significativamente el atractivo visual y la funcionalidad de sus diapositivas. Con Aspose.Slides para Java, este proceso se vuelve ágil y eficiente. En este tutorial, lo guiaremos a través de los pasos necesarios para integrar perfectamente marcos de objetos OLE en sus presentaciones de PowerPoint.
 ### Requisitos previos
@@ -80,3 +86,9 @@ Aspose.Slides proporciona compatibilidad con una amplia gama de versiones de Pow
  Sí, puedes descargar una versión de prueba gratuita desde[aquí](https://releases.aspose.com/).
 ### ¿Dónde puedo encontrar soporte para Aspose.Slides para Java?
  Puede buscar apoyo y asistencia en el foro Aspose.Slides.[aquí](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

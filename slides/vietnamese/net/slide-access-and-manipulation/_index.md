@@ -3,10 +3,16 @@ title: Truy cập và thao tác với slide
 linktitle: Truy cập và thao tác với slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Khám phá các hướng dẫn toàn diện về truy cập và thao tác với slide bằng Aspose.Slides cho .NET. Tìm hiểu cách tạo, sửa đổi và nâng cao bản trình bày theo chương trình.
-type: docs
 weight: 10
 url: /vi/net/slide-access-and-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Truy cập và thao tác với slide
+
 ## Giới thiệu:
 
 Chào mừng bạn đến với thế giới thao tác trình bày động với Aspose.Slides cho .NET! Bộ sưu tập hướng dẫn này là chìa khóa để bạn khai thác toàn bộ tiềm năng của API Aspose.Slides, cung cấp cho bạn các công cụ và kiến thức để truy cập và thao tác liền mạch các trang trình bày trong ứng dụng .NET của bạn. Từ việc tạo bản trình bày hấp dẫn đến triển khai các sửa đổi phức tạp, những hướng dẫn này cung cấp cho bạn lộ trình toàn diện. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu hành trình với Aspose.Slides, hướng dẫn từng bước và ví dụ về mã của chúng tôi sẽ giúp bạn khai thác sức mạnh của các trang trình bày để kể chuyện bằng hình ảnh đầy tác động. Hãy tham gia cùng chúng tôi khi chúng tôi bắt đầu cuộc hành trình vào lĩnh vực truy cập và thao tác với trang trình bày, khám phá các khả năng mà Aspose.Slides mang đến trong tầm tay bạn.
@@ -44,3 +50,9 @@ Tìm hiểu cách điều chỉnh vị trí trang trình bày trong bản trình
 Tìm hiểu cách xóa từng bước các trang chiếu PowerPoint bằng Aspose.Slides cho .NET. Hướng dẫn của chúng tôi cung cấp hướng dẫn rõ ràng và mã nguồn hoàn chỉnh để giúp bạn loại bỏ các trang trình bày theo chỉ mục tuần tự của chúng theo chương trình.
 ### [Xóa slide qua tham chiếu](./remove-slide-using-reference/)
 Tìm hiểu cách xóa các trang trình bày theo chương trình trong bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Đơn giản hóa thao tác trình bày bằng hướng dẫn từng bước này.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

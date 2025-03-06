@@ -3,10 +3,16 @@ title: PowerPoint'te Bağlayıcıları kullanarak Şekilleri Bağlama
 linktitle: PowerPoint'te Bağlayıcıları kullanarak Şekilleri Bağlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile PowerPoint sunumlarında bağlayıcıları kullanarak şekilleri nasıl bağlayacağınızı öğrenin. Yeni başlayanlar için adım adım eğitim.
-type: docs
 weight: 18
 url: /tr/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connectors-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint'te Bağlayıcıları kullanarak Şekilleri Bağlama
+
 ## giriiş
 Bu eğitimde Aspose.Slides for Java'nın yardımıyla PowerPoint sunumlarında bağlayıcılar kullanarak şekilleri nasıl bağlayacağımızı keşfedeceğiz. Şekilleri verimli bir şekilde birleştirmek ve görsel olarak çekici slaytlar oluşturmak için bu adım adım talimatları izleyin.
 ## Önkoşullar
@@ -82,3 +88,9 @@ Evet, Aspose.Slides for Java tarafından sağlanan karmaşık bağlayıcıları 
 Kesinlikle, Aspose.Slides for Java'yı kullanarak şekillere ve bağlayıcılara programlı bir şekilde kolayca metin ekleyebilirsiniz.
 ### Aspose.Slides for Java kullanıcıları için bir topluluk forumu veya destek kanalı var mı?
  Evet, Aspose.Slides forumunda yararlı kaynaklar bulabilir, sorular sorabilir ve diğer kullanıcılarla iletişim kurabilirsiniz.[Burada](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

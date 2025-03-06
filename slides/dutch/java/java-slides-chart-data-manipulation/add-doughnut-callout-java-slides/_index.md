@@ -3,10 +3,16 @@ title: Donut-toelichting toevoegen aan Java-dia's
 linktitle: Donut-toelichting toevoegen aan Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u donut-toelichtingen toevoegt aan Java-dia's met behulp van Aspose.Slides voor Java. Stapsgewijze handleiding met broncode voor verbeterde presentaties.
-type: docs
 weight: 12
 url: /nl/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Donut-toelichting toevoegen aan Java-dia's
+
 
 ## Inleiding tot het toevoegen van een donut-toelichting in Java-dia's met behulp van Aspose.Slides voor Java
 
@@ -180,3 +186,9 @@ Ja, u kunt zoveel gegevenspunten aan het ringdiagram toevoegen als nodig is. Ver
 ### Hoe kan ik de positie en grootte van het ringdiagram op de dia aanpassen?
 
  U kunt de positie en grootte van het ringdiagram wijzigen door de parameters in het`addChart` methode. De vier getallen in die methode komen overeen met respectievelijk de X- en Y-coördinaten van de linkerbovenhoek van het diagram en de breedte en hoogte ervan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

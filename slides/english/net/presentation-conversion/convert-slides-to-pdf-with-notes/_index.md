@@ -3,10 +3,16 @@ title: Convert Slides to PDF with Notes
 linktitle: Convert Slides to PDF with Notes
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Effortlessly convert presentation slides with speaker notes to PDF using Aspose.Slides for .NET. Preserve content and context seamlessly.
-type: docs
 weight: 18
 url: /net/presentation-conversion/convert-slides-to-pdf-with-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convert Slides to PDF with Notes
+
 
 # Write Step By Step Tutorial Guide on Converting Slides to PDF with Notes using Aspose.Slides for .NET
 
@@ -98,3 +104,10 @@ You can find support and community discussions at [https://forum.aspose.com/](ht
 Yes, you can purchase a temporary license at [https://purchase.aspose.com/temporary-license/](https://purchase.aspose.com/temporary-license/).
 
 In conclusion, using Aspose.Slides for .NET, you can easily convert PowerPoint slides to PDF format with notes intact. It's a valuable tool for professionals who need to share presentations with colleagues and clients while ensuring that important context is not lost.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

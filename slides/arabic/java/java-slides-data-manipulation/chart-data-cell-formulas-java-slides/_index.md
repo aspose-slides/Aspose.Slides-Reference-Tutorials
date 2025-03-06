@@ -3,10 +3,16 @@ title: صيغ خلايا بيانات الرسم البياني في شرائح 
 linktitle: صيغ خلايا بيانات الرسم البياني في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين صيغ خلايا بيانات المخطط في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. إنشاء مخططات ديناميكية باستخدام الصيغ.
-type: docs
 weight: 11
 url: /ar/java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# صيغ خلايا بيانات الرسم البياني في شرائح جافا
+
 
 ## مقدمة إلى صيغ خلايا بيانات المخطط في Aspose.Slides لـ Java
 
@@ -122,3 +128,9 @@ finally
 ### كيف يمكنني تغيير نوع المخطط؟
 
  يمكنك تغيير نوع المخطط باستخدام`setChartType` الطريقة على`IChart` الكائن وتحديد المطلوب`ChartType`.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

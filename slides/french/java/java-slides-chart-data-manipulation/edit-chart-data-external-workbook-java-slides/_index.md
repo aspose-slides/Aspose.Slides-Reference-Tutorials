@@ -3,10 +3,16 @@ title: Modifier les données du graphique dans un classeur externe dans Java Sli
 linktitle: Modifier les données du graphique dans un classeur externe dans Java Slides
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment modifier les données d'un graphique dans un classeur externe à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec le code source.
-type: docs
 weight: 17
 url: /fr/java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifier les données du graphique dans un classeur externe dans Java Slides
+
 
 ## Introduction à la modification des données de graphique dans un classeur externe dans Java Slides
 
@@ -103,3 +109,9 @@ Vous pouvez adapter le code pour gérer différents formats de classeurs externe
 ### Comment puis-je automatiser ce processus pour plusieurs présentations ?
 
 Vous pouvez créer une boucle pour traiter plusieurs présentations, en chargeant chacune d'elles, en apportant les modifications souhaitées et en enregistrant les présentations modifiées une par une.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

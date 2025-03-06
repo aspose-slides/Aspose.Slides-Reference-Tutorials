@@ -3,10 +3,16 @@ title: الرسوم البيانية العادية في شرائح جافا
 linktitle: الرسوم البيانية العادية في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: إنشاء مخططات عادية في شرائح Java باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة والكود المصدري لإنشاء المخططات وتخصيصها وحفظها في عروض PowerPoint التقديمية.
-type: docs
 weight: 21
 url: /ar/java/chart-data-manipulation/normal-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الرسوم البيانية العادية في شرائح جافا
+
 
 ## مقدمة إلى المخططات العادية في شرائح جافا
 
@@ -240,3 +246,9 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ### كيف يمكنني حفظ المخطط بتنسيق ملف مختلف؟
 
  لحفظ المخطط بتنسيق ملف مختلف، قم بتغيير الملف`SaveFormat` المعلمة في`pres.save()` الطريقة إلى التنسيق المطلوب (على سبيل المثال، PDF، PNG، JPEG).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

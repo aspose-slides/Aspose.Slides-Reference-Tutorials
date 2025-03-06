@@ -3,10 +3,16 @@ title: プレゼンテーションを埋め込みフォント付きの HTML に�
 linktitle: プレゼンテーションを埋め込みフォント付きの HTML に変換する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションを埋め込みフォント付きの HTML に変換します。独創性をシームレスに維持します。
-type: docs
 weight: 13
 url: /ja/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# プレゼンテーションを埋め込みフォント付きの HTML に変換する
+
 
 今日のデジタル時代では、プレゼンテーションやドキュメントをオンラインで共有することが一般的になっています。しかし、プレゼンテーションを HTML に変換するときにフォントが正しく表示されるようにすることが、よく発生する課題の 1 つです。このステップ バイ ステップのチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーションを埋め込みフォント付きの HTML に変換し、ドキュメントが意図したとおりに表示されるようにする手順を説明します。
 
@@ -120,3 +126,10 @@ Aspose.Slides for .NET は優れたフォント埋め込み機能を提供しま
 ### 5. Aspose.Slides for .NET に関する追加のリソースとサポートはどこで入手できますか?
 
 ドキュメントを含む豊富なリソースにアクセスできます。[Aspose.Slides for .NET API リファレンス](https://reference.aspose.com/slides/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

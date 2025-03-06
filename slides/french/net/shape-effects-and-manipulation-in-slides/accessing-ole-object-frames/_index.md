@@ -3,10 +3,16 @@ title: Accès aux cadres d'objets OLE dans les diapositives de présentation ave
 linktitle: Accès aux cadres d'objets OLE dans les diapositives de présentation avec Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment accéder et manipuler les cadres d'objets OLE dans les diapositives de présentation à l'aide d'Aspose.Slides pour .NET. Améliorez vos capacités de traitement des diapositives avec des conseils étape par étape et des exemples de code pratiques.
-type: docs
 weight: 11
 url: /fr/net/shape-effects-and-manipulation-in-slides/accessing-ole-object-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Accès aux cadres d'objets OLE dans les diapositives de présentation avec Aspose.Slides
+
 
 ## Introduction
 
@@ -99,3 +105,9 @@ Oui, vous pouvez gérer les interactions et les comportements des objets OLE dan
 Dans le monde des présentations, la possibilité d'exploiter la puissance des cadres d'objets OLE peut élever votre contenu vers de nouveaux sommets d'interactivité et d'engagement. Aspose.Slides pour .NET simplifie le processus d'accès et de manipulation des cadres d'objets OLE, vous permettant d'intégrer de manière transparente le contenu d'autres applications et d'enrichir vos présentations. En suivant le guide étape par étape et en utilisant les exemples de code fournis, vous débloquerez un monde de possibilités pour des diapositives dynamiques et captivantes.
 
 Libérez le potentiel des cadres d'objets OLE avec Aspose.Slides et transformez vos présentations en expériences interactives qui captivent l'attention de votre public.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

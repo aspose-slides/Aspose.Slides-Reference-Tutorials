@@ -3,10 +3,16 @@ title: Java Slaytlarındaki Düzen Formatlarına Erişim
 linktitle: Java Slaytlarındaki Düzen Formatlarına Erişim
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile Java Slides'ta düzen formatlarına nasıl erişeceğinizi ve bunları nasıl değiştireceğinizi öğrenin. PowerPoint sunumlarında şekil ve çizgi stillerini zahmetsizce özelleştirin.
-type: docs
 weight: 10
 url: /tr/java/presentation-properties/access-layout-formats-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarındaki Düzen Formatlarına Erişim
+
 
 ## Java Slaytlarındaki Erişim Düzeni Formatlarına Giriş
 
@@ -138,3 +144,9 @@ IShape shape = layoutSlide.getShapes().get_Item(0); // Düzen slaytındaki ilk �
 ```
 
  Daha sonra şunu kullanabilirsiniz:`IFillFormat` Ve`ILineFormat` şeklin dolgu ve çizgi formatlarını değiştirmek için önceki cevaplarda gösterilen yöntemler.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

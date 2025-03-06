@@ -3,10 +3,16 @@ title: إضافة إزاحة ممتدة إلى اليسار في برنامج Po
 linktitle: إضافة إزاحة ممتدة إلى اليسار لإطار الصورة في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تحسين عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ .NET. اتبع دليلنا خطوة بخطوة لإضافة إزاحة ممتدة إلى اليسار لإطارات الصور.
-type: docs
 weight: 14
 url: /ar/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة إزاحة ممتدة إلى اليسار في برنامج PowerPoint باستخدام Aspose.Slide
+
 ## مقدمة
 Aspose.Slides for .NET هي مكتبة قوية تمكن المطورين من التعامل مع عروض PowerPoint التقديمية بسهولة. في هذا البرنامج التعليمي، سوف نستكشف عملية إضافة إزاحة امتداد إلى اليسار لإطار الصورة باستخدام Aspose.Slides for .NET. اتبع هذا الدليل التفصيلي خطوة بخطوة لتحسين مهاراتك في العمل مع الصور والأشكال داخل عروض PowerPoint التقديمية.
 ## المتطلبات الأساسية
@@ -85,3 +91,9 @@ pres.Save(dataDir + "StretchOffsetLeftForPictureFrame_out.pptx", SaveFormat.Pptx
  ج: اكتشف[Aspose.Slides الوثائق](https://reference.aspose.com/slides/net/) للحصول على أمثلة وإرشادات شاملة.
 ### س: هل يمكنني تطبيق إزاحات امتداد متعددة على شكل واحد؟
 ج: نعم، يمكنك الجمع بين إزاحات امتداد متعددة لتحقيق تأثيرات بصرية معقدة ومخصصة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

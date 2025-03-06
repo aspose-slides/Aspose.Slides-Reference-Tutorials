@@ -3,10 +3,16 @@ title: Nhiều đoạn văn trong Java PowerPoint
 linktitle: Nhiều đoạn văn trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo nhiều đoạn văn trong bản trình bày Java PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn đầy đủ với các ví dụ về mã.
-type: docs
 weight: 13
 url: /vi/java/java-powerpoint-text-paragraph-management/multiple-paragraphs-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhiều đoạn văn trong Java PowerPoint
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách tạo các trang trình bày có nhiều đoạn văn trong Java bằng Aspose.Slides cho Java. Aspose.Slides là một thư viện mạnh mẽ cho phép các nhà phát triển thao tác với các bản trình bày PowerPoint theo chương trình, khiến nó trở nên lý tưởng để tự động hóa các tác vụ liên quan đến tạo và định dạng slide.
 ## Điều kiện tiên quyết
@@ -113,3 +119,9 @@ Aspose.Slides hỗ trợ nhiều định dạng PowerPoint khác nhau, đảm b�
  Có, bạn có thể tải xuống phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ kỹ thuật nếu cần?
  Bạn có thể nhận hỗ trợ từ cộng đồng Aspose.Slides[đây](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

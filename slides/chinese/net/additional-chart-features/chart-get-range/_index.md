@@ -3,10 +3,16 @@ title: 如何在 Aspose.Slides for .NET 中获取图表数据范围
 linktitle: 获取图表数据范围
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中提取图表数据范围。面向开发人员的分步指南。
-type: docs
 weight: 11
 url: /zh/net/additional-chart-features/chart-get-range/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 如何在 Aspose.Slides for .NET 中获取图表数据范围
+
 
 您是否希望使用 Aspose.Slides for .NET 从 PowerPoint 演示文稿中的图表中提取数据范围？您来对地方了。在本分步指南中，我们将引导您完成从演示文稿中获取图表数据范围的过程。Aspose.Slides for .NET 是一个功能强大的库，可让您以编程方式处理 PowerPoint 文档，获取图表数据范围只是它可以帮助您完成的众多任务之一。
 
@@ -93,3 +99,9 @@ Aspose.Slides for .NET 旨在处理各种 PowerPoint 文件格式，包括最新
 
 ### Aspose.Slides .NET 用户可以获得哪些支持选项？
 您可以从 Aspose 社区获得支持和帮助[支持论坛](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Acceder a la diapositiva por identificador único
 linktitle: Acceder a la diapositiva por identificador único
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda cómo acceder a diapositivas de PowerPoint mediante identificadores únicos utilizando Aspose.Slides para .NET. Esta guía paso a paso cubre la carga de presentaciones, el acceso a diapositivas por índice o ID, la modificación de contenido y el guardado de cambios.
-type: docs
 weight: 11
 url: /es/net/slide-access-and-manipulation/access-slide-by-id/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Acceder a la diapositiva por identificador único
+
 
 ## Introducción a Aspose.Slides para .NET
 
@@ -112,3 +118,9 @@ Absolutamente. Ya sea que esté trabajando en una presentación simple con algun
 ### ¿Dónde puedo encontrar documentación y recursos más detallados?
 
  Puede encontrar documentación completa, ejemplos de código, tutoriales y más en Aspose.Slides para .NET en el[documentación](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

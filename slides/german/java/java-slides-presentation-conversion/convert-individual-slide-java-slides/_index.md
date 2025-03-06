@@ -3,10 +3,16 @@ title: Einzelne Folien in Java-Folien konvertieren
 linktitle: Einzelne Folien in Java-Folien konvertieren
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie anhand von Codebeispielen, wie Sie mit Aspose.Slides für Java einzelne PowerPoint-Folien Schritt für Schritt in HTML konvertieren.
-type: docs
 weight: 12
 url: /de/java/presentation-conversion/convert-individual-slide-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Einzelne Folien in Java-Folien konvertieren
+
 
 ## Einführung zum Konvertieren einzelner Folien in Java-Folien
 
@@ -170,3 +176,9 @@ Sie haben erfolgreich einzelne Folien einer PowerPoint-Präsentation mit Aspose.
 ### Wie gehe ich mit zusätzlicher Formatierung für Formen und Text in Folien um?
 
  Sie können die`CustomFormattingController` Klasse zur Handhabung formspezifischer Formatierungen durch Implementierung der`writeShapeStart` Und`writeShapeEnd` Methoden und Anwenden einer benutzerdefinierten Formatierungslogik darin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Διαχείριση κεφαλίδας και υποσέλιδου στ�
 linktitle: Διαχείριση κεφαλίδας και υποσέλιδου στη διαφάνεια των σημειώσεων
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να διαχειρίζεστε την κεφαλίδα και το υποσέλιδο στις διαφάνειες σημειώσεων του PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Βελτιώστε τις παρουσιάσεις σας χωρίς κόπο.
-type: docs
 weight: 11
 url: /el/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαχείριση κεφαλίδας και υποσέλιδου στις σημειώσεις με το Aspose.Slides .NET
+
 
 Στη σημερινή ψηφιακή εποχή, η δημιουργία συναρπαστικών και ενημερωτικών παρουσιάσεων είναι ζωτικής σημασίας δεξιότητα. Ως μέρος αυτής της διαδικασίας, μπορεί συχνά να χρειαστεί να συμπεριλάβετε κεφαλίδες και υποσέλιδα στις διαφάνειες των σημειώσεων σας για να παρέχετε πρόσθετο πλαίσιο και πληροφορίες. Το Aspose.Slides for .NET είναι ένα ισχυρό εργαλείο που σας δίνει τη δυνατότητα να διαχειρίζεστε εύκολα τις ρυθμίσεις κεφαλίδας και υποσέλιδου στις διαφάνειες σημειώσεων. Σε αυτόν τον οδηγό βήμα προς βήμα, θα εξερευνήσουμε πώς να το πετύχετε αυτό χρησιμοποιώντας το Aspose.Slides για .NET.
 
@@ -120,3 +126,9 @@ using (Presentation presentation = new Presentation("presentation.pptx"))
 
 ### Είναι διαθέσιμη τεχνική υποστήριξη για το Aspose.Slides για χρήστες .NET;
  Ναι, μπορείτε να βρείτε υποστήριξη και βοήθεια από την κοινότητα Aspose και ειδικούς σχετικά με το[Aspose forum υποστήριξης](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

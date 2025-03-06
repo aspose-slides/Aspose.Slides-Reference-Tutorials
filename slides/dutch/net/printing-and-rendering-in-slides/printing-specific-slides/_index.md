@@ -3,10 +3,16 @@ title: Presentatiedia's afdrukken met Aspose.Slides in .NET
 linktitle: Specifieke presentatiedia's afdrukken met Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u presentatiedia's in .NET kunt afdrukken met Aspose.Slides. Stapsgewijze handleiding voor ontwikkelaars. Download de bibliotheek en begin vandaag nog met afdrukken.
-type: docs
 weight: 18
 url: /nl/net/printing-and-rendering-in-slides/printing-specific-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Presentatiedia's afdrukken met Aspose.Slides in .NET
+
 ## Invoering
 In de wereld van .NET-ontwikkeling onderscheidt Aspose.Slides zich als een krachtig hulpmiddel voor het werken met presentatiebestanden. Als u ooit presentatiedia's programmatisch wilt afdrukken, bent u hier aan het juiste adres. In deze zelfstudie onderzoeken we hoe u dit kunt bereiken met Aspose.Slides voor .NET.
 ## Vereisten
@@ -59,3 +65,9 @@ A: Ja, u kunt dat bereiken door de code aan te passen zodat specifieke dia's sel
  EEN: Absoluut! U kunt een gratis proefversie downloaden[hier](https://releases.aspose.com/).
 ### Vraag: Hoe koop ik Aspose.Slides voor .NET?
  A: Je kunt de bibliotheek kopen[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ορισμός επικάλυψης σειράς γραφημάτων σ�
 linktitle: Ορισμός επικάλυψης σειράς γραφημάτων σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Οι σειρές βασικών γραφημάτων επικαλύπτονται στις διαφάνειες Java με το Aspose.Slides για Java. Μάθετε βήμα προς βήμα πώς να προσαρμόζετε τα γραφικά για εντυπωσιακές παρουσιάσεις.
-type: docs
 weight: 16
 url: /el/java/data-manipulation/set-chart-series-overlap-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ορισμός επικάλυψης σειράς γραφημάτων σε διαφάνειες Java
+
 
 ## Εισαγωγή στο Set Chart Series Overlap σε Java Slides
 
@@ -110,3 +116,9 @@ finally
 ### Πού μπορώ να βρω περισσότερους πόρους και παραδείγματα για το Aspose.Slides για Java;
 
  Για ολοκληρωμένη τεκμηρίωση και παραδείγματα, επισκεφθείτε τη σελίδα αναφοράς Aspose.Slides for Java:[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

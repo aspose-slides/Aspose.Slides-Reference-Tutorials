@@ -3,10 +3,16 @@ title: Wis dia met opeenvolgende index
 linktitle: Wis dia met opeenvolgende index
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer stap voor stap hoe u PowerPoint-dia's kunt wissen met Aspose.Slides voor .NET. Onze gids biedt duidelijke instructies en volledige broncode om u te helpen dia's programmatisch te verwijderen op basis van hun opeenvolgende index.
-type: docs
 weight: 24
 url: /nl/net/slide-access-and-manipulation/remove-slide-using-index/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wis dia met opeenvolgende index
+
 
 ## Inleiding tot het wissen van dia's met opeenvolgende index
 
@@ -86,3 +92,9 @@ Absoluut, u kunt dia's wissen op basis van omstandigheden zoals dia-inhoud, noti
 ### Hoe kom ik meer te weten over Aspose.Slides voor .NET?
 
  U kunt de gedetailleerde documentatie en API-referentie voor Aspose.Slides voor .NET verkennen op de website[documentatiepagina](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

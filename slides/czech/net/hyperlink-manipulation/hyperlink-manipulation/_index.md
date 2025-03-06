@@ -3,10 +3,16 @@ title: Manipulace s hypertextovými odkazy v Aspose.Slides
 linktitle: Manipulace s hypertextovými odkazy v Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se přidávat a odstraňovat hypertextové odkazy v Aspose.Slides pro .NET. Snadno vylepšete své prezentace pomocí interaktivních odkazů.
-type: docs
 weight: 10
 url: /cs/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulace s hypertextovými odkazy v Aspose.Slides
+
 
 Hypertextové odkazy jsou základními prvky prezentací, protože poskytují pohodlný způsob navigace mezi snímky nebo přístupu k externím zdrojům. Aspose.Slides for .NET nabízí výkonné funkce pro přidávání a odstraňování hypertextových odkazů ve snímcích prezentace. V tomto tutoriálu vás provedeme procesem manipulace s hypertextovými odkazy pomocí Aspose.Slides for .NET. Budeme se zabývat přidáváním hypertextových odkazů na snímek a odstraňováním hypertextových odkazů ze snímku. Takže, pojďme se ponořit!
 
@@ -121,3 +127,9 @@ Absolutně. Aspose.Slides podporuje různé formáty PowerPoint, včetně PPT, P
 
 ### Jak mohu získat dočasnou licenci pro Aspose.Slides?
  Pokud potřebujete dočasnou licenci pro Aspose.Slides, můžete si ji pořídit[tady](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Aspose.Slides .NET 添加相框教程
 linktitle: 在 Aspose.Slides 中添加具有相对比例高度的图片框架
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 学习在 Aspose.Slides for .NET 中添加具有相对比例高度的图片框架。按照此分步指南进行无缝演示。
-type: docs
 weight: 17
 url: /zh/net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relative-scale/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Slides .NET 添加相框教程
+
 ## 介绍
 Aspose.Slides for .NET 是一个功能强大的库，允许开发人员在其 .NET 应用程序中轻松创建、操作和转换 PowerPoint 演示文稿。在本教程中，我们将深入研究使用 Aspose.Slides for .NET 添加具有相对比例高度的图片框架的过程。按照本分步指南进行操作，以提高您的演示文稿制作技能。
 ## 先决条件
@@ -64,3 +70,9 @@ Aspose.Slides 主要支持 .NET 语言，但您可以探索其他 Aspose 产品�
 访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)寻求社区和 Aspose 专家的帮助。
 ### 我可以在哪里购买 Aspose.Slides for .NET？
 您可以从以下网站购买 Aspose.Slides for .NET[购买页面](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

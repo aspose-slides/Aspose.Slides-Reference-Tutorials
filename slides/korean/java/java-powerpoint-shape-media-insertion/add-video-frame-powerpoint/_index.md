@@ -3,10 +3,16 @@ title: PowerPoint에 비디오 프레임 추가
 linktitle: PowerPoint에 비디오 프레임 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 비디오 콘텐츠를 PowerPoint 프레젠테이션에 원활하게 통합하는 방법을 알아보세요. 청중의 관심을 끌 수 있는 멀티미디어 요소가 포함된 슬라이드.
-type: docs
 weight: 17
 url: /ko/java/java-powerpoint-shape-media-insertion/add-video-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint에 비디오 프레임 추가
+
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에 비디오 프레임을 추가하는 과정을 안내합니다. 이러한 단계별 지침을 따르면 비디오 콘텐츠를 프레젠테이션에 원활하게 통합할 수 있습니다.
 ## 전제 조건
@@ -60,3 +66,9 @@ Aspose.Slides는 AVI, WMV, MP4 등과 같은 다양한 비디오 형식을 지�
 예, 원하는 대로 비디오 프레임의 재생 모드와 볼륨을 설정할 수 있습니다.
 ### Aspose.Slides에 대한 추가 지원과 리소스는 어디서 찾을 수 있나요?
  방문하다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 지원, 문서 및 커뮤니티 지원이 필요합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

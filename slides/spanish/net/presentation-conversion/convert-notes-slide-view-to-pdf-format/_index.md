@@ -3,10 +3,16 @@ title: Convertir la vista de diapositivas de notas a formato PDF
 linktitle: Convertir la vista de diapositivas de notas a formato PDF
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Convierta notas del orador en PowerPoint a PDF con Aspose.Slides para .NET. Mantenga el contexto y personalice el diseño sin esfuerzo.
-type: docs
 weight: 15
 url: /es/net/presentation-conversion/convert-notes-slide-view-to-pdf-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir la vista de diapositivas de notas a formato PDF
+
 
 En esta guía completa, lo guiaremos a través del proceso de conversión de la vista de diapositivas de Notes a formato PDF usando Aspose.Slides para .NET. Encontrará instrucciones detalladas y fragmentos de código para realizar esta tarea sin esfuerzo.
 
@@ -78,3 +84,9 @@ Sí, Aspose.Slides para .NET está disponible para uso personal y comercial.
 Puede explorar tutoriales y ejemplos adicionales en el[Aspose.Slides para la documentación de la API .NET](https://reference.aspose.com/slides/net/).
 
 Ahora que ha convertido con éxito la vista de diapositivas de Notas al formato PDF, puede explorar más características y capacidades de Aspose.Slides para .NET para mejorar sus tareas de automatización de PowerPoint. ¡Feliz codificación!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

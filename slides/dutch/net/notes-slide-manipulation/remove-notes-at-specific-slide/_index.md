@@ -3,10 +3,16 @@ title: Hoe notities op een specifieke dia te verwijderen met Aspose.Slides .NET
 linktitle: Verwijder notities bij specifieke dia
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u notities van een specifieke dia in PowerPoint verwijdert met Aspose.Slides voor .NET. Stroomlijn uw presentaties moeiteloos.
-type: docs
 weight: 12
 url: /nl/net/notes-slide-manipulation/remove-notes-at-specific-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hoe notities op een specifieke dia te verwijderen met Aspose.Slides .NET
+
 
 In deze stapsgewijze handleiding leiden we u door het proces van het verwijderen van notities op een specifieke dia in een PowerPoint-presentatie met Aspose.Slides voor .NET. Aspose.Slides is een krachtige bibliotheek waarmee u programmatisch met PowerPoint-bestanden kunt werken. Of u nu een ontwikkelaar bent of iemand die taken in PowerPoint-presentaties wil automatiseren, deze tutorial helpt u dit gemakkelijk te bereiken.
 
@@ -82,3 +88,9 @@ Hoewel enige programmeerkennis nuttig is, biedt Aspose.Slides documentatie en vo
 
 ### Is er een proefversie van Aspose.Slides voor .NET beschikbaar?
 Ja, je kunt Aspose.Slides verkennen door een gratis proefversie te downloaden van[hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

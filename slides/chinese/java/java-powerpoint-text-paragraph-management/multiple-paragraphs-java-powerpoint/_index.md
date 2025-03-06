@@ -3,10 +3,16 @@ title: Java PowerPoint 中的多个段落
 linktitle: Java PowerPoint 中的多个段落
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java PowerPoint 演示文稿中创建多个段落。带有代码示例的完整指南。
-type: docs
 weight: 13
 url: /zh/java/java-powerpoint-text-paragraph-management/multiple-paragraphs-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint 中的多个段落
+
 ## 介绍
 在本教程中，我们将探索如何使用 Aspose.Slides for Java 在 Java 中创建包含多个段落的幻灯片。Aspose.Slides 是一个功能强大的库，允许开发人员以编程方式操作 PowerPoint 演示文稿，使其成为自动执行与幻灯片创建和格式化相关的任务的理想选择。
 ## 先决条件
@@ -113,3 +119,9 @@ Aspose.Slides 支持各种 PowerPoint 格式，确保跨不同版本的兼容性
 是的，您可以下载免费试用版[这里](https://releases.aspose.com/).
 ### 如果需要，我如何获得技术支持？
 您可以从 Aspose.Slides 社区获得支持[这里](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

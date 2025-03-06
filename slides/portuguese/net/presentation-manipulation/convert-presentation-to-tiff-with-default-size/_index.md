@@ -3,10 +3,16 @@ title: Converter apresentação em TIFF com tamanho padrão
 linktitle: Converter apresentação em TIFF com tamanho padrão
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprenda como converter facilmente apresentações em imagens TIFF com seu tamanho padrão usando Aspose.Slides for .NET.
-type: docs
 weight: 27
 url: /pt/net/presentation-manipulation/convert-presentation-to-tiff-with-default-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converter apresentação em TIFF com tamanho padrão
+
 
 ## Introdução
 
@@ -86,3 +92,9 @@ Absolutamente! Aspose.Slides for .NET oferece uma ampla gama de opções para pe
 ### Onde posso encontrar mais informações sobre Aspose.Slides para .NET?
 
  Para obter documentação e exemplos abrangentes, visite o[Documentação do Aspose.Slides para .NET](https://reference.aspose.com/slides/net).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

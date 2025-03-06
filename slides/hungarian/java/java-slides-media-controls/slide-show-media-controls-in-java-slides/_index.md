@@ -3,10 +3,16 @@ title: Diavetítés médiavezérlők a Java Slides-ben
 linktitle: Diavetítés médiavezérlők a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan engedélyezheti és használhatja a médiavezérlőket a Java Slides programban az Aspose.Slides for Java segítségével. Fokozza bemutatóit a médiavezérlőkkel.
-type: docs
 weight: 11
 url: /hu/java/media-controls/slide-show-media-controls-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Diavetítés médiavezérlők a Java Slides-ben
+
 
 ## A Java Slides diavetítési médiavezérlőinek bemutatása
 
@@ -108,3 +114,9 @@ Ebben az oktatóanyagban megvizsgáltuk, hogyan engedélyezhetjük és használh
 ### Van mód feliratok hozzáadására a videókhoz a Java Slides alkalmazásban?
 
 Igen, a Java Slides-ben lévő videókhoz feliratokat vagy képaláírásokat adhat hozzá úgy, hogy szövegkereteket vagy alakzatokat ad a videót tartalmazó diához. Ezután az időzítési beállítások segítségével szinkronizálhatja a szöveget a videó lejátszásával.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

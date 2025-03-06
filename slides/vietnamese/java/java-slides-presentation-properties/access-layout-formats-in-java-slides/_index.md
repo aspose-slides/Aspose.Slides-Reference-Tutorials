@@ -3,10 +3,16 @@ title: Truy cập các định dạng bố cục trong Java Slides
 linktitle: Truy cập các định dạng bố cục trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách truy cập và thao tác các định dạng bố cục trong Java Slides với Aspose.Slides for Java. Tùy chỉnh kiểu hình dạng và đường kẻ dễ dàng trong bản trình bày PowerPoint.
-type: docs
 weight: 10
 url: /vi/java/presentation-properties/access-layout-formats-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Truy cập các định dạng bố cục trong Java Slides
+
 
 ## Giới thiệu về Định dạng bố cục truy cập trong Trang trình bày Java
 
@@ -138,3 +144,9 @@ IShape shape = layoutSlide.getShapes().get_Item(0); // Truy cập hình dạng �
 ```
 
  Sau đó bạn có thể sử dụng`IFillFormat` Và`ILineFormat` như được hiển thị trong các câu trả lời trước để sửa đổi định dạng đường kẻ và màu tô của hình dạng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

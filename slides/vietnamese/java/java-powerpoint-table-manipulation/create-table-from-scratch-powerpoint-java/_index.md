@@ -3,10 +3,16 @@ title: Tạo bảng từ đầu trong PowerPoint bằng Java
 linktitle: Tạo bảng từ đầu trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo bảng động trong PowerPoint bằng Aspose.Slides cho Java với hướng dẫn từng bước toàn diện của chúng tôi.
-type: docs
 weight: 22
 url: /vi/java/java-powerpoint-table-manipulation/create-table-from-scratch-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo bảng từ đầu trong PowerPoint bằng Java
+
 ## Giới thiệu
 Bạn đã bao giờ cần tạo bảng động trong bản trình bày PowerPoint bằng Java chưa? Vâng, bạn đang ở đúng nơi! Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo bảng từ đầu bằng cách sử dụng Aspose.Slides cho Java. Cho dù bạn là nhà phát triển Java có kinh nghiệm hay mới bắt đầu, bạn sẽ thấy hướng dẫn này dễ làm theo và cực kỳ hữu ích. Hãy cùng bắt tay vào biến các slide PowerPoint của bạn thành một thứ gì đó đặc biệt!
 ## Điều kiện tiên quyết
@@ -86,3 +92,9 @@ Aspose.Slides for Java là một thư viện mạnh mẽ để làm việc với
 Aspose.Slides tương thích với Java SE 6 trở lên.
 ### Tôi có thể tìm tài liệu Aspose.Slides ở đâu?
  Tài liệu có sẵn[đây](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

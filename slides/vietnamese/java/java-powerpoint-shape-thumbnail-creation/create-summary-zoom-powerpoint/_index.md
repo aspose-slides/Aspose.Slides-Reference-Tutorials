@@ -3,10 +3,16 @@ title: Tạo Tóm tắt Phóng to PowerPoint
 linktitle: Tạo Tóm tắt Phóng to PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo Phóng to tóm tắt trong PowerPoint bằng Aspose.Slides cho Java với hướng dẫn từng bước toàn diện này.
-type: docs
 weight: 16
 url: /vi/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo Tóm tắt Phóng to PowerPoint
+
 ## Giới thiệu
 Chào mừng bạn đến với hướng dẫn toàn diện của chúng tôi về cách tạo Tóm tắt Thu phóng trong PowerPoint bằng Aspose.Slides cho Java. Nếu bạn đang muốn thêm yếu tố động và tương tác vào bản trình bày của mình thì Thu phóng Tóm tắt là một tính năng tuyệt vời. Nó cho phép bạn tạo một slide duy nhất có thể phóng to các phần khác nhau của bản trình bày, mang lại trải nghiệm hấp dẫn và dễ điều hướng hơn cho khán giả của bạn.
 Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn toàn bộ quá trình, từ thiết lập môi trường phát triển đến tạo và tùy chỉnh khung Thu phóng Tóm tắt. Cho dù bạn là nhà phát triển Java dày dạn kinh nghiệm hay mới bắt đầu, bạn sẽ thấy hướng dẫn này dễ làm theo và chứa đựng nhiều thông tin chi tiết có giá trị.
@@ -107,3 +113,9 @@ Có, bạn có thể tải xuống bản dùng thử miễn phí Aspose.Slides c
  Bạn có thể xin giấy phép tạm thời từ[Trang mua hàng](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể tìm thêm ví dụ và hỗ trợ cho Aspose.Slides cho Java ở đâu?
  Bạn có thể tìm thêm ví dụ và tìm kiếm sự hỗ trợ trên[Diễn đàn hỗ trợ Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

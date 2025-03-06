@@ -3,10 +3,16 @@ title: Diagramdatacellformler i Java Slides
 linktitle: Diagramdatacellformler i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ställer in diagramdatacellformler i Java PowerPoint-presentationer med Aspose.Slides för Java. Skapa dynamiska diagram med formler.
-type: docs
 weight: 11
 url: /sv/java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Diagramdatacellformler i Java Slides
+
 
 ## Introduktion till diagramdatacellformler i Aspose.Slides för Java
 
@@ -122,3 +128,9 @@ Ja, du kan använda olika typer av formler, inklusive matematiska operationer, f
 ### Hur ändrar jag diagramtypen?
 
  Du kan ändra diagramtypen genom att använda`setChartType` metod på`IChart` objekt och ange önskat`ChartType`.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

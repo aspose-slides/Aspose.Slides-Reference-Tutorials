@@ -3,10 +3,16 @@ title: Licencias medidas en diapositivas de Java
 linktitle: Licencias medidas en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Optimice su uso de Aspose.Slides para Java con licencias medidas. Aprenda cómo configurarlo y monitorear su consumo de API.
-type: docs
 weight: 10
 url: /es/java/licensing-and-initialization/metered-licensing-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licencias medidas en diapositivas de Java
+
 
 ## Introducción a las licencias medidas en Aspose.Slides para Java
 
@@ -107,3 +113,10 @@ Si excede su límite medido, es posible que deba actualizar su licencia o comuni
 ### ¿Necesito una conexión a Internet para obtener licencias medidas?
 
 Sí, se requiere una conexión a Internet para configurar y validar las licencias medidas.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

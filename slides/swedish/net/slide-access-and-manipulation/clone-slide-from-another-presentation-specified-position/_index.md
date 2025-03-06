@@ -3,10 +3,16 @@ title: Klona bild från annan presentation till specificerad position
 linktitle: Klona bild från annan presentation till specificerad position
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du klona bilder från olika presentationer till en angiven position med Aspose.Slides för .NET. Steg-för-steg-guide med komplett källkod, som täcker kloning av diabilder, positionsspecifikation och presentationslagring.
-type: docs
 weight: 16
 url: /sv/net/slide-access-and-manipulation/clone-slide-from-another-presentation-specified-position/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Klona bild från annan presentation till specificerad position
+
 
 ## Introduktion till kloning av diabilder från olika presentationer till specificerade positioner
 
@@ -137,3 +143,9 @@ Absolut, du kan ändra innehållet, formateringen och egenskaperna för den klon
 ### Var kan jag hitta mer information om Aspose.Slides för .NET?
 
  Du kan hänvisa till[dokumentation](https://reference.aspose.com/slides/net/) för detaljerad information, exempel och API-referenser relaterade till Aspose.Slides för .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Slides - Membuat Bentuk Grup di .NET
 linktitle: Membuat Bentuk Grup di Slide Presentasi dengan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara membuat bentuk grup di PowerPoint dengan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah kami untuk presentasi yang menarik secara visual.
-type: docs
 weight: 11
 url: /id/net/image-and-video-manipulation-in-slides/creating-group-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides - Membuat Bentuk Grup di .NET
+
 ## Perkenalan
 Jika Anda ingin meningkatkan daya tarik visual slide presentasi Anda dan mengatur konten dengan lebih efisien, menggabungkan bentuk grup adalah solusi yang ampuh. Aspose.Slides for .NET menyediakan cara yang mulus untuk membuat dan memanipulasi bentuk grup dalam presentasi PowerPoint Anda. Dalam tutorial ini, kita akan memandu proses pembuatan bentuk grup menggunakan Aspose.Slides, membaginya menjadi langkah-langkah yang mudah diikuti.
 ## Prasyarat
@@ -98,3 +104,10 @@ Kunjungi Aspose.Slide[forum](https://forum.aspose.com/c/slides/11) untuk dukunga
  Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
 ### Di mana saya dapat membeli lisensi penuh untuk Aspose.Slides?
  Anda dapat membeli lisensi dari[halaman pembelian](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

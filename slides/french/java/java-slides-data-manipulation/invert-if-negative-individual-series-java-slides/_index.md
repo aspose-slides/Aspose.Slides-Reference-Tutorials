@@ -3,10 +3,16 @@ title: Inverser si négatif pour les séries individuelles dans les diapositives
 linktitle: Inverser si négatif pour les séries individuelles dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment utiliser la fonctionnalité Inverser si négatif dans Aspose.Slides pour Java pour améliorer les visuels des graphiques dans les présentations PowerPoint.
-type: docs
 weight: 11
 url: /fr/java/data-manipulation/invert-if-negative-individual-series-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Inverser si négatif pour les séries individuelles dans les diapositives Java
+
 
 ## Introduction à Inverser si négatif pour des séries individuelles dans les diapositives Java
 
@@ -131,3 +137,9 @@ Oui, vous pouvez personnaliser l'apparence des points de données inversés. Asp
 ### Où puis-je accéder à la documentation Aspose.Slides pour Java ?
 
 Vous pouvez accéder à la documentation d'Aspose.Slides pour Java à l'adresse[ici](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

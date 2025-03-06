@@ -3,10 +3,16 @@ title: Buat Bentuk Sketsa yang Menakjubkan dengan Aspose.Slides
 linktitle: Membuat Bentuk Sketsa di Slide Presentasi dengan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menambahkan bentuk sketsa kreatif ke slide presentasi Anda menggunakan Aspose.Slides untuk .NET. Tingkatkan daya tarik visual dengan mudah!
-type: docs
 weight: 13
 url: /id/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Bentuk Sketsa yang Menakjubkan dengan Aspose.Slides
+
 ## Perkenalan
 Selamat datang di panduan langkah demi langkah kami dalam membuat sketsa bentuk di slide presentasi menggunakan Aspose.Slides untuk .NET. Jika Anda ingin menambahkan sentuhan kreativitas pada presentasi Anda, bentuk sketsa memberikan estetika unik dan digambar tangan. Dalam tutorial ini, kami akan memandu Anda melalui prosesnya, memecahnya menjadi langkah-langkah sederhana untuk memastikan pengalaman yang lancar.
 ## Prasyarat
@@ -74,3 +80,9 @@ Menambahkan bentuk sketsa ke slide presentasi Anda dapat meningkatkan daya tarik
  Untuk membeli Aspose.Slides untuk .NET, kunjungi[halaman pembelian](https://purchase.aspose.com/buy).
 ### 5. Apakah Anda menawarkan lisensi sementara?
  Ya, lisensi sementara tersedia[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

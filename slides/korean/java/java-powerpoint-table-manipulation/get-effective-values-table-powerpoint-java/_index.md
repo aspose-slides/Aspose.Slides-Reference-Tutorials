@@ -3,10 +3,16 @@ title: Java를 사용하여 PowerPoint에서 테이블의 효과적인 값 얻�
 linktitle: Java를 사용하여 PowerPoint에서 테이블의 효과적인 값 얻기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint에서 효과적인 테이블 값을 추출하는 방법을 알아보세요. 프로그래밍 방식으로 프레젠테이션을 향상하세요.
-type: docs
 weight: 14
 url: /ko/java/java-powerpoint-table-manipulation/get-effective-values-table-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PowerPoint에서 테이블의 효과적인 값 얻기
+
 ## 소개
 오늘날의 디지털 시대에 역동적이고 매력적인 프레젠테이션을 만드는 것은 비즈니스 및 교육 환경 모두에서 효과적인 커뮤니케이션을 위해 매우 중요합니다. Aspose.Slides for Java는 Java 개발자가 PowerPoint 프레젠테이션을 프로그래밍 방식으로 조작하고 향상할 수 있는 강력한 솔루션을 제공합니다. 이 튜토리얼은 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션 내의 테이블에서 효과적인 값을 추출하는 과정을 안내합니다. 이 튜토리얼을 마치면 Java 애플리케이션에서 테이블 형식 데이터를 프로그래밍 방식으로 액세스하고 활용하는 지식을 갖추게 됩니다.
 ## 전제 조건
@@ -61,3 +67,9 @@ try {
  커뮤니티 지원 포럼을 방문하세요[여기](https://forum.aspose.com/c/slides/11) 도움을 위해.
 ### Aspose.Slides for Java의 임시 라이선스를 구매할 수 있나요?
  예, 임시 라이센스를 구매하실 수 있습니다[여기](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

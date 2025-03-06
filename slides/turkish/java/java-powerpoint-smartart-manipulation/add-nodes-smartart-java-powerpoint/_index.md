@@ -3,10 +3,16 @@ title: Java PowerPoint'te SmartArt'a Düğümler Ekleme
 linktitle: Java PowerPoint'te SmartArt'a Düğümler Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak SmartArt düğümlerini Java PowerPoint sunumlarına nasıl ekleyeceğinizi öğrenin. Görsel çekiciliği zahmetsizce geliştirin.
-type: docs
 weight: 15
 url: /tr/java/java-powerpoint-smartart-manipulation/add-nodes-smartart-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint'te SmartArt'a Düğümler Ekleme
+
 ## giriiş
 Java PowerPoint sunumları alanında SmartArt düğümlerini değiştirmek, slaytlarınızın görsel çekiciliğini ve etkinliğini büyük ölçüde artırabilir. Aspose.Slides for Java, Java geliştiricilerinin SmartArt işlevlerini sunumlarına sorunsuz bir şekilde entegre etmeleri için güçlü bir çözüm sunar. Bu eğitimde Aspose.Slides'ı kullanarak Java PowerPoint sunumlarında SmartArt'a düğüm ekleme sürecini ayrıntılı olarak ele alacağız.
 ## Önkoşullar
@@ -71,3 +77,9 @@ Kesinlikle, slaytlar arasında geçiş yapabilir ve gerektiğinde SmartArt düğ
 Evet, Aspose.Slides for Java, slayt oluşturma, animasyon ve şekil yönetimi de dahil olmak üzere PowerPoint manipülasyonu için kapsamlı bir özellikler paketi sunar.
 ### Aspose.Slides for Java için nereden yardım veya destek alabilirim?
  Ziyaret edebilirsiniz[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) topluluk desteği için veya ayrıntılı rehberlik için belgeleri inceleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Slides를 사용하여 특정 슬라이드에 화살표 모양 선
 linktitle: Aspose.Slides를 사용하여 특정 슬라이드에 화살표 모양 선 추가
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 화살표 모양의 선으로 프레젠테이션을 향상하세요. 청중의 시선을 사로잡기 위해 시각적 요소를 동적으로 추가하는 방법을 알아보세요.
-type: docs
 weight: 13
 url: /ko/net/shape-effects-and-manipulation-in-slides/adding-arrow-lines-to-specific-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides를 사용하여 특정 슬라이드에 화살표 모양 선 추가
+
 ## 소개
 시각적으로 매력적인 프레젠테이션을 만들려면 텍스트와 이미지 이상의 것이 필요한 경우가 많습니다. .NET용 Aspose.Slides는 프레젠테이션을 동적으로 향상시키려는 개발자에게 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Slides를 사용하여 특정 슬라이드에 화살표 모양의 선을 추가하는 과정을 자세히 살펴보고 흥미롭고 유익한 프레젠테이션을 만들 수 있는 새로운 가능성을 열어드립니다.
 ## 전제 조건
@@ -76,3 +82,9 @@ using (Presentation pres = new Presentation())
  A: 임시 면허를 취득할 수 있습니다.[여기](https://purchase.aspose.com/temporary-license/).
 ### Q: .NET용 Aspose.Slides를 어디서 구입할 수 있나요?
  A: Aspose.Slides를 구입할 수 있습니다.[여기](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Đặt ngôn ngữ trình bày và hình dạng văn bản trong Java
 linktitle: Đặt ngôn ngữ trình bày và hình dạng văn bản trong Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tự động hóa bản trình bày PowerPoint bằng Aspose.Slides cho Java. Tạo, sửa đổi và nâng cao các trang trình bày theo chương trình một cách dễ dàng.
-type: docs
 weight: 19
 url: /vi/java/java-powerpoint-text-font-customization/set-presentation-language-shape-text-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt ngôn ngữ trình bày và hình dạng văn bản trong Java
+
 ## Giới thiệu
 Việc tạo và thao tác các bản trình bày PowerPoint theo chương trình bằng Java có thể hợp lý hóa quá trình tự động hóa quy trình làm việc và nâng cao năng suất. Aspose.Slides for Java cung cấp một bộ công cụ mạnh mẽ để thực hiện các tác vụ này một cách hiệu quả. Hướng dẫn này hướng dẫn bạn các bước cần thiết để đặt ngôn ngữ trình bày và định hình văn bản bằng Aspose.Slides cho Java.
 ## Điều kiện tiên quyết
@@ -69,3 +75,9 @@ Có, Aspose.Slides cung cấp các API toàn diện để tạo bản trình bà
  Tài liệu chi tiết có sẵn[đây](https://reference.aspose.com/slides/java/).
 ### Những tùy chọn hỗ trợ nào có sẵn cho Aspose.Slides cho Java?
  Bạn có thể truy cập diễn đàn Aspose.Slides[đây](https://forum.aspose.com/c/slides/11) để hỗ trợ cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

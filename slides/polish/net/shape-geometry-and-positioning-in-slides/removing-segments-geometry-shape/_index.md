@@ -3,10 +3,16 @@ title: Usuń segmenty kształtu - samouczek Aspose.Slides .NET
 linktitle: Usuwanie segmentów z kształtu geometrii na slajdach prezentacji
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak usuwać segmenty z kształtów geometrycznych na slajdach prezentacji przy użyciu interfejsu API Aspose.Slides dla .NET. Przewodnik krok po kroku z kodem źródłowym.
-type: docs
 weight: 16
 url: /pl/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Usuń segmenty kształtu - samouczek Aspose.Slides .NET
+
 ## Wstęp
 Tworzenie atrakcyjnych wizualnie prezentacji często wiąże się z manipulowaniem kształtami i elementami w celu uzyskania pożądanego projektu. Dzięki Aspose.Slides dla .NET programiści mogą łatwo kontrolować geometrię kształtów, umożliwiając usuwanie określonych segmentów. W tym samouczku przeprowadzimy Cię przez proces usuwania segmentów z kształtu geometrycznego na slajdach prezentacji przy użyciu Aspose.Slides dla .NET.
 ## Warunki wstępne
@@ -68,3 +74,9 @@ Zaimplementuj odpowiednią obsługę błędów za pomocą bloków try-catch.
 Nie, zmiany po zapisaniu są nieodwracalne. Rozważ zapisanie kopii zapasowych przed modyfikacją.
 ### Gdzie mogę szukać dodatkowego wsparcia lub pomocy?
  Odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) za wsparcie społeczności i dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

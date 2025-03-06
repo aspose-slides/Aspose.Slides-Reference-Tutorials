@@ -3,10 +3,16 @@ title: Java PowerPoint에서 Regex를 사용하여 텍스트 강조 표시
 linktitle: Java PowerPoint에서 Regex를 사용하여 텍스트 강조 표시
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java에서 정규식 패턴을 사용하여 PowerPoint에서 텍스트를 강조 표시하는 방법을 알아보세요. 프레젠테이션을 동적으로 향상시키세요.
-type: docs
 weight: 15
 url: /ko/java/java-powerpoint-text-alignment-formatting/highlight-text-using-regex-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint에서 Regex를 사용하여 텍스트 강조 표시
+
 ## 소개
 PowerPoint 프레젠테이션을 생성하고 조작하기 위한 Java 기반 개발 영역에서 Aspose.Slides for Java는 강력한 솔루션으로 돋보입니다. 이 튜토리얼은 Aspose.Slides를 활용하여 PowerPoint 프레젠테이션 내에서 정규식(regex)을 사용하여 텍스트를 강조하는 데 중점을 둡니다. 이 가이드를 마치면 정규식 패턴을 구현하여 슬라이드의 특정 텍스트를 강조 표시하고 기능과 시각적 명확성을 향상시키는 방법을 파악하게 됩니다.
 ## 전제 조건
@@ -62,3 +68,9 @@ presentation.save(dataDir + "SomePresentation-out.pptx", SaveFormat.Pptx);
 물론 강조 표시를 넘어 글꼴 스타일 지정, 정렬 등 광범위한 텍스트 조작 기능을 제공합니다.
 ### 구매하기 전에 Java용 Aspose.Slides를 사용해 볼 수 있나요?
  예, 다음과 같이 시작할 수 있습니다.[무료 시험판](https://releases.aspose.com/) 그 능력을 평가합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

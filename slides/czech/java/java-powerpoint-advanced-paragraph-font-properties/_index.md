@@ -3,10 +3,16 @@ title: Java PowerPoint Pokročilé vlastnosti odstavce a písma
 linktitle: Java PowerPoint Pokročilé vlastnosti odstavce a písma
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Zvládněte pokročilé vlastnosti odstavce a písma v Java PowerPoint pomocí Aspose.Slides. Naučte se přizpůsobovat písma, přidávat obrázkové odrážky a používat záložní písma.
-type: docs
 weight: 28
 url: /cs/java/java-powerpoint-advanced-paragraph-font-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint Pokročilé vlastnosti odstavce a písma
+
 ## Úvod
 
 Vytváření vylepšených prezentací v PowerPointu vyžaduje jemné doladění různých prvků, od formátování odstavců až po správu písem. Aspose.Slides for Java poskytuje robustní nástroje pro efektivní správu těchto pokročilých vlastností. V tomto článku prozkoumáme výukové programy, které vám pomohou přizpůsobit vlastnosti písma odstavce, přidat odrážky obrázků a použít záložní písma. Pojďme se ponořit do těchto pokročilých technik, aby vaše prezentace vynikly!
@@ -35,3 +41,9 @@ Naučte se přidávat vlastní obrázkové odrážky do snímků aplikace PowerP
 Naučte se, jak získat obdélník části v PowerPointu pomocí Aspose.Slides pro Java, pomocí tohoto podrobného, podrobného návodu. Ideální pro vývojáře v Javě.
 ### [Render s záložním písmem v Java PowerPoint](./render-with-fallback-font-java-powerpoint/)
 Naučte se vykreslovat text pomocí záložních písem v prezentacích Java PowerPoint pomocí Aspose.Slides. Pro bezproblémovou implementaci postupujte podle tohoto podrobného průvodce.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

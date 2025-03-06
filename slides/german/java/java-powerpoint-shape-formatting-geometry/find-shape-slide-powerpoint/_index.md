@@ -3,10 +3,16 @@ title: Form in Folie suchen
 linktitle: Form in Folie suchen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Mit Aspose.Slides für Java finden Sie ganz einfach Formen in PowerPoint-Folien. Folgen Sie unserer Schritt-für-Schritt-Anleitung für ein nahtloses Codiererlebnis.
-type: docs
 weight: 14
 url: /de/java/java-powerpoint-shape-formatting-geometry/find-shape-slide-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Form in Folie suchen
+
 ## Einführung
 Sind Sie es leid, PowerPoint-Folien nach bestimmten Formen zu durchsuchen? Stellen Sie sich vor, Sie könnten diesen Vorgang mühelos mit nur wenigen Codezeilen automatisieren. Willkommen zu unserer ausführlichen Anleitung zur Verwendung von Aspose.Slides für Java zum Auffinden von Formen in Ihren Präsentationsdateien. In diesem Tutorial erläutern wir die erforderlichen Schritte zum Auffinden von Formen in einer Folie mit Aspose.Slides für Java, vom Einrichten Ihrer Umgebung bis zum Ausführen des Codes.
 ## Voraussetzungen
@@ -84,3 +90,9 @@ Ja, Aspose.Slides unterstützt verschiedene Dateiformate, darunter .ppt, .pptx, 
  Ja, Sie können eine kostenlose Testversion erhalten von[Kostenlose Testseite von Aspose](https://releases.aspose.com/).
 ### Wo erhalte ich Support für Aspose.Slides?
  Unterstützung finden Sie auf der[Aspose Slides-Forum](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

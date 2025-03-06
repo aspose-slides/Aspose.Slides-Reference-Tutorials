@@ -3,10 +3,16 @@ title: Add Animations to Shapes in PowerPoint
 linktitle: Add Animations to Shapes in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to add animations to shapes in PowerPoint using Aspose.Slides for Java with this detailed, tutorial. Perfect for creating engaging presentations.
-type: docs
 weight: 10
 url: /java/java-powerpoint-animation-shape-manipulation/add-animations-to-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Animations to Shapes in PowerPoint
+
 ## Introduction
 Creating engaging presentations often requires adding animations to shapes and text. Animations can make your slides more dynamic and captivating, ensuring your audience stays interested. In this tutorial, we'll guide you through the process of adding animations to shapes in a PowerPoint presentation using Aspose.Slides for Java. By the end of this article, you'll be able to create professional animations effortlessly.
 ## Prerequisites
@@ -108,3 +114,10 @@ Aspose.Slides supports Java SE 6 and above.
 You can add different animations to multiple shapes by repeating the steps for each shape and specifying different effects as needed.
 ### Where can I find more examples and documentation?
 Check out the [documentation](https://reference.aspose.com/slides/java/) and [support forum](https://forum.aspose.com/c/slides/11) for more examples and help.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

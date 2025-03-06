@@ -3,10 +3,16 @@ title: Aspose.Slides for .NET ile Dikdörtgen Şekiller Oluşturma
 linktitle: Aspose.Slides Kullanarak Sunum Slaytlarında Basit Dikdörtgen Şekil Oluşturma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET ile dinamik PowerPoint sunumlarının dünyasını keşfedin. Bu adım adım kılavuzla slaytlarda ilgi çekici dikdörtgen şekillerin nasıl oluşturulacağını öğrenin.
-type: docs
 weight: 12
 url: /tr/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides for .NET ile Dikdörtgen Şekiller Oluşturma
+
 ## giriiş
 .NET uygulamalarınızı dinamik ve görsel olarak çekici PowerPoint sunumlarıyla geliştirmek istiyorsanız Aspose.Slides for .NET sizin için çözümdür. Bu eğitimde, Aspose.Slides for .NET'i kullanarak sunum slaytlarında basit bir dikdörtgen şekli oluşturma sürecinde size rehberlik edeceğiz.
 ## Önkoşullar
@@ -61,3 +67,9 @@ Evet, Aspose.Slides for .NET platformdan bağımsızdır ve hem Windows hem de L
  Evet, geçici lisans satın alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for .NET belgelerini nerede bulabilirim?
  Belgelere bakın[Burada](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

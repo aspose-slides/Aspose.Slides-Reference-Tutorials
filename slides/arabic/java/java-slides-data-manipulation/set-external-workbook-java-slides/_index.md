@@ -3,10 +3,16 @@ title: قم بتعيين المصنف الخارجي في شرائح Java
 linktitle: قم بتعيين المصنف الخارجي في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين مصنفات خارجية في Java Slides باستخدام Aspose.Slides لـ Java. قم بإنشاء عروض تقديمية ديناميكية باستخدام تكامل بيانات Excel.
-type: docs
 weight: 19
 url: /ar/java/data-manipulation/set-external-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتعيين المصنف الخارجي في شرائح Java
+
 
 ## مقدمة لتعيين المصنف الخارجي في شرائح جافا
 
@@ -119,3 +125,9 @@ finally
 ### هل يمكنني إضافة مخططات متعددة تشير إلى نفس المصنف الخارجي؟
 
 نعم، يمكنك إضافة مخططات متعددة إلى العرض التقديمي الخاص بك، تشير جميعها إلى نفس المصنف الخارجي. ما عليك سوى تكرار الخطوات الموضحة في هذا البرنامج التعليمي لكل مخطط تريد إنشاءه.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

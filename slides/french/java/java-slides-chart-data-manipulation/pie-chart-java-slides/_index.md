@@ -3,10 +3,16 @@ title: Graphique circulaire dans les diapositives Java
 linktitle: Graphique circulaire dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à créer de superbes diagrammes circulaires dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec code source pour les développeurs Java.
-type: docs
 weight: 23
 url: /fr/java/chart-data-manipulation/pie-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Graphique circulaire dans les diapositives Java
+
 
 ## Introduction à la création d'un diagramme circulaire dans Java Slides à l'aide d'Aspose.Slides
 
@@ -283,3 +289,9 @@ Oui, Aspose.Slides pour Java prend en charge différents types de graphiques, no
 ### Comment puis-je trouver plus d’informations et d’exemples pour travailler avec Aspose.Slides pour Java ?
 
  Pour plus d'informations, une documentation détaillée et des exemples supplémentaires, vous pouvez visiter le[Documentation Aspose.Slides pour Java](https://reference.aspose.com/slides/java/). Il fournit des ressources complètes pour vous aider à utiliser efficacement la bibliothèque.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

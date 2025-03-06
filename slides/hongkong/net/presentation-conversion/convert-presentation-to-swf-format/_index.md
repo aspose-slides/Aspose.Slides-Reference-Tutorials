@@ -3,10 +3,16 @@ title: 將簡報轉換為 SWF 格式
 linktitle: 將簡報轉換為 SWF 格式
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 將 PowerPoint 簡報轉換為 SWF 格式。輕鬆建立動態內容！
-type: docs
 weight: 28
 url: /zh-hant/net/presentation-conversion/convert-presentation-to-swf-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將簡報轉換為 SWF 格式
+
 
 在當今的數位時代，多媒體演示是一種強大的溝通手段。有時，您可能想要以更動態的方式共用簡報，例如將它們轉換為 SWF (Shockwave Flash) 格式。本指南將引導您完成使用 Aspose.Slides for .NET 將簡報轉換為 SWF 格式的過程。
 
@@ -111,3 +117,10 @@ SWF（Shockwave Flash）是一種用於網路上的動畫、遊戲和互動式�
 
 ### 在哪裡可以獲得 Aspose.Slides for .NET 的支援？
 如果您有任何疑問或需要協助，您可以訪問[Aspose.Slides for .NET 論壇](https://forum.aspose.com/)尋求支持和社區幫助。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Donut Chart Hole a Java Slides-ben
 linktitle: Donut Chart Hole a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Hozzon létre fánkdiagramokat egyéni furatméretekkel a Java Slides-ben az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal a diagram testreszabásához.
-type: docs
 weight: 11
 url: /hu/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Donut Chart Hole a Java Slides-ben
+
 
 ## A fánkdiagram bemutatása lyukkal a Java diákban
 
@@ -94,3 +100,9 @@ finally
 ### Lehet-e címet adni a diagramhoz?
 
  Biztosan! A diagram segítségével címet adhat hozzá`setTitle` módszer a`IChart` objektumot, és megadja a kívánt címszöveget.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

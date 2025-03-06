@@ -3,10 +3,16 @@ title: Zugriff auf Layoutformate in Java-Folien
 linktitle: Zugriff auf Layoutformate in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java auf Layoutformate in Java Slides zugreifen und diese bearbeiten. Passen Sie Formen und Linienstile in PowerPoint-Präsentationen mühelos an.
-type: docs
 weight: 10
 url: /de/java/presentation-properties/access-layout-formats-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zugriff auf Layoutformate in Java-Folien
+
 
 ## Einführung in Access-Layoutformate in Java-Folien
 
@@ -138,3 +144,9 @@ IShape shape = layoutSlide.getShapes().get_Item(0); // Greifen Sie auf die erste
 ```
 
  Sie können dann mit dem`IFillFormat` Und`ILineFormat` Methoden wie in den vorherigen Antworten gezeigt, um die Füll- und Linienformate der Form zu ändern.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

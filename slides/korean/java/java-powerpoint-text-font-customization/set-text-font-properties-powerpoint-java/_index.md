@@ -3,10 +3,16 @@ title: Java를 사용하여 PowerPoint에서 텍스트 글꼴 속성 설정
 linktitle: Java를 사용하여 PowerPoint에서 텍스트 글꼴 속성 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint에서 텍스트 글꼴 속성을 설정하는 방법을 알아보세요. Java 개발자를 위한 쉬운 단계별 가이드입니다.#Java 개발자를 위한 이 단계별 튜토리얼을 통해 Java용 Aspose.Slides를 사용하여 PowerPoint 텍스트 글꼴 속성을 조작하는 방법을 알아보세요.
-type: docs
 weight: 18
 url: /ko/java/java-powerpoint-text-font-customization/set-text-font-properties-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PowerPoint에서 텍스트 글꼴 속성 설정
+
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 프로그래밍 방식으로 PowerPoint 프레젠테이션의 다양한 텍스트 글꼴 속성을 설정하는 방법을 배웁니다. 슬라이드의 텍스트에 대한 글꼴 유형, 스타일(굵게, 기울임꼴), 밑줄, 크기 및 색상 설정을 다룹니다.
 ## 전제 조건
@@ -85,3 +91,9 @@ if (presentation != null) {
 예, Aspose.Slides를 사용하면 프레젠테이션을 PDF를 포함한 다양한 형식으로 내보낼 수 있습니다.
 ### Aspose.Slides에 대한 추가 도움말과 지원은 어디서 찾을 수 있나요?
  방문하다[Aspose.슬라이드 포럼](https://forum.aspose.com/c/slides/11) 지역 사회의 지원과 지도를 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

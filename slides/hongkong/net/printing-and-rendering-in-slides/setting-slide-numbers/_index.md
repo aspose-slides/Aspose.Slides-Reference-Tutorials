@@ -3,10 +3,16 @@ title: 使用 Aspose.Slides 設定簡報的投影片編號
 linktitle: 使用 Aspose.Slides 設定簡報的投影片編號
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 探索投影片操作的無縫世界。了解如何輕鬆設定投影片編號，從而增強您的簡報體驗。
-type: docs
 weight: 16
 url: /zh-hant/net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Slides 設定簡報的投影片編號
+
 ## 介紹
 在動態的簡報世界中，控制投影片的順序和組織對於有效溝通至關重要。 Aspose.Slides for .NET 提供了一個強大的解決方案來操縱簡報中的投影片編號，讓您能夠靈活地無縫自訂內容。
 ## 先決條件
@@ -63,3 +69,9 @@ Aspose.Slides for .NET 讓您能夠透過輕鬆設定投影片編號來控制簡
 參觀[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)取得社區為基礎的支援或探索進階支援選項。
 ### 我可以在購買前試用 Aspose.Slides 嗎？
 是的，您可以從以下位置下載免費試用版[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

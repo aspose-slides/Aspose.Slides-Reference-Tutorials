@@ -3,10 +3,16 @@ title: Adding Stylish Notes Formatting with Aspose.Slides for .NET
 linktitle: Add Notes Slide with Stylish Notes Formatting
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to add stylish notes formatting to your PowerPoint presentations using Aspose.Slides for .NET. Enhance your slides with symbols and bullet points.
-type: docs
 weight: 14
 url: /net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adding Stylish Notes Formatting with Aspose.Slides for .NET
+
 
 In the world of presentations, it's not just about the content you deliver but also how you present it. Stylish notes formatting can make a significant difference in the impact of your presentation. With Aspose.Slides for .NET, you can easily enhance your PowerPoint presentations by adding stylish notes with bullet points and symbols. In this step-by-step guide, we will walk you through the process of adding stylish notes formatting to your PowerPoint slides.
 
@@ -109,3 +115,10 @@ Yes, you can obtain a temporary license for testing and evaluation purposes from
 
 ### Is there a community forum or support available for Aspose.Slides for .NET?
 Yes, you can seek help and participate in discussions on the Aspose.Slides for .NET community forum [here](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

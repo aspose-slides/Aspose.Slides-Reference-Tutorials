@@ -3,10 +3,16 @@ title: Aspose.Slides を使用して .NET のスライドにハイパーリン�
 linktitle: スライドにハイパーリンクを追加する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint スライドにハイパーリンクを追加する方法を学びます。インタラクティブな要素を使用してプレゼンテーションを強化します。
-type: docs
 weight: 12
 url: /ja/net/hyperlink-manipulation/add-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides を使用して .NET のスライドにハイパーリンクを追加する
+
 
 デジタル プレゼンテーションの世界では、インタラクティブ性が重要です。スライドにハイパーリンクを追加すると、プレゼンテーションがより魅力的で情報豊かになります。Aspose.Slides for .NET は、PowerPoint プレゼンテーションをプログラムで作成、変更、操作できる強力なライブラリです。このチュートリアルでは、Aspose.Slides for .NET を使用してスライドにハイパーリンクを追加する方法を説明します。 
 
@@ -106,3 +112,9 @@ Aspose.Slides は、アクション ボタン、マルチメディア要素、�
 ### 5. Aspose.Slides は他のプログラミング言語でも使用できますか?
 
 はい、Aspose.Slides は、Java や Python を含むさまざまなプログラミング言語で利用できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

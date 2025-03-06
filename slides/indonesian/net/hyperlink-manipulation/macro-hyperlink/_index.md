@@ -3,10 +3,16 @@ title: Cara Mengatur Makro Hyperlink Klik di Aspose.Slides untuk .NET
 linktitle: Manajemen Hyperlink menggunakan Makro
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengatur hyperlink makro dalam presentasi Anda dengan Aspose.Slides untuk .NET. Tingkatkan interaktivitas dan libatkan audiens Anda.
-type: docs
 weight: 13
 url: /id/net/hyperlink-manipulation/macro-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cara Mengatur Makro Hyperlink Klik di Aspose.Slides untuk .NET
+
 
 Dalam dunia pengembangan perangkat lunak modern, membuat presentasi yang dinamis dan interaktif adalah aspek kuncinya. Aspose.Slides for .NET adalah perpustakaan canggih yang memungkinkan Anda bekerja dengan presentasi dengan lancar. Baik Anda sedang membuat presentasi bisnis atau tayangan slide pendidikan, kemampuan untuk mengatur klik hyperlink makro dapat sangat meningkatkan pengalaman pengguna. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses pengaturan klik hyperlink makro menggunakan Aspose.Slides untuk .NET. 
 
@@ -106,3 +112,9 @@ Ya, Anda dapat menyesuaikan tampilan BentukOtomatis dengan menyesuaikan properti
 
 ### Di mana saya bisa mendapatkan bantuan atau dukungan untuk Aspose.Slides untuk .NET?
  Jika Anda mengalami masalah atau memiliki pertanyaan, Anda dapat mencari bantuan di forum dukungan Aspose[Di Sini](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

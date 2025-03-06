@@ -3,10 +3,16 @@ title: 在 PowerPoint 中將線段新增至幾何形狀
 linktitle: 在 PowerPoint 中將線段新增至幾何形狀
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 透過這份詳細的逐步指南，了解如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中為幾何圖形新增分段。
-type: docs
 weight: 19
 url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-shape-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 PowerPoint 中將線段新增至幾何形狀
+
 ## 介紹
 創建引人入勝且動態的簡報可能是一項挑戰，尤其是當您想要添加自訂形狀和設計時。這就是 Aspose.Slides for Java 派上用場的地方。這個強大的 API 可讓您以程式設計方式操作 PowerPoint 文件，讓您能夠靈活地輕鬆添加複雜的幾何形狀和片段。在本教學中，我們將引導您了解如何使用 Aspose.Slides for Java 在 PowerPoint 簡報中為幾何圖形新增線段。無論您是希望自動建立簡報的開發人員，還是喜歡深入編碼的人，本指南都將是您的綜合資源。
 ## 先決條件
@@ -78,3 +84,9 @@ Aspose.Slides for Java 是一個功能強大的 API，用於以程式設計方�
 您可以新增各種形狀，包括矩形、橢圓形、直線和自訂幾何形狀。
 ### 我如何獲得 Aspose.Slides for Java 的支援？
 您可以從以下方面獲得支持[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)您可以在其中提出問題並從社區和開發人員那裡獲得幫助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

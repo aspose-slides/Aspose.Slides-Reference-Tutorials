@@ -3,10 +3,16 @@ title: Animeer grafiekreeksen met Aspose.Slides voor .NET
 linktitle: Animatieserie in grafiek
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u diagramreeksen kunt animeren met Aspose.Slides voor .NET. Betrek uw publiek met dynamische presentaties. Begin nu!
-type: docs
 weight: 12
 url: /nl/net/chart-formatting-and-animation/animating-series/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Animeer grafiekreeksen met Aspose.Slides voor .NET
+
 
 Wilt u uw presentaties wat pit geven met geanimeerde grafieken? Aspose.Slides voor .NET is hier om uw grafieken tot leven te laten komen. In deze stapsgewijze handleiding laten we u zien hoe u series in een diagram kunt animeren met Aspose.Slides voor .NET. Maar voordat we in de actie duiken, laten we eerst de vereisten bespreken.
 
@@ -109,3 +115,9 @@ Ja, u kunt de animatie-effecten voor elke kaartserie aanpassen om unieke en boei
 
 ### Waar kan ik een licentie kopen voor Aspose.Slides voor .NET?
  U kunt een licentie voor Aspose.Slides voor .NET verkrijgen via de aankooppagina[hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

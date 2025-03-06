@@ -3,10 +3,16 @@ title: Ladda externt teckensnitt i PowerPoint med Java
 linktitle: Ladda externt teckensnitt i PowerPoint med Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du laddar anpassade typsnitt i PowerPoint-presentationer med Aspose.Slides för Java. Förbättra dina bilder med unik typografi.
-type: docs
 weight: 10
 url: /sv/java/java-powerpoint-font-management-text-replacement/load-external-font-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ladda externt teckensnitt i PowerPoint med Java
+
 ## Introduktion
 I den här handledningen guidar vi dig genom processen att ladda ett externt typsnitt i PowerPoint-presentationer med Aspose.Slides för Java. Anpassade typsnitt kan ge en unik touch till dina presentationer, vilket säkerställer konsekvent varumärke eller stilistiska preferenser på olika plattformar.
 ## Förutsättningar
@@ -63,3 +69,9 @@ Ja, du kan ladda flera externa teckensnitt genom att upprepa processen för varj
 Så länge som teckensnittsfilen är i TrueType (.ttf)-format och inom rimliga storleksgränser bör du kunna ladda den framgångsrikt.
 ### Påverkar laddning av externa typsnitt presentationens kompatibilitet med olika PowerPoint-versioner?
 Nej, presentationen förblir kompatibel över olika PowerPoint-versioner så länge som typsnitten är inbäddade eller laddade externt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Java PowerPoint 中管理字体系列
 linktitle: 在 Java PowerPoint 中管理字体系列
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 管理 Java PowerPoint 演示文稿中的字体系列。轻松自定义字体样式、颜色等。
-type: docs
 weight: 10
 url: /zh/java/java-powerpoint-font-management/manage-font-family-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java PowerPoint 中管理字体系列
+
 ## 介绍
 在本教程中，我们将探索如何使用 Aspose.Slides for Java 管理 Java PowerPoint 演示文稿中的字体系列。字体在幻灯片的视觉吸引力和可读性方面起着至关重要的作用，因此了解如何有效地操作字体至关重要。
 ## 先决条件
@@ -66,3 +72,9 @@ pres.save(dataDir + "pptxFont_out.pptx", SaveFormat.Pptx);
 是的，Aspose.Slides 提供 API 来完全通过代码创建、修改和操作 PowerPoint 演示文稿。
 ### Aspose.Slides for Java 有试用版吗？
 是的，您可以从以下网址下载 Aspose.Slides for Java 的免费试用版[这里](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

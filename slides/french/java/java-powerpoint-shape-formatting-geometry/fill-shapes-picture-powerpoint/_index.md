@@ -3,10 +3,16 @@ title: Remplir les formes avec une image dans PowerPoint
 linktitle: Remplir les formes avec une image dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment remplir des formes avec des images dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Améliorez l’attrait visuel sans effort.
-type: docs
 weight: 12
 url: /fr/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Remplir les formes avec une image dans PowerPoint
+
 ## Introduction
 Les présentations PowerPoint nécessitent souvent des éléments visuels tels que des formes remplies d'images pour améliorer leur attrait et transmettre efficacement les informations. Aspose.Slides pour Java fournit un ensemble d'outils puissants pour accomplir cette tâche de manière transparente. Dans ce didacticiel, nous apprendrons étape par étape comment remplir des formes avec des images à l'aide d'Aspose.Slides pour Java.
 ## Conditions préalables
@@ -80,3 +86,9 @@ Vous pouvez redimensionner l'image dans la forme en ajustant les dimensions de l
 Aspose.Slides pour Java prend en charge un large éventail de formats d'image, notamment JPEG, PNG, GIF, BMP et TIFF.
 ### Puis-je appliquer des effets aux formes remplies ?
 Oui, Aspose.Slides pour Java fournit des API complètes pour appliquer divers effets, tels que des ombres, des reflets et des rotations 3D, aux formes remplies.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

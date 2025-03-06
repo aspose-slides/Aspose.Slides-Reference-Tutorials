@@ -3,10 +3,16 @@ title: Αντιγράψτε τη διαφάνεια στο τέλος της ξ�
 linktitle: Αντιγράψτε τη διαφάνεια στο τέλος της ξεχωριστής παρουσίασης
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να αναπαράγετε μια διαφάνεια από μια παρουσίαση του PowerPoint και να την προσθέσετε σε μια άλλη χρησιμοποιώντας το Aspose.Slides για .NET. Αυτός ο οδηγός βήμα προς βήμα παρέχει τον πηγαίο κώδικα και σαφείς οδηγίες για απρόσκοπτη διαχείριση διαφανειών.
-type: docs
 weight: 17
 url: /el/net/slide-access-and-manipulation/clone-slide-end-of-another-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αντιγράψτε τη διαφάνεια στο τέλος της ξεχωριστής παρουσίασης
+
 
 ## Εισαγωγή στο Aspose.Slides για .NET
 
@@ -103,3 +109,9 @@ url: /el/net/slide-access-and-manipulation/clone-slide-end-of-another-presentati
 ### Το Aspose.Slides για .NET λειτουργεί μόνο με διαφάνειες;
 
 Όχι, το Aspose.Slides για .NET παρέχει εκτεταμένες δυνατότητες πέρα από τις διαφάνειες. Μπορείτε να εργαστείτε με σχήματα, γραφήματα, κινούμενα σχέδια, ακόμη και να εξαγάγετε κείμενο και εικόνες από παρουσιάσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

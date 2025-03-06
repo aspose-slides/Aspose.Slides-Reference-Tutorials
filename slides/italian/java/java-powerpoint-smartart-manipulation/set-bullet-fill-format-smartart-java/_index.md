@@ -3,10 +3,16 @@ title: Imposta il formato di riempimento dei punti elenco in SmartArt utilizzand
 linktitle: Imposta il formato di riempimento dei punti elenco in SmartArt utilizzando Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come impostare il formato di riempimento dei punti elenco in SmartArt utilizzando Java con Aspose.Slides. Guida passo passo per una manipolazione efficiente della presentazione.
-type: docs
 weight: 18
 url: /it/java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Imposta il formato di riempimento dei punti elenco in SmartArt utilizzando Java
+
 ## introduzione
 Nel campo della programmazione Java, la manipolazione efficiente delle presentazioni è un requisito comune, soprattutto quando si ha a che fare con elementi SmartArt. Aspose.Slides per Java emerge come un potente strumento per tali attività, offrendo una serie di funzionalità per gestire le presentazioni a livello di codice. In questo tutorial, approfondiremo il processo di impostazione del formato di riempimento dei punti elenco in SmartArt utilizzando Java con Aspose.Slides, passo dopo passo.
 ## Prerequisiti
@@ -71,3 +77,9 @@ In effetti, Aspose.Slides ti consente di personalizzare ogni aspetto delle forme
  Sì, puoi esplorare le funzionalità di Aspose.Slides con una prova gratuita. Basta scaricarlo da[sito web](https://releases.aspose.com/slides/java/) e iniziare a esplorare.
 ### Dove posso trovare supporto per Aspose.Slides per Java?
  Per qualsiasi domanda o assistenza, puoi visitare il forum Aspose.Slides all'indirizzo[questo link](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

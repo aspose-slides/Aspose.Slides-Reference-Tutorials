@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में चार्ट प्ल
 linktitle: जावा स्लाइड्स में चार्ट प्लॉट क्षेत्र से चौड़ाई और ऊंचाई प्राप्त करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके Java Slides में चार्ट प्लॉट क्षेत्र आयाम प्राप्त करना सीखें। अपने PowerPoint स्वचालन कौशल को बढ़ाएँ।
-type: docs
 weight: 21
 url: /hi/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में चार्ट प्लॉट क्षेत्र से चौड़ाई और ऊंचाई प्राप्त करें
+
 
 ## परिचय
 
@@ -109,3 +115,10 @@ finally
 ### मैं Aspose.Slides for Java के बारे में अधिक कैसे जान सकता हूँ?
 
  आप Aspose.Slides for Java प्रलेखन पृष्ठ पर विस्तृत प्रलेखन और उदाहरण पा सकते हैं[यहाँ](https://reference.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

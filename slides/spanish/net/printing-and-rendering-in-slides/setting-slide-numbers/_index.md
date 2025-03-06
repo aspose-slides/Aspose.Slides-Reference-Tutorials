@@ -3,10 +3,16 @@ title: Configuración de números de diapositivas para presentaciones usando Asp
 linktitle: Configuración de números de diapositivas para presentaciones usando Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Explore el perfecto mundo de la manipulación de diapositivas con Aspose.Slides para .NET. Aprenda a configurar números de diapositivas sin esfuerzo, mejorando su experiencia de presentación.
-type: docs
 weight: 16
 url: /es/net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuración de números de diapositivas para presentaciones usando Aspose.Slides
+
 ## Introducción
 En el dinámico mundo de las presentaciones, controlar la secuencia y organización de las diapositivas es crucial para una comunicación eficaz. Aspose.Slides para .NET proporciona una poderosa solución para manipular los números de diapositivas dentro de sus presentaciones, brindándole la flexibilidad de personalizar su contenido sin problemas.
 ## Requisitos previos
@@ -63,3 +69,9 @@ Sí, Aspose.Slides se actualiza periódicamente para garantizar la compatibilida
  Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para obtener soporte basado en la comunidad o explorar opciones de soporte premium.
 ### ¿Puedo probar Aspose.Slides antes de comprarlo?
  Sí, puedes descargar una versión de prueba gratuita desde[aquí](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

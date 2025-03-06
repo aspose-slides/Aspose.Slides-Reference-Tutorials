@@ -3,10 +3,16 @@ title: Adicionar comentários ao slide
 linktitle: Adicionar comentários ao slide
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Adicione profundidade e interação às suas apresentações com a API Aspose.Slides. Aprenda como integrar facilmente comentários em seus slides usando .NET. Aumente o engajamento e cative seu público.
-type: docs
 weight: 13
 url: /pt/net/slide-comments-manipulation/add-slide-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar comentários ao slide
+
 
 No mundo do gerenciamento de apresentações, a capacidade de adicionar comentários aos slides pode mudar o jogo. Os comentários não apenas melhoram a colaboração, mas também auxiliam na compreensão e revisão do conteúdo dos slides. Com Aspose.Slides for .NET, uma biblioteca poderosa e versátil, você pode incorporar comentários sem esforço em seus slides de apresentação. Neste guia passo a passo, orientaremos você no processo de adição de comentários a um slide usando Aspose.Slides for .NET. Quer você seja um desenvolvedor experiente ou um novato no mundo do desenvolvimento .NET, este tutorial fornecerá todos os insights de que você precisa.
 
@@ -104,3 +110,9 @@ Para integrar o Aspose.Slides for .NET ao seu aplicativo .NET, você pode consul
 ### 5. Posso experimentar o Aspose.Slides for .NET antes de comprá-lo?
 
 Sim, você pode explorar o Aspose.Slides for .NET usando uma avaliação gratuita. Visite a[Página de teste gratuito do Aspose.Slides](https://releases.aspose.com/) para começar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

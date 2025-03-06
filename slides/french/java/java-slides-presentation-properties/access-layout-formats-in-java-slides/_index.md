@@ -3,10 +3,16 @@ title: Accéder aux formats de mise en page dans les diapositives Java
 linktitle: Accéder aux formats de mise en page dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment accéder et manipuler les formats de mise en page dans Java Slides avec Aspose.Slides pour Java. Personnalisez facilement les styles de forme et de ligne dans les présentations PowerPoint.
-type: docs
 weight: 10
 url: /fr/java/presentation-properties/access-layout-formats-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Accéder aux formats de mise en page dans les diapositives Java
+
 
 ## Introduction aux formats de mise en page d'accès dans les diapositives Java
 
@@ -138,3 +144,9 @@ IShape shape = layoutSlide.getShapes().get_Item(0); // Accédez à la première 
 ```
 
  Vous pouvez alors utiliser le`IFillFormat` et`ILineFormat` méthodes comme indiqué dans les réponses précédentes pour modifier les formats de remplissage et de ligne de la forme.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

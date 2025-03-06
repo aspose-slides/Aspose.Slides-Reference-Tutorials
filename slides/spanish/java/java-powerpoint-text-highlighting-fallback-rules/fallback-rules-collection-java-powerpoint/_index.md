@@ -3,10 +3,16 @@ title: Colección de reglas alternativas en Java PowerPoint
 linktitle: Colección de reglas alternativas en Java PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a administrar reglas de reserva de fuentes en presentaciones de PowerPoint usando Aspose.Slides para Java. Mejore la compatibilidad entre dispositivos sin esfuerzo.
-type: docs
 weight: 11
 url: /es/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Colección de reglas alternativas en Java PowerPoint
+
 ## Introducción
 En este tutorial, profundizaremos en cómo administrar las reglas de reserva de fuentes usando Aspose.Slides para Java. Las fuentes alternativas son cruciales para garantizar que sus presentaciones se muestren correctamente en diferentes entornos, especialmente cuando fuentes específicas no están disponibles. Lo guiaremos paso a paso a través de la importación de los paquetes necesarios, la configuración del entorno y la implementación de reglas alternativas.
 ## Requisitos previos
@@ -73,3 +79,9 @@ Las reglas de reserva de fuentes definen fuentes alternativas para usar cuando l
  La documentación detallada está disponible.[aquí](https://reference.aspose.com/slides/java/).
 ### ¿Cómo obtengo soporte para Aspose.Slides para Java?
 Para obtener ayuda, visite el foro Aspose.Slides[aquí](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Hinzufügen benutzerdefinierter Linien in Java-Folien
 linktitle: Hinzufügen benutzerdefinierter Linien in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Ihre Java-Folien mit benutzerdefinierten Linien. Schritt-für-Schritt-Anleitung zur Verwendung von Aspose.Slides für Java. Erfahren Sie, wie Sie Linien in Präsentationen hinzufügen und anpassen, um beeindruckende visuelle Effekte zu erzielen.
-type: docs
 weight: 10
 url: /de/java/customization-and-formatting/adding-custom-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hinzufügen benutzerdefinierter Linien in Java-Folien
+
 
 ## Einführung in das Hinzufügen benutzerdefinierter Linien in Java-Folien
 
@@ -108,3 +114,9 @@ shape.getLineFormat().setWidth(2); // Linienstärke auf 2 Punkte einstellen
 ### Ist es möglich, einer Folie mehrere Zeilen hinzuzufügen?
 
 Ja, Sie können einer Folie mehrere Zeilen hinzufügen, indem Sie die in diesem Tutorial beschriebenen Schritte wiederholen. Jede Zeile kann unabhängig angepasst werden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Notes 슬라이드 보기를 PDF 형식으로 변환
 linktitle: Notes 슬라이드 보기를 PDF 형식으로 변환
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 PowerPoint의 발표자 노트를 PDF로 변환하세요. 컨텍스트를 유지하고 손쉽게 레이아웃을 맞춤설정하세요.
-type: docs
 weight: 15
 url: /ko/net/presentation-conversion/convert-notes-slide-view-to-pdf-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Notes 슬라이드 보기를 PDF 형식으로 변환
+
 
 이 종합 가이드에서는 Aspose.Slides for .NET을 사용하여 Notes 슬라이드 보기를 PDF 형식으로 변환하는 과정을 안내합니다. 이 작업을 쉽게 수행할 수 있는 자세한 지침과 코드 조각을 찾을 수 있습니다.
 
@@ -78,3 +84,9 @@ presentation.Save(dataDir + "Pdf_Notes_out.pdf", SaveFormat.Pdf, pdfOptions);
 다음에서 추가 튜토리얼과 예제를 탐색할 수 있습니다.[.NET API 문서용 Aspose.Slides](https://reference.aspose.com/slides/net/).
 
 이제 Notes 슬라이드 보기를 PDF 형식으로 성공적으로 변환했으므로 Aspose.Slides for .NET의 더 많은 기능을 탐색하여 PowerPoint 자동화 작업을 향상할 수 있습니다. 즐거운 코딩하세요!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

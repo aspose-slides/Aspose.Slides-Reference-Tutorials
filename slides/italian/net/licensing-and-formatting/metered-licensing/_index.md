@@ -3,10 +3,16 @@ title: Utilizzo delle licenze misurate
 linktitle: Utilizzo delle licenze misurate
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come utilizzare in modo efficiente le licenze misurate con Aspose.Slides per .NET. Integra perfettamente le API pagando per l'utilizzo effettivo.
-type: docs
 weight: 11
 url: /it/net/licensing-and-formatting/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utilizzo delle licenze misurate
+
 
 ## introduzione
 
@@ -114,3 +120,9 @@ Aspose.Slides per .NET è una potente libreria che consente agli sviluppatori di
 
 ### Esiste un forum per il supporto e le discussioni di Aspose.Slides?
  Sì, puoi trovare supporto e partecipare a discussioni sul forum Aspose.Slides all'indirizzo[questo link](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

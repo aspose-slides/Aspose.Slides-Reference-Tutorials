@@ -3,10 +3,16 @@ title: Настройка автоматических цветов фрагме
 linktitle: Настройка автоматических цветов фрагментов круговой диаграммы в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как создавать динамические круговые диаграммы с автоматическими цветами фрагментов в презентациях Java PowerPoint с помощью Aspose.Slides для Java. Пошаговое руководство с исходным кодом.
-type: docs
 weight: 24
 url: /ru/java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка автоматических цветов фрагментов круговой диаграммы в слайдах Java
+
 
 ## Введение в настройку автоматических цветов фрагментов круговой диаграммы в слайдах Java
 
@@ -198,3 +204,9 @@ chart.getChartTitle().getTextFrameForOverriding().getParagraphs().get_Item(0).ge
 ```
 
 При необходимости вы можете настроить размер, жирность и курсив шрифта.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

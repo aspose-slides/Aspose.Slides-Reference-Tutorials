@@ -3,10 +3,16 @@ title: Java スライドでレイアウト モードを設定する
 linktitle: Java スライドでレイアウト モードを設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して Java スライドのレイアウト モードを設定する方法を学びます。ソース コードを使用したこのステップ バイ ステップ ガイドで、グラフの位置とサイズをカスタマイズします。
-type: docs
 weight: 23
 url: /ja/java/data-manipulation/set-layout-mode-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java スライドでレイアウト モードを設定する
+
 
 ## Java スライドでのレイアウト モードの設定の概要
 
@@ -95,3 +101,9 @@ finally
 ### Aspose.Slides for Java の詳細情報はどこで入手できますか?
 
  Aspose.Slides for Javaの詳細については、[ドキュメンテーション](https://reference.aspose.com/slides/java/)Java でスライドやグラフを効果的に操作するのに役立つ詳細な API リファレンスと例が含まれています。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

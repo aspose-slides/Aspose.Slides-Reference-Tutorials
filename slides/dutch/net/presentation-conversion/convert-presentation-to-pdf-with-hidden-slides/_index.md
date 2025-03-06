@@ -3,10 +3,16 @@ title: Converteer presentatie naar PDF met verborgen dia's
 linktitle: Converteer presentatie naar PDF met verborgen dia's
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u Aspose.Slides voor .NET kunt gebruiken om presentaties naadloos naar PDF te converteren met verborgen dia's.
-type: docs
 weight: 26
 url: /nl/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converteer presentatie naar PDF met verborgen dia's
+
 
 ## Inleiding tot Aspose.Slides voor .NET
 
@@ -95,3 +101,9 @@ Absoluut, Aspose.Slides voor .NET is ontworpen om presentaties van verschillende
 ### Is er documentatie voor Aspose.Slides voor .NET?
 
  Ja, u kunt de documentatie en gebruiksvoorbeelden voor Aspose.Slides voor .NET vinden op[hier](https://reference.aspose.com/slides/net).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

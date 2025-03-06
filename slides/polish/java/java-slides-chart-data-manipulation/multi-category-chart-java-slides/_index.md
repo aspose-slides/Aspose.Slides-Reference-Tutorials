@@ -3,10 +3,16 @@ title: Wykres wielu kategorii w slajdach Java
 linktitle: Wykres wielu kategorii w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Twórz wykresy z wieloma kategoriami w slajdach Java za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym umożliwiający imponującą wizualizację danych w prezentacjach.
-type: docs
 weight: 20
 url: /pl/java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wykres wielu kategorii w slajdach Java
+
 
 ## Wprowadzenie do wykresu wielu kategorii w slajdach Java z Aspose.Slides
 
@@ -157,3 +163,9 @@ Tak, możesz dodać dodatkowe serie do wykresu, wykonując podobny proces, jak p
 ### Jak dodać tytuł do wykresu?
 
  Możesz dodać tytuł do wykresu, używając opcji`ch.getChartTitle().getTextFrame().setText("Chart Title");` metoda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Animációs sorozat a Java Slides-ben
 linktitle: Animációs sorozat a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimalizálja prezentációit sorozatanimációkkal az Aspose.Slides for Java programban. Kövesse lépésenkénti útmutatónkat forráskód-példákkal, hogy lenyűgöző PowerPoint-animációkat készítsen.
-type: docs
 weight: 11
 url: /hu/java/animation-and-layout/animating-series-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Animációs sorozat a Java Slides-ben
+
 
 ## Az Animating Series bemutatása az Aspose.Slides for Java-ban
 
@@ -125,3 +131,9 @@ A 3. lépésben meghosszabbíthatja a ciklust, hogy animációkat adjon hozzá a
 ### Hogyan szabhatom testre az animáció időtartamát és késleltetését?
 
 Testreszabhatja az animáció időtartamát és késleltetését az animációs effektusok tulajdonságainak beállításával. Tekintse meg az Aspose.Slides for Java dokumentációját az elérhető testreszabási lehetőségekről.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

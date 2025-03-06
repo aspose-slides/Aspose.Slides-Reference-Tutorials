@@ -3,10 +3,16 @@ title: PowerPoint'te Shape Bevel Etkili Verilerini Alın
 linktitle: PowerPoint'te Shape Bevel Etkili Verilerini Alın
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint'te şekil eğimi etkili verilerini nasıl alacağınızı öğrenin. Sunumlarınızı çarpıcı görsel efektlerle geliştirin.
-type: docs
 weight: 26
 url: /tr/java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effective-data-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint'te Shape Bevel Etkili Verilerini Alın
+
 ## giriiş
 Modern iş sunumlarında görsel çekicilik, bilginin etkili bir şekilde iletilmesinde çok önemli bir rol oynar. PowerPoint sunumlarında şekillerin görsel etkisini artırabilecek unsurlardan biri eğim efektidir. Aspose.Slides for Java, eğim efektleri de dahil olmak üzere şekillerin çeşitli özelliklerine erişmek ve bunları değiştirmek için güçlü araçlar sağlar. Bu eğitimde, Aspose.Slides for Java'yı kullanarak şekil eğimi etkili verilerini alma sürecinde size rehberlik edeceğiz.
 ## Önkoşullar
@@ -58,3 +64,9 @@ Aspose.Slides, PowerPoint'in çeşitli sürümleriyle uyumluluk sağlayarak fark
 Kesinlikle, eğim efekti özellikleri üzerinde tam kontrole sahipsiniz ve bunları ihtiyaçlarınıza göre özelleştirebilirsiniz.
 ### Aspose.Slides için daha fazla kaynağı ve desteği nerede bulabilirim?
  Ziyaret edebilirsiniz[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) Her türlü soru, destek veya ek kaynak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

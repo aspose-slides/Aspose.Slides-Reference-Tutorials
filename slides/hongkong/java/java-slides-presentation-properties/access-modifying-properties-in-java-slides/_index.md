@@ -3,10 +3,16 @@ title: 在 Java 投影片中存取修改屬性
 linktitle: 在 Java 投影片中存取修改屬性
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 存取和修改 Java Slides 中的屬性。使用自訂屬性增強您的簡報。
-type: docs
 weight: 11
 url: /zh-hant/java/presentation-properties/access-modifying-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 投影片中存取修改屬性
+
 
 ## Java 投影片存取修改屬性簡介
 
@@ -117,3 +123,9 @@ Aspose.Slides for Java 是一個商業庫，但您可以透過免費試用版探
 ### 在哪裡可以找到更多文件和範例？
 
 您可以在以下位置找到 Aspose.Slides for Java 的綜合文件和程式碼範例：[這裡](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

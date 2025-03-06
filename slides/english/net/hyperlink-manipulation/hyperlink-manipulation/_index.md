@@ -3,10 +3,16 @@ title: Hyperlink Manipulation in Aspose.Slides
 linktitle: Hyperlink Manipulation in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to add and remove hyperlinks in Aspose.Slides for .NET. Enhance your presentations with interactive links easily.
-type: docs
 weight: 10
 url: /net/hyperlink-manipulation/hyperlink-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hyperlink Manipulation in Aspose.Slides
+
 
 Hyperlinks are essential elements in presentations, as they provide a convenient way to navigate between slides or access external resources. Aspose.Slides for .NET offers powerful features for adding and removing hyperlinks in your presentation slides. In this tutorial, we will guide you through the process of hyperlink manipulation using Aspose.Slides for .NET. We will cover adding hyperlinks to a slide and removing hyperlinks from a slide. So, let's dive in!
 
@@ -121,3 +127,10 @@ For in-depth documentation and community support, visit the [Aspose.Slides docum
 
 ### How can I obtain a temporary license for Aspose.Slides?
 If you need a temporary license for Aspose.Slides, you can get one [here](https://purchase.aspose.com/temporary-license/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

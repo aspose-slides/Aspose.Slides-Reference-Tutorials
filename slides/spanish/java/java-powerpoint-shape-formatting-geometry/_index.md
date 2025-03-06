@@ -3,10 +3,16 @@ title: Geometría y formato de formas de PowerPoint de Java
 linktitle: Geometría y formato de formas de PowerPoint de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Descubra los tutoriales de geometría y formato de formas de Java PowerPoint. Aprenda a rellenar formas, buscar formas y crear geometría personalizada con Aspose.Slides para Java.
-type: docs
 weight: 26
 url: /es/java/java-powerpoint-shape-formatting-geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Geometría y formato de formas de PowerPoint de Java
+
 ## Introducción
 
 La creación de presentaciones de PowerPoint visualmente atractivas a menudo requiere un formato de forma preciso y una manipulación geométrica. Con Aspose.Slides para Java, los desarrolladores pueden llevar sus presentaciones al siguiente nivel. Este artículo explora tutoriales esenciales sobre cómo rellenar formas, encontrar formas y crear geometría personalizada para hacer que sus diapositivas se destaquen.
@@ -74,3 +80,9 @@ Aprenda cómo recuperar datos efectivos de plataformas ligeras de presentaciones
 Aprenda cómo recuperar datos efectivos de bisel de forma en PowerPoint usando Aspose.Slides para Java. Mejore sus presentaciones con impresionantes efectos visuales.
 ### [Ocultar formas en PowerPoint](./hide-shapes-powerpoint/)
 Aprenda cómo ocultar formas en PowerPoint usando Aspose.Slides para Java con nuestra guía detallada paso a paso. Perfecto para desarrolladores de Java de todos los niveles.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

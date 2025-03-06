@@ -3,10 +3,16 @@ title: Java Slaytlarında Düzen Modunu Ayarlama
 linktitle: Java Slaytlarında Düzen Modunu Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides'ı kullanarak Java slaytları için düzen modlarını nasıl ayarlayacağınızı öğrenin. Kaynak kodlu bu adım adım kılavuzda grafik konumlandırmasını ve boyutlandırmasını özelleştirin.
-type: docs
 weight: 23
 url: /tr/java/data-manipulation/set-layout-mode-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarında Düzen Modunu Ayarlama
+
 
 ## Java Slaytlarında Düzen Modunu Ayarlamaya Giriş
 
@@ -95,3 +101,9 @@ finally
 ### Aspose.Slides for Java hakkında daha fazla bilgiyi nerede bulabilirim?
 
  Aspose.Slides for Java hakkında daha fazla bilgiyi şurada bulabilirsiniz:[dokümantasyon](https://reference.aspose.com/slides/java/). Java'da slaytlar ve grafiklerle etkili bir şekilde çalışmanıza yardımcı olacak ayrıntılı API referansları ve örnekleri içerir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

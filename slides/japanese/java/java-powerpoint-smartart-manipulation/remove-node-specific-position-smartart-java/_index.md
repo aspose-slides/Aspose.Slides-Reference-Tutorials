@@ -3,10 +3,16 @@ title: SmartArt の特定の位置にあるノードを削除する
 linktitle: SmartArt の特定の位置にあるノードを削除する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して SmartArt 内の特定の位置にあるノードを削除する方法を学びます。プレゼンテーションのカスタマイズを簡単に強化できます。
-type: docs
 weight: 15
 url: /ja/java/java-powerpoint-smartart-manipulation/remove-node-specific-position-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# SmartArt の特定の位置にあるノードを削除する
+
 ## 導入
 Java 開発の分野では、Aspose.Slides はプレゼンテーションをプログラムで操作するための強力なツールとして登場しました。スライドの作成、変更、管理のいずれの場合でも、Aspose.Slides for Java はこれらのタスクを効率的に合理化する強力な機能セットを提供します。このような一般的な操作の 1 つは、SmartArt オブジェクト内の特定の位置にあるノードを削除することです。このチュートリアルでは、Aspose.Slides for Java を使用してこれを実行する手順を詳しく説明します。
 ## 前提条件
@@ -62,3 +68,9 @@ Aspose.Slides for Java を使用すると、プレゼンテーション内の Sm
  Aspose.Slides for Javaを購入するには、購入ページにアクセスしてください。[ここ](https://purchase.aspose.com/buy).
 ### Aspose.Slides for Java の詳細なドキュメントはどこで入手できますか?
 包括的なドキュメントにアクセスできます[ここ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

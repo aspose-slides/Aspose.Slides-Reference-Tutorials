@@ -3,10 +3,16 @@ title: Presentation Manipulation
 linktitle: Presentation Manipulation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Unlock the potential of presentation manipulation with Aspose.Slides for .NET tutorials. Learn how to dynamically create, customize, and enhance PowerPoint presentations programmatically. Elevate your PowerPoint processing skills today!
-type: docs
 weight: 11
 url: /net/presentation-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Presentation Manipulation
+
 In the realm of PowerPoint processing, Aspose.Slides for .NET emerges as a powerful tool for presentation manipulation. This collection of tutorials provides comprehensive guidance on harnessing the capabilities of Aspose.Slides to manipulate and enhance presentations programmatically. From creating, modifying, and arranging slides to managing text, images, and multimedia elements, these tutorials offer a step-by-step journey into the world of dynamic presentation generation and customization. Whether you're automating presentation tasks, generating reports, or building interactive slideshows, these tutorials empower developers with the knowledge to wield Aspose.Slides effectively.
 
 ## Presentation Manipulation
@@ -51,3 +57,10 @@ Learn how to export PowerPoint presentations to HTML with CSS files using Aspose
 Learn how to perform SVG conversion for presentations using Aspose.Slides for .NET. This comprehensive guide covers step-by-step instructions, source code examples, and various SVG conversion options.
 ### [Formatting SVGs in Presentations](./formatting-svgs-in-presentations/)
 Optimize your presentations with stunning SVGs using Aspose.Slides for .NET. Learn step by step how to format SVGs for impactful visuals. Elevate your presentation game today! 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

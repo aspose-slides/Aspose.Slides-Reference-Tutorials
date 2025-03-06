@@ -3,10 +3,16 @@ title: Szerezze meg a rész pozíciókoordinátáit a Java Slides-ben
 linktitle: Szerezze meg a rész pozíciókoordinátáit a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg a szövegrész koordinátáinak lekérését Java diákban az Aspose.Slides for Java API segítségével. Pontosan szabályozhatja a szöveg elhelyezését a PowerPoint-prezentációkban.
-type: docs
 weight: 12
 url: /hu/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szerezze meg a rész pozíciókoordinátáit a Java Slides-ben
+
 
 ## Bevezetés a rész pozíciókoordinátáinak lekéréséhez Java Slides-ben
 
@@ -120,3 +126,9 @@ Igen, az Aspose.Slides for Java különféle PowerPoint fájlformátumokat támo
 ### Hogyan kaphatok további támogatást vagy segítséget az Aspose.Slides for Java-hoz?
 
 További támogatást és forrásokat érhet el az Aspose webhelyén. Fórumokat, dokumentációt és prémium támogatási lehetőségeket biztosítanak a felhasználók számára.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

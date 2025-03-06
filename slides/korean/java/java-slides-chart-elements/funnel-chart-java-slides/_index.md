@@ -3,10 +3,16 @@ title: Java 슬라이드의 깔때기형 차트
 linktitle: Java 슬라이드의 깔때기형 차트
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 단계별 튜토리얼을 통해 Java용 Aspose.Slides를 살펴보세요. 멋진 깔때기형 차트 등을 만드세요.
-type: docs
 weight: 14
 url: /ko/java/chart-elements/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 슬라이드의 깔때기형 차트
+
 
 ## Java 슬라이드의 깔때기형 차트 소개
 
@@ -144,3 +150,9 @@ finally
 ### Aspose.Slides for Java에 대한 추가 예제와 문서는 어디서 찾을 수 있나요?
 
  Aspose.Slides for Java 사용에 대한 더 많은 예제와 자세한 문서는 다음에서 찾을 수 있습니다.[선적 서류 비치](https://docs.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

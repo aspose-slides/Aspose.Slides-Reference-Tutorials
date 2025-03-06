@@ -3,10 +3,16 @@ title: 기존 프리젠테이션 끝 부분에 슬라이드 복제
 linktitle: 기존 프리젠테이션 끝 부분에 슬라이드 복제
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 기존 PowerPoint 프레젠테이션 끝에 슬라이드를 복제하고 추가하는 방법을 알아보세요. 이 단계별 가이드에서는 소스 코드 예제를 제공하고 설정, 슬라이드 복제, 수정 등을 다룹니다.
-type: docs
 weight: 22
 url: /ko/net/slide-access-and-manipulation/clone-slide-within-same-presentation-to-end/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 기존 프리젠테이션 끝 부분에 슬라이드 복제
+
 
 ## .NET용 Aspose.Slides 소개
 
@@ -96,3 +102,9 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ### Aspose.Slides를 사용하여 슬라이드 내용을 수정할 수 있나요?
 
 전적으로! Aspose.Slides를 사용하면 슬라이드를 복제할 수 있을 뿐만 아니라 텍스트, 이미지, 모양, 애니메이션과 같은 내용을 프로그래밍 방식으로 조작할 수도 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

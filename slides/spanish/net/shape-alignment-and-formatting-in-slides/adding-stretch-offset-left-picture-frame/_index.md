@@ -3,10 +3,16 @@ title: Agregar desplazamiento de estiramiento a la izquierda en PowerPoint con A
 linktitle: Agregar desplazamiento de estiramiento a la izquierda para el marco de imagen en Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda cómo mejorar las presentaciones de PowerPoint usando Aspose.Slides para .NET. Siga nuestra guía paso a paso para agregar un desplazamiento elástico hacia la izquierda en los marcos de cuadros.
-type: docs
 weight: 14
 url: /es/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar desplazamiento de estiramiento a la izquierda en PowerPoint con Aspose.Slide
+
 ## Introducción
 Aspose.Slides para .NET es una poderosa biblioteca que permite a los desarrolladores manipular presentaciones de PowerPoint con facilidad. En este tutorial, exploraremos el proceso de agregar un desplazamiento de estiramiento a la izquierda para un marco de imagen usando Aspose.Slides para .NET. Siga esta guía paso a paso para mejorar sus habilidades para trabajar con imágenes y formas en presentaciones de PowerPoint.
 ## Requisitos previos
@@ -85,3 +91,9 @@ R: Aspose.Slides se actualiza periódicamente para garantizar la compatibilidad 
  R: Explora el[Documentación de Aspose.Slides](https://reference.aspose.com/slides/net/) para obtener ejemplos y orientación completos.
 ### P: ¿Puedo aplicar múltiples compensaciones de estiramiento a una sola forma?
 R: Sí, puede combinar múltiples compensaciones de estiramiento para lograr efectos visuales complejos y personalizados.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

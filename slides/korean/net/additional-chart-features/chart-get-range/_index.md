@@ -3,10 +3,16 @@ title: .NET용 Aspose.Slides에서 차트 데이터 범위를 얻는 방법
 linktitle: 차트 데이터 범위 가져오기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션에서 차트 데이터 범위를 추출하는 방법을 알아보세요. 개발자를 위한 단계별 가이드입니다.
-type: docs
 weight: 11
 url: /ko/net/additional-chart-features/chart-get-range/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Slides에서 차트 데이터 범위를 얻는 방법
+
 
 Aspose.Slides for .NET을 사용하여 PowerPoint 프레젠테이션의 차트에서 데이터 범위를 추출하려고 하시나요? 당신은 올바른 장소에 왔습니다. 이 단계별 가이드에서는 프레젠테이션에서 차트 데이터 범위를 얻는 과정을 안내합니다. Aspose.Slides for .NET은 PowerPoint 문서를 프로그래밍 방식으로 작업할 수 있게 해주는 강력한 라이브러리이며, 차트 데이터 범위를 얻는 것은 이 라이브러리가 수행하는 데 도움이 되는 많은 작업 중 하나일 뿐입니다.
 
@@ -93,3 +99,9 @@ Aspose.Slides for .NET은 최신 파일 형식을 포함하여 다양한 PowerPo
 
 ### .NET 사용자를 위한 Aspose.Slides에는 어떤 종류의 지원 옵션이 제공됩니까?
  Aspose 커뮤니티로부터 지원과 지원을 받을 수 있습니다.[지원 포럼](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

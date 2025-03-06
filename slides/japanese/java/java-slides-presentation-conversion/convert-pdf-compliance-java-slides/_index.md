@@ -3,10 +3,16 @@ title: Java スライドで PDF コンプライアンスに変換する
 linktitle: Java スライドで PDF コンプライアンスに変換する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションを PDF/A-2a 準拠の PDF に変換する方法を学びます。シームレスなアーカイブとアクセシビリティを実現するには、ソース コードを含むステップ バイ ステップ ガイドに従ってください。
-type: docs
 weight: 26
 url: /ja/java/presentation-conversion/convert-pdf-compliance-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java スライドで PDF コンプライアンスに変換する
+
 
 ## Java スライドで PDF コンプライアンスに変換する方法の紹介
 
@@ -114,3 +120,9 @@ PDF/A-2a は拡張機能を提供しますが、特に複雑なドキュメン�
 ## Aspose.Slides for Java および PDF 準拠に関する詳細情報はどこで入手できますか?
 
  Aspose.Slides for Javaとその機能（PDF準拠設定を含む）の詳細については、[Aspose.Slides for Java API リファレンス](https://reference.aspose.com/slides/java/)さらに、コード例やチュートリアルを参照して、ライブラリに関する知識をさらに深めることもできます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

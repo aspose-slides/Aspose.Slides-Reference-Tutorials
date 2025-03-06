@@ -3,10 +3,16 @@ title: Multi-Category Chart in Java Slides
 linktitle: Multi-Category Chart in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Create Multi-Category Charts in Java Slides using Aspose.Slides for Java. Step-by-step guide with source code for impressive data visualization in presentations.
-type: docs
 weight: 20
 url: /java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Multi-Category Chart in Java Slides
+
 
 ## Introduction to Multi-Category Chart in Java Slides with Aspose.Slides
 
@@ -157,3 +163,10 @@ To change the chart type, replace `ChartType.ClusteredColumn` with the desired c
 ### How can I add a title to the chart?
 
 You can add a title to the chart by using the `ch.getChartTitle().getTextFrame().setText("Chart Title");` method.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

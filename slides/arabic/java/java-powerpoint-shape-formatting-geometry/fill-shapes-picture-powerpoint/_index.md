@@ -3,10 +3,16 @@ title: ملء الأشكال مع الصورة في PowerPoint
 linktitle: ملء الأشكال مع الصورة في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية ملء الأشكال بالصور في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تعزيز الجاذبية البصرية دون عناء.
-type: docs
 weight: 12
 url: /ar/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ملء الأشكال مع الصورة في PowerPoint
+
 ## مقدمة
 غالبًا ما تتطلب عروض PowerPoint التقديمية عناصر مرئية مثل الأشكال المملوءة بالصور لتعزيز جاذبيتها ونقل المعلومات بشكل فعال. يوفر Aspose.Slides for Java مجموعة قوية من الأدوات لإنجاز هذه المهمة بسلاسة. في هذا البرنامج التعليمي، سنتعلم كيفية ملء الأشكال بالصور باستخدام Aspose.Slides لـ Java خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -80,3 +86,9 @@ pres.save(dataDir + "RectShpPic_out.pptx", SaveFormat.Pptx);
 يدعم Aspose.Slides for Java مجموعة واسعة من تنسيقات الصور، بما في ذلك JPEG وPNG وGIF وBMP وTIFF وغيرها.
 ### هل يمكنني تطبيق التأثيرات على الأشكال المملوءة؟
 نعم، يوفر Aspose.Slides for Java واجهات برمجة تطبيقات شاملة لتطبيق تأثيرات متنوعة، مثل الظلال والانعكاسات والتدوير ثلاثي الأبعاد، على الأشكال المعبأة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

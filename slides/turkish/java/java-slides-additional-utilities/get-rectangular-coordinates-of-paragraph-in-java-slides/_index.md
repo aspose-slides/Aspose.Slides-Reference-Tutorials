@@ -3,10 +3,16 @@ title: Java Slaytlarında Paragrafın Dikdörtgen Koordinatlarını Alın
 linktitle: Java Slaytlarında Paragrafın Dikdörtgen Koordinatlarını Alın
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak PowerPoint sunumlarında paragraf koordinatlarını nasıl alacağınızı öğrenin. Doğru konumlandırma için kaynak kodlu adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 13
 url: /tr/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarında Paragrafın Dikdörtgen Koordinatlarını Alın
+
 
 ## Aspose.Slides for Java'da Paragrafın Dikdörtgen Koordinatlarını Alma Konusuna Giriş
 
@@ -112,3 +118,9 @@ Evet, Aspose.Slides for Java, PowerPoint dosyalarının toplu işlenmesi için �
 ### Aspose.Slides for Java'yı kullanmak için lisansa ihtiyacım var mı?
 
 Evet, Aspose.Slides for Java'yı üretim ortamında kullanmak için genellikle geçerli bir lisansa ihtiyacınız vardır. Aspose web sitesinden lisans alabilirsiniz. Ancak test ve değerlendirme amacıyla deneme sürümü sunabilirler.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

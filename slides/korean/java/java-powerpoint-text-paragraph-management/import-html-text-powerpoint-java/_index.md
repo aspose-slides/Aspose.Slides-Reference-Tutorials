@@ -3,10 +3,16 @@ title: Java를 사용하여 PowerPoint에서 HTML 텍스트 가져오기
 linktitle: Java를 사용하여 PowerPoint에서 HTML 텍스트 가져오기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 원활한 통합을 위해 Aspose.Slides와 함께 Java를 사용하여 HTML 텍스트를 PowerPoint 슬라이드로 가져오는 방법을 알아보세요. 문서 관리를 원하는 개발자에게 이상적입니다.
-type: docs
 weight: 10
 url: /ko/java/java-powerpoint-text-paragraph-management/import-html-text-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PowerPoint에서 HTML 텍스트 가져오기
+
 ## 소개
 이 튜토리얼에서는 Aspose.Slides의 도움으로 Java를 사용하여 HTML 텍스트를 PowerPoint 프레젠테이션으로 가져오는 방법을 배웁니다. 이 단계별 가이드는 필요한 패키지 가져오기부터 PowerPoint 파일 저장까지의 과정을 안내합니다.
 ## 전제 조건
@@ -68,3 +74,9 @@ Aspose.Slides는 텍스트 스타일과 기본 레이아웃을 포함한 대부�
 예, Aspose.Slides는 Java에서 PowerPoint 파일의 효율적인 일괄 처리를 위한 API를 제공합니다.
 ### Aspose.Slides에 대한 추가 예제와 지원은 어디서 찾을 수 있나요?
  방문하다[Aspose.Slides 문서](https://reference.aspose.com/slides/java/) 그리고[지원 포럼](https://forum.aspose.com/c/slides/11) 자세한 예와 지원을 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

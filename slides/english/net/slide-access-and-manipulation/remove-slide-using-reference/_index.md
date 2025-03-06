@@ -3,10 +3,16 @@ title: Delete Slide via Reference
 linktitle: Delete Slide via Reference
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to delete slides in PowerPoint presentations with Aspose.Slides for .NET, a powerful library for .NET developers.
-type: docs
 weight: 25
 url: /net/slide-access-and-manipulation/remove-slide-using-reference/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Delete Slide via Reference
+
 
 As a proficient SEO writer, I'm here to provide you with a comprehensive guide on using Aspose.Slides for .NET to delete a slide from a PowerPoint presentation. In this step-by-step tutorial, we will break down the process into manageable steps, ensuring that you can easily follow along. So, let's get started!
 
@@ -101,3 +107,10 @@ If you encounter any issues or have questions, you can seek help from the Aspose
 
 ### Can I undo the deletion of a slide using Aspose.Slides for .NET?
 Once a slide is removed, it cannot be easily undone. It's advisable to keep backups of your presentations before making such changes.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

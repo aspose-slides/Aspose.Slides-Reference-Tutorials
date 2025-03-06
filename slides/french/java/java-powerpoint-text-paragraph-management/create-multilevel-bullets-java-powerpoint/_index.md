@@ -3,10 +3,16 @@ title: Créer des puces à plusieurs niveaux dans Java PowerPoint
 linktitle: Créer des puces à plusieurs niveaux dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment créer des puces à plusieurs niveaux dans PowerPoint à l'aide d'Aspose.Slides pour Java. Guide étape par étape avec des exemples de code et des FAQ.
-type: docs
 weight: 14
 url: /fr/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer des puces à plusieurs niveaux dans Java PowerPoint
+
 ## Introduction
 Dans ce didacticiel, nous explorerons comment créer des puces à plusieurs niveaux dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java. L'ajout de puces est une exigence courante pour créer un contenu organisé et visuellement attrayant dans les présentations. Nous suivrons le processus étape par étape, en veillant à ce qu'à la fin de ce guide, vous serez équipé pour améliorer vos présentations avec des puces structurées à plusieurs niveaux.
 ## Conditions préalables
@@ -109,3 +115,9 @@ Aspose.Slides génère des présentations compatibles avec Microsoft PowerPoint 
 Oui, Aspose.Slides fournit des API pour automatiser la création, la modification et la manipulation des présentations PowerPoint.
 ### Où puis-je obtenir de l'aide pour Aspose.Slides pour Java ?
  Vous pouvez obtenir l'aide de la communauté Aspose.Slides et des experts sur[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

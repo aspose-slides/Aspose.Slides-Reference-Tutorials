@@ -3,10 +3,16 @@ title: Java PowerPoint 텍스트 상자 조작
 linktitle: Java PowerPoint 텍스트 상자 조작
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java PowerPoint 텍스트 상자 조작에 대한 포괄적인 튜토리얼을 살펴보세요. 가이드를 통해 프레젠테이션을 단계별로 향상해 보세요.
-type: docs
 weight: 20
 url: /ko/java/java-powerpoint-text-box-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint 텍스트 상자 조작
+
 ## 소개
 
 Aspose.Slides를 사용하는 Java PowerPoint 텍스트 상자 조작 튜토리얼을 통해 PowerPoint 프레젠테이션의 잠재력을 최대한 활용하세요. 초보자이든 고급 사용자이든 당사의 자세한 가이드는 프레젠테이션을 쉽게 향상시키는 데 도움이 될 것입니다.
@@ -52,3 +58,9 @@ Aspose.Slides를 사용하여 Java PowerPoint에서 텍스트 프레임의 회�
 Aspose.Slides for Java를 사용하여 Java PowerPoint에서 글머리 기호 채우기 형식을 적용하는 방법을 알아보세요. 글머리 기호 스타일을 마스터하고 프레젠테이션을 향상하세요.
 ### [Java PowerPoint의 효과 텍스트 상자 단락](./effect-text-box-paragraph-java-powerpoint/)
 원활한 통합 및 사용자 정의를 위해 Aspose.Slides를 사용하여 동적 텍스트 효과로 Java에서 PowerPoint 프레젠테이션을 향상시키는 방법을 알아보세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

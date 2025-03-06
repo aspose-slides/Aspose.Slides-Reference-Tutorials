@@ -3,10 +3,16 @@ title: Java を使用して SmartArt の特定の位置にノードを追加す�
 linktitle: Java を使用して SmartArt の特定の位置にノードを追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides で Java を使用して SmartArt の特定の位置にノードを追加する方法を学びます。ダイナミックなプレゼンテーションを簡単に作成します。
-type: docs
 weight: 16
 url: /ja/java/java-powerpoint-smartart-manipulation/add-nodes-specific-position-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して SmartArt の特定の位置にノードを追加する
+
 ## 導入
 このチュートリアルでは、Java と Aspose.Slides を使用して SmartArt の特定の位置にノードを追加する手順を説明します。SmartArt は、視覚的に魅力的な図やグラフを作成できる PowerPoint の機能です。
 ## 前提条件
@@ -70,3 +76,9 @@ Aspose.Slides はさまざまな PowerPoint 形式をサポートしており、
 はい、Aspose.Slides は、.NET や Python を含む複数のプログラミング言語用のライブラリを提供します。
 ### Aspose.Slides の試用版はありますか?
 はい、無料試用版は以下からダウンロードできます。[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

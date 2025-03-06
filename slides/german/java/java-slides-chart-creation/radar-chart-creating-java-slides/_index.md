@@ -3,10 +3,16 @@ title: Erstellen von Radardiagrammen in Java-Folien
 linktitle: Erstellen von Radardiagrammen in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für die Java-API Radardiagramme in Java-PowerPoint-Präsentationen erstellen.
-type: docs
 weight: 10
 url: /de/java/chart-creation/radar-chart-creating-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen von Radardiagrammen in Java-Folien
+
 
 ## Einführung in das Erstellen eines Radardiagramms in Java-Folien
 
@@ -268,3 +274,9 @@ Informationen zum Anpassen der Achsenbeschriftungen und -formatierung, einschlie
 ### Wie speichere ich das Diagramm in einem anderen Dateiformat?
 
 Sie können das Ausgabeformat ändern, indem Sie die Dateierweiterung im`outPath` Variable und unter Verwendung der entsprechenden`SaveFormat` . Um beispielsweise als PDF zu speichern, verwenden Sie`SaveFormat.Pdf`.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

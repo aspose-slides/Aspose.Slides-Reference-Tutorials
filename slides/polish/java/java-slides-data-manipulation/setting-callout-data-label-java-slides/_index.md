@@ -3,10 +3,16 @@ title: Ustawianie objaśnienia etykiety danych w slajdach Java
 linktitle: Ustawianie objaśnienia etykiety danych w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak skonfigurować objaśnienia dla etykiet danych w Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym.
-type: docs
 weight: 25
 url: /pl/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustawianie objaśnienia etykiety danych w slajdach Java
+
 
 ## Wprowadzenie do ustawiania objaśnień dla etykiety danych w Aspose.Slides dla Java
 
@@ -203,3 +209,9 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 ```
 
 Oto kilka typowych opcji dostosowywania etykiet danych i objaśnień w Aspose.Slides dla Java. Możesz dodatkowo dostosować wygląd do swoich konkretnych potrzeb.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

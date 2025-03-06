@@ -3,10 +3,16 @@ title: تحريك عناصر السلسلة في الرسم البياني
 linktitle: تحريك عناصر السلسلة في الرسم البياني
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعلم كيفية تحريك سلسلة المخططات باستخدام Aspose.Slides لـ .NET. قم بإنشاء عروض تقديمية جذابة باستخدام صور ديناميكية. دليل الخبراء مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 13
 url: /ar/net/chart-formatting-and-animation/animating-series-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحريك عناصر السلسلة في الرسم البياني
+
 
 هل تتطلع إلى تحسين عروض PowerPoint التقديمية الخاصة بك باستخدام المخططات والرسوم المتحركة الجذابة؟ يمكن أن يساعدك Aspose.Slides for .NET على تحقيق ذلك. في هذا البرنامج التعليمي خطوة بخطوة، سنوضح لك كيفية تحريك عناصر السلسلة في مخطط باستخدام Aspose.Slides for .NET. تسمح لك هذه المكتبة القوية بإنشاء عروض PowerPoint التقديمية ومعالجتها وتخصيصها برمجياً، مما يوفر لك التحكم الكامل في شرائحك ومحتواها.
 
@@ -103,3 +109,10 @@ for (int i = 0; i < chart.Series.Count; i++)
 ### 5. كيف يمكنني الحصول على دعم المجتمع أو المساعدة فيما يتعلق بـ Aspose.Slides لـ .NET؟
 
  إذا كانت لديك أسئلة أو كنت بحاجة إلى المساعدة، يمكنك زيارة[Aspose.Slides لمنتدى .NET](https://forum.aspose.com/) لدعم المجتمع.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

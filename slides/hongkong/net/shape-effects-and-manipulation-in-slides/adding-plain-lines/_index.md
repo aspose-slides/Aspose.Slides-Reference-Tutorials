@@ -3,10 +3,16 @@ title: 使用 Aspose.Slides 將普通線條加入簡報投影片
 linktitle: 使用 Aspose.Slides 將普通線條加入簡報投影片
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides 增強 .NET 中的 PowerPoint 簡報。按照我們的逐步指南輕鬆添加簡單線條。
-type: docs
 weight: 16
 url: /zh-hant/net/shape-effects-and-manipulation-in-slides/adding-plain-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Slides 將普通線條加入簡報投影片
+
 ## 介紹
 創建引人入勝且具有視覺吸引力的 PowerPoint 簡報通常涉及合併各種形狀和元素。如果您使用 .NET，Aspose.Slides 是一個可以簡化流程的強大工具。本教學重點在於使用 Aspose.Slides for .NET 為簡報投影片新增簡單線條。透過這個簡單易懂的指南來增強您的簡報。
 ## 先決條件
@@ -67,3 +73,9 @@ pres.Save(dataDir + "LineShape1_out.pptx", SaveFormat.Pptx);
 答：訪問[這裡](https://purchase.aspose.com/temporary-license/)以獲得臨時許可證。
 ### Q：面臨問題？我在哪裡可以獲得支援？
 答：尋求協助[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

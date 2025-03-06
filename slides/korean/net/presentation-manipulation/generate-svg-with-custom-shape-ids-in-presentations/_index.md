@@ -3,10 +3,16 @@ title: 프레젠테이션에서 사용자 정의 모양 ID를 사용하여 SVG �
 linktitle: 프레젠테이션에서 사용자 정의 모양 ID를 사용하여 SVG 생성
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 사용자 정의 SVG 모양과 ID로 매력적인 프레젠테이션을 생성하세요. 소스 코드 예제를 통해 대화형 슬라이드를 만드는 방법을 단계별로 알아보세요. 프레젠테이션의 시각적 매력과 사용자 상호 작용을 향상합니다.
-type: docs
 weight: 19
 url: /ko/net/presentation-manipulation/generate-svg-with-custom-shape-ids-in-presentations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 프레젠테이션에서 사용자 정의 모양 ID를 사용하여 SVG 생성
+
 
 .NET용 Aspose.Slides의 강력한 기능을 활용하여 사용자 정의 모양 ID가 있는 SVG 파일을 생성하려고 하시나요? 당신은 바로 이곳에 있습니다! 이 단계별 튜토리얼에서는 다음 소스 코드 조각을 사용하여 프로세스를 안내합니다. 이 과정을 마치면 프레젠테이션에서 사용자 정의 모양 ID가 포함된 SVG 파일을 만들 수 있는 준비가 완료됩니다.
 
@@ -78,3 +84,10 @@ using (FileStream stream = new FileStream(dataDir + "pptxFileName.svg", FileMode
     추가 문서를 보려면 다음을 방문하세요.[.NET API 참조용 Aspose.Slides](https://reference.aspose.com/slides/net/).
 
 이제 Aspose.Slides for .NET을 사용하여 SVG 생성의 무한한 가능성을 탐색해 보세요. 즐거운 코딩하세요!
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

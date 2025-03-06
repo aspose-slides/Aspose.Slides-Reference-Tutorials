@@ -3,10 +3,16 @@ title: Aspose.Slides'ta SmartArt Alt Notu için Küçük Resim Oluşturma
 linktitle: Aspose.Slides'ta SmartArt Alt Notu için Küçük Resim Oluşturma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak büyüleyici SmartArt Child Note küçük resimlerini nasıl oluşturacağınızı öğrenin. Sunumlarınızı dinamik görsellerle zenginleştirin!
-type: docs
 weight: 15
 url: /tr/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides'ta SmartArt Alt Notu için Küçük Resim Oluşturma
+
 ## giriiş
 Dinamik sunumlar alanında Aspose.Slides for .NET, geliştiricilere PowerPoint sunumlarını programlı olarak değiştirme ve geliştirme yeteneği sağlayan güçlü bir araç olarak öne çıkıyor. İlgi çekici özelliklerden biri, SmartArt Çocuk Notları için küçük resimler oluşturarak sunumlarınıza görsel çekicilik katmanı ekleme yeteneğidir. Bu adım adım kılavuz, Aspose.Slides for .NET kullanarak SmartArt Alt Notları için küçük resimler oluşturma sürecinde size yol gösterecektir.
 ## Önkoşullar
@@ -62,3 +68,9 @@ C: Kesinlikle! Aspose.Slides çeşitli SmartArt düzenleri sunarak sunum ihtiya�
  C: Ziyaret edin[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11) toplulukla etkileşime geçmek, sorular sormak ve çözümler bulmak.
 ### S: Aspose.Slides for .NET'i satın alabilir miyim?
  C: Kesinlikle! Satın alma seçeneklerini keşfedin[Burada](https://purchase.aspose.com/buy) Projelerinizde Aspose.Slides'ın tüm potansiyelini açığa çıkarmak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

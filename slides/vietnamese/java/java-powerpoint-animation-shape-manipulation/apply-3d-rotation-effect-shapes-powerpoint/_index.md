@@ -3,10 +3,16 @@ title: Áp dụng hiệu ứng xoay 3D trên hình dạng trong PowerPoint
 linktitle: Áp dụng hiệu ứng xoay 3D trên hình dạng trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách áp dụng hiệu ứng xoay 3D trên các hình trong PowerPoint bằng Aspose.Slides cho Java với hướng dẫn từng bước toàn diện này.
-type: docs
 weight: 12
 url: /vi/java/java-powerpoint-animation-shape-manipulation/apply-3d-rotation-effect-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng hiệu ứng xoay 3D trên hình dạng trong PowerPoint
+
 ## Giới thiệu
 Bạn đã sẵn sàng đưa bài thuyết trình PowerPoint của mình lên một tầm cao mới chưa? Việc thêm hiệu ứng xoay 3D có thể làm cho trang trình bày của bạn trở nên năng động và hấp dẫn hơn. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay chỉ mới bắt đầu, hướng dẫn từng bước này sẽ chỉ cho bạn cách áp dụng hiệu ứng xoay 3D cho các hình dạng trong PowerPoint bằng Aspose.Slides cho Java. Hãy đi sâu vào ngay!
 ## Điều kiện tiên quyết
@@ -84,3 +90,9 @@ Bạn có thể thêm hiệu ứng 3D vào nhiều hình dạng khác nhau như 
  Bạn có thể ghé thăm[diễn đàn hỗ trợ](https://forum.aspose.com/c/slides/11) để được hỗ trợ và thảo luận mọi vấn đề.
 ### Tôi có thể sử dụng Aspose.Slides cho Java trong các dự án thương mại không?
  Có, nhưng bạn cần phải mua giấy phép. Bạn có thể mua một cái từ[trang mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

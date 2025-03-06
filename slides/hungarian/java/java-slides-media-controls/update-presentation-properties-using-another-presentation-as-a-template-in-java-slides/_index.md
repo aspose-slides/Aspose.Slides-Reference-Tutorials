@@ -3,10 +3,16 @@ title: Frissítse a prezentáció tulajdonságait egy másik prezentáció haszn
 linktitle: Frissítse a prezentáció tulajdonságait egy másik prezentáció használatával sablonként a Java Slidesben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Javítsa a PowerPoint prezentációkat frissített metaadatokkal az Aspose.Slides for Java segítségével. Ismerje meg, hogyan frissítheti a tulajdonságokat, például a szerzőt, a címet és a kulcsszavakat a Java Slides sablonjaival.
-type: docs
 weight: 14
 url: /hu/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Frissítse a prezentáció tulajdonságait egy másik prezentáció használatával sablonként a Java Slidesben
+
 
 ## Bevezetés a prezentáció tulajdonságainak frissítéséhez egy másik prezentáció használatával sablonként a Java Slides-ben
 
@@ -122,3 +128,9 @@ Igen, testreszabhatja a kódot, hogy az igényeinek megfelelően frissítse az a
 ### Van-e korlátozás a frissíthető prezentációk típusára vonatkozóan?
 
 Nem, frissítheti a különféle formátumú prezentációk tulajdonságait, beleértve a PPTX, ODP és PPT formátumokat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Menguasai Penyelarasan Bentuk dengan Aspose.Slides untuk .NET
 linktitle: Menyelaraskan Bentuk dalam Slide Presentasi menggunakan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menyelaraskan bentuk dengan mudah dalam slide presentasi menggunakan Aspose.Slides untuk .NET. Tingkatkan daya tarik visual dengan penyelarasan yang tepat. Unduh sekarang!
-type: docs
 weight: 10
 url: /id/net/shape-alignment-and-formatting-in-slides/aligning-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menguasai Penyelarasan Bentuk dengan Aspose.Slides untuk .NET
+
 ## Perkenalan
 Membuat slide presentasi yang menarik secara visual sering kali memerlukan penyelarasan bentuk yang tepat. Aspose.Slides untuk .NET memberikan solusi ampuh untuk mencapai hal ini dengan mudah. Dalam tutorial ini, kita akan menjelajahi cara menyelaraskan bentuk dalam slide presentasi menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -82,3 +88,9 @@ Sangat! Aspose.Slides menyediakan metode untuk mendistribusikan bentuk secara me
 Aspose.Slides untuk .NET terutama dirancang untuk aplikasi Windows, namun Aspose menyediakan perpustakaan untuk Java dan platform lainnya juga.
 ### Bagaimana saya bisa mendapatkan bantuan atau dukungan lebih lanjut?
  Mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan dan diskusi komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 라이센스 및 포맷
 linktitle: 라이센스 및 포맷
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: 포괄적인 튜토리얼을 통해 Aspose.Slides 라이선스 및 형식화에 대한 이해를 높이세요. 라이선스를 효율적으로 관리하고 완벽한 프레젠테이션 형식을 달성하는 방법을 알아보세요.
-type: docs
 weight: 21
 url: /ko/net/licensing-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 라이센스 및 포맷
+
 
 ## 소개
 
@@ -31,3 +37,9 @@ Aspose.Slides를 프로젝트에 통합할 때 적절한 라이선스는 기본�
 .NET용 Aspose.Slides를 사용하여 차트 시각적 효과를 향상하는 방법을 알아보세요. 더욱 효과적인 프레젠테이션을 위해 데이터 포인트에 동적 색상을 추가하세요.
 ### [차트에 사용자 정의 오류 막대 추가](./add-custom-error/)
 .NET용 Aspose.Slides를 사용하여 차트에 사용자 정의 오차 막대를 추가하는 방법을 알아보세요. 정확한 데이터 시각화를 위해 오차 막대를 생성하고, 스타일을 지정하고, 사용자 정의하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

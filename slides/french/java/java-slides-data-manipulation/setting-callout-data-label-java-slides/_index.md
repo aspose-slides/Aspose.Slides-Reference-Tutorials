@@ -3,10 +3,16 @@ title: Définition d'une légende pour l'étiquette de données dans les diaposi
 linktitle: Définition d'une légende pour l'étiquette de données dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment configurer des légendes pour les étiquettes de données dans Aspose.Slides pour Java. Guide étape par étape avec le code source.
-type: docs
 weight: 25
 url: /fr/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définition d'une légende pour l'étiquette de données dans les diapositives Java
+
 
 ## Introduction à la définition de la légende pour l'étiquette de données dans Aspose.Slides pour Java
 
@@ -203,3 +209,9 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 ```
 
 Voici quelques options de personnalisation courantes pour les étiquettes de données et les légendes dans Aspose.Slides pour Java. Vous pouvez adapter davantage l’apparence à vos besoins spécifiques.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

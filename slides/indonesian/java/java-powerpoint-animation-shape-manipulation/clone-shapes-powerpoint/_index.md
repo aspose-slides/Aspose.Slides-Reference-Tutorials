@@ -3,10 +3,16 @@ title: Bentuk Klon di PowerPoint
 linktitle: Bentuk Klon di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengkloning bentuk dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Sederhanakan alur kerja Anda dengan tutorial yang mudah diikuti ini.
-type: docs
 weight: 16
 url: /id/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bentuk Klon di PowerPoint
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara mengkloning bentuk dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Mengkloning bentuk memungkinkan Anda menduplikasi bentuk yang ada dalam presentasi, yang khususnya berguna untuk membuat tata letak yang konsisten atau mengulangi elemen di seluruh slide.
 ## Prasyarat
@@ -57,3 +63,9 @@ Tentu saja, setelah bentuk dikloning dan ditambahkan ke slide, Anda dapat memodi
 Ya, Anda dapat mengkloning slide, teks, gambar, dan elemen lain dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java.
 ### Apakah ada versi uji coba yang tersedia untuk Aspose.Slides untuk Java?
  Ya, Anda dapat mengunduh Aspose.Slides untuk Java versi uji coba gratis dari[situs web](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

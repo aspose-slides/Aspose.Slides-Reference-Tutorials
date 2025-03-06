@@ -3,10 +3,16 @@ title: Skapa formaterad rektangel i PowerPoint
 linktitle: Skapa formaterad rektangel i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du skapar och formaterar en rektangel i PowerPoint med Aspose.Slides för Java med denna steg-för-steg-guide.
-type: docs
 weight: 18
 url: /sv/java/java-powerpoint-shape-formatting-geometry/create-formatted-rectangle-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa formaterad rektangel i PowerPoint
+
 ## Introduktion
 I den här självstudien guidar vi dig genom processen att skapa en formaterad rektangel i en PowerPoint-bild med Aspose.Slides för Java. Vi kommer att dela upp varje steg, så att du kan följa med och implementera detta i dina egna projekt.
 ## Förutsättningar
@@ -91,3 +97,9 @@ Ja, du kan använda Aspose.Slides för Java med valfri Java-kompatibel IDE som I
  Ja, kassera`Presentation` objektet hjälper till att frigöra resurser och undvika minnesläckor.
 ### Var kan jag hitta dokumentationen för Aspose.Slides för Java?
  Dokumentationen finns tillgänglig[här](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

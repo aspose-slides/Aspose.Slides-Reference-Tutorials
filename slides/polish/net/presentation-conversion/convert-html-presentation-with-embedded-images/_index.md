@@ -3,10 +3,16 @@ title: Konwertuj prezentację HTML z osadzonymi obrazami
 linktitle: Konwertuj prezentację HTML z osadzonymi obrazami
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak konwertować prezentacje programu PowerPoint do formatu HTML z osadzonymi obrazami za pomocą Aspose.Slides dla .NET. Przewodnik krok po kroku dotyczący bezproblemowej konwersji.
-type: docs
 weight: 11
 url: /pl/net/presentation-conversion/convert-html-presentation-with-embedded-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konwertuj prezentację HTML z osadzonymi obrazami
+
 
 W dzisiejszym cyfrowym świecie potrzeba konwersji prezentacji PowerPoint do formatu HTML staje się coraz ważniejsza. Niezależnie od tego, czy chodzi o udostępnianie treści online, czy tworzenie prezentacji internetowych, możliwość konwersji plików programu PowerPoint do formatu HTML może być cennym atutem. Aspose.Slides dla .NET to potężna biblioteka, która umożliwia płynne wykonywanie takich konwersji. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces konwersji prezentacji HTML z osadzonymi obrazami za pomocą Aspose.Slides dla .NET.
 
@@ -115,3 +121,9 @@ Aspose.Slides dla .NET obsługuje konwersję prezentacji z różnymi elementami,
 
 ### Na jakie inne formaty mogę przekonwertować prezentacje programu PowerPoint za pomocą Aspose.Slides dla .NET?
 Aspose.Slides dla .NET obsługuje konwersję do różnych formatów, w tym PDF, obrazów i innych. Sprawdź dokumentację, aby uzyskać pełną listę obsługiwanych formatów.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

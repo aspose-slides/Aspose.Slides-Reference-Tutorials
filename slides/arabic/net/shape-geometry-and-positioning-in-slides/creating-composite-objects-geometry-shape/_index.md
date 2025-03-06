@@ -3,10 +3,16 @@ title: إتقان الأشكال الهندسية المركبة في العرو
 linktitle: إنشاء كائنات مركبة في شكل هندسي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إنشاء عروض تقديمية مذهلة بأشكال هندسية مركبة باستخدام Aspose.Slides for .NET. اتبع دليلنا خطوة بخطوة للحصول على نتائج مبهرة.
-type: docs
 weight: 14
 url: /ar/net/shape-geometry-and-positioning-in-slides/creating-composite-objects-geometry-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان الأشكال الهندسية المركبة في العروض التقديمية
+
 ## مقدمة
 أطلق العنان لقوة Aspose.Slides لـ .NET لتحسين العروض التقديمية الخاصة بك عن طريق إنشاء كائنات مركبة في أشكال هندسية. سيرشدك هذا البرنامج التعليمي خلال عملية إنشاء شرائح جذابة بصريًا ذات هندسة معقدة باستخدام Aspose.Slides.
 ## المتطلبات الأساسية
@@ -84,3 +90,9 @@ pres.Save(resultPath, SaveFormat.Pptx);
  قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لدعم المجتمع ومساعدته.
 ### س: هل يمكنني شراء ترخيص مؤقت؟
  نعم يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Layoutmodus in Java-Folien festlegen
 linktitle: Layoutmodus in Java-Folien festlegen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides Layoutmodi für Java-Folien festlegen. Passen Sie die Positionierung und Größe des Diagramms in dieser Schritt-für-Schritt-Anleitung mit Quellcode an.
-type: docs
 weight: 23
 url: /de/java/data-manipulation/set-layout-mode-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Layoutmodus in Java-Folien festlegen
+
 
 ## Einführung in das Festlegen des Layoutmodus in Java-Folien
 
@@ -95,3 +101,9 @@ finally
 ### Wo finde ich weitere Informationen zu Aspose.Slides für Java?
 
  Weitere Informationen zu Aspose.Slides für Java finden Sie im[Dokumentation](https://reference.aspose.com/slides/java/). Es enthält detaillierte API-Referenzen und Beispiele, die Ihnen helfen, effektiv mit Folien und Diagrammen in Java zu arbeiten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Validate Chart Layout Added in Java Slides
 linktitle: Validate Chart Layout Added in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Master chart layout validation in PowerPoint with Aspose.Slides for Java. Learn to manipulate charts programmatically for stunning presentations.
-type: docs
 weight: 10
 url: /java/data-manipulation/validate-chart-layout-added-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Validate Chart Layout Added in Java Slides
+
 
 ## Introduction to Validating Chart Layout in Aspose.Slides for Java
 
@@ -98,3 +104,10 @@ Yes, you can customize the chart data by adding and modifying data series, categ
 
 You can access various chart properties and customize them according to your requirements. Explore the Aspose.Slides documentation for comprehensive information on chart manipulation.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

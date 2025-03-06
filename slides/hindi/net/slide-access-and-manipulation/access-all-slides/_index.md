@@ -3,10 +3,16 @@ title: किसी प्रस्तुति के सभी स्लाइ
 linktitle: किसी प्रस्तुति के सभी स्लाइड्स पुनः प्राप्त करें
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: Aspose.Slides for .NET का उपयोग करके PowerPoint प्रेजेंटेशन में सभी स्लाइड्स को पुनर्प्राप्त करने का तरीका जानें। प्रेजेंटेशन के साथ प्रोग्रामेटिक रूप से कुशलतापूर्वक काम करने के लिए संपूर्ण स्रोत कोड के साथ इस चरण-दर-चरण मार्गदर्शिका का पालन करें। स्लाइड गुण, इंस्टॉलेशन, अनुकूलन और बहुत कुछ एक्सप्लोर करें।
-type: docs
 weight: 13
 url: /hi/net/slide-access-and-manipulation/access-all-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# किसी प्रस्तुति के सभी स्लाइड्स पुनः प्राप्त करें
+
 
 ## .NET के लिए Aspose.Slides का परिचय
 
@@ -139,3 +145,9 @@ Install-Package Aspose.Slides
 ### मैं Aspose.Slides for .NET के बारे में अधिक जानकारी कहां पा सकता हूं?
 
  अधिक विस्तृत जानकारी, API संदर्भ और कोड उदाहरणों के लिए, आप यहां जा सकते हैं[.NET दस्तावेज़ीकरण के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

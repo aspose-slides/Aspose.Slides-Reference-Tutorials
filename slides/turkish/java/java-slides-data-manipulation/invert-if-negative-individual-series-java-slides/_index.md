@@ -3,10 +3,16 @@ title: Java Slaytlarında Bireysel Seriler İçin Negatifse Tersine Çevir
 linktitle: Java Slaytlarında Bireysel Seriler İçin Negatifse Tersine Çevir
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: PowerPoint sunumlarındaki grafik görsellerini geliştirmek için Aspose.Slides for Java'daki Negatifse Tersine Çevir özelliğini nasıl kullanacağınızı öğrenin.
-type: docs
 weight: 11
 url: /tr/java/data-manipulation/invert-if-negative-individual-series-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarında Bireysel Seriler İçin Negatifse Tersine Çevir
+
 
 ## Java Slaytlarında Bireysel Seriler için Negatifse Tersine Çevirmeye Giriş
 
@@ -131,3 +137,9 @@ Evet, ters çevrilmiş veri noktalarının görünümünü özelleştirebilirsin
 ### Aspose.Slides for Java belgelerine nereden erişebilirim?
 
 Aspose.Slides for Java belgelerine şu adresten ulaşabilirsiniz:[Burada](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

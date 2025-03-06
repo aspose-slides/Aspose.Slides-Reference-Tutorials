@@ -3,10 +3,16 @@ title: Tạo hình chữ nhật có định dạng trong PowerPoint
 linktitle: Tạo hình chữ nhật có định dạng trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo và định dạng hình chữ nhật trong PowerPoint bằng Aspose.Slides cho Java với hướng dẫn từng bước này.
-type: docs
 weight: 18
 url: /vi/java/java-powerpoint-shape-formatting-geometry/create-formatted-rectangle-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo hình chữ nhật có định dạng trong PowerPoint
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo hình chữ nhật được định dạng trong trang chiếu PowerPoint bằng Aspose.Slides cho Java. Chúng tôi sẽ chia nhỏ từng bước để đảm bảo bạn có thể làm theo và triển khai bước này trong các dự án của riêng mình.
 ## Điều kiện tiên quyết
@@ -91,3 +97,9 @@ Có, bạn có thể sử dụng Aspose.Slides cho Java với bất kỳ IDE tư
  Vâng, việc vứt bỏ`Presentation` object giúp giải phóng tài nguyên và tránh rò rỉ bộ nhớ.
 ### Tôi có thể tìm tài liệu về Aspose.Slides cho Java ở đâu?
  Tài liệu có sẵn[đây](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

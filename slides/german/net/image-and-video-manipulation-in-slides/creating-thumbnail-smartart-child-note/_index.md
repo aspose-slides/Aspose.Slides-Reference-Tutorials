@@ -3,10 +3,16 @@ title: Erstellen einer Miniaturansicht für eine untergeordnete SmartArt-Notiz i
 linktitle: Erstellen einer Miniaturansicht für eine untergeordnete SmartArt-Notiz in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET fesselnde SmartArt-Miniaturansichten für untergeordnete Notizen erstellen. Werten Sie Ihre Präsentationen mit dynamischen Visualisierungen auf!
-type: docs
 weight: 15
 url: /de/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen einer Miniaturansicht für eine untergeordnete SmartArt-Notiz in Aspose.Slides
+
 ## Einführung
 Im Bereich dynamischer Präsentationen ist Aspose.Slides für .NET ein leistungsstarkes Tool, das Entwicklern die Möglichkeit bietet, PowerPoint-Präsentationen programmgesteuert zu bearbeiten und zu verbessern. Eine interessante Funktion ist die Möglichkeit, Miniaturansichten für SmartArt-Unternotizen zu erstellen, wodurch Ihre Präsentationen optisch ansprechender werden. Diese Schritt-für-Schritt-Anleitung führt Sie durch den Prozess der Erstellung von Miniaturansichten für SmartArt-Unternotizen mit Aspose.Slides für .NET.
 ## Voraussetzungen
@@ -62,3 +68,9 @@ A: Auf jeden Fall! Aspose.Slides bietet eine Vielzahl von SmartArt-Layouts, soda
  A: Besuchen Sie die[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) um mit der Community zu interagieren, Fragen zu stellen und Lösungen zu finden.
 ### F: Kann ich Aspose.Slides für .NET kaufen?
  A: Natürlich! Entdecken Sie die Kaufoptionen[Hier](https://purchase.aspose.com/buy) um das volle Potenzial von Aspose.Slides in Ihren Projekten auszuschöpfen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

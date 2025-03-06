@@ -3,10 +3,16 @@ title: Gestisci i grafici delle proprietà nelle diapositive Java
 linktitle: Gestisci i grafici delle proprietà nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Impara a creare grafici straordinari e gestire le proprietà nelle diapositive Java con Aspose.Slides. Guida passo passo con codice sorgente per presentazioni potenti.
-type: docs
 weight: 13
 url: /it/java/data-manipulation/manage-properties-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestisci i grafici delle proprietà nelle diapositive Java
+
 
 ## Introduzione alla gestione di proprietà e grafici in Diapositive Java utilizzando Aspose.Slides
 
@@ -198,3 +204,9 @@ Sì, puoi personalizzare i colori del grafico impostando le proprietà di riempi
 ### Quali altre proprietà 3D posso personalizzare?
 
 Puoi esplorare altre proprietà 3D del grafico, come profondità, prospettiva e illuminazione, facendo riferimento alla documentazione Aspose.Slides.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

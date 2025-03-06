@@ -3,10 +3,16 @@ title: Tambahkan Komentar ke Slide
 linktitle: Tambahkan Komentar ke Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Tambahkan kedalaman dan interaksi pada presentasi Anda dengan Aspose.Slides API. Pelajari cara mengintegrasikan komentar dengan mudah ke dalam slide Anda menggunakan .NET. Tingkatkan keterlibatan dan pikat audiens Anda.
-type: docs
 weight: 13
 url: /id/net/slide-comments-manipulation/add-slide-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Komentar ke Slide
+
 
 Dalam dunia manajemen presentasi, kemampuan untuk menambahkan komentar ke slide dapat menjadi sebuah terobosan. Komentar tidak hanya meningkatkan kolaborasi tetapi juga membantu pemahaman dan revisi konten slide. Dengan Aspose.Slides for .NET, perpustakaan yang kuat dan serbaguna, Anda dapat dengan mudah memasukkan komentar ke dalam slide presentasi Anda. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses menambahkan komentar ke slide menggunakan Aspose.Slides untuk .NET. Baik Anda seorang pengembang berpengalaman atau pendatang baru di dunia pengembangan .NET, tutorial ini akan memberikan semua wawasan yang Anda butuhkan.
 
@@ -104,3 +110,9 @@ Untuk mengintegrasikan Aspose.Slides for .NET ke dalam aplikasi .NET Anda, Anda 
 ### 5. Dapatkah saya mencoba Aspose.Slides untuk .NET sebelum membelinya?
 
 Ya, Anda dapat menjelajahi Aspose.Slides untuk .NET dengan menggunakan uji coba gratis. Mengunjungi[Halaman uji coba gratis Aspose.Slides](https://releases.aspose.com/) untuk memulai.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

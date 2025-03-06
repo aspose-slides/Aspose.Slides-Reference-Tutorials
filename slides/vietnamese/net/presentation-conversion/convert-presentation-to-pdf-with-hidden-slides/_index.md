@@ -3,10 +3,16 @@ title: Chuyển đổi bản trình bày sang PDF với các trang trình bày �
 linktitle: Chuyển đổi bản trình bày sang PDF với các trang trình bày ẩn
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách sử dụng Aspose.Slides cho .NET để chuyển đổi bản trình bày sang PDF với các trang trình bày ẩn một cách liền mạch.
-type: docs
 weight: 26
 url: /vi/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi bản trình bày sang PDF với các trang trình bày ẩn
+
 
 ## Giới thiệu về Aspose.Slides cho .NET
 
@@ -95,3 +101,9 @@ Hoàn toàn có thể, Aspose.Slides for .NET được thiết kế để xử l
 ### Có tài liệu nào về Aspose.Slides cho .NET không?
 
  Có, bạn có thể tìm tài liệu và ví dụ sử dụng Aspose.Slides for .NET tại[đây](https://reference.aspose.com/slides/net).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

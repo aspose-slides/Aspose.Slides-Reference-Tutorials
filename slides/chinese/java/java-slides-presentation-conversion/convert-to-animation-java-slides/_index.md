@@ -3,10 +3,16 @@ title: 在 Java Slides 中转换为动画
 linktitle: 在 Java Slides 中转换为动画
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 将 PowerPoint 演示文稿转换为 Java 动画。通过动态视觉效果吸引观众。
-type: docs
 weight: 21
 url: /zh/java/presentation-conversion/convert-to-animation-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java Slides 中转换为动画
+
 
 # 使用 Aspose.Slides for Java 在 Java Slides 中转换为动画的简介
 
@@ -130,3 +136,10 @@ try {
 ### 在哪里可以找到有关 Aspose.Slides for Java 的更多资源和文档？
 
 您可以在以下位置找到有关 Aspose.Slides for Java 的大量文档和资源：[Aspose.Slides for Java API 参考](https://reference.aspose.com/slides/java/)页。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

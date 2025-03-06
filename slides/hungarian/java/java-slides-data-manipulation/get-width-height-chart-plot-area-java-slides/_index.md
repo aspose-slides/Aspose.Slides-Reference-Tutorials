@@ -3,10 +3,16 @@ title: Szerezzen szélességet és magasságot a Java Slides diagrammezőterüle
 linktitle: Szerezzen szélességet és magasságot a Java Slides diagrammezőterületéből
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan kérheti le a diagrammezőterület méreteit a Java Slides programban az Aspose.Slides for Java segítségével. Fejlessze PowerPoint automatizálási készségeit.
-type: docs
 weight: 21
 url: /hu/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szerezzen szélességet és magasságot a Java Slides diagrammezőterületéből
+
 
 ## Bevezetés
 
@@ -109,3 +115,10 @@ Igen, az Aspose.Slides for Java egy hatékony könyvtár a PowerPoint feladatok 
 ### Hogyan tudhatok meg többet az Aspose.Slides for Java programról?
 
  Részletes dokumentációt és példákat találhat az Aspose.Slides for Java dokumentációs oldalán[itt](https://reference.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: قم بإنشاء أشكال مرسومة مذهلة باستخدام Asp
 linktitle: إنشاء الأشكال المرسومة في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إضافة أشكال تخطيطية إبداعية إلى شرائح العرض التقديمي باستخدام Aspose.Slides for .NET. تعزيز الجاذبية البصرية دون عناء!
-type: docs
 weight: 13
 url: /ar/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء أشكال مرسومة مذهلة باستخدام Aspose.Slides
+
 ## مقدمة
 مرحبًا بك في دليلنا خطوة بخطوة حول إنشاء الأشكال المرسومة في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET. إذا كنت تريد إضافة لمسة من الإبداع إلى عروضك التقديمية، فإن الأشكال المرسومة توفر جمالية فريدة ومرسومة يدويًا. في هذا البرنامج التعليمي، سنرشدك خلال العملية، ونقسمها إلى خطوات بسيطة لضمان تجربة سلسة.
 ## المتطلبات الأساسية
@@ -74,3 +80,9 @@ pres.Save(outPptxFile, SaveFormat.Pptx);
  لشراء Aspose.Slides لـ .NET، قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy).
 ### 5. هل تقدمون تراخيص مؤقتة؟
  نعم، التراخيص المؤقتة متوفرة[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

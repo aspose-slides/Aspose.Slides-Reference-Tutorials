@@ -3,10 +3,16 @@ title: Tùy chọn điểm đánh dấu biểu đồ trên điểm dữ liệu t
 linktitle: Tùy chọn điểm đánh dấu biểu đồ trên điểm dữ liệu trong trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tối ưu hóa các trang trình bày Java của bạn với các tùy chọn đánh dấu biểu đồ tùy chỉnh. Tìm hiểu cách nâng cao điểm dữ liệu một cách trực quan bằng Aspose.Slides cho Java. Khám phá hướng dẫn từng bước và câu hỏi thường gặp.
-type: docs
 weight: 14
 url: /vi/java/data-manipulation/chart-marker-options-data-point-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chọn điểm đánh dấu biểu đồ trên điểm dữ liệu trong trang trình bày Java
+
 
 ## Giới thiệu về Tùy chọn đánh dấu biểu đồ trên điểm dữ liệu trong Java Slides
 
@@ -154,3 +160,9 @@ Có, bạn có thể tùy chỉnh các khía cạnh khác nhau của biểu đ�
 ### Tôi có thể truy cập tài liệu và nội dung tải xuống Aspose.Slides dành cho Java ở đâu?
 
  Bạn có thể tìm thấy tài liệu tại[đây](https://reference.aspose.com/slides/java/) và tải xuống thư viện tại[đây](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

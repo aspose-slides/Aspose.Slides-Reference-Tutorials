@@ -3,10 +3,16 @@ title: Γεωμετρία σχήματος και τοποθέτηση σε δι
 linktitle: Γεωμετρία σχήματος και τοποθέτηση σε διαφάνειες
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Βελτιώστε τις δεξιότητές σας στον χειρισμό της διαφάνειας με τα μαθήματα Aspose.Slides σχετικά με τη γεωμετρία σχήματος και την τοποθέτηση σε διαφάνειες. Μάθετε να ελέγχετε μέσω προγραμματισμού τα σχήματα, τις διαστάσεις και την ευθυγράμμισή τους.
-type: docs
 weight: 13
 url: /el/net/shape-geometry-and-positioning-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Γεωμετρία σχήματος και τοποθέτηση σε διαφάνειες χρησιμοποιώντας το Aspose.Slides
+
 
 ## Εισαγωγή
 
@@ -51,3 +57,9 @@ url: /el/net/shape-geometry-and-positioning-in-slides/
 Μάθετε πώς να βελτιώσετε τις διαφάνειες παρουσίασής σας με αποτελεσματικά δεδομένα λοξοτομής χρησιμοποιώντας το Aspose.Slides. Ένας περιεκτικός οδηγός με οδηγίες βήμα προς βήμα και δείγμα κώδικα.
 ### [Απόκρυψη σχημάτων σε διαφάνειες παρουσίασης με Aspose.Slides](./hiding-shapes/)
 Μάθετε πώς να αποκρύπτετε σχήματα σε διαφάνειες παρουσίασης χρησιμοποιώντας το Aspose.Slides για .NET. Οδηγός βήμα προς βήμα με πηγαίο κώδικα, συχνές ερωτήσεις και βέλτιστες πρακτικές για δυναμικές παρουσιάσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

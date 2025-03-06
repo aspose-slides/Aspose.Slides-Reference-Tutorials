@@ -3,10 +3,16 @@ title: Xóa nút khỏi SmartArt trong PowerPoint bằng Java
 linktitle: Xóa nút khỏi SmartArt trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách xóa nút khỏi SmartArt trong bản trình bày PowerPoint bằng Aspose.Slides cho Java một cách hiệu quả và theo chương trình.
-type: docs
 weight: 14
 url: /vi/java/java-powerpoint-smartart-manipulation/remove-node-smartart-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xóa nút khỏi SmartArt trong PowerPoint bằng Java
+
 ## Giới thiệu
 Trong thời đại kỹ thuật số ngày nay, việc tạo ra các bài thuyết trình năng động và hấp dẫn về mặt hình ảnh là điều cần thiết đối với các doanh nghiệp, nhà giáo dục cũng như cá nhân. Các bài thuyết trình PowerPoint, với khả năng truyền tải thông tin một cách ngắn gọn và hấp dẫn, vẫn là một yếu tố chính trong giao tiếp. Tuy nhiên, đôi khi chúng ta cần thao tác nội dung trong các bản trình bày này theo chương trình để đáp ứng các yêu cầu cụ thể hoặc tự động hóa các tác vụ một cách hiệu quả. Đây là lúc Aspose.Slides for Java phát huy tác dụng, cung cấp một bộ công cụ mạnh mẽ để tương tác với các bản trình bày PowerPoint theo chương trình.
 ## Điều kiện tiên quyết
@@ -64,3 +70,9 @@ Chắc chắn! Aspose.Slides cho Java cung cấp các tính năng mạnh mẽ v�
  Tất nhiên rồi! Bạn có thể tải xuống phiên bản dùng thử miễn phí của Aspose.Slides cho Java từ[đây](https://releases.aspose.com/).
 ### Tôi có thể nhận hỗ trợ cho Aspose.Slides cho Java ở đâu?
  Đối với bất kỳ hỗ trợ kỹ thuật hoặc thắc mắc nào, bạn có thể truy cập[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

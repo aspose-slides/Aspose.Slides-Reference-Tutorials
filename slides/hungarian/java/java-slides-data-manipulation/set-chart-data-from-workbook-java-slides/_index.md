@@ -3,10 +3,16 @@ title: Állítsa be a diagramadatokat a munkafüzetből a Java Slides alkalmazá
 linktitle: Állítsa be a diagramadatokat a munkafüzetből a Java Slides alkalmazásban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthat be diagramadatokat egy Excel-munkafüzetből a Java Slides alkalmazásban az Aspose.Slides segítségével. Lépésről lépésre útmutató kódpéldákkal dinamikus prezentációkhoz.
-type: docs
 weight: 15
 url: /hu/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa be a diagramadatokat a munkafüzetből a Java Slides alkalmazásban
+
 
 ## Bevezetés a diagramadatok munkafüzetből történő beállításához a Java Slides programban
 
@@ -142,3 +148,9 @@ Igen, dinamikusan frissítheti a diagramadatokat egy prezentációban az alapul 
 ### Hol találhatok további példákat és forrásokat az Aspose.Slides for Java használatához?
 
  További példákat és forrásokat fedezhet fel a[Aspose honlapja](https://www.aspose.com/). Ezenkívül az Aspose.Slides for Java dokumentáció átfogó útmutatást ad a könyvtár használatához.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

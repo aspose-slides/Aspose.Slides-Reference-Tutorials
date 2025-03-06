@@ -3,10 +3,16 @@ title: 在 Java 幻灯片中添加误差线
 linktitle: 在 Java 幻灯片中添加误差线
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 在 Java 中向 PowerPoint 图表添加误差线。带有自定义误差线源代码的分步指南。
-type: docs
 weight: 13
 url: /zh/java/chart-data-manipulation/add-error-bars-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 幻灯片中添加误差线
+
 
 ## 使用 Aspose.Slides 在 Java Slides 中添加误差线的简介
 
@@ -128,3 +134,9 @@ finally
 ### 在哪里可以找到有关 Aspose.Slides for Java 的更多信息？
 
 您可以参考[Aspose.Slides for Java 文档](https://reference.aspose.com/slides/java/)有关使用该库的详细信息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

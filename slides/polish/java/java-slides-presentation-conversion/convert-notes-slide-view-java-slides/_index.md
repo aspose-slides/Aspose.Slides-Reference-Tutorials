@@ -3,10 +3,16 @@ title: Konwertuj widok slajdów notatek w slajdach Java
 linktitle: Konwertuj widok slajdów notatek w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak konwertować widoki slajdów z notatkami w Java Slides przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z przykładami kodu umożliwiającymi efektywną manipulację programem PowerPoint.
-type: docs
 weight: 15
 url: /pl/java/presentation-conversion/convert-notes-slide-view-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konwertuj widok slajdów notatek w slajdach Java
+
 
 ## Wprowadzenie do konwertowania widoku slajdów notatek w slajdach Java za pomocą Aspose.Slides
 
@@ -101,3 +107,10 @@ Aspose.Slides został zaprojektowany do pracy z różnymi formatami programu Pow
 ### Gdzie mogę znaleźć więcej przykładów kodu i samouczków dla Aspose.Slides dla Java?
 
  W witrynie można znaleźć mnóstwo przykładów kodu i samouczków[Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/)Zapoznaj się z dokumentacją, aby dowiedzieć się więcej o możliwościach tej potężnej biblioteki.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

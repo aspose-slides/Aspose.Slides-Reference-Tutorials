@@ -3,10 +3,16 @@ title: تصدير ملفات الوسائط إلى HTML من العرض التق
 linktitle: تصدير ملفات الوسائط إلى HTML من العرض التقديمي
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بتحسين مشاركة العرض التقديمي الخاص بك باستخدام Aspose.Slides لـ .NET! تعرف على كيفية تصدير ملفات الوسائط إلى HTML من العرض التقديمي الخاص بك في هذا الدليل التفصيلي خطوة بخطوة.
-type: docs
 weight: 15
 url: /ar/net/presentation-manipulation/export-media-files-to-html-from-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تصدير ملفات الوسائط إلى HTML من العرض التقديمي
+
 
 في هذا البرنامج التعليمي، سنرشدك خلال عملية تصدير ملفات الوسائط إلى HTML من عرض تقديمي باستخدام Aspose.Slides for .NET. Aspose.Slides عبارة عن واجهة برمجة تطبيقات قوية تتيح لك العمل مع عروض PowerPoint التقديمية برمجيًا. بنهاية هذا الدليل، ستتمكن من تحويل عروضك التقديمية إلى تنسيق HTML بسهولة. اذا هيا بنا نبدأ!
 
@@ -84,3 +90,9 @@ A2: نعم، يمكنك تخصيص إخراج HTML عن طريق تعديل خي
  ج5: يمكنك شراء ترخيص من[هذا الرابط](https://purchase.aspose.com/buy).
 
 الآن وبعد أن أكملت هذا البرنامج التعليمي، لديك المهارات اللازمة لتصدير ملفات الوسائط إلى HTML من عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. استمتع بمشاركة العروض التقديمية الغنية بالوسائط المتعددة عبر الإنترنت!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

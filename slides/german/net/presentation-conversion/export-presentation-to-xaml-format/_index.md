@@ -3,10 +3,16 @@ title: Präsentation in XAML-Format exportieren
 linktitle: Präsentation in XAML-Format exportieren
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Präsentationen in das XAML-Format exportieren. Erstellen Sie mühelos interaktive Inhalte!
-type: docs
 weight: 27
 url: /de/net/presentation-conversion/export-presentation-to-xaml-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Präsentation in XAML-Format exportieren
+
 
 In der Welt der Softwareentwicklung sind Tools, die komplexe Aufgaben vereinfachen, unverzichtbar. Aspose.Slides für .NET ist ein solches Tool, mit dem Sie programmgesteuert mit PowerPoint-Präsentationen arbeiten können. In diesem Schritt-für-Schritt-Tutorial erfahren Sie, wie Sie mit Aspose.Slides für .NET eine Präsentation in das XAML-Format exportieren. 
 
@@ -113,3 +119,9 @@ Aspose.Slides für .NET ist eine .NET-Bibliothek für die programmgesteuerte Arb
  Sie finden Support und Community-Diskussionen[Hier](https://forum.aspose.com/).
 
  Weitere Tutorials und Ressourcen finden Sie im[Aspose.Slides API-Dokumentation](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

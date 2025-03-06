@@ -3,10 +3,16 @@ title: PowerPoint'i Parolayla Kaydet
 linktitle: PowerPoint'i Parolayla Kaydet
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak PowerPoint sunumlarına nasıl şifre koruması ekleyeceğinizi öğrenin. Slaytlarınızı kolaylıkla sabitleyin.
-type: docs
 weight: 12
 url: /tr/java/java-powerpoint-save-operations/save-powerpoint-with-password/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint'i Parolayla Kaydet
+
 ## giriiş
 Bu eğitimde, Aspose.Slides for Java'yı kullanarak bir PowerPoint sunumunu parolayla kaydetme sürecinde size rehberlik edeceğiz. Sununuza bir parola eklemek, yalnızca yetkili kişilerin içeriğine erişmesini sağlayarak güvenliğini artırabilir.
 ## Önkoşullar
@@ -67,3 +73,9 @@ Evet, Aspose.Slides, düzenleme ve görüntüleme izinleri için ayrı şifreler
  Evet, Aspose'tan ücretsiz deneme sürümünü indirebilirsiniz[İnternet sitesi](https://releases.aspose.com/).
 ### Aspose.Slides için nasıl teknik destek alabilirim?
 Topluluktan ve Aspose destek personelinden teknik yardım almak için Aspose.Slides forumunu ziyaret edebilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

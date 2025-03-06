@@ -3,10 +3,16 @@ title: تحميل الخط الخارجي في PowerPoint مع جافا
 linktitle: تحميل الخط الخارجي في PowerPoint مع جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحميل الخطوط المخصصة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. قم بتحسين الشرائح الخاصة بك باستخدام الطباعة الفريدة.
-type: docs
 weight: 10
 url: /ar/java/java-powerpoint-font-management-text-replacement/load-external-font-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحميل الخط الخارجي في PowerPoint مع جافا
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنرشدك خلال عملية تحميل خط خارجي في عروض PowerPoint التقديمية باستخدام Aspose.Slides for Java. يمكن للخطوط المخصصة أن تضيف لمسة فريدة إلى عروضك التقديمية، مما يضمن اتساق العلامة التجارية أو التفضيلات الأسلوبية عبر الأنظمة الأساسية المختلفة.
 ## المتطلبات الأساسية
@@ -63,3 +69,9 @@ finally
 طالما أن ملف الخط بتنسيق TrueType (.ttf) وضمن حدود الحجم المعقول، فمن المفترض أن تتمكن من تحميله بنجاح.
 ### هل يؤثر تحميل الخطوط الخارجية على توافق العرض التقديمي مع إصدارات PowerPoint المختلفة؟
 لا، يظل العرض التقديمي متوافقًا عبر إصدارات PowerPoint المختلفة طالما أن الخطوط مضمنة أو محملة خارجيًا.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Přístup k Open Doc v Java Slides
 linktitle: Přístup k Open Doc v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se přistupovat a převádět soubory Open Document Presentation (ODP) v Javě pomocí Aspose.Slides for Java. Podrobný průvodce pro vývojáře.
-type: docs
 weight: 12
 url: /cs/java/presentation-properties/access-open-doc-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přístup k Open Doc v Java Slides
+
 
 ## Úvod do přístupu k Open Doc v Java Slides
 
@@ -86,3 +92,9 @@ Ano, Aspose.Slides pro Javu můžete používat v osobních i komerčních proje
 ### Jak mohu kontaktovat podporu Aspose, pokud mám dotazy nebo problémy?
 
 Podporu Aspose můžete kontaktovat prostřednictvím jejich kanálů podpory, které jsou uvedeny na jejich webových stránkách. Nabízejí specializovanou podporu, která vám pomůže s jakýmikoli dotazy nebo problémy, se kterými se můžete setkat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

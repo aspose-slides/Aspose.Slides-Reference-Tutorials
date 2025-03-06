@@ -3,10 +3,16 @@ title: Estrai l'audio dai collegamenti ipertestuali di PowerPoint con Aspose.Sli
 linktitle: Estrai l'audio dal collegamento ipertestuale
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Estrai l'audio dai collegamenti ipertestuali nelle presentazioni PowerPoint utilizzando Aspose.Slides per .NET. Migliora i tuoi progetti multimediali senza sforzo.
-type: docs
 weight: 12
 url: /it/net/audio-and-video-extraction/extract-audio-from-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Estrai l'audio dai collegamenti ipertestuali di PowerPoint con Aspose.Slides
+
 
 Nel mondo delle presentazioni multimediali, l'audio gioca un ruolo fondamentale nel migliorare l'impatto complessivo delle tue diapositive. Ti sei mai imbattuto in una presentazione PowerPoint con collegamenti ipertestuali audio e ti sei chiesto come estrarre l'audio per altri usi? Con Aspose.Slides per .NET, puoi realizzare facilmente questo compito. In questa guida passo passo ti guideremo attraverso il processo di estrazione dell'audio da un collegamento ipertestuale in una presentazione PowerPoint.
 
@@ -105,3 +111,10 @@ Sì, puoi ottenere una licenza temporanea per Aspose.Slides per .NET per soddisf
 
 ### Sono supportati altri formati audio per l'estrazione, oltre a MPG?
 Aspose.Slides per .NET ti consente di estrarre l'audio in vari formati, non limitato a MPG. Puoi convertirlo nel formato che preferisci dopo l'estrazione.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

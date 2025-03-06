@@ -3,10 +3,16 @@ title: Установить внешнюю книгу в слайдах Java
 linktitle: Установить внешнюю книгу в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как настроить внешние книги в слайдах Java с помощью Aspose.Slides для Java. Создавайте динамические презентации с интеграцией данных Excel.
-type: docs
 weight: 19
 url: /ru/java/data-manipulation/set-external-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Установить внешнюю книгу в слайдах Java
+
 
 ## Введение в настройку внешней книги в слайдах Java
 
@@ -119,3 +125,9 @@ Aspose.Slides для Java регулярно обновляется, чтобы 
 ### Могу ли я добавить несколько диаграмм, ссылающихся на одну и ту же внешнюю книгу?
 
 Да, вы можете добавить в презентацию несколько диаграмм, каждая из которых ссылается на одну и ту же внешнюю книгу. Просто повторите шаги, описанные в этом руководстве, для каждой диаграммы, которую вы хотите создать.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

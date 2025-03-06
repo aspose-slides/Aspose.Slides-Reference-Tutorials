@@ -3,10 +3,16 @@ title: Đặt sổ làm việc bên ngoài với dữ liệu biểu đồ cập 
 linktitle: Đặt sổ làm việc bên ngoài với dữ liệu biểu đồ cập nhật trong các trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt sổ làm việc bên ngoài và cập nhật dữ liệu biểu đồ trong Java Slides bằng Aspose.Slides for Java. Nâng cao kỹ năng tự động hóa PowerPoint của bạn.
-type: docs
 weight: 20
 url: /vi/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt sổ làm việc bên ngoài với dữ liệu biểu đồ cập nhật trong các trang trình bày Java
+
 
 ## Giới thiệu về Đặt sổ làm việc bên ngoài với dữ liệu biểu đồ cập nhật trong Java Slides
 
@@ -99,3 +105,9 @@ Có, bạn có thể tùy chỉnh hình thức của biểu đồ, bao gồm ti�
 ### Tôi có thể tìm thêm tài liệu và tài nguyên cho Aspose.Slides cho Java ở đâu?
 
  Để biết tài liệu chi tiết và các tài nguyên bổ sung, hãy truy cập tài liệu Aspose.Slides for Java tại[đây](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

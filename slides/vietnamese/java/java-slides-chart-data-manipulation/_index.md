@@ -3,10 +3,16 @@ title: Thao tác dữ liệu biểu đồ trang trình bày Java
 linktitle: Thao tác dữ liệu biểu đồ trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Khai phá sức mạnh của Thao tác dữ liệu biểu đồ trên Java Slides với Aspose.Slides cho Java. Tạo hình ảnh và thông tin chi tiết tuyệt đẹp một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/java/chart-data-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác dữ liệu biểu đồ trang trình bày Java
+
 Bạn đã sẵn sàng đưa bài thuyết trình slide dựa trên Java của mình lên một tầm cao mới chưa? Với Aspose.Slides cho Java, bạn có thể dễ dàng thao tác với dữ liệu biểu đồ, tạo ra các bản trình bày trực quan ấn tượng và sâu sắc, thu hút khán giả của bạn. Trong bài viết này, chúng ta sẽ khám phá cách Aspose.Slides hỗ trợ các nhà phát triển Java để biến các biểu đồ dựa trên dữ liệu trở nên sống động.
 
 ## Tìm hiểu Aspose.Slides cho Java
@@ -54,3 +60,9 @@ Tạo biểu đồ thông thường trong Java Slides với Aspose.Slides cho Ja
 Tìm hiểu cách tạo biểu đồ tổ chức tuyệt đẹp trong Java Slides với hướng dẫn từng bước về Aspose.Slides. Tùy chỉnh và trực quan hóa cơ cấu tổ chức của bạn một cách dễ dàng.
 ### [Biểu đồ hình tròn trong Java Slides](./pie-chart-java-slides/)
 Tìm hiểu cách tạo Biểu đồ hình tròn tuyệt đẹp trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn từng bước với mã nguồn dành cho nhà phát triển Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

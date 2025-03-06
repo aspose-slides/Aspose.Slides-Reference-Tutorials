@@ -3,10 +3,16 @@ title: Java 幻灯片图表元素
 linktitle: Java 幻灯片图表元素
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 通过我们全面的教程学习如何使用 Aspose.Slides for Java 在 Java 幻灯片中创建动态图表。立即提升您的演示技巧！
-type: docs
 weight: 15
 url: /zh/java/chart-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 幻灯片图表元素
+
 
 您准备好将您的演示技巧提升到一个新的水平了吗？使用 Aspose.Slides for Java 深入了解 Java 幻灯片中的动态图表世界。在本综合指南中，我们将带您了解掌握图表元素并使您的演示文稿真正脱颖而出所需的一切知识。
 
@@ -58,3 +64,9 @@ Aspose.Slides for Java 是一款功能强大的 API，可帮助开发人员和�
 使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中创建令人惊叹的地图图表。为 Java 开发人员提供分步指南和源代码。
 ### [Java 幻灯片中的旭日图](./sunburst-chart-java-slides/)
 使用 Aspose.Slides 在 Java Slides 中创建令人惊叹的旭日图。逐步了解图表创建和数据处理。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

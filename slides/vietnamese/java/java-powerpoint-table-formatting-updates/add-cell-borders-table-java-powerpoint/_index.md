@@ -3,10 +3,16 @@ title: Thêm viền ô vào bảng trong Java PowerPoint
 linktitle: Thêm viền ô vào bảng trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm viền ô vào bảng trong bản trình bày Java PowerPoint bằng Aspose.Slides. Hướng dẫn từng bước này giúp bạn dễ dàng cải thiện các trang trình bày của mình.
-type: docs
 weight: 10
 url: /vi/java/java-powerpoint-table-formatting-updates/add-cell-borders-table-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm viền ô vào bảng trong Java PowerPoint
+
 ## Giới thiệu
 Này! Vì vậy, bạn đang tìm cách thêm đường viền ô vào bảng trong bản trình bày PowerPoint bằng Java phải không? Vâng, bạn đang ở đúng nơi! Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình từng bước bằng cách sử dụng thư viện Aspose.Slides cho Java. Đến cuối hướng dẫn này, bạn sẽ nắm rõ cách thao tác với các bảng trong trang chiếu PowerPoint của mình như một người chuyên nghiệp. Hãy cùng bắt tay vào làm cho bài thuyết trình của bạn trông đẹp mắt và chuyên nghiệp!
 ## Điều kiện tiên quyết
@@ -96,3 +102,9 @@ Tuyệt đối! Bạn có thể chèn hình ảnh vào ô bảng bằng Aspose.S
 Có, bạn có thể tự động hóa quy trình bằng cách lặp qua các trang trình bày và áp dụng logic tạo bảng cho từng trang trình bày.
 ### Aspose.Slides hỗ trợ những định dạng tệp nào?
 Aspose.Slides hỗ trợ nhiều định dạng khác nhau bao gồm PPT, PPTX, PDF, v.v.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

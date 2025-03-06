@@ -3,10 +3,16 @@ title: Access Slide Comments using Aspose.Slides
 linktitle: Access Slide Comments
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to access slide comments in PowerPoint presentations using Aspose.Slides for .NET. Enhance collaboration and workflow effortlessly.
-type: docs
 weight: 11
 url: /net/slide-comments-manipulation/access-slide-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Access Slide Comments using Aspose.Slides
+
 
 In the world of dynamic and interactive presentations, managing comments within your slides can be a crucial part of the collaboration process. Aspose.Slides for .NET provides a robust and versatile solution to access and manipulate slide comments, enhancing your presentation workflow. In this step-by-step guide, we will delve into the process of accessing slide comments using Aspose.Slides for .NET.
 
@@ -112,3 +118,10 @@ You can access the documentation at [reference.aspose.com/slides/net/](https://r
 
 ### Can I purchase a license for Aspose.Slides for .NET?
 Yes, you can purchase a license for Aspose.Slides for .NET from [this link](https://purchase.aspose.com/buy) to unlock the full potential of the library in your projects.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

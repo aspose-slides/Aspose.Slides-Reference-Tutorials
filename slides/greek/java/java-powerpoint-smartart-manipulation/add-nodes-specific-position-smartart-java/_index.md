@@ -3,10 +3,16 @@ title: Προσθέστε κόμβους σε συγκεκριμένη θέση 
 linktitle: Προσθέστε κόμβους σε συγκεκριμένη θέση στο SmartArt χρησιμοποιώντας Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ανακαλύψτε πώς μπορείτε να προσθέσετε κόμβους σε συγκεκριμένες θέσεις στο SmartArt χρησιμοποιώντας Java με Aspose.Slides. Δημιουργήστε δυναμικές παρουσιάσεις χωρίς κόπο.
-type: docs
 weight: 16
 url: /el/java/java-powerpoint-smartart-manipulation/add-nodes-specific-position-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθέστε κόμβους σε συγκεκριμένη θέση στο SmartArt χρησιμοποιώντας Java
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία προσθήκης κόμβων σε συγκεκριμένες θέσεις στο SmartArt χρησιμοποιώντας Java με Aspose.Slides. Το SmartArt είναι μια δυνατότητα στο PowerPoint που σας επιτρέπει να δημιουργείτε οπτικά ελκυστικά διαγράμματα και γραφήματα.
 ## Προαπαιτούμενα
@@ -70,3 +76,9 @@ pres.save(dataDir + "AddSmartArtNodeByPosition_out.pptx", SaveFormat.Pptx);
 Ναι, το Aspose.Slides παρέχει βιβλιοθήκες για πολλές γλώσσες προγραμματισμού, συμπεριλαμβανομένων των .NET και Python.
 ### Υπάρχει διαθέσιμη δοκιμαστική έκδοση για το Aspose.Slides;
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμαστικής έκδοσης από[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

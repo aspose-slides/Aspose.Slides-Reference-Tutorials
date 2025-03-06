@@ -3,10 +3,16 @@ title: 在 Java 幻燈片中開啟受密碼保護的簡報
 linktitle: 在 Java 幻燈片中開啟受密碼保護的簡報
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 在 Java 中解鎖受密碼保護的簡報。了解如何使用 Aspose.Slides for Java 開啟和存取受密碼保護的 PowerPoint 投影片。帶代碼的分步指南。
-type: docs
 weight: 15
 url: /zh-hant/java/additional-utilities/open-password-protected-presentation-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 幻燈片中開啟受密碼保護的簡報
+
 
 ## 在 Java 投影片中開啟受密碼保護的簡報簡介
 
@@ -113,3 +119,9 @@ Aspose.Slides 提供了設定和更改簡報密碼的功能，但不提供刪除
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的更多範例和文件？
 
 您可以在以下位置找到全面的文件和其他範例[Aspose.Slides for Java 文檔](https://reference.aspose.com/slides/java/)並在[Aspose.Slides 論壇](https://forum.aspose.com/c/slides).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

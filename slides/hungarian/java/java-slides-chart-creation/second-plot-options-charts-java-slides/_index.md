@@ -3,10 +3,16 @@ title: Második nyomtatási opciók a diagramokhoz a Java Slides-ben
 linktitle: Második nyomtatási opciók a diagramokhoz a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan testreszabhatja a diagramokat a Java Slides programban az Aspose.Slides for Java segítségével. Fedezze fel a második cselekmény lehetőségeit, és javítsa prezentációit.
-type: docs
 weight: 12
 url: /hu/java/chart-creation/second-plot-options-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Második nyomtatási opciók a diagramokhoz a Java Slides-ben
+
 
 ## Bevezetés a Java Slides diagramjainak második ábrázolási opcióiba
 
@@ -93,3 +99,9 @@ Ebben az oktatóanyagban megtanultuk, hogyan adhatunk hozzá második nyomtatás
 ### Hogyan állíthatom be a felosztás pozícióját egy kördiagramon?
 
  Beállíthatja a felosztás pozícióját egy kördiagramon a`setPieSplitPosition` módszer. Állítsa be az értéket a kívánt pozíció megadásához.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Převést konkrétní snímek na PDF v Java Slides
 linktitle: Převést konkrétní snímek na PDF v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se převádět konkrétní snímky do PDF v Javě pomocí Aspose.Slides for Java. Podrobný průvodce s příklady kódu pro vývojáře v jazyce Java.
-type: docs
 weight: 20
 url: /cs/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převést konkrétní snímek na PDF v Java Slides
+
 
 ## Úvod do převodu konkrétního snímku do PDF v aplikaci Java Slides
 
@@ -107,3 +113,9 @@ Vzhled převedeného PDF můžete upravit úpravou obsahu snímku v prezentaci p
 ### Kde najdu další příklady a dokumentaci k Aspose.Slides pro Javu?
 
  Úplnou dokumentaci a příklady kódu můžete najít na stránce dokumentace Aspose.Slides for Java[tady](https://reference.aspose.com/slides/java/). Prozkoumejte dokumentaci a zjistěte další funkce a případy použití.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

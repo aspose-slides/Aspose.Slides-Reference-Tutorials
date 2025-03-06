@@ -3,10 +3,16 @@ title: Dominio de la conexión de formas con Aspose.Slides para .NET
 linktitle: Conexión de forma mediante el sitio de conexión en la presentación
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Cree presentaciones cautivadoras con Aspose.Slides para .NET, conectando formas a la perfección. Siga nuestra guía para disfrutar de una experiencia fluida y atractiva.
-type: docs
 weight: 30
 url: /es/net/shape-effects-and-manipulation-in-slides/connecting-shape-using-connection-site/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dominio de la conexión de formas con Aspose.Slides para .NET
+
 ## Introducción
 En el dinámico mundo de las presentaciones, crear diapositivas visualmente atractivas con formas interconectadas es crucial para una comunicación eficaz. Aspose.Slides para .NET proporciona una solución poderosa para lograr esto al permitirle conectar formas mediante sitios de conexión. Este tutorial lo guiará a través del proceso de conectar formas paso a paso, asegurando que sus presentaciones se destaquen con transiciones visuales perfectas.
 ## Requisitos previos
@@ -78,3 +84,9 @@ Puede utilizar bloques try-catch para manejar excepciones. Referirse a[documenta
  Sí, puedes descargar una versión de prueba gratuita.[aquí](https://releases.aspose.com/).
 ### ¿Dónde puedo obtener soporte para Aspose.Slides?
  Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para apoyo y debates de la comunidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

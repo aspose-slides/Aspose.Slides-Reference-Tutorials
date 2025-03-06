@@ -3,10 +3,16 @@ title: Informatie uit diagram verbergen in Java-dia's
 linktitle: Informatie uit diagram verbergen in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u diagramelementen in Java Slides kunt verbergen met Aspose.Slides voor Java. Pas presentaties aan voor duidelijkheid en esthetiek met stapsgewijze begeleiding en broncode.
-type: docs
 weight: 13
 url: /nl/java/customization-and-formatting/hide-information-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Informatie uit diagram verbergen in Java-dia's
+
 
 ## Inleiding tot het verbergen van informatie uit diagrammen in Java-dia's
 
@@ -172,3 +178,9 @@ Ja, u kunt het diagramtype dynamisch wijzigen door een nieuw diagram van het gew
 ### Hoe kan ik de titel- en aslabels van het diagram programmatisch wijzigen?
 
 U kunt de titel en labels van het diagram en de assen instellen door hun respectieve eigenschappen te openen en de gewenste tekst en opmaak in te stellen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

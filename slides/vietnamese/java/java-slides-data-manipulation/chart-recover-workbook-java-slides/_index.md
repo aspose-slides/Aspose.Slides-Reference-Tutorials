@@ -3,10 +3,16 @@ title: Sổ làm việc phục hồi biểu đồ trong Java Slides
 linktitle: Sổ làm việc phục hồi biểu đồ trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách khôi phục sổ làm việc từ biểu đồ trong Java Slides bằng Aspose.Slides. Hướng dẫn từng bước để tự động hóa PowerPoint.
-type: docs
 weight: 17
 url: /vi/java/data-manipulation/chart-recover-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sổ làm việc phục hồi biểu đồ trong Java Slides
+
 
 ## Giới thiệu về Sổ làm việc Khôi phục Biểu đồ trong Java Slides
 
@@ -109,3 +115,9 @@ Tuyệt đối! Aspose.Slides for Java là một thư viện mạnh mẽ để t
 ### Làm cách nào tôi có thể truy cập thêm tài liệu về Aspose.Slides cho Java?
 
  Để có tài liệu chi tiết và tài liệu tham khảo về Aspose.Slides cho Java, hãy truy cập trang tài liệu tại[đây](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

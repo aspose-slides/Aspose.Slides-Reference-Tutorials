@@ -3,10 +3,16 @@ title: Java スライドのチャートのデフォルト マーカー
 linktitle: Java スライドのチャートのデフォルト マーカー
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、チャートにデフォルトのマーカーが付いた Java スライドを作成する方法を学びます。ソース コード付きのステップ バイ ステップ ガイド。
-type: docs
 weight: 16
 url: /ja/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java スライドのチャートのデフォルト マーカー
+
 
 ## Java スライドのチャートのデフォルト マーカーの紹介
 
@@ -142,3 +148,9 @@ pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ### データ ポイントにラベルを追加できますか?
 
 はい、データポイントにラベルを追加することができます。`IDataPoint.getLabel()`方法を確認し、必要に応じてカスタマイズします。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

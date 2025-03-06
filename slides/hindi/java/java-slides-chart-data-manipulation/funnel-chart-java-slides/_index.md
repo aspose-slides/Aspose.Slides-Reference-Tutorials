@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में फ़नल चार्
 linktitle: जावा स्लाइड्स में फ़नल चार्ट
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java के साथ PowerPoint प्रस्तुतियों में फ़नल चार्ट बनाना सीखें। प्रभावी डेटा विज़ुअलाइज़ेशन के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 18
 url: /hi/java/chart-data-manipulation/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में फ़नल चार्ट
+
 
 ## Aspose.Slides for Java में फ़नल चार्ट बनाने का परिचय
 
@@ -137,3 +143,9 @@ pres.save(dataDir + "Funnel.pptx", SaveFormat.Pptx);
 ### क्या मैं चार्ट को विभिन्न प्रारूपों में निर्यात कर सकता हूँ, जैसे कि PDF या छवि?
 
 हां, Aspose.Slides for Java आपको फ़नल चार्ट के साथ प्रेजेंटेशन को PDF, इमेज फॉर्मेट और अन्य सहित विभिन्न फॉर्मेट में एक्सपोर्ट करने की अनुमति देता है। आप इसका उपयोग कर सकते हैं`SaveFormat` प्रस्तुति को सहेजते समय वांछित आउटपुट प्रारूप निर्दिष्ट करने के लिए विकल्प।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

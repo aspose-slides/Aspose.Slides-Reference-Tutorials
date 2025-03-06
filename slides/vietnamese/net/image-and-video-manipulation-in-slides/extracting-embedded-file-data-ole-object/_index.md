@@ -3,10 +3,16 @@ title: Aspose.Slides for .NET - Hướng dẫn trích xuất dữ liệu đối 
 linktitle: Trích xuất dữ liệu tệp nhúng từ đối tượng OLE trong Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Khai phá toàn bộ tiềm năng của Aspose.Slides cho .NET với hướng dẫn từng bước của chúng tôi về cách trích xuất dữ liệu tệp nhúng từ các đối tượng OLE. Nâng cao khả năng xử lý PowerPoint của bạn!
-type: docs
 weight: 20
 url: /vi/net/image-and-video-manipulation-in-slides/extracting-embedded-file-data-ole-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides for .NET - Hướng dẫn trích xuất dữ liệu đối tượng OLE
+
 ## Giới thiệu
 Nếu bạn đang tìm hiểu sâu về thế giới Aspose.Slides dành cho .NET, thì bạn đang đi đúng hướng để nâng cao khả năng xử lý PowerPoint của mình. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình trích xuất dữ liệu tệp nhúng từ đối tượng OLE bằng Aspose.Slides. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới sử dụng Aspose.Slides, hướng dẫn này sẽ cung cấp cho bạn lộ trình rõ ràng và chi tiết để khai thác toàn bộ tiềm năng của thư viện .NET mạnh mẽ này.
 ## Điều kiện tiên quyết
@@ -81,3 +87,9 @@ Tuyệt đối! Mã được cung cấp được thiết kế để xử lý nhi
  Có, bạn có thể tải phiên bản dùng thử miễn phí[đây](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ cho các truy vấn liên quan đến Aspose.Slides?
  Truy cập diễn đàn hỗ trợ Aspose.Slides[đây](https://forum.aspose.com/c/slides/11) để được hỗ trợ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

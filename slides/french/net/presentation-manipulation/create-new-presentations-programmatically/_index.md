@@ -3,10 +3,16 @@ title: Créer de nouvelles présentations par programme
 linktitle: Créer de nouvelles présentations par programme
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment créer des présentations par programmation à l'aide d'Aspose.Slides pour .NET. Guide étape par étape avec code source pour une automatisation efficace.
-type: docs
 weight: 10
 url: /fr/net/presentation-manipulation/create-new-presentations-programmatically/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer de nouvelles présentations par programme
+
 
 Si vous souhaitez créer des présentations par programmation dans .NET, Aspose.Slides for .NET est un outil puissant pour vous aider à accomplir cette tâche efficacement. Ce didacticiel étape par étape vous guidera tout au long du processus de création de nouvelles présentations à l'aide du code source fourni.
 
@@ -87,3 +93,9 @@ Vous pouvez désormais commencer à intégrer ce code dans vos projets .NET pour
 
 4. ### Puis-je essayer Aspose.Slides pour .NET avant d'acheter ?
     Oui, vous pouvez télécharger un essai gratuit d'Aspose.Slides pour .NET[ici](https://releases.aspose.com/). La version d'essai a des limites, alors assurez-vous de vérifier si elle répond à vos besoins.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

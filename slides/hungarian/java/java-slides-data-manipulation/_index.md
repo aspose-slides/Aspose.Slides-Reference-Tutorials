@@ -3,10 +3,16 @@ title: Java Slides adatkezelés
 linktitle: Java Slides adatkezelés
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Növelje Java Slides adatkezelési készségeit az Aspose.Slides for Java oktatóanyagaival. Ismerje meg lépésről lépésre a prezentációk hatékony létrehozását, szerkesztését és átalakítását.
-type: docs
 weight: 13
 url: /hu/java/data-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slides adatkezelés
+
 
 Készen áll a Java Slides adatkezelés művészetének elsajátítására? Ne keressen tovább. Ebben az átfogó útmutatóban végigvezetjük Önt az Aspose.Slides for Java használatával a diabemutatók létrehozásához, módosításához és javításához. Akár tapasztalt fejlesztő, akár csak most kezdi utazását a Java Slides világába, oktatóanyagaink felvértezik a szükséges ismeretekkel és készségekkel.
 
@@ -96,3 +102,9 @@ Ismerje meg, hogyan hozhat létre dinamikus kördiagramokat automatikus szeletsz
 Ismerje meg, hogyan állíthat be kiemeléseket adatcímkékhez az Aspose.Slides for Java programban. Lépésről lépésre útmutató forráskóddal.
 ### [Dátumformátum beállítása a Java Slides kategóriatengelyéhez](./setting-date-format-category-axis-java-slides/)
 Ismerje meg, hogyan állíthat be dátumformátumot a kategóriatengelyhez egy PowerPoint diagramon az Aspose.Slides for Java segítségével. Lépésről lépésre útmutató forráskóddal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

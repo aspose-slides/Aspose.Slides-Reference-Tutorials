@@ -3,10 +3,16 @@ title: Konversikan Presentasi ke PDF dengan Slide Tersembunyi
 linktitle: Konversikan Presentasi ke PDF dengan Slide Tersembunyi
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menggunakan Aspose.Slides untuk .NET untuk mengonversi presentasi ke PDF dengan slide tersembunyi dengan lancar.
-type: docs
 weight: 26
 url: /id/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konversikan Presentasi ke PDF dengan Slide Tersembunyi
+
 
 ## Pengantar Aspose.Slides untuk .NET
 
@@ -95,3 +101,9 @@ Tentu saja, Aspose.Slides untuk .NET dirancang untuk menangani presentasi dengan
 ### Apakah ada dokumentasi untuk Aspose.Slides untuk .NET?
 
  Ya, Anda dapat menemukan dokumentasi dan contoh penggunaan Aspose.Slides untuk .NET di[Di Sini](https://reference.aspose.com/slides/net).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

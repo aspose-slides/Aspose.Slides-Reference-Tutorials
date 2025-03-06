@@ -3,10 +3,16 @@ title: การจัดการไฮเปอร์ลิงก์
 linktitle: การจัดการไฮเปอร์ลิงก์
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: ปรับปรุงแอปพลิเคชัน .NET ของคุณด้วยการจัดการไฮเปอร์ลิงก์ที่ครอบคลุมโดยใช้ Aspose.Slides เรียนรู้วิธีจัดการไฮเปอร์ลิงก์ สร้างงานนำเสนอเชิงโต้ตอบ และเพิ่มการมีส่วนร่วมของผู้ใช้ได้อย่างง่ายดาย
-type: docs
 weight: 13
 url: /th/net/hyperlink-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# การจัดการไฮเปอร์ลิงก์
+
 
 ## การแนะนำ:
 
@@ -27,3 +33,9 @@ url: /th/net/hyperlink-manipulation/
 เรียนรู้วิธีจัดการไฮเปอร์ลิงก์ในการนำเสนออย่างมีประสิทธิภาพโดยใช้ Aspose.Slides สำหรับ .NET ทำงานอัตโนมัติ สร้างเมนูแบบโต้ตอบ และปรับปรุงการมีส่วนร่วมของผู้ใช้
 ### [การสร้างไฮเปอร์ลิงก์ที่ไม่แน่นอน](./mutable-hyperlink/)
 เรียนรู้วิธีสร้างไฮเปอร์ลิงก์ที่ไม่แน่นอนโดยใช้ Aspose.Slides สำหรับ .NET คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ดสำหรับการนำเสนอแบบไดนามิก
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

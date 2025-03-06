@@ -3,10 +3,16 @@ title: Ställ in anpassade förklaringsalternativ i Java Slides
 linktitle: Ställ in anpassade förklaringsalternativ i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ställer in anpassade förklaringsalternativ i Java Slides med Aspose.Slides för Java. Anpassa förklaringens position och storlek i dina PowerPoint-diagram.
-type: docs
 weight: 14
 url: /sv/java/customization-and-formatting/set-legend-custom-options-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställ in anpassade förklaringsalternativ i Java Slides
+
 
 ## Introduktion till att ställa in anpassade förklaringsalternativ i Java Slides
 
@@ -131,3 +137,9 @@ I den här handledningen lärde vi oss hur man anpassar förklaringsegenskaperna
 ## Kan jag anpassa andra förklaringsattribut?
 
 Ja, du kan anpassa olika attribut för förklaringen, såsom teckensnitt, ram, bakgrundsfärg och mer. Utforska Aspose.Slides-dokumentationen för detaljerad information om hur du anpassar förklaringar ytterligare.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

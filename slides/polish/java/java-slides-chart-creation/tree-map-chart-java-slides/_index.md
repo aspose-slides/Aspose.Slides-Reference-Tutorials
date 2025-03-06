@@ -3,10 +3,16 @@ title: Wykres mapy drzewa w slajdach Java
 linktitle: Wykres mapy drzewa w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Twórz wykresy mapy drzewa w slajdach Java za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym do wizualizacji danych hierarchicznych.
-type: docs
 weight: 13
 url: /pl/java/chart-creation/tree-map-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Wykres mapy drzewa w slajdach Java
+
 
 ## Wprowadzenie do wykresu mapy drzewa w slajdach Java
 
@@ -152,3 +158,9 @@ Tak, możesz utworzyć wiele wykresów Mapy Drzewa w jednej prezentacji, wykonuj
 ### Jak zapisać prezentację z wykresem Mapy Drzewa?
 
  Użyj`pres.save()` metoda zapisania prezentacji z wykresem Mapy Drzewa w żądanym formacie (np. PPTX).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

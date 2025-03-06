@@ -3,10 +3,16 @@ title: Выделение текста с помощью Regex в Java PowerPoin
 linktitle: Выделение текста с помощью Regex в Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как выделить текст в PowerPoint с помощью шаблонов регулярных выражений с помощью Aspose.Slides для Java. Динамически улучшайте свои презентации.
-type: docs
 weight: 15
 url: /ru/java/java-powerpoint-text-alignment-formatting/highlight-text-using-regex-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Выделение текста с помощью Regex в Java PowerPoint
+
 ## Введение
 В области разработки на основе Java для создания и управления презентациями PowerPoint Aspose.Slides for Java выделяется как надежное решение. В этом руководстве основное внимание уделяется использованию Aspose.Slides для выделения текста с помощью регулярных выражений (регулярных выражений) в презентациях PowerPoint. К концу этого руководства вы поймете, как реализовать шаблоны регулярных выражений для выделения определенного текста на слайдах, улучшая как функциональность, так и визуальную ясность.
 ## Предварительные условия
@@ -62,3 +68,9 @@ presentation.save(dataDir + "SomePresentation-out.pptx", SaveFormat.Pptx);
 Безусловно, он предлагает обширные возможности манипулирования текстом, помимо выделения, включая стилизацию шрифта, выравнивание и многое другое.
 ### Могу ли я попробовать Aspose.Slides для Java перед покупкой?
  Да, вы можете начать с[бесплатная пробная версия](https://releases.aspose.com/) оценить его возможности.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

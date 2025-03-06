@@ -3,10 +3,16 @@ title: Konvertieren Sie Präsentationen mit ausgeblendeten Folien in PDF
 linktitle: Konvertieren Sie Präsentationen mit ausgeblendeten Folien in PDF
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Präsentationen nahtlos in PDF mit ausgeblendeten Folien konvertieren.
-type: docs
 weight: 26
 url: /de/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konvertieren Sie Präsentationen mit ausgeblendeten Folien in PDF
+
 
 ## Einführung in Aspose.Slides für .NET
 
@@ -95,3 +101,9 @@ Absolut, Aspose.Slides für .NET ist für die Verarbeitung von Präsentationen u
 ### Gibt es eine Dokumentation für Aspose.Slides für .NET?
 
  Ja, Sie finden die Dokumentation und Anwendungsbeispiele für Aspose.Slides für .NET unter[Hier](https://reference.aspose.com/slides/net).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

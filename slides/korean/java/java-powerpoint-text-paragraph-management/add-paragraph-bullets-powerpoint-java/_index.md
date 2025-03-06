@@ -3,10 +3,16 @@ title: Java를 사용하여 PowerPoint에서 단락 글머리 기호 추가
 linktitle: Java를 사용하여 PowerPoint에서 단락 글머리 기호 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 슬라이드에 단락 글머리 기호를 추가하는 방법을 알아보세요. 이 튜토리얼에서는 코드 예제를 통해 단계별로 안내합니다.
-type: docs
 weight: 15
 url: /ko/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PowerPoint에서 단락 글머리 기호 추가
+
 ## 소개
 단락 글머리 기호를 추가하면 PowerPoint 프레젠테이션의 가독성과 구조가 향상됩니다. Aspose.Slides for Java는 다양한 글머리 기호 스타일로 텍스트 서식을 지정하는 기능을 포함하여 프로그래밍 방식으로 프레젠테이션을 조작할 수 있는 강력한 도구를 제공합니다. 이 튜토리얼에서는 Aspose.Slides를 활용하여 Java 코드를 사용하여 PowerPoint 슬라이드에 글머리 기호를 통합하는 방법을 배웁니다.
 ## 전제 조건
@@ -89,3 +95,9 @@ if (pres != null) {
 예, Aspose.Slides는 Java 11 이상 버전을 지원합니다.
 ### 더 많은 예제와 문서는 어디에서 찾을 수 있나요?
  방문하다[Java 문서용 Aspose.Slides](https://reference.aspose.com/slides/java/) 포괄적인 가이드와 예시를 보려면
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

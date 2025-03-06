@@ -3,10 +3,16 @@ title: Vista de diapositivas y manipulación del diseño
 linktitle: Vista de diapositivas y manipulación del diseño
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Optimice las vistas y diseños de diapositivas con los tutoriales de manipulación de diseño y vista de diapositivas de Aspose.Slides. Mejore el impacto de la presentación y la excelencia visual utilizando potentes herramientas .NET.
-type: docs
 weight: 20
 url: /es/net/slide-view-and-layout-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vista de diapositivas y manipulación del diseño
+
 
 ## Introducción
 
@@ -29,3 +35,9 @@ Aprenda a administrar presentaciones en estado de vista normal usando Aspose.Sli
 Aprenda cómo vincular videos a diapositivas de PowerPoint usando Aspose.Slides para .NET. Esta guía paso a paso incluye código fuente y consejos para crear presentaciones interactivas y atractivas con vídeos vinculados.
 ### [Administrar el control ActiveX en la presentación](./manage-activex-control/)
 Aprenda cómo mejorar las presentaciones de PowerPoint con controles ActiveX usando Aspose.Slides para .NET. Nuestra guía paso a paso cubre la inserción, manipulación, personalización, manejo de eventos y más.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

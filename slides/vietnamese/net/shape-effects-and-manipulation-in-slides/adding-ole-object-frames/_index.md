@@ -3,10 +3,16 @@ title: Thêm khung đối tượng OLE vào bản trình bày bằng Aspose.Slid
 linktitle: Thêm khung đối tượng OLE vào bản trình bày bằng Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách cải thiện bản trình bày PowerPoint bằng nội dung động! Làm theo hướng dẫn từng bước của chúng tôi bằng cách sử dụng Aspose.Slides cho .NET. Tăng cường sự tham gia ngay bây giờ!
-type: docs
 weight: 15
 url: /vi/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm khung đối tượng OLE vào bản trình bày bằng Aspose.Slides
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ đi sâu vào quá trình thêm Khung đối tượng OLE (Liên kết và nhúng đối tượng) vào Trang trình bày bằng Aspose.Slides cho .NET. Aspose.Slides là một thư viện mạnh mẽ cho phép các nhà phát triển làm việc với các tệp PowerPoint theo chương trình. Hãy làm theo hướng dẫn từng bước này để nhúng liền mạch các đối tượng OLE vào các trang trình bày của bạn, cải thiện các tệp PowerPoint của bạn bằng nội dung động và tương tác.
 ## Điều kiện tiên quyết
@@ -84,3 +90,9 @@ Trả lời: Có, Aspose.Slides hỗ trợ các định dạng tệp PowerPoint 
 Trả lời: Hoàn toàn có thể, bạn có thể điều chỉnh kích thước, vị trí và các thuộc tính khác của Khung đối tượng OLE theo sở thích của mình.
 ### Hỏi: Tôi có thể tìm kiếm sự hỗ trợ ở đâu nếu gặp khó khăn trong quá trình thực hiện?
  Đáp: Hãy ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được cộng đồng hỗ trợ và hướng dẫn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

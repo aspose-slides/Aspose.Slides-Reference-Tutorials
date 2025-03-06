@@ -3,10 +3,16 @@ title: Tambahkan Garis Berbentuk Panah ke Slide
 linktitle: Tambahkan Garis Berbentuk Panah ke Slide
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan garis berbentuk panah ke slide PowerPoint menggunakan Aspose.Slides untuk Java. Sesuaikan gaya, warna, dan posisi dengan mudah.
-type: docs
 weight: 11
 url: /id/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Garis Berbentuk Panah ke Slide
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara menambahkan garis berbentuk panah ke slide menggunakan Aspose.Slides untuk Java. Aspose.Slides adalah Java API canggih yang memungkinkan pengembang membuat, memodifikasi, dan mengonversi presentasi PowerPoint secara terprogram. Menambahkan garis berbentuk panah ke slide dapat meningkatkan daya tarik visual dan kejelasan presentasi Anda.
 ## Prasyarat
@@ -74,3 +80,9 @@ Aspose.Slides mendukung berbagai format PowerPoint, memastikan kompatibilitas di
 Ya, Anda dapat menambahkan teks ke baris dengan membuat TextFrame dan mengatur propertinya sesuai dengan itu.
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dukungan untuk Aspose.Slides?
  Mengunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11) untuk dukungan dan eksplorasi[dokumentasi](https://reference.aspose.com/slides/java/) untuk informasi rinci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

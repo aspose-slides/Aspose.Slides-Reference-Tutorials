@@ -3,10 +3,16 @@ title: معاينة مخرجات طباعة العروض التقديمية في
 linktitle: معاينة مخرجات طباعة العروض التقديمية في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية معاينة مخرجات الطباعة لعروض PowerPoint التقديمية باستخدام Aspose.Slides لـ .NET. اتبع هذا الدليل خطوة بخطوة مع التعليمات البرمجية المصدر لإنشاء معاينات الطباعة وتخصيصها.
-type: docs
 weight: 11
 url: /ar/net/printing-and-rendering-in-slides/presentation-print-preview/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معاينة مخرجات طباعة العروض التقديمية في Aspose.Slides
+
 ## مقدمة
 مرحبًا بك في عالم Aspose.Slides for .NET، وهي مكتبة قوية تمكّن المطورين من التعامل بسلاسة مع عروض PowerPoint التقديمية وتحسينها في تطبيقات .NET الخاصة بهم. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيرشدك هذا الدليل الشامل عبر الخطوات الأساسية للاستفادة من الإمكانات الكاملة لـ Aspose.Slides.
 ## المتطلبات الأساسية
@@ -71,3 +77,9 @@ pres.Print(printerSettings);
  يزور[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) للحصول على ترخيص مؤقت لأغراض الاختبار.
 ### هل تحتاج إلى الدعم أو لديك المزيد من الأسئلة؟
  قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للحصول على المساعدة والتواصل مع المجتمع.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manipulasi Latar Belakang Slide menggunakan Aspose.Slides
 linktitle: Manipulasi Latar Belakang Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Sempurnakan desain slide Anda dengan Aspose.Slides! Pelajari cara memanipulasi latar belakang slide dalam tutorial komprehensif ini. Petunjuk langkah demi langkah dan contoh kode disediakan.
-type: docs
 weight: 11
 url: /id/net/slide-background-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi Latar Belakang Slide menggunakan Aspose.Slides
+
 
 ## Perkenalan
 
@@ -37,3 +43,9 @@ Pelajari cara mengatur gambar sebagai latar belakang slide menggunakan Aspose.Sl
 Pelajari cara menguasai pengaturan latar belakang slide menggunakan Aspose.Slides dalam panduan langkah demi langkah ini. Tingkatkan presentasi Anda ke level berikutnya dengan visual yang menarik.
 ### [Ubah Latar Belakang Slide Normal](./change-slide-background-normal/)
 Pelajari cara mengubah latar belakang slide normal untuk memikat audiens Anda. Ikuti panduan komprehensif ini menggunakan Aspose.Slides untuk .NET, lengkap dengan petunjuk langkah demi langkah dan contoh kode.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

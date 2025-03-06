@@ -3,10 +3,16 @@ title: تحويل عرض HTML مع الصور المضمنة
 linktitle: تحويل عرض HTML مع الصور المضمنة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تحويل عروض PowerPoint التقديمية إلى HTML مع الصور المضمنة باستخدام Aspose.Slides for .NET. دليل خطوة بخطوة للتحويل السلس.
-type: docs
 weight: 11
 url: /ar/net/presentation-conversion/convert-html-presentation-with-embedded-images/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل عرض HTML مع الصور المضمنة
+
 
 في العالم الرقمي اليوم، أصبحت الحاجة إلى تحويل عروض PowerPoint التقديمية إلى HTML ذات أهمية متزايدة. سواء كان الأمر يتعلق بمشاركة المحتوى عبر الإنترنت أو إنشاء عروض تقديمية على الويب، فإن القدرة على تحويل ملفات PowerPoint إلى HTML يمكن أن تكون رصيدًا قيمًا. Aspose.Slides for .NET هي مكتبة قوية تسمح لك بإجراء مثل هذه التحويلات بسلاسة. في هذا الدليل خطوة بخطوة، سنرشدك خلال عملية تحويل عرض تقديمي بتنسيق HTML يحتوي على صور مضمنة باستخدام Aspose.Slides for .NET.
 
@@ -115,3 +121,9 @@ pres.Save(Path.Combine(outFilePath, "pres.html"), SaveFormat.Html5, options);
 
 ### ما التنسيقات الأخرى التي يمكنني تحويل عروض PowerPoint التقديمية إليها باستخدام Aspose.Slides لـ .NET؟
 يدعم Aspose.Slides for .NET التحويل إلى تنسيقات مختلفة، بما في ذلك PDF والصور والمزيد. تحقق من الوثائق للحصول على قائمة شاملة بالتنسيقات المدعومة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

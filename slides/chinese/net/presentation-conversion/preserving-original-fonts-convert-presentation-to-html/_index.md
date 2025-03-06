@@ -3,10 +3,16 @@ title: 保留原始字体 - 将演示文稿转换为 HTML
 linktitle: 保留原始字体 - 将演示文稿转换为 HTML
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何在使用 Aspose.Slides for .NET 将演示文稿转换为 HTML 时保留原始字体。轻松确保字体一致性和视觉冲击力。
-type: docs
 weight: 14
 url: /zh/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 保留原始字体 - 将演示文稿转换为 HTML
+
 
 在本综合指南中，我们将引导您完成使用 Aspose.Slides for .NET 将演示文稿转换为 HTML 时保留原始字体的过程。我们将为您提供必要的 C# 源代码并详细解释每个步骤。在本教程结束时，您将能够确保转换后的 HTML 文档中的字体与原始演示文稿保持一致。
 
@@ -98,3 +104,10 @@ Aspose.Slides for .NET 主要专注于 PowerPoint 演示文稿。要将其他文
 ### Q5：我可以在哪里获得更多资源和支持？
 
 您可以在 Aspose 网站上找到更多文档、教程和支持。请访问[Aspose.Slides for .NET 文档](https://reference.aspose.com/slides/net/)了解详细信息。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

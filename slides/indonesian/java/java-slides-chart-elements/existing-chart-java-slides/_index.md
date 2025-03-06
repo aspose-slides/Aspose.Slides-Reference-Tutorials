@@ -3,10 +3,16 @@ title: Bagan yang Ada di Slide Java
 linktitle: Bagan yang Ada di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Sempurnakan presentasi PowerPoint Anda dengan Aspose.Slides untuk Java. Pelajari cara mengubah diagram yang ada secara terprogram. Panduan langkah demi langkah dengan kode sumber untuk penyesuaian bagan.
-type: docs
 weight: 12
 url: /id/java/chart-elements/existing-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bagan yang Ada di Slide Java
+
 
 ## Pengenalan Bagan yang Ada di Slide Java menggunakan Aspose.Slides for Java
 
@@ -184,3 +190,9 @@ Dalam tutorial komprehensif ini, kita telah mempelajari cara memodifikasi bagan 
 ### Apakah ada cara untuk menghapus rangkaian dari grafik?
 
  Ya, Anda dapat menghapus rangkaian dari grafik dengan menggunakan`chart.getChartData().getSeries().removeAt(index)` metode, dimana`index`adalah indeks seri yang ingin Anda hapus.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

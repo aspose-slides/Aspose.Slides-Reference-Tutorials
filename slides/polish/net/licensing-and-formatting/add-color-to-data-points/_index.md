@@ -3,10 +3,16 @@ title: Kolorowanie wykresów za pomocą Aspose.Slides dla .NET
 linktitle: Dodaj kolor do punktów danych na wykresie
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak dodać kolor do punktów danych na wykresie za pomocą Aspose.Slides dla .NET. Wzbogać swoje prezentacje wizualnie i skutecznie zaangażuj odbiorców.
-type: docs
 weight: 12
 url: /pl/net/licensing-and-formatting/add-color-to-data-points/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kolorowanie wykresów za pomocą Aspose.Slides dla .NET
+
 
 W tym przewodniku krok po kroku przeprowadzimy Cię przez proces dodawania koloru do punktów danych na wykresie za pomocą Aspose.Slides dla .NET. Aspose.Slides to potężna biblioteka do pracy z prezentacjami programu PowerPoint w aplikacjach .NET. Dodanie koloru do punktów danych na wykresie może sprawić, że prezentacje będą bardziej atrakcyjne wizualnie i łatwiejsze do zrozumienia.
 
@@ -115,3 +121,9 @@ Dodanie koloru do punktów danych na wykresie to skuteczny sposób na uczynienie
 
 ### Jak uzyskać wsparcie dla Aspose.Slides dla .NET?
     Aby uzyskać wsparcie i dyskusje, odwiedź stronę[Forum Aspose.Slides](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

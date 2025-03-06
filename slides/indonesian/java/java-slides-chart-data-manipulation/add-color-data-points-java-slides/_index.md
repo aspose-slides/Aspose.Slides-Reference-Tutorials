@@ -3,10 +3,16 @@ title: Tambahkan Warna ke Titik Data di Slide Java
 linktitle: Tambahkan Warna ke Titik Data di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan warna ke titik data di slide Java menggunakan Aspose.Slides for Java.
-type: docs
 weight: 10
 url: /id/java/chart-data-manipulation/add-color-data-points-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Warna ke Titik Data di Slide Java
+
 
 ## Pengantar Menambahkan Warna ke Titik Data di Slide Java
 
@@ -117,3 +123,9 @@ Untuk mengubah warna titik data lainnya, Anda dapat mengikuti pendekatan serupa 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
 
  Anda dapat menemukan lebih banyak contoh dan dokumentasi terperinci tentang penggunaan Aspose.Slides untuk Java di[Dokumentasi Aspose.Slide](https://reference.aspose.com/slides/java/) situs web.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

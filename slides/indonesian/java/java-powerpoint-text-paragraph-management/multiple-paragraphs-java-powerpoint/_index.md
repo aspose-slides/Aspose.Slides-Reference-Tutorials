@@ -3,10 +3,16 @@ title: Beberapa Paragraf di Java PowerPoint
 linktitle: Beberapa Paragraf di Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat beberapa paragraf dalam presentasi Java PowerPoint menggunakan Aspose.Slides for Java. Panduan lengkap dengan contoh kode.
-type: docs
 weight: 13
 url: /id/java/java-powerpoint-text-paragraph-management/multiple-paragraphs-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beberapa Paragraf di Java PowerPoint
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara membuat slide dengan banyak paragraf di Java menggunakan Aspose.Slides untuk Java. Aspose.Slides adalah perpustakaan canggih yang memungkinkan pengembang memanipulasi presentasi PowerPoint secara terprogram, menjadikannya ideal untuk mengotomatiskan tugas-tugas yang berkaitan dengan pembuatan dan pemformatan slide.
 ## Prasyarat
@@ -113,3 +119,9 @@ Aspose.Slides mendukung berbagai format PowerPoint, memastikan kompatibilitas di
  Ya, Anda dapat mengunduh versi uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Bagaimana saya bisa mendapatkan dukungan teknis jika diperlukan?
  Anda bisa mendapatkan dukungan dari komunitas Aspose.Slides[Di Sini](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

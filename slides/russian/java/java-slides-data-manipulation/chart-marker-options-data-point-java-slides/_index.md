@@ -3,10 +3,16 @@ title: Параметры маркера диаграммы для точки д
 linktitle: Параметры маркера диаграммы для точки данных в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Оптимизируйте свои слайды Java с помощью пользовательских параметров маркеров диаграммы. Научитесь визуально улучшать точки данных с помощью Aspose.Slides для Java. Изучите пошаговые инструкции и ответы на часто задаваемые вопросы.
-type: docs
 weight: 14
 url: /ru/java/data-manipulation/chart-marker-options-data-point-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Параметры маркера диаграммы для точки данных в слайдах Java
+
 
 ## Введение в параметры маркера диаграммы для точки данных в слайдах Java
 
@@ -154,3 +160,9 @@ pres.save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
 ### Где я могу получить доступ к документации и файлам для загрузки Aspose.Slides for Java?
 
  Вы можете найти документацию по адресу[здесь](https://reference.aspose.com/slides/java/) и загрузите библиотеку по адресу[здесь](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

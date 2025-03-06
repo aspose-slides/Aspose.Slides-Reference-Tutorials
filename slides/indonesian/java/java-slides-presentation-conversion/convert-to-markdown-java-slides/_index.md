@@ -3,10 +3,16 @@ title: Konversikan ke Penurunan Harga di Java Slides
 linktitle: Konversikan ke Penurunan Harga di Java Slides
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Ubah presentasi PowerPoint menjadi Markdown dengan Aspose.Slides untuk Java. Ikuti panduan langkah demi langkah ini untuk mengubah slide Anda dengan mudah.
-type: docs
 weight: 24
 url: /id/java/presentation-conversion/convert-to-markdown-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konversikan ke Penurunan Harga di Java Slides
+
 
 ## Pendahuluan Konversi ke Penurunan Harga di Slide Java
 
@@ -136,3 +142,9 @@ Ya, Aspose.Slides untuk Java dirancang untuk konversi skala kecil dan skala besa
 ### Di mana saya dapat menemukan lebih banyak dokumentasi dan sumber daya?
 
  Anda dapat merujuk ke dokumentasi Aspose.Slides untuk Java di[Aspose.Slides untuk Referensi API Java](https://reference.aspose.com/slides/java/) untuk informasi rinci dan contoh tambahan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

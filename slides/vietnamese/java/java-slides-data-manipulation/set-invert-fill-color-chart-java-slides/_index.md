@@ -3,10 +3,16 @@ title: Đặt biểu đồ màu tô đảo ngược trong trang trình bày Java
 linktitle: Đặt biểu đồ màu tô đảo ngược trong trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt đảo ngược màu tô cho biểu đồ Java Slides bằng Aspose.Slides. Nâng cao khả năng trực quan hóa biểu đồ của bạn bằng mã nguồn và hướng dẫn từng bước này.
-type: docs
 weight: 22
 url: /vi/java/data-manipulation/set-invert-fill-color-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt biểu đồ màu tô đảo ngược trong trang trình bày Java
+
 
 ## Giới thiệu về Đặt biểu đồ màu tô đảo ngược trong Java Slides
 
@@ -153,3 +159,9 @@ Có, bạn có thể tùy chỉnh các khía cạnh khác nhau của giao diện
 ### Tôi có thể lưu biểu đồ ở các định dạng khác nhau không?
 
  Có, bạn có thể lưu biểu đồ ở các định dạng khác nhau bằng Aspose.Slides cho Java. Trong ví dụ về mã được cung cấp, chúng tôi đã lưu bản trình bày dưới dạng tệp PPTX. Bạn có thể sử dụng khác nhau`SaveFormat` các tùy chọn để lưu nó ở các định dạng khác như PDF, PNG hoặc SVG, tùy thuộc vào yêu cầu của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

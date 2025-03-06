@@ -3,10 +3,16 @@ title: 슬라이드에 댓글 추가
 linktitle: 슬라이드에 댓글 추가
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides API를 사용하여 프레젠테이션에 깊이와 상호 작용을 추가하세요. .NET을 사용하여 슬라이드에 주석을 쉽게 통합하는 방법을 알아보세요. 참여도를 높이고 청중의 마음을 사로잡으세요.
-type: docs
 weight: 13
 url: /ko/net/slide-comments-manipulation/add-slide-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 슬라이드에 댓글 추가
+
 
 프레젠테이션 관리의 세계에서 슬라이드에 설명을 추가하는 기능은 판도를 바꿀 수 있습니다. 댓글은 협업을 강화할 뿐만 아니라 슬라이드 내용의 이해와 수정에도 도움이 됩니다. 강력하고 다재다능한 라이브러리인 Aspose.Slides for .NET을 사용하면 프레젠테이션 슬라이드에 주석을 손쉽게 통합할 수 있습니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 사용하여 슬라이드에 설명을 추가하는 과정을 안내합니다. 숙련된 개발자이든 .NET 개발 세계에 처음 입문하는 사람이든 관계없이 이 자습서는 필요한 모든 통찰력을 제공합니다.
 
@@ -104,3 +110,9 @@ Aspose.Slides for .NET을 .NET 애플리케이션에 통합하려면 설치 및 
 ### 5. 구매하기 전에 Aspose.Slides for .NET을 사용해 볼 수 있나요?
 
 예, 무료 평가판을 사용하여 .NET용 Aspose.Slides를 탐색할 수 있습니다. 방문하다[Aspose.Slides 무료 평가판 페이지](https://releases.aspose.com/) 시작하려면.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

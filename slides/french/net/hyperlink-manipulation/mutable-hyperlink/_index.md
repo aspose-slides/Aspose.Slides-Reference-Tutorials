@@ -3,10 +3,16 @@ title: Création de liens hypertextes mutables dans Aspose.Slides pour .NET
 linktitle: Création d'un lien hypertexte mutable
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Améliorez vos présentations PowerPoint avec des hyperliens mutables à l'aide d'Aspose.Slides pour .NET. Engagez votre public comme jamais auparavant !
-type: docs
 weight: 14
 url: /fr/net/hyperlink-manipulation/mutable-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Création de liens hypertextes mutables dans Aspose.Slides pour .NET
+
 
 Dans le monde du développement de logiciels moderne, la création de présentations dynamiques avec des hyperliens interactifs est cruciale pour engager votre public. Aspose.Slides for .NET est un outil puissant qui vous permet de manipuler et de personnaliser des présentations PowerPoint, y compris la création de liens hypertextes mutables. Dans ce guide étape par étape, nous vous guiderons tout au long du processus de création de liens hypertextes mutables à l'aide d'Aspose.Slides pour .NET. 
 
@@ -96,3 +102,9 @@ Absolument. Aspose.Slides pour .NET fournit des options étendues pour personnal
 
 ### 5. Aspose.Slides pour .NET est-il adapté à la création de contenu d'apprentissage en ligne interactif ?
 Oui, Aspose.Slides pour .NET est un outil polyvalent qui peut être utilisé pour créer du contenu d'apprentissage en ligne interactif, notamment des hyperliens, des quiz et des éléments multimédias.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

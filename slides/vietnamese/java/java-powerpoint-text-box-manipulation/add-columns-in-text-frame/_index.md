@@ -3,10 +3,16 @@ title: Thêm cột trong khung văn bản bằng Aspose.Slides cho Java
 linktitle: Thêm cột trong khung văn bản bằng Aspose.Slides cho Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm cột vào khung văn bản bằng Aspose.Slides for Java để cải thiện bản trình bày PowerPoint của bạn. Hướng dẫn từng bước của chúng tôi giúp đơn giản hóa quy trình.
-type: docs
 weight: 11
 url: /vi/java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm cột trong khung văn bản bằng Aspose.Slides cho Java
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách thao tác với khung văn bản để thêm cột bằng Aspose.Slides cho Java. Aspose.Slides là một thư viện mạnh mẽ cho phép các nhà phát triển Java tạo, thao tác và chuyển đổi bản trình bày PowerPoint theo chương trình. Việc thêm cột vào khung văn bản sẽ nâng cao sức hấp dẫn trực quan và cách tổ chức văn bản trong trang chiếu, giúp bản trình bày hấp dẫn hơn và dễ đọc hơn.
 ## Điều kiện tiên quyết
@@ -81,3 +87,9 @@ Không, Aspose.Slides tự động đặt chiều rộng bằng nhau cho các c�
  Tài liệu chi tiết có sẵn[đây](https://reference.aspose.com/slides/java/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ kỹ thuật cho Aspose.Slides cho Java?
  Bạn có thể tìm kiếm sự hỗ trợ từ cộng đồng[đây](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

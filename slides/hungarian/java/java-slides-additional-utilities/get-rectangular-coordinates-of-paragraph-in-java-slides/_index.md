@@ -3,10 +3,16 @@ title: Szerezze be a bekezdés téglalap alakú koordinátáit a Java Slides-ben
 linktitle: Szerezze be a bekezdés téglalap alakú koordinátáit a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan kérheti le a bekezdés koordinátáit PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. Kövesse lépésről lépésre útmutatónkat a forráskóddal a pontos pozicionálás érdekében.
-type: docs
 weight: 13
 url: /hu/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szerezze be a bekezdés téglalap alakú koordinátáit a Java Slides-ben
+
 
 ## Bevezetés a bekezdés téglalap alakú koordinátáinak lekéréséhez az Aspose.Slides for Java programban
 
@@ -112,3 +118,9 @@ Igen, az Aspose.Slides for Java kiválóan alkalmas PowerPoint fájlok kötegelt
 ### Szükségem van licencre az Aspose.Slides for Java használatához?
 
 Igen, az Aspose.Slides for Java éles környezetben való használatához általában érvényes licenc szükséges. A licencet az Aspose webhelyéről szerezheti be. Azonban tesztelési és értékelési célokra kínálhatnak próbaverziót.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

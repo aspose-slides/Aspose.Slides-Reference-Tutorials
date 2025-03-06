@@ -3,10 +3,16 @@ title: Tạo hình dạng SmartArt trong PowerPoint bằng Java
 linktitle: Tạo hình dạng SmartArt trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tạo bản trình bày PowerPoint động bằng Java với Aspose.Slides. Tìm hiểu cách thêm hình dạng SmartArt theo chương trình để nâng cao hình ảnh.
-type: docs
 weight: 10
 url: /vi/java/java-powerpoint-smartart-manipulation/create-smartart-shape-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo hình dạng SmartArt trong PowerPoint bằng Java
+
 ## Giới thiệu
 Trong lĩnh vực lập trình Java, việc tạo ra các bài thuyết trình hấp dẫn trực quan là một yêu cầu chung. Cho dù đó là dành cho quảng cáo chiêu hàng kinh doanh, thuyết trình học thuật hay chỉ đơn giản là chia sẻ thông tin, khả năng tạo các trang chiếu PowerPoint động theo chương trình có thể là yếu tố thay đổi cuộc chơi. Aspose.Slides for Java nổi lên như một công cụ mạnh mẽ để hỗ trợ quá trình này, cung cấp một bộ tính năng toàn diện để thao tác các bài thuyết trình một cách dễ dàng và hiệu quả.
 ## Điều kiện tiên quyết
@@ -63,3 +69,9 @@ Có, Aspose.Slides for Java hỗ trợ xuất bản trình bày sang nhiều đ�
 ### Tôi có thể dùng thử Aspose.Slides cho Java trước khi mua hàng không?
  Chắc chắn! Bạn có thể khám phá các khả năng của Aspose.Slides cho Java bằng cách tải xuống bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 Tạo bản trình bày PowerPoint động bằng Java với Aspose.Slides. Tìm hiểu cách thêm hình dạng SmartArt theo chương trình để nâng cao hình ảnh.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

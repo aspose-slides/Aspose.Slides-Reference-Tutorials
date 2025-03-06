@@ -3,10 +3,16 @@ title: Java PowerPoint シェイプとサムネイルの作成
 linktitle: Java PowerPoint シェイプとサムネイルの作成
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides Java を使用して PowerPoint で図形とサムネイルを作成する方法を学習します。グループ図形、拡大縮小係数サムネイル、ズーム効果の作成に関する詳細なチュートリアル。
-type: docs
 weight: 24
 url: /ja/java/java-powerpoint-shape-thumbnail-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint シェイプとサムネイルの作成
+
 ## 導入
 
 視覚的に魅力的で整理された PowerPoint プレゼンテーションを作成することは、効果的なコミュニケーションに不可欠です。Aspose.Slides for Java を使用すると、さまざまな図形やサムネイルを作成して、プレゼンテーションを簡単に強化できます。この記事では、これらのテクニックを習得して、魅力的でプロフェッショナルなスライドを作成するためのステップ バイ ステップ ガイドを提供します。
@@ -52,3 +58,9 @@ Aspose.Slides を使用して Java で SmartArt 子ノートのサムネイル�
  この包括的なステップバイステップのチュートリアルで、Aspose.Slides for Java を使用して PowerPoint でサマリー ズームを作成する方法を学習します。
 ### [PowerPoint でズーム フレームを作成する](./create-zoom-frame-powerpoint/)
 Aspose.Slides for Java を使用して、PowerPoint で魅力的なズーム フレームを作成する方法を学びます。プレゼンテーションにインタラクティブな要素を追加するには、ガイドに従ってください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: قم بإنشاء صور مصغرة للشرائح باستخدام Aspos
 linktitle: إنشاء صورة مصغرة من الشريحة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إنشاء صور مصغرة لشرائح PowerPoint باستخدام Aspose.Slides لـ .NET. تعزيز العروض التقديمية الخاصة بك بسهولة.
-type: docs
 weight: 11
 url: /ar/net/slide-thumbnail-generation/generate-thumbnail-from-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء صور مصغرة للشرائح باستخدام Aspose.Slides لـ .NET
+
 
 في عالم العروض التقديمية الرقمية، يعد إنشاء صور مصغرة جذابة وغنية بالمعلومات جزءًا أساسيًا من جذب انتباه جمهورك. Aspose.Slides for .NET هي مكتبة قوية تمكنك من إنشاء صور مصغرة من الشرائح في تطبيقات .NET الخاصة بك. في هذا الدليل خطوة بخطوة، سنوضح لك كيفية تحقيق ذلك باستخدام Aspose.Slides for .NET.
 
@@ -106,3 +112,10 @@ using (Presentation pres = new Presentation(dataDir + "ThumbnailFromSlide.pptx")
 
 ### كيف يمكنني الحصول على دعم Aspose.Slides لـ .NET إذا واجهت مشكلات أو كانت لدي أسئلة؟
  يمكنك طلب المساعدة والانضمام إلى المناقشات في منتدى دعم مجتمع Aspose[هنا](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

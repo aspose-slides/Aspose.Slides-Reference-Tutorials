@@ -3,10 +3,16 @@ title: Gestion de l'en-tête et du pied de page dans Notes avec Aspose.Slides .N
 linktitle: Gérer l'en-tête et le pied de page dans la diapositive Notes
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment gérer l'en-tête et le pied de page dans les diapositives de notes PowerPoint à l'aide d'Aspose.Slides pour .NET. Améliorez vos présentations sans effort.
-type: docs
 weight: 11
 url: /fr/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gestion de l'en-tête et du pied de page dans Notes avec Aspose.Slides .NET
+
 
 À l’ère numérique d’aujourd’hui, créer des présentations attrayantes et informatives est une compétence vitale. Dans le cadre de ce processus, vous devrez peut-être souvent inclure des en-têtes et des pieds de page dans vos diapositives de notes pour fournir un contexte et des informations supplémentaires. Aspose.Slides pour .NET est un outil puissant qui vous permet de gérer facilement les paramètres d'en-tête et de pied de page dans les diapositives de notes. Dans ce guide étape par étape, nous explorerons comment y parvenir en utilisant Aspose.Slides pour .NET.
 
@@ -120,3 +126,9 @@ Absolument, Aspose.Slides pour .NET vous permet d'automatiser les présentations
 
 ### Un support technique est-il disponible pour les utilisateurs d'Aspose.Slides pour .NET ?
  Oui, vous pouvez trouver le soutien et l'assistance de la communauté Aspose et des experts sur le sujet.[Forum d'assistance Aspose](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

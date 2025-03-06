@@ -3,10 +3,16 @@ title: Java PowerPoint การจัดรูปแบบรูปร่าง
 linktitle: Java PowerPoint การจัดรูปแบบรูปร่างและเรขาคณิต
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: ค้นพบการจัดรูปแบบรูปร่าง Java PowerPoint และบทช่วยสอนเรขาคณิต เรียนรู้การเติมรูปร่าง ค้นหารูปร่าง และสร้างเรขาคณิตแบบกำหนดเองด้วย Aspose.Slides สำหรับ Java
-type: docs
 weight: 26
 url: /th/java/java-powerpoint-shape-formatting-geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint การจัดรูปแบบรูปร่างและเรขาคณิต
+
 ## การแนะนำ
 
 การสร้างงานนำเสนอ PowerPoint ที่ดึงดูดสายตามักต้องใช้การจัดรูปแบบรูปร่างที่แม่นยำและการจัดการทางเรขาคณิต ด้วย Aspose.Slides สำหรับ Java นักพัฒนาสามารถยกระดับการนำเสนอของตนขึ้นไปอีกระดับได้ บทความนี้จะสำรวจบทช่วยสอนที่สำคัญเกี่ยวกับการเติมรูปร่าง การค้นหารูปร่าง และการสร้างรูปทรงเรขาคณิตที่กำหนดเอง ซึ่งจะทำให้สไลด์ของคุณโดดเด่น
@@ -74,3 +80,9 @@ url: /th/java/java-powerpoint-shape-formatting-geometry/
 เรียนรู้วิธีดึงข้อมูลที่มีประสิทธิภาพของรูปร่างเอียงใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ปรับปรุงการนำเสนอของคุณด้วยเอฟเฟ็กต์ภาพที่น่าทึ่ง
 ### [ซ่อนรูปร่างใน PowerPoint](./hide-shapes-powerpoint/)
 เรียนรู้วิธีซ่อนรูปร่างใน PowerPoint โดยใช้ Aspose.Slides สำหรับ Java พร้อมคำแนะนำทีละขั้นตอนโดยละเอียดของเรา เหมาะสำหรับนักพัฒนา Java ทุกระดับ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Định dạng kiểu nối trong PowerPoint
 linktitle: Định dạng kiểu nối trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách nâng cao bản trình bày PowerPoint của bạn bằng cách đặt các kiểu nối dòng khác nhau cho các hình dạng bằng Aspose.Slides cho Java. Thực hiện theo hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 15
 url: /vi/java/java-powerpoint-shape-formatting-geometry/format-join-styles-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định dạng kiểu nối trong PowerPoint
+
 ## Giới thiệu
 Tạo các bản trình bày PowerPoint hấp dẫn về mặt hình ảnh có thể là một nhiệm vụ khó khăn, đặc biệt khi bạn muốn mọi chi tiết đều hoàn hảo. Đây là lúc Aspose.Slides cho Java phát huy tác dụng. Đó là một API mạnh mẽ cho phép bạn tạo, thao tác và quản lý bản trình bày theo chương trình. Một trong những tính năng mà bạn có thể sử dụng là đặt các kiểu nối đường khác nhau cho các hình dạng, điều này có thể nâng cao đáng kể tính thẩm mỹ cho các trang chiếu của bạn. Trong hướng dẫn này, chúng ta sẽ đi sâu vào cách bạn có thể sử dụng Aspose.Slides cho Java để đặt kiểu nối cho các hình dạng trong bản trình bày PowerPoint. 
 ## Điều kiện tiên quyết
@@ -112,3 +118,9 @@ Có, bạn có thể sử dụng Aspose.Slides cho Java trong bất kỳ IDE nà
 Kiểu nối đường đề cập đến hình dạng của các góc nơi hai đường gặp nhau. Các kiểu phổ biến bao gồm Mitre, Bevel và Round.
 ### Tôi có thể tìm thêm tài liệu về Aspose.Slides cho Java ở đâu?
  Bạn có thể tìm tài liệu chi tiết[đây](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

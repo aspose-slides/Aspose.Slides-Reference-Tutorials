@@ -3,10 +3,16 @@ title: Extraktion av ljud och video
 linktitle: Extraktion av ljud och video
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Utforska den omfattande Aspose.Slides-handledningen om extrahering av ljud och video i .NET-applikationer. Lär dig hur du programmatiskt extraherar och manipulerar multimediaelement från PowerPoint-presentationer.
-type: docs
 weight: 15
 url: /sv/net/audio-and-video-extraction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Extraktion av ljud och video
+
 
 ## Introduktion:
 
@@ -31,3 +37,9 @@ Lär dig hur du extraherar ljud från hyperlänkar med Aspose.Slides för .NET. 
 Lär dig hur du extraherar ljud från PowerPoint-tidslinjer med Aspose.Slides för .NET. En steg-för-steg-guide med kodexempel.
 ### [Extrahera video från Slide](./extract-video/)
 Bemästra videoextraktion från PowerPoint-bilder med Aspose.Slides för .NET. Följ vår guide med kodexempel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

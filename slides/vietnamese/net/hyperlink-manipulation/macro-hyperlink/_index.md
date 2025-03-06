@@ -3,10 +3,16 @@ title: Cách đặt siêu liên kết Macro Nhấp vào Aspose.Slides cho .NET
 linktitle: Quản lý siêu liên kết bằng Macro
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách đặt siêu liên kết macro trong bản trình bày của bạn bằng Aspose.Slides cho .NET. Tăng cường tính tương tác và thu hút khán giả của bạn.
-type: docs
 weight: 13
 url: /vi/net/hyperlink-manipulation/macro-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cách đặt siêu liên kết Macro Nhấp vào Aspose.Slides cho .NET
+
 
 Trong thế giới phát triển phần mềm hiện đại, việc tạo ra các bài thuyết trình năng động và tương tác là một khía cạnh quan trọng. Aspose.Slides for .NET là một thư viện mạnh mẽ cho phép bạn làm việc với các bài thuyết trình một cách liền mạch. Cho dù bạn đang xây dựng một bản trình bày kinh doanh hay một bản trình chiếu giáo dục, khả năng đặt số lần nhấp vào siêu liên kết macro có thể nâng cao đáng kể trải nghiệm người dùng. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình thiết lập nhấp chuột siêu liên kết macro bằng Aspose.Slides cho .NET. 
 
@@ -106,3 +112,9 @@ Có, bạn có thể tùy chỉnh giao diện của Hình tự động bằng c�
 
 ### Tôi có thể nhận trợ giúp hoặc hỗ trợ cho Aspose.Slides cho .NET ở đâu?
  Nếu gặp sự cố hoặc có thắc mắc, bạn có thể tìm kiếm trợ giúp trên diễn đàn hỗ trợ Aspose[đây](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

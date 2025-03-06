@@ -3,10 +3,16 @@ title: Lettertype-eigenschappen instellen in Java-dia's
 linktitle: Lettertype-eigenschappen instellen in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u lettertype-eigenschappen in Java-dia's instelt met Aspose.Slides voor Java. Deze stapsgewijze handleiding bevat codevoorbeelden en veelgestelde vragen.
-type: docs
 weight: 15
 url: /nl/java/customization-and-formatting/setting-font-properties-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lettertype-eigenschappen instellen in Java-dia's
+
 
 ## Inleiding tot het instellen van lettertype-eigenschappen in Java-dia's
 
@@ -137,3 +143,9 @@ for (ISlide slide : pres.getSlides()) {
     // Open hier de lettertype-eigenschappen van tekstelementen en pas deze aan
 }
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

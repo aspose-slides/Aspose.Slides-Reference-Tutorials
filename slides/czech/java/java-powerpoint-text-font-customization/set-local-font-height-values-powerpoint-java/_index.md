@@ -3,10 +3,16 @@ title: Nastavte místní hodnoty výšky písma v PowerPointu pomocí Java
 linktitle: Nastavte místní hodnoty výšky písma v PowerPointu pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak upravit výšku písma v prezentacích PowerPoint pomocí Java s Aspose.Slides. Vylepšete formátování textu na svých snímcích bez námahy.
-type: docs
 weight: 17
 url: /cs/java/java-powerpoint-text-font-customization/set-local-font-height-values-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavte místní hodnoty výšky písma v PowerPointu pomocí Java
+
 ## Úvod
 V tomto tutoriálu se naučíte manipulovat s výškami písma na různých úrovních v rámci prezentací PowerPoint pomocí Aspose.Slides for Java. Kontrola velikosti písma je zásadní pro vytváření vizuálně přitažlivých a strukturovaných prezentací. Projdeme si příklady krok za krokem, abychom ilustrovali, jak nastavit výšky písma pro různé textové prvky.
 ## Předpoklady
@@ -65,3 +71,9 @@ Aspose.Slides for Java je výkonné API pro programovou manipulaci s prezentacem
  Pro podporu navštivte[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### Kde si mohu zakoupit licenci pro Aspose.Slides for Java?
  Můžete si zakoupit licenci[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

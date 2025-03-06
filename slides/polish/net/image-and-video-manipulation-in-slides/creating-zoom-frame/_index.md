@@ -3,10 +3,16 @@ title: Twórz dynamiczne prezentacje za pomocą ramek powiększeń Aspose.Slides
 linktitle: Tworzenie ramki powiększenia na slajdach prezentacji za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naucz się tworzyć wciągające prezentacje z ramkami powiększenia przy użyciu Aspose.Slides dla .NET. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby uzyskać wciągające wrażenia ze slajdów.
-type: docs
 weight: 17
 url: /pl/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Twórz dynamiczne prezentacje za pomocą ramek powiększeń Aspose.Slides
+
 ## Wstęp
 W dziedzinie prezentacji urzekające slajdy są kluczem do pozostawienia trwałego wrażenia. Aspose.Slides dla .NET zapewnia potężny zestaw narzędzi, a w tym przewodniku przeprowadzimy Cię przez proces włączania angażujących klatek powiększenia do slajdów prezentacji.
 ## Warunki wstępne
@@ -89,3 +95,9 @@ Tak, możesz dostosować różne aspekty, takie jak szerokość linii, kolor wyp
  Możesz nabyć licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### P: Gdzie mogę kupić pełną wersję Aspose.Slides dla .NET?
  Można kupić pełną wersję[Tutaj](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

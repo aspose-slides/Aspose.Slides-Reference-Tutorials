@@ -3,10 +3,16 @@ title: Java 投影片中的圖表實體
 linktitle: Java 投影片中的圖表實體
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 學習使用 Aspose.Slides 建立和自訂 Java Slides 圖表。使用強大的圖表實體增強您的簡報。
-type: docs
 weight: 13
 url: /zh-hant/java/data-manipulation/chart-entities-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 投影片中的圖表實體
+
 
 ## Java 投影片中的圖表實體簡介
 
@@ -301,3 +307,9 @@ finally
 ### Aspose.Slides for Java 與最新的 Java 版本相容嗎？
 
 是的，Aspose.Slides for Java 會定期更新以支援最新的 Java 版本，並提供跨各種 Java 環境的兼容性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

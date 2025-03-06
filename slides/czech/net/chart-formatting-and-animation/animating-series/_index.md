@@ -3,10 +3,16 @@ title: Animovat sérii grafů s Aspose.Slides pro .NET
 linktitle: Animace série v grafu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se animovat řady grafů pomocí Aspose.Slides pro .NET. Zaujměte své publikum dynamickými prezentacemi. Začněte hned!
-type: docs
 weight: 12
 url: /cs/net/chart-formatting-and-animation/animating-series/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Animovat sérii grafů s Aspose.Slides pro .NET
+
 
 Chcete svým prezentacím dodat šmrnc pomocí animovaných grafů? Aspose.Slides pro .NET je tu, aby vaše grafy ožily. V tomto podrobném průvodci vám ukážeme, jak animovat řady v grafu pomocí Aspose.Slides pro .NET. Než se ale vrhneme do akce, pojďme si pokrýt předpoklady.
 
@@ -109,3 +115,9 @@ Ano, můžete přizpůsobit efekty animace pro každou řadu grafů a vytvořit 
 
 ### Kde si mohu zakoupit licenci pro Aspose.Slides pro .NET?
  Licenci na Aspose.Slides for .NET můžete získat na nákupní stránce[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

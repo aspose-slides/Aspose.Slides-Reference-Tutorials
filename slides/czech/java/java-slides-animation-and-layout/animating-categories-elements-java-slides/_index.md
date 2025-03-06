@@ -3,10 +3,16 @@ title: Animace prvků kategorií v Java Slides
 linktitle: Animace prvků kategorií v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimalizujte své Java prezentace pomocí Aspose.Slides for Java. Naučte se krok za krokem animovat prvky kategorií na snímcích PowerPoint.
-type: docs
 weight: 10
 url: /cs/java/animation-and-layout/animating-categories-elements-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Animace prvků kategorií v Java Slides
+
 
 ## Úvod do animace prvků kategorií v Java Slides
 
@@ -117,3 +123,10 @@ Ano, podobné animace můžete použít na jiné typy grafů úpravou kódu tak,
 ### Jak se dozvím více o Aspose.Slides pro Java?
 
  Kompletní dokumentaci a další zdroje naleznete na adrese[Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/) . Knihovnu si také můžete stáhnout z[tady](https://releases.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

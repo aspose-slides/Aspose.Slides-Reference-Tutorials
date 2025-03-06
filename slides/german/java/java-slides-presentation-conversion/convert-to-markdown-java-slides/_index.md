@@ -3,10 +3,16 @@ title: In Java-Folien in Markdown konvertieren
 linktitle: In Java-Folien in Markdown konvertieren
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Konvertieren Sie PowerPoint-Präsentationen mit Aspose.Slides für Java in Markdown. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Ihre Folien mühelos umzuwandeln.
-type: docs
 weight: 24
 url: /de/java/presentation-conversion/convert-to-markdown-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# In Java-Folien in Markdown konvertieren
+
 
 ## Einführung: In Java in Markdown konvertieren – Folien
 
@@ -136,3 +142,9 @@ Ja, Aspose.Slides für Java ist sowohl für kleine als auch für große Konverti
 ### Wo finde ich weitere Dokumentation und Ressourcen?
 
  Sie können die Dokumentation zu Aspose.Slides für Java unter folgender Adresse einsehen:[Aspose.Slides für Java-API-Referenzen](https://reference.aspose.com/slides/java/) für detaillierte Informationen und weitere Beispiele.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

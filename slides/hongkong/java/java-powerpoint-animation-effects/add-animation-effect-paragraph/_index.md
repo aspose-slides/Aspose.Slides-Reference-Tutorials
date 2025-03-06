@@ -3,10 +3,16 @@ title: 使用 Aspose.Slides for Java 在段落中加入動畫效果
 linktitle: 使用 Aspose.Slides for Java 在段落中加入動畫效果
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 透過我們簡單的逐步指南，學習使用 Aspose.Slides for Java 將動畫效果新增至 PowerPoint 簡報中的段落。
-type: docs
 weight: 10
 url: /zh-hant/java/java-powerpoint-animation-effects/add-animation-effect-paragraph/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Slides for Java 在段落中加入動畫效果
+
 ## 介紹
 您準備好用令人驚嘆的動畫讓您的 PowerPoint 簡報脫穎而出嗎？在本教學中，我們將引導您了解如何使用 Aspose.Slides for Java 為段落新增動畫效果。無論您是經驗豐富的 Java 開發人員還是剛入門，本指南都將為您提供清晰且引人入勝的逐步流程。讓我們深入了解吧！
 ## 先決條件
@@ -81,3 +87,9 @@ Aspose.Slides 支援多種動畫，包括進入、退出、強調和運動路徑
 是的，Aspose.Slides 旨在處理在各種版本的 PowerPoint 中建立的簡報。
 ### 如果遇到問題，我可以在哪裡獲得協助？
 您可以訪問[支援論壇](https://forum.aspose.com/c/slides/11)尋求 Aspose.Slides 社區和支持團隊的幫助。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

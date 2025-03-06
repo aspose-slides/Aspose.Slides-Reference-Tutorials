@@ -3,10 +3,16 @@ title: Szövegkeret horgonyának beállítása a PowerPointban Java segítségé
 linktitle: Szövegkeret horgonyának beállítása a PowerPointban Java segítségével
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthat be szövegkeret-horgonyokat a PowerPointban Java és Aspose.Slides használatával. Javítsa prezentációit.
-type: docs
 weight: 13
 url: /hu/java/java-powerpoint-text-font-customization/set-anchor-text-frame-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szövegkeret horgonyának beállítása a PowerPointban Java segítségével
+
 ## Bevezetés
 Ebből az oktatóanyagból megtudhatja, hogyan állíthatja be a szövegkeret horgonyját PowerPoint prezentációkban Java használatával az Aspose.Slides segítségével. A szövegkeretek lehorgonyzása lehetővé teszi a szöveg alakzaton belüli helyzetének és viselkedésének pontos szabályozását, így biztosítva, hogy a diák vizuálisan tetszetős és hatékonyan strukturált legyen.
 ## Előfeltételek
@@ -71,3 +77,9 @@ Az Aspose.Slides for Java egy hatékony könyvtár, amely lehetővé teszi a Jav
  Igen, letölthet egy ingyenes próbaverziót[itt](https://releases.aspose.com/).
 ### Hol kaphatok támogatást az Aspose.Slides for Java számára?
  Látogassa meg a támogatási fórumot[itt](https://forum.aspose.com/c/slides/11) bármilyen kérdésért vagy segítségért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

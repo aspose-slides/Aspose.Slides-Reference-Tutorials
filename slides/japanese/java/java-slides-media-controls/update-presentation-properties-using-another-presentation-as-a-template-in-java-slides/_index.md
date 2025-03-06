@@ -3,10 +3,16 @@ title: Java スライドで別のプレゼンテーションをテンプレー�
 linktitle: Java スライドで別のプレゼンテーションをテンプレートとして使用してプレゼンテーションのプロパティを更新する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、更新されたメタデータで PowerPoint プレゼンテーションを強化します。Java Slides のテンプレートを使用して、作成者、タイトル、キーワードなどのプロパティを更新する方法を学習します。
-type: docs
 weight: 14
 url: /ja/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java スライドで別のプレゼンテーションをテンプレートとして使用してプレゼンテーションのプロパティを更新する
+
 
 ## Java スライドで別のプレゼンテーションをテンプレートとして使用してプレゼンテーション プロパティを更新する方法の概要
 
@@ -122,3 +128,9 @@ private static void updateByTemplate(String path, IDocumentProperties template)
 ### 更新できるプレゼンテーションの種類に制限はありますか?
 
 いいえ、PPTX、ODP、PPT など、さまざまな形式のプレゼンテーションのプロパティを更新できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

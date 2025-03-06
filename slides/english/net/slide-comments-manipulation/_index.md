@@ -3,10 +3,16 @@ title: Slide Comments Manipulation
 linktitle: Slide Comments Manipulation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Enhance your slide manipulation skills with Aspose.Slides tutorials on slide comments manipulation. Learn to add, edit, and manage comments programmatically in PowerPoint presentations using .NET.  
-type: docs
 weight: 12
 url: /net/slide-comments-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Slide Comments Manipulation
+
 
 ## Introduction
 
@@ -27,3 +33,9 @@ Learn how to enhance your presentations with interactive elements by adding pare
 Add depth and interaction to your presentations with Aspose.Slides API. Learn how to easily integrate comments into your slides using .NET. Enhance engagement and captivate your audience.
 ### [Modern Comments Management](./modern-comments/)
 Enhance collaboration and feedback processes with modern comments management using Aspose.Slides. Learn how to streamline communication in your presentations and maximize productivity.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

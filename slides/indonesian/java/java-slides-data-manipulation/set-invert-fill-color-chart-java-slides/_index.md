@@ -3,10 +3,16 @@ title: Atur Balikkan Bagan Warna Isi di Slide Java
 linktitle: Atur Balikkan Bagan Warna Isi di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur warna isian terbalik untuk bagan Java Slides menggunakan Aspose.Slides. Sempurnakan visualisasi bagan Anda dengan panduan langkah demi langkah dan kode sumber ini.
-type: docs
 weight: 22
 url: /id/java/data-manipulation/set-invert-fill-color-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Atur Balikkan Bagan Warna Isi di Slide Java
+
 
 ## Pengantar Mengatur Bagan Warna Isi Balik di Slide Java
 
@@ -153,3 +159,9 @@ Ya, Anda dapat menyesuaikan berbagai aspek tampilan bagan, termasuk label sumbu,
 ### Bisakah saya menyimpan grafik dalam format berbeda?
 
  Ya, Anda dapat menyimpan grafik dalam format berbeda menggunakan Aspose.Slides untuk Java. Dalam contoh kode yang diberikan, kami menyimpan presentasi sebagai file PPTX. Anda dapat menggunakan yang berbeda`SaveFormat` opsi untuk menyimpannya dalam format lain seperti PDF, PNG, atau SVG, tergantung kebutuhan Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ajouter une zone de texte sur une diapositive par programme avec Java
 linktitle: Ajouter une zone de texte sur une diapositive par programme avec Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment ajouter par programme une zone de texte aux diapositives PowerPoint à l'aide d'Aspose.Slides pour Java. Améliorez votre productivité avec ce guide étape par étape.
-type: docs
 weight: 24
 url: /fr/java/java-powerpoint-text-font-customization/add-text-box-slide-programmatically-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter une zone de texte sur une diapositive par programme avec Java
+
 ## Introduction
 La création et la manipulation de présentations PowerPoint par programmation peuvent rationaliser de nombreux flux de travail, de la génération de rapports à l'automatisation des présentations. Aspose.Slides pour Java fournit une API puissante qui permet aux développeurs d'effectuer ces tâches efficacement. Dans ce didacticiel, nous vous guiderons dans l'ajout d'une zone de texte à une diapositive à l'aide d'Aspose.Slides pour Java. À la fin de ce didacticiel, vous comprendrez clairement comment intégrer cette fonctionnalité dans vos applications Java.
 ## Conditions préalables
@@ -67,3 +73,9 @@ Absolument, il est conçu pour gérer efficacement des tâches complexes.
  Vous pouvez obtenir un[permis temporaire](https://purchase.aspose.com/temporary-license/) d'Aspose.
 ### Aspose.Slides prend-il en charge la conversion de présentations vers d'autres formats ?
 Oui, il prend en charge différents formats, notamment PDF et images.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

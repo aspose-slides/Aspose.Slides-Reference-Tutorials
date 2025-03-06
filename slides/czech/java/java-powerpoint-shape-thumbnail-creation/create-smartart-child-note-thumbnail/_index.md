@@ -3,10 +3,16 @@ title: Vytvořte miniaturu podřízené poznámky SmartArt
 linktitle: Vytvořte miniaturu podřízené poznámky SmartArt
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet miniatury podřízených poznámek SmartArt v Javě pomocí Aspose.Slides, které bez námahy vylepší vaše PowerPointové prezentace.
-type: docs
 weight: 15
 url: /cs/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořte miniaturu podřízené poznámky SmartArt
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak vytvořit miniatury podřízených poznámek SmartArt v Javě pomocí Aspose.Slides. Aspose.Slides je výkonné Java API, které umožňuje vývojářům pracovat s PowerPointovými prezentacemi programově, což jim umožňuje snadno vytvářet, upravovat a manipulovat se snímky.
 ## Předpoklady
@@ -70,3 +76,9 @@ Ano, Aspose.Slides je navržen tak, aby efektivně a spolehlivě zvládal úkoly
 Rozhodně! Aspose.Slides poskytuje komplexní podporu pro vytváření a manipulaci s diagramy SmartArt různé složitosti.
 ### Nabízí Aspose.Slides technickou podporu pro vývojáře?
  Ano, Aspose.Slides poskytuje specializovanou technickou podporu pro vývojáře prostřednictvím jejich[Fórum](https://forum.aspose.com/c/slides/11) a další kanály.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 將版面配置投影片新增至簡報
 linktitle: 將版面配置投影片新增至簡報
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 增強 PowerPoint 簡報。添加佈局幻燈片以獲得專業風格。
-type: docs
 weight: 11
 url: /zh-hant/net/chart-creation-and-customization/add-layout-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 將版面配置投影片新增至簡報
+
 
 在當今的數位時代，做出有影響力的演示是一項基本技能。結構良好且具有視覺吸引力的簡報可以有效地傳達您的訊息。 Aspose.Slides for .NET 是一個功能強大的工具，可協助您立即建立令人驚嘆的簡報。在本逐步指南中，我們將探討如何使用 Aspose.Slides for .NET 將版面配置投影片新增至簡報中。我們將把這個過程分解為易於遵循的步驟，確保您徹底掌握這些概念。讓我們開始吧！
 
@@ -104,3 +110,9 @@ Aspose.Slides for .NET 是一個 .NET 函式庫，讓開發人員能夠以程式
 
 ### 我可以在哪裡獲得有關 Aspose.Slides for .NET 的支援或協助？
 如果您有任何問題或需要協助，您可以造訪 Aspose.Slides for .NET 論壇：[Aspose 社群論壇](https://forum.aspose.com/)。社群非常活躍，有助於解決用戶的疑問。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

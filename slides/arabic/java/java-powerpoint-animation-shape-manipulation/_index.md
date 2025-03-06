@@ -3,10 +3,16 @@ title: جافا باور بوينت الرسوم المتحركة ومعالجة
 linktitle: جافا باور بوينت الرسوم المتحركة ومعالجة الأشكال
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحريك الأشكال ومعالجتها في PowerPoint باستخدام Aspose.Slides لـ Java. دروس شاملة للعروض التقديمية الديناميكية.
-type: docs
 weight: 25
 url: /ar/java/java-powerpoint-animation-shape-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# جافا باور بوينت الرسوم المتحركة ومعالجة الأشكال
+
 
 ## مقدمة
 
@@ -90,3 +96,9 @@ url: /ar/java/java-powerpoint-animation-shape-manipulation/
 تعرف على كيفية تضمين إطارات الفيديو في PowerPoint باستخدام Aspose.Slides لـ Java من خلال هذا البرنامج التعليمي خطوة بخطوة. تعزيز العروض التقديمية الخاصة بك بسهولة.
 ### [استخراج بيانات الملف المضمنة من كائن OLE في PowerPoint](./extract-embedded-file-data-ole-object-powerpoint/)
 تعرف على كيفية استخراج بيانات الملف المضمنة من عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java، مما يعزز إمكانات إدارة المستندات.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

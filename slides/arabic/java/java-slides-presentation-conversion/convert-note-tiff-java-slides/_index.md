@@ -3,10 +3,16 @@ title: تحويل مع ملاحظة إلى TIFF في شرائح جافا
 linktitle: تحويل مع ملاحظة إلى TIFF في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بتحويل عروض PowerPoint التقديمية مع ملاحظات المتحدث إلى تنسيق TIFF في Java بسهولة باستخدام Aspose.Slides. اتبع دليلنا خطوة بخطوة مع الكود المصدري لتحويل المستندات بسلاسة.
-type: docs
 weight: 32
 url: /ar/java/presentation-conversion/convert-note-tiff-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل مع ملاحظة إلى TIFF في شرائح جافا
+
 
 ## مقدمة للتحويل باستخدام الملاحظة إلى TIFF في شرائح Java
 
@@ -111,3 +117,9 @@ finally
 ### هل هناك أي اعتبارات ترخيص لاستخدام Aspose.Slides for Java في مشروعي؟
 
 نعم، يتطلب Aspose.Slides for Java ترخيصًا صالحًا للاستخدام التجاري. يمكنك العثور على تفاصيل الترخيص على موقع Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java Slaytlarında Özellikleri Kaydetme
 linktitle: Java Slaytlarında Özellikleri Kaydetme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile PowerPoint sunumlarınızı optimize edin. Özellikleri ayarlamayı, şifrelemeyi devre dışı bırakmayı, parola koruması eklemeyi ve zahmetsizce kaydetmeyi öğrenin.
-type: docs
 weight: 12
 url: /tr/java/saving-options/save-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarında Özellikleri Kaydetme
+
 
 ## Java Slaytlarında Özellikleri Kaydetmeye Giriş
 
@@ -170,3 +176,9 @@ Bu, uygulamanızdaki bellek sızıntılarını önlemeye yardımcı olur.
 ### Aspose.Slides for Java ve özellikleri hakkında nasıl daha fazla bilgi edinebilirim?
 
  Aspose.Slides for Java belgelerini şuradan inceleyebilirsiniz:[Burada](https://docs.aspose.com/slides/java/) Kitaplığın kullanımına ilişkin ayrıntılı bilgi, eğitimler ve örnekler için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

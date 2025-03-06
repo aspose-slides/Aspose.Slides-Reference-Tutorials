@@ -3,10 +3,16 @@ title: Zarządzaj punktorami obrazkowymi akapitów w programie Java PowerPoint
 linktitle: Zarządzaj punktorami obrazkowymi akapitów w programie Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodawać niestandardowe punktory obrazkowe do slajdów programu PowerPoint za pomocą Aspose.Slides dla Java. Postępuj zgodnie z tym szczegółowym przewodnikiem krok po kroku, aby zapewnić bezproblemową integrację.
-type: docs
 weight: 11
 url: /pl/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-picture-bullets-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzaj punktorami obrazkowymi akapitów w programie Java PowerPoint
+
 ## Wstęp
 Tworzenie angażujących i atrakcyjnych wizualnie prezentacji to kluczowa umiejętność we współczesnym świecie biznesu. Programiści Java mogą wykorzystać Aspose.Slides do ulepszenia swoich prezentacji za pomocą niestandardowych punktorów obrazkowych na slajdach programu PowerPoint. Ten samouczek przeprowadzi Cię krok po kroku przez cały proces, dzięki czemu możesz śmiało dodawać punktory obrazkowe do swoich prezentacji.
 ## Warunki wstępne
@@ -104,3 +110,9 @@ Tak, możesz użyć dowolnego obrazu w punktorach obrazkowych, o ile jest on dos
 Tak, możesz dodać wiele akapitów z różnymi stylami punktorów do jednego autokształtu, tworząc i konfigurując każdy akapit indywidualnie.
 ### Gdzie mogę znaleźć więcej przykładów i wsparcia?
  Więcej przykładów znajdziesz w[dokumentacja](https://reference.aspose.com/slides/java/) i uzyskaj wsparcie od społeczności Aspose na stronie[fora](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

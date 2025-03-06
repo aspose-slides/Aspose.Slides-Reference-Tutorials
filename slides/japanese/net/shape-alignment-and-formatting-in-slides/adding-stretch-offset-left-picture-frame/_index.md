@@ -3,10 +3,16 @@ title: Aspose.Slide を使用して PowerPoint の左にストレッチ オフ�
 linktitle: Aspose.Slides の画像フレームの左にストレッチ オフセットを追加する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して PowerPoint プレゼンテーションを強化する方法を学びます。ステップバイステップ ガイドに従って、画像フレームの左にストレッチ オフセットを追加します。
-type: docs
 weight: 14
 url: /ja/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slide を使用して PowerPoint の左にストレッチ オフセットを追加する
+
 ## 導入
 Aspose.Slides for .NET は、開発者が PowerPoint プレゼンテーションを簡単に操作できるようにする強力なライブラリです。このチュートリアルでは、Aspose.Slides for .NET を使用して、画像フレームの左側にストレッチ オフセットを追加するプロセスについて説明します。このステップ バイ ステップ ガイドに従って、PowerPoint プレゼンテーション内の画像や図形を操作するスキルを高めてください。
 ## 前提条件
@@ -85,3 +91,9 @@ A: Aspose.Slides は、最新の .NET Framework バージョンとの互換性�
  A: 探索する[Aspose.Slides ドキュメント](https://reference.aspose.com/slides/net/)包括的な例とガイダンスについては、こちらをご覧ください。
 ### Q: 1 つの図形に複数のストレッチ オフセットを適用できますか?
 A: はい、複数のストレッチ オフセットを組み合わせて、複雑でカスタマイズされた視覚効果を実現できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

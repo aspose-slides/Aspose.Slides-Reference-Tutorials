@@ -3,10 +3,16 @@ title: Java PowerPoint Animasyonu ve Şekil İşleme
 linktitle: Java PowerPoint Animasyonu ve Şekil İşleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint'te şekilleri nasıl canlandıracağınızı ve değiştireceğinizi öğrenin. Dinamik sunumlar için kapsamlı eğitimler.
-type: docs
 weight: 25
 url: /tr/java/java-powerpoint-animation-shape-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint Animasyonu ve Şekil İşleme
+
 
 ## giriiş
 
@@ -90,3 +96,9 @@ Adım adım kılavuzumuzla Aspose.Slides for Java'yı kullanarak PowerPoint'teki
 Bu adım adım eğitimle Aspose.Slides for Java kullanarak PowerPoint'e video karelerini nasıl yerleştireceğinizi öğrenin. Sunumlarınızı kolayca geliştirin.
 ### [PowerPoint'teki OLE Nesnesinden Gömülü Dosya Verilerini Çıkarma](./extract-embedded-file-data-ole-object-powerpoint/)
 Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarından gömülü dosya verilerini nasıl çıkaracağınızı öğrenin ve belge yönetimi yeteneklerini geliştirin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

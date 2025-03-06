@@ -3,10 +3,16 @@ title: Dapatkan Koordinat Paragraf Persegi Panjang di Slide Java
 linktitle: Dapatkan Koordinat Paragraf Persegi Panjang di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengambil koordinat paragraf dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Ikuti panduan langkah demi langkah kami dengan kode sumber untuk penentuan posisi yang akurat.
-type: docs
 weight: 13
 url: /id/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dapatkan Koordinat Paragraf Persegi Panjang di Slide Java
+
 
 ## Pengantar Mengambil Koordinat Persegi Panjang Paragraf di Aspose.Slide untuk Java
 
@@ -112,3 +118,9 @@ Ya, Aspose.Slides untuk Java sangat cocok untuk pemrosesan batch file PowerPoint
 ### Apakah saya memerlukan lisensi untuk menggunakan Aspose.Slides untuk Java?
 
 Ya, Anda biasanya memerlukan lisensi yang valid untuk menggunakan Aspose.Slides untuk Java di lingkungan produksi. Anda dapat memperoleh lisensi dari situs Aspose. Namun, mereka mungkin menawarkan versi uji coba untuk tujuan pengujian dan evaluasi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

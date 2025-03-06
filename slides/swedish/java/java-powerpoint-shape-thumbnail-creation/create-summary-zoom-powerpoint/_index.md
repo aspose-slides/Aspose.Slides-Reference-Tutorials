@@ -3,10 +3,16 @@ title: Skapa sammanfattning Zooma i PowerPoint
 linktitle: Skapa sammanfattning Zooma i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du skapar en sammanfattningszoom i PowerPoint med Aspose.Slides för Java med denna omfattande steg-för-steg-handledning.
-type: docs
 weight: 16
 url: /sv/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa sammanfattning Zooma i PowerPoint
+
 ## Introduktion
 Välkommen till vår omfattande handledning om hur du skapar en sammanfattningszoom i PowerPoint med Aspose.Slides för Java. Om du vill lägga till ett dynamiskt och interaktivt element i dina presentationer är sammanfattningszoom en fantastisk funktion. Det låter dig skapa en enda bild som kan zooma in i olika delar av din presentation, vilket ger en mer engagerande och navigerbar upplevelse för din publik.
 I den här steg-för-steg-guiden går vi igenom hela processen, från att ställa in din utvecklingsmiljö till att skapa och anpassa en sammanfattningszoomram. Oavsett om du är en erfaren Java-utvecklare eller precis har börjat, kommer du att tycka att den här guiden är lätt att följa och packad med värdefulla insikter.
@@ -107,3 +113,9 @@ Ja, du kan ladda ner en gratis testversion av Aspose.Slides för Java från[hems
  Du kan få en tillfällig licens från[Aspose köpsida](https://purchase.aspose.com/temporary-license/).
 ### Var kan jag hitta fler exempel och stöd för Aspose.Slides för Java?
  Du kan hitta fler exempel och söka stöd på[Aspose.Slides supportforum](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

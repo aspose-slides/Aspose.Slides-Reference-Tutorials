@@ -3,10 +3,16 @@ title: Εκκαθάριση συγκεκριμένων σημείων δεδομ
 linktitle: Εκκαθάριση συγκεκριμένων σημείων δεδομένων σειράς γραφήματος
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς μπορείτε να διαγράψετε συγκεκριμένα σημεία δεδομένων σειρών γραφημάτων σε παρουσιάσεις PowerPoint με το Aspose.Slides για .NET. Οδηγός βήμα προς βήμα.
-type: docs
 weight: 13
 url: /el/net/additional-chart-features/clear-specific-chart-series-data-points-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εκκαθάριση συγκεκριμένων σημείων δεδομένων σειράς γραφήματος με το Aspose.Slides .NET
+
 
 Το Aspose.Slides for .NET είναι μια ισχυρή βιβλιοθήκη που σας επιτρέπει να εργάζεστε με παρουσιάσεις PowerPoint μέσω προγραμματισμού. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία εκκαθάρισης συγκεκριμένων σημείων δεδομένων σειρών γραφημάτων σε μια παρουσίαση PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Μέχρι το τέλος αυτού του σεμιναρίου, θα μπορείτε να χειρίζεστε τα σημεία δεδομένων γραφήματος με ευκολία.
 
@@ -95,3 +101,9 @@ pres.Save(dataDir + "ClearSpecificChartSeriesDataPointsData.pptx", SaveFormat.Pp
 
 ### Υπάρχει κοινότητα ή κοινότητα προγραμματιστών για το Aspose.Slides για .NET;
 Ναι, μπορείτε να εγγραφείτε στην κοινότητα Aspose στο φόρουμ της για συζητήσεις, ερωτήσεις και να μοιραστείτε τις εμπειρίες σας.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

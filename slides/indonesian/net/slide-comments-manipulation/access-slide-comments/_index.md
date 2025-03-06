@@ -3,10 +3,16 @@ title: Akses Komentar Slide menggunakan Aspose.Slides
 linktitle: Akses Komentar Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengakses komentar slide dalam presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Tingkatkan kolaborasi dan alur kerja dengan mudah.
-type: docs
 weight: 11
 url: /id/net/slide-comments-manipulation/access-slide-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Akses Komentar Slide menggunakan Aspose.Slides
+
 
 Dalam dunia presentasi yang dinamis dan interaktif, mengelola komentar dalam slide Anda dapat menjadi bagian penting dari proses kolaborasi. Aspose.Slides untuk .NET memberikan solusi yang kuat dan serbaguna untuk mengakses dan memanipulasi komentar slide, sehingga meningkatkan alur kerja presentasi Anda. Dalam panduan langkah demi langkah ini, kita akan mempelajari proses mengakses komentar slide menggunakan Aspose.Slides untuk .NET.
 
@@ -112,3 +118,9 @@ Ya, Aspose.Slides untuk .NET dapat digunakan di berbagai aplikasi .NET, termasuk
 
 ### Bisakah saya membeli lisensi Aspose.Slides untuk .NET?
  Ya, Anda dapat membeli lisensi Aspose.Slides untuk .NET dari[Link ini](https://purchase.aspose.com/buy) untuk membuka potensi penuh perpustakaan di proyek Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

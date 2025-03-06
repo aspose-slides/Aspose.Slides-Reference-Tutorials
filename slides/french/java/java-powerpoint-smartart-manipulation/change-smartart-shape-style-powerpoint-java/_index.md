@@ -3,10 +3,16 @@ title: Modifier le style de forme SmartArt dans PowerPoint avec Java
 linktitle: Modifier le style de forme SmartArt dans PowerPoint avec Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment modifier les styles SmartArt dans les présentations PowerPoint à l'aide de Java avec Aspose.Slides pour Java. Boostez vos présentations.
-type: docs
 weight: 23
 url: /fr/java/java-powerpoint-smartart-manipulation/change-smartart-shape-style-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifier le style de forme SmartArt dans PowerPoint avec Java
+
 ## Introduction
 Dans le monde du développement Java, créer des présentations puissantes est souvent une exigence. Qu'il s'agisse d'argumentaires commerciaux, d'objectifs éducatifs ou simplement de partage d'informations, les présentations PowerPoint sont un support courant. Cependant, il arrive parfois que les styles et formats par défaut fournis par PowerPoint ne répondent pas pleinement à nos besoins. C'est là qu'Aspose.Slides pour Java entre en jeu.
 Aspose.Slides for Java est une bibliothèque robuste qui permet aux développeurs Java de travailler avec des présentations PowerPoint par programme. Il offre un large éventail de fonctionnalités, notamment la possibilité de manipuler des formes, des styles, des animations et bien plus encore. Dans ce didacticiel, nous nous concentrerons sur une tâche spécifique : modifier le style de forme SmartArt dans les présentations PowerPoint à l'aide de Java.
@@ -69,3 +75,9 @@ Oui, Aspose.Slides pour Java peut être intégré de manière transparente à d�
  Oui, vous pouvez acheter une licence temporaire pour Aspose.Slides pour Java auprès de[ici](https://purchase.aspose.com/temporary-license/).
 ### Où puis-je trouver une documentation détaillée pour Aspose.Slides pour Java ?
  Vous pouvez trouver une documentation détaillée pour Aspose.Slides pour Java[ici](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: إتقان أهداف الرسوم المتحركة باستخدام Aspo
 linktitle: تحديد أهداف الرسوم المتحركة لأشكال شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إضفاء الحيوية على عروضك التقديمية باستخدام Aspose.Slides لـ .NET! قم بتعيين أهداف الرسوم المتحركة دون عناء واجذب انتباه جمهورك.
-type: docs
 weight: 22
 url: /ar/net/shape-effects-and-manipulation-in-slides/setting-animation-targets-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إتقان أهداف الرسوم المتحركة باستخدام Aspose.Slides لـ .NET
+
 ## مقدمة
 في عالم العروض التقديمية الديناميكي، يمكن أن تؤدي إضافة الرسوم المتحركة إلى شرائحك إلى تغيير قواعد اللعبة. يعمل Aspose.Slides for .NET على تمكين المطورين من إنشاء عروض تقديمية جذابة وجذابة من خلال السماح بالتحكم الدقيق في أهداف الرسوم المتحركة لأشكال الشرائح. في هذا الدليل المفصّل خطوة بخطوة، سنرشدك خلال عملية تحديد أهداف الرسوم المتحركة باستخدام Aspose.Slides for .NET. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيساعدك هذا البرنامج التعليمي على الاستفادة من قوة الرسوم المتحركة في عروضك التقديمية.
 ## المتطلبات الأساسية
@@ -62,3 +68,9 @@ foreach (ISlide slide in pres.Slides)
 نعم، يوفر Aspose.Slides خيارات لتخصيص مدة وتوقيت كل رسم متحرك.
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق الخاصة بـ Aspose.Slides؟
  اكتشف ال[Aspose.Slides لوثائق .NET](https://reference.aspose.com/slides/net/) للحصول على معلومات وأمثلة مفصلة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

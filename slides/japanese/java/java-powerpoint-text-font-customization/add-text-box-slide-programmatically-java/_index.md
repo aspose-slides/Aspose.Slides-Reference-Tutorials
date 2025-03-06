@@ -3,10 +3,16 @@ title: Java を使用してプログラム的にスライドにテキスト ボ�
 linktitle: Java を使用してプログラム的にスライドにテキスト ボックスを追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、プログラムによって PowerPoint スライドにテキスト ボックスを追加する方法を学びます。このステップ バイ ステップ ガイドで生産性を向上させましょう。
-type: docs
 weight: 24
 url: /ja/java/java-powerpoint-text-font-customization/add-text-box-slide-programmatically-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用してプログラム的にスライドにテキスト ボックスを追加する
+
 ## 導入
 PowerPoint プレゼンテーションをプログラムで作成および操作すると、レポートの生成からプレゼンテーションの自動化まで、多くのワークフローを効率化できます。Aspose.Slides for Java は、開発者がこれらのタスクを効率的に実行できるようにする強力な API を提供します。このチュートリアルでは、Aspose.Slides for Java を使用してスライドにテキスト ボックスを追加する方法について説明します。このチュートリアルを終了すると、この機能を Java アプリケーションに統合する方法を明確に理解できるようになります。
 ## 前提条件
@@ -67,3 +73,9 @@ pres.save(dataDir + "TextBox_out.pptx", SaveFormat.Pptx);
 あなたは[一時ライセンス](https://purchase.aspose.com/temporary-license/)Aspose より。
 ### Aspose.Slides はプレゼンテーションを他の形式に変換することをサポートしていますか?
 はい、PDF や画像などさまざまな形式をサポートしています。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

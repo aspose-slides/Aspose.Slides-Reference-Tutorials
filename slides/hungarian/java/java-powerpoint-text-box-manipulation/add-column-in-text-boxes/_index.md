@@ -3,10 +3,16 @@ title: Adjon hozzá oszlopot a szövegdobozokhoz az Aspose.Slides for Java segí
 linktitle: Adjon hozzá oszlopot a szövegdobozokhoz az Aspose.Slides for Java segítségével
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat oszlopokat a PowerPoint szövegmezőihez az Aspose.Slides for Java segítségével. Fejlessze prezentációit ezzel a lépésenkénti útmutatóval.
-type: docs
 weight: 10
 url: /hu/java/java-powerpoint-text-box-manipulation/add-column-in-text-boxes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adjon hozzá oszlopot a szövegdobozokhoz az Aspose.Slides for Java segítségével
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet javítani a szövegdobozokat oszlopok hozzáadásával az Aspose.Slides for Java segítségével. Az Aspose.Slides egy hatékony Java-könyvtár, amely lehetővé teszi a fejlesztők számára PowerPoint-prezentációk programozott létrehozását, kezelését és konvertálását anélkül, hogy Microsoft Office-ra lenne szükség. Oszlopok hozzáadása a szövegmezőkhöz nagymértékben javíthatja a diákon belüli tartalom olvashatóságát és rendszerezését, így a prezentációk vonzóbbá és professzionálisabbá válhatnak.
 ## Előfeltételek
@@ -82,3 +88,9 @@ Igen, az Aspose.Slides támogatja a Java 11 és újabb verzióit.
 Nem, az Aspose.Slides alkalmazáshoz nem szükséges a Microsoft Office telepítése a gépen.
 ### Hol találok további dokumentációt az Aspose.Slides for Java-ról?
  A részletes dokumentáció elérhető[itt](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

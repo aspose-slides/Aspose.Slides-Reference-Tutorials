@@ -3,10 +3,16 @@ title: 使用 Aspose.Slides for .NET 掌握形状对齐
 linktitle: 使用 Aspose.Slides 对齐演示幻灯片中的形状
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 学习使用 Aspose.Slides for .NET 轻松对齐演示文稿幻灯片中的形状。通过精确对齐增强视觉吸引力。立即下载！
-type: docs
 weight: 10
 url: /zh/net/shape-alignment-and-formatting-in-slides/aligning-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Slides for .NET 掌握形状对齐
+
 ## 介绍
 创建具有视觉吸引力的演示幻灯片通常需要精确对齐形状。Aspose.Slides for .NET 提供了一个强大的解决方案，可以轻松实现这一点。在本教程中，我们将探索如何使用 Aspose.Slides for .NET 对齐演示幻灯片中的形状。
 ## 先决条件
@@ -82,3 +88,9 @@ Aspose.Slides 提供各种对齐选项，包括 AlignTop、AlignRight、AlignBot
 Aspose.Slides for .NET 主要为 Windows 应用程序设计，但 Aspose 也为 Java 和其他平台提供了库。
 ### 我如何获得进一步的帮助或支持？
 访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)获得社区支持和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

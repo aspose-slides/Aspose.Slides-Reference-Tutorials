@@ -3,10 +3,16 @@ title: Aspose.Slides - 在 .NET 簡報中新增嵌入視頻
 linktitle: Aspose.Slides - 在 .NET 簡報中新增嵌入視頻
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 透過嵌入影片來增強您的簡報。請按照我們的逐步指南進行無縫整合。
-type: docs
 weight: 19
 url: /zh-hant/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides - 在 .NET 簡報中新增嵌入視頻
+
 ## 介紹
 在動態的演示世界中，整合多媒體元素可以顯著提高參與度。 Aspose.Slides for .NET 提供了一個強大的解決方案，可將嵌入式視訊幀合併到簡報幻燈片中。本教程將引導您完成整個過程，分解每個步驟以確保無縫體驗。
 ## 先決條件
@@ -75,3 +81,9 @@ Aspose.Slides 支援多種視訊格式，包括 MP4、AVI 和 WMV。
 嵌入影片的數量通常受到簡報軟體容量的限制。
 ### 我如何尋求進一步的幫助或分享我的經驗？
 參觀[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11)以獲得社區支持和討論。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

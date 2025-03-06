@@ -3,10 +3,16 @@ title: PowerPoint에서 단색으로 도형 채우기
 linktitle: PowerPoint에서 단색으로 도형 채우기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint에서 단색으로 도형을 채우는 방법을 알아보세요. 개발자를 위한 단계별 가이드입니다.
-type: docs
 weight: 13
 url: /ko/java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint에서 단색으로 도형 채우기
+
 ## 소개
 PowerPoint 프레젠테이션을 사용해 본 적이 있다면 도형을 추가하고 색상을 사용자 지정하는 것이 슬라이드를 시각적으로 매력적이고 유익하게 만드는 데 중요한 요소라는 것을 알고 계실 것입니다. Aspose.Slides for Java를 사용하면 이 프로세스가 매우 쉬워집니다. PowerPoint 프레젠테이션 작성을 자동화하려는 개발자이거나 슬라이드에 색상을 추가하는 데 관심이 있는 사람이라면 이 튜토리얼은 Java용 Aspose.Slides를 사용하여 도형을 단색으로 채우는 과정을 안내합니다.
 ## 전제 조건
@@ -85,3 +91,9 @@ Aspose.Slides for Java는 Java로 된 PowerPoint 프레젠테이션 작업을 �
  예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[Aspose 웹사이트](https://releases.aspose.com/).
 ### 추가 문서와 지원은 어디서 찾을 수 있나요?
  자세한 문서는 다음에서 확인할 수 있습니다.[Aspose 웹사이트](https://reference.aspose.com/slides/java/) 다음에서 지원을 요청할 수 있습니다.[포럼을 Aspose](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Создать миниатюру коэффициента масштаб
 linktitle: Создать миниатюру коэффициента масштабирования
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как создавать миниатюры коэффициента масштабирования в Java с помощью Aspose.Slides для Java. Простое и понятное руководство с пошаговыми инструкциями.
-type: docs
 weight: 12
 url: /ru/java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создать миниатюру коэффициента масштабирования
+
 ## Введение
 В этом уроке мы покажем вам процесс создания миниатюры коэффициента масштабирования с помощью Aspose.Slides для Java. Следуйте этим пошаговым инструкциям, чтобы достичь желаемого результата.
 ## Предварительные условия
@@ -66,3 +72,9 @@ ImageIO.write(bitmap, ".png", new File(dataDir + "Scaling Factor Thumbnail_out.p
  Вы можете приобрести Aspose.Slides для Java на сайте[страница покупки](https://purchase.aspose.com/buy).
 ### Нужна ли мне временная лицензия для использования Aspose.Slides для Java?
  Да, вы можете получить временную лицензию в[страница временной лицензии](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

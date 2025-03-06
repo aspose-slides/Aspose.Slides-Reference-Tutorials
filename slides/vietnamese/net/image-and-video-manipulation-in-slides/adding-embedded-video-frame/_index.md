@@ -3,10 +3,16 @@ title: Aspose.Slides - Thêm video nhúng vào bản trình bày .NET
 linktitle: Aspose.Slides - Thêm video nhúng vào bản trình bày .NET
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Nâng cao bản trình bày của bạn bằng các video được nhúng bằng Aspose.Slides for .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để tích hợp liền mạch.
-type: docs
 weight: 19
 url: /vi/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides - Thêm video nhúng vào bản trình bày .NET
+
 ## Giới thiệu
 Trong thế giới năng động của các bài thuyết trình, việc tích hợp các yếu tố đa phương tiện có thể nâng cao đáng kể mức độ tương tác. Aspose.Slides for .NET cung cấp một giải pháp mạnh mẽ để kết hợp các khung video được nhúng vào các trang trình bày của bạn. Hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình, chia nhỏ từng bước để đảm bảo trải nghiệm liền mạch.
 ## Điều kiện tiên quyết
@@ -75,3 +81,9 @@ Aspose.Slides hỗ trợ nhiều định dạng video, bao gồm MP4, AVI và WM
 Số lượng video nhúng thường bị giới hạn bởi dung lượng của phần mềm trình chiếu của bạn.
 ### Tôi có thể tìm kiếm sự hỗ trợ thêm hoặc chia sẻ kinh nghiệm của mình bằng cách nào?
  Tham quan[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được cộng đồng hỗ trợ và thảo luận.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

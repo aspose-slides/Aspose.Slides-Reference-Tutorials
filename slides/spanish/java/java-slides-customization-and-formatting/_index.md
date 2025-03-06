@@ -3,10 +3,16 @@ title: Personalización y formato de diapositivas Java
 linktitle: Personalización y formato de diapositivas Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Descubra el poder de Aspose.Slides para Java para personalizar y formatear diapositivas Java. Aprende paso a paso en nuestros tutoriales. Eleva tus habilidades de presentación.
-type: docs
 weight: 12
 url: /es/java/customization-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Personalización y formato de diapositivas Java
+
 
  En este artículo, profundizaremos en el mundo de la personalización y el formato de diapositivas Java utilizando Aspose.Slides para Java. Ya sea que sea un desarrollador experimentado o esté comenzando con las presentaciones de Java, nuestra lista de tutoriales será su guía para aprovechar todo el potencial de Aspose.Slides.|
 
@@ -49,3 +55,9 @@ Aprenda a configurar propiedades de fuente en diapositivas Java usando Aspose.Sl
 Mejore sus gráficos con Aspose.Slides para Java. Aprenda a configurar el eje de posición en diapositivas Java, crear presentaciones impresionantes y personalizar diseños de gráficos con facilidad.
 ### [Configuración del ángulo de rotación en diapositivas de Java](./setting-rotation-angle-java-slides/)
 Optimice sus diapositivas Java con Aspose.Slides para Java. Aprenda a configurar ángulos de rotación para elementos de texto. Guía paso a paso con código fuente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

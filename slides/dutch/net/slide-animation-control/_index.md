@@ -3,10 +3,16 @@ title: Dia-animatiebesturing
 linktitle: Dia-animatiebesturing
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Verbeter uw presentaties met dynamische animaties met Aspose.Slides voor .NET. Leer stap voor stap hoe u dia-animaties bedient in deze uitgebreide tutorial.
-type: docs
 weight: 18
 url: /nl/net/slide-animation-control/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dia-animatiebesturing
+
 
 ## Invoering:
 
@@ -36,3 +42,9 @@ Leer hoe u animatietypen in PowerPoint-dia's kunt beheren met Aspose.Slides voor
 Leer hoe u animaties op een dia kunt herhalen met Aspose.Slides voor .NET. Deze stapsgewijze handleiding biedt broncode en duidelijke instructies voor het programmatisch toevoegen van boeiende animaties aan PowerPoint-presentaties.
 ### [Animatie terugspoelen op dia](./rewind-animation-on-slide/)
 Leer hoe u animaties op PowerPoint-dia's kunt terugspoelen met Aspose.Slides voor .NET. Volg deze stapsgewijze handleiding met volledige broncodevoorbeelden om uw presentaties dynamisch te verbeteren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

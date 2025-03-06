@@ -3,10 +3,16 @@ title: Обозначение размера шрифта в слайдах Java
 linktitle: Обозначение размера шрифта в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Улучшите презентации PowerPoint с помощью Aspose.Slides для Java. Узнайте, как настроить размер шрифта легенды и многое другое, в нашем пошаговом руководстве.
-type: docs
 weight: 13
 url: /ru/java/chart-elements/font-size-legend-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Обозначение размера шрифта в слайдах Java
+
 
 ## Введение в легенду размера шрифта в слайдах Java
 
@@ -135,3 +141,9 @@ chart.getAxes().getVerticalAxis().setMaxValue(10);
 ### Где я могу найти дополнительную информацию и документацию для Aspose.Slides?
 
  Вы можете найти подробную документацию и ссылки на API для Aspose.Slides для Java на веб-сайте документации Aspose. Посещать[здесь](https://reference.aspose.com/slides/java/) для получения подробной информации об использовании библиотеки.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

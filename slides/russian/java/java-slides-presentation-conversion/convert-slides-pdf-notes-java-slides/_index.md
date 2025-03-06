@@ -3,10 +3,16 @@ title: Преобразование слайдов в PDF с примечани�
 linktitle: Преобразование слайдов в PDF с примечаниями в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как конвертировать слайды PowerPoint в PDF с заметками на Java с помощью Aspose.Slides для Java. Пошаговое руководство для разработчиков Java. Расширьте возможности совместного использования презентаций.
-type: docs
 weight: 19
 url: /ru/java/presentation-conversion/convert-slides-pdf-notes-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Преобразование слайдов в PDF с примечаниями в слайдах Java
+
 
 ## Введение в преобразование слайдов в PDF с заметками на Java
 
@@ -124,3 +130,9 @@ finally
 ### Где я могу найти дополнительную документацию по Aspose.Slides для Java?
 
  Подробную документацию по Aspose.Slides для Java вы можете найти на сайте:[Справочник по API Aspose.Slides для Java](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

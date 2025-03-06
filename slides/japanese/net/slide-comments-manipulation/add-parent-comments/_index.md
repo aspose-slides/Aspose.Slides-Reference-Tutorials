@@ -3,10 +3,16 @@ title: Aspose.Slides を使用してスライドに親コメントを追加す�
 linktitle: スライドに保護者のコメントを追加する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションにインタラクティブなコメントや返信を追加する方法を学びます。エンゲージメントとコラボレーションを強化します。
-type: docs
 weight: 12
 url: /ja/net/slide-comments-manipulation/add-parent-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides を使用してスライドに親コメントを追加する
+
 
 インタラクティブな機能で PowerPoint プレゼンテーションを強化したいとお考えですか? Aspose.Slides for .NET を使用すると、コメントや返信を組み込むことができ、視聴者にとってダイナミックで魅力的なエクスペリエンスを作成できます。このステップ バイ ステップのチュートリアルでは、Aspose.Slides for .NET を使用してスライドに親コメントを追加する方法を説明します。このエキサイティングな機能を詳しく見ていきましょう。
 
@@ -160,3 +166,9 @@ Aspose.Slides for .NET は、さまざまなバージョンの PowerPoint で動
 
 ### Aspose.Slides for .NET には利用できるライセンス オプションはありますか?
 はい、Aspose の Web サイトで、一時ライセンスを含むライセンス オプションを調べることができます。[ここ](https://purchase.aspose.com/buy)または無料トライアルをお試しください[ここ](https://releases.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

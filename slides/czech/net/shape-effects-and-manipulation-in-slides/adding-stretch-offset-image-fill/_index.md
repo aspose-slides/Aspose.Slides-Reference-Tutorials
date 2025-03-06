@@ -3,10 +3,16 @@ title: Přidání odsazení roztažení pro výplň obrázku v prezentacích Pow
 linktitle: Přidání odsazení roztažení pro snímky výplně obrázků
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak vylepšit prezentace PowerPoint pomocí Aspose.Slides pro .NET. Postupujte podle podrobného průvodce a přidejte odsazení roztažení pro výplň obrazu.
-type: docs
 weight: 18
 url: /cs/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidání odsazení roztažení pro výplň obrázku v prezentacích PowerPoint
+
 ## Úvod
 V dynamickém světě prezentací hrají vizuální prvky klíčovou roli při upoutání pozornosti publika. Aspose.Slides for .NET umožňuje vývojářům vylepšit jejich prezentace v PowerPointu poskytnutím robustní sady funkcí. Jednou z takových funkcí je možnost přidat odsazení roztažení pro výplň obrazu, což umožňuje kreativní a vizuálně přitažlivé snímky.
 ## Předpoklady
@@ -71,3 +77,9 @@ Ano, Aspose.Slides for .NET je vhodný pro desktopové i webové aplikace.
  Odkazovat na[dokumentace](https://reference.aspose.com/slides/net/) pro podrobné informace.
 ### Mohu si zakoupit Aspose.Slides pro .NET?
  Ano, produkt si můžete koupit[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

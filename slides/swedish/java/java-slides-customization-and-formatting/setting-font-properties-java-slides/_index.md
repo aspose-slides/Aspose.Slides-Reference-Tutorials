@@ -3,10 +3,16 @@ title: Ställa in teckensnittsegenskaper i Java Slides
 linktitle: Ställa in teckensnittsegenskaper i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ställer in teckensnittsegenskaper i Java-bilder med Aspose.Slides för Java. Den här steg-för-steg-guiden innehåller kodexempel och vanliga frågor och svar.
-type: docs
 weight: 15
 url: /sv/java/customization-and-formatting/setting-font-properties-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställa in teckensnittsegenskaper i Java Slides
+
 
 ## Introduktion till att ställa in teckensnittsegenskaper i Java Slides
 
@@ -137,3 +143,9 @@ for (ISlide slide : pres.getSlides()) {
     // Få tillgång till och anpassa textelements teckensnittsegenskaper här
 }
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

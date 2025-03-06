@@ -3,10 +3,16 @@ title: Voeg aangepaste documenteigenschappen toe in Java-dia's
 linktitle: Voeg aangepaste documenteigenschappen toe in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-presentaties kunt verbeteren met aangepaste documenteigenschappen in Java Slides. Stapsgewijze handleiding met codevoorbeelden met Aspose.Slides voor Java.
-type: docs
 weight: 13
 url: /nl/java/presentation-properties/add-custom-document-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg aangepaste documenteigenschappen toe in Java-dia's
+
 
 ## Inleiding tot het toevoegen van aangepaste documenteigenschappen in Java-dia's
 
@@ -137,3 +143,9 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 Deze code geeft de namen en waarden van alle aangepaste eigenschappen in de presentatie weer.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

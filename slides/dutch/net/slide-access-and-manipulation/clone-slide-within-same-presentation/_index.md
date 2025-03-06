@@ -3,10 +3,16 @@ title: Kloon dia binnen dezelfde presentatie
 linktitle: Kloon dia binnen dezelfde presentatie
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u dia's binnen dezelfde PowerPoint-presentatie kunt klonen met Aspose.Slides voor .NET. Volg deze stapsgewijze handleiding met volledige broncodevoorbeelden om uw presentaties efficiënt te manipuleren.
-type: docs
 weight: 21
 url: /nl/net/slide-access-and-manipulation/clone-slide-within-same-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kloon dia binnen dezelfde presentatie
+
 
 ## Inleiding tot Aspose.Slides voor .NET
 
@@ -105,3 +111,9 @@ Ja, u kunt dia's tussen verschillende presentaties klonen met behulp van vergeli
 ### Waar kan ik meer informatie vinden over Aspose.Slides voor .NET?
 
  Voor meer gedetailleerde documentatie en voorbeelden kunt u terecht op de website[Aspose.Slides voor .NET-documentatie](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

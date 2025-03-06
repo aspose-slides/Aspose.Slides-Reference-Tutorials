@@ -3,10 +3,16 @@ title: Java Slaytlarındaki Özellikleri Değiştirmeye Erişim
 linktitle: Java Slaytlarındaki Özellikleri Değiştirmeye Erişim
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java Slides'taki özelliklere nasıl erişeceğinizi ve bunları nasıl değiştireceğinizi öğrenin. Sunumlarınızı özel özelliklerle geliştirin.
-type: docs
 weight: 11
 url: /tr/java/presentation-properties/access-modifying-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarındaki Özellikleri Değiştirmeye Erişim
+
 
 ## Java Slaytlarında Erişim Değiştirme Özelliklerine Giriş
 
@@ -117,3 +123,9 @@ Hataları Java'nın istisna işleme mekanizmalarını kullanarak halledebilirsin
 ### Daha fazla belge ve örneği nerede bulabilirim?
 
  Aspose.Slides for Java'ya yönelik kapsamlı belgeleri ve kod örneklerini şu adreste bulabilirsiniz:[Burada](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

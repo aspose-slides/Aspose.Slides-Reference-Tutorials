@@ -3,10 +3,16 @@ title: Creazione di forme rettangolari con Aspose.Slides per .NET
 linktitle: Creazione di una forma rettangolare semplice nelle diapositive di presentazione utilizzando Aspose.Slides
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Esplora il mondo delle presentazioni PowerPoint dinamiche con Aspose.Slides per .NET. Scopri come creare forme rettangolari accattivanti nelle diapositive con questa guida passo passo.
-type: docs
 weight: 12
 url: /it/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Creazione di forme rettangolari con Aspose.Slides per .NET
+
 ## introduzione
 Se stai cercando di migliorare le tue applicazioni .NET con presentazioni PowerPoint dinamiche e visivamente accattivanti, Aspose.Slides per .NET è la soluzione giusta. In questo tutorial, ti guideremo attraverso il processo di creazione di una semplice forma rettangolare nelle diapositive di presentazione utilizzando Aspose.Slides per .NET.
 ## Prerequisiti
@@ -61,3 +67,9 @@ Sì, Aspose.Slides per .NET è indipendente dalla piattaforma e può essere util
  Sì, puoi acquistare una licenza temporanea[Qui](https://purchase.aspose.com/temporary-license/).
 ### Dove posso trovare la documentazione per Aspose.Slides per .NET?
  Fare riferimento alla documentazione[Qui](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

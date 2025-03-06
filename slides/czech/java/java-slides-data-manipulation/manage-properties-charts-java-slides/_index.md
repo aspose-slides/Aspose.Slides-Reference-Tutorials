@@ -3,10 +3,16 @@ title: Správa grafů vlastností v aplikaci Java Slides
 linktitle: Správa grafů vlastností v aplikaci Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet úžasné grafy a spravovat vlastnosti na snímcích Java pomocí Aspose.Slides. Podrobný průvodce se zdrojovým kódem pro výkonné prezentace.
-type: docs
 weight: 13
 url: /cs/java/data-manipulation/manage-properties-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Správa grafů vlastností v aplikaci Java Slides
+
 
 ## Úvod do správy vlastností a grafů v Java Slides pomocí Aspose.Slides
 
@@ -198,3 +204,9 @@ Ano, barvy grafu můžete přizpůsobit nastavením vlastností výplně datový
 ### Jaké další 3D vlastnosti mohu přizpůsobit?
 
 Další 3D vlastnosti grafu, jako je hloubka, perspektiva a osvětlení, můžete prozkoumat pomocí dokumentace Aspose.Slides.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

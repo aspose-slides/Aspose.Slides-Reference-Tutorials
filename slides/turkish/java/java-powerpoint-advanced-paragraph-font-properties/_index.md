@@ -3,10 +3,16 @@ title: Java PowerPoint Gelişmiş Paragraf ve Yazı Tipi Özellikleri
 linktitle: Java PowerPoint Gelişmiş Paragraf ve Yazı Tipi Özellikleri
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides'ı kullanarak Java PowerPoint'te gelişmiş paragraf ve yazı tipi özelliklerinde uzmanlaşın. Yazı tiplerini özelleştirmeyi, resim madde işaretleri eklemeyi ve yedek yazı tiplerini kullanmayı öğrenin.
-type: docs
 weight: 28
 url: /tr/java/java-powerpoint-advanced-paragraph-font-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint Gelişmiş Paragraf ve Yazı Tipi Özellikleri
+
 ## giriiş
 
 Gösterişli PowerPoint sunumları oluşturmak, paragraf biçimlendirmesinden yazı tipi yönetimine kadar çeşitli öğelerde ince ayar yapılmasını gerektirir. Aspose.Slides for Java, bu gelişmiş özellikleri etkili bir şekilde yönetmek için güçlü araçlar sağlar. Bu makalede paragraf yazı tipi özelliklerini özelleştirmenize, resim madde işaretleri eklemenize ve yedek yazı tiplerini kullanmanıza yardımcı olacak eğitimleri inceleyeceğiz. Sunumlarınızın öne çıkmasını sağlamak için bu gelişmiş teknikleri derinlemesine inceleyelim!
@@ -35,3 +41,9 @@ Aspose.Slides for Java'yı kullanarak PowerPoint slaytlarına nasıl özel resim
 Bu ayrıntılı, adım adım eğitimle Aspose.Slides for Java kullanarak PowerPoint'te porsiyon dikdörtgenini nasıl alacağınızı öğrenin. Java geliştiricileri için mükemmel.
 ### [Java PowerPoint'te Fallback Font ile İşleme](./render-with-fallback-font-java-powerpoint/)
 Aspose.Slides'ı kullanarak Java PowerPoint sunumlarında yedek yazı tipleriyle metni nasıl oluşturacağınızı öğrenin. Sorunsuz bir uygulama için bu adım adım kılavuzu izleyin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Převeďte obrazový objekt SVG na skupinu tvarů v Java Slides
 linktitle: Převeďte obrazový objekt SVG na skupinu tvarů v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se převádět obrázky SVG do skupiny tvarů v aplikaci Java Slides pomocí Aspose.Slides for Java. Podrobný průvodce s příklady kódu.
-type: docs
 weight: 13
 url: /cs/java/image-handling/convert-svg-image-object-into-group-of-shapes-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převeďte obrazový objekt SVG na skupinu tvarů v Java Slides
+
 
 ## Úvod do převodu obrazového objektu SVG na skupinu tvarů v Java Slides
 
@@ -129,3 +135,9 @@ Ano, Aspose.Slides vyžaduje platnou licenci pro komerční použití. Licenci m
 ### Mohu upravit vzhled převedených tvarů?
 
 Rozhodně! Vzhled, velikost a umístění převedených tvarů si můžete přizpůsobit podle svých požadavků. Aspose.Slides poskytuje rozsáhlé API pro manipulaci s tvary.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

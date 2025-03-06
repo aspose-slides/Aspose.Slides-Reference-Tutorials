@@ -3,10 +3,16 @@ title: ฝังแบบอักษรใน HTML โดยใช้ Aspose.Sl
 linktitle: ฝังแบบอักษรใน HTML โดยใช้ Aspose.Slides สำหรับ Java
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีฝังแบบอักษรใน HTML โดยใช้ Aspose.Slides สำหรับ Java เพื่อให้แน่ใจว่าการพิมพ์จะสอดคล้องกันบนแพลตฟอร์มและอุปกรณ์ต่างๆ
-type: docs
 weight: 13
 url: /th/java/java-powerpoint-font-management/embed-fonts-in-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ฝังแบบอักษรใน HTML โดยใช้ Aspose.Slides สำหรับ Java
+
 ## การแนะนำ
 Aspose.Slides for Java เป็นเครื่องมืออันทรงพลังสำหรับนักพัฒนา Java ที่ต้องการจัดการงานนำเสนอ PowerPoint โดยทางโปรแกรม ในบทช่วยสอนนี้ เราจะเจาะลึกขั้นตอนการฝังแบบอักษรใน HTML โดยใช้ Aspose.Slides สำหรับ Java ด้วยการฝังฟอนต์ คุณแน่ใจได้ว่างานนำเสนอของคุณคงรูปลักษณ์ที่ต้องการไว้บนแพลตฟอร์มและอุปกรณ์ต่างๆ แม้ว่าฟอนต์ที่จำเป็นจะไม่ได้ติดตั้งในเครื่องก็ตาม
 ## ข้อกำหนดเบื้องต้น
@@ -58,3 +64,9 @@ pres.save(outPath + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
  ท่านสามารถเยี่ยมชมได้ที่[ฟอรั่ม Aspose.Slides](https://forum.aspose.com/c/slides/11) สำหรับการสนับสนุนชุมชนหรือติดต่อฝ่ายสนับสนุน Aspose เพื่อขอความช่วยเหลือจากมืออาชีพ
 ### ฉันสามารถซื้อใบอนุญาตชั่วคราวสำหรับ Aspose.Slides สำหรับ Java ได้หรือไม่
 ใช่ คุณสามารถขอรับใบอนุญาตชั่วคราวได้จาก[หน้าซื้อ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manage Font Family in Java PowerPoint
 linktitle: Manage Font Family in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to manage font family in Java PowerPoint presentations using Aspose.Slides for Java. Customize font styles, colors, and more with ease.
-type: docs
 weight: 10
 url: /java/java-powerpoint-font-management/manage-font-family-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manage Font Family in Java PowerPoint
+
 ## Introduction
 In this tutorial, we'll explore how to manage font family in Java PowerPoint presentations using Aspose.Slides for Java. Fonts play a crucial role in the visual appeal and readability of your slides, so it's essential to know how to manipulate them effectively.
 ## Prerequisites
@@ -66,3 +72,10 @@ Yes, Aspose.Slides allows you to embed custom fonts in your presentations to ens
 Yes, Aspose.Slides provides APIs to create, modify, and manipulate PowerPoint presentations entirely through code.
 ### Is there a trial version available for Aspose.Slides for Java?
 Yes, you can download a free trial version of Aspose.Slides for Java from [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

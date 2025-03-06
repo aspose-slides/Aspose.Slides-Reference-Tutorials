@@ -3,10 +3,16 @@ title: Java 幻灯片中的漏斗图
 linktitle: Java 幻灯片中的漏斗图
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 学习使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中创建漏斗图。带有源代码的分步指南，可实现有效的数据可视化。
-type: docs
 weight: 18
 url: /zh/java/chart-data-manipulation/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 幻灯片中的漏斗图
+
 
 ## 在 Aspose.Slides for Java 中创建漏斗图的简介
 
@@ -137,3 +143,9 @@ pres.save(dataDir + "Funnel.pptx", SaveFormat.Pptx);
 ### 我可以将图表导出为不同的格式，例如 PDF 或图像吗？
 
 是的，Aspose.Slides for Java 允许您将带有漏斗图的演示文稿导出为各种格式，包括 PDF、图像格式等。您可以使用`SaveFormat`选项来指定保存演示文稿时所需的输出格式。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

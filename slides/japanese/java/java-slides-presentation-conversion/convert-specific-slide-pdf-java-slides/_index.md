@@ -3,10 +3,16 @@ title: Java スライドで特定のスライドを PDF に変換する
 linktitle: Java スライドで特定のスライドを PDF に変換する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java で特定のスライドを PDF に変換する方法を学びます。Java 開発者向けのコード例を含むステップバイステップ ガイドです。
-type: docs
 weight: 20
 url: /ja/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java スライドで特定のスライドを PDF に変換する
+
 
 ## Java スライドで特定のスライドを PDF に変換する方法の紹介
 
@@ -107,3 +113,9 @@ finally
 ### Aspose.Slides for Java のその他の例やドキュメントはどこで入手できますか?
 
 包括的なドキュメントとコード例は、Aspose.Slides for Java ドキュメント ページにあります。[ここ](https://reference.aspose.com/slides/java/)ドキュメントを参照して、さらに多くの機能と使用例を確認してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

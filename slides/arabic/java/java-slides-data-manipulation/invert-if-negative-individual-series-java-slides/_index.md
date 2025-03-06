@@ -3,10 +3,16 @@ title: عكس إذا كان سلبيا للسلسلة الفردية في شرا
 linktitle: عكس إذا كان سلبيا للسلسلة الفردية في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية استخدام ميزة Invert If Negative في Aspose.Slides لـ Java لتحسين مرئيات المخطط في عروض PowerPoint التقديمية.
-type: docs
 weight: 11
 url: /ar/java/data-manipulation/invert-if-negative-individual-series-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# عكس إذا كان سلبيا للسلسلة الفردية في شرائح جافا
+
 
 ## مقدمة إلى عكس إذا كان سلبيًا للسلسلة الفردية في شرائح Java
 
@@ -131,3 +137,9 @@ finally
 ### أين يمكنني الوصول إلى وثائق Aspose.Slides الخاصة بـ Java؟
 
 يمكنك الوصول إلى وثائق Aspose.Slides for Java على[هنا](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

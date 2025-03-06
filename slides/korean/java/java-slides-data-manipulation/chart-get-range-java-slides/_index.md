@@ -3,10 +3,16 @@ title: 차트 Java 슬라이드에서 범위 가져오기
 linktitle: 차트 Java 슬라이드에서 범위 가져오기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java API를 사용하여 Java 슬라이드에서 차트 범위를 검색하는 방법을 알아보세요. 효과적인 차트 데이터 액세스를 위한 소스 코드가 포함된 단계별 가이드입니다.
-type: docs
 weight: 16
 url: /ko/java/data-manipulation/chart-get-range-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 차트 Java 슬라이드에서 범위 가져오기
+
 
 ## Java 슬라이드의 차트 범위 가져오기 소개
 
@@ -98,3 +104,10 @@ Aspose.Slides for Java는 상용 라이브러리이지만 무료 평가판을 �
 ### Aspose.Slides for Java에 대한 추가 리소스와 문서는 어디서 찾을 수 있나요?
 
  다음 사이트에서 Aspose.Slides for Java에 대한 포괄적인 문서와 리소스를 찾을 수 있습니다.[Java 문서용 Aspose.Slides](https://reference.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

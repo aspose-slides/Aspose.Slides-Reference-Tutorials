@@ -3,10 +3,16 @@ title: Klona bild på angiven position i PowerPoint
 linktitle: Klona bild på angiven position i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Klona PowerPoint-bilder på angivna positioner utan ansträngning med Aspose.Slides för Java. Detaljerad steg-för-steg-guide för nybörjare och experter.
-type: docs
 weight: 10
 url: /sv/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-position-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Klona bild på angiven position i PowerPoint
+
 ## Introduktion
 Är du redo att utöka ditt PowerPoint-spel? Oavsett om du är en erfaren utvecklare eller nybörjare som försöker automatisera bildmanipulationer, har du kommit till rätt ställe. I den här handledningen går vi igenom processen att klona bilder på en angiven plats i en PowerPoint-presentation med Aspose.Slides för Java. Spänn fast dig och låt oss dyka in i denna resa tillsammans!
 ## Förutsättningar
@@ -80,3 +86,9 @@ Absolut! Aspose.Slides stöder olika format inklusive PPTX, PPT och mer.
 Aspose.Slides erbjuder robusta funktioner, omfattande dokumentation och utmärkt stöd, vilket gör det till ett föredraget val för PowerPoint-manipulationer.
 ### Var kan jag hitta fler tutorials på Aspose.Slides?
  Kolla in[dokumentation](https://reference.aspose.com/slides/java/) för omfattande handledningar och exempel.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

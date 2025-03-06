@@ -3,10 +3,16 @@ title: Domyślne czcionki w programie PowerPoint z Aspose.Slides dla Java
 linktitle: Domyślne czcionki w programie PowerPoint z Aspose.Slides dla Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić domyślne czcionki w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Zapewniaj spójność i bez wysiłku poprawiaj atrakcyjność wizualną.
-type: docs
 weight: 11
 url: /pl/java/java-powerpoint-font-management/default-fonts-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Domyślne czcionki w programie PowerPoint z Aspose.Slides dla Java
+
 ## Wstęp
 Tworzenie prezentacji PowerPoint przy użyciu niestandardowych czcionek jest powszechnym wymogiem w wielu projektach. Aspose.Slides dla Java zapewnia płynne rozwiązanie do zarządzania domyślnymi czcionkami, zapewniając spójność w różnych środowiskach. W tym samouczku przeprowadzimy Cię przez proces ustawiania domyślnych czcionek w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java.
 ## Warunki wstępne
@@ -71,3 +77,9 @@ Aspose.Slides for Java obsługuje szeroką gamę wersji programu PowerPoint, zap
  Tak, możesz poznać Aspose.Slides for Java w ramach bezpłatnej wersji próbnej dostępnej pod adresem[releases.aspose.com](https://releases.aspose.com/).
 ### Gdzie mogę uzyskać tymczasową licencję na Aspose.Slides dla Java?
  Tymczasową licencję na Aspose.Slides dla Java można uzyskać z witryny[strona zakupu](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Converteren naar animatie in Java-dia's
 linktitle: Converteren naar animatie in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-presentaties omzet naar animaties in Java met Aspose.Slides. Betrek uw publiek met dynamische beelden.
-type: docs
 weight: 21
 url: /nl/java/presentation-conversion/convert-to-animation-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converteren naar animatie in Java-dia's
+
 
 # Inleiding tot het converteren naar animatie in Java-dia's met Aspose.Slides voor Java
 
@@ -130,3 +136,10 @@ Ja, u kunt het bestandsformaat van de geëxporteerde frames aanpassen. In ons vo
 ### Waar kan ik meer bronnen en documentatie vinden voor Aspose.Slides voor Java?
 
  Uitgebreide documentatie en bronnen voor Aspose.Slides voor Java vindt u op de website[Aspose.Slides voor Java API-referentie](https://reference.aspose.com/slides/java/) bladzijde.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java Slaytlarında Belirli Grafik Serisi Veri Noktaları Verilerini Temiz
 linktitle: Java Slaytlarında Belirli Grafik Serisi Veri Noktaları Verilerini Temizleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile Java Slides'ta bir grafik serisinden belirli veri noktalarını nasıl temizleyeceğinizi öğrenin. Etkili veri görselleştirme yönetimi için kaynak kodlu adım adım kılavuz.
-type: docs
 weight: 15
 url: /tr/java/chart-data-manipulation/clear-specific-chart-series-data-points-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarında Belirli Grafik Serisi Veri Noktaları Verilerini Temizleme
+
 
 ## Java Slaytlarında Belirli Grafik Serisi Veri Noktası Verilerini Temizlemeye Giriş
 
@@ -121,3 +127,9 @@ Evet, veri noktaları boyunca yinelenen döngü içine koşullu mantık ekleyere
 ### Aspose.Slides for Java hakkında daha fazla bilgiyi nerede bulabilirim?
 
  Kapsamlı belgeleri ve örnekleri şurada bulabilirsiniz:[Aspose.Slides for Java belgeleri](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Adicionar nós filhos personalizados no SmartArt usando Java
 linktitle: Adicionar nós filhos personalizados no SmartArt usando Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como adicionar nós filhos personalizados ao SmartArt em apresentações do PowerPoint usando Java com Aspose.Slides. Aprimore seus slides com gráficos profissionais sem esforço.
-type: docs
 weight: 11
 url: /pt/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar nós filhos personalizados no SmartArt usando Java
+
 ## Introdução
 SmartArt é um recurso poderoso do PowerPoint que permite aos usuários criar gráficos com aparência profissional de forma rápida e fácil. Neste tutorial, aprenderemos como adicionar nós filhos personalizados ao SmartArt usando Java com Aspose.Slides.
 ## Pré-requisitos
@@ -79,3 +85,9 @@ Absolutamente! Com Aspose.Slides for Java, você pode personalizar programaticam
 Sim, você pode encontrar documentação abrangente e acesso a fóruns de suporte da comunidade no site Aspose.
 ### Existe uma versão de teste disponível para Aspose.Slides for Java?
  Sim, você pode baixar uma versão de avaliação gratuita do Aspose.Slides for Java do site para explorar seus recursos e capacidades antes de fazer uma compra[aqui](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

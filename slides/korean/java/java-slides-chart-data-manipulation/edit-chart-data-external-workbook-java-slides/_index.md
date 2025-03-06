@@ -3,10 +3,16 @@ title: Java 슬라이드의 외부 통합 문서에서 차트 데이터 편집
 linktitle: Java 슬라이드의 외부 통합 문서에서 차트 데이터 편집
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 외부 통합 문서에서 차트 데이터를 편집하는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드입니다.
-type: docs
 weight: 17
 url: /ko/java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 슬라이드의 외부 통합 문서에서 차트 데이터 편집
+
 
 ## Java 슬라이드의 외부 통합 문서에서 차트 데이터 편집 소개
 
@@ -103,3 +109,9 @@ if (pres != null) pres.dispose();
 ### 여러 프레젠테이션에 대해 이 프로세스를 자동화하려면 어떻게 해야 합니까?
 
 여러 프레젠테이션을 처리하고, 각 프레젠테이션을 로드하고, 원하는 대로 변경하고, 수정된 프레젠테이션을 하나씩 저장하는 루프를 만들 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Формулы ячеек данных диаграммы в слайда
 linktitle: Формулы ячеек данных диаграммы в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как задавать формулы ячеек данных диаграммы в презентациях Java PowerPoint с помощью Aspose.Slides для Java. Создавайте динамические диаграммы с формулами.
-type: docs
 weight: 11
 url: /ru/java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Формулы ячеек данных диаграммы в слайдах Java
+
 
 ## Введение в формулы ячеек данных диаграммы в Aspose.Slides для Java
 
@@ -122,3 +128,9 @@ finally
 ### Как изменить тип диаграммы?
 
  Вы можете изменить тип диаграммы, используя`setChartType` метод на`IChart` объект и указав желаемый`ChartType`.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

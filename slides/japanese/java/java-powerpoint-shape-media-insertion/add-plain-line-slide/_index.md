@@ -3,10 +3,16 @@ title: スライドにプレーンラインを追加する
 linktitle: スライドにプレーンラインを追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、プログラムで PowerPoint スライドにプレーン ラインを追加する方法を学びます。このステップ バイ ステップ ガイドで生産性を向上させましょう。
-type: docs
 weight: 14
 url: /ja/java/java-powerpoint-shape-media-insertion/add-plain-line-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# スライドにプレーンラインを追加する
+
 ## 導入
 Aspose.Slides for Java は、Java 開発者が PowerPoint プレゼンテーションをプログラムで操作できるようにする強力なライブラリです。Aspose.Slides を使用すると、PowerPoint ファイルを簡単に作成、変更、変換できるため、時間と労力を節約できます。このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションのスライドにプレーン ラインを追加する手順を説明します。
 ## 前提条件
@@ -62,3 +68,9 @@ pres.save("Your Document Directory/LineShape1_out.pptx", SaveFormat.Pptx);
 はい、Aspose.Slides API を使用して、スライドにテキスト、画像、その他のコンテンツを追加できます。
 ### Aspose.Slides の無料試用版はありますか?
 はい、Aspose.Slidesの無料トライアルをこちらからダウンロードできます。[ここ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Adicionar chamada de donut em slides Java
 linktitle: Adicionar chamada de donut em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda a adicionar chamadas de donut em slides Java usando Aspose.Slides para Java. Guia passo a passo com código-fonte para apresentações aprimoradas.
-type: docs
 weight: 12
 url: /pt/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar chamada de donut em slides Java
+
 
 ## Introdução para adicionar uma chamada de rosca em slides Java usando Aspose.Slides para Java
 
@@ -180,3 +186,9 @@ Sim, você pode adicionar quantos pontos de dados forem necessários ao gráfico
 ### Como posso ajustar a posição e o tamanho do gráfico de rosca no slide?
 
  Você pode alterar a posição e o tamanho do gráfico de rosca modificando os parâmetros na caixa`addChart` método. Os quatro números nesse método correspondem às coordenadas X e Y do canto superior esquerdo do gráfico e à sua largura e altura, respectivamente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Shape Geometry and Positioning in Slides using Aspose.Slides
 linktitle: Shape Geometry and Positioning in Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Enhance your slide manipulation skills with Aspose.Slides tutorials on shape geometry and positioning in slides. Learn to programmatically control shapes, their dimensions, and alignment. 
-type: docs
 weight: 13
 url: /net/shape-geometry-and-positioning-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Shape Geometry and Positioning in Slides using Aspose.Slides
+
 
 ## Introduction
 
@@ -51,3 +57,9 @@ Learn how to efficiently integrate light rig data into presentation slides using
 Learn how to enhance your presentation slides with effective bevel data using Aspose.Slides. A comprehensive guide with step-by-step instructions and sample code.
 ### [Hiding Shapes in Presentation Slides with Aspose.Slides](./hiding-shapes/)
 Learn how to hide shapes in presentation slides using Aspose.Slides for .NET. Step-by-step guide with source code, FAQs, and best practices for dynamic presentations.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

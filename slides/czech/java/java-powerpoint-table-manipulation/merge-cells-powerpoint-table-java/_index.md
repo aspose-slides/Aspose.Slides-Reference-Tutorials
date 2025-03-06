@@ -3,10 +3,16 @@ title: Sloučit buňky v tabulce PowerPoint pomocí Java
 linktitle: Sloučit buňky v tabulce PowerPoint pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se sloučit buňky v tabulkách aplikace PowerPoint pomocí Aspose.Slides for Java. Vylepšete rozvržení prezentace pomocí tohoto podrobného průvodce.
-type: docs
 weight: 17
 url: /cs/java/java-powerpoint-table-manipulation/merge-cells-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sloučit buňky v tabulce PowerPoint pomocí Java
+
 ## Úvod
 V tomto tutoriálu se naučíte, jak efektivně sloučit buňky v tabulce PowerPoint pomocí Aspose.Slides for Java. Aspose.Slides je výkonná knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět PowerPointové prezentace programově. Sloučením buněk v tabulce můžete přizpůsobit rozvržení a strukturu snímků prezentace, zvýšit přehlednost a vizuální přitažlivost.
 ## Předpoklady
@@ -92,3 +98,9 @@ Aspose.Slides for Java je Java API pro vytváření, manipulaci a převod prezen
  Dokumentaci najdete[tady](https://reference.aspose.com/slides/java/).
 ### Jak mohu získat podporu pro Aspose.Slides pro Java?
  Podporu můžete získat na fóru komunity Aspose.Slides[tady](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

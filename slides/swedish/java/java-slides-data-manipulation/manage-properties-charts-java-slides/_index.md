@@ -3,10 +3,16 @@ title: Hantera egenskapsdiagram i Java Slides
 linktitle: Hantera egenskapsdiagram i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig att skapa fantastiska diagram och hantera egenskaper i Java-bilder med Aspose.Slides. Steg-för-steg-guide med källkod för kraftfulla presentationer.
-type: docs
 weight: 13
 url: /sv/java/data-manipulation/manage-properties-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hantera egenskapsdiagram i Java Slides
+
 
 ## Introduktion till hantering av egenskaper och diagram i Java Slides med Aspose.Slides
 
@@ -198,3 +204,9 @@ Ja, du kan anpassa diagramfärgerna genom att ställa in fyllningsegenskaperna f
 ### Vilka andra 3D-egenskaper kan jag anpassa?
 
 Du kan utforska andra 3D-egenskaper i diagrammet, såsom djup, perspektiv och belysning, genom att hänvisa till Aspose.Slides-dokumentationen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

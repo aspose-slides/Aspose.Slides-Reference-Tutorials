@@ -3,10 +3,16 @@ title: PowerPoint의 기본 제공 속성에 액세스
 linktitle: PowerPoint의 기본 제공 속성에 액세스
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint의 기본 제공 속성에 액세스하는 방법을 알아보세요. 이 튜토리얼에서는 작성자, 생성 날짜 등을 검색하는 과정을 안내합니다.
-type: docs
 weight: 10
 url: /ko/java/java-powerpoint-properties-management/access-built-in-properties-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint의 기본 제공 속성에 액세스
+
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 기본 제공 속성에 액세스하는 방법을 살펴보겠습니다. Aspose.Slides는 Java 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 사용하여 속성 읽기 및 수정과 같은 작업을 원활하게 수행할 수 있도록 하는 강력한 라이브러리입니다.
 ## 전제 조건
@@ -101,3 +107,9 @@ Aspose.Slides는 다양한 PowerPoint 버전을 지원하여 다양한 플랫폼
  예, 다음에서 포괄적인 문서를 찾아보고 지원 포럼에 액세스할 수 있습니다.[Aspose 웹사이트](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java에 사용할 수 있는 평가판이 있습니까?
  예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

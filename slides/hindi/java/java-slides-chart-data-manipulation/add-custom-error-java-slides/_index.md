@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में कस्टम त्र
 linktitle: जावा स्लाइड्स में कस्टम त्रुटि जोड़ें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides का उपयोग करके Java Slides में PowerPoint चार्ट में कस्टम त्रुटि बार जोड़ने का तरीका जानें। सटीक डेटा विज़ुअलाइज़ेशन के लिए स्रोत कोड के साथ चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 11
 url: /hi/java/chart-data-manipulation/add-custom-error-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में कस्टम त्रुटि जोड़ें
+
 
 ## Aspose.Slides का उपयोग करके जावा स्लाइड्स में कस्टम त्रुटि बार जोड़ने का परिचय
 
@@ -150,3 +156,9 @@ finally
 ### क्या विशिष्ट डेटा बिंदुओं के लिए त्रुटि बार को छिपाना संभव है?
 
  हां, आप अलग-अलग डेटा बिंदुओं के लिए त्रुटि बार की दृश्यता को नियंत्रित कर सकते हैं`setVisible` की संपत्ति`IErrorBarsFormat` वस्तु।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

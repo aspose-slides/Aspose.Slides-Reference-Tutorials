@@ -3,10 +3,16 @@ title: Java Slaytlarında Animasyon Dizileri
 linktitle: Java Slaytlarında Animasyon Dizileri
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'daki seri animasyonlarla sunumlarınızı optimize edin. İlgi çekici PowerPoint animasyonları oluşturmak için kaynak kodu örneklerini içeren adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 11
 url: /tr/java/animation-and-layout/animating-series-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarında Animasyon Dizileri
+
 
 ## Aspose.Slides for Java'da Animasyon Dizilerine Giriş
 
@@ -125,3 +131,9 @@ Grafiğinizdeki tüm serilere animasyonlar eklemek için 3. Adımda döngüyü g
 ### Animasyon süresini ve gecikmesini nasıl özelleştirebilirim?
 
 Animasyon efektlerindeki özellikleri ayarlayarak animasyon süresini ve gecikmesini özelleştirebilirsiniz. Mevcut özelleştirme seçenekleriyle ilgili ayrıntılar için Aspose.Slides for Java belgelerine bakın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

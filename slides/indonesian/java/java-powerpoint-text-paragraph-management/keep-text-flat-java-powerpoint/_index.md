@@ -3,10 +3,16 @@ title: Jaga agar Teks Tetap Rata di Java PowerPoint
 linktitle: Jaga agar Teks Tetap Rata di Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menjaga teks tetap rata dalam presentasi Java PowerPoint menggunakan Aspose.Slides untuk Java. Ikuti panduan langkah demi langkah kami untuk manipulasi teks yang efisien.
-type: docs
 weight: 11
 url: /id/java/java-powerpoint-text-paragraph-management/keep-text-flat-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jaga agar Teks Tetap Rata di Java PowerPoint
+
 ## Perkenalan
 Di bidang manipulasi PowerPoint berbasis Java, Aspose.Slides for Java berdiri sebagai perangkat yang kuat dan serbaguna. Baik Anda seorang pengembang berpengalaman atau pendatang baru yang ingin menyempurnakan presentasi Anda secara terprogram, Aspose.Slides untuk Java menawarkan serangkaian fitur lengkap untuk membuat, memodifikasi, dan mengelola presentasi PowerPoint dengan lancar. Tutorial ini menyelami fungsionalitas tertentu: menjaga teks tetap rata dalam slide PowerPoint menggunakan Aspose.Slides untuk Java. Dengan mengikuti panduan ini, Anda akan mempelajari cara memanipulasi pemformatan teks untuk mencapai hasil presentasi yang tepat.
 ## Prasyarat
@@ -64,3 +70,9 @@ Anda dapat menjelajahi dokumentasi terperinci[Di Sini](https://reference.aspose.
  Ya, Anda dapat membeli lisensi[Di Sini](https://purchase.aspose.com/buy).
 ### Di mana saya bisa mendapatkan dukungan komunitas untuk Aspose.Slides untuk Java?
  Bergabunglah dengan forum komunitas Aspose.Slides[Di Sini](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 将演示文稿转换为带有隐藏幻灯片的 PDF
 linktitle: 将演示文稿转换为带有隐藏幻灯片的 PDF
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 将演示文稿无缝转换为带有隐藏幻灯片的 PDF。
-type: docs
 weight: 26
 url: /zh/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将演示文稿转换为带有隐藏幻灯片的 PDF
+
 
 ## Aspose.Slides for .NET 简介
 
@@ -95,3 +101,9 @@ class Program
 ### 有没有关于 Aspose.Slides for .NET 的文档？
 
 是的，您可以在以下位置找到 Aspose.Slides for .NET 的文档和使用示例[这里](https://reference.aspose.com/slides/net).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

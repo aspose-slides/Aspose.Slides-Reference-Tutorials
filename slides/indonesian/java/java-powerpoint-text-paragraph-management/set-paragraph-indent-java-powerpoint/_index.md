@@ -3,10 +3,16 @@ title: Atur Indentasi Paragraf di Java PowerPoint
 linktitle: Atur Indentasi Paragraf di Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur indentasi paragraf di slide PowerPoint secara terprogram menggunakan Aspose.Slides for Java. Sempurnakan format presentasi Anda dengan mudah.
-type: docs
 weight: 16
 url: /id/java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Atur Indentasi Paragraf di Java PowerPoint
+
 ## Perkenalan
 Dalam tutorial ini, Anda akan mempelajari cara memanipulasi presentasi PowerPoint secara terprogram menggunakan Aspose.Slides untuk Java. Secara khusus, kami akan fokus pada pengaturan indentasi paragraf dalam slide. Aspose.Slides untuk Java menyediakan serangkaian API canggih yang memungkinkan pengembang membuat, memodifikasi, mengonversi, dan mengelola presentasi PowerPoint tanpa bergantung pada Microsoft Office Automation.
 ## Prasyarat
@@ -85,3 +91,9 @@ Aspose.Slides untuk Java adalah perpustakaan yang kuat untuk bekerja dengan pres
  Ya, Anda bisa mendapatkan uji coba gratis dari[Di Sini](https://releases.aspose.com/).
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk Java?
  Anda bisa mendapatkan dukungan dari forum komunitas[Di Sini](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

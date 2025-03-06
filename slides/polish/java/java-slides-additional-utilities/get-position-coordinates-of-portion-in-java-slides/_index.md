@@ -3,10 +3,16 @@ title: Uzyskaj współrzędne pozycji części w slajdach Java
 linktitle: Uzyskaj współrzędne pozycji części w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak pobierać współrzędne fragmentów tekstu na slajdach Java za pomocą Aspose.Slides for Java API. Uzyskaj precyzyjną kontrolę nad rozmieszczeniem tekstu w prezentacjach programu PowerPoint.
-type: docs
 weight: 12
 url: /pl/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uzyskaj współrzędne pozycji części w slajdach Java
+
 
 ## Wprowadzenie do uzyskiwania współrzędnych pozycji części w slajdach Java
 
@@ -120,3 +126,9 @@ Tak, Aspose.Slides for Java obsługuje różne formaty plików PowerPoint, w tym
 ### Jak mogę uzyskać dalsze wsparcie lub pomoc dotyczącą Aspose.Slides for Java?
 
 Możesz uzyskać dostęp do dodatkowego wsparcia i zasobów na stronie internetowej Aspose. Udostępniają użytkownikom fora, dokumentację i opcje wsparcia premium.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

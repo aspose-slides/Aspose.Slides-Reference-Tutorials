@@ -3,10 +3,16 @@ title: Java Slaytlarındaki Normal Grafikler
 linktitle: Java Slaytlarındaki Normal Grafikler
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile Java Slaytlarında Normal Grafikler oluşturun. PowerPoint sunumlarında grafik oluşturmaya, özelleştirmeye ve kaydetmeye yönelik adım adım kılavuz ve kaynak kodu.
-type: docs
 weight: 21
 url: /tr/java/chart-data-manipulation/normal-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarındaki Normal Grafikler
+
 
 ## Java Slaytlarındaki Normal Grafiklere Giriş
 
@@ -240,3 +246,9 @@ Bu eğitimde Aspose.Slides for Java API'sini kullanarak Java Slides'ta normal gr
 ### Grafiği farklı bir dosya biçiminde nasıl kaydederim?
 
  Grafiği farklı bir dosya biçiminde kaydetmek için`SaveFormat` parametresi`pres.save()` yöntemi istenen formata (örneğin, PDF, PNG, JPEG) dönüştürebilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

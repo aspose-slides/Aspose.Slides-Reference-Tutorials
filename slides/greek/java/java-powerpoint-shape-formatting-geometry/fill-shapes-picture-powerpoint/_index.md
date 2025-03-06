@@ -3,10 +3,16 @@ title: Συμπληρώστε σχήματα με εικόνα στο PowerPoint
 linktitle: Συμπληρώστε σχήματα με εικόνα στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να γεμίζετε σχήματα με εικόνες σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε την οπτική απήχηση χωρίς κόπο.
-type: docs
 weight: 12
 url: /el/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Συμπληρώστε σχήματα με εικόνα στο PowerPoint
+
 ## Εισαγωγή
 Οι παρουσιάσεις του PowerPoint απαιτούν συχνά οπτικά στοιχεία όπως σχήματα γεμάτα με εικόνες για να βελτιώσουν την ελκυστικότητά τους και να μεταδώσουν αποτελεσματικά τις πληροφορίες. Το Aspose.Slides για Java παρέχει ένα ισχυρό σύνολο εργαλείων για την απρόσκοπτη ολοκλήρωση αυτής της εργασίας. Σε αυτό το σεμινάριο, θα μάθουμε πώς να γεμίζουμε σχήματα με εικόνες χρησιμοποιώντας το Aspose.Slides για Java βήμα προς βήμα.
 ## Προαπαιτούμενα
@@ -80,3 +86,9 @@ pres.save(dataDir + "RectShpPic_out.pptx", SaveFormat.Pptx);
 Το Aspose.Slides για Java υποστηρίζει ένα ευρύ φάσμα μορφών εικόνας, όπως JPEG, PNG, GIF, BMP και TIFF, μεταξύ άλλων.
 ### Μπορώ να εφαρμόσω εφέ στα γεμισμένα σχήματα;
 Ναι, το Aspose.Slides για Java παρέχει ολοκληρωμένα API για την εφαρμογή διαφόρων εφέ, όπως σκιές, αντανακλάσεις και τρισδιάστατες περιστροφές, σε γεμάτα σχήματα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

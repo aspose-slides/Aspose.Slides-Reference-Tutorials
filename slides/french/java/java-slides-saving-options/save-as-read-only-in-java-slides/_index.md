@@ -3,10 +3,16 @@ title: Enregistrer en lecture seule dans les diapositives Java
 linktitle: Enregistrer en lecture seule dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment enregistrer des présentations PowerPoint en lecture seule en Java à l'aide d'Aspose.Slides. Protégez votre contenu avec des instructions étape par étape et des exemples de code.
-type: docs
 weight: 11
 url: /fr/java/saving-options/save-as-read-only-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Enregistrer en lecture seule dans les diapositives Java
+
 
 ## Introduction à l'enregistrement en lecture seule dans les diapositives Java à l'aide d'Aspose.Slides pour Java
 
@@ -127,3 +133,9 @@ Si vous oubliez le mot de passe de protection en écriture, il n'existe aucun mo
 ### Puis-je modifier le mot de passe en lecture seule après l'avoir défini ?
 
  Oui, vous pouvez modifier le mot de passe en lecture seule après l'avoir défini. Utilisez le`setReadProtection(String newPassword)` avec le nouveau mot de passe pour mettre à jour le mot de passe de protection en lecture seule.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

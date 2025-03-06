@@ -3,10 +3,16 @@ title: Java PowerPoint 텍스트 정렬 및 서식 지정
 linktitle: Java PowerPoint 텍스트 정렬 및 서식 지정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Java PowerPoint 텍스트 정렬 및 형식 지정 튜토리얼을 살펴보세요. Aspose.Slides for Java를 사용하여 텍스트를 정렬하고, 서식을 지정하고, 내보내고, 강조 표시하는 방법을 알아보세요.
-type: docs
 weight: 23
 url: /ko/java/java-powerpoint-text-alignment-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint 텍스트 정렬 및 서식 지정
+
 ## 소개
 
 Java PowerPoint 프레젠테이션의 텍스트 정렬 및 서식을 익히는 것은 세련되고 전문적인 슬라이드를 만드는 데 중요합니다. Aspose.Slides for Java를 사용하면 원활한 텍스트 서식 지정 및 정렬을 쉽게 얻을 수 있습니다. 귀하가 초보자이건 숙련된 개발자이건 관계없이 당사의 튜토리얼은 귀하의 프리젠테이션을 향상시키는 데 도움이 될 것입니다. 튜토리얼을 자세히 살펴보고 PowerPoint 기술을 향상시킬 수 있는 방법을 알아보세요!
@@ -45,3 +51,9 @@ Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 텍스�
 Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션의 SmartArt 노드에서 텍스트를 추출하는 방법을 알아보세요. 개발자를 위한 쉽고 단계별 가이드입니다.
 ### [Java PowerPoint에서 Regex를 사용하여 텍스트 강조 표시](./highlight-text-using-regex-java-powerpoint/)
 Aspose.Slides for Java에서 정규식 패턴을 사용하여 PowerPoint에서 텍스트를 강조 표시하는 방법을 알아보세요. 프레젠테이션을 동적으로 향상시키세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

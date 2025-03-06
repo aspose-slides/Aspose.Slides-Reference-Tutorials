@@ -3,10 +3,16 @@ title: 使用 Aspose.Slides For Java 进行媒体控制
 linktitle: Java 幻灯片媒体控件
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 教程在 Java 幻灯片中实现媒体控件。无缝地使用音频和视频增强您的演示文稿。
-type: docs
 weight: 22
 url: /zh/java/media-controls/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Slides For Java 进行媒体控制
+
 
 在当今的数字时代，演示文稿不仅仅是带有文本和图像的静态幻灯片。它们已经演变成吸引和迷住观众的动态交互式体验。如果您是一名 Java 开发人员，希望为演示文稿添加新的维度，那么您来对地方了。在本文中，我们将探讨如何使用 Aspose.Slides for Java 教程在 Java 幻灯片中实现媒体控件。
 
@@ -51,3 +57,9 @@ url: /zh/java/media-controls/
 了解如何使用 Aspose.Slides for Java 更新 Java 幻灯片中的演示文稿属性。自定义作者、标题等，以制作具有影响力的演示文稿。
 ### [在 Java Slides 中使用另一个演示文稿作为模板更新演示文稿属性](./update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/)
 使用 Aspose.Slides for Java 通过更新的元数据增强 PowerPoint 演示文稿。了解如何使用 Java Slides 中的模板更新作者、标题和关键字等属性。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

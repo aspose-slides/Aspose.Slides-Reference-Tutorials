@@ -3,10 +3,16 @@ title: Définition des propriétés de police dans les diapositives Java
 linktitle: Définition des propriétés de police dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir les propriétés de police dans les diapositives Java à l'aide d'Aspose.Slides for Java. Ce guide étape par étape comprend des exemples de code et des FAQ.
-type: docs
 weight: 15
 url: /fr/java/customization-and-formatting/setting-font-properties-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définition des propriétés de police dans les diapositives Java
+
 
 ## Introduction à la définition des propriétés de police dans les diapositives Java
 
@@ -137,3 +143,9 @@ for (ISlide slide : pres.getSlides()) {
     // Accédez et personnalisez les propriétés de police des éléments de texte ici
 }
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Κατακτήστε τα κινούμενα σχέδια του PowerPoi
 linktitle: Επαναλάβετε την κινούμενη εικόνα στη διαφάνεια
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Βελτιώστε τις παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Ελέγξτε τα κινούμενα σχέδια χωρίς κόπο, μαγέψτε το κοινό σας και αφήστε μια μόνιμη εντύπωση.
-type: docs
 weight: 12
 url: /el/net/slide-animation-control/repeat-animation-on-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Κατακτήστε τα κινούμενα σχέδια του PowerPoint με το Aspose.Slides .NET
+
 ## Εισαγωγή
 Στον δυναμικό κόσμο των παρουσιάσεων, η ικανότητα ελέγχου των κινούμενων εικόνων παίζει καθοριστικό ρόλο στην προσέλκυση και την αιχμαλωσία της προσοχής του κοινού. Το Aspose.Slides for .NET δίνει τη δυνατότητα στους προγραμματιστές να αναλάβουν τους τύπους κινούμενων εικόνων εντός των διαφανειών, επιτρέποντας μια πιο διαδραστική και οπτικά ελκυστική παρουσίαση. Σε αυτό το σεμινάριο, θα εξερευνήσουμε τον τρόπο ελέγχου των τύπων κινούμενων εικόνων σε μια διαφάνεια χρησιμοποιώντας το Aspose.Slides για .NET, βήμα προς βήμα.
 ## Προαπαιτούμενα
@@ -66,3 +72,9 @@ pres.Save(RunExamples.OutPath + "AnimationOnSlide-out.pptx", Aspose.Slides.Expor
  Επίσκεψη[εδώ](https://purchase.aspose.com/temporary-license/) για πληροφορίες σχετικά με την απόκτηση προσωρινής άδειας.
 ### Χρειάζεστε βοήθεια ή έχετε περισσότερες ερωτήσεις;
  Αλληλεπιδράστε με την κοινότητα Aspose.Slides στο[φόρουμ υποστήριξης](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

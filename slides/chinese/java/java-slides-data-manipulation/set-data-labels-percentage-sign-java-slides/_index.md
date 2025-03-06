@@ -3,10 +3,16 @@ title: 在 Java 幻灯片中设置数据标签百分号
 linktitle: 在 Java 幻灯片中设置数据标签百分号
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中设置带有百分号的数据标签。使用分步指导和源代码创建引人入胜的图表。
-type: docs
 weight: 17
 url: /zh/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 幻灯片中设置数据标签百分号
+
 
 ## Aspose.Slides for Java 中设置数据标签百分号的简介
 
@@ -176,3 +182,10 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 ### 如何向图表添加更多系列？
 
 您可以使用`add`方法`IChartSeriesCollection`目的。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

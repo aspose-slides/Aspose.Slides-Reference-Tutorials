@@ -3,10 +3,16 @@ title: Μετατροπή σε PDF με κρυφές διαφάνειες σε J
 linktitle: Μετατροπή σε PDF με κρυφές διαφάνειες σε Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να μετατρέπετε παρουσιάσεις PowerPoint σε PDF με κρυφές διαφάνειες χρησιμοποιώντας το Aspose.Slides για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας με τον πηγαίο κώδικα για απρόσκοπτη δημιουργία PDF.
-type: docs
 weight: 27
 url: /el/java/presentation-conversion/convert-pdf-hidden-slides-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μετατροπή σε PDF με κρυφές διαφάνειες σε Java Slides
+
 
 ## Εισαγωγή στη μετατροπή παρουσίασης PowerPoint σε PDF με κρυφές διαφάνειες χρησιμοποιώντας Aspose.Slides για Java
 
@@ -115,3 +121,9 @@ slide.setHidden(false);
 ### Πώς μπορώ να κατεβάσω το Aspose.Slides για Java;
 
  Μπορείτε να κάνετε λήψη του Aspose.Slides για Java από τον ιστότοπο Aspose. Επισκέψου το[Σελίδα λήψης Aspose.Slides για Java](https://releases.aspose.com/slides/java/) για να λάβετε την πιο πρόσφατη έκδοση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

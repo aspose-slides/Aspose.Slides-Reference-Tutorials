@@ -3,10 +3,16 @@ title: Muat Font Eksternal di PowerPoint dengan Java
 linktitle: Muat Font Eksternal di PowerPoint dengan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara memuat font khusus dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Sempurnakan slide Anda dengan tipografi unik.
-type: docs
 weight: 10
 url: /id/java/java-powerpoint-font-management-text-replacement/load-external-font-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Muat Font Eksternal di PowerPoint dengan Java
+
 ## Perkenalan
 Dalam tutorial ini, kami akan memandu Anda melalui proses memuat font eksternal dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Font khusus dapat menambahkan sentuhan unik pada presentasi Anda, memastikan branding atau preferensi gaya yang konsisten di berbagai platform.
 ## Prasyarat
@@ -63,3 +69,9 @@ Ya, Anda dapat memuat beberapa font eksternal dengan mengulangi proses untuk set
 Selama file font dalam format TrueType (.ttf) dan dalam batas ukuran yang wajar, Anda akan berhasil memuatnya.
 ### Apakah memuat font eksternal memengaruhi kompatibilitas presentasi dengan versi PowerPoint yang berbeda?
 Tidak, presentasi tetap kompatibel di berbagai versi PowerPoint selama font tertanam atau dimuat secara eksternal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Einfügen zusätzlicher Folien in die Präsentation
 linktitle: Einfügen zusätzlicher Folien in die Präsentation
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET zusätzliche Folien in Ihre PowerPoint-Präsentationen einfügen. Diese Schritt-für-Schritt-Anleitung enthält Quellcodebeispiele und detaillierte Anweisungen zur nahtlosen Verbesserung Ihrer Präsentationen. Anpassbarer Inhalt, Einfügetipps und FAQs inklusive.
-type: docs
 weight: 15
 url: /de/net/slide-access-and-manipulation/add-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Einfügen zusätzlicher Folien in die Präsentation
+
 
 ## Einführung zum Einfügen zusätzlicher Folien in eine Präsentation
 
@@ -107,3 +113,9 @@ Auf jeden Fall. Sie können das Layout, das Design und die Formatierung der eing
 ### Wo finde ich weitere Informationen zu Aspose.Slides für .NET?
 
  Eine ausführliche Dokumentation und Beispiele finden Sie im[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

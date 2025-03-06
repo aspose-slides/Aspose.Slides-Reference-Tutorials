@@ -3,10 +3,16 @@ title: Vytvářejte dynamické prezentace pomocí rámečků přiblížení Aspo
 linktitle: Vytváření rámečku přiblížení v prezentačních snímcích pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se vytvářet poutavé prezentace s rámečky přiblížení pomocí Aspose.Slides pro .NET. Postupujte podle našeho podrobného průvodce a získejte poutavý zážitek z prezentace.
-type: docs
 weight: 17
 url: /cs/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvářejte dynamické prezentace pomocí rámečků přiblížení Aspose.Slides
+
 ## Úvod
 V oblasti prezentací jsou podmanivé snímky klíčem k zanechání trvalého dojmu. Aspose.Slides for .NET poskytuje výkonnou sadu nástrojů a v této příručce vás provedeme procesem začlenění poutavých rámečků přiblížení do snímků vaší prezentace.
 ## Předpoklady
@@ -89,3 +95,9 @@ Ano, můžete přizpůsobit různé aspekty, jako je šířka čáry, barva výp
  Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Otázka: Kde si mohu zakoupit plnou verzi Aspose.Slides pro .NET?
  Můžete si zakoupit plnou verzi[tady](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

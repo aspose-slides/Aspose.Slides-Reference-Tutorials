@@ -3,10 +3,16 @@ title: Výkonné animace grafů s Aspose.Slides pro .NET
 linktitle: Animace prvků kategorií v grafu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se animovat prvky grafu v PowerPointu pomocí Aspose.Slides pro .NET. Podrobný průvodce pro úžasné prezentace.
-type: docs
 weight: 11
 url: /cs/net/chart-formatting-and-animation/animating-categories-elements/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Výkonné animace grafů s Aspose.Slides pro .NET
+
 
 Ve světě prezentací mohou animace oživit váš obsah, zejména při práci s grafy. Aspose.Slides for .NET nabízí řadu výkonných funkcí, které vám umožní vytvářet úžasné animace pro vaše grafy. V tomto podrobném průvodci vás provedeme procesem animace prvků kategorií v grafu pomocí Aspose.Slides pro .NET.
 
@@ -123,3 +129,10 @@ Aspose.Slides for .NET je navržen pro práci s různými verzemi aplikace Power
 
 ### 5. Existuje komunitní fórum pro podporu Aspose.Slides pro .NET?
  Ano, můžete najít podpůrné komunitní fórum pro Aspose.Slides pro .NET[tady](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

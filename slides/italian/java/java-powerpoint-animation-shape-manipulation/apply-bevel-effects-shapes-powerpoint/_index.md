@@ -3,10 +3,16 @@ title: Applicare effetti smussati sulle forme in PowerPoint
 linktitle: Applicare effetti smussati sulle forme in PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come applicare effetti smussati alle forme in PowerPoint utilizzando Aspose.Slides per Java con la nostra guida passo passo. Migliora le tue presentazioni.
-type: docs
 weight: 13
 url: /it/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Applicare effetti smussati sulle forme in PowerPoint
+
 ## introduzione
 Creare presentazioni visivamente accattivanti è fondamentale per catturare e mantenere l'attenzione del pubblico. L'aggiunta di effetti smussati alle forme può migliorare l'estetica generale delle tue diapositive, facendo risaltare la tua presentazione. In questo tutorial ti guideremo attraverso il processo di applicazione degli effetti smussati alle forme in PowerPoint utilizzando Aspose.Slides per Java. Che tu sia uno sviluppatore che desidera automatizzare la creazione di presentazioni o semplicemente qualcuno che ama armeggiare con il design, questa guida fa al caso tuo.
 ## Prerequisiti
@@ -92,3 +98,9 @@ Puoi aggiungere varie forme come rettangoli, ellissi, linee e forme personalizza
 Sì, Aspose.Slides per Java ti consente di applicare vari effetti 3D, inclusi profondità, illuminazione ed effetti della fotocamera.
 ### Dove posso ottenere supporto per Aspose.Slides per Java?
  Puoi ottenere supporto dalla comunità Aspose e dal team di supporto sul loro[Forum di assistenza](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

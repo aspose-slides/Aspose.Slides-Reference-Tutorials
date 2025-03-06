@@ -3,10 +3,16 @@ title: Java 投影片中的簡報投影片放映設置
 linktitle: Java 投影片中的簡報投影片放映設置
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides 優化您的 Java 投影片。使用自訂設定建立引人入勝的簡報。探索逐步指南和常見問題。
-type: docs
 weight: 16
 url: /zh-hant/java/presentation-properties/presentation-slide-show-setup-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 投影片中的簡報投影片放映設置
+
 
 ## Java 投影片中的簡報投影片放映設定簡介
 
@@ -146,3 +152,9 @@ try {
 ### 如何進一步自訂投影片放映設定？
 
 您可以探索 Aspose.Slides for Java 提供的其他幻燈片放映設置，根據您的需求自訂幻燈片放映體驗。請參閱以下位置的文檔[這裡](https://reference.aspose.com/slides/java/)有關可用選項和配置的詳細資訊。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

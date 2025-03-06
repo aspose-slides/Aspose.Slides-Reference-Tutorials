@@ -3,10 +3,16 @@ title: Imposta la larghezza dello spazio nelle diapositive Java
 linktitle: Imposta la larghezza dello spazio nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come impostare la larghezza del gap nelle diapositive Java con Aspose.Slides per Java. Migliora la grafica dei grafici per le tue presentazioni PowerPoint.
-type: docs
 weight: 21
 url: /it/java/data-manipulation/set-gap-width-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Imposta la larghezza dello spazio nelle diapositive Java
+
 
 ## Introduzione all'impostazione della larghezza del gap in Aspose.Slides per Java
 
@@ -158,3 +164,9 @@ Sì, Aspose.Slides per Java offre ampie funzionalità per la personalizzazione d
 ### Dove posso trovare ulteriori risorse e documentazione?
 
  È possibile trovare documentazione completa e risorse aggiuntive su Aspose.Slides per Java nel[Sito web Aspose](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

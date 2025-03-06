@@ -3,10 +3,16 @@ title: Segment zur geometrischen Form in PowerPoint hinzufügen
 linktitle: Segment zur geometrischen Form in PowerPoint hinzufügen
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie in dieser ausführlichen Schritt-für-Schritt-Anleitung, wie Sie mit Aspose.Slides für Java Segmente zu geometrischen Formen in PowerPoint-Präsentationen hinzufügen.
-type: docs
 weight: 19
 url: /de/java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-shape-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Segment zur geometrischen Form in PowerPoint hinzufügen
+
 ## Einführung
 Das Erstellen ansprechender und dynamischer Präsentationen kann eine Herausforderung sein, insbesondere wenn Sie benutzerdefinierte Formen und Designs hinzufügen möchten. Hier kommt Aspose.Slides für Java ins Spiel. Mit dieser leistungsstarken API können Sie PowerPoint-Dateien programmgesteuert bearbeiten und haben die Flexibilität, komplexe geometrische Formen und Segmente problemlos hinzuzufügen. In diesem Tutorial zeigen wir Ihnen, wie Sie mit Aspose.Slides für Java Segmente zu geometrischen Formen in einer PowerPoint-Präsentation hinzufügen. Egal, ob Sie Entwickler sind, der die Erstellung von Präsentationen automatisieren möchte, oder einfach jemand, der gerne in die Programmierung eintaucht, dieser Leitfaden ist Ihre umfassende Ressource.
 ## Voraussetzungen
@@ -78,3 +84,9 @@ Nein, Aspose.Slides für Java ist speziell für die Verwendung mit Java konzipie
 Sie können verschiedene Formen hinzufügen, darunter Rechtecke, Ellipsen, Linien und benutzerdefinierte geometrische Formen.
 ### Wie kann ich Support für Aspose.Slides für Java erhalten?
  Unterstützung erhalten Sie vom[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) wo Sie Fragen stellen und Hilfe von der Community und den Entwicklern erhalten können.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

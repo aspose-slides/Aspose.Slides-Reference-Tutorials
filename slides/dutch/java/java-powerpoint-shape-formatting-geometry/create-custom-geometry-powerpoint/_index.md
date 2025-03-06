@@ -3,10 +3,16 @@ title: Maak aangepaste geometrie in PowerPoint
 linktitle: Maak aangepaste geometrie in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u aangepaste geometrische vormen kunt maken in PowerPoint met behulp van Aspose.Slides voor Java. Deze gids helpt u uw presentaties te verbeteren met unieke vormen.
-type: docs
 weight: 21
 url: /nl/java/java-powerpoint-shape-formatting-geometry/create-custom-geometry-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maak aangepaste geometrie in PowerPoint
+
 ## Invoering
 Het maken van aangepaste vormen en geometrieën in PowerPoint kan de visuele aantrekkingskracht van uw presentaties aanzienlijk vergroten. Aspose.Slides voor Java is een krachtige bibliotheek waarmee ontwikkelaars PowerPoint-bestanden programmatisch kunnen manipuleren. In deze zelfstudie onderzoeken we hoe u aangepaste geometrie, met name een stervorm, in een PowerPoint-dia kunt maken met behulp van Aspose.Slides voor Java. Laten we erin duiken!
 ## Vereisten
@@ -106,3 +112,9 @@ Aspose.Slides voor Java biedt een gratis proefperiode. Voor langdurig gebruik mo
 Er is geen speciale installatie vereist, behalve dat JDK is geïnstalleerd en de Aspose.Slides-bibliotheek in uw project is opgenomen.
 ### Waar kan ik ondersteuning krijgen voor Aspose.Slides?
  U kunt ondersteuning krijgen van de[Ondersteuningsforum voor Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

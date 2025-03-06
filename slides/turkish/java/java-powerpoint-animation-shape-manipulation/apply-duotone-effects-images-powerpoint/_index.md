@@ -3,10 +3,16 @@ title: PowerPoint'teki Görüntülere Çift Ton Efektleri Uygulayın
 linktitle: PowerPoint'teki Görüntülere Çift Ton Efektleri Uygulayın
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Adım adım kılavuzumuzla Aspose.Slides for Java'yı kullanarak PowerPoint'teki görüntülere Çift Ton efektlerini nasıl uygulayacağınızı öğrenin. Sunumlarınızı geliştirin.
-type: docs
 weight: 20
 url: /tr/java/java-powerpoint-animation-shape-manipulation/apply-duotone-effects-images-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint'teki Görüntülere Çift Ton Efektleri Uygulayın
+
 ## giriiş
 PowerPoint sunumlarınıza görsel efektler eklemek, sunumlarınızın çekiciliğini ve etkinliğini önemli ölçüde artırabilir. Böyle ilgi çekici efektlerden biri, bir görüntüye iki zıt renk uygulayan ve ona modern ve profesyonel bir görünüm kazandıran Çift Ton efektidir. Bu kapsamlı kılavuzda, Aspose.Slides for Java kullanarak PowerPoint'teki görüntülere Çift Ton efektleri uygulama sürecinde size yol göstereceğiz.
 ## Önkoşullar
@@ -86,3 +92,9 @@ Evet, Aspose.Slides for Java; IntelliJ IDEA, Eclipse ve NetBeans dahil tüm öne
  Evet, ücretsiz deneme sürümünden yararlanabilirsiniz.[Aspose.Slides ücretsiz deneme sayfası](https://releases.aspose.com/).
 ### Aspose.Slides for Java için daha fazla örneği ve belgeyi nerede bulabilirim?
  Kapsamlı belgeleri ve örnekleri şurada bulabilirsiniz:[Aspose.Slides dokümantasyon sayfası](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

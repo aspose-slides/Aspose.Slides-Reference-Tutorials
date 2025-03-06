@@ -3,10 +3,16 @@ title: Lägg till anpassade underordnade noder i SmartArt med Java
 linktitle: Lägg till anpassade underordnade noder i SmartArt med Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du lägger till anpassade underordnade noder till SmartArt i PowerPoint-presentationer med Java med Aspose.Slides. Förbättra dina bilder med professionell grafik utan ansträngning.
-type: docs
 weight: 11
 url: /sv/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till anpassade underordnade noder i SmartArt med Java
+
 ## Introduktion
 SmartArt är en kraftfull funktion i PowerPoint som låter användare skapa professionell grafik snabbt och enkelt. I den här handledningen kommer vi att lära oss hur du lägger till anpassade underordnade noder till SmartArt med Java med Aspose.Slides.
 ## Förutsättningar
@@ -79,3 +85,9 @@ Absolut! Med Aspose.Slides för Java kan du programmässigt anpassa utseendet, s
 Ja, du kan hitta omfattande dokumentation och tillgång till community supportforum på Asposes webbplats.
 ### Finns det en testversion tillgänglig för Aspose.Slides för Java?
  Ja, du kan ladda ner en gratis testversion av Aspose.Slides för Java från webbplatsen för att utforska dess funktioner och möjligheter innan du gör ett köp[här](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

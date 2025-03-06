@@ -3,10 +3,16 @@ title: Powiel slajd na koniec istniejącej prezentacji
 linktitle: Powiel slajd na koniec istniejącej prezentacji
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak powielić i dodać slajd na końcu istniejącej prezentacji programu PowerPoint za pomocą Aspose.Slides dla .NET. Ten przewodnik krok po kroku zawiera przykłady kodu źródłowego i obejmuje konfigurację, powielanie slajdów, modyfikację i inne.
-type: docs
 weight: 22
 url: /pl/net/slide-access-and-manipulation/clone-slide-within-same-presentation-to-end/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Powiel slajd na koniec istniejącej prezentacji
+
 
 ## Wprowadzenie do Aspose.Slides dla .NET
 
@@ -96,3 +102,9 @@ Tak, Aspose.Slides obsługuje różne formaty programu PowerPoint, w tym PPT, PP
 ### Czy mogę modyfikować zawartość slajdów za pomocą Aspose.Slides?
 
 Absolutnie! Aspose.Slides pozwala nie tylko powielać slajdy, ale także programowo manipulować ich zawartością, taką jak tekst, obrazy, kształty i animacje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Slaydı Farklı Sunumda Tam Konuma Kopyala
 linktitle: Slaydı Farklı Sunumda Tam Konuma Kopyala
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak slaytları farklı sunumlardaki belirli konumlara nasıl kopyalayacağınızı öğrenin. Bu adım adım kılavuz, kusursuz PowerPoint düzenlemesi için kaynak kodu ve talimatlar sağlar.
-type: docs
 weight: 18
 url: /tr/net/slide-access-and-manipulation/clone-slide-to-specific-position-in-another-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Slaydı Farklı Sunumda Tam Konuma Kopyala
+
 
 ## Aspose.Slides for .NET'e Giriş
 
@@ -94,3 +100,9 @@ Evet, Aspose.Slides metin, resim, şekil ve daha fazlasını içeren slayt içer
 ### Aspose.Slides için daha fazla belge ve örneği nerede bulabilirim?
 
  Aspose.Slides for .NET'e ilişkin kapsamlı belgeleri ve örnekleri belgelerde bulabilirsiniz:[Aspose.Slides for .NET Belgeleri](https://reference.aspose.com/slides/net/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Jak extrahovat video ze snímku pomocí Aspose.Slides pro .NET
 linktitle: Extrahujte video ze snímku
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se extrahovat videa ze snímků aplikace PowerPoint pomocí Aspose.Slides for .NET. Tento podrobný průvodce vám celý proces zjednoduší.
-type: docs
 weight: 14
 url: /cs/net/audio-and-video-extraction/extract-video/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jak extrahovat video ze snímku pomocí Aspose.Slides pro .NET
+
 
 Aspose.Slides for .NET je výkonná knihovna, která umožňuje pracovat s prezentacemi aplikace PowerPoint v prostředí .NET. Jednou z užitečných funkcí, které poskytuje, je možnost extrahovat videa ze snímků. V tomto podrobném průvodci vám ukážeme, jak extrahovat video ze snímku aplikace PowerPoint pomocí Aspose.Slides for .NET.
 
@@ -110,3 +116,9 @@ Aspose.Slides for .NET je knihovna, která umožňuje aplikacím .NET pracovat s
 
 ### Kde mohu získat podporu pro Aspose.Slides pro .NET?
  Podporu najdete na[Fórum Aspose.Slides](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在不載入 Java 投影片的情況下驗證簡報
 linktitle: 在不載入 Java 投影片的情況下驗證簡報
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 驗證簡報而不將它們載入到 Java Slides 中。透過此逐步指南有效確保文件完整性。
-type: docs
 weight: 18
 url: /zh-hant/java/additional-utilities/verify-presentation-without-loading-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在不載入 Java 投影片的情況下驗證簡報
+
 
 ## 在 Java 投影片中無需載入即可驗證簡報的簡介
 
@@ -80,3 +86,9 @@ int format = PresentationFactory.getInstance().getPresentationInfo(dataDir + "He
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的更多資源和文件？
 
 您可以存取 Aspose.Slides for Java 的全面文件和資源：[這裡](https://reference.aspose.com/slides/java/)。本文檔將幫助您掌握 API 及其功能。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

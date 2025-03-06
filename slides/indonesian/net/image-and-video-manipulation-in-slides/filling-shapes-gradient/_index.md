@@ -3,10 +3,16 @@ title: Buat Gradien Menakjubkan di PowerPoint dengan Aspose.Slides
 linktitle: Mengisi Bentuk dengan Gradien di Slide Presentasi menggunakan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Sempurnakan presentasi Anda dengan Aspose.Slides untuk .NET! Pelajari proses langkah demi langkah mengisi bentuk dengan gradien. Unduh uji coba gratis Anda sekarang!
-type: docs
 weight: 21
 url: /id/net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Gradien Menakjubkan di PowerPoint dengan Aspose.Slides
+
 ## Perkenalan
 Membuat slide presentasi yang menawan secara visual sangat penting untuk menarik dan mempertahankan perhatian audiens Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses menyempurnakan slide Anda dengan mengisi bentuk elips dengan gradien menggunakan Aspose.Slides untuk .NET.
 ## Prasyarat
@@ -73,3 +79,9 @@ J: Tentu saja! Aspose.Slides untuk .NET mendukung pengisian gradien untuk berbag
  J: Mencari bantuan dan terlibat dengan komunitas di[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).
 ### T: Bisakah saya membeli lisensi sementara Aspose.Slides untuk .NET?
  A: Tentu saja, Anda bisa mendapatkan lisensi sementara[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

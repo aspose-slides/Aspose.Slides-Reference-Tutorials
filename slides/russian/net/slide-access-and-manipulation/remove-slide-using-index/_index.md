@@ -3,10 +3,16 @@ title: Удалить слайд по последовательному инд�
 linktitle: Удалить слайд по последовательному индексу
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как шаг за шагом удалить слайды PowerPoint с помощью Aspose.Slides для .NET. Наше руководство содержит четкие инструкции и полный исходный код, которые помогут вам программно удалять слайды по их последовательному индексу.
-type: docs
 weight: 24
 url: /ru/net/slide-access-and-manipulation/remove-slide-using-index/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Удалить слайд по последовательному индексу
+
 
 ## Введение в стирание слайда по последовательному индексу
 
@@ -86,3 +92,9 @@ presentation.Save(outputPath, SaveFormat.Pptx);
 ### Как мне узнать больше об Aspose.Slides для .NET?
 
  Вы можете изучить подробную документацию и справочник по API для Aspose.Slides для .NET на странице[страница документации](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

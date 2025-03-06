@@ -3,10 +3,16 @@ title: แปลงรูปภาพที่ฝัง HTML ใน Java Slides
 linktitle: แปลงรูปภาพที่ฝัง HTML ใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: แปลง PowerPoint เป็น HTML ด้วยรูปภาพที่ฝังไว้ คำแนะนำทีละขั้นตอนโดยใช้ Aspose.Slides สำหรับ Java เรียนรู้การแปลงการนำเสนออัตโนมัติใน Java ได้อย่างง่ายดาย
-type: docs
 weight: 11
 url: /th/java/presentation-conversion/convert-html-embedding-images-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แปลงรูปภาพที่ฝัง HTML ใน Java Slides
+
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการแปลงรูปภาพที่ฝัง HTML ใน Java Slides
 
@@ -125,3 +131,10 @@ try {
 ### ฉันจะจัดการกับข้อผิดพลาดระหว่างการแปลงได้อย่างไร
 
 คุณสามารถล้อมโค้ดการแปลงไว้ในบล็อก try-catch เพื่อจัดการกับข้อยกเว้นที่อาจเกิดขึ้นระหว่างกระบวนการแปลง
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

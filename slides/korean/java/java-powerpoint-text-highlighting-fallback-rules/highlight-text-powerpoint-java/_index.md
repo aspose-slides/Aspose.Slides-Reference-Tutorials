@@ -3,10 +3,16 @@ title: Java를 사용하여 PowerPoint에서 텍스트 강조 표시
 linktitle: Java를 사용하여 PowerPoint에서 텍스트 강조 표시
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint에서 텍스트를 강조 표시하는 방법을 알아보세요. 자세한 가이드를 통해 프레젠테이션을 손쉽게 자동화하고 향상하세요.
-type: docs
 weight: 10
 url: /ko/java/java-powerpoint-text-highlighting-fallback-rules/highlight-text-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PowerPoint에서 텍스트 강조 표시
+
 ## 소개
 시각적 커뮤니케이션이 비즈니스 프레젠테이션과 교육 자료에서 중추적인 역할을 하는 오늘날의 디지털 시대에 PowerPoint 프레젠테이션을 프로그래밍 방식으로 조작하고 향상시킬 수 있는 능력을 갖는 것은 중요한 이점입니다. Aspose.Slides for Java는 개발자에게 Java 프로그래밍 언어를 사용하여 PowerPoint 슬라이드를 원활하게 통합하고 조작할 수 있는 강력한 도구 세트를 제공합니다. 프레젠테이션 생성을 자동화하든, 기존 프레젠테이션을 수정하든, 슬라이드에서 데이터를 추출하든 Aspose.Slides for Java는 이러한 작업을 효율적으로 수행하는 데 필요한 기능을 제공합니다.
 ## 전제 조건
@@ -62,3 +68,9 @@ Aspose.Slides for Java는 개발자가 Microsoft Office 또는 PowerPoint를 설
 Aspose.Slides for Java는 PPTX, PPT, PDF 등을 포함한 다양한 형식으로 프레젠테이션 저장을 지원합니다.
 ### Aspose.Slides for Java는 Java SE 개발 키트와 호환됩니까?
 예, Aspose.Slides for Java는 Java SE 개발 키트와 호환됩니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Προσθήκη στήλης σε πλαίσια κειμένου με �
 linktitle: Προσθήκη στήλης σε πλαίσια κειμένου με το Aspose.Slides για Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε στήλες σε πλαίσια κειμένου στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε τις παρουσιάσεις σας με αυτόν τον οδηγό βήμα προς βήμα.
-type: docs
 weight: 10
 url: /el/java/java-powerpoint-text-box-manipulation/add-column-in-text-boxes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη στήλης σε πλαίσια κειμένου με το Aspose.Slides για Java
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να βελτιώσουμε τα πλαίσια κειμένου προσθέτοντας στήλες χρησιμοποιώντας το Aspose.Slides για Java. Το Aspose.Slides είναι μια ισχυρή βιβλιοθήκη Java που επιτρέπει στους προγραμματιστές να δημιουργούν, να χειρίζονται και να μετατρέπουν παρουσιάσεις PowerPoint μέσω προγραμματισμού χωρίς να απαιτείται το Microsoft Office. Η προσθήκη στηλών σε πλαίσια κειμένου μπορεί να βελτιώσει σημαντικά την αναγνωσιμότητα και την οργάνωση του περιεχομένου μέσα στις διαφάνειες, κάνοντας τις παρουσιάσεις σας πιο ελκυστικές και επαγγελματικές.
 ## Προαπαιτούμενα
@@ -82,3 +88,9 @@ try {
 Όχι, το Aspose.Slides δεν απαιτεί εγκατάσταση του Microsoft Office στο μηχάνημα.
 ### Πού μπορώ να βρω περισσότερη τεκμηρίωση σχετικά με το Aspose.Slides για Java;
  Λεπτομερής τεκμηρίωση είναι διαθέσιμη[εδώ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

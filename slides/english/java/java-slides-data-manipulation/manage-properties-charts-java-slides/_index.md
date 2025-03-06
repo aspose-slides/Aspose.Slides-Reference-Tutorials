@@ -3,10 +3,16 @@ title: Manage Properties Charts in Java Slides
 linktitle: Manage Properties Charts in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn to create stunning charts and manage properties in Java slides with Aspose.Slides. Step-by-step guide with source code for powerful presentations.
-type: docs
 weight: 13
 url: /java/data-manipulation/manage-properties-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manage Properties Charts in Java Slides
+
 
 ## Introduction to Managing Properties and Charts in Java Slides using Aspose.Slides
 
@@ -198,3 +204,10 @@ To set a different rotation angle for the X and Y axes, use `chart.getRotation3D
 ### What other 3D properties can I customize?
 
 You can explore other 3D properties of the chart, such as depth, perspective, and lighting, by referring to the Aspose.Slides documentation.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

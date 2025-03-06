@@ -3,10 +3,16 @@ title: Tambahkan Animasi ke Bentuk di PowerPoint
 linktitle: Tambahkan Animasi ke Bentuk di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan animasi ke bentuk di PowerPoint menggunakan Aspose.Slides untuk Java dengan tutorial mendetail ini. Sempurna untuk membuat presentasi yang menarik.
-type: docs
 weight: 10
 url: /id/java/java-powerpoint-animation-shape-manipulation/add-animations-to-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Animasi ke Bentuk di PowerPoint
+
 ## Perkenalan
 Membuat presentasi yang menarik sering kali memerlukan penambahan animasi pada bentuk dan teks. Animasi dapat membuat slide Anda lebih dinamis dan menawan, sehingga memastikan audiens Anda tetap tertarik. Dalam tutorial ini, kami akan memandu Anda melalui proses menambahkan animasi ke bentuk dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Di akhir artikel ini, Anda akan dapat membuat animasi profesional dengan mudah.
 ## Prasyarat
@@ -108,3 +114,9 @@ Aspose.Slides mendukung Java SE 6 dan yang lebih baru.
 Anda dapat menambahkan animasi berbeda ke beberapa bentuk dengan mengulangi langkah-langkah untuk setiap bentuk dan menentukan efek berbeda sesuai kebutuhan.
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi?
  Lihat[dokumentasi](https://reference.aspose.com/slides/java/) Dan[forum dukungan](https://forum.aspose.com/c/slides/11)untuk lebih banyak contoh dan bantuan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

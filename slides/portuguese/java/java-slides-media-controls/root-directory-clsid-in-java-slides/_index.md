@@ -3,10 +3,16 @@ title: ClsId do diretório raiz em slides Java
 linktitle: ClsId do diretório raiz em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como definir o ClsId do diretório raiz em Aspose.Slides para apresentações Java. Personalize o comportamento do hiperlink com CLSID.
-type: docs
 weight: 10
 url: /pt/java/media-controls/root-directory-clsid-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ClsId do diretório raiz em slides Java
+
 
 ## Introdução à configuração do ClsId do diretório raiz em Aspose.Slides para Java
 
@@ -107,3 +113,9 @@ Não, o ClsId do diretório raiz normalmente é definido no nível da apresenta�
 ### Há alguma limitação nos CLSIDs que posso usar?
 
 Os CLSIDs que você pode usar geralmente são determinados pelos aplicativos instalados no sistema. Você deve usar CLSIDs que correspondam a aplicativos válidos capazes de manipular hiperlinks. Esteja ciente de que usar um CLSID inválido pode resultar em comportamento inesperado.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

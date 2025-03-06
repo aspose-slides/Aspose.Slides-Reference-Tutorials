@@ -3,10 +3,16 @@ title: Fügen Sie in PowerPoint einen Bilderrahmen mit relativer Maßstabhöhe h
 linktitle: Fügen Sie in PowerPoint einen Bilderrahmen mit relativer Maßstabhöhe hinzu
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Bilderrahmen mit relativer Maßstabhöhe in PowerPoint-Präsentationen einfügen und so Ihre visuellen Inhalte verbessern.
-type: docs
 weight: 15
 url: /de/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-picture-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie in PowerPoint einen Bilderrahmen mit relativer Maßstabhöhe hinzu
+
 ## Einführung
 In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java einen Bilderrahmen mit relativer Skalenhöhe in PowerPoint-Präsentationen einfügen.
 ## Voraussetzungen
@@ -68,3 +74,9 @@ Aspose.Slides für Java ist mit verschiedenen Versionen von PowerPoint kompatibe
 Ja, Aspose.Slides für Java unterstützt verschiedene Bildformate, darunter PNG, GIF, BMP und mehr.
 ### Gibt es ein Community-Forum oder einen Support-Kanal für Aspose.Slides-Benutzer?
 Ja, Sie können das Aspose.Slides-Forum für Fragen, Diskussionen oder Hilfe zur Bibliothek besuchen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

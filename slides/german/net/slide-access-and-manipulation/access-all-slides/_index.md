@@ -3,10 +3,16 @@ title: Alle Folien einer Präsentation abrufen
 linktitle: Alle Folien einer Präsentation abrufen
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET alle Folien einer PowerPoint-Präsentation abrufen. Folgen Sie dieser Schritt-für-Schritt-Anleitung mit vollständigem Quellcode, um effizient programmgesteuert mit Präsentationen zu arbeiten. Entdecken Sie Folieneigenschaften, Installation, Anpassung und mehr.
-type: docs
 weight: 13
 url: /de/net/slide-access-and-manipulation/access-all-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alle Folien einer Präsentation abrufen
+
 
 ## Einführung in Aspose.Slides für .NET
 
@@ -139,3 +145,9 @@ Auf jeden Fall. Mit der umfangreichen API von Aspose.Slides können Sie Ihren Fo
 ### Wo finde ich weitere Informationen zu Aspose.Slides für .NET?
 
  Ausführlichere Informationen, API-Referenzen und Codebeispiele finden Sie unter[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

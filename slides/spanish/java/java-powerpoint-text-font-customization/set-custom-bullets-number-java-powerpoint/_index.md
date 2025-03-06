@@ -3,10 +3,16 @@ title: Establecer un número de viñetas personalizado en Java PowerPoint
 linktitle: Establecer un número de viñetas personalizado en Java PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a configurar números de viñetas personalizados en Java PowerPoint con Aspose.Slides, mejorando la claridad y estructura de la presentación mediante programación.
-type: docs
 weight: 15
 url: /es/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Establecer un número de viñetas personalizado en Java PowerPoint
+
 ## Introducción
 En la era digital actual, crear presentaciones dinámicas es crucial para comunicar ideas y datos de manera efectiva. Aspose.Slides para Java proporciona un potente conjunto de herramientas para manipular presentaciones de PowerPoint mediante programación, ofreciendo amplias funciones para mejorar el proceso de creación de presentaciones. Este artículo profundiza en la configuración de números de viñetas personalizados en presentaciones de PowerPoint de Java utilizando Aspose.Slides. Ya sea que sea un desarrollador experimentado o un recién llegado, este tutorial lo guiará paso a paso a través del proceso, asegurándole que pueda aprovechar esta capacidad de manera eficiente.
 ## Requisitos previos
@@ -82,3 +88,9 @@ Aspose.Slides admite formatos de PowerPoint desde 97-2003 hasta las últimas ver
  Sí, puedes descargar una prueba gratuita desde[aquí](https://releases.aspose.com/).
 ### ¿Dónde puedo comprar Aspose.Slides?
  Puedes comprar Aspose.Slides desde[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

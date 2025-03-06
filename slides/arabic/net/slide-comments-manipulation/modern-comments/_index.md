@@ -3,10 +3,16 @@ title: إدارة التعليقات الحديثة باستخدام Aspose.Slid
 linktitle: إدارة التعليقات الحديثة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إدارة التعليقات الحديثة في عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. التعاون دون عناء!
-type: docs
 weight: 14
 url: /ar/net/slide-comments-manipulation/modern-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة التعليقات الحديثة باستخدام Aspose.Slides
+
 
 Aspose.Slides for .NET هي مكتبة قوية تتيح للمطورين العمل مع عروض PowerPoint التقديمية برمجياً. إحدى الميزات التي يقدمها هي إدارة التعليقات الحديثة، والتي تمكنك من إضافة التعليقات وتعديلها والتفاعل معها في العروض التقديمية الخاصة بك بسلاسة. في هذا الدليل المفصّل خطوة بخطوة، سنرشدك خلال عملية إدارة التعليقات الحديثة باستخدام Aspose.Slides for .NET.
 
@@ -109,3 +115,9 @@ pres.Save(outPptxFile, SaveFormat.Pptx);
 ### 5. هل يمكنني تجربة Aspose.Slides لـ .NET قبل شرائه؟
 
  بالتأكيد! يمكنك الوصول إلى نسخة تجريبية مجانية من Aspose.Slides لـ .NET من[رابط تجريبي مجاني](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

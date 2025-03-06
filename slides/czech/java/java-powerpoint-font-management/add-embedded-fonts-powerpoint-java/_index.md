@@ -3,10 +3,16 @@ title: Přidejte vložená písma v PowerPointu pomocí Java
 linktitle: Přidejte vložená písma v PowerPointu pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se přidávat vložená písma do prezentací PowerPoint pomocí Javy s Aspose.Slides pro Javu. Zajistěte konzistentní zobrazení napříč zařízeními.
-type: docs
 weight: 10
 url: /cs/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte vložená písma v PowerPointu pomocí Java
+
 ## Úvod
 V tomto tutoriálu vás provedeme procesem přidávání vložených písem do prezentací PowerPoint pomocí Javy, konkrétně s využitím Aspose.Slides pro Javu. Vložená písma zajistí, že vaše prezentace bude vypadat konzistentně na různých zařízeních, i když původní písmo není k dispozici. Pojďme se ponořit do kroků:
 ## Předpoklady
@@ -69,3 +75,9 @@ Ano, vkládání písem může mírně zvětšit velikost souboru prezentace, al
 Aspose.Slides for Java podporuje vkládání písem TrueType, které pokrývají širokou škálu písem běžně používaných v prezentacích.
 ### Mohu vkládat fonty programově pomocí Aspose.Slides pro Javu?
 Ano, jak je ukázáno v tomto tutoriálu, můžete fonty vkládat programově pomocí Aspose.Slides for Java API.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

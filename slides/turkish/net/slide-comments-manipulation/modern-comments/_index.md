@@ -3,10 +3,16 @@ title: Aspose.Slides kullanarak Modern Yorum Yönetimi
 linktitle: Modern Yorum Yönetimi
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak PowerPoint sunumlarındaki modern yorumları nasıl yöneteceğinizi öğrenin. Zahmetsizce işbirliği yapın!
-type: docs
 weight: 14
 url: /tr/net/slide-comments-manipulation/modern-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides kullanarak Modern Yorum Yönetimi
+
 
 Aspose.Slides for .NET, geliştiricilerin PowerPoint sunumlarıyla programlı olarak çalışmasına olanak tanıyan güçlü bir kitaplıktır. Sunduğu özelliklerden biri, sunumlarınıza sorunsuz bir şekilde yorum eklemenizi, değiştirmenizi ve yorumlarla etkileşimde bulunmanızı sağlayan modern yorum yönetimidir. Bu adım adım kılavuzda, Aspose.Slides for .NET'i kullanarak modern yorumları yönetme sürecinde size yol göstereceğiz.
 
@@ -109,3 +115,9 @@ Yorum nesnelerine erişerek ve Aspose.Slides'ta sağlanan yöntemleri kullanarak
 ### 5. Aspose.Slides for .NET'i satın almadan önce deneyebilir miyim?
 
  Kesinlikle! Aspose.Slides for .NET'in ücretsiz deneme sürümüne şu adresten erişebilirsiniz:[ücretsiz deneme bağlantısı](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java Slaytlarındaki Ağaç Haritası Grafiği
 linktitle: Java Slaytlarındaki Ağaç Haritası Grafiği
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java Slaytlarında Ağaç Haritası Grafikleri oluşturun. Hiyerarşik verileri görselleştirmek için kaynak kodlu adım adım kılavuz.
-type: docs
 weight: 13
 url: /tr/java/chart-creation/tree-map-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarındaki Ağaç Haritası Grafiği
+
 
 ## Java Slaytlarında Ağaç Haritası Grafiğine Giriş
 
@@ -152,3 +158,9 @@ Evet, aynı adımları izleyerek ve farklı slayt konumları belirterek tek bir 
 ### Sunuyu Ağaç Haritası grafiğiyle nasıl kaydederim?
 
  Kullan`pres.save()` Sunumu Ağaç Haritası grafiğiyle istenen formatta (örneğin, PPTX) kaydetme yöntemini kullanın.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

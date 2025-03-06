@@ -3,10 +3,16 @@ title: PowerPoint'te Şekilleri Degradeyle Doldurun
 linktitle: PowerPoint'te Şekilleri Degradeyle Doldurun
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Bu ayrıntılı, adım adım kılavuzla Aspose.Slides for Java'yı kullanarak PowerPoint'te şekilleri degradeyle nasıl dolduracağınızı öğrenin.
-type: docs
 weight: 10
 url: /tr/java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint'te Şekilleri Degradeyle Doldurun
+
 ## giriiş
 Görsel olarak çekici PowerPoint sunumları oluşturmak, izleyicilerinizi büyülemek için çok önemlidir. Slaytlarınızı geliştirmenin etkili yollarından biri şekilleri degradelerle doldurmaktır. Bu eğitim, PowerPoint'te şekilleri degradelerle doldurmak için Aspose.Slides for Java'yı kullanma sürecinde size rehberlik edecektir. İster deneyimli bir geliştirici olun ister yeni başlıyor olun, bu kılavuzu yararlı ve takip edilmesi kolay bulacaksınız. Haydi degradelerin dünyasına dalalım ve bunların sunumlarınızı nasıl dönüştürebileceğini görelim.
 ## Önkoşullar
@@ -106,3 +112,9 @@ Degrade durakları, degrade içindeki rengi ve degrade içindeki konumunu tanım
  Destek için şu adresi ziyaret edin:[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11).
 ### Aspose.Slides for Java'nın en son sürümünü nereden indirebilirim?
  En son sürümü adresinden indirebilirsiniz.[Aspose.Slides indirme sayfası](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java Slaytlarındaki Grafik Veri Hücresi Formülleri
 linktitle: Java Slaytlarındaki Grafik Veri Hücresi Formülleri
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak Java PowerPoint sunumlarında grafik veri hücresi formüllerini nasıl ayarlayacağınızı öğrenin. Formüllerle dinamik grafikler oluşturun.
-type: docs
 weight: 11
 url: /tr/java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarındaki Grafik Veri Hücresi Formülleri
+
 
 ## Aspose.Slides for Java'da Grafik Veri Hücresi Formüllerine Giriş
 
@@ -122,3 +128,9 @@ Evet, veri hücresi formüllerinde matematiksel işlemler, işlevler ve diğer h
 ### Grafik türünü nasıl değiştiririm?
 
  Grafik türünü kullanarak değiştirebilirsiniz.`setChartType` konusundaki yöntem`IChart` nesne ve istenilenin belirtilmesi`ChartType`.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

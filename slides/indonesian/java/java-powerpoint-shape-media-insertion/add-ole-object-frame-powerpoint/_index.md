@@ -3,10 +3,16 @@ title: Tambahkan Bingkai Objek OLE di PowerPoint
 linktitle: Tambahkan Bingkai Objek OLE di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengintegrasikan OLE Object Frames ke dalam presentasi PowerPoint dengan lancar menggunakan Aspose.Slides untuk Java.
-type: docs
 weight: 13
 url: /id/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Bingkai Objek OLE di PowerPoint
+
 ## Perkenalan
 Menambahkan Bingkai Objek OLE (Object Linking and Embedding) dalam presentasi PowerPoint dapat meningkatkan daya tarik visual dan fungsionalitas slide Anda secara signifikan. Dengan Aspose.Slides untuk Java, proses ini menjadi efisien dan efisien. Dalam tutorial ini, kami akan memandu Anda melalui langkah-langkah yang diperlukan untuk mengintegrasikan OLE Object Frames ke dalam presentasi PowerPoint Anda dengan lancar.
 ### Prasyarat
@@ -80,3 +86,9 @@ Sangat! Aspose.Slides menawarkan opsi ekstensif untuk menyesuaikan tampilan dan 
  Ya, Anda dapat mengunduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
 ### Di mana saya dapat menemukan dukungan untuk Aspose.Slides untuk Java?
  Anda dapat mencari dukungan dan bantuan dari forum Aspose.Slides[Di Sini](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

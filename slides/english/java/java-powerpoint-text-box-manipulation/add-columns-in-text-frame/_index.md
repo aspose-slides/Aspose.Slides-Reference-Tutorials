@@ -3,10 +3,16 @@ title: Add Columns in Text Frame using Aspose.Slides for Java
 linktitle: Add Columns in Text Frame using Aspose.Slides for Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to add columns in text frames using Aspose.Slides for Java to enhance your PowerPoint presentations. Our step-by-step guide simplifies the process.
-type: docs
 weight: 11
 url: /java/java-powerpoint-text-box-manipulation/add-columns-in-text-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Add Columns in Text Frame using Aspose.Slides for Java
+
 ## Introduction
 In this tutorial, we will explore how to manipulate text frames to add columns using Aspose.Slides for Java. Aspose.Slides is a powerful library that enables Java developers to create, manipulate, and convert PowerPoint presentations programmatically. Adding columns to text frames enhances the visual appeal and organization of text within slides, making presentations more engaging and easier to read.
 ## Prerequisites
@@ -81,3 +87,10 @@ Yes, you can download a free trial [here](https://releases.aspose.com/).
 Detailed documentation is available [here](https://reference.aspose.com/slides/java/).
 ### How can I get technical support for Aspose.Slides for Java?
 You can seek support from the community [here](https://forum.aspose.com/c/slides/11).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Root Directory ClsId i Java Slides
 linktitle: Root Directory ClsId i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ställer in Root Directory ClsId i Aspose.Slides för Java-presentationer. Anpassa hyperlänkbeteende med CLSID.
-type: docs
 weight: 10
 url: /sv/java/media-controls/root-directory-clsid-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Root Directory ClsId i Java Slides
+
 
 ## Introduktion till inställning av Root Directory ClsId i Aspose.Slides för Java
 
@@ -107,3 +113,9 @@ Nej, rotkatalogens ClsId är vanligtvis inställt på presentationsnivå och gä
 ### Finns det några begränsningar för de CLSID jag kan använda?
 
 De CLSID:n du kan använda bestäms vanligtvis av de applikationer som är installerade på systemet. Du bör använda CLSID som motsvarar giltiga applikationer som kan hantera hyperlänkar. Tänk på att användning av ett ogiltigt CLSID kan resultera i oväntat beteende.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

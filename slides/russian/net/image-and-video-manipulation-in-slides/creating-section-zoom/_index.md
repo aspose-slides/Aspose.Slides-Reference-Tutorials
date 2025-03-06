@@ -3,10 +3,16 @@ title: Масштаб раздела Aspose.Slides — улучшите каче
 linktitle: Создание масштабирования раздела на слайдах презентации с помощью Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как создавать привлекательные слайды презентации с масштабированием разделов с помощью Aspose.Slides для .NET. Улучшите свои презентации с помощью интерактивных функций.
-type: docs
 weight: 13
 url: /ru/net/image-and-video-manipulation-in-slides/creating-section-zoom/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Масштаб раздела Aspose.Slides — улучшите качество своих презентаций
+
 ## Введение
 Расширение слайдов презентации с помощью интерактивных функций имеет решающее значение для поддержания заинтересованности вашей аудитории. Одним из эффективных способов добиться этого является масштабирование разделов, позволяющее плавно перемещаться между различными разделами презентации. В этом уроке мы рассмотрим, как создавать масштабирование разделов на слайдах презентации с помощью Aspose.Slides для .NET.
 ## Предварительные условия
@@ -70,3 +76,9 @@ pres.Save(resultPath, SaveFormat.Pptx);
  Да, вы можете изучить возможности Aspose.Slides, используя[бесплатная пробная версия](https://releases.aspose.com/).
 ### Где я могу получить поддержку по запросам, связанным с Aspose.Slides?
  Для получения поддержки или вопросов посетите[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

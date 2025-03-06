@@ -3,10 +3,16 @@ title: Szövegforgatás a PowerPointban Java használatával
 linktitle: Szövegforgatás a PowerPointban Java használatával
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan forgathat el szöveget a PowerPointban Java használatával az Aspose.Slides segítségével. Lépésről lépésre bemutató oktatóanyag kezdőknek és haladóknak.
-type: docs
 weight: 10
 url: /hu/java/java-powerpoint-text-font-customization/rotate-text-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Szövegforgatás a PowerPointban Java használatával
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan lehet programozottan forgatni szöveget PowerPoint-prezentációkban Java és Aspose.Slides használatával. A szöveg elforgatása hasznos funkció lehet diák tervezésekor, hogy tetszetős prezentációkat hozzon létre.
 ## Előfeltételek
@@ -75,3 +81,9 @@ Természetesen az Aspose.Slides átfogó API-kat biztosít a különféle szöve
  Részletes dokumentációért látogasson el ide[Aspose.Slides a Java dokumentációhoz](https://reference.aspose.com/slides/java/) . Támogatást is kérhet a közösségtől a címen[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
 ### Hogyan szerezhetek ideiglenes licencet az Aspose.Slides számára?
  Ideiglenes jogosítványt szerezhet be[itt](https://purchase.aspose.com/temporary-license/)hogy értékelje Aspose.Diák korlátozások nélkül.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

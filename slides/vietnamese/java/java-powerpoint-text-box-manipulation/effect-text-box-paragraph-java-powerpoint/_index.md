@@ -3,10 +3,16 @@ title: Đoạn văn bản hiệu ứng trong Java PowerPoint
 linktitle: Đoạn văn bản hiệu ứng trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách cải thiện bản trình bày PowerPoint bằng Java bằng các hiệu ứng văn bản động bằng cách sử dụng Aspose.Slides để tích hợp và tùy chỉnh liền mạch.
-type: docs
 weight: 16
 url: /vi/java/java-powerpoint-text-box-manipulation/effect-text-box-paragraph-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đoạn văn bản hiệu ứng trong Java PowerPoint
+
 ## Giới thiệu
 Aspose.Slides dành cho Java trao quyền cho các nhà phát triển thao tác với các bản trình bày PowerPoint theo chương trình, cung cấp một bộ tính năng mạnh mẽ để tạo, sửa đổi và chuyển đổi các trang chiếu. Hướng dẫn này đi sâu vào việc tận dụng Aspose.Slides để thêm và quản lý các hiệu ứng trong hộp văn bản, nâng cao tính linh hoạt của bản trình bày thông qua mã Java.
 ## Điều kiện tiên quyết
@@ -60,3 +66,9 @@ Aspose.Slides for Java hỗ trợ Java 6 trở lên.
  Bạn có thể nhận được giấy phép tạm thời từ[đây](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for Java có hỗ trợ các định dạng tệp PowerPoint khác ngoài .pptx không?
 Có, nó hỗ trợ nhiều định dạng PowerPoint khác nhau bao gồm .ppt, .pptx, .pptm, v.v.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

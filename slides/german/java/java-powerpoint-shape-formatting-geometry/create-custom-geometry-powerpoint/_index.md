@@ -3,10 +3,16 @@ title: Erstellen Sie benutzerdefinierte Geometrie in PowerPoint
 linktitle: Erstellen Sie benutzerdefinierte Geometrie in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java benutzerdefinierte geometrische Formen in PowerPoint erstellen. Diese Anleitung hilft Ihnen dabei, Ihre Präsentationen mit einzigartigen Formen zu verbessern.
-type: docs
 weight: 21
 url: /de/java/java-powerpoint-shape-formatting-geometry/create-custom-geometry-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen Sie benutzerdefinierte Geometrie in PowerPoint
+
 ## Einführung
 Das Erstellen benutzerdefinierter Formen und Geometrien in PowerPoint kann die visuelle Attraktivität Ihrer Präsentationen erheblich steigern. Aspose.Slides für Java ist eine leistungsstarke Bibliothek, mit der Entwickler PowerPoint-Dateien programmgesteuert bearbeiten können. In diesem Tutorial erfahren Sie, wie Sie mit Aspose.Slides für Java benutzerdefinierte Geometrie, insbesondere eine Sternform, in einer PowerPoint-Folie erstellen. Tauchen Sie ein!
 ## Voraussetzungen
@@ -106,3 +112,9 @@ Aspose.Slides für Java bietet eine kostenlose Testversion. Für die erweiterte 
 Es ist keine besondere Einrichtung erforderlich, außer dass Sie JDK installieren und die Aspose.Slides-Bibliothek in Ihr Projekt einbinden müssen.
 ### Wo erhalte ich Support für Aspose.Slides?
  Unterstützung erhalten Sie vom[Aspose.Slides Support-Forum](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

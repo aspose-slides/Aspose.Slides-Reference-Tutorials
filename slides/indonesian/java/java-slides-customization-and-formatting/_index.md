@@ -3,10 +3,16 @@ title: Kustomisasi dan Pemformatan Slide Java
 linktitle: Kustomisasi dan Pemformatan Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Temukan kekuatan Aspose.Slides untuk Java dalam menyesuaikan dan memformat slide Java. Pelajari langkah demi langkah dalam tutorial kami. Tingkatkan keterampilan presentasi Anda.
-type: docs
 weight: 12
 url: /id/java/customization-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kustomisasi dan Pemformatan Slide Java
+
 
  Pada artikel ini, kita akan mempelajari dunia penyesuaian dan pemformatan slide Java menggunakan Aspose.Slides untuk Java. Baik Anda seorang pengembang berpengalaman atau baru memulai presentasi Java, daftar tutorial kami akan menjadi panduan Anda untuk memanfaatkan potensi penuh Aspose.Slides.|
 
@@ -49,3 +55,9 @@ Pelajari cara mengatur properti font di slide Java menggunakan Aspose.Slides for
 Sempurnakan Grafik Anda dengan Aspose.Slides untuk Java. Pelajari cara mengatur sumbu posisi di slide Java, membuat presentasi yang menakjubkan, dan menyesuaikan tata letak bagan dengan mudah.
 ### [Mengatur Sudut Rotasi di Slide Java](./setting-rotation-angle-java-slides/)
 Optimalkan slide Java Anda dengan Aspose.Slides untuk Java. Pelajari cara mengatur sudut rotasi untuk elemen teks. Panduan langkah demi langkah dengan kode sumber.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

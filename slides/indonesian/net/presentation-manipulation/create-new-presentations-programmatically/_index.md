@@ -3,10 +3,16 @@ title: Buat Presentasi Baru Secara Terprogram
 linktitle: Buat Presentasi Baru Secara Terprogram
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara membuat presentasi secara terprogram menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan kode sumber untuk otomatisasi yang efisien.
-type: docs
 weight: 10
 url: /id/net/presentation-manipulation/create-new-presentations-programmatically/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buat Presentasi Baru Secara Terprogram
+
 
 Jika Anda ingin membuat presentasi secara terprogram di .NET, Aspose.Slides for .NET adalah alat canggih untuk membantu Anda mencapai tugas ini secara efisien. Tutorial langkah demi langkah ini akan memandu Anda melalui proses membuat presentasi baru menggunakan kode sumber yang disediakan.
 
@@ -87,3 +93,9 @@ Sekarang, Anda dapat mulai memasukkan kode ini ke dalam proyek .NET Anda untuk m
 
 4. ### Bisakah saya mencoba Aspose.Slides untuk .NET sebelum membeli?
     Ya, Anda dapat mengunduh uji coba gratis Aspose.Slides untuk .NET[Di Sini](https://releases.aspose.com/). Versi uji coba memiliki keterbatasan, jadi pastikan untuk memeriksa apakah versi tersebut memenuhi kebutuhan Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

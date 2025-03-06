@@ -3,10 +3,16 @@ title: Java Slaytlarındaki Huni Grafiği
 linktitle: Java Slaytlarındaki Huni Grafiği
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Adım adım eğitimlerle Aspose.Slides for Java'yı keşfedin. Çarpıcı huni grafikleri ve daha fazlasını oluşturun.
-type: docs
 weight: 14
 url: /tr/java/chart-elements/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarındaki Huni Grafiği
+
 
 ## Java Slaytlarındaki Huni Grafiğine Giriş
 
@@ -144,3 +150,9 @@ Standart Java istisna işleme mekanizmalarını kullanarak hataları ve istisnal
 ### Aspose.Slides for Java için daha fazla örneği ve belgeyi nerede bulabilirim?
 
  Aspose.Slides for Java kullanımına ilişkin daha fazla örnek ve ayrıntılı belgeyi şu adreste bulabilirsiniz:[dokümantasyon](https://docs.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

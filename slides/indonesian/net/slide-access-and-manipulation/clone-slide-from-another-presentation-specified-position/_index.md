@@ -3,10 +3,16 @@ title: Kloning Slide dari Presentasi Berbeda ke Posisi Tertentu
 linktitle: Kloning Slide dari Presentasi Berbeda ke Posisi Tertentu
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengkloning slide dari presentasi berbeda ke posisi tertentu menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan kode sumber lengkap, mencakup kloning slide, spesifikasi posisi, dan penyimpanan presentasi.
-type: docs
 weight: 16
 url: /id/net/slide-access-and-manipulation/clone-slide-from-another-presentation-specified-position/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kloning Slide dari Presentasi Berbeda ke Posisi Tertentu
+
 
 ## Pengantar Kloning Slide dari Presentasi Berbeda ke Posisi Tertentu
 
@@ -137,3 +143,9 @@ Tentu saja, Anda dapat mengubah konten, format, dan properti slide yang diklonin
 ### Di mana saya dapat menemukan informasi selengkapnya tentang Aspose.Slides untuk .NET?
 
  Anda dapat merujuk ke[dokumentasi](https://reference.aspose.com/slides/net/) untuk informasi detail, contoh, dan referensi API terkait Aspose.Slides untuk .NET.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

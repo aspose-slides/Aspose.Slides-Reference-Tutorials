@@ -3,10 +3,16 @@ title: Java スライドで回転角度を設定する
 linktitle: Java スライドで回転角度を設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して Java スライドを最適化します。テキスト要素の回転角度の設定方法を学習します。ソース コード付きのステップ バイ ステップ ガイド。
-type: docs
 weight: 17
 url: /ja/java/customization-and-formatting/setting-rotation-angle-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java スライドで回転角度を設定する
+
 
 ## Java スライドで回転角度を設定する方法の紹介
 
@@ -100,3 +106,9 @@ Aspose.Slides for Java には、フォント スタイル、色、配置など�
 ### グラフの軸タイトルのテキストの回転をアニメーション化することは可能ですか?
 
 はい、Aspose.Slides for Java を使用して、グラフの軸タイトルなどのテキスト要素にアニメーション効果を追加できます。プレゼンテーションにアニメーションを追加する方法については、ドキュメントを参照してください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

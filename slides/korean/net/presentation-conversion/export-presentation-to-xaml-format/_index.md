@@ -3,10 +3,16 @@ title: 프레젠테이션을 XAML 형식으로 내보내기
 linktitle: 프레젠테이션을 XAML 형식으로 내보내기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 프레젠테이션을 XAML 형식으로 내보내는 방법을 알아보세요. 대화형 콘텐츠를 손쉽게 제작해보세요!
-type: docs
 weight: 27
 url: /ko/net/presentation-conversion/export-presentation-to-xaml-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 프레젠테이션을 XAML 형식으로 내보내기
+
 
 소프트웨어 개발 세계에서는 복잡한 작업을 단순화할 수 있는 도구를 갖추는 것이 필수적입니다. Aspose.Slides for .NET은 PowerPoint 프레젠테이션을 프로그래밍 방식으로 작업할 수 있는 도구 중 하나입니다. 이 단계별 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 프레젠테이션을 XAML 형식으로 내보내는 방법을 살펴보겠습니다. 
 
@@ -113,3 +119,9 @@ Aspose.Slides for .NET은 PowerPoint 프레젠테이션을 프로그래밍 방�
  지원 및 커뮤니티 토론을 찾을 수 있습니다.[여기](https://forum.aspose.com/).
 
  더 많은 튜토리얼과 리소스를 보려면 다음을 방문하세요.[Aspose.Slides API 문서](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Otevřete heslem chráněnou prezentaci v Java Slides
 linktitle: Otevřete heslem chráněnou prezentaci v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Odemknutí prezentací chráněných heslem v Javě. Naučte se otevírat a přistupovat k snímkům PowerPoint chráněným heslem pomocí Aspose.Slides pro Java. Průvodce krok za krokem s kódem.
-type: docs
 weight: 15
 url: /cs/java/additional-utilities/open-password-protected-presentation-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Otevřete heslem chráněnou prezentaci v Java Slides
+
 
 ## Úvod do otevřené heslem chráněné prezentace v Java Slides
 
@@ -113,3 +119,9 @@ Aspose.Slides poskytuje možnost nastavit a změnit heslo pro prezentaci, ale ne
 ### Kde najdu další příklady a dokumentaci k Aspose.Slides pro Javu?
 
  Obsáhlou dokumentaci a další příklady naleznete v[Aspose.Slides pro dokumentaci Java](https://reference.aspose.com/slides/java/) a na[Fórum Aspose.Slides](https://forum.aspose.com/c/slides).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

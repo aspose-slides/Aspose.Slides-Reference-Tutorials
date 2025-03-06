@@ -3,10 +3,16 @@ title: Αποθήκευση ως προκαθορισμένος τύπος πρ�
 linktitle: Αποθήκευση ως προκαθορισμένος τύπος προβολής στις διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε προκαθορισμένους τύπους προβολής σε Java Slides χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα και συχνές ερωτήσεις.
-type: docs
 weight: 10
 url: /el/java/saving-options/save-as-predefined-view-type-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποθήκευση ως προκαθορισμένος τύπος προβολής στις διαφάνειες Java
+
 
 ## Εισαγωγή στην Αποθήκευση ως προκαθορισμένος τύπος προβολής σε διαφάνειες Java
 
@@ -109,3 +115,9 @@ finally
 ### Πού μπορώ να βρω περισσότερες πληροφορίες και τεκμηρίωση για το Aspose.Slides for Java;
 
  Για ολοκληρωμένη τεκμηρίωση και αναφορές σχετικά με το Aspose.Slides για Java, επισκεφτείτε τον ιστότοπο τεκμηρίωσης:[Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

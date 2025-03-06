@@ -3,10 +3,16 @@ title: Clonar diapositiva en una sección especificada en PowerPoint
 linktitle: Clonar diapositiva en una sección especificada en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Clona diapositivas sin esfuerzo en secciones específicas de PowerPoint usando Aspose.Slides para Java. Mejore sus presentaciones con esta guía paso a paso.
-type: docs
 weight: 13
 url: /es/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-section-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Clonar diapositiva en una sección especificada en PowerPoint
+
 ## Introducción
 ¿Está buscando optimizar el proceso de creación de su presentación de PowerPoint? Imagine poder clonar diapositivas sin esfuerzo en secciones específicas de su presentación. Con Aspose.Slides para Java, esto se vuelve muy sencillo. Este tutorial lo guiará a través del proceso, paso a paso, asegurándole que pueda mejorar sus presentaciones con facilidad y precisión.
 ## Requisitos previos
@@ -76,3 +82,9 @@ Sí, Aspose.Slides para Java es compatible con varios marcos Java, lo que lo hac
  La versión de prueba tiene algunas limitaciones. Para obtener todas las funciones, considere obtener un[licencia temporal](https://purchase.aspose.com/temporary-license/).
 ### ¿Dónde puedo encontrar documentación más detallada?
  La documentación detallada está disponible en el[Página de documentación de Aspose.Slides](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

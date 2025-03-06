@@ -3,10 +3,16 @@ title: Aspose.Slides for .NET でスタイリッシュなノート書式設定�
 linktitle: スタイリッシュなノートの書式設定でノートスライドを追加
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、PowerPoint プレゼンテーションにスタイリッシュなメモの書式設定を追加する方法を学びます。記号や箇条書きを使用してスライドを強化します。
-type: docs
 weight: 14
 url: /ja/net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides for .NET でスタイリッシュなノート書式設定を追加する
+
 
 プレゼンテーションの世界では、提供するコンテンツだけでなく、そのプレゼンテーション方法も重要です。スタイリッシュなノートの書式設定は、プレゼンテーションのインパクトを大きく変えることができます。Aspose.Slides for .NET を使用すると、箇条書きや記号を使ったスタイリッシュなノートを追加して、PowerPoint プレゼンテーションを簡単に強化できます。このステップ バイ ステップ ガイドでは、PowerPoint スライドにスタイリッシュなノートの書式設定を追加する手順を説明します。
 
@@ -109,3 +115,9 @@ Aspose.Slides for .NET は、Microsoft PowerPoint ファイルをプログラム
 
 ### Aspose.Slides for .NET 用のコミュニティ フォーラムやサポートはありますか?
 はい、Aspose.Slides for .NET コミュニティ フォーラムでサポートを求めたり、ディスカッションに参加したりできます。[ここ](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

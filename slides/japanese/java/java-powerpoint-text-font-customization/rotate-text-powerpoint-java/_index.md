@@ -3,10 +3,16 @@ title: Java を使用して PowerPoint でテキストを回転する
 linktitle: Java を使用して PowerPoint でテキストを回転する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides で Java を使用して PowerPoint のテキストを回転する方法を学びます。初心者から上級者までを対象としたステップバイステップのチュートリアルです。
-type: docs
 weight: 10
 url: /ja/java/java-powerpoint-text-font-customization/rotate-text-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して PowerPoint でテキストを回転する
+
 ## 導入
 このチュートリアルでは、Java と Aspose.Slides を使用して、PowerPoint プレゼンテーション内のテキストをプログラムで回転させる方法について説明します。テキストの回転は、視覚的に魅力的なプレゼンテーションを作成するためにスライドを設計するときに便利な機能です。
 ## 前提条件
@@ -75,3 +81,9 @@ presentation.save(dataDir + "RotateText_out.pptx", SaveFormat.Pptx);
 詳細なドキュメントについては、[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/)コミュニティからのサポートも受けられます[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).
 ### Aspose.Slides の一時ライセンスを取得するにはどうすればよいですか?
 一時ライセンスは以下から取得できます。[ここ](https://purchase.aspose.com/temporary-license/)Aspose.Slides を制限なく評価します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

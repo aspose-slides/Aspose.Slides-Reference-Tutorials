@@ -3,10 +3,16 @@ title: Especificar las fuentes utilizadas en la presentación con Java
 linktitle: Especificar las fuentes utilizadas en la presentación con Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a especificar fuentes personalizadas en presentaciones de PowerPoint usando Aspose.Slides para Java. Mejore sus diapositivas con tipografía única sin esfuerzo.
-type: docs
 weight: 22
 url: /es/java/java-powerpoint-text-font-customization/specify-fonts-used-presentation-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Especificar las fuentes utilizadas en la presentación con Java
+
 ## Introducción
 En la era digital actual, crear presentaciones visualmente atractivas es crucial para una comunicación eficaz tanto en los negocios como en el mundo académico. Aspose.Slides para Java proporciona una plataforma sólida para que los desarrolladores de Java generen y manipulen dinámicamente presentaciones de PowerPoint. Este tutorial lo guiará a través del proceso de especificar las fuentes utilizadas en una presentación usando Aspose.Slides para Java. Al final, estará equipado con el conocimiento para integrar perfectamente fuentes personalizadas en sus proyectos de PowerPoint, mejorando su atractivo visual y garantizando la coherencia de la marca.
 ## Requisitos previos
@@ -71,3 +77,9 @@ Sí, puede especificar fuentes en varios niveles, incluido el nivel de diapositi
 Aspose.Slides no impone limitaciones estrictas en la cantidad de fuentes personalizadas; sin embargo, considere las implicaciones de rendimiento.
 ### ¿Puedo cargar fuentes dinámicamente en tiempo de ejecución sin incrustarlas en mi aplicación?
 Sí, puedes cargar fuentes desde fuentes externas o desde memoria como se demuestra en este tutorial.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

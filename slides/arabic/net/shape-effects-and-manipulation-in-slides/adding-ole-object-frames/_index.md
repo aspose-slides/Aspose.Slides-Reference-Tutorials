@@ -3,10 +3,16 @@ title: إضافة إطارات كائنات OLE إلى العرض التقديم
 linktitle: إضافة إطارات كائنات OLE إلى العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تحسين عروض PowerPoint التقديمية بالمحتوى الديناميكي! اتبع دليلنا خطوة بخطوة باستخدام Aspose.Slides لـ .NET. تعزيز المشاركة الآن!
-type: docs
 weight: 15
 url: /ar/net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة إطارات كائنات OLE إلى العرض التقديمي باستخدام Aspose.Slides
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنتعمق في عملية إضافة إطارات كائنات OLE (ربط الكائنات وتضمينها) إلى شرائح العرض التقديمي باستخدام Aspose.Slides لـ .NET. Aspose.Slides هي مكتبة قوية تمكن المطورين من العمل مع ملفات PowerPoint برمجياً. اتبع هذا الدليل التفصيلي خطوة بخطوة لتضمين كائنات OLE بسلاسة في شرائح العرض التقديمي، مما يؤدي إلى تحسين ملفات PowerPoint الخاصة بك بمحتوى ديناميكي وتفاعلي.
 ## المتطلبات الأساسية
@@ -84,3 +90,9 @@ pres.Save(dataDir + "OleEmbed_out.pptx", SaveFormat.Pptx);
 ج: بالتأكيد، يمكنك ضبط الحجم والموضع والخصائص الأخرى لإطار كائن OLE وفقًا لتفضيلاتك.
 ### س: أين يمكنني طلب المساعدة إذا واجهت تحديات أثناء التنفيذ؟
  ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لدعم المجتمع وتوجيهه.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

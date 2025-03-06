@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में गुण सहेजे
 linktitle: जावा स्लाइड्स में गुण सहेजें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java के साथ अपने PowerPoint प्रेजेंटेशन को ऑप्टिमाइज़ करें। गुण सेट करना, एन्क्रिप्शन अक्षम करना, पासवर्ड सुरक्षा जोड़ना और आसानी से सहेजना सीखें।
-type: docs
 weight: 12
 url: /hi/java/saving-options/save-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में गुण सहेजें
+
 
 ## जावा स्लाइड्स में गुण सहेजने का परिचय
 
@@ -170,3 +176,9 @@ finally {
 ### मैं Aspose.Slides for Java और इसकी विशेषताओं के बारे में अधिक कैसे जान सकता हूँ?
 
  आप Aspose.Slides for Java दस्तावेज़न यहाँ देख सकते हैं[यहाँ](https://docs.aspose.com/slides/java/) लाइब्रेरी के उपयोग के बारे में विस्तृत जानकारी, ट्यूटोरियल और उदाहरण के लिए यहां क्लिक करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

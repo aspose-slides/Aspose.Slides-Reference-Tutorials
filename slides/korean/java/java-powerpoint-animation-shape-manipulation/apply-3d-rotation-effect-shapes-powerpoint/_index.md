@@ -3,10 +3,16 @@ title: PowerPoint에서 도형에 3D 회전 효과 적용
 linktitle: PowerPoint에서 도형에 3D 회전 효과 적용
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 이 포괄적인 단계별 튜토리얼을 통해 Java용 Aspose.Slides를 사용하여 PowerPoint의 모양에 3D 회전 효과를 적용하는 방법을 알아보세요.
-type: docs
 weight: 12
 url: /ko/java/java-powerpoint-animation-shape-manipulation/apply-3d-rotation-effect-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint에서 도형에 3D 회전 효과 적용
+
 ## 소개
 PowerPoint 프레젠테이션을 한 단계 더 발전시킬 준비가 되셨나요? 3D 회전 효과를 추가하면 슬라이드를 더욱 역동적이고 매력적으로 만들 수 있습니다. 숙련된 개발자이거나 이제 막 시작하는 개발자라면 이 단계별 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint의 도형에 3D 회전 효과를 적용하는 방법을 보여줍니다. 바로 뛰어 들어 봅시다!
 ## 전제 조건
@@ -84,3 +90,9 @@ Aspose.Slides for Java는 프로그래밍 방식으로 PowerPoint 프레젠테�
  당신은 방문 할 수 있습니다[지원 포럼](https://forum.aspose.com/c/slides/11) 도움을 요청하고 문제를 논의합니다.
 ### 상용 프로젝트에서 Java용 Aspose.Slides를 사용할 수 있나요?
  예, 하지만 라이센스를 구입해야 합니다. 에서 하나 구입하실 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

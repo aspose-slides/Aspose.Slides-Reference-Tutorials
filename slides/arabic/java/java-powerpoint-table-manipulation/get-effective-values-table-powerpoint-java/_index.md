@@ -3,10 +3,16 @@ title: احصل على قيم فعالة للجدول في PowerPoint باستخ
 linktitle: احصل على قيم فعالة للجدول في PowerPoint باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية استخراج قيم الجدول الفعالة في PowerPoint باستخدام Aspose.Slides لـ Java. تعزيز العروض التقديمية الخاصة بك برمجيا.
-type: docs
 weight: 14
 url: /ar/java/java-powerpoint-table-manipulation/get-effective-values-table-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# احصل على قيم فعالة للجدول في PowerPoint باستخدام Java
+
 ## مقدمة
 في العصر الرقمي الحالي، يعد إنشاء عروض تقديمية ديناميكية وجذابة أمرًا بالغ الأهمية للتواصل الفعال في كل من البيئات التجارية والتعليمية. يوفر Aspose.Slides for Java حلاً قويًا لمطوري Java للتعامل مع عروض PowerPoint التقديمية وتحسينها برمجيًا. سيرشدك هذا البرنامج التعليمي خلال عملية استخراج القيم الفعالة من الجداول الموجودة في عروض PowerPoint التقديمية باستخدام Aspose.Slides for Java. بحلول نهاية هذا البرنامج التعليمي، ستكون مجهزًا بالمعرفة اللازمة للوصول برمجيًا إلى بيانات تنسيق الجدول واستخدامها في تطبيقات Java.
 ## المتطلبات الأساسية
@@ -61,3 +67,9 @@ try {
  قم بزيارة منتدى دعم المجتمع[هنا](https://forum.aspose.com/c/slides/11) للمساعدة.
 ### هل يمكنني شراء ترخيص مؤقت لـ Aspose.Slides لـ Java؟
  نعم، يمكنك شراء ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

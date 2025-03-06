@@ -3,10 +3,16 @@ title: Explorando las líneas de tendencia del gráfico en Aspose.Slides para .N
 linktitle: Líneas de tendencia del gráfico
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a agregar varias líneas de tendencia a los gráficos usando Aspose.Slides para .NET en esta guía paso a paso. ¡Mejore sus habilidades de visualización de datos con facilidad!
-type: docs
 weight: 12
 url: /es/net/advanced-chart-customization/chart-trend-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Explorando las líneas de tendencia del gráfico en Aspose.Slides para .NET
+
 
 En el mundo de la visualización y presentación de datos, la incorporación de gráficos puede ser una forma poderosa de transmitir información de manera efectiva. Aspose.Slides para .NET proporciona un conjunto de herramientas rico en funciones para trabajar con gráficos, incluida la capacidad de agregar líneas de tendencia a sus gráficos. En este tutorial, profundizaremos en el proceso de agregar líneas de tendencia a un gráfico paso a paso usando Aspose.Slides para .NET. 
 
@@ -145,3 +151,9 @@ Aspose.Slides para .NET es una biblioteca versátil que le permite crear y manip
 
 ### ¿Necesito una licencia temporal de Aspose.Slides para .NET?
  Puede obtener una licencia temporal para Aspose.Slides para .NET en[este enlace](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

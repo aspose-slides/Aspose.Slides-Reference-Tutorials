@@ -3,10 +3,16 @@ title: Java 投影片中的漏斗圖
 linktitle: Java 投影片中的漏斗圖
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 學習使用 Aspose.Slides for Java 在 PowerPoint 簡報中建立漏斗圖。帶有有效資料視覺化原始程式碼的分步指南。
-type: docs
 weight: 18
 url: /zh-hant/java/chart-data-manipulation/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 投影片中的漏斗圖
+
 
 ## 在 Aspose.Slides for Java 中建立漏斗圖簡介
 
@@ -137,3 +143,9 @@ pres.save(dataDir + "Funnel.pptx", SaveFormat.Pptx);
 ### 我可以將圖表匯出為不同的格式，例如 PDF 或圖像嗎？
 
 是的，Aspose.Slides for Java 可讓您將帶有漏斗圖的簡報匯出為各種格式，包括 PDF、圖像格式等。您可以使用`SaveFormat`用於指定儲存簡報時所需的輸出格式的選項。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Zarządzaj nagłówkiem i stopką w Prezentacjach
 linktitle: Zarządzaj nagłówkiem i stopką w Prezentacjach
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak dodawać dynamiczne nagłówki i stopki w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla .NET.
-type: docs
 weight: 14
 url: /pl/net/chart-creation-and-customization/header-footer-manager/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzaj nagłówkiem i stopką w Prezentacjach
+
 
 # Tworzenie dynamicznych nagłówków i stopek w Aspose.Slides dla .NET
 
@@ -131,3 +137,9 @@ A2: Tak, możesz skorzystać z bezpłatnej wersji próbnej Aspose.Slides dla .NE
 
 ### P5: Czy istnieje forum społeczności lub wsparcia dla Aspose.Slides dla .NET?
  O5: Tak, możesz odwiedzić forum wsparcia Aspose.Slides dla .NET[Tutaj](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

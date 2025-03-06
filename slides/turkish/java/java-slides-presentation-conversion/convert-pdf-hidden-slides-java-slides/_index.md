@@ -3,10 +3,16 @@ title: Java Slaytlarında Gizli Slaytlarla PDF'ye Dönüştürme
 linktitle: Java Slaytlarında Gizli Slaytlarla PDF'ye Dönüştürme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarını gizli slaytlarla PDF'ye nasıl dönüştüreceğinizi öğrenin. Sorunsuz PDF oluşturmak için kaynak kodlu adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 27
 url: /tr/java/presentation-conversion/convert-pdf-hidden-slides-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarında Gizli Slaytlarla PDF'ye Dönüştürme
+
 
 ## Aspose.Slides for Java kullanarak PowerPoint Sunumunu Gizli Slaytlarla PDF'ye Dönüştürmeye Giriş
 
@@ -115,3 +121,9 @@ slide.setHidden(false);
 ### Aspose.Slides for Java'yı nasıl indirebilirim?
 
  Aspose.Slides for Java'yı Aspose web sitesinden indirebilirsiniz. Ziyaret edin[Aspose.Slides for Java indirme sayfası](https://releases.aspose.com/slides/java/) En son sürümü almak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

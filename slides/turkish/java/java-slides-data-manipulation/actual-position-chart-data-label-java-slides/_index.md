@@ -3,10 +3,16 @@ title: Java Slaytlarında Grafik Veri Etiketinin Gerçek Konumunu Alın
 linktitle: Java Slaytlarında Grafik Veri Etiketinin Gerçek Konumunu Alın
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java Slides'ta grafik veri etiketlerinin gerçek konumunu nasıl alacağınızı öğrenin. Kaynak koduyla adım adım kılavuz.
-type: docs
 weight: 18
 url: /tr/java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarında Grafik Veri Etiketinin Gerçek Konumunu Alın
+
 
 ## Java Slaytlarında Grafik Veri Etiketinin Gerçek Konumunu Almaya Giriş
 
@@ -157,3 +163,9 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

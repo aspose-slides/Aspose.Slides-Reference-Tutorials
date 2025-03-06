@@ -3,10 +3,16 @@ title: Κατάργηση τμημάτων σχήματος - Οδηγός Aspos
 linktitle: Αφαίρεση τμημάτων από το σχήμα γεωμετρίας στις διαφάνειες παρουσίασης
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να αφαιρείτε τμήματα από σχήματα γεωμετρίας σε διαφάνειες παρουσίασης χρησιμοποιώντας το Aspose.Slides API για .NET. Οδηγός βήμα προς βήμα με τον πηγαίο κώδικα.
-type: docs
 weight: 16
 url: /el/net/shape-geometry-and-positioning-in-slides/removing-segments-geometry-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Κατάργηση τμημάτων σχήματος - Οδηγός Aspose.Slides .NET
+
 ## Εισαγωγή
 Η δημιουργία οπτικά ελκυστικών παρουσιάσεων συχνά περιλαμβάνει χειρισμό σχημάτων και στοιχείων για την επίτευξη του επιθυμητού σχεδίου. Με το Aspose.Slides για .NET, οι προγραμματιστές μπορούν εύκολα να ελέγξουν τη γεωμετρία των σχημάτων, επιτρέποντας την αφαίρεση συγκεκριμένων τμημάτων. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία αφαίρεσης τμημάτων από ένα σχήμα γεωμετρίας σε διαφάνειες παρουσίασης χρησιμοποιώντας το Aspose.Slides για .NET.
 ## Προαπαιτούμενα
@@ -68,3 +74,9 @@ shape.SetGeometryPath(path);
 Όχι, οι αλλαγές είναι μη αναστρέψιμες μετά την αποθήκευση. Εξετάστε το ενδεχόμενο αποθήκευσης αντιγράφων ασφαλείας πριν από την τροποποίηση.
 ### Πού μπορώ να αναζητήσω πρόσθετη υποστήριξη ή βοήθεια;
  Επισκέψου το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για κοινοτική υποστήριξη και συζητήσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

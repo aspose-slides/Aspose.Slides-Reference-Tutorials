@@ -3,10 +3,16 @@ title: Hoạt ảnh và hiệu ứng Java PowerPoint
 linktitle: Hoạt ảnh và hiệu ứng Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Làm chủ các hoạt ảnh và hiệu ứng Java PowerPoint bằng các hướng dẫn toàn diện của chúng tôi. Tìm hiểu cách thêm hoạt ảnh, bóng bên ngoài và bên trong bằng Aspose.Slides cho Java.
-type: docs
 weight: 22
 url: /vi/java/java-powerpoint-animation-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hoạt ảnh và hiệu ứng Java PowerPoint
+
 ## Giới thiệu
 
 Các bản trình bày PowerPoint bằng Java có thể sống động và bắt mắt về mặt hình ảnh với các hoạt ảnh và hiệu ứng phù hợp. Với Aspose.Slides cho Java, bạn có thể tùy ý sử dụng một công cụ mạnh mẽ để cải thiện các trang trình bày của mình. Cho dù bạn là người mới bắt đầu hay người dùng nâng cao, hướng dẫn của chúng tôi sẽ giúp bạn nắm vững nghệ thuật thêm hoạt ảnh và hiệu ứng đổ bóng vào bản trình bày PowerPoint của mình. Hãy cùng đi sâu vào những hướng dẫn này và xem cách bạn có thể nâng tầm trang trình bày của mình!
@@ -35,3 +41,9 @@ Tìm hiểu cách dễ dàng áp dụng các hiệu ứng bóng bên ngoài tron
 Tìm hiểu cách áp dụng hiệu ứng bóng bên trong cho các hình dạng trong bản trình bày Java PowerPoint bằng Aspose.Slides. Cải thiện các trang trình bày của bạn bằng hướng dẫn từng bước này.
 ### [Áp dụng Outer Shadow trong PowerPoint bằng Java](./apply-outer-shadow-powerpoint-java/)
 Tìm hiểu cách áp dụng hiệu ứng bóng ngoài trong PowerPoint bằng Java với Aspose.Slides. Nâng cao bài thuyết trình của bạn với chiều sâu và sự hấp dẫn trực quan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

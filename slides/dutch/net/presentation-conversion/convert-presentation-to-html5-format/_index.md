@@ -3,10 +3,16 @@ title: Converteer presentatie naar HTML5-indeling
 linktitle: Converteer presentatie naar HTML5-indeling
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-presentaties naar HTML5-indeling converteert met Aspose.Slides voor .NET. Eenvoudige en efficiënte conversie voor delen op internet.
-type: docs
 weight: 22
 url: /nl/net/presentation-conversion/convert-presentation-to-html5-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converteer presentatie naar HTML5-indeling
+
 ## Converteer presentatie naar HTML5-indeling met Aspose.Slides voor .NET
 
 In deze handleiding begeleiden we u door het proces van het converteren van een PowerPoint-presentatie (PPT/PPTX) naar HTML5-indeling met behulp van de Aspose.Slides voor .NET-bibliotheek. Aspose.Slides is een krachtige bibliotheek waarmee u PowerPoint-presentaties in verschillende formaten kunt manipuleren en converteren.
@@ -81,3 +87,9 @@ Ja, Aspose.Slides voor .NET ondersteunt het converteren van presentaties met ani
 ### Is er een proefversie van Aspose.Slides beschikbaar?
 
  Ja, u kunt een gratis proefversie van Aspose.Slides voor .NET downloaden van de[downloadpagina](https://releases.aspose.com/slides/net).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

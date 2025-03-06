@@ -3,10 +3,16 @@ title: Přidání hypertextových odkazů na snímky v .NET pomocí Aspose.Slide
 linktitle: Přidat hypertextový odkaz na snímek
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se přidávat hypertextové odkazy na snímky aplikace PowerPoint pomocí Aspose.Slides for .NET. Vylepšete své prezentace interaktivními prvky.
-type: docs
 weight: 12
 url: /cs/net/hyperlink-manipulation/add-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidání hypertextových odkazů na snímky v .NET pomocí Aspose.Slides
+
 
 Ve světě digitálních prezentací je interaktivita klíčová. Přidáním hypertextových odkazů do snímků může být vaše prezentace poutavější a informativnější. Aspose.Slides for .NET je výkonná knihovna, která vám umožňuje programově vytvářet, upravovat a manipulovat s prezentacemi PowerPoint. V tomto tutoriálu vám ukážeme, jak přidat hypertextové odkazy na vaše snímky pomocí Aspose.Slides for .NET. 
 
@@ -106,3 +112,9 @@ Aspose.Slides nabízí širokou škálu interaktivních funkcí, včetně akčn�
 ### 5. Je Aspose.Slides dostupný pro jiné programovací jazyky?
 
 Ano, Aspose.Slides je k dispozici pro různé programovací jazyky, včetně Javy a Pythonu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

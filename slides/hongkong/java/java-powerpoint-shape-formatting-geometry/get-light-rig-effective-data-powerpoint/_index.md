@@ -3,10 +3,16 @@ title: 在 PowerPoint 中取得輕型裝備有效數據
 linktitle: 在 PowerPoint 中取得輕型裝備有效數據
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 在此詳細的逐步指南中，了解如何使用 Aspose.Slides for Java 從 PowerPoint 簡報中擷取燈光設備有效資料。
-type: docs
 weight: 25
 url: /zh-hant/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-data-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 PowerPoint 中取得輕型裝備有效數據
+
 ## 介紹
 您是否希望使用 Java 自動執行 PowerPoint 簡報任務？別再猶豫了！ Aspose.Slides for Java 是一個功能強大的函式庫，可讓開發人員建立、操作和轉換 PowerPoint 文件，而無需安裝 Microsoft PowerPoint。在這份綜合指南中，我們將引導您完成使用 Aspose.Slides for Java 從 PowerPoint 簡報中取得輕裝備有效資料的步驟。無論您是經驗豐富的 Java 開發人員還是新手，本教學都將幫助您在專案中充分發揮 Aspose.Slides 的潛力。
 ## 先決條件
@@ -66,3 +72,9 @@ Aspose.Slides for Java 是一個功能強大的函式庫，用於使用 Java 建
 該文件位於[這個連結](https://reference.aspose.com/slides/java/).
 ### 如何獲得 Aspose.Slides 的支持？
 您可以從 Aspose.Slides 支援論壇獲得支持[這裡](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

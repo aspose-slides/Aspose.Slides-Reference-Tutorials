@@ -3,10 +3,16 @@ title: Ustaw znak procentowy etykiet danych w slajdach Java
 linktitle: Ustaw znak procentowy etykiet danych w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić etykiety danych ze znakami procentowymi w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Twórz atrakcyjne wykresy, korzystając ze wskazówek krok po kroku i kodu źródłowego.
-type: docs
 weight: 17
 url: /pl/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustaw znak procentowy etykiet danych w slajdach Java
+
 
 ## Wprowadzenie do ustawiania znaku procentowego etykiet danych w Aspose.Slides dla Java
 
@@ -176,3 +182,10 @@ Tak, możesz dostosować rozmiar czcionki etykiet danych, ustawiając opcję`set
 ### Jak dodać więcej serii do wykresu?
 
  Możesz dodać dodatkowe serie do wykresu, korzystając z opcji`add` metoda na`IChartSeriesCollection` obiekt.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

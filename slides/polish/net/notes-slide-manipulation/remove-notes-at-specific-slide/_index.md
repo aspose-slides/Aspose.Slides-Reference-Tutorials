@@ -3,10 +3,16 @@ title: Jak usunąć notatki z określonego slajdu za pomocą Aspose.Slides .NET
 linktitle: Usuń notatki z określonego slajdu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak usuwać notatki z określonego slajdu w programie PowerPoint przy użyciu Aspose.Slides dla .NET. Usprawnij swoje prezentacje bez wysiłku.
-type: docs
 weight: 12
 url: /pl/net/notes-slide-manipulation/remove-notes-at-specific-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jak usunąć notatki z określonego slajdu za pomocą Aspose.Slides .NET
+
 
 W tym przewodniku krok po kroku przeprowadzimy Cię przez proces usuwania notatek z określonego slajdu w prezentacji programu PowerPoint przy użyciu programu Aspose.Slides for .NET. Aspose.Slides to potężna biblioteka, która umożliwia programową pracę z plikami programu PowerPoint. Niezależnie od tego, czy jesteś programistą, czy osobą, która chce zautomatyzować zadania w prezentacjach programu PowerPoint, ten samouczek pomoże Ci to z łatwością osiągnąć.
 
@@ -82,3 +88,9 @@ Chociaż pewna wiedza programistyczna jest pomocna, Aspose.Slides zapewnia dokum
 
 ### Czy dostępna jest wersja próbna Aspose.Slides dla .NET?
 Tak, możesz eksplorować Aspose.Slides, pobierając bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

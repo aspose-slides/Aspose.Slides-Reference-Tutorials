@@ -3,10 +3,16 @@ title: Gérer l'espacement des lignes dans Java PowerPoint
 linktitle: Gérer l'espacement des lignes dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à gérer facilement l'espacement des lignes dans les présentations Java PowerPoint avec Aspose.Slides pour Java. Améliorez vos diapositives.
-type: docs
 weight: 12
 url: /fr/java/java-powerpoint-text-paragraph-management/manage-line-spacing-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Gérer l'espacement des lignes dans Java PowerPoint
+
 ## Introduction
 En programmation Java, la gestion de l'espacement des lignes dans les présentations PowerPoint est cruciale pour créer des diapositives visuellement attrayantes qui transmettent efficacement les informations. Que vous ajustiez l'espace entre les paragraphes ou contrôliez l'espacement avant et après chaque paragraphe, Aspose.Slides pour Java fournit des outils complets pour réaliser ces tâches de manière transparente.
 ## Conditions préalables
@@ -62,3 +68,9 @@ Vous pouvez explorer la documentation détaillée[ici](https://reference.aspose.
  Oui, vous pouvez télécharger une version d'essai gratuite à partir de[ici](https://releases.aspose.com/).
 ### Comment puis-je obtenir une assistance technique pour Aspose.Slides ?
  Pour une assistance technique, visitez Aspose.Slides[forum d'entraide](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

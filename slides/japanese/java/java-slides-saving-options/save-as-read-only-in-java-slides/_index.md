@@ -3,10 +3,16 @@ title: Java スライドで読み取り専用として保存
 linktitle: Java スライドで読み取り専用として保存
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して、Java で PowerPoint プレゼンテーションを読み取り専用として保存する方法を学びます。ステップバイステップの手順とコード例を使用してコンテンツを保護します。
-type: docs
 weight: 11
 url: /ja/java/saving-options/save-as-read-only-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java スライドで読み取り専用として保存
+
 
 ## Aspose.Slides for Java を使用して Java スライドを読み取り専用として保存する方法の紹介
 
@@ -127,3 +133,9 @@ presentation.getProtectionManager().removeWriteProtection();
 ### 読み取り専用パスワードを設定後に変更することはできますか？
 
 はい、読み取り専用パスワードは設定後に変更できます。`setReadProtection(String newPassword)`新しいパスワードを使用して、読み取り専用保護パスワードを更新します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

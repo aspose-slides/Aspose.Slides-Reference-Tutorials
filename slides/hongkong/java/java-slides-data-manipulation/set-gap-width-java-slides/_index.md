@@ -3,10 +3,16 @@ title: 在 Java 投影片中設定間隙寬度
 linktitle: 在 Java 投影片中設定間隙寬度
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java 投影片中設定間隙寬度。增強 PowerPoint 簡報的圖表視覺效果。
-type: docs
 weight: 21
 url: /zh-hant/java/data-manipulation/set-gap-width-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 投影片中設定間隙寬度
+
 
 ## 在 Aspose.Slides for Java 中設定間隙寬度簡介
 
@@ -158,3 +164,9 @@ presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 ### 在哪裡可以找到更多資源和文件？
 
 您可以在 Aspose.Slides for Java 上找到全面的文件和其他資源[阿斯普斯網站](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

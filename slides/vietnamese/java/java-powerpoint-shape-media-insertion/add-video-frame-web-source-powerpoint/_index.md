@@ -3,10 +3,16 @@ title: Thêm khung hình video từ nguồn web trong PowerPoint
 linktitle: Thêm khung hình video từ nguồn web trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách nâng cao bản trình bày PowerPoint của bạn bằng cách thêm khung hình video từ các nguồn web bằng Aspose.Slides cho Java.
-type: docs
 weight: 18
 url: /vi/java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm khung hình video từ nguồn web trong PowerPoint
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách thêm khung video từ nguồn web, chẳng hạn như YouTube, vào bản trình bày PowerPoint bằng Aspose.Slides cho Java. Bằng cách làm theo các hướng dẫn từng bước này, bạn sẽ có thể cải thiện bản trình bày của mình bằng cách kết hợp các yếu tố đa phương tiện hấp dẫn.
 ## Điều kiện tiên quyết
@@ -84,3 +90,9 @@ Tuyệt đối! Aspose.Slides cung cấp các tùy chọn mở rộng để tùy
 Aspose.Slides hỗ trợ nhiều phiên bản PowerPoint, đảm bảo khả năng tương thích trên các nền tảng khác nhau.
 ### Tôi có thể tìm thêm tài nguyên và hỗ trợ cho Aspose.Slides ở đâu?
  Bạn có thể ghé thăm[Diễn đàn Aspose.Slides](https://forum.aspose.com/c/slides/11) để được hỗ trợ, tài liệu và hỗ trợ cộng đồng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

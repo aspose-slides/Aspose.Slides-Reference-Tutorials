@@ -3,10 +3,16 @@ title: PowerPoint'te Şekilleri Gizle
 linktitle: PowerPoint'te Şekilleri Gizle
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Ayrıntılı adım adım kılavuzumuzla Aspose.Slides for Java'yı kullanarak PowerPoint'te şekilleri nasıl gizleyeceğinizi öğrenin. Her seviyedeki Java geliştiricileri için mükemmeldir.
-type: docs
 weight: 27
 url: /tr/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint'te Şekilleri Gizle
+
 ## giriiş
 Aspose.Slides for Java kullanarak PowerPoint'te şekilleri gizlemeye ilişkin kapsamlı eğitimimize hoş geldiniz! PowerPoint sunumlarınızda belirli şekilleri programlı olarak gizlemeniz gerekiyorsa doğru yerdesiniz. Bu kılavuz size her adımda basit, sohbet tarzında yol gösterecektir. İster deneyimli bir geliştirici olun, ister Java'ya yeni başlıyor olun, yanınızdayız.
 ## Önkoşullar
@@ -81,3 +87,9 @@ Aspose.Slides; .NET, Python ve C dahil olmak üzere çeşitli programlama diller
  Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
 ### Aspose.Slides için nereden destek alabilirim?
  adresinden destek alabilirsiniz.[Aspose.Slides destek forumu](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

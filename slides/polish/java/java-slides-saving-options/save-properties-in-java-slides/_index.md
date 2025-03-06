@@ -3,10 +3,16 @@ title: Zapisz właściwości w slajdach Java
 linktitle: Zapisz właściwości w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Zoptymalizuj swoje prezentacje PowerPoint za pomocą Aspose.Slides dla Java. Dowiedz się, jak ustawiać właściwości, wyłączać szyfrowanie, dodawać ochronę hasłem i oszczędzać bez wysiłku.
-type: docs
 weight: 12
 url: /pl/java/saving-options/save-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisz właściwości w slajdach Java
+
 
 ## Wprowadzenie do zapisywania właściwości w slajdach Java
 
@@ -170,3 +176,9 @@ Pomaga to zapobiegać wyciekom pamięci w aplikacji.
 ### Jak mogę dowiedzieć się więcej o Aspose.Slides dla Java i jego funkcjach?
 
  Możesz zapoznać się z dokumentacją Aspose.Slides for Java pod adresem[Tutaj](https://docs.aspose.com/slides/java/) aby uzyskać szczegółowe informacje, samouczki i przykłady korzystania z biblioteki.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

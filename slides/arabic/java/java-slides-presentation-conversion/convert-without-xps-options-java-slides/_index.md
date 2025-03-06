@@ -3,10 +3,16 @@ title: التحويل بدون خيارات XPS في شرائح Java
 linktitle: التحويل بدون خيارات XPS في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحويل عروض PowerPoint التقديمية إلى تنسيق XPS باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع كود المصدر.
-type: docs
 weight: 33
 url: /ar/java/presentation-conversion/convert-without-xps-options-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التحويل بدون خيارات XPS في شرائح Java
+
 
 ## مقدمة قم بتحويل PowerPoint إلى XPS بدون خيارات XPS في Aspose.Slides لـ Java
 
@@ -93,3 +99,9 @@ finally
 ### كيف يمكنني التعامل مع الاستثناءات أثناء عملية التحويل؟
 
  يمكنك تنفيذ معالجة الاستثناءات للتعامل بأمان مع أية أخطاء قد تحدث أثناء عملية التحويل. كما هو موضح في الكود أ`try` و`finally` تُستخدم الكتلة لضمان التخلص المناسب من الموارد حتى في حالة حدوث استثناء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

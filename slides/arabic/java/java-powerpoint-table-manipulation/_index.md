@@ -3,10 +3,16 @@ title: معالجة جدول جافا باور بوينت
 linktitle: معالجة جدول جافا باور بوينت
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: إتقان معالجة جدول Java PowerPoint باستخدام Aspose.Slides. تعلم كيفية إضافة الصور وتقسيم الخلايا وإنشاء الجداول والمزيد من خلال برامجنا التعليمية المفصلة خطوة بخطوة.
-type: docs
 weight: 30
 url: /ar/java/java-powerpoint-table-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# معالجة جدول جافا باور بوينت
+
 ## مقدمة
 
 يمكن أن يؤدي إتقان التعامل مع الجدول في عروض PowerPoint التقديمية إلى تعزيز فعالية شرائحك وجاذبيتها المرئية بشكل كبير. يقدم Aspose.Slides for Java مجموعة قوية من الميزات للتعامل مع الجداول برمجيًا. سواء كنت تضيف صورًا إلى خلايا الجدول، أو تقسم الخلايا أو تدمجها، أو تنشئ جداول من البداية، سترشدك هذه البرامج التعليمية خلال كل عملية خطوة بخطوة. دعونا نتعمق في عالم معالجة جداول Java PowerPoint!
@@ -60,3 +66,9 @@ url: /ar/java/java-powerpoint-table-manipulation/
 تعرف على كيفية تنسيق النص داخل جداول PowerPoint باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية للمطورين.
 ### [إنشاء جداول قياسية في PowerPoint باستخدام Java](./create-standard-tables-powerpoint-java/)
 تعرف على كيفية إنشاء جداول قياسية في PowerPoint باستخدام Java باستخدام Aspose.Slides. اتبع دليلنا التفصيلي خطوة بخطوة للحصول على تجربة سلسة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

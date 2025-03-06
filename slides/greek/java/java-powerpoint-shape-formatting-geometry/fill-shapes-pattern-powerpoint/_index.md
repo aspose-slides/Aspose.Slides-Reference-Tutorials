@@ -3,10 +3,16 @@ title: Συμπληρώστε σχήματα με μοτίβο στο PowerPoint
 linktitle: Συμπληρώστε σχήματα με μοτίβο στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε να γεμίζετε σχήματα με μοτίβα στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Ακολουθήστε τον εύκολο, βήμα προς βήμα οδηγό μας για να βελτιώσετε οπτικά τις παρουσιάσεις σας.
-type: docs
 weight: 11
 url: /el/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Συμπληρώστε σχήματα με μοτίβο στο PowerPoint
+
 ## Εισαγωγή
 Η δημιουργία οπτικά ελκυστικών παρουσιάσεων είναι απαραίτητη για να προσελκύσετε το κοινό σας. Ένας τρόπος για να βελτιώσετε τις διαφάνειες σας στο PowerPoint είναι να γεμίσετε σχήματα με μοτίβα. Σε αυτό το σεμινάριο, θα ακολουθήσουμε τα βήματα για να γεμίσουμε σχήματα με μοτίβα χρησιμοποιώντας το Aspose.Slides για Java. Αυτός ο οδηγός είναι προσαρμοσμένος για προγραμματιστές που θέλουν να αξιοποιήσουν τις ισχυρές δυνατότητες του Aspose.Slides για να δημιουργήσουν εκπληκτικές παρουσιάσεις μέσω προγραμματισμού.
 ## Προαπαιτούμενα
@@ -94,3 +100,9 @@ if (pres != null) pres.dispose();
 Ναι, το Aspose.Slides for Java σάς επιτρέπει να ανοίγετε, να επεξεργάζεστε και να αποθηκεύετε υπάρχουσες παρουσιάσεις PowerPoint.
 ### Πού μπορώ να λάβω υποστήριξη για το Aspose.Slides για Java;
  Μπορείτε να λάβετε υποστήριξη από το[Φόρουμ υποστήριξης Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

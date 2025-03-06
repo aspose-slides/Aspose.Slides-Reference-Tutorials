@@ -3,10 +3,16 @@ title: Effacer la diapositive par index séquentiel
 linktitle: Effacer la diapositive par index séquentiel
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Apprenez à effacer des diapositives PowerPoint étape par étape à l'aide d'Aspose.Slides pour .NET. Notre guide fournit des instructions claires et un code source complet pour vous aider à supprimer par programme les diapositives par leur index séquentiel.
-type: docs
 weight: 24
 url: /fr/net/slide-access-and-manipulation/remove-slide-using-index/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Effacer la diapositive par index séquentiel
+
 
 ## Introduction à Effacer la diapositive par index séquentiel
 
@@ -86,3 +92,9 @@ Absolument, vous pouvez effacer des diapositives en fonction de conditions telle
 ### Comment puis-je en savoir plus sur Aspose.Slides pour .NET ?
 
  Vous pouvez explorer la documentation détaillée et la référence API pour Aspose.Slides for .NET sur le[page de documentation](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

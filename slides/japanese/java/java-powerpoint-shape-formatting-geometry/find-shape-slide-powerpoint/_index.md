@@ -3,10 +3,16 @@ title: スライド内の図形を見つける
 linktitle: スライド内の図形を見つける
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用すると、PowerPoint スライド内の図形を簡単に見つけることができます。シームレスなコーディング エクスペリエンスを実現するには、ステップ バイ ステップ ガイドに従ってください。
-type: docs
 weight: 14
 url: /ja/java/java-powerpoint-shape-formatting-geometry/find-shape-slide-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# スライド内の図形を見つける
+
 ## 導入
 特定の図形を見つけるために PowerPoint スライドを精査するのにうんざりしていませんか? わずか数行のコードでこのプロセスを簡単に自動化できるとしたらどうでしょう。Aspose.Slides for Java を使用してプレゼンテーション ファイル内の図形を検索する詳細なガイドへようこそ。このチュートリアルでは、環境の設定からコードの実行まで、Aspose.Slides for Java を使用してスライド内の図形を検索するために必要な手順を詳しく説明します。
 ## 前提条件
@@ -84,3 +90,9 @@ Aspose.Slides for Java は、開発者がプログラムで PowerPoint プレゼ
 はい、無料トライアルをご利用いただけます[Asposeの無料トライアルページ](https://releases.aspose.com/).
 ### Aspose.Slides のサポートはどこで受けられますか?
 サポートについては、[Aspose スライド フォーラム](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

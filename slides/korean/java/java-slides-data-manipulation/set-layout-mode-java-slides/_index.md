@@ -3,10 +3,16 @@ title: Java 슬라이드에서 레이아웃 모드 설정
 linktitle: Java 슬라이드에서 레이아웃 모드 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java 슬라이드의 레이아웃 모드를 설정하는 방법을 알아보세요. 소스 코드가 포함된 이 단계별 가이드를 통해 차트 위치와 크기를 맞춤설정하세요.
-type: docs
 weight: 23
 url: /ko/java/data-manipulation/set-layout-mode-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 슬라이드에서 레이아웃 모드 설정
+
 
 ## Java 슬라이드의 레이아웃 모드 설정 소개
 
@@ -95,3 +101,9 @@ finally
 ### Aspose.Slides for Java에 대한 자세한 정보는 어디서 찾을 수 있나요?
 
  Aspose.Slides for Java에 대한 자세한 내용은 다음에서 확인할 수 있습니다.[선적 서류 비치](https://reference.aspose.com/slides/java/). 여기에는 Java에서 슬라이드와 차트를 효과적으로 작업하는 데 도움이 되는 자세한 API 참조와 예제가 포함되어 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

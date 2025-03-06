@@ -3,10 +3,16 @@ title: Diviser les cellules dans un tableau PowerPoint à l'aide de Java
 linktitle: Diviser les cellules dans un tableau PowerPoint à l'aide de Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment diviser, fusionner et formater les cellules d'un tableau PowerPoint par programmation à l'aide d'Aspose.Slides pour Java. Conception de présentation principale.
-type: docs
 weight: 11
 url: /fr/java/java-powerpoint-table-manipulation/split-cells-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Diviser les cellules dans un tableau PowerPoint à l'aide de Java
+
 ## Introduction
 Dans ce didacticiel, vous apprendrez à manipuler des tableaux PowerPoint en Java à l'aide d'Aspose.Slides. Les tableaux sont un élément fondamental des présentations, souvent utilisés pour organiser et présenter efficacement les données. Aspose.Slides offre des fonctionnalités robustes pour créer, modifier et améliorer des tableaux par programmation, offrant une flexibilité de conception et de mise en page.
 ## Conditions préalables
@@ -95,3 +101,9 @@ La manipulation par programmation de tableaux PowerPoint à l'aide d'Aspose.Slid
  Vous pouvez obtenir de l'aide sur le forum Aspose.Slides[ici](https://forum.aspose.com/c/slides/11).
 ### Puis-je obtenir une licence temporaire pour Aspose.Slides pour Java ?
  Oui, vous pouvez obtenir une licence temporaire auprès de[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

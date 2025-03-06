@@ -3,10 +3,16 @@ title: Création d'une vignette avec un facteur d'échelle pour la forme dans As
 linktitle: Création d'une vignette avec un facteur d'échelle pour la forme dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Apprenez à créer des images miniatures PowerPoint avec des limites spécifiques à l'aide d'Aspose.Slides pour .NET. Suivez notre guide étape par étape pour une intégration transparente.
-type: docs
 weight: 12
 url: /fr/net/image-and-video-manipulation-in-slides/creating-thumbnail-scaling-factor-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Création d'une vignette avec un facteur d'échelle pour la forme dans Aspose.Slides
+
 ## Introduction
 Bienvenue dans notre guide complet sur la création de vignettes avec des limites pour les formes dans Aspose.Slides pour .NET. Aspose.Slides est une bibliothèque puissante qui permet aux développeurs de travailler de manière transparente avec des présentations PowerPoint dans leurs applications .NET. Dans ce didacticiel, nous aborderons le processus de génération de vignettes avec des limites spécifiques pour les formes au sein d'une présentation à l'aide d'Aspose.Slides.
 ## Conditions préalables
@@ -55,3 +61,9 @@ Oui, Aspose.Slides est compatible avec divers frameworks .NET, offrant une flexi
  Pour toute question ou assistance, n'hésitez pas à visiter le forum d'assistance Aspose.Slides[ici](https://forum.aspose.com/c/slides/11).
 ### Q5 : Puis-je acheter Aspose.Slides pour .NET ?
  Certainement! Pour acheter Aspose.Slides pour .NET, veuillez visiter la page d'achat[ici](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

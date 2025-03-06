@@ -3,10 +3,16 @@ title: Đánh dấu văn bản trong PowerPoint bằng Java
 linktitle: Đánh dấu văn bản trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đánh dấu văn bản trong PowerPoint bằng Aspose.Slides cho Java. Tự động hóa và cải thiện bản trình bày một cách dễ dàng với hướng dẫn chi tiết của chúng tôi.
-type: docs
 weight: 10
 url: /vi/java/java-powerpoint-text-highlighting-fallback-rules/highlight-text-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đánh dấu văn bản trong PowerPoint bằng Java
+
 ## Giới thiệu
 Trong thời đại kỹ thuật số ngày nay, nơi giao tiếp bằng hình ảnh đóng vai trò then chốt trong các bài thuyết trình kinh doanh và tài liệu giáo dục, việc có khả năng thao tác và nâng cao các bài thuyết trình PowerPoint theo chương trình là một lợi thế đáng kể. Aspose.Slides for Java trao quyền cho các nhà phát triển một bộ công cụ mạnh mẽ để tích hợp và thao tác liền mạch các trang chiếu PowerPoint bằng ngôn ngữ lập trình Java. Cho dù bạn đang tự động hóa việc tạo bản trình bày, sửa đổi bản trình bày hiện có hay trích xuất dữ liệu từ các trang trình bày, Aspose.Slides for Java đều cung cấp các chức năng cần thiết để đạt được các tác vụ này một cách hiệu quả.
 ## Điều kiện tiên quyết
@@ -62,3 +68,9 @@ Aspose.Slides cho Java là một API Java cho phép các nhà phát triển tạ
 Aspose.Slides cho Java hỗ trợ lưu bản trình bày ở nhiều định dạng khác nhau bao gồm PPTX, PPT, PDF, v.v.
 ### Aspose.Slides cho Java có tương thích với Bộ công cụ phát triển Java SE không?
 Có, Aspose.Slides cho Java tương thích với Bộ công cụ phát triển Java SE.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

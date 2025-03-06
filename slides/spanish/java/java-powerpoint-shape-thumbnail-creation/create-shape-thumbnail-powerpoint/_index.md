@@ -3,10 +3,16 @@ title: Crear miniatura de forma en PowerPoint
 linktitle: Crear miniatura de forma en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a generar miniaturas de formas en presentaciones de PowerPoint usando Aspose.Slides para Java. Se proporciona una guía paso a paso.
-type: docs
 weight: 14
 url: /es/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crear miniatura de forma en PowerPoint
+
 ## Introducción
 En este tutorial, profundizaremos en la creación de miniaturas de formas en presentaciones de PowerPoint usando Aspose.Slides para Java. Aspose.Slides es una poderosa biblioteca que permite a los desarrolladores trabajar con archivos de PowerPoint mediante programación, lo que permite la automatización de diversas tareas, incluida la generación de miniaturas de formas.
 ## Requisitos previos
@@ -60,3 +66,9 @@ Sí, además de PNG, Aspose.Slides admite guardar miniaturas en varios formatos 
  ¡Absolutamente! Puede descargar una versión de prueba gratuita de Aspose.Slides desde[aquí](https://releases.aspose.com/) para evaluar sus características y capacidades.
 ### ¿Dónde puedo encontrar soporte para Aspose.Slides?
  Si tiene alguna pregunta o necesita ayuda con Aspose.Slides, puede visitar el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para soporte.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

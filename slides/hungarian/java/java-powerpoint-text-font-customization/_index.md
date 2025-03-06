@@ -3,10 +3,16 @@ title: Java PowerPoint szöveg és betűtípus testreszabása
 linktitle: Java PowerPoint szöveg és betűtípus testreszabása
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Fedezze fel az oktatóanyagokat a Java PowerPoint szöveg- és betűtípus-testreszabásáról az Aspose.Slides segítségével. Ismerje meg a forgatást, a betűtípusok cseréjét és még sok mást a prezentációk tökéletesítéséhez.
-type: docs
 weight: 29
 url: /hu/java/java-powerpoint-text-font-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint szöveg és betűtípus testreszabása
+
 ## Bevezetés
 
 Használja ki PowerPoint prezentációiban rejlő teljes potenciált Java PowerPoint szöveg- és betűtípus-testreszabási oktatóanyagunkkal az Aspose.Slides segítségével. Akár kezdő, akár haladó felhasználó, részletes útmutatóink segítségével könnyedén javíthatja prezentációit.
@@ -102,3 +108,9 @@ Ismerje meg, hogyan adhat programozottan szövegdobozt PowerPoint diákhoz az As
 Ismerje meg, hogyan integrálhat egyéni betűtípusokat PowerPoint-prezentációkba az Aspose.Slides for Java segítségével. Fokozza a vizuális vonzerőt erőfeszítés nélkül.
 ### [WordArt létrehozása a PowerPointban Java használatával](./create-wordart-powerpoint-java/)
 Ismerje meg, hogyan hozhat létre magával ragadó WordArt-elemeket PowerPoint-prezentációkban Java és Aspose.Slides használatával. Lépésről lépésre bemutató fejlesztőknek.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Xuất tệp phương tiện sang HTML từ bản trình bày
 linktitle: Xuất tệp phương tiện sang HTML từ bản trình bày
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tối ưu hóa việc chia sẻ bản trình bày của bạn với Aspose.Slides cho .NET! Tìm hiểu cách xuất tệp phương tiện sang HTML từ bản trình bày của bạn trong hướng dẫn từng bước này.
-type: docs
 weight: 15
 url: /vi/net/presentation-manipulation/export-media-files-to-html-from-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xuất tệp phương tiện sang HTML từ bản trình bày
+
 
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình xuất tệp phương tiện sang HTML từ bản trình bày bằng Aspose.Slides cho .NET. Aspose.Slides là một API mạnh mẽ cho phép bạn làm việc với các bản trình bày PowerPoint theo chương trình. Đến cuối hướng dẫn này, bạn sẽ có thể chuyển đổi bản trình bày của mình sang định dạng HTML một cách dễ dàng. Vậy hãy bắt đầu!
 
@@ -84,3 +90,9 @@ Câu trả lời 3: Có, Aspose.Slides for .NET hỗ trợ nhiều định dạn
  Câu trả lời 5: Bạn có thể mua giấy phép từ[liên kết này](https://purchase.aspose.com/buy).
 
 Bây giờ bạn đã hoàn thành hướng dẫn này, bạn có kỹ năng xuất tệp phương tiện sang HTML từ bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Tận hưởng việc chia sẻ trực tuyến các bài thuyết trình đa phương tiện của bạn!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

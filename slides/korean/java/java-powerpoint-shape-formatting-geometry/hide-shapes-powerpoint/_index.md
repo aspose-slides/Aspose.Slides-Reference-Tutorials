@@ -3,10 +3,16 @@ title: PowerPoint에서 도형 숨기기
 linktitle: PowerPoint에서 도형 숨기기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 자세한 단계별 가이드를 통해 Java용 Aspose.Slides를 사용하여 PowerPoint에서 모양을 숨기는 방법을 알아보세요. 모든 수준의 Java 개발자에게 적합합니다.
-type: docs
 weight: 27
 url: /ko/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint에서 도형 숨기기
+
 ## 소개
 Java용 Aspose.Slides를 사용하여 PowerPoint에서 모양을 숨기는 방법에 대한 포괄적인 튜토리얼에 오신 것을 환영합니다! 프로그래밍 방식으로 PowerPoint 프레젠테이션에서 특정 모양을 숨겨야 했던 적이 있다면 잘 찾아오셨습니다. 이 가이드는 간단한 대화 스타일로 각 단계를 안내합니다. 노련한 개발자이든 이제 막 Java를 시작하는 개발자이든 상관없이 저희가 도와드리겠습니다.
 ## 전제 조건
@@ -81,3 +87,9 @@ Aspose.Slides는 .NET, Python, C를 포함한 다양한 프로그래밍 언어�
  예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Aspose.Slides에 대한 지원은 어디서 받을 수 있나요?
  에서 지원을 받으실 수 있습니다.[Aspose.Slides 지원 포럼](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

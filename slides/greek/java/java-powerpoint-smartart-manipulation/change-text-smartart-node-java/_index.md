@@ -3,10 +3,16 @@ title: Αλλαγή κειμένου στο SmartArt Node χρησιμοποιώ
 linktitle: Αλλαγή κειμένου στο SmartArt Node χρησιμοποιώντας Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ανακαλύψτε πώς να ενημερώσετε το κείμενο κόμβου SmartArt στο PowerPoint χρησιμοποιώντας Java με Aspose.Slides, βελτιώνοντας την προσαρμογή της παρουσίασης.
-type: docs
 weight: 22
 url: /el/java/java-powerpoint-smartart-manipulation/change-text-smartart-node-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αλλαγή κειμένου στο SmartArt Node χρησιμοποιώντας Java
+
 ## Εισαγωγή
 Το SmartArt στο PowerPoint είναι μια ισχυρή δυνατότητα για τη δημιουργία οπτικά ελκυστικών διαγραμμάτων. Το Aspose.Slides για Java παρέχει ολοκληρωμένη υποστήριξη για το χειρισμό στοιχείων SmartArt μέσω προγραμματισμού. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία αλλαγής κειμένου σε έναν κόμβο SmartArt χρησιμοποιώντας Java.
 ## Προαπαιτούμενα
@@ -60,3 +66,9 @@ presentation.save(dataDir + "ChangeText_On_SmartArt_Node_out.pptx", SaveFormat.P
 Ναι, το Aspose.Slides υποστηρίζει ένα ευρύ φάσμα διατάξεων SmartArt, επιτρέποντάς σας να επιλέξετε αυτό που ταιριάζει καλύτερα στις ανάγκες της παρουσίασής σας.
 ### Πού μπορώ να βρω περισσότερους πόρους και υποστήριξη για το Aspose.Slides;
  Μπορείτε να επισκεφθείτε το[Τεκμηρίωση Aspose.Slides](https://reference.aspose.com/slides/java/) για λεπτομερείς αναφορές και εκπαιδευτικά προγράμματα API. Επιπλέον, μπορείτε να ζητήσετε βοήθεια από το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) ή σκεφτείτε να αγοράσετε ένα[προσωρινή άδεια](https://purchase.aspose.com/temporary-license/) για επαγγελματική υποστήριξη.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

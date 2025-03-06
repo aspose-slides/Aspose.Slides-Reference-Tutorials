@@ -3,10 +3,16 @@ title: Configurando propriedades de fonte em slides Java
 linktitle: Configurando propriedades de fonte em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como definir propriedades de fonte em slides Java usando Aspose.Slides for Java. Este guia passo a passo inclui exemplos de código e perguntas frequentes.
-type: docs
 weight: 15
 url: /pt/java/customization-and-formatting/setting-font-properties-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configurando propriedades de fonte em slides Java
+
 
 ## Introdução à configuração de propriedades de fonte em slides Java
 
@@ -137,3 +143,9 @@ for (ISlide slide : pres.getSlides()) {
     // Acesse e personalize as propriedades de fonte dos elementos de texto aqui
 }
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

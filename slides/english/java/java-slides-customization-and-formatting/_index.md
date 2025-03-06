@@ -3,10 +3,16 @@ title: Java Slides Customization and Formatting
 linktitle: Java Slides Customization and Formatting
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Discover the power of Aspose.Slides for Java in customizing and formatting Java slides. Learn step-by-step in our tutorials. Elevate your presentation skills.
-type: docs
 weight: 12
 url: /java/customization-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slides Customization and Formatting
+
 
 In this article, we'll delve into the world of Java slides customization and formatting using Aspose.Slides for Java. Whether you're a seasoned developer or just starting with Java presentations, our tutorials listing will be your guide to harnessing the full potential of Aspose.Slides. |
 
@@ -49,3 +55,9 @@ Learn how to setting font properties in Java slides using Aspose.Slides for Java
 Enhance Your Charts with Aspose.Slides for Java. Learn how to setting the position axis in Java slides, create stunning presentations, and customize chart layouts with ease.
 ### [Setting Rotation Angle in Java Slides](./setting-rotation-angle-java-slides/)
 Optimize your Java slides with Aspose.Slides for Java. Learn to setting rotation angles for text elements. Step-by-step guide with source code.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

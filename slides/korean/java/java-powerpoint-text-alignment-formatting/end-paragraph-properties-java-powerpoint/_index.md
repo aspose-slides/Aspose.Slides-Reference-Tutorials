@@ -3,10 +3,16 @@ title: Java PowerPoint의 끝 단락 속성
 linktitle: Java PowerPoint의 끝 단락 속성
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 프로그래밍 방식으로 Java로 PowerPoint 프레젠테이션을 만들고 사용자 정의하는 방법을 알아보세요. 원활한 통합을 위한 튜토리얼과 필수 팁을 살펴보세요.
-type: docs
 weight: 11
 url: /ko/java/java-powerpoint-text-alignment-formatting/end-paragraph-properties-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint의 끝 단락 속성
+
 ## 소개
 프로그래밍 방식으로 PowerPoint 프레젠테이션을 만들고 조작하면 비즈니스 프레젠테이션부터 교육 자료에 이르기까지 다양한 영역에서 워크플로를 간소화하고 생산성을 향상시킬 수 있습니다. Aspose.Slides for Java는 개발자가 슬라이드 추가, 텍스트 삽입, 콘텐츠 서식 지정, 다양한 형식으로 프레젠테이션 내보내기 등의 작업을 자동화할 수 있는 강력한 API를 제공합니다. 이 튜토리얼은 Aspose.Slides for Java를 시작하기 위한 필수 단계를 안내하고 해당 기능을 효과적으로 활용하는 방법을 보여줍니다.
 ## 전제 조건
@@ -85,3 +91,9 @@ if (pres != null) {
 예, Aspose.Slides API를 통해 슬라이드에 애니메이션과 전환을 추가할 수 있습니다.
 ### 문제가 발생하거나 질문이 있는 경우 어디서 지원을 받을 수 있나요?
  당신은 방문 할 수 있습니다[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11) 지원 및 커뮤니티 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

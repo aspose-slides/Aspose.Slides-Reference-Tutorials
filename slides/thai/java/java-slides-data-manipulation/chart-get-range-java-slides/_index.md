@@ -3,10 +3,16 @@ title: แผนภูมิรับช่วงใน Java Slides
 linktitle: แผนภูมิรับช่วงใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีดึงข้อมูลช่วงแผนภูมิใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java API คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ดเพื่อการเข้าถึงข้อมูลแผนภูมิอย่างมีประสิทธิภาพ
-type: docs
 weight: 16
 url: /th/java/data-manipulation/chart-get-range-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แผนภูมิรับช่วงใน Java Slides
+
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับ Chart Get Range ใน Java Slides
 
@@ -98,3 +104,10 @@ Aspose.Slides for Java เป็นไลบรารีเชิงพาณิ
 ### ฉันจะหาแหล่งข้อมูลเพิ่มเติมและเอกสารประกอบสำหรับ Aspose.Slides สำหรับ Java ได้ที่ไหน
 
  คุณสามารถค้นหาเอกสารและทรัพยากรที่ครอบคลุมสำหรับ Aspose.Slides สำหรับ Java บนเว็บไซต์:[Aspose.Slides สำหรับเอกสาร Java](https://reference.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Sunumu XAML Formatına Dışa Aktarma
 linktitle: Sunumu XAML Formatına Dışa Aktarma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak sunumları XAML formatına nasıl aktaracağınızı öğrenin. Zahmetsizce etkileşimli içerik oluşturun!
-type: docs
 weight: 27
 url: /tr/net/presentation-conversion/export-presentation-to-xaml-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sunumu XAML Formatına Dışa Aktarma
+
 
 Yazılım geliştirme dünyasında karmaşık görevleri basitleştirebilecek araçlara sahip olmak çok önemlidir. Aspose.Slides for .NET, PowerPoint sunumlarıyla programlı olarak çalışmanıza olanak tanıyan araçlardan biridir. Bu adım adım eğitimde, Aspose.Slides for .NET kullanarak bir sunumun XAML formatına nasıl aktarılacağını keşfedeceğiz. 
 
@@ -113,3 +119,9 @@ Aspose.Slides for .NET, PowerPoint sunumlarıyla programlı olarak çalışmaya 
  Destek ve topluluk tartışmalarını bulabilirsiniz[Burada](https://forum.aspose.com/).
 
  Daha fazla eğitim ve kaynak için şu adresi ziyaret edin:[Aspose.Slides API belgeleri](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

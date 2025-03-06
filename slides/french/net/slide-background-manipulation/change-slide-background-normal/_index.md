@@ -3,10 +3,16 @@ title: Comment modifier l'arrière-plan d'une diapositive dans Aspose.Slides .NE
 linktitle: Modifier l'arrière-plan normal d'une diapositive
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Apprenez à modifier l'arrière-plan des diapositives à l'aide d'Aspose.Slides for .NET et à créer de superbes présentations PowerPoint.
-type: docs
 weight: 15
 url: /fr/net/slide-background-manipulation/change-slide-background-normal/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Comment modifier l'arrière-plan d'une diapositive dans Aspose.Slides .NET
+
 
 Dans le monde de la conception de présentations, il est essentiel de créer des diapositives accrocheuses et attrayantes. Aspose.Slides for .NET est un outil puissant qui vous permet de manipuler des présentations PowerPoint par programme. Dans ce guide étape par étape, nous allons vous montrer comment modifier l'arrière-plan d'une diapositive à l'aide d'Aspose.Slides pour .NET. Cela peut vous aider à améliorer l’attrait visuel de vos présentations et à les rendre plus percutantes. 
 
@@ -99,3 +105,9 @@ Certainement! Vous pouvez parcourir vos diapositives et appliquer les modificati
 ### 5. Comment puis-je obtenir une licence temporaire pour Aspose.Slides pour .NET ?
 
  Si vous avez besoin d'une licence temporaire pour votre projet, vous pouvez en obtenir une auprès de[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

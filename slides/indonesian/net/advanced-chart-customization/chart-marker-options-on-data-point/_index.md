@@ -3,10 +3,16 @@ title: Menggunakan Opsi Penanda Bagan pada Titik Data di Aspose.Slides .NET
 linktitle: Opsi Penanda Bagan pada Titik Data
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menyempurnakan bagan PowerPoint Anda menggunakan Aspose.Slides untuk .NET. Sesuaikan penanda titik data dengan gambar. Buat presentasi yang menarik.
-type: docs
 weight: 11
 url: /id/net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menggunakan Opsi Penanda Bagan pada Titik Data di Aspose.Slides .NET
+
 
 Saat bekerja dengan presentasi dan visualisasi data, Aspose.Slides for .NET menawarkan beragam fitur canggih untuk membuat, menyesuaikan, dan memanipulasi bagan. Dalam tutorial ini, kita akan mempelajari cara menggunakan opsi penanda bagan pada titik data untuk menyempurnakan presentasi bagan Anda. Panduan langkah demi langkah ini akan memandu Anda melalui prosesnya, mulai dari prasyarat dan mengimpor namespace, hingga memecah setiap contoh menjadi beberapa langkah.
 
@@ -148,3 +154,9 @@ Aspose.Slides untuk .NET dirancang untuk bekerja dengan berbagai format PowerPoi
 
 ### Apakah ada versi uji coba Aspose.Slides untuk .NET yang tersedia?
  Ya, Anda dapat mencoba Aspose.Slides untuk .NET dengan mengunduh versi uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

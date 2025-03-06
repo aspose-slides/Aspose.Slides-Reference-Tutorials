@@ -3,10 +3,16 @@ title: Tạo hình chữ nhật bằng Aspose.Slides cho .NET
 linktitle: Tạo hình chữ nhật đơn giản trong slide thuyết trình bằng Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Khám phá thế giới bản trình bày PowerPoint động với Aspose.Slides cho .NET. Tìm hiểu cách tạo hình chữ nhật hấp dẫn trong trang trình bày bằng hướng dẫn từng bước này.
-type: docs
 weight: 12
 url: /vi/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo hình chữ nhật bằng Aspose.Slides cho .NET
+
 ## Giới thiệu
 Nếu bạn đang tìm cách nâng cao các ứng dụng .NET của mình bằng các bản trình bày PowerPoint năng động và hấp dẫn về mặt hình ảnh thì Aspose.Slides dành cho .NET là giải pháp phù hợp cho bạn. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình tạo hình chữ nhật đơn giản trong các trang trình bày bằng Aspose.Slides cho .NET.
 ## Điều kiện tiên quyết
@@ -61,3 +67,9 @@ Có, Aspose.Slides for .NET độc lập với nền tảng và có thể đư�
  Có, bạn có thể mua giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể tìm tài liệu về Aspose.Slides cho .NET ở đâu?
  Tham khảo tài liệu[đây](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ajouter un cadre d'objet OLE dans PowerPoint
 linktitle: Ajouter un cadre d'objet OLE dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment intégrer de manière transparente des cadres d'objets OLE dans des présentations PowerPoint à l'aide d'Aspose.Slides pour Java.
-type: docs
 weight: 13
 url: /fr/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ajouter un cadre d'objet OLE dans PowerPoint
+
 ## Introduction
 L'ajout d'un cadre d'objet OLE (Object Linking and Embedding) dans les présentations PowerPoint peut améliorer considérablement l'attrait visuel et la fonctionnalité de vos diapositives. Avec Aspose.Slides pour Java, ce processus devient rationalisé et efficace. Dans ce didacticiel, nous vous guiderons à travers les étapes nécessaires pour intégrer de manière transparente les cadres d'objets OLE dans vos présentations PowerPoint.
 ### Conditions préalables
@@ -80,3 +86,9 @@ Absolument! Aspose.Slides offre des options étendues pour personnaliser l'appar
  Oui, vous pouvez télécharger une version d'essai gratuite à partir de[ici](https://releases.aspose.com/).
 ### Où puis-je trouver de l’assistance pour Aspose.Slides pour Java ?
  Vous pouvez demander de l'aide et de l'aide sur le forum Aspose.Slides[ici](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

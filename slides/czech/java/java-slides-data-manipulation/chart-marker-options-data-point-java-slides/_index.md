@@ -3,10 +3,16 @@ title: Možnosti značek grafu na datovém bodu v Java Slides
 linktitle: Možnosti značek grafu na datovém bodu v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimalizujte své snímky Java pomocí vlastních možností značek grafů. Naučte se vylepšovat datové body vizuálně pomocí Aspose.Slides pro Java. Prozkoumejte podrobné pokyny a často kladené dotazy.
-type: docs
 weight: 14
 url: /cs/java/data-manipulation/chart-marker-options-data-point-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Možnosti značek grafu na datovém bodu v Java Slides
+
 
 ## Úvod do možností značek grafu na datovém bodu v Java Slides
 
@@ -154,3 +160,9 @@ Ano, pomocí Aspose.Slides for Java můžete přizpůsobit různé aspekty grafu
 ### Kde mohu získat přístup k dokumentaci Aspose.Slides for Java a ke stažení?
 
  Dokumentaci najdete na[tady](https://reference.aspose.com/slides/java/) a stáhněte si knihovnu na[tady](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

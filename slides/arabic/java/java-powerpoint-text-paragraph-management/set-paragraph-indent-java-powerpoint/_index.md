@@ -3,10 +3,16 @@ title: تعيين المسافة البادئة للفقرة في Java PowerPoin
 linktitle: تعيين المسافة البادئة للفقرة في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين المسافات البادئة للفقرة في شرائح PowerPoint برمجياً باستخدام Aspose.Slides لـ Java. قم بتحسين تنسيق العرض التقديمي الخاص بك دون عناء.
-type: docs
 weight: 16
 url: /ar/java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تعيين المسافة البادئة للفقرة في Java PowerPoint
+
 ## مقدمة
 في هذا البرنامج التعليمي، ستتعلم كيفية التعامل مع عروض PowerPoint التقديمية برمجياً باستخدام Aspose.Slides لـ Java. على وجه التحديد، سوف نركز على تعيين المسافات البادئة للفقرة داخل الشرائح. يوفر Aspose.Slides for Java مجموعة قوية من واجهات برمجة التطبيقات التي تسمح للمطورين بإنشاء عروض PowerPoint التقديمية وتعديلها وتحويلها وإدارتها دون الاعتماد على Microsoft Office Automation.
 ## المتطلبات الأساسية
@@ -85,3 +91,9 @@ Aspose.Slides for Java هي مكتبة قوية للعمل مع عروض PowerPo
  نعم، يمكنك الحصول على نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
 ### أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ Java؟
  يمكنك الحصول على الدعم من منتدى المجتمع[هنا](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: SmartArt의 특정 위치에서 하위 노드에 액세스
 linktitle: SmartArt의 특정 위치에서 하위 노드에 액세스
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 이 자세한 가이드를 통해 Java용 Aspose.Slides에서 SmartArt를 조작하는 방법을 알아보세요. 단계별 지침, 예시, 모범 사례가 포함되어 있습니다.
-type: docs
 weight: 11
 url: /ko/java/java-powerpoint-smartart-manipulation/access-child-node-specific-position-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# SmartArt의 특정 위치에서 하위 노드에 액세스
+
 ## 소개
 정교한 SmartArt 그래픽을 사용하여 프레젠테이션을 한 단계 더 발전시키고 싶으십니까? 더 이상 보지 마세요! Aspose.Slides for Java는 SmartArt 개체 작업 기능을 포함하여 프레젠테이션 슬라이드를 생성, 조작 및 관리하기 위한 강력한 제품군을 제공합니다. 이 포괄적인 튜토리얼에서는 Aspose.Slides for Java 라이브러리를 사용하여 SmartArt 그래픽 내의 특정 위치에 있는 하위 노드에 액세스하고 조작하는 과정을 안내합니다.
 
@@ -98,3 +104,9 @@ System.out.println(outString);
  에서 지원을 받으실 수 있습니다.[Aspose 커뮤니티 포럼](https://forum.aspose.com/c/slides/11) 또는 광범위한 내용을 참조하십시오.[선적 서류 비치](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java의 정식 라이선스를 구입할 수 있나요?
  예, 다음에서 정식 라이센스를 구입할 수 있습니다.[구매 페이지](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

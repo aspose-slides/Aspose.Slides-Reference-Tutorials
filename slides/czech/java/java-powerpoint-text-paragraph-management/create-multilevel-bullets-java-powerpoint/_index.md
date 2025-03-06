@@ -3,10 +3,16 @@ title: Vytvářejte víceúrovňové odrážky v Java PowerPoint
 linktitle: Vytvářejte víceúrovňové odrážky v Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet víceúrovňové odrážky v PowerPointu pomocí Aspose.Slides for Java. Podrobný průvodce s příklady kódu a často kladenými dotazy.
-type: docs
 weight: 14
 url: /cs/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvářejte víceúrovňové odrážky v Java PowerPoint
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak vytvořit víceúrovňové odrážky v prezentacích PowerPoint pomocí Aspose.Slides pro Java. Přidávání odrážek je běžným požadavkem pro vytváření organizovaného a vizuálně přitažlivého obsahu v prezentacích. Procesem projdeme krok za krokem a zajistíme, že na konci této příručky budete schopni vylepšit své prezentace o strukturované odrážky na několika úrovních.
 ## Předpoklady
@@ -109,3 +115,9 @@ Aspose.Slides generuje prezentace, které jsou kompatibilní s Microsoft PowerPo
 Ano, Aspose.Slides poskytuje rozhraní API pro automatizaci vytváření, úprav a manipulace s PowerPointovými prezentacemi.
 ### Kde mohu získat podporu pro Aspose.Slides pro Java?
  Můžete získat podporu od komunity Aspose.Slides a odborníků na adrese[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

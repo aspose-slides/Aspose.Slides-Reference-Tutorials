@@ -3,10 +3,16 @@ title: Répliquer la diapositive à la fin d'une présentation séparée
 linktitle: Répliquer la diapositive à la fin d'une présentation séparée
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment répliquer une diapositive d'une présentation PowerPoint et l'ajouter à une autre à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape fournit le code source et des instructions claires pour une manipulation transparente des diapositives.
-type: docs
 weight: 17
 url: /fr/net/slide-access-and-manipulation/clone-slide-end-of-another-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Répliquer la diapositive à la fin d'une présentation séparée
+
 
 ## Introduction à Aspose.Slides pour .NET
 
@@ -103,3 +109,9 @@ Absolument! Vous pouvez manipuler le contenu de la diapositive répliquée comme
 ### Aspose.Slides pour .NET fonctionne-t-il uniquement avec des diapositives ?
 
 Non, Aspose.Slides pour .NET offre des fonctionnalités étendues au-delà des diapositives. Vous pouvez travailler avec des formes, des graphiques, des animations et même extraire du texte et des images de présentations.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

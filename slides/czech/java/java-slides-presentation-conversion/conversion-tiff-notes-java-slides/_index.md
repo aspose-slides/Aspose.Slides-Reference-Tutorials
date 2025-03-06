@@ -3,10 +3,16 @@ title: Převod na TIFF s poznámkami v Java Slides
 linktitle: Převod na TIFF s poznámkami v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se převádět Java Slides do formátu TIFF s vloženými poznámkami pomocí Aspose.Slides for Java. Součástí je podrobný průvodce a zdrojový kód.
-type: docs
 weight: 10
 url: /cs/java/presentation-conversion/conversion-tiff-notes-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převod na TIFF s poznámkami v Java Slides
+
 
 ## Úvod do převodu na TIFF s poznámkami v Java Slides
 
@@ -88,3 +94,9 @@ Ano, Aspose.Slides for Java vyžaduje platnou licenci pro komerční použití. 
 ### Kde najdu další dokumentaci a příklady pro Aspose.Slides pro Java?
 
  Na stránce Aspose.Slides for Java API Reference si můžete prohlédnout komplexní dokumentaci a příklady kódu[tady](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

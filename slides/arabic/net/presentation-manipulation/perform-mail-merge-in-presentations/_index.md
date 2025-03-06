@@ -3,10 +3,16 @@ title: تنفيذ دمج البريد في العروض التقديمية
 linktitle: تنفيذ دمج البريد في العروض التقديمية
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على دمج البريد في العروض التقديمية باستخدام Aspose.Slides لـ .NET في هذا الدليل التفصيلي خطوة بخطوة. قم بإنشاء عروض تقديمية ديناميكية وشخصية دون عناء.
-type: docs
 weight: 21
 url: /ar/net/presentation-manipulation/perform-mail-merge-in-presentations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تنفيذ دمج البريد في العروض التقديمية
+
 ## مقدمة
 في عالم تطوير .NET، يعد إنشاء عروض تقديمية ديناميكية وشخصية مطلبًا شائعًا. إحدى الأدوات القوية التي تعمل على تبسيط هذه العملية هي Aspose.Slides for .NET. في هذا البرنامج التعليمي، سنتعمق في المجال الرائع لإجراء دمج البريد في العروض التقديمية باستخدام Aspose.Slides for .NET.
 ## المتطلبات الأساسية
@@ -150,3 +156,9 @@ static void FillPlanFact(Presentation pres, DataRow row, DataTable planFactTable
  بالتأكيد! يمكنك الاستفادة من النسخة التجريبية المجانية من Aspose.Slides لـ .NET من[هنا](https://releases.aspose.com/).
 ## خاتمة
 في هذا البرنامج التعليمي، اكتشفنا الإمكانات المثيرة لـ Aspose.Slides لـ .NET في إجراء دمج البريد في العروض التقديمية. باتباع الدليل الموضح خطوة بخطوة، يمكنك إنشاء عروض تقديمية ديناميكية وشخصية دون عناء. ارفع مستوى تجربة تطوير .NET الخاصة بك باستخدام Aspose.Slides لإنشاء عروض تقديمية سلسة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

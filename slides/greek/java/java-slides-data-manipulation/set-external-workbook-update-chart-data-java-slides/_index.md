@@ -3,10 +3,16 @@ title: Ορισμός εξωτερικού βιβλίου εργασίας με 
 linktitle: Ορισμός εξωτερικού βιβλίου εργασίας με ενημέρωση δεδομένων γραφήματος σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ορίζετε εξωτερικά βιβλία εργασίας και να ενημερώνετε δεδομένα γραφήματος σε Java Slides χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε τις δεξιότητές σας στον αυτοματισμό του PowerPoint.
-type: docs
 weight: 20
 url: /el/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ορισμός εξωτερικού βιβλίου εργασίας με ενημέρωση δεδομένων γραφήματος σε διαφάνειες Java
+
 
 ## Εισαγωγή στον ορισμό εξωτερικού βιβλίου εργασίας με ενημέρωση δεδομένων γραφήματος σε διαφάνειες Java
 
@@ -99,3 +105,9 @@ finally
 ### Πού μπορώ να βρω περισσότερη τεκμηρίωση και πόρους για το Aspose.Slides για Java;
 
  Για λεπτομερή τεκμηρίωση και πρόσθετους πόρους, επισκεφθείτε την τεκμηρίωση Aspose.Slides for Java στη διεύθυνση[εδώ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

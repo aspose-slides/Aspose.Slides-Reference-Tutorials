@@ -3,10 +3,16 @@ title: Мастерство соединения фигур с помощью As
 linktitle: Соединение фигуры с использованием сайта соединения в презентации
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Создавайте увлекательные презентации с помощью Aspose.Slides for .NET, плавно соединяя фигуры. Следуйте нашему руководству, чтобы игра прошла гладко и увлекательно.
-type: docs
 weight: 30
 url: /ru/net/shape-effects-and-manipulation-in-slides/connecting-shape-using-connection-site/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Мастерство соединения фигур с помощью Aspose.Slides для .NET
+
 ## Введение
 В динамичном мире презентаций создание визуально привлекательных слайдов с взаимосвязанными формами имеет решающее значение для эффективной коммуникации. Aspose.Slides для .NET предоставляет мощное решение для достижения этой цели, позволяя соединять фигуры с помощью сайтов соединения. Это руководство шаг за шагом проведет вас через процесс соединения фигур, гарантируя, что ваши презентации будут выделяться плавными визуальными переходами.
 ## Предварительные условия
@@ -78,3 +84,9 @@ Aspose.Slides позволяет соединить две фигуры одни
  Да, вы можете скачать бесплатную пробную версию[здесь](https://releases.aspose.com/).
 ### Где я могу получить поддержку для Aspose.Slides?
  Посетить[Форум Aspose.Slides](https://forum.aspose.com/c/slides/11) за поддержку сообщества и обсуждения.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

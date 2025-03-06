@@ -3,10 +3,16 @@ title: Slide Kommentarer Manipulering
 linktitle: Slide Kommentarer Manipulering
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Förbättra dina färdigheter i bildhantering med Aspose.Slides-handledningar om manipulering av bildkommentarer. Lär dig att lägga till, redigera och hantera kommentarer programmatiskt i PowerPoint-presentationer med .NET.
-type: docs
 weight: 12
 url: /sv/net/slide-comments-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Slide Kommentarer Manipulering
+
 
 ## Introduktion
 
@@ -27,3 +33,9 @@ Lär dig hur du förbättrar dina presentationer med interaktiva element genom a
 Lägg till djup och interaktion till dina presentationer med Aspose.Slides API. Lär dig hur du enkelt integrerar kommentarer i dina bilder med .NET. Förbättra engagemanget och fängsla din publik.
 ### [Modern Kommentarshantering](./modern-comments/)
 Förbättra samarbets- och feedbackprocesser med modern kommentarhantering med Aspose.Slides. Lär dig hur du effektiviserar kommunikationen i dina presentationer och maximerar produktiviteten.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thuộc tính phông chữ và đoạn văn nâng cao của Java PowerPoi
 linktitle: Thuộc tính phông chữ và đoạn văn nâng cao của Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Nắm vững các thuộc tính phông chữ và đoạn văn nâng cao trong Java PowerPoint bằng Aspose.Slides. Tìm hiểu cách tùy chỉnh phông chữ, thêm dấu đầu dòng hình ảnh và sử dụng phông chữ dự phòng.
-type: docs
 weight: 28
 url: /vi/java/java-powerpoint-advanced-paragraph-font-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thuộc tính phông chữ và đoạn văn nâng cao của Java PowerPoint
+
 ## Giới thiệu
 
 Việc tạo bản trình bày PowerPoint bóng bẩy đòi hỏi phải tinh chỉnh nhiều yếu tố khác nhau, từ định dạng đoạn văn đến quản lý phông chữ. Aspose.Slides cho Java cung cấp các công cụ mạnh mẽ để quản lý các thuộc tính nâng cao này một cách hiệu quả. Trong bài viết này, chúng ta sẽ khám phá các hướng dẫn giúp bạn tùy chỉnh các thuộc tính phông chữ của đoạn văn, thêm dấu đầu dòng hình ảnh và sử dụng phông chữ dự phòng. Hãy cùng đi sâu vào các kỹ thuật nâng cao này để làm cho bài thuyết trình của bạn trở nên nổi bật!
@@ -35,3 +41,9 @@ Tìm hiểu cách thêm dấu đầu dòng hình ảnh tùy chỉnh vào trang c
 Tìm hiểu cách lấy phần hình chữ nhật trong PowerPoint bằng Aspose.Slides cho Java với hướng dẫn từng bước chi tiết này. Hoàn hảo cho các nhà phát triển Java.
 ### [Kết xuất với phông chữ dự phòng trong Java PowerPoint](./render-with-fallback-font-java-powerpoint/)
 Tìm hiểu cách hiển thị văn bản bằng phông chữ dự phòng trong bản trình bày Java PowerPoint bằng Aspose.Slides. Hãy làm theo hướng dẫn từng bước này để triển khai liền mạch.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

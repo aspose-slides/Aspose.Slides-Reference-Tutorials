@@ -3,10 +3,16 @@ title: Java 投影片中的旭日圖
 linktitle: Java 投影片中的旭日圖
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides 在 Java 投影片中建立令人驚嘆的旭日圖。了解分步圖表建立和資料操作。
-type: docs
 weight: 16
 url: /zh-hant/java/chart-elements/sunburst-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 投影片中的旭日圖
+
 
 ## 使用 Aspose.Slides 介紹 Java 投影片中的旭日圖
 
@@ -168,3 +174,9 @@ finally
 ### 是否可以建立帶有超連結的互動式旭日圖？
 
 是的，您可以透過將超連結新增至特定圖表元素或段來建立具有超連結的互動式旭日圖。有關添加超連結的詳細信息，請參閱 Aspose.Slides 文件。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

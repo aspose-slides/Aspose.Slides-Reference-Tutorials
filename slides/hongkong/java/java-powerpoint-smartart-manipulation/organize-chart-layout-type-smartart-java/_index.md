@@ -3,10 +3,16 @@ title: 使用 Java 在 SmartArt 中組織圖表佈局類型
 linktitle: 使用 Java 在 SmartArt 中組織圖表佈局類型
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Java 和 Aspose.Slides 掌握在 SmartArt 中組織圖表佈局類型，輕鬆增強簡報的視覺效果。
-type: docs
 weight: 13
 url: /zh-hant/java/java-powerpoint-smartart-manipulation/organize-chart-layout-type-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 SmartArt 中組織圖表佈局類型
+
 ## 介紹
 在本教學中，我們將逐步介紹使用 Java 在 SmartArt 中組織圖表佈局類型的過程，特別是利用 Aspose.Slides 函式庫。簡報中的 SmartArt 可以大大增強資料的視覺吸引力和清晰度，因此掌握其操作至關重要。
 ## 先決條件
@@ -55,3 +61,9 @@ presentation.save(dataDir + "OrganizeChartLayoutType_out.pptx", SaveFormat.Pptx)
 是的，您可以在做出購買決定之前訪問 Aspose.Slides 的免費試用版來探索其功能。
 ### 我可以在哪裡尋求 Aspose.Slides 相關查詢的支援？
 有關 Aspose.Slides 的任何協助或疑問，您可以造訪支援論壇[這裡](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

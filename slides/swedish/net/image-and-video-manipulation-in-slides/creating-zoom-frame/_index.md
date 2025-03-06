@@ -3,10 +3,16 @@ title: Skapa dynamiska presentationer med Aspose.Slides zoomramar
 linktitle: Skapa zoomram i presentationsbilder med Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig att skapa fängslande presentationer med zoomramar med Aspose.Slides för .NET. Följ vår steg-för-steg-guide för en engagerande bildupplevelse.
-type: docs
 weight: 17
 url: /sv/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa dynamiska presentationer med Aspose.Slides zoomramar
+
 ## Introduktion
 När det gäller presentationer är fängslande bilder nyckeln till att lämna ett bestående intryck. Aspose.Slides för .NET tillhandahåller en kraftfull verktygsuppsättning, och i den här guiden går vi igenom processen med att integrera engagerande zoomramar i dina presentationsbilder.
 ## Förutsättningar
@@ -89,3 +95,9 @@ Ja, du kan anpassa olika aspekter som linjebredd, fyllningsfärg och streckstil,
  Du kan skaffa en tillfällig licens[här](https://purchase.aspose.com/temporary-license/).
 ### F: Var kan jag köpa den fullständiga versionen av Aspose.Slides för .NET?
  Du kan köpa den fullständiga versionen[här](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

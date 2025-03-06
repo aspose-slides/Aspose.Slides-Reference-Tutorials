@@ -3,10 +3,16 @@ title: Cara Mengekstrak Video dari Slide Menggunakan Aspose.Slides untuk .NET
 linktitle: Ekstrak Video dari Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengekstrak video dari slide PowerPoint menggunakan Aspose.Slides untuk .NET. Panduan langkah demi langkah ini menyederhanakan proses untuk Anda.
-type: docs
 weight: 14
 url: /id/net/audio-and-video-extraction/extract-video/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cara Mengekstrak Video dari Slide Menggunakan Aspose.Slides untuk .NET
+
 
 Aspose.Slides for .NET adalah pustaka canggih yang memungkinkan Anda bekerja dengan presentasi PowerPoint di lingkungan .NET. Salah satu fitur berguna yang disediakannya adalah kemampuan untuk mengekstrak video dari slide. Dalam panduan langkah demi langkah ini, kami akan menunjukkan cara mengekstrak video dari slide PowerPoint menggunakan Aspose.Slides untuk .NET.
 
@@ -110,3 +116,9 @@ Aspose.Slides for .NET adalah pustaka yang memungkinkan aplikasi .NET bekerja de
 
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk .NET?
  Anda dapat menemukan dukungan di[Forum Aspose.Slide](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

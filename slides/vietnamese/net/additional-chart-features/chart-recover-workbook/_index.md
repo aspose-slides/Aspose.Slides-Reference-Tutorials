@@ -3,10 +3,16 @@ title: Cách sử dụng Aspose.Slides .NET để khôi phục sổ làm việc 
 linktitle: Khôi phục sổ làm việc từ biểu đồ
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách khôi phục sổ làm việc từ biểu đồ trong bản trình bày PowerPoint bằng Aspose.Slides for .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để trích xuất dữ liệu hiệu quả.
-type: docs
 weight: 12
 url: /vi/net/additional-chart-features/chart-recover-workbook/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cách sử dụng Aspose.Slides .NET để khôi phục sổ làm việc từ biểu đồ
+
 
 Nếu bạn đang muốn làm việc với các bản trình bày PowerPoint trong .NET thì Aspose.Slides for .NET là một thư viện mạnh mẽ có thể giúp bạn đạt được mục tiêu của mình. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình khôi phục sổ làm việc từ biểu đồ trong bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Tính năng mạnh mẽ này có thể hữu ích khi bạn cần trích xuất dữ liệu từ biểu đồ trong bản trình bày của mình. Chúng tôi sẽ chia quy trình thành các bước dễ thực hiện, đảm bảo bạn hiểu rõ cách hoàn thành nhiệm vụ này.
 
@@ -101,3 +107,9 @@ Aspose.Slides for .NET là một thư viện .NET mạnh mẽ để làm việc 
 ### 5. Độ dài tiêu đề tối đa để tối ưu hóa SEO là bao nhiêu?
 
 Để tối ưu hóa SEO, bạn nên giữ tiêu đề của mình dưới 60 ký tự để đảm bảo nó hiển thị chính xác trong kết quả của công cụ tìm kiếm.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Incorpora caratteri in HTML utilizzando Aspose.Slides per Java
 linktitle: Incorpora caratteri in HTML utilizzando Aspose.Slides per Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come incorporare i caratteri in HTML utilizzando Aspose.Slides per Java per garantire una tipografia coerente su diverse piattaforme e dispositivi.
-type: docs
 weight: 13
 url: /it/java/java-powerpoint-font-management/embed-fonts-in-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Incorpora caratteri in HTML utilizzando Aspose.Slides per Java
+
 ## introduzione
 Aspose.Slides per Java è un potente strumento per gli sviluppatori Java che cercano di manipolare le presentazioni PowerPoint a livello di codice. In questo tutorial, approfondiremo il processo di incorporamento dei caratteri in HTML utilizzando Aspose.Slides per Java. Incorporando i caratteri, ti assicuri che le tue presentazioni mantengano l'aspetto previsto su piattaforme e dispositivi diversi, anche se i caratteri richiesti non sono installati localmente.
 ## Prerequisiti
@@ -58,3 +64,9 @@ Sì, Aspose.Slides supporta l'incorporamento di caratteri in vari formati di out
  Puoi visitare il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) per il supporto della comunità o contattare il supporto Aspose per assistenza professionale.
 ### Posso acquistare una licenza temporanea per Aspose.Slides per Java?
 Sì, puoi acquisire una licenza temporanea da[pagina di acquisto](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

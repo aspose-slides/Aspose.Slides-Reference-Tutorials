@@ -3,10 +3,16 @@ title: Tùy chỉnh và định dạng trang trình bày Java
 linktitle: Tùy chỉnh và định dạng trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Khám phá sức mạnh của Aspose.Slides for Java trong việc tùy chỉnh và định dạng các slide Java. Tìm hiểu từng bước trong hướng dẫn của chúng tôi. Nâng cao kỹ năng thuyết trình của bạn.
-type: docs
 weight: 12
 url: /vi/java/customization-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tùy chỉnh và định dạng trang trình bày Java
+
 
  Trong bài viết này, chúng ta sẽ đi sâu vào thế giới tùy chỉnh và định dạng trang trình bày Java bằng Aspose.Slides cho Java. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay mới bắt đầu với các bài thuyết trình Java, danh sách hướng dẫn của chúng tôi sẽ là hướng dẫn giúp bạn khai thác toàn bộ tiềm năng của Aspose.Slides.|
 
@@ -49,3 +55,9 @@ Tìm hiểu cách đặt thuộc tính phông chữ trong các trang chiếu Jav
 Cải thiện biểu đồ của bạn với Aspose.Slides cho Java. Tìm hiểu cách đặt trục vị trí trong các trang trình bày Java, tạo bản trình bày ấn tượng và tùy chỉnh bố cục biểu đồ một cách dễ dàng.
 ### [Đặt góc xoay trong Java Slides](./setting-rotation-angle-java-slides/)
 Tối ưu hóa các trang trình bày Java của bạn với Aspose.Slides for Java. Tìm hiểu cách thiết lập góc xoay cho các thành phần văn bản. Hướng dẫn từng bước với mã nguồn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

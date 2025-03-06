@@ -3,10 +3,16 @@ title: Formgeometrie und Positionierung in Folien mit Aspose.Slides
 linktitle: Formgeometrie und Positionierung in Folien
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Verbessern Sie Ihre Fähigkeiten zur Folienbearbeitung mit Aspose.Slides-Tutorials zur Formgeometrie und Positionierung in Folien. Lernen Sie, Formen, ihre Abmessungen und Ausrichtung programmgesteuert zu steuern.
-type: docs
 weight: 13
 url: /de/net/shape-geometry-and-positioning-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Formgeometrie und Positionierung in Folien mit Aspose.Slides
+
 
 ## Einführung
 
@@ -51,3 +57,9 @@ Erfahren Sie, wie Sie mit Aspose.Slides Light Rig-Daten effizient in Präsentati
 Erfahren Sie, wie Sie Ihre Präsentationsfolien mit Aspose.Slides mit effektiven Abschrägungsdaten verbessern können. Eine umfassende Anleitung mit Schritt-für-Schritt-Anleitungen und Beispielcode.
 ### [Formen in Präsentationsfolien mit Aspose.Slides ausblenden](./hiding-shapes/)
 Erfahren Sie, wie Sie mit Aspose.Slides für .NET Formen in Präsentationsfolien ausblenden. Schritt-für-Schritt-Anleitung mit Quellcode, FAQs und Best Practices für dynamische Präsentationen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

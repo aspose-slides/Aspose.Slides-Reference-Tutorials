@@ -3,10 +3,16 @@ title: Applicera Outer Shadow i PowerPoint med Java
 linktitle: Applicera Outer Shadow i PowerPoint med Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du applicerar yttre skuggeffekt i PowerPoint med Java med Aspose.Slides. Förbättra dina presentationer med djup och visuell tilltalande.
-type: docs
 weight: 13
 url: /sv/java/java-powerpoint-animation-effects/apply-outer-shadow-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Applicera Outer Shadow i PowerPoint med Java
+
 ## Introduktion
 Att skapa visuellt tilltalande PowerPoint-presentationer innebär ofta att man lägger till olika effekter på former och text. En sådan effekt är den yttre skuggan, som kan få element att sticka ut och lägga till djup till dina bilder. I den här handledningen kommer du att lära dig hur du applicerar en yttre skuggeffekt på en form i PowerPoint med Java med Aspose.Slides.
 ## Förutsättningar
@@ -121,3 +127,9 @@ Ja, du kan applicera effekter inte bara på former utan även på enskilda textd
 
 ### Var kan jag hitta fler resurser och support för Aspose.Slides?
  Du kan hänvisa till[dokumentation](https://reference.aspose.com/slides/java/) för detaljerade API-referenser och utforska[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för samhällsstöd och diskussioner.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 프레젠테이션을 GIF 애니메이션으로 변환
 linktitle: 프레젠테이션을 GIF 애니메이션으로 변환
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 GIF 애니메이션으로 매력적인 프레젠테이션을 만드세요. 정적인 슬라이드를 역동적인 시각적 경험으로 바꿔보세요.
-type: docs
 weight: 20
 url: /ko/net/presentation-conversion/convert-presentation-to-gif-animation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 프레젠테이션을 GIF 애니메이션으로 변환
+
 
 오늘날의 디지털 시대에 시각적 콘텐츠는 의사소통에서 중요한 역할을 합니다. 때로는 프레젠테이션을 더욱 매력적이고 공유하기 쉽게 만들기 위해 GIF 애니메이션으로 변환해야 할 수도 있습니다. 다행히도 .NET용 Aspose.Slides를 사용하면 이 작업이 간단해집니다. 이 튜토리얼에서는 다음 소스 코드를 사용하여 프레젠테이션을 GIF 애니메이션으로 변환하는 과정을 안내합니다.
 
@@ -80,3 +86,9 @@ presentation.Save(outPath, SaveFormat.Gif, new GifOptions
 
 ### Q5: 이 튜토리얼의 소스 코드는 어디에서 액세스할 수 있나요?
  문서에서 Aspose.Slides에 대한 소스 코드와 추가 튜토리얼을 찾을 수 있습니다.[여기](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

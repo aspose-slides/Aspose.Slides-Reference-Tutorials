@@ -3,10 +3,16 @@ title: 在 Java 投影片中開啟簡報
 linktitle: 在 Java 投影片中開啟簡報
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java 中開啟 PowerPoint 簡報。具有原始程式碼範例的分步指南，可實現高效的演示處理。
-type: docs
 weight: 16
 url: /zh-hant/java/additional-utilities/open-presentation-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 投影片中開啟簡報
+
 
 ## 在 Aspose.Slides for Java 中開啟簡報的簡介
 
@@ -112,3 +118,9 @@ Aspose.Slides for Java 旨在與一系列 Java 版本搭配使用。確保檢查
 ### 我可以使用 Aspose.Slides for Java 將 PowerPoint 簡報轉換為其他格式嗎？
 
 是的，Aspose.Slides for Java 可讓您將 PowerPoint 簡報轉換為各種格式，例如 PDF、圖片、HTML 等。您可以瀏覽該庫的文檔和範例，以了解如何以程式設計方式執行這些轉換。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

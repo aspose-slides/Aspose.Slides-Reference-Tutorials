@@ -3,10 +3,16 @@ title: Skapa miniatyrbild med gränser för form i Aspose.Slides
 linktitle: Skapa miniatyrbild med gränser för form i Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lås upp kraften i Aspose.Slides för .NET! Lär dig att skapa formminiatyrer utan ansträngning med gränser med hjälp av vår steg-för-steg-guide.
-type: docs
 weight: 10
 url: /sv/net/image-and-video-manipulation-in-slides/creating-thumbnail-bounds-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa miniatyrbild med gränser för form i Aspose.Slides
+
 ## Introduktion
 Om du är en .NET-utvecklare som söker en robust lösning för att skapa miniatyrbilder med gränser för former i PowerPoint-presentationer, är Aspose.Slides för .NET ditt bästa verktyg. Detta kraftfulla bibliotek ger sömlös integration, vilket gör att du effektivt kan manipulera och extrahera värdefull information från PowerPoint-filer. I den här handledningen går vi igenom processen att skapa en miniatyrbild med gränser för en form med Aspose.Slides.
 ## Förutsättningar
@@ -60,3 +66,9 @@ Ja, Aspose.Slides uppdateras regelbundet för att säkerställa kompatibilitet m
  Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) att få kontakt med samhället och söka hjälp från erfarna utvecklare.
 ### Kan jag få en tillfällig licens för Aspose.Slides?
  Ja, du kan få en tillfällig licens[här](https://purchase.aspose.com/temporary-license/) för kortsiktiga projektbehov.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

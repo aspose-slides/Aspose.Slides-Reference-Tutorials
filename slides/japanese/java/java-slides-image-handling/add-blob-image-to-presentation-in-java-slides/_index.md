@@ -3,10 +3,16 @@ title: Java スライドのプレゼンテーションに Blob 画像を追加�
 linktitle: Java スライドのプレゼンテーションに Blob 画像を追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Java スライド プレゼンテーションに Blob 画像を簡単に追加する方法を学びます。Aspose.Slides for Java を使用したコード例を含むステップバイステップ ガイドに従ってください。
-type: docs
 weight: 10
 url: /ja/java/image-handling/add-blob-image-to-presentation-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java スライドのプレゼンテーションに Blob 画像を追加する
+
 
 ## Java スライドでプレゼンテーションに Blob 画像を追加する方法の紹介
 
@@ -133,3 +139,9 @@ Aspose.Slides for Javaは、ウェブサイトからライブラリをダウン�
 ### Aspose.Slides は高度な PowerPoint 自動化タスクに適していますか?
 
 もちろんです! Aspose.Slides は、スライドの作成、変更、データの抽出など、PowerPoint の自動化のための高度な機能を提供します。PowerPoint 関連のタスクを効率化するための強力なツールです。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

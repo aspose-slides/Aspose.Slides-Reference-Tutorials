@@ -3,10 +3,16 @@ title: Administrar fuentes incrustadas en Java PowerPoint
 linktitle: Administrar fuentes incrustadas en Java PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Administre sin esfuerzo fuentes incrustadas en presentaciones de PowerPoint Java con Aspose.Slides. Guía paso a paso para optimizar la coherencia de sus diapositivas.
-type: docs
 weight: 11
 url: /es/java/java-powerpoint-font-management-text-replacement/manage-embedded-fonts-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Administrar fuentes incrustadas en Java PowerPoint
+
 ## Introducción
 En el mundo de las presentaciones en constante evolución, administrar fuentes de manera eficiente puede marcar una gran diferencia en la calidad y compatibilidad de sus archivos de PowerPoint. Aspose.Slides para Java ofrece una solución integral para administrar fuentes incrustadas, asegurando que sus presentaciones se vean perfectas en cualquier dispositivo. Ya sea que esté tratando con presentaciones heredadas o creando otras nuevas, esta guía lo guiará a través del proceso de administración de fuentes incrustadas en sus presentaciones Java de PowerPoint usando Aspose.Slides. ¡Vamos a sumergirnos!
 ## Requisitos previos
@@ -104,3 +110,9 @@ Aspose.Slides para Java es compatible con JDK 8 y versiones posteriores.
 La administración de fuentes incrustadas garantiza que sus presentaciones se vean consistentes en diferentes dispositivos y plataformas, y ayuda a reducir el tamaño del archivo al eliminar fuentes innecesarias.
 ### ¿Dónde puedo obtener soporte para Aspose.Slides para Java?
  Puede obtener apoyo del[Foro de soporte de Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

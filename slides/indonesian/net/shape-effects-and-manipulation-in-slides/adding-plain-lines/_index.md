@@ -3,10 +3,16 @@ title: Menambahkan Garis Biasa ke Slide Presentasi menggunakan Aspose.Slides
 linktitle: Menambahkan Garis Biasa ke Slide Presentasi menggunakan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Sempurnakan presentasi PowerPoint Anda di .NET menggunakan Aspose.Slides. Ikuti panduan langkah demi langkah kami untuk menambahkan garis polos dengan mudah.
-type: docs
 weight: 16
 url: /id/net/shape-effects-and-manipulation-in-slides/adding-plain-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Menambahkan Garis Biasa ke Slide Presentasi menggunakan Aspose.Slides
+
 ## Perkenalan
 Membuat presentasi PowerPoint yang menarik dan menarik secara visual sering kali melibatkan penggabungan berbagai bentuk dan elemen. Jika Anda bekerja dengan .NET, Aspose.Slides adalah alat canggih yang menyederhanakan prosesnya. Tutorial ini berfokus pada menambahkan garis polos ke slide presentasi menggunakan Aspose.Slides untuk .NET. Ikuti terus untuk menyempurnakan presentasi Anda dengan panduan yang mudah diikuti ini.
 ## Prasyarat
@@ -67,3 +73,9 @@ J: Tentu saja, Aspose.Slides mendukung kerangka .NET terbaru.
  Sebuah kunjungan[Di Sini](https://purchase.aspose.com/temporary-license/) untuk izin sementara.
 ### T: Menghadapi masalah? Di mana saya bisa mendapatkan dukungan?
  J: Cari bantuan di[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

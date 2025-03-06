@@ -3,10 +3,16 @@ title: تحويل صور تضمين HTML في شرائح جافا
 linktitle: تحويل صور تضمين HTML في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تحويل PowerPoint إلى HTML مع الصور المضمنة. دليل خطوة بخطوة باستخدام Aspose.Slides لـ Java. تعلم كيفية أتمتة تحويلات العرض التقديمي في Java دون عناء.
-type: docs
 weight: 11
 url: /ar/java/presentation-conversion/convert-html-embedding-images-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل صور تضمين HTML في شرائح جافا
+
 
 ## مقدمة لتحويل صور تضمين HTML في شرائح Java
 
@@ -125,3 +131,10 @@ try {
 ### كيف أتعامل مع الأخطاء أثناء التحويل؟
 
 يمكنك تغليف رمز التحويل في كتلة محاولة الالتقاط لمعالجة الاستثناءات التي قد تحدث أثناء عملية التحويل.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Pas het 3D-rotatie-effect toe op vormen in PowerPoint
 linktitle: Pas het 3D-rotatie-effect toe op vormen in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u 3D-rotatie-effecten kunt toepassen op vormen in PowerPoint met behulp van Aspose.Slides voor Java met deze uitgebreide, stapsgewijze zelfstudie.
-type: docs
 weight: 12
 url: /nl/java/java-powerpoint-animation-shape-manipulation/apply-3d-rotation-effect-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pas het 3D-rotatie-effect toe op vormen in PowerPoint
+
 ## Invoering
 Bent u klaar om uw PowerPoint-presentaties naar een hoger niveau te tillen? Door 3D-rotatie-effecten toe te voegen, kunnen uw dia's dynamischer en boeiender worden. Of u nu een doorgewinterde ontwikkelaar bent of net begint, deze stapsgewijze zelfstudie laat u zien hoe u 3D-rotatie-effecten kunt toepassen op vormen in PowerPoint met behulp van Aspose.Slides voor Java. Laten we er meteen in duiken!
 ## Vereisten
@@ -84,3 +90,9 @@ kunt 3D-effecten toevoegen aan verschillende vormen, zoals rechthoeken, lijnen, 
  U kunt een bezoek brengen aan de[Helpforum](https://forum.aspose.com/c/slides/11) voor hulp en om eventuele problemen te bespreken.
 ### Kan ik Aspose.Slides voor Java gebruiken in commerciële projecten?
  Ja, maar u moet een licentie aanschaffen. Je kunt er een kopen bij de[aankooppagina](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

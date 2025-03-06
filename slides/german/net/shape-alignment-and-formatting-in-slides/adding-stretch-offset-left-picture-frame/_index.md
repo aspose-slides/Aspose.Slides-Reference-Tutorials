@@ -3,10 +3,16 @@ title: Mit Aspose.Slide in PowerPoint einen Stretch-Offset nach links hinzufüge
 linktitle: Hinzufügen eines Stretch-Offsets nach links für den Bilderrahmen in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Aspose.Slides für .NET verbessern können. Folgen Sie unserer Schritt-für-Schritt-Anleitung, um einen Streckungsversatz nach links für Bilderrahmen hinzuzufügen.
-type: docs
 weight: 14
 url: /de/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mit Aspose.Slide in PowerPoint einen Stretch-Offset nach links hinzufügen
+
 ## Einführung
 Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, mit der Entwickler PowerPoint-Präsentationen mühelos bearbeiten können. In diesem Tutorial erkunden wir den Vorgang, mit Aspose.Slides für .NET einen Streckungsversatz nach links für einen Bilderrahmen hinzuzufügen. Folgen Sie dieser Schritt-für-Schritt-Anleitung, um Ihre Fähigkeiten im Umgang mit Bildern und Formen in PowerPoint-Präsentationen zu verbessern.
 ## Voraussetzungen
@@ -85,3 +91,9 @@ A: Aspose.Slides wird regelmäßig aktualisiert, um die Kompatibilität mit den 
  A: Erkunden Sie die[Aspose.Slides-Dokumentation](https://reference.aspose.com/slides/net/) für umfassende Beispiele und Anleitungen.
 ### F: Kann ich mehrere Streckungsoffsets auf eine einzelne Form anwenden?
 A: Ja, Sie können mehrere Stretch-Offsets kombinieren, um komplexe und individuelle visuelle Effekte zu erzielen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

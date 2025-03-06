@@ -3,10 +3,16 @@ title: Genereer een miniatuur uit een dia in notities
 linktitle: Genereer een miniatuur uit een dia in notities
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u miniaturen kunt genereren van dia's in het notitiegedeelte van uw presentatie met behulp van Aspose.Slides voor .NET. Verbeter uw visuele inhoud!
-type: docs
 weight: 12
 url: /nl/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Genereer een miniatuur uit een dia in notities
+
 
 In de wereld van moderne presentaties is visuele inhoud koning. Het maken van aantrekkelijke slides is essentieel voor effectieve communicatie. Eén manier om uw presentaties te verbeteren is door miniaturen van dia's te genereren, vooral als u specifieke details wilt benadrukken of een overzicht wilt delen. Aspose.Slides voor .NET is een krachtige tool waarmee u dit naadloos kunt bereiken. In deze stapsgewijze handleiding leiden we u door het proces van het genereren van miniaturen van dia's in het notitiegedeelte van een presentatie met behulp van Aspose.Slides voor .NET.
 
@@ -114,3 +120,9 @@ Absoluut! Aspose.Slides voor .NET biedt opties voor het aanpassen van het uiterl
 
 ### Waar kan ik ondersteuning of verdere hulp krijgen met Aspose.Slides voor .NET?
  U kunt hulp vinden en in contact komen met de Aspose-gemeenschap op de[Aspose-ondersteuningsforum](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

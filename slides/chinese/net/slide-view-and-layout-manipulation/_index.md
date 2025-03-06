@@ -3,10 +3,16 @@ title: 幻灯片视图和布局操作
 linktitle: 幻灯片视图和布局操作
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides 幻灯片视图和布局操作教程优化幻灯片视图和布局。使用强大的 .NET 工具增强演示效果和视觉效果。
-type: docs
 weight: 20
 url: /zh/net/slide-view-and-layout-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 幻灯片视图和布局操作
+
 
 ## 介绍
 
@@ -29,3 +35,9 @@ url: /zh/net/slide-view-and-layout-manipulation/
 了解如何使用 Aspose.Slides for .NET 将视频链接到 PowerPoint 幻灯片。本分步指南包含源代码和使用链接视频创建交互式引人入胜的演示文稿的技巧。
 ### [管理演示文稿中的 ActiveX 控件](./manage-activex-control/)
 了解如何使用 Aspose.Slides for .NET 通过 ActiveX 控件增强 PowerPoint 演示文稿。我们的分步指南涵盖插入、操作、自定义、事件处理等。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

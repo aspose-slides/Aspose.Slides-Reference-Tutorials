@@ -3,10 +3,16 @@ title: Aspose.Slides'ı kullanarak Slayt Yorumlarına Erişin
 linktitle: Slayt Yorumlarına Erişim
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET kullanarak PowerPoint sunumlarında slayt yorumlarına nasıl erişeceğinizi öğrenin. İşbirliğini ve iş akışını zahmetsizce geliştirin.
-type: docs
 weight: 11
 url: /tr/net/slide-comments-manipulation/access-slide-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides'ı kullanarak Slayt Yorumlarına Erişin
+
 
 Dinamik ve etkileşimli sunumlar dünyasında slaytlarınızdaki yorumları yönetmek, işbirliği sürecinin çok önemli bir parçası olabilir. Aspose.Slides for .NET, slayt yorumlarına erişmek ve bunları değiştirmek için güçlü ve çok yönlü bir çözüm sunarak sunum iş akışınızı geliştirir. Bu adım adım kılavuzda Aspose.Slides for .NET kullanarak slayt yorumlarına erişme sürecini ayrıntılı olarak ele alacağız.
 
@@ -112,3 +118,9 @@ Evet, Aspose.Slides for .NET; Windows Forms, ASP.NET ve konsol uygulamaları dah
 
 ### Aspose.Slides for .NET için lisans satın alabilir miyim?
  Evet, Aspose.Slides for .NET lisansını şu adresten satın alabilirsiniz:[bu bağlantı](https://purchase.aspose.com/buy) Projelerinizde kütüphanenin tüm potansiyelini ortaya çıkarmak için.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

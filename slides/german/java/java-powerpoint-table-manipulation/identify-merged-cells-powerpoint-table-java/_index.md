@@ -3,10 +3,16 @@ title: Identifizieren verbundener Zellen in einer PowerPoint-Tabelle mit Java
 linktitle: Identifizieren verbundener Zellen in einer PowerPoint-Tabelle mit Java
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java programmgesteuert verbundene Zellen in PowerPoint-Tabellen identifizieren. Perfekt für Java-Entwickler.
-type: docs
 weight: 15
 url: /de/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Identifizieren verbundener Zellen in einer PowerPoint-Tabelle mit Java
+
 ## Einführung
 Im Bereich der Java-Entwicklung kann die programmgesteuerte Bearbeitung von PowerPoint-Präsentationen eine entscheidende Aufgabe sein, insbesondere beim Umgang mit komplexen Datentabellen. Aspose.Slides für Java bietet ein leistungsstarkes Toolkit, mit dem Entwickler verschiedene Aspekte von PowerPoint-Präsentationen nahtlos verwalten können. Eine häufige Herausforderung für Entwickler besteht darin, zusammengeführte Zellen in in Präsentationen eingebetteten Tabellen zu identifizieren. Dieses Tutorial soll Sie durch den Prozess der Identifizierung zusammengeführter Zellen mit Aspose.Slides für Java führen.
 ## Voraussetzungen
@@ -67,3 +73,9 @@ Aspose.Slides für Java ist eine leistungsstarke Bibliothek zur programmgesteuer
  Die Dokumentation finden Sie[Hier](https://reference.aspose.com/slides/java/).
 ### Wie kann ich Support für Aspose.Slides für Java erhalten?
 Für Support besuchen Sie das Aspose.Slides-Forum[Hier](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

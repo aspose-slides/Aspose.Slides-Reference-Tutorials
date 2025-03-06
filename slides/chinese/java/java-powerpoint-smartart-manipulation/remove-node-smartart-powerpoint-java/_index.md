@@ -3,10 +3,16 @@ title: 使用 Java 从 PowerPoint 中的 SmartArt 中删除节点
 linktitle: 使用 Java 从 PowerPoint 中的 SmartArt 中删除节点
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 高效且以编程方式从 PowerPoint 演示文稿中的 SmartArt 中删除节点。
-type: docs
 weight: 14
 url: /zh/java/java-powerpoint-smartart-manipulation/remove-node-smartart-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 从 PowerPoint 中的 SmartArt 中删除节点
+
 ## 介绍
 在当今的数字时代，创建动态且具有视觉吸引力的演示文稿对于企业、教育工作者和个人都至关重要。PowerPoint 演示文稿能够以简洁而引人入胜的方式传达信息，因此仍然是交流中的重要内容。但是，有时我们需要以编程方式操纵这些演示文稿中的内容以满足特定要求或高效地自动执行任务。这就是 Aspose.Slides for Java 发挥作用的地方，它提供了一套强大的工具，可以通过编程与 PowerPoint 演示文稿进行交互。
 ## 先决条件
@@ -64,3 +70,9 @@ Aspose.Slides for Java 简化了以编程方式操作 PowerPoint 演示文稿的
 当然！您可以从以下网址下载 Aspose.Slides for Java 的免费试用版[这里](https://releases.aspose.com/).
 ### 在哪里可以获得 Aspose.Slides for Java 的支持？
 如需任何技术帮助或疑问，您可以访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

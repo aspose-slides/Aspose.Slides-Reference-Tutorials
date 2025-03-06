@@ -3,10 +3,16 @@ title: 高级图表定制
 linktitle: 高级图表定制
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 的高级图表自定义功能增强您的演示文稿。了解如何创建视觉效果极佳的图表并根据您的确切需求进行定制。
-type: docs
 weight: 23
 url: /zh/net/advanced-chart-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 高级图表定制
+
 
 ## 介绍
 
@@ -33,3 +39,9 @@ url: /zh/net/advanced-chart-customization/
 了解如何使用 Aspose.Slides for .NET 创建图表趋势线。通过分步指导和代码示例增强数据可视化。
 ### [图表实体和格式](./chart-entities/)
 学习如何使用 Aspose.Slides for .NET 在 PowerPoint 中创建和格式化动态图表。带有源代码的分步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

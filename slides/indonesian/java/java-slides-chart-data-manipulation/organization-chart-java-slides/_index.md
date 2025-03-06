@@ -3,10 +3,16 @@ title: Bagan Organisasi di Slide Java
 linktitle: Bagan Organisasi di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat bagan organisasi yang menakjubkan di Java Slides dengan tutorial langkah demi langkah Aspose.Slides. Sesuaikan dan visualisasikan struktur organisasi Anda dengan mudah.
-type: docs
 weight: 22
 url: /id/java/chart-data-manipulation/organization-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bagan Organisasi di Slide Java
+
 
 ## Pengantar Membuat Bagan Organisasi di Java Slides menggunakan Aspose.Slides
 
@@ -103,3 +109,9 @@ Ya, Anda dapat menambahkan bentuk, teks, dan konektor tambahan ke bagan organisa
 ### Apakah mungkin untuk membuat struktur organisasi yang kompleks dengan berbagai tingkatan?
 
 Ya, Aspose.Slides memungkinkan Anda membuat struktur organisasi yang kompleks dengan berbagai tingkatan dengan menambahkan dan mengatur bentuk dalam bagan organisasi. Anda dapat menentukan hubungan hierarki antar bentuk untuk mewakili struktur yang diinginkan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

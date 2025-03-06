@@ -3,10 +3,16 @@ title: Aspose.Slides を使用したスライドの背景操作
 linktitle: スライドの背景操作
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides でスライドのデザインを強化しましょう。この包括的なチュートリアルでスライドの背景を操作する方法を学びます。ステップバイステップの手順とコード例が提供されます。
-type: docs
 weight: 11
 url: /ja/net/slide-background-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides を使用したスライドの背景操作
+
 
 ## 導入
 
@@ -37,3 +43,9 @@ Aspose.Slides for .NET を使用して画像をスライドの背景として設
 このステップバイステップ ガイドでは、Aspose.Slides を使用してスライドの背景を設定する方法を習得します。魅力的なビジュアルでプレゼンテーションを次のレベルに引き上げます。
 ### [通常のスライドの背景を変更する](./change-slide-background-normal/)
 通常のスライドの背景を変更して、視聴者の興味を引く方法を学びます。Aspose.Slides for .NET を使用したこの包括的なガイドに従ってください。ステップバイステップの手順とコード例が完備されています。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

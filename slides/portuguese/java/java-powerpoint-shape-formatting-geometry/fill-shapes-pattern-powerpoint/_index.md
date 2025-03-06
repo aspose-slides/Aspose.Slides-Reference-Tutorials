@@ -3,10 +3,16 @@ title: Preencher formas com padrão no PowerPoint
 linktitle: Preencher formas com padrão no PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda a preencher formas com padrões no PowerPoint usando Aspose.Slides para Java. Siga nosso guia passo a passo fácil para aprimorar visualmente suas apresentações.
-type: docs
 weight: 11
 url: /pt/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Preencher formas com padrão no PowerPoint
+
 ## Introdução
 Criar apresentações visualmente atraentes é essencial para envolver seu público. Uma maneira de aprimorar seus slides do PowerPoint é preencher formas com padrões. Neste tutorial, percorreremos as etapas para preencher formas com padrões usando Aspose.Slides para Java. Este guia foi feito sob medida para desenvolvedores que desejam aproveitar os recursos poderosos do Aspose.Slides para criar apresentações impressionantes de forma programática.
 ## Pré-requisitos
@@ -94,3 +100,9 @@ Aspose.Slides for Java é uma API poderosa que permite aos desenvolvedores criar
 Sim, Aspose.Slides for Java permite abrir, editar e salvar apresentações existentes do PowerPoint.
 ### Onde posso obter suporte para Aspose.Slides for Java?
  Você pode obter suporte do[Fórum de suporte Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Vytvořte formátovaný obdélník v PowerPointu
 linktitle: Vytvořte formátovaný obdélník v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak vytvořit a formátovat obdélník v PowerPointu pomocí Aspose.Slides for Java, pomocí tohoto podrobného průvodce.
-type: docs
 weight: 18
 url: /cs/java/java-powerpoint-shape-formatting-geometry/create-formatted-rectangle-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vytvořte formátovaný obdélník v PowerPointu
+
 ## Úvod
 V tomto tutoriálu vás provedeme procesem vytváření formátovaného obdélníku na snímku aplikace PowerPoint pomocí Aspose.Slides for Java. Každý krok rozebereme a zajistíme, že jej budete moci sledovat a implementovat do svých vlastních projektů.
 ## Předpoklady
@@ -91,3 +97,9 @@ Ano, Aspose.Slides pro Javu můžete použít s jakýmkoli Java kompatibilním I
  Ano, likvidace`Presentation` objekt pomáhá uvolnit zdroje a vyhnout se únikům paměti.
 ### Kde najdu dokumentaci k Aspose.Slides for Java?
  Dokumentace je k dispozici[tady](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में नोट्स स्ल
 linktitle: जावा स्लाइड्स में नोट्स स्लाइड दृश्य को पीडीएफ में बदलें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके नोट्स के साथ PowerPoint प्रस्तुतियों को PDF में परिवर्तित करना सीखें। स्रोत कोड के साथ हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 16
 url: /hi/java/presentation-conversion/convert-notes-slide-view-pdf-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में नोट्स स्लाइड दृश्य को पीडीएफ में बदलें
+
 
 ## जावा स्लाइड्स में नोट्स स्लाइड दृश्य को पीडीएफ में परिवर्तित करने का परिचय
 
@@ -106,3 +112,9 @@ options.setNotesPosition(NotesPositions.RightFull);
 ### मैं अधिक दस्तावेज और उदाहरण कहां पा सकता हूं?
 
  आप Aspose.Slides for Java के लिए विस्तृत दस्तावेज़ और उदाहरण यहां पा सकते हैं[यहाँ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

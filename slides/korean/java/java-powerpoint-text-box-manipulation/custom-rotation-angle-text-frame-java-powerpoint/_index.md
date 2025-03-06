@@ -3,10 +3,16 @@ title: Java PowerPoint의 텍스트 프레임에 대한 사용자 정의 회전 
 linktitle: Java PowerPoint의 텍스트 프레임에 대한 사용자 정의 회전 각도
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java PowerPoint에서 텍스트 프레임의 회전 각도를 사용자 정의하는 방법을 알아보세요. 프레젠테이션을 동적으로 향상시키세요.
-type: docs
 weight: 14
 url: /ko/java/java-powerpoint-text-box-manipulation/custom-rotation-angle-text-frame-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint의 텍스트 프레임에 대한 사용자 정의 회전 각도
+
 ## 소개
 이 튜토리얼에서는 Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션에서 텍스트 프레임 회전 각도를 조작하는 방법을 살펴보겠습니다. 슬라이드 내 텍스트의 시각적 매력과 명확성을 향상하려면 회전 각도를 사용자 정의하는 것이 중요합니다. 동적 차트를 작성하든 사용자 정의 제목을 추가하든 정확한 텍스트 프레임 회전을 통해 프레젠테이션 미학을 크게 향상시킬 수 있습니다.
 ## 전제 조건
@@ -64,3 +70,9 @@ Aspose.Slides for Java는 Java 개발자가 프로그래밍 방식으로 PowerPo
 예, Aspose.Slides는 PowerPoint 프레젠테이션을 만들고 관리하기 위한 기업 수준의 요구 사항을 처리하도록 설계되었습니다.
 ### Java용 Aspose.Slides에 대한 지원을 받으려면 어떻게 해야 하나요?
  기술 지원 및 커뮤니티 상호작용을 원하시면 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Định dạng văn bản bên trong hàng bảng trong PowerPoint bằng
 linktitle: Định dạng văn bản bên trong hàng bảng trong PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách định dạng văn bản bên trong các hàng của bảng trong PowerPoint bằng Aspose.Slides cho Java. Cải thiện bản trình bày của bạn với hướng dẫn từng bước của chúng tôi.
-type: docs
 weight: 12
 url: /vi/java/java-powerpoint-table-formatting-updates/format-text-inside-table-row-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Định dạng văn bản bên trong hàng bảng trong PowerPoint bằng Java
+
 ## Giới thiệu
 Khi làm việc với các bài thuyết trình, việc tạo các slide hấp dẫn trực quan là điều cần thiết để thu hút khán giả của bạn. Định dạng văn bản bên trong các hàng của bảng có thể nâng cao đáng kể khả năng đọc và tính thẩm mỹ của các trang trình bày của bạn. Trong hướng dẫn này, chúng ta sẽ khám phá cách định dạng văn bản bên trong một hàng của bảng trong PowerPoint bằng Aspose.Slides cho Java.
 ## Điều kiện tiên quyết
@@ -85,3 +91,9 @@ Aspose.Slides có sẵn cho một số nền tảng, bao gồm .NET và C++. Tuy
  Có, bạn có thể mua giấy phép từ[trang mua hàng](https://purchase.aspose.com/buy).
 ### Aspose.Slides cho Java hỗ trợ những định dạng tệp nào?
 Aspose.Slides cho Java hỗ trợ nhiều định dạng khác nhau bao gồm PPT, PPTX, ODP, v.v.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

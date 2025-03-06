@@ -3,10 +3,16 @@ title: Konwertuj prezentacje do formatu HTML za pomocą osadzonych czcionek
 linktitle: Konwertuj prezentacje do formatu HTML za pomocą osadzonych czcionek
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Konwertuj prezentacje programu PowerPoint do formatu HTML z osadzonymi czcionkami przy użyciu Aspose.Slides dla .NET. Zachowaj oryginalność bezproblemowo.
-type: docs
 weight: 13
 url: /pl/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konwertuj prezentacje do formatu HTML za pomocą osadzonych czcionek
+
 
 W dzisiejszej epoce cyfrowej udostępnianie prezentacji i dokumentów online stało się powszechną praktyką. Jednak często pojawiającym się wyzwaniem jest zapewnienie prawidłowego wyświetlania czcionek podczas konwersji prezentacji do formatu HTML. Ten samouczek krok po kroku poprowadzi Cię przez proces używania Aspose.Slides dla .NET do konwersji prezentacji do formatu HTML z osadzonymi czcionkami, zapewniając, że Twoje dokumenty będą wyglądać dokładnie tak, jak zamierzyłeś.
 
@@ -120,3 +126,10 @@ Tak, Aspose.Slides dla .NET obsługuje szeroką gamę formatów wyjściowych, w 
 ### 5. Gdzie mogę znaleźć dodatkowe zasoby i wsparcie dla Aspose.Slides dla .NET?
 
  Dostęp do wielu zasobów, w tym dokumentacji, można uzyskać na stronie[Aspose.Slides dla .NET API odniesienia](https://reference.aspose.com/slides/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

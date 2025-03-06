@@ -3,10 +3,16 @@ title: PowerPoint に相対スケールの高さの画像フレームを追加�
 linktitle: PowerPoint に相対スケールの高さの画像フレームを追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint プレゼンテーションに相対スケールの高さの画像フレームを追加し、視覚的なコンテンツを強化する方法を学習します。
-type: docs
 weight: 15
 url: /ja/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-picture-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint に相対スケールの高さの画像フレームを追加する
+
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションに相対スケールの高さを持つ画像フレームを追加する方法を学習します。
 ## 前提条件
@@ -68,3 +74,9 @@ Aspose.Slides for Java はさまざまなバージョンの PowerPoint と互換
 はい、Aspose.Slides for Java は、PNG、GIF、BMP など、さまざまな画像形式をサポートしています。
 ### Aspose.Slides ユーザー向けのコミュニティ フォーラムまたはサポート チャネルはありますか?
 はい、ライブラリに関する質問、ディスカッション、サポートについては、Aspose.Slides フォーラムをご覧ください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

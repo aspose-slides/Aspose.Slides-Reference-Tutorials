@@ -3,10 +3,16 @@ title: Znajdź kształt na slajdzie
 linktitle: Znajdź kształt na slajdzie
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Z łatwością znajduj kształty na slajdach programu PowerPoint za pomocą Aspose.Slides dla Java. Postępuj zgodnie z naszym przewodnikiem krok po kroku, aby bezproblemowo kodować.
-type: docs
 weight: 14
 url: /pl/java/java-powerpoint-shape-formatting-geometry/find-shape-slide-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Znajdź kształt na slajdzie
+
 ## Wstęp
 Czy masz dość przeglądania slajdów programu PowerPoint w celu znalezienia określonych kształtów? Wyobraź sobie, że możesz bez wysiłku zautomatyzować ten proces za pomocą zaledwie kilku linijek kodu. Witamy w naszym szczegółowym przewodniku na temat używania Aspose.Slides dla Java do lokalizowania kształtów w plikach prezentacji. W tym samouczku omówimy kroki wymagane do znalezienia kształtów na slajdzie przy użyciu Aspose.Slides dla Java, od skonfigurowania środowiska po uruchomienie kodu.
 ## Warunki wstępne
@@ -84,3 +90,9 @@ Tak, Aspose.Slides obsługuje różne formaty plików, w tym .ppt, .pptx, .odp i
  Tak, możesz uzyskać bezpłatną wersję próbną od[Strona bezpłatnej wersji próbnej Aspose](https://releases.aspose.com/).
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Slides?
  Wsparcie znajdziesz na stronie[Forum Aspose Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Освоение визуальных элементов добавлен
 linktitle: Добавление сегментов к геометрической форме в презентации с помощью Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как улучшить ваши .NET-приложения с помощью Aspose.Slides. В этом уроке вы узнаете, как добавлять сегменты к геометрическим фигурам для создания увлекательных презентаций.
-type: docs
 weight: 13
 url: /ru/net/shape-geometry-and-positioning-in-slides/adding-segments-geometry-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение визуальных элементов добавление сегментов с помощью Aspose.Slides в .NET
+
 ## Введение
 В мире .NET-разработки создание визуально привлекательных презентаций является обычным требованием. Aspose.Slides for .NET — это мощная библиотека, которая обеспечивает плавную интеграцию надежных возможностей создания презентаций в ваши .NET-приложения. В этом уроке основное внимание уделяется конкретному аспекту дизайна презентаций — добавлению сегментов к геометрическим фигурам.
 ## Предварительные условия
@@ -72,3 +78,9 @@ Aspose.Slides для .NET дает разработчикам возможнос
  Исследовать[документация](https://reference.aspose.com/slides/net/) для подробных руководств и примеров.
 ### Могу ли я попробовать Aspose.Slides бесплатно перед покупкой?
  Да, вы можете загрузить бесплатную пробную версию с сайта[здесь](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

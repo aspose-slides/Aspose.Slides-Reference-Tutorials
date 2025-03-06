@@ -3,10 +3,16 @@ title: Définir le remplacement des polices dans Java PowerPoint
 linktitle: Définir le remplacement des polices dans Java PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir des polices de secours dans Java PowerPoint à l'aide d'Aspose.Slides for Java pour garantir un affichage de texte cohérent.
-type: docs
 weight: 16
 url: /fr/java/java-powerpoint-text-font-customization/set-font-fallback-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définir le remplacement des polices dans Java PowerPoint
+
 ## Introduction
 Dans ce didacticiel, nous aborderons les subtilités de la définition des polices de remplacement dans les présentations Java PowerPoint à l'aide d'Aspose.Slides pour Java. Les polices de secours sont cruciales pour garantir que le texte de vos présentations s'affiche correctement sur différents appareils et systèmes d'exploitation, même lorsque les polices requises ne sont pas disponibles.
 ## Conditions préalables
@@ -53,3 +59,9 @@ Oui, Aspose.Slides pour Java est compatible avec les IDE Java populaires tels qu
 Oui, des licences temporaires pour les produits Aspose peuvent être obtenues auprès de[ici](https://purchase.aspose.com/temporary-license/).
 ### Où puis-je trouver de l’assistance pour Aspose.Slides pour Java ?
  Pour obtenir une assistance relative à Aspose.Slides pour Java, visitez le[Forum Aspose](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

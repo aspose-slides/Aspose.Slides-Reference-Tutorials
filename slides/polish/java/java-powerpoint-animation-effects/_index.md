@@ -3,10 +3,16 @@ title: Animacja i efekty Java PowerPoint
 linktitle: Animacja i efekty Java PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Opanuj animacje i efekty Java PowerPoint dzięki naszym obszernym samouczkom. Naucz się dodawać animacje, cienie zewnętrzne i wewnętrzne za pomocą Aspose.Slides dla Java.
-type: docs
 weight: 22
 url: /pl/java/java-powerpoint-animation-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Animacja i efekty Java PowerPoint
+
 ## Wstęp
 
 Prezentacje Java PowerPoint mogą być dynamiczne i oszałamiające wizualnie dzięki odpowiednim animacjom i efektom. Dzięki Aspose.Slides dla Java masz do dyspozycji potężne narzędzie do ulepszania swoich slajdów. Niezależnie od tego, czy jesteś początkującym, czy zaawansowanym użytkownikiem, nasze tutoriale pomogą Ci opanować sztukę dodawania animacji i efektów cieni do prezentacji PowerPoint. Zagłębmy się w te samouczki i zobaczmy, jak ulepszyć swoje slajdy!
@@ -35,3 +41,9 @@ Dowiedz się, jak łatwo zastosować efekty cienia zewnętrznego w prezentacjach
 Dowiedz się, jak zastosować efekty cienia wewnętrznego do kształtów w prezentacjach Java PowerPoint przy użyciu Aspose.Slides. Ulepsz swoje slajdy, korzystając z tego przewodnika krok po kroku.
 ### [Zastosuj cień zewnętrzny w programie PowerPoint przy użyciu języka Java](./apply-outer-shadow-powerpoint-java/)
 Dowiedz się, jak zastosować efekt cienia zewnętrznego w programie PowerPoint przy użyciu języka Java z Aspose.Slides. Wzbogać swoje prezentacje głębią i atrakcyjnością wizualną.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

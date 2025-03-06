@@ -3,10 +3,16 @@ title: Δημιουργήστε τη μικρογραφία SmartArt Child Note
 linktitle: Δημιουργήστε τη μικρογραφία SmartArt Child Note
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε μικρογραφίες παιδικών σημειώσεων SmartArt σε Java με το Aspose.Slides, βελτιώνοντας τις παρουσιάσεις σας στο PowerPoint χωρίς κόπο.
-type: docs
 weight: 15
 url: /el/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργήστε τη μικρογραφία SmartArt Child Note
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε πώς να δημιουργήσετε μικρογραφίες θυγατρικών σημειώσεων SmartArt σε Java χρησιμοποιώντας το Aspose.Slides. Το Aspose.Slides είναι ένα ισχυρό Java API που επιτρέπει στους προγραμματιστές να εργάζονται με παρουσιάσεις PowerPoint μέσω προγραμματισμού, δίνοντάς τους τη δυνατότητα να δημιουργούν, να τροποποιούν και να χειρίζονται διαφάνειες με ευκολία.
 ## Προαπαιτούμενα
@@ -70,3 +76,9 @@ ImageIO.write(bmp, "jpeg", new File(dataDir + "SmartArt_ChildNote_Thumbnail_out.
 Σίγουρα! Το Aspose.Slides παρέχει ολοκληρωμένη υποστήριξη για τη δημιουργία και τον χειρισμό διαγραμμάτων SmartArt ποικίλης πολυπλοκότητας.
 ### Το Aspose.Slides προσφέρει τεχνική υποστήριξη για προγραμματιστές;
  Ναι, το Aspose.Slides παρέχει αποκλειστική τεχνική υποστήριξη για προγραμματιστές μέσω τους[δικαστήριο](https://forum.aspose.com/c/slides/11) και άλλα κανάλια.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

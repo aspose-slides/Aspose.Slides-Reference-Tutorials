@@ -3,10 +3,16 @@ title: Java スライドのチャート プロット領域から幅と高さを�
 linktitle: Java スライドのチャート プロット領域から幅と高さを取得する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して Java スライドでチャートのプロット領域の寸法を取得する方法を学びます。PowerPoint の自動化スキルを強化します。
-type: docs
 weight: 21
 url: /ja/java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java スライドのチャート プロット領域から幅と高さを取得する
+
 
 ## 導入
 
@@ -109,3 +115,10 @@ finally
 ### Aspose.Slides for Java について詳しく知るにはどうすればよいですか?
 
  Aspose.Slides for Javaのドキュメントページでは、詳細なドキュメントと例をご覧いただけます。[ここ](https://reference.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

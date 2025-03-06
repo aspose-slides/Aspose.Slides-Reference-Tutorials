@@ -3,10 +3,16 @@ title: Clone Slide to Another Presentation with Master
 linktitle: Clone Slide to Another Presentation with Master
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to Clone slides between presentations in Java using Aspose.Slides. Step-by-step tutorial on maintaining master slides.
-type: docs
 weight: 14
 url: /java/java-powerpoint-slide-cloning-techniques/clone-slide-another-presentation-master-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Clone Slide to Another Presentation with Master
+
 ## Introduction
 Aspose.Slides for Java is a powerful library that allows developers to create, modify, and manipulate PowerPoint presentations programmatically. This article provides a comprehensive, step-by-step tutorial on how to clone a slide from one presentation to another while retaining its master slide, using Aspose.Slides for Java.
 ## Prerequisites
@@ -83,3 +89,10 @@ Aspose.Slides for Java offers a free trial version. For full functionality, you 
 You can obtain a temporary license from the [Aspose purchase page](https://purchase.aspose.com/temporary-license/).
 ### Where can I find more examples and documentation?  
 Visit the [Aspose.Slides for Java documentation](https://reference.aspose.com/slides/java/) for more examples and detailed information.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

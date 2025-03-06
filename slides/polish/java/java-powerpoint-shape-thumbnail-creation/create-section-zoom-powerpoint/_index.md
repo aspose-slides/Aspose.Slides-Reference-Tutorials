@@ -3,10 +3,16 @@ title: Utwórz powiększenie sekcji w programie PowerPoint
 linktitle: Utwórz powiększenie sekcji w programie PowerPoint
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak tworzyć powiększenia sekcji w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Ulepsz nawigację i zaangażowanie bez wysiłku.
-type: docs
 weight: 13
 url: /pl/java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utwórz powiększenie sekcji w programie PowerPoint
+
 
 ## Wstęp
 tym samouczku zajmiemy się tworzeniem powiększeń sekcji w prezentacjach programu PowerPoint za pomocą Aspose.Slides dla Java. Powiększenia sekcji to zaawansowana funkcja, która umożliwia płynne poruszanie się po różnych sekcjach prezentacji, poprawiając zarówno organizację, jak i ogólne wrażenia użytkownika. Dzieląc złożone prezentacje na łatwo przyswajalne sekcje, możesz skutecznie przekazać swój komunikat i zaangażować odbiorców.
@@ -72,3 +78,9 @@ Aspose.Slides for Java obsługuje powiększanie sekcji w różnych formatach pro
 Tak, możesz dodawać powiększenia sekcji do istniejących prezentacji za pomocą Aspose.Slides dla Java, wykonując podobne kroki opisane w tym samouczku.
 ### Gdzie mogę znaleźć dodatkowe wsparcie lub pomoc dotyczącą Aspose.Slides for Java?
  Aby uzyskać dodatkowe wsparcie lub pomoc, możesz odwiedzić forum Aspose.Slides for Java[Tutaj](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

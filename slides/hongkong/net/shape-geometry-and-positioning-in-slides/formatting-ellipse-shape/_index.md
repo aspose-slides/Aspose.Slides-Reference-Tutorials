@@ -3,10 +3,16 @@ title: 使用 Aspose.Slides for .NET 格式化橢圓形狀教學課程
 linktitle: 使用 Aspose.Slides 設定投影片中橢圓形狀的格式
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 在 PowerPoint 中建立令人驚嘆的橢圓形。請按照我們的專業演示逐步指南進行操作。
-type: docs
 weight: 11
 url: /zh-hant/net/shape-geometry-and-positioning-in-slides/formatting-ellipse-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Slides for .NET 格式化橢圓形狀教學課程
+
 ## 介紹
 使用具有視覺吸引力的形狀增強 PowerPoint 簡報對於吸引觀眾至關重要。其中一種形狀是橢圓形，它可以為您的幻燈片增添一絲優雅和專業精神。在本教學中，我們將指導您使用 Aspose.Slides for .NET 在 PowerPoint 中完成設定橢圓形格式的過程。
 ## 先決條件
@@ -81,3 +87,9 @@ Aspose.Slides 確保與各種 PowerPoint 版本（包括最新版本）的兼容
 向社區尋求協助[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11).
 ### 是否有直接購買 Aspose.Slides for .NET 的選項？
 是的，您可以直接購買圖書館[這裡](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

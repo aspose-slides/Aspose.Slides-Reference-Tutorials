@@ -3,10 +3,16 @@ title: Impostazione delle proprietà dei caratteri nelle diapositive Java
 linktitle: Impostazione delle proprietà dei caratteri nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come impostare le proprietà dei caratteri nelle diapositive Java utilizzando Aspose.Slides per Java. Questa guida passo passo include esempi di codice e domande frequenti.
-type: docs
 weight: 15
 url: /it/java/customization-and-formatting/setting-font-properties-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Impostazione delle proprietà dei caratteri nelle diapositive Java
+
 
 ## Introduzione all'impostazione delle proprietà dei caratteri nelle diapositive Java
 
@@ -137,3 +143,9 @@ for (ISlide slide : pres.getSlides()) {
     // Accedi e personalizza le proprietà dei caratteri degli elementi di testo qui
 }
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

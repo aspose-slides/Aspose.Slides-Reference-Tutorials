@@ -3,10 +3,16 @@ title: A teljes prezentáció konvertálása HTML-be a Java Slides-ben
 linktitle: A teljes prezentáció konvertálása HTML-be a Java Slides-ben
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan konvertálhat PowerPoint prezentációkat HTML formátumba Java nyelven az Aspose.Slides segítségével. Útmutató lépésről lépésre kódpéldákkal.
-type: docs
 weight: 29
 url: /hu/java/presentation-conversion/convert-whole-presentation-html-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# A teljes prezentáció konvertálása HTML-be a Java Slides-ben
+
 
 ## Bevezetés a teljes prezentáció konvertálásába HTML-be a Java Slides-ben
 
@@ -117,3 +123,9 @@ Igen, az Aspose.Slides for Java különféle kimeneti formátumokat támogat, be
 ### Konvertálhatok-e konkrét diákat a teljes prezentáció helyett?
 
 Igen, konvertálhat adott diákat, ha a prezentáció mentése előtt kijelöli őket a kódban. Ezzel szabályozhatja, hogy mely diák legyen HTML formátumban.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

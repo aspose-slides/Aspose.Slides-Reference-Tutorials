@@ -3,10 +3,16 @@ title: Java PowerPoint-animatie en vormmanipulatie
 linktitle: Java PowerPoint-animatie en vormmanipulatie
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u vormen in PowerPoint kunt animeren en manipuleren met Aspose.Slides voor Java. Uitgebreide tutorials voor dynamische presentaties.
-type: docs
 weight: 25
 url: /nl/java/java-powerpoint-animation-shape-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint-animatie en vormmanipulatie
+
 
 ## Invoering
 
@@ -90,3 +96,9 @@ Leer hoe u Duotone-effecten kunt toepassen op afbeeldingen in PowerPoint met beh
 Leer hoe u videoframes in PowerPoint kunt insluiten met Aspose.Slides voor Java met deze stapsgewijze zelfstudie. Verbeter uw presentaties eenvoudig.
 ### [Extraheer ingebedde bestandsgegevens uit OLE-object in PowerPoint](./extract-embedded-file-data-ole-object-powerpoint/)
 Leer hoe u ingesloten bestandsgegevens uit PowerPoint-presentaties kunt extraheren met behulp van Aspose.Slides voor Java, waardoor de mogelijkheden voor documentbeheer worden verbeterd.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

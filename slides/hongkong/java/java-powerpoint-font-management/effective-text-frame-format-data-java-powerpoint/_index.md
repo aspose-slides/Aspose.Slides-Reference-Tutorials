@@ -3,10 +3,16 @@ title: Java PowerPoint 中有效的文字框架格式數據
 linktitle: Java PowerPoint 中有效的文字框架格式數據
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解使用 Aspose.Slides for Java 設定 Java PowerPoint 簡報中文字框架的格式。輕鬆增強投影片的視覺吸引力。
-type: docs
 weight: 15
 url: /zh-hant/java/java-powerpoint-font-management/effective-text-frame-format-data-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint 中有效的文字框架格式數據
+
 ## 介紹
 在基於 Java 的簡報領域，Aspose.Slides for Java 成為一種強大的工具，使開發人員能夠輕鬆製作動態且具有視覺吸引力的幻燈片。創建引人入勝的簡報的關鍵方面之一在於有效地格式化文字框架。在這份綜合指南中，我們深入研究了利用 Aspose.Slides for Java 來掌握文字框架格式化藝術的複雜性。
 ## 先決條件
@@ -72,3 +78,9 @@ System.out.println("   Bottom: " + effectiveTextFrameFormat.getMarginBottom());
 是的，您可以使用 Aspose.Slides for Java 將動畫套用到 PowerPoint 簡報中的文字框架和其他元素。
 ### Aspose.Slides for Java 是否提供技術支援？
 是的，Aspose.Slides for Java 的技術支援可透過[論壇](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

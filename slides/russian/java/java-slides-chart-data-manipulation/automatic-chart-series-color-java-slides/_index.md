@@ -3,10 +3,16 @@ title: Автоматический цвет серии диаграмм в сл
 linktitle: Автоматический цвет серии диаграмм в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как создавать динамические диаграммы с автоматическим цветом рядов в презентациях PowerPoint с помощью Aspose.Slides для Java. Улучшите визуализацию данных без особых усилий.
-type: docs
 weight: 14
 url: /ru/java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Автоматический цвет серии диаграмм в слайдах Java
+
 
 ## Введение в автоматический цвет серии диаграмм в Aspose.Slides для Java
 
@@ -190,3 +196,9 @@ series.getFormat().getFill().setFillType(FillType.NotDefined);
 ### Где я могу найти дополнительную информацию о работе с Aspose.Slides для Java?
 
  Для получения дополнительной информации и подробной документации по Aspose.Slides для Java вы можете посетить справочную документацию.[здесь](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

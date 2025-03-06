@@ -3,10 +3,16 @@ title: Αποθήκευση ως μόνο για ανάγνωση στις δι�
 linktitle: Αποθήκευση ως μόνο για ανάγνωση στις διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να αποθηκεύετε παρουσιάσεις PowerPoint ως μόνο για ανάγνωση σε Java χρησιμοποιώντας το Aspose.Slides. Προστατέψτε το περιεχόμενό σας με οδηγίες βήμα προς βήμα και παραδείγματα κώδικα.
-type: docs
 weight: 11
 url: /el/java/saving-options/save-as-read-only-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Αποθήκευση ως μόνο για ανάγνωση στις διαφάνειες Java
+
 
 ## Εισαγωγή στην αποθήκευση ως μόνο για ανάγνωση σε διαφάνειες Java με χρήση του Aspose.Slides για Java
 
@@ -127,3 +133,9 @@ presentation.getProtectionManager().removeWriteProtection();
 ### Μπορώ να αλλάξω τον κωδικό πρόσβασης μόνο για ανάγνωση αφού τον ορίσω;
 
  Ναι, μπορείτε να αλλάξετε τον κωδικό πρόσβασης μόνο για ανάγνωση αφού τον ορίσετε. Χρησιμοποιήστε το`setReadProtection(String newPassword)` μέθοδος με τον νέο κωδικό πρόσβασης για την ενημέρωση του κωδικού πρόσβασης προστασίας μόνο για ανάγνωση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

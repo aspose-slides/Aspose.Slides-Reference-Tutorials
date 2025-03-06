@@ -3,10 +3,16 @@ title: Διαγραφή διαφάνειας κατά διαδοχικό ευρ�
 linktitle: Διαγραφή διαφάνειας κατά διαδοχικό ευρετήριο
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να διαγράφετε τις διαφάνειες του PowerPoint βήμα προς βήμα χρησιμοποιώντας το Aspose.Slides για .NET. Ο οδηγός μας παρέχει σαφείς οδηγίες και πλήρη πηγαίο κώδικα για να σας βοηθήσει να αφαιρέσετε μέσω προγραμματισμού διαφάνειες με βάση το διαδοχικό ευρετήριό τους.
-type: docs
 weight: 24
 url: /el/net/slide-access-and-manipulation/remove-slide-using-index/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Διαγραφή διαφάνειας κατά διαδοχικό ευρετήριο
+
 
 ## Εισαγωγή στη Διαγραφή διαφάνειας κατά διαδοχικό ευρετήριο
 
@@ -86,3 +92,9 @@ presentation.Save(outputPath, SaveFormat.Pptx);
 ### Πώς μπορώ να μάθω περισσότερα για το Aspose.Slides για .NET;
 
  Μπορείτε να εξερευνήσετε τη λεπτομερή τεκμηρίωση και την αναφορά API για το Aspose.Slides για .NET στο[σελίδα τεκμηρίωσης](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Slides - إنشاء أشكال المجموعة في .NET
 linktitle: إنشاء أشكال جماعية في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إنشاء أشكال جماعية في PowerPoint باستخدام Aspose.Slides لـ .NET. اتبع دليلنا خطوة بخطوة للحصول على عروض تقديمية جذابة بصريًا.
-type: docs
 weight: 11
 url: /ar/net/image-and-video-manipulation-in-slides/creating-group-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides - إنشاء أشكال المجموعة في .NET
+
 ## مقدمة
 إذا كنت تتطلع إلى تحسين المظهر المرئي لشرائح العرض التقديمي وتنظيم المحتوى بشكل أكثر كفاءة، فإن دمج أشكال المجموعة يعد حلاً فعالاً. يوفر Aspose.Slides for .NET طريقة سلسة لإنشاء أشكال المجموعة ومعالجتها في عروض PowerPoint التقديمية. في هذا البرنامج التعليمي، سنتعرف على عملية إنشاء أشكال جماعية باستخدام Aspose.Slides، وتقسيمها إلى خطوات سهلة المتابعة.
 ## المتطلبات الأساسية
@@ -98,3 +104,10 @@ pres.Save(dataDir + "GroupShape_out.pptx", SaveFormat.Pptx);
  يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني شراء ترخيص كامل لـ Aspose.Slides؟
  يمكنك شراء ترخيص من[صفحة الشراء](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

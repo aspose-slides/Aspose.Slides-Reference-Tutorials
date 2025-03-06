@@ -3,10 +3,16 @@ title: Προσθήκη Assistant Node στο SmartArt στο Java PowerPoint
 linktitle: Προσθήκη Assistant Node στο SmartArt στο Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς μπορείτε να προσθέσετε έναν κόμβο βοηθού στο SmartArt σε παρουσιάσεις Java PowerPoint χρησιμοποιώντας το Aspose.Slides. Βελτιώστε τις δεξιότητές σας στην επεξεργασία του PowerPoint.
-type: docs
 weight: 17
 url: /el/java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσθήκη Assistant Node στο SmartArt στο Java PowerPoint
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία προσθήκης ενός βοηθητικού κόμβου στο SmartArt σε παρουσιάσεις Java PowerPoint χρησιμοποιώντας το Aspose.Slides.
 ## Προαπαιτούμενα
@@ -70,3 +76,9 @@ pres.save(dataDir + "ChangeAssistantNode_out.pptx", SaveFormat.Pptx);
 Ναι, μπορείτε να προσαρμόσετε την εμφάνιση χρησιμοποιώντας διάφορες ιδιότητες και μεθόδους που παρέχονται από το Aspose.Slides.
 ### Υπάρχει κάποιο όριο στον αριθμό των κόμβων σε ένα SmartArt;
 Το SmartArt στο PowerPoint υποστηρίζει μεγάλο αριθμό κόμβων, αλλά συνιστάται να το διατηρείτε λογικό για καλύτερη αναγνωσιμότητα.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

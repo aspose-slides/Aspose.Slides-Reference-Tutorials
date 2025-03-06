@@ -3,10 +3,16 @@ title: Convertir diapositivas de presentación a formato GIF
 linktitle: Convertir diapositivas de presentación a formato GIF
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a utilizar Aspose.Slides para .NET para convertir diapositivas de PowerPoint en GIF dinámicos con esta guía paso a paso.
-type: docs
 weight: 21
 url: /es/net/presentation-conversion/convert-presentation-slides-to-gif-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convertir diapositivas de presentación a formato GIF
+
 
 ## Introducción a Aspose.Slides para .NET
 
@@ -133,3 +139,9 @@ Sí, Aspose.Slides para .NET se puede utilizar tanto en proyectos personales com
 ### ¿Dónde puedo encontrar más ejemplos de código y documentación?
 
  Puede encontrar más ejemplos de código y documentación detallada sobre el uso de Aspose.Slides para .NET en el[documentación](https://reference.aspose.com).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

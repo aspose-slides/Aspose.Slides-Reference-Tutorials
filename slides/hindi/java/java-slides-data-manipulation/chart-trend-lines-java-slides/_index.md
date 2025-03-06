@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में चार्ट ट्र
 linktitle: जावा स्लाइड्स में चार्ट ट्रेंड लाइन्स
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके Java स्लाइड में विभिन्न ट्रेंड लाइन जोड़ना सीखें। प्रभावी डेटा विज़ुअलाइज़ेशन के लिए कोड उदाहरणों के साथ चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 15
 url: /hi/java/data-manipulation/chart-trend-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में चार्ट ट्रेंड लाइन्स
+
 
 ## जावा स्लाइड्स में चार्ट ट्रेंड लाइन्स का परिचय: एक चरण-दर-चरण मार्गदर्शिका
 
@@ -190,3 +196,9 @@ pres.save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 ### मैं Aspose.Slides for Java के लिए अधिक संसाधनों और उदाहरणों तक कैसे पहुंच सकता हूं?
 
  आप Aspose.Slides for Java के लिए अतिरिक्त संसाधनों, दस्तावेज़ों और उदाहरणों तक पहुँच सकते हैं[Aspose वेबसाइट](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

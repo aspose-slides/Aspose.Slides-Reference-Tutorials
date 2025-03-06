@@ -3,10 +3,16 @@ title: Přístup ke snímku podle sekvenčního indexu
 linktitle: Přístup ke snímku podle sekvenčního indexu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se přistupovat ke snímkům podle sekvenčního indexu pomocí Aspose.Slides for .NET. Postupujte podle tohoto podrobného průvodce se zdrojovým kódem pro snadnou navigaci a manipulaci s prezentacemi PowerPoint.
-type: docs
 weight: 12
 url: /cs/net/slide-access-and-manipulation/access-slide-by-index/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přístup ke snímku podle sekvenčního indexu
+
 
 ## Úvod do aplikace Access Slide by sekvenční index
 
@@ -86,3 +92,9 @@ Aspose.Slides for .NET nabízí širokou škálu funkcí, včetně vytváření 
 ### Jak se mohu dozvědět více o automatizaci aplikace PowerPoint pomocí Aspose.Slides?
 
  Chcete-li se dozvědět více o automatizaci aplikace PowerPoint pomocí Aspose.Slides, můžete prozkoumat podrobnou dokumentaci a ukázky kódu dostupné na jejich[dokumentace](https://reference.aspose.com/slides/net/) strana.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: คอลเลกชันกฎทางเลือกใน Java Powe
 linktitle: คอลเลกชันกฎทางเลือกใน Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีจัดการกฎทางเลือกแบบอักษรในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java ปรับปรุงความเข้ากันได้ระหว่างอุปกรณ์ต่างๆ ได้อย่างง่ายดาย
-type: docs
 weight: 11
 url: /th/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# คอลเลกชันกฎทางเลือกใน Java PowerPoint
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะเจาะลึกวิธีจัดการกฎทางเลือกแบบอักษรโดยใช้ Aspose.Slides สำหรับ Java การใช้แบบอักษรสำรองมีความสำคัญอย่างยิ่งในการทำให้งานนำเสนอของคุณแสดงได้อย่างถูกต้องในสภาพแวดล้อมที่แตกต่างกัน โดยเฉพาะอย่างยิ่งเมื่อแบบอักษรบางประเภทไม่พร้อมใช้งาน เราจะแนะนำคุณเกี่ยวกับการนำเข้าแพ็คเกจที่จำเป็น การตั้งค่าสภาพแวดล้อม และการใช้กฎทางเลือกทีละขั้นตอน
 ## ข้อกำหนดเบื้องต้น
@@ -73,3 +79,9 @@ try {
  มีเอกสารรายละเอียดให้[ที่นี่](https://reference.aspose.com/slides/java/).
 ### ฉันจะรับการสนับสนุนสำหรับ Aspose.Slides สำหรับ Java ได้อย่างไร
 หากต้องการการสนับสนุน โปรดไปที่ฟอรัม Aspose.Slides[ที่นี่](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

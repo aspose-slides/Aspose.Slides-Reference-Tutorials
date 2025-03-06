@@ -3,10 +3,16 @@ title: Ustaw szerokość przerwy w slajdach Java
 linktitle: Ustaw szerokość przerwy w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić szerokość przerwy w slajdach Java za pomocą Aspose.Slides dla Java. Ulepsz wizualizacje wykresów w prezentacjach programu PowerPoint.
-type: docs
 weight: 21
 url: /pl/java/data-manipulation/set-gap-width-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustaw szerokość przerwy w slajdach Java
+
 
 ## Wprowadzenie do ustawiania szerokości odstępu w Aspose.Slides dla Java
 
@@ -158,3 +164,9 @@ Tak, Aspose.Slides for Java zapewnia szerokie możliwości dostosowywania wykres
 ### Gdzie mogę znaleźć więcej zasobów i dokumentacji?
 
  Obszerną dokumentację i dodatkowe zasoby dotyczące Aspose.Slides for Java można znaleźć na stronie[Strona Aspose](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Trích xuất âm thanh từ slide
 linktitle: Trích xuất âm thanh từ slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: LTìm hiểu cách trích xuất âm thanh từ các trang trình bày bằng Aspose.Slides for .NET. Cải thiện bản trình bày của bạn với hướng dẫn từng bước này.
-type: docs
 weight: 11
 url: /vi/net/audio-and-video-extraction/extract-audio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trích xuất âm thanh từ slide
+
 
 Trong thế giới thuyết trình, việc thêm âm thanh vào trang chiếu của bạn có thể nâng cao tác động và mức độ tương tác tổng thể. Aspose.Slides for .NET cung cấp một bộ công cụ mạnh mẽ để làm việc với bản trình bày và trong hướng dẫn này, chúng ta sẽ khám phá cách trích xuất âm thanh từ một trang chiếu theo hướng dẫn từng bước. Cho dù bạn là nhà phát triển đang tìm cách tự động hóa quy trình này hay chỉ đơn giản là muốn hiểu cách thực hiện, hướng dẫn này sẽ hướng dẫn bạn thực hiện quy trình.
 
@@ -87,3 +93,9 @@ Có, Aspose.Slides for .NET cung cấp nhiều tính năng để làm việc v�
 
 ### 5. Tôi có thể tìm thêm hỗ trợ hoặc đặt câu hỏi liên quan đến Aspose.Slides cho .NET ở đâu?
  Bạn có thể ghé thăm[Diễn đàn hỗ trợ Aspose.Slides for .NET](https://forum.aspose.com/) để tìm kiếm trợ giúp, đặt câu hỏi hoặc chia sẻ trải nghiệm của bạn với cộng đồng Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Nén phông chữ nhúng trong Java PowerPoint
 linktitle: Nén phông chữ nhúng trong Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách nén phông chữ nhúng trong bản trình bày Java PowerPoint bằng Aspose.Slides. Tối ưu hóa kích thước tập tin một cách dễ dàng.
-type: docs
 weight: 12
 url: /vi/java/java-powerpoint-font-management/embedded-font-compression-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nén phông chữ nhúng trong Java PowerPoint
+
 ## Giới thiệu
 Trong bối cảnh năng động của các bài thuyết trình kỹ thuật số, khả năng tối ưu hóa kích thước tệp mà không ảnh hưởng đến chất lượng là điều tối quan trọng. Aspose.Slides for Java cung cấp một giải pháp mạnh mẽ để nâng cao hiệu quả của bản trình bày PowerPoint bằng cách cho phép nén phông chữ nhúng. Hướng dẫn này sẽ hướng dẫn bạn quy trình tận dụng tính năng này để giảm kích thước tệp một cách hiệu quả, đảm bảo phân phối mượt mà hơn và nâng cao hiệu suất cho bản trình bày của bạn.
 ## Điều kiện tiên quyết
@@ -64,3 +70,9 @@ Có, Aspose.Slides cung cấp các tính năng mã hóa và bảo vệ bằng m�
  Chắc chắn! Bạn có thể tìm kiếm sự hỗ trợ từ cộng đồng Aspose.Slides thông qua[diễn đàn](https://forum.aspose.com/c/slides/11) hoặc xem xét việc xin giấy phép tạm thời để được hỗ trợ ưu tiên.
 ### Làm cách nào tôi có thể mua phiên bản Aspose.Slides được cấp phép cho Java?
 Bạn có thể mua phiên bản Aspose.Slides cho Java được cấp phép từ trang web bằng cách sử dụng[đường link mua hàng](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java スライドのツリー マップ チャート
 linktitle: Java スライドのツリー マップ チャート
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java スライドでツリー マップ チャートを作成します。階層データを視覚化するためのソース コード付きのステップ バイ ステップ ガイド。
-type: docs
 weight: 13
 url: /ja/java/chart-creation/tree-map-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java スライドのツリー マップ チャート
+
 
 ## Javaスライドでのツリーマップチャートの紹介
 
@@ -152,3 +158,9 @@ finally
 ### ツリー マップ チャートを含むプレゼンテーションを保存するにはどうすればよいですか?
 
 使用`pres.save()`ツリー マップ チャートを含むプレゼンテーションを目的の形式 (例: PPTX) で保存する方法。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

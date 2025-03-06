@@ -3,10 +3,16 @@ title: Exploring Advanced Chart Features with Aspose.Slides for .NET
 linktitle: Additional Chart Features in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn advanced chart features in Aspose.Slides for .NET to enhance your PowerPoint presentations. Clear data points, recover workbooks, and more!
-type: docs
 weight: 10
 url: /net/additional-chart-features/additional-chart-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Exploring Advanced Chart Features with Aspose.Slides for .NET
+
 
 In the world of data visualization and presentation design, Aspose.Slides for .NET stands out as a powerful tool to create stunning charts and enhance your PowerPoint presentations. This step-by-step guide will walk you through various advanced chart features that Aspose.Slides for .NET offers. Whether you're a developer or a presentation enthusiast, this tutorial will help you leverage the full potential of this library.
 
@@ -148,3 +154,10 @@ Yes, you can explore the library with a free trial version available at [here](h
 ### How can I get support or assistance with Aspose.Slides for .NET?
 
 For any technical questions or support, you can visit the [Aspose.Slides forum](https://forum.aspose.com/), where you can find answers to common questions and get assistance from the community.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

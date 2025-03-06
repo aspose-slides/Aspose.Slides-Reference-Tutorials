@@ -3,10 +3,16 @@ title: Τροποποιήστε τις ενσωματωμένες ιδιότητ
 linktitle: Τροποποιήστε τις ενσωματωμένες ιδιότητες στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να τροποποιείτε τις ενσωματωμένες ιδιότητες σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε τις παρουσιάσεις σας μέσω προγραμματισμού.
-type: docs
 weight: 12
 url: /el/java/java-powerpoint-properties-management/modify-built-in-properties-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Τροποποιήστε τις ενσωματωμένες ιδιότητες στο PowerPoint
+
 ## Εισαγωγή
 Το Aspose.Slides for Java δίνει τη δυνατότητα στους προγραμματιστές να χειρίζονται τις παρουσιάσεις του PowerPoint μέσω προγραμματισμού. Ένα βασικό χαρακτηριστικό είναι η τροποποίηση ενσωματωμένων ιδιοτήτων, όπως ο συγγραφέας, ο τίτλος, το θέμα, τα σχόλια και ο διαχειριστής. Αυτό το σεμινάριο σας καθοδηγεί στη διαδικασία βήμα προς βήμα.
 ## Προαπαιτούμενα
@@ -65,3 +71,9 @@ presentation.save(dataDir + "DocumentProperties_out.pptx", SaveFormat.Pptx);
 Ενώ το Aspose.Slides παρέχει εκτεταμένη λειτουργικότητα, ορισμένες προηγμένες δυνατότητες ενδέχεται να έχουν περιορισμούς ανάλογα με τη μορφή και την έκδοση του PowerPoint.
 ### Διατίθεται τεχνική υποστήριξη για το Aspose.Slides;
  Ναι, μπορείτε να ζητήσετε βοήθεια και να συμμετάσχετε σε συζητήσεις σχετικά με το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java Slaytlarında Çalışma Kitabından Grafik Verilerini Ayarlama
 linktitle: Java Slaytlarında Çalışma Kitabından Grafik Verilerini Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides'ı kullanarak Java Slides'ta bir Excel çalışma kitabından grafik verilerini nasıl ayarlayacağınızı öğrenin. Dinamik sunumlar için kod örnekleri içeren adım adım kılavuz.
-type: docs
 weight: 15
 url: /tr/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarında Çalışma Kitabından Grafik Verilerini Ayarlama
+
 
 ## Java Slaytlarında Çalışma Kitabından Grafik Verilerini Ayarlamaya Giriş
 
@@ -142,3 +148,9 @@ Evet, temel çalışma kitabını değiştirerek ve ardından grafik verilerini 
 ### Aspose.Slides for Java ile çalışmak için daha fazla örneği ve kaynağı nerede bulabilirim?
 
  Ek örnekleri ve kaynakları inceleyebilirsiniz.[Web sitesi](https://www.aspose.com/). Ayrıca Aspose.Slides for Java belgeleri, kütüphaneyle çalışma konusunda kapsamlı rehberlik sağlar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

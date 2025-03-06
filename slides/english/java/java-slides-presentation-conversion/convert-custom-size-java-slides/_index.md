@@ -3,10 +3,16 @@ title: Convert with Custom Size in Java Slides
 linktitle: Convert with Custom Size in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to convert PowerPoint presentations to TIFF images with custom size using Aspose.Slides for Java. Step-by-step guide with code examples for developers.
-type: docs
 weight: 31
 url: /java/presentation-conversion/convert-custom-size-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Convert with Custom Size in Java Slides
+
 
 ## Introduction to Convert with Custom Size in Java Slides
 
@@ -137,3 +143,10 @@ Absolutely! You can set a custom image size by using the `setImageSize` method i
 ### Where can I find more information about Aspose.Slides for Java?
 
 For detailed documentation and additional information about Aspose.Slides for Java, please visit the documentation: [Aspose.Slides for Java API Reference](https://reference.aspose.com/slides/java/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

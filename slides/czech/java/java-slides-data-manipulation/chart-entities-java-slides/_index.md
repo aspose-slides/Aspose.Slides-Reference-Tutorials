@@ -3,10 +3,16 @@ title: Graf entit v Java Slides
 linktitle: Graf entit v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet a přizpůsobovat grafy Java Slides pomocí Aspose.Slides. Vylepšete své prezentace pomocí výkonných entit grafů.
-type: docs
 weight: 13
 url: /cs/java/data-manipulation/chart-entities-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Graf entit v Java Slides
+
 
 ## Úvod do grafových entit v Java Slides
 
@@ -301,3 +307,9 @@ Barvy grafu můžete přizpůsobit nastavením formátu výplně pro různé prv
 ### Je Aspose.Slides for Java kompatibilní s nejnovějšími verzemi Java?
 
 Ano, Aspose.Slides for Java je pravidelně aktualizován, aby podporoval nejnovější verze Java a poskytuje kompatibilitu v celé řadě prostředí Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

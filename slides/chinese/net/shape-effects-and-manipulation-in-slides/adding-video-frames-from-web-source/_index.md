@@ -3,10 +3,16 @@ title: 使用 Aspose.Slides for .NET 嵌入视频帧教程
 linktitle: 使用 Aspose.Slides 在演示幻灯片中添加来自 Web 源的视频帧
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 将视频帧无缝嵌入 PowerPoint 幻灯片。轻松利用多媒体增强演示文稿。
-type: docs
 weight: 20
 url: /zh/net/shape-effects-and-manipulation-in-slides/adding-video-frames-from-web-source/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Slides for .NET 嵌入视频帧教程
+
 ## 介绍
 在动态的演示世界中，整合多媒体元素可以显著增强参与度并传递有影响力的信息。实现此目的的一种有效方法是将视频帧嵌入演示幻灯片中。在本教程中，我们将探索如何使用 Aspose.Slides for .NET 无缝实现此目的。Aspose.Slides 是一个强大的库，允许开发人员以编程方式操作 PowerPoint 演示文稿，提供创建、编辑和增强幻灯片的广泛功能。
 ## 先决条件
@@ -75,3 +81,9 @@ Aspose.Slides 定期更新以保持与最新 .NET 框架的兼容性。
 是的，您可以通过在幻灯片中添加额外的视频帧来嵌入多个视频。
 ### 在哪里可以找到对 Aspose.Slides 相关查询的支持？
 访问[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11)获得社区支持和讨论。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

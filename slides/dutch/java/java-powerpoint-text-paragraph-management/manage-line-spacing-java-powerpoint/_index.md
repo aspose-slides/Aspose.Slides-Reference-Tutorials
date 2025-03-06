@@ -3,10 +3,16 @@ title: Beheer de regelafstand in Java PowerPoint
 linktitle: Beheer de regelafstand in Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer moeiteloos de regelafstand in Java PowerPoint-presentaties beheren met Aspose.Slides voor Java. Verbeter uw dia's.
-type: docs
 weight: 12
 url: /nl/java/java-powerpoint-text-paragraph-management/manage-line-spacing-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer de regelafstand in Java PowerPoint
+
 ## Invoering
 Bij het programmeren in Java is het beheren van de regelafstand binnen PowerPoint-presentaties cruciaal voor het maken van visueel aantrekkelijke dia's die informatie effectief overbrengen. Of u nu de ruimte tussen alinea's aanpast of de afstand voor en na elke alinea regelt, Aspose.Slides voor Java biedt uitgebreide hulpmiddelen om deze taken naadloos uit te voeren.
 ## Vereisten
@@ -62,3 +68,9 @@ Aspose.Slides ondersteunt zowel oudere (.ppt) als nieuwere (.pptx) formaten van 
  Ja, u kunt een gratis proefversie downloaden van[hier](https://releases.aspose.com/).
 ### Hoe kan ik technische ondersteuning krijgen voor Aspose.Slides?
  Voor technische assistentie, bezoek de Aspose.Slides[Helpforum](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java 슬라이드의 속성 수정에 액세스
 linktitle: Java 슬라이드의 속성 수정에 액세스
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java Slides의 속성에 액세스하고 수정하는 방법을 알아보세요. 사용자 정의 속성으로 프레젠테이션을 향상시키세요.
-type: docs
 weight: 11
 url: /ko/java/presentation-properties/access-modifying-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 슬라이드의 속성 수정에 액세스
+
 
 ## Java 슬라이드의 액세스 수정 속성 소개
 
@@ -117,3 +123,9 @@ Java의 예외 처리 메커니즘을 사용하여 오류를 처리할 수 있�
 ### 추가 문서와 예제는 어디에서 찾을 수 있나요?
 
  Aspose.Slides for Java에 대한 포괄적인 문서와 코드 예제는 다음에서 찾을 수 있습니다.[여기](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

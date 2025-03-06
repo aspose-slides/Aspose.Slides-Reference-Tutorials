@@ -3,10 +3,16 @@ title: Tambahkan Kotak Teks pada Slide Secara Terprogram dengan Java
 linktitle: Tambahkan Kotak Teks pada Slide Secara Terprogram dengan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menambahkan kotak teks ke slide PowerPoint secara terprogram menggunakan Aspose.Slides untuk Java. Tingkatkan produktivitas Anda dengan panduan langkah demi langkah ini.
-type: docs
 weight: 24
 url: /id/java/java-powerpoint-text-font-customization/add-text-box-slide-programmatically-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tambahkan Kotak Teks pada Slide Secara Terprogram dengan Java
+
 ## Perkenalan
 Membuat dan memanipulasi presentasi PowerPoint secara terprogram dapat menyederhanakan banyak alur kerja, mulai dari membuat laporan hingga mengotomatiskan presentasi. Aspose.Slides untuk Java menyediakan API canggih yang memungkinkan pengembang melakukan tugas-tugas ini secara efisien. Dalam tutorial ini, kami akan memandu Anda dalam menambahkan kotak teks ke slide menggunakan Aspose.Slides untuk Java. Di akhir tutorial ini, Anda akan memiliki pemahaman yang jelas tentang cara mengintegrasikan fungsi ini ke dalam aplikasi Java Anda.
 ## Prasyarat
@@ -67,3 +73,9 @@ Tentu saja, ini dirancang untuk menangani tugas-tugas kompleks secara efisien.
  Anda dapat memperoleh a[izin sementara](https://purchase.aspose.com/temporary-license/) dari Aspose.
 ### Apakah Aspose.Slides mendukung konversi presentasi ke format lain?
 Ya, ini mendukung berbagai format termasuk PDF dan gambar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

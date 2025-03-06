@@ -3,10 +3,16 @@ title: Imposta la modalità layout in Diapositive Java
 linktitle: Imposta la modalità layout in Diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come impostare le modalità di layout per le diapositive Java utilizzando Aspose.Slides. Personalizza il posizionamento e il dimensionamento del grafico in questa guida passo passo con il codice sorgente.
-type: docs
 weight: 23
 url: /it/java/data-manipulation/set-layout-mode-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Imposta la modalità layout in Diapositive Java
+
 
 ## Introduzione alla modalità Imposta layout nelle diapositive Java
 
@@ -95,3 +101,9 @@ finally
 ### Dove posso trovare ulteriori informazioni su Aspose.Slides per Java?
 
  Puoi trovare ulteriori informazioni su Aspose.Slides per Java nel[documentazione](https://reference.aspose.com/slides/java/). Include riferimenti API dettagliati ed esempi per aiutarti a lavorare in modo efficace con diapositive e grafici in Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

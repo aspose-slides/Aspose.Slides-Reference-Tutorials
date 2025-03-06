@@ -3,10 +3,16 @@ title: Ändra inbyggda egenskaper i PowerPoint
 linktitle: Ändra inbyggda egenskaper i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ändrar inbyggda egenskaper i PowerPoint-presentationer med Aspose.Slides för Java. Förbättra dina presentationer programmatiskt.
-type: docs
 weight: 12
 url: /sv/java/java-powerpoint-properties-management/modify-built-in-properties-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ändra inbyggda egenskaper i PowerPoint
+
 ## Introduktion
 Aspose.Slides för Java ger utvecklare möjlighet att manipulera PowerPoint-presentationer programmatiskt. En viktig funktion är att ändra inbyggda egenskaper, såsom författare, titel, ämne, kommentarer och chef. Denna handledning guidar dig genom processen steg för steg.
 ## Förutsättningar
@@ -65,3 +71,9 @@ Absolut! Du kan skapa skript eller applikationer för att automatisera egenskaps
 Medan Aspose.Slides tillhandahåller omfattande funktionalitet kan vissa avancerade funktioner ha begränsningar beroende på PowerPoint-format och version.
 ### Finns teknisk support tillgänglig för Aspose.Slides?
  Ja, du kan söka hjälp och delta i diskussioner om[Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

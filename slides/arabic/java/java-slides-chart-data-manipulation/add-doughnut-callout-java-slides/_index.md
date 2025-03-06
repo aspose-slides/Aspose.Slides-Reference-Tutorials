@@ -3,10 +3,16 @@ title: إضافة وسيلة شرح دونات في شرائح جافا
 linktitle: إضافة وسيلة شرح دونات في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة وسائل شرح الدونات في شرائح Java باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع التعليمات البرمجية المصدر للعروض التقديمية المحسنة.
-type: docs
 weight: 12
 url: /ar/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة وسيلة شرح دونات في شرائح جافا
+
 
 ## مقدمة لإضافة وسيلة شرح دونات في شرائح Java باستخدام Aspose.Slides لـ Java
 
@@ -180,3 +186,9 @@ pres.save(dataDir + "chart.pptx", SaveFormat.Pptx);
 ### كيف يمكنني ضبط موضع وحجم المخطط الدائري المجوف على الشريحة؟
 
  يمكنك تغيير موضع المخطط الدائري المجوف وحجمه عن طريق تعديل المعلمات الموجودة في`addChart` طريقة. تتوافق الأرقام الأربعة في هذه الطريقة مع إحداثيات X وY للزاوية العلوية اليسرى للمخطط وعرضه وارتفاعه على التوالي.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

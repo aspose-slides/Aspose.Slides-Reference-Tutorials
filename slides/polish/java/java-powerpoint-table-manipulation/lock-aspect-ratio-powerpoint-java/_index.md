@@ -3,10 +3,16 @@ title: Zablokuj współczynnik proporcji w programie PowerPoint przy użyciu ję
 linktitle: Zablokuj współczynnik proporcji w programie PowerPoint przy użyciu języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak zablokować proporcje w prezentacjach programu PowerPoint przy użyciu języka Java z Aspose.Slides. Idealny dla programistów Java, którzy chcą mieć precyzyjną kontrolę nad projektem slajdów.
-type: docs
 weight: 16
 url: /pl/java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zablokuj współczynnik proporcji w programie PowerPoint przy użyciu języka Java
+
 ## Wstęp
 W obszarze programowania w języku Java programowe manipulowanie prezentacjami programu PowerPoint może usprawnić przepływ pracy i znacznie zwiększyć produktywność. Aspose.Slides for Java oferuje solidny zestaw narzędzi dla programistów Java do automatyzacji zadań, takich jak modyfikowanie slajdów, dodawanie treści i stosowanie formatowania bezpośrednio z kodu Java. Ten samouczek koncentruje się na podstawowym aspekcie zarządzania prezentacjami programu PowerPoint: blokowaniu proporcji.
 ## Warunki wstępne
@@ -61,3 +67,9 @@ Tak, Aspose.Slides for Java został zaprojektowany do skutecznej obsługi złoż
  Możesz zwrócić się o wsparcie do społeczności Aspose.Slides[Tutaj](https://forum.aspose.com/c/slides/11).
 ### Jak mogę wypróbować Aspose.Slides dla Java przed zakupem?
  Możesz otrzymać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

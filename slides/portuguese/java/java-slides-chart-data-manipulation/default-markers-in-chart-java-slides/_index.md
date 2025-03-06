@@ -3,10 +3,16 @@ title: Marcadores padrão no gráfico em slides Java
 linktitle: Marcadores padrão no gráfico em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como criar slides Java com marcadores padrão em gráficos usando Aspose.Slides para Java. Guia passo a passo com código-fonte.
-type: docs
 weight: 16
 url: /pt/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Marcadores padrão no gráfico em slides Java
+
 
 ## Introdução aos marcadores padrão no gráfico em slides Java
 
@@ -142,3 +148,9 @@ Você pode personalizar os símbolos do marcador definindo o estilo do marcador 
 ### Posso adicionar rótulos aos pontos de dados?
 
  Sim, você pode adicionar rótulos a pontos de dados usando o`IDataPoint.getLabel()` método e personalizá-los conforme necessário.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

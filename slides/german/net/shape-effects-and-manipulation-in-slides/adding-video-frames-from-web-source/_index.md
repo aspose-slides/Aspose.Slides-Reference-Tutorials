@@ -3,10 +3,16 @@ title: Tutorial zum Einbetten von Video-Frames mit Aspose.Slides für .NET
 linktitle: Hinzufügen von Videoframes aus einer Webquelle in Präsentationsfolien mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für .NET Videoframes nahtlos in PowerPoint-Folien einbetten. Verbessern Sie Präsentationen mühelos mit Multimedia.
-type: docs
 weight: 20
 url: /de/net/shape-effects-and-manipulation-in-slides/adding-video-frames-from-web-source/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tutorial zum Einbetten von Video-Frames mit Aspose.Slides für .NET
+
 ## Einführung
 In der dynamischen Welt der Präsentationen kann die Einbindung von Multimedia-Elementen die Interaktion deutlich steigern und wirkungsvolle Botschaften vermitteln. Eine wirkungsvolle Möglichkeit, dies zu erreichen, ist das Einbetten von Videobildern in Präsentationsfolien. In diesem Tutorial erfahren Sie, wie Sie dies mithilfe von Aspose.Slides für .NET nahtlos erreichen können. Aspose.Slides ist eine robuste Bibliothek, mit der Entwickler PowerPoint-Präsentationen programmgesteuert bearbeiten können und die umfassende Funktionen zum Erstellen, Bearbeiten und Verbessern von Folien bietet.
 ## Voraussetzungen
@@ -75,3 +81,9 @@ Aspose.Slides wird regelmäßig aktualisiert, um die Kompatibilität mit den neu
 Ja, Sie können mehrere Videos einbetten, indem Sie einer Folie zusätzliche Videobilder hinzufügen.
 ### Wo finde ich Unterstützung für Aspose.Slides-bezogene Fragen?
  Besuche den[Aspose.Slides Forum](https://forum.aspose.com/c/slides/11) für Community-Unterstützung und Diskussionen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

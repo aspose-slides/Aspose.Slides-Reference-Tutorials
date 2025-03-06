@@ -3,10 +3,16 @@ title: PowerPoint に矢印形の線を追加する
 linktitle: PowerPoint に矢印形の線を追加する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint プレゼンテーションに矢印形の線を追加する方法を学びます。視覚的な魅力を簡単に高めることができます。
-type: docs
 weight: 10
 url: /ja/java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint に矢印形の線を追加する
+
 ## 導入
 PowerPoint プレゼンテーションに矢印の線を追加すると、視覚的な魅力が高まり、情報を効果的に伝えることができます。Aspose.Slides for Java は、Java 開発者が PowerPoint プレゼンテーションをプログラムで操作するための包括的なソリューションを提供します。このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint スライドに矢印の線を追加する手順を説明します。
 ## 前提条件
@@ -76,3 +82,9 @@ Aspose.Slides for Java はさまざまなバージョンの PowerPoint との互
 ドキュメンテーション：[Aspose.Slides for Java ドキュメント](https://reference.aspose.com/slides/java/)
 ダウンロード：[Aspose.Slides for Java のダウンロード](https://releases.aspose.com/slides/java/)
 サポート：[Aspose.Slides for Java サポート フォーラム](https://forum.aspose.com/c/slides/11)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

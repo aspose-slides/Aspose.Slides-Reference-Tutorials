@@ -3,10 +3,16 @@ title: Áp dụng hiệu ứng Duotone trên hình ảnh trong PowerPoint
 linktitle: Áp dụng hiệu ứng Duotone trên hình ảnh trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách áp dụng hiệu ứng Duotone cho hình ảnh trong PowerPoint bằng Aspose.Slides for Java với hướng dẫn từng bước của chúng tôi. Nâng cao bài thuyết trình của bạn.
-type: docs
 weight: 20
 url: /vi/java/java-powerpoint-animation-shape-manipulation/apply-duotone-effects-images-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng hiệu ứng Duotone trên hình ảnh trong PowerPoint
+
 ## Giới thiệu
 Việc thêm hiệu ứng hình ảnh vào bản trình bày PowerPoint của bạn có thể nâng cao đáng kể sự hấp dẫn và hiệu quả của chúng. Một hiệu ứng hấp dẫn như vậy là hiệu ứng Duotone, áp dụng hai màu tương phản vào hình ảnh, mang lại vẻ hiện đại và chuyên nghiệp. Trong hướng dẫn toàn diện này, chúng tôi sẽ hướng dẫn bạn quy trình áp dụng hiệu ứng Duotone cho hình ảnh trong PowerPoint bằng Aspose.Slides cho Java.
 ## Điều kiện tiên quyết
@@ -86,3 +92,9 @@ Có, Aspose.Slides cho Java tương thích với tất cả các IDE chính, bao
  Có, bạn có thể dùng thử miễn phí từ[Trang dùng thử miễn phí Aspose.Slides](https://releases.aspose.com/).
 ### Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.Slides cho Java ở đâu?
  Bạn có thể tìm thấy tài liệu và ví dụ toàn diện về[Trang tài liệu Aspose.Slides](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Nastavte externí sešit v Java Slides
 linktitle: Nastavte externí sešit v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak nastavit externí sešity v Java Slides pomocí Aspose.Slides for Java. Vytvářejte dynamické prezentace s integrací dat aplikace Excel.
-type: docs
 weight: 19
 url: /cs/java/data-manipulation/set-external-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavte externí sešit v Java Slides
+
 
 ## Úvod k nastavení externího sešitu v Java Slides
 
@@ -119,3 +125,9 @@ Aspose.Slides for Java je pravidelně aktualizován, aby byla zajištěna kompat
 ### Mohu přidat více grafů odkazujících na stejný externí sešit?
 
 Ano, do prezentace můžete přidat více grafů, přičemž všechny odkazují na stejný externí sešit. Jednoduše opakujte kroky popsané v tomto kurzu pro každý graf, který chcete vytvořit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

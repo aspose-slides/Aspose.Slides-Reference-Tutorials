@@ -3,10 +3,16 @@ title: Tetapkan Nomor Poin Khusus di Java PowerPoint
 linktitle: Tetapkan Nomor Poin Khusus di Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur nomor poin khusus di Java PowerPoint dengan Aspose.Slides, meningkatkan kejelasan dan struktur presentasi secara terprogram.
-type: docs
 weight: 15
 url: /id/java/java-powerpoint-text-font-customization/set-custom-bullets-number-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tetapkan Nomor Poin Khusus di Java PowerPoint
+
 ## Perkenalan
 Di era digital saat ini, membuat presentasi yang dinamis sangat penting untuk mengkomunikasikan ide dan data secara efektif. Aspose.Slides untuk Java menyediakan perangkat canggih untuk memanipulasi presentasi PowerPoint secara terprogram, menawarkan fitur ekstensif untuk menyempurnakan proses pembuatan presentasi Anda. Artikel ini mempelajari pengaturan nomor poin khusus dalam presentasi Java PowerPoint menggunakan Aspose.Slides. Baik Anda seorang pengembang berpengalaman atau pendatang baru, tutorial ini akan memandu Anda langkah demi langkah melalui proses tersebut, memastikan Anda dapat memanfaatkan kemampuan ini secara efisien.
 ## Prasyarat
@@ -82,3 +88,9 @@ Aspose.Slides mendukung format PowerPoint dari 97-2003 hingga versi terbaru.
  Ya, Anda dapat mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
 ### Dimana saya bisa membeli Aspose.Slides?
  Anda dapat membeli Aspose.Slide dari[Di Sini](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

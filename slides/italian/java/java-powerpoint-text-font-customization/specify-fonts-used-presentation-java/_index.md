@@ -3,10 +3,16 @@ title: Specificare i caratteri utilizzati nella presentazione con Java
 linktitle: Specificare i caratteri utilizzati nella presentazione con Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come specificare i caratteri personalizzati nelle presentazioni di PowerPoint utilizzando Aspose.Slides per Java. Migliora le tue diapositive con una tipografia unica senza sforzo.
-type: docs
 weight: 22
 url: /it/java/java-powerpoint-text-font-customization/specify-fonts-used-presentation-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Specificare i caratteri utilizzati nella presentazione con Java
+
 ## introduzione
 Nell'era digitale di oggi, la creazione di presentazioni visivamente accattivanti è fondamentale per una comunicazione efficace sia nel mondo degli affari che nel mondo accademico. Aspose.Slides per Java fornisce una solida piattaforma per gli sviluppatori Java per generare e manipolare dinamicamente presentazioni PowerPoint. Questo tutorial ti guiderà attraverso il processo di specifica dei caratteri utilizzati in una presentazione utilizzando Aspose.Slides per Java. Alla fine, avrai le conoscenze necessarie per integrare perfettamente i caratteri personalizzati nei tuoi progetti PowerPoint, migliorandone l'attrattiva visiva e garantendo la coerenza del marchio.
 ## Prerequisiti
@@ -71,3 +77,9 @@ Sì, puoi specificare i caratteri a vari livelli, incluso il livello di diaposit
 Aspose.Slides non impone rigide limitazioni al numero di caratteri personalizzati; tuttavia, considerare le implicazioni sulle prestazioni.
 ### Posso caricare dinamicamente i caratteri in fase di runtime senza incorporarli nella mia applicazione?
 Sì, puoi caricare caratteri da fonti o memoria esterne come dimostrato in questo tutorial.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

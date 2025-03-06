@@ -3,10 +3,16 @@ title: Properti Font untuk Bagan di Slide Java
 linktitle: Properti Font untuk Bagan di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Tingkatkan Properti Font Bagan di Slide Java dengan Aspose.Slides untuk Java. Sesuaikan ukuran font, gaya, dan warna untuk presentasi yang berdampak.
-type: docs
 weight: 11
 url: /id/java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Properti Font untuk Bagan di Slide Java
+
 
 ## Pengantar Properti Font untuk Bagan di Slide Java
 
@@ -102,3 +108,9 @@ Dalam tutorial ini, Anda telah mempelajari cara mengkustomisasi properti font un
 ### Bagaimana cara menyesuaikan properti font untuk elemen bagan tertentu?
 
 Untuk mengkustomisasi properti font untuk elemen bagan tertentu, seperti label sumbu atau teks legenda, Anda dapat mengakses elemen tersebut dan mengatur properti fontnya menggunakan metode serupa seperti yang ditunjukkan di atas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

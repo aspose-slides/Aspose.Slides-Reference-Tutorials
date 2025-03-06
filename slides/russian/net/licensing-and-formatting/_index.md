@@ -3,10 +3,16 @@ title: Лицензирование и форматирование
 linktitle: Лицензирование и форматирование
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Улучшите свое понимание лицензирования и форматирования Aspose.Slides с помощью подробных руководств. Узнайте, как эффективно управлять лицензиями и добиться безупречного форматирования презентаций.
-type: docs
 weight: 21
 url: /ru/net/licensing-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Лицензирование и форматирование
+
 
 ## Введение
 
@@ -31,3 +37,9 @@ url: /ru/net/licensing-and-formatting/
 Узнайте, как улучшить визуальные эффекты диаграмм с помощью Aspose.Slides для .NET. Добавьте динамические цвета к точкам данных, чтобы сделать презентации более эффектными.
 ### [Добавьте пользовательские полосы ошибок на диаграмму](./add-custom-error/)
 Узнайте, как добавлять пользовательские полосы ошибок в диаграммы с помощью Aspose.Slides для .NET. Создавайте, оформляйте и настраивайте панели ошибок для точной визуализации данных.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

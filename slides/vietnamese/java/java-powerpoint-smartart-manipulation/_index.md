@@ -3,10 +3,16 @@ title: Thao tác SmartArt của Java PowerPoint
 linktitle: Thao tác SmartArt của Java PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thao tác Java PowerPoint SmartArt hiệu quả với hướng dẫn GroupDocs.Slides for Java. Truy cập các nút con, thêm nút, thay đổi bố cục và hơn thế nữa!
-type: docs
 weight: 32
 url: /vi/java/java-powerpoint-smartart-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thao tác SmartArt của Java PowerPoint
+
 
 ## Giới thiệu
 
@@ -71,3 +77,9 @@ Làm chủ các kiểu bố cục biểu đồ trong SmartArt bằng cách sử 
 Tìm hiểu cách xóa nút khỏi SmartArt trong bản trình bày PowerPoint bằng Aspose.Slides cho Java một cách hiệu quả và theo chương trình.
 ### [Xóa nút ở vị trí cụ thể trong SmartArt](./remove-node-specific-position-smartart-java/)
 Tìm hiểu cách xóa nút tại một vị trí cụ thể trong SmartArt bằng Aspose.Slides cho Java. Tăng cường tùy chỉnh bản trình bày một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

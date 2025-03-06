@@ -3,10 +3,16 @@ title: Java 슬라이드의 종량제 라이선스
 linktitle: Java 슬라이드의 종량제 라이선스
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Metered Licensing을 통해 Java 사용에 맞게 Aspose.Slides를 최적화하세요. API 사용을 설정하고 모니터링하는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/java/licensing-and-initialization/metered-licensing-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 슬라이드의 종량제 라이선스
+
 
 ## Aspose.Slides for Java의 계량 라이선스 소개
 
@@ -107,3 +113,10 @@ Aspose에서 측정된 라이선스 키를 얻을 수 있습니다. 자세한 �
 ### 계량 라이센스를 위해서는 인터넷 연결이 필요합니까?
 
 예, 계량 라이센스를 설정하고 검증하려면 인터넷 연결이 필요합니다.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: ハイパーリンクの操作
 linktitle: ハイパーリンクの操作
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides を使用した包括的なハイパーリンク操作により、.NET アプリケーションを強化します。ハイパーリンクを管理し、インタラクティブなプレゼンテーションを作成し、ユーザー エンゲージメントを簡単に高める方法を学習します。
-type: docs
 weight: 13
 url: /ja/net/hyperlink-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ハイパーリンクの操作
+
 
 ## 導入：
 
@@ -27,3 +33,9 @@ Aspose.Slides for .NET を使用して PowerPoint のスライドにハイパー
 Aspose.Slides for .NET を使用してプレゼンテーション内のハイパーリンクを効果的に管理する方法を学びます。タスクを自動化し、インタラクティブなメニューを作成し、ユーザー エンゲージメントを強化します。
 ### [可変ハイパーリンクの作成](./mutable-hyperlink/)
 Aspose.Slides for .NET を使用して変更可能なハイパーリンクを作成する方法を学びます。動的なプレゼンテーションのソース コードを含むステップ バイ ステップ ガイド。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

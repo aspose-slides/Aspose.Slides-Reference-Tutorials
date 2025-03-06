@@ -3,10 +3,16 @@ title: التحقق من صحة تخطيط المخطط المُضاف في شر
 linktitle: التحقق من صحة تخطيط المخطط المُضاف في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: التحقق من صحة تخطيط المخطط الرئيسي في PowerPoint باستخدام Aspose.Slides لـ Java. تعلم كيفية التعامل مع المخططات برمجيًا للحصول على عروض تقديمية مذهلة.
-type: docs
 weight: 10
 url: /ar/java/data-manipulation/validate-chart-layout-added-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التحقق من صحة تخطيط المخطط المُضاف في شرائح Java
+
 
 ## مقدمة للتحقق من صحة تخطيط المخطط في Aspose.Slides لـ Java
 
@@ -97,3 +103,10 @@ finally
 ### ماذا لو كنت أرغب في تعديل خصائص المخطط الأخرى؟
 
 يمكنك الوصول إلى خصائص المخطط المختلفة وتخصيصها وفقًا لمتطلباتك. استكشف وثائق Aspose.Slides للحصول على معلومات شاملة حول معالجة المخططات.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

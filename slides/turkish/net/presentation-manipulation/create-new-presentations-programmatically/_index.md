@@ -3,10 +3,16 @@ title: Program Aracılığıyla Yeni Sunumlar Oluşturun
 linktitle: Program Aracılığıyla Yeni Sunumlar Oluşturun
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak programlı olarak nasıl sunum oluşturacağınızı öğrenin. Verimli otomasyon için kaynak kodlu adım adım kılavuz.
-type: docs
 weight: 10
 url: /tr/net/presentation-manipulation/create-new-presentations-programmatically/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Program Aracılığıyla Yeni Sunumlar Oluşturun
+
 
 .NET'te programlı sunumlar oluşturmak istiyorsanız Aspose.Slides for .NET, bu görevi verimli bir şekilde gerçekleştirmenize yardımcı olacak güçlü bir araçtır. Bu adım adım eğitim, sağlanan kaynak kodunu kullanarak yeni sunumlar oluşturma sürecinde size rehberlik edecektir.
 
@@ -87,3 +93,9 @@ Artık özel ihtiyaçlarınıza göre uyarlanmış dinamik sunumlar oluşturmak 
 
 4. ### Satın almadan önce Aspose.Slides for .NET'i deneyebilir miyim?
     Evet, Aspose.Slides for .NET'in ücretsiz deneme sürümünü indirebilirsiniz[Burada](https://releases.aspose.com/). Deneme sürümünün sınırlamaları vardır, bu nedenle gereksinimlerinizi karşılayıp karşılamadığını kontrol ettiğinizden emin olun.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

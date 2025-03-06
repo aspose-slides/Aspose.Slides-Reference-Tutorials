@@ -3,10 +3,16 @@ title: Java PowerPoint Διαχείριση κειμένου και παραγρ
 linktitle: Java PowerPoint Διαχείριση κειμένου και παραγράφων
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Master Java PowerPoint διαχείριση κειμένου και παραγράφων με Aspose.Slides. Μάθετε να εισάγετε κείμενο HTML, να διαχειρίζεστε το διάστιχο, να δημιουργείτε κουκκίδες και να ευθυγραμμίζετε παραγράφους.
-type: docs
 weight: 26
 url: /el/java/java-powerpoint-text-paragraph-management/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint Διαχείριση κειμένου και παραγράφων
+
 ## Εισαγωγή
 
 Η δημιουργία καλά δομημένων και οπτικά ελκυστικών παρουσιάσεων PowerPoint μπορεί να βελτιώσει σημαντικά την επικοινωνία σας. Με το Aspose.Slides για Java, η διαχείριση κειμένου και παραγράφων γίνεται μια απλή εργασία. Είτε θέλετε να εισαγάγετε κείμενο HTML, να διαχειριστείτε το διάστιχο ή να δημιουργήσετε κουκκίδες πολλών επιπέδων, τα λεπτομερή εκμάθησή μας θα σας καθοδηγήσουν στη διαδικασία. Ας εξερευνήσουμε πώς μπορείτε να μεταφέρετε τις παρουσιάσεις Java PowerPoint στο επόμενο επίπεδο.
@@ -55,3 +61,9 @@ url: /el/java/java-powerpoint-text-paragraph-management/
 Μάθετε πώς να ορίζετε εσοχές παραγράφου στις διαφάνειες του PowerPoint μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε τη μορφοποίηση της παρουσίασής σας χωρίς κόπο.
 ### [Ευθυγραμμίστε τις παραγράφους στο PowerPoint χρησιμοποιώντας Java](./align-paragraphs-powerpoint-java/)
 Μάθετε πώς να ευθυγραμμίζετε παραγράφους σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για ακριβή μορφοποίηση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

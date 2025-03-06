@@ -3,10 +3,16 @@ title: Блок-диаграмма в слайдах Java
 linktitle: Блок-диаграмма в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как создавать коробчатые диаграммы в презентациях Java с помощью Aspose.Slides. Пошаговое руководство и исходный код включены для эффективной визуализации данных.
-type: docs
 weight: 10
 url: /ru/java/chart-elements/box-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Блок-диаграмма в слайдах Java
+
 
 ## Введение в ящичную диаграмму в Aspose.Slides для Java
 
@@ -148,3 +154,9 @@ finally
 ### Что означает QuartileMethodType.Exclusive?
 
 `QuartileMethodType.Exclusive` Параметр указывает, что расчеты квартилей должны выполняться с использованием эксклюзивного метода. Вы можете выбрать различные методы расчета квартилей в зависимости от ваших данных и требований.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

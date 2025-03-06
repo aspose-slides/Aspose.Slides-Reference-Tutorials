@@ -3,10 +3,16 @@ title: Java スライドのデータ ポイントのチャート マーカー �
 linktitle: Java スライドのデータ ポイントのチャート マーカー オプション
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: カスタム チャート マーカー オプションを使用して Java スライドを最適化します。Aspose.Slides for Java を使用してデータ ポイントを視覚的に強化する方法を学びます。ステップ バイ ステップのガイダンスと FAQ を参照してください。
-type: docs
 weight: 14
 url: /ja/java/data-manipulation/chart-marker-options-data-point-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java スライドのデータ ポイントのチャート マーカー オプション
+
 
 ## Java スライドのデータ ポイントのチャート マーカー オプションの紹介
 
@@ -154,3 +160,9 @@ Aspose.Slides for Java を使用すると、データ ポイント上のグラ�
 ### Aspose.Slides for Java のドキュメントとダウンロードにはどこでアクセスできますか?
 
 ドキュメントは次の場所にあります。[ここ](https://reference.aspose.com/slides/java/)ライブラリをダウンロードするには[ここ](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

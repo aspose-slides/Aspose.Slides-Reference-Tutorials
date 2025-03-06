@@ -3,10 +3,16 @@ title: ClsId Direktori Root di Slide Java
 linktitle: ClsId Direktori Root di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengatur ClsId Direktori Root di Aspose.Slides untuk presentasi Java. Sesuaikan perilaku hyperlink dengan CLSID.
-type: docs
 weight: 10
 url: /id/java/media-controls/root-directory-clsid-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ClsId Direktori Root di Slide Java
+
 
 ## Pengantar Pengaturan ClsId Direktori Root di Aspose.Slides untuk Java
 
@@ -107,3 +113,9 @@ Tidak, ClsId Direktori Root biasanya diatur pada tingkat presentasi dan berlaku 
 ### Apakah ada batasan pada CLSID yang dapat saya gunakan?
 
 CLSID yang dapat Anda gunakan biasanya ditentukan oleh aplikasi yang diinstal pada sistem. Anda harus menggunakan CLSID yang sesuai dengan aplikasi valid yang mampu menangani hyperlink. Perlu diketahui bahwa penggunaan CLSID yang tidak valid dapat mengakibatkan perilaku yang tidak diharapkan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

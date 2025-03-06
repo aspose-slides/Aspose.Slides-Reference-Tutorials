@@ -3,10 +3,16 @@ title: قم بإنشاء شكل بيضاوي بسهولة باستخدام Aspos
 linktitle: إنشاء شكل بيضاوي بسيط في شرائح العرض التقديمي باستخدام Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إنشاء أشكال بيضاوية مذهلة في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET. خطوات سهلة للتصميم الديناميكي!
-type: docs
 weight: 11
 url: /ar/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بإنشاء شكل بيضاوي بسهولة باستخدام Aspose.Slides .NET
+
 ## مقدمة
 في عالم تصميم العروض التقديمية الديناميكي، يمكن أن يضيف دمج الأشكال مثل الأشكال البيضاوية لمسة من الإبداع والاحترافية. يقدم Aspose.Slides for .NET حلاً قويًا لمعالجة ملفات العرض التقديمي برمجيًا. سيرشدك هذا البرنامج التعليمي خلال عملية إنشاء شكل بيضاوي بسيط في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET.
 ## المتطلبات الأساسية
@@ -65,3 +71,9 @@ Congratulations! You've successfully created a simple ellipse shape in a present
  اتبع ال[رابط الترخيص المؤقت](https://purchase.aspose.com/temporary-license/) لطلب ترخيص مؤقت لأغراض الاختبار.
 ### هل تحتاج إلى المساعدة أو لديك أسئلة محددة؟
  قم بزيارة[منتدى دعم Aspose.Slides](https://forum.aspose.com/c/slides/11) للحصول على المساعدة من المجتمع والخبراء.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

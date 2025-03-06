@@ -3,10 +3,16 @@ title: 使用 Java 指定演示文稿中使用的字体
 linktitle: 使用 Java 指定演示文稿中使用的字体
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中指定自定义字体。轻松使用独特的字体增强您的幻灯片效果。
-type: docs
 weight: 22
 url: /zh/java/java-powerpoint-text-font-customization/specify-fonts-used-presentation-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 指定演示文稿中使用的字体
+
 ## 介绍
 在当今的数字时代，创建视觉上引人注目的演示文稿对于商业和学术界的有效沟通都至关重要。Aspose.Slides for Java 为 Java 开发人员提供了一个强大的平台，可以动态生成和操作 PowerPoint 演示文稿。本教程将指导您完成使用 Aspose.Slides for Java 指定演示文稿中使用的字体的过程。最后，您将掌握将自定义字体无缝集成到 PowerPoint 项目中的知识，从而增强其视觉吸引力并确保品牌一致性。
 ## 先决条件
@@ -71,3 +77,9 @@ try {
 Aspose.Slides 对自定义字体的数量没有严格的限制；但是，请考虑性能影响。
 ### 我可以在运行时动态加载字体而不将它们嵌入到我的应用程序中吗？
 是的，您可以按照本教程所示从外部来源或内存加载字体。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thêm nút tại vị trí cụ thể trong SmartArt bằng Java
 linktitle: Thêm nút tại vị trí cụ thể trong SmartArt bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Khám phá cách thêm nút tại các vị trí cụ thể trong SmartArt bằng cách sử dụng Java với Aspose.Slides. Tạo bài thuyết trình năng động một cách dễ dàng.
-type: docs
 weight: 16
 url: /vi/java/java-powerpoint-smartart-manipulation/add-nodes-specific-position-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm nút tại vị trí cụ thể trong SmartArt bằng Java
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình thêm nút tại các vị trí cụ thể trong SmartArt bằng Java với Aspose.Slides. SmartArt là một tính năng trong PowerPoint cho phép bạn tạo các sơ đồ và biểu đồ hấp dẫn trực quan.
 ## Điều kiện tiên quyết
@@ -70,3 +76,9 @@ Có, bạn có thể tùy chỉnh giao diện của các nút, bao gồm kích t
 Có, Aspose.Slides cung cấp thư viện cho nhiều ngôn ngữ lập trình, bao gồm .NET và Python.
 ### Có phiên bản dùng thử cho Aspose.Slides không?
  Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

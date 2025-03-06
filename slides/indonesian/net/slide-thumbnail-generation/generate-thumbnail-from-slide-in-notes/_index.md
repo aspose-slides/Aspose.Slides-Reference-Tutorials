@@ -3,10 +3,16 @@ title: Hasilkan Gambar Mini dari Slide di Catatan
 linktitle: Hasilkan Gambar Mini dari Slide di Catatan
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara membuat gambar mini dari slide di bagian catatan presentasi Anda menggunakan Aspose.Slides untuk .NET. Tingkatkan konten visual Anda!
-type: docs
 weight: 12
 url: /id/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hasilkan Gambar Mini dari Slide di Catatan
+
 
 Dalam dunia presentasi modern, konten visual adalah rajanya. Membuat slide yang menarik sangat penting untuk komunikasi yang efektif. Salah satu cara untuk menyempurnakan presentasi Anda adalah dengan membuat thumbnail dari slide, terutama ketika Anda ingin menekankan detail spesifik atau berbagi ikhtisar. Aspose.Slides for .NET adalah alat canggih yang dapat membantu Anda mencapai hal ini dengan lancar. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses pembuatan gambar mini dari slide di bagian catatan presentasi menggunakan Aspose.Slides untuk .NET.
 
@@ -114,3 +120,9 @@ Sangat! Aspose.Slides for .NET menyediakan opsi untuk menyesuaikan tampilan thum
 
 ### Di mana saya bisa mendapatkan dukungan atau bantuan lebih lanjut dengan Aspose.Slides untuk .NET?
  Anda dapat menemukan bantuan dan terlibat dengan komunitas Aspose di[Asumsikan Forum Dukungan](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में इंटरप्ट क
 linktitle: जावा स्लाइड्स में इंटरप्ट के लिए समर्थन
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java के साथ Java स्लाइड्स में व्यवधान प्रबंधन में महारत हासिल करें। यह विस्तृत गाइड निर्बाध व्यवधान प्रबंधन के लिए चरण-दर-चरण निर्देश और कोड उदाहरण प्रदान करता है।
-type: docs
 weight: 12
 url: /hi/java/media-controls/support-for-interrupt-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में इंटरप्ट के लिए समर्थन
+
 # Aspose.Slides for Java के साथ Java स्लाइड्स में इंटरप्ट के लिए समर्थन का परिचय
 
 Aspose.Slides for Java, Java अनुप्रयोगों में PowerPoint प्रस्तुतियों को बनाने, उनमें हेरफेर करने और उनके साथ काम करने के लिए एक शक्तिशाली लाइब्रेरी है। इस व्यापक गाइड में, हम यह पता लगाएंगे कि Aspose.Slides for Java का उपयोग करके Java स्लाइड में इंटरप्ट के लिए समर्थन का उपयोग कैसे करें। चाहे आप एक अनुभवी डेवलपर हों या अभी शुरुआत कर रहे हों, यह चरण-दर-चरण ट्यूटोरियल आपको विस्तृत स्पष्टीकरण और कोड उदाहरणों के साथ प्रक्रिया के माध्यम से ले जाएगा।
@@ -133,3 +139,9 @@ tokenSource.interrupt();
 ### मैं Aspose.Slides for Java के लिए अधिक संसाधन और दस्तावेज़ कहां से प्राप्त कर सकता हूं?
 
 आप Aspose.Slides for Java के लिए व्यापक दस्तावेज़, ट्यूटोरियल और उदाहरण पा सकते हैं[Aspose वेबसाइट](https://reference.aspose.com/slides/java/)इसके अतिरिक्त, आप अपने विशिष्ट उपयोग मामले में सहायता के लिए Aspose सहायता टीम से संपर्क कर सकते हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

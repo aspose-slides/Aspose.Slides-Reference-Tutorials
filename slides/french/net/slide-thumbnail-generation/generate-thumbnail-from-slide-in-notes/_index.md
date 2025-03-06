@@ -3,10 +3,16 @@ title: Générer une vignette à partir d'une diapositive dans Notes
 linktitle: Générer une vignette à partir d'une diapositive dans Notes
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment générer des vignettes à partir de diapositives dans la section notes de votre présentation à l'aide d'Aspose.Slides pour .NET. Améliorez votre contenu visuel !
-type: docs
 weight: 12
 url: /fr/net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Générer une vignette à partir d'une diapositive dans Notes
+
 
 Dans le monde des présentations modernes, le contenu visuel est roi. Créer des diapositives attrayantes est essentiel pour une communication efficace. Une façon d'améliorer vos présentations consiste à générer des vignettes à partir de diapositives, en particulier lorsque vous souhaitez mettre en valeur des détails spécifiques ou partager une vue d'ensemble. Aspose.Slides for .NET est un outil puissant qui peut vous aider à y parvenir de manière transparente. Dans ce guide étape par étape, nous vous guiderons tout au long du processus de génération de vignettes à partir de diapositives dans la section notes d'une présentation à l'aide d'Aspose.Slides pour .NET.
 
@@ -114,3 +120,9 @@ Absolument! Aspose.Slides pour .NET fournit des options pour personnaliser l'app
 
 ### Où puis-je obtenir de l’aide ou une assistance supplémentaire concernant Aspose.Slides pour .NET ?
  Vous pouvez trouver de l'aide et interagir avec la communauté Aspose à l'adresse[Forum d'assistance Aspose](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

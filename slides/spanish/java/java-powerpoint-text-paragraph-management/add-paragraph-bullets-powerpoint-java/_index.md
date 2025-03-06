@@ -3,10 +3,16 @@ title: Agregar viñetas de párrafo en PowerPoint usando Java
 linktitle: Agregar viñetas de párrafo en PowerPoint usando Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a agregar viñetas de párrafo en diapositivas de PowerPoint usando Aspose.Slides para Java. Este tutorial lo guía paso a paso con ejemplos de código.
-type: docs
 weight: 15
 url: /es/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar viñetas de párrafo en PowerPoint usando Java
+
 ## Introducción
 Agregar viñetas de párrafo mejora la legibilidad y la estructura de las presentaciones de PowerPoint. Aspose.Slides para Java proporciona herramientas sólidas para manipular presentaciones mediante programación, incluida la capacidad de formatear texto con varios estilos de viñetas. En este tutorial, aprenderá cómo integrar viñetas en diapositivas de PowerPoint usando código Java, aprovechando Aspose.Slides.
 ## Requisitos previos
@@ -89,3 +95,9 @@ Sí, puede aplicar estilos de viñetas únicos a diferentes diapositivas mediant
 Sí, Aspose.Slides es compatible con Java 11 y versiones superiores.
 ### ¿Dónde puedo encontrar más ejemplos y documentación?
  Visita[Documentación de Aspose.Slides para Java](https://reference.aspose.com/slides/java/) para guías completas y ejemplos.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

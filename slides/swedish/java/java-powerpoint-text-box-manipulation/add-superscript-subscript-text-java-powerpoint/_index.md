@@ -3,10 +3,16 @@ title: Lägg till upphöjd och nedsänkt text i Java PowerPoint
 linktitle: Lägg till upphöjd och nedsänkt text i Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du lägger till upphöjd och nedsänkt text i Java PowerPoint-presentationer med Aspose.Slides för Java. Perfekt för att förbättra dina bilder.
-type: docs
 weight: 13
 url: /sv/java/java-powerpoint-text-box-manipulation/add-superscript-subscript-text-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till upphöjd och nedsänkt text i Java PowerPoint
+
 ## Introduktion
 Att skapa engagerande och informativa PowerPoint-presentationer kräver ofta användning av formateringsfunktioner som upphöjd och nedsänkt text. Den här handledningen guidar dig genom processen att införliva upphöjd och nedsänkt text i dina Java PowerPoint-presentationer med Aspose.Slides för Java.
 ## Förutsättningar
@@ -89,3 +95,9 @@ Aspose.Slides för Java är ett robust bibliotek som låter utvecklare skapa, ma
  Ja, du kan ladda ner en gratis testversion från[här](https://releases.aspose.com/).
 ### Var kan jag få support för Aspose.Slides för Java?
  För support och diskussioner, besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

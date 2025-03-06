@@ -3,10 +3,16 @@ title: استخراج الصوت من الشريحة
 linktitle: استخراج الصوت من الشريحة
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية استخراج الصوت من الشرائح باستخدام Aspose.Slides لـ .NET. قم بتحسين عروضك التقديمية باستخدام هذا الدليل المفصّل خطوة بخطوة.
-type: docs
 weight: 11
 url: /ar/net/audio-and-video-extraction/extract-audio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استخراج الصوت من الشريحة
+
 
 في عالم العروض التقديمية، يمكن أن تؤدي إضافة الصوت إلى شرائحك إلى تعزيز التأثير العام والمشاركة. يوفر Aspose.Slides for .NET مجموعة قوية من الأدوات للعمل مع العروض التقديمية، وفي هذا البرنامج التعليمي، سنستكشف كيفية استخراج الصوت من الشريحة في دليل خطوة بخطوة. سواء كنت مطورًا يتطلع إلى أتمتة هذه العملية أو ببساطة مهتمًا بفهم كيفية القيام بذلك، فإن هذا البرنامج التعليمي سيرشدك خلال العملية.
 
@@ -87,3 +93,9 @@ System.Console.WriteLine("Length: " + audio.Length);
 
 ### 5. أين يمكنني العثور على دعم إضافي أو طرح أسئلة تتعلق بـ Aspose.Slides for .NET؟
  يمكنك زيارة[Aspose.Slides لمنتدى دعم .NET](https://forum.aspose.com/) لطلب المساعدة أو طرح الأسئلة أو مشاركة تجاربك مع مجتمع Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

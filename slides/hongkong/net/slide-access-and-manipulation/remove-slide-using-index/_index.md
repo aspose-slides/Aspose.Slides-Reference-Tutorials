@@ -3,10 +3,16 @@ title: 依序索引擦除投影片
 linktitle: 依序索引擦除投影片
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 逐步擦除 PowerPoint 投影片。我們的指南提供了清晰的說明和完整的原始程式碼，可協助您透過順序索引以程式設計方式刪除投影片。
-type: docs
 weight: 24
 url: /zh-hant/net/slide-access-and-manipulation/remove-slide-using-index/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 依序索引擦除投影片
+
 
 ## 透過順序索引擦除幻燈片簡介
 
@@ -86,3 +92,9 @@ presentation.Save(outputPath, SaveFormat.Pptx);
 ### 如何了解更多關於 Aspose.Slides for .NET 的資訊？
 
 您可以在以下位置瀏覽 Aspose.Slides for .NET 的詳細文件和 API 參考：[文件頁](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

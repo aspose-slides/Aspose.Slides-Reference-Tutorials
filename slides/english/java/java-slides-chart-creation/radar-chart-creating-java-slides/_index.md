@@ -3,10 +3,16 @@ title: Radar Chart Creating in Java Slides
 linktitle: Radar Chart Creating in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create Radar Charts in Java PowerPoint presentations using Aspose.Slides for Java API.
-type: docs
 weight: 10
 url: /java/chart-creation/radar-chart-creating-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Radar Chart Creating in Java Slides
+
 
 ## Introduction to Creating a Radar Chart in Java Slides
 
@@ -268,3 +274,10 @@ Refer to "Step 5" to customize the axis labels and formatting, including font si
 ### How do I save the chart to a different file format?
 
 You can change the output format by modifying the file extension in the `outPath` variable and using the appropriate `SaveFormat`. For example, to save as a PDF, use `SaveFormat.Pdf`.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

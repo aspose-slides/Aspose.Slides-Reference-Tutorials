@@ -3,10 +3,16 @@ title: Festlegen von Foliennummern für Präsentationen mit Aspose.Slides
 linktitle: Festlegen von Foliennummern für Präsentationen mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Entdecken Sie die nahtlose Welt der Folienmanipulation mit Aspose.Slides für .NET. Erfahren Sie, wie Sie mühelos Foliennummern festlegen und so Ihr Präsentationserlebnis verbessern.
-type: docs
 weight: 16
 url: /de/net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Festlegen von Foliennummern für Präsentationen mit Aspose.Slides
+
 ## Einführung
 In der dynamischen Welt der Präsentationen ist die Kontrolle der Reihenfolge und Anordnung der Folien für eine effektive Kommunikation von entscheidender Bedeutung. Aspose.Slides für .NET bietet eine leistungsstarke Lösung zur Manipulation der Foliennummern in Ihren Präsentationen und gibt Ihnen die Flexibilität, Ihren Inhalt nahtlos anzupassen.
 ## Voraussetzungen
@@ -63,3 +69,9 @@ Auf jeden Fall! Aspose.Slides bietet umfangreiche Optionen zum Anpassen des Ersc
  Besuche den[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11) für Community-basierten Support oder erkunden Sie Premium-Support-Optionen.
 ### Kann ich Aspose.Slides vor dem Kauf ausprobieren?
  Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

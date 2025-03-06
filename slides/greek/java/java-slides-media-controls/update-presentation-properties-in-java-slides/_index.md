@@ -3,10 +3,16 @@ title: Ενημερώστε τις ιδιότητες παρουσίασης σ�
 linktitle: Ενημερώστε τις ιδιότητες παρουσίασης σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ενημερώνετε τις ιδιότητες παρουσίασης σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java. Προσαρμόστε τον συγγραφέα, τον τίτλο και πολλά άλλα για εντυπωσιακές παρουσιάσεις.
-type: docs
 weight: 13
 url: /el/java/media-controls/update-presentation-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ενημερώστε τις ιδιότητες παρουσίασης σε διαφάνειες Java
+
 
 ## Εισαγωγή στην ενημέρωση των ιδιοτήτων παρουσίασης σε διαφάνειες Java
 
@@ -112,3 +118,9 @@ info.writeBindedPresentation(dataDir + "ModifyBuiltinProperties1.pptx");
 ### Πώς μπορώ να έχω πρόσβαση στην τεκμηρίωση για το Aspose.Slides για Java;
 
  Μπορείτε να αποκτήσετε πρόσβαση στην τεκμηρίωση για το Aspose.Slides για Java επισκεπτόμενοι τον ακόλουθο σύνδεσμο:[Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

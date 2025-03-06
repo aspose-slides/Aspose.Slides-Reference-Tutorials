@@ -3,10 +3,16 @@ title: تحويل شريحة معينة إلى PDF في شرائح جافا
 linktitle: تحويل شريحة معينة إلى PDF في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحويل شرائح معينة إلى PDF في Java باستخدام Aspose.Slides for Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية لمطوري Java.
-type: docs
 weight: 20
 url: /ar/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل شريحة معينة إلى PDF في شرائح جافا
+
 
 ## مقدمة لتحويل شريحة معينة إلى PDF في شرائح جافا
 
@@ -107,3 +113,9 @@ finally
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق الخاصة بـ Aspose.Slides لـ Java؟
 
  يمكنك العثور على وثائق شاملة وأمثلة على التعليمات البرمجية في صفحة وثائق Aspose.Slides for Java[هنا](https://reference.aspose.com/slides/java/). استكشف الوثائق لاكتشاف المزيد من الميزات وحالات الاستخدام.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

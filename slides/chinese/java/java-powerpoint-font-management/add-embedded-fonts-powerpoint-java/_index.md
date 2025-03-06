@@ -3,10 +3,16 @@ title: 使用 Java 在 PowerPoint 中添加嵌入字体
 linktitle: 使用 Java 在 PowerPoint 中添加嵌入字体
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Java 和 Aspose.Slides for Java 将嵌入字体添加到 PowerPoint 演示文稿中。确保跨设备显示一致。
-type: docs
 weight: 10
 url: /zh/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 PowerPoint 中添加嵌入字体
+
 ## 介绍
 在本教程中，我们将指导您使用 Java 将嵌入字体添加到 PowerPoint 演示文稿的过程，特别是利用 Aspose.Slides for Java。即使原始字体不可用，嵌入字体也可确保您的演示文稿在不同设备上的显示一致。让我们深入了解这些步骤：
 ## 先决条件
@@ -69,3 +75,9 @@ presentation.save(dataDir + "AddEmbeddedFont_out.pptx", SaveFormat.Pptx);
 Aspose.Slides for Java 支持嵌入 TrueType 字体，涵盖了演示文稿中常用的各种字体。
 ### 我可以使用 Aspose.Slides for Java 以编程方式嵌入字体吗？
 是的，正如本教程中演示的那样，您可以使用 Aspose.Slides for Java API 以编程方式嵌入字体。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

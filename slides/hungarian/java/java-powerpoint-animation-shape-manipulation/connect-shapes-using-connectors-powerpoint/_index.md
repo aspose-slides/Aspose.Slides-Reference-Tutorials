@@ -3,10 +3,16 @@ title: Csatlakoztassa az alakzatokat a PowerPoint csatlakozóival
 linktitle: Csatlakoztassa az alakzatokat a PowerPoint csatlakozóival
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan kapcsolhat össze alakzatokat csatlakozókkal a PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. Lépésről lépésre bemutató kezdőknek.
-type: docs
 weight: 18
 url: /hu/java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-connectors-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Csatlakoztassa az alakzatokat a PowerPoint csatlakozóival
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan kapcsolhatunk össze alakzatokat csatlakozókkal a PowerPoint-prezentációkban az Aspose.Slides for Java segítségével. Kövesse ezeket a lépésenkénti utasításokat az alakzatok hatékony összekapcsolásához és látványos diák létrehozásához.
 ## Előfeltételek
@@ -82,3 +88,9 @@ Igen, több alakzatot is csatlakoztathat az Aspose.Slides for Java által biztos
 Az Aspose.Slides for Java segítségével természetesen egyszerűen hozzáadhat szöveget az alakzatokhoz és a csatlakozókhoz programozottan.
 ### Elérhető közösségi fórum vagy támogatási csatorna az Aspose.Slides for Java felhasználók számára?
  Igen, az Aspose.Slides fórumon hasznos forrásokat találhat, kérdéseket tehet fel, és kapcsolatba léphet más felhasználókkal[itt](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

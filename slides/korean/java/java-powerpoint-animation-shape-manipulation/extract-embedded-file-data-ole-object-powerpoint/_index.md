@@ -3,10 +3,16 @@ title: PowerPoint의 OLE 개체에서 포함된 파일 데이터 추출
 linktitle: PowerPoint의 OLE 개체에서 포함된 파일 데이터 추출
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 포함된 파일 데이터를 추출하고 문서 관리 기능을 향상시키는 방법을 알아보세요.
-type: docs
 weight: 22
 url: /ko/java/java-powerpoint-animation-shape-manipulation/extract-embedded-file-data-ole-object-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint의 OLE 개체에서 포함된 파일 데이터 추출
+
 
 ## 소개
 Java 프로그래밍 영역에서 PowerPoint 프레젠테이션 내의 OLE(Object Linking and Embedding) 개체에서 포함된 파일 데이터를 추출하는 작업은 특히 문서 관리 또는 데이터 추출 응용 프로그램에서 자주 발생하는 작업입니다. Aspose.Slides for Java는 프로그래밍 방식으로 PowerPoint 프레젠테이션을 처리하기 위한 강력한 솔루션을 제공합니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 OLE 개체에서 포함된 파일 데이터를 추출하는 방법을 살펴보겠습니다.
@@ -87,3 +93,9 @@ Aspose.Slides는 OLE 개체, 차트 등을 포함한 다양한 내장 개체에�
 물론, Aspose.Slides는 내장된 파일 데이터 추출과 같은 작업을 자동화하기 위한 포괄적인 API를 제공하여 효율적이고 간소화된 문서 처리를 가능하게 합니다.
 ### Aspose.Slides에 대한 추가 지원이나 지원은 어디서 찾을 수 있나요?
  문의 사항, 기술 지원 또는 커뮤니티 지원이 필요한 경우 Aspose.슬라이드 포럼을 방문하거나 설명서를 참조하세요.[Aspose.Slides](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

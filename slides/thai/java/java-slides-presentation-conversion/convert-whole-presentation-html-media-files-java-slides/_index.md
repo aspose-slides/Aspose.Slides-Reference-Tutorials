@@ -3,10 +3,16 @@ title: แปลงการนำเสนอทั้งหมดเป็น 
 linktitle: แปลงการนำเสนอทั้งหมดเป็น HTML ด้วยไฟล์มีเดียใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีแปลงงานนำเสนอเป็น HTML ด้วยไฟล์สื่อโดยใช้ Java Slides ทำตามคำแนะนำทีละขั้นตอนของเราด้วย Aspose.Slides สำหรับ Java API
-type: docs
 weight: 30
 url: /th/java/presentation-conversion/convert-whole-presentation-html-media-files-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แปลงการนำเสนอทั้งหมดเป็น HTML ด้วยไฟล์มีเดียใน Java Slides
+
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการแปลงงานนำเสนอทั้งหมดเป็น HTML ด้วยไฟล์มีเดียใน Java Slides
 
@@ -125,3 +131,9 @@ finally
 ### ฉันจะเข้าถึงงานนำเสนอ HTML ที่แปลงแล้วได้อย่างไร
 
  เมื่อคุณแปลงเสร็จแล้ว คุณสามารถเข้าถึงการนำเสนอ HTML ได้โดยค้นหาไฟล์ที่ระบุใน`htmlDocumentFileName` ตัวแปร.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

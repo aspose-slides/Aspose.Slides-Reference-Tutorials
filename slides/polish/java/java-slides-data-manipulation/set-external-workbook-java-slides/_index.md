@@ -3,10 +3,16 @@ title: Ustaw skoroszyt zewnętrzny w slajdach Java
 linktitle: Ustaw skoroszyt zewnętrzny w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak ustawić zewnętrzne skoroszyty w Java Slides przy użyciu Aspose.Slides dla Java. Twórz dynamiczne prezentacje dzięki integracji danych Excel.
-type: docs
 weight: 19
 url: /pl/java/data-manipulation/set-external-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustaw skoroszyt zewnętrzny w slajdach Java
+
 
 ## Wprowadzenie do ustawiania skoroszytu zewnętrznego w slajdach Java
 
@@ -119,3 +125,9 @@ Aspose.Slides dla Java jest regularnie aktualizowany, aby zapewnić kompatybilno
 ### Czy mogę dodać wiele wykresów odwołujących się do tego samego zewnętrznego skoroszytu?
 
 Tak, możesz dodać do prezentacji wiele wykresów, a wszystkie odwołują się do tego samego zewnętrznego skoroszytu. Po prostu powtórz kroki opisane w tym samouczku dla każdego wykresu, który chcesz utworzyć.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

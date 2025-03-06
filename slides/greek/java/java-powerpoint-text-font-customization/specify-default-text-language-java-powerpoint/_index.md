@@ -3,10 +3,16 @@ title: Καθορίστε την προεπιλεγμένη γλώσσα κει�
 linktitle: Καθορίστε την προεπιλεγμένη γλώσσα κειμένου στο Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσδιορίζετε την προεπιλεγμένη γλώσσα κειμένου στο Java PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Ιδανικό για προγραμματιστές που αναζητούν τοπική προσαρμογή κειμένου μέσω προγραμματισμού.
-type: docs
 weight: 21
 url: /el/java/java-powerpoint-text-font-customization/specify-default-text-language-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Καθορίστε την προεπιλεγμένη γλώσσα κειμένου στο Java PowerPoint
+
 ## Εισαγωγή
 Στον τομέα της ανάπτυξης εφαρμογών Java, η διαχείριση και ο χειρισμός των παρουσιάσεων του PowerPoint μέσω προγραμματισμού είναι μια κοινή απαίτηση. Το Aspose.Slides για Java προσφέρει ένα ισχυρό σύνολο λειτουργιών που επιτρέπουν στους προγραμματιστές να δημιουργούν, να τροποποιούν και να βελτιώνουν τις παρουσιάσεις του PowerPoint απρόσκοπτα μέσω κώδικα Java. Αυτό το σεμινάριο στοχεύει να σας καθοδηγήσει στα βασικά βήματα για τον καθορισμό της προεπιλεγμένης γλώσσας κειμένου σε μια παρουσίαση Java PowerPoint χρησιμοποιώντας το Aspose.Slides.
 ## Προαπαιτούμενα
@@ -66,3 +72,9 @@ finally {
 Ναι, το Aspose.Slides για Java παρέχει API που υποστηρίζουν την ενοποίηση με δημοφιλείς πλατφόρμες cloud.
 ### Μπορώ να αξιολογήσω το Aspose.Slides για Java πριν το αγοράσω;
  Ναι, μπορείτε να αποκτήσετε μια δωρεάν δοκιμή του Aspose.Slides για Java από[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

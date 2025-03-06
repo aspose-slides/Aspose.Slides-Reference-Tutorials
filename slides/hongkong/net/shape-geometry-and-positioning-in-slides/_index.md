@@ -3,10 +3,16 @@ title: 使用 Aspose.Slides 在投影片中塑造幾何形狀和定位
 linktitle: 投影片中的形狀幾何和定位
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 透過投影片中的形狀幾何和定位的 Aspose.Slides 教學增強您的投影片操作技能。學習以程式方式控制形狀、尺寸和對齊方式。
-type: docs
 weight: 13
 url: /zh-hant/net/shape-geometry-and-positioning-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Slides 在投影片中塑造幾何形狀和定位
+
 
 ## 介紹
 
@@ -51,3 +57,9 @@ url: /zh-hant/net/shape-geometry-and-positioning-in-slides/
 了解如何使用 Aspose.Slides 透過有效的斜角資料增強簡報投影片。包含逐步說明和範例程式碼的綜合指南。
 ### [使用 Aspose.Slides 隱藏簡報投影片中的形狀](./hiding-shapes/)
 了解如何使用 Aspose.Slides for .NET 隱藏簡報投影片中的形狀。包含原始碼、常見問題和動態演示最佳實踐的逐步指南。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 使用 Java 在 PowerPoint 中旋轉文本
 linktitle: 使用 Java 在 PowerPoint 中旋轉文本
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Java 和 Aspose.Slides 在 PowerPoint 中旋轉文字。適合初學者到進階使用者的逐步教學。
-type: docs
 weight: 10
 url: /zh-hant/java/java-powerpoint-text-font-customization/rotate-text-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 PowerPoint 中旋轉文本
+
 ## 介紹
 在本教程中，我們將探討如何使用 Java 和 Aspose.Slides 以程式設計方式旋轉 PowerPoint 簡報中的文字。在設計幻燈片以創建具有視覺吸引力的簡報時，旋轉文字可能是有用的功能。
 ## 先決條件
@@ -75,3 +81,9 @@ presentation.save(dataDir + "RotateText_out.pptx", SaveFormat.Pptx);
 如需詳細文檔，請訪問[Aspose.Slides Java 文檔](https://reference.aspose.com/slides/java/)。您也可以透過以下方式獲得社區的支持：[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11).
 ### 如何獲得 Aspose.Slides 的臨時許可證？
 您可以從以下地址取得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/)不受限制地評估 Aspose.Slides。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

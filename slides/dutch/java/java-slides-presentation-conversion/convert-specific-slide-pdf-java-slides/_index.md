@@ -3,10 +3,16 @@ title: Converteer specifieke dia naar PDF in Java-dia's
 linktitle: Converteer specifieke dia naar PDF in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u specifieke dia's naar PDF converteert in Java met behulp van Aspose.Slides voor Java. Stapsgewijze handleiding met codevoorbeelden voor Java-ontwikkelaars.
-type: docs
 weight: 20
 url: /nl/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Converteer specifieke dia naar PDF in Java-dia's
+
 
 ## Inleiding tot het converteren van specifieke dia's naar PDF in Java-dia's
 
@@ -107,3 +113,9 @@ kunt het uiterlijk van de geconverteerde PDF aanpassen door de dia-inhoud in uw 
 ### Waar kan ik meer voorbeelden en documentatie vinden voor Aspose.Slides voor Java?
 
  Uitgebreide documentatie en codevoorbeelden vindt u op de Aspose.Slides voor Java-documentatiepagina[hier](https://reference.aspose.com/slides/java/). Verken de documentatie om meer functies en gebruiksscenario's te ontdekken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

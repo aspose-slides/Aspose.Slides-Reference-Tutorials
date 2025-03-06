@@ -3,10 +3,16 @@ title: الوصول إلى تعديل الخصائص في شرائح Java
 linktitle: الوصول إلى تعديل الخصائص في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية الوصول إلى الخصائص وتعديلها في Java Slides باستخدام Aspose.Slides لـ Java. تعزيز العروض التقديمية الخاصة بك مع الخصائص المخصصة.
-type: docs
 weight: 11
 url: /ar/java/presentation-properties/access-modifying-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الوصول إلى تعديل الخصائص في شرائح Java
+
 
 ## مقدمة للوصول إلى خصائص التعديل في شرائح Java
 
@@ -117,3 +123,9 @@ Aspose.Slides for Java هي مكتبة تجارية، ولكن يمكنك است
 ### أين يمكنني العثور على المزيد من الوثائق والأمثلة؟
 
  يمكنك العثور على وثائق شاملة وأمثلة التعليمات البرمجية لـ Aspose.Slides for Java على[هنا](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

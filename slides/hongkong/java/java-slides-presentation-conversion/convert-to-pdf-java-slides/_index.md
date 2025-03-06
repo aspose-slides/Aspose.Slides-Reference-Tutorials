@@ -3,10 +3,16 @@ title: 在 Java 幻燈片中轉換為 PDF
 linktitle: 在 Java 幻燈片中轉換為 PDF
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 將 PowerPoint 簡報轉換為 Java 中的 PDF。請依照我們的逐步指南（包含原始碼和常見問題）實現 PowerPoint 到 PDF 的無縫轉換。
-type: docs
 weight: 25
 url: /zh-hant/java/presentation-conversion/convert-to-pdf-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 幻燈片中轉換為 PDF
+
 
 ## 使用 Aspose.Slides for Java 在 Java 中將 PowerPoint 簡報轉換為 PDF 的簡介
 
@@ -113,3 +119,9 @@ catch (Exception ex)
     ex.printStackTrace();
 }
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Λάβετε συντεταγμένες μερίδας θέσης σε δ
 linktitle: Λάβετε συντεταγμένες μερίδας θέσης σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε να ανακτάτε συντεταγμένες τμημάτων κειμένου σε διαφάνειες Java χρησιμοποιώντας το Aspose.Slides for Java API. Αποκτήστε ακριβή έλεγχο της τοποθέτησης κειμένου σε παρουσιάσεις PowerPoint.
-type: docs
 weight: 12
 url: /el/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Λάβετε συντεταγμένες μερίδας θέσης σε διαφάνειες Java
+
 
 ## Εισαγωγή στη λήψη συντεταγμένων μερίδας θέσης σε διαφάνειες Java
 
@@ -120,3 +126,9 @@ finally
 ### Πώς μπορώ να λάβω περαιτέρω υποστήριξη ή βοήθεια με το Aspose.Slides για Java;
 
 Μπορείτε να αποκτήσετε πρόσβαση σε πρόσθετη υποστήριξη και πόρους στον ιστότοπο Aspose. Παρέχουν φόρουμ, τεκμηρίωση και επιλογές υποστήριξης premium για τους χρήστες.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

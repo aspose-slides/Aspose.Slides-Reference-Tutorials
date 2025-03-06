@@ -3,10 +3,16 @@ title: Allinea verticalmente il testo in Java PowerPoint
 linktitle: Allinea verticalmente il testo in Java PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come allineare verticalmente il testo nelle presentazioni Java PowerPoint utilizzando Aspose.Slides per una formattazione perfetta delle diapositive.
-type: docs
 weight: 10
 url: /it/java/java-powerpoint-text-alignment-formatting/vertically-align-text-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Allinea verticalmente il testo in Java PowerPoint
+
 ## introduzione
 In questo tutorial imparerai come allineare verticalmente il testo all'interno delle celle della tabella in una presentazione di PowerPoint utilizzando Aspose.Slides per Java. L'allineamento verticale del testo è un aspetto cruciale della progettazione delle diapositive, poiché garantisce che i tuoi contenuti siano presentati in modo ordinato e professionale. Aspose.Slides fornisce potenti funzionalità per manipolare e formattare le presentazioni in modo programmatico, dandoti il pieno controllo su ogni aspetto delle tue diapositive.
 ## Prerequisiti
@@ -91,3 +97,9 @@ Aspose.Slides supporta la generazione di presentazioni compatibili con tutte le 
  Visitare il[Documentazione Aspose.Slides](https://reference.aspose.com/slides/java/) per guide complete, riferimenti API ed esempi di codice.
 ### Come posso ottenere supporto per Aspose.Slides?
  Per assistenza tecnica e supporto comunitario, visitare il[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

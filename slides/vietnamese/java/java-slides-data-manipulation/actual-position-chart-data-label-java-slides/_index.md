@@ -3,10 +3,16 @@ title: Nhận vị trí thực tế của nhãn dữ liệu biểu đồ trong c
 linktitle: Nhận vị trí thực tế của nhãn dữ liệu biểu đồ trong các trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách lấy vị trí thực tế của nhãn dữ liệu biểu đồ trong Java Slides bằng Aspose.Slides for Java. Hướng dẫn từng bước với mã nguồn.
-type: docs
 weight: 18
 url: /vi/java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhận vị trí thực tế của nhãn dữ liệu biểu đồ trong các trang trình bày Java
+
 
 ## Giới thiệu Cách lấy vị trí thực tế của nhãn dữ liệu biểu đồ trong Java Slides
 
@@ -157,3 +163,9 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java PowerPoint-textmarkering och reservregler
 linktitle: Java PowerPoint-textmarkering och reservregler
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Bemästra textmarkering och reservregler för teckensnitt i Java PowerPoint med Aspose.Slides. Följ våra tutorials för att förbättra och automatisera dina presentationer sömlöst.
-type: docs
 weight: 25
 url: /sv/java/java-powerpoint-text-highlighting-fallback-rules/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint-textmarkering och reservregler
+
 
 ## Introduktion
 
@@ -26,3 +32,9 @@ Genom att följa dessa handledningar kommer du att vara väl rustad att förbät
 Lär dig hur du markerar text i PowerPoint med Aspose.Slides för Java. Automatisera och förbättra presentationer utan ansträngning med vår detaljerade guide.
 ### [Reservreglersamling i Java PowerPoint](./fallback-rules-collection-java-powerpoint/)
 Lär dig hur du hanterar reservregler för teckensnitt i PowerPoint-presentationer med Aspose.Slides för Java. Förbättra kompatibiliteten mellan enheter utan ansträngning.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Krijg rechthoekige coördinaten van alinea's in Java-dia's
 linktitle: Krijg rechthoekige coördinaten van alinea's in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u alineacoördinaten kunt ophalen in PowerPoint-presentaties met Aspose.Slides voor Java. Volg onze stapsgewijze handleiding met broncode voor nauwkeurige positionering.
-type: docs
 weight: 13
 url: /nl/java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Krijg rechthoekige coördinaten van alinea's in Java-dia's
+
 
 ## Inleiding tot het ophalen van rechthoekige coördinaten van een alinea in Aspose.Slides voor Java
 
@@ -112,3 +118,9 @@ Ja, Aspose.Slides voor Java is zeer geschikt voor batchverwerking van PowerPoint
 ### Heb ik een licentie nodig om Aspose.Slides voor Java te gebruiken?
 
 Ja, u hebt doorgaans een geldige licentie nodig om Aspose.Slides voor Java in een productieomgeving te gebruiken. U kunt een licentie verkrijgen via de Aspose-website. Ze kunnen echter een proefversie aanbieden voor test- en evaluatiedoeleinden.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

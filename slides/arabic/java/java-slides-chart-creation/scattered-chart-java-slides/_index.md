@@ -3,10 +3,16 @@ title: مخطط متفرق في شرائح جافا
 linktitle: مخطط متفرق في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء مخططات مبعثرة في Java باستخدام Aspose.Slides. دليل خطوة بخطوة مع كود مصدر Java لتصور البيانات في العروض التقديمية.
-type: docs
 weight: 11
 url: /ar/java/chart-creation/scattered-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مخطط متفرق في شرائح جافا
+
 
 ## مقدمة إلى المخططات المتفرقة في Aspose.Slides لـ Java
 
@@ -172,3 +178,9 @@ series.getMarker().setSymbol(MarkerStyleType.Circle);
 لا تتردد في استكشاف المزيد من خيارات التخصيص في وثائق Aspose.Slides لـ Java.
 
  تذكر أن تحل محل`"Your Document Directory"` بالمسار الفعلي الذي تريد حفظ العرض التقديمي فيه.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

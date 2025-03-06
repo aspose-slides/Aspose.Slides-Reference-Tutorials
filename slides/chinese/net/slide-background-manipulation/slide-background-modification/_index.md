@@ -3,10 +3,16 @@ title: Aspose.Slides 中的幻灯片背景修改
 linktitle: Aspose.Slides 中的幻灯片背景修改
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 自定义幻灯片背景。使用视觉上吸引人的背景提升您的演示文稿。立即开始！
-type: docs
 weight: 10
 url: /zh/net/slide-background-manipulation/slide-background-modification/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides 中的幻灯片背景修改
+
 
 在创建视觉上引人入胜的演示文稿时，背景起着至关重要的作用。Aspose.Slides for .NET 使您能够轻松自定义幻灯片背景。在本教程中，我们将探讨如何使用 Aspose.Slides for .NET 修改幻灯片背景。 
 
@@ -123,3 +129,10 @@ pres.Save(outPptxFile + "ContentBG_out.pptx", SaveFormat.Pptx);
 ### 5. 我可以为演示文稿中的多张幻灯片自定义幻灯片背景吗？
 
 是的，您可以使用 Aspose.Slides for .NET 修改演示文稿中任何幻灯片的背景。只需定位您想要自定义的幻灯片并按照本教程中概述的相同步骤进行即可。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

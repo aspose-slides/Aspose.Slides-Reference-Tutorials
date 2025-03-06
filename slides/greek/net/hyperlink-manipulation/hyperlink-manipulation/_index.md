@@ -3,10 +3,16 @@ title: Χειρισμός υπερσύνδεσης στο Aspose.Slides
 linktitle: Χειρισμός υπερσύνδεσης στο Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να προσθέτετε και να αφαιρείτε υπερσυνδέσμους στο Aspose.Slides για .NET. Βελτιώστε τις παρουσιάσεις σας με διαδραστικούς συνδέσμους εύκολα.
-type: docs
 weight: 10
 url: /el/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Χειρισμός υπερσύνδεσης στο Aspose.Slides
+
 
 Οι υπερσύνδεσμοι είναι απαραίτητα στοιχεία στις παρουσιάσεις, καθώς παρέχουν έναν βολικό τρόπο πλοήγησης μεταξύ διαφανειών ή πρόσβασης σε εξωτερικούς πόρους. Το Aspose.Slides for .NET προσφέρει ισχυρές δυνατότητες για την προσθήκη και την αφαίρεση υπερσυνδέσμων στις διαφάνειες της παρουσίασής σας. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία χειρισμού υπερσυνδέσμων χρησιμοποιώντας το Aspose.Slides για .NET. Θα καλύψουμε την προσθήκη υπερσυνδέσμων σε μια διαφάνεια και την αφαίρεση υπερσυνδέσμων από μια διαφάνεια. Λοιπόν, ας βουτήξουμε!
 
@@ -121,3 +127,9 @@ presentation.Save(dataDir + "RemovedHyperlink_out.pptx", SaveFormat.Pptx);
 
 ### Πώς μπορώ να αποκτήσω μια προσωρινή άδεια για το Aspose.Slides;
  Εάν χρειάζεστε μια προσωρινή άδεια για το Aspose.Slides, μπορείτε να αποκτήσετε μια[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

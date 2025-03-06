@@ -3,10 +3,16 @@ title: Default Markers in Chart in Java Slides
 linktitle: Default Markers in Chart in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to create Java Slides with default markers in charts using Aspose.Slides for Java. Step-by-step guide with source code.
-type: docs
 weight: 16
 url: /java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Default Markers in Chart in Java Slides
+
 
 ## Introduction to Default Markers in Chart in Java Slides
 
@@ -142,3 +148,10 @@ To modify the chart's colors, you can use the `IChartSeriesFormat` and `IShapeFi
 ### Can I add labels to the data points?
 
 Yes, you can add labels to data points using the `IDataPoint.getLabel()` method and customize them as needed.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

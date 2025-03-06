@@ -3,10 +3,16 @@ title: 使用 Java 在 PowerPoint 中加载外部字体
 linktitle: 使用 Java 在 PowerPoint 中加载外部字体
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中加载自定义字体。使用独特的字体增强您的幻灯片效果。
-type: docs
 weight: 10
 url: /zh/java/java-powerpoint-font-management-text-replacement/load-external-font-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 在 PowerPoint 中加载外部字体
+
 ## 介绍
 在本教程中，我们将指导您使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中加载外部字体的过程。自定义字体可以为您的演示文稿增添独特的风格，确保在各个平台上保持一致的品牌或风格偏好。
 ## 先决条件
@@ -63,3 +69,9 @@ Aspose.Slides for Java 目前仅支持加载 TrueType (.ttf) 字体。
 只要字体文件是 TrueType (.ttf) 格式且在合理的大小限制内，您就能够成功加载它。
 ### 加载外部字体是否会影响演示文稿与不同 PowerPoint 版本的兼容性？
 不是，只要嵌入或外部加载字体，演示文稿就可以与不同版本的 PowerPoint 兼容。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

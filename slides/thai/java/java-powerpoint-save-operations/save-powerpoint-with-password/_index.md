@@ -3,10 +3,16 @@ title: บันทึก PowerPoint ด้วยรหัสผ่าน
 linktitle: บันทึก PowerPoint ด้วยรหัสผ่าน
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีเพิ่มการป้องกันด้วยรหัสผ่านให้กับงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java รักษาความปลอดภัยสไลด์ของคุณอย่างง่ายดาย
-type: docs
 weight: 12
 url: /th/java/java-powerpoint-save-operations/save-powerpoint-with-password/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# บันทึก PowerPoint ด้วยรหัสผ่าน
+
 ## การแนะนำ
 ในบทช่วยสอนนี้ เราจะแนะนำคุณตลอดขั้นตอนการบันทึกงานนำเสนอ PowerPoint ด้วยรหัสผ่านโดยใช้ Aspose.Slides สำหรับ Java การเพิ่มรหัสผ่านให้กับงานนำเสนอของคุณสามารถเพิ่มความปลอดภัยได้ ทำให้มั่นใจได้ว่าเฉพาะบุคคลที่ได้รับอนุญาตเท่านั้นที่สามารถเข้าถึงเนื้อหาได้
 ## ข้อกำหนดเบื้องต้น
@@ -67,3 +73,9 @@ Aspose.Slides รองรับรูปแบบ PowerPoint ที่หลา
  ใช่ คุณสามารถดาวน์โหลดรุ่นทดลองใช้ฟรีได้จาก Aspose[เว็บไซต์](https://releases.aspose.com/).
 ### ฉันจะรับการสนับสนุนทางเทคนิคสำหรับ Aspose.Slides ได้อย่างไร
 คุณสามารถเยี่ยมชมฟอรัม Aspose.Slides เพื่อขอความช่วยเหลือทางเทคนิคจากชุมชนและเจ้าหน้าที่สนับสนุน Aspose
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

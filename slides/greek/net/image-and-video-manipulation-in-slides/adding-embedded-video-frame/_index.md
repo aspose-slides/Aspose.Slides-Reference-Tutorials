@@ -3,10 +3,16 @@ title: Aspose.Slides - Προσθήκη ενσωματωμένων βίντεο 
 linktitle: Aspose.Slides - Προσθήκη ενσωματωμένων βίντεο σε παρουσιάσεις .NET
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Βελτιώστε τις παρουσιάσεις σας με ενσωματωμένα βίντεο χρησιμοποιώντας το Aspose.Slides για .NET. Ακολουθήστε τον βήμα προς βήμα οδηγό μας για απρόσκοπτη ενσωμάτωση.
-type: docs
 weight: 19
 url: /el/net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides - Προσθήκη ενσωματωμένων βίντεο σε παρουσιάσεις .NET
+
 ## Εισαγωγή
 Στον δυναμικό κόσμο των παρουσιάσεων, η ενσωμάτωση στοιχείων πολυμέσων μπορεί να βελτιώσει σημαντικά την αφοσίωση. Το Aspose.Slides for .NET παρέχει μια ισχυρή λύση για την ενσωμάτωση ενσωματωμένων πλαισίων βίντεο στις διαφάνειες της παρουσίασής σας. Αυτό το σεμινάριο θα σας καθοδηγήσει στη διαδικασία, αναλύοντας κάθε βήμα για να εξασφαλίσετε μια απρόσκοπτη εμπειρία.
 ## Προαπαιτούμενα
@@ -75,3 +81,9 @@ pres.Save(resultPath, SaveFormat.Pptx);
 Ο αριθμός των ενσωματωμένων βίντεο περιορίζεται συνήθως από τη χωρητικότητα του λογισμικού παρουσίασής σας.
 ### Πώς μπορώ να αναζητήσω περαιτέρω βοήθεια ή να μοιραστώ την εμπειρία μου;
  Επισκέψου το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για κοινοτική υποστήριξη και συζητήσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

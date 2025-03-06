@@ -3,10 +3,16 @@ title: Access Built-in Properties in PowerPoint
 linktitle: Access Built-in Properties in PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to access built-in properties in PowerPoint using Aspose.Slides for Java. This tutorial guides you through retrieving author, creation date, and more.
-type: docs
 weight: 10
 url: /java/java-powerpoint-properties-management/access-built-in-properties-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Access Built-in Properties in PowerPoint
+
 ## Introduction
 In this tutorial, we'll explore how to access built-in properties in PowerPoint presentations using Aspose.Slides for Java. Aspose.Slides is a powerful library that allows Java developers to work with PowerPoint presentations programmatically, enabling tasks such as reading and modifying properties seamlessly.
 ## Prerequisites
@@ -101,3 +107,10 @@ Yes, besides built-in properties, you can also retrieve and modify custom proper
 Yes, you can find comprehensive documentation and access support forums on the [Aspose website](https://reference.aspose.com/slides/java/).
 ### Is there a trial version available for Aspose.Slides for Java?
 Yes, you can download a free trial version from [here](https://releases.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

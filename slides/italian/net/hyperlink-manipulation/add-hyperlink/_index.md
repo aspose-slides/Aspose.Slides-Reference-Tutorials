@@ -3,10 +3,16 @@ title: Aggiunta di collegamenti ipertestuali alle diapositive in .NET utilizzand
 linktitle: Aggiungi collegamento ipertestuale alla diapositiva
 second_title: API di elaborazione di PowerPoint .NET Aspose.Slides
 description: Scopri come aggiungere collegamenti ipertestuali alle diapositive di PowerPoint con Aspose.Slides per .NET. Migliora le tue presentazioni con elementi interattivi.
-type: docs
 weight: 12
 url: /it/net/hyperlink-manipulation/add-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiunta di collegamenti ipertestuali alle diapositive in .NET utilizzando Aspose.Slides
+
 
 Nel mondo delle presentazioni digitali, l’interattività è fondamentale. L'aggiunta di collegamenti ipertestuali alle diapositive può rendere la presentazione più coinvolgente e informativa. Aspose.Slides per .NET è una potente libreria che ti consente di creare, modificare e manipolare presentazioni PowerPoint a livello di codice. In questo tutorial, ti mostreremo come aggiungere collegamenti ipertestuali alle tue diapositive utilizzando Aspose.Slides per .NET. 
 
@@ -106,3 +112,9 @@ Aspose.Slides offre una vasta gamma di funzionalità interattive, inclusi pulsan
 ### 5. Aspose.Slides è disponibile per altri linguaggi di programmazione?
 
 Sì, Aspose.Slides è disponibile per vari linguaggi di programmazione, inclusi Java e Python.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

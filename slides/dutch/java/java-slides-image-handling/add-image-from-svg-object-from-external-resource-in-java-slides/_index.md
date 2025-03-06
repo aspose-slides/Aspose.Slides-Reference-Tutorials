@@ -3,10 +3,16 @@ title: Voeg een afbeelding toe van een SVG-object van een externe bron in Java-d
 linktitle: Voeg een afbeelding toe van een SVG-object van een externe bron in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u op vectoren gebaseerde SVG-afbeeldingen uit externe bronnen aan Java-dia's kunt toevoegen met Aspose.Slides. Maak verbluffende presentaties met hoogwaardige beelden.
-type: docs
 weight: 12
 url: /nl/java/image-handling/add-image-from-svg-object-from-external-resource-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Voeg een afbeelding toe van een SVG-object van een externe bron in Java-dia's
+
 
 ## Inleiding tot het toevoegen van een afbeelding uit een SVG-object uit een externe bron in Java-dia's
 
@@ -118,3 +124,9 @@ Ja, Aspose.Slides voor Java is compatibel met de nieuwste Java-versies. Zorg erv
 ### Kan ik animaties toepassen op SVG-afbeeldingen die aan dia's zijn toegevoegd?
 
 Ja, u kunt animaties toepassen op SVG-afbeeldingen in uw dia's met Aspose.Slides om dynamische presentaties te maken.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

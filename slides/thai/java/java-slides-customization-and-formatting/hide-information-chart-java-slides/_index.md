@@ -3,10 +3,16 @@ title: ซ่อนข้อมูลจากแผนภูมิใน Java S
 linktitle: ซ่อนข้อมูลจากแผนภูมิใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีซ่อนองค์ประกอบแผนภูมิใน Java Slides ด้วย Aspose.Slides สำหรับ Java ปรับแต่งการนำเสนอเพื่อความชัดเจนและความสวยงามด้วยคำแนะนำทีละขั้นตอนและซอร์สโค้ด
-type: docs
 weight: 13
 url: /th/java/customization-and-formatting/hide-information-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ซ่อนข้อมูลจากแผนภูมิใน Java Slides
+
 
 ## รู้เบื้องต้นเกี่ยวกับการซ่อนข้อมูลจากแผนภูมิใน Java Slides
 
@@ -172,3 +178,9 @@ finally
 ### ฉันจะเปลี่ยนชื่อแผนภูมิและป้ายกำกับแกนโดยทางโปรแกรมได้อย่างไร
 
 คุณสามารถตั้งชื่อและป้ายกำกับของแผนภูมิและแกนได้โดยเข้าไปที่คุณสมบัติที่เกี่ยวข้องและตั้งค่าข้อความและการจัดรูปแบบที่ต้องการ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

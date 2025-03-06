@@ -3,10 +3,16 @@ title: Προσδιορίστε συγχωνευμένα κελιά στον π�
 linktitle: Προσδιορίστε συγχωνευμένα κελιά στον πίνακα PowerPoint χρησιμοποιώντας Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να αναγνωρίζετε τα συγχωνευμένα κελιά σε πίνακες PowerPoint μέσω προγραμματισμού χρησιμοποιώντας το Aspose.Slides για Java. Ιδανικό για προγραμματιστές Java.
-type: docs
 weight: 15
 url: /el/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Προσδιορίστε συγχωνευμένα κελιά στον πίνακα PowerPoint χρησιμοποιώντας Java
+
 ## Εισαγωγή
 Στον τομέα της ανάπτυξης Java, ο προγραμματισμός των παρουσιάσεων του PowerPoint μπορεί να είναι μια κρίσιμη εργασία, ειδικά όταν αντιμετωπίζουμε πολύπλοκους πίνακες δεδομένων. Το Aspose.Slides για Java παρέχει μια ισχυρή εργαλειοθήκη που επιτρέπει στους προγραμματιστές να διαχειρίζονται απρόσκοπτα διάφορες πτυχές των παρουσιάσεων του PowerPoint. Μια κοινή πρόκληση που αντιμετωπίζουν οι προγραμματιστές είναι ο εντοπισμός συγχωνευμένων κελιών σε πίνακες που είναι ενσωματωμένοι σε παρουσιάσεις. Αυτό το σεμινάριο στοχεύει να σας καθοδηγήσει στη διαδικασία αναγνώρισης συγχωνευμένων κελιών χρησιμοποιώντας το Aspose.Slides για Java.
 ## Προαπαιτούμενα
@@ -67,3 +73,9 @@ try {
  Μπορείτε να βρείτε την τεκμηρίωση[εδώ](https://reference.aspose.com/slides/java/).
 ### Πώς μπορώ να λάβω υποστήριξη για το Aspose.Slides για Java;
 Για υποστήριξη, επισκεφθείτε το φόρουμ Aspose.Slides[εδώ](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

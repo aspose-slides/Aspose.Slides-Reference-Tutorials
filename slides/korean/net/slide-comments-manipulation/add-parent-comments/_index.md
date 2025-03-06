@@ -3,10 +3,16 @@ title: Aspose.Slides를 사용하여 슬라이드에 상위 댓글 추가
 linktitle: 슬라이드에 상위 댓글 추가
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 PowerPoint 프레젠테이션에 대화형 댓글과 응답을 추가하는 방법을 알아보세요. 참여와 협업을 강화하세요.
-type: docs
 weight: 12
 url: /ko/net/slide-comments-manipulation/add-parent-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides를 사용하여 슬라이드에 상위 댓글 추가
+
 
 대화형 기능으로 PowerPoint 프레젠테이션을 향상시키고 싶으십니까? .NET용 Aspose.Slides를 사용하면 댓글과 답변을 통합하여 청중에게 역동적이고 매력적인 경험을 선사할 수 있습니다. 이 단계별 튜토리얼에서는 Aspose.Slides for .NET을 사용하여 슬라이드에 상위 댓글을 추가하는 방법을 보여줍니다. 이 흥미로운 기능을 자세히 살펴보겠습니다.
 
@@ -160,3 +166,9 @@ Aspose.Slides for .NET은 다양한 PowerPoint 버전에서 작동하도록 설�
 
 ### .NET용 Aspose.Slides에 사용할 수 있는 라이선스 옵션이 있습니까?
  예, Aspose 웹사이트에서 임시 라이선스를 포함한 라이선스 옵션을 탐색할 수 있습니다.[여기](https://purchase.aspose.com/buy) 또는 무료 평가판을 사용해 보세요[여기](https://releases.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

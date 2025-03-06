@@ -3,10 +3,16 @@ title: Catatan Manipulasi Slide menggunakan Aspose.Slides
 linktitle: Catatan Manipulasi Slide menggunakan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengelola header dan footer di slide PowerPoint dengan Aspose.Slides untuk .NET. Hapus catatan dan sesuaikan presentasi Anda dengan mudah.
-type: docs
 weight: 10
 url: /id/net/notes-slide-manipulation/notes-slide-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Catatan Manipulasi Slide menggunakan Aspose.Slides
+
 
 Di era digital saat ini, membuat presentasi yang menarik adalah keterampilan yang penting. Aspose.Slides for .NET adalah alat canggih yang memungkinkan Anda memanipulasi dan menyesuaikan slide presentasi Anda dengan mudah. Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui beberapa tugas penting menggunakan Aspose.Slides untuk .NET. Kami akan membahas cara mengelola header dan footer di slide catatan, menghapus catatan di slide tertentu, dan menghapus catatan dari semua slide.
 
@@ -165,3 +171,10 @@ Aspose.Slides untuk .NET memberdayakan Anda untuk mengambil kendali penuh atas p
 ### Bisakah saya memanipulasi aspek lain dari presentasi PowerPoint dengan Aspose.Slides untuk .NET?
 
 Ya, Aspose.Slides untuk .NET menawarkan berbagai fitur untuk manipulasi presentasi PowerPoint, termasuk slide, bentuk, teks, dan banyak lagi. Jelajahi dokumentasi untuk detailnya.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java 슬라이드에서 반전 채우기 색상 차트 설정
 linktitle: Java 슬라이드에서 반전 채우기 색상 차트 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java 슬라이드 차트의 채우기 색상 반전을 설정하는 방법을 알아보세요. 이 단계별 가이드와 소스 코드를 사용하여 차트 시각화를 강화하세요.
-type: docs
 weight: 22
 url: /ko/java/data-manipulation/set-invert-fill-color-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 슬라이드에서 반전 채우기 색상 차트 설정
+
 
 ## Java 슬라이드에서 반전 채우기 색상 차트 설정 소개
 
@@ -153,3 +159,9 @@ if (pres != null) pres.dispose();
 ### 차트를 다른 형식으로 저장할 수 있나요?
 
  예, Aspose.Slides for Java를 사용하여 다양한 형식으로 차트를 저장할 수 있습니다. 제공된 코드 예제에서는 프레젠테이션을 PPTX 파일로 저장했습니다. 당신은 다른 사용할 수 있습니다`SaveFormat` 요구 사항에 따라 PDF, PNG 또는 SVG와 같은 다른 형식으로 저장할 수 있는 옵션이 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

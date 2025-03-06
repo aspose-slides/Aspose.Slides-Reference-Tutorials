@@ -3,10 +3,16 @@ title: إنشاء ملخص التكبير في PowerPoint
 linktitle: إنشاء ملخص التكبير في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء ملخص تكبير في PowerPoint باستخدام Aspose.Slides لـ Java من خلال هذا البرنامج التعليمي الشامل خطوة بخطوة.
-type: docs
 weight: 16
 url: /ar/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء ملخص التكبير في PowerPoint
+
 ## مقدمة
 مرحبًا بك في برنامجنا التعليمي الشامل حول إنشاء تكبير ملخص في PowerPoint باستخدام Aspose.Slides لـ Java. إذا كنت تتطلع إلى إضافة عنصر ديناميكي وتفاعلي إلى عروضك التقديمية، فإن Summary Zoom هي ميزة رائعة. فهو يسمح لك بإنشاء شريحة واحدة يمكنها تكبير أقسام مختلفة من العرض التقديمي الخاص بك، مما يوفر تجربة أكثر جاذبية وقابلية للتنقل لجمهورك.
 في هذا الدليل التفصيلي، سنرشدك خلال العملية بأكملها، بدءًا من إعداد بيئة التطوير الخاصة بك وحتى إنشاء إطار تكبير/تصغير ملخص وتخصيصه. سواء كنت مطور Java متمرسًا أو بدأت للتو، ستجد هذا الدليل سهل المتابعة ومليئًا بالرؤى القيمة.
@@ -107,3 +113,9 @@ Aspose.Slides for Java هي مكتبة قوية تسمح للمطورين بإن
  يمكنك الحصول على ترخيص مؤقت من[Aspose صفحة الشراء](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني العثور على المزيد من الأمثلة والدعم لـ Aspose.Slides لـ Java؟
  يمكنك العثور على المزيد من الأمثلة وطلب الدعم على[منتدى دعم Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

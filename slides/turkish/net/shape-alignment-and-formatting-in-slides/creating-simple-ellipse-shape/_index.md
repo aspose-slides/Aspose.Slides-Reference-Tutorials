@@ -3,10 +3,16 @@ title: Aspose.Slides .NET ile Kolayca Elips Şekli Oluşturun
 linktitle: Aspose.Slides ile Sunum Slaytlarında Basit Elips Şekli Oluşturma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak sunum slaytlarında çarpıcı elips şekillerinin nasıl oluşturulacağını öğrenin. Dinamik tasarım için kolay adımlar!
-type: docs
 weight: 11
 url: /tr/net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides .NET ile Kolayca Elips Şekli Oluşturun
+
 ## giriiş
 Sunum tasarımının dinamik dünyasında, elips gibi şekillerin bir araya getirilmesi, yaratıcılık ve profesyonellik dokunuşu katabilir. Aspose.Slides for .NET, sunum dosyalarını programlı olarak değiştirmek için güçlü bir çözüm sunar. Bu eğitim, Aspose.Slides for .NET'i kullanarak sunum slaytlarında basit bir elips şekli oluşturma sürecinde size rehberlik edecektir.
 ## Önkoşullar
@@ -65,3 +71,9 @@ Evet, Aspose.Slides en yeni .NET çerçeveleriyle uyumluluğun sağlanması içi
  Takip et[geçici lisans bağlantısı](https://purchase.aspose.com/temporary-license/) Test amacıyla geçici bir lisans istemek için.
 ### Yardıma mı ihtiyacınız var veya özel sorularınız mı var?
  Ziyaret edin[Aspose.Slides destek forumu](https://forum.aspose.com/c/slides/11) topluluktan ve uzmanlardan yardım almak.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

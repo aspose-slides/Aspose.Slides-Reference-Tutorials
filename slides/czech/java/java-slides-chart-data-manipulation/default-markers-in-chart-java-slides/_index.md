@@ -3,10 +3,16 @@ title: Výchozí značky v grafu v Java Slides
 linktitle: Výchozí značky v grafu v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet snímky Java s výchozími značkami v grafech pomocí Aspose.Slides for Java. Průvodce krok za krokem se zdrojovým kódem.
-type: docs
 weight: 16
 url: /cs/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Výchozí značky v grafu v Java Slides
+
 
 ## Úvod do výchozích značek v grafu v Java Slides
 
@@ -142,3 +148,9 @@ Symboly značek můžete přizpůsobit nastavením stylu značek pro každý dat
 ### Mohu k datovým bodům přidat štítky?
 
  Ano, k datovým bodům můžete přidávat štítky pomocí`IDataPoint.getLabel()` metodu a upravte je podle potřeby.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

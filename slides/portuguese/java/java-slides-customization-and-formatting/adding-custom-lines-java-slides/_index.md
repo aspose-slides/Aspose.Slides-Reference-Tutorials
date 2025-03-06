@@ -3,10 +3,16 @@ title: Adicionando linhas personalizadas em slides Java
 linktitle: Adicionando linhas personalizadas em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprimore seus slides Java com linhas personalizadas. Guia passo a passo usando Aspose.Slides para Java. Aprenda a adicionar e personalizar linhas em apresentações para obter visuais impactantes.
-type: docs
 weight: 10
 url: /pt/java/customization-and-formatting/adding-custom-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionando linhas personalizadas em slides Java
+
 
 ## Introdução à adição de linhas personalizadas em slides Java
 
@@ -108,3 +114,9 @@ shape.getLineFormat().setWidth(2); // Defina a espessura da linha para 2 pontos
 ### É possível adicionar várias linhas a um slide?
 
 Sim, você pode adicionar várias linhas a um slide repetindo as etapas mencionadas neste tutorial. Cada linha pode ser personalizada de forma independente.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

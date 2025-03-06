@@ -3,10 +3,16 @@ title: Stel de hoek van de verbindingslijn in PowerPoint in
 linktitle: Stel de hoek van de verbindingslijn in PowerPoint in
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u de hoeken van verbindingslijnen instelt in PowerPoint-presentaties met Aspose.Slides voor Java. Pas uw dia's nauwkeurig aan.
-type: docs
 weight: 17
 url: /nl/java/java-powerpoint-animation-shape-manipulation/set-connector-line-angle-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stel de hoek van de verbindingslijn in PowerPoint in
+
 ## Invoering
 In deze zelfstudie onderzoeken we hoe u de hoek van verbindingslijnen in PowerPoint-presentaties kunt instellen met Aspose.Slides voor Java. Verbindingslijnen zijn essentieel voor het illustreren van relaties en stromen tussen vormen in uw dia's. Door de hoeken aan te passen, kunt u ervoor zorgen dat uw presentaties uw boodschap duidelijk en effectief overbrengen.
 ## Vereisten
@@ -80,3 +86,9 @@ Aspose.Slides streeft ernaar de meeste PowerPoint-functies te ondersteunen. Voor
 Zeker! Aspose.Slides biedt uitgebreide opties voor het aanpassen van verbindingslijnen, inclusief stijlen, dikte en eindpunten, zodat u visueel aantrekkelijke presentaties kunt maken.
 ### Waar kan ik ondersteuning vinden voor Aspose.Slides-gerelateerde vragen?
  U kunt een bezoek brengen aan de[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor hulp bij eventuele vragen of problemen die u tegenkomt tijdens uw ontwikkelingsproces.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

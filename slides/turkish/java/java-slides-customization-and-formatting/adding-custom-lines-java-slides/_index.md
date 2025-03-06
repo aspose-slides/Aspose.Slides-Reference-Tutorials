@@ -3,10 +3,16 @@ title: Java Slaytlarına Özel Satır Ekleme
 linktitle: Java Slaytlarına Özel Satır Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Java Slaytlarınızı Özel Çizgilerle Geliştirin. Aspose.Slides for Java'yı kullanan adım adım kılavuz. Etkili görseller için sunumlara satır eklemeyi ve satırları özelleştirmeyi öğrenin.
-type: docs
 weight: 10
 url: /tr/java/customization-and-formatting/adding-custom-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarına Özel Satır Ekleme
+
 
 ## Java Slaytlarına Özel Satır Eklemeye Giriş
 
@@ -108,3 +114,9 @@ shape.getLineFormat().setWidth(2); // Çizgi kalınlığını 2 noktaya ayarla
 ### Bir slayta birden fazla satır eklemek mümkün mü?
 
 Evet, bu eğitimde belirtilen adımları tekrarlayarak bir slayda birden fazla satır ekleyebilirsiniz. Her satır bağımsız olarak özelleştirilebilir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

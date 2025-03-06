@@ -3,10 +3,16 @@ title: Настройка выноски для метки данных в сл�
 linktitle: Настройка выноски для метки данных в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как настроить выноски для меток данных в Aspose.Slides для Java. Пошаговое руководство с исходным кодом.
-type: docs
 weight: 25
 url: /ru/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка выноски для метки данных в слайдах Java
+
 
 ## Введение в настройку выноски для метки данных в Aspose.Slides для Java
 
@@ -203,3 +209,9 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 ```
 
 Это некоторые распространенные варианты настройки меток данных и выносок в Aspose.Slides для Java. Вы можете дополнительно адаптировать внешний вид к вашим конкретным потребностям.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

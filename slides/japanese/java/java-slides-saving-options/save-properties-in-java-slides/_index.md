@@ -3,10 +3,16 @@ title: Java スライドにプロパティを保存する
 linktitle: Java スライドにプロパティを保存する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint プレゼンテーションを最適化します。プロパティの設定、暗号化の無効化、パスワード保護の追加、および保存を簡単に行う方法を学習します。
-type: docs
 weight: 12
 url: /ja/java/saving-options/save-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java スライドにプロパティを保存する
+
 
 ## Java スライドでのプロパティの保存の概要
 
@@ -170,3 +176,9 @@ finally {
 ### Aspose.Slides for Java とその機能について詳しく知るにはどうすればよいですか?
 
  Aspose.Slides for Javaのドキュメントは以下からご覧いただけます。[ここ](https://docs.aspose.com/slides/java/)ライブラリの使用に関する詳細な情報、チュートリアル、例については、こちらをご覧ください。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

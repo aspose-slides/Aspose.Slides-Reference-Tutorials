@@ -3,10 +3,16 @@ title: 使用 Java 存取 SmartArt 中的子節點
 linktitle: 使用 Java 存取 SmartArt 中的子節點
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 透過此逐步指南，了解如何使用 Aspose.Slides for Java 存取和操作 SmartArt 中的子節點。
-type: docs
 weight: 10
 url: /zh-hant/java/java-powerpoint-smartart-manipulation/access-child-nodes-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 存取 SmartArt 中的子節點
+
 ## 介紹
 有沒有想過如何以程式設計方式操作簡報中的 SmartArt 圖形？ Aspose.Slides for Java 是您管理和編輯 PowerPoint 簡報的首選函式庫。這個強大的工具允許開發人員存取和操作簡報中的各種元素，包括 SmartArt 圖形。在本教程中，我們將指導您使用 Java 存取 SmartArt 中的子節點，使您的簡報更加動態和互動。在本指南結束時，您將具備輕鬆遍歷和操作 SmartArt 節點的知識。
 ## 先決條件
@@ -81,3 +87,9 @@ if (pres != null) pres.dispose();
 文件可用[這裡](https://reference.aspose.com/slides/java/).
 ### 使用 Aspose.Slides for Java 進行開發的最佳 IDE 是什麼？
 IntelliJ IDEA 和 Eclipse 是流行的 IDE，可以與 Aspose.Slides for Java 搭配良好。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

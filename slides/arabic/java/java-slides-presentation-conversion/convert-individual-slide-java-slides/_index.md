@@ -3,10 +3,16 @@ title: تحويل شريحة فردية في شرائح جافا
 linktitle: تحويل شريحة فردية في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تحويل شرائح PowerPoint الفردية إلى HTML خطوة بخطوة باستخدام أمثلة التعليمات البرمجية باستخدام Aspose.Slides for Java.
-type: docs
 weight: 12
 url: /ar/java/presentation-conversion/convert-individual-slide-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحويل شريحة فردية في شرائح جافا
+
 
 ## مقدمة لتحويل الشرائح الفردية في شرائح جافا
 
@@ -170,3 +176,9 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 ### كيف أتعامل مع التنسيق الإضافي للأشكال والنص داخل الشرائح؟
 
  يمكنك تمديد`CustomFormattingController` فئة للتعامل مع التنسيق الخاص بالشكل من خلال تنفيذ`writeShapeStart` و`writeShapeEnd` الأساليب وتطبيق منطق التنسيق المخصص داخلها.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

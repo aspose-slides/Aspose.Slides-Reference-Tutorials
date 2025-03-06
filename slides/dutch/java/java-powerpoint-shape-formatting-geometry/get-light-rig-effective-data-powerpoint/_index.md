@@ -3,10 +3,16 @@ title: Ontvang Light Rig-effectieve gegevens in PowerPoint
 linktitle: Ontvang Light Rig-effectieve gegevens in PowerPoint
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u eenvoudig effectieve gegevens uit PowerPoint-presentaties kunt ophalen met Aspose.Slides voor Java in deze gedetailleerde, stapsgewijze handleiding.
-type: docs
 weight: 25
 url: /nl/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-data-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ontvang Light Rig-effectieve gegevens in PowerPoint
+
 ## Invoering
 Wilt u uw PowerPoint-presentatietaken automatiseren met Java? Zoek niet verder! Aspose.Slides voor Java is een krachtige bibliotheek waarmee ontwikkelaars PowerPoint-bestanden kunnen maken, manipuleren en converteren zonder dat Microsoft PowerPoint geïnstalleerd hoeft te worden. In deze uitgebreide handleiding leiden we u door de stappen om eenvoudig effectieve gegevens uit een PowerPoint-presentatie te halen met behulp van Aspose.Slides voor Java. Of u nu een doorgewinterde Java-ontwikkelaar bent of net begint, deze tutorial helpt u het volledige potentieel van Aspose.Slides in uw projecten te benutten.
 ## Vereisten
@@ -66,3 +72,9 @@ Ja, u kunt Aspose.Slides gebruiken zonder dat Microsoft PowerPoint is geïnstall
  De documentatie is beschikbaar op[deze link](https://reference.aspose.com/slides/java/).
 ### Hoe krijg ik ondersteuning voor Aspose.Slides?
  U kunt ondersteuning krijgen van het Aspose.Slides-ondersteuningsforum[hier](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

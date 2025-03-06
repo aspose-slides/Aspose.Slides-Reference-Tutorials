@@ -3,10 +3,16 @@ title: 非表示のスライドを含むプレゼンテーションを PDF に�
 linktitle: 非表示のスライドを含むプレゼンテーションを PDF に変換する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、プレゼンテーションを非表示のスライドを含む PDF にシームレスに変換する方法を学習します。
-type: docs
 weight: 26
 url: /ja/net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 非表示のスライドを含むプレゼンテーションを PDF に変換する
+
 
 ## Aspose.Slides for .NET の紹介
 
@@ -95,3 +101,9 @@ class Program
 ### Aspose.Slides for .NET に関するドキュメントはありますか?
 
 はい、Aspose.Slides for .NETのドキュメントと使用例は次の場所にあります。[ここ](https://reference.aspose.com/slides/net).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

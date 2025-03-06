@@ -3,10 +3,16 @@ title: Maîtriser les formes géométriques avec ShapeUtil - Aspose.Slides .NET
 linktitle: Utilisation de ShapeUtil pour la forme géométrique dans les diapositives de présentation
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Explorez la puissance d'Aspose.Slides pour .NET avec ShapeUtil pour les formes géométriques dynamiques. Créez des présentations attrayantes sans effort. Téléchargez maintenant ! Découvrez comment améliorer les présentations PowerPoint avec Aspose.Slides. Explorez ShapeUtil pour la manipulation des formes géométriques. Guide étape par étape avec le code source .NET. Optimisez efficacement les présentations.
-type: docs
 weight: 17
 url: /fr/net/shape-geometry-and-positioning-in-slides/using-shapeutil-geometry-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Maîtriser les formes géométriques avec ShapeUtil - Aspose.Slides .NET
+
 ## Introduction
 Créer des diapositives de présentation visuellement attrayantes et dynamiques est une compétence essentielle, et Aspose.Slides for .NET fournit une boîte à outils puissante pour y parvenir. Dans ce didacticiel, nous explorerons l'utilisation de ShapeUtil pour gérer les formes géométriques dans les diapositives de présentation. Que vous soyez un développeur chevronné ou que vous débutiez tout juste avec Aspose.Slides, ce guide vous guidera tout au long du processus d'utilisation de ShapeUtil pour améliorer vos présentations.
 ## Conditions préalables
@@ -88,3 +94,9 @@ Aspose.Slides prend principalement en charge les langages .NET. Cependant, Aspos
  Visitez le forum de soutien de la communauté[ici](https://forum.aspose.com/c/slides/11).
 ### Puis-je acheter une licence temporaire pour Aspose.Slides pour .NET ?
  Oui, vous pouvez obtenir une licence temporaire[ici](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

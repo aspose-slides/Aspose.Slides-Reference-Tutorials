@@ -3,10 +3,16 @@ title: Set Chart Data From Workbook in Java Slides
 linktitle: Set Chart Data From Workbook in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set chart data from an Excel workbook in Java Slides using Aspose.Slides. Step-by-step guide with code examples for dynamic presentations.
-type: docs
 weight: 15
 url: /java/data-manipulation/set-chart-data-from-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Set Chart Data From Workbook in Java Slides
+
 
 ## Introduction to Set Chart Data From Workbook in Java Slides
 
@@ -142,3 +148,10 @@ Yes, you can update chart data dynamically in a presentation by modifying the un
 ### Where can I find more examples and resources for working with Aspose.Slides for Java?
 
 You can explore additional examples and resources on the [Aspose website](https://www.aspose.com/). Additionally, the Aspose.Slides for Java documentation provides comprehensive guidance on working with the library.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

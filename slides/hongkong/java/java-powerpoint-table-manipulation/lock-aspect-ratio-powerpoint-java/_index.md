@@ -3,10 +3,16 @@ title: 使用 Java 鎖定 PowerPoint 中的寬高比
 linktitle: 使用 Java 鎖定 PowerPoint 中的寬高比
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Java 和 Aspose.Slides 鎖定 PowerPoint 簡報中的寬高比。非常適合希望精確控制幻燈片設計的 Java 開發人員。
-type: docs
 weight: 16
 url: /zh-hant/java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 鎖定 PowerPoint 中的寬高比
+
 ## 介紹
 在 Java 開發領域，以程式設計方式操作 PowerPoint 簡報可以簡化工作流程並顯著提高生產力。 Aspose.Slides for Java 為 Java 開發人員提供了一個強大的工具包，可以自動執行諸如修改幻燈片、添加內容以及直接從 Java 程式碼應用程式格式等任務。本教學重點在於 PowerPoint 簡報管理的一個基本面向：鎖定寬高比。
 ## 先決條件
@@ -61,3 +67,9 @@ pres.save(dataDir + "pres-out.pptx", SaveFormat.Pptx);
 您可以從 Aspose.Slides 社區尋求支持[這裡](https://forum.aspose.com/c/slides/11).
 ### 在購買之前如何試用 Aspose.Slides for Java？
 您可以獲得免費試用版[這裡](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: ميزات الرسم البياني الإضافية
 linktitle: ميزات الرسم البياني الإضافية
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: اكتشف ميزات المخطط المتقدمة في Aspose.Slides لـ .NET! تعلم كيفية إنشاء مخططات ديناميكية وتفاعلية باستخدام أنماط مخصصة وخطوط اتجاه والمزيد. ارفع مستوى عروضك التقديمية باستخدام تصور البيانات القوي.
-type: docs
 weight: 24
 url: /ar/net/additional-chart-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# ميزات الرسم البياني الإضافية
+
 
 ## مقدمة
 
@@ -32,3 +38,9 @@ url: /ar/net/additional-chart-features/
 تعرف على كيفية استرداد مصنف من مخطط باستخدام Aspose.Slides لـ .NET. استخراج بيانات المخطط وإنشاء مصنفات Excel برمجياً.
 ### [مسح نقاط بيانات سلسلة المخططات المحددة](./clear-specific-chart-series-data-points-data/)
 تعرف على كيفية مسح نقاط بيانات مخطط محددة في Aspose.Slides لـ .NET. دليل خطوة بخطوة مع كود المصدر متضمن.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

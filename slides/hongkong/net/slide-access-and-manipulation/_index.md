@@ -3,10 +3,16 @@ title: 幻燈片存取和操作
 linktitle: 幻燈片存取和操作
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 探索使用 Aspose.Slides for .NET 進行投影片存取和操作的綜合教學。學習以程式設計方式建立、修改和增強簡報。
-type: docs
 weight: 10
 url: /zh-hant/net/slide-access-and-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 幻燈片存取和操作
+
 ## 介紹：
 
 歡迎來到 Aspose.Slides for .NET 的動態簡報操縱世界！這一系列教學是您釋放 Aspose.Slides API 全部潛力的關鍵，為您提供無縫存取和操作 .NET 應用程式中投影片的工具和知識。從創建引人入勝的簡報到實施複雜的修改，這些教學課程為您提供了全面的路線圖。無論您是經驗豐富的開發人員還是剛開始使用 Aspose.Slides 之旅，我們的逐步指南和程式碼範例都將使您能夠利用幻燈片的力量來講述有影響力的視覺故事。加入我們，踏上幻燈片訪問和操作領域的旅程，探索 Aspose.Slides 為您帶來的觸手可及的功能。
@@ -44,3 +50,9 @@ url: /zh-hant/net/slide-access-and-manipulation/
 了解如何使用 Aspose.Slides for .NET 逐步擦除 PowerPoint 投影片。我們的指南提供了清晰的說明和完整的原始程式碼，可協助您透過順序索引以程式設計方式刪除投影片。
 ### [透過參考刪除投影片](./remove-slide-using-reference/)
 了解如何使用 Aspose.Slides for .NET 以程式設計方式刪除 PowerPoint 簡報中的投影片。透過此逐步指南簡化簡報操作。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

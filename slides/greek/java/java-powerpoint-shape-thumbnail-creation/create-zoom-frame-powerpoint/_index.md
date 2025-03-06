@@ -3,10 +3,16 @@ title: Δημιουργήστε Zoom Frame στο PowerPoint
 linktitle: Δημιουργήστε Zoom Frame στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε ελκυστικά Zoom Frames στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Ακολουθήστε τον οδηγό μας για να προσθέσετε διαδραστικά στοιχεία στις παρουσιάσεις σας.
-type: docs
 weight: 17
 url: /el/java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργήστε Zoom Frame στο PowerPoint
+
 ## Εισαγωγή
 Η δημιουργία ελκυστικών παρουσιάσεων PowerPoint είναι τέχνη και μερικές φορές, οι μικρότερες προσθήκες μπορούν να κάνουν τεράστια διαφορά. Ένα τέτοιο χαρακτηριστικό είναι το Zoom Frame, το οποίο σας επιτρέπει να κάνετε μεγέθυνση σε συγκεκριμένες διαφάνειες ή εικόνες, δημιουργώντας μια δυναμική και διαδραστική παρουσίαση. Σε αυτό το σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία δημιουργίας ενός Zoom Frame στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java.
 ## Προαπαιτούμενα
@@ -113,3 +119,9 @@ try {
 Απολύτως! Μπορείτε να προσθέσετε προσαρμοσμένες εικόνες στο Zoom Frames διαβάζοντας αρχεία εικόνας και προσθέτοντάς τες στην παρουσίαση.
 ### Πού μπορώ να βρω περισσότερα παραδείγματα και τεκμηρίωση;
  Μπορείτε να βρείτε ολοκληρωμένη τεκμηρίωση και παραδείγματα στο[Σελίδα τεκμηρίωσης Aspose.Slides for Java](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

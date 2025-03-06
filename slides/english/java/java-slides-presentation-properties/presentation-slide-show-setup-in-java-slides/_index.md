@@ -3,10 +3,16 @@ title: Presentation Slide Show Setup in Java Slides
 linktitle: Presentation Slide Show Setup in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Optimize your Java Slide Show with Aspose.Slides. Create engaging presentations with customized settings. Explore step-by-step guides and FAQs.
-type: docs
 weight: 16
 url: /java/presentation-properties/presentation-slide-show-setup-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Presentation Slide Show Setup in Java Slides
+
 
 ## Introduction to Presentation Slide Show Setup in Java Slides
 
@@ -146,3 +152,10 @@ To save the configured presentation to a file, use the `pres.save()` method and 
 ### How can I further customize slide show settings?
 
 You can explore additional slide show settings provided by Aspose.Slides for Java to tailor the slide show experience to your needs. Refer to the documentation at [here](https://reference.aspose.com/slides/java/) for detailed information on available options and configurations.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

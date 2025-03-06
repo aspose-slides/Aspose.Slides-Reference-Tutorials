@@ -3,10 +3,16 @@ title: 幻灯片切换效果
 linktitle: 幻灯片切换效果
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 使用 Aspose.Slides for .NET 通过迷人的幻灯片过渡效果增强您的演示文稿。了解如何向幻灯片添加动态动画以获得引人入胜的观看体验。
-type: docs
 weight: 19
 url: /zh/net/slide-transition-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 幻灯片切换效果
+
 
 ## 介绍：
 
@@ -37,3 +43,9 @@ url: /zh/net/slide-transition-effects/
 了解如何使用 Aspose.Slides for .NET 在幻灯片上设置过渡变形类型。带有代码示例的分步指南。立即增强您的演示文稿！ 
 ### [简单的幻灯片切换](./simple-slide-transitions/)
 了解如何使用 Aspose.Slides for .NET 通过简单的幻灯片切换增强您的 PowerPoint 演示文稿。带有源代码的分步指南。用迷人的视觉效果吸引您的观众！
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

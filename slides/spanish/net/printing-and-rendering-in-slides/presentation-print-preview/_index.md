@@ -3,10 +3,16 @@ title: Vista previa de la salida de impresión de presentaciones en Aspose.Slide
 linktitle: Vista previa de la salida de impresión de presentaciones en Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a obtener una vista previa de la salida impresa de presentaciones de PowerPoint usando Aspose.Slides para .NET. Siga esta guía paso a paso con código fuente para generar y personalizar vistas previas de impresión.
-type: docs
 weight: 11
 url: /es/net/printing-and-rendering-in-slides/presentation-print-preview/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Vista previa de la salida de impresión de presentaciones en Aspose.Slides
+
 ## Introducción
 Bienvenido al mundo de Aspose.Slides para .NET, una poderosa biblioteca que permite a los desarrolladores manipular y mejorar sin problemas presentaciones de PowerPoint en sus aplicaciones .NET. Ya sea que sea un desarrollador experimentado o recién esté comenzando, esta guía completa lo guiará a través de los pasos esenciales para aprovechar todo el potencial de Aspose.Slides.
 ## Requisitos previos
@@ -71,3 +77,9 @@ Sí, Aspose.Slides admite los últimos formatos de PowerPoint, lo que garantiza 
  Visita[Licencia Temporal](https://purchase.aspose.com/temporary-license/) obtener una licencia temporal para fines de prueba.
 ### ¿Necesita ayuda o tiene más preguntas?
  Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para obtener asistencia y conectarse con la comunidad.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

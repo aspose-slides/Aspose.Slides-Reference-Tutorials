@@ -3,10 +3,16 @@ title: Java PowerPoint의 글꼴 대체
 linktitle: Java PowerPoint의 글꼴 대체
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션에서 글꼴 대체를 수행하는 방법을 알아보세요. 호환성과 일관성을 손쉽게 향상할 수 있습니다.
-type: docs
 weight: 14
 url: /ko/java/java-powerpoint-font-management/fonts-substitution-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint의 글꼴 대체
+
 ## 소개
 
 Java 개발 영역에서 Aspose.Slides는 프로그래밍 방식으로 PowerPoint 프레젠테이션을 조작할 수 있는 수많은 기능을 제공하는 강력한 도구로 등장합니다. 많은 기능 중에서 글꼴 대체는 다양한 시스템에서 일관성과 호환성을 보장하는 중요한 측면으로 두드러집니다. 이 튜토리얼에서는 Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션에서 글꼴 대체 프로세스를 자세히 살펴봅니다. 숙련된 개발자이든 Java 프로그래밍 세계를 처음 접하는 초보자이든 이 가이드는 글꼴 대체를 원활하게 구현하기 위한 포괄적인 단계별 접근 방식을 제공하는 것을 목표로 합니다.
@@ -90,3 +96,9 @@ Aspose.Slides는 성능에 최적화되어 상당한 오버헤드 없이 효율�
 
 ### Aspose.Slides 사용자에게 기술 지원이 제공됩니까?
 예, Aspose는 전용 포럼을 통해 Aspose.Slides 사용자에게 포괄적인 기술 지원을 제공하여 구현 및 문제 해결을 위한 지원과 지침을 제공합니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

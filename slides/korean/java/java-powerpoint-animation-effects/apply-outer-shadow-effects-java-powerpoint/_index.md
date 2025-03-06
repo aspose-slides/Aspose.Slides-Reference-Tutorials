@@ -3,10 +3,16 @@ title: Java PowerPoint에서 외부 그림자 효과 적용
 linktitle: Java PowerPoint에서 외부 그림자 효과 적용
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 자세한 단계별 가이드를 통해 Aspose.Slides를 사용하여 Java PowerPoint 프레젠테이션에 외부 그림자 효과를 쉽게 적용하는 방법을 알아보세요.
-type: docs
 weight: 11
 url: /ko/java/java-powerpoint-animation-effects/apply-outer-shadow-effects-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint에서 외부 그림자 효과 적용
+
 ## 소개
 매력적인 프레젠테이션을 만들려면 슬라이드의 시각적 매력을 향상시키기 위해 다양한 효과를 추가해야 하는 경우가 많습니다. 그러한 효과 중 하나는 요소를 돋보이게 하고 콘텐츠에 깊이를 더할 수 있는 외부 그림자입니다. 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 모양에 외부 그림자 효과를 적용하는 과정을 안내합니다.
 ## 전제 조건
@@ -114,3 +120,9 @@ Aspose.Slides for Java는 Java 애플리케이션에서 PowerPoint 프레젠테�
  임시면허를 발급받으실 수 있습니다.[Aspose 웹사이트](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides에 대한 추가 예제와 문서는 어디서 찾을 수 있나요?
  더 많은 예제와 자세한 문서는 다음에서 찾을 수 있습니다.[Aspose.Slides 문서 페이지](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

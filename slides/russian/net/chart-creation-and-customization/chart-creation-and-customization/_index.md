@@ -3,10 +3,16 @@ title: Создание и настройка диаграмм в Aspose.Slides
 linktitle: Создание и настройка диаграмм в Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как создавать и настраивать диаграммы в PowerPoint с помощью Aspose.Slides для .NET. Пошаговое руководство по созданию динамических презентаций.
-type: docs
 weight: 10
 url: /ru/net/chart-creation-and-customization/chart-creation-and-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создание и настройка диаграмм в Aspose.Slides
+
 
 ## Введение
 
@@ -110,3 +116,9 @@ Aspose.Slides для .NET поддерживает широкий спектр �
 
 ### Могу ли я приобрести временную лицензию на Aspose.Slides для .NET?
 Да, вы можете получить временную лицензию на сайте Aspose.[здесь](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

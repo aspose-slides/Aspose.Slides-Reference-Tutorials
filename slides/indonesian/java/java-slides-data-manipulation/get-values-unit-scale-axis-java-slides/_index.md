@@ -3,10 +3,16 @@ title: Dapatkan Nilai dan Skala Unit dari Axis di Java Slides
 linktitle: Dapatkan Nilai dan Skala Unit dari Axis di Java Slides
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mendapatkan nilai dan skala satuan dari sumbu di Java Slides menggunakan Aspose.Slides untuk Java. Tingkatkan kemampuan analisis data Anda.
-type: docs
 weight: 20
 url: /id/java/data-manipulation/get-values-unit-scale-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dapatkan Nilai dan Skala Unit dari Axis di Java Slides
+
 
 ## Pengantar Mendapatkan Nilai dan Skala Unit dari Axis di Slide Java
 
@@ -122,3 +128,9 @@ Ya, Anda dapat menggunakan Aspose.Slides untuk Java dalam proyek komersial. Ia m
 ### Di mana saya dapat menemukan lebih banyak sumber daya dan dokumentasi untuk Aspose.Slides untuk Java?
 
  Anda dapat menemukan dokumentasi komprehensif dan sumber daya tambahan di[Aspose.Slides untuk dokumentasi Java](https://reference.aspose.com/slides/java/) situs web.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

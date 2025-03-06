@@ -3,10 +3,16 @@ title: Java を使用して影のテキストの透明度を設定する
 linktitle: Java を使用して影のテキストの透明度を設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して PowerPoint でテキストの影の透明度を調整する方法を学びます。プログラムによってプレゼンテーションを強化します。
-type: docs
 weight: 20
 url: /ja/java/java-powerpoint-text-font-customization/set-transparency-text-shadow-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して影のテキストの透明度を設定する
+
 ## 導入
 このチュートリアルでは、Aspose.Slides for Java を使用して PowerPoint プレゼンテーションのテキスト シャドウの透明度を操作する方法について説明します。テキスト シャドウの透明度を調整すると、スライドの視覚的な魅力が大幅に向上し、よりダイナミックでプロフェッショナルなスライドになります。Aspose.Slides for Java は、スライド要素のさまざまな側面をプログラムで正確に制御するための強力な機能を提供し、プレゼンテーションが最高水準のデザインを満たすようにします。
 ## 前提条件
@@ -70,3 +76,9 @@ Aspose.Slides for Java は、開発者がプログラムによって PowerPoint 
  Aspose.Slides for Javaのドキュメントは以下にあります。[ここ](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java のサポートを受けるにはどうすればよいですか?
 サポートとコミュニティの交流については、Aspose.Slides フォーラムをご覧ください。[ここ](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

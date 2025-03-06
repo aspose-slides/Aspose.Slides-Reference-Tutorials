@@ -3,10 +3,16 @@ title: Normale Diagramme in Java-Folien
 linktitle: Normale Diagramme in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erstellen Sie normale Diagramme in Java-Folien mit Aspose.Slides für Java. Schritt-für-Schritt-Anleitung und Quellcode zum Erstellen, Anpassen und Speichern von Diagrammen in PowerPoint-Präsentationen.
-type: docs
 weight: 21
 url: /de/java/chart-data-manipulation/normal-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Normale Diagramme in Java-Folien
+
 
 ## Einführung in normale Diagramme in Java-Folien
 
@@ -240,3 +246,9 @@ In diesem Tutorial haben wir gelernt, wie man mit der Aspose.Slides für Java-AP
 ### Wie speichere ich das Diagramm in einem anderen Dateiformat?
 
  Um das Diagramm in einem anderen Dateiformat zu speichern, ändern Sie das`SaveFormat` Parameter im`pres.save()` Methode in das gewünschte Format (z. B. PDF, PNG, JPEG).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

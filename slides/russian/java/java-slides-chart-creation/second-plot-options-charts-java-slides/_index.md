@@ -3,10 +3,16 @@ title: Вторые параметры графика для диаграмм в
 linktitle: Вторые параметры графика для диаграмм в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как настраивать диаграммы в Java Slides с помощью Aspose.Slides для Java. Изучите варианты второго сюжета и улучшите свои презентации.
-type: docs
 weight: 12
 url: /ru/java/chart-creation/second-plot-options-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Вторые параметры графика для диаграмм в слайдах Java
+
 
 ## Введение в параметры второго графика для диаграмм в слайдах Java
 
@@ -93,3 +99,9 @@ presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pp
 ### Как установить положение разделения на круговой диаграмме?
 
  Вы можете установить положение разделения на круговой диаграмме, используя`setPieSplitPosition` метод. Отрегулируйте значение, чтобы указать желаемое положение.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

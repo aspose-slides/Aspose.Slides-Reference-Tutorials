@@ -3,10 +3,16 @@ title: Diagramme encadré dans les diapositives Java
 linktitle: Diagramme encadré dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à créer des diagrammes en boîtes dans des présentations Java avec Aspose.Slides. Guide étape par étape et code source inclus pour une visualisation efficace des données.
-type: docs
 weight: 10
 url: /fr/java/chart-elements/box-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Diagramme encadré dans les diapositives Java
+
 
 ## Introduction au diagramme en boîtes dans Aspose.Slides pour Java
 
@@ -148,3 +154,9 @@ Vous pouvez personnaliser l'apparence du graphique en boîtes en modifiant les p
 ### Que signifie QuartileMethodType.Exclusive ?
 
  Le`QuartileMethodType.Exclusive` Le paramètre spécifie que les calculs de quartile doivent être effectués à l’aide de la méthode exclusive. Vous pouvez choisir différentes méthodes de calcul de quartile en fonction de vos données et de vos besoins.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

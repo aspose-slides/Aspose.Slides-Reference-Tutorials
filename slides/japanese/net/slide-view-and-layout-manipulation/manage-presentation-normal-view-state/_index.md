@@ -3,10 +3,16 @@ title: 通常のビュー状態でプレゼンテーションを管理する
 linktitle: 通常のビュー状態でプレゼンテーションを管理する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、通常のビュー ステートでプレゼンテーションを管理する方法を学びます。ステップ バイ ステップのガイダンスと完全なソース コードを使用して、プログラムでプレゼンテーションを作成、変更、強化します。
-type: docs
 weight: 11
 url: /ja/net/slide-view-and-layout-manipulation/manage-presentation-normal-view-state/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 通常のビュー状態でプレゼンテーションを管理する
+
 
 ダイナミックなセールス ピッチ、教育的な講義、魅力的なウェビナーを作成する場合でも、プレゼンテーションは効果的なコミュニケーションの基盤となります。Microsoft PowerPoint は長い間、魅力的なスライドショーを作成するための定番ソフトウェアでした。しかし、プレゼンテーションをプログラムで管理する場合、Aspose.Slides for .NET ライブラリは非常に役立つツールです。このガイドでは、Aspose.Slides for .NET を使用して通常のビュー ステートでプレゼンテーションを管理し、プレゼンテーションをシームレスに作成、変更、強化する方法を説明します。
 
@@ -121,3 +127,9 @@ Aspose.Slides for .NETの包括的なドキュメントは、以下からアク�
 
 ## 結論
 このガイドでは、Aspose.Slides for .NET を使用して通常のビュー ステートでプレゼンテーションを管理する方法について説明しました。強力な機能により、プレゼンテーションをプログラムで作成、変更、強化して、コンテンツが効果的に視聴者を魅了するようにすることができます。プロのプレゼンターでも、プレゼンテーション関連のアプリケーションに取り組んでいる開発者でも、Aspose.Slides for .NET はシームレスなプレゼンテーション管理への入り口となります。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Настройка свойств шрифта в слайдах Java
 linktitle: Настройка свойств шрифта в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как настроить свойства шрифта в слайдах Java с помощью Aspose.Slides для Java. Это пошаговое руководство включает примеры кода и часто задаваемые вопросы.
-type: docs
 weight: 15
 url: /ru/java/customization-and-formatting/setting-font-properties-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Настройка свойств шрифта в слайдах Java
+
 
 ## Введение в настройку свойств шрифта в слайдах Java
 
@@ -137,3 +143,9 @@ for (ISlide slide : pres.getSlides()) {
     // Здесь можно получить доступ к свойствам шрифта текстовых элементов и настроить их.
 }
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

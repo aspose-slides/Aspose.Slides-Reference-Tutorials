@@ -3,10 +3,16 @@ title: Manipulação de slides de notas
 linktitle: Manipulação de slides de notas
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprimore suas apresentações com precisão! Explore o tutorial Aspose.Slides sobre manipulação de slides de notas no .NET. Aprenda a adicionar, editar e gerenciar anotações do orador de maneira programática.
-type: docs
 weight: 16
 url: /pt/net/notes-slide-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulação de slides de notas
+
 ## Introdução
 
 Bem-vindo ao tutorial abrangente do Aspose.Slides sobre manipulação de slides de notas para desenvolvedores .NET. Neste tutorial, mergulharemos no fascinante mundo das anotações do orador e como você pode manipulá-las programaticamente usando a biblioteca Aspose.Slides. As anotações do palestrante desempenham um papel fundamental nas apresentações, oferecendo informações valiosas ao apresentador e aumentando o impacto geral do conteúdo. Ao final deste tutorial, você terá um conhecimento sólido de como adicionar, editar e gerenciar com eficácia as anotações do orador em suas apresentações do PowerPoint.
@@ -39,3 +45,9 @@ Aprenda como personalizar cabeçalho e rodapé em slides de notas usando Aspose.
 Aprenda como remover notas de um slide específico em apresentações do PowerPoint usando Aspose.Slides for .NET. Siga nosso guia passo a passo com código-fonte completo para manipular seus slides de maneira programática.
 ### [Remover notas de todos os slides](./remove-notes-from-all-slides/)
 Aprenda como remover notas de todos os slides em suas apresentações do PowerPoint usando Aspose.Slides for .NET. Siga este guia passo a passo com exemplos completos de código-fonte para atingir facilmente seu objetivo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

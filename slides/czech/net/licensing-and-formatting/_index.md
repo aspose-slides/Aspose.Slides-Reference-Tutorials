@@ -3,10 +3,16 @@ title: Licencování a formátování
 linktitle: Licencování a formátování
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Rozšiřte své znalosti o licencování a formátování Aspose.Slides prostřednictvím komplexních výukových programů. Naučte se efektivně spravovat licence a dosáhnout dokonalého formátování vašich prezentací.
-type: docs
 weight: 21
 url: /cs/net/licensing-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licencování a formátování
+
 
 ## Úvod
 
@@ -31,3 +37,9 @@ Zjistěte, jak efektivně používat Metered Licensing s Aspose.Slides pro .NET.
 Naučte se, jak vylepšit vizuály grafu pomocí Aspose.Slides pro .NET. Přidejte dynamické barvy do datových bodů pro působivější prezentace.
 ### [Přidejte do grafu vlastní chybové úsečky](./add-custom-error/)
 Naučte se přidávat vlastní chybové úsečky do grafů pomocí Aspose.Slides pro .NET. Vytvářejte, upravujte a přizpůsobujte chybové úsečky pro přesnou vizualizaci dat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mit benutzerdefinierter Größe in Java-Folien konvertieren
 linktitle: Mit benutzerdefinierter Größe in Java-Folien konvertieren
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie PowerPoint-Präsentationen mit Aspose.Slides für Java in TIFF-Bilder mit benutzerdefinierter Größe konvertieren. Schritt-für-Schritt-Anleitung mit Codebeispielen für Entwickler.
-type: docs
 weight: 31
 url: /de/java/presentation-conversion/convert-custom-size-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mit benutzerdefinierter Größe in Java-Folien konvertieren
+
 
 ## Einführung in die Konvertierung mit benutzerdefinierter Größe in Java-Folien
 
@@ -137,3 +143,9 @@ Ja, Sie können die DPI anpassen, indem Sie die`setDpiX` Und`setDpiY` Methoden i
 ### Wo finde ich weitere Informationen zu Aspose.Slides für Java?
 
  Ausführliche Dokumentation und weitere Informationen zu Aspose.Slides für Java finden Sie in der Dokumentation:[Aspose.Slides für Java API-Referenz](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

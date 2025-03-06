@@ -3,10 +3,16 @@ title: 将演示文稿转换为具有默认大小的 TIFF
 linktitle: 将演示文稿转换为具有默认大小的 TIFF
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 轻松地将演示文稿转换为具有默认大小的 TIFF 图像。
-type: docs
 weight: 27
 url: /zh/net/presentation-manipulation/convert-presentation-to-tiff-with-default-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将演示文稿转换为具有默认大小的 TIFF
+
 
 ## 介绍
 
@@ -86,3 +92,9 @@ presentation.Save("output.tiff", SaveFormat.Tiff,options);
 ### 在哪里可以找到有关 Aspose.Slides for .NET 的更多信息？
 
 如需全面的文档和示例，请访问[Aspose.Slides for .NET 文档](https://reference.aspose.com/slides/net).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

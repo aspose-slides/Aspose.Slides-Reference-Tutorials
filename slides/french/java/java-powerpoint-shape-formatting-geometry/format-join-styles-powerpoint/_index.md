@@ -3,10 +3,16 @@ title: Formater les styles de jointure dans PowerPoint
 linktitle: Formater les styles de jointure dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment améliorer vos présentations PowerPoint en définissant différents styles de jointure de ligne pour les formes à l'aide d'Aspose.Slides pour Java. Suivez notre guide étape par étape.
-type: docs
 weight: 15
 url: /fr/java/java-powerpoint-shape-formatting-geometry/format-join-styles-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Formater les styles de jointure dans PowerPoint
+
 ## Introduction
 Créer des présentations PowerPoint visuellement attrayantes peut être une tâche ardue, surtout lorsque vous souhaitez que chaque détail soit parfait. C'est là qu'Aspose.Slides pour Java s'avère utile. Il s'agit d'une API puissante qui vous permet de créer, manipuler et gérer des présentations par programmation. L'une des fonctionnalités que vous pouvez utiliser consiste à définir différents styles de jointure de ligne pour les formes, ce qui peut améliorer considérablement l'esthétique de vos diapositives. Dans ce didacticiel, nous verrons comment utiliser Aspose.Slides pour Java pour définir des styles de jointure pour les formes dans les présentations PowerPoint. 
 ## Conditions préalables
@@ -112,3 +118,9 @@ Oui, vous pouvez utiliser Aspose.Slides pour Java dans n'importe quel IDE pris e
 Les styles de jointure de lignes font référence à la forme des coins où deux lignes se rencontrent. Les styles courants incluent Mitre, Bevel et Round.
 ### Où puis-je trouver plus de documentation sur Aspose.Slides pour Java ?
  Vous pouvez trouver une documentation détaillée[ici](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

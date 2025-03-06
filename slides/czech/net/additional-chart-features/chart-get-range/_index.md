@@ -3,10 +3,16 @@ title: Jak získat rozsah dat grafu v Aspose.Slides pro .NET
 linktitle: Získat rozsah dat grafu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak extrahovat rozsah dat grafu z prezentací PowerPoint pomocí Aspose.Slides pro .NET. Průvodce krok za krokem pro vývojáře.
-type: docs
 weight: 11
 url: /cs/net/additional-chart-features/chart-get-range/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jak získat rozsah dat grafu v Aspose.Slides pro .NET
+
 
 Chcete extrahovat rozsah dat z grafu v prezentaci PowerPoint pomocí Aspose.Slides pro .NET? Jste na správném místě. V tomto podrobném průvodci vás provedeme procesem získání rozsahu dat grafu z vaší prezentace. Aspose.Slides for .NET je výkonná knihovna, která vám umožňuje programově pracovat s dokumenty aplikace PowerPoint a získání rozsahu dat grafu je jen jedním z mnoha úkolů, které vám může pomoci splnit.
 
@@ -93,3 +99,9 @@ Ano, v powerpointové prezentaci můžete pracovat se snímky, tvary, textem, ob
 
 ### Jaké možnosti podpory jsou k dispozici pro uživatele Aspose.Slides pro .NET?
  Na jejich stránkách můžete získat podporu a pomoc od komunity Aspose[Fórum podpory](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

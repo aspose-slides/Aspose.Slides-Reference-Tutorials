@@ -3,10 +3,16 @@ title: Dia-animáció vezérlése
 linktitle: Dia-animáció vezérlése
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Fokozza bemutatóit dinamikus animációkkal az Aspose.Slides for .NET segítségével. Ebben az átfogó oktatóanyagban lépésről lépésre megtudhatja, hogyan vezérelheti a diaanimációkat.
-type: docs
 weight: 18
 url: /hu/net/slide-animation-control/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dia-animáció vezérlése
+
 
 ## Bevezetés:
 
@@ -36,3 +42,9 @@ Ismerje meg, hogyan vezérelheti az animációtípusokat a PowerPoint diákban a
 Ismerje meg, hogyan ismételhet meg animációkat egy dián az Aspose.Slides for .NET segítségével. Ez a részletes útmutató forráskódot és egyértelmű utasításokat tartalmaz a PowerPoint-prezentációk lebilincselő animációinak programozott hozzáadásához.
 ### [Visszatekerés animáció a dián](./rewind-animation-on-slide/)
 Ismerje meg, hogyan tekerhet vissza animációkat PowerPoint diákon az Aspose.Slides for .NET segítségével. Kövesse ezt a lépésenkénti útmutatót teljes forráskód-példákkal, hogy dinamikusan javítsa prezentációit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

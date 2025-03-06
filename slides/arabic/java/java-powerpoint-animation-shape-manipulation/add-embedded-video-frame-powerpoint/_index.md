@@ -3,10 +3,16 @@ title: إضافة إطار فيديو مضمن في PowerPoint
 linktitle: إضافة إطار فيديو مضمن في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تضمين إطارات الفيديو في PowerPoint باستخدام Aspose.Slides لـ Java من خلال هذا البرنامج التعليمي خطوة بخطوة. تعزيز العروض التقديمية الخاصة بك بسهولة.
-type: docs
 weight: 21
 url: /ar/java/java-powerpoint-animation-shape-manipulation/add-embedded-video-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة إطار فيديو مضمن في PowerPoint
+
 ## مقدمة
 يمكن أن تؤدي إضافة مقاطع فيديو إلى عروض PowerPoint التقديمية إلى جعلها أكثر جاذبية وغنية بالمعلومات. باستخدام Aspose.Slides for Java، يمكنك بسهولة تضمين مقاطع الفيديو مباشرة في الشرائح الخاصة بك. في هذا البرنامج التعليمي، سنرشدك خلال العملية خطوة بخطوة، مما يضمن فهمك لكل جزء من التعليمات البرمجية وكيفية عمله. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيساعدك هذا الدليل على تحسين عروضك التقديمية باستخدام مقاطع الفيديو المضمنة.
 ## المتطلبات الأساسية
@@ -93,3 +99,9 @@ if (pres != null) pres.dispose();
 نعم، أنت بحاجة إلى ترخيص صالح لاستخدام Aspose.Slides. يمكنك الحصول على ترخيص مؤقت للتقييم.
 ### هل يمكنني تخصيص حجم وموضع إطار الفيديو؟
 نعم، يمكنك تخصيص الحجم والموضع عن طريق تعيين المعلمات المناسبة عند إضافة إطار الفيديو.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

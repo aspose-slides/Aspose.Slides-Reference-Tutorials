@@ -3,10 +3,16 @@ title: Manipulasi Hyperlink di Aspose.Slide
 linktitle: Manipulasi Hyperlink di Aspose.Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menambahkan dan menghapus hyperlink di Aspose.Slides untuk .NET. Sempurnakan presentasi Anda dengan tautan interaktif dengan mudah.
-type: docs
 weight: 10
 url: /id/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulasi Hyperlink di Aspose.Slide
+
 
 Hyperlink adalah elemen penting dalam presentasi, karena menyediakan cara mudah untuk bernavigasi antar slide atau mengakses sumber daya eksternal. Aspose.Slides for .NET menawarkan fitur canggih untuk menambah dan menghapus hyperlink di slide presentasi Anda. Dalam tutorial ini, kami akan memandu Anda melalui proses manipulasi hyperlink menggunakan Aspose.Slides untuk .NET. Kami akan membahas penambahan hyperlink ke slide dan menghapus hyperlink dari slide. Jadi, mari selami!
 
@@ -121,3 +127,9 @@ Sangat. Aspose.Slides mendukung berbagai format PowerPoint, termasuk PPT, PPTX, 
 
 ### Bagaimana saya bisa mendapatkan lisensi sementara untuk Aspose.Slides?
  Jika Anda memerlukan lisensi sementara untuk Aspose.Slides, Anda bisa mendapatkannya[Di Sini](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

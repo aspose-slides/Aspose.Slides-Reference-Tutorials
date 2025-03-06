@@ -3,10 +3,16 @@ title: 使用 Aspose.Slides for .NET 掌握簡報中的 3D 旋轉
 linktitle: 在簡報投影片中的形狀上套用 3D 旋轉效果
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 增強您的簡報！在本教學中學習如何將 3D 旋轉效果應用於形狀。創建動態且視覺上令人驚嘆的簡報。
-type: docs
 weight: 23
 url: /zh-hant/net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effect-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Slides for .NET 掌握簡報中的 3D 旋轉
+
 ## 介紹
 創建引人入勝且動態的簡報投影片是有效溝通的關鍵面向。 Aspose.Slides for .NET 提供了一組強大的工具來增強您的簡報，包括將 3D 旋轉效果應用於形狀的能力。在本教學中，我們將逐步介紹使用 Aspose.Slides for .NET 將 3D 旋轉效果應用於簡報投影片中的形狀的過程。
 ## 先決條件
@@ -60,3 +66,9 @@ pres.Save("Your Document Directory" + "Rotation_out.pptx", SaveFormat.Pptx);
 是的，您可以獲得臨時許可證[這裡](https://purchase.aspose.com/temporary-license/).
 ### 在哪裡可以找到 Aspose.Slides for .NET 的詳細文件？
 文件可用[這裡](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

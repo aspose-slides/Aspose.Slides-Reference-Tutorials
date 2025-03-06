@@ -3,10 +3,16 @@ title: Agregar columnas en cuadros de texto con Aspose.Slides para Java
 linktitle: Agregar columnas en cuadros de texto con Aspose.Slides para Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a agregar columnas a cuadros de texto en PowerPoint usando Aspose.Slides para Java. Mejore sus presentaciones con esta guía paso a paso.
-type: docs
 weight: 10
 url: /es/java/java-powerpoint-text-box-manipulation/add-column-in-text-boxes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar columnas en cuadros de texto con Aspose.Slides para Java
+
 ## Introducción
 En este tutorial, exploraremos cómo mejorar los cuadros de texto agregando columnas usando Aspose.Slides para Java. Aspose.Slides es una poderosa biblioteca de Java que permite a los desarrolladores crear, manipular y convertir presentaciones de PowerPoint mediante programación sin necesidad de Microsoft Office. Agregar columnas a los cuadros de texto puede mejorar en gran medida la legibilidad y la organización del contenido de las diapositivas, haciendo que sus presentaciones sean más atractivas y profesionales.
 ## Requisitos previos
@@ -82,3 +88,9 @@ Sí, Aspose.Slides es compatible con Java 11 y versiones superiores.
 No, Aspose.Slides no requiere que Microsoft Office esté instalado en la máquina.
 ### ¿Dónde puedo encontrar más documentación sobre Aspose.Slides para Java?
  La documentación detallada está disponible.[aquí](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: قم بتعيين تنسيق تعبئة التعداد النقطي في 
 linktitle: قم بتعيين تنسيق تعبئة التعداد النقطي في SmartArt باستخدام Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تعيين تنسيق تعبئة التعداد النقطي في SmartArt باستخدام Java باستخدام Aspose.Slides. دليل خطوة بخطوة لمعالجة العرض التقديمي بكفاءة.
-type: docs
 weight: 18
 url: /ar/java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# قم بتعيين تنسيق تعبئة التعداد النقطي في SmartArt باستخدام Java
+
 ## مقدمة
 في عالم برمجة Java، يعد التعامل الفعال مع العروض التقديمية متطلبًا شائعًا، خاصة عند التعامل مع عناصر SmartArt. يظهر Aspose.Slides for Java كأداة قوية لمثل هذه المهام، حيث يقدم مجموعة من الوظائف للتعامل مع العروض التقديمية برمجيًا. في هذا البرنامج التعليمي، سنتعمق في عملية إعداد تنسيق تعبئة التعداد النقطي في SmartArt باستخدام Java مع Aspose.Slides، خطوة بخطوة.
 ## المتطلبات الأساسية
@@ -71,3 +77,9 @@ presentation.save(dataDir + "out.pptx", SaveFormat.Pptx);
  نعم، يمكنك استكشاف ميزات Aspose.Slides من خلال النسخة التجريبية المجانية. ما عليك سوى تنزيله من[موقع إلكتروني](https://releases.aspose.com/slides/java/) وابدأ في الاستكشاف.
 ### أين يمكنني العثور على الدعم لـ Aspose.Slides لـ Java؟
  لأية استفسارات أو مساعدة، يمكنك زيارة منتدى Aspose.Slides على[هذا الرابط](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

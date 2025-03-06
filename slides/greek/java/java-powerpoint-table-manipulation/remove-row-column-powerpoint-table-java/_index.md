@@ -3,10 +3,16 @@ title: Καταργήστε τη γραμμή ή τη στήλη στον πίν
 linktitle: Καταργήστε τη γραμμή ή τη στήλη στον πίνακα PowerPoint χρησιμοποιώντας Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να αφαιρείτε γραμμές ή στήλες από πίνακες PowerPoint χρησιμοποιώντας Java με Aspose.Slides για Java. Εύκολος οδηγός βήμα προς βήμα για προγραμματιστές.
-type: docs
 weight: 18
 url: /el/java/java-powerpoint-table-manipulation/remove-row-column-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Καταργήστε τη γραμμή ή τη στήλη στον πίνακα PowerPoint χρησιμοποιώντας Java
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα διερευνήσουμε πώς να αφαιρέσετε μια γραμμή ή μια στήλη από έναν πίνακα PowerPoint χρησιμοποιώντας Java με τη βοήθεια του Aspose.Slides. Το Aspose.Slides για Java είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να δημιουργούν, να χειρίζονται και να μετατρέπουν παρουσιάσεις PowerPoint μέσω προγραμματισμού. Αυτό το σεμινάριο εστιάζει συγκεκριμένα στη διαδικασία τροποποίησης πινάκων σε διαφάνειες του PowerPoint, παρουσιάζοντας βήμα προς βήμα πώς να αφαιρέσετε συγκεκριμένες γραμμές ή στήλες από έναν πίνακα.
 ## Προαπαιτούμενα
@@ -74,3 +80,9 @@ pres.save(dataDir + "ModifiedTablePresentation.pptx", SaveFormat.Pptx);
 Ναι, το Aspose.Slides χρησιμοποιείται ευρέως σε εταιρικά περιβάλλοντα για την αυτοματοποίηση εργασιών PowerPoint λόγω των ισχυρών χαρακτηριστικών και της απόδοσής του.
 ### Μπορώ να δοκιμάσω το Aspose.Slides πριν από την αγορά;
  Ναι, μπορείτε να κάνετε λήψη μιας δωρεάν δοκιμής του Aspose.Slides από[εδώ](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

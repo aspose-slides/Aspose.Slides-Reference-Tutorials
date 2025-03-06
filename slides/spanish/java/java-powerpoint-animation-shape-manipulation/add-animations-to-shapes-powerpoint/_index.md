@@ -3,10 +3,16 @@ title: Agregar animaciones a formas en PowerPoint
 linktitle: Agregar animaciones a formas en PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda cómo agregar animaciones a formas en PowerPoint usando Aspose.Slides para Java con este tutorial detallado. Perfecto para crear presentaciones atractivas.
-type: docs
 weight: 10
 url: /es/java/java-powerpoint-animation-shape-manipulation/add-animations-to-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar animaciones a formas en PowerPoint
+
 ## Introducción
 Para crear presentaciones atractivas a menudo es necesario agregar animaciones a las formas y al texto. Las animaciones pueden hacer que tus diapositivas sean más dinámicas y cautivadoras, asegurando que tu audiencia permanezca interesada. En este tutorial, lo guiaremos a través del proceso de agregar animaciones a formas en una presentación de PowerPoint usando Aspose.Slides para Java. Al final de este artículo, podrás crear animaciones profesionales sin esfuerzo.
 ## Requisitos previos
@@ -108,3 +114,9 @@ Aspose.Slides es compatible con Java SE 6 y superior.
 Puede agregar diferentes animaciones a varias formas repitiendo los pasos para cada forma y especificando diferentes efectos según sea necesario.
 ### ¿Dónde puedo encontrar más ejemplos y documentación?
  Revisar la[documentación](https://reference.aspose.com/slides/java/) y[Foro de soporte](https://forum.aspose.com/c/slides/11)para más ejemplos y ayuda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 如何在 Aspose.Slides for .NET 中设置宏超链接单击
 linktitle: 使用宏管理超链接
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for .NET 在演示文稿中设置宏超链接。增强互动性并吸引观众。
-type: docs
 weight: 13
 url: /zh/net/hyperlink-manipulation/macro-hyperlink/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 如何在 Aspose.Slides for .NET 中设置宏超链接单击
+
 
 在现代软件开发领域，创建动态和交互式演示文稿是一个关键方面。Aspose.Slides for .NET 是一个功能强大的库，可让您无缝处理演示文稿。无论您是构建商业演示文稿还是教育幻灯片，设置宏超链接点击的功能都可以大大增强用户体验。在本分步指南中，我们将引导您完成使用 Aspose.Slides for .NET 设置宏超链接点击的过程。 
 
@@ -106,3 +112,9 @@ Aspose.Slides for .NET 允许您使用宏，但在演示文稿中使用宏时应
 
 ### 在哪里可以获得有关 Aspose.Slides for .NET 的帮助或支持？
 如果您遇到问题或有疑问，可以在 Aspose 支持论坛寻求帮助[这里](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

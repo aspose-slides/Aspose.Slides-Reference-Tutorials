@@ -3,10 +3,16 @@ title: Proprietà consigliate di sola lettura nelle diapositive Java
 linktitle: Proprietà consigliate di sola lettura nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come abilitare le proprietà consigliate di sola lettura nelle presentazioni Java PowerPoint utilizzando Aspose.Slides per Java. Segui la nostra guida passo passo con esempi di codice sorgente per una maggiore sicurezza della presentazione.
-type: docs
 weight: 17
 url: /it/java/presentation-properties/read-only-recommended-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Proprietà consigliate di sola lettura nelle diapositive Java
+
 
 ## Introduzione all'abilitazione delle proprietà consigliate di sola lettura nelle diapositive Java
 
@@ -88,3 +94,9 @@ pres.getProtectionManager().setPassword("YourPassword");
 ```
 
  Ricordarsi di sostituire`"YourPassword"` con la password desiderata.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

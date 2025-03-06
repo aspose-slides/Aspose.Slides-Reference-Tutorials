@@ -3,10 +3,16 @@ title: Đặt tùy chọn tùy chỉnh chú giải trong Java Slides
 linktitle: Đặt tùy chọn tùy chỉnh chú giải trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt tùy chọn chú giải tùy chỉnh trong Java Slides bằng Aspose.Slides for Java. Tùy chỉnh vị trí và kích thước chú giải trong biểu đồ PowerPoint của bạn.
-type: docs
 weight: 14
 url: /vi/java/customization-and-formatting/set-legend-custom-options-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt tùy chọn tùy chỉnh chú giải trong Java Slides
+
 
 ## Giới thiệu về Đặt tùy chọn tùy chỉnh chú giải trong Java Slides
 
@@ -131,3 +137,9 @@ Trong hướng dẫn này, chúng ta đã tìm hiểu cách tùy chỉnh các th
 ## Tôi có thể tùy chỉnh các thuộc tính chú giải khác không?
 
 Có, bạn có thể tùy chỉnh các thuộc tính khác nhau của chú giải, chẳng hạn như kiểu phông chữ, đường viền, màu nền, v.v. Khám phá tài liệu Aspose.Slides để biết thêm thông tin chi tiết về cách tùy chỉnh chú giải.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Manipulación de cuadros de texto de Java PowerPoint
 linktitle: Manipulación de cuadros de texto de Java PowerPoint
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Explore tutoriales completos para la manipulación de cuadros de texto de PowerPoint en Java con Aspose.Slides. Mejora tus presentaciones paso a paso con nuestras guías.
-type: docs
 weight: 20
 url: /es/java/java-powerpoint-text-box-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulación de cuadros de texto de Java PowerPoint
+
 ## Introducción
 
 Libere todo el potencial de sus presentaciones de PowerPoint con nuestros tutoriales de manipulación de cuadros de texto de PowerPoint en Java utilizando Aspose.Slides. Ya seas principiante o avanzado, nuestras guías detalladas te ayudarán a mejorar tus presentaciones sin esfuerzo.
@@ -52,3 +58,9 @@ Aprenda a personalizar los ángulos de rotación de marcos de texto en Java Powe
 Aprenda a aplicar formatos de relleno de viñetas en Java PowerPoint usando Aspose.Slides para Java. Domina los estilos de viñetas y mejora tus presentaciones.
 ### [Efecto de párrafo de cuadro de texto en Java PowerPoint](./effect-text-box-paragraph-java-powerpoint/)
 Aprenda cómo mejorar las presentaciones de PowerPoint en Java con efectos de texto dinámicos utilizando Aspose.Slides para una integración y personalización perfectas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

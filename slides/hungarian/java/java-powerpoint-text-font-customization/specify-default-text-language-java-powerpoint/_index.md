@@ -3,10 +3,16 @@ title: Adja meg az alapértelmezett szövegnyelvet a Java PowerPointban
 linktitle: Adja meg az alapértelmezett szövegnyelvet a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat meg alapértelmezett szövegnyelvet a Java PowerPointban az Aspose.Slides for Java segítségével. Tökéletes azoknak a fejlesztőknek, akik programozottan szeretnének lokalizálni szöveget.
-type: docs
 weight: 21
 url: /hu/java/java-powerpoint-text-font-customization/specify-default-text-language-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adja meg az alapértelmezett szövegnyelvet a Java PowerPointban
+
 ## Bevezetés
 A Java alkalmazásfejlesztés területén általános követelmény a PowerPoint prezentációk programozott kezelése és manipulálása. Az Aspose.Slides for Java olyan robusztus funkciókat kínál, amelyek lehetővé teszik a fejlesztők számára, hogy Java kódon keresztül zökkenőmentesen hozzanak létre, módosítsanak és javítsanak PowerPoint bemutatókat. Ennek az oktatóanyagnak az a célja, hogy végigvezeti Önt a Java PowerPoint prezentáció alapértelmezett szövegnyelvének Aspose.Slides segítségével történő megadásának alapvető lépésein.
 ## Előfeltételek
@@ -66,3 +72,9 @@ Teljesen. Az Aspose.Slides for Java méretezhetőségre és teljesítményre ké
 Igen, az Aspose.Slides for Java olyan API-kat kínál, amelyek támogatják a népszerű felhőplatformokkal való integrációt.
 ### Értékelhetem az Aspose.Slides for Java programot vásárlás előtt?
  Igen, letöltheti az Aspose.Slides for Java ingyenes próbaverzióját a következő webhelyről:[itt](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

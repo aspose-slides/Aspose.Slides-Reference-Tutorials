@@ -3,10 +3,16 @@ title: Obtenga carpetas de fuentes en PowerPoint usando Java
 linktitle: Obtenga carpetas de fuentes en PowerPoint usando Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a extraer carpetas de fuentes en presentaciones de PowerPoint usando Java con Aspose.Slides, mejorando sus capacidades de diseño de presentaciones.
-type: docs
 weight: 13
 url: /es/java/java-powerpoint-font-management/get-fonts-folders-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Obtenga carpetas de fuentes en PowerPoint usando Java
+
 ## Introducción
 En este tutorial, profundizaremos en el proceso de adquisición de carpetas de fuentes en presentaciones de PowerPoint usando Java. Las fuentes juegan un papel fundamental en el atractivo visual y la legibilidad de sus presentaciones. Al aprovechar Aspose.Slides para Java, podemos acceder de manera eficiente a los directorios de fuentes, lo cual es esencial para diversas operaciones relacionadas con fuentes dentro de las presentaciones de PowerPoint.
 ## Requisitos previos
@@ -46,3 +52,9 @@ Las carpetas de fuentes facilitan el acceso a los recursos de fuentes, lo que pe
  Puedes visitar el foro de Aspose.Slides.[aquí](https://forum.aspose.com/c/slides/11) buscar apoyo de la comunidad o del equipo de soporte de Aspose.
 ### ¿Dónde puedo comprar Aspose.Slides para Java?
  Puede comprar Aspose.Slides para Java desde el sitio web[aquí](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

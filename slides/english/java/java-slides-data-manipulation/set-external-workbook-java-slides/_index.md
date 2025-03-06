@@ -3,10 +3,16 @@ title: Set External Workbook in Java Slides
 linktitle: Set External Workbook in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to set external workbooks in Java Slides using Aspose.Slides for Java. Create dynamic presentations with Excel data integration.
-type: docs
 weight: 19
 url: /java/data-manipulation/set-external-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Set External Workbook in Java Slides
+
 
 ## Introduction to Set External Workbook in Java Slides
 
@@ -119,3 +125,10 @@ Aspose.Slides for Java is regularly updated to ensure compatibility with the lat
 ### Can I add multiple charts referencing the same external workbook?
 
 Yes, you can add multiple charts to your presentation, all referencing the same external workbook. Simply repeat the steps outlined in this tutorial for each chart you want to create.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Získejte skutečnou polohu štítku dat grafu v Java Slides
 linktitle: Získejte skutečnou polohu štítku dat grafu v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak získat skutečnou polohu štítků dat grafu v Java Slides pomocí Aspose.Slides for Java. Průvodce krok za krokem se zdrojovým kódem.
-type: docs
 weight: 18
 url: /cs/java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získejte skutečnou polohu štítku dat grafu v Java Slides
+
 
 ## Úvod k získání skutečné polohy štítku dat grafu v Java Slides
 
@@ -157,3 +163,9 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: مخطط القمع في شرائح جافا
 linktitle: مخطط القمع في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: استكشف Aspose.Slides لـ Java من خلال البرامج التعليمية خطوة بخطوة. قم بإنشاء مخططات تحويلية مذهلة والمزيد.
-type: docs
 weight: 14
 url: /ar/java/chart-elements/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مخطط القمع في شرائح جافا
+
 
 ## مقدمة إلى مخطط القمع في شرائح جافا
 
@@ -144,3 +150,9 @@ finally
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق الخاصة بـ Aspose.Slides لـ Java؟
 
  يمكنك العثور على المزيد من الأمثلة والوثائق التفصيلية حول استخدام Aspose.Slides لـ Java في[توثيق](https://docs.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

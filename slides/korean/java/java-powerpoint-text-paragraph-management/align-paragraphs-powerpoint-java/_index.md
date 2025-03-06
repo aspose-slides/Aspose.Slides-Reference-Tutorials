@@ -3,10 +3,16 @@ title: Java를 사용하여 PowerPoint에서 단락 정렬
 linktitle: Java를 사용하여 PowerPoint에서 단락 정렬
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 단락을 정렬하는 방법을 알아보세요. 정확한 형식 지정을 위해서는 단계별 가이드를 따르세요.
-type: docs
 weight: 17
 url: /ko/java/java-powerpoint-text-paragraph-management/align-paragraphs-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PowerPoint에서 단락 정렬
+
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 단락을 정렬하는 방법을 배웁니다. 슬라이드 내의 텍스트를 적절하게 정렬하면 가독성과 미적 매력이 향상되어 프레젠테이션이 더욱 전문적이고 매력적으로 만들어집니다. 이 가이드는 프로그래밍 방식으로 단락을 가운데 정렬하는 데 필요한 단계를 안내하여 슬라이드 전체에서 손쉽게 일관된 서식을 얻을 수 있도록 합니다.
 ## 전제 조건
@@ -72,3 +78,9 @@ pres.save(dataDir + "Centeralign_out.pptx", SaveFormat.Pptx);
 Aspose.Slides는 다양한 PowerPoint 형식을 지원하여 다양한 버전 간의 호환성을 보장합니다.
 ### 구매하기 전에 Aspose.Slides를 사용해 볼 수 있나요?
  예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Crear miniatura con límites para la forma en Aspose.Slides
 linktitle: Crear miniatura con límites para la forma en Aspose.Slides
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: ¡Desbloquee el poder de Aspose.Slides para .NET! Aprenda a crear miniaturas de formas sin esfuerzo con límites utilizando nuestra guía paso a paso.
-type: docs
 weight: 10
 url: /es/net/image-and-video-manipulation-in-slides/creating-thumbnail-bounds-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crear miniatura con límites para la forma en Aspose.Slides
+
 ## Introducción
 Si es un desarrollador de .NET y busca una solución sólida para crear imágenes en miniatura con límites para formas en presentaciones de PowerPoint, Aspose.Slides para .NET es su herramienta de referencia. Esta poderosa biblioteca proporciona una integración perfecta, lo que le permite manipular y extraer de manera eficiente información valiosa de archivos de PowerPoint. En este tutorial, recorreremos el proceso de creación de una miniatura con límites para una forma usando Aspose.Slides.
 ## Requisitos previos
@@ -60,3 +66,9 @@ Sí, Aspose.Slides se actualiza periódicamente para garantizar la compatibilida
  Visita el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11) para conectarse con la comunidad y buscar ayuda de desarrolladores experimentados.
 ### ¿Puedo obtener una licencia temporal para Aspose.Slides?
  Sí, puedes obtener una licencia temporal.[aquí](https://purchase.aspose.com/temporary-license/) para las necesidades de proyectos a corto plazo.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

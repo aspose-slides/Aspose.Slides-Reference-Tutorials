@@ -3,10 +3,16 @@ title: Java Slaytlarında Yazı Tipi Özelliklerini Ayarlama
 linktitle: Java Slaytlarında Yazı Tipi Özelliklerini Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak Java slaytlarında yazı tipi özelliklerini nasıl ayarlayacağınızı öğrenin. Bu adım adım kılavuz, kod örneklerini ve SSS'leri içerir.
-type: docs
 weight: 15
 url: /tr/java/customization-and-formatting/setting-font-properties-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarında Yazı Tipi Özelliklerini Ayarlama
+
 
 ## Java Slaytlarında Yazı Tipi Özelliklerini Ayarlamaya Giriş
 
@@ -137,3 +143,9 @@ for (ISlide slide : pres.getSlides()) {
     // Metin öğelerinin yazı tipi özelliklerine buradan erişin ve özelleştirin
 }
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

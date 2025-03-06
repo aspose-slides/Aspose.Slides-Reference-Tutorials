@@ -3,10 +3,16 @@ title: Trechterdiagram in Java-dia's
 linktitle: Trechterdiagram in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u trechterdiagrammen maakt in PowerPoint-presentaties met Aspose.Slides voor Java. Stap-voor-stap handleiding met broncode voor effectieve datavisualisatie.
-type: docs
 weight: 18
 url: /nl/java/chart-data-manipulation/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Trechterdiagram in Java-dia's
+
 
 ## Inleiding tot het maken van een trechterdiagram in Aspose.Slides voor Java
 
@@ -137,3 +143,9 @@ U kunt de positie en grootte van het trechterdiagram aanpassen door de coördina
 ### Kan ik het diagram naar verschillende formaten exporteren, zoals PDF of afbeelding?
 
 Ja, met Aspose.Slides voor Java kunt u de presentatie met het trechterdiagram exporteren naar verschillende formaten, waaronder PDF, afbeeldingsformaten en meer. U kunt gebruik maken van de`SaveFormat` opties om het gewenste uitvoerformaat op te geven bij het opslaan van de presentatie.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

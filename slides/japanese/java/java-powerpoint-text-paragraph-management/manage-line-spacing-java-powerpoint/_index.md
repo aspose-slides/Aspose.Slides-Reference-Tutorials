@@ -3,10 +3,16 @@ title: Java PowerPoint で行間隔を管理する
 linktitle: Java PowerPoint で行間隔を管理する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java PowerPoint プレゼンテーションの行間隔を簡単に管理する方法を学びます。スライドを強化します。
-type: docs
 weight: 12
 url: /ja/java/java-powerpoint-text-paragraph-management/manage-line-spacing-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint で行間隔を管理する
+
 ## 導入
 Java プログラミングでは、PowerPoint プレゼンテーション内の行間隔を管理することが、情報を効果的に伝える視覚的に魅力的なスライドを作成するために重要です。段落間のスペースを調整する場合でも、各段落の前後のスペースを制御する場合でも、Aspose.Slides for Java はこれらのタスクをシームレスに実行するための包括的なツールを提供します。
 ## 前提条件
@@ -62,3 +68,9 @@ Aspose.Slides は、PowerPoint プレゼンテーションの古い形式 (.ppt)
 はい、無料試用版は以下からダウンロードできます。[ここ](https://releases.aspose.com/).
 ### Aspose.Slides のテクニカル サポートを受けるにはどうすればよいですか?
 技術的なサポートについては、Aspose.Slidesをご覧ください。[サポートフォーラム](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

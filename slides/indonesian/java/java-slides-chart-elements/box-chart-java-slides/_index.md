@@ -3,10 +3,16 @@ title: Bagan Kotak di Slide Java
 linktitle: Bagan Kotak di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara membuat Bagan Kotak dalam presentasi Java dengan Aspose.Slides. Panduan langkah demi langkah dan kode sumber disertakan untuk visualisasi data yang efektif.
-type: docs
 weight: 10
 url: /id/java/chart-elements/box-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bagan Kotak di Slide Java
+
 
 ## Pengantar Bagan Kotak di Aspose.Slide untuk Java
 
@@ -148,3 +154,9 @@ Anda dapat menyesuaikan tampilan Bagan Kotak dengan memodifikasi properti sepert
 ### Apa yang dimaksud dengan QuartileMethodType.Exclusive?
 
  Itu`QuartileMethodType.Exclusive` pengaturan menetapkan bahwa penghitungan kuartil harus dilakukan menggunakan metode eksklusif. Anda dapat memilih metode penghitungan kuartil yang berbeda bergantung pada data dan kebutuhan Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

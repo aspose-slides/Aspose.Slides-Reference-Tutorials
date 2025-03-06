@@ -3,10 +3,16 @@ title: プレゼンテーションでの SVG のフォーマット
 linktitle: プレゼンテーションでの SVG のフォーマット
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用して、魅力的な SVG でプレゼンテーションを最適化します。インパクトのあるビジュアルのために SVG をフォーマットする方法をステップごとに学習します。今すぐプレゼンテーションのレベルを上げましょう。
-type: docs
 weight: 31
 url: /ja/net/presentation-manipulation/formatting-svgs-in-presentations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# プレゼンテーションでの SVG のフォーマット
+
 
 目を引く SVG シェイプを使用してプレゼンテーションを強化したいとお考えですか? Aspose.Slides for .NET は、これを実現するための究極のツールです。この包括的なチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーションで SVG シェイプをフォーマットするプロセスを順を追って説明します。提供されているソース コードに従って、プレゼンテーションを視覚的に魅力的な傑作に変身させましょう。
 
@@ -115,3 +121,10 @@ Aspose コミュニティ フォーラム (上記のリンク) にアクセス�
 視覚的に魅力的なプレゼンテーションを作成するには、デザインの一貫性を重視し、高品質のグラフィックを使用し、コンテンツを簡潔かつ魅力的に保ちます。このチュートリアルで説明されているように、さまざまな書式設定オプションを試してみてください。
 
 さあ、これらのテクニックを適用して、聴衆を魅了する素晴らしいプレゼンテーションを作成しましょう。
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Remove Unused Layout Master in Java Slides
 linktitle: Remove Unused Layout Master in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Remove Unused Layout Masters with Aspose.Slides. Step-by-step guide and code. Enhance presentation efficiency.
-type: docs
 weight: 10
 url: /java/additional-utilities/remove-unused-layout-master-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Remove Unused Layout Master in Java Slides
+
 
 ## Introduction to Remove Unused Layout Master in Java Slides
 
@@ -123,3 +129,10 @@ No, removing unused layout masters will not affect the formatting of your slides
 ### Where can I access the source code used in this article?
 
 You can find the source code used in this article within the code snippets provided in each step. Simply copy and paste the code into your Java project to implement the removal of unused layout masters in your presentations.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

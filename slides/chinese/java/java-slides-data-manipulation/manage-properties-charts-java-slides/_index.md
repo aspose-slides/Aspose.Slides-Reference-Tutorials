@@ -3,10 +3,16 @@ title: 在 Java 幻灯片中管理属性图表
 linktitle: 在 Java 幻灯片中管理属性图表
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 学习如何使用 Aspose.Slides 创建精美的图表并管理 Java 幻灯片中的属性。带有源代码的分步指南，可实现强大的演示文稿。
-type: docs
 weight: 13
 url: /zh/java/data-manipulation/manage-properties-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 幻灯片中管理属性图表
+
 
 ## 使用 Aspose.Slides 管理 Java Slides 中的属性和图表的简介
 
@@ -198,3 +204,9 @@ presentation.save(dataDir + "Rotation3D_out.pptx", SaveFormat.Pptx);
 ### 我还可以自定义哪些其他 3D 属性？
 
 您可以参考 Aspose.Slides 文档来探索图表的其他 3D 属性，例如深度、透视和照明。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

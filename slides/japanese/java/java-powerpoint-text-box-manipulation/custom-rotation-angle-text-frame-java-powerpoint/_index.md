@@ -3,10 +3,16 @@ title: Java PowerPoint のテキスト フレームのカスタム回転角度
 linktitle: Java PowerPoint のテキスト フレームのカスタム回転角度
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides を使用して Java PowerPoint のテキスト フレームの回転角度をカスタマイズする方法を学びます。プレゼンテーションを動的に強化します。
-type: docs
 weight: 14
 url: /ja/java/java-powerpoint-text-box-manipulation/custom-rotation-angle-text-frame-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint のテキスト フレームのカスタム回転角度
+
 ## 導入
 このチュートリアルでは、Aspose.Slides を使用して Java PowerPoint プレゼンテーションのテキスト フレームの回転角度を操作する方法について説明します。回転角度をカスタマイズすることは、スライド内のテキストの視覚的な魅力と明瞭さを高めるために重要です。動的なグラフを作成する場合でも、カスタム タイトルを追加する場合でも、テキスト フレームを正確に回転すると、プレゼンテーションの美観が大幅に向上します。
 ## 前提条件
@@ -64,3 +70,9 @@ Aspose.Slides for Java は、Java 開発者がプログラムによって PowerP
 はい、Aspose.Slides は、PowerPoint プレゼンテーションの作成と管理に関するエンタープライズ レベルの要件に対応するように設計されています。
 ### Aspose.Slides for Java のサポートを受けるにはどうすればよいですか?
 技術サポートやコミュニティ交流については、[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

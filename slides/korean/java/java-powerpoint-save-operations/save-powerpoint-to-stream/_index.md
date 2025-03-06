@@ -3,10 +3,16 @@ title: PowerPoint를 스트림에 저장
 linktitle: PowerPoint를 스트림에 저장
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션을 스트림에 저장하는 방법을 알아보세요. 원활한 통합을 위한 단계별 가이드를 따르세요.
-type: docs
 weight: 11
 url: /ko/java/java-powerpoint-save-operations/save-powerpoint-to-stream/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint를 스트림에 저장
+
 ## 소개
 Java 프로그래밍 영역에서 PowerPoint 프레젠테이션을 처리하는 것은 보고서 생성, 프레젠테이션 전달, 동적 콘텐츠 생성 등의 필수 작업입니다. Aspose.Slides for Java는 PowerPoint 파일을 원활하게 작업할 수 있는 강력한 도구 및 기능 세트를 제공합니다. 이 튜토리얼에서는 PowerPoint 프레젠테이션을 스트림에 저장하는 한 가지 기본적인 측면을 살펴보겠습니다. 각 단계를 단계별로 안내하여 프로세스를 명확하게 이해하고 시작하는 데 필요한 전제 조건과 가져오기 패키지를 제공합니다.
 ## 전제 조건
@@ -65,3 +71,9 @@ if (presentation != null) presentation.dispose();
  예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[웹사이트](https://releases.aspose.com/).
 ### Java용 Aspose.Slides에 대한 지원은 어디서 찾을 수 있나요?
  기술 지원 및 커뮤니티 지원을 받으려면 다음을 방문하세요.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

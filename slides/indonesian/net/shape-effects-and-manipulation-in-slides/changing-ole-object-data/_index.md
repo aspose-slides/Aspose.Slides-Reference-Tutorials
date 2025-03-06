@@ -3,10 +3,16 @@ title: Mengubah Data Objek OLE di Presentasi dengan Aspose.Slides
 linktitle: Mengubah Data Objek OLE di Presentasi dengan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Jelajahi kekuatan Aspose.Slides untuk .NET dalam mengubah data objek OLE dengan mudah. Sempurnakan presentasi Anda dengan konten dinamis.
-type: docs
 weight: 25
 url: /id/net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengubah Data Objek OLE di Presentasi dengan Aspose.Slides
+
 ## Perkenalan
 Membuat presentasi PowerPoint yang dinamis dan interaktif merupakan kebutuhan umum di dunia digital saat ini. Salah satu alat canggih untuk mencapai hal ini adalah Aspose.Slides untuk .NET, pustaka tangguh yang memungkinkan pengembang memanipulasi dan menyempurnakan presentasi PowerPoint secara terprogram. Dalam tutorial ini, kita akan mempelajari proses mengubah data objek OLE (Object Linking and Embedding) dalam slide presentasi menggunakan Aspose.Slides.
 ## Prasyarat
@@ -88,3 +94,9 @@ Aspose.Slides untuk .NET adalah pustaka canggih yang memungkinkan pengembang bek
  Ya, Anda dapat mengakses uji coba gratis[Di Sini](https://releases.aspose.com/).
 ### Di mana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk .NET?
  Untuk dukungan dan diskusi, kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

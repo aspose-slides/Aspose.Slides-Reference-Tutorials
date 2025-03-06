@@ -3,10 +3,16 @@ title: Fitur Bagan Tambahan
 linktitle: Fitur Bagan Tambahan
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Jelajahi fitur bagan tingkat lanjut di Aspose.Slides untuk .NET! Pelajari cara membuat bagan yang dinamis dan interaktif dengan gaya khusus, garis tren, dan banyak lagi. Tingkatkan presentasi Anda dengan visualisasi data yang canggih.
-type: docs
 weight: 24
 url: /id/net/additional-chart-features/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fitur Bagan Tambahan
+
 
 ## Perkenalan
 
@@ -32,3 +38,9 @@ Pelajari cara mengekstrak data bagan secara efisien menggunakan Aspose.Slides un
 Pelajari cara memulihkan buku kerja dari bagan menggunakan Aspose.Slides untuk .NET. Ekstrak data bagan dan buat buku kerja Excel secara terprogram.
 ### [Hapus Poin Data Seri Bagan Tertentu](./clear-specific-chart-series-data-points-data/)
 Pelajari cara menghapus titik data bagan tertentu di Aspose.Slides untuk .NET. Panduan langkah demi langkah dengan kode sumber disertakan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

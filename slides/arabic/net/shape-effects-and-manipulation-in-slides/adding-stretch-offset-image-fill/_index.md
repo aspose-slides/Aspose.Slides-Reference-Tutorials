@@ -3,10 +3,16 @@ title: إضافة إزاحة ممتدة لملء الصور في عروض PowerP
 linktitle: إضافة إزاحة ممتدة لملء الصور في الشرائح
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تحسين عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ .NET. اتبع دليل خطوة بخطوة لإضافة إزاحة امتداد لملء الصورة.
-type: docs
 weight: 18
 url: /ar/net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-fill/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إضافة إزاحة ممتدة لملء الصور في عروض PowerPoint التقديمية
+
 ## مقدمة
 في عالم العروض التقديمية الديناميكي، تلعب العناصر المرئية دورًا محوريًا في جذب انتباه الجمهور. يعمل Aspose.Slides for .NET على تمكين المطورين من تحسين عروض PowerPoint التقديمية الخاصة بهم من خلال توفير مجموعة قوية من الميزات. إحدى هذه الميزات هي القدرة على إضافة إزاحة ممتدة لملء الصورة، مما يسمح بشرائح إبداعية وجذابة بصريًا.
 ## المتطلبات الأساسية
@@ -71,3 +77,9 @@ pres.Save(dataDir + "AddStretchOffsetForImageFill_out.pptx", SaveFormat.Pptx);
  الرجوع إلى[توثيق](https://reference.aspose.com/slides/net/) للحصول على معلومات مفصلة.
 ### هل يمكنني شراء Aspose.Slides لـ .NET؟
  نعم يمكنك شراء المنتج[هنا](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

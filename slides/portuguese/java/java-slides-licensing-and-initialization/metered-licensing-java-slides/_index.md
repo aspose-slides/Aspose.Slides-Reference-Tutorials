@@ -3,10 +3,16 @@ title: Licenciamento medido em slides Java
 linktitle: Licenciamento medido em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Otimize seu Aspose.Slides para uso de Java com Licenciamento Medido. Aprenda como configurá-lo e monitorar o consumo da API.
-type: docs
 weight: 10
 url: /pt/java/licensing-and-initialization/metered-licensing-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Licenciamento medido em slides Java
+
 
 ## Introdução ao licenciamento medido em Aspose.Slides para Java
 
@@ -107,3 +113,10 @@ Se você exceder o limite medido, talvez seja necessário atualizar seu licencia
 ### Preciso de uma conexão com a Internet para licenciamento limitado?
 
 Sim, é necessária uma conexão com a Internet para definir e validar o licenciamento limitado.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

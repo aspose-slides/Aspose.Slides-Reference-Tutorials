@@ -3,10 +3,16 @@ title: Operasi Penyimpanan Java PowerPoint
 linktitle: Operasi Penyimpanan Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menyimpan presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Tutorial menyimpan ke file, streaming, dan menambahkan perlindungan kata sandi.
-type: docs
 weight: 20
 url: /id/java/java-powerpoint-save-operations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Operasi Penyimpanan Java PowerPoint
+
 
 ## Perkenalan
 
@@ -32,3 +38,9 @@ Pelajari cara menyimpan presentasi PowerPoint ke file secara terprogram mengguna
 Pelajari cara menyimpan presentasi PowerPoint ke aliran menggunakan Aspose.Slides untuk Java. Ikuti panduan langkah demi langkah kami untuk integrasi yang lancar.
 ### [Simpan PowerPoint dengan Kata Sandi](./save-powerpoint-with-password/)
 Pelajari cara menambahkan perlindungan kata sandi ke presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Amankan slide Anda dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

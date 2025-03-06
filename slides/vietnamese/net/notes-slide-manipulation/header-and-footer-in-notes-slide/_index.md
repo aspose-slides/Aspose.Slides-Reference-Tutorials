@@ -3,10 +3,16 @@ title: Quản lý đầu trang và chân trang trong ghi chú với Aspose.Slide
 linktitle: Quản lý Header và Footer trong Notes Slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách quản lý đầu trang và chân trang trong các trang ghi chú PowerPoint bằng Aspose.Slides cho .NET. Cải thiện bài thuyết trình của bạn một cách dễ dàng.
-type: docs
 weight: 11
 url: /vi/net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Quản lý đầu trang và chân trang trong ghi chú với Aspose.Slides .NET
+
 
 Trong thời đại kỹ thuật số ngày nay, việc tạo ra những bài thuyết trình hấp dẫn và giàu thông tin là một kỹ năng quan trọng. Là một phần của quá trình này, bạn thường có thể cần đưa đầu trang và chân trang vào các trang ghi chú của mình để cung cấp thêm ngữ cảnh và thông tin. Aspose.Slides for .NET là một công cụ mạnh mẽ cho phép bạn quản lý cài đặt đầu trang và chân trang trong các trang ghi chú một cách dễ dàng. Trong hướng dẫn từng bước này, chúng ta sẽ khám phá cách đạt được điều này bằng cách sử dụng Aspose.Slides cho .NET.
 
@@ -120,3 +126,9 @@ Hoàn toàn có thể, Aspose.Slides for .NET cho phép bạn tự động hóa 
 
 ### Có hỗ trợ kỹ thuật cho Aspose.Slides dành cho người dùng .NET không?
  Có, bạn có thể tìm thấy sự hỗ trợ và trợ giúp từ cộng đồng Aspose và các chuyên gia về[Diễn đàn hỗ trợ Aspose](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

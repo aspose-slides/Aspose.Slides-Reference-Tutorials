@@ -3,10 +3,16 @@ title: OLE Nesneleri Kılavuzunu Aspose.Slides for .NET'e Gömme
 linktitle: Sunum Slaytlarında OLE Nesne Çerçevesinin Resim Başlığını Değiştirme
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak sunum slaytlarınızı dinamik OLE nesneleriyle nasıl geliştireceğinizi öğrenin. Sorunsuz entegrasyon için adım adım kılavuzumuzu izleyin.
-type: docs
 weight: 15
 url: /tr/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# OLE Nesneleri Kılavuzunu Aspose.Slides for .NET'e Gömme
+
 ## giriiş
 Dinamik ve ilgi çekici sunum slaytları oluşturmak genellikle çeşitli multimedya öğelerinin dahil edilmesini içerir. Bu eğitimde, güçlü Aspose.Slides for .NET kütüphanesini kullanarak bir OLE (Nesne Bağlama ve Gömme) Nesne Çerçevesinin resim başlığını sunum slaytlarında nasıl değiştireceğimizi keşfedeceğiz. Aspose.Slides, OLE nesnelerini işleme sürecini basitleştirerek geliştiricilere sunumlarını kolaylıkla geliştirebilecekleri araçlar sağlar.
 ## Önkoşullar
@@ -83,3 +89,9 @@ En son sürümden itibaren Aspose.Slides, OLE nesnesi yerleştirme ve görüntü
 Kesinlikle. OLE nesneleri üzerinde tam programatik denetime sahip olursunuz ve bu sayede özelliklerini ve görünümlerini gerektiği gibi değiştirebilirsiniz.
 ### Katıştırılmış OLE nesnelerinin boyutunda herhangi bir sınırlama var mı?
 Boyut sınırlamaları olsa da genellikle cömerttirler. Optimum performans sağlamak için özel kullanım durumunuzla test etmeniz önerilir.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

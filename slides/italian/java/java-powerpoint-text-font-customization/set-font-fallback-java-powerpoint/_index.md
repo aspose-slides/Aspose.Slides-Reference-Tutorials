@@ -3,10 +3,16 @@ title: Imposta il fallback dei caratteri in Java PowerPoint
 linktitle: Imposta il fallback dei caratteri in Java PowerPoint
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come impostare i fallback dei caratteri in Java PowerPoint utilizzando Aspose.Slides per Java per garantire una visualizzazione coerente del testo.
-type: docs
 weight: 16
 url: /it/java/java-powerpoint-text-font-customization/set-font-fallback-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Imposta il fallback dei caratteri in Java PowerPoint
+
 ## introduzione
 In questo tutorial, approfondiremo le complessità dell'impostazione dei fallback dei caratteri nelle presentazioni Java PowerPoint utilizzando Aspose.Slides per Java. I fallback dei caratteri sono fondamentali per garantire che il testo nelle presentazioni venga visualizzato correttamente su diversi dispositivi e sistemi operativi, anche quando i caratteri richiesti non sono disponibili.
 ## Prerequisiti
@@ -53,3 +59,9 @@ Sì, Aspose.Slides per Java è compatibile con i più diffusi IDE Java come Inte
 Sì, è possibile ottenere licenze temporanee per i prodotti Aspose[Qui](https://purchase.aspose.com/temporary-license/).
 ### Dove posso trovare supporto per Aspose.Slides per Java?
  Per il supporto relativo ad Aspose.Slides per Java, visitare il[Aspose forum](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

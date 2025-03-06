@@ -3,10 +3,16 @@ title: Thuộc tính phông chữ trong PowerPoint với Java
 linktitle: Thuộc tính phông chữ trong PowerPoint với Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thao tác các thuộc tính phông chữ trong bản trình bày PowerPoint bằng Java với Aspose.Slides for Java. Tùy chỉnh phông chữ dễ dàng với hướng dẫn từng bước này.
-type: docs
 weight: 11
 url: /vi/java/java-powerpoint-font-management/font-properties-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thuộc tính phông chữ trong PowerPoint với Java
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách thao tác các thuộc tính phông chữ trong bản trình bày PowerPoint bằng Java, cụ thể là với Aspose.Slides cho Java. Chúng tôi sẽ hướng dẫn bạn qua từng bước, từ nhập các gói cần thiết đến lưu bản trình bày đã sửa đổi của bạn. Hãy đi sâu vào!
 ## Điều kiện tiên quyết
@@ -81,3 +87,9 @@ Có, Aspose.Slides for Java cung cấp nhiều tùy chọn hiệu ứng văn b�
  Có, bạn có thể tải xuống phiên bản dùng thử miễn phí từ[đây](https://releases.aspose.com/).
 ### Tôi có thể tìm thêm hỗ trợ và tài nguyên cho Aspose.Slides cho Java ở đâu?
  Bạn có thể truy cập diễn đàn Aspose.Slides[đây](https://forum.aspose.com/c/slides/11) để được hỗ trợ và tài liệu[đây](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

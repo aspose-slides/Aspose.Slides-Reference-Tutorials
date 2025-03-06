@@ -3,10 +3,16 @@ title: Importer du contenu PDF dans des présentations
 linktitle: Importer du contenu PDF dans des présentations
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment importer de manière transparente du contenu PDF dans des présentations à l'aide d'Aspose.Slides pour .NET. Ce guide étape par étape avec le code source vous aidera à améliorer vos présentations en intégrant du contenu PDF externe.
-type: docs
 weight: 24
 url: /fr/net/presentation-manipulation/import-pdf-content-into-presentations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Importer du contenu PDF dans des présentations
+
 
 ## Introduction
 L'intégration de contenu provenant de diverses sources dans vos présentations peut améliorer les aspects visuels et informatifs de vos diapositives. Aspose.Slides for .NET fournit une solution robuste pour importer du contenu PDF dans des présentations, vous permettant d'améliorer vos diapositives avec des informations externes. Dans ce guide complet, nous vous guiderons tout au long du processus d'importation de contenu PDF à l'aide d'Aspose.Slides pour .NET. Avec des instructions détaillées étape par étape et des exemples de code source, vous serez en mesure d'intégrer de manière transparente du contenu PDF dans vos présentations.
@@ -67,3 +73,9 @@ Absolument. Aspose.Slides offre une large gamme de fonctionnalités pour créer 
 
 ## Conclusion
 L'intégration de contenu PDF dans des présentations à l'aide d'Aspose.Slides pour .NET est un moyen puissant d'améliorer vos diapositives avec des informations externes. En suivant le guide étape par étape et en utilisant les exemples de code source fournis, vous pouvez importer en toute transparence du contenu PDF et créer des présentations combinant diverses sources d'informations.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Thêm Khung ảnh Chiều cao Tỷ lệ Tương đối trong PowerPoint
 linktitle: Thêm Khung ảnh Chiều cao Tỷ lệ Tương đối trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm khung ảnh có chiều cao tỷ lệ tương đối trong bản trình bày PowerPoint bằng Aspose.Slides cho Java, nâng cao nội dung trực quan của bạn.
-type: docs
 weight: 15
 url: /vi/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-picture-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm Khung ảnh Chiều cao Tỷ lệ Tương đối trong PowerPoint
+
 ## Giới thiệu
 Trong hướng dẫn này, bạn sẽ tìm hiểu cách thêm khung ảnh có chiều cao tỷ lệ tương đối trong bản trình bày PowerPoint bằng Aspose.Slides cho Java.
 ## Điều kiện tiên quyết
@@ -68,3 +74,9 @@ Aspose.Slides for Java tương thích với nhiều phiên bản PowerPoint khá
 Có, Aspose.Slides cho Java hỗ trợ nhiều định dạng hình ảnh khác nhau, bao gồm PNG, GIF, BMP, v.v.
 ### Có diễn đàn cộng đồng hoặc kênh hỗ trợ nào dành cho người dùng Aspose.Slides không?
 Có, bạn có thể truy cập diễn đàn Aspose.Slides nếu có bất kỳ câu hỏi, thảo luận hoặc hỗ trợ nào về thư viện.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

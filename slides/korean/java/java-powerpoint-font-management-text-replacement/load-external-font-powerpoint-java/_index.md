@@ -3,10 +3,16 @@ title: Java를 사용하여 PowerPoint에서 외부 글꼴 로드
 linktitle: Java를 사용하여 PowerPoint에서 외부 글꼴 로드
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에 사용자 정의 글꼴을 로드하는 방법을 알아보세요. 독특한 타이포그래피로 슬라이드를 향상시켜 보세요.
-type: docs
 weight: 10
 url: /ko/java/java-powerpoint-font-management-text-replacement/load-external-font-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PowerPoint에서 외부 글꼴 로드
+
 ## 소개
 이 튜토리얼에서는 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에 외부 글꼴을 로드하는 과정을 안내합니다. 사용자 정의 글꼴은 프레젠테이션에 독특한 느낌을 더해 다양한 플랫폼에서 일관된 브랜딩이나 스타일 선호를 보장할 수 있습니다.
 ## 전제 조건
@@ -63,3 +69,9 @@ Aspose.Slides for Java는 현재 TrueType(.ttf) 글꼴 로드만 지원합니다
 글꼴 파일이 트루타입(.ttf) 형식이고 적절한 크기 제한 내에 있으면 성공적으로 로드할 수 있습니다.
 ### 외부 글꼴을 로드하면 다른 PowerPoint 버전과의 프레젠테이션 호환성에 영향이 있습니까?
 아니요. 글꼴이 외부에 포함되거나 로드되는 한 프레젠테이션은 다양한 PowerPoint 버전 간에 호환됩니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

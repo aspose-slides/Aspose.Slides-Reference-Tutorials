@@ -3,10 +3,16 @@ title: Stel het opsommingstekenformaat in SmartArt in met behulp van Java
 linktitle: Stel het opsommingstekenformaat in SmartArt in met behulp van Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u het opmaakformaat voor opsommingstekens in SmartArt instelt met behulp van Java met Aspose.Slides. Stapsgewijze handleiding voor efficiënte presentatiemanipulatie.
-type: docs
 weight: 18
 url: /nl/java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stel het opsommingstekenformaat in SmartArt in met behulp van Java
+
 ## Invoering
 Op het gebied van Java-programmeren is de efficiënte manipulatie van presentaties een veel voorkomende vereiste, vooral als het om SmartArt-elementen gaat. Aspose.Slides voor Java blijkt een krachtig hulpmiddel voor dergelijke taken en biedt een scala aan functionaliteiten om presentaties programmatisch af te handelen. In deze zelfstudie gaan we stap voor stap in op het proces van het instellen van de opsommingstekens in SmartArt met behulp van Java met Aspose.Slides.
 ## Vereisten
@@ -71,3 +77,9 @@ Met Aspose.Slides kunt u elk aspect van SmartArt-vormen aanpassen, inclusief lay
  Ja, u kunt de functies van Aspose.Slides verkennen met een gratis proefperiode. Download het eenvoudig via de[website](https://releases.aspose.com/slides/java/) en begin met verkennen.
 ### Waar kan ik ondersteuning vinden voor Aspose.Slides voor Java?
  Voor vragen of hulp kunt u het Aspose.Slides-forum bezoeken op[deze link](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

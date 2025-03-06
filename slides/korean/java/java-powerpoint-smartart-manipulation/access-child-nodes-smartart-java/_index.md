@@ -3,10 +3,16 @@ title: Java를 사용하여 SmartArt의 하위 노드에 액세스
 linktitle: Java를 사용하여 SmartArt의 하위 노드에 액세스
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: 이 단계별 가이드를 통해 Java용 Aspose.Slides를 사용하여 SmartArt의 하위 노드에 액세스하고 조작하는 방법을 알아보세요.
-type: docs
 weight: 10
 url: /ko/java/java-powerpoint-smartart-manipulation/access-child-nodes-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 SmartArt의 하위 노드에 액세스
+
 ## 소개
 프레젠테이션에서 SmartArt 그래픽을 프로그래밍 방식으로 조작하는 방법이 궁금하신가요? Aspose.Slides for Java는 PowerPoint 프레젠테이션을 관리하고 편집하기 위한 라이브러리입니다. 이 강력한 도구를 사용하면 개발자는 SmartArt 그래픽을 포함하여 프레젠테이션 내의 다양한 요소에 액세스하고 조작할 수 있습니다. 이 자습서에서는 Java를 사용하여 SmartArt의 하위 노드에 액세스하여 프레젠테이션을 더욱 동적이고 대화형으로 만드는 방법을 안내합니다. 이 가이드를 마치면 SmartArt 노드를 쉽게 탐색하고 조작할 수 있는 지식을 갖추게 됩니다.
 ## 전제 조건
@@ -81,3 +87,9 @@ if (pres != null) pres.dispose();
  문서를 사용할 수 있습니다[여기](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java 개발에 가장 적합한 IDE는 무엇입니까?
 IntelliJ IDEA와 Eclipse는 Aspose.Slides for Java와 잘 작동하는 널리 사용되는 IDE입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

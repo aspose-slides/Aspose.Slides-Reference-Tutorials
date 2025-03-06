@@ -3,10 +3,16 @@ title: Grafik Normal di Slide Java
 linktitle: Grafik Normal di Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Buat Bagan Normal di Slide Java dengan Aspose.Slides untuk Java. Panduan langkah demi langkah dan kode sumber untuk membuat, menyesuaikan, dan menyimpan bagan dalam presentasi PowerPoint.
-type: docs
 weight: 21
 url: /id/java/chart-data-manipulation/normal-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Grafik Normal di Slide Java
+
 
 ## Pengantar Grafik Normal di Slide Java
 
@@ -240,3 +246,9 @@ Dalam tutorial ini, kita telah mempelajari cara membuat grafik normal di Java Sl
 ### Bagaimana cara menyimpan grafik ke format file lain?
 
  Untuk menyimpan bagan ke format file lain, ubah`SaveFormat` parameter di`pres.save()` metode ke format yang diinginkan (misalnya, PDF, PNG, JPEG).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

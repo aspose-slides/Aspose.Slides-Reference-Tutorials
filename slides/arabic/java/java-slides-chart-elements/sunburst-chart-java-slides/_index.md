@@ -3,10 +3,16 @@ title: مخطط Sunburst في شرائح Java
 linktitle: مخطط Sunburst في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: أنشئ مخططات Sunburst مذهلة في شرائح Java باستخدام Aspose.Slides. تعلم كيفية إنشاء المخططات خطوة بخطوة ومعالجة البيانات.
-type: docs
 weight: 16
 url: /ar/java/chart-elements/sunburst-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# مخطط Sunburst في شرائح Java
+
 
 ## مقدمة إلى مخطط Sunburst في شرائح Java باستخدام Aspose.Slides
 
@@ -168,3 +174,9 @@ finally
 ### هل من الممكن إنشاء مخططات Sunburst تفاعلية باستخدام الارتباطات التشعبية؟
 
 نعم، يمكنك إنشاء مخططات Sunburst تفاعلية باستخدام ارتباطات تشعبية عن طريق إضافة ارتباطات تشعبية إلى عناصر أو مقاطع مخطط محددة. راجع وثائق Aspose.Slides للحصول على تفاصيل حول إضافة الارتباطات التشعبية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

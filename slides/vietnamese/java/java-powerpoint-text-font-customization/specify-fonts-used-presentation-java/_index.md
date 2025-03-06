@@ -3,10 +3,16 @@ title: Chỉ định phông chữ được sử dụng trong bản trình bày v
 linktitle: Chỉ định phông chữ được sử dụng trong bản trình bày với Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách chỉ định phông chữ tùy chỉnh trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Dễ dàng cải thiện các trang trình bày của bạn bằng kiểu chữ độc đáo.
-type: docs
 weight: 22
 url: /vi/java/java-powerpoint-text-font-customization/specify-fonts-used-presentation-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chỉ định phông chữ được sử dụng trong bản trình bày với Java
+
 ## Giới thiệu
 Trong thời đại kỹ thuật số ngày nay, việc tạo ra các bài thuyết trình hấp dẫn về mặt hình ảnh là rất quan trọng để giao tiếp hiệu quả trong kinh doanh cũng như trong học viện. Aspose.Slides for Java cung cấp một nền tảng mạnh mẽ cho các nhà phát triển Java để tạo và thao tác linh hoạt các bản trình bày PowerPoint. Hướng dẫn này sẽ hướng dẫn bạn quy trình chỉ định phông chữ được sử dụng trong bản trình bày bằng Aspose.Slides cho Java. Cuối cùng, bạn sẽ được trang bị kiến thức để tích hợp liền mạch các phông chữ tùy chỉnh vào các dự án PowerPoint của mình, nâng cao sức hấp dẫn trực quan của chúng và đảm bảo tính nhất quán của thương hiệu.
 ## Điều kiện tiên quyết
@@ -71,3 +77,9 @@ Có, bạn có thể chỉ định phông chữ ở nhiều cấp độ khác nh
 Aspose.Slides không áp đặt các giới hạn nghiêm ngặt về số lượng phông chữ tùy chỉnh; tuy nhiên, hãy xem xét ý nghĩa hiệu suất.
 ### Tôi có thể tải phông chữ động trong thời gian chạy mà không cần nhúng chúng vào ứng dụng của mình không?
 Có, bạn có thể tải phông chữ từ nguồn bên ngoài hoặc bộ nhớ như được minh họa trong hướng dẫn này.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

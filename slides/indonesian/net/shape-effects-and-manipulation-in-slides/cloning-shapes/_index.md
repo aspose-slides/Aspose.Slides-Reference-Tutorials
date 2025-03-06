@@ -3,10 +3,16 @@ title: Mengkloning Bentuk dalam Slide Presentasi dengan Aspose.Slides
 linktitle: Mengkloning Bentuk dalam Slide Presentasi dengan Aspose.Slides
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengkloning bentuk secara efisien dalam slide presentasi menggunakan Aspose.Slides API. Buat presentasi dinamis dengan mudah. Jelajahi panduan langkah demi langkah, FAQ, dan banyak lagi.
-type: docs
 weight: 27
 url: /id/net/shape-effects-and-manipulation-in-slides/cloning-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mengkloning Bentuk dalam Slide Presentasi dengan Aspose.Slides
+
 
 ## Perkenalan
 
@@ -97,3 +103,9 @@ Bentuk kloning mempertahankan interaksi dan hyperlinknya dari bentuk sumber. And
 ## Kesimpulan
 
 Membuka kekuatan kloning bentuk dalam slide presentasi dengan Aspose.Slides membuka dunia kemungkinan kreatif bagi pembuat konten dan pengembang. Panduan ini telah memandu Anda melalui prosesnya, mulai dari instalasi hingga penyesuaian tingkat lanjut, memberi Anda alat yang Anda perlukan untuk membuat presentasi Anda menonjol. Dengan Aspose.Slides, Anda dapat menyederhanakan alur kerja dan mewujudkan visi presentasi Anda dengan mudah.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

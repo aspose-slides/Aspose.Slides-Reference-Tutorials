@@ -3,10 +3,16 @@ title: एम्बेडेड फ़ॉन्ट्स के साथ प्
 linktitle: एम्बेडेड फ़ॉन्ट्स के साथ प्रस्तुतियों को HTML में बदलें
 second_title: Aspose.Slides .NET पावरपॉइंट प्रोसेसिंग API
 description: .NET के लिए Aspose.Slides का उपयोग करके एम्बेडेड फ़ॉन्ट के साथ PowerPoint प्रस्तुतियों को HTML में बदलें। मौलिकता को सहजता से बनाए रखें।
-type: docs
 weight: 13
 url: /hi/net/presentation-conversion/convert-presentations-to-html-with-embedded-fonts/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# एम्बेडेड फ़ॉन्ट्स के साथ प्रस्तुतियों को HTML में बदलें
+
 
 आज के डिजिटल युग में, ऑनलाइन प्रस्तुतियाँ और दस्तावेज़ साझा करना एक आम बात हो गई है। हालाँकि, एक चुनौती जो अक्सर सामने आती है वह यह सुनिश्चित करना है कि प्रस्तुतियों को HTML में परिवर्तित करते समय आपके फ़ॉन्ट सही ढंग से प्रदर्शित हों। यह चरण-दर-चरण ट्यूटोरियल आपको एम्बेडेड फ़ॉन्ट के साथ प्रस्तुतियों को HTML में बदलने के लिए Aspose.Slides for .NET का उपयोग करने की प्रक्रिया के माध्यम से मार्गदर्शन करेगा, यह सुनिश्चित करते हुए कि आपके दस्तावेज़ वैसे ही दिखें जैसे आप चाहते थे।
 
@@ -120,3 +126,10 @@ pres.Save("pres.html", SaveFormat.Html, htmlOptionsEmbed);
 ### 5. मैं Aspose.Slides for .NET के लिए अतिरिक्त संसाधन और समर्थन कहां पा सकता हूं?
 
  आप दस्तावेज़ों सहित संसाधनों के भंडार तक पहुँच सकते हैं[.NET API संदर्भ के लिए Aspose.Slides](https://reference.aspose.com/slides/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

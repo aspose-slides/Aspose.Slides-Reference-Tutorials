@@ -3,10 +3,16 @@ title: استنساخ الشريحة في الموضع المحدد في PowerPo
 linktitle: استنساخ الشريحة في الموضع المحدد في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: يمكنك استنساخ شرائح PowerPoint في مواضع محددة بسهولة باستخدام Aspose.Slides لـ Java. دليل مفصل خطوة بخطوة للمبتدئين والخبراء.
-type: docs
 weight: 10
 url: /ar/java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-position-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# استنساخ الشريحة في الموضع المحدد في PowerPoint
+
 ## مقدمة
 هل أنت مستعد لتكثيف لعبة PowerPoint الخاصة بك؟ سواء كنت مطورًا ذا خبرة أو مبتدئًا يحاول أتمتة معالجة الشرائح، فقد وصلت إلى المكان الصحيح. في هذا البرنامج التعليمي، سنرشدك خلال عملية استنساخ الشرائح في موضع محدد في عرض PowerPoint التقديمي باستخدام Aspose.Slides for Java. اربطوا حزام الأمان، ودعنا نتعمق في هذه الرحلة معًا!
 ## المتطلبات الأساسية
@@ -80,3 +86,9 @@ destPres.save(dataDir + "CloneAnotherPresentationAtSpecifiedPosition_out.pptx", 
 يوفر Aspose.Slides ميزات قوية ووثائق شاملة ودعمًا ممتازًا، مما يجعله الخيار المفضل لمعالجة PowerPoint.
 ### أين يمكنني العثور على المزيد من البرامج التعليمية على Aspose.Slides؟
  تفحص ال[توثيق](https://reference.aspose.com/slides/java/) للحصول على دروس وأمثلة شاملة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

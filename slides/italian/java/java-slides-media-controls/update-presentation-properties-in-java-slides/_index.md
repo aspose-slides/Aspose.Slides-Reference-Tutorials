@@ -3,10 +3,16 @@ title: Aggiorna le proprietà della presentazione nelle diapositive Java
 linktitle: Aggiorna le proprietà della presentazione nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Scopri come aggiornare le proprietà della presentazione nelle diapositive Java utilizzando Aspose.Slides per Java. Personalizza autore, titolo e altro per presentazioni di grande impatto.
-type: docs
 weight: 13
 url: /it/java/media-controls/update-presentation-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aggiorna le proprietà della presentazione nelle diapositive Java
+
 
 ## Introduzione all'aggiornamento delle proprietà della presentazione nelle diapositive Java
 
@@ -112,3 +118,9 @@ Sì, Aspose.Slides per Java può essere utilizzato sia per progetti personali ch
 ### Come posso accedere alla documentazione di Aspose.Slides per Java?
 
  È possibile accedere alla documentazione per Aspose.Slides per Java visitando il seguente collegamento:[Aspose.Slides per la documentazione Java](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

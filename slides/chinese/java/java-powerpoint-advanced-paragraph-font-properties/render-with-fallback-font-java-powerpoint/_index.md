@@ -3,10 +3,16 @@ title: 在 Java PowerPoint 中使用后备字体进行渲染
 linktitle: 在 Java PowerPoint 中使用后备字体进行渲染
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 在 Java PowerPoint 演示文稿中使用后备字体渲染文本。按照此分步指南进行无缝实施。
-type: docs
 weight: 13
 url: /zh/java/java-powerpoint-advanced-paragraph-font-properties/render-with-fallback-font-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java PowerPoint 中使用后备字体进行渲染
+
 ## 介绍
 使用 Java 创建和操作 PowerPoint 演示文稿可能具有挑战性，但使用 Aspose.Slides，您可以高效地完成此操作。一个关键功能是能够使用后备字体渲染文本。本文提供了详细的分步指南，介绍如何使用 Aspose.Slides for Java 在 PowerPoint 幻灯片中实现后备字体。
 ## 先决条件
@@ -88,3 +94,9 @@ Aspose.Slides for Java 是一个库，允许开发人员在 Java 应用程序中
 是的，您可以添加多个后备规则来处理不同的 Unicode 范围和字体。
 ### 我可以在哪里获得 Aspose.Slides 的支持？
 您可以从[Aspose.Slides 支持论坛](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

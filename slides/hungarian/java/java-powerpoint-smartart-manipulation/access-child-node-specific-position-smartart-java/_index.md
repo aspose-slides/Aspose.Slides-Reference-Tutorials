@@ -3,10 +3,16 @@ title: Az utódcsomópont elérése a SmartArt adott pozíciójában
 linktitle: Az utódcsomópont elérése a SmartArt adott pozíciójában
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ebből a részletes útmutatóból tanulja meg a SmartArt kezelését az Aspose.Slides for Java programban. Részletes utasításokat, példákat és bevált gyakorlatokat tartalmaz.
-type: docs
 weight: 11
 url: /hu/java/java-powerpoint-smartart-manipulation/access-child-node-specific-position-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Az utódcsomópont elérése a SmartArt adott pozíciójában
+
 ## Bevezetés
 Új szintre szeretné emelni prezentációit kifinomult SmartArt grafikával? Ne keressen tovább! Az Aspose.Slides for Java hatékony csomagot kínál prezentációs diák létrehozásához, kezeléséhez és kezeléséhez, beleértve a SmartArt objektumokkal való munkavégzés lehetőségét is. Ebben az átfogó oktatóanyagban végigvezetjük a SmartArt-grafikon belüli egy adott pozícióban lévő gyermekcsomópont elérésén és kezelésén az Aspose.Slides for Java könyvtár használatával.
 
@@ -98,3 +104,9 @@ Gratulálunk! Sikeresen elért és kezelt egy utódcsomópontot egy SmartArt-gra
  Támogatást kaphat a[Aspose közösségi fórum](https://forum.aspose.com/c/slides/11) vagy utaljon a kiterjedtre[dokumentáció](https://reference.aspose.com/slides/java/).
 ### Vásárolhatok teljes licencet az Aspose.Slides for Java számára?
  Igen, vásárolhat teljes licencet a[vásárlási oldal](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

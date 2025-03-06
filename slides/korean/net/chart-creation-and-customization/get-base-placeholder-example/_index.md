@@ -3,10 +3,16 @@ title: 기본 자리 표시자 예 가져오기
 linktitle: 기본 자리 표시자 예 가져오기
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: C#에서 PowerPoint 프레젠테이션 작업을 위한 강력한 라이브러리인 Aspose.Slides for .NET을 살펴보세요. 손쉽게 동적 슬라이드를 만드는 방법을 알아보세요.
-type: docs
 weight: 13
 url: /ko/net/chart-creation-and-customization/get-base-placeholder-example/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 기본 자리 표시자 예 가져오기
+
 
 .NET 개발 세계에서는 역동적이고 매력적인 PowerPoint 프레젠테이션을 만드는 것이 일반적인 요구 사항입니다. Aspose.Slides for .NET은 개발자가 PowerPoint 파일을 원활하게 사용할 수 있게 해주는 강력한 라이브러리입니다. 이 단계별 가이드에서는 Aspose.Slides for .NET을 시작하는 과정을 안내하고 각 예를 여러 단계로 나누어 설명합니다. 이 튜토리얼을 마치면 .NET용 Aspose.Slides의 기능을 활용하여 멋진 프레젠테이션을 만들 수 있는 준비를 갖추게 될 것입니다. 뛰어들어보자!
 
@@ -128,3 +134,9 @@ Aspose.Slides for .NET은 .NET 애플리케이션에서 PowerPoint 프레젠테�
 
 ### 5. Aspose.Slides for .NET에 대한 지원이나 질문은 어디서 받을 수 있나요?
  지원 및 토론을 위해 Aspose.Slides for .NET 포럼을 방문하세요.[여기](https://forum.aspose.com/). Aspose 커뮤니티와 연결하고 도움을 받을 수 있는 좋은 장소입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

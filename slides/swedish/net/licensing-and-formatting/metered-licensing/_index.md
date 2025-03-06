@@ -3,10 +3,16 @@ title: Uppmätt licensanvändning
 linktitle: Uppmätt licensanvändning
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du effektivt använder Metered Licensing med Aspose.Slides för .NET. Integrera APIer sömlöst samtidigt som du betalar för faktisk användning.
-type: docs
 weight: 11
 url: /sv/net/licensing-and-formatting/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uppmätt licensanvändning
+
 
 ## Introduktion
 
@@ -114,3 +120,9 @@ Aspose.Slides för .NET är ett kraftfullt bibliotek som gör det möjligt för 
 
 ### Finns det ett forum för Aspose.Slides support och diskussioner?
  Ja, du kan hitta stöd och delta i diskussioner på Aspose.Slides-forumet på[den här länken](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

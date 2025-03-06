@@ -3,10 +3,16 @@ title: Освоение извлечения аудио и видео с пом�
 linktitle: Извлечение аудио и видео из слайдов с помощью Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Узнайте, как извлекать аудио и видео из слайдов PowerPoint с помощью Aspose.Slides для .NET. Легкое извлечение мультимедиа.
-type: docs
 weight: 10
 url: /ru/net/audio-and-video-extraction/audio-and-video-extraction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Освоение извлечения аудио и видео с помощью Aspose.Slides для .NET
+
 
 ## Введение
 
@@ -135,3 +141,10 @@ Aspose предлагает различные варианты лицензир
 
 ### Какие еще задачи я могу выполнять с помощью Aspose.Slides для .NET?
  Aspose.Slides для .NET предоставляет широкий спектр функций, включая создание, изменение и преобразование презентаций PowerPoint. Вы можете изучить документацию для более подробной информации:[Документация Aspose.Slides для .NET](https://reference.aspose.com/slides/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

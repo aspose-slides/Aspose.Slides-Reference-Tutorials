@@ -3,10 +3,16 @@ title: Uzyskaj dostęp do węzłów podrzędnych w SmartArt przy użyciu języka
 linktitle: Uzyskaj dostęp do węzłów podrzędnych w SmartArt przy użyciu języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak uzyskać dostęp do węzłów podrzędnych i manipulować nimi w SmartArt przy użyciu Aspose.Slides dla Java, korzystając z tego przewodnika krok po kroku.
-type: docs
 weight: 10
 url: /pl/java/java-powerpoint-smartart-manipulation/access-child-nodes-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uzyskaj dostęp do węzłów podrzędnych w SmartArt przy użyciu języka Java
+
 ## Wstęp
 Czy zastanawiałeś się kiedyś, jak programowo manipulować grafiką SmartArt w prezentacjach? Aspose.Slides for Java to Twoja ulubiona biblioteka do zarządzania i edytowania prezentacji PowerPoint. To potężne narzędzie umożliwia programistom dostęp do różnych elementów prezentacji i manipulowanie nimi, w tym grafiką SmartArt. W tym samouczku poprowadzimy Cię przez proces uzyskiwania dostępu do węzłów podrzędnych w SmartArt przy użyciu języka Java, dzięki czemu Twoje prezentacje będą bardziej dynamiczne i interaktywne. Pod koniec tego przewodnika będziesz wyposażony w wiedzę niezbędną do łatwego przeglądania i manipulowania węzłami SmartArt.
 ## Warunki wstępne
@@ -81,3 +87,9 @@ Tak, Aspose.Slides for Java umożliwia manipulowanie różnymi elementami, takim
  Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/slides/java/).
 ### Jakie jest najlepsze IDE do programowania w Aspose.Slides dla Java?
 IntelliJ IDEA i Eclipse to popularne IDE, które dobrze współpracują z Aspose.Slides dla Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

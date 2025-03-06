@@ -3,10 +3,16 @@ title: إدارة عائلة الخطوط في Java PowerPoint
 linktitle: إدارة عائلة الخطوط في Java PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إدارة عائلة الخطوط في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. قم بتخصيص أنماط الخطوط والألوان والمزيد بسهولة.
-type: docs
 weight: 10
 url: /ar/java/java-powerpoint-font-management/manage-font-family-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إدارة عائلة الخطوط في Java PowerPoint
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية إدارة عائلة الخطوط في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides for Java. تلعب الخطوط دورًا حاسمًا في المظهر المرئي وسهولة القراءة لشرائحك، لذا من الضروري معرفة كيفية التعامل معها بفعالية.
 ## المتطلبات الأساسية
@@ -66,3 +72,9 @@ pres.save(dataDir + "pptxFont_out.pptx", SaveFormat.Pptx);
 نعم، يوفر Aspose.Slides واجهات برمجة التطبيقات لإنشاء عروض PowerPoint التقديمية وتعديلها ومعالجتها بالكامل من خلال التعليمات البرمجية.
 ### هل هناك إصدار تجريبي متاح لـ Aspose.Slides لـ Java؟
 نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides لـ Java من[هنا](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

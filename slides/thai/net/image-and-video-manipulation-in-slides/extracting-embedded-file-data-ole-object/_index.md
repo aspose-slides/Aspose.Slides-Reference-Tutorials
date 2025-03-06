@@ -3,10 +3,16 @@ title: Aspose.Slides สำหรับ .NET - การแยกการสอ
 linktitle: แยกข้อมูลไฟล์ที่ฝังตัวจากวัตถุ OLE ใน Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint การประมวลผล API
 description: ปลดล็อกศักยภาพสูงสุดของ Aspose.Slides สำหรับ .NET ด้วยคำแนะนำทีละขั้นตอนของเราในการแตกข้อมูลไฟล์ที่ฝังตัวออกจากออบเจ็กต์ OLE ยกระดับความสามารถในการประมวลผล PowerPoint ของคุณ!
-type: docs
 weight: 20
 url: /th/net/image-and-video-manipulation-in-slides/extracting-embedded-file-data-ole-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides สำหรับ .NET - การแยกการสอนข้อมูลวัตถุ OLE
+
 ## การแนะนำ
 หากคุณกำลังเจาะลึกเข้าไปในโลกของ Aspose.Slides สำหรับ .NET คุณก็มาถูกทางแล้วที่จะยกระดับความสามารถในการประมวลผล PowerPoint ของคุณ ในคู่มือที่ครอบคลุมนี้ เราจะแนะนำคุณตลอดกระบวนการแยกข้อมูลไฟล์ที่ฝังตัวออกจากออบเจ็กต์ OLE โดยใช้ Aspose.Slides ไม่ว่าคุณจะเป็นนักพัฒนาที่มีประสบการณ์หรือเพิ่งเริ่มใช้ Aspose.Slides บทช่วยสอนนี้จะให้แผนงานที่ชัดเจนและมีรายละเอียดแก่คุณเพื่อใช้ประโยชน์จากศักยภาพสูงสุดของไลบรารี .NET อันทรงพลังนี้
 ## ข้อกำหนดเบื้องต้น
@@ -81,3 +87,9 @@ using (FileStream fs = new FileStream(extractedPath, FileMode.Create))
  ใช่ คุณสามารถรับเวอร์ชันทดลองใช้ฟรีได้[ที่นี่](https://releases.aspose.com/).
 ### ฉันจะรับการสนับสนุนสำหรับคำค้นหาที่เกี่ยวข้องกับ Aspose.Slides ได้อย่างไร
  เยี่ยมชมฟอรัมสนับสนุน Aspose.Slides[ที่นี่](https://forum.aspose.com/c/slides/11) สำหรับความช่วยเหลือ.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

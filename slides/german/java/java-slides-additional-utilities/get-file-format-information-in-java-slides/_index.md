@@ -3,10 +3,16 @@ title: Abrufen von Dateiformatinformationen in Java-Folien
 linktitle: Abrufen von Dateiformatinformationen in Java-Folien
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für die Java-API Dateiformatinformationen in Java Slides abrufen. Identifizieren Sie Präsentationsformate mit Codebeispielen.
-type: docs
 weight: 11
 url: /de/java/additional-utilities/get-file-format-information-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Abrufen von Dateiformatinformationen in Java-Folien
+
 
 ## Einführung in das Abrufen von Dateiformatinformationen in Java-Folien
 
@@ -113,3 +119,9 @@ Aspose.Slides für Java ist eine kommerzielle Bibliothek, bietet aber eine koste
 ### Wie kann ich den Aspose-Support um Hilfe bitten?
 
 Sie können den Aspose-Support über die Website erreichen. Sie bieten spezielle Supportkanäle, um Ihnen bei allen Fragen oder Problemen zu helfen, die bei der Verwendung ihrer Produkte auftreten können.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

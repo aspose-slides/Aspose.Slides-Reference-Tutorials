@@ -3,10 +3,16 @@ title: Videó összekapcsolása ActiveX-vezérlővel a PowerPointban
 linktitle: Videó összekapcsolása ActiveX-vezérlőn keresztül
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan kapcsolhat össze videókat PowerPoint diákkal az Aspose.Slides for .NET segítségével. Ez a részletes útmutató forráskódot és tippeket tartalmaz az interaktív és lebilincselő prezentációk létrehozásához linkelt videókkal.
-type: docs
 weight: 12
 url: /hu/net/slide-view-and-layout-manipulation/linking-video-activex-control/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Videó összekapcsolása ActiveX-vezérlővel a PowerPointban
+
 Videó összekapcsolása ActiveX-vezérlőn keresztül egy prezentációban az Aspose.Slides for .NET használatával
 
 Az Aspose.Slides for .NET programban az ActiveX-vezérlő segítségével programozottan összekapcsolhat egy videót egy prezentációs diával. Ez lehetővé teszi interaktív prezentációk létrehozását, ahol a videótartalom közvetlenül a dián belül lejátszható. Ebben a lépésenkénti útmutatóban végigvezetjük a videó és a prezentációs diák összekapcsolásának folyamatán az Aspose.Slides for .NET segítségével.
@@ -80,3 +86,9 @@ A linkelt videó mérete befolyásolhatja a prezentáció általános méretét 
 Az ebben az útmutatóban vázolt lépések követésével az Aspose.Slides for .NET használatával egyszerűen összekapcsolhat egy videót az ActiveX-vezérlőn keresztül egy prezentációban. Ez a funkció lehetővé teszi, hogy vonzó és interaktív prezentációkat készítsen, amelyek zökkenőmentesen tartalmazzák a multimédiás tartalmat.
 
  További részletekért és speciális beállításokért tekintse meg a[Aspose.Slides a .NET dokumentációhoz](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

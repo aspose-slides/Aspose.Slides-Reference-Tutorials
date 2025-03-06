@@ -3,10 +3,16 @@ title: 許可證和格式
 linktitle: 許可證和格式
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 透過全面的教學增強您對 Aspose.Slides 許可和格式的理解。了解如何有效管理許可證並為您的簡報實現完美的格式。
-type: docs
 weight: 21
 url: /zh-hant/net/licensing-and-formatting/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 許可證和格式
+
 
 ## 介紹
 
@@ -31,3 +37,9 @@ url: /zh-hant/net/licensing-and-formatting/
 了解如何使用 Aspose.Slides for .NET 來增強圖表視覺效果。為數據點添加動態顏色，以獲得更具影響力的演示。
 ### [將自訂誤差線新增至圖表中](./add-custom-error/)
 了解如何使用 Aspose.Slides for .NET 將自訂誤差線新增至圖表。建立、設計和自訂誤差線以實現準確的資料視覺化。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

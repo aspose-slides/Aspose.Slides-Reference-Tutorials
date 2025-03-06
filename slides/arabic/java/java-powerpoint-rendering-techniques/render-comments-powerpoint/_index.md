@@ -3,10 +3,16 @@ title: تقديم التعليقات في PowerPoint
 linktitle: تقديم التعليقات في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تقديم التعليقات في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تخصيص المظهر وإنشاء معاينات للصور بكفاءة.
-type: docs
 weight: 10
 url: /ar/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تقديم التعليقات في PowerPoint
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنتعرف على عملية عرض التعليقات في عروض PowerPoint التقديمية باستخدام Aspose.Slides for Java. يمكن أن يكون عرض التعليقات مفيدًا لأغراض متعددة، مثل إنشاء معاينات صور للعروض التقديمية مع تضمين التعليقات.
 ## المتطلبات الأساسية
@@ -72,3 +78,9 @@ try {
 نعم، باستخدام Aspose.Slides، يمكنك تقديم التعليقات على الصور دون فتح تطبيق PowerPoint.
 ### هل هناك طريقة لتقديم التعليقات مباشرة إلى مستند PDF؟
 نعم، يوفر Aspose.Slides وظيفة لتقديم التعليقات مباشرة إلى مستندات PDF، مما يسمح بالتكامل السلس في سير عمل المستند.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

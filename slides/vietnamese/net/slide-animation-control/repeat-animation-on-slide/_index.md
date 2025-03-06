@@ -3,10 +3,16 @@ title: Làm chủ hoạt ảnh PowerPoint với Aspose.Slides .NET
 linktitle: Lặp lại hoạt ảnh trên slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Cải thiện bản trình bày PowerPoint bằng Aspose.Slides cho .NET. Kiểm soát hoạt ảnh một cách dễ dàng, thu hút khán giả và để lại ấn tượng lâu dài.
-type: docs
 weight: 12
 url: /vi/net/slide-animation-control/repeat-animation-on-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Làm chủ hoạt ảnh PowerPoint với Aspose.Slides .NET
+
 ## Giới thiệu
 Trong thế giới năng động của các bài thuyết trình, khả năng điều khiển hoạt ảnh đóng vai trò then chốt trong việc thu hút và thu hút sự chú ý của khán giả. Aspose.Slides for .NET trao quyền cho các nhà phát triển chịu trách nhiệm về các loại hoạt ảnh trong các trang trình bày, cho phép tạo ra bản trình bày có tính tương tác và hấp dẫn trực quan hơn. Trong hướng dẫn này, chúng ta sẽ khám phá cách kiểm soát các loại hoạt ảnh trên trang chiếu bằng Aspose.Slides cho .NET, theo từng bước.
 ## Điều kiện tiên quyết
@@ -66,3 +72,9 @@ Aspose.Slides cung cấp hỗ trợ cho nhiều phiên bản PowerPoint, đảm 
  Thăm nom[đây](https://purchase.aspose.com/temporary-license/) để biết thông tin về việc xin giấy phép tạm thời.
 ### Cần trợ giúp hoặc có thêm câu hỏi?
  Tương tác với cộng đồng Aspose.Slides trên[diễn đàn hỗ trợ](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

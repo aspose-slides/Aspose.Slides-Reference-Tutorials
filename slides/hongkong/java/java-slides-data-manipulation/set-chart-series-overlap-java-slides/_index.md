@@ -3,10 +3,16 @@ title: 在 Java 投影片中設定圖表系列重疊
 linktitle: 在 Java 投影片中設定圖表系列重疊
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: Java Slides 中的主圖表系列與 Aspose.Slides for Java 重疊。逐步學習如何自訂圖表視覺效果以實現令人驚嘆的簡報。
-type: docs
 weight: 16
 url: /zh-hant/java/data-manipulation/set-chart-series-overlap-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 投影片中設定圖表系列重疊
+
 
 ## 在 Java 投影片中設定圖表系列重疊簡介
 
@@ -110,3 +116,9 @@ Aspose.Slides for Java 提供了廣泛的圖表自訂選項。您可以調整圖
 ### 在哪裡可以找到有關 Aspose.Slides for Java 的更多資源和範例？
 
 有關全面的文件和範例，請造訪 Aspose.Slides for Java 參考頁面：[Aspose.Slides Java API 參考](https://reference.aspose.com/slides/java/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

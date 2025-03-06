@@ -3,10 +3,16 @@ title: Akses Slide berdasarkan Indeks Berurutan
 linktitle: Akses Slide berdasarkan Indeks Berurutan
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengakses slide dengan indeks berurutan menggunakan Aspose.Slides untuk .NET. Ikuti panduan langkah demi langkah ini dengan kode sumber untuk menavigasi dan memanipulasi presentasi PowerPoint dengan mudah.
-type: docs
 weight: 12
 url: /id/net/slide-access-and-manipulation/access-slide-by-index/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Akses Slide berdasarkan Indeks Berurutan
+
 
 ## Pengantar Mengakses Slide berdasarkan Indeks Sekuensial
 
@@ -86,3 +92,9 @@ Aspose.Slides untuk .NET menawarkan berbagai fungsi, termasuk membuat presentasi
 ### Bagaimana saya bisa mempelajari selengkapnya tentang otomatisasi PowerPoint menggunakan Aspose.Slides?
 
  Untuk mempelajari selengkapnya tentang otomatisasi PowerPoint menggunakan Aspose.Slides, Anda dapat menjelajahi dokumentasi terperinci dan contoh kode yang tersedia di Aspose.Slides[dokumentasi](https://reference.aspose.com/slides/net/) halaman.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

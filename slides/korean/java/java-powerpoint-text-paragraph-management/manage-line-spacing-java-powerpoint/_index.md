@@ -3,10 +3,16 @@ title: Java PowerPoint에서 줄 간격 관리
 linktitle: Java PowerPoint에서 줄 간격 관리
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java PowerPoint 프레젠테이션에서 줄 간격을 손쉽게 관리하는 방법을 알아보세요. 슬라이드를 향상시키세요.
-type: docs
 weight: 12
 url: /ko/java/java-powerpoint-text-paragraph-management/manage-line-spacing-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint에서 줄 간격 관리
+
 ## 소개
 Java 프로그래밍에서는 PowerPoint 프레젠테이션 내에서 줄 간격을 관리하는 것이 정보를 효과적으로 전달하는 시각적으로 매력적인 슬라이드를 만드는 데 중요합니다. 단락 사이의 간격을 조정하든 각 단락 전후의 간격을 제어하든 Aspose.Slides for Java는 이러한 작업을 원활하게 수행할 수 있는 포괄적인 도구를 제공합니다.
 ## 전제 조건
@@ -62,3 +68,9 @@ Aspose.Slides는 PowerPoint 프레젠테이션의 이전 형식(.ppt)과 최신 
  예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Aspose.Slides에 대한 기술 지원은 어떻게 받을 수 있나요?
  기술 지원을 받으려면 Aspose.Slides를 방문하세요.[지원 포럼](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

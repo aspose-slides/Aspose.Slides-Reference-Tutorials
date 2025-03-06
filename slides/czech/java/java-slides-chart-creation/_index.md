@@ -3,10 +3,16 @@ title: Tvorba grafů Java Slides
 linktitle: Tvorba grafů Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se vytvářet dynamické snímky Java s grafy pomocí Aspose.Slides for Java. Naše komplexní návody vás provedou procesem krok za krokem.
-type: docs
 weight: 16
 url: /cs/java/chart-creation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tvorba grafů Java Slides
+
 
 Jste připraveni odemknout sílu dynamických grafů ve svých snímcích Java? S Aspose.Slides for Java můžete bez námahy vytvářet podmanivé grafy. Tento komplexní průvodce vás provede základními kroky, od instalace až po dokonalost grafu.
 
@@ -35,3 +41,9 @@ Naučte se vytvářet bodové grafy v Javě pomocí Aspose.Slides. Podrobný pr�
 Naučte se, jak přizpůsobit grafy v Java Slides pomocí Aspose.Slides pro Java. Prozkoumejte možnosti druhého grafu a vylepšete své prezentace.
 ### [Stromová mapa v Java Slides](./tree-map-chart-java-slides/)
 Vytvářejte stromové mapy v Java Slides pomocí Aspose.Slides pro Java. Podrobný průvodce se zdrojovým kódem pro vizualizaci hierarchických dat.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

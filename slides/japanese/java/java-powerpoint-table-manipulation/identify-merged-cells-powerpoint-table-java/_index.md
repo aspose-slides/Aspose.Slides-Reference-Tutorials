@@ -3,10 +3,16 @@ title: Java を使用して PowerPoint テーブル内の結合セルを識別�
 linktitle: Java を使用して PowerPoint テーブル内の結合セルを識別する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、PowerPoint テーブル内の結合されたセルをプログラムで識別する方法を学びます。Java 開発者に最適です。
-type: docs
 weight: 15
 url: /ja/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java を使用して PowerPoint テーブル内の結合セルを識別する
+
 ## 導入
 Java 開発の分野では、複雑なデータ テーブルを扱う場合など、PowerPoint プレゼンテーションをプログラムで操作することが重要なタスクになることがあります。Aspose.Slides for Java は、開発者が PowerPoint プレゼンテーションのさまざまな側面をシームレスに管理できるようにする強力なツールキットを提供します。開発者が直面する一般的な課題の 1 つは、プレゼンテーションに埋め込まれたテーブル内の結合セルを識別することです。このチュートリアルでは、Aspose.Slides for Java を使用して結合セルを識別するプロセスについて説明します。
 ## 前提条件
@@ -67,3 +73,9 @@ Aspose.Slides for Java は、Java を使用して PowerPoint プレゼンテー�
 ドキュメントは以下にあります[ここ](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java のサポートを受けるにはどうすればよいですか?
 サポートについては、Aspose.Slides フォーラムをご覧ください。[ここ](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

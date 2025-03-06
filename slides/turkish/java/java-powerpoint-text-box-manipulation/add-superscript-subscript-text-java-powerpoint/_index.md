@@ -3,10 +3,16 @@ title: Java PowerPoint'te Üst Simge ve Alt Simge Metni Ekleme
 linktitle: Java PowerPoint'te Üst Simge ve Alt Simge Metni Ekleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak Java PowerPoint sunumlarına üst simge ve alt simge metnini nasıl ekleyeceğinizi öğrenin. Slaytlarınızı geliştirmek için mükemmeldir.
-type: docs
 weight: 13
 url: /tr/java/java-powerpoint-text-box-manipulation/add-superscript-subscript-text-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint'te Üst Simge ve Alt Simge Metni Ekleme
+
 ## giriiş
 İlgi çekici ve bilgilendirici PowerPoint sunumları oluşturmak genellikle üst simge ve alt simge metni gibi biçimlendirme özelliklerinin kullanılmasını gerektirir. Bu eğitim, Aspose.Slides for Java kullanarak Java PowerPoint sunumlarınıza üst simge ve alt simge metni ekleme sürecinde size rehberlik edecektir.
 ## Önkoşullar
@@ -89,3 +95,9 @@ Aspose.Slides for Java, geliştiricilerin PowerPoint sunumlarını programlı ol
  Evet, ücretsiz deneme sürümünü şuradan indirebilirsiniz:[Burada](https://releases.aspose.com/).
 ### Aspose.Slides for Java için nereden destek alabilirim?
  Destek ve tartışmalar için şu adresi ziyaret edin:[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

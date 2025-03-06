@@ -3,10 +3,16 @@ title: 使用 ShapeUtil 掌握几何形状 - Aspose.Slides .NET
 linktitle: 在演示幻灯片中使用 ShapeUtil 表示几何形状
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 探索 Aspose.Slides for .NET 的强大功能，使用 ShapeUtil 处理动态几何形状。轻松创建引人入胜的演示文稿。立即下载！了解如何使用 Aspose.Slides 增强 PowerPoint 演示文稿。探索 ShapeUtil 的几何形状操作。使用 .NET 源代码的分步指南。有效优化演示文稿。
-type: docs
 weight: 17
 url: /zh/net/shape-geometry-and-positioning-in-slides/using-shapeutil-geometry-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 ShapeUtil 掌握几何形状 - Aspose.Slides .NET
+
 ## 介绍
 创建具有视觉吸引力和动态的演示幻灯片是一项基本技能，而 Aspose.Slides for .NET 提供了强大的工具包来实现这一目标。在本教程中，我们将探索使用 ShapeUtil 处理演示幻灯片中的几何形状。无论您是经验丰富的开发人员还是刚开始使用 Aspose.Slides，本指南都将引导您完成使用 ShapeUtil 增强演示文稿的过程。
 ## 先决条件
@@ -88,3 +94,9 @@ Aspose.Slides 主要支持 .NET 语言。不过，Aspose 也为其他平台和�
 访问社区支持论坛[这里](https://forum.aspose.com/c/slides/11).
 ### 我可以购买 Aspose.Slides for .NET 的临时许可证吗？
 是的，你可以获得临时驾照[这里](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

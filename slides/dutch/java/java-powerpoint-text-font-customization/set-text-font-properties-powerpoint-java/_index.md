@@ -3,10 +3,16 @@ title: Stel tekstlettertype-eigenschappen in PowerPoint in met Java
 linktitle: Stel tekstlettertype-eigenschappen in PowerPoint in met Java
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u de eigenschappen van tekstlettertypen in PowerPoint instelt met Aspose.Slides voor Java. Eenvoudige, stapsgewijze handleiding voor Java-ontwikkelaars.#Leer hoe u de eigenschappen van PowerPoint-tekstlettertypes kunt manipuleren met Aspose.Slides voor Java met deze stapsgewijze zelfstudie voor Java-ontwikkelaars.
-type: docs
 weight: 18
 url: /nl/java/java-powerpoint-text-font-customization/set-text-font-properties-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Stel tekstlettertype-eigenschappen in PowerPoint in met Java
+
 ## Invoering
 In deze zelfstudie leert u hoe u Aspose.Slides voor Java gebruikt om verschillende tekstlettertype-eigenschappen in een PowerPoint-presentatie programmatisch in te stellen. We bespreken het instellen van het lettertype, de stijl (vet, cursief), onderstrepen, grootte en kleur voor tekst in dia's.
 ## Vereisten
@@ -85,3 +91,9 @@ Ja, u kunt Aspose.Slides gebruiken om met PowerPoint-sjablonen te werken.
 Ja, met Aspose.Slides kunt u presentaties naar verschillende formaten exporteren, waaronder PDF.
 ### Waar kan ik meer hulp en ondersteuning vinden voor Aspose.Slides?
  Bezoek[Aspose.Slides-forum](https://forum.aspose.com/c/slides/11) voor gemeenschapsondersteuning en begeleiding.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Opcje znaczników wykresów w punkcie danych w slajdach Java
 linktitle: Opcje znaczników wykresów w punkcie danych w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Zoptymalizuj slajdy Java za pomocą niestandardowych opcji znaczników wykresów. Dowiedz się, jak wizualnie ulepszyć punkty danych za pomocą Aspose.Slides dla Java. Zapoznaj się ze wskazówkami krok po kroku i często zadawanymi pytaniami.
-type: docs
 weight: 14
 url: /pl/java/data-manipulation/chart-marker-options-data-point-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opcje znaczników wykresów w punkcie danych w slajdach Java
+
 
 ## Wprowadzenie do opcji znaczników wykresów w punkcie danych w slajdach Java
 
@@ -154,3 +160,9 @@ Tak, możesz dostosować różne aspekty wykresu, w tym tytuły, osie, etykiety 
 ### Gdzie mogę uzyskać dostęp do dokumentacji i plików do pobrania Aspose.Slides for Java?
 
  Dokumentację można znaleźć pod adresem[Tutaj](https://reference.aspose.com/slides/java/) i pobierz bibliotekę pod adresem[Tutaj](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Klona bild till en annan presentation med Master
 linktitle: Klona bild till en annan presentation med Master
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du klona bilder mellan presentationer i Java med Aspose.Slides. Steg-för-steg handledning om underhåll av masterbilder.
-type: docs
 weight: 14
 url: /sv/java/java-powerpoint-slide-cloning-techniques/clone-slide-another-presentation-master-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Klona bild till en annan presentation med Master
+
 ## Introduktion
 Aspose.Slides för Java är ett kraftfullt bibliotek som låter utvecklare skapa, modifiera och manipulera PowerPoint-presentationer programmatiskt. Den här artikeln innehåller en omfattande, steg-för-steg-handledning om hur man klona en bild från en presentation till en annan samtidigt som man behåller sin huvudbild, med Aspose.Slides för Java.
 ## Förutsättningar
@@ -83,3 +89,9 @@ Aspose.Slides för Java erbjuder en gratis testversion. För full funktionalitet
  Du kan få en tillfällig licens från[Aspose köpsida](https://purchase.aspose.com/temporary-license/).
 ### Var kan jag hitta fler exempel och dokumentation?  
  Besök[Aspose.Slides för Java-dokumentation](https://reference.aspose.com/slides/java/) för fler exempel och detaljerad information.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

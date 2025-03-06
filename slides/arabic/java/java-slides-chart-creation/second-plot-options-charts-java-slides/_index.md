@@ -3,10 +3,16 @@ title: خيارات المؤامرة الثانية للمخططات في شرا
 linktitle: خيارات المؤامرة الثانية للمخططات في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تخصيص المخططات في Java Slides باستخدام Aspose.Slides لـ Java. استكشف خيارات الحبكة الثانية وحسّن عروضك التقديمية.
-type: docs
 weight: 12
 url: /ar/java/chart-creation/second-plot-options-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# خيارات المؤامرة الثانية للمخططات في شرائح جافا
+
 
 ## مقدمة إلى خيارات الرسم الثاني للمخططات في شرائح جافا
 
@@ -93,3 +99,9 @@ presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pp
 ### كيف أقوم بتعيين موضع الانقسام في مخطط دائري؟
 
  يمكنك ضبط موضع الانقسام في المخطط الدائري الدائري باستخدام`setPieSplitPosition` طريقة. اضبط القيمة لتحديد الموضع المطلوب.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

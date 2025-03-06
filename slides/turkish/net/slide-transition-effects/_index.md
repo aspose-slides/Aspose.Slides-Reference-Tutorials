@@ -3,10 +3,16 @@ title: Slayt Geçiş Efektleri
 linktitle: Slayt Geçiş Efektleri
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak sunumlarınızı büyüleyici slayt geçiş efektleriyle geliştirin. İlgi çekici bir görüntüleme deneyimi için slaytlara nasıl dinamik animasyonlar ekleyeceğinizi öğrenin.
-type: docs
 weight: 19
 url: /tr/net/slide-transition-effects/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Slayt Geçiş Efektleri
+
 
 ## Giriiş:
 
@@ -37,3 +43,9 @@ Aspose.Slides for .NET'i kullanarak sunum slaytlarınıza nasıl etkileyici geç
 Aspose.Slides for .NET'i kullanarak slaytlarda geçiş dönüşümü türünü nasıl ayarlayacağınızı öğrenin. Kod örnekleri içeren adım adım kılavuz. Sunumlarınızı şimdi geliştirin! 
 ### [Basit Slayt Geçişleri](./simple-slide-transitions/)
 Aspose.Slides for .NET'i kullanarak basit slayt geçişleriyle PowerPoint sunumlarınızı nasıl geliştireceğinizi öğrenin. Kaynak koduyla adım adım kılavuz. Büyüleyici görsellerle izleyicilerinizin ilgisini çekin!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

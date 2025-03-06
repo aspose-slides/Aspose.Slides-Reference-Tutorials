@@ -3,10 +3,16 @@ title: فقرات متعددة في جافا باور بوينت
 linktitle: فقرات متعددة في جافا باور بوينت
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء فقرات متعددة في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides for Java. دليل كامل مع أمثلة التعليمات البرمجية.
-type: docs
 weight: 13
 url: /ar/java/java-powerpoint-text-paragraph-management/multiple-paragraphs-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# فقرات متعددة في جافا باور بوينت
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنستكشف كيفية إنشاء شرائح تحتوي على فقرات متعددة في Java باستخدام Aspose.Slides for Java. Aspose.Slides هي مكتبة قوية تسمح للمطورين بمعالجة عروض PowerPoint التقديمية برمجياً، مما يجعلها مثالية لأتمتة المهام المتعلقة بإنشاء الشرائح وتنسيقها.
 ## المتطلبات الأساسية
@@ -113,3 +119,9 @@ pres.save(dataDir + "multiParaPort_out.pptx", SaveFormat.Pptx);
  نعم، يمكنك تنزيل نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
 ### كيف يمكنني الحصول على الدعم الفني إذا لزم الأمر؟
  يمكنك الحصول على الدعم من مجتمع Aspose.Slides[هنا](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

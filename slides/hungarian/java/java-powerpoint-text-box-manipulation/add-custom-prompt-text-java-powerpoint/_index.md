@@ -3,10 +3,16 @@ title: Egyéni prompt szöveg hozzáadása a Java PowerPointban
 linktitle: Egyéni prompt szöveg hozzáadása a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat hozzá egyéni prompt szöveget a Java PowerPointban az Aspose.Slides segítségével. Ezzel az oktatóanyaggal könnyedén javíthatja a felhasználói interakciót.
-type: docs
 weight: 12
 url: /hu/java/java-powerpoint-text-box-manipulation/add-custom-prompt-text-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Egyéni prompt szöveg hozzáadása a Java PowerPointban
+
 ## Bevezetés
 mai digitális korban a dinamikus és lebilincselő prezentációk készítése elengedhetetlen a hatékony kommunikációhoz. Az Aspose.Slides for Java felhatalmazza a fejlesztőket arra, hogy programozottan kezeljék a PowerPoint-prezentációkat, és kiterjedt szolgáltatásokat kínál a diák, alakzatok, szöveg és egyebek testreszabásához. Ez az oktatóanyag végigvezeti Önt az Aspose.Slides segítségével a Java PowerPoint prezentációk helyőrzőihez való egyéni prompt szövegek hozzáadásának folyamatán.
 ## Előfeltételek
@@ -71,3 +77,9 @@ Az Aspose.Slides a PowerPoint verziók széles skáláját támogatja, biztosít
  Kaphatsz a[ideiglenes engedély](https://purchase.aspose.com/temporary-license/) hogy kiértékelje az Aspose.Slides teljes funkcióját.
 ### Az Aspose.Slides for Java támogatja az egyéni animációk hozzáadását a diákhoz?
 Igen, az Aspose.Slides API-kat biztosít a diaanimációk programozott kezeléséhez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

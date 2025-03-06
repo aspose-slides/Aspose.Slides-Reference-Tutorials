@@ -3,10 +3,16 @@ title: Accessing OLE Object Frames in Presentation Slides with Aspose.Slides
 linktitle: Accessing OLE Object Frames in Presentation Slides with Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to access and manipulate OLE object frames within presentation slides using Aspose.Slides for .NET. Enhance your slide-processing capabilities with step-by-step guidance and practical code examples.
-type: docs
 weight: 11
 url: /net/shape-effects-and-manipulation-in-slides/accessing-ole-object-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Accessing OLE Object Frames in Presentation Slides with Aspose.Slides
+
 
 ## Introduction
 
@@ -99,3 +105,10 @@ Yes, you can manage interactions and behaviors of OLE objects within your presen
 In the world of presentations, the ability to harness the power of OLE object frames can elevate your content to new heights of interactivity and engagement. Aspose.Slides for .NET simplifies the process of accessing and manipulating OLE object frames, enabling you to seamlessly integrate content from other applications and enrich your presentations. By following the step-by-step guide and utilizing the code examples provided, you'll unlock a world of possibilities for dynamic and captivating slides.
 
 Unlock the potential of OLE object frames with Aspose.Slides and transform your presentations into interactive experiences that captivate your audience's attention.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

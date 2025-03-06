@@ -3,10 +3,16 @@ title: Java 슬라이드 데이터 조작
 linktitle: Java 슬라이드 데이터 조작
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java 튜토리얼을 통해 Java Slides 데이터 조작 기술을 향상하세요. 프레젠테이션을 효율적으로 생성, 편집, 변환하는 방법을 단계별로 알아보세요.
-type: docs
 weight: 13
 url: /ko/java/data-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 슬라이드 데이터 조작
+
 
 Java Slides 데이터 조작 기술을 마스터할 준비가 되셨나요? 더 이상 보지 마십시오. 이 포괄적인 가이드에서는 Aspose.Slides for Java를 사용하여 슬라이드 프레젠테이션을 생성, 수정 및 향상시키는 복잡한 과정을 안내합니다. 노련한 개발자이든 이제 막 Java Slides 세계로의 여정을 시작하든 관계없이 당사의 튜토리얼은 귀하에게 필요한 지식과 기술을 제공합니다.
 
@@ -96,3 +102,9 @@ Aspose.Slides for Java를 사용하여 Java PowerPoint 프레젠테이션에서 
 Java용 Aspose.Slides에서 데이터 레이블에 대한 콜아웃을 설정하는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드입니다.
 ### [Java 슬라이드의 범주 축에 대한 날짜 형식 설정](./setting-date-format-category-axis-java-slides/)
 Aspose.Slides for Java를 사용하여 PowerPoint 차트에서 범주 축의 날짜 형식을 설정하는 방법을 알아보세요. 소스 코드가 포함된 단계별 가이드입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

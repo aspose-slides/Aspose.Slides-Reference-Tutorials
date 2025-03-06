@@ -3,10 +3,16 @@ title: Jelölje ki a szöveget a Regex használatával a Java PowerPointban
 linktitle: Jelölje ki a szöveget a Regex használatával a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan lehet szöveget kiemelni a PowerPointban regex minták használatával az Aspose.Slides for Java segítségével. Fokozza dinamikusan prezentációit.
-type: docs
 weight: 15
 url: /hu/java/java-powerpoint-text-alignment-formatting/highlight-text-using-regex-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jelölje ki a szöveget a Regex használatával a Java PowerPointban
+
 ## Bevezetés
 PowerPoint prezentációk létrehozására és manipulálására szolgáló Java-alapú fejlesztések terén az Aspose.Slides for Java robusztus megoldásként tűnik ki. Ez az oktatóanyag az Aspose.Slides alkalmazására összpontosít a szöveg kiemelésére reguláris kifejezések (regex) használatával a PowerPoint-prezentációkban. Ennek az útmutatónak a végére meg fogja érteni, hogyan valósíthat meg regex-mintákat, hogy kijelöljön egy adott szöveget a diákban, javítva a funkcionalitást és a vizuális tisztaságot.
 ## Előfeltételek
@@ -62,3 +68,9 @@ Igen, az Aspose.Slides különféle PowerPoint formátumokat támogat, biztosít
 A kiemelésen túlmenően kiterjedt szövegmanipulációs funkciókat is kínál, beleértve a betűtípus stílusát, igazítását és egyebeket.
 ### Kipróbálhatom az Aspose.Slides for Java programot vásárlás előtt?
  Igen, kezdheti a[ingyenes próbaverzió](https://releases.aspose.com/) hogy felmérje képességeit.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Λάβετε την πραγματική θέση της ετικέτας
 linktitle: Λάβετε την πραγματική θέση της ετικέτας δεδομένων γραφήματος σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να λαμβάνετε την πραγματική θέση των ετικετών δεδομένων γραφήματος στις διαφάνειες Java χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με τον πηγαίο κώδικα.
-type: docs
 weight: 18
 url: /el/java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Λάβετε την πραγματική θέση της ετικέτας δεδομένων γραφήματος σε διαφάνειες Java
+
 
 ## Εισαγωγή στη λήψη της πραγματικής θέσης της ετικέτας δεδομένων γραφήματος σε διαφάνειες Java
 
@@ -157,3 +163,9 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

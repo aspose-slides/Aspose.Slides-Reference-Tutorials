@@ -3,10 +3,16 @@ title: 在 Java Slides 中设置字体属性
 linktitle: 在 Java Slides 中设置字体属性
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 Java 幻灯片中设置字体属性。本分步指南包含代码示例和常见问题解答。
-type: docs
 weight: 15
 url: /zh/java/customization-and-formatting/setting-font-properties-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java Slides 中设置字体属性
+
 
 ## Java Slides 中设置字体属性的简介
 
@@ -137,3 +143,9 @@ for (ISlide slide : pres.getSlides()) {
     //在此处访问和自定义文本元素的字体属性
 }
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

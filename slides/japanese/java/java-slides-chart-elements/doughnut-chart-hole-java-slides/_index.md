@@ -3,10 +3,16 @@ title: Java スライドのドーナツ チャートの穴
 linktitle: Java スライドのドーナツ チャートの穴
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して、Java スライドでカスタムの穴のサイズを持つドーナツ グラフを作成します。グラフのカスタマイズに関するソース コード付きのステップ バイ ステップ ガイド。
-type: docs
 weight: 11
 url: /ja/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java スライドのドーナツ チャートの穴
+
 
 ## Java スライドの穴付きドーナツ チャートの紹介
 
@@ -94,3 +100,9 @@ finally
 ### チャートにタイトルを追加することは可能ですか?
 
 もちろんです！チャートにタイトルを追加するには、`setTitle`方法`IChart`オブジェクトを作成し、必要なタイトル テキストを指定します。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

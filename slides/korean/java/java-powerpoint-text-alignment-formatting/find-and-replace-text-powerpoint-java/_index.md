@@ -3,10 +3,16 @@ title: Java를 사용하여 PowerPoint에서 텍스트 찾기 및 바꾸기
 linktitle: Java를 사용하여 PowerPoint에서 텍스트 찾기 및 바꾸기
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션의 텍스트를 효율적으로 바꾸는 방법을 알아보세요. 이 튜토리얼을 통해 Java 애플리케이션의 생산성을 높이세요.
-type: docs
 weight: 13
 url: /ko/java/java-powerpoint-text-alignment-formatting/find-and-replace-text-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PowerPoint에서 텍스트 찾기 및 바꾸기
+
 ## 소개
 Java 프로그래밍 영역에서 PowerPoint 프레젠테이션을 프로그래밍 방식으로 조작하면 생산성과 사용자 정의가 크게 향상될 수 있습니다. Aspose.Slides for Java는 PowerPoint 슬라이드 내에서 텍스트 찾기 및 바꾸기와 같은 작업을 자동화하려는 개발자에게 강력한 솔루션을 제공합니다. 이 튜토리얼은 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 텍스트를 찾고 바꾸는 과정을 안내합니다. 문서 편집을 간소화하거나 자동화된 작업 흐름을 통합하려는 경우 이 기능을 익히면 효율성이 크게 향상될 수 있습니다.
 ## 전제 조건
@@ -75,3 +81,9 @@ if (pres != null) pres.dispose();
 예, Aspose.Slides는 PPT, PPTX 등을 포함한 다양한 PowerPoint 파일 형식을 지원합니다.
 ### 구매하기 전에 Java용 Aspose.Slides를 사용해 볼 수 있나요?
  예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

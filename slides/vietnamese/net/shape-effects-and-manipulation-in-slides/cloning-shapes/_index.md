@@ -3,10 +3,16 @@ title: Nhân bản hình dạng trong các slide thuyết trình với Aspose.Sl
 linktitle: Nhân bản hình dạng trong các slide thuyết trình với Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách sao chép hình dạng một cách hiệu quả trong các trang trình bày bằng API Aspose.Slides. Tạo bài thuyết trình sinh động một cách dễ dàng. Khám phá hướng dẫn từng bước, Câu hỏi thường gặp và hơn thế nữa.
-type: docs
 weight: 27
 url: /vi/net/shape-effects-and-manipulation-in-slides/cloning-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nhân bản hình dạng trong các slide thuyết trình với Aspose.Slides
+
 
 ## Giới thiệu
 
@@ -97,3 +103,9 @@ Các hình dạng được sao chép sẽ giữ lại các tương tác và siê
 ## Phần kết luận
 
 Khai thác sức mạnh của việc sao chép các hình dạng trong các trang trình bày bằng Aspose.Slides mở ra một thế giới khả năng sáng tạo cho cả người tạo và nhà phát triển nội dung. Hướng dẫn này đã hướng dẫn bạn qua quy trình, từ cài đặt đến tùy chỉnh nâng cao, cung cấp cho bạn các công cụ cần thiết để làm cho bản trình bày của bạn nổi bật. Với Aspose.Slides, bạn có thể hợp lý hóa quy trình làm việc của mình và biến tầm nhìn thuyết trình của bạn thành hiện thực một cách dễ dàng.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

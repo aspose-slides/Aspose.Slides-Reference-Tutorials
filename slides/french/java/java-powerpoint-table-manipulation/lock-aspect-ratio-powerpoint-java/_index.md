@@ -3,10 +3,16 @@ title: Verrouiller les proportions dans PowerPoint à l'aide de Java
 linktitle: Verrouiller les proportions dans PowerPoint à l'aide de Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment verrouiller les proportions dans les présentations PowerPoint à l'aide de Java avec Aspose.Slides. Parfait pour les développeurs Java souhaitant un contrôle précis sur la conception des diapositives.
-type: docs
 weight: 16
 url: /fr/java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Verrouiller les proportions dans PowerPoint à l'aide de Java
+
 ## Introduction
 Dans le domaine du développement Java, la manipulation de présentations PowerPoint par programmation peut rationaliser les flux de travail et améliorer considérablement la productivité. Aspose.Slides for Java offre une boîte à outils robuste permettant aux développeurs Java d'automatiser des tâches telles que la modification de diapositives, l'ajout de contenu et l'application du formatage directement à partir du code Java. Ce didacticiel se concentre sur un aspect fondamental de la gestion des présentations PowerPoint : le verrouillage des proportions.
 ## Conditions préalables
@@ -61,3 +67,9 @@ Oui, Aspose.Slides pour Java est conçu pour gérer efficacement des scénarios 
  Vous pouvez demander l'aide de la communauté Aspose.Slides[ici](https://forum.aspose.com/c/slides/11).
 ### Comment puis-je essayer Aspose.Slides pour Java avant d'acheter ?
  Vous pouvez obtenir une version d'essai gratuite[ici](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

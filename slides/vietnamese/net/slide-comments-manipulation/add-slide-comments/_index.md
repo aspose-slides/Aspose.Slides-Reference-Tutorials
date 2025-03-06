@@ -3,10 +3,16 @@ title: Thêm nhận xét vào slide
 linktitle: Thêm nhận xét vào slide
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Thêm chiều sâu và tính tương tác cho bản trình bày của bạn bằng API Aspose.Slides. Tìm hiểu cách dễ dàng tích hợp nhận xét vào trang trình bày của bạn bằng .NET. Tăng cường sự tương tác và thu hút khán giả của bạn.
-type: docs
 weight: 13
 url: /vi/net/slide-comments-manipulation/add-slide-comments/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm nhận xét vào slide
+
 
 Trong thế giới quản lý bản trình bày, khả năng thêm nhận xét vào trang trình bày có thể là yếu tố thay đổi cuộc chơi. Nhận xét không chỉ nâng cao sự cộng tác mà còn hỗ trợ việc hiểu và sửa đổi nội dung slide. Với Aspose.Slides for .NET, một thư viện mạnh mẽ và linh hoạt, bạn có thể dễ dàng kết hợp các nhận xét vào các trang trình bày của mình. Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn quy trình thêm nhận xét vào trang chiếu bằng Aspose.Slides cho .NET. Cho dù bạn là nhà phát triển dày dạn kinh nghiệm hay người mới bước vào thế giới phát triển .NET, hướng dẫn này sẽ cung cấp tất cả những hiểu biết sâu sắc mà bạn cần.
 
@@ -104,3 +110,9 @@ Có, Aspose.Slides for .NET hỗ trợ nhiều định dạng tệp PowerPoint k
 ### 5. Tôi có thể dùng thử Aspose.Slides cho .NET trước khi mua không?
 
 Có, bạn có thể khám phá Aspose.Slides cho .NET bằng cách sử dụng bản dùng thử miễn phí. Tham quan[Trang dùng thử miễn phí Aspose.Slides](https://releases.aspose.com/) để bắt đầu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

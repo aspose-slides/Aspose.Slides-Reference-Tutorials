@@ -3,10 +3,16 @@ title: Einrichten einer Präsentations-Diashow in Java Slides
 linktitle: Einrichten einer Präsentations-Diashow in Java Slides
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Optimieren Sie Ihre Java-Diashow mit Aspose.Slides. Erstellen Sie ansprechende Präsentationen mit benutzerdefinierten Einstellungen. Entdecken Sie Schritt-für-Schritt-Anleitungen und FAQs.
-type: docs
 weight: 16
 url: /de/java/presentation-properties/presentation-slide-show-setup-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Einrichten einer Präsentations-Diashow in Java Slides
+
 
 ## Einführung in die Einrichtung einer Präsentations-Diashow in Java Slides
 
@@ -146,3 +152,9 @@ In diesem Tutorial haben wir gelernt, wie man mit Aspose.Slides für Java eine P
 ### Wie kann ich die Diashow-Einstellungen weiter anpassen?
 
  Sie können zusätzliche Diashow-Einstellungen von Aspose.Slides für Java erkunden, um das Diashow-Erlebnis an Ihre Bedürfnisse anzupassen. Weitere Informationen finden Sie in der Dokumentation unter[Hier](https://reference.aspose.com/slides/java/) für detaillierte Informationen zu verfügbaren Optionen und Konfigurationen.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

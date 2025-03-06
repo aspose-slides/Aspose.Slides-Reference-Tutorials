@@ -3,10 +3,16 @@ title: Ubah Urutan Bentuk di PowerPoint
 linktitle: Ubah Urutan Bentuk di PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengubah urutan bentuk di PowerPoint menggunakan Aspose.Slides for Java dengan tutorial langkah demi langkah ini. Tingkatkan keterampilan presentasi Anda dengan mudah.
-type: docs
 weight: 15
 url: /id/java/java-powerpoint-animation-shape-manipulation/change-shape-order-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ubah Urutan Bentuk di PowerPoint
+
 ## Perkenalan
 Membuat presentasi yang menarik secara visual dan terstruktur dengan baik bisa menjadi tugas yang menakutkan. Namun, dengan alat dan teknik yang tepat, Anda dapat mempermudahnya. Aspose.Slides untuk Java adalah perpustakaan canggih yang membantu Anda memanipulasi dan mengelola presentasi PowerPoint secara terprogram. Dalam tutorial ini, kami akan memandu Anda melalui langkah-langkah untuk mengubah urutan bentuk di slide PowerPoint menggunakan Aspose.Slides untuk Java.
 ## Prasyarat
@@ -73,3 +79,9 @@ Ya, Aspose.Slides untuk Java mendukung PPT, PPTX, dan format PowerPoint lainnya.
  Anda dapat mengunduh uji coba gratis dari[Aspose.Slide untuk halaman unduh Java](https://releases.aspose.com/).
 ### Di mana saya dapat menemukan dokumentasi lebih lanjut tentang Aspose.Slides untuk Java?
  Anda dapat menemukan dokumentasi terperinci di[Aspose.Slides untuk halaman dokumentasi Java](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

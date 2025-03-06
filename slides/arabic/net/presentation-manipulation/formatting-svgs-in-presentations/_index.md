@@ -3,10 +3,16 @@ title: تنسيق ملفات SVG في العروض التقديمية
 linktitle: تنسيق ملفات SVG في العروض التقديمية
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بتحسين عروضك التقديمية باستخدام ملفات SVG المذهلة باستخدام Aspose.Slides لـ .NET. تعلم خطوة بخطوة كيفية تنسيق ملفات SVG للحصول على صور مؤثرة. ارفع مستوى لعبة العرض التقديمي الخاص بك اليوم!
-type: docs
 weight: 31
 url: /ar/net/presentation-manipulation/formatting-svgs-in-presentations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تنسيق ملفات SVG في العروض التقديمية
+
 
 هل تتطلع إلى تحسين عروضك التقديمية بأشكال SVG الجذابة؟ يمكن أن يكون Aspose.Slides for .NET هو أداتك المثالية لتحقيق ذلك. في هذا البرنامج التعليمي الشامل، سنرشدك خلال عملية تنسيق أشكال SVG في العروض التقديمية باستخدام Aspose.Slides for .NET. اتبع التعليمات البرمجية المصدرية المقدمة وقم بتحويل عروضك التقديمية إلى روائع جذابة بصريًا.
 
@@ -115,3 +121,10 @@ class MySvgShapeFormattingController : ISvgShapeAndTextFormattingController
 لإنشاء عروض تقديمية جذابة بصريًا، ركز على اتساق التصميم، واستخدم رسومات عالية الجودة، وحافظ على المحتوى الخاص بك موجزًا وجذابًا. قم بتجربة خيارات التنسيق المختلفة، كما هو موضح في هذا البرنامج التعليمي.
 
 الآن، تابع تطبيق هذه التقنيات لإنشاء عروض تقديمية مذهلة تأسر جمهورك!
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

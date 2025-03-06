@@ -3,10 +3,16 @@ title: Konversikan Presentasi ke TIFF dengan Ukuran Default
 linktitle: Konversikan Presentasi ke TIFF dengan Ukuran Default
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara mengonversi presentasi ke gambar TIFF dengan mudah dengan ukuran defaultnya menggunakan Aspose.Slides untuk .NET.
-type: docs
 weight: 27
 url: /id/net/presentation-manipulation/convert-presentation-to-tiff-with-default-size/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konversikan Presentasi ke TIFF dengan Ukuran Default
+
 
 ## Perkenalan
 
@@ -86,3 +92,9 @@ Sangat! Aspose.Slides untuk .NET menyediakan berbagai opsi untuk menyesuaikan pr
 ### Di mana saya dapat menemukan informasi selengkapnya tentang Aspose.Slides untuk .NET?
 
  Untuk dokumentasi dan contoh yang komprehensif, kunjungi[Aspose.Slides untuk dokumentasi .NET](https://reference.aspose.com/slides/net).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

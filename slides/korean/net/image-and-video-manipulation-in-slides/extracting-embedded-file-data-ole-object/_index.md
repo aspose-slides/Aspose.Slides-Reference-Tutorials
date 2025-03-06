@@ -3,10 +3,16 @@ title: .NET용 Aspose.Slides - OLE 개체 데이터 추출 튜토리얼
 linktitle: Aspose.Slides의 OLE 개체에서 포함된 파일 데이터 추출
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: OLE 개체에서 포함된 파일 데이터를 추출하는 단계별 가이드를 통해 Aspose.Slides for .NET의 잠재력을 최대한 활용해 보세요. 파워포인트 처리 능력을 높여보세요!
-type: docs
 weight: 20
 url: /ko/net/image-and-video-manipulation-in-slides/extracting-embedded-file-data-ole-object/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Slides - OLE 개체 데이터 추출 튜토리얼
+
 ## 소개
 .NET용 Aspose.Slides의 세계를 탐구하고 있다면 PowerPoint 처리 기능을 향상시킬 수 있는 올바른 길을 가고 있는 것입니다. 이 종합 가이드에서는 Aspose.Slides를 사용하여 OLE 개체에서 포함된 파일 데이터를 추출하는 과정을 안내합니다. 숙련된 개발자이든 Aspose.Slides를 처음 사용하는 사람이든 이 튜토리얼은 이 강력한 .NET 라이브러리의 잠재력을 최대한 활용하기 위한 명확하고 자세한 로드맵을 제공합니다.
 ## 전제 조건
@@ -81,3 +87,9 @@ using (FileStream fs = new FileStream(extractedPath, FileMode.Create))
  예, 무료 평가판을 받을 수 있습니다[여기](https://releases.aspose.com/).
 ### Aspose.Slides 관련 쿼리에 대한 지원을 어떻게 받을 수 있나요?
  Aspose.Slides 지원 포럼을 방문하세요.[여기](https://forum.aspose.com/c/slides/11) 도움을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

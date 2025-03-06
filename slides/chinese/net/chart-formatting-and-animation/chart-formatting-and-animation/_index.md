@@ -3,10 +3,16 @@ title: Aspose.Slides 中的图表格式和动画
 linktitle: Aspose.Slides 中的图表格式和动画
 second_title: Aspose.Slides .NET PowerPoint 处理 API
 description: 了解如何在 Aspose.Slides for .NET 中格式化和制作动画图表，以引人入胜的视觉效果增强您的演示文稿。
-type: docs
 weight: 10
 url: /zh/net/chart-formatting-and-animation/chart-formatting-and-animation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides 中的图表格式和动画
+
 
 使用动态图表和动画创建引人注目的演示文稿可以大大增强您信息的影响力。Aspose.Slides for .NET 可帮助您实现这一目标。在本教程中，我们将指导您使用 Aspose.Slides for .NET 制作动画和格式化图表的过程。我们将把步骤分解为易于管理的部分，以确保您彻底掌握概念。
 
@@ -172,3 +178,10 @@ Aspose.Slides for .NET 提供了强大的图表格式和动画工具，让您可
 
 如需支持或有疑问，请访问 Aspose.Slides 论坛[https://forum.aspose.com/](https://forum.aspose.com/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

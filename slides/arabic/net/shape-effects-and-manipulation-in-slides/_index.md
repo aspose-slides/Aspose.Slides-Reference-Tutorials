@@ -3,10 +3,16 @@ title: تأثيرات الشكل والتلاعب في الشرائح
 linktitle: تأثيرات الشكل والتلاعب في الشرائح
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: عزز المظهر المرئي لعرضك التقديمي من خلال دروس Aspose.Slides حول تأثيرات الشكل والتلاعب به. تعرف على كيفية إنشاء شرائح مذهلة باستخدام تأثيرات الأشكال والرسوم المتحركة والمزيد.
-type: docs
 weight: 11
 url: /ar/net/shape-effects-and-manipulation-in-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تأثيرات الشكل والتلاعب في الشرائح
+
 
 ## مقدمة
 
@@ -63,3 +69,9 @@ url: /ar/net/shape-effects-and-manipulation-in-slides/
 عزز مهاراتك في العرض التقديمي من خلال تعلم كيفية ربط الأشكال باستخدام الموصلات في شرائح العرض التقديمي باستخدام Aspose.Slides. ارفع مستوى رواية القصص المرئية لديك اليوم!
 ### [ربط الشكل باستخدام موقع الاتصال في شرائح العرض التقديمي باستخدام Aspose.Slides](./connecting-shape-using-connection-site/)
 عزز مهارات العرض التقديمي لديك من خلال تعلم كيفية ربط الأشكال باستخدام مواقع الاتصال في شرائح العرض التقديمي باستخدام Aspose.Slides. اتبع دليلنا التفصيلي وأمثلة التعليمات البرمجية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

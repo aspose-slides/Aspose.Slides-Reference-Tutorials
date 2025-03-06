@@ -3,10 +3,16 @@ title: 在 Java 投影片中設定位置軸
 linktitle: 在 Java 投影片中設定位置軸
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 使用 Aspose.Slides for Java 增強您的圖表。了解如何在 Java 投影片中設定位置軸、建立令人驚嘆的簡報以及輕鬆自訂圖表佈局。
-type: docs
 weight: 16
 url: /zh-hant/java/customization-and-formatting/setting-position-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 投影片中設定位置軸
+
 
 ## Aspose.Slides for Java中設定位置軸簡介
 
@@ -100,3 +106,9 @@ if (pres != null) pres.dispose();
 ```
 
 這就是本教學的內容。您已經學習如何使用 Aspose.Slides for Java 在圖表中設定位置軸。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

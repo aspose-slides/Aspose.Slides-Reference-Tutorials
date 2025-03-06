@@ -3,10 +3,16 @@ title: Originalschriftarten beibehalten - Präsentation in HTML konvertieren
 linktitle: Originalschriftarten beibehalten - Präsentation in HTML konvertieren
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie beim Konvertieren von Präsentationen in HTML mit Aspose.Slides für .NET die Originalschriftarten beibehalten. Sorgen Sie mühelos für Schriftkonsistenz und visuelle Wirkung.
-type: docs
 weight: 14
 url: /de/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Originalschriftarten beibehalten - Präsentation in HTML konvertieren
+
 
 In dieser umfassenden Anleitung führen wir Sie durch den Prozess der Beibehaltung der Originalschriftarten bei der Konvertierung einer Präsentation in HTML mit Aspose.Slides für .NET. Wir stellen Ihnen den erforderlichen C#-Quellcode zur Verfügung und erklären jeden Schritt im Detail. Am Ende dieses Tutorials können Sie sicherstellen, dass die Schriftarten in Ihrem konvertierten HTML-Dokument der Originalpräsentation treu bleiben.
 
@@ -98,3 +104,10 @@ Aspose.Slides für .NET konzentriert sich hauptsächlich auf PowerPoint-Präsent
 ### F5: Wo kann ich auf zusätzliche Ressourcen und Support zugreifen?
 
  Weitere Dokumentation, Tutorials und Support finden Sie auf der Aspose-Website. Besuchen Sie[Aspose.Slides für .NET-Dokumentation](https://reference.aspose.com/slides/net/) für detaillierte Informationen.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

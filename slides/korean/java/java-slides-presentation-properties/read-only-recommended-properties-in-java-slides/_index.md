@@ -3,10 +3,16 @@ title: Java 슬라이드의 읽기 전용 권장 속성
 linktitle: Java 슬라이드의 읽기 전용 권장 속성
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java PowerPoint 프레젠테이션에서 읽기 전용 권장 속성을 활성화하는 방법을 알아보세요. 향상된 프레젠테이션 보안을 위해 소스 코드 예제가 포함된 단계별 가이드를 따르세요.
-type: docs
 weight: 17
 url: /ko/java/presentation-properties/read-only-recommended-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 슬라이드의 읽기 전용 권장 속성
+
 
 ## Java 슬라이드에서 읽기 전용 권장 속성 활성화 소개
 
@@ -88,3 +94,9 @@ pres.getProtectionManager().setPassword("YourPassword");
 ```
 
  교체하는 것을 기억하세요`"YourPassword"` 원하는 비밀번호로
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tô hình dạng bằng mẫu trong PowerPoint
 linktitle: Tô hình dạng bằng mẫu trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tô các hình dạng có mẫu trong PowerPoint bằng Aspose.Slides cho Java. Hãy làm theo hướng dẫn từng bước dễ dàng của chúng tôi để cải thiện bản trình bày của bạn một cách trực quan.
-type: docs
 weight: 11
 url: /vi/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tô hình dạng bằng mẫu trong PowerPoint
+
 ## Giới thiệu
 Tạo các bài thuyết trình hấp dẫn trực quan là điều cần thiết để thu hút khán giả của bạn. Một cách để cải thiện các trang chiếu PowerPoint của bạn là lấp đầy các hình bằng các mẫu. Trong hướng dẫn này, chúng ta sẽ hướng dẫn các bước để tô các hình bằng các mẫu bằng Aspose.Slides cho Java. Hướng dẫn này được thiết kế riêng cho các nhà phát triển muốn tận dụng các tính năng mạnh mẽ của Aspose.Slides để tạo các bản trình bày ấn tượng theo chương trình.
 ## Điều kiện tiên quyết
@@ -94,3 +100,9 @@ Aspose.Slides cho Java là một API mạnh mẽ cho phép các nhà phát tri�
 Có, Aspose.Slides cho Java cho phép bạn mở, chỉnh sửa và lưu các bản trình bày PowerPoint hiện có.
 ### Tôi có thể nhận hỗ trợ cho Aspose.Slides cho Java ở đâu?
  Bạn có thể nhận được sự hỗ trợ từ[Diễn đàn hỗ trợ Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

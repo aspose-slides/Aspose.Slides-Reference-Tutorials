@@ -3,10 +3,16 @@ title: Получить координаты положения части в с
 linktitle: Получить координаты положения части в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Научитесь получать координаты части текста на слайдах Java с помощью API Aspose.Slides for Java. Получите точный контроль над размещением текста в презентациях PowerPoint.
-type: docs
 weight: 12
 url: /ru/java/additional-utilities/get-position-coordinates-of-portion-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Получить координаты положения части в слайдах Java
+
 
 ## Введение в получение координат позиции части в слайдах Java
 
@@ -120,3 +126,9 @@ finally
 ### Как я могу получить дополнительную поддержку или помощь с Aspose.Slides для Java?
 
 Вы можете получить доступ к дополнительной поддержке и ресурсам на веб-сайте Aspose. Они предоставляют пользователям форумы, документацию и варианты поддержки премиум-класса.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

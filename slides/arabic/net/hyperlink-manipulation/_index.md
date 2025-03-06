@@ -3,10 +3,16 @@ title: التلاعب بالارتباط التشعبي
 linktitle: التلاعب بالارتباط التشعبي
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: قم بتحسين تطبيقات .NET الخاصة بك من خلال معالجة شاملة للارتباط التشعبي باستخدام Aspose.Slides. تعرف على كيفية إدارة الارتباطات التشعبية وإنشاء عروض تقديمية تفاعلية وتعزيز مشاركة المستخدم دون عناء.
-type: docs
 weight: 13
 url: /ar/net/hyperlink-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# التلاعب بالارتباط التشعبي
+
 
 ## مقدمة:
 
@@ -27,3 +33,9 @@ url: /ar/net/hyperlink-manipulation/
 تعرف على كيفية إدارة الارتباطات التشعبية بشكل فعال في العروض التقديمية باستخدام Aspose.Slides for .NET. أتمتة المهام وإنشاء قوائم تفاعلية وتعزيز مشاركة المستخدم.
 ### [إنشاء ارتباط تشعبي قابل للتغيير](./mutable-hyperlink/)
 تعلم كيفية إنشاء ارتباطات تشعبية قابلة للتغيير باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة مع الكود المصدري للعروض التقديمية الديناميكية.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

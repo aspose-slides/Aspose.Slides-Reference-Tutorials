@@ -3,10 +3,16 @@ title: Définir le pourcentage de connexion des étiquettes de données dans les
 linktitle: Définir le pourcentage de connexion des étiquettes de données dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment définir des étiquettes de données avec des signes de pourcentage dans les présentations PowerPoint à l'aide d'Aspose.Slides pour Java. Créez des graphiques attrayants avec des conseils étape par étape et du code source.
-type: docs
 weight: 17
 url: /fr/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définir le pourcentage de connexion des étiquettes de données dans les diapositives Java
+
 
 ## Introduction à la définition du pourcentage de connexion aux étiquettes de données dans Aspose.Slides pour Java
 
@@ -176,3 +182,10 @@ Oui, vous pouvez personnaliser la taille de la police des étiquettes de donnée
 ### Comment puis-je ajouter plus de séries au graphique ?
 
  Vous pouvez ajouter des séries supplémentaires au graphique en utilisant le`add` méthode sur le`IChartSeriesCollection` objet.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: प्रस्तुति गुण तक पहुँचें
 linktitle: प्रस्तुति गुण तक पहुँचें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java की शक्ति अनलॉक करें। इस ट्यूटोरियल के साथ प्रेजेंटेशन प्रबंधन में महारत हासिल करें। प्रेजेंटेशन प्रॉपर्टी को आसानी से एक्सेस करें, संशोधित करें और बेहतर बनाएँ।
-type: docs
 weight: 11
 url: /hi/java/java-powerpoint-properties-management/access-presentation-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# प्रस्तुति गुण तक पहुँचें
+
 ## परिचय
 जावा विकास के क्षेत्र में, प्रस्तुतियों को सहजता से प्रबंधित करना एक चुनौतीपूर्ण प्रयास हो सकता है। हालाँकि, जावा के लिए Aspose.Slides के आगमन के साथ, डेवलपर्स को इस जटिलता को आसानी से नेविगेट करने के लिए एक मजबूत टूलकिट के साथ सशक्त बनाया गया है। यह ट्यूटोरियल आपके मार्गदर्शक प्रकाश के रूप में कार्य करता है, प्रस्तुति गुणों तक पहुँचने के लिए Aspose.Slides का लाभ उठाने की जटिलताओं का खुलासा करता है। हम पूर्वापेक्षाओं में गहराई से उतरेंगे, पैकेज आयात करेंगे, और प्रत्येक उदाहरण को पचाने योग्य चरणों में विभाजित करेंगे, यह सुनिश्चित करते हुए कि महारत की ओर आपकी यात्रा सुचारू और समृद्ध बनी रहे।
 ## आवश्यक शर्तें
@@ -64,3 +70,9 @@ System.out.println("Name of Application: " + docProps.getNameOfApplication());
  किसी भी प्रश्न या सहायता के लिए, आप यहां जा सकते हैं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11), जहां विशेषज्ञ और समुदाय मदद के लिए तत्पर रहते हैं।
 ### क्या मैं Aspose.Slides के लिए अस्थायी लाइसेंस प्राप्त कर सकता हूँ?
  हां, मूल्यांकन या परीक्षण के उद्देश्य से अस्थायी लाइसेंस उपलब्ध हैं। आप अस्थायी लाइसेंस प्राप्त कर सकते हैं[खरीद पृष्ठ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

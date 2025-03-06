@@ -3,10 +3,16 @@ title: تنسيق المخطط والرسوم المتحركة في Aspose.Slide
 linktitle: تنسيق المخطط والرسوم المتحركة في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تنسيق الرسوم البيانية وتحريكها في Aspose.Slides لـ .NET، مما يعزز عروضك التقديمية من خلال عناصر مرئية جذابة.
-type: docs
 weight: 10
 url: /ar/net/chart-formatting-and-animation/chart-formatting-and-animation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تنسيق المخطط والرسوم المتحركة في Aspose.Slides
+
 
 يمكن أن يؤدي إنشاء عروض تقديمية جذابة باستخدام المخططات الديناميكية والرسوم المتحركة إلى تعزيز تأثير رسالتك بشكل كبير. يمكّنك Aspose.Slides for .NET من تحقيق ذلك. في هذا البرنامج التعليمي، سنرشدك خلال عملية تنشيط المخططات وتنسيقها باستخدام Aspose.Slides for .NET. سنقوم بتقسيم الخطوات إلى أقسام يمكن التحكم فيها للتأكد من فهمك للمفهوم بشكل كامل.
 
@@ -172,3 +178,10 @@ presentation.Save("Your Document Directory\\AnimatingSeriesElements_out.pptx", S
 
  للحصول على الدعم والأسئلة، قم بزيارة منتدى Aspose.Slides على[https://forum.aspose.com/](https://forum.aspose.com/).
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

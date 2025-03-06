@@ -3,10 +3,16 @@ title: Coleção de regras substitutas em Java PowerPoint
 linktitle: Coleção de regras substitutas em Java PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como gerenciar regras de substituição de fontes em apresentações do PowerPoint usando Aspose.Slides para Java. Melhore a compatibilidade entre dispositivos sem esforço.
-type: docs
 weight: 11
 url: /pt/java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-collection-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Coleção de regras substitutas em Java PowerPoint
+
 ## Introdução
 Neste tutorial, nos aprofundaremos em como gerenciar regras de fallback de fontes usando Aspose.Slides para Java. Os substitutos de fontes são cruciais para garantir que suas apresentações sejam exibidas corretamente em diferentes ambientes, especialmente quando fontes específicas não estão disponíveis. Iremos orientá-lo na importação dos pacotes necessários, na configuração do ambiente e na implementação de regras de fallback passo a passo.
 ## Pré-requisitos
@@ -73,3 +79,9 @@ As regras de substituição de fontes definem fontes alternativas a serem usadas
  Documentação detalhada está disponível[aqui](https://reference.aspose.com/slides/java/).
 ### Como obtenho suporte para Aspose.Slides para Java?
 Para suporte, visite o fórum Aspose.Slides[aqui](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: دليل تضمين كائنات OLE باستخدام Aspose.Slides لـ 
 linktitle: استبدال عنوان الصورة لإطار كائن OLE في شرائح العرض التقديمي
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية تحسين شرائح العرض التقديمي باستخدام كائنات OLE الديناميكية باستخدام Aspose.Slides for .NET. اتبع دليلنا خطوة بخطوة للتكامل السلس.
-type: docs
 weight: 15
 url: /ar/net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ole-object-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# دليل تضمين كائنات OLE باستخدام Aspose.Slides لـ .NET
+
 ## مقدمة
 غالبًا ما يتضمن إنشاء شرائح عرض تقديمي ديناميكية وجذابة دمج عناصر الوسائط المتعددة المختلفة. في هذا البرنامج التعليمي، سوف نستكشف كيفية استبدال عنوان الصورة لإطار كائن OLE (ربط الكائنات وتضمينها) في شرائح العرض التقديمي باستخدام مكتبة Aspose.Slides القوية لـ .NET. يعمل Aspose.Slides على تبسيط عملية التعامل مع كائنات OLE، مما يوفر للمطورين الأدوات اللازمة لتحسين عروضهم التقديمية بسهولة.
 ## المتطلبات الأساسية
@@ -83,3 +89,9 @@ oof.SubstitutePictureTitle = "Caption example";
 بالتأكيد. لديك تحكم برمجي كامل في كائنات OLE، مما يسمح لك بتعديل خصائصها ومظهرها حسب الحاجة.
 ### هل هناك أي قيود على حجم كائنات OLE المضمنة؟
 على الرغم من وجود قيود على الحجم، إلا أنها سخية بشكل عام. يوصى باختباره باستخدام حالة الاستخدام المحددة الخاصة بك لضمان الأداء الأمثل.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

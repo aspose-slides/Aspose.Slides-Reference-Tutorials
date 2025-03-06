@@ -3,10 +3,16 @@ title: Dupliceer de dia naar het einde van de bestaande presentatie
 linktitle: Dupliceer de dia naar het einde van de bestaande presentatie
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u een dia dupliceert en toevoegt aan het einde van een bestaande PowerPoint-presentatie met Aspose.Slides voor .NET. Deze stapsgewijze handleiding biedt broncodevoorbeelden en behandelt de installatie, het dupliceren van dia's, wijzigingen en meer.
-type: docs
 weight: 22
 url: /nl/net/slide-access-and-manipulation/clone-slide-within-same-presentation-to-end/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dupliceer de dia naar het einde van de bestaande presentatie
+
 
 ## Inleiding tot Aspose.Slides voor .NET
 
@@ -96,3 +102,9 @@ Ja, Aspose.Slides ondersteunt verschillende PowerPoint-formaten, waaronder PPT, 
 ### Kan ik dia-inhoud wijzigen met Aspose.Slides?
 
 Absoluut! Met Aspose.Slides kunt u niet alleen dia's dupliceren, maar ook de inhoud ervan, zoals tekst, afbeeldingen, vormen en animaties, programmatisch manipuleren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

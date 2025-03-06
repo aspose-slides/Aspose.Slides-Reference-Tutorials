@@ -3,10 +3,16 @@ title: Biểu đồ kênh trong Java Slides
 linktitle: Biểu đồ kênh trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Khám phá Aspose.Slides cho Java với hướng dẫn từng bước. Tạo biểu đồ kênh tuyệt đẹp và hơn thế nữa.
-type: docs
 weight: 14
 url: /vi/java/chart-elements/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Biểu đồ kênh trong Java Slides
+
 
 ## Giới thiệu về Biểu đồ kênh trong Java Slides
 
@@ -144,3 +150,9 @@ Bạn có thể xử lý các lỗi và ngoại lệ bằng cách sử dụng c�
 ### Tôi có thể tìm thêm ví dụ và tài liệu về Aspose.Slides cho Java ở đâu?
 
  Bạn có thể tìm thêm ví dụ và tài liệu chi tiết về cách sử dụng Aspose.Slides cho Java trong[tài liệu](https://docs.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

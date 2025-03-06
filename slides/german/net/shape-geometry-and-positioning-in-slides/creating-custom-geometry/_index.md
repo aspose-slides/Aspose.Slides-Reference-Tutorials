@@ -3,10 +3,16 @@ title: Erstellen benutzerdefinierter Geometrie in C# mit Aspose.Slides für .NET
 linktitle: Erstellen benutzerdefinierter Geometrie in Geometrieformen mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie in Aspose.Slides für .NET benutzerdefinierte Geometrie erstellen. Werten Sie Ihre Präsentationen mit einzigartigen Formen auf. Schritt-für-Schritt-Anleitung für C#-Entwickler.
-type: docs
 weight: 15
 url: /de/net/shape-geometry-and-positioning-in-slides/creating-custom-geometry/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Erstellen benutzerdefinierter Geometrie in C# mit Aspose.Slides für .NET
+
 ## Einführung
 In der dynamischen Welt der Präsentationen können Sie Ihren Inhalt durch das Hinzufügen einzigartiger Formen und Geometrien aufwerten und ihn ansprechender und optisch ansprechender gestalten. Aspose.Slides für .NET bietet eine leistungsstarke Lösung zum Erstellen benutzerdefinierter Geometrien innerhalb von Formen, sodass Sie sich von herkömmlichen Designs lösen können. Dieses Tutorial führt Sie durch den Prozess zum Erstellen benutzerdefinierter Geometrie in einem GeometryShape mit Aspose.Slides für .NET.
 ## Voraussetzungen
@@ -94,3 +100,9 @@ Ja, Aspose.Slides unterstützt verschiedene Programmiersprachen, aber dieses Tut
  Suchen Sie Hilfe und engagieren Sie sich in der Community bei[Aspose.Slides-Forum](https://forum.aspose.com/c/slides/11).
 ### 5. Wo kann ich Aspose.Slides für .NET kaufen?
  Sie können Aspose.Slides für .NET kaufen[Hier](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

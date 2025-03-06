@@ -3,10 +3,16 @@ title: जावा का उपयोग करके स्मार्टआ
 linktitle: जावा का उपयोग करके स्मार्टआर्ट नोड पर टेक्स्ट बदलें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: जानें कि Aspose.Slides के साथ जावा का उपयोग करके PowerPoint में स्मार्टआर्ट नोड टेक्स्ट को कैसे अपडेट किया जाए, जिससे प्रस्तुति अनुकूलन में वृद्धि हो।
-type: docs
 weight: 22
 url: /hi/java/java-powerpoint-smartart-manipulation/change-text-smartart-node-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा का उपयोग करके स्मार्टआर्ट नोड पर टेक्स्ट बदलें
+
 ## परिचय
 PowerPoint में SmartArt, आकर्षक आरेख बनाने के लिए एक शक्तिशाली सुविधा है। Aspose.Slides for Java, SmartArt तत्वों को प्रोग्रामेटिक रूप से हेरफेर करने के लिए व्यापक सहायता प्रदान करता है। इस ट्यूटोरियल में, हम आपको Java का उपयोग करके SmartArt नोड पर टेक्स्ट बदलने की प्रक्रिया के बारे में बताएँगे।
 ## आवश्यक शर्तें
@@ -60,3 +66,9 @@ presentation.save(dataDir + "ChangeText_On_SmartArt_Node_out.pptx", SaveFormat.P
 हां, Aspose.Slides स्मार्टआर्ट लेआउट की एक विस्तृत श्रृंखला का समर्थन करता है, जिससे आप अपनी प्रस्तुति आवश्यकताओं के लिए सबसे उपयुक्त लेआउट चुन सकते हैं।
 ### मैं Aspose.Slides के लिए अधिक संसाधन और समर्थन कहां पा सकता हूं?
  आप यहां जा सकते हैं[Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/) विस्तृत API संदर्भ और ट्यूटोरियल के लिए। इसके अतिरिक्त, आप सहायता भी ले सकते हैं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11) या खरीदने पर विचार करें[अस्थायी लाइसेंस](https://purchase.aspose.com/temporary-license/) व्यावसायिक सहायता के लिए.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

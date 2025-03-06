@@ -3,10 +3,16 @@ title: Khai phá những khả năng mới với Aspose.Slides dành cho Hướn
 linktitle: Java Slides Tiện ích bổ sung
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Khám phá các tiện ích bổ sung cho Java Slides bằng cách sử dụng hướng dẫn Aspose.Slides for Java. Nâng cao bài thuyết trình của bạn với các tính năng mạnh mẽ. Khám phá ngay bây giờ!
-type: docs
 weight: 20
 url: /vi/java/additional-utilities/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Khai phá những khả năng mới với Aspose.Slides dành cho Hướng dẫn Java
+
 Bạn đã sẵn sàng đưa bài thuyết trình Java Slides của mình lên một tầm cao mới chưa? Aspose.Slides for Java cung cấp một kho tàng các tiện ích và tính năng bổ sung có thể biến các slide của bạn thành những kiệt tác quyến rũ. Trong bài viết này, chúng ta sẽ khám phá nhiều công cụ và kỹ thuật đa dạng do Aspose.Slides cho Java cung cấp, cho phép bạn tạo các bản trình bày để lại ấn tượng lâu dài.
 
 ## Sức mạnh của Aspose.Slides cho Java
@@ -48,3 +54,9 @@ Tìm hiểu cách mở bản trình bày PowerPoint trong Java bằng Aspose.Sli
 Tìm hiểu cách bảo mật tài liệu PDF của bạn với quyền truy cập trong Java Slides bằng Aspose.Slides. Hướng dẫn từng bước này đề cập đến việc bảo vệ bằng mật khẩu và hơn thế nữa.
 ### [Xác minh bản trình bày mà không cần tải trong các trang trình bày Java](./verify-presentation-without-loading-in-java-slides/)
 Tìm hiểu cách xác minh bản trình bày mà không cần tải chúng trong Java Slides bằng Aspose.Slides for Java. Đảm bảo tính toàn vẹn của tệp một cách hiệu quả với hướng dẫn từng bước này.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

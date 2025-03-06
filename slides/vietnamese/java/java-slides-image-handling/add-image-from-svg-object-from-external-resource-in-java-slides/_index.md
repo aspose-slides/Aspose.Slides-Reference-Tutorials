@@ -3,10 +3,16 @@ title: Thêm hình ảnh từ đối tượng SVG từ tài nguyên bên ngoài 
 linktitle: Thêm hình ảnh từ đối tượng SVG từ tài nguyên bên ngoài trong các trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm hình ảnh SVG dựa trên vector từ các tài nguyên bên ngoài vào các trang trình bày Java bằng Aspose.Slides. Tạo các bài thuyết trình tuyệt đẹp với hình ảnh chất lượng cao.
-type: docs
 weight: 12
 url: /vi/java/image-handling/add-image-from-svg-object-from-external-resource-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Thêm hình ảnh từ đối tượng SVG từ tài nguyên bên ngoài trong các trang trình bày Java
+
 
 ## Giới thiệu về Thêm hình ảnh từ đối tượng SVG từ tài nguyên bên ngoài trong Java Slides
 
@@ -118,3 +124,9 @@ Có, Aspose.Slides cho Java tương thích với các phiên bản Java mới nh
 ### Tôi có thể áp dụng hình động cho hình ảnh SVG được thêm vào trang chiếu không?
 
 Có, bạn có thể áp dụng hình động cho hình ảnh SVG trong trang trình bày của mình bằng Aspose.Slides để tạo bản trình bày động.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Beheer ActiveX-besturingselement in PowerPoint
 linktitle: Beheer ActiveX-besturingselement in PowerPoint
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u PowerPoint-presentaties kunt verbeteren met ActiveX-besturingselementen met behulp van Aspose.Slides voor .NET. Onze stapsgewijze handleiding behandelt het invoegen, manipuleren, aanpassen, afhandelen van gebeurtenissen en meer.
-type: docs
 weight: 13
 url: /nl/net/slide-view-and-layout-manipulation/manage-activex-control/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer ActiveX-besturingselement in PowerPoint
+
 ActiveX-besturingselementen zijn krachtige elementen die de functionaliteit en interactiviteit van uw PowerPoint-presentaties kunnen verbeteren. Met deze besturingselementen kunt u objecten zoals multimediaspelers, formulieren voor gegevensinvoer en meer rechtstreeks in uw dia's insluiten en manipuleren. In dit artikel onderzoeken we hoe u ActiveX-besturingselementen in PowerPoint kunt beheren met Aspose.Slides voor .NET, een veelzijdige bibliotheek die naadloze integratie en manipulatie van PowerPoint-bestanden in uw .NET-toepassingen mogelijk maakt.
 
 ## ActiveX-besturingselementen toevoegen aan PowerPoint-dia's
@@ -149,3 +155,9 @@ Door ActiveX-besturingselementen in uw PowerPoint-presentaties op te nemen, kunt
 ### Kan ik een ActiveX-besturingselement uit een dia verwijderen?
 
  Ja, u kunt een ActiveX-besturingselement van een dia verwijderen met behulp van de`Remove` werkwijze van de`Shapes` verzameling. Geef de verwijzing door naar de`IOleObjectFrame` het besturingselement weergeven als een argument voor de`Remove` methode, en het besturingselement wordt van de dia verwijderd.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

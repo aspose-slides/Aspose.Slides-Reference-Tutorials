@@ -3,10 +3,16 @@ title: Aspose.Slides를 사용하여 그룹 도형의 대체 텍스트에 액세
 linktitle: 그룹 도형의 대체 텍스트에 액세스
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides를 사용하여 그룹 도형의 대체 텍스트에 액세스하는 방법을 알아보세요. 코드 예제가 포함된 단계별 가이드입니다.
-type: docs
 weight: 10
 url: /ko/net/shape-effects-and-manipulation-in-slides/accessing-alt-text-group-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides를 사용하여 그룹 도형의 대체 텍스트에 액세스
+
 
 프레젠테이션 관리 및 조작과 관련하여 Aspose.Slides for .NET은 강력한 도구 세트를 제공합니다. 이 문서에서는 이 API의 특정 측면인 그룹 모양의 대체 텍스트에 액세스하는 방법을 자세히 살펴보겠습니다. 숙련된 개발자이든 Aspose.Slides를 처음 시작하는 개발자이든 이 포괄적인 가이드는 단계별 지침과 코드 예제를 제공하여 프로세스를 안내합니다. 마지막에는 Aspose.Slides를 사용하여 그룹 모양의 대체 텍스트로 효과적으로 작업하는 방법을 확실하게 이해하게 될 것입니다.
 
@@ -118,3 +124,9 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ### Aspose.Slides는 초보자와 숙련된 개발자 모두에게 적합합니까?
 
 예, Aspose.Slides는 모든 기술 수준의 개발자를 수용하도록 설계되었습니다. 초보자는 설명서에 제공된 단계별 가이드를 따를 수 있고, 숙련된 개발자는 고급 기능을 활용할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

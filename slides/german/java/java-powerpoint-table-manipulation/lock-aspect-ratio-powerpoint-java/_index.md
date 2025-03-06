@@ -3,10 +3,16 @@ title: Seitenverhältnis in PowerPoint mit Java sperren
 linktitle: Seitenverhältnis in PowerPoint mit Java sperren
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides in Java das Seitenverhältnis in PowerPoint-Präsentationen sperren. Perfekt für Java-Entwickler, die präzise Kontrolle über das Foliendesign wünschen.
-type: docs
 weight: 16
 url: /de/java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Seitenverhältnis in PowerPoint mit Java sperren
+
 ## Einführung
 Im Bereich der Java-Entwicklung kann die programmgesteuerte Bearbeitung von PowerPoint-Präsentationen Arbeitsabläufe optimieren und die Produktivität erheblich steigern. Aspose.Slides für Java bietet Java-Entwicklern ein robustes Toolkit zum Automatisieren von Aufgaben wie dem Ändern von Folien, dem Hinzufügen von Inhalten und dem Anwenden von Formatierungen direkt aus Java-Code. Dieses Tutorial konzentriert sich auf einen grundlegenden Aspekt der Verwaltung von PowerPoint-Präsentationen: das Sperren von Seitenverhältnissen.
 ## Voraussetzungen
@@ -61,3 +67,9 @@ Ja, Aspose.Slides für Java ist darauf ausgelegt, komplexe Szenarien in Unterneh
  Sie können Unterstützung von der Aspose.Slides-Community erhalten[Hier](https://forum.aspose.com/c/slides/11).
 ### Wie kann ich Aspose.Slides für Java vor dem Kauf ausprobieren?
  Sie können eine kostenlose Testversion erhalten[Hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

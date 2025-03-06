@@ -3,10 +3,16 @@ title: Beheer kop- en voettekst in dia's
 linktitle: Beheer kop- en voettekst in dia's
 second_title: Aspose.Slides .NET PowerPoint-verwerkings-API
 description: Leer hoe u dynamische kop- en voetteksten kunt toevoegen aan PowerPoint-presentaties met Aspose.Slides voor .NET.
-type: docs
 weight: 14
 url: /nl/net/chart-creation-and-customization/header-footer-manager/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Beheer kop- en voettekst in dia's
+
 
 # Dynamische kop- en voetteksten maken in Aspose.Slides voor .NET
 
@@ -131,3 +137,9 @@ A2: Ja, u kunt een gratis proefversie van Aspose.Slides voor .NET uitproberen[hi
 
 ### V5: Is er een community- of ondersteuningsforum voor Aspose.Slides voor .NET?
  A5: Ja, u kunt het Aspose.Slides voor .NET-ondersteuningsforum bezoeken[hier](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

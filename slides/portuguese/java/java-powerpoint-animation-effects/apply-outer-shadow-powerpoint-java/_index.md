@@ -3,10 +3,16 @@ title: Aplicar sombra externa no PowerPoint com Java
 linktitle: Aplicar sombra externa no PowerPoint com Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como aplicar efeito de sombra externa no PowerPoint usando Java com Aspose.Slides. Aprimore suas apresentações com profundidade e apelo visual.
-type: docs
 weight: 13
 url: /pt/java/java-powerpoint-animation-effects/apply-outer-shadow-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aplicar sombra externa no PowerPoint com Java
+
 ## Introdução
 A criação de apresentações em PowerPoint visualmente atraentes geralmente envolve a adição de vários efeitos a formas e texto. Um desses efeitos é a sombra externa, que pode destacar os elementos e adicionar profundidade aos slides. Neste tutorial, você aprenderá como aplicar um efeito de sombra externa a uma forma no PowerPoint usando Java com Aspose.Slides.
 ## Pré-requisitos
@@ -121,3 +127,9 @@ Sim, você pode aplicar efeitos não apenas a formas, mas também a partes indiv
 
 ### Onde posso encontrar mais recursos e suporte para Aspose.Slides?
  Você pode consultar o[documentação](https://reference.aspose.com/slides/java/) para obter referências detalhadas da API e explorar o[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) para apoio e discussões da comunidade.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

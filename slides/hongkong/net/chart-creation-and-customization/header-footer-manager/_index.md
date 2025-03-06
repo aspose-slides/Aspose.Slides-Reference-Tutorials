@@ -3,10 +3,16 @@ title: 管理幻燈片中的頁首和頁腳
 linktitle: 管理幻燈片中的頁首和頁腳
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 在 PowerPoint 簡報中新增動態頁首和頁尾。
-type: docs
 weight: 14
 url: /zh-hant/net/chart-creation-and-customization/header-footer-manager/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 管理幻燈片中的頁首和頁腳
+
 
 # 在 Aspose.Slides for .NET 中建立動態頁首和頁尾
 
@@ -131,3 +137,9 @@ A2：是的，您可以探索 Aspose.Slides for .NET 的免費試用版[這裡](
 
 ### Q5：Aspose.Slides for .NET 有社群或支援論壇嗎？
  A5：是的，您可以造訪 Aspose.Slides for .NET 支援論壇[這裡](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Notes Slide Manipulation
 linktitle: Notes Slide Manipulation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Enhance your presentations with precision! Explore Aspose.Slides tutorial on notes slide manipulation in .NET. Learn to add, edit, and manage speaker notes programmatically.
-type: docs
 weight: 16
 url: /net/notes-slide-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Notes Slide Manipulation
+
 ## Introduction
 
 Welcome to the comprehensive Aspose.Slides tutorial on Notes Slide Manipulation for .NET developers. In this tutorial, we'll delve into the fascinating world of speaker notes and how you can manipulate them programmatically using the Aspose.Slides library. Speaker notes play a pivotal role in presentations, offering valuable insights to the presenter and enhancing the overall impact of the content. By the end of this tutorial, you'll have a solid understanding of how to effectively add, edit, and manage speaker notes within your PowerPoint presentations.
@@ -39,3 +45,9 @@ Learn how to customize header and footer in notes slides using Aspose.Slides for
 Learn how to remove notes from a specific slide in PowerPoint presentations using Aspose.Slides for .NET. Follow our step-by-step guide with complete source code to seamlessly manipulate your slides programmatically.
 ### [Remove Notes from All Slides](./remove-notes-from-all-slides/)
 Learn how to remove notes from all slides in your PowerPoint presentations using Aspose.Slides for .NET. Follow this step-by-step guide with complete source code examples to easily achieve your goal.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

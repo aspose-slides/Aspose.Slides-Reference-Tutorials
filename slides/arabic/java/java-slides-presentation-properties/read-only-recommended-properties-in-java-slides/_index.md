@@ -3,10 +3,16 @@ title: الخصائص الموصى بها للقراءة فقط في شرائح 
 linktitle: الخصائص الموصى بها للقراءة فقط في شرائح Java
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تمكين الخصائص الموصى بها للقراءة فقط في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides for Java. اتبع دليلنا خطوة بخطوة مع أمثلة التعليمات البرمجية المصدر لتعزيز أمان العرض التقديمي.
-type: docs
 weight: 17
 url: /ar/java/presentation-properties/read-only-recommended-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# الخصائص الموصى بها للقراءة فقط في شرائح Java
+
 
 ## مقدمة لتمكين الخصائص الموصى بها للقراءة فقط في شرائح Java
 
@@ -88,3 +94,9 @@ pres.getProtectionManager().setPassword("YourPassword");
 ```
 
  تذكر أن تحل محل`"YourPassword"` مع كلمة المرور المطلوبة.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

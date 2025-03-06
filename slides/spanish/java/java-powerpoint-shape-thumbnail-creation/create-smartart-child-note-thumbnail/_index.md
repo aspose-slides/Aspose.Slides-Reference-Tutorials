@@ -3,10 +3,16 @@ title: Crear miniatura de nota secundaria SmartArt
 linktitle: Crear miniatura de nota secundaria SmartArt
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a crear miniaturas de notas secundarias SmartArt en Java con Aspose.Slides, mejorando sus presentaciones de PowerPoint sin esfuerzo.
-type: docs
 weight: 15
 url: /es/java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Crear miniatura de nota secundaria SmartArt
+
 ## Introducción
 En este tutorial, exploraremos cómo crear miniaturas de notas secundarias SmartArt en Java usando Aspose.Slides. Aspose.Slides es una poderosa API de Java que permite a los desarrolladores trabajar con presentaciones de PowerPoint mediante programación, permitiéndoles crear, modificar y manipular diapositivas con facilidad.
 ## Requisitos previos
@@ -70,3 +76,9 @@ Sí, Aspose.Slides está diseñado para manejar tareas de automatización de Pow
 ¡Ciertamente! Aspose.Slides proporciona soporte integral para crear y manipular diagramas SmartArt de diversas complejidades.
 ### ¿Aspose.Slides ofrece soporte técnico para desarrolladores?
  Sí, Aspose.Slides proporciona soporte técnico dedicado a los desarrolladores a través de su[foro](https://forum.aspose.com/c/slides/11) y otros canales.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

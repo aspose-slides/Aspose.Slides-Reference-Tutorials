@@ -3,10 +3,16 @@ title: Drugie opcje wykresów w slajdach Java
 linktitle: Drugie opcje wykresów w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dostosowywać wykresy w Java Slides za pomocą Aspose.Slides dla Java. Przeglądaj opcje drugiej fabuły i ulepszaj swoje prezentacje.
-type: docs
 weight: 12
 url: /pl/java/chart-creation/second-plot-options-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Drugie opcje wykresów w slajdach Java
+
 
 ## Wprowadzenie do opcji drugiego wykresu dla wykresów w slajdach Java
 
@@ -93,3 +99,9 @@ Aby zmienić rozmiar drugiego koła na wykresie kołowym, użyj opcji`setSecondP
 ### Jak ustawić pozycję podziału na wykresie kołowym?
 
  Możesz ustawić pozycję podziału na wykresie kołowym za pomocą opcji`setPieSplitPosition` metoda. Dostosuj wartość, aby określić żądaną pozycję.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

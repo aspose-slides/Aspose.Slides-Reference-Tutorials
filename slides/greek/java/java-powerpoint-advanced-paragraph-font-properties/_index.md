@@ -3,10 +3,16 @@ title: Ιδιότητες παραγράφου και γραμματοσειρά
 linktitle: Ιδιότητες παραγράφου και γραμματοσειράς για προχωρημένους Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Κατακτήστε τις προηγμένες ιδιότητες παραγράφου και γραμματοσειράς στο Java PowerPoint χρησιμοποιώντας το Aspose.Slides. Μάθετε να προσαρμόζετε γραμματοσειρές, να προσθέτετε κουκκίδες εικόνας και να χρησιμοποιείτε εναλλακτικές γραμματοσειρές.
-type: docs
 weight: 28
 url: /el/java/java-powerpoint-advanced-paragraph-font-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ιδιότητες παραγράφου και γραμματοσειράς για προχωρημένους Java PowerPoint
+
 ## Εισαγωγή
 
 Η δημιουργία εκλεπτυσμένων παρουσιάσεων PowerPoint απαιτεί λεπτομερή ρύθμιση διαφόρων στοιχείων, από τη μορφοποίηση παραγράφων έως τη διαχείριση γραμματοσειρών. Το Aspose.Slides για Java παρέχει ισχυρά εργαλεία για την αποτελεσματική διαχείριση αυτών των προηγμένων ιδιοτήτων. Σε αυτό το άρθρο, θα εξερευνήσουμε σεμινάρια που σας βοηθούν να προσαρμόσετε τις ιδιότητες γραμματοσειράς παραγράφου, να προσθέσετε κουκκίδες εικόνας και να χρησιμοποιήσετε εναλλακτικές γραμματοσειρές. Ας βουτήξουμε σε αυτές τις προηγμένες τεχνικές για να κάνουμε τις παρουσιάσεις σας να ξεχωρίζουν!
@@ -35,3 +41,9 @@ url: /el/java/java-powerpoint-advanced-paragraph-font-properties/
 Μάθετε πώς μπορείτε να αποκτήσετε το ορθογώνιο τμήματος στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java με αυτόν τον λεπτομερή, βήμα προς βήμα εκμάθηση. Ιδανικό για προγραμματιστές Java.
 ### [Απόδοση με εναλλακτική γραμματοσειρά σε Java PowerPoint](./render-with-fallback-font-java-powerpoint/)
 Μάθετε πώς να αποδίδετε κείμενο με εναλλακτικές γραμματοσειρές σε παρουσιάσεις Java PowerPoint χρησιμοποιώντας το Aspose.Slides. Ακολουθήστε αυτόν τον οδηγό βήμα προς βήμα για απρόσκοπτη εφαρμογή.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

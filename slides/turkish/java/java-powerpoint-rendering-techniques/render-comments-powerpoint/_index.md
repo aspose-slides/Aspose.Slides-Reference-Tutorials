@@ -3,10 +3,16 @@ title: PowerPoint'te Yorumları İşleme
 linktitle: PowerPoint'te Yorumları İşleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java kullanarak PowerPoint sunumlarında yorumların nasıl oluşturulacağını öğrenin. Görünümü özelleştirin ve görüntü önizlemelerini verimli bir şekilde oluşturun.
-type: docs
 weight: 10
 url: /tr/java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint'te Yorumları İşleme
+
 ## giriiş
 Bu eğitimde Aspose.Slides for Java'yı kullanarak PowerPoint sunumlarında yorum oluşturma sürecini anlatacağız. Yorumları işlemek, yorumlar içeren sunumların görüntü önizlemelerini oluşturmak gibi çeşitli amaçlar için yararlı olabilir.
 ## Önkoşullar
@@ -72,3 +78,9 @@ Evet, PNG'nin yanı sıra Java'nın ImageIO sınıfı tarafından desteklenen di
 Evet, Aspose.Slides'ı kullanarak PowerPoint uygulamasını açmadan resimlere yorum oluşturabilirsiniz.
 ### Yorumları doğrudan bir PDF belgesine dönüştürmenin bir yolu var mı?
 Evet, Aspose.Slides, yorumların doğrudan PDF belgelerine işlenmesine yönelik işlevsellik sağlayarak belge iş akışınıza kusursuz entegrasyon sağlar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

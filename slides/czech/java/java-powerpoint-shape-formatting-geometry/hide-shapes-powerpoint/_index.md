@@ -3,10 +3,16 @@ title: Skrýt obrazce v PowerPointu
 linktitle: Skrýt obrazce v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se skrýt tvary v PowerPointu pomocí Aspose.Slides for Java s naším podrobným průvodcem krok za krokem. Ideální pro Java vývojáře všech úrovní.
-type: docs
 weight: 27
 url: /cs/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skrýt obrazce v PowerPointu
+
 ## Úvod
 Vítejte v našem komplexním tutoriálu o skrývání tvarů v PowerPointu pomocí Aspose.Slides pro Java! Pokud jste někdy potřebovali programově skrýt konkrétní tvary v prezentacích PowerPoint, jste na správném místě. Tento průvodce vás provede každým krokem jednoduchým konverzačním stylem. Ať už jste zkušený vývojář nebo s Javou teprve začínáte, máme pro vás řešení.
 ## Předpoklady
@@ -81,3 +87,9 @@ Aspose.Slides je k dispozici pro různé programovací jazyky včetně .NET, Pyt
  Ano, můžete si stáhnout bezplatnou zkušební verzi z[tady](https://releases.aspose.com/).
 ### Kde mohu získat podporu pro Aspose.Slides?
  Můžete získat podporu od[Fórum podpory Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

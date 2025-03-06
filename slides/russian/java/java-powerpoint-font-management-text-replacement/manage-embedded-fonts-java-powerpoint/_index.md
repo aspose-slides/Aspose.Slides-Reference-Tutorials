@@ -3,10 +3,16 @@ title: Управление встроенными шрифтами в Java Powe
 linktitle: Управление встроенными шрифтами в Java PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Легко управляйте встроенными шрифтами в презентациях Java PowerPoint с помощью Aspose.Slides. Пошаговое руководство по оптимизации слайдов для обеспечения единообразия.
-type: docs
 weight: 11
 url: /ru/java/java-powerpoint-font-management-text-replacement/manage-embedded-fonts-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Управление встроенными шрифтами в Java PowerPoint
+
 ## Введение
 В постоянно развивающемся мире презентаций эффективное управление шрифтами может существенно повлиять на качество и совместимость ваших файлов PowerPoint. Aspose.Slides для Java предлагает комплексное решение для управления встроенными шрифтами, благодаря которому ваши презентации будут выглядеть идеально на любом устройстве. Независимо от того, работаете ли вы с устаревшими презентациями или создаете новые, это руководство проведет вас через процесс управления встроенными шрифтами в презентациях Java PowerPoint с помощью Aspose.Slides. Давайте погрузимся!
 ## Предварительные условия
@@ -104,3 +110,9 @@ Aspose.Slides для Java совместим с JDK 8 и более поздни
 Управление встроенными шрифтами гарантирует, что ваши презентации будут выглядеть одинаково на разных устройствах и платформах, а также поможет уменьшить размер файла за счет удаления ненужных шрифтов.
 ### Где я могу получить поддержку Aspose.Slides для Java?
  Вы можете получить поддержку от[Форум поддержки Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

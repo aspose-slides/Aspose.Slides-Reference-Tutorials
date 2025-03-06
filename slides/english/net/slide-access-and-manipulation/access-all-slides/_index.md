@@ -3,10 +3,16 @@ title: Retrieve All Slides within a Presentation
 linktitle: Retrieve All Slides within a Presentation
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to retrieve all slides within a PowerPoint presentation using Aspose.Slides for .NET. Follow this step-by-step guide with complete source code to efficiently work with presentations programmatically. Explore slide properties, installation, customization, and more.
-type: docs
 weight: 13
 url: /net/slide-access-and-manipulation/access-all-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Retrieve All Slides within a Presentation
+
 
 ## Introduction to Aspose.Slides for .NET
 
@@ -139,3 +145,10 @@ Absolutely. You can add text, images, shapes, charts, and more to your slides us
 ### Where can I find more information about Aspose.Slides for .NET?
 
 For more detailed information, API references, and code examples, you can visit the [Aspose.Slides for .NET documentation](https://reference.aspose.com/slides/net/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

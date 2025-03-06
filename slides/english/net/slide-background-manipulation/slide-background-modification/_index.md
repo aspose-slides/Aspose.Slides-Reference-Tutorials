@@ -3,10 +3,16 @@ title: Slide Background Modification in Aspose.Slides
 linktitle: Slide Background Modification in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to customize slide backgrounds using Aspose.Slides for .NET. Elevate your presentations with visually appealing backgrounds. Get started today! 
-type: docs
 weight: 10
 url: /net/slide-background-manipulation/slide-background-modification/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Slide Background Modification in Aspose.Slides
+
 
 When it comes to creating visually captivating presentations, the background plays a crucial role. Aspose.Slides for .NET empowers you to customize slide backgrounds with ease. In this tutorial, we'll explore how to modify slide backgrounds using Aspose.Slides for .NET. 
 
@@ -124,3 +130,10 @@ Aspose.Slides for .NET provides a wide range of features, including slide creati
 
 Yes, you can modify slide backgrounds for any slide in a presentation using Aspose.Slides for .NET. Simply target the slide you want to customize and follow the same steps outlined in this tutorial.
 
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

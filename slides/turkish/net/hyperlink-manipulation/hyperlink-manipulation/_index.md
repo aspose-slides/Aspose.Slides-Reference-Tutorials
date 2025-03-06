@@ -3,10 +3,16 @@ title: Aspose.Slides'ta Hyperlink Manipülasyonu
 linktitle: Aspose.Slides'ta Hyperlink Manipülasyonu
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'te köprüleri nasıl ekleyip kaldıracağınızı öğrenin. Sunumlarınızı etkileşimli bağlantılarla kolayca geliştirin.
-type: docs
 weight: 10
 url: /tr/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides'ta Hyperlink Manipülasyonu
+
 
 Köprüler, slaytlar arasında gezinmek veya dış kaynaklara erişmek için uygun bir yol sağladıklarından sunumların temel öğeleridir. Aspose.Slides for .NET, sunum slaytlarınıza köprü eklemek ve kaldırmak için güçlü özellikler sunar. Bu eğitimde Aspose.Slides for .NET'i kullanarak köprü manipülasyonu sürecinde size rehberlik edeceğiz. Slayta köprü eklemeyi ve slayttan köprüleri kaldırmayı ele alacağız. O halde hadi dalalım!
 
@@ -121,3 +127,9 @@ Kesinlikle. Aspose.Slides, PPT, PPTX, PPS ve daha fazlası dahil olmak üzere ç
 
 ### Aspose.Slides için nasıl geçici lisans alabilirim?
  Aspose.Slides için geçici bir lisansa ihtiyacınız varsa bir tane alabilirsiniz.[Burada](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

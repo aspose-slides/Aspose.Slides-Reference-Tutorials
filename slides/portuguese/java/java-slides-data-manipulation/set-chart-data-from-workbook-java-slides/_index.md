@@ -3,10 +3,16 @@ title: Definir dados do gráfico da pasta de trabalho em slides Java
 linktitle: Definir dados do gráfico da pasta de trabalho em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como definir dados de gráfico de uma pasta de trabalho do Excel em Java Slides usando Aspose.Slides. Guia passo a passo com exemplos de código para apresentações dinâmicas.
-type: docs
 weight: 15
 url: /pt/java/data-manipulation/set-chart-data-from-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definir dados do gráfico da pasta de trabalho em slides Java
+
 
 ## Introdução à definição de dados de gráfico da pasta de trabalho em slides Java
 
@@ -142,3 +148,9 @@ Sim, você pode atualizar os dados do gráfico dinamicamente em uma apresentaç�
 ### Onde posso encontrar mais exemplos e recursos para trabalhar com Aspose.Slides for Java?
 
  Você pode explorar exemplos e recursos adicionais no site[Aspor site](https://www.aspose.com/). Além disso, a documentação do Aspose.Slides para Java fornece orientação abrangente sobre como trabalhar com a biblioteca.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Skapa bildminiatyrer med Aspose.Slides för .NET
 linktitle: Generera miniatyrbild från Slide
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du skapar PowerPoint-miniatyrbilder med Aspose.Slides för .NET. Förbättra dina presentationer enkelt.
-type: docs
 weight: 11
 url: /sv/net/slide-thumbnail-generation/generate-thumbnail-from-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa bildminiatyrer med Aspose.Slides för .NET
+
 
 en värld av digitala presentationer är att skapa tilltalande och informativa bildminiatyrer en viktig del av att fånga din publiks uppmärksamhet. Aspose.Slides för .NET är ett kraftfullt bibliotek som gör att du kan generera miniatyrbilder från bilder i dina .NET-applikationer. I den här steg-för-steg-guiden visar vi dig hur du uppnår detta med Aspose.Slides för .NET.
 
@@ -106,3 +112,10 @@ Ja, Aspose erbjuder olika licensalternativ, inklusive tillfälliga licenser för
 
 ### Hur kan jag få support för Aspose.Slides för .NET om jag stöter på problem eller har frågor?
  Du kan söka hjälp och delta i diskussioner på Asposes communitysupportforum[här](https://forum.aspose.com/).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

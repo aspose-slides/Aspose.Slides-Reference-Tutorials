@@ -3,10 +3,16 @@ title: Állítsa be a külső munkafüzetet a Java Slides alkalmazásban
 linktitle: Állítsa be a külső munkafüzetet a Java Slides alkalmazásban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan állíthat be külső munkafüzeteket a Java Slides programban az Aspose.Slides for Java segítségével. Hozzon létre dinamikus prezentációkat az Excel adatintegrációjával.
-type: docs
 weight: 19
 url: /hu/java/data-manipulation/set-external-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Állítsa be a külső munkafüzetet a Java Slides alkalmazásban
+
 
 ## Bevezetés a külső munkafüzet beállításához Java Slides-ben
 
@@ -119,3 +125,9 @@ Az Aspose.Slides for Java programot rendszeresen frissítik, hogy biztosítsák 
 ### Hozzáadhatok több diagramot, amelyek ugyanarra a külső munkafüzetre hivatkoznak?
 
 Igen, több diagramot is hozzáadhat a prezentációhoz, amelyek mindegyike ugyanarra a külső munkafüzetre hivatkozik. Egyszerűen ismételje meg az ebben az oktatóanyagban vázolt lépéseket minden létrehozni kívánt diagramnál.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

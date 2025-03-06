@@ -3,10 +3,16 @@ title: 측정된 라이선스 사용량
 linktitle: 측정된 라이선스 사용량
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: .NET용 Aspose.Slides와 함께 Metered Licensing을 효율적으로 사용하는 방법을 알아보세요. 실제 사용량에 대한 비용을 지불하면서 API를 원활하게 통합하세요.
-type: docs
 weight: 11
 url: /ko/net/licensing-and-formatting/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 측정된 라이선스 사용량
+
 
 ## 소개
 
@@ -114,3 +120,9 @@ Aspose.Slides for .NET은 개발자가 프로그래밍 방식으로 PowerPoint �
 
 ### Aspose.Slides 지원 및 토론을 위한 포럼이 있습니까?
  예, Aspose.Slides 포럼에서 지원을 찾고 토론에 참여할 수 있습니다.[이 링크](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Lưu dưới dạng Chỉ đọc trong Trang trình bày Java
 linktitle: Lưu dưới dạng Chỉ đọc trong Trang trình bày Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách lưu bản trình bày PowerPoint ở dạng chỉ đọc trong Java bằng Aspose.Slides. Bảo vệ nội dung của bạn bằng hướng dẫn từng bước và ví dụ về mã.
-type: docs
 weight: 11
 url: /vi/java/saving-options/save-as-read-only-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu dưới dạng Chỉ đọc trong Trang trình bày Java
+
 
 ## Giới thiệu về Lưu dưới dạng chỉ đọc trong các slide Java bằng Aspose.Slides cho Java
 
@@ -127,3 +133,9 @@ Nếu bạn quên mật khẩu bảo vệ ghi, không có cách nào tích hợp
 ### Tôi có thể thay đổi mật khẩu chỉ đọc sau khi cài đặt không?
 
  Có, bạn có thể thay đổi mật khẩu chỉ đọc sau khi cài đặt. Sử dụng`setReadProtection(String newPassword)` bằng mật khẩu mới để cập nhật mật khẩu bảo vệ chỉ đọc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

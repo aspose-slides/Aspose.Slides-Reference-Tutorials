@@ -3,10 +3,16 @@ title: Java Slaytlarında Organizasyon Şeması
 linktitle: Java Slaytlarında Organizasyon Şeması
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Adım adım Aspose.Slides eğitimleriyle Java Slides'ta etkileyici organizasyon şemalarının nasıl oluşturulacağını öğrenin. Organizasyon yapınızı zahmetsizce özelleştirin ve görselleştirin.
-type: docs
 weight: 22
 url: /tr/java/chart-data-manipulation/organization-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarında Organizasyon Şeması
+
 
 ## Aspose.Slides Kullanarak Java Slides'ta Organizasyon Şeması Oluşturmaya Giriş
 
@@ -103,3 +109,9 @@ Evet, kuruluş yapınızı doğru şekilde temsil etmek için kuruluş şemasın
 ### Çok seviyeli karmaşık organizasyon yapıları oluşturmak mümkün mü?
 
 Evet, Aspose.Slides, organizasyon şemasına şekiller ekleyip düzenleyerek birden fazla seviyeye sahip karmaşık organizasyon yapıları oluşturmanıza olanak tanır. İstediğiniz yapıyı temsil etmek için şekiller arasındaki hiyerarşik ilişkileri tanımlayabilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

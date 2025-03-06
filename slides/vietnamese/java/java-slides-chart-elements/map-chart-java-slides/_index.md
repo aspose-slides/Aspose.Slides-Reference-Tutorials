@@ -3,10 +3,16 @@ title: Biểu đồ bản đồ trong Java Slides
 linktitle: Biểu đồ bản đồ trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tạo biểu đồ bản đồ tuyệt đẹp trong bản trình bày PowerPoint với Aspose.Slides cho Java. Hướng dẫn từng bước và mã nguồn dành cho nhà phát triển Java.
-type: docs
 weight: 15
 url: /vi/java/chart-elements/map-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Biểu đồ bản đồ trong Java Slides
+
 
 ## Giới thiệu Map Chart trong Java Slides sử dụng Aspose.Slides for Java
 
@@ -131,3 +137,9 @@ Trong hướng dẫn này, chúng tôi đã hướng dẫn quy trình tạo Bi�
 ### Làm cách nào để tích hợp Aspose.Slides cho Java vào dự án của tôi?
 
  Tải thư viện từ[đây](https://releases.aspose.com/slides/java/) và thêm nó vào đường dẫn lớp của dự án của bạn.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

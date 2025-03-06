@@ -3,10 +3,16 @@ title: Nastavte jazyk prezentace a text tvaru v Javě
 linktitle: Nastavte jazyk prezentace a text tvaru v Javě
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se automatizovat prezentace PowerPoint pomocí Aspose.Slides for Java. Vytvářejte, upravujte a vylepšujte snímky snadno programově.
-type: docs
 weight: 19
 url: /cs/java/java-powerpoint-text-font-customization/set-presentation-language-shape-text-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nastavte jazyk prezentace a text tvaru v Javě
+
 ## Úvod
 Vytváření a manipulace s prezentacemi PowerPoint programově v Javě může zefektivnit automatizaci pracovních postupů a zvýšit produktivitu. Aspose.Slides for Java poskytuje robustní sadu nástrojů pro efektivní dosažení těchto úkolů. Tento tutoriál vás provede základními kroky k nastavení jazyka prezentace a tvaru textu pomocí Aspose.Slides pro Java.
 ## Předpoklady
@@ -69,3 +75,9 @@ Ano, Aspose.Slides poskytuje komplexní rozhraní API pro vytváření prezentac
  K dispozici je podrobná dokumentace[tady](https://reference.aspose.com/slides/java/).
 ### Jaké možnosti podpory jsou k dispozici pro Aspose.Slides for Java?
  Můžete navštívit fórum Aspose.Slides[tady](https://forum.aspose.com/c/slides/11) za podporu komunity.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

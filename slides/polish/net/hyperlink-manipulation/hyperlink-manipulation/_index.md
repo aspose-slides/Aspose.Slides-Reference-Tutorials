@@ -3,10 +3,16 @@ title: Manipulacja hiperłączami w Aspose.Slides
 linktitle: Manipulacja hiperłączami w Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak dodawać i usuwać hiperłącza w Aspose.Slides dla .NET. Z łatwością ulepsz swoje prezentacje za pomocą interaktywnych łączy.
-type: docs
 weight: 10
 url: /pl/net/hyperlink-manipulation/hyperlink-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulacja hiperłączami w Aspose.Slides
+
 
 Hiperłącza są niezbędnym elementem prezentacji, ponieważ zapewniają wygodny sposób poruszania się między slajdami lub uzyskiwania dostępu do zasobów zewnętrznych. Aspose.Slides dla .NET oferuje zaawansowane funkcje dodawania i usuwania hiperłączy na slajdach prezentacji. W tym samouczku przeprowadzimy Cię przez proces manipulacji hiperłączami przy użyciu Aspose.Slides dla .NET. Omówimy dodawanie hiperłączy do slajdu i usuwanie hiperłączy ze slajdu. Zatem zanurzmy się!
 
@@ -121,3 +127,9 @@ Absolutnie. Aspose.Slides obsługuje różne formaty programu PowerPoint, w tym 
 
 ### Jak mogę uzyskać tymczasową licencję na Aspose.Slides?
  Jeśli potrzebujesz tymczasowej licencji na Aspose.Slides, możesz ją uzyskać[Tutaj](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

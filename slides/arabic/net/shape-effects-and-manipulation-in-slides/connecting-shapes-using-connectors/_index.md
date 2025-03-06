@@ -3,10 +3,16 @@ title: Aspose.Slides - ربط الأشكال بسلاسة في .NET
 linktitle: ربط الأشكال باستخدام الموصلات في العرض التقديمي
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: اكتشف قوة Aspose.Slides لـ .NET، وربط الأشكال بسهولة في عروضك التقديمية. ارفع مستوى شرائحك باستخدام الموصلات الديناميكية.
-type: docs
 weight: 29
 url: /ar/net/shape-effects-and-manipulation-in-slides/connecting-shapes-using-connectors/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides - ربط الأشكال بسلاسة في .NET
+
 ## مقدمة
 في عالم العروض التقديمية الديناميكي، تضيف القدرة على ربط الأشكال باستخدام الموصلات طبقة من التطور إلى شرائحك. يعمل Aspose.Slides for .NET على تمكين المطورين من تحقيق ذلك بسلاسة. سيرشدك هذا البرنامج التعليمي خلال العملية، مع تفصيل كل خطوة لضمان فهم واضح.
 ## المتطلبات الأساسية
@@ -77,3 +83,9 @@ input.Save(dataDir + "Connecting shapes using connectors_out.pptx", SaveFormat.P
 استكشف وثائق Aspose.Slides لمعرفة طرق تخصيص مظهر الموصل، مثل نمط الخط واللون.
 ### هل يوجد منتدى مجتمعي لدعم Aspose.Slides؟
  نعم، يمكنك الحصول على المساعدة ومشاركة تجاربك في[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

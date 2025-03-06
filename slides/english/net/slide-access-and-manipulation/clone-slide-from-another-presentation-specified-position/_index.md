@@ -3,10 +3,16 @@ title: Clone Slide from Different Presentation to Specified Position
 linktitle: Clone Slide from Different Presentation to Specified Position
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to clone slides from different presentations to a specified position using Aspose.Slides for .NET. Step-by-step guide with complete source code, covering slide cloning, position specification, and presentation saving.
-type: docs
 weight: 16
 url: /net/slide-access-and-manipulation/clone-slide-from-another-presentation-specified-position/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Clone Slide from Different Presentation to Specified Position
+
 
 ## Introduction to Cloning Slides from Different Presentation to Specified Position
 
@@ -137,3 +143,10 @@ Absolutely, you can modify the content, formatting, and properties of the cloned
 ### Where can I find more information about Aspose.Slides for .NET?
 
 You can refer to the [documentation](https://reference.aspose.com/slides/net/) for detailed information, examples, and API references related to Aspose.Slides for .NET.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

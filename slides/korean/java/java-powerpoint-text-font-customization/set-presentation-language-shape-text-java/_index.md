@@ -3,10 +3,16 @@ title: Java에서 프리젠테이션 언어 및 도형 텍스트 설정
 linktitle: Java에서 프리젠테이션 언어 및 도형 텍스트 설정
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션을 자동화하는 방법을 알아보세요. 프로그래밍 방식으로 쉽게 슬라이드를 생성, 수정 및 향상할 수 있습니다.
-type: docs
 weight: 19
 url: /ko/java/java-powerpoint-text-font-customization/set-presentation-language-shape-text-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java에서 프리젠테이션 언어 및 도형 텍스트 설정
+
 ## 소개
 Java에서 프로그래밍 방식으로 PowerPoint 프레젠테이션을 만들고 조작하면 워크플로 자동화를 간소화하고 생산성을 높일 수 있습니다. Aspose.Slides for Java는 이러한 작업을 효율적으로 수행할 수 있는 강력한 도구 세트를 제공합니다. 이 튜토리얼은 Aspose.Slides for Java를 사용하여 프레젠테이션 언어를 설정하고 텍스트를 구성하는 필수 단계를 안내합니다.
 ## 전제 조건
@@ -69,3 +75,9 @@ pres.dispose();
  자세한 문서가 제공됩니다.[여기](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java에는 어떤 지원 옵션을 사용할 수 있나요?
  Aspose.Slides 포럼을 방문할 수 있습니다.[여기](https://forum.aspose.com/c/slides/11) 지역 사회 지원을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

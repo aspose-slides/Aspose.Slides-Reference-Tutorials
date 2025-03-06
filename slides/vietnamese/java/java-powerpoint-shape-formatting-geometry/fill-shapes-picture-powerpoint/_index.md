@@ -3,10 +3,16 @@ title: Điền vào hình dạng bằng hình ảnh trong PowerPoint
 linktitle: Điền vào hình dạng bằng hình ảnh trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách điền hình ảnh vào các hình trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Tăng cường sự hấp dẫn thị giác một cách dễ dàng.
-type: docs
 weight: 12
 url: /vi/java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Điền vào hình dạng bằng hình ảnh trong PowerPoint
+
 ## Giới thiệu
 Bản trình bày PowerPoint thường yêu cầu các yếu tố trực quan như hình dạng chứa đầy hình ảnh để tăng cường sức hấp dẫn và truyền tải thông tin một cách hiệu quả. Aspose.Slides for Java cung cấp một bộ công cụ mạnh mẽ để thực hiện nhiệm vụ này một cách liền mạch. Trong hướng dẫn này, chúng ta sẽ tìm hiểu cách tô các hình bằng hình ảnh bằng Aspose.Slides cho Java theo từng bước.
 ## Điều kiện tiên quyết
@@ -80,3 +86,9 @@ Bạn có thể thay đổi kích thước hình ảnh trong hình bằng cách 
 Aspose.Slides cho Java hỗ trợ nhiều định dạng hình ảnh, bao gồm JPEG, PNG, GIF, BMP và TIFF, cùng nhiều định dạng khác.
 ### Tôi có thể áp dụng hiệu ứng cho các hình đã tô màu không?
 Có, Aspose.Slides cho Java cung cấp các API toàn diện để áp dụng các hiệu ứng khác nhau, chẳng hạn như bóng, phản chiếu và xoay 3D, cho các hình dạng đầy.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Acceder a las propiedades de la presentación
 linktitle: Acceder a las propiedades de la presentación
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Desbloquee el poder de Aspose.Slides para Java. Domina la gestión de presentaciones con este tutorial. Acceda, modifique y mejore las propiedades de la presentación sin esfuerzo.
-type: docs
 weight: 11
 url: /es/java/java-powerpoint-properties-management/access-presentation-properties/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Acceder a las propiedades de la presentación
+
 ## Introducción
 En el ámbito del desarrollo de Java, gestionar presentaciones sin problemas puede ser una tarea desafiante. Sin embargo, con la llegada de Aspose.Slides para Java, los desarrolladores cuentan con un sólido conjunto de herramientas para navegar a través de esta complejidad sin esfuerzo. Este tutorial sirve como guía y revela las complejidades de aprovechar Aspose.Slides para acceder a las propiedades de la presentación. Profundizaremos en los requisitos previos, importaremos paquetes y dividiremos cada ejemplo en pasos digeribles, garantizando que su viaje hacia el dominio siga siendo sencillo y enriquecedor.
 ## Requisitos previos
@@ -64,3 +70,9 @@ Sí, Aspose.Slides está diseñado para integrarse perfectamente con varias vers
  Para cualquier consulta o ayuda, puede visitar el[Foro Aspose.Slides](https://forum.aspose.com/c/slides/11), donde los expertos y la comunidad están disponibles para ayudar.
 ### ¿Puedo obtener una licencia temporal para Aspose.Slides?
  Sí, hay licencias temporales disponibles para fines de evaluación o prueba. Puede adquirir una licencia temporal del[pagina de compra](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

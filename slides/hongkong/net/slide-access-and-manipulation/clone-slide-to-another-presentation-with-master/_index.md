@@ -3,10 +3,16 @@ title: 使用主幻燈片將幻燈片複製到新簡報
 linktitle: 使用主幻燈片將幻燈片複製到新簡報
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for .NET 複製投影片和主投影片。透過本逐步指南提升您的簡報技巧。
-type: docs
 weight: 20
 url: /zh-hant/net/slide-access-and-manipulation/clone-slide-to-another-presentation-with-master/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用主幻燈片將幻燈片複製到新簡報
+
 
 在演示設計和管理領域，效率是關鍵。作為內容編寫者，我將指導您使用 Aspose.Slides for .NET 將投影片複製到具有主投影片的新簡報的過程。無論您是經驗豐富的開發人員還是該領域的新手，本逐步教學都將幫助您掌握這項基本技能。讓我們開始吧。
 
@@ -118,3 +124,9 @@ Aspose.Slides for .NET 是一個功能強大的函式庫，使 .NET 開發人員
 
 ### 我可以在哪裡獲得社群支持並討論 Aspose.Slides for .NET？
 您可以加入 Aspose 社群並尋求支持：[Aspose.Slides for .NET 支援論壇](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

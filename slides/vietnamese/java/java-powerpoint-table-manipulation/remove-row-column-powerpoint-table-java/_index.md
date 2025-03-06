@@ -3,10 +3,16 @@ title: Xóa Hàng hoặc Cột trong Bảng PowerPoint bằng Java
 linktitle: Xóa Hàng hoặc Cột trong Bảng PowerPoint bằng Java
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách xóa hàng hoặc cột khỏi bảng PowerPoint bằng Java với Aspose.Slides cho Java. Hướng dẫn từng bước dễ dàng dành cho nhà phát triển.
-type: docs
 weight: 18
 url: /vi/java/java-powerpoint-table-manipulation/remove-row-column-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Xóa Hàng hoặc Cột trong Bảng PowerPoint bằng Java
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng ta sẽ khám phá cách xóa một hàng hoặc cột khỏi bảng PowerPoint bằng Java với sự trợ giúp của Aspose.Slides. Aspose.Slides cho Java là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, thao tác và chuyển đổi bản trình bày PowerPoint theo chương trình. Hướng dẫn này đặc biệt tập trung vào quá trình sửa đổi bảng trong trang chiếu PowerPoint, trình bày từng bước cách xóa các hàng hoặc cột cụ thể khỏi bảng.
 ## Điều kiện tiên quyết
@@ -74,3 +80,9 @@ Aspose.Slides cung cấp hỗ trợ toàn diện để tạo, sửa đổi và c
 Có, Aspose.Slides được sử dụng rộng rãi trong môi trường doanh nghiệp để tự động hóa các tác vụ PowerPoint nhờ các tính năng và hiệu suất mạnh mẽ của nó.
 ### Tôi có thể dùng thử Aspose.Slides trước khi mua không?
  Có, bạn có thể tải xuống bản dùng thử miễn phí Aspose.Slides từ[đây](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

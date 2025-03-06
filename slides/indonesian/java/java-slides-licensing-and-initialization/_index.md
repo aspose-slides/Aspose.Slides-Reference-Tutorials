@@ -3,10 +3,16 @@ title: Lisensi dan Inisialisasi Slide Java
 linktitle: Lisensi dan Inisialisasi Slide Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Temukan cara melisensikan dan menginisialisasi Aspose.Slides untuk Java secara efektif dalam tutorial komprehensif kami. Mulailah dengan Java Slides sekarang!
-type: docs
 weight: 10
 url: /id/java/licensing-and-initialization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lisensi dan Inisialisasi Slide Java
+
 
 Di dunia Java Slides, perizinan dan inisialisasi adalah langkah pertama yang penting. Aspose.Slides untuk Java menyediakan platform yang kuat untuk membuat presentasi dan tayangan slide yang menakjubkan. Dalam artikel ini, kami akan memandu Anda melalui proses pelisensian dan inisialisasi Aspose.Slides untuk Java, memastikan Anda memiliki semua alat yang Anda perlukan untuk membuat presentasi yang menawan.
 
@@ -38,3 +44,9 @@ Kesimpulannya, melisensikan dan menginisialisasi Aspose.Slides untuk Java adalah
 ## Tutorial Lisensi dan Inisialisasi Slide Java
 ### [Lisensi Terukur di Java Slides](./metered-licensing-java-slides/)
 Optimalkan penggunaan Aspose.Slides Anda untuk Java dengan Lisensi Terukur. Pelajari cara menyiapkannya dan memantau konsumsi API Anda.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

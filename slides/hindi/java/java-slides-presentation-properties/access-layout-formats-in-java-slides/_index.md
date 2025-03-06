@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में लेआउट प्र
 linktitle: जावा स्लाइड्स में लेआउट प्रारूप तक पहुंचें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java के साथ Java स्लाइड्स में लेआउट फ़ॉर्मेट को एक्सेस और मैनिपुलेट करना सीखें। PowerPoint प्रेजेंटेशन में आसानी से आकार और लाइन स्टाइल को कस्टमाइज़ करें।
-type: docs
 weight: 10
 url: /hi/java/presentation-properties/access-layout-formats-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में लेआउट प्रारूप तक पहुंचें
+
 
 ## जावा स्लाइड्स में एक्सेस लेआउट प्रारूपों का परिचय
 
@@ -138,3 +144,9 @@ IShape shape = layoutSlide.getShapes().get_Item(0); // लेआउट स्ल
 ```
 
  फिर आप इसका उपयोग कर सकते हैं`IFillFormat` और`ILineFormat` आकृति के भरण और रेखा प्रारूपों को संशोधित करने के लिए पिछले उत्तरों में दिखाए गए तरीकों का उपयोग करें।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

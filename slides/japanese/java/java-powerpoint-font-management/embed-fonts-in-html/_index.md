@@ -3,10 +3,16 @@ title: Aspose.Slides for Java を使用して HTML にフォントを埋め込�
 linktitle: Aspose.Slides for Java を使用して HTML にフォントを埋め込む
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して HTML にフォントを埋め込み、さまざまなプラットフォームやデバイス間で一貫した書体を確保する方法を学習します。
-type: docs
 weight: 13
 url: /ja/java/java-powerpoint-font-management/embed-fonts-in-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides for Java を使用して HTML にフォントを埋め込む
+
 ## 導入
 Aspose.Slides for Java は、PowerPoint プレゼンテーションをプログラムで操作したい Java 開発者にとって強力なツールです。このチュートリアルでは、Aspose.Slides for Java を使用して HTML にフォントを埋め込むプロセスを詳しく説明します。フォントを埋め込むことで、必要なフォントがローカルにインストールされていない場合でも、さまざまなプラットフォームやデバイスでプレゼンテーションの意図した外観を維持できます。
 ## 前提条件
@@ -58,3 +64,9 @@ pres.save(outPath + "pres.html", SaveFormat.Html, htmlOptionsEmbed);
 訪問することができます[Aspose.Slides フォーラム](https://forum.aspose.com/c/slides/11)コミュニティ サポートについては、Aspose サポートにお問い合わせください。専門的な支援については、Aspose サポートにお問い合わせください。
 ### Aspose.Slides for Java の一時ライセンスを購入できますか?
 はい、臨時免許証を取得することができます。[購入ページ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

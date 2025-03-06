@@ -3,10 +3,16 @@ title: Opanowanie rotacji 3D w prezentacjach za pomocą Aspose.Slides dla .NET
 linktitle: Stosowanie efektu obrotu 3D na kształtach na slajdach prezentacji
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ulepsz swoje prezentacje dzięki Aspose.Slides dla .NET! W tym samouczku dowiesz się, jak stosować efekty obrotu 3D do kształtów. Twórz dynamiczną i oszałamiającą wizualnie prezentację.
-type: docs
 weight: 23
 url: /pl/net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effect-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Opanowanie rotacji 3D w prezentacjach za pomocą Aspose.Slides dla .NET
+
 ## Wstęp
 Tworzenie angażujących i dynamicznych slajdów prezentacji jest kluczowym aspektem skutecznej komunikacji. Aspose.Slides dla .NET zapewnia potężny zestaw narzędzi do ulepszania prezentacji, w tym możliwość stosowania efektów rotacji 3D do kształtów. W tym samouczku omówimy proces stosowania efektu rotacji 3D do kształtów na slajdach prezentacji przy użyciu Aspose.Slides dla .NET.
 ## Warunki wstępne
@@ -60,3 +66,9 @@ Tak, możesz zastosować efekty obrotu 3D do różnych kształtów, w tym pól t
  Tak, możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Gdzie mogę znaleźć szczegółową dokumentację Aspose.Slides dla .NET?
  Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

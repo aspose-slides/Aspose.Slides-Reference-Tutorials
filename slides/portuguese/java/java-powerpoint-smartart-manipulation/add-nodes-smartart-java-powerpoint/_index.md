@@ -3,10 +3,16 @@ title: Adicionar nós ao SmartArt em Java PowerPoint
 linktitle: Adicionar nós ao SmartArt em Java PowerPoint
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como adicionar nós SmartArt a apresentações Java PowerPoint usando Aspose.Slides for Java. Aumente o apelo visual sem esforço.
-type: docs
 weight: 15
 url: /pt/java/java-powerpoint-smartart-manipulation/add-nodes-smartart-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Adicionar nós ao SmartArt em Java PowerPoint
+
 ## Introdução
 No domínio das apresentações Java PowerPoint, a manipulação de nós SmartArt pode melhorar muito o apelo visual e a eficácia dos seus slides. Aspose.Slides for Java oferece uma solução robusta para desenvolvedores Java integrarem perfeitamente funcionalidades SmartArt em suas apresentações. Neste tutorial, nos aprofundaremos no processo de adição de nós ao SmartArt em apresentações Java PowerPoint usando Aspose.Slides.
 ## Pré-requisitos
@@ -71,3 +77,9 @@ Com certeza, você pode percorrer slides e adicionar nós SmartArt conforme nece
 Sim, Aspose.Slides for Java oferece um conjunto abrangente de recursos para manipulação de PowerPoint, incluindo criação de slides, animação e gerenciamento de formas.
 ### Onde posso procurar assistência ou suporte para Aspose.Slides for Java?
  Você pode visitar o[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11) para obter suporte da comunidade ou explore a documentação para obter orientação detalhada.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

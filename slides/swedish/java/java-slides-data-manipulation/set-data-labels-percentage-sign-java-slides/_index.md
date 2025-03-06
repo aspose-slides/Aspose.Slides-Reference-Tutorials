@@ -3,10 +3,16 @@ title: Ställ in dataetiketter Procent Sign in Java Slides
 linktitle: Ställ in dataetiketter Procent Sign in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ställer in dataetiketter med procenttecken i PowerPoint-presentationer med Aspose.Slides för Java. Skapa engagerande diagram med steg-för-steg-vägledning och källkod.
-type: docs
 weight: 17
 url: /sv/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställ in dataetiketter Procent Sign in Java Slides
+
 
 ## Introduktion till Ange dataetiketter Procent Logga in Aspose.Slides för Java
 
@@ -176,3 +182,10 @@ Ja, du kan anpassa teckensnittsstorleken för dataetiketter genom att ställa in
 ### Hur kan jag lägga till fler serier i diagrammet?
 
  Du kan lägga till ytterligare serier till diagrammet genom att använda`add` metod på`IChartSeriesCollection` objekt.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

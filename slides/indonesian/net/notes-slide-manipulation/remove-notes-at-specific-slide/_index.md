@@ -3,10 +3,16 @@ title: Cara Menghapus Catatan pada Slide Tertentu dengan Aspose.Slides .NET
 linktitle: Hapus Catatan pada Slide Tertentu
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Pelajari cara menghapus catatan dari slide tertentu di PowerPoint menggunakan Aspose.Slides untuk .NET. Sederhanakan presentasi Anda dengan mudah.
-type: docs
 weight: 12
 url: /id/net/notes-slide-manipulation/remove-notes-at-specific-slide/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Cara Menghapus Catatan pada Slide Tertentu dengan Aspose.Slides .NET
+
 
 Dalam panduan langkah demi langkah ini, kami akan memandu Anda melalui proses menghapus catatan pada slide tertentu dalam presentasi PowerPoint menggunakan Aspose.Slides untuk .NET. Aspose.Slides adalah perpustakaan canggih yang memungkinkan Anda bekerja dengan file PowerPoint secara terprogram. Baik Anda seorang pengembang atau seseorang yang ingin mengotomatiskan tugas dalam presentasi PowerPoint, tutorial ini akan membantu Anda mencapainya dengan mudah.
 
@@ -82,3 +88,9 @@ Meskipun beberapa pengetahuan pemrograman berguna, Aspose.Slides menyediakan dok
 
 ### Apakah ada versi uji coba Aspose.Slides untuk .NET yang tersedia?
 Ya, Anda dapat menjelajahi Aspose.Slides dengan mengunduh uji coba gratis dari[Di Sini](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

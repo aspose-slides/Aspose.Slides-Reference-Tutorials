@@ -3,10 +3,16 @@ title: Рендеринг эмодзи в PowerPoint
 linktitle: Рендеринг эмодзи в PowerPoint
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как легко отображать смайлы в презентациях PowerPoint с помощью Aspose.Slides для Java. Повысьте вовлеченность с помощью выразительных визуальных эффектов.
-type: docs
 weight: 12
 url: /ru/java/java-powerpoint-rendering-techniques/render-emojis-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Рендеринг эмодзи в PowerPoint
+
 ## Введение
 Смайлы стали неотъемлемой частью общения, добавляя красок и эмоций нашим презентациям. Включение смайлов в слайды PowerPoint может повысить вовлеченность и просто передать сложные идеи. В этом уроке мы покажем вам процесс рендеринга смайлов в PowerPoint с помощью Aspose.Slides для Java.
 ## Предварительные условия
@@ -52,3 +58,9 @@ Aspose.Slides для Java поддерживает отображение шир
 Да, Aspose.Slides для Java совместим со всеми версиями PowerPoint, обеспечивая плавный рендеринг смайлов на разных платформах.
 ### Доступна ли пробная версия Aspose.Slides для Java?
  Да, вы можете загрузить бесплатную пробную версию Aspose.Slides для Java с сайта[Веб-сайт](https://releases.aspose.com/) изучить его возможности перед покупкой.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

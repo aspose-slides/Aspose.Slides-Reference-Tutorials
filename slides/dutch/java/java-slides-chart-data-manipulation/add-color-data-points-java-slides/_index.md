@@ -3,10 +3,16 @@ title: Kleur toevoegen aan gegevenspunten in Java-dia's
 linktitle: Kleur toevoegen aan gegevenspunten in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u kleur kunt toevoegen aan gegevenspunten in Java-dia's met behulp van Aspose.Slides voor Java.
-type: docs
 weight: 10
 url: /nl/java/chart-data-manipulation/add-color-data-points-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kleur toevoegen aan gegevenspunten in Java-dia's
+
 
 ## Inleiding tot het toevoegen van kleur aan gegevenspunten in Java-dia's
 
@@ -117,3 +123,9 @@ Om de kleur van andere gegevenspunten te wijzigen, kunt u een vergelijkbare aanp
 ### Waar kan ik meer voorbeelden en documentatie vinden?
 
  Meer voorbeelden en gedetailleerde documentatie over het gebruik van Aspose.Slides voor Java vindt u op de website[Aspose.Slides-documentatie](https://reference.aspose.com/slides/java/) website.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

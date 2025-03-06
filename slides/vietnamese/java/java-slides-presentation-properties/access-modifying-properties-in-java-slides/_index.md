@@ -3,10 +3,16 @@ title: Truy cập các thuộc tính sửa đổi trong Java Slides
 linktitle: Truy cập các thuộc tính sửa đổi trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách truy cập và sửa đổi các thuộc tính trong Java Slides bằng Aspose.Slides for Java. Nâng cao bài thuyết trình của bạn với các thuộc tính tùy chỉnh.
-type: docs
 weight: 11
 url: /vi/java/presentation-properties/access-modifying-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Truy cập các thuộc tính sửa đổi trong Java Slides
+
 
 ## Giới thiệu về Thuộc tính sửa đổi quyền truy cập trong Java Slides
 
@@ -117,3 +123,9 @@ Bạn có thể xử lý lỗi bằng cách sử dụng cơ chế xử lý ngo�
 ### Tôi có thể tìm thêm tài liệu và ví dụ ở đâu?
 
  Bạn có thể tìm thấy các ví dụ về mã và tài liệu toàn diện cho Aspose.Slides for Java tại[đây](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

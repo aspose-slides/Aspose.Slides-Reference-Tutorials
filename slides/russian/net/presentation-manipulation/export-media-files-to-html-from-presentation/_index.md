@@ -3,10 +3,16 @@ title: Экспорт медиафайлов в HTML из презентации
 linktitle: Экспорт медиафайлов в HTML из презентации
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Оптимизируйте совместное использование презентаций с помощью Aspose.Slides для .NET! Узнайте, как экспортировать медиафайлы в HTML из презентации, в этом пошаговом руководстве.
-type: docs
 weight: 15
 url: /ru/net/presentation-manipulation/export-media-files-to-html-from-presentation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Экспорт медиафайлов в HTML из презентации
+
 
 В этом уроке мы познакомим вас с процессом экспорта медиафайлов в HTML из презентации с помощью Aspose.Slides для .NET. Aspose.Slides — это мощный API, который позволяет программно работать с презентациями PowerPoint. К концу этого руководства вы сможете с легкостью конвертировать свои презентации в формат HTML. Итак, начнем!
 
@@ -84,3 +90,9 @@ pres.Save(outPath + fileName, SaveFormat.Html, htmlOptions);
  О5: Вы можете приобрести лицензию на[эта ссылка](https://purchase.aspose.com/buy).
 
 Теперь, когда вы прошли это руководство, у вас есть навыки экспорта медиафайлов в HTML из презентаций PowerPoint с помощью Aspose.Slides для .NET. Наслаждайтесь возможностью поделиться своими мультимедийными презентациями онлайн!
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

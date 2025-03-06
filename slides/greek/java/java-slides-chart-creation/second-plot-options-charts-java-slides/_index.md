@@ -3,10 +3,16 @@ title: Επιλογές δεύτερης γραφικής παράστασης �
 linktitle: Επιλογές δεύτερης γραφικής παράστασης για γραφήματα σε διαφάνειες Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να προσαρμόζετε γραφήματα σε Java Slides χρησιμοποιώντας το Aspose.Slides για Java. Εξερευνήστε τις επιλογές δεύτερης πλοκής και βελτιώστε τις παρουσιάσεις σας.
-type: docs
 weight: 12
 url: /el/java/chart-creation/second-plot-options-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Επιλογές δεύτερης γραφικής παράστασης για γραφήματα σε διαφάνειες Java
+
 
 ## Εισαγωγή στις Επιλογές δεύτερης γραφικής παράστασης για γραφήματα σε διαφάνειες Java
 
@@ -93,3 +99,9 @@ presentation.save(dataDir + "SecondPlotOptionsforCharts_out.pptx", SaveFormat.Pp
 ### Πώς ορίζω τη θέση του διαχωρισμού σε ένα γράφημα Pie of Pie;
 
  Μπορείτε να ορίσετε τη θέση του διαχωρισμού σε ένα γράφημα Pie of Pie χρησιμοποιώντας το`setPieSplitPosition` μέθοδος. Προσαρμόστε την τιμή για να καθορίσετε την επιθυμητή θέση.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

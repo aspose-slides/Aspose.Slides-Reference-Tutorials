@@ -3,10 +3,16 @@ title: Ställ in extern arbetsbok med uppdateringsdiagramdata i Java Slides
 linktitle: Ställ in extern arbetsbok med uppdateringsdiagramdata i Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du ställer in externa arbetsböcker och uppdaterar diagramdata i Java Slides med Aspose.Slides för Java. Förbättra dina färdigheter i PowerPoint-automatisering.
-type: docs
 weight: 20
 url: /sv/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ställ in extern arbetsbok med uppdateringsdiagramdata i Java Slides
+
 
 ## Introduktion till att ställa in extern arbetsbok med uppdatering av diagramdata i Java Slides
 
@@ -99,3 +105,9 @@ Ja, du kan anpassa diagrammets utseende, inklusive dess titel, etiketter, färge
 ### Var kan jag hitta mer dokumentation och resurser för Aspose.Slides för Java?
 
  För detaljerad dokumentation och ytterligare resurser, besök Aspose.Slides för Java-dokumentationen på[här](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

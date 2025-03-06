@@ -3,10 +3,16 @@ title: जावा का उपयोग करके स्मार्टआ
 linktitle: जावा का उपयोग करके स्मार्टआर्ट में चाइल्ड नोड्स तक पहुँचें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: इस चरण-दर-चरण मार्गदर्शिका के साथ Java के लिए Aspose.Slides का उपयोग करके SmartArt में चाइल्ड नोड्स तक पहुंचने और उनमें हेरफेर करने का तरीका जानें।
-type: docs
 weight: 10
 url: /hi/java/java-powerpoint-smartart-manipulation/access-child-nodes-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा का उपयोग करके स्मार्टआर्ट में चाइल्ड नोड्स तक पहुँचें
+
 ## परिचय
 क्या आपने कभी सोचा है कि आप अपने प्रेजेंटेशन में स्मार्टआर्ट ग्राफ़िक्स को प्रोग्रामेटिक रूप से कैसे मैनिपुलेट कर सकते हैं? जावा के लिए Aspose.Slides PowerPoint प्रेजेंटेशन को मैनेज करने और संपादित करने के लिए आपकी पसंदीदा लाइब्रेरी है। यह शक्तिशाली टूल डेवलपर्स को स्मार्टआर्ट ग्राफ़िक्स सहित प्रेजेंटेशन के भीतर विभिन्न तत्वों तक पहुँचने और उनमें हेरफेर करने की अनुमति देता है। इस ट्यूटोरियल में, हम आपको जावा का उपयोग करके स्मार्टआर्ट में चाइल्ड नोड्स तक पहुँचने के बारे में मार्गदर्शन करेंगे, जिससे आपकी प्रेजेंटेशन अधिक गतिशील और इंटरैक्टिव बन जाएँगी। इस गाइड के अंत तक, आप आसानी से स्मार्टआर्ट नोड्स को पार करने और उनमें हेरफेर करने के ज्ञान से लैस हो जाएँगे।
 ## आवश्यक शर्तें
@@ -81,3 +87,9 @@ if (pres != null) pres.dispose();
  दस्तावेज़ उपलब्ध है[यहाँ](https://reference.aspose.com/slides/java/).
 ### Aspose.Slides for Java के साथ विकास करने के लिए सबसे अच्छा IDE कौन सा है?
 IntelliJ IDEA और Eclipse लोकप्रिय IDE हैं जो Java के लिए Aspose.Slides के साथ अच्छी तरह से काम करते हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Tạo bản trình bày động với khung thu phóng Aspose.Slides
 linktitle: Tạo khung thu phóng trong các slide thuyết trình bằng Aspose.Slides
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách tạo bản trình bày hấp dẫn bằng khung thu phóng bằng Aspose.Slides cho .NET. Hãy làm theo hướng dẫn từng bước của chúng tôi để có trải nghiệm trượt hấp dẫn.
-type: docs
 weight: 17
 url: /vi/net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo bản trình bày động với khung thu phóng Aspose.Slides
+
 ## Giới thiệu
 Trong lĩnh vực thuyết trình, các slide hấp dẫn là chìa khóa để để lại ấn tượng lâu dài. Aspose.Slides for .NET cung cấp một bộ công cụ mạnh mẽ và trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình kết hợp các khung thu phóng hấp dẫn vào các trang trình bày của bạn.
 ## Điều kiện tiên quyết
@@ -89,3 +95,9 @@ Có, bạn có thể tùy chỉnh nhiều khía cạnh khác nhau như độ r�
  Bạn có thể có được giấy phép tạm thời[đây](https://purchase.aspose.com/temporary-license/).
 ### Câu hỏi: Tôi có thể mua phiên bản đầy đủ của Aspose.Slides cho .NET ở đâu?
  Bạn có thể mua phiên bản đầy đủ[đây](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

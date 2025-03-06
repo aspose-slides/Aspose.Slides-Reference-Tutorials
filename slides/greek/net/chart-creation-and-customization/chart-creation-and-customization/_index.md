@@ -3,10 +3,16 @@ title: Δημιουργία και προσαρμογή γραφήματος σ�
 linktitle: Δημιουργία και προσαρμογή γραφήματος στο Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε και να προσαρμόζετε γραφήματα στο PowerPoint χρησιμοποιώντας το Aspose.Slides για .NET. Οδηγός βήμα προς βήμα για τη δημιουργία δυναμικών παρουσιάσεων.
-type: docs
 weight: 10
 url: /el/net/chart-creation-and-customization/chart-creation-and-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία και προσαρμογή γραφήματος στο Aspose.Slides
+
 
 ## Εισαγωγή
 
@@ -110,3 +116,9 @@ using (Presentation presentation = new Presentation(dataDir + "presentation.ppt"
 
 ### Μπορώ να αγοράσω μια προσωρινή άδεια χρήσης για το Aspose.Slides για .NET;
 Ναι, μπορείτε να αποκτήσετε μια προσωρινή άδεια από τον ιστότοπο Aspose[εδώ](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

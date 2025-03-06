@@ -3,10 +3,16 @@ title: Skapa flernivåpunkter i Java PowerPoint
 linktitle: Skapa flernivåpunkter i Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du skapar kulor på flera nivåer i PowerPoint med Aspose.Slides för Java. Steg-för-steg guide med kodexempel och vanliga frågor.
-type: docs
 weight: 14
 url: /sv/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa flernivåpunkter i Java PowerPoint
+
 ## Introduktion
 I den här handledningen kommer vi att utforska hur man skapar kulor på flera nivåer i PowerPoint-presentationer med Aspose.Slides för Java. Att lägga till punktpunkter är ett vanligt krav för att skapa organiserat och visuellt tilltalande innehåll i presentationer. Vi går igenom processen steg-för-steg och säkerställer att du i slutet av den här guiden är utrustad för att förbättra dina presentationer med strukturerade punktpunkter på flera nivåer.
 ## Förutsättningar
@@ -109,3 +115,9 @@ Aspose.Slides genererar presentationer som är kompatibla med Microsoft PowerPoi
 Ja, Aspose.Slides tillhandahåller API:er för att automatisera skapandet, modifieringen och manipuleringen av PowerPoint-presentationer.
 ### Var kan jag få support för Aspose.Slides för Java?
  Du kan få stöd från Aspose.Slides-communityt och experter på[Aspose.Slides Forum](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Ekstrak Audio dari Slide
 linktitle: Ekstrak Audio dari Slide
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: LPelajari cara mengekstrak audio dari slide menggunakan Aspose.Slides untuk .NET. Sempurnakan presentasi Anda dengan panduan langkah demi langkah ini.
-type: docs
 weight: 11
 url: /id/net/audio-and-video-extraction/extract-audio/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ekstrak Audio dari Slide
+
 
 Dalam dunia presentasi, menambahkan audio ke slide Anda dapat meningkatkan dampak dan keterlibatan secara keseluruhan. Aspose.Slides for .NET menyediakan seperangkat alat canggih untuk bekerja dengan presentasi, dan dalam tutorial ini, kita akan menjelajahi cara mengekstrak audio dari slide dalam panduan langkah demi langkah. Apakah Anda seorang pengembang yang ingin mengotomatiskan proses ini atau sekadar tertarik untuk memahami cara melakukannya, tutorial ini akan memandu Anda melalui prosesnya.
 
@@ -87,3 +93,9 @@ Ya, Aspose.Slides for .NET menawarkan berbagai fitur untuk bekerja dengan presen
 
 ### 5. Di mana saya dapat menemukan dukungan tambahan atau mengajukan pertanyaan terkait Aspose.Slides untuk .NET?
  Anda dapat mengunjungi[Aspose.Slide untuk Forum Dukungan .NET](https://forum.aspose.com/) untuk mencari bantuan, mengajukan pertanyaan, atau berbagi pengalaman Anda dengan komunitas Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

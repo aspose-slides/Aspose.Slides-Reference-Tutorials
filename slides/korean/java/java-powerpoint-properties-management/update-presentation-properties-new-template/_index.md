@@ -3,10 +3,16 @@ title: 새 템플릿으로 프리젠테이션 속성 업데이트
 linktitle: 새 템플릿으로 프리젠테이션 속성 업데이트
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 프레젠테이션 속성을 업데이트하는 방법을 알아보세요. 원활한 메타데이터 수정으로 Java 프로젝트를 향상하세요.
-type: docs
 weight: 13
 url: /ko/java/java-powerpoint-properties-management/update-presentation-properties-new-template/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 새 템플릿으로 프리젠테이션 속성 업데이트
+
 ## 소개
 Java 개발 영역에서 Aspose.Slides는 PowerPoint 프레젠테이션을 프로그래밍 방식으로 조작하기 위한 강력한 도구입니다. 개발자는 Java 라이브러리를 사용하여 프레젠테이션 생성, 수정, 변환과 같은 작업을 자동화할 수 있으므로 기업과 개인 모두에게 귀중한 자산이 됩니다. 그러나 Aspose.Slides의 잠재력을 최대한 활용하려면 해당 기능과 이를 Java 프로젝트에 효과적으로 통합하는 방법에 대한 확실한 이해가 필요합니다. 이 튜토리얼에서는 새 템플릿을 사용하여 프리젠테이션 속성을 업데이트하는 방법을 단계별로 자세히 살펴보고 각 개념을 철저하게 파악하도록 하겠습니다.
 ## 전제 조건
@@ -75,3 +81,9 @@ updateByTemplate(dataDir + "doc3.ppt", template);
 확실히 Aspose.Slides는 프레젠테이션 속성에 대한 광범위한 사용자 정의 옵션을 제공하므로 특정 요구 사항에 맞게 조정할 수 있습니다.
 ### Aspose.Slides에 대한 추가 지원과 리소스는 어디에서 찾을 수 있나요?
 Aspose.Slides 문서를 살펴보거나, 커뮤니티 포럼에 가입하거나, Aspose 지원팀에 지원이나 문의 사항을 문의할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

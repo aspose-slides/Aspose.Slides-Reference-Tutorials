@@ -3,10 +3,16 @@ title: Java Slaytlarında Harici Çalışma Kitabındaki Grafik Verilerini Düze
 linktitle: Java Slaytlarında Harici Çalışma Kitabındaki Grafik Verilerini Düzenleme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak harici bir çalışma kitabındaki grafik verilerini nasıl düzenleyeceğinizi öğrenin. Kaynak koduyla adım adım kılavuz.
-type: docs
 weight: 17
 url: /tr/java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarında Harici Çalışma Kitabındaki Grafik Verilerini Düzenleme
+
 
 ## Java Slaytlarında Harici Çalışma Kitabındaki Grafik Verilerini Düzenlemeye Giriş
 
@@ -103,3 +109,9 @@ Kodu, farklı harici çalışma kitabı formatlarını işlemek için uygun Aspo
 ### Birden fazla sunum için bu süreci nasıl otomatikleştirebilirim?
 
 Birden fazla sunumu işlemek, her birini yüklemek, istediğiniz değişiklikleri yapmak ve değiştirilen sunumları tek tek kaydetmek için bir döngü oluşturabilirsiniz.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Save as Read-Only in Java Slides
 linktitle: Save as Read-Only in Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Learn how to save PowerPoint presentations as read-only in Java using Aspose.Slides. Protect your content with step-by-step instructions and code examples.
-type: docs
 weight: 11
 url: /java/saving-options/save-as-read-only-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Save as Read-Only in Java Slides
+
 
 ## Introduction to Save as Read-Only in Java Slides Using Aspose.Slides for Java
 
@@ -127,3 +133,10 @@ If you forget the write protection password, there is no built-in way to recover
 ### Can I change the read-only password after setting it?
 
 Yes, you can change the read-only password after setting it. Use the `setReadProtection(String newPassword)` method with the new password to update the read-only protection password.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Kształtuj mistrzostwo w zakresie połączeń dzięki Aspose.Slides dla .
 linktitle: Łączenie kształtu za pomocą witryny połączenia w prezentacji
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Twórz urzekające prezentacje za pomocą Aspose.Slides dla .NET, płynnie łącząc kształty. Postępuj zgodnie z naszym przewodnikiem, aby cieszyć się płynną i wciągającą rozgrywką.
-type: docs
 weight: 30
 url: /pl/net/shape-effects-and-manipulation-in-slides/connecting-shape-using-connection-site/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Kształtuj mistrzostwo w zakresie połączeń dzięki Aspose.Slides dla .NET
+
 ## Wstęp
 dynamicznym świecie prezentacji tworzenie atrakcyjnych wizualnie slajdów o połączonych ze sobą kształtach ma kluczowe znaczenie dla skutecznej komunikacji. Aspose.Slides dla .NET zapewnia potężne rozwiązanie umożliwiające osiągnięcie tego celu, umożliwiając łączenie kształtów za pomocą witryn połączeń. Ten samouczek poprowadzi Cię krok po kroku przez proces łączenia kształtów, dzięki czemu Twoje prezentacje będą się wyróżniać płynnymi przejściami wizualnymi.
 ## Warunki wstępne
@@ -78,3 +84,9 @@ Do obsługi wyjątków można używać bloków try-catch. Patrz[dokumentacja](ht
  Tak, możesz pobrać bezpłatną wersję próbną[Tutaj](https://releases.aspose.com/).
 ### Gdzie mogę uzyskać pomoc dotyczącą Aspose.Slides?
  Odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) za wsparcie społeczności i dyskusje.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: เน้นข้อความโดยใช้ Regex ใน Java Pow
 linktitle: เน้นข้อความโดยใช้ Regex ใน Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีเน้นข้อความใน PowerPoint โดยใช้รูปแบบ regex ด้วย Aspose.Slides สำหรับ Java ปรับปรุงการนำเสนอของคุณแบบไดนามิก
-type: docs
 weight: 15
 url: /th/java/java-powerpoint-text-alignment-formatting/highlight-text-using-regex-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# เน้นข้อความโดยใช้ Regex ใน Java PowerPoint
+
 ## การแนะนำ
 ในขอบเขตของการพัฒนาบน Java สำหรับการสร้างและจัดการงานนำเสนอ PowerPoint Aspose.Slides สำหรับ Java มีความโดดเด่นในฐานะโซลูชันที่แข็งแกร่ง บทช่วยสอนนี้มุ่งเน้นไปที่การใช้ประโยชน์จาก Aspose.Slides เพื่อเน้นข้อความโดยใช้นิพจน์ทั่วไป (regex) ภายในงานนำเสนอ PowerPoint ในตอนท้ายของคู่มือนี้ คุณจะเข้าใจวิธีใช้รูปแบบ regex เพื่อเน้นข้อความที่ต้องการในสไลด์ ปรับปรุงทั้งฟังก์ชันการทำงานและความชัดเจนของภาพ
 ## ข้อกำหนดเบื้องต้น
@@ -62,3 +68,9 @@ presentation.save(dataDir + "SomePresentation-out.pptx", SaveFormat.Pptx);
 แน่นอนว่ามันนำเสนอฟีเจอร์การจัดการข้อความที่ครอบคลุมนอกเหนือจากการเน้นสี รวมถึงการจัดรูปแบบตัวอักษร การจัดตำแหน่ง และอื่นๆ อีกมากมาย
 ### ฉันสามารถลองใช้ Aspose.Slides สำหรับ Java ก่อนซื้อได้หรือไม่
  ใช่ คุณสามารถเริ่มต้นด้วย[ทดลองฟรี](https://releases.aspose.com/) เพื่อประเมินความสามารถของตน
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

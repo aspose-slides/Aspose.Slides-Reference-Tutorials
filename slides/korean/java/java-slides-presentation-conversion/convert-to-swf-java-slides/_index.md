@@ -3,10 +3,16 @@ title: Java 슬라이드에서 SWF로 변환
 linktitle: Java 슬라이드에서 SWF로 변환
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 PowerPoint 프레젠테이션을 Java의 SWF 형식으로 변환합니다. 원활한 변환을 위해 소스 코드가 포함된 단계별 가이드를 따르세요.
-type: docs
 weight: 35
 url: /ko/java/presentation-conversion/convert-to-swf-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 슬라이드에서 SWF로 변환
+
 
 ## Aspose.Slides를 사용하여 Java에서 PowerPoint 프레젠테이션을 SWF로 변환하는 방법 소개
 
@@ -124,3 +130,9 @@ SWF 파일의 기본 메모 위치는 "없음"입니다. 필요에 따라 "Botto
 ### 변환 중 오류를 어떻게 처리합니까?
 
 try-catch 블록을 사용하여 변환 프로세스 중에 발생할 수 있는 예외를 처리할 수 있습니다. 특정 오류 처리 권장 사항은 Aspose.Slides 설명서를 확인하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

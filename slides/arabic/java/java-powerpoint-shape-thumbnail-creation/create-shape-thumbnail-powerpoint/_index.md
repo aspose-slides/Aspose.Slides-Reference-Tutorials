@@ -3,10 +3,16 @@ title: إنشاء صورة مصغرة للشكل في برنامج PowerPoint
 linktitle: إنشاء صورة مصغرة للشكل في برنامج PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إنشاء صور مصغرة للأشكال في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة المقدمة.
-type: docs
 weight: 14
 url: /ar/java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء صورة مصغرة للشكل في برنامج PowerPoint
+
 ## مقدمة
 في هذا البرنامج التعليمي، سنتعمق في إنشاء صور مصغرة للأشكال في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. Aspose.Slides هي مكتبة قوية تمكن المطورين من العمل مع ملفات PowerPoint برمجيًا، مما يسمح بأتمتة المهام المختلفة، بما في ذلك إنشاء صور مصغرة للأشكال.
 ## المتطلبات الأساسية
@@ -60,3 +66,9 @@ ImageIO.write(bitmap, ".png", new File(dataDir + "Shape_thumbnail_out.png"));
  قطعاً! يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides من[هنا](https://releases.aspose.com/) لتقييم مميزاته وقدراته.
 ### أين يمكنني العثور على الدعم لـ Aspose.Slides؟
  إذا كانت لديك أية أسئلة أو كنت بحاجة إلى مساعدة فيما يتعلق بـ Aspose.Slides، فيمكنك زيارة الموقع[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للدعم.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

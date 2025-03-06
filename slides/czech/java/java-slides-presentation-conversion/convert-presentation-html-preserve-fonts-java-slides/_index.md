@@ -3,10 +3,16 @@ title: Převod prezentace do HTML se zachováním původních písem v Java Slid
 linktitle: Převod prezentace do HTML se zachováním původních písem v Java Slides
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Převeďte PowerPointové prezentace do HTML při zachování původních písem pomocí Aspose.Slides for Java.
-type: docs
 weight: 14
 url: /cs/java/presentation-conversion/convert-presentation-html-preserve-fonts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převod prezentace do HTML se zachováním původních písem v Java Slides
+
 
 ## Úvod do převodu prezentace do HTML se zachováním původních písem v Java Slides
 
@@ -111,3 +117,9 @@ Tento příklad kódu je určen pro soubory PPTX. Pokud potřebujete převést s
 ### Jak mohu dále upravit výstup HTML?
 
  Můžete prozkoumat`HtmlOptions` třídy k přizpůsobení různých aspektů výstupu HTML, jako je velikost snímku, kvalita obrazu a další.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

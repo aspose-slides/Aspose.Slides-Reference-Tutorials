@@ -3,10 +3,16 @@ title: تحديد محور الموضع في شرائح جافا
 linktitle: تحديد محور الموضع في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: قم بتحسين الرسوم البيانية الخاصة بك باستخدام Aspose.Slides لـ Java. تعرف على كيفية تعيين محور الموضع في شرائح Java، وإنشاء عروض تقديمية مذهلة، وتخصيص تخطيطات المخططات بسهولة.
-type: docs
 weight: 16
 url: /ar/java/customization-and-formatting/setting-position-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تحديد محور الموضع في شرائح جافا
+
 
 ## مقدمة لإعداد محور الموضع في Aspose.Slides لـ Java
 
@@ -100,3 +106,9 @@ if (pres != null) pres.dispose();
 ```
 
 هذا كل شيء لهذا البرنامج التعليمي. لقد تعلمت كيفية تعيين محور الموضع في المخطط باستخدام Aspose.Slides لـ Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

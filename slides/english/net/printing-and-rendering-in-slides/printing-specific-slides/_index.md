@@ -3,10 +3,16 @@ title: Print Presentation Slides with Aspose.Slides in .NET
 linktitle: Printing Specific Presentation Slides with Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to print presentation slides in .NET using Aspose.Slides. Step-by-step guide for developers. Download the library and start printing today.
-type: docs
 weight: 18
 url: /net/printing-and-rendering-in-slides/printing-specific-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Print Presentation Slides with Aspose.Slides in .NET
+
 ## Introduction
 In the world of .NET development, Aspose.Slides stands out as a powerful tool for working with presentation files. If you've ever found yourself in need of printing presentation slides programmatically, you're in the right place. In this tutorial, we'll explore how to achieve this using Aspose.Slides for .NET.
 ## Prerequisites
@@ -59,3 +65,10 @@ A: Visit the Aspose.Slides [support forum](https://forum.aspose.com/c/slides/11)
 A: Absolutely! You can download a free trial version [here](https://releases.aspose.com/).
 ### Q: How do I purchase Aspose.Slides for .NET?
 A: You can buy the library [here](https://purchase.aspose.com/buy).
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

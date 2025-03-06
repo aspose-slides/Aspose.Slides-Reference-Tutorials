@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में प्रगति अद
 linktitle: जावा स्लाइड्स में प्रगति अद्यतन के साथ पीडीएफ में कनवर्ट करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके जावा में प्रगति अपडेट के साथ PowerPoint को PDF में बदलें। निर्बाध रूपांतरण के लिए स्रोत कोड और प्रगति ट्रैकिंग के साथ चरण-दर-चरण मार्गदर्शिका।
-type: docs
 weight: 36
 url: /hi/java/presentation-conversion/convert-pdf-progress-update-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में प्रगति अद्यतन के साथ पीडीएफ में कनवर्ट करें
+
 
 ## जावा के लिए Aspose.Slides का उपयोग करके जावा में प्रगति अपडेट के साथ PowerPoint को PDF में परिवर्तित करने का परिचय
 
@@ -118,3 +124,10 @@ class ExportProgressHandler implements IProgressCallback
 ### मैं पीडीएफ रूपांतरण विकल्पों को कैसे अनुकूलित कर सकता हूं?
 
  आप पीडीएफ रूपांतरण विकल्पों को संशोधित करके अनुकूलित कर सकते हैं`PdfOptions` कॉल करने से पहले ऑब्जेक्ट`presentation.save` विधि। इसमें पृष्ठ का आकार, गुणवत्ता और अन्य जैसे गुण सेट करना शामिल है।
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

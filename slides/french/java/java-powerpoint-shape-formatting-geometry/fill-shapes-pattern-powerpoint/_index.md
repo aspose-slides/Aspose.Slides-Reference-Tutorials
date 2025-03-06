@@ -3,10 +3,16 @@ title: Remplir les formes avec un motif dans PowerPoint
 linktitle: Remplir les formes avec un motif dans PowerPoint
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à remplir des formes avec des motifs dans PowerPoint à l'aide d'Aspose.Slides pour Java. Suivez notre guide simple, étape par étape, pour améliorer visuellement vos présentations.
-type: docs
 weight: 11
 url: /fr/java/java-powerpoint-shape-formatting-geometry/fill-shapes-pattern-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Remplir les formes avec un motif dans PowerPoint
+
 ## Introduction
 Créer des présentations visuellement attrayantes est essentiel pour engager votre public. Une façon d’améliorer vos diapositives PowerPoint consiste à remplir les formes avec des motifs. Dans ce didacticiel, nous passerons en revue les étapes permettant de remplir des formes avec des motifs à l'aide d'Aspose.Slides pour Java. Ce guide est conçu pour les développeurs qui souhaitent exploiter les puissantes fonctionnalités d'Aspose.Slides pour créer de superbes présentations par programmation.
 ## Conditions préalables
@@ -94,3 +100,9 @@ Aspose.Slides for Java est une API puissante qui permet aux développeurs de cr�
 Oui, Aspose.Slides pour Java vous permet d'ouvrir, de modifier et d'enregistrer des présentations PowerPoint existantes.
 ### Où puis-je obtenir de l'aide pour Aspose.Slides pour Java ?
  Vous pouvez bénéficier du soutien du[Forum d'assistance Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

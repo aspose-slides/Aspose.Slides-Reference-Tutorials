@@ -3,10 +3,16 @@ title: Definir a primeira linha como cabeçalho na tabela do PowerPoint com Java
 linktitle: Definir a primeira linha como cabeçalho na tabela do PowerPoint com Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Aprenda como definir a primeira linha como cabeçalho em tabelas do PowerPoint usando Aspose.Slides para Java. Melhore a clareza e a organização da apresentação sem esforço.
-type: docs
 weight: 19
 url: /pt/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Definir a primeira linha como cabeçalho na tabela do PowerPoint com Java
+
 ## Introdução
 Neste tutorial, nos aprofundaremos em como manipular tabelas do PowerPoint usando Aspose.Slides for Java, uma biblioteca poderosa que permite integração e modificação perfeitas de apresentações. Especificamente, vamos nos concentrar em definir a primeira linha de uma tabela como cabeçalho, melhorando o apelo visual e a organização dos seus slides.
 ## Pré-requisitos
@@ -76,3 +82,9 @@ Aspose.Slides for Java é uma biblioteca robusta para trabalhar com arquivos do 
  Documentação detalhada está disponível[aqui](https://reference.aspose.com/slides/java/).
 ### Como posso obter suporte para Aspose.Slides para Java?
  Você pode obter apoio da comunidade[aqui](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

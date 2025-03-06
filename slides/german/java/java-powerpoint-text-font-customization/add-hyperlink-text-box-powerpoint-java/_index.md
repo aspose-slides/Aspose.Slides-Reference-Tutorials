@@ -3,10 +3,16 @@ title: Fügen Sie mit Java einen Hyperlink zum Textfeld in PowerPoint hinzu
 linktitle: Fügen Sie mit Java einen Hyperlink zum Textfeld in PowerPoint hinzu
 second_title: Aspose.Slides Java PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie mit Aspose.Slides für Java Hyperlinks zu PowerPoint-Textfeldern hinzufügen. Schritt-für-Schritt-Anleitung mit Beispielen für Java-Entwickler.
-type: docs
 weight: 23
 url: /de/java/java-powerpoint-text-font-customization/add-hyperlink-text-box-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Fügen Sie mit Java einen Hyperlink zum Textfeld in PowerPoint hinzu
+
 ## Einführung
 Im heutigen digitalen Zeitalter ist die Erstellung dynamischer Präsentationen, die fesseln und informieren, für eine effektive Kommunikation von entscheidender Bedeutung. Java-Entwickler, die ihre Anwendungen mit interaktiven Funktionen erweitern möchten, greifen häufig auf Aspose.Slides für Java zurück, eine leistungsstarke Bibliothek, mit der PowerPoint-Präsentationen programmgesteuert bearbeitet werden können. Dieses Tutorial befasst sich mit einer solchen Funktion: dem Hinzufügen von Hyperlinks zu Textfeldern in PowerPoint-Präsentationen mit Java. Am Ende dieses Handbuchs haben Sie ein klares Verständnis dafür, wie Sie diese Funktionalität nahtlos in Ihre Java-Anwendungen implementieren können.
 ## Voraussetzungen
@@ -76,3 +82,9 @@ Indem Sie diese Schritte befolgen, haben Sie erfolgreich gelernt, wie Sie mit As
  Ja, es sind temporäre Lizenzen zum Kauf verfügbar[Hier](https://purchase.aspose.com/temporary-license/).
 ### Ist Aspose.Slides mit anderen Java-Bibliotheken kompatibel?
 Aspose.Slides lässt sich zur umfassenden PowerPoint-Bearbeitung gut in verschiedene Java-Bibliotheken integrieren.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

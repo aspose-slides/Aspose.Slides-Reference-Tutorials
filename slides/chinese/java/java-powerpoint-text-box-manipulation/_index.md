@@ -3,10 +3,16 @@ title: Java PowerPoint 文本框操作
 linktitle: Java PowerPoint 文本框操作
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 探索使用 Aspose.Slides 进行 Java PowerPoint 文本框操作的全面教程。使用我们的指南逐步增强您的演示文稿。
-type: docs
 weight: 20
 url: /zh/java/java-powerpoint-text-box-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint 文本框操作
+
 ## 介绍
 
 使用我们的 Java PowerPoint 文本框操作教程（使用 Aspose.Slides）充分发挥 PowerPoint 演示文稿的潜力。无论您是初学者还是高级用户，我们的详细指南都将帮助您轻松增强演示文稿。
@@ -52,3 +58,9 @@ url: /zh/java/java-powerpoint-text-box-manipulation/
 了解如何使用 Aspose.Slides for Java 在 Java PowerPoint 中应用项目符号填充格式。掌握项目符号样式并增强您的演示文稿。
 ### [Java PowerPoint 中的效果文本框段落](./effect-text-box-paragraph-java-powerpoint/)
 了解如何使用 Aspose.Slides 通过动态文本效果增强 Java 中的 PowerPoint 演示文稿，实现无缝集成和定制。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

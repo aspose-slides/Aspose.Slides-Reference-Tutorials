@@ -3,10 +3,16 @@ title: .NET용 Aspose.Slides를 사용하여 비디오 프레임 삽입 튜토�
 linktitle: Aspose.Slides를 사용하여 프레젠테이션 슬라이드에 웹 소스의 비디오 프레임 추가
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 PowerPoint 슬라이드에 비디오 프레임을 원활하게 삽입하는 방법을 알아보세요. 손쉽게 멀티미디어를 사용하여 프레젠테이션을 향상하세요.
-type: docs
 weight: 20
 url: /ko/net/shape-effects-and-manipulation-in-slides/adding-video-frames-from-web-source/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# .NET용 Aspose.Slides를 사용하여 비디오 프레임 삽입 튜토리얼
+
 ## 소개
 역동적인 프레젠테이션 세계에서 멀티미디어 요소를 통합하면 참여도를 크게 높이고 영향력 있는 메시지를 전달할 수 있습니다. 이를 달성하는 한 가지 강력한 방법은 프레젠테이션 슬라이드에 비디오 프레임을 삽입하는 것입니다. 이 튜토리얼에서는 .NET용 Aspose.Slides를 사용하여 이를 원활하게 수행하는 방법을 살펴보겠습니다. Aspose.Slides는 개발자가 프로그래밍 방식으로 PowerPoint 프레젠테이션을 조작할 수 있도록 하는 강력한 라이브러리로, 슬라이드 생성, 편집 및 향상을 위한 광범위한 기능을 제공합니다.
 ## 전제 조건
@@ -75,3 +81,9 @@ Aspose.Slides는 최신 .NET 프레임워크와의 호환성을 유지하기 위
 예, 슬라이드에 추가 비디오 프레임을 추가하여 여러 비디오를 포함할 수 있습니다.
 ### Aspose.Slides 관련 쿼리에 대한 지원은 어디서 찾을 수 있나요?
  방문하다[Aspose.슬라이드 포럼](https://forum.aspose.com/c/slides/11) 커뮤니티 지원 및 토론을 위해.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

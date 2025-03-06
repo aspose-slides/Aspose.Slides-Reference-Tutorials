@@ -3,10 +3,16 @@ title: Dodaj niestandardowy błąd w slajdach Java
 linktitle: Dodaj niestandardowy błąd w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodawać niestandardowe słupki błędów do wykresów programu PowerPoint w aplikacji Java Slides za pomocą Aspose.Slides. Przewodnik krok po kroku z kodem źródłowym umożliwiający precyzyjną wizualizację danych.
-type: docs
 weight: 11
 url: /pl/java/chart-data-manipulation/add-custom-error-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj niestandardowy błąd w slajdach Java
+
 
 ## Wprowadzenie do dodawania niestandardowych słupków błędów w slajdach Java przy użyciu Aspose.Slides
 
@@ -150,3 +156,9 @@ Możesz przechodzić przez punkty danych i ustawiać niestandardowe wartości s�
 ### Czy można ukryć słupki błędów dla określonych punktów danych?
 
  Tak, możesz kontrolować widoczność słupków błędów dla poszczególnych punktów danych, ustawiając opcję`setVisible` własność`IErrorBarsFormat` obiekt.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

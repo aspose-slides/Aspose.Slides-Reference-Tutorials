@@ -3,10 +3,16 @@ title: تغيير ترتيب الشكل في PowerPoint
 linktitle: تغيير ترتيب الشكل في PowerPoint
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية تغيير ترتيب الأشكال في PowerPoint باستخدام Aspose.Slides لـ Java من خلال هذا البرنامج التعليمي خطوة بخطوة. تعزيز مهارات العرض التقديمي الخاص بك دون عناء.
-type: docs
 weight: 15
 url: /ar/java/java-powerpoint-animation-shape-manipulation/change-shape-order-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# تغيير ترتيب الشكل في PowerPoint
+
 ## مقدمة
 قد يكون إنشاء عروض تقديمية جذابة ومنظمة بشكل جيد مهمة شاقة. ومع ذلك، باستخدام الأدوات والتقنيات المناسبة، يمكنك جعل الأمر أسهل بكثير. Aspose.Slides for Java هي مكتبة قوية تساعدك على التعامل مع عروض PowerPoint التقديمية وإدارتها برمجياً. في هذا البرنامج التعليمي، سنرشدك خلال خطوات تغيير ترتيب الشكل في شريحة PowerPoint باستخدام Aspose.Slides for Java.
 ## المتطلبات الأساسية
@@ -73,3 +79,9 @@ Aspose.Slides for Java عبارة عن Java API لإنشاء عروض PowerPoint
  يمكنك تنزيل نسخة تجريبية مجانية من[صفحة تنزيل Aspose.Slides لـ Java](https://releases.aspose.com/).
 ### أين يمكنني العثور على مزيد من الوثائق حول Aspose.Slides لـ Java؟
  يمكنك العثور على وثائق مفصلة عن[Aspose.Slides لصفحة وثائق Java](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

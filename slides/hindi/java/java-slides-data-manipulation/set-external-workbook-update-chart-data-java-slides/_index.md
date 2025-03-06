@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में चार्ट डेट
 linktitle: जावा स्लाइड्स में चार्ट डेटा अपडेट के साथ बाह्य कार्यपुस्तिका सेट करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके Java Slides में बाह्य कार्यपुस्तिकाएँ सेट करना और चार्ट डेटा अपडेट करना सीखें। अपने PowerPoint स्वचालन कौशल को बढ़ाएँ।
-type: docs
 weight: 20
 url: /hi/java/data-manipulation/set-external-workbook-update-chart-data-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में चार्ट डेटा अपडेट के साथ बाह्य कार्यपुस्तिका सेट करें
+
 
 ## जावा स्लाइड्स में चार्ट डेटा अपडेट के साथ बाह्य कार्यपुस्तिका सेट करने का परिचय
 
@@ -99,3 +105,9 @@ finally
 ### मैं Aspose.Slides for Java के लिए और अधिक दस्तावेज़ और संसाधन कहां पा सकता हूं?
 
  विस्तृत दस्तावेज़ीकरण और अतिरिक्त संसाधनों के लिए, Aspose.Slides for Java दस्तावेज़ीकरण पर जाएँ[यहाँ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

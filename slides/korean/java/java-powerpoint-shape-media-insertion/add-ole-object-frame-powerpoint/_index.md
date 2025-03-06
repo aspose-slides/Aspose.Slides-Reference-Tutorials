@@ -3,10 +3,16 @@ title: PowerPoint에서 OLE 개체 프레임 추가
 linktitle: PowerPoint에서 OLE 개체 프레임 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 OLE 개체 프레임을 PowerPoint 프레젠테이션에 원활하게 통합하는 방법을 알아보세요.
-type: docs
 weight: 13
 url: /ko/java/java-powerpoint-shape-media-insertion/add-ole-object-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint에서 OLE 개체 프레임 추가
+
 ## 소개
 PowerPoint 프레젠테이션에 OLE(개체 연결 및 포함) 개체 프레임을 추가하면 슬라이드의 시각적 매력과 기능을 크게 향상시킬 수 있습니다. Aspose.Slides for Java를 사용하면 이 프로세스가 간소화되고 효율적이 됩니다. 이 튜토리얼에서는 OLE 개체 프레임을 PowerPoint 프레젠테이션에 원활하게 통합하는 데 필요한 단계를 안내합니다.
 ### 전제 조건
@@ -80,3 +86,9 @@ Aspose.Slides는 다양한 PowerPoint 버전과의 호환성을 제공하여 원
  예, 다음에서 무료 평가판을 다운로드할 수 있습니다.[여기](https://releases.aspose.com/).
 ### Java용 Aspose.Slides에 대한 지원은 어디서 찾을 수 있나요?
  Aspose.Slides 포럼에서 지원과 도움을 구할 수 있습니다.[여기](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

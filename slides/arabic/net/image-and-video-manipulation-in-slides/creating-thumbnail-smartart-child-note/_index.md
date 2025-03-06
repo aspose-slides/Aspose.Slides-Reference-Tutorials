@@ -3,10 +3,16 @@ title: إنشاء صورة مصغرة لملاحظة SmartArt التابعة ف�
 linktitle: إنشاء صورة مصغرة لملاحظة SmartArt التابعة في Aspose.Slides
 second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
 description: تعرف على كيفية إنشاء صور مصغرة جذابة لـ SmartArt Child Note باستخدام Aspose.Slides لـ .NET. ارفع مستوى عروضك التقديمية باستخدام صور ديناميكية!
-type: docs
 weight: 15
 url: /ar/net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-child-note/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# إنشاء صورة مصغرة لملاحظة SmartArt التابعة في Aspose.Slides
+
 ## مقدمة
 في عالم العروض التقديمية الديناميكية، يبرز Aspose.Slides for .NET كأداة قوية توفر للمطورين القدرة على التعامل مع عروض PowerPoint التقديمية وتحسينها برمجيًا. إحدى الميزات المثيرة للاهتمام هي القدرة على إنشاء صور مصغرة لملاحظات SmartArt Child Notes، مما يضيف طبقة من الجاذبية المرئية إلى العروض التقديمية الخاصة بك. سيرشدك هذا الدليل خطوة بخطوة خلال عملية إنشاء صور مصغرة لملاحظات SmartArt Child Notes باستخدام Aspose.Slides for .NET.
 ## المتطلبات الأساسية
@@ -62,3 +68,9 @@ bmp.Save(dataDir + "SmartArt_ChildNote_Thumbnail_out.jpeg", ImageFormat.Jpeg);
  ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للتواصل مع المجتمع وطرح الأسئلة وإيجاد الحلول.
 ### س: هل يمكنني شراء Aspose.Slides لـ .NET؟
  ج: بالتأكيد! استكشاف خيارات الشراء[هنا](https://purchase.aspose.com/buy) لفتح الإمكانات الكاملة لـ Aspose.Slides في مشاريعك.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Porównaj slajdy w prezentacji
 linktitle: Porównaj slajdy w prezentacji
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak porównywać slajdy w prezentacjach za pomocą Aspose.Slides dla .NET. Przewodnik krok po kroku z kodem źródłowym umożliwiający dokładne porównania.
-type: docs
 weight: 12
 url: /pl/net/chart-creation-and-customization/check-slides-comparison/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Porównaj slajdy w prezentacji
+
 
 ## Wprowadzenie do porównywania slajdów w prezentacji
 
@@ -143,3 +149,9 @@ Możesz eksportować raporty porównawcze do formatów takich jak PDF, DOCX i HT
 ### Czy istnieją jakieś najlepsze praktyki optymalizacji wydajności porównywania prezentacji?
 
 Tak, wdrażanie wydajnych algorytmów i zarządzanie wykorzystaniem pamięci są kluczem do optymalizacji wydajności porównywania prezentacji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

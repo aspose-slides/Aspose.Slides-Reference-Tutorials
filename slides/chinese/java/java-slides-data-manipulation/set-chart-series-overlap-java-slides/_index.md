@@ -3,10 +3,16 @@ title: 在 Java 幻灯片中设置图表系列重叠
 linktitle: 在 Java 幻灯片中设置图表系列重叠
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 掌握 Java Slides 中的图表系列重叠。逐步了解如何自定义图表视觉效果以实现出色的演示文稿。
-type: docs
 weight: 16
 url: /zh/java/data-manipulation/set-chart-series-overlap-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 幻灯片中设置图表系列重叠
+
 
 ## Java Slides 中设置图表系列重叠的介绍
 
@@ -110,3 +116,9 @@ Aspose.Slides for Java 提供了广泛的图表自定义选项。您可以调整
 ### 在哪里可以找到更多有关 Aspose.Slides for Java 的资源和示例？
 
 欲获取全面的文档和示例，请访问 Aspose.Slides for Java 参考页面：[Aspose.Slides for Java API 参考](https://reference.aspose.com/slides/java/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

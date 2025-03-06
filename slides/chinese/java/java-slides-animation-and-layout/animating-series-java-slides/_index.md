@@ -3,10 +3,16 @@ title: Java 幻灯片中的动画系列
 linktitle: Java 幻灯片中的动画系列
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 使用 Aspose.Slides for Java 中的系列动画优化您的演示文稿。按照带有源代码示例的分步指南创建引人入胜的 PowerPoint 动画。
-type: docs
 weight: 11
 url: /zh/java/animation-and-layout/animating-series-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 幻灯片中的动画系列
+
 
 ## Aspose.Slides for Java 动画系列简介
 
@@ -125,3 +131,9 @@ finally
 ### 如何自定义动画持续时间和延迟？
 
 您可以通过设置动画效果的属性来自定义动画持续时间和延迟。查看 Aspose.Slides for Java 文档以获取有关可用自定义选项的详细信息。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java를 사용하여 PowerPoint에 포함된 글꼴 추가
 linktitle: Java를 사용하여 PowerPoint에 포함된 글꼴 추가
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java와 함께 Java를 사용하여 PowerPoint 프레젠테이션에 포함된 글꼴을 추가하는 방법을 알아보세요. 여러 장치에서 일관된 디스플레이를 보장합니다.
-type: docs
 weight: 10
 url: /ko/java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java를 사용하여 PowerPoint에 포함된 글꼴 추가
+
 ## 소개
 이 튜토리얼에서는 Java를 사용하고 특히 Aspose.Slides for Java를 활용하여 PowerPoint 프레젠테이션에 포함된 글꼴을 추가하는 과정을 안내합니다. 포함된 글꼴을 사용하면 원본 글꼴을 사용할 수 없는 경우에도 프레젠테이션이 다양한 장치에서 일관되게 표시됩니다. 다음 단계를 살펴보겠습니다.
 ## 전제 조건
@@ -69,3 +75,9 @@ PowerPoint 프레젠테이션에 포함된 글꼴을 추가하면 다양한 장�
 Aspose.Slides for Java는 프레젠테이션에 일반적으로 사용되는 광범위한 글꼴을 포함하는 트루타입 글꼴 포함을 지원합니다.
 ### Aspose.Slides for Java를 사용하여 프로그래밍 방식으로 글꼴을 포함할 수 있나요?
 예, 이 튜토리얼에서 설명했듯이 Aspose.Slides for Java API를 사용하여 프로그래밍 방식으로 글꼴을 포함할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

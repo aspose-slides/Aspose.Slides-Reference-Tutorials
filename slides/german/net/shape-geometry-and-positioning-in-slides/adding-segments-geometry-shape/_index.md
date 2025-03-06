@@ -3,10 +3,16 @@ title: Visuals meistern – Segmente hinzufügen mit Aspose.Slides in .NET
 linktitle: Hinzufügen von Segmenten zu geometrischen Formen in Präsentationen mit Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint-Verarbeitungs-API
 description: Erfahren Sie, wie Sie Ihre .NET-Anwendungen mit Aspose.Slides verbessern können. Dieses Tutorial führt Sie durch das Hinzufügen von Segmenten zu geometrischen Formen für fesselnde Präsentationen.
-type: docs
 weight: 13
 url: /de/net/shape-geometry-and-positioning-in-slides/adding-segments-geometry-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Visuals meistern – Segmente hinzufügen mit Aspose.Slides in .NET
+
 ## Einführung
 In der Welt der .NET-Entwicklung ist das Erstellen optisch ansprechender Präsentationen eine häufige Anforderung. Aspose.Slides für .NET ist eine leistungsstarke Bibliothek, die die nahtlose Integration robuster Funktionen zur Präsentationserstellung in Ihre .NET-Anwendungen ermöglicht. Dieses Tutorial konzentriert sich auf einen bestimmten Aspekt des Präsentationsdesigns – das Hinzufügen von Segmenten zu geometrischen Formen.
 ## Voraussetzungen
@@ -72,3 +78,9 @@ Ja, eine gültige Lizenz ist erforderlich. Sie können eine temporäre Lizenz f�
  Entdecke die[Dokumentation](https://reference.aspose.com/slides/net/) für umfassende Anleitungen und Beispiele.
 ### Kann ich Aspose.Slides vor dem Kauf kostenlos testen?
  Ja, Sie können eine kostenlose Testversion herunterladen von[Hier](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

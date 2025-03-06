@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में लेआउट मोड
 linktitle: जावा स्लाइड्स में लेआउट मोड सेट करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides का उपयोग करके Java स्लाइड के लिए लेआउट मोड सेट करना सीखें। स्रोत कोड के साथ इस चरण-दर-चरण मार्गदर्शिका में चार्ट की स्थिति और आकार को अनुकूलित करें।
-type: docs
 weight: 23
 url: /hi/java/data-manipulation/set-layout-mode-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में लेआउट मोड सेट करें
+
 
 ## जावा स्लाइड्स में लेआउट मोड सेट करने का परिचय
 
@@ -95,3 +101,9 @@ finally
 ### मैं Aspose.Slides for Java के बारे में अधिक जानकारी कहां पा सकता हूं?
 
  आप Aspose.Slides for Java के बारे में अधिक जानकारी यहाँ पा सकते हैं[प्रलेखन](https://reference.aspose.com/slides/java/)इसमें जावा में स्लाइड और चार्ट के साथ प्रभावी ढंग से काम करने में आपकी मदद करने के लिए विस्तृत API संदर्भ और उदाहरण शामिल हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Slides .NET チュートリアルでプレゼンテーションの
 linktitle: Aspose.Slides を使用してプレゼンテーション スライドの行を書式設定する
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET でプレゼンテーション スライドを強化します。ステップ バイ ステップ ガイドに従って、簡単に行をフォーマットします。今すぐ無料トライアルをダウンロードしてください。
-type: docs
 weight: 10
 url: /ja/net/shape-geometry-and-positioning-in-slides/formatting-lines/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides .NET チュートリアルでプレゼンテーションの行をフォーマットする
+
 ## 導入
 視覚的に魅力的なプレゼンテーション スライドを作成することは、効果的なコミュニケーションに不可欠です。Aspose.Slides for .NET は、プレゼンテーション要素をプログラムで操作および書式設定するための強力なソリューションを提供します。このチュートリアルでは、Aspose.Slides for .NET を使用してプレゼンテーション スライドの行を書式設定することに焦点を当てます。
 ## 前提条件
@@ -75,3 +81,9 @@ Aspose.Slides for .NET は、プレゼンテーション要素をプログラム
 臨時免許証は以下から取得できます。[Aspose.Slides 一時ライセンス](https://purchase.aspose.com/temporary-license/).
 ### Q5: Aspose.Slides for .NET はどこで購入できますか?
 この製品は以下から購入できます[Aspose.Slides 購入](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

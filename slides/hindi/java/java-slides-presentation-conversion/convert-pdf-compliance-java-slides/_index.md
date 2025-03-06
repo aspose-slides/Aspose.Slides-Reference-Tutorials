@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में पीडीएफ अन
 linktitle: जावा स्लाइड्स में पीडीएफ अनुपालन में कनवर्ट करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके PDF/A-2a अनुपालन के साथ PowerPoint प्रस्तुतियों को PDF में परिवर्तित करना सीखें। निर्बाध संग्रहण और पहुँच के लिए स्रोत कोड के साथ हमारे चरण-दर-चरण मार्गदर्शिका का पालन करें।
-type: docs
 weight: 26
 url: /hi/java/presentation-conversion/convert-pdf-compliance-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में पीडीएफ अनुपालन में कनवर्ट करें
+
 
 ## जावा स्लाइड्स में पीडीएफ में कनवर्ट करने की अनुपालना का परिचय
 
@@ -114,3 +120,9 @@ PDF/A-2a पहले के अनुपालन स्तरों की त
 ## मैं Java और PDF अनुपालन के लिए Aspose.Slides के बारे में अधिक जानकारी कहां पा सकता हूं?
 
  Aspose.Slides for Java और इसकी विशेषताओं के बारे में अधिक विस्तृत जानकारी के लिए, जिसमें PDF अनुपालन सेटिंग्स शामिल हैं, आप दस्तावेज़ देख सकते हैं[Aspose.Slides for Java API संदर्भ](https://reference.aspose.com/slides/java/)इसके अतिरिक्त, आप लाइब्रेरी के बारे में अपने ज्ञान को और बढ़ाने के लिए कोड उदाहरण और ट्यूटोरियल देख सकते हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

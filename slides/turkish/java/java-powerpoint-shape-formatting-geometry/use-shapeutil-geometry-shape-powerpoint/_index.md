@@ -3,10 +3,16 @@ title: PowerPoint'te Geometri Şekli için ShapeUtil'i kullanın
 linktitle: PowerPoint'te Geometri Şekli için ShapeUtil'i kullanın
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java ile PowerPoint'te özel şekiller oluşturun. Sunumlarınızı geliştirmek için bu adım adım kılavuzu izleyin.
-type: docs
 weight: 23
 url: /tr/java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-shape-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint'te Geometri Şekli için ShapeUtil'i kullanın
+
 ## giriiş
 Görsel olarak çekici PowerPoint sunumları oluşturmak genellikle standart şekilleri ve metni kullanmaktan daha fazlasını gerektirir. Sununuzun görsel etkisini artıracak şekilde doğrudan slaytlarınıza özelleştirilmiş şekiller ve metin yolları ekleyebileceğinizi hayal edin. Aspose.Slides for Java'yı kullanarak bunu kolaylıkla başarabilirsiniz. Bu eğitim, kullanım sürecinde size rehberlik edecektir.`ShapeUtil` PowerPoint sunumlarında geometri şekilleri oluşturmak için sınıf. İster tecrübeli bir geliştirici olun ister yeni başlıyor olun, bu adım adım kılavuz Aspose.Slides for Java'nın gücünden yararlanarak çarpıcı, özel şekilli içerikler oluşturmanıza yardımcı olacaktır.
 ## Önkoşullar
@@ -75,3 +81,9 @@ Aspose.Slides, şu adresten indirebileceğiniz ücretsiz bir deneme sürümü su
 `ShapeUtil` Aspose.Slides'taki sınıf, şekillerle çalışmak için grafiksel yolları geometri yollarına dönüştürmek gibi yardımcı yöntemler sağlar.
 ### Aspose.Slides için nereden destek alabilirim?
  adresinden destek alabilirsiniz.[Aspose.Slides forumu](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

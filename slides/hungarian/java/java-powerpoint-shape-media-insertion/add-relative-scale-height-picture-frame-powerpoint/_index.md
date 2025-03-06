@@ -3,10 +3,16 @@ title: Relatív méretarányú képkeret hozzáadása a PowerPointban
 linktitle: Relatív méretarányú képkeret hozzáadása a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan adhat hozzá relatív méretarányú képkereteket PowerPoint-prezentációkhoz az Aspose.Slides for Java segítségével, javítva ezzel a vizuális tartalmat.
-type: docs
 weight: 15
 url: /hu/java/java-powerpoint-shape-media-insertion/add-relative-scale-height-picture-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Relatív méretarányú képkeret hozzáadása a PowerPointban
+
 ## Bevezetés
 Ebből az oktatóanyagból megtudhatja, hogyan adhat hozzá relatív méretarányú képkeretet a PowerPoint prezentációkhoz az Aspose.Slides for Java segítségével.
 ## Előfeltételek
@@ -68,3 +74,9 @@ Az Aspose.Slides for Java kompatibilis a PowerPoint különféle verzióival, ru
 Igen, az Aspose.Slides for Java különféle képformátumokat támogat, beleértve a PNG-t, GIF-et, BMP-t stb.
 ### Elérhető közösségi fórum vagy támogatási csatorna az Aspose.Slides felhasználók számára?
 Igen, felkeresheti az Aspose.Slides fórumot a könyvtárral kapcsolatos kérdésekért, vitákért vagy segítségért.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

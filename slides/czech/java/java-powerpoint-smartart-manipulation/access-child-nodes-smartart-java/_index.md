@@ -3,10 +3,16 @@ title: Získejte přístup k podřízeným uzlům v prvku SmartArt pomocí jazyk
 linktitle: Získejte přístup k podřízeným uzlům v prvku SmartArt pomocí jazyka Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak přistupovat k podřízeným uzlům v SmartArt a jak s nimi manipulovat pomocí Aspose.Slides for Java, pomocí tohoto podrobného průvodce.
-type: docs
 weight: 10
 url: /cs/java/java-powerpoint-smartart-manipulation/access-child-nodes-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získejte přístup k podřízeným uzlům v prvku SmartArt pomocí jazyka Java
+
 ## Úvod
 Přemýšleli jste někdy nad tím, jak můžete programově manipulovat s grafikou SmartArt ve svých prezentacích? Aspose.Slides for Java je vaše oblíbená knihovna pro správu a úpravy prezentací PowerPoint. Tento výkonný nástroj umožňuje vývojářům přistupovat k různým prvkům prezentace a manipulovat s nimi, včetně grafiky SmartArt. V tomto kurzu vás provedeme přístupem k podřízeným uzlům v SmartArt pomocí Javy, díky čemuž budou vaše prezentace dynamičtější a interaktivnější. Na konci tohoto průvodce budete vybaveni znalostmi pro snadné procházení a manipulaci s uzly SmartArt.
 ## Předpoklady
@@ -81,3 +87,9 @@ Ano, Aspose.Slides for Java vám umožňuje manipulovat s různými prvky, jako 
  Dokumentace je k dispozici[tady](https://reference.aspose.com/slides/java/).
 ### Jaké je nejlepší IDE pro vývoj s Aspose.Slides pro Javu?
 IntelliJ IDEA a Eclipse jsou populární IDE, která dobře fungují s Aspose.Slides pro Javu.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

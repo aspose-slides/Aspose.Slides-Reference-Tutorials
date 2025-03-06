@@ -3,10 +3,16 @@ title: Dostosuj kąty linii łączników w programie PowerPoint za pomocą Aspos
 linktitle: Dostosowywanie kątów linii łączników na slajdach prezentacji za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak dostosować kąty linii łączników na slajdach programu PowerPoint za pomocą Aspose.Slides dla .NET. Ulepsz swoje prezentacje z precyzją i łatwością.
-type: docs
 weight: 28
 url: /pl/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dostosuj kąty linii łączników w programie PowerPoint za pomocą Aspose.Slides
+
 ## Wstęp
 Tworzenie atrakcyjnych wizualnie slajdów prezentacyjnych często wiąże się z precyzyjnym dopasowaniem linii łączących. W tym samouczku przyjrzymy się, jak dostosować kąty linii łączników na slajdach prezentacji za pomocą Aspose.Slides dla .NET. Aspose.Slides to potężna biblioteka, która umożliwia programistom programową pracę z plikami programu PowerPoint, zapewniając szerokie możliwości tworzenia, modyfikowania i manipulowania prezentacjami.
 ## Warunki wstępne
@@ -87,3 +93,9 @@ Tak, Aspose.Slides może być używany zarówno w aplikacjach Windows, jak i int
  Możesz uzyskać licencję tymczasową[Tutaj](https://purchase.aspose.com/temporary-license/).
 ### Czy istnieje forum pomocy technicznej dla Aspose.Slides?
  Tak, możesz odwiedzić forum pomocy technicznej[Tutaj](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

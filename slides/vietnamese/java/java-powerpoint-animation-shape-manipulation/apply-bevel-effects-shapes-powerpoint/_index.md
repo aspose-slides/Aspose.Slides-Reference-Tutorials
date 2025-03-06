@@ -3,10 +3,16 @@ title: Áp dụng hiệu ứng Bevel trên Shapes trong PowerPoint
 linktitle: Áp dụng hiệu ứng Bevel trên Shapes trong PowerPoint
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách áp dụng hiệu ứng góc xiên cho hình dạng trong PowerPoint bằng Aspose.Slides cho Java với hướng dẫn từng bước của chúng tôi. Nâng cao bài thuyết trình của bạn.
-type: docs
 weight: 13
 url: /vi/java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Áp dụng hiệu ứng Bevel trên Shapes trong PowerPoint
+
 ## Giới thiệu
 Tạo các bài thuyết trình hấp dẫn trực quan là rất quan trọng để thu hút và duy trì sự chú ý của khán giả. Việc thêm hiệu ứng góc xiên vào hình dạng có thể nâng cao tính thẩm mỹ tổng thể của trang chiếu, làm cho bản trình bày của bạn trở nên nổi bật. Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình áp dụng hiệu ứng góc xiên cho các hình dạng trong PowerPoint bằng Aspose.Slides cho Java. Cho dù bạn là nhà phát triển đang tìm cách tự động hóa việc tạo bản trình bày hay chỉ là người yêu thích mày mò thiết kế thì hướng dẫn này sẽ giúp bạn.
 ## Điều kiện tiên quyết
@@ -92,3 +98,9 @@ Bạn có thể thêm nhiều hình dạng khác nhau như hình chữ nhật, h
 Có, Aspose.Slides cho Java cho phép bạn áp dụng nhiều hiệu ứng 3D khác nhau, bao gồm hiệu ứng chiều sâu, ánh sáng và máy ảnh.
 ### Tôi có thể nhận hỗ trợ cho Aspose.Slides cho Java ở đâu?
  Bạn có thể nhận được hỗ trợ từ cộng đồng Aspose và nhóm hỗ trợ trên trang web của họ.[diễn đàn hỗ trợ](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

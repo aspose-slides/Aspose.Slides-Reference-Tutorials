@@ -3,10 +3,16 @@ title: Удалить защиту от записи в слайдах Java
 linktitle: Удалить защиту от записи в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как снять защиту от записи в презентациях Java Slides с помощью Aspose.Slides для Java. Пошаговое руководство с исходным кодом.
-type: docs
 weight: 10
 url: /ru/java/document-protection/remove-write-protection-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Удалить защиту от записи в слайдах Java
+
 
 ## Введение в удаление защиты от записи в слайдах Java
 
@@ -108,3 +114,9 @@ finally
 ### Где я могу найти дополнительную информацию об Aspose.Slides для Java?
 
  Вы можете обратиться к документации Aspose.Slides для Java по адресу[здесь](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Mức sử dụng giấy phép được đo lường
 linktitle: Mức sử dụng giấy phép được đo lường
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tìm hiểu cách sử dụng hiệu quả Cấp phép đo lường với Aspose.Slides cho .NET. Tích hợp liền mạch các API trong khi trả tiền cho mức sử dụng thực tế.
-type: docs
 weight: 11
 url: /vi/net/licensing-and-formatting/metered-licensing/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Mức sử dụng giấy phép được đo lường
+
 
 ## Giới thiệu
 
@@ -114,3 +120,9 @@ Aspose.Slides for .NET là một thư viện mạnh mẽ cho phép các nhà ph�
 
 ### Có diễn đàn nào hỗ trợ và thảo luận về Aspose.Slides không?
  Có, bạn có thể tìm thấy sự hỗ trợ và tham gia thảo luận trên diễn đàn Aspose.Slides tại[liên kết này](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Улучшение презентаций форматирование п
 linktitle: Форматирование прямоугольной формы в слайдах презентации с использованием Aspose.Slides
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Научитесь форматировать прямоугольные формы в презентациях PowerPoint с помощью Aspose.Slides для .NET. Улучшите свои слайды с помощью динамических визуальных элементов.
-type: docs
 weight: 12
 url: /ru/net/shape-geometry-and-positioning-in-slides/formatting-rectangle-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Улучшение презентаций форматирование прямоугольных фигур с помощью Aspose.Slides
+
 ## Введение
 Aspose.Slides for .NET — это мощная библиотека, облегчающая работу с презентациями PowerPoint в среде .NET. Если вы хотите улучшить свои презентации за счет динамического форматирования прямоугольных фигур, это руководство для вас. В этом пошаговом руководстве мы покажем вам процесс форматирования прямоугольной фигуры в презентации с помощью Aspose.Slides для .NET.
 ## Предварительные условия
@@ -76,3 +82,9 @@ pres.Save(dataDir + "RectShp2_out.pptx", SaveFormat.Pptx);
  Да, вы можете получить доступ к бесплатной пробной версии[здесь](https://releases.aspose.com/).
 ### Вопрос 5: Где я могу приобрести Aspose.Slides для .NET?
  Вы можете купить Aspose.Slides для .NET.[здесь](https://purchase.aspose.com/buy).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

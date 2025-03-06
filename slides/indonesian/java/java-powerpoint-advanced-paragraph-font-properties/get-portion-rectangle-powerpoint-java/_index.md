@@ -3,10 +3,16 @@ title: Dapatkan Porsi Persegi Panjang di PowerPoint dengan Java
 linktitle: Dapatkan Porsi Persegi Panjang di PowerPoint dengan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mendapatkan bagian persegi panjang di PowerPoint menggunakan Aspose.Slides untuk Java dengan tutorial langkah demi langkah yang mendetail ini. Sempurna untuk pengembang Java.
-type: docs
 weight: 12
 url: /id/java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectangle-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dapatkan Porsi Persegi Panjang di PowerPoint dengan Java
+
 ## Perkenalan
 Membuat presentasi dinamis di Java sangatlah mudah dengan Aspose.Slides untuk Java. Dalam tutorial ini, kita akan mendalami seluk beluk cara mendapatkan bagian persegi panjang di PowerPoint menggunakan Aspose.Slides. Kami akan membahas semuanya mulai dari menyiapkan lingkungan Anda hingga menguraikan kode langkah demi langkah. Jadi, mari kita mulai!
 ## Prasyarat
@@ -138,3 +144,9 @@ Aspose.Slides untuk Java adalah perpustakaan canggih yang memungkinkan pengemban
  Dokumentasi tersedia[Di Sini](https://reference.aspose.com/slides/java/).
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Slides untuk Java?
  Anda bisa mendapatkan dukungan dari forum Aspose[Di Sini](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

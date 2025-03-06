@@ -3,10 +3,16 @@ title: Biểu đồ thông thường trong Java Slides
 linktitle: Biểu đồ thông thường trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tạo biểu đồ thông thường trong Java Slides với Aspose.Slides cho Java. Hướng dẫn từng bước và mã nguồn để tạo, tùy chỉnh và lưu biểu đồ trong bản trình bày PowerPoint.
-type: docs
 weight: 21
 url: /vi/java/chart-data-manipulation/normal-charts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Biểu đồ thông thường trong Java Slides
+
 
 ## Giới thiệu về Biểu đồ thông thường trong Java Slides
 
@@ -240,3 +246,9 @@ Trong hướng dẫn này, chúng ta đã học cách tạo biểu đồ thông 
 ### Làm cách nào để lưu biểu đồ sang định dạng tệp khác?
 
  Để lưu biểu đồ sang một định dạng tệp khác, hãy thay đổi`SaveFormat` tham số trong`pres.save()` sang định dạng mong muốn (ví dụ: PDF, PNG, JPEG).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

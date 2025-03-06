@@ -3,10 +3,16 @@ title: Buraco no gráfico de rosca em slides Java
 linktitle: Buraco no gráfico de rosca em slides Java
 second_title: API de processamento Aspose.Slides Java PowerPoint
 description: Crie gráficos de rosca com tamanhos de furos personalizados em slides Java usando Aspose.Slides para Java. Guia passo a passo com código-fonte para personalização de gráficos.
-type: docs
 weight: 11
 url: /pt/java/chart-elements/doughnut-chart-hole-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Buraco no gráfico de rosca em slides Java
+
 
 ## Introdução ao gráfico de rosca com furo em slides Java
 
@@ -94,3 +100,9 @@ finally
 ### É possível adicionar um título ao gráfico?
 
  Certamente! Você pode adicionar um título ao gráfico usando o`setTitle` método no`IChart` objeto e fornecendo o texto do título desejado.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

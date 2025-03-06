@@ -3,10 +3,16 @@ title: Sao chép slide sang bản trình bày khác với Master
 linktitle: Sao chép slide sang bản trình bày khác với Master
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách Sao chép các trang trình bày giữa các bản trình bày trong Java bằng Aspose.Slides. Hướng dẫn từng bước về cách duy trì các slide chính.
-type: docs
 weight: 14
 url: /vi/java/java-powerpoint-slide-cloning-techniques/clone-slide-another-presentation-master-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sao chép slide sang bản trình bày khác với Master
+
 ## Giới thiệu
 Aspose.Slides cho Java là một thư viện mạnh mẽ cho phép các nhà phát triển tạo, sửa đổi và thao tác với các bản trình bày PowerPoint theo chương trình. Bài viết này cung cấp hướng dẫn từng bước toàn diện về cách sao chép một slide từ bản trình bày này sang bản trình bày khác trong khi vẫn giữ lại slide chính của nó bằng cách sử dụng Aspose.Slides cho Java.
 ## Điều kiện tiên quyết
@@ -83,3 +89,9 @@ Aspose.Slides for Java cung cấp phiên bản dùng thử miễn phí. Để c�
  Bạn có thể xin giấy phép tạm thời từ[Trang mua hàng](https://purchase.aspose.com/temporary-license/).
 ### Tôi có thể tìm thêm ví dụ và tài liệu ở đâu?  
  Tham quan[Aspose.Slides cho tài liệu Java](https://reference.aspose.com/slides/java/) để biết thêm ví dụ và thông tin chi tiết.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

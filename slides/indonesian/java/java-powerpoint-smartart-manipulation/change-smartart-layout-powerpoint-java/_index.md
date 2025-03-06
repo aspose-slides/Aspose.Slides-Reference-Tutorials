@@ -3,10 +3,16 @@ title: Ubah Tata Letak SmartArt di PowerPoint dengan Java
 linktitle: Ubah Tata Letak SmartArt di PowerPoint dengan Java
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara memanipulasi tata letak SmartArt dalam presentasi PowerPoint menggunakan Java dengan Aspose.Slides untuk Java.
-type: docs
 weight: 19
 url: /id/java/java-powerpoint-smartart-manipulation/change-smartart-layout-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ubah Tata Letak SmartArt di PowerPoint dengan Java
+
 ## Perkenalan
 Dalam tutorial ini, kita akan mempelajari cara memanipulasi tata letak SmartArt dalam presentasi PowerPoint menggunakan Java. SmartArt adalah fitur canggih di PowerPoint yang memungkinkan pengguna membuat grafik yang menarik secara visual untuk berbagai tujuan, seperti mengilustrasikan proses, hierarki, hubungan, dan banyak lagi.
 ## Prasyarat
@@ -60,3 +66,9 @@ Ya, Aspose.Slides tersedia untuk berbagai bahasa pemrograman, termasuk .NET, Pyt
 Tentu saja, Anda dapat membuat grafik SmartArt secara terprogram atau memodifikasi grafik yang sudah ada untuk memenuhi kebutuhan Anda.
 ### Apakah ada forum komunitas tempat saya dapat mencari bantuan mengenai Aspose.Slides?
  Ya, Anda dapat mengunjungi forum Aspose.Slides[Di Sini](https://forum.aspose.com/c/slides/11) untuk bertanya dan terlibat dengan komunitas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

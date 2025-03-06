@@ -3,10 +3,16 @@ title: Aspose.Slides を使用してグループ図形内の代替テキスト�
 linktitle: グループ図形内の代替テキストへのアクセス
 second_title: Aspose.Slides .NET PowerPoint 処理 API
 description: Aspose.Slides for .NET を使用してグループ図形内の代替テキストにアクセスする方法を学習します。コード例を使用したステップバイステップ ガイド。
-type: docs
 weight: 10
 url: /ja/net/shape-effects-and-manipulation-in-slides/accessing-alt-text-group-shapes/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides を使用してグループ図形内の代替テキストにアクセスする
+
 
 プレゼンテーションの管理と操作に関しては、Aspose.Slides for .NET は強力なツール セットを提供します。この記事では、この API の特定の側面である、グループ シェイプ内の代替テキストへのアクセスについて詳しく説明します。経験豊富な開発者でも、Aspose.Slides を使い始めたばかりの開発者でも、この包括的なガイドでは、ステップ バイ ステップの手順とコード例を示しながらプロセスを順を追って説明します。最後まで読めば、Aspose.Slides を使用してグループ シェイプ内の代替テキストを効果的に操作する方法をしっかりと理解できます。
 
@@ -118,3 +124,9 @@ presentation.Save("modified-presentation.pptx", SaveFormat.Pptx);
 ### Aspose.Slides は初心者と経験豊富な開発者の両方に適していますか?
 
 はい、Aspose.Slides はあらゆるスキル レベルの開発者に対応できるように設計されています。初心者はドキュメントに記載されているステップ バイ ステップのガイドに従うことができ、経験豊富な開発者は高度な機能を活用できます。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

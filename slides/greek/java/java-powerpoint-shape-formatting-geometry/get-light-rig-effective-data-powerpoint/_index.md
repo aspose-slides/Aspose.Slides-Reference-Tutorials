@@ -3,10 +3,16 @@ title: Λάβετε αποτελεσματικά δεδομένα Light Rig στ
 linktitle: Λάβετε αποτελεσματικά δεδομένα Light Rig στο PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να ανακτάτε αποτελεσματικά δεδομένα light rig από παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java σε αυτόν τον λεπτομερή, βήμα προς βήμα οδηγό.
-type: docs
 weight: 25
 url: /el/java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-data-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Λάβετε αποτελεσματικά δεδομένα Light Rig στο PowerPoint
+
 ## Εισαγωγή
 Θέλετε να αυτοματοποιήσετε τις εργασίες παρουσίασης του PowerPoint χρησιμοποιώντας Java; Μην ψάχνετε άλλο! Το Aspose.Slides for Java είναι μια ισχυρή βιβλιοθήκη που επιτρέπει στους προγραμματιστές να δημιουργούν, να χειρίζονται και να μετατρέπουν αρχεία PowerPoint χωρίς να χρειάζεται να εγκαταστήσετε το Microsoft PowerPoint. Σε αυτόν τον περιεκτικό οδηγό, θα σας καθοδηγήσουμε στα βήματα για να λάβετε αποτελεσματικά δεδομένα light rig από μια παρουσίαση PowerPoint χρησιμοποιώντας Aspose.Slides για Java. Είτε είστε έμπειρος προγραμματιστής Java είτε μόλις ξεκινάτε, αυτό το σεμινάριο θα σας βοηθήσει να αξιοποιήσετε πλήρως τις δυνατότητες του Aspose.Slides στα έργα σας.
 ## Προαπαιτούμενα
@@ -66,3 +72,9 @@ System.out.println("Direction: " + threeDEffectiveData.getLightRig().getDirectio
  Η τεκμηρίωση είναι διαθέσιμη στη διεύθυνση[αυτός ο σύνδεσμος](https://reference.aspose.com/slides/java/).
 ### Πώς μπορώ να λάβω υποστήριξη για το Aspose.Slides;
  Μπορείτε να λάβετε υποστήριξη από το φόρουμ υποστήριξης Aspose.Slides[εδώ](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

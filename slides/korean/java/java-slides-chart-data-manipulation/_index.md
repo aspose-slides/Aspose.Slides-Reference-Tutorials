@@ -3,10 +3,16 @@ title: Java 슬라이드 차트 데이터 조작
 linktitle: Java 슬라이드 차트 데이터 조작
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides for Java를 사용하여 Java 슬라이드 차트 데이터 조작의 강력한 기능을 활용해 보세요. 멋진 시각적 자료와 통찰력을 쉽게 만들어 보세요.
-type: docs
 weight: 11
 url: /ko/java/chart-data-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 슬라이드 차트 데이터 조작
+
 Java 기반 슬라이드 프레젠테이션을 한 단계 더 발전시킬 준비가 되셨습니까? Aspose.Slides for Java를 사용하면 차트 데이터를 손쉽게 조작하여 청중을 사로잡는 시각적으로 훌륭하고 통찰력 있는 프레젠테이션을 만들 수 있습니다. 이 기사에서는 Aspose.Slides가 Java 개발자에게 데이터 기반 차트를 생생하게 만들 수 있는 방법을 살펴보겠습니다.
 
 ## Java용 Aspose.Slides 이해
@@ -54,3 +60,9 @@ Aspose.Slides for Java를 사용하여 Java 슬라이드에 일반 차트를 만
 단계별 Aspose.Slides 튜토리얼을 통해 Java Slides에서 멋진 조직도를 만드는 방법을 알아보세요. 조직 구조를 손쉽게 사용자 정의하고 시각화하세요.
 ### [Java 슬라이드의 원형 차트](./pie-chart-java-slides/)
 Aspose.Slides for Java를 사용하여 PowerPoint 프레젠테이션에서 멋진 원형 차트를 만드는 방법을 알아보세요. Java 개발자를 위한 소스 코드가 포함된 단계별 가이드입니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

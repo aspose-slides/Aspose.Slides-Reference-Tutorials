@@ -3,10 +3,16 @@ title: Identifier les cellules fusionnées dans un tableau PowerPoint à l'aide 
 linktitle: Identifier les cellules fusionnées dans un tableau PowerPoint à l'aide de Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment identifier les cellules fusionnées dans les tableaux PowerPoint par programmation à l'aide d'Aspose.Slides pour Java. Parfait pour les développeurs Java.
-type: docs
 weight: 15
 url: /fr/java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-table-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Identifier les cellules fusionnées dans un tableau PowerPoint à l'aide de Java
+
 ## Introduction
 Dans le domaine du développement Java, la manipulation de présentations PowerPoint par programmation peut s'avérer une tâche cruciale, en particulier lorsqu'il s'agit de tableaux de données complexes. Aspose.Slides pour Java fournit une boîte à outils puissante qui permet aux développeurs de gérer de manière transparente divers aspects des présentations PowerPoint. L'un des défis courants auxquels les développeurs sont confrontés consiste à identifier les cellules fusionnées dans les tableaux intégrés aux présentations. Ce didacticiel vise à vous guider tout au long du processus d'identification des cellules fusionnées à l'aide d'Aspose.Slides pour Java.
 ## Conditions préalables
@@ -67,3 +73,9 @@ Aspose.Slides pour Java est une bibliothèque puissante permettant de manipuler 
  La documentation peut être trouvée[ici](https://reference.aspose.com/slides/java/).
 ### Comment puis-je obtenir de l’assistance pour Aspose.Slides pour Java ?
 Pour obtenir de l'aide, visitez le forum Aspose.Slides[ici](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

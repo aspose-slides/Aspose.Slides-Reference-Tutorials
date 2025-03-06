@@ -3,10 +3,16 @@ title: Aspose.Slides ile PowerPoint'te Bağlayıcı Çizgi Açılarını Ayarlay
 linktitle: Aspose.Slides Kullanarak Sunum Slaytlarında Bağlayıcı Çizgi Açılarını Ayarlama
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: Aspose.Slides for .NET'i kullanarak PowerPoint slaytlarında bağlayıcı çizgi açılarını nasıl ayarlayacağınızı öğrenin. Sunumlarınızı hassasiyetle ve kolaylıkla geliştirin.
-type: docs
 weight: 28
 url: /tr/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides ile PowerPoint'te Bağlayıcı Çizgi Açılarını Ayarlayın
+
 ## giriiş
 Görsel olarak çekici sunum slaytları oluşturmak genellikle bağlayıcı hatlarda hassas ayarlamalar gerektirir. Bu eğitimde Aspose.Slides for .NET kullanarak sunum slaytlarında bağlayıcı çizgi açılarının nasıl ayarlanacağını inceleyeceğiz. Aspose.Slides, geliştiricilerin PowerPoint dosyalarıyla programlı olarak çalışmasına olanak tanıyan, sunum oluşturma, değiştirme ve düzenleme için kapsamlı yetenekler sağlayan güçlü bir kitaplıktır.
 ## Önkoşullar
@@ -87,3 +93,9 @@ Evet, Aspose.Slides hem Windows hem de web uygulamalarında kullanılabilir.
  Geçici lisans alabilirsiniz[Burada](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides için bir destek forumu var mı?
  Evet, destek forumunu ziyaret edebilirsiniz[Burada](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

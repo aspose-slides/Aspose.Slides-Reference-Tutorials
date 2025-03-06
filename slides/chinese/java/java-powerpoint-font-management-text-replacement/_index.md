@@ -3,10 +3,16 @@ title: Java PowerPoint 字体管理和文本替换
 linktitle: Java PowerPoint 字体管理和文本替换
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 掌握使用 Aspose.Slides 进行 Java PowerPoint 字体管理和文本替换。学习加载自定义字体、管理嵌入字体和无缝替换文本。
-type: docs
 weight: 27
 url: /zh/java/java-powerpoint-font-management-text-replacement/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint 字体管理和文本替换
+
 ## 介绍
 
 字体和文本管理是创建精美专业的 PowerPoint 演示文稿的关键要素。使用 Aspose.Slides for Java，您可以轻松加载自定义字体、管理嵌入字体并高效替换文本。我们的教程将指导您完成这些过程，确保您的演示文稿既美观又实用。让我们探索这些教程来提升您的 PowerPoint 技能！
@@ -35,3 +41,9 @@ url: /zh/java/java-powerpoint-font-management-text-replacement/
 使用 Java 和 Aspose.Slides 轻松替换 PowerPoint 演示文稿中的字体。按照我们的详细指南进行无缝字体转换过程。
 ### [使用 Java 在 PowerPoint 中替换文本](./replace-text-powerpoint-java/)
 了解如何使用 Aspose.Slides for Java 替换 PowerPoint 演示文稿中的文本。按照此分步指南自动更新演示文稿。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

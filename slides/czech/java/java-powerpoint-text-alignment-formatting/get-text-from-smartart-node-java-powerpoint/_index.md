@@ -3,10 +3,16 @@ title: Získejte text z uzlu SmartArt v Java PowerPointu
 linktitle: Získejte text z uzlu SmartArt v Java PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se extrahovat text z uzlů SmartArt v prezentacích Java PowerPoint pomocí Aspose.Slides. Jednoduchý průvodce pro vývojáře krok za krokem.
-type: docs
 weight: 14
 url: /cs/java/java-powerpoint-text-alignment-formatting/get-text-from-smartart-node-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Získejte text z uzlu SmartArt v Java PowerPointu
+
 ## Úvod
 tomto tutoriálu prozkoumáme, jak extrahovat text z uzlů SmartArt v prezentacích Java PowerPoint pomocí Aspose.Slides. Aspose.Slides je výkonná Java knihovna, která umožňuje vývojářům vytvářet, manipulovat a převádět PowerPointové prezentace programově. Extrahování textu z uzlů SmartArt může být užitečné pro různé aplikace, jako je extrakce dat, analýza obsahu a další. Na konci této příručky budete mít jasno v tom, jak efektivně načítat text z uzlů SmartArt pomocí Aspose.Slides v Javě.
 ## Předpoklady
@@ -66,3 +72,9 @@ Aspose.Slides for Java je robustní API, které umožňuje vývojářům vytvá�
  Ano, můžete získat bezplatnou zkušební verzi Aspose.Slides pro Java[tady](https://releases.aspose.com/).
 ### Kde najdu podporu pro Aspose.Slides pro Java?
  Pro technickou pomoc a podporu komunity navštivte stránku[Fórum Aspose.Slides](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Omkeren indien negatief voor individuele reeksen in Java-dia's
 linktitle: Omkeren indien negatief voor individuele reeksen in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u de functie Omkeren als negatief in Aspose.Slides voor Java kunt gebruiken om diagrambeelden in PowerPoint-presentaties te verbeteren.
-type: docs
 weight: 11
 url: /nl/java/data-manipulation/invert-if-negative-individual-series-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Omkeren indien negatief voor individuele reeksen in Java-dia's
+
 
 ## Inleiding tot Omkeren indien negatief voor individuele reeksen in Java-dia's
 
@@ -131,3 +137,9 @@ Ja, u kunt het uiterlijk van de omgekeerde gegevenspunten aanpassen. Aspose.Slid
 ### Waar kan ik toegang krijgen tot de Aspose.Slides voor Java-documentatie?
 
  kunt de documentatie voor Aspose.Slides voor Java openen op[hier](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

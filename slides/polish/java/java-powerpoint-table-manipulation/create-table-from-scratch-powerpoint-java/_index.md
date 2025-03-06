@@ -3,10 +3,16 @@ title: Utwórz tabelę od podstaw w programie PowerPoint przy użyciu języka Ja
 linktitle: Utwórz tabelę od podstaw w programie PowerPoint przy użyciu języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak tworzyć dynamiczne tabele w programie PowerPoint przy użyciu Aspose.Slides dla Java, korzystając z naszego obszernego samouczka krok po kroku.
-type: docs
 weight: 22
 url: /pl/java/java-powerpoint-table-manipulation/create-table-from-scratch-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Utwórz tabelę od podstaw w programie PowerPoint przy użyciu języka Java
+
 ## Wstęp
 Czy kiedykolwiek musiałeś utworzyć dynamiczną tabelę w prezentacji programu PowerPoint przy użyciu języka Java? Cóż, jesteś we właściwym miejscu! W tym samouczku przeprowadzimy Cię przez proces tworzenia tabeli od podstaw przy użyciu Aspose.Slides dla Java. Niezależnie od tego, czy jesteś doświadczonym programistą Java, czy dopiero zaczynasz, ten przewodnik będzie łatwy w obsłudze i niezwykle przydatny. Zagłębmy się w szczegóły i przekształćmy slajdy programu PowerPoint w coś niezwykłego!
 ## Warunki wstępne
@@ -86,3 +92,9 @@ Aspose.Slides for Java to potężna biblioteka do pracy z plikami PowerPoint w a
 Aspose.Slides jest kompatybilny z Java SE 6 i nowszymi.
 ### Gdzie mogę znaleźć dokumentację Aspose.Slides?
  Dokumentacja jest dostępna[Tutaj](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

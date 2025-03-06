@@ -3,10 +3,16 @@ title: Manipulación de datos de gráficos de diapositivas de Java
 linktitle: Manipulación de datos de gráficos de diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Desbloquee el poder de la manipulación de datos de gráficos de diapositivas de Java con Aspose.Slides para Java. Cree imágenes e información sorprendentes sin esfuerzo.
-type: docs
 weight: 11
 url: /es/java/chart-data-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulación de datos de gráficos de diapositivas de Java
+
 ¿Estás listo para llevar tus presentaciones de diapositivas basadas en Java al siguiente nivel? Con Aspose.Slides para Java, puede manipular datos de gráficos sin esfuerzo, creando presentaciones visualmente impresionantes y reveladoras que cautiven a su audiencia. En este artículo, exploraremos cómo Aspose.Slides permite a los desarrolladores de Java hacer que los gráficos basados en datos cobren vida.
 
 ## Comprender Aspose.Slides para Java
@@ -54,3 +60,9 @@ Cree gráficos normales en diapositivas de Java con Aspose.Slides para Java. Gu�
 Aprenda a crear impresionantes organigramas en Java Slides con los tutoriales paso a paso de Aspose.Slides. Personalice y visualice su estructura organizativa sin esfuerzo.
 ### [Gráfico circular en diapositivas de Java](./pie-chart-java-slides/)
 Aprenda a crear impresionantes gráficos circulares en presentaciones de PowerPoint utilizando Aspose.Slides para Java. Guía paso a paso con código fuente para desarrolladores de Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

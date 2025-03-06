@@ -3,10 +3,16 @@ title: Nyújtáseltolás hozzáadása balra a PowerPointban az Aspose.Slide seg�
 linktitle: Nyújtáseltolás hozzáadása balra az Aspose.Slides képkeretéhez
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Ismerje meg, hogyan javíthatja a PowerPoint prezentációkat az Aspose.Slides for .NET használatával. Kövesse lépésenkénti útmutatónkat, hogy a képkeretekhez balra nyújtsa a nyújtási eltolást.
-type: docs
 weight: 14
 url: /hu/net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-picture-frame/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Nyújtáseltolás hozzáadása balra a PowerPointban az Aspose.Slide segítségével
+
 ## Bevezetés
 Az Aspose.Slides for .NET egy hatékony könyvtár, amely lehetővé teszi a fejlesztők számára a PowerPoint prezentációk egyszerű kezelését. Ebben az oktatóanyagban azt a folyamatot vizsgáljuk meg, amely során az Aspose.Slides for .NET segítségével nyúlási eltolást adunk a képkeret bal oldalához. Kövesse ezt a lépésenkénti útmutatót a PowerPoint-bemutatókon belüli képekkel és alakzatokkal kapcsolatos készségeinek fejlesztéséhez.
 ## Előfeltételek
@@ -85,3 +91,9 @@ V: Az Aspose.Slides-t rendszeresen frissítik, hogy biztosítsák a kompatibilit
  V: Fedezze fel a[Aspose.Slides dokumentáció](https://reference.aspose.com/slides/net/) átfogó példákért és útmutatásért.
 ### K: Alkalmazhatok több nyújtási eltolást egyetlen alakzatra?
 V: Igen, több nyújtási eltolást kombinálhat összetett és testreszabott vizuális hatások eléréséhez.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

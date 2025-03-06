@@ -3,10 +3,16 @@ title: Μορφοποίηση και ενημερώσεις πίνακα Java Po
 linktitle: Μορφοποίηση και ενημερώσεις πίνακα Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Βελτιώστε τις παρουσιάσεις Java PowerPoint με μορφοποίηση πίνακα και ενημερώσεις χρησιμοποιώντας το Aspose.Slides. Μάθετε να προσθέτετε περιγράμματα, να μορφοποιείτε κείμενο σε στήλες και σειρές και να ενημερώνετε πίνακες.
-type: docs
 weight: 31
 url: /el/java/java-powerpoint-table-formatting-updates/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Μορφοποίηση και ενημερώσεις πίνακα Java PowerPoint
+
 
 ## Εισαγωγή
 
@@ -36,3 +42,9 @@ url: /el/java/java-powerpoint-table-formatting-updates/
 Μάθετε πώς να μορφοποιείτε κείμενο μέσα σε σειρές πίνακα στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Βελτιώστε τις παρουσιάσεις σας με τον βήμα προς βήμα οδηγό μας.
 ### [Ενημερώστε τον υπάρχοντα πίνακα στο PowerPoint χρησιμοποιώντας Java](./update-existing-table-powerpoint-java/)
 Μάθετε πώς να ενημερώνετε υπάρχοντες πίνακες στο PowerPoint χρησιμοποιώντας Java με Aspose.Slides. Οδηγός βήμα προς βήμα, λεπτομερείς οδηγίες και συχνές ερωτήσεις περιλαμβάνονται.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

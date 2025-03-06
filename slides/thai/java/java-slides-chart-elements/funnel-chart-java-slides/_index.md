@@ -3,10 +3,16 @@ title: แผนภูมิช่องทางใน Java Slides
 linktitle: แผนภูมิช่องทางใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: สำรวจ Aspose.Slides สำหรับ Java ด้วยบทช่วยสอนทีละขั้นตอน สร้างแผนภูมิกรวยที่น่าทึ่งและอื่นๆ อีกมากมาย
-type: docs
 weight: 14
 url: /th/java/chart-elements/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แผนภูมิช่องทางใน Java Slides
+
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับแผนภูมิช่องทางใน Java Slides
 
@@ -144,3 +150,9 @@ finally
 ### ฉันจะหาตัวอย่างและเอกสารประกอบเพิ่มเติมสำหรับ Aspose.Slides สำหรับ Java ได้ที่ไหน
 
  คุณสามารถค้นหาตัวอย่างเพิ่มเติมและเอกสารประกอบโดยละเอียดเกี่ยวกับการใช้ Aspose.Slides สำหรับ Java ได้ใน[เอกสารประกอบ](https://docs.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

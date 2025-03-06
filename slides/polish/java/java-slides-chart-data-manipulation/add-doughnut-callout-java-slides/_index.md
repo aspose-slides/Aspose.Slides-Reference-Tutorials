@@ -3,10 +3,16 @@ title: Dodaj objaśnienie pączka w slajdach Java
 linktitle: Dodaj objaśnienie pączka w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodawać objaśnienia pączków w slajdach Java za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym dla ulepszonych prezentacji.
-type: docs
 weight: 12
 url: /pl/java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj objaśnienie pączka w slajdach Java
+
 
 ## Wprowadzenie do dodawania objaśnienia pączka w slajdach Java przy użyciu Aspose.Slides dla Java
 
@@ -180,3 +186,9 @@ Tak, możesz dodać dowolną liczbę punktów danych do wykresu pierścieniowego
 ### Jak dostosować położenie i rozmiar wykresu pierścieniowego na slajdzie?
 
  Możesz zmienić położenie i rozmiar wykresu pierścieniowego, modyfikując parametry w pliku`addChart` metoda. Cztery liczby w tej metodzie odpowiadają współrzędnym X i Y lewego górnego rogu wykresu oraz odpowiednio jego szerokości i wysokości.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

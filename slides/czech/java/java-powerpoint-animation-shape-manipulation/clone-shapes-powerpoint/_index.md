@@ -3,10 +3,16 @@ title: Klonovat tvary v PowerPointu
 linktitle: Klonovat tvary v PowerPointu
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se klonovat tvary v prezentacích PowerPoint pomocí Aspose.Slides for Java. Zjednodušte svůj pracovní postup pomocí tohoto snadno sledovatelného výukového programu.
-type: docs
 weight: 16
 url: /cs/java/java-powerpoint-animation-shape-manipulation/clone-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Klonovat tvary v PowerPointu
+
 ## Úvod
 V tomto tutoriálu prozkoumáme, jak klonovat tvary v prezentacích PowerPoint pomocí Aspose.Slides for Java. Klonování tvarů umožňuje duplikovat existující tvary v rámci prezentace, což může být užitečné zejména pro vytváření konzistentních rozvržení nebo opakování prvků na snímcích.
 ## Předpoklady
@@ -57,3 +63,9 @@ Rozhodně, jakmile jsou tvary naklonovány a přidány na snímek, můžete podl
 Ano, pomocí Aspose.Slides for Java můžete klonovat snímky, text, obrázky a další prvky v rámci prezentace PowerPoint.
 ### Je k dispozici zkušební verze pro Aspose.Slides pro Java?
  Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Slides for Java z webu[webová stránka](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

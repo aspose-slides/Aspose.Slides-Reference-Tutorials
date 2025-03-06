@@ -3,10 +3,16 @@ title: Přidejte uživatelské vlastnosti dokumentu do snímků Java
 linktitle: Přidejte uživatelské vlastnosti dokumentu do snímků Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak vylepšit prezentace v PowerPointu pomocí vlastních vlastností dokumentu v Java Slides. Podrobný průvodce s příklady kódu pomocí Aspose.Slides pro Javu.
-type: docs
 weight: 13
 url: /cs/java/presentation-properties/add-custom-document-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte uživatelské vlastnosti dokumentu do snímků Java
+
 
 ## Úvod do přidávání uživatelských vlastností dokumentu v Java Slides
 
@@ -137,3 +143,9 @@ for (int i = 0; i < documentProperties.getCustomCount(); i++) {
 ```
 
 Tento kód zobrazí názvy a hodnoty všech uživatelských vlastností v prezentaci.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

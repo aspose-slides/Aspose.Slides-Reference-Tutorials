@@ -3,10 +3,16 @@ title: Lägg till videoram i PowerPoint
 linktitle: Lägg till videoram i PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du sömlöst integrerar videoinnehåll i PowerPoint-presentationer med Aspose.Slides för Java. Dina bilder med multimediaelement för att engagera din publik.
-type: docs
 weight: 17
 url: /sv/java/java-powerpoint-shape-media-insertion/add-video-frame-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägg till videoram i PowerPoint
+
 ## Introduktion
 I den här handledningen guidar vi dig genom processen att lägga till en videoram till en PowerPoint-presentation med Aspose.Slides för Java. Genom att följa dessa steg-för-steg-instruktioner kan du enkelt integrera videoinnehåll i dina presentationer.
 ## Förutsättningar
@@ -60,3 +66,9 @@ Ja, Aspose.Slides för Java är kompatibel med JDK version 6 och högre.
 Ja, du kan ställa in uppspelningsläge och volym för videoramen enligt dina preferenser.
 ### Var kan jag hitta mer support och resurser för Aspose.Slides?
  Besök[Aspose.Slides forum](https://forum.aspose.com/c/slides/11) för hjälp, dokumentation och samhällsstöd.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

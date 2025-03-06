@@ -3,10 +3,16 @@ title: 在 Java PowerPoint 中创建多级项目符号
 linktitle: 在 Java PowerPoint 中创建多级项目符号
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 在 PowerPoint 中创建多级项目符号。带有代码示例和常见问题解答的分步指南。
-type: docs
 weight: 14
 url: /zh/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java PowerPoint 中创建多级项目符号
+
 ## 介绍
 在本教程中，我们将探索如何使用 Aspose.Slides for Java 在 PowerPoint 演示文稿中创建多级项目符号。添加项目符号是创建有组织且具有视觉吸引力的演示文稿内容的常见要求。我们将逐步介绍该过程，确保在本指南结束时，您将能够使用多级结构化项目符号来增强演示文稿。
 ## 先决条件
@@ -109,3 +115,9 @@ Aspose.Slides 生成与 Microsoft PowerPoint 2007 及更高版本兼容的演示
 是的，Aspose.Slides 提供 API 来自动创建、修改和操作 PowerPoint 演示文稿。
 ### 在哪里可以获得 Aspose.Slides for Java 的支持？
 您可以从 Aspose.Slides 社区和专家处获得支持[Aspose.Slides 论坛](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

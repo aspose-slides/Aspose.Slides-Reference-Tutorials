@@ -3,10 +3,16 @@ title: Zarządzanie czcionkami w programie Java PowerPoint i zastępowanie tekst
 linktitle: Zarządzanie czcionkami w programie Java PowerPoint i zastępowanie tekstu
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Opanuj zarządzanie czcionkami w programie Java PowerPoint i zastępowanie tekstu za pomocą Aspose.Slides. Dowiedz się, jak ładować niestandardowe czcionki, zarządzać osadzonymi czcionkami i płynnie zastępować tekst.
-type: docs
 weight: 27
 url: /pl/java/java-powerpoint-font-management-text-replacement/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zarządzanie czcionkami w programie Java PowerPoint i zastępowanie tekstu
+
 ## Wstęp
 
 Zarządzanie czcionkami i tekstem to kluczowe elementy tworzenia dopracowanych i profesjonalnych prezentacji programu PowerPoint. Dzięki Aspose.Slides dla Java możesz łatwo ładować niestandardowe czcionki, zarządzać osadzonymi czcionkami i efektywnie zastępować tekst. Nasze samouczki przeprowadzą Cię przez te procesy, zapewniając, że Twoje prezentacje będą zarówno atrakcyjne wizualnie, jak i funkcjonalne. Przyjrzyjmy się tym samouczkom, aby udoskonalić Twoje umiejętności korzystania z programu PowerPoint!
@@ -35,3 +41,9 @@ Z łatwością zarządzaj osadzonymi czcionkami w prezentacjach Java PowerPoint 
 Bez wysiłku wymieniaj czcionki w prezentacjach programu PowerPoint przy użyciu języka Java z Aspose.Slides. Postępuj zgodnie z naszym szczegółowym przewodnikiem, aby uzyskać płynny proces zmiany czcionek.
 ### [Zamień tekst w programie PowerPoint przy użyciu języka Java](./replace-text-powerpoint-java/)
 Dowiedz się, jak zamienić tekst w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Postępuj zgodnie z tym przewodnikiem krok po kroku, aby zautomatyzować aktualizacje prezentacji.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

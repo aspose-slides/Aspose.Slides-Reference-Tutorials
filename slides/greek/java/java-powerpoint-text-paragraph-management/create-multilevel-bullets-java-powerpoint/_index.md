@@ -3,10 +3,16 @@ title: Δημιουργία κουκκίδων πολλαπλών επιπέδω
 linktitle: Δημιουργία κουκκίδων πολλαπλών επιπέδων σε Java PowerPoint
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να δημιουργείτε κουκκίδες πολλαπλών επιπέδων στο PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Οδηγός βήμα προς βήμα με παραδείγματα κώδικα και συχνές ερωτήσεις.
-type: docs
 weight: 14
 url: /el/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργία κουκκίδων πολλαπλών επιπέδων σε Java PowerPoint
+
 ## Εισαγωγή
 Σε αυτό το σεμινάριο, θα εξερευνήσουμε τον τρόπο δημιουργίας κουκκίδων πολλαπλών επιπέδων σε παρουσιάσεις PowerPoint χρησιμοποιώντας το Aspose.Slides για Java. Η προσθήκη κουκκίδων είναι μια κοινή απαίτηση για τη δημιουργία οργανωμένου και οπτικά ελκυστικού περιεχομένου στις παρουσιάσεις. Θα προχωρήσουμε στη διαδικασία βήμα προς βήμα, διασφαλίζοντας ότι μέχρι το τέλος αυτού του οδηγού, θα είστε εξοπλισμένοι για να βελτιώσετε τις παρουσιάσεις σας με δομημένα σημεία σε πολλαπλά επίπεδα.
 ## Προαπαιτούμενα
@@ -109,3 +115,9 @@ pres.save(dataDir + "MultilevelBullet.pptx", SaveFormat.Pptx);
 Ναι, το Aspose.Slides παρέχει API για την αυτοματοποίηση της δημιουργίας, τροποποίησης και χειρισμού παρουσιάσεων PowerPoint.
 ### Πού μπορώ να λάβω υποστήριξη για το Aspose.Slides για Java;
  Μπορείτε να λάβετε υποστήριξη από την κοινότητα Aspose.Slides και τους ειδικούς στη διεύθυνση[Aspose.Slides Forum](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

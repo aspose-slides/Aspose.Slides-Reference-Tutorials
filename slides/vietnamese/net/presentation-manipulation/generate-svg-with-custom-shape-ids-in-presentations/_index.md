@@ -3,10 +3,16 @@ title: Tạo SVG với ID hình dạng tùy chỉnh trong bản trình bày
 linktitle: Tạo SVG với ID hình dạng tùy chỉnh trong bản trình bày
 second_title: API xử lý Aspose.Slides .NET PowerPoint
 description: Tạo các bản trình bày hấp dẫn với các hình dạng và ID SVG tùy chỉnh bằng Aspose.Slides cho .NET. Tìm hiểu cách tạo các trang trình bày tương tác từng bước bằng các ví dụ về mã nguồn. Nâng cao sự hấp dẫn trực quan và tương tác của người dùng trong bài thuyết trình của bạn.
-type: docs
 weight: 19
 url: /vi/net/presentation-manipulation/generate-svg-with-custom-shape-ids-in-presentations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Tạo SVG với ID hình dạng tùy chỉnh trong bản trình bày
+
 
 Bạn đang tìm cách khai thác sức mạnh của Aspose.Slides cho .NET để tạo tệp SVG với ID hình dạng tùy chỉnh? Bạn đang ở đúng nơi! Trong hướng dẫn từng bước này, chúng tôi sẽ hướng dẫn bạn thực hiện quy trình bằng đoạn mã nguồn sau. Cuối cùng, bạn sẽ được trang bị tốt để tạo tệp SVG với ID hình dạng tùy chỉnh trong bản trình bày của mình.
 
@@ -78,3 +84,10 @@ Và bạn có nó rồi đấy! Bạn đã tạo thành công các tệp SVG có
     Để có thêm tài liệu, hãy truy cập[Aspose.Slides cho tài liệu tham khảo API .NET](https://reference.aspose.com/slides/net/).
 
 Bây giờ, hãy tiếp tục và khám phá khả năng vô tận của việc tạo SVG với Aspose.Slides cho .NET. Chúc mừng mã hóa!
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

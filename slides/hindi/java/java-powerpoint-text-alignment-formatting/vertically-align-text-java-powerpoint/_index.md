@@ -3,10 +3,16 @@ title: जावा पावरपॉइंट में टेक्स्ट 
 linktitle: जावा पावरपॉइंट में टेक्स्ट को लंबवत रूप से संरेखित करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: सहज स्लाइड फ़ॉर्मेटिंग के लिए Aspose.Slides का उपयोग करके Java PowerPoint प्रस्तुतियों में टेक्स्ट को लंबवत रूप से संरेखित करना सीखें।
-type: docs
 weight: 10
 url: /hi/java/java-powerpoint-text-alignment-formatting/vertically-align-text-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा पावरपॉइंट में टेक्स्ट को लंबवत रूप से संरेखित करें
+
 ## परिचय
 इस ट्यूटोरियल में, आप सीखेंगे कि जावा के लिए Aspose.Slides का उपयोग करके PowerPoint प्रेजेंटेशन में टेबल सेल के भीतर टेक्स्ट को लंबवत रूप से कैसे संरेखित किया जाए। टेक्स्ट को लंबवत रूप से संरेखित करना स्लाइड डिज़ाइन का एक महत्वपूर्ण पहलू है, यह सुनिश्चित करता है कि आपकी सामग्री साफ-सुथरी और पेशेवर रूप से प्रस्तुत की गई है। Aspose.Slides प्रोग्रामेटिक रूप से प्रस्तुतियों में हेरफेर और प्रारूपण करने के लिए शक्तिशाली सुविधाएँ प्रदान करता है, जिससे आपको अपनी स्लाइड के हर पहलू पर पूरा नियंत्रण मिलता है।
 ## आवश्यक शर्तें
@@ -91,3 +97,9 @@ Aspose.Slides उन प्रस्तुतियों को बनाने
  दौरा करना[Aspose.Slides दस्तावेज़ीकरण](https://reference.aspose.com/slides/java/) व्यापक गाइड, एपीआई संदर्भ और कोड नमूनों के लिए.
 ### मैं Aspose.Slides के लिए समर्थन कैसे प्राप्त कर सकता हूं?
  तकनीकी सहायता और सामुदायिक समर्थन के लिए, यहां जाएं[Aspose.Slides फ़ोरम](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

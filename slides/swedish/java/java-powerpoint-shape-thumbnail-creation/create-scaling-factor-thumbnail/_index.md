@@ -3,10 +3,16 @@ title: Skapa skalningsfaktorminiatyr
 linktitle: Skapa skalningsfaktorminiatyr
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Lär dig hur du skapar skalningsfaktorminiatyrer i Java med Aspose.Slides för Java. Lätt att följa guide med steg-för-steg instruktioner.
-type: docs
 weight: 12
 url: /sv/java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thumbnail/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Skapa skalningsfaktorminiatyr
+
 ## Introduktion
 I den här handledningen kommer vi att guida dig genom processen att skapa en skalningsfaktorminiatyr med Aspose.Slides för Java. Följ dessa steg-för-steg-instruktioner för att uppnå önskat resultat.
 ## Förutsättningar
@@ -66,3 +72,9 @@ Ja, Aspose.Slides för Java kan användas med alla Java Integrated Development E
  Du kan köpa Aspose.Slides för Java från[köpsidan](https://purchase.aspose.com/buy).
 ### Behöver jag en tillfällig licens för att använda Aspose.Slides för Java?
  Ja, du kan få en tillfällig licens från[sida för tillfällig licens](https://purchase.aspose.com/temporary-license/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

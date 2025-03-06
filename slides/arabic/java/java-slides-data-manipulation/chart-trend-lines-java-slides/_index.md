@@ -3,10 +3,16 @@ title: رسم خطوط الاتجاه في شرائح جافا
 linktitle: رسم خطوط الاتجاه في شرائح جافا
 second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
 description: تعرف على كيفية إضافة خطوط اتجاه متنوعة إلى Java Slides باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع أمثلة التعليمات البرمجية لتصور البيانات بشكل فعال.
-type: docs
 weight: 15
 url: /ar/java/data-manipulation/chart-trend-lines-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# رسم خطوط الاتجاه في شرائح جافا
+
 
 ## مقدمة لخطوط اتجاه الرسم البياني في شرائح جافا: دليل خطوة بخطوة
 
@@ -190,3 +196,9 @@ pres.save(dataDir + "ChartTrendLines_out.pptx", SaveFormat.Pptx);
 ### كيف يمكنني الوصول إلى المزيد من الموارد والأمثلة لـ Aspose.Slides لـ Java؟
 
  يمكنك الوصول إلى موارد ووثائق وأمثلة إضافية لـ Aspose.Slides for Java على الموقع[موقع أسبوز](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

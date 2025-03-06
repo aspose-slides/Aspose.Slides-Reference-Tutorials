@@ -3,10 +3,16 @@ title: Grafiekgegevenspuntindex in Java-dia's
 linktitle: Grafiekgegevenspuntindex in Java-dia's
 second_title: Aspose.Slides Java PowerPoint-verwerkings-API
 description: Leer hoe u diagramgegevenspuntindexen in Java Slides kunt manipuleren met behulp van Aspose.Slides voor Java. Extraheer en werk moeiteloos met gegevens uit PowerPoint-diagrammen.
-type: docs
 weight: 12
 url: /nl/java/data-manipulation/chart-data-point-index-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Grafiekgegevenspuntindex in Java-dia's
+
 
 ## Inleiding tot de grafiekgegevenspuntindex in Java-dia's
 
@@ -98,3 +104,9 @@ U kunt een PowerPoint-presentatie met grafieken exporteren naar verschillende fo
 ### Waar kan ik meer voorbeelden en documentatie vinden voor Aspose.Slides voor Java?
 
  Uitgebreide voorbeelden en documentatie voor Aspose.Slides voor Java vindt u op de documentatiewebsite van Aspose[hier](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

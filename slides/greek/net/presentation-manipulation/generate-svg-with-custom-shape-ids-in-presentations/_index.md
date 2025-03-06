@@ -3,10 +3,16 @@ title: Δημιουργήστε SVG με προσαρμοσμένα αναγνω
 linktitle: Δημιουργήστε SVG με προσαρμοσμένα αναγνωριστικά σχήματος στις Παρουσιάσεις
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Δημιουργήστε ελκυστικές παρουσιάσεις με προσαρμοσμένα σχήματα και αναγνωριστικά SVG χρησιμοποιώντας το Aspose.Slides για .NET. Μάθετε πώς να δημιουργείτε διαδραστικές διαφάνειες βήμα προς βήμα με παραδείγματα πηγαίου κώδικα. Βελτιώστε την οπτική ελκυστικότητα και την αλληλεπίδραση των χρηστών στις παρουσιάσεις σας.
-type: docs
 weight: 19
 url: /el/net/presentation-manipulation/generate-svg-with-custom-shape-ids-in-presentations/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Δημιουργήστε SVG με προσαρμοσμένα αναγνωριστικά σχήματος στις Παρουσιάσεις
+
 
 Θέλετε να αξιοποιήσετε τη δύναμη του Aspose.Slides για .NET για τη δημιουργία αρχείων SVG με προσαρμοσμένα αναγνωριστικά σχήματος; Είστε στο σωστό μέρος! Σε αυτό το βήμα προς βήμα σεμινάριο, θα σας καθοδηγήσουμε στη διαδικασία χρησιμοποιώντας το ακόλουθο απόσπασμα πηγαίου κώδικα. Στο τέλος, θα είστε καλά εξοπλισμένοι για να δημιουργήσετε αρχεία SVG με προσαρμοσμένα αναγνωριστικά σχήματος στις παρουσιάσεις σας.
 
@@ -78,3 +84,10 @@ using (FileStream stream = new FileStream(dataDir + "pptxFileName.svg", FileMode
     Για πρόσθετη τεκμηρίωση, επισκεφθείτε το[Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/).
 
 Τώρα, προχωρήστε και εξερευνήστε τις ατελείωτες δυνατότητες της παραγωγής SVG με το Aspose.Slides για .NET. Καλή κωδικοποίηση!
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

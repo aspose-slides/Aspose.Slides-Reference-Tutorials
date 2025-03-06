@@ -3,10 +3,16 @@ title: แผนภูมิหลายหมวดหมู่ใน Java Slid
 linktitle: แผนภูมิหลายหมวดหมู่ใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: สร้างแผนภูมิหลายหมวดหมู่ใน Java Slides โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ดเพื่อการแสดงภาพข้อมูลที่น่าประทับใจในการนำเสนอ
-type: docs
 weight: 20
 url: /th/java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แผนภูมิหลายหมวดหมู่ใน Java Slides
+
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับแผนภูมิหลายหมวดหมู่ใน Java Slides พร้อม Aspose.Slides
 
@@ -157,3 +163,9 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ### ฉันจะเพิ่มชื่อลงในแผนภูมิได้อย่างไร
 
  คุณสามารถเพิ่มชื่อลงในแผนภูมิได้โดยใช้`ch.getChartTitle().getTextFrame().setText("Chart Title");` วิธี.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

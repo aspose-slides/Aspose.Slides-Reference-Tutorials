@@ -3,10 +3,16 @@ title: 将演示文稿转换为 HTML 并在 Java 幻灯片中嵌入所有字体
 linktitle: 将演示文稿转换为 HTML 并在 Java 幻灯片中嵌入所有字体
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 将演示文稿转换为带有嵌入字体的 HTML。本分步指南可确保格式一致，实现无缝共享。
-type: docs
 weight: 13
 url: /zh/java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 将演示文稿转换为 HTML 并在 Java 幻灯片中嵌入所有字体
+
 
 ## 如何在 Java 幻灯片中使用嵌入所有字体将演示文稿转换为 HTML
 
@@ -108,3 +114,9 @@ finally
 ### 在哪里可以找到有关 Aspose.Slides for Java 的更多资源和文档？
 
 您可以在以下位置访问 Aspose.slides for Java 的综合文档和资源：[Aspose.Slides for Java API 参考](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

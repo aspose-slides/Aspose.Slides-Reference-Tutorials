@@ -3,10 +3,16 @@ title: Zapisz program PowerPoint za pomocą hasła
 linktitle: Zapisz program PowerPoint za pomocą hasła
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodać ochronę hasłem do prezentacji programu PowerPoint za pomocą Aspose.Slides dla Java. Z łatwością zabezpiecz swoje slajdy.
-type: docs
 weight: 12
 url: /pl/java/java-powerpoint-save-operations/save-powerpoint-with-password/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Zapisz program PowerPoint za pomocą hasła
+
 ## Wstęp
 W tym samouczku przeprowadzimy Cię przez proces zapisywania prezentacji programu PowerPoint z hasłem przy użyciu Aspose.Slides dla Java. Dodanie hasła do prezentacji może zwiększyć jej bezpieczeństwo, zapewniając dostęp do jej zawartości tylko upoważnionym osobom.
 ## Warunki wstępne
@@ -67,3 +73,9 @@ Tak, Aspose.Slides umożliwia ustawienie oddzielnych haseł do uprawnień do edy
  Tak, możesz pobrać bezpłatną wersję próbną z Aspose[strona internetowa](https://releases.aspose.com/).
 ### Jak mogę uzyskać pomoc techniczną dla Aspose.Slides?
 Możesz odwiedzić forum Aspose.Slides, aby uzyskać pomoc techniczną od społeczności i personelu pomocniczego Aspose.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

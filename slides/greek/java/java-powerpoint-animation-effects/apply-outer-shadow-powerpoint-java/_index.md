@@ -3,10 +3,16 @@ title: Εφαρμογή Outer Shadow στο PowerPoint με Java
 linktitle: Εφαρμογή Outer Shadow στο PowerPoint με Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Μάθετε πώς να εφαρμόζετε εφέ εξωτερικής σκιάς στο PowerPoint χρησιμοποιώντας Java με το Aspose.Slides. Βελτιώστε τις παρουσιάσεις σας με βάθος και οπτική ελκυστικότητα.
-type: docs
 weight: 13
 url: /el/java/java-powerpoint-animation-effects/apply-outer-shadow-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Εφαρμογή Outer Shadow στο PowerPoint με Java
+
 ## Εισαγωγή
 Η δημιουργία οπτικά ελκυστικών παρουσιάσεων PowerPoint συχνά περιλαμβάνει την προσθήκη διαφόρων εφέ σε σχήματα και κείμενο. Ένα τέτοιο εφέ είναι η εξωτερική σκιά, η οποία μπορεί να κάνει τα στοιχεία να ξεχωρίζουν και να προσθέσει βάθος στις διαφάνειές σας. Σε αυτό το σεμινάριο, θα μάθετε πώς να εφαρμόζετε ένα εφέ εξωτερικής σκιάς σε ένα σχήμα στο PowerPoint χρησιμοποιώντας Java με Aspose.Slides.
 ## Προαπαιτούμενα
@@ -121,3 +127,9 @@ presentation.save("output.pptx", SaveFormat.Pptx);
 
 ### Πού μπορώ να βρω περισσότερους πόρους και υποστήριξη για το Aspose.Slides;
  Μπορείτε να ανατρέξετε στο[τεκμηρίωση](https://reference.aspose.com/slides/java/) για λεπτομερείς αναφορές API και εξερευνήστε το[Φόρουμ Aspose.Slides](https://forum.aspose.com/c/slides/11) για κοινοτική υποστήριξη και συζητήσεις.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

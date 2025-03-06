@@ -3,10 +3,16 @@ title: Sejajarkan Teks Secara Vertikal di Java PowerPoint
 linktitle: Sejajarkan Teks Secara Vertikal di Java PowerPoint
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara menyelaraskan teks secara vertikal dalam presentasi Java PowerPoint menggunakan Aspose.Slides untuk pemformatan slide yang lancar.
-type: docs
 weight: 10
 url: /id/java/java-powerpoint-text-alignment-formatting/vertically-align-text-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Sejajarkan Teks Secara Vertikal di Java PowerPoint
+
 ## Perkenalan
 Dalam tutorial ini, Anda akan mempelajari cara menyelaraskan teks secara vertikal dalam sel tabel dalam presentasi PowerPoint menggunakan Aspose.Slides untuk Java. Meratakan teks secara vertikal adalah aspek penting dalam desain slide, memastikan konten Anda disajikan dengan rapi dan profesional. Aspose.Slides menyediakan fitur canggih untuk memanipulasi dan memformat presentasi secara terprogram, memberi Anda kendali penuh atas setiap aspek slide Anda.
 ## Prasyarat
@@ -91,3 +97,9 @@ Aspose.Slides mendukung pembuatan presentasi yang kompatibel dengan semua versi 
  Mengunjungi[Dokumentasi Aspose.Slide](https://reference.aspose.com/slides/java/) untuk panduan komprehensif, referensi API, dan contoh kode.
 ### Bagaimana saya bisa mendapatkan dukungan untuk Aspose.Slides?
  Untuk bantuan teknis dan dukungan komunitas, kunjungi[Forum Aspose.Slide](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Classeur de récupération de graphique dans les diapositives Java
 linktitle: Classeur de récupération de graphique dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment récupérer des classeurs à partir de graphiques dans Java Slides avec Aspose.Slides. Guide étape par étape pour l’automatisation de PowerPoint.
-type: docs
 weight: 17
 url: /fr/java/data-manipulation/chart-recover-workbook-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Classeur de récupération de graphique dans les diapositives Java
+
 
 ## Introduction au classeur de récupération de graphiques dans Java Slides
 
@@ -109,3 +115,9 @@ Absolument! Aspose.Slides pour Java est une bibliothèque puissante pour automat
 ### Comment puis-je accéder à une documentation supplémentaire sur Aspose.Slides pour Java ?
 
  Pour une documentation détaillée et des références sur Aspose.Slides pour Java, visitez la page de documentation à l'adresse[ici](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

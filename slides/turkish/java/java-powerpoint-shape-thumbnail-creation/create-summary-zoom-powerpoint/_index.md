@@ -3,10 +3,16 @@ title: Özet Oluştur PowerPoint'te Yakınlaştır
 linktitle: Özet Oluştur PowerPoint'te Yakınlaştır
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Bu kapsamlı adım adım eğitimle Aspose.Slides for Java'yı kullanarak PowerPoint'te Özet Yakınlaştırma oluşturmayı öğrenin.
-type: docs
 weight: 16
 url: /tr/java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Özet Oluştur PowerPoint'te Yakınlaştır
+
 ## giriiş
 Aspose.Slides for Java kullanarak PowerPoint'te Özet Yakınlaştırma oluşturma hakkındaki kapsamlı eğitimimize hoş geldiniz. Sunumlarınıza dinamik ve etkileşimli bir öğe eklemek istiyorsanız Özet Yakınlaştırma harika bir özelliktir. Sunumunuzun farklı bölümlerini yakınlaştırabilen tek bir slayt oluşturmanıza olanak tanıyarak izleyicilerinize daha ilgi çekici ve gezinilebilir bir deneyim sunar.
 Bu adım adım kılavuzda, geliştirme ortamınızı ayarlamaktan Özet Yakınlaştırma çerçevesi oluşturup özelleştirmeye kadar tüm süreç boyunca size yol göstereceğiz. İster deneyimli bir Java geliştiricisi olun ister yeni başlıyor olun, bu kılavuzun takip edilmesi kolay ve değerli bilgilerle dolu olduğunu göreceksiniz.
@@ -107,3 +113,9 @@ Evet, Aspose.Slides for Java'nın ücretsiz deneme sürümünü şu adresten ind
  Geçici lisansı adresinden alabilirsiniz.[Satın alma sayfasını atayın](https://purchase.aspose.com/temporary-license/).
 ### Aspose.Slides for Java için daha fazla örneği ve desteği nerede bulabilirim?
  Daha fazla örnek bulabilir ve destek alabilirsiniz.[Aspose.Slides destek forumu](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Java 슬라이드에서 Note를 사용하여 TIFF로 변환
 linktitle: Java 슬라이드에서 Note를 사용하여 TIFF로 변환
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Aspose.Slides를 사용하여 발표자 노트가 포함된 PowerPoint 프레젠테이션을 Java의 TIFF 형식으로 쉽게 변환하세요. 원활한 문서 변환을 위해 소스 코드가 포함된 단계별 가이드를 따르세요.
-type: docs
 weight: 32
 url: /ko/java/presentation-conversion/convert-note-tiff-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java 슬라이드에서 Note를 사용하여 TIFF로 변환
+
 
 ## Java 슬라이드에서 Note를 사용하여 TIFF로 변환하는 방법 소개
 
@@ -111,3 +117,9 @@ finally
 ### 내 프로젝트에서 Aspose.Slides for Java를 사용하기 위한 라이선스 고려 사항이 있나요?
 
 예, Java용 Aspose.Slides를 상업적으로 사용하려면 유효한 라이선스가 필요합니다. Aspose 웹사이트에서 라이선스 세부정보를 확인할 수 있습니다.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

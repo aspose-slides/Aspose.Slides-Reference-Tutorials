@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में पासवर्ड ज
 linktitle: जावा स्लाइड्स में पासवर्ड जाँचने का उदाहरण
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके Java Slides में पासवर्ड सत्यापित करना सीखें। चरण-दर-चरण मार्गदर्शन के साथ प्रस्तुति सुरक्षा को बेहतर बनाएँ।
-type: docs
 weight: 14
 url: /hi/java/presentation-properties/check-password-example-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में पासवर्ड जाँचने का उदाहरण
+
 
 ## जावा स्लाइड्स में पासवर्ड जाँचने के उदाहरण का परिचय
 
@@ -99,3 +105,9 @@ presentationInfo.removePassword("current_password");
 ### मैं Aspose.Slides for Java के लिए और अधिक दस्तावेज़ कहां पा सकता हूं?
 
  आप Aspose.Slides for Java के लिए व्यापक दस्तावेज़ Aspose वेबसाइट पर पा सकते हैं[यहाँ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

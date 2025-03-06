@@ -3,10 +3,16 @@ title: Alakzatok elrejtése a PowerPointban
 linktitle: Alakzatok elrejtése a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Részletes, lépésenkénti útmutatónkból megtudhatja, hogyan rejthet el alakzatokat a PowerPointban az Aspose.Slides for Java segítségével. Tökéletes minden szintű Java fejlesztők számára.
-type: docs
 weight: 27
 url: /hu/java/java-powerpoint-shape-formatting-geometry/hide-shapes-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Alakzatok elrejtése a PowerPointban
+
 ## Bevezetés
 Üdvözöljük átfogó oktatóanyagunkban az alakzatok PowerPointban az Aspose.Slides for Java használatával elrejtésével kapcsolatban! Ha valaha is el kellett rejtenie bizonyos alakzatokat PowerPoint-prezentációiban programozottan, akkor jó helyen jár. Ez az útmutató minden lépésen végigvezeti Önt egyszerű, társalgási stílusban. Akár tapasztalt fejlesztő vagy, akár csak most kezded a Java használatát, mi mindent megtalálsz.
 ## Előfeltételek
@@ -81,3 +87,9 @@ Az Aspose.Slides különféle programozási nyelvekhez érhető el, beleértve a
  Igen, letölthet egy ingyenes próbaverziót a webhelyről[itt](https://releases.aspose.com/).
 ### Hol kaphatok támogatást az Aspose.Slides-hez?
  Támogatást kaphat a[Aspose.Slides támogatási fórum](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

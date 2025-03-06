@@ -3,10 +3,16 @@ title: 別のプレゼンテーションの最後にスライドを複製する
 linktitle: 別のプレゼンテーションの最後にスライドを複製する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: この包括的なステップバイステップのチュートリアルでは、Aspose.Slides for Java を使用して、別のプレゼンテーションの最後にスライドを複製する方法を学びます。
-type: docs
 weight: 11
 url: /ja/java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-presentation-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 別のプレゼンテーションの最後にスライドを複製する
+
 ## 導入
 複数の PowerPoint プレゼンテーションのスライドを結合する必要に迫られたことはありませんか? かなり面倒ですよね? でも、もうそんなことはありません! Aspose.Slides for Java は、PowerPoint プレゼンテーションの操作を簡単にする強力なライブラリです。このチュートリアルでは、Aspose.Slides for Java を使用して、あるプレゼンテーションからスライドを複製し、別のプレゼンテーションの最後に追加する方法を説明します。このガイドを読み終える頃には、プロのようにプレゼンテーションを扱えるようになっているはずです!
 ## 前提条件
@@ -81,3 +87,9 @@ Aspose.Slides for Javaは商用製品ですが、無料試用版をこちらか�
 いいえ、ライブラリをダウンロードしたら、使用するためにインターネット接続は必要ありません。
 ### 問題が発生した場合、どこでサポートを受けることができますか?
  Asposeコミュニティフォーラムからサポートを受けることができます[ここ](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

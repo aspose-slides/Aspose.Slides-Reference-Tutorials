@@ -3,10 +3,16 @@ title: Java PowerPoint SmartArt manipuláció
 linktitle: Java PowerPoint SmartArt manipuláció
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Tanulja meg a Java PowerPoint SmartArt hatékony kezelését a GroupDocs.Slides for Java oktatóanyagaival. Hozzáférés az alárendelt csomópontokhoz, csomópontok hozzáadása, elrendezés módosítása és még sok más!
-type: docs
 weight: 32
 url: /hu/java/java-powerpoint-smartart-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java PowerPoint SmartArt manipuláció
+
 
 ## Bevezetés
 
@@ -71,3 +77,9 @@ Sajátítsa el a diagramelrendezési típusok rendszerezését a SmartArt progra
 Ismerje meg, hogyan távolíthat el csomópontokat a SmartArtból a PowerPoint-prezentációkban az Aspose.Slides for Java segítségével hatékonyan és programozottan.
 ### [Távolítsa el a SmartArt adott pozíciójában lévő csomópontot](./remove-node-specific-position-smartart-java/)
 Ismerje meg, hogyan távolíthat el egy csomópontot a SmartArt adott helyén az Aspose.Slides for Java segítségével. Fokozza a prezentáció testreszabását erőfeszítés nélkül.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Převést prezentaci do formátu PDF
 linktitle: Převést prezentaci do formátu PDF
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se převádět prezentace do PDF pomocí Aspose.Slides for .NET. Průvodce krok za krokem se zdrojovým kódem. Efektivní a efektivní konverze.
-type: docs
 weight: 24
 url: /cs/net/presentation-conversion/convert-presentation-to-pdf-format/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Převést prezentaci do formátu PDF
+
 
 ## Úvod do Aspose.Slides pro .NET
 
@@ -107,3 +113,9 @@ Ano, Aspose.Slides poskytuje podporu pro mnoho PowerPoint animací a přechodů 
 ### Je k dispozici zkušební verze?
 
  Ano, můžete si stáhnout bezplatnou zkušební verzi Aspose.Slides pro .NET z webu[tady](https://products.aspose.com/slides/net).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

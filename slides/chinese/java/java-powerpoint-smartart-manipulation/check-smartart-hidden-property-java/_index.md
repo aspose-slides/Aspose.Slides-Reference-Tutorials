@@ -3,10 +3,16 @@ title: 使用 Java 检查 SmartArt 隐藏属性
 linktitle: 使用 Java 检查 SmartArt 隐藏属性
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides for Java 检查 PowerPoint 中的 SmartArt 隐藏属性，增强演示文稿操作。
-type: docs
 weight: 24
 url: /zh/java/java-powerpoint-smartart-manipulation/check-smartart-hidden-property-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Java 检查 SmartArt 隐藏属性
+
 ## 介绍
 在 Java 编程的动态世界中，以编程方式操作 PowerPoint 演示文稿是一项宝贵的技能。Aspose.Slides for Java 是一个强大的库，使开发人员能够无缝地创建、修改和操作 PowerPoint 演示文稿。演示文稿操作中的一项基本任务是检查 SmartArt 对象的隐藏属性。本教程将指导您完成使用 Aspose.Slides for Java 检查 SmartArt 隐藏属性的过程。
 ## 先决条件
@@ -76,3 +82,9 @@ presentation.save(dataDir + "CheckSmartArtHiddenProperty_out.pptx", SaveFormat.P
 是的，Aspose.Slides for Java 支持多种 PowerPoint 文件格式，包括 PPT、PPTX、POT、POTX、PPS 等。
 ### 是否有一个社区或论坛可以让我获得有关 Aspose.Slides for Java 的帮助？
 是的，您可以访问 Aspose.Slides 论坛 (https://forum.aspose.com/c/slides/11) 提出问题、分享想法并获得社区支持。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

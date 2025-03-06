@@ -3,10 +3,16 @@ title: Pembuatan dan Penyesuaian Bagan
 linktitle: Pembuatan dan Penyesuaian Bagan
 second_title: API Pemrosesan PowerPoint Aspose.Slides .NET
 description: Tingkatkan kemampuan presentasi aplikasi .NET Anda dengan Aspose.Slides. Selami tutorial kami tentang pembuatan dan penyesuaian bagan, jelajahi panduan langkah demi langkah dan contoh kode.
-type: docs
 weight: 14
 url: /id/net/chart-creation-and-customization/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Pembuatan dan Penyesuaian Bagan
+
 
 ## Perkenalan:
 
@@ -27,3 +33,9 @@ Pelajari cara membandingkan slide dalam presentasi menggunakan Aspose.Slides unt
 Pelajari cara menggunakan Aspose.Slides untuk .NET untuk membuat presentasi PowerPoint dinamis dengan placeholder dasar.
 ### [Kelola Header dan Footer di Slide](./header-footer-manager/)
 Pelajari cara mengelola header dan footer di slide menggunakan Aspose.Slides untuk .NET. Sesuaikan presentasi Anda dengan mudah dan presisi.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

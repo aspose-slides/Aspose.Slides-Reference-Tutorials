@@ -3,10 +3,16 @@ title: Jak uzyskać zakres danych wykresu w Aspose.Slides dla .NET
 linktitle: Pobierz zakres danych wykresu
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Dowiedz się, jak wyodrębnić zakres danych wykresu z prezentacji programu PowerPoint za pomocą Aspose.Slides dla .NET. Przewodnik krok po kroku dla programistów.
-type: docs
 weight: 11
 url: /pl/net/additional-chart-features/chart-get-range/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Jak uzyskać zakres danych wykresu w Aspose.Slides dla .NET
+
 
 Czy chcesz wyodrębnić zakres danych z wykresu w prezentacji programu PowerPoint za pomocą Aspose.Slides dla .NET? Trafiłeś we właściwe miejsce. W tym przewodniku krok po kroku przeprowadzimy Cię przez proces uzyskiwania zakresu danych wykresu z prezentacji. Aspose.Slides dla .NET to potężna biblioteka, która umożliwia programową pracę z dokumentami programu PowerPoint, a uzyskanie zakresu danych wykresu to tylko jedno z wielu zadań, które może pomóc w wykonaniu.
 
@@ -93,3 +99,9 @@ Tak, w prezentacji programu PowerPoint możesz pracować ze slajdami, kształtam
 
 ### Jakie opcje wsparcia są dostępne dla użytkowników Aspose.Slides for .NET?
  Możesz uzyskać wsparcie i pomoc od społeczności Aspose na ich stronie[forum wsparcia](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

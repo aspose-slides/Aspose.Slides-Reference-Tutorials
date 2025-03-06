@@ -3,10 +3,16 @@ title: Otwórz prezentację chronioną hasłem w slajdach Java
 linktitle: Otwórz prezentację chronioną hasłem w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Odblokowywanie prezentacji chronionych hasłem w Javie. Dowiedz się, jak otwierać i uzyskiwać dostęp do chronionych hasłem slajdów programu PowerPoint za pomocą Aspose.Slides dla Java. Przewodnik krok po kroku z kodem.
-type: docs
 weight: 15
 url: /pl/java/additional-utilities/open-password-protected-presentation-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Otwórz prezentację chronioną hasłem w slajdach Java
+
 
 ## Wprowadzenie do otwartej prezentacji chronionej hasłem w slajdach Java
 
@@ -113,3 +119,9 @@ Aspose.Slides zapewnia możliwość ustawienia i zmiany hasła do prezentacji, a
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji dla Aspose.Slides dla Java?
 
  Obszerną dokumentację i dodatkowe przykłady można znaleźć w pliku[Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/) i na[Forum Aspose.Slides](https://forum.aspose.com/c/slides).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 PowerPoint 中设置线条格式
 linktitle: 在 PowerPoint 中设置线条格式
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 通过本分步教程学习如何使用 Aspose.Slides for Java 在 PowerPoint 中格式化线条。使用自定义线条样式完善您的演示文稿。
-type: docs
 weight: 16
 url: /zh/java/java-powerpoint-shape-formatting-geometry/format-lines-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 PowerPoint 中设置线条格式
+
 ## 介绍
 PowerPoint 演示文稿是专业和教育环境中的必备工具。在幻灯片中有效地设置线条格式可以使您的演示文稿看起来精致而专业。在本教程中，我们将探讨如何使用 Aspose.Slides for Java 来设置 PowerPoint 演示文稿中的线条格式。在本指南结束时，您将能够轻松地在幻灯片中创建和设置线条格式。
 ## 先决条件
@@ -87,3 +93,9 @@ Aspose.Slides for Java 是一个功能强大的库，允许开发人员以编程
 是的，你可以从[这里](https://releases.aspose.com/).
 ### 在哪里可以找到更详细的文档？
 详细文档可在[文档页面](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

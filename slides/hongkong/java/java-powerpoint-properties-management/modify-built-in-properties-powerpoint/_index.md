@@ -3,10 +3,16 @@ title: 修改 PowerPoint 中的內建屬性
 linktitle: 修改 PowerPoint 中的內建屬性
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides for Java 修改 PowerPoint 簡報中的內建屬性。以程式設計方式增強您的簡報。
-type: docs
 weight: 12
 url: /zh-hant/java/java-powerpoint-properties-management/modify-built-in-properties-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 修改 PowerPoint 中的內建屬性
+
 ## 介紹
 Aspose.Slides for Java 使開發人員能夠以程式設計方式操作 PowerPoint 簡報。一項基本功能是修改內建屬性，例如作者、標題、主題、評論和管理者。本教學將引導您逐步完成流程。
 ## 先決條件
@@ -65,3 +71,9 @@ Aspose.Slides支援各種PowerPoint格式，包括PPT、PPTX、PPS等，確保�
 雖然 Aspose.Slides 提供了廣泛的功能，但某些高級功能可能會受到限制，具體取決於 PowerPoint 格式和版本。
 ### Aspose.Slides 是否提供技術支援？
 是的，您可以尋求協助並參與相關討論[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: 在 Java Slides 中添加自定义错误
 linktitle: 在 Java Slides 中添加自定义错误
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 在 Java Slides 中向 PowerPoint 图表添加自定义误差线。带有源代码的分步指南，可实现精确的数据可视化。
-type: docs
 weight: 11
 url: /zh/java/chart-data-manipulation/add-custom-error-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java Slides 中添加自定义错误
+
 
 ## 使用 Aspose.Slides 在 Java Slides 中添加自定义误差线的简介
 
@@ -150,3 +156,9 @@ finally
 ### 是否可以隐藏特定数据点的误差线？
 
 是的，您可以通过设置`setVisible`的财产`IErrorBarsFormat`目的。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

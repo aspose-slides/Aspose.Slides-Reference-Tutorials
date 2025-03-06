@@ -3,10 +3,16 @@ title: Java スライドでギャップ幅を設定する
 linktitle: Java スライドでギャップ幅を設定する
 second_title: Aspose.Slides Java PowerPoint 処理 API
 description: Aspose.Slides for Java を使用して Java スライドのギャップ幅を設定する方法を学びます。PowerPoint プレゼンテーションのグラフのビジュアルを強化します。
-type: docs
 weight: 21
 url: /ja/java/data-manipulation/set-gap-width-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java スライドでギャップ幅を設定する
+
 
 ## Aspose.Slides for Java でのギャップ幅の設定の概要
 
@@ -158,3 +164,9 @@ presentation.save(dataDir + "GapWidth_out.pptx", SaveFormat.Pptx);
 ### より多くのリソースやドキュメントはどこで見つかりますか?
 
  Aspose.Slides for Javaに関する包括的なドキュメントと追加リソースは、[Aspose ウェブサイト](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

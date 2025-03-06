@@ -3,10 +3,16 @@ title: 고유 식별자로 슬라이드에 액세스
 linktitle: 고유 식별자로 슬라이드에 액세스
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 고유 식별자로 PowerPoint 슬라이드에 액세스하는 방법을 알아보세요. 이 단계별 가이드에서는 프레젠테이션 로드, 색인 또는 ID로 슬라이드 액세스, 콘텐츠 수정 및 변경 사항 저장을 다룹니다.
-type: docs
 weight: 11
 url: /ko/net/slide-access-and-manipulation/access-slide-by-id/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 고유 식별자로 슬라이드에 액세스
+
 
 ## .NET용 Aspose.Slides 소개
 
@@ -112,3 +118,9 @@ Aspose.Slides는 슬라이드 인덱스와 슬라이드 ID를 식별자로 모�
 ### 더 자세한 문서와 리소스는 어디에서 찾을 수 있나요?
 
  .NET용 Aspose.Slides에 대한 포괄적인 문서, 코드 샘플, 튜토리얼 등을 다음에서 찾을 수 있습니다.[선적 서류 비치](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

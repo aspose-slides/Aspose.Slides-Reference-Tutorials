@@ -3,10 +3,16 @@ title: Просмотр слайдов и управление макетом
 linktitle: Просмотр слайдов и управление макетом
 second_title: Aspose.Slides .NET API обработки PowerPoint
 description: Оптимизируйте виды и макеты слайдов с помощью учебных пособий по просмотру слайдов и управлению макетом Aspose.Slides. Повысьте эффективность презентации и визуальное качество с помощью мощных инструментов .NET.
-type: docs
 weight: 20
 url: /ru/net/slide-view-and-layout-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Просмотр слайдов и управление макетом
+
 
 ## Введение
 
@@ -29,3 +35,9 @@ url: /ru/net/slide-view-and-layout-manipulation/
 Узнайте, как связать видео со слайдами PowerPoint с помощью Aspose.Slides для .NET. Это пошаговое руководство включает исходный код и советы по созданию интерактивных и интересных презентаций со связанными видео.
 ### [Управление элементом управления ActiveX в презентации](./manage-activex-control/)
 Узнайте, как улучшить презентации PowerPoint с помощью элементов управления ActiveX с помощью Aspose.Slides для .NET. Наше пошаговое руководство охватывает вставку, манипулирование, настройку, обработку событий и многое другое.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

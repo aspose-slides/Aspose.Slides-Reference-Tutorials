@@ -3,10 +3,16 @@ title: Konversikan Slide Tertentu ke PDF di Java Slides
 linktitle: Konversikan Slide Tertentu ke PDF di Java Slides
 second_title: Aspose.Slides API Pemrosesan Java PowerPoint
 description: Pelajari cara mengonversi slide tertentu ke PDF di Java menggunakan Aspose.Slides untuk Java. Panduan langkah demi langkah dengan contoh kode untuk pengembang Java.
-type: docs
 weight: 20
 url: /id/java/presentation-conversion/convert-specific-slide-pdf-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Konversikan Slide Tertentu ke PDF di Java Slides
+
 
 ## Pengantar Mengonversi Slide Tertentu ke PDF di Slide Java
 
@@ -107,3 +113,9 @@ Anda dapat menyesuaikan tampilan PDF yang dikonversi dengan memodifikasi konten 
 ### Di mana saya dapat menemukan lebih banyak contoh dan dokumentasi untuk Aspose.Slides untuk Java?
 
  Anda dapat menemukan dokumentasi komprehensif dan contoh kode di halaman dokumentasi Aspose.Slides untuk Java[Di Sini](https://reference.aspose.com/slides/java/). Jelajahi dokumentasi untuk menemukan lebih banyak fitur dan kasus penggunaan.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

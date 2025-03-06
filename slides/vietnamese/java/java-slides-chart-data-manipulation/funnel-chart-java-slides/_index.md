@@ -3,10 +3,16 @@ title: Biểu đồ kênh trong Java Slides
 linktitle: Biểu đồ kênh trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách tạo Biểu đồ kênh trong bản trình bày PowerPoint bằng Aspose.Slides cho Java. Hướng dẫn từng bước với mã nguồn để trực quan hóa dữ liệu hiệu quả.
-type: docs
 weight: 18
 url: /vi/java/chart-data-manipulation/funnel-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Biểu đồ kênh trong Java Slides
+
 
 ## Giới thiệu về Tạo biểu đồ kênh trong Aspose.Slides cho Java
 
@@ -137,3 +143,9 @@ Bạn có thể điều chỉnh vị trí và kích thước của Biểu đồ 
 ### Tôi có thể xuất biểu đồ sang các định dạng khác nhau như PDF hoặc hình ảnh không?
 
 Có, Aspose.Slides cho Java cho phép bạn xuất bản trình bày có Biểu đồ kênh sang nhiều định dạng khác nhau, bao gồm PDF, định dạng hình ảnh, v.v. Bạn có thể dùng`SaveFormat` các tùy chọn để chỉ định định dạng đầu ra mong muốn khi lưu bản trình bày.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Rimuovi il layout master inutilizzato nelle diapositive Java
 linktitle: Rimuovi il layout master inutilizzato nelle diapositive Java
 second_title: Aspose.Slides API di elaborazione Java PowerPoint
 description: Rimuovi i master di layout inutilizzati con Aspose.Slides. Guida passo passo e codice. Migliora l'efficienza della presentazione.
-type: docs
 weight: 10
 url: /it/java/additional-utilities/remove-unused-layout-master-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Rimuovi il layout master inutilizzato nelle diapositive Java
+
 
 ## Introduzione alla rimozione del layout master inutilizzato nelle diapositive Java
 
@@ -123,3 +129,9 @@ No, la rimozione degli schemi di layout inutilizzati non influirà sulla formatt
 ### Dove posso accedere al codice sorgente utilizzato in questo articolo?
 
 Puoi trovare il codice sorgente utilizzato in questo articolo all'interno degli snippet di codice forniti in ogni passaggio. Copia e incolla semplicemente il codice nel tuo progetto Java per implementare la rimozione dei master di layout inutilizzati nelle tue presentazioni.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

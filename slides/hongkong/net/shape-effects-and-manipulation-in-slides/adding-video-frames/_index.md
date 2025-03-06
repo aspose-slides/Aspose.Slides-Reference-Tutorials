@@ -3,10 +3,16 @@ title: 使用 Aspose.Slides for .NET 新增視訊幀教學
 linktitle: 使用 Aspose.Slides 將視訊幀新增至簡報幻燈片
 second_title: Aspose.Slides .NET PowerPoint 處理 API
 description: 使用 Aspose.Slides for .NET 透過動態視訊畫面讓簡報煥發活力。遵循我們的無縫整合指南並創造引人入勝的體驗。
-type: docs
 weight: 19
 url: /zh-hant/net/shape-effects-and-manipulation-in-slides/adding-video-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 使用 Aspose.Slides for .NET 新增視訊幀教學
+
 ## 介紹
 在動態的簡報中，融入多媒體元素可以提升整體影響力和參與度。在幻燈片中加入影片畫面可以改變遊戲規則，以靜態內容無法做到的方式吸引觀眾的注意。 Aspose.Slides for .NET 提供了一個強大的解決方案，可以將視訊幀無縫整合到簡報幻燈片中。
 ## 先決條件
@@ -67,3 +73,9 @@ Aspose.Slides for .NET 支援各種視訊格式，包括 AVI、WMV 和 MP4。
 是的，您可以透過下載試用版來探索 Aspose.Slides for .NET 的功能[這裡](https://releases.aspose.com/).
 ### Q5：在哪裡可以找到對 Aspose.Slides for .NET 的支援？
 如有任何疑問或幫助，請訪問[Aspose.Slides 論壇](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

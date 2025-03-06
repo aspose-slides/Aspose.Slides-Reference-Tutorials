@@ -3,10 +3,16 @@ title: PowerPoint에서 기하학 모양에 ShapeUtil 사용
 linktitle: PowerPoint에서 기하학 모양에 ShapeUtil 사용
 second_title: Aspose.Slides Java 파워포인트 프로세싱 API
 description: Java용 Aspose.Slides를 사용하여 PowerPoint에서 사용자 정의 모양을 만듭니다. 프레젠테이션을 향상하려면 이 단계별 가이드를 따르세요.
-type: docs
 weight: 23
 url: /ko/java/java-powerpoint-shape-formatting-geometry/use-shapeutil-geometry-shape-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# PowerPoint에서 기하학 모양에 ShapeUtil 사용
+
 ## 소개
 시각적으로 매력적인 PowerPoint 프레젠테이션을 만들려면 표준 모양과 텍스트를 사용하는 것 이상이 필요한 경우가 많습니다. 사용자 정의된 모양과 텍스트 경로를 슬라이드에 직접 추가하여 프레젠테이션의 시각적 효과를 향상시킬 수 있다고 상상해 보십시오. Aspose.Slides for Java를 사용하면 이를 쉽게 달성할 수 있습니다. 이 튜토리얼에서는 다음을 사용하는 과정을 안내합니다.`ShapeUtil` PowerPoint 프레젠테이션에서 기하학적 모양을 만드는 클래스입니다. 숙련된 개발자이든 이제 막 시작하든 이 단계별 가이드는 Aspose.Slides for Java의 강력한 기능을 활용하여 멋진 맞춤형 콘텐츠를 만드는 데 도움이 될 것입니다.
 ## 전제 조건
@@ -75,3 +81,9 @@ Aspose.Slides는 다음에서 다운로드할 수 있는 무료 평가판을 제
  그만큼`ShapeUtil` Aspose.Slides의 클래스는 그래픽 경로를 지오메트리 경로로 변환하는 등 모양 작업을 위한 유틸리티 메서드를 제공합니다.
 ### Aspose.Slides에 대한 지원은 어디서 받을 수 있나요?
  에서 지원을 받으실 수 있습니다.[Aspose.Slides 포럼](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

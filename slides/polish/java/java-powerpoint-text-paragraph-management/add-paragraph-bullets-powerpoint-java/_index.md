@@ -3,10 +3,16 @@ title: Dodaj punktory akapitów w programie PowerPoint przy użyciu języka Java
 linktitle: Dodaj punktory akapitów w programie PowerPoint przy użyciu języka Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak dodawać punktory akapitów na slajdach programu PowerPoint przy użyciu Aspose.Slides dla Java. Ten samouczek przeprowadzi Cię krok po kroku za pomocą przykładów kodu.
-type: docs
 weight: 15
 url: /pl/java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Dodaj punktory akapitów w programie PowerPoint przy użyciu języka Java
+
 ## Wstęp
 Dodanie punktorów akapitów poprawia czytelność i strukturę prezentacji programu PowerPoint. Aspose.Slides dla Java zapewnia solidne narzędzia do programowego manipulowania prezentacjami, w tym możliwość formatowania tekstu przy użyciu różnych stylów punktorów. W tym samouczku dowiesz się, jak zintegrować wypunktowania ze slajdami programu PowerPoint przy użyciu kodu Java, wykorzystując Aspose.Slides.
 ## Warunki wstępne
@@ -89,3 +95,9 @@ Tak, możesz programowo zastosować unikalne style punktorów do różnych slajd
 Tak, Aspose.Slides obsługuje Java 11 i nowsze wersje.
 ### Gdzie mogę znaleźć więcej przykładów i dokumentacji?
  Odwiedzać[Aspose.Slides dla dokumentacji Java](https://reference.aspose.com/slides/java/) obszerne przewodniki i przykłady.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

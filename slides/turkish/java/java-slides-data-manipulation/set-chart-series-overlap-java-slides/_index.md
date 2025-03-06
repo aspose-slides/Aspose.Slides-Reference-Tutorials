@@ -3,10 +3,16 @@ title: Java Slaytlarında Grafik Serisi Örtüşmesini Ayarlama
 linktitle: Java Slaytlarında Grafik Serisi Örtüşmesini Ayarlama
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Java Slides'ta ana grafik serileri Aspose.Slides for Java ile çakışıyor. Çarpıcı sunumlar için grafik görsellerini nasıl özelleştireceğinizi adım adım öğrenin.
-type: docs
 weight: 16
 url: /tr/java/data-manipulation/set-chart-series-overlap-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Java Slaytlarında Grafik Serisi Örtüşmesini Ayarlama
+
 
 ## Java Slaytlarında Grafik Serisi Örtüşmesini Ayarlamaya Giriş
 
@@ -110,3 +116,9 @@ Kesinlikle! Aspose.Slides for Java, sıfırdan sunumlar oluşturmak veya mevcut 
 ### Aspose.Slides for Java için daha fazla kaynağı ve örneği nerede bulabilirim?
 
  Kapsamlı belgeler ve örnekler için Aspose.Slides for Java referans sayfasını ziyaret edin:[Java API Referansı için Aspose.Slides](https://reference.aspose.com/slides/java/)
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में सभी फ़ॉन्
 linktitle: जावा स्लाइड्स में सभी फ़ॉन्ट्स एम्बेड करके प्रेजेंटेशन को HTML में परिवर्तित करना
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Aspose.Slides for Java का उपयोग करके एम्बेडेड फ़ॉन्ट के साथ प्रेजेंटेशन को HTML में कैसे परिवर्तित करें, यह जानें। यह चरण-दर-चरण मार्गदर्शिका सहज साझाकरण के लिए सुसंगत स्वरूपण सुनिश्चित करती है।
-type: docs
 weight: 13
 url: /hi/java/presentation-conversion/convert-presentation-html-embed-fonts-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में सभी फ़ॉन्ट्स एम्बेड करके प्रेजेंटेशन को HTML में परिवर्तित करना
+
 
 ## जावा स्लाइड्स में सभी फ़ॉन्ट्स एम्बेड करके प्रेजेंटेशन को HTML में बदलने का परिचय
 
@@ -108,3 +114,9 @@ finally
 ### मैं Aspose.Slides for Java के लिए और अधिक संसाधन और दस्तावेज़ कहां पा सकता हूं?
 
  आप Aspose.Slides for Java के लिए व्यापक दस्तावेज़ और संसाधनों तक पहुँच सकते हैं[Aspose.Slides for Java API संदर्भ](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

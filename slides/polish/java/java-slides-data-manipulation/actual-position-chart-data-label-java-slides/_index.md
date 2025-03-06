@@ -3,10 +3,16 @@ title: Uzyskaj rzeczywistą pozycję etykiety danych wykresu w slajdach Java
 linktitle: Uzyskaj rzeczywistą pozycję etykiety danych wykresu w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak uzyskać rzeczywistą pozycję etykiet danych wykresu w Java Slides przy użyciu Aspose.Slides dla Java. Przewodnik krok po kroku z kodem źródłowym.
-type: docs
 weight: 18
 url: /pl/java/data-manipulation/actual-position-chart-data-label-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Uzyskaj rzeczywistą pozycję etykiety danych wykresu w slajdach Java
+
 
 ## Wprowadzenie do uzyskiwania rzeczywistej pozycji etykiety danych wykresu w slajdach Java
 
@@ -157,3 +163,9 @@ IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Elli
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

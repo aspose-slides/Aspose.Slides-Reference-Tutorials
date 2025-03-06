@@ -3,10 +3,16 @@ title: Manipulação de hiperlink
 linktitle: Manipulação de hiperlink
 second_title: API de processamento de PowerPoint Aspose.Slides .NET
 description: Aprimore seus aplicativos .NET com manipulação abrangente de hiperlinks usando Aspose.Slides. Aprenda como gerenciar hiperlinks, criar apresentações interativas e aumentar o envolvimento do usuário sem esforço.
-type: docs
 weight: 13
 url: /pt/net/hyperlink-manipulation/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Manipulação de hiperlink
+
 
 ## Introdução:
 
@@ -27,3 +33,9 @@ Aprenda como adicionar hiperlinks a slides no PowerPoint usando Aspose.Slides fo
 Aprenda como gerenciar hiperlinks em apresentações de maneira eficaz usando Aspose.Slides for .NET. Automatize tarefas, crie menus interativos e melhore o envolvimento do usuário.
 ### [Criação de hiperlink mutável](./mutable-hyperlink/)
 Aprenda a criar hiperlinks mutáveis usando Aspose.Slides for .NET. Guia passo a passo com código-fonte para apresentações dinâmicas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

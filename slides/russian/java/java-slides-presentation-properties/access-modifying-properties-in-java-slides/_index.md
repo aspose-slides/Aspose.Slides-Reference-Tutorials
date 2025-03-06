@@ -3,10 +3,16 @@ title: Доступ к изменению свойств в слайдах Java
 linktitle: Доступ к изменению свойств в слайдах Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как получать доступ к свойствам Java Slides и изменять их с помощью Aspose.Slides для Java. Улучшите свои презентации с помощью настраиваемых свойств.
-type: docs
 weight: 11
 url: /ru/java/presentation-properties/access-modifying-properties-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Доступ к изменению свойств в слайдах Java
+
 
 ## Введение в изменение свойств доступа в слайдах Java
 
@@ -117,3 +123,9 @@ Aspose.Slides for Java — это коммерческая библиотека,
 ### Где я могу найти дополнительную документацию и примеры?
 
  Вы можете найти подробную документацию и примеры кода для Aspose.Slides для Java по адресу[здесь](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

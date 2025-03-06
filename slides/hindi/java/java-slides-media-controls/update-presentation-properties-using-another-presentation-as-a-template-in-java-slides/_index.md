@@ -3,10 +3,16 @@ title: जावा स्लाइड्स में टेम्पलेट 
 linktitle: जावा स्लाइड्स में टेम्पलेट के रूप में किसी अन्य प्रेजेंटेशन का उपयोग करके प्रेजेंटेशन गुण अपडेट करें
 second_title: Aspose.Slides जावा पावरपॉइंट प्रोसेसिंग एपीआई
 description: Java के लिए Aspose.Slides का उपयोग करके अपडेट किए गए मेटाडेटा के साथ PowerPoint प्रस्तुतियों को बेहतर बनाएँ। Java स्लाइड्स में टेम्प्लेट का उपयोग करके लेखक, शीर्षक और कीवर्ड जैसे गुणों को अपडेट करना सीखें।
-type: docs
 weight: 14
 url: /hi/java/media-controls/update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# जावा स्लाइड्स में टेम्पलेट के रूप में किसी अन्य प्रेजेंटेशन का उपयोग करके प्रेजेंटेशन गुण अपडेट करें
+
 
 ## जावा स्लाइड्स में टेम्पलेट के रूप में किसी अन्य प्रेजेंटेशन का उपयोग करके प्रेजेंटेशन गुण अपडेट करने का परिचय
 
@@ -122,3 +128,9 @@ private static void updateByTemplate(String path, IDocumentProperties template)
 ### क्या अद्यतन किये जा सकने वाले प्रस्तुतीकरणों के प्रकार पर कोई सीमा है?
 
 नहीं, आप PPTX, ODP और PPT सहित विभिन्न प्रारूपों में प्रस्तुतियों के लिए गुणधर्मों को अद्यतन कर सकते हैं।
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

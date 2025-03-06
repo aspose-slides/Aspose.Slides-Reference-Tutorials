@@ -3,10 +3,16 @@ title: Définition de l'axe de position dans les diapositives Java
 linktitle: Définition de l'axe de position dans les diapositives Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Améliorez vos graphiques avec Aspose.Slides pour Java. Apprenez à définir l'axe de position dans les diapositives Java, à créer de superbes présentations et à personnaliser facilement la disposition des graphiques.
-type: docs
 weight: 16
 url: /fr/java/customization-and-formatting/setting-position-axis-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Définition de l'axe de position dans les diapositives Java
+
 
 ## Introduction à la définition de l'axe de position dans Aspose.Slides pour Java
 
@@ -100,3 +106,9 @@ if (pres != null) pres.dispose();
 ```
 
 C'est tout pour ce tutoriel. Vous avez appris à définir l'axe de position dans un graphique à l'aide d'Aspose.Slides pour Java.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

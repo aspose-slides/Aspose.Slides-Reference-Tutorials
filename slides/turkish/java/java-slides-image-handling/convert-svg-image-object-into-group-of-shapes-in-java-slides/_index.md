@@ -3,10 +3,16 @@ title: SVG Görüntü Nesnesini Java Slaytlarında Şekil Grubuna Dönüştürme
 linktitle: SVG Görüntü Nesnesini Java Slaytlarında Şekil Grubuna Dönüştürme
 second_title: Aspose.Slides Java PowerPoint İşleme API'si
 description: Aspose.Slides for Java'yı kullanarak SVG görüntülerini Java Slides'ta bir grup şekle nasıl dönüştüreceğinizi öğrenin. Kod örnekleri içeren adım adım kılavuz.
-type: docs
 weight: 13
 url: /tr/java/image-handling/convert-svg-image-object-into-group-of-shapes-in-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# SVG Görüntü Nesnesini Java Slaytlarında Şekil Grubuna Dönüştürme
+
 
 ## Java Slaytlarında SVG Görüntü Nesnesini Şekil Grubuna Dönüştürmeye Giriş
 
@@ -129,3 +135,9 @@ Evet, Aspose.Slides ticari kullanım için geçerli bir lisans gerektirir. Aspos
 ### Dönüştürülen şekillerin görünümünü özelleştirebilir miyim?
 
 Kesinlikle! Dönüştürülen şekillerin görünümünü, boyutunu ve konumunu gereksinimlerinize göre özelleştirebilirsiniz. Aspose.Slides, şekil manipülasyonu için kapsamlı API'ler sağlar.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

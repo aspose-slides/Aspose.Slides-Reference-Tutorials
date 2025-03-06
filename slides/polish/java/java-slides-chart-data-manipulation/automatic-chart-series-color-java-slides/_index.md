@@ -3,10 +3,16 @@ title: Automatyczny kolor serii wykresów w slajdach Java
 linktitle: Automatyczny kolor serii wykresów w slajdach Java
 second_title: Aspose.Slides API przetwarzania Java PowerPoint
 description: Dowiedz się, jak tworzyć dynamiczne wykresy z automatycznym kolorem serii w prezentacjach programu PowerPoint przy użyciu Aspose.Slides dla Java. Ulepsz swoje wizualizacje danych bez wysiłku.
-type: docs
 weight: 14
 url: /pl/java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Automatyczny kolor serii wykresów w slajdach Java
+
 
 ## Wprowadzenie do automatycznego koloru serii wykresów w Aspose.Slides dla Java
 
@@ -190,3 +196,9 @@ Tak, w razie potrzeby możesz dodatkowo sformatować wykres, serię i etykiety. 
 ### Gdzie mogę znaleźć więcej informacji na temat pracy z Aspose.Slides dla Java?
 
  Aby uzyskać więcej informacji i szczegółową dokumentację dotyczącą Aspose.Slides for Java, możesz odwiedzić dokumentację referencyjną[Tutaj](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

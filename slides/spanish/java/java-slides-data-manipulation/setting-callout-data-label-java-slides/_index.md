@@ -3,10 +3,16 @@ title: Configuración de llamada para etiqueta de datos en diapositivas de Java
 linktitle: Configuración de llamada para etiqueta de datos en diapositivas de Java
 second_title: Aspose.Slides API de procesamiento de PowerPoint Java
 description: Aprenda a configurar llamadas para etiquetas de datos en Aspose.Slides para Java. Guía paso a paso con código fuente.
-type: docs
 weight: 25
 url: /es/java/data-manipulation/setting-callout-data-label-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Configuración de llamada para etiqueta de datos en diapositivas de Java
+
 
 ## Introducción a la configuración de llamadas para etiquetas de datos en Aspose.Slides para Java
 
@@ -203,3 +209,9 @@ lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFor
 ```
 
 Estas son algunas opciones de personalización comunes para etiquetas de datos y llamadas en Aspose.Slides para Java. Puede adaptar aún más la apariencia a sus necesidades específicas.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

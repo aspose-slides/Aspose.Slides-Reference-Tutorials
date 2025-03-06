@@ -3,10 +3,16 @@ title: Accessing Slides in Aspose.Slides
 linktitle: Accessing Slides in Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Learn how to access and manipulate PowerPoint slides programmatically using Aspose.Slides for .NET. This step-by-step guide covers loading, modifying, and saving presentations, along with source code examples.
-type: docs
 weight: 10
 url: /net/slide-access-and-manipulation/accessing-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Accessing Slides in Aspose.Slides
+
 
 ## Introduction to Aspose.Slides for .NET
 
@@ -134,3 +140,10 @@ You can access speaker notes using the `NotesSlideManager` class provided by Asp
 ### Is Aspose.Slides suitable for creating presentations from scratch?
 
 Absolutely! Aspose.Slides enables you to create new presentations from scratch, add slides, set layouts, and populate them with content, providing full control over the presentation creation process.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Téglalap alakzatok létrehozása az Aspose.Slides segítségével .NET-h
 linktitle: Egyszerű téglalap alakzat létrehozása bemutató diákban az Aspose.Slides segítségével
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Fedezze fel a dinamikus PowerPoint-prezentációk világát az Aspose.Slides for .NET segítségével. Ezzel a lépésenkénti útmutatóval megtudhatja, hogyan hozhat létre vonzó téglalap alakzatokat diákban.
-type: docs
 weight: 12
 url: /hu/net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Téglalap alakzatok létrehozása az Aspose.Slides segítségével .NET-hez
+
 ## Bevezetés
 Ha .NET-alkalmazásait dinamikus és tetszetős PowerPoint-prezentációkkal szeretné továbbfejleszteni, az Aspose.Slides for .NET a legjobb megoldás. Ebben az oktatóanyagban végigvezetjük az Aspose.Slides for .NET segítségével egyszerű téglalap alakzat létrehozásának folyamatán prezentációs diákban.
 ## Előfeltételek
@@ -61,3 +67,9 @@ Igen, az Aspose.Slides for .NET platformfüggetlen, és Windows és Linux körny
  Igen, vásárolhat ideiglenes licencet[itt](https://purchase.aspose.com/temporary-license/).
 ### Hol találom az Aspose.Slides for .NET dokumentációját?
  Lásd a dokumentációt[itt](https://reference.aspose.com/slides/net/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

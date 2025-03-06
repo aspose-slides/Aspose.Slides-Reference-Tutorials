@@ -3,10 +3,16 @@ title: Ses ve Video Çıkarma
 linktitle: Ses ve Video Çıkarma
 second_title: Aspose.Slides .NET PowerPoint İşleme API'si
 description: .NET uygulamalarında ses ve video çıkarmayla ilgili kapsamlı Aspose.Slides eğitimini keşfedin. PowerPoint sunumlarından multimedya öğelerini programlı olarak nasıl çıkaracağınızı ve değiştireceğinizi öğrenin.
-type: docs
 weight: 15
 url: /tr/net/audio-and-video-extraction/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ses ve Video Çıkarma
+
 
 ## Giriiş:
 
@@ -31,3 +37,9 @@ Aspose.Slides for .NET kullanarak köprülerden ses çıkarmayı öğrenin. Kod 
 Aspose.Slides for .NET'i kullanarak PowerPoint zaman çizelgelerinden nasıl ses çıkaracağınızı öğrenin. Kod örnekleri içeren adım adım kılavuz.
 ### [Slayttan Video Çıkart](./extract-video/)
 Aspose.Slides for .NET'i kullanarak PowerPoint slaytlarından video çıkarma konusunda uzmanlaşın. Kod örnekleri içeren kılavuzumuzu takip edin.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

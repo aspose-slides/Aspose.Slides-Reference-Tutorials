@@ -3,10 +3,16 @@ title: Upravte úhly spojnice v PowerPointu pomocí Aspose.Slides
 linktitle: Úprava úhlů spojnic v prezentačních snímcích pomocí Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Naučte se, jak upravit úhly spojnice ve snímcích aplikace PowerPoint pomocí Aspose.Slides for .NET. Vylepšete své prezentace s přesností a lehkostí.
-type: docs
 weight: 28
 url: /cs/net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angles/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Upravte úhly spojnice v PowerPointu pomocí Aspose.Slides
+
 ## Úvod
 Vytváření vizuálně atraktivních snímků prezentace často vyžaduje přesné úpravy spojnic. V tomto tutoriálu prozkoumáme, jak upravit úhly spojnice na snímcích prezentace pomocí Aspose.Slides pro .NET. Aspose.Slides je výkonná knihovna, která umožňuje vývojářům pracovat se soubory PowerPoint programově a poskytuje rozsáhlé možnosti pro vytváření, úpravy a manipulaci s prezentacemi.
 ## Předpoklady
@@ -87,3 +93,9 @@ Ano, Aspose.Slides lze používat ve Windows i ve webových aplikacích.
  Můžete získat dočasnou licenci[tady](https://purchase.aspose.com/temporary-license/).
 ### Existuje fórum podpory pro Aspose.Slides?
  Ano, můžete navštívit fórum podpory[tady](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

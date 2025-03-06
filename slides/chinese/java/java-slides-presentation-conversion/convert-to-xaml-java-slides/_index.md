@@ -3,10 +3,16 @@ title: 在 Java 幻灯片中转换为 XAML
 linktitle: 在 Java 幻灯片中转换为 XAML
 second_title: Aspose.Slides Java PowerPoint 处理 API
 description: 了解如何使用 Aspose.Slides 将 PowerPoint 演示文稿转换为 Java 中的 XAML。按照我们的分步指南进行无缝集成。
-type: docs
 weight: 28
 url: /zh/java/presentation-conversion/convert-to-xaml-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java 幻灯片中转换为 XAML
+
 
 ## 简介 在 Java 中转换为 XAML 幻灯片
 
@@ -161,3 +167,9 @@ XAML（可扩展应用程序标记语言）是一种用于在应用程序中创�
 ### Aspose.Slides 还支持其他输出格式吗？
 
 是的，Aspose.Slides 支持多种输出格式，包括 PDF、HTML、图像等。您可以在 API 文档中探索这些选项。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

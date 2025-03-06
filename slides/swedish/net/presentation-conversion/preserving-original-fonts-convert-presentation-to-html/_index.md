@@ -3,10 +3,16 @@ title: Bevara ursprungliga teckensnitt - Konvertera presentation till HTML
 linktitle: Bevara ursprungliga teckensnitt - Konvertera presentation till HTML
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du bevarar originaltypsnitt samtidigt som du konverterar presentationer till HTML med Aspose.Slides för .NET. Säkerställ teckensnittskonsistens och visuell effekt utan ansträngning.
-type: docs
 weight: 14
 url: /sv/net/presentation-conversion/preserving-original-fonts-convert-presentation-to-html/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Bevara ursprungliga teckensnitt - Konvertera presentation till HTML
+
 
 I den här omfattande guiden går vi igenom processen att bevara originaltypsnitt när du konverterar en presentation till HTML med Aspose.Slides för .NET. Vi kommer att förse dig med den nödvändiga C#-källkoden och förklara varje steg i detalj. I slutet av denna handledning kommer du att kunna se till att typsnitten i ditt konverterade HTML-dokument förblir trogna den ursprungliga presentationen.
 
@@ -98,3 +104,10 @@ Aspose.Slides för .NET fokuserar främst på PowerPoint-presentationer. För at
 ### F5: Var kan jag få tillgång till ytterligare resurser och support?
 
  Du kan hitta mer dokumentation, handledning och support på Asposes webbplats. Besök[Aspose.Slides för .NET-dokumentation](https://reference.aspose.com/slides/net/) för detaljerad information.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

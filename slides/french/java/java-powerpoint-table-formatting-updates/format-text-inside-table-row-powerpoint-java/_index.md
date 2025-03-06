@@ -3,10 +3,16 @@ title: Formater le texte à l'intérieur de la ligne du tableau dans PowerPoint 
 linktitle: Formater le texte à l'intérieur de la ligne du tableau dans PowerPoint avec Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Découvrez comment formater le texte à l’intérieur des lignes d’un tableau dans PowerPoint à l’aide d’Aspose.Slides pour Java. Améliorez vos présentations avec notre guide étape par étape.
-type: docs
 weight: 12
 url: /fr/java/java-powerpoint-table-formatting-updates/format-text-inside-table-row-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Formater le texte à l'intérieur de la ligne du tableau dans PowerPoint avec Java
+
 ## Introduction
 Lorsque vous travaillez avec des présentations, la création de diapositives visuellement attrayantes est essentielle pour maintenir l'engagement de votre public. La mise en forme du texte à l'intérieur des lignes du tableau peut améliorer considérablement la lisibilité et l'esthétique de vos diapositives. Dans ce didacticiel, nous allons explorer comment formater le texte à l'intérieur d'une ligne de tableau dans PowerPoint à l'aide d'Aspose.Slides pour Java.
 ## Conditions préalables
@@ -85,3 +91,9 @@ Aspose.Slides est disponible pour plusieurs plates-formes, notamment .NET et C++
  Oui, vous pouvez acheter une licence auprès du[page d'achat](https://purchase.aspose.com/buy).
 ### Quels formats de fichiers Aspose.Slides pour Java prend-il en charge ?
 Aspose.Slides pour Java prend en charge une variété de formats, notamment PPT, PPTX, ODP, etc.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

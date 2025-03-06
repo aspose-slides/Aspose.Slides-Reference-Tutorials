@@ -3,10 +3,16 @@ title: Создать таблицу с нуля в PowerPoint с помощью
 linktitle: Создать таблицу с нуля в PowerPoint с помощью Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как создавать динамические таблицы в PowerPoint с помощью Aspose.Slides для Java, с помощью нашего подробного пошагового руководства.
-type: docs
 weight: 22
 url: /ru/java/java-powerpoint-table-manipulation/create-table-from-scratch-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Создать таблицу с нуля в PowerPoint с помощью Java
+
 ## Введение
 Вам когда-нибудь приходилось создавать динамическую таблицу в презентации PowerPoint с помощью Java? Ну, вы в правильном месте! В этом уроке мы познакомим вас с процессом создания таблицы с нуля с помощью Aspose.Slides для Java. Независимо от того, являетесь ли вы опытным разработчиком Java или только начинаете, это руководство окажется для вас простым и невероятно полезным. Давайте углубимся и превратим ваши слайды PowerPoint в нечто экстраординарное!
 ## Предварительные условия
@@ -86,3 +92,9 @@ Aspose.Slides for Java — мощная библиотека для работы
 Aspose.Slides совместим с Java SE 6 и выше.
 ### Где я могу найти документацию Aspose.Slides?
  Документация доступна[здесь](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

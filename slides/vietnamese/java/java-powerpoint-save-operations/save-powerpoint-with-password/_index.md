@@ -3,10 +3,16 @@ title: Lưu PowerPoint bằng mật khẩu
 linktitle: Lưu PowerPoint bằng mật khẩu
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách thêm bảo vệ bằng mật khẩu vào bản trình bày PowerPoint bằng Aspose.Slides cho Java. Bảo vệ các slide của bạn một cách dễ dàng.
-type: docs
 weight: 12
 url: /vi/java/java-powerpoint-save-operations/save-powerpoint-with-password/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lưu PowerPoint bằng mật khẩu
+
 ## Giới thiệu
 Trong hướng dẫn này, chúng tôi sẽ hướng dẫn bạn quy trình lưu bản trình bày PowerPoint bằng mật khẩu bằng Aspose.Slides cho Java. Việc thêm mật khẩu vào bản trình bày của bạn có thể tăng cường tính bảo mật, đảm bảo rằng chỉ những cá nhân được ủy quyền mới có thể truy cập nội dung của nó.
 ## Điều kiện tiên quyết
@@ -67,3 +73,9 @@ Có, Aspose.Slides cho phép bạn đặt mật khẩu riêng cho quyền chỉn
  Có, bạn có thể tải xuống bản dùng thử miễn phí từ Aspose[trang mạng](https://releases.aspose.com/).
 ### Làm cách nào tôi có thể nhận được hỗ trợ kỹ thuật cho Aspose.Slides?
 Bạn có thể truy cập diễn đàn Aspose.Slides để được cộng đồng và nhân viên hỗ trợ Aspose hỗ trợ kỹ thuật.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

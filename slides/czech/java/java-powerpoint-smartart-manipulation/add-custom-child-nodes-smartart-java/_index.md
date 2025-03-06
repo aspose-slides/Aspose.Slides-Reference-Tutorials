@@ -3,10 +3,16 @@ title: Přidejte vlastní podřízené uzly do SmartArt pomocí Java
 linktitle: Přidejte vlastní podřízené uzly do SmartArt pomocí Java
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Naučte se, jak přidat vlastní podřízené uzly do SmartArt v prezentacích PowerPoint pomocí Java s Aspose.Slides. Vylepšete své snímky profesionální grafikou bez námahy.
-type: docs
 weight: 11
 url: /cs/java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Přidejte vlastní podřízené uzly do SmartArt pomocí Java
+
 ## Úvod
 SmartArt je výkonná funkce v PowerPointu, která uživatelům umožňuje rychle a snadno vytvářet profesionálně vypadající grafiku. V tomto tutoriálu se naučíme, jak přidat vlastní podřízené uzly do SmartArt pomocí Java s Aspose.Slides.
 ## Předpoklady
@@ -79,3 +85,9 @@ Absolutně! Pomocí Aspose.Slides for Java můžete programově upravit vzhled, 
 Ano, na webu Aspose můžete najít komplexní dokumentaci a přístup k fórům podpory komunity.
 ### Je k dispozici zkušební verze pro Aspose.Slides pro Java?
  Ano, z webu si můžete stáhnout bezplatnou zkušební verzi Aspose.Slides for Java a prozkoumat jeho funkce a možnosti před nákupem[tady](https://releases.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

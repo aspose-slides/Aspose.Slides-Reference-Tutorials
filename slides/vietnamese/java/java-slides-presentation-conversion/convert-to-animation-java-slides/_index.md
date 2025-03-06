@@ -3,10 +3,16 @@ title: Chuyển đổi thành hoạt ảnh trong Java Slides
 linktitle: Chuyển đổi thành hoạt ảnh trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách chuyển đổi bản trình bày PowerPoint thành hoạt ảnh trong Java bằng Aspose.Slides. Thu hút khán giả của bạn bằng hình ảnh năng động.
-type: docs
 weight: 21
 url: /vi/java/presentation-conversion/convert-to-animation-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Chuyển đổi thành hoạt ảnh trong Java Slides
+
 
 # Giới thiệu về Chuyển đổi sang Hoạt hình trong Java Slides với Aspose.Slides for Java
 
@@ -130,3 +136,10 @@ Có, bạn có thể tùy chỉnh định dạng tệp của khung được xu�
 ### Tôi có thể tìm thêm tài nguyên và tài liệu về Aspose.Slides cho Java ở đâu?
 
  Bạn có thể tìm thấy tài liệu và tài nguyên phong phú về Aspose.Slides for Java trên[Aspose.Slides để tham khảo API Java](https://reference.aspose.com/slides/java/) trang.
+
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

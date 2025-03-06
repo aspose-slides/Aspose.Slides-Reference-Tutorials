@@ -3,10 +3,16 @@ title: Créer des vignettes de formes PowerPoint - Aspose.Slides .NET
 linktitle: Création d'une vignette pour la forme dans Aspose.Slides
 second_title: API de traitement Aspose.Slides .NET PowerPoint
 description: Découvrez comment créer des miniatures pour les formes dans des présentations PowerPoint à l'aide d'Aspose.Slides pour .NET. Un guide complet étape par étape pour les développeurs.
-type: docs
 weight: 14
 url: /fr/net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Créer des vignettes de formes PowerPoint - Aspose.Slides .NET
+
 ## Introduction
 Aspose.Slides for .NET est une bibliothèque puissante qui permet aux développeurs de travailler de manière transparente avec des présentations PowerPoint. L'une de ses fonctionnalités notables est la possibilité de générer des vignettes pour les formes au sein d'une présentation. Ce didacticiel vous guidera tout au long du processus de création de vignettes de formes à l'aide d'Aspose.Slides pour .NET.
 ## Conditions préalables
@@ -57,3 +63,9 @@ R : Vous pouvez implémenter des mécanismes de gestion des erreurs à l’aide
 R : Aspose.Slides offre la flexibilité nécessaire pour créer des vignettes pour diverses formes, notamment des zones de texte, des images, etc.
 ### Q : Puis-je personnaliser la taille et la résolution des vignettes générées ?
  R : Oui, vous pouvez ajuster les paramètres lors de l'appel du`GetThumbnail` méthode pour contrôler la taille et la résolution.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

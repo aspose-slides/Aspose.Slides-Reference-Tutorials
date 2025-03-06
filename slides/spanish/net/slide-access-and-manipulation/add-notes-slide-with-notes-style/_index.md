@@ -3,10 +3,16 @@ title: Agregar formato de notas elegantes con Aspose.Slides para .NET
 linktitle: Agregar diapositiva de notas con formato de notas elegante
 second_title: Aspose.Slides API de procesamiento de PowerPoint .NET
 description: Aprenda a agregar formato de notas elegantes a sus presentaciones de PowerPoint usando Aspose.Slides para .NET. Mejore sus diapositivas con símbolos y viñetas.
-type: docs
 weight: 14
 url: /es/net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Agregar formato de notas elegantes con Aspose.Slides para .NET
+
 
 En el mundo de las presentaciones, no se trata sólo del contenido que entregas sino también de cómo lo presentas. El formato elegante de las notas puede marcar una diferencia significativa en el impacto de su presentación. Con Aspose.Slides para .NET, puede mejorar fácilmente sus presentaciones de PowerPoint agregando notas elegantes con viñetas y símbolos. En esta guía paso a paso, lo guiaremos a través del proceso de agregar formato de notas elegantes a sus diapositivas de PowerPoint.
 
@@ -109,3 +115,9 @@ Sí, puede obtener una licencia temporal para fines de prueba y evaluación de[a
 
 ### ¿Existe un foro comunitario o soporte disponible para Aspose.Slides para .NET?
  Sí, puede buscar ayuda y participar en discusiones en el foro de la comunidad Aspose.Slides para .NET.[aquí](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Aspose.Slides를 사용하여 프레젠테이션 슬라이드의 OLE 개�
 linktitle: Aspose.Slides를 사용하여 프레젠테이션 슬라이드의 OLE 개체 프레임에 액세스
 second_title: Aspose.Slides .NET 파워포인트 처리 API
 description: Aspose.Slides for .NET을 사용하여 프레젠테이션 슬라이드 내에서 OLE 개체 프레임에 액세스하고 조작하는 방법을 알아보세요. 단계별 지침과 실제 코드 예제를 통해 슬라이드 처리 능력을 향상하세요.
-type: docs
 weight: 11
 url: /ko/net/shape-effects-and-manipulation-in-slides/accessing-ole-object-frames/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Aspose.Slides를 사용하여 프레젠테이션 슬라이드의 OLE 개체 프레임에 액세스
+
 
 ## 소개
 
@@ -99,3 +105,9 @@ Aspose.Slides는 포함된 문서, 스프레드시트, 차트 등을 포함하�
 프리젠테이션 세계에서 OLE 개체 프레임의 강력한 기능을 활용하는 기능은 콘텐츠의 상호작용성과 참여도를 새로운 차원으로 끌어올릴 수 있습니다. .NET용 Aspose.Slides는 OLE 개체 프레임에 액세스하고 조작하는 프로세스를 단순화하여 다른 응용 프로그램의 콘텐츠를 원활하게 통합하고 프레젠테이션을 풍부하게 만들 수 있습니다. 단계별 가이드를 따르고 제공된 코드 예제를 활용하면 역동적이고 매력적인 슬라이드의 가능성을 열어줄 것입니다.
 
 Aspose.Slides를 사용하여 OLE 개체 프레임의 잠재력을 활용하고 프레젠테이션을 청중의 관심을 사로잡는 대화형 경험으로 변환하세요.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

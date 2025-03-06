@@ -3,10 +3,16 @@ title: Többszintű felsorolásjelek létrehozása a Java PowerPointban
 linktitle: Többszintű felsorolásjelek létrehozása a Java PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ismerje meg, hogyan hozhat létre többszintű felsorolásjeleket a PowerPointban az Aspose.Slides for Java használatával. Lépésről lépésre, kódpéldákkal és GYIK-vel.
-type: docs
 weight: 14
 url: /hu/java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Többszintű felsorolásjelek létrehozása a Java PowerPointban
+
 ## Bevezetés
 Ebben az oktatóanyagban megvizsgáljuk, hogyan hozhat létre többszintű felsorolásjeleket PowerPoint-prezentációkban az Aspose.Slides for Java használatával. A felsorolásjelek hozzáadása általános követelmény a rendezett és tetszetős tartalom létrehozásához a prezentációkban. Lépésről lépésre végig fogjuk menni a folyamaton, biztosítva, hogy ennek az útmutatónak a végére készen álljon arra, hogy prezentációit több szinten strukturált felsoroláspontokkal bővítse.
 ## Előfeltételek
@@ -109,3 +115,9 @@ Az Aspose.Slides a Microsoft PowerPoint 2007 és újabb verzióival kompatibilis
 Igen, az Aspose.Slides API-kat biztosít a PowerPoint-prezentációk létrehozásának, módosításának és kezelésének automatizálásához.
 ### Hol kaphatok támogatást az Aspose.Slides for Java számára?
  Támogatást kaphat az Aspose.Slides közösségtől és szakértőktől a címen[Aspose.Slides fórum](https://forum.aspose.com/c/slides/11).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

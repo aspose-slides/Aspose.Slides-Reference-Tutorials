@@ -3,10 +3,16 @@ title: Modifier la mise en page SmartArt dans PowerPoint avec Java
 linktitle: Modifier la mise en page SmartArt dans PowerPoint avec Java
 second_title: API de traitement Java PowerPoint d'Aspose.Slides
 description: Apprenez à manipuler les mises en page SmartArt dans les présentations PowerPoint à l'aide de Java avec Aspose.Slides pour Java.
-type: docs
 weight: 19
 url: /fr/java/java-powerpoint-smartart-manipulation/change-smartart-layout-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Modifier la mise en page SmartArt dans PowerPoint avec Java
+
 ## Introduction
 Dans ce didacticiel, nous verrons comment manipuler les mises en page SmartArt dans les présentations PowerPoint à l'aide de Java. SmartArt est une fonctionnalité puissante de PowerPoint qui permet aux utilisateurs de créer des graphiques visuellement attrayants à diverses fins, telles que l'illustration de processus, de hiérarchies, de relations, etc.
 ## Conditions préalables
@@ -60,3 +66,9 @@ Oui, Aspose.Slides est disponible pour plusieurs langages de programmation, nota
 Absolument, vous pouvez créer des graphiques SmartArt par programme ou modifier ceux existants pour répondre à vos besoins.
 ### Existe-t-il un forum communautaire où je peux demander de l'aide concernant Aspose.Slides ?
  Oui, vous pouvez visiter le forum Aspose.Slides[ici](https://forum.aspose.com/c/slides/11) pour poser des questions et interagir avec la communauté.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

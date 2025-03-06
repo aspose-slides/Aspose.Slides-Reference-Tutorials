@@ -3,10 +3,16 @@ title: Изменение макета SmartArt в PowerPoint с помощью 
 linktitle: Изменение макета SmartArt в PowerPoint с помощью Java
 second_title: Aspose.Slides API обработки Java PowerPoint
 description: Узнайте, как манипулировать макетами SmartArt в презентациях PowerPoint с помощью Java с помощью Aspose.Slides для Java.
-type: docs
 weight: 19
 url: /ru/java/java-powerpoint-smartart-manipulation/change-smartart-layout-powerpoint-java/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Изменение макета SmartArt в PowerPoint с помощью Java
+
 ## Введение
 В этом уроке мы рассмотрим, как манипулировать макетами SmartArt в презентациях PowerPoint с помощью Java. SmartArt — это мощная функция PowerPoint, которая позволяет пользователям создавать визуально привлекательную графику для различных целей, например для иллюстрации процессов, иерархий, отношений и т. д.
 ## Предварительные условия
@@ -60,3 +66,9 @@ Aspose.Slides поддерживает презентации PowerPoint, соз
 Конечно, вы можете создавать графику SmartArt программно или изменять существующие в соответствии с вашими требованиями.
 ### Есть ли форум сообщества, на котором я могу обратиться за помощью по поводу Aspose.Slides?
  Да, вы можете посетить форум Aspose.Slides.[здесь](https://forum.aspose.com/c/slides/11) задавать вопросы и взаимодействовать с сообществом.
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

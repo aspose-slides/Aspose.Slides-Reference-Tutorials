@@ -3,10 +3,16 @@ title: Lägga till snygg anteckningsformatering med Aspose.Slides för .NET
 linktitle: Lägg till anteckningsbild med snygg anteckningsformatering
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Lär dig hur du lägger till snygg anteckningsformatering till dina PowerPoint-presentationer med Aspose.Slides för .NET. Förbättra dina bilder med symboler och punktpunkter.
-type: docs
 weight: 14
 url: /sv/net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Lägga till snygg anteckningsformatering med Aspose.Slides för .NET
+
 
 I presentationsvärlden handlar det inte bara om innehållet du levererar utan också hur du presenterar det. Snygg formatering av anteckningar kan göra en stor skillnad för hur din presentation får effekt. Med Aspose.Slides för .NET kan du enkelt förbättra dina PowerPoint-presentationer genom att lägga till snygga anteckningar med punktpunkter och symboler. I den här steg-för-steg-guiden går vi igenom processen med att lägga till snygg anteckningsformatering till dina PowerPoint-bilder.
 
@@ -109,3 +115,9 @@ Ja, du kan få en tillfällig licens för test- och utvärderingsändamål från
 
 ### Finns det ett communityforum eller support tillgängligt för Aspose.Slides för .NET?
  Ja, du kan söka hjälp och delta i diskussioner på Aspose.Slides för .NET-gemenskapsforumet[här](https://forum.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

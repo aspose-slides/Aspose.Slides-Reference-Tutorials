@@ -3,10 +3,16 @@ title: Ustawianie numerów slajdów dla prezentacji za pomocą Aspose.Slides
 linktitle: Ustawianie numerów slajdów dla prezentacji za pomocą Aspose.Slides
 second_title: Aspose.Slides .NET PowerPoint Processing API
 description: Poznaj płynny świat manipulacji slajdami dzięki Aspose.Slides dla .NET. Dowiedz się, jak bez wysiłku ustawiać numery slajdów, poprawiając jakość prezentacji.
-type: docs
 weight: 16
 url: /pl/net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Ustawianie numerów slajdów dla prezentacji za pomocą Aspose.Slides
+
 ## Wstęp
 W dynamicznym świecie prezentacji kontrolowanie kolejności i organizacji slajdów jest kluczowe dla skutecznej komunikacji. Aspose.Slides dla .NET zapewnia potężne rozwiązanie do manipulowania numerami slajdów w prezentacjach, zapewniając elastyczność płynnego dostosowywania treści.
 ## Warunki wstępne
@@ -63,3 +69,9 @@ Absolutnie! Aspose.Slides zapewnia rozbudowane opcje dostosowywania wyglądu num
  Odwiedzić[Forum Aspose.Slides](https://forum.aspose.com/c/slides/11) aby uzyskać wsparcie społecznościowe lub zapoznaj się z opcjami wsparcia premium.
 ### Czy mogę wypróbować Aspose.Slides przed zakupem?
  Tak, możesz pobrać bezpłatną wersję próbną ze strony[Tutaj](https://releases.aspose.com/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

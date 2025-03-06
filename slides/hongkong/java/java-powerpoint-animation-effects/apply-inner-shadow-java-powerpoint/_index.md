@@ -3,10 +3,16 @@ title: 在 Java PowerPoint 簡報中套用內陰影
 linktitle: 在 Java PowerPoint 簡報中套用內陰影
 second_title: Aspose.Slides Java PowerPoint 處理 API
 description: 了解如何使用 Aspose.Slides 將內部陰影效果套用至 Java PowerPoint 簡報中的形狀。透過此逐步指南增強您的幻燈片。
-type: docs
 weight: 12
 url: /zh-hant/java/java-powerpoint-animation-effects/apply-inner-shadow-java-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# 在 Java PowerPoint 簡報中套用內陰影
+
 ## 介紹
 創建具有視覺吸引力的簡報對於有效傳達您的想法至關重要。可以顯著增強演示效果的工具之一是使用內陰影。本教學將引導您完成使用 Aspose.Slides for Java 將內部陰影套用至 PowerPoint 簡報中的形狀的過程。在本教學結束時，您將全面了解如何操作投影片元素來創造令人驚嘆的效果。
 ## 先決條件
@@ -94,3 +100,9 @@ Aspose.Slides for Java 是一個功能強大的 API，用於以程式設計方�
 是的，您可以自訂陰影效果的各種參數，例如模糊半徑、方向、距離和顏色，以滿足您的需求。
 ### 在哪裡可以找到更詳細的文件？
 您可以參考[Aspose.Slides 文檔](https://reference.aspose.com/slides/java/)取得詳細資訊和範例。
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

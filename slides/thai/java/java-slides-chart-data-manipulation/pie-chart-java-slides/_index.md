@@ -3,10 +3,16 @@ title: แผนภูมิวงกลมใน Java Slides
 linktitle: แผนภูมิวงกลมใน Java Slides
 second_title: Aspose.Slides Java PowerPoint การประมวลผล API
 description: เรียนรู้วิธีสร้างแผนภูมิวงกลมที่น่าทึ่งในงานนำเสนอ PowerPoint โดยใช้ Aspose.Slides สำหรับ Java คำแนะนำทีละขั้นตอนพร้อมซอร์สโค้ดสำหรับนักพัฒนา Java
-type: docs
 weight: 23
 url: /th/java/chart-data-manipulation/pie-chart-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# แผนภูมิวงกลมใน Java Slides
+
 
 ## ข้อมูลเบื้องต้นเกี่ยวกับการสร้างแผนภูมิวงกลมใน Java Slides โดยใช้ Aspose.Slides
 
@@ -283,3 +289,9 @@ presentation.save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
 ### ฉันจะค้นหาข้อมูลเพิ่มเติมและตัวอย่างการทำงานกับ Aspose.Slides สำหรับ Java ได้อย่างไร
 
  สำหรับข้อมูลเพิ่มเติม เอกสารโดยละเอียด และตัวอย่างเพิ่มเติม คุณสามารถไปที่[Aspose.Slides สำหรับเอกสาร Java](https://reference.aspose.com/slides/java/)- มีทรัพยากรที่ครอบคลุมเพื่อช่วยให้คุณใช้ห้องสมุดได้อย่างมีประสิทธิภาพ
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

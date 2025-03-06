@@ -3,10 +3,16 @@ title: Hozzon létre formázott téglalapot a PowerPointban
 linktitle: Hozzon létre formázott téglalapot a PowerPointban
 second_title: Aspose.Slides Java PowerPoint Processing API
 description: Ebből a lépésenkénti útmutatóból megtudhatja, hogyan hozhat létre és formázhat téglalapot a PowerPointban az Aspose.Slides for Java segítségével.
-type: docs
 weight: 18
 url: /hu/java/java-powerpoint-shape-formatting-geometry/create-formatted-rectangle-powerpoint/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Hozzon létre formázott téglalapot a PowerPointban
+
 ## Bevezetés
 Ebben az oktatóanyagban végigvezetjük a formázott téglalap létrehozásának folyamatán egy PowerPoint dián az Aspose.Slides for Java segítségével. Lebontjuk az egyes lépéseket, biztosítva, hogy követni tudja és megvalósíthassa ezt a saját projektjeiben.
 ## Előfeltételek
@@ -91,3 +97,9 @@ Igen, az Aspose.Slides for Java bármely Java-kompatibilis IDE-vel használható
  Igen, az ártalmatlanítás`Presentation` Az objektum segít felszabadítani az erőforrásokat és elkerülni a memóriaszivárgást.
 ### Hol találom az Aspose.Slides for Java dokumentációját?
  A dokumentáció elérhető[itt](https://reference.aspose.com/slides/java/).
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}

@@ -3,10 +3,16 @@ title: Đặt thuộc tính phông chữ trong Java Slides
 linktitle: Đặt thuộc tính phông chữ trong Java Slides
 second_title: Aspose.Slides API xử lý PowerPoint Java
 description: Tìm hiểu cách đặt thuộc tính phông chữ trong các trang chiếu Java bằng Aspose.Slides cho Java. Hướng dẫn từng bước này bao gồm các ví dụ về mã và Câu hỏi thường gặp.
-type: docs
 weight: 15
 url: /vi/java/customization-and-formatting/setting-font-properties-java-slides/
 ---
+
+{{< blocks/products/pf/main-wrap-class >}}
+{{< blocks/products/pf/main-container >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+
+# Đặt thuộc tính phông chữ trong Java Slides
+
 
 ## Giới thiệu về Đặt thuộc tính phông chữ trong Java Slides
 
@@ -137,3 +143,9 @@ for (ISlide slide : pres.getSlides()) {
     // Truy cập và tùy chỉnh thuộc tính phông chữ của thành phần văn bản tại đây
 }
 ```
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< /blocks/products/pf/main-container >}}
+{{< /blocks/products/pf/main-wrap-class >}}
+
+{{< blocks/products/products-backtop-button >}}
