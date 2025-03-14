@@ -1,0 +1,143 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a PowerPoint presentation with a customized pie chart using Aspose.Slides for .NET.
+//ExStepSummary:0: This step defines the directory path where the presentation will be saved.
+//ExStepSummary:1: This step creates a new Presentation object and accesses the first slide in the presentation.
+//ExStepSummary:2: This step adds a pie chart to the slide with default data and configures the chart title.
+//ExStepSummary:3: This step clears default chart data, adds new categories, and defines a data series with corresponding values.
+//ExStepSummary:4: This step formats the first data point with specific fill color, border color, width, and dash style.
+//ExStepSummary:5: This step formats the second data point with distinct fill and border settings.
+//ExStepSummary:6: This step formats the third data point with custom fill and border styles.
+//ExStepSummary:7: This step adds custom labels for each data point, showing values, percentages, and legend keys.
+//ExStepSummary:8: This step enables leader lines for improved readability of data labels.
+//ExStepSummary:9: This step sets the rotation angle of the pie chart's sectors to enhance visualization.
+//ExStepSummary:10: This step saves the PowerPoint presentation with the generated pie chart.
+//ExStepImage:1:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+//ExStepImage:8:images/7.png
+//ExStepImage:9:images/8.png
+//ExStepImage:10:images/9.png
+
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+// Instantiate Presentation class that represents PPTX file
+Presentation presentation = new Presentation();
+
+// Access first slide
+ISlide slides = presentation.Slides[0];
+
+//ExStep:1-
+// Add chart with default data
+IChart chart = slides.Shapes.AddChart(ChartType.Pie, 100, 100, 400, 400);
+
+// Setting chart Title
+chart.ChartTitle.AddTextFrameForOverriding("Sample Title");
+chart.ChartTitle.TextFrameForOverriding.TextFrameFormat.CenterText = NullableBool.True;
+chart.ChartTitle.Height = 20;
+chart.HasTitle = true;
+
+// Set first series to Show Values
+chart.ChartData.Series[0].Labels.DefaultDataLabelFormat.ShowValue = true;
+
+//ExStep:2-
+// Setting the index of chart data sheet
+int defaultWorksheetIndex = 0;
+
+// Getting the chart data worksheet
+IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
+
+// Delete default generated series and categories
+chart.ChartData.Series.Clear();
+chart.ChartData.Categories.Clear();
+
+// Adding new categories
+chart.ChartData.Categories.Add(fact.GetCell(0, 1, 0, "First Qtr"));
+chart.ChartData.Categories.Add(fact.GetCell(0, 2, 0, "2nd Qtr"));
+chart.ChartData.Categories.Add(fact.GetCell(0, 3, 0, "3rd Qtr"));
+
+//ExStep:3-
+// Adding new series
+IChartSeries series = chart.ChartData.Series.Add(fact.GetCell(0, 0, 1, "Series 1"), chart.Type);
+
+// Now populating series data
+series.DataPoints.AddDataPointForPieSeries(fact.GetCell(defaultWorksheetIndex, 1, 1, 20));
+series.DataPoints.AddDataPointForPieSeries(fact.GetCell(defaultWorksheetIndex, 2, 1, 50));
+series.DataPoints.AddDataPointForPieSeries(fact.GetCell(defaultWorksheetIndex, 3, 1, 30));
+
+// Enable varied colors for the pie chart sectors
+chart.ChartData.SeriesGroups[0].IsColorVaried = true;
+
+//ExStep:4-
+// Formatting the first data point (20%)
+IChartDataPoint point = series.DataPoints[0];
+point.Format.Fill.FillType = FillType.Solid;
+point.Format.Fill.SolidFillColor.Color = Color.Cyan;
+
+// Setting Sector border
+point.Format.Line.FillFormat.FillType = FillType.Solid;
+point.Format.Line.FillFormat.SolidFillColor.Color = Color.Gray;
+point.Format.Line.Width = 3.0;
+point.Format.Line.Style = LineStyle.ThinThick;
+point.Format.Line.DashStyle = LineDashStyle.DashDot;
+
+//ExStep:5-
+// Formatting the second data point (50%)
+IChartDataPoint point1 = series.DataPoints[1];
+point1.Format.Fill.FillType = FillType.Solid;
+point1.Format.Fill.SolidFillColor.Color = Color.Brown;
+
+//ExStep:6-
+// Setting Sector border
+point1.Format.Line.FillFormat.FillType = FillType.Solid;
+point1.Format.Line.FillFormat.SolidFillColor.Color = Color.Blue;
+point1.Format.Line.Width = 3.0;
+point1.Format.Line.Style = LineStyle.Single;
+point1.Format.Line.DashStyle = LineDashStyle.LargeDashDot;
+
+//ExStep:7-
+// Formatting the third data point (30%)
+IChartDataPoint point2 = series.DataPoints[2];
+point2.Format.Fill.FillType = FillType.Solid;
+point2.Format.Fill.SolidFillColor.Color = Color.Coral;
+
+//ExStep:8-
+// Setting Sector border
+point2.Format.Line.FillFormat.FillType = FillType.Solid;
+point2.Format.Line.FillFormat.SolidFillColor.Color = Color.Red;
+point2.Format.Line.Width = 2.0;
+point2.Format.Line.Style = LineStyle.ThinThin;
+point2.Format.Line.DashStyle = LineDashStyle.LargeDashDotDot;
+
+//ExStep:9-
+// Create custom labels for each of categories for new series
+IDataLabel lbl1 = series.DataPoints[0].Label;
+// Display the value for the first data point
+lbl1.DataLabelFormat.ShowValue = true;
+
+IDataLabel lbl2 = series.DataPoints[1].Label;
+// Display value, legend key and percentage for the second data point
+lbl2.DataLabelFormat.ShowValue = true;
+lbl2.DataLabelFormat.ShowLegendKey = true;
+lbl2.DataLabelFormat.ShowPercentage = true;
+
+IDataLabel lbl3 = series.DataPoints[2].Label;
+// Display series name and percentage for the third data point
+lbl3.DataLabelFormat.ShowSeriesName = true;
+lbl3.DataLabelFormat.ShowPercentage = true;
+
+// Showing Leader Lines for Chart
+series.Labels.DefaultDataLabelFormat.ShowLeaderLines = true;
+
+//ExStep:10-
+// Setting Rotation Angle for Pie Chart Sectors
+chart.ChartData.SeriesGroups[0].FirstSliceAngle = 180;
+
+//ExStep:11-
+// Save presentation with chart
+presentation.Save(dataDir + "PieChart_out.pptx", SaveFormat.Pptx);
+//ExEnd

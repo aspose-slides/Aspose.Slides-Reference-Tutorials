@@ -1,0 +1,121 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a PowerPoint presentation with a customized column chart. It shows the process of creating a chart, configuring its title, adding series and categories, populating data points, and formatting the chart elements.
+//ExStepSummary:0: Setting up the directory for output files and creating a new presentation object.
+//ExStepSummary:1: Accessing the first slide and adding a chart with a title, positioning it at coordinates (0,0) with dimensions 500x500.
+//ExStepSummary:2: Configuring the first data series to show values and preparing to manage chart data by accessing the chart workbook.
+//ExStepSummary:3: Adding new series and categories to the chart after clearing the default ones.
+//ExStepSummary:4: Populating the first series with data points for the three categories (values 20, 50, 30).
+//ExStepSummary:5: Setting the fill color of the first series to red.
+//ExStepSummary:6: Populating the second series with data points for the three categories (values 30, 10, 60).
+//ExStepSummary:7: Setting the fill color of the second series to green.
+//ExStepSummary:8: Configuring the first data label to show the category name.
+//ExStepSummary:9: Configuring the second data label to show the series name.
+//ExStepSummary:10: Configuring the third data label to show both the value and series name with a custom separator.
+//ExStepSummary:11: Saving the presentation with the chart to a PPTX file.
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+//ExStepImage:6:images/3.png
+//ExStepImage:7:images/4.png
+//ExStepImage:8:images/5.png
+//ExStepImage:9:images/6.png
+//ExStepImage:10:images/7.png
+
+//ExStep:0-
+// The path to the documents directory
+string dataDir = "Your Document Directory";
+
+// Create directory if it is not already present
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+// Instantiate Presentation class that represents PPTX file
+Presentation pres = new Presentation();
+
+//ExStep:1-
+// Access first slide
+ISlide sld = pres.Slides[0];
+
+// Add chart with default data
+IChart chart = sld.Shapes.AddChart(ChartType.ClusteredColumn, 0, 0, 500, 500);
+
+// Setting chart Title
+chart.ChartTitle.AddTextFrameForOverriding("Sample Title");
+chart.ChartTitle.TextFrameForOverriding.TextFrameFormat.CenterText = NullableBool.True;
+chart.ChartTitle.Height = 20;
+chart.HasTitle = true;
+
+//ExStep:2-
+// Set first series to Show Values
+chart.ChartData.Series[0].Labels.DefaultDataLabelFormat.ShowValue = true;
+
+// Setting the index of chart data worksheet
+int defaultWorksheetIndex = 0;
+
+// Getting the chart data worksheet
+IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
+
+// Delete default generated series and categories
+chart.ChartData.Series.Clear();
+chart.ChartData.Categories.Clear();
+int s = chart.ChartData.Series.Count;
+s = chart.ChartData.Categories.Count;
+
+//ExStep:3-
+// Adding new series
+chart.ChartData.Series.Add(fact.GetCell(defaultWorksheetIndex, 0, 1, "Series 1"), chart.Type);
+chart.ChartData.Series.Add(fact.GetCell(defaultWorksheetIndex, 0, 2, "Series 2"), chart.Type);
+
+// Adding new categories
+chart.ChartData.Categories.Add(fact.GetCell(defaultWorksheetIndex, 1, 0, "Caetegoty 1"));
+chart.ChartData.Categories.Add(fact.GetCell(defaultWorksheetIndex, 2, 0, "Caetegoty 2"));
+chart.ChartData.Categories.Add(fact.GetCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
+
+//ExStep:4-
+// Take first chart series
+IChartSeries series = chart.ChartData.Series[0];
+
+// Now populating series data
+series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 1, 1, 20));
+series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 2, 1, 50));
+series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 3, 1, 30));
+
+//ExStep:5-
+// Setting fill color for series
+series.Format.Fill.FillType = FillType.Solid;
+series.Format.Fill.SolidFillColor.Color = Color.Red;
+
+//ExStep:6-
+// Take second chart series
+series = chart.ChartData.Series[1];
+
+// Now populating series data
+series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 1, 2, 30));
+series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 2, 2, 10));
+series.DataPoints.AddDataPointForBarSeries(fact.GetCell(defaultWorksheetIndex, 3, 2, 60));
+//ExStep:7-
+// Setting fill color for series
+series.Format.Fill.FillType = FillType.Solid;
+series.Format.Fill.SolidFillColor.Color = Color.Green;
+
+//ExStep:8-
+// First label will be show Category name
+IDataLabel lbl = series.DataPoints[0].Label;
+lbl.DataLabelFormat.ShowCategoryName = true;
+
+//ExStep:9-
+// Second label will show Series name
+lbl = series.DataPoints[1].Label;
+lbl.DataLabelFormat.ShowSeriesName = true;
+
+//ExStep:10-
+// Show value for third label along with series name
+lbl = series.DataPoints[2].Label;
+lbl.DataLabelFormat.ShowValue = true;
+lbl.DataLabelFormat.ShowSeriesName = true;
+lbl.DataLabelFormat.Separator = "/";
+
+//ExStep:11-            
+// Save presentation with chart
+pres.Save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
+//ExEnd

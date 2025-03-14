@@ -20,6 +20,22 @@ Dive into the world of presentation conversion with Aspose.Slides for .NET. Lear
 ## Presentation Manipulation: Unveiling the Magic of Dynamic Presentations
 Unleash your creativity and efficiency in presentation manipulation using Aspose.Slides for .NET. Explore tutorials that walk you through the process of dynamically creating, modifying, and enhancing PowerPoint presentations programmatically. From managing slide layouts and content to incorporating animations and multimedia, these tutorials equip you with the skills to craft engaging and interactive presentations that captivate your audience.
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+## [Master Chart Creation with Aspose.Slides for .NET](./charts/)
+Learn how to create and manipulate powerful charts in PowerPoint presentations using Aspose.Slides for .NET. Complete tutorials for developers of all skill levels.
+
+{{< tutorial-card link="./charts/change-color-of-categories/" title="Customize Chart Data Point Colors in PowerPoint with Aspose.Slides" imgSrc="./charts/change-color-of-categories/images/thumb.png" >}}
+{{< tutorial-card link="./charts/chart-marker-options-on-data-point/" title="Custom Image Markers in PowerPoint Line Charts with Aspose.Slides" imgSrc="./charts/chart-marker-options-on-data-point/images/thumb.png" >}}
+{{< tutorial-card link="./charts/chart-trend-lines/" title="Add Trend Lines to PowerPoint Charts Using Aspose.Slides" imgSrc="./charts/chart-trend-lines/images/thumb.png" >}}
+{{< tutorial-card link="./charts/existing-chart/" title="Modifying Charts in PowerPoint with Aspose.Slides" imgSrc="./charts/existing-chart/images/thumb.png" >}}
+{{< tutorial-card link="./charts/multi-category-chart/" title="Creating Clustered Column Charts with Aspose.Slides" imgSrc="./charts/multi-category-chart/images/thumb.png" >}}
+{{< tutorial-card link="./charts/normal-charts/" title="Creating Custom Column Charts with Aspose.Slides for .NET" imgSrc="./charts/normal-charts/images/thumb.png" >}}
+{{< tutorial-card link="./charts/pie-chart/" title="Create a Pie Chart in PowerPoint Using Aspose.Slides" imgSrc="./charts/pie-chart/images/thumb.png" >}}
+{{< tutorial-card link="./charts/tree-map-chart/" title="Create a Treemap Chart in PowerPoint using Aspose.Slides" imgSrc="./charts/tree-map-chart/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
 ## Aspose.Slides for .NET Tutorials
 ### [Presentation Conversion](./presentation-conversion/)
 Elevate your skills with Aspose.Slides for .NET tutorials. Learn presentation conversion and PowerPoint processing step-by-step. Transform your workflow today!

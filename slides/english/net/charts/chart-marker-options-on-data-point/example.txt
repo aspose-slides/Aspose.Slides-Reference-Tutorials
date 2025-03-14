@@ -1,0 +1,75 @@
+//ExStart
+//ExSummary: This code demonstrates how to create a line chart with custom image markers in a PowerPoint presentation using Aspose.Slides.
+//ExStepSummary:0: Defines the document directory path and loads an existing PowerPoint presentation.
+//ExStepSummary:1: Creates a default line chart with markers on the first slide with specified dimensions (400x400).
+//ExStepSummary:2: Gets a reference to the chart data workbook and clears any demo series data.
+//ExStepSummary:3: Adds a new series named "Series 1" to the chart.
+//ExStepSummary:4: Loads two image files and adds them to the presentation's image collection.
+//ExStepSummary:5: Adds the first data point to the line series with value 4.5 and sets its marker to use the first custom image.
+//ExStepSummary:6: Adds the second data point with value 2.5 and sets its marker to use the second custom image.
+//ExStepSummary:7: Adds the third data point with value 3.5 and sets its marker to use the first custom image again.
+//ExStepSummary:8: Adds the fourth data point with value 4.5 and sets its marker to use the second custom image again.
+//ExStepSummary:9: Sets the size of all markers in the series to 15 points.
+//ExStepSummary:10: Saves the modified presentation as "AsposeScatterChart.pptx" in the specified directory.
+//ExStepImage:5:images/1.png
+//ExStepImage:6:images/2.png
+//ExStepImage:7:images/3.png
+//ExStepImage:8:images/4.png
+//ExStepImage:9:images/5.png
+//ExStep:0-
+string dataDir = "Your Document Directory";
+Presentation pres = new Presentation(dataDir + "Test.pptx");
+ISlide slide = pres.Slides[0];
+
+//ExStep:1-
+// Creating the default chart with specified dimensions
+IChart chart = slide.Shapes.AddChart(ChartType.LineWithMarkers, 0, 0, 400, 400);
+
+//ExStep:2-
+// Getting the chart data workbook and clearing demo series
+int defaultWorksheetIndex = 0;
+IChartDataWorkbook fact = chart.ChartData.ChartDataWorkbook;
+chart.ChartData.Series.Clear();
+
+//ExStep:3-
+// Adding new series to the chart
+chart.ChartData.Series.Add(fact.GetCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.Type);
+
+//ExStep:4-
+// Loading and setting images for custom markers
+IImage img = Images.FromFile(dataDir + "aspose-logo.jpg");
+IPPImage imgx1 = pres.Images.AddImage(img);
+
+IImage img2 = Images.FromFile(dataDir + "Tulips.jpg");
+IPPImage imgx2 = pres.Images.AddImage(img2);
+
+//ExStep:5-
+// Adding data points with custom picture markers
+IChartSeries series = chart.ChartData.Series[0];
+
+IChartDataPoint point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 1, 1, 4.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx1;
+
+//ExStep:6-
+point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 2, 1, 2.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
+
+//ExStep:7-
+point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 3, 1, 3.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx1;
+
+//ExStep:8-
+point = series.DataPoints.AddDataPointForLineSeries(fact.GetCell(defaultWorksheetIndex, 4, 1, 4.5));
+point.Marker.Format.Fill.FillType = FillType.Picture;
+point.Marker.Format.Fill.PictureFillFormat.Picture.Image = imgx2;
+
+//ExStep:9-
+// Changing the chart series marker size
+series.Marker.Size = 15;
+
+//ExStep:10-
+pres.Save(dataDir + "AsposeScatterChart.pptx", SaveFormat.Pptx);
+//ExEnd

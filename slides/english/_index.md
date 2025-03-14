@@ -22,6 +22,22 @@ Embark on a journey of expertise with our Aspose.Slides for .NET tutorials, desi
 
 {{% /alert %}}
 
+{{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+## [Master Chart Creation with Aspose.Slides for .NET](./net/charts/)
+Learn how to create and manipulate powerful charts in PowerPoint presentations using Aspose.Slides for .NET. Complete tutorials for developers of all skill levels.
+
+{{< tutorial-card link="./net/charts/change-color-of-categories/" title="Customize Chart Data Point Colors in PowerPoint with Aspose.Slides" imgSrc="./net/charts/change-color-of-categories/images/thumb.png" >}}
+{{< tutorial-card link="./net/charts/chart-marker-options-on-data-point/" title="Custom Image Markers in PowerPoint Line Charts with Aspose.Slides" imgSrc="./net/charts/chart-marker-options-on-data-point/images/thumb.png" >}}
+{{< tutorial-card link="./net/charts/chart-trend-lines/" title="Add Trend Lines to PowerPoint Charts Using Aspose.Slides" imgSrc="./net/charts/chart-trend-lines/images/thumb.png" >}}
+{{< tutorial-card link="./net/charts/existing-chart/" title="Modifying Charts in PowerPoint with Aspose.Slides" imgSrc="./net/charts/existing-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/charts/multi-category-chart/" title="Creating Clustered Column Charts with Aspose.Slides" imgSrc="./net/charts/multi-category-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/charts/normal-charts/" title="Creating Custom Column Charts with Aspose.Slides for .NET" imgSrc="./net/charts/normal-charts/images/thumb.png" >}}
+{{< tutorial-card link="./net/charts/pie-chart/" title="Create a Pie Chart in PowerPoint Using Aspose.Slides" imgSrc="./net/charts/pie-chart/images/thumb.png" >}}
+{{< tutorial-card link="./net/charts/tree-map-chart/" title="Create a Treemap Chart in PowerPoint using Aspose.Slides" imgSrc="./net/charts/tree-map-chart/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+
+{{< blocks/products/pf/tutorial-page-section >}}
 These are links to some useful resources:
 - [Presentation Conversion](./net/presentation-conversion/)
 - [Presentation Manipulation](./net/presentation-manipulation/)

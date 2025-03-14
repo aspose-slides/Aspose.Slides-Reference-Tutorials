@@ -1,0 +1,87 @@
+//ExStart
+//ExSummary:This code demonstrates how to create a Treemap chart in a PowerPoint presentation using Aspose.Slides. The chart is structured with branches, stems, and leaves in a hierarchical organization, with appropriate data values assigned to each leaf.
+//ExStepSummary:0:The following code shows how to load a PowerPoint presentation and prepare to add a Treemap chart:
+//ExStepSummary:1:The following code shows how to add a Treemap chart to the first slide and prepare the chart data:
+//ExStepSummary:2:The following code shows how to create Branch1 with its stems and leaves structure:
+//ExStepSummary:3:The following code shows how to create Branch2 with its stems and leaves structure:
+//ExStepSummary:4:The following code shows how to add and configure a data series for the Treemap chart:
+//ExStepSummary:5:The following code shows how to set the parent label layout and save the presentation:
+//ExStepImage:5:images/1.png
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+// Load the presentation
+using (Presentation pres = new Presentation(dataDir + "test.pptx"))
+{
+//ExStep:1-
+    // Add a Treemap chart to the first slide with specified dimensions
+    IChart chart = pres.Slides[0].Shapes.AddChart(Aspose.Slides.Charts.ChartType.Treemap, 50, 50, 500, 400);
+    
+    // Clear default categories and series
+    chart.ChartData.Categories.Clear();
+    chart.ChartData.Series.Clear();
+
+    // Get reference to the chart workbook and clear sheet 0
+    IChartDataWorkbook wb = chart.ChartData.ChartDataWorkbook;
+    wb.Clear(0);
+
+//ExStep:2-
+    // Branch 1 hierarchy construction
+    // Add Leaf1 under Stem1 under Branch1
+    IChartCategory leaf = chart.ChartData.Categories.Add(wb.GetCell(0, "C1", "Leaf1"));
+    leaf.GroupingLevels.SetGroupingItem(1, "Stem1");
+    leaf.GroupingLevels.SetGroupingItem(2, "Branch1");
+
+    // Add Leaf2 directly under Branch1 (implicitly)
+    chart.ChartData.Categories.Add(wb.GetCell(0, "C2", "Leaf2"));
+
+    // Add Leaf3 under Stem2 under Branch1 (implicitly)
+    leaf = chart.ChartData.Categories.Add(wb.GetCell(0, "C3", "Leaf3"));
+    leaf.GroupingLevels.SetGroupingItem(1, "Stem2");
+
+    // Add Leaf4 directly under Branch1 (implicitly)
+    chart.ChartData.Categories.Add(wb.GetCell(0, "C4", "Leaf4"));
+
+//ExStep:3-
+    // Branch 2 hierarchy construction
+    // Add Leaf5 under Stem3 under Branch2
+    leaf = chart.ChartData.Categories.Add(wb.GetCell(0, "C5", "Leaf5"));
+    leaf.GroupingLevels.SetGroupingItem(1, "Stem3");
+    leaf.GroupingLevels.SetGroupingItem(2, "Branch2");
+
+    // Add Leaf6 directly under Branch2 (implicitly)
+    chart.ChartData.Categories.Add(wb.GetCell(0, "C6", "Leaf6"));
+
+    // Add Leaf7 under Stem4 under Branch2 (implicitly)
+    leaf = chart.ChartData.Categories.Add(wb.GetCell(0, "C7", "Leaf7"));
+    leaf.GroupingLevels.SetGroupingItem(1, "Stem4");
+
+    // Add Leaf8 directly under Branch2 (implicitly)
+    chart.ChartData.Categories.Add(wb.GetCell(0, "C8", "Leaf8"));
+
+//ExStep:4-
+    // Create a series for the Treemap chart
+    IChartSeries series = chart.ChartData.Series.Add(Aspose.Slides.Charts.ChartType.Treemap);
+    
+    // Configure the series to show category names
+    series.Labels.DefaultDataLabelFormat.ShowCategoryName = true;
+    
+    // Add data points with values for each leaf
+    series.DataPoints.AddDataPointForTreemapSeries(wb.GetCell(0, "D1", 4));  // Value for Leaf1
+    series.DataPoints.AddDataPointForTreemapSeries(wb.GetCell(0, "D2", 5));  // Value for Leaf2
+    series.DataPoints.AddDataPointForTreemapSeries(wb.GetCell(0, "D3", 3));  // Value for Leaf3
+    series.DataPoints.AddDataPointForTreemapSeries(wb.GetCell(0, "D4", 6));  // Value for Leaf4
+    series.DataPoints.AddDataPointForTreemapSeries(wb.GetCell(0, "D5", 9));  // Value for Leaf5
+    series.DataPoints.AddDataPointForTreemapSeries(wb.GetCell(0, "D6", 9));  // Value for Leaf6
+    series.DataPoints.AddDataPointForTreemapSeries(wb.GetCell(0, "D7", 4));  // Value for Leaf7
+    series.DataPoints.AddDataPointForTreemapSeries(wb.GetCell(0, "D8", 3));  // Value for Leaf8
+
+//ExStep:5-
+    // Set the parent label layout to overlapping
+    series.ParentLabelLayout = ParentLabelLayoutType.Overlapping;
+
+    // Save the presentation with the new Treemap chart
+    pres.Save("Treemap.pptx", SaveFormat.Pptx);
+}
+//ExEnd
