@@ -1,10 +1,10 @@
 //ExStart
 //ExSummary: This code demonstrates how to create a PowerPoint presentation with a chart, modify a data point's fill color, and save the presentation as a .pptx file.
-//ExStepSummary:0:Initialize the data directory path and create a new presentation instance.
-//ExStepSummary:1:Add a clustered column chart to the first slide.
-//ExStepSummary:2:Access the first data point in the first series of the chart.
-//ExStepSummary:3:Modify the data point's fill type to solid and set its color to blue.
-//ExStepSummary:4:Save the presentation in .pptx format.
+//ExStepSummary:0: Initialize the path to the directory where the PowerPoint document will be saved.
+//ExStepSummary:1: Create a new PowerPoint presentation and add a clustered column chart to the first slide with specified position and dimensions.
+//ExStepSummary:2: Access the first data point in the first series of the chart and change its fill type to solid.
+//ExStepSummary:3: Set the color of the first data point's solid fill to blue.
+//ExStepSummary:4: Save the presentation as a PowerPoint file (.pptx) in the specified directory.
 //ExStepImage:1:images/1.png
 //ExStepImage:2:images/2.png
 //ExStepImage:3:images/3.png
@@ -22,10 +22,10 @@ using (Presentation pres = new Presentation())
 //ExStep:2-
     // Access the first data point in the first series of the chart
     IChartDataPoint point = chart.ChartData.Series[0].DataPoints[0];
-
+	// Modify the data point's fill type to solid
+	point.Format.Fill.FillType = FillType.Solid;
 //ExStep:3-
-    // Modify the data point's fill type to solid and set its color to blue
-    point.Format.Fill.FillType = FillType.Solid;
+    // Modify the data point's fill type to set its color to blue
     point.Format.Fill.SolidFillColor.Color = Color.Blue;
 
 //ExStep:4-
