@@ -7,7 +7,7 @@
 //ExStepSummary:4:The following code shows how to load an image from file and add it to the presentation:
 //ExStepSummary:5:The following code shows how to configure the first table cell to display the image:
 //ExStepSummary:6:The following code shows how to save the presentation to disk:
-//ExStepImage:4:images/1.png
+//ExStepImage:3:images/1.png
 //ExStepImage:5:images/2.png
 
 

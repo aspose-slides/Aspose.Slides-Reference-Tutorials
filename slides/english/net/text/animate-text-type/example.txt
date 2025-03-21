@@ -7,7 +7,7 @@
 //ExStepSummary:4:The following code shows how to set the text animation type to animate by letter:
 //ExStepSummary:5:The following code shows how to set the delay between animated text parts:
 //ExStepSummary:6:The following code shows how to save the presentation with the animation effect:
-//ExStepImage:5:images/1.png
+//ExStepImage:4:images/1.png
 //ExStep:0-
 // Path to output document
 string outFilePath = Path.Combine(RunExamples.OutPath, "AnimateTextEffect_out.pptx");
