@@ -1,0 +1,65 @@
+//ExStart
+//ExSummary: This code demonstrates how to create text with inner shadow effects in a PowerPoint presentation. It shows how to create a slide with a rectangle shape, add text to it, and apply inner shadow effects with specific parameters to create WordArt-like styling.
+//ExStepSummary:0: This step initializes the document directory path and creates a new Presentation object, then gets a reference to the first slide.
+//ExStepSummary:1: This step adds a transparent rectangular AutoShape to the slide by setting its fill type to NoFill.
+//ExStepSummary:2: This step adds a TextFrame with "Aspose TextBox" text to the rectangle, modifies the font height to 50 points, and enables inner shadow effect on the text.
+//ExStepSummary:3: This step configures inner shadow effect parameters including blur radius, direction, distance, and color settings.
+//ExStepSummary:4: This step sets the inner shadow color type to use the presentation's color scheme and specifically selects the Accent1 scheme color.
+//ExStepSummary:5: This step saves the presentation with the applied text effects to a PPTX file.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+// Create an instance of Presentation class
+Presentation presentation = new Presentation();
+
+// Get reference of a slide
+ISlide slide = presentation.Slides[0];
+
+//ExStep:1-
+// Add an AutoShape of Rectangle type
+IAutoShape ashp = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 150, 75, 400, 300);
+// Set the fill type to no fill to make the rectangle transparent
+ashp.FillFormat.FillType = FillType.NoFill;
+
+//ExStep:2-
+// Add TextFrame to the Rectangle with text "Aspose TextBox"
+ashp.AddTextFrame("Aspose TextBox");
+// Get the first portion of text in the first paragraph
+IPortion port = ashp.TextFrame.Paragraphs[0].Portions[0];
+// Get the format of the portion to modify its properties
+IPortionFormat pf = port.PortionFormat;
+// Set the font height to 50 points
+pf.FontHeight = 50;
+// Enable InnerShadowEffect on the text
+IEffectFormat ef = pf.EffectFormat;
+ef.EnableInnerShadowEffect();
+
+//ExStep:3-
+
+// Set all necessary parameters for the inner shadow
+// Set the blur radius to 8.0 for a soft shadow edge
+ef.InnerShadowEffect.BlurRadius = 8.0;
+// Set the shadow direction to 90 degrees (right)
+ef.InnerShadowEffect.Direction = 90.0F;
+// Set the shadow distance to 6.0 units
+ef.InnerShadowEffect.Distance = 6.0;
+// Set the blue component of the shadow color to 189
+ef.InnerShadowEffect.ShadowColor.B = 189;
+
+//ExStep:4-
+// Set ColorType as Scheme to use presentation color scheme
+ef.InnerShadowEffect.ShadowColor.ColorType = ColorType.Scheme;
+
+// Set Scheme Color to Accent1 from the presentation's color scheme
+ef.InnerShadowEffect.ShadowColor.SchemeColor = SchemeColor.Accent1;
+
+//ExStep:5-
+// Save Presentation with the applied effects
+presentation.Save(dataDir + "WordArt_out.pptx", SaveFormat.Pptx);
+//ExEnd

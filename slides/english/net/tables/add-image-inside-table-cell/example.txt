@@ -1,0 +1,50 @@
+//ExStart
+//ExSummary:This code demonstrates how to add an image to a table cell in a PowerPoint presentation. It creates a new presentation, adds a table, loads an image, and places it in the first table cell.
+//ExStepSummary:0:The following code shows how to set up the presentation and define the file paths:
+//ExStepSummary:1:The following code shows how to create a new presentation and access the first slide:
+//ExStepSummary:2:The following code shows how to define table columns and rows with specific dimensions:
+//ExStepSummary:3:The following code shows how to add a table to the slide with the defined dimensions:
+//ExStepSummary:4:The following code shows how to load an image from file and add it to the presentation:
+//ExStepSummary:5:The following code shows how to configure the first table cell to display the image:
+//ExStepSummary:6:The following code shows how to save the presentation to disk:
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+//ExStep:1-
+// Instantiate Presentation class object
+Presentation presentation = new Presentation();
+
+// Access first slide
+ISlide islide = presentation.Slides[0];
+
+//ExStep:2-
+// Define columns with widths and rows with heights
+double[] dblCols = { 150, 150, 150, 150 };  // Create 4 columns, each 150 units wide
+double[] dblRows = { 100, 100, 100, 100, 90 };  // Create 5 rows with specified heights
+
+//ExStep:3-
+// Add table shape to slide
+ITable tbl = islide.Shapes.AddTable(50, 50, dblCols, dblRows);  // Position table at (50,50) with defined dimensions
+
+//ExStep:4-
+// Creating a Bitmap Image object to hold the image file
+IImage image = Images.FromFile(dataDir + "aspose-logo.jpg");  // Load image from file
+
+// Create an IPPImage object using the bitmap object
+IPPImage imgx1 = presentation.Images.AddImage(image);  // Add image to presentation's image collection
+
+//ExStep:5-
+// Add image to first table cell
+tbl[0, 0].CellFormat.FillFormat.FillType = FillType.Picture;  // Set fill type to picture
+tbl[0, 0].CellFormat.FillFormat.PictureFillFormat.PictureFillMode = PictureFillMode.Stretch;  // Stretch image to fill cell
+tbl[0, 0].CellFormat.FillFormat.PictureFillFormat.Picture.Image = imgx1;  // Assign image to the cell
+
+//ExStep:6-
+// Save PPTX to Disk
+presentation.Save(dataDir + "Image_In_TableCell_out.pptx", SaveFormat.Pptx);  // Save as PPTX format
+//ExEnd

@@ -1,0 +1,84 @@
+//ExStart
+//ExSummary:This code demonstrates how to create and manipulate text columns in PowerPoint presentations using Aspose.Slides. It shows how to set the column count, define column spacing, and validate these settings through unit tests.
+//ExStepSummary:0: This step sets up the path variables for the output PowerPoint file.
+//ExStepSummary:1: This step creates a new presentation and adds a rectangular shape to the first slide.
+//ExStepSummary:2: This step configures the shape with 2 text columns and adds sample text that flows between the columns.
+//ExStepSummary:3: This step saves the presentation and validates that the column count was properly set to 2, then adds column spacing of 20 points and saves again.
+//ExStepSummary:4: This step validates that both the column count and spacing settings were correctly applied.
+//ExStepSummary:5: This step increases the column count to 3, adjusts spacing to 15 points, and saves the presentation with the new configuration.
+//ExStepSummary:6: This step performs a final validation to ensure the column count is 3 and column spacing is 15 points as expected.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+// Define the output PowerPoint file name
+string outPptxFileName = dataDir + "ColumnsTest.pptx";
+
+using (Presentation pres = new Presentation())
+{
+//ExStep:1-
+    // Add a rectangular shape to the first slide with specified dimensions
+    IAutoShape shape1 = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 300, 300);
+    // Get the text frame format of the shape
+    TextFrameFormat format = (TextFrameFormat)shape1.TextFrame.TextFrameFormat;
+
+//ExStep:2-
+    // Set the column count to 2 for the text frame
+    format.ColumnCount = 2;
+    // Add sample text that will automatically flow between the columns
+    shape1.TextFrame.Text = "All these columns are limited to be within a single text container -- " +
+                            "you can add or delete text and the new or remaining text automatically adjusts " +
+                            "itself to flow within the container. You cannot have text flow from one container " +
+                            "to other though -- we told you PowerPoint's column options for text are limited!";
+    
+//ExStep:3-
+    // Save the presentation in PPTX format
+    pres.Save(outPptxFileName, SaveFormat.Pptx);
+
+    // Validate the column count setting by loading the saved presentation
+    using (Presentation test = new Presentation(outPptxFileName))
+    {
+        // Verify that column count is set to 2
+        Assert.AreEqual(2, ((AutoShape)test.Slides[0].Shapes[0]).TextFrame.TextFrameFormat.ColumnCount);
+        // Verify that column spacing is not explicitly set (default value)
+        Assert.AreEqual(double.NaN, ((AutoShape)test.Slides[0].Shapes[0]).TextFrame.TextFrameFormat.ColumnSpacing);
+    }
+	// Set column spacing to 20 points
+    format.ColumnSpacing = 20;
+    // Save the presentation again with updated spacing
+    pres.Save(outPptxFileName, SaveFormat.Pptx);
+
+//ExStep:4-
+    
+    // Validate the column spacing change
+    using (Presentation test = new Presentation(outPptxFileName))
+    {
+        // Verify column count is still 2
+        Assert.AreEqual(2, ((AutoShape)test.Slides[0].Shapes[0]).TextFrame.TextFrameFormat.ColumnCount);
+        // Verify column spacing is now 20
+        Assert.AreEqual(20, ((AutoShape)test.Slides[0].Shapes[0]).TextFrame.TextFrameFormat.ColumnSpacing);
+    }
+
+//ExStep:5-
+    // Increase column count to 3 and adjust spacing to 15 points
+    format.ColumnCount = 3;
+    format.ColumnSpacing = 15;
+    // Save the presentation with the new column configuration
+    pres.Save(outPptxFileName, SaveFormat.Pptx);
+
+//ExStep:6-
+    // Validate the final column settings
+    using (Presentation test = new Presentation(outPptxFileName))
+    {
+        // Verify column count is now 3
+        Assert.AreEqual(3, ((AutoShape)test.Slides[0].Shapes[0]).TextFrame.TextFrameFormat.ColumnCount);
+        // Verify column spacing is now 15
+        Assert.AreEqual(15, ((AutoShape)test.Slides[0].Shapes[0]).TextFrame.TextFrameFormat.ColumnSpacing);
+    }
+}
+//ExEnd

@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary:This code demonstrates how to create text animation effects in PowerPoint presentations, specifically showing how to animate text by letter with custom timing between animated parts.
+//ExStepSummary:0:The following code shows how to set up the presentation and output file path:
+//ExStepSummary:1:The following code shows how to create an elliptical shape with text content:
+//ExStepSummary:2:The following code shows how to get the animation timeline from the first slide:
+//ExStepSummary:3:The following code shows how to add an appear effect to the shape on click:
+//ExStepSummary:4:The following code shows how to set the text animation type to animate by letter:
+//ExStepSummary:5:The following code shows how to set the delay between animated text parts:
+//ExStepSummary:6:The following code shows how to save the presentation with the animation effect:
+//ExStepImage:5:images/1.png
+//ExStep:0-
+// Path to output document
+string outFilePath = Path.Combine(RunExamples.OutPath, "AnimateTextEffect_out.pptx");
+
+// Create a new presentation instance
+using (Presentation presentation = new Presentation())
+{
+//ExStep:1-
+    // Add an elliptical shape to the first slide
+    IAutoShape oval = presentation.Slides[0].Shapes.AddAutoShape(ShapeType.Ellipse, 100, 100, 300, 150);
+    
+    // Set the text content for the shape
+    oval.TextFrame.Text = "The new animated text";
+
+//ExStep:2-
+    // Get animation timeline from the first slide
+    IAnimationTimeLine timeline = presentation.Slides[0].Timeline;
+
+//ExStep:3-
+    // Add an 'Appear' effect to the shape that triggers on click
+    IEffect effect = timeline.MainSequence.AddEffect(oval, EffectType.Appear, EffectSubtype.None, EffectTriggerType.OnClick);
+
+//ExStep:4-
+    // Configure the effect to animate text by letter instead of all at once
+    effect.AnimateTextType = AnimateTextType.ByLetter;
+
+//ExStep:5-
+    // Set negative delay between text parts for overlapping animation
+    // Negative value makes letters appear faster (overlapping)
+    effect.DelayBetweenTextParts = -1.5f;
+
+//ExStep:6-
+    // Save the presentation with the animation effect to PPTX format
+    presentation.Save(outFilePath, SaveFormat.Pptx);
+}
+//ExEnd

@@ -1,0 +1,46 @@
+//ExStart
+//ExSummary:This code demonstrates how to apply center alignment to text in PowerPoint presentation slides. It loads an existing presentation, accesses text frames in the first slide, modifies the text content, and applies center alignment to paragraphs.
+//ExStepSummary:0:The following code defines the data directory path and loads an existing PowerPoint presentation:
+//ExStepSummary:1:The following code accesses the first slide and the text frames of the first two shapes:
+//ExStepSummary:2:The following code changes the text content in both text frames:
+//ExStepSummary:3:The following code retrieves the first paragraph from each text frame:
+//ExStepSummary:4:The following code applies center alignment to both paragraphs:
+//ExStepSummary:5:The following code saves the modified presentation to a new file:
+//ExStepImage:2:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+// Instantiate a Presentation object that represents a PPTX file
+using (Presentation pres = new Presentation(dataDir + "ParagraphsAlignment.pptx"))
+{
+//ExStep:1-
+    // Accessing first slide
+    ISlide slide = pres.Slides[0];
+
+    // Accessing the first and second placeholder in the slide and typecasting it as AutoShape
+    ITextFrame tf1 = ((IAutoShape)slide.Shapes[0]).TextFrame;
+    ITextFrame tf2 = ((IAutoShape)slide.Shapes[1]).TextFrame;
+
+//ExStep:2-
+    // Change the text in both placeholders
+    tf1.Text = "Center Align by Aspose";
+    tf2.Text = "Center Align by Aspose";
+
+//ExStep:3-
+    // Getting the first paragraph of the placeholders
+    IParagraph para1 = tf1.Paragraphs[0];
+    IParagraph para2 = tf2.Paragraphs[0];
+
+//ExStep:4-
+    // Aligning the text paragraph to center
+    para1.ParagraphFormat.Alignment = TextAlignment.Center;
+    para2.ParagraphFormat.Alignment = TextAlignment.Center;
+
+//ExStep:5-
+    //Writing the presentation as a PPTX file
+    pres.Save(dataDir + "Centeralign_out.pptx", SaveFormat.Pptx);
+}
+//ExEnd

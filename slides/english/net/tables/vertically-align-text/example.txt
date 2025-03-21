@@ -1,0 +1,78 @@
+//ExStart
+//ExSummary:This code demonstrates how to create a PowerPoint presentation with a table, customize text formatting, and apply vertical alignment to table cells.
+//ExStepSummary:0:Set up the document directory and create a new presentation
+//ExStepSummary:1:Get the first slide of the presentation
+//ExStepSummary:2:Define table column and row dimensions
+//ExStepSummary:3:Add a table to the slide with specified dimensions
+//ExStepSummary:4:Populate table cells with text values
+//ExStepSummary:5:Customize text formatting in the first cell
+//ExStepSummary:6:Apply vertical and horizontal text alignment
+//ExStepSummary:7:Save the presentation
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:6:images/4.png
+//ExStep:0-
+// Set the path for the output document
+// Ensure to replace "Your Document Directory" with the actual path where you want to save the file
+string dataDir = "Your Document Directory";
+
+// Create a new PowerPoint presentation
+// This initializes an empty presentation with a default slide
+Presentation presentation = new Presentation();
+
+//ExStep:1-
+// Access the first slide in the presentation
+// By default, a new presentation creates one slide
+ISlide slide = presentation.Slides[0];
+
+//ExStep:2-
+// Define column widths for the table
+// Each column will have a width of 120 units
+double[] dblCols = { 120, 120, 120, 120 };
+
+// Define row heights for the table
+// Each row will have a height of 100 units
+double[] dblRows = { 100, 100, 100, 100 };
+
+//ExStep:3-
+// Add a table to the slide
+// Position the table at coordinates (100, 50) with predefined column and row dimensions
+ITable tbl = slide.Shapes.AddTable(100, 50, dblCols, dblRows);
+
+//ExStep:4-
+// Populate the first column with numeric values
+tbl[1, 0].TextFrame.Text = "10";  // Second row, first column
+tbl[2, 0].TextFrame.Text = "20";  // Third row, first column
+tbl[3, 0].TextFrame.Text = "30";  // Fourth row, first column
+
+//ExStep:5-
+// Access the text frame of the first cell
+ITextFrame txtFrame = tbl[0, 0].TextFrame;
+
+// Create a paragraph in the text frame
+IParagraph paragraph = txtFrame.Paragraphs[0];
+
+// Create a portion (text segment) in the paragraph
+IPortion portion = paragraph.Portions[0];
+
+// Set the text and formatting for the portion
+portion.Text = "Text here";
+portion.PortionFormat.FillFormat.FillType = FillType.Solid;
+portion.PortionFormat.FillFormat.SolidFillColor.Color = Color.Black;
+
+//ExStep:6-
+// Get the first cell of the table
+ICell cell = tbl[0, 0];
+
+// Set vertical text alignment to center
+cell.TextAnchorType = TextAnchorType.Center;
+
+// Rotate text vertically (270 degrees)
+cell.TextVerticalType = TextVerticalType.Vertical270;
+
+//ExStep:7-
+// Save the presentation
+// The file will be saved in the specified directory with the name "Vertical_Align_Text_out.pptx"
+presentation.Save(dataDir + "Vertical_Align_Text_out.pptx", SaveFormat.Pptx);
+//ExEnd

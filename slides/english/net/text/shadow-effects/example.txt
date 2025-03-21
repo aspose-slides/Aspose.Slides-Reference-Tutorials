@@ -1,0 +1,56 @@
+//ExStart
+//ExSummary:This code demonstrates how to create a PowerPoint presentation with a text box that has an outer shadow effect applied to it. The code creates a rectangle shape, adds text to it, disables the shape fill, and applies customized shadow effects.
+//ExStepSummary:0:Setting up the document directory and ensuring it exists
+//ExStepSummary:1:Creating a new PowerPoint presentation and accessing the first slide
+//ExStepSummary:2:Adding a rectangular AutoShape to the slide with specific dimensions
+//ExStepSummary:3:Adding a TextFrame to the rectangle with custom text
+//ExStepSummary:4:Disabling the shape fill to emphasize the text shadow
+//ExStepSummary:5:Enabling and configuring the outer shadow effect with custom parameters
+//ExStepSummary:6:Saving the presentation to disk in PPTX format
+//ExStepImage:2:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+// Create directory if it is not already present.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:1-
+// Instantiate a PPTX class
+using (Presentation pres = new Presentation())
+{
+    // Get reference of the slide
+    ISlide sld = pres.Slides[0];
+
+//ExStep:2-
+    // Add an AutoShape of Rectangle type
+    IAutoShape ashp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 150, 75, 150, 50);
+
+//ExStep:3-
+    // Add TextFrame to the Rectangle
+    ashp.AddTextFrame("Aspose TextBox");
+
+//ExStep:4-
+    // Disable shape fill in case we want to get shadow of text
+    ashp.FillFormat.FillType = FillType.NoFill;
+
+//ExStep:5-
+    // Add outer shadow and set all necessary parameters
+    ashp.EffectFormat.EnableOuterShadowEffect();
+    IOuterShadow shadow = ashp.EffectFormat.OuterShadowEffect;
+    shadow.BlurRadius = 4.0;       // Sets the blur radius of the shadow
+    shadow.Direction = 45;         // Sets the direction of the shadow (in degrees)
+    shadow.Distance = 3;           // Sets the distance of the shadow from the shape
+    shadow.RectangleAlign = RectangleAlignment.TopLeft;  // Sets the alignment of the shadow
+    shadow.ShadowColor.PresetColor = PresetColor.Black;  // Sets the shadow color to black
+
+//ExStep:6-
+    //Write the presentation to disk
+    pres.Save(dataDir + "pres_out.pptx", SaveFormat.Pptx);
+}
+//ExEnd

@@ -1,0 +1,80 @@
+//ExStart
+//ExSummary:This code demonstrates how to create a table in a PowerPoint presentation, format cell borders, and merge specific cells. The table is created with uniform column and row dimensions, all cell borders are formatted with red color and 5px width, and specific cells are strategically merged.
+//ExStepSummary:0: This step sets up the document directory and initializes a new PowerPoint presentation object.
+//ExStepSummary:1: This step defines arrays for column widths and row heights, with four columns and four rows of 70px each.
+//ExStepSummary:2: This step adds a table shape to the first slide at position (100, 50) using the previously defined dimensions.
+//ExStepSummary:3: This step formats all cells in the table with 5px red borders on all sides (top, bottom, left, and right).
+//ExStepSummary:4: This step merges cells (1,1) and (2,1) vertically to create a taller cell.
+//ExStepSummary:5: This step merges cells (1,2) and (2,2) vertically to create another taller cell.
+//ExStepSummary:6: This step horizontally merges the previously created vertical cells at positions (1,1) and (1,2) to create a larger merged cell.
+//ExStepSummary:7: This step saves the PowerPoint presentation to disk with the specified filename and format.
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+// Instantiate Presentation class that represents PPTX file
+using (Presentation presentation = new Presentation())
+{
+    // Access first slide
+    ISlide slide = presentation.Slides[0];
+    
+//ExStep:1-
+    // Define columns with widths and rows with heights
+    double[] dblCols = { 70, 70, 70, 70 };  // Four columns with 70px width each
+    double[] dblRows = { 70, 70, 70, 70 };  // Four rows with 70px height each
+    
+//ExStep:2-
+    // Add table shape to slide at position (100, 50)
+    ITable table = slide.Shapes.AddTable(100, 50, dblCols, dblRows);
+    
+//ExStep:3-
+    // Set border format for each cell with 5px red borders on all sides
+    foreach (IRow row in table.Rows)
+    {
+        foreach (ICell cell in row)
+        {
+            // Format top border - red color, 5px width
+            cell.CellFormat.BorderTop.FillFormat.FillType = FillType.Solid;
+            cell.CellFormat.BorderTop.FillFormat.SolidFillColor.Color = Color.Red;
+            cell.CellFormat.BorderTop.Width = 5;
+            
+            // Format bottom border - red color, 5px width
+            cell.CellFormat.BorderBottom.FillFormat.FillType = FillType.Solid;
+            cell.CellFormat.BorderBottom.FillFormat.SolidFillColor.Color = Color.Red;
+            cell.CellFormat.BorderBottom.Width = 5;
+            
+            // Format left border - red color, 5px width
+            cell.CellFormat.BorderLeft.FillFormat.FillType = FillType.Solid;
+            cell.CellFormat.BorderLeft.FillFormat.SolidFillColor.Color = Color.Red;
+            cell.CellFormat.BorderLeft.Width = 5;
+            
+            // Format right border - red color, 5px width
+            cell.CellFormat.BorderRight.FillFormat.FillType = FillType.Solid;
+            cell.CellFormat.BorderRight.FillFormat.SolidFillColor.Color = Color.Red;
+            cell.CellFormat.BorderRight.Width = 5;
+        }
+    }
+    
+//ExStep:4-
+    // Merge cells to create custom layout
+    // Merge cells (1, 1) x (2, 1) - vertically
+    table.MergeCells(table[1, 1], table[2, 1], false);
+    
+//ExStep:5-
+    // Merge cells (1, 2) x (2, 2) - vertically
+    table.MergeCells(table[1, 2], table[2, 2], false);
+    
+//ExStep:6-
+    // Merge cells (1, 1) x (1, 2) - horizontally
+    table.MergeCells(table[1, 1], table[1, 2], true);
+    
+//ExStep:7-
+    // Write PPTX to disk
+    presentation.Save(dataDir + "MergeCells1_out.pptx", SaveFormat.Pptx);
+}
+//ExEnd

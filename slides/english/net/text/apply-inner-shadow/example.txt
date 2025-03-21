@@ -1,0 +1,54 @@
+//ExStart
+//ExSummary:This code demonstrates how to create a PowerPoint presentation with a textbox, apply formatting, and save it to disk. It creates a new presentation, adds a rectangular autoshape, adds text to it, and configures the text properties.
+//ExStepSummary:0:The following code shows how to set up the document directory and ensure it exists:
+//ExStepSummary:1:The following code shows how to create a new PowerPoint presentation:
+//ExStepSummary:2:The following code shows how to access the first slide in the presentation:
+//ExStepSummary:3:The following code shows how to add a rectangular autoshape to the slide:
+//ExStepSummary:4:The following code shows how to add a text frame to the rectangle:
+//ExStepSummary:5:The following code shows how to format the text within the text frame:
+//ExStepSummary:6:The following code shows how to save the presentation to disk:
+//ExStepImage:3:images/1.png
+//ExStepImage:5:images/2.png
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+// Create directory if it is not already present.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:1-
+// Instantiate a new Presentation object
+using (Presentation pres = new Presentation())
+{
+//ExStep:2-
+    // Get the first slide of the presentation
+    ISlide sld = pres.Slides[0];
+
+//ExStep:3-
+    // Add an AutoShape of Rectangle type with specified dimensions (x, y, width, height)
+    IAutoShape ashp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 150, 75, 150, 50);
+
+//ExStep:4-
+    // Add an empty TextFrame to the Rectangle
+    ashp.AddTextFrame(" ");
+
+    // Access the text frame that was just added
+    ITextFrame txtFrame = ashp.TextFrame;
+
+//ExStep:5-
+    // Access the default paragraph in the text frame
+    IParagraph para = txtFrame.Paragraphs[0];
+
+    // Access the default portion (text segment) in the paragraph
+    IPortion portion = para.Portions[0];
+
+    // Set the text content of the portion
+    portion.Text = "Aspose TextBox";
+
+//ExStep:6-
+    // Save the presentation to disk in PPTX format
+    pres.Save(dataDir + "ApplyInnerShadow_out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
+}
+//ExEnd

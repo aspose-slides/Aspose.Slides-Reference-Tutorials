@@ -1,0 +1,61 @@
+//ExStart
+//ExSummary:This code demonstrates how to create a table in a PowerPoint presentation with customized cell borders. The code creates a new presentation, adds a table to the first slide, and configures the table's cell border formatting.
+//ExStepSummary:0:Setup directory structure for saving the presentation file
+//ExStepSummary:1:Create a new PowerPoint presentation instance
+//ExStepSummary:2:Access the first slide in the presentation
+//ExStepSummary:3:Define the dimensions for table columns and rows
+//ExStepSummary:4:Add a table to the slide with specified position and dimensions
+//ExStepSummary:5:Set border format properties for each cell in the table
+//ExStepSummary:6:Save the presentation to disk in PPTX format
+//ExStepImage:4:images/1.png
+//ExStepImage:5:images/2.png
+
+
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+// Create directory if it is not already present.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:1-
+// Instantiate Presentation class that represents PPTX file
+using (Presentation pres = new Presentation())
+{
+//ExStep:2-
+    // Access first slide
+    Slide sld = (Slide)pres.Slides[0];
+
+//ExStep:3-
+    // Define columns with widths and rows with heights
+    double[] dblCols = { 50, 50, 50, 50 };  // Four columns, each 50 units wide
+    double[] dblRows = { 50, 30, 30, 30, 30 };  // Five rows with varying heights
+
+//ExStep:4-
+    // Add table shape to slide with position at (100, 50) and defined dimensions
+    ITable tbl = sld.Shapes.AddTable(100, 50, dblCols, dblRows);
+
+//ExStep:5-
+    // Set border format for each cell - removing all borders
+    foreach (IRow row in tbl.Rows)
+    {
+        foreach (ICell cell in row)
+        {
+            // Set top border to no fill
+            cell.CellFormat.BorderTop.FillFormat.FillType = FillType.NoFill;
+            // Set bottom border to no fill
+            cell.CellFormat.BorderBottom.FillFormat.FillType = FillType.NoFill;
+            // Set left border to no fill
+            cell.CellFormat.BorderLeft.FillFormat.FillType = FillType.NoFill;
+            // Set right border to no fill
+            cell.CellFormat.BorderRight.FillFormat.FillType = FillType.NoFill;
+        }
+    }
+
+//ExStep:6-
+    // Write PPTX to Disk
+    pres.Save(dataDir + "table_out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
+}
+//ExEnd

@@ -1,0 +1,36 @@
+//ExStart
+//ExSummary:This code demonstrates how to modify the transparency of a table in a PowerPoint presentation. The example shows loading an existing presentation, accessing a specific table, adjusting its transparency value, and saving the modified presentation.
+//ExStepSummary:0:The following code shows how to define file paths for input and output presentations:
+//ExStepSummary:1:The following code shows how to load an existing presentation:
+//ExStepSummary:2:The following code shows how to access a table in the first slide:
+//ExStepSummary:3:The following code shows how to set the transparency value for the table:
+//ExStepSummary:4:The following code shows how to save the modified presentation:
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+
+//ExStep:0-
+// Define the path to the input presentation file
+string presentationFilePath = RunExamples.GetDataDir_Tables() + "TableTransparency.pptx";
+
+// Define the path for the output presentation file
+string outFilePath = Path.Combine(RunExamples.OutPath, "TableTransparency_out.pptx");
+
+//ExStep:1-
+// Create a new presentation object by loading the existing presentation
+using (Presentation pres = new Presentation(presentationFilePath))
+{
+//ExStep:2-
+    // Access the table object from the first slide (index 0)
+    // The table is the second shape (index 1) on the slide
+    ITable table = (ITable)pres.Slides[0].Shapes[1];
+    
+//ExStep:3-
+    // Set the transparency of the table to 62%
+    // Transparency value ranges from 0.0 (fully opaque) to 1.0 (fully transparent)
+    table.TableFormat.Transparency = 0.62f; 
+    
+//ExStep:4-
+    // Save the modified presentation to the output file in PPTX format
+    pres.Save(outFilePath, SaveFormat.Pptx);
+}
+//ExEnd

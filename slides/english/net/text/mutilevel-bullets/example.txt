@@ -1,0 +1,94 @@
+//ExStart
+//ExSummary:This code demonstrates how to create a PowerPoint presentation with a text frame containing multi-level bullet points. It shows the process of creating a presentation, adding an auto shape, and formatting paragraphs with different bullet styles and indentation levels.
+//ExStepSummary:0:Setting up the document directory and ensuring it exists
+//ExStepSummary:1:Creating a new presentation instance and accessing the first slide
+//ExStepSummary:2:Adding an auto shape to the slide and creating a text frame
+//ExStepSummary:3:Creating the first level bullet point with circle symbol
+//ExStepSummary:4:Creating the second level bullet point with dash symbol
+//ExStepSummary:5:Creating the third level bullet point with circle symbol
+//ExStepSummary:6:Creating the fourth level bullet point with dash symbol
+//ExStepSummary:7:Adding all paragraphs to the text frame and saving the presentation
+//ExStepImage:2:images/1.png
+//ExStepImage:7:images/2.png
+
+//ExStep:0-
+// The path to the documents directory
+string dataDir = "Your Document Directory";
+
+// Create directory if it is not already present
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:1-
+// Creating a presentation instance
+using (Presentation pres = new Presentation())
+{
+    // Accessing the first slide
+    ISlide slide = pres.Slides[0];
+    
+//ExStep:2-
+    // Adding and accessing Autoshape (rectangle) with specific dimensions
+    IAutoShape aShp = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 200, 200, 400, 200);
+
+    // Accessing the text frame of created autoshape
+    ITextFrame text = aShp.AddTextFrame("");
+    
+    // Clearing default paragraph to start with a clean slate
+    text.Paragraphs.Clear();
+
+//ExStep:3-
+    // Adding first paragraph with level 0 (top level) bullet
+    IParagraph para1 = new Paragraph();
+    para1.Text = "Content";
+    para1.ParagraphFormat.Bullet.Type = BulletType.Symbol;
+    para1.ParagraphFormat.Bullet.Char = Convert.ToChar(8226); // Circle bullet (•)
+    para1.ParagraphFormat.DefaultPortionFormat.FillFormat.FillType = FillType.Solid;
+    para1.ParagraphFormat.DefaultPortionFormat.FillFormat.SolidFillColor.Color = Color.Black;
+    // Setting bullet level to 0 (no indentation)
+    para1.ParagraphFormat.Depth = 0;
+
+//ExStep:4-
+    // Adding second paragraph with level 1 bullet (first indentation)
+    IParagraph para2 = new Paragraph();
+    para2.Text = "Second Level";
+    para2.ParagraphFormat.Bullet.Type = BulletType.Symbol;
+    para2.ParagraphFormat.Bullet.Char = '-'; // Dash bullet
+    para2.ParagraphFormat.DefaultPortionFormat.FillFormat.FillType = FillType.Solid;
+    para2.ParagraphFormat.DefaultPortionFormat.FillFormat.SolidFillColor.Color = Color.Black;
+    // Setting bullet level to 1 (first level indentation)
+    para2.ParagraphFormat.Depth = 1;
+
+//ExStep:5-
+    // Adding third paragraph with level 2 bullet (second indentation)
+    IParagraph para3 = new Paragraph();
+    para3.Text = "Third Level";
+    para3.ParagraphFormat.Bullet.Type = BulletType.Symbol;
+    para3.ParagraphFormat.Bullet.Char = Convert.ToChar(8226); // Circle bullet (•)
+    para3.ParagraphFormat.DefaultPortionFormat.FillFormat.FillType = FillType.Solid;
+    para3.ParagraphFormat.DefaultPortionFormat.FillFormat.SolidFillColor.Color = Color.Black;
+    // Setting bullet level to 2 (second level indentation)
+    para3.ParagraphFormat.Depth = 2;
+
+//ExStep:6-
+    // Adding fourth paragraph with level 3 bullet (third indentation)
+    IParagraph para4 = new Paragraph();
+    para4.Text = "Fourth Level";
+    para4.ParagraphFormat.Bullet.Type = BulletType.Symbol;
+    para4.ParagraphFormat.Bullet.Char = '-'; // Dash bullet
+    para4.ParagraphFormat.DefaultPortionFormat.FillFormat.FillType = FillType.Solid;
+    para4.ParagraphFormat.DefaultPortionFormat.FillFormat.SolidFillColor.Color = Color.Black;
+    // Setting bullet level to 3 (third level indentation)
+    para4.ParagraphFormat.Depth = 3;
+
+//ExStep:7-
+    // Adding all paragraphs to the text frame collection
+    text.Paragraphs.Add(para1);
+    text.Paragraphs.Add(para2);
+    text.Paragraphs.Add(para3);
+    text.Paragraphs.Add(para4);
+
+    // Writing the presentation as a PPTX file to the specified directory
+    pres.Save(dataDir + "MultilevelBullet.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
+}
+//ExEnd

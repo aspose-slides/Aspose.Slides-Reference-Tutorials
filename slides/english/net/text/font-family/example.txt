@@ -1,0 +1,69 @@
+//ExStart
+//ExSummary:This code demonstrates how to create a PowerPoint presentation with a customized text box. It shows the process of creating a presentation, adding a text box with specific formatting properties including font style, size, color, and text effects.
+//ExStepSummary:0:The following code shows how to set up the document directory and create it if it doesn't exist:
+//ExStepSummary:1:The following code shows how to create a new PowerPoint presentation:
+//ExStepSummary:2:The following code shows how to add a rectangle AutoShape as a text box:
+//ExStepSummary:3:The following code shows how to configure the text content and access the text portion:
+//ExStepSummary:4:The following code shows how to format the font properties (typeface, bold, italic, underline):
+//ExStepSummary:5:The following code shows how to set the font size and color:
+//ExStepSummary:6:The following code shows how to save the presentation:
+//ExStepImage:2:images/1.png
+//ExStepImage:5:images/2.png
+
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+// Create directory if it is not already present.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:1-
+// Instantiate Presentation Class
+using (Presentation pres = new Presentation())
+{
+    // Get first slide
+    ISlide sld = pres.Slides[0];
+
+//ExStep:2-
+    // Add an AutoShape of Rectangle type
+    IAutoShape ashp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 50, 200, 50);
+
+    // Remove any fill style associated with the AutoShape
+    ashp.FillFormat.FillType = FillType.NoFill;
+
+//ExStep:3-
+    // Access the TextFrame associated with the AutoShape
+    ITextFrame tf = ashp.TextFrame;
+    tf.Text = "Aspose TextBox";
+
+    // Access the Portion associated with the TextFrame
+    IPortion port = tf.Paragraphs[0].Portions[0];
+
+    //ExStep:4-
+    // Set the Font for the Portion
+    port.PortionFormat.LatinFont = new FontData("Times New Roman");
+
+    // Set Bold property of the Font
+    port.PortionFormat.FontBold = NullableBool.True;
+
+    // Set Italic property of the Font
+    port.PortionFormat.FontItalic = NullableBool.True;
+
+    // Set Underline property of the Font
+    port.PortionFormat.FontUnderline = TextUnderlineType.Single;
+
+//ExStep:5-
+    // Set the Height of the Font
+    port.PortionFormat.FontHeight = 25;
+
+// Set the color of the Font
+    port.PortionFormat.FillFormat.FillType = FillType.Solid;
+    port.PortionFormat.FillFormat.SolidFillColor.Color = Color.Blue;
+
+//ExStep:6-
+    //Write the presentation to disk
+    pres.Save(dataDir + "pptxFont_out.pptx", SaveFormat.Pptx);
+}
+//ExEnd

@@ -1,0 +1,59 @@
+//ExStart
+//ExSummary:This code demonstrates how to create a PowerPoint presentation with rotated vertical text inside a rectangle shape. It shows the process of creating a presentation, adding a shape, configuring text properties, and saving the output file.
+//ExStepSummary:0:The following code shows how to set up the document directory and create a new presentation:
+//ExStepSummary:1:The following code shows how to access the first slide in the presentation:
+//ExStepSummary:2:The following code shows how to add a rectangle shape to the slide:
+//ExStepSummary:3:The following code shows how to add a text frame to the rectangle and configure its format:
+//ExStepSummary:4:The following code shows how to access the paragraph and create text content:
+//ExStepSummary:5:The following code shows how to format the text appearance:
+//ExStepSummary:6:The following code shows how to save the presentation to a file:
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:5:images/3.png
+
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+// Create an instance of Presentation class
+Presentation presentation = new Presentation();
+
+//ExStep:1-
+// Get the first slide 
+ISlide slide = presentation.Slides[0];
+
+//ExStep:2-
+// Add an AutoShape of Rectangle type
+// Parameters: shape type, x-coordinate, y-coordinate, width, height
+IAutoShape ashp = slide.Shapes.AddAutoShape(ShapeType.Rectangle, 150, 75, 350, 350);
+
+//ExStep:3-
+// Add TextFrame to the Rectangle with empty initial text
+ashp.AddTextFrame(" ");
+// Set the fill type to no fill for transparent background
+ashp.FillFormat.FillType = FillType.NoFill;
+
+// Accessing the text frame
+ITextFrame txtFrame = ashp.TextFrame;
+// Set text orientation to vertical at 270 degrees
+txtFrame.TextFrameFormat.TextVerticalType = TextVerticalType.Vertical270;
+
+//ExStep:4-
+// Create the Paragraph object for text frame
+IParagraph para = txtFrame.Paragraphs[0];
+
+// Create Portion object for paragraph
+IPortion portion = para.Portions[0];
+// Set the text content
+portion.Text = "A quick brown fox jumps over the lazy dog. A quick brown fox jumps over the lazy dog.";
+
+//ExStep:5-
+// Set the text formatting to solid fill
+portion.PortionFormat.FillFormat.FillType = FillType.Solid;
+// Set the text color to black
+portion.PortionFormat.FillFormat.SolidFillColor.Color = Color.Black;
+
+//ExStep:6-
+// Save Presentation to output file in PPTX format
+presentation.Save(dataDir + "RotateText_out.pptx", SaveFormat.Pptx);
+//ExEnd
