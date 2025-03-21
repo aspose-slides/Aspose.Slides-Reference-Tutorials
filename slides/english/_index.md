@@ -15,7 +15,7 @@ url: /
 
 Explore the extensive range of tutorials for Aspose.Slides. Uncover the realm of presentation processing as you delve into the art of utilizing Aspose.Slides to its fullest potential. These tutorials provide step-by-step guidance, helping you master tasks such as slide creation, modification, formatting, and multimedia integration in PowerPoint presentations. Whether you're a seasoned developer or a newcomer, these resources equip you with the skills needed to excel in crafting dynamic and compelling presentations using Aspose.Slides.
 
-## Aspose.Slides For .NET: The PowerPoint Processing API(./net/)
+## [Aspose.Slides For .NET: The PowerPoint Processing API](./net/)
 {{% alert color="primary" %}}
 
 Embark on a journey of expertise with our Aspose.Slides for .NET tutorials, designed to empower developers with the skills to master presentation manipulation, conversion, and PowerPoint processing. These tutorials offer hands-on guidance, enabling you to seamlessly navigate through the intricacies of creating, customizing, and transforming PowerPoint presentations programmatically. Whether you're seeking to automate tasks, convert presentations to different formats, or enhance slides with multimedia elements, these tutorials provide comprehensive insights to elevate your development capabilities and produce dynamic, professional presentations with ease.
@@ -23,6 +23,18 @@ Embark on a journey of expertise with our Aspose.Slides for .NET tutorials, desi
 {{% /alert %}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+{{< blocks/products/pf/tutorial-page-section >}}
+## [Mastering Tables in PowerPoint with Aspose.Slides for .NET](./net/tables/)
+Learn how to create, format, and manage tables in PowerPoint with our detailed guide. Enhance your presentations with organized data and visuals.
+
+{{< tutorial-card link="./net/tables/add-image-inside-table-cell/" title="Adding Images to Table Cells in PowerPoint with Aspose.Slides" imgSrc="./net/tables/add-image-inside-table-cell/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/merge-cell/" title="Create and Format Tables in PowerPoint with Aspose.Slides" imgSrc="./net/tables/merge-cell/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/standard-tables/" title="Create Standardized Tables in PowerPoint with Aspose.Slides" imgSrc="./net/tables/standard-tables/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/table-transparency/" title="Set Table Transparency in PowerPoint with Aspose.Slides" imgSrc="./net/tables/table-transparency/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/table-with-cell-borders/" title="Creating Tables with No Borders in PowerPoint Presentations" imgSrc="./net/tables/table-with-cell-borders/images/thumb.png" >}}
+{{< tutorial-card link="./net/tables/vertically-align-text/" title="Creating Tables with Vertical Text in PowerPoint Presentations" imgSrc="./net/tables/vertically-align-text/images/thumb.png" >}}
+{{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Essential PowerPoint Shape Categories](./net/shapes/)
 Learn how to create and manipulate powerful charts in PowerPoint presentations using Aspose.Slides for .NET. Complete tutorials for developers of all skill levels.
@@ -43,17 +55,7 @@ Learn how to create and manipulate powerful charts in PowerPoint presentations u
 {{< tutorial-card link="./net/shapes/tile-picture-fill-format/" title="Create Tiled Image Backgrounds in PowerPoint with Aspose.Slides" imgSrc="./net/shapes/tile-picture-fill-format/images/thumb.png" >}}
 {{< /blocks/products/pf/tutorial-page-section >}}
 
-{{< blocks/products/pf/tutorial-page-section >}}
-## [Mastering Tables in PowerPoint with Aspose.Slides for .NET](./net/tables/)
-Learn how to create, format, and manage tables in PowerPoint with our detailed guide. Enhance your presentations with organized data and visuals.
 
-{{< tutorial-card link="./net/tables/add-image-inside-table-cell/" title="Adding Images to Table Cells in PowerPoint with Aspose.Slides" imgSrc="./net/tables/add-image-inside-table-cell/images/thumb.png" >}}
-{{< tutorial-card link="./net/tables/merge-cell/" title="Create and Format Tables in PowerPoint with Aspose.Slides" imgSrc="./net/tables/merge-cell/images/thumb.png" >}}
-{{< tutorial-card link="./net/tables/standard-tables/" title="Create Standardized Tables in PowerPoint with Aspose.Slides" imgSrc="./net/tables/standard-tables/images/thumb.png" >}}
-{{< tutorial-card link="./net/tables/table-transparency/" title="Set Table Transparency in PowerPoint with Aspose.Slides" imgSrc="./net/tables/table-transparency/images/thumb.png" >}}
-{{< tutorial-card link="./net/tables/table-with-cell-borders/" title="Creating Tables with No Borders in PowerPoint Presentations" imgSrc="./net/tables/table-with-cell-borders/images/thumb.png" >}}
-{{< tutorial-card link="./net/tables/vertically-align-text/" title="Creating Tables with Vertical Text in PowerPoint Presentations" imgSrc="./net/tables/vertically-align-text/images/thumb.png" >}}
-{{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 ## [Master Chart Creation with Aspose.Slides for .NET](./net/charts/)
 Learn how to create and manipulate powerful charts in PowerPoint presentations using Aspose.Slides for .NET. Complete tutorials for developers of all skill levels.
