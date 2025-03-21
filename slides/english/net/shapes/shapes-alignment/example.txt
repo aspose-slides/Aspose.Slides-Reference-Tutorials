@@ -1,0 +1,69 @@
+//ExStart
+//ExSummary:This example demonstrates how to align shapes within slides and group shapes in PowerPoint presentations using Aspose.Slides. The code creates various rectangle shapes and aligns them using different alignment types and options.
+//ExStepSummary:0: This step sets up the output path for the PowerPoint presentation file.
+//ExStepSummary:1: This step creates three rectangle shapes at different positions on the first slide and aligns them to the bottom of the slide.
+//ExStepSummary:2: This step adds a new slide, creates a group shape containing four rectangles at different positions, and aligns all shapes to the left within the group.
+//ExStepSummary:3: This step adds another slide and creates a new group shape with four rectangles positioned at different coordinates.
+//ExStepSummary:4: This step demonstrates selective shape alignment by aligning only the first and third shapes within the group to the left.
+//ExStepSummary:5: This step saves the presentation to the specified output file in PPTX format.
+//ExStepImage:1:images/1.png
+//ExStepImage:2:images/2.png
+//ExStepImage:3:images/3.png
+//ExStepImage:4:images/4.png
+//ExStep:0-
+// Path for output presentation
+string outpptxFile = Path.Combine(RunExamples.OutPath, "ShapesAlignment_out.pptx");
+
+using (Presentation pres = new Presentation())
+{
+//ExStep:1-
+    // Get the first slide
+    ISlide slide = pres.Slides[0];
+    
+    // Create three rectangle shapes at different positions
+    slide.Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 100, 100);
+    slide.Shapes.AddAutoShape(ShapeType.Rectangle, 200, 200, 100, 100);
+    slide.Shapes.AddAutoShape(ShapeType.Rectangle, 300, 300, 100, 100);
+    
+    // Align all shapes to the bottom within the slide
+    // The second parameter (true) means all shapes will be aligned relative to the slide
+    SlideUtil.AlignShapes(ShapesAlignmentType.AlignBottom, true, pres.Slides[0]);
+
+//ExStep:2-
+    // Add a new empty slide based on the layout of the first slide
+    slide = pres.Slides.AddEmptySlide(slide.LayoutSlide);
+    
+    // Add a group shape to contain multiple shapes
+    IGroupShape groupShape = slide.Shapes.AddGroupShape();
+    
+    // Create four rectangle shapes at different positions within the group shape
+    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 350, 50, 50, 50);
+    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 450, 150, 50, 50);
+    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 550, 250, 50, 50);
+    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 650, 350, 50, 50);
+    
+    // Align all shapes to the left within the group shape
+    // The second parameter (false) means shapes will be aligned relative to each other, not the slide
+    SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, groupShape);
+
+//ExStep:3-
+    // Add another empty slide based on the layout of the previous slide
+    slide = pres.Slides.AddEmptySlide(slide.LayoutSlide);
+    
+    // Add another group shape
+    groupShape = slide.Shapes.AddGroupShape();
+    
+    // Create four more rectangle shapes at different positions within the new group shape
+    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 350, 50, 50, 50);
+    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 450, 150, 50, 50);
+    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 550, 250, 50, 50);
+    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 650, 350, 50, 50);
+//ExStep:4-   
+    // Align only shapes with indexes 0 and 2 (first and third shapes) to the left within the group shape
+    SlideUtil.AlignShapes(ShapesAlignmentType.AlignLeft, false, groupShape, new int[] { 0, 2 });
+
+//ExStep:5-
+    // Save the presentation to the specified output file in PPTX format
+    pres.Save(outpptxFile, SaveFormat.Pptx);
+}
+//ExEnd

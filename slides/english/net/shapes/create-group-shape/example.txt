@@ -1,0 +1,45 @@
+//ExStart
+//ExSummary:This code demonstrates how to create a group shape in a PowerPoint presentation and add multiple rectangle shapes within it. The group shape is positioned and framed, and the presentation is saved as a PPTX file.
+//ExStepSummary:0:The following code shows how to initialize a new PowerPoint presentation:
+//ExStepSummary:1:The following code shows how to access the first slide of the presentation:
+//ExStepSummary:2:The following code shows how to add a group shape to the slide:
+//ExStepSummary:3:The following code shows how to add multiple rectangle shapes within the group shape:
+//ExStepSummary:4:The following code shows how to add a frame to the group shape:
+//ExStepSummary:5:The following code shows how to save the presentation as a PPTX file:
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+// Instantiate Presentation class 
+using (Presentation pres = new Presentation())
+{
+//ExStep:1-
+    // Get the first slide 
+    ISlide sld = pres.Slides[0];
+
+//ExStep:2-
+    // Accessing the shape collection of slides 
+    IShapeCollection slideShapes = sld.Shapes;
+
+    // Adding a group shape to the slide 
+    IGroupShape groupShape = slideShapes.AddGroupShape();
+
+//ExStep:3-
+    // Adding shapes inside added group shape 
+    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 300, 100, 100, 100);
+    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 500, 100, 100, 100);
+    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 300, 300, 100, 100);
+    groupShape.Shapes.AddAutoShape(ShapeType.Rectangle, 500, 300, 100, 100);
+
+//ExStep:4-
+    // Adding group shape frame 
+    groupShape.Frame = new ShapeFrame(100, 300, 500, 40, NullableBool.False, NullableBool.False, 0);
+
+//ExStep:5-
+    // Write the PPTX file to disk 
+    pres.Save(dataDir + "GroupShape_out.pptx", SaveFormat.Pptx);
+}
+//ExEnd

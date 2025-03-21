@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary:This code demonstrates how to create a PowerPoint presentation with a rotated rectangle shape. It covers creating a directory, instantiating a presentation, adding and rotating a rectangle shape, and saving the presentation.
+//ExStepSummary:0:The following code shows how to set up the document directory path and create it if it doesn't exist.
+//ExStepSummary:1:The following code shows how to create a new PowerPoint presentation instance.
+//ExStepSummary:2:The following code shows how to access the first slide of the presentation.
+//ExStepSummary:3:The following code shows how to add a rectangle shape to the slide.
+//ExStepSummary:4:The following code shows how to rotate the shape 90 degrees.
+//ExStepSummary:5:The following code shows how to save the presentation to a PPTX file.
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+// Create directory if it is not already present.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:1-
+// Instantiate PresentationEx class that represents the PPTX
+using (Presentation pres = new Presentation())
+{
+//ExStep:2-
+    // Get the first slide
+    ISlide sld = pres.Slides[0];
+    
+//ExStep:3-
+    // Add autoshape of rectangle type
+    IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 75, 150);
+    
+//ExStep:4-
+    // Rotate the shape to 90 degree
+    shp.Rotation = 90;
+    
+//ExStep:5-
+    // Write the PPTX file to disk
+    pres.Save(dataDir + "RectShpRot_out.pptx", SaveFormat.Pptx);
+}
+//ExEnd

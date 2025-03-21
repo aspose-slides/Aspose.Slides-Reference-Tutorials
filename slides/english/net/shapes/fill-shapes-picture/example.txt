@@ -1,0 +1,58 @@
+//ExStart
+//ExSummary:This code demonstrates how to create a PowerPoint presentation with a rectangle shape filled with a tiled image. The code covers directory creation, presentation initialization, slide selection, shape creation, and configuring image fill properties.
+//ExStepSummary:0:The following code shows how to set up the document directory and ensure it exists:
+//ExStepSummary:1:The following code shows how to create a new PowerPoint presentation:
+//ExStepSummary:2:The following code shows how to access the first slide in the presentation:
+//ExStepSummary:3:The following code shows how to add a rectangle shape to the slide:
+//ExStepSummary:4:The following code shows how to set the fill type to picture and configure the fill mode:
+//ExStepSummary:5:The following code shows how to load an image and set it as the shape's fill:
+//ExStepSummary:6:The following code shows how to save the presentation to disk:
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+
+
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+// Create directory if it is not already present.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:1-
+// Instantiate PresentationEx class that represents the PPTX
+using (Presentation pres = new Presentation())
+{
+//ExStep:2-
+    // Get the first slide
+    ISlide sld = pres.Slides[0];
+
+//ExStep:3-
+    // Add autoshape of rectangle type
+    // Parameters: shape type, X position, Y position, width, height
+    IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 75, 150);
+
+//ExStep:4-
+    // Set the fill type to Picture
+    shp.FillFormat.FillType = FillType.Picture;
+
+    // Set the picture fill mode to Tile
+    shp.FillFormat.PictureFillFormat.PictureFillMode = PictureFillMode.Tile;
+
+//ExStep:5-
+    // Load the image from file
+    IImage img = Images.FromFile(dataDir + "Tulips.jpg");
+    
+    // Add the image to presentation's image collection
+    IPPImage imgx = pres.Images.AddImage(img);
+    
+    // Assign the image to the shape's fill
+    shp.FillFormat.PictureFillFormat.Picture.Image = imgx;
+
+//ExStep:6-
+    // Write the PPTX file to disk
+    pres.Save(dataDir + "RectShpPic_out.pptx", SaveFormat.Pptx);
+}
+//ExEnd

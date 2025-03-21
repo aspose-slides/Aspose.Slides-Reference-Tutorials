@@ -1,0 +1,71 @@
+//ExStart
+//ExSummary:This code demonstrates how to create animated text effects in PowerPoint presentations using Aspose.Slides. It shows the process of creating a text box with animation effects and adding a custom motion path triggered by a button click.
+//ExStepSummary:0:The following code shows how to set up the document directory and create it if it doesn't exist:
+//ExStepSummary:1:The following code shows how to create a new PowerPoint presentation:
+//ExStepSummary:2:The following code shows how to add an auto shape with text and apply a PathFootball animation effect:
+//ExStepSummary:3:The following code shows how to create a trigger button and add an interactive sequence:
+//ExStepSummary:4:The following code shows how to create a custom user path animation:
+//ExStepSummary:5:The following code shows how to define motion path commands for the animation:
+//ExStepSummary:6:The following code shows how to save the presentation to disk:
+//ExStepImage:5:images/1.png
+
+
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+// Create directory if it is not already present.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:1-
+// Instantiate PresentationEx class that represents the PPTX
+using (Presentation pres = new Presentation())
+{
+    // Get reference to the first slide
+    ISlide sld = pres.Slides[0];
+
+//ExStep:2-
+    // Create a rectangle auto shape with text
+    IAutoShape ashp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 150, 150, 250, 25);
+    
+    // Add text to the shape
+    ashp.AddTextFrame("Animated TextBox");
+
+    // Add PathFootBall animation effect to the shape
+    pres.Slides[0].Timeline.MainSequence.AddEffect(ashp, EffectType.PathFootball,
+                           EffectSubtype.None, EffectTriggerType.AfterPrevious);
+
+//ExStep:3-
+    // Create a bevel shape to serve as a trigger button
+    IShape shapeTrigger = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Bevel, 10, 10, 20, 20);
+
+    // Create an interactive sequence for the trigger button
+    ISequence seqInter = pres.Slides[0].Timeline.InteractiveSequences.Add(shapeTrigger);
+
+//ExStep:4-
+    // Add a user-defined path effect triggered by clicking the button
+    IEffect fxUserPath = seqInter.AddEffect(ashp, EffectType.PathUser, EffectSubtype.None, EffectTriggerType.OnClick);
+
+    // Get the motion effect behavior from the effect
+    IMotionEffect motionBhv = ((IMotionEffect)fxUserPath.Behaviors[0]);
+
+//ExStep:5-
+    // Define the first point in the motion path
+    PointF[] pts = new PointF[1];
+    pts[0] = new PointF(0.076f, 0.59f);
+    motionBhv.Path.Add(MotionCommandPathType.LineTo, pts, MotionPathPointsType.Auto, true);
+    
+    // Define the second point in the motion path
+    pts[0] = new PointF(-0.076f, -0.59f);
+    motionBhv.Path.Add(MotionCommandPathType.LineTo, pts, MotionPathPointsType.Auto, false);
+    
+    // End the motion path
+    motionBhv.Path.Add(MotionCommandPathType.End, null, MotionPathPointsType.Auto, false);
+
+//ExStep:6-
+    // Write the presentation as PPTX to disk
+    pres.Save(dataDir + "AnimExample_out.pptx", SaveFormat.Pptx);
+}
+//ExEnd

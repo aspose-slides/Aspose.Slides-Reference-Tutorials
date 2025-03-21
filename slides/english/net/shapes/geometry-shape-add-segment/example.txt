@@ -1,0 +1,43 @@
+//ExStart
+//ExSummary:This code demonstrates how to add segments to a GeometryShape in a PowerPoint presentation. It creates a rectangle shape and modifies its geometry path by adding line segments, then saves the presentation.
+//ExStepSummary:0:The following code shows how to set up the output file path for the PowerPoint presentation:
+//ExStepSummary:1:The following code shows how to create a new Presentation and add a rectangle shape to the first slide:
+//ExStepSummary:2:The following code shows how to access the geometry path of the shape:
+//ExStepSummary:3:The following code shows how to add line segments to the geometry path:
+//ExStepSummary:4:The following code shows how to assign the modified geometry path back to the shape:
+//ExStepSummary:5:The following code shows how to save the presentation to disk:
+//ExStepImage:2:images/1.png
+//ExStepImage:4:images/2.png
+
+//ExStep:0-
+// Define the output file path for the modified presentation
+string resultPath = Path.Combine(RunExamples.OutPath, "GeometryShapeAddSegment.pptx");
+
+//ExStep:1-
+// Create a new presentation instance
+using (Presentation pres = new Presentation())
+{
+    // Add a rectangle shape to the first slide of the presentation
+    GeometryShape shape = (GeometryShape)pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 100, 100, 200, 100);
+    
+//ExStep:2-
+    // Retrieve the geometry path of the newly created shape
+    // This allows us to modify the shape's outline
+    IGeometryPath geometryPath = shape.GetGeometryPaths()[0];
+
+//ExStep:3-
+    // Add two line segments to the geometry path
+    // Parameters: x-coordinate, y-coordinate, segment type
+    geometryPath.LineTo(100, 50, 1);  // Add first line segment
+    geometryPath.LineTo(100, 50, 4);  // Add second line segment
+
+//ExStep:4-
+    // Apply the modified geometry path back to the shape
+    // This updates the shape's appearance with the new segments
+    shape.SetGeometryPath(geometryPath);
+
+//ExStep:5-
+    // Save the presentation to the specified output path in PPTX format
+    pres.Save(resultPath, SaveFormat.Pptx);
+}
+//ExEnd

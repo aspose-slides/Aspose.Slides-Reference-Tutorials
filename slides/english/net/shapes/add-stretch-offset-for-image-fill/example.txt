@@ -1,0 +1,41 @@
+//ExStart
+//ExSummary:This code demonstrates how to load an image and add it to a PowerPoint presentation slide as a picture frame. It covers creating directories, instantiating a presentation, loading an image file, and saving the modified presentation.
+//ExStepSummary:0:The following code sets up the document directory and creates it if it doesn't exist
+//ExStepSummary:1:The following code creates a new PowerPoint presentation and accesses the first slide
+//ExStepSummary:2:The following code loads an image from file and adds it to the presentation's image collection
+//ExStepSummary:3:The following code adds the image as a picture frame to the slide with specific dimensions
+//ExStepSummary:4:The following code saves the presentation to disk in PPTX format
+//ExStepImage:3:images/1.png
+
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+// Create directory if it is not already present.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:1-
+// Instantiate Presentation class that represents the PPTX
+using (Presentation pres = new Presentation())
+{
+    // Get the first slide
+    ISlide sld = pres.Slides[0];
+
+//ExStep:2-
+    // Instantiate the ImageEx class and load the image from file
+    IImage img = Images.FromFile(dataDir + "aspose-logo.jpg");
+    // Add the loaded image to the presentation's image collection
+    IPPImage imgx = pres.Images.AddImage(img);
+
+//ExStep:3-
+    // Add Picture Frame with height and width equivalent to the original image
+    // Position it at coordinates (50, 150) on the slide
+    sld.Shapes.AddPictureFrame(ShapeType.Rectangle, 50, 150, imgx.Width, imgx.Height, imgx);
+
+//ExStep:4-
+    // Write the PPTX file to disk
+    pres.Save(dataDir + "AddStretchOffsetForImageFill_out.pptx", SaveFormat.Pptx);
+}
+//ExEnd

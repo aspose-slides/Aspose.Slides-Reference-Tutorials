@@ -1,0 +1,55 @@
+//ExStart
+//ExSummary:This code demonstrates how to create a PowerPoint presentation with a rectangle shape that has custom line formatting. The code creates a new presentation, adds a rectangle to the first slide, and applies specific formatting to both the fill and outline of the shape.
+//ExStepSummary:0:Setup the document directory path and ensure the directory exists
+//ExStepSummary:1:Create a new PowerPoint presentation and get the first slide
+//ExStepSummary:2:Add a rectangle shape to the slide with specified dimensions
+//ExStepSummary:3:Set the fill properties of the rectangle to solid white
+//ExStepSummary:4:Apply formatting to the line of the rectangle including style, width, and dash pattern
+//ExStepSummary:5:Set the color of the rectangle's outline to blue
+//ExStepSummary:6:Save the PowerPoint presentation to disk
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+// Create directory if it is not already present.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:1-
+// Instantiate Presentation class that represents the PPTX
+using (Presentation pres = new Presentation())
+{
+    // Get the first slide
+    ISlide sld = pres.Slides[0];
+    
+//ExStep:2-
+    // Add autoshape of rectangle type
+    IShape shp = sld.Shapes.AddAutoShape(ShapeType.Rectangle, 50, 150, 150, 75);
+    
+//ExStep:3-
+    // Set the fill color of the rectangle shape
+    shp.FillFormat.FillType = FillType.Solid;
+    shp.FillFormat.SolidFillColor.Color = Color.White;
+    
+//ExStep:4-
+    // Apply some formatting on the line of the rectangle
+    shp.LineFormat.Style = LineStyle.ThickThin;
+    shp.LineFormat.Width = 7;
+    shp.LineFormat.DashStyle = LineDashStyle.Dash;
+    
+//ExStep:5-
+    // Set the color of the line of rectangle
+    shp.LineFormat.FillFormat.FillType = FillType.Solid;
+    shp.LineFormat.FillFormat.SolidFillColor.Color = Color.Blue;
+    
+//ExStep:6-
+    //Write the PPTX file to disk
+    pres.Save(dataDir + "RectShpLn_out.pptx", SaveFormat.Pptx);
+}
+//ExEnd

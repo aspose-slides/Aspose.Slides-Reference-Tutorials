@@ -1,0 +1,64 @@
+//ExStart
+//ExSummary:This code demonstrates how to create a PowerPoint presentation with a rectangle shape filled with a tiled image. It shows the process of adding an image to a presentation, creating a rectangle shape, and applying various tile properties to the image fill.
+//ExStepSummary:0:Setting up file paths for input and output files
+//ExStepSummary:1:Creating a new presentation and accessing the first slide
+//ExStepSummary:2:Loading an image from file and adding it to the presentation's image collection
+//ExStepSummary:3:Adding a rectangle shape to the slide
+//ExStepSummary:4:Setting the fill type of the rectangle to Picture
+//ExStepSummary:5:Applying the image to the shape's fill format
+//ExStepSummary:6:Configuring tile properties for the picture fill
+//ExStepSummary:7:Saving the presentation to file
+//ExStepImage:3:images/1.png
+//ExStepImage:4:images/2.png
+//ExStepImage:5:images/3.png
+//ExStepImage:6:images/4.png
+
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+// The path to output file
+string outFilePath = Path.Combine(RunExamples.OutPath, "ImageTileExample.pptx");
+
+//ExStep:1-
+using (Presentation pres = new Presentation())
+{
+    // Access the first slide of the presentation
+    ISlide firstSlide = pres.Slides[0];
+
+//ExStep:2-
+    // Declare an IPPImage variable
+    IPPImage ppImage;
+    
+    // Load the image from file and add it to the presentation's image collection
+    using (IImage newImage = Aspose.Slides.Images.FromFile(Path.Combine(dataDir, "image.png")))
+        ppImage = pres.Images.AddImage(newImage);
+
+//ExStep:3-
+    // Add a new Rectangle shape to the slide with specified dimensions
+    var newShape = firstSlide.Shapes.AddAutoShape(ShapeType.Rectangle, 0, 0, 350, 350);
+
+//ExStep:4-
+    // Set the fill type of the shape to Picture
+    newShape.FillFormat.FillType = FillType.Picture;
+
+//ExStep:5-
+    // Get the PictureFillFormat object and set the image
+    IPictureFillFormat pictureFillFormat = newShape.FillFormat.PictureFillFormat;
+    pictureFillFormat.Picture.Image = ppImage;
+
+//ExStep:6-
+    // Set the picture fill mode to Tile and configure tile properties
+    pictureFillFormat.PictureFillMode = PictureFillMode.Tile;
+    pictureFillFormat.TileOffsetX = -275;     // Set horizontal offset of the tile
+    pictureFillFormat.TileOffsetY = -247;     // Set vertical offset of the tile
+    pictureFillFormat.TileScaleX = 120;       // Set horizontal scale percentage
+    pictureFillFormat.TileScaleY = 120;       // Set vertical scale percentage
+    pictureFillFormat.TileAlignment = RectangleAlignment.BottomRight;  // Set tile alignment
+    pictureFillFormat.TileFlip = TileFlip.FlipBoth;  // Set flip mode for the tile
+
+//ExStep:7-
+    // Save the presentation to the specified output path
+    pres.Save(outFilePath, SaveFormat.Pptx);
+}
+//ExEnd

@@ -1,0 +1,37 @@
+//ExStart
+//ExSummary:This code demonstrates how to modify a geometric shape by removing a segment from its geometry path in a PowerPoint presentation. This approach allows for custom shape creation by manipulating existing shape paths.
+//ExStepSummary:0:The following code shows how to set up the output file path for the PowerPoint presentation:
+//ExStepSummary:1:The following code shows how to create a new presentation and add a heart shape to the first slide:
+//ExStepSummary:2:The following code shows how to access the geometry path of the shape:
+//ExStepSummary:3:The following code shows how to remove a specific segment from the geometry path:
+//ExStepSummary:4:The following code shows how to apply the modified geometry path back to the shape:
+//ExStepSummary:5:The following code shows how to save the presentation with the modified shape:
+//ExStepImage:1:images/1.png
+//ExStepImage:4:images/2.png
+//ExStep:0-
+// Output file name
+string resultPath = Path.Combine(RunExamples.OutPath, "GeometryShapeRemoveSegment.pptx");
+
+//ExStep:1-
+using (Presentation pres = new Presentation())
+{
+    // Create new shape - add a heart shape to the first slide with specified dimensions
+    GeometryShape shape = (GeometryShape)pres.Slides[0].Shapes.AddAutoShape(ShapeType.Heart, 100, 100, 300, 300);
+    
+//ExStep:2-
+    // Get geometry path of the shape - access the first geometry path of the heart shape
+    IGeometryPath path = shape.GetGeometryPaths()[0];
+    
+//ExStep:3-
+    // Remove segment - delete the third segment (index 2) from the geometry path
+    path.RemoveAt(2);
+    
+//ExStep:4-
+    // Set new geometry path - apply the modified path back to the shape
+    shape.SetGeometryPath(path);
+    
+//ExStep:5-
+    // Save the presentation with the modified shape to the specified path
+    pres.Save(resultPath, SaveFormat.Pptx);
+}
+//ExEnd

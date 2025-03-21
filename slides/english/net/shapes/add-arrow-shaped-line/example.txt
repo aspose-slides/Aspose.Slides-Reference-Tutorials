@@ -1,0 +1,66 @@
+//ExStart
+//ExSummary:This code demonstrates how to create a presentation with a customized line shape. The example shows how to add a line with various formatting options including style, width, dash style, arrowheads, and color.
+//ExStepSummary:0:The following code shows how to set up the document directory and ensure it exists:
+//ExStepSummary:1:The following code shows how to create a new PowerPoint presentation:
+//ExStepSummary:2:The following code shows how to get the first slide and add a line shape:
+//ExStepSummary:3:The following code shows how to format the line style and width:
+//ExStepSummary:4:The following code shows how to set the dash style for the line:
+//ExStepSummary:5:The following code shows how to customize the beginning arrowhead:
+//ExStepSummary:6:The following code shows how to customize the ending arrowhead:
+//ExStepSummary:7:The following code shows how to set the line color:
+//ExStepSummary:8:The following code shows how to save the presentation:
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStepImage:6:images/5.png
+//ExStepImage:7:images/6.png
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+// Create directory if it is not already present.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:1-
+// Instantiate PresentationEx class that represents the PPTX file
+using (Presentation pres = new Presentation())
+{
+//ExStep:2-
+    // Get the first slide
+    ISlide sld = pres.Slides[0];
+
+    // Add an autoshape of type line
+    IAutoShape shp = sld.Shapes.AddAutoShape(ShapeType.Line, 50, 150, 300, 0);
+
+//ExStep:3-
+    // Apply some formatting on the line
+    shp.LineFormat.Style = LineStyle.ThickBetweenThin;
+    shp.LineFormat.Width = 10;
+
+//ExStep:4-
+    // Set the dash style for the line
+    shp.LineFormat.DashStyle = LineDashStyle.DashDot;
+
+//ExStep:5-
+    // Configure the beginning arrowhead properties
+    shp.LineFormat.BeginArrowheadLength = LineArrowheadLength.Short;
+    shp.LineFormat.BeginArrowheadStyle = LineArrowheadStyle.Oval;
+
+//ExStep:6-
+    // Configure the ending arrowhead properties
+    shp.LineFormat.EndArrowheadLength = LineArrowheadLength.Long;
+    shp.LineFormat.EndArrowheadStyle = LineArrowheadStyle.Triangle;
+
+//ExStep:7-
+    // Set the line color to Maroon
+    shp.LineFormat.FillFormat.FillType = FillType.Solid;
+    shp.LineFormat.FillFormat.SolidFillColor.Color = Color.Maroon;
+
+//ExStep:8-
+    // Write the PPTX to disk
+    pres.Save(dataDir + "LineShape2_out.pptx", SaveFormat.Pptx);
+}
+//ExEnd

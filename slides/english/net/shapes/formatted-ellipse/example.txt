@@ -1,0 +1,48 @@
+//ExStart
+//ExSummary:This code demonstrates how to create a PowerPoint presentation with an elliptical shape, apply formatting to the shape including fill color and line properties, and save the presentation as a PPTX file.
+//ExStepSummary:0:The following code shows how to set up the document directory and ensure it exists:
+//ExStepSummary:1:The following code shows how to create a new PowerPoint presentation:
+//ExStepSummary:2:The following code shows how to access the first slide and add an elliptical shape:
+//ExStepSummary:3:The following code shows how to apply fill formatting to the elliptical shape:
+//ExStepSummary:4:The following code shows how to apply line formatting to the elliptical shape:
+//ExStepSummary:5:The following code shows how to save the presentation to disk:
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+// Create directory if it is not already present.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:1-
+// Instantiate Presentation class that represents the PPTX
+using (Presentation pres = new Presentation())
+{
+//ExStep:2-
+    // Get the first slide
+    ISlide sld = pres.Slides[0];
+
+    // Add autoshape of ellipse type
+    IShape shp = sld.Shapes.AddAutoShape(ShapeType.Ellipse, 50, 150, 150, 50);
+
+//ExStep:3-
+    // Apply some formatting to ellipse shape
+    shp.FillFormat.FillType = FillType.Solid;
+    shp.FillFormat.SolidFillColor.Color = Color.Chocolate;
+
+//ExStep:4-
+    // Apply some formatting to the line of Ellipse
+    shp.LineFormat.FillFormat.FillType = FillType.Solid;
+    shp.LineFormat.FillFormat.SolidFillColor.Color = Color.Black;
+    shp.LineFormat.Width = 5;
+
+//ExStep:5-
+    //Write the PPTX file to disk
+    pres.Save(dataDir + "EllipseShp2_out.pptx", SaveFormat.Pptx);
+}
+//ExEnd

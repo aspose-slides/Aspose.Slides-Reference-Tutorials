@@ -1,0 +1,52 @@
+//ExStart
+//ExSummary:This code demonstrates how to create a PowerPoint presentation with an ellipse shape that has a gradient fill effect. The code creates a new presentation, adds an ellipse to the first slide, and applies a gradient fill with custom stops.
+//ExStepSummary:0:The following code sets up the document directory and ensures it exists:
+//ExStepSummary:1:The following code creates a new PowerPoint presentation:
+//ExStepSummary:2:The following code adds an ellipse shape to the first slide:
+//ExStepSummary:3:The following code applies gradient formatting to the ellipse shape:
+//ExStepSummary:4:The following code sets the gradient direction:
+//ExStepSummary:5:The following code adds gradient stops with different colors:
+//ExStepSummary:6:The following code saves the presentation to disk:
+//ExStepImage:2:images/1.png
+//ExStepImage:3:images/2.png
+//ExStepImage:4:images/3.png
+//ExStepImage:5:images/4.png
+//ExStep:0-
+// The path to the documents directory.
+string dataDir = "Your Document Directory";
+
+// Create directory if it is not already present.
+bool IsExists = System.IO.Directory.Exists(dataDir);
+if (!IsExists)
+    System.IO.Directory.CreateDirectory(dataDir);
+
+//ExStep:1-
+// Instantiate Presentation class that represents the PPTX
+using (Presentation pres = new Presentation())
+{
+//ExStep:2-
+    // Get the first slide
+    ISlide sld = pres.Slides[0];
+
+    // Add autoshape of ellipse type
+    IShape shp = sld.Shapes.AddAutoShape(ShapeType.Ellipse, 50, 150, 75, 150);
+
+//ExStep:3-
+    // Apply some gradient formatting to ellipse shape
+    shp.FillFormat.FillType = FillType.Gradient;
+    shp.FillFormat.GradientFormat.GradientShape = GradientShape.Linear;
+    
+//ExStep:4-
+    // Set the Gradient Direction
+    shp.FillFormat.GradientFormat.GradientDirection = GradientDirection.FromCorner2;
+
+//ExStep:5-
+    // Add two Gradient Stops
+    shp.FillFormat.GradientFormat.GradientStops.Add((float)1.0, PresetColor.Purple);
+    shp.FillFormat.GradientFormat.GradientStops.Add((float)0, PresetColor.Red);
+
+//ExStep:6-
+    //Write the PPTX file to disk
+    pres.Save(dataDir + "EllipseShpGrad_out.pptx", SaveFormat.Pptx);
+}
+//ExEnd
