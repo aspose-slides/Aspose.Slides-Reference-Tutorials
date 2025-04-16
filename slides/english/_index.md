@@ -88,6 +88,7 @@ Learn how to add, format, and style text in PowerPoint presentations. Master tex
 {{< /blocks/products/pf/tutorial-page-section >}}
 {{< blocks/products/pf/tutorial-page-section >}}
 These are links to some useful resources:
+- [Getting Started](./net/getting-started/)
 - [Presentation Conversion](./net/presentation-conversion/)
 - [Presentation Manipulation](./net/presentation-manipulation/)
 - [Slide Access and Manipulation](./net/slide-access-and-manipulation/)
@@ -110,7 +111,26 @@ These are links to some useful resources:
 - [Image and Video Manipulation in Slides](./net/image-and-video-manipulation-in-slides/)
 - [Shape Geometry and Positioning in Slides](./net/shape-geometry-and-positioning-in-slides/)
 - [Shape Alignment and Formatting in Slides](./net/shape-alignment-and-formatting-in-slides/)
-
+- [Presentation Operations](./net/presentation-operations/)
+- [Slide Management](./net/slide-management/)
+- [Shapes & Text Frames](./net/shapes-text-frames/)
+- [Charts & Graphs](./net/charts-graphs/)
+- [Images & Multimedia](./net/images-multimedia/)
+- [Smart Art & Diagrams](./net/smart-art-diagrams/)
+- [Animations & Transitions](./net/animations-transitions/)
+- [Formatting & Styles](./net/formatting-styles/)
+- [Master Slides & Templates](./net/master-slides-templates/)
+- [Comments & Reviewing](./net/comments-reviewing/)
+- [Security & Protection](./net/security-protection/)
+- [Headers, Footers & Notes](./net/headers-footers-notes/)
+- [Printing & Rendering](./net/printing-rendering/)
+- [Data Integration](./net/data-integration/)
+- [OLE Objects & Embedding](./net/ole-objects-embedding/)
+- [Performance Optimization](./net/performance-optimization/)
+- [Export & Conversion](./net/export-conversion/)
+- [VBA Macros & Automation](./net/vba-macros-automation/)
+- [Custom Properties & Metadata](./net/custom-properties-metadata/)
+- [Batch Processing](./net/batch-processing/)
 ## Aspose.Slides For Java: The Presentation Processing API
 {{% alert color="primary" %}}
 

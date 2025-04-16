@@ -87,6 +87,8 @@ Learn how to add, format, and style text in PowerPoint presentations. Master tex
 
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Aspose.Slides for .NET Tutorials
+### [Getting Started](./getting-started/)
+Begin your journey with Aspose.Slides for .NET with our comprehensive getting started tutorials. Learn how to install, set up licensing, and create your first presentations programmatically. Perfect for developers new to PowerPoint automation!
 ### [Presentation Conversion](./presentation-conversion/)
 Elevate your skills with Aspose.Slides for .NET tutorials. Learn presentation conversion and PowerPoint processing step-by-step. Transform your workflow today!
 ### [Presentation Manipulation](./presentation-manipulation/)
@@ -131,6 +133,46 @@ Enhance your slide presentations with captivating images and videos using Aspose
 Enhance your slide manipulation skills with Aspose.Slides tutorials on shape geometry and positioning in slides. Learn to programmatically control shapes, their dimensions, and alignment.
 ### [Shape Alignment and Formatting in Slides](./shape-alignment-and-formatting-in-slides/)
 Explore the comprehensive Aspose.Slides tutorials on shape alignment and formatting in .NET applications. Learn to align and format shapes effortlessly, enhancing your slide presentations with precision. 
+### [Presentation Operations](./presentation-operations/)
+Unlock the potential of presentation manipulation with Aspose.Slides for .NET tutorials. Learn how to dynamically create, load, save, and convert PowerPoint presentations programmatically. Elevate your PowerPoint processing skills today!
+### [Slide Management](./slide-management/)
+Master slide manipulation with our detailed Aspose.Slides for .NET tutorials. Learn to create, modify, clone, and rearrange slides programmatically with complete C# code examples and step-by-step guidance.
+### [Shapes & Text Frames](./shapes-text-frames/)
+Explore how to work with shapes and text frames in PowerPoint using Aspose.Slides for .NET. These tutorials cover creating, formatting, and manipulating various slide elements with practical code examples.
+### [Charts & Graphs](./charts-graphs/)
+Transform your data into compelling visualizations with Aspose.Slides for .NET. These tutorials walk you through creating and customizing various chart types with complete C# implementation examples.
+### [Images & Multimedia](./images-multimedia/)
+Enhance your presentations with rich media using Aspose.Slides for .NET. Learn to insert and manipulate images, audio, and video elements programmatically with our step-by-step tutorials.
+### [Smart Art & Diagrams](./smart-art-diagrams/)
+Create professional SmartArt graphics and diagrams in PowerPoint with Aspose.Slides for .NET. Our tutorials demonstrate how to build and customize various diagram types with complete code examples.
+### [Animations & Transitions](./animations-transitions/)
+Add dynamic elements to your presentations with Aspose.Slides for .NET. Learn to implement slide transitions, object animations, and timing effects programmatically with our comprehensive tutorials.
+### [Formatting & Styles](./formatting-styles/)
+Create visually stunning presentations by mastering formatting and styling with Aspose.Slides for .NET. These tutorials cover themes, color schemes, and consistent design implementation.
+### [Master Slides & Templates](./master-slides-templates/)
+Develop consistent presentation designs using master slides and templates with Aspose.Slides for .NET. Learn to create and modify slide masters and layouts for professional results.
+### [Comments & Reviewing](./comments-reviewing/)
+Implement collaborative features in PowerPoint using Aspose.Slides for .NET. Our tutorials demonstrate how to programmatically manage comments and review functionality in presentations.
+### [Security & Protection](./security-protection/)
+Secure your PowerPoint presentations with Aspose.Slides for .NET. These tutorials cover password protection, encryption, and access control implementation with practical C# examples.
+### [Headers, Footers & Notes](./headers-footers-notes/)
+Learn to work with presentation metadata elements using Aspose.Slides for .NET. Our tutorials cover adding and managing headers, footers, slide numbers, and speaker notes effectively.
+### [Printing & Rendering](./printing-rendering/)
+Convert PowerPoint content to various formats with Aspose.Slides for .NET. These tutorials demonstrate how to render presentations to images, generate thumbnails, and control output quality.
+### [Data Integration](./data-integration/)
+Build data-driven presentations with Aspose.Slides for .NET. Learn to connect to data sources and dynamically generate content with our practical, step-by-step tutorials.
+### [OLE Objects & Embedding](./ole-objects-embedding/)
+Work with embedded objects and linked content in PowerPoint using Aspose.Slides for .NET. These tutorials demonstrate how to manage complex compound presentations programmatically.
+### [Performance Optimization](./performance-optimization/)
+Optimize your Aspose.Slides for .NET applications for speed and efficiency. Learn best practices for memory management and handling large presentations with our detailed tutorials.
+### [Export & Conversion](./export-conversion/)
+Master PowerPoint conversion with Aspose.Slides for .NET. Our tutorials demonstrate how to transform presentations to PDF, HTML, images, and other formats with precise control over output settings.
+### [VBA Macros & Automation](./vba-macros-automation/)
+Work with PowerPoint VBA macros and automate presentation tasks using Aspose.Slides for .NET. These tutorials cover macro extraction, modification, and execution control.
+### [Custom Properties & Metadata](./custom-properties-metadata/)
+Manage document properties and metadata in PowerPoint with Aspose.Slides for .NET. Learn to read, write, and leverage presentation metadata for improved document management.
+### [Batch Processing](./batch-processing/)
+Process multiple PowerPoint files efficiently with Aspose.Slides for .NET. Our tutorials demonstrate bulk conversion, automation workflows, and high-volume presentation processing techniques.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
