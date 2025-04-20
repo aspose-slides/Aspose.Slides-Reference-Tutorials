@@ -118,7 +118,72 @@ Our step-by-step tutorials cover every aspect of PowerPoint development in Java.
 **Create captivating visual experiences** - Learn to add professional animations, transitions, and visual effects to engage your audience and emphasize key points.
 
 ### [Text & Paragraph Formatting](./java-powerpoint-text-paragraph-management/)
-**Achieve perfect text layout** - Master paragraph spacing, bullet points, text columns, text boxes, and advanced typography for professional-looking slides.
+**Achieve perfect text layout** - Master paragraph spacing, bullet points, text columns, text boxes, and advanced typography for professional-looking slides.\
+### [Getting Started with Aspose.Slides](./getting-started/)
+**Master the basics of PowerPoint development in Java** - Installation guides, licensing setup, creating your first presentation, and understanding the fundamental Aspose.Slides architecture.
+
+### [Presentation File Operations](./presentation-operations/)
+**Manage PowerPoint files programmatically in Java** - Learn to create, load, save, and convert presentations between multiple formats including PPTX, PPT, PDF, and HTML.
+
+### [Slide Management and Manipulation](./slide-management/)
+**Control slides with precision in your Java applications** - Add, remove, clone, and rearrange slides, work with slide layouts, and manage slide collections efficiently.
+
+### [Shapes and Text Frame Handling](./shapes-text-frames/)
+**Create and modify presentation visual elements** - Manipulate AutoShapes, text frames, rich text formatting, and shape positioning with complete Java code examples.
+
+### [PowerPoint Tables in Java](./tables/)
+**Build professional data tables in presentations** - Create structured tables, format cells, manage borders and shading, and implement advanced table operations programmatically.
+
+### [Charts and Data Visualization](./charts-graphs/)
+**Implement powerful data visualizations** - Generate various chart types, customize data series, format chart elements, and create dynamic data-driven charts in PowerPoint.
+
+### [Working with Images and Multimedia](./images-multimedia/)
+**Enhance slides with rich media content** - Insert and manipulate images, audio, video clips, and create visually engaging presentations using Java code.
+
+### [SmartArt and Diagram Creation](./smart-art-diagrams/)
+**Build complex visual hierarchies and diagrams** - Create organizational charts, process diagrams, and custom SmartArt graphics with precise programmatic control.
+
+### [Animation and Transition Effects](./animations-transitions/)
+**Add dynamic motion to your presentations** - Implement slide transitions, object animations, and timing controls to create engaging PowerPoint presentations.
+
+### [Slide Formatting and Design](./formatting-styles/)
+**Control the visual appearance of your slides** - Work with themes, color schemes, backgrounds, and master slide formatting for consistent professional presentations.
+
+### [Master Slides and Templates](./master-slides-templates/)
+**Build reusable presentation designs** - Create and manipulate slide masters, custom layouts, and template-based presentation generation for consistency across decks.
+
+### [Comments and Review Features](./comments-reviewing/)
+**Implement collaboration tools in presentations** - Add, modify and manage comments, annotations, and review markups programmatically in PowerPoint files.
+
+### [Presentation Security Options](./security-protection/)
+**Protect sensitive presentation content** - Implement password protection, encryption, digital signatures, and access control for PowerPoint files using Java.
+
+### [Headers, Footers and Notes](./headers-footers-notes/)
+**Add essential presentation metadata** - Manage slide numbers, headers/footers, date fields, and presenter notes programmatically across your presentations.
+
+### [Slide Rendering and Printing](./printing-rendering/)
+**Convert slides to other visual formats** - Generate high-quality images from slides, create thumbnails, and implement printing capabilities in your Java applications.
+
+### [Data-Driven Presentations](./data-integration/)
+**Connect presentations to external data** - Bind slide content to databases, XML, or other data sources to generate dynamic, data-powered PowerPoint presentations.
+
+### [OLE Objects and Embedded Content](./ole-objects-embedding/)
+**Work with compound documents and embedding** - Insert, extract and manipulate embedded objects, linked files, and OLE content in PowerPoint presentations.
+
+### [PowerPoint Performance Optimization](./performance-optimization/)
+**Create efficient, scalable presentation applications** - Optimize memory usage, improve processing speed, and handle large presentations effectively in production environments.
+
+### [Export and Format Conversion](./export-conversion/)
+**Transform presentations to various formats** - Convert PowerPoint files to PDF, HTML, images and other document types with precise control over the output quality.
+
+### [PowerPoint Automation and Scripting](./vba-macros-automation/)
+**Streamline presentation workflows** - Work with VBA macros, implement presentation automation, and create scripted operations for batch PowerPoint processing.
+
+### [Managing Document Properties](./custom-properties-metadata/)
+**Control presentation metadata effectively** - Read and write document properties, create custom attributes, and manage hidden information in PowerPoint files.
+
+### [Batch Processing PowerPoint Files](./batch-processing/)
+**Process multiple presentations efficiently** - Implement batch operations, automate repetitive tasks, and manage large collections of PowerPoint files programmatically.
 
 ## Join Our Thriving Developer Community
 
