@@ -240,7 +240,6 @@ Explore Aspose.Slides for Python via .NET—a powerful PowerPoint automation lib
 - [Import & Export](./python-net/import-export/)
 - [Templates & Reporting](./python-net/templates-reporting/)
 - [Performance Optimization](./python-net/performance-optimization/)
-- [Integration & Interoperability](./python-net/integration-interoperability/)
 - [VBA Macros](./python-net/vba-macros/)
 - [Batch Processing](./python-net/batch-processing/)
 - [Math Equations](./python-net/math-equations/)

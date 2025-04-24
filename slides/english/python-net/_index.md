@@ -102,9 +102,6 @@ Our step-by-step tutorials cover every aspect of PowerPoint development in Pytho
 ### [Performance Optimization](./performance-optimization/)
 **Create efficient, scalable presentation applications** - Optimize memory usage, improve execution speed, and handle large presentations effectively.
 
-### [Integration & Interoperability](./integration-interoperability/)
-**Create comprehensive document processing solutions** - Integrate Aspose.Slides with other Aspose products, third-party libraries, and external systems in Python.
-
 ### [VBA Macros](./vba-macros/)
 **Manage automation code in presentations** - Work with VBA macros, extraction, preservation, and macro security in PowerPoint.
 
