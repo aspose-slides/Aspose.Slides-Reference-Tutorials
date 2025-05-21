@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Convert PowerPoint Presentations to TIFF Images Using Aspose.Slides in Python
 
@@ -165,7 +167,11 @@ Next steps include exploring other functionalities of Aspose.Slides and experime
 - **Support Forum**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Ready to start converting your presentations? Give this tutorial a try and unlock the full potential of Aspose.Slides for Python!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

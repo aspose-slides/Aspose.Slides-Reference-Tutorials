@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Implement Custom SVG Shape Formatting in Aspose.Slides for .NET
 
@@ -98,7 +100,11 @@ public void FormatShape(ISvgShape svgShape, IShape shape)
 {
     // Assign a unique ID based on its index
     svgShape.Id = string.Format("shape-{0}\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

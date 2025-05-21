@@ -8,7 +8,9 @@ url: /net/image-and-video-manipulation-in-slides/creating-summary-zoom/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides - Mastering Summary Zooms in .NET
@@ -89,6 +91,7 @@ Yes, you can explore the features of Aspose.Slides by downloading the [free tria
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

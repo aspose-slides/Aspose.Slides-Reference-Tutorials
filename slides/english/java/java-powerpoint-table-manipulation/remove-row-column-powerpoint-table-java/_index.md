@@ -8,7 +8,9 @@ url: /java/java-powerpoint-table-manipulation/remove-row-column-powerpoint-table
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Row or Column in PowerPoint Table using Java
@@ -84,6 +86,7 @@ Yes, you can download a free trial of Aspose.Slides from [here](https://releases
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/presentation-manipulation/achieving-pdf-a-and-pdf-ua-conformance-with-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Achieving PDF/A and PDF/UA Conformance with Aspose.Slides
@@ -137,6 +139,7 @@ PDF/UA compliance is especially important for documents that are intended to be 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

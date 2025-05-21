@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-font-customization/set-text-font-properties-powe
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Text Font Properties in PowerPoint with Java
@@ -95,6 +97,7 @@ Visit [Aspose.Slides Forum](https://forum.aspose.com/c/slides/11) for community 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

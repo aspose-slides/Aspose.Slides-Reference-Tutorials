@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering ActiveX Controls in PowerPoint with Aspose.Slides for .NET
 
@@ -204,6 +206,9 @@ Ready to take your skills to the next level? Try implementing a custom solution 
    Aspose.Slides for .NET is a library that enables developers to create, edit, and manipulate PowerPoint presentations programmatically.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

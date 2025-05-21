@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Edit OLE Objects in PowerPoint Using Aspose.Slides .NET: A Step-by-Step Guide
 
@@ -205,6 +207,9 @@ Next steps could include exploring more advanced features of Aspose.Slides or in
 - [Community Forum](https://forum.aspose.com/c/slides)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

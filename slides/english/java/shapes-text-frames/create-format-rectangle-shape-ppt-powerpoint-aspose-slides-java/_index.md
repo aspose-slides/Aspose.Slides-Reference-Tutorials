@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create and Format a Rectangle Shape in PowerPoint Using Aspose.Slides for Java
 
@@ -205,7 +207,11 @@ A: Ensure directory paths are valid and writable. Use `createDirectoryIfNeeded` 
 
 **Q: Are there any limitations when using Aspose.Slides for Java?**
 A: The library is feature-rich, but always review the latest documentation for any usage constraints.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

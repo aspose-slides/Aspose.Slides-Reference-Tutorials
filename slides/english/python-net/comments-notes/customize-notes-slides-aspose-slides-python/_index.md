@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Customize PowerPoint Notes Slides with Aspose.Slides for Python
 
@@ -198,6 +200,9 @@ Ready to take your presentations to the next level? Try implementing these solut
 Embark on your journey to create more professional and customized presentations with Aspose.Slides for Python. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

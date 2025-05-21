@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Funnel Chart Creation in PowerPoint with Aspose.Slides for Java
 
@@ -264,7 +266,11 @@ try {
 
 ## Conclusion
 By following this guide, you've learned how to create and customize funnel charts in PowerPoint using Aspose.Slides for Java. These skills will help you enhance your presentations by effectively visualizing stages within a process or sales pipeline.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

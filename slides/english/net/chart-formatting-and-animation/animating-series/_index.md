@@ -8,7 +8,9 @@ url: /net/chart-formatting-and-animation/animating-series/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Animate Chart Series with Aspose.Slides for .NET
@@ -119,6 +121,7 @@ You can acquire a license for Aspose.Slides for .NET from the purchase page [her
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

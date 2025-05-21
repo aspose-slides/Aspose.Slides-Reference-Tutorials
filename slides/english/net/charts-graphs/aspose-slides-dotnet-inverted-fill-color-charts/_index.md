@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Invert Fill Color in .NET Charts with Aspose.Slides: A Developer's Guide
 ## Introduction
@@ -144,7 +146,11 @@ For further exploration, consider integrating charts into dynamic presentations 
 - **Purchase**: Buy licenses directly through [Aspose Purchase Page](https://purchase.aspose.com/buy).
 - **Free Trial and Temporary License**: Test features via the [trial page](https://releases.aspose.com/slides/net/) or get a temporary license on their [license page](https://purchase.aspose.com/temporary-license/).
 - **Support**: For assistance, visit the [Aspose Support Forum](https://forum.aspose.com/c/slides).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

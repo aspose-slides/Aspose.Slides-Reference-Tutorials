@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Implement Default Text Language in Java Presentations Using Aspose.Slides
 
@@ -75,7 +77,7 @@ public class Main {
         try {
             license.setLicense("path_to_license.lic");
         } catch (Exception e) {
-            System.out.println(\"License setup failed: \" + e.getMessage());
+            System.out.println("License setup failed: " + e.getMessage());
         }
         
         // Proceed with your presentation creation tasks...
@@ -97,10 +99,10 @@ Setting a default text language ensures that all texts in the presentation are m
 
    // Create load options to specify the default text language.
    LoadOptions loadOptions = new LoadOptions();
-   loadOptions.setDefaultTextLanguage(\"en-US\");
+   loadOptions.setDefaultTextLanguage("en-US");
    ```
 
-   *Explanation*: Here, we create a `LoadOptions` object and set its default text language to \"en-US\" (U.S. English). This setting will apply to all text in the presentation.
+   *Explanation*: Here, we create a `LoadOptions` object and set its default text language to "en-US" (U.S. English). This setting will apply to all text in the presentation.
 
 2. **Create Presentation with Custom Load Options**
 
@@ -120,7 +122,7 @@ Setting a default text language ensures that all texts in the presentation are m
            ShapeType.Rectangle, 50, 50, 150, 50);
        
        // Set text for the shape.
-       shp.getTextFrame().setText(\"New Text\");
+       shp.getTextFrame().setText("New Text");
    } finally {
        if (pres != null) pres.dispose();
    }
@@ -135,7 +137,7 @@ Setting a default text language ensures that all texts in the presentation are m
        .getPortionFormat().getLanguageId();
    ```
 
-   *Explanation*: Retrieve the `languageId` to confirm that it matches \"en-US\". This step verifies that our default language setting is correctly applied.
+   *Explanation*: Retrieve the `languageId` to confirm that it matches "en-US". This step verifies that our default language setting is correctly applied.
 
 ### Practical Applications
 
@@ -192,6 +194,9 @@ Feel free to reach out with any questions or share your experiences using Aspose
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

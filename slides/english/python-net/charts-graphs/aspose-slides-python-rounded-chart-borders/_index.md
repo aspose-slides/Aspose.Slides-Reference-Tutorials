@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Enhancing PowerPoint Charts with Rounded Borders in Aspose.Slides
 
@@ -169,7 +171,11 @@ Try implementing these techniques in your next presentation project!
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 Start enhancing your PowerPoint presentations with Aspose.Slides for Python today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

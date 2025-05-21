@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Extract Audio from PowerPoint Slides Using Aspose.Slides for .NET
 
@@ -195,7 +197,11 @@ A5: Aspose.Slides for .NET is platform-independent, but always check compatibili
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 Embark on your audio extraction journey today with Aspose.Slides for .NET!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

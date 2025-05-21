@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Export PowerPoint Presentations to PDF with Embedded OLE Data Using Aspose.Slides for .NET
 
@@ -95,7 +97,11 @@ pdfOptions.EmbedFullFonts = true; // Ensures fonts are embedded in the PDF
 ```csharp
 // Save the presentation as a PDF with OLE data.
 presentation.Save(outFilePath + "ExportedPresentation.pdf\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

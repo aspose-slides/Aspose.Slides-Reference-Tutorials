@@ -1,30 +1,32 @@
 ---
-title: احصل على الموضع الفعلي لتسمية بيانات المخطط في شرائح Java
-linktitle: احصل على الموضع الفعلي لتسمية بيانات المخطط في شرائح Java
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية الحصول على الموضع الفعلي لتسميات بيانات المخطط في Java Slides باستخدام Aspose.Slides for Java. دليل خطوة بخطوة مع كود المصدر.
-weight: 18
-url: /ar/java/data-manipulation/actual-position-chart-data-label-java-slides/
+"description": "تعرّف على كيفية الحصول على الموضع الفعلي لعلامات بيانات المخططات في شرائح جافا باستخدام Aspose.Slides لجافا. دليل خطوة بخطوة مع الكود المصدر."
+"linktitle": "الحصول على الموضع الفعلي لملصق بيانات الرسم البياني في شرائح Java"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "الحصول على الموضع الفعلي لملصق بيانات الرسم البياني في شرائح Java"
+"url": "/ar/java/data-manipulation/actual-position-chart-data-label-java-slides/"
+"weight": 18
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# احصل على الموضع الفعلي لتسمية بيانات المخطط في شرائح Java
+# الحصول على الموضع الفعلي لملصق بيانات الرسم البياني في شرائح Java
 
 
-## مقدمة للحصول على الموضع الفعلي لتسمية بيانات المخطط في شرائح Java
+## مقدمة للحصول على الموضع الفعلي لعلامة بيانات الرسم البياني في شرائح Java
 
-في هذا البرنامج التعليمي، ستتعلم كيفية استرداد الموضع الفعلي لتسميات بيانات المخطط باستخدام Aspose.Slides لـ Java. سنقوم بإنشاء برنامج Java الذي يقوم بإنشاء عرض تقديمي لـ PowerPoint مع مخطط، وتخصيص تسميات البيانات، ثم إضافة أشكال تمثل مواضع تسميات البيانات هذه.
+في هذا البرنامج التعليمي، ستتعلم كيفية استرجاع الموضع الفعلي لعلامات بيانات المخطط باستخدام Aspose.Slides لجافا. سننشئ برنامج جافا يُنشئ عرضًا تقديميًا في PowerPoint يحتوي على مخطط، ويُخصص علامات البيانات، ثم يُضيف أشكالًا تُمثل مواضع هذه العلامات.
 
 ## المتطلبات الأساسية
 
 قبل أن تبدأ، تأكد من إعداد مكتبة Aspose.Slides for Java في مشروع Java الخاص بك.
 
-## الخطوة 1: إنشاء عرض تقديمي لـ PowerPoint
+## الخطوة 1: إنشاء عرض تقديمي في PowerPoint
 
-أولاً، لنقم بإنشاء عرض تقديمي جديد لبرنامج PowerPoint ونضيف إليه مخططًا. سنقوم بتخصيص تسميات بيانات المخطط لاحقًا في البرنامج التعليمي.
+أولاً، لنُنشئ عرضًا تقديميًا جديدًا في PowerPoint ونُضيف إليه مخططًا بيانيًا. سنُخصص تسميات بيانات المخطط لاحقًا في هذا البرنامج التعليمي.
 
 ```java
 // المسار إلى دليل المستندات.
@@ -39,7 +41,7 @@ try {
 ```
 
 ## الخطوة 2: تخصيص تسميات البيانات
-الآن، دعونا نخصص تسميات البيانات لسلسلة المخططات. سوف نقوم بتعيين موقفهم وإظهار القيم.
+الآن، لنُخصّص تسميات البيانات لسلسلة المخططات. سنُحدّد موقعها ونعرض قيمها.
 
 ```java
 try {
@@ -48,14 +50,14 @@ try {
         series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.OutsideEnd);
         series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
     }
-    // ...(الرمز المتبقي)
+    // ... (الرمز المتبقي)
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-## الخطوة 3: احصل على الموضع الفعلي لتسميات البيانات
-في هذه الخطوة، سنقوم بالتكرار عبر نقاط البيانات في سلسلة المخططات واسترداد الموضع الفعلي لتسميات البيانات التي لها قيمة أكبر من 4. وسنقوم بعد ذلك بإضافة علامات الحذف لتمثيل هذه المواضع.
+## الخطوة 3: الحصول على الموضع الفعلي لعلامات البيانات
+في هذه الخطوة، سوف نكرر نقاط البيانات في سلسلة الرسم البياني ونسترد الموضع الفعلي لعلامات البيانات التي تحتوي على قيمة أكبر من 4. سنضيف بعد ذلك علامات حذف لتمثيل هذه المواضع.
 
 ```java
 try {
@@ -73,14 +75,14 @@ try {
             }
         }
     }
-    // ...(الرمز المتبقي)
+    // ... (الرمز المتبقي)
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-## الخطوة 4: احفظ العرض التقديمي
-وأخيرًا، احفظ العرض التقديمي الذي تم إنشاؤه في ملف.
+## الخطوة 4: حفظ العرض التقديمي
+وأخيرًا، احفظ العرض التقديمي الناتج في ملف.
 
 ```java
 try {
@@ -91,7 +93,7 @@ try {
 }
 ```
 
-## أكمل كود المصدر للحصول على الموضع الفعلي لتسمية بيانات المخطط في شرائح Java
+## كود المصدر الكامل للحصول على الموضع الفعلي لملصق بيانات الرسم البياني في شرائح Java
 
 ```java
 // المسار إلى دليل المستندات.
@@ -118,7 +120,7 @@ try
 				float h = point.getLabel().getActualHeight();
 				IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Ellipse, x, y, w, h);
 				shape.getFillFormat().setFillType(FillType.Solid);
-				shape.getFillFormat().getSolidFillColor().setColor(com.aspose.cells.Color.fromArgb(100, 0, 255, 0).d());//لكى يفعل
+				shape.getFillFormat().getSolidFillColor().setColor(com.aspose.cells.Color.fromArgb(100, 0, 255, 0).d());//المهام
 			}
 		}
 	}
@@ -132,13 +134,13 @@ finally
 
 ## خاتمة
 
-في هذا البرنامج التعليمي، تعلمت كيفية استرداد الموضع الفعلي لتسميات بيانات المخطط في Java Slides باستخدام Aspose.Slides لـ Java. يمكنك الآن استخدام هذه المعرفة لتحسين عروض PowerPoint التقديمية الخاصة بك باستخدام تسميات البيانات المخصصة والتمثيلات المرئية لمواقعها.
+في هذا البرنامج التعليمي، تعلمت كيفية استرجاع الموضع الفعلي لعناوين بيانات المخططات في شرائح جافا باستخدام Aspose.Slides لجافا. يمكنك الآن استخدام هذه المعرفة لتحسين عروض PowerPoint التقديمية بإضافة عناوين بيانات مخصصة وتمثيلات مرئية لمواضعها.
 
 ## الأسئلة الشائعة
 
-### كيف يمكنني تخصيص تسميات البيانات في المخطط؟
+### كيف يمكنني تخصيص تسميات البيانات في الرسم البياني؟
 
- لتخصيص تسميات البيانات في مخطط، يمكنك استخدام`setDefaultDataLabelFormat` الطريقة في سلسلة المخططات وتعيين خصائص مثل الموضع والرؤية. على سبيل المثال:
+لتخصيص تسميات البيانات في مخطط، يمكنك استخدام `setDefaultDataLabelFormat` استخدم طريقةً لسلسلة المخططات، واضبط خصائص مثل الموضع والرؤية. على سبيل المثال:
 ```java
 for (IChartSeries series : chart.getChartData().getSeries()) {
     series.getLabels().getDefaultDataLabelFormat().setPosition(LegendDataLabelPosition.OutsideEnd);
@@ -146,9 +148,9 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 }
 ```
 
-### كيف يمكنني إضافة أشكال لتمثيل مواضع تسمية البيانات؟
+### كيف يمكنني إضافة أشكال لتمثيل مواضع تسميات البيانات؟
 
- يمكنك التكرار من خلال نقاط البيانات الخاصة بسلسلة المخططات واستخدام`getActualX`, `getActualY`, `getActualWidth` ، و`getActualHeight`طرق تسمية البيانات للحصول على موقفها. وبعد ذلك، يمكنك إضافة أشكال باستخدام`addAutoShape` طريقة. هنا مثال:
+يمكنك تكرار نقاط البيانات لسلسلة الرسم البياني واستخدامها `getActualX`، `getActualY`، `getActualWidth`، و `getActualHeight` استخدم أساليب تسمية البيانات لتحديد موقعها. بعد ذلك، يمكنك إضافة الأشكال باستخدام `addAutoShape` الطريقة. إليك مثال:
 ```java
 float x = point.getLabel().getActualX();
 float y = point.getLabel().getActualY();
@@ -157,15 +159,17 @@ float h = point.getLabel().getActualHeight();
 IAutoShape shape = chart.getUserShapes().getShapes().addAutoShape(ShapeType.Ellipse, x, y, w, h);
 ```
 
-### كيف يمكنني حفظ العرض التقديمي الذي تم إنشاؤه؟
+### كيف يمكنني حفظ العرض التقديمي الناتج؟
 
- يمكنك حفظ العرض التقديمي الذي تم إنشاؤه باستخدام`save` طريقة. توفير مسار الملف المطلوب و`SaveFormat` كمعلمات. على سبيل المثال:
+يمكنك حفظ العرض التقديمي الناتج باستخدام `save` الطريقة. قم بتوفير مسار الملف المطلوب و `SaveFormat` كمعلمات. على سبيل المثال:
 ```java
 pres.save(dataDir + "GetActualPositionOFChartDatalabel.pptx", SaveFormat.Pptx);
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

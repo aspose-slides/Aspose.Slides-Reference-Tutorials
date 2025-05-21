@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Dynamic Presentations with Clustered Column Charts in .NET using Aspose.Slides
 
@@ -197,6 +199,9 @@ To continue enhancing your skills:
    - Yes, you can purchase a license for commercial use from [Aspose's Purchase Page](https://purchase.aspose.com/slide).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

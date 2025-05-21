@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint Animations with Aspose.Slides for Python: Load and Extract Easily
 
@@ -159,6 +161,9 @@ For further exploration, consider integrating this functionality with other tool
 - **Purchase and Licensing**: To purchase or acquire a temporary license, navigate to the [Aspose Store](https://purchase.aspose.com/buy).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

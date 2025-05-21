@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Format Paragraphs in Slides Using Aspose.Slides for Python
 
@@ -168,6 +170,9 @@ As next steps, consider exploring other features offered by Aspose.Slides or int
 By leveraging Aspose.Slides for Python, you can enhance your presentations with dynamic and visually appealing text formatting. Try implementing these features today to take your slide creations to the next level!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

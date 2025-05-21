@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Control Font Ligatures When Exporting Presentations to HTML Using Aspose.Slides for .NET
 
@@ -182,6 +184,9 @@ A: You can use Aspose.Slides within your backend code to process and export pres
 By following this guide, you'll be well-equipped to manage font ligatures in your presentation exports using Aspose.Slides for .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

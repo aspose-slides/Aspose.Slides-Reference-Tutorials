@@ -8,7 +8,9 @@ url: /net/presentation-conversion/achieving-pdf-compliance-convert-to-pdf-a-form
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert PowerPoint to PDF/A with Aspose.Slides for .NET
@@ -109,6 +111,7 @@ If you have questions or run into issues, you can seek help and assistance on th
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

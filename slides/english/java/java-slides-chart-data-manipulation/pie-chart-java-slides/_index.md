@@ -8,7 +8,9 @@ url: /java/chart-data-manipulation/pie-chart-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Pie Chart in Java Slides
@@ -293,6 +295,7 @@ For more information, detailed documentation, and additional examples, you can v
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

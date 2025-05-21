@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Font and Image Manipulation in PowerPoint with Aspose.Slides for Java
 
@@ -188,7 +190,11 @@ By following this guide, you've learned how to efficiently replace fonts and ext
 - [Download](https://releases.aspose.com/slides/java/)
 - [Purchase](https://purchase.aspose.com/buy)
 - [Free Trial](https://releases.aspose.com/slides/java/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

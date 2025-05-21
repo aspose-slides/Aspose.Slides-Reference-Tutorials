@@ -4,8 +4,11 @@ description: "Step-by-step tutorials for optimizing memory usage, improving exec
 weight: 18
 url: "/net/performance-optimization/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Performance Optimization Tutorials for Aspose.Slides .NET
 
@@ -35,7 +38,11 @@ Learn how to optimize slide sizes using Aspose.Slides .NET, ensuring content fit
 - [Download Aspose.Slides for Net](https://releases.aspose.com/slides/net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

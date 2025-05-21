@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add a Text Box with an Inner Shadow Using Aspose.Slides for .NET
 
@@ -179,6 +181,9 @@ You've learned how to add a text box with an inner shadow effect using Aspose.Sl
 By following this guide, you're well on your way to creating stunning presentations with enhanced visual effects using Aspose.Slides for .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

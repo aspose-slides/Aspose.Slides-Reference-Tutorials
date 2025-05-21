@@ -8,7 +8,9 @@ url: /java/java-powerpoint-smartart-manipulation/change-text-smartart-node-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Change Text on SmartArt Node using Java
@@ -70,6 +72,7 @@ You can visit the [Aspose.Slides documentation](https://reference.aspose.com/sli
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

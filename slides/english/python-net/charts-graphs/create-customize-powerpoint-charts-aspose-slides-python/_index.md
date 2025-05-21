@@ -13,7 +13,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Chart Creation and Customization in PowerPoint with Aspose.Slides for Python
 
@@ -213,6 +215,9 @@ By following this tutorial, you now have a solid foundation for creating and cus
 - "Python presentation enhancement"
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

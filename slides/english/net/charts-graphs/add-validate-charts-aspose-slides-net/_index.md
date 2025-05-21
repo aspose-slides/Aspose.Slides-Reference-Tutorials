@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Add and Validate Charts in PowerPoint Using Aspose.Slides for .NET
 
@@ -200,7 +202,11 @@ Ready to elevate your presentation game? Dive into Aspose.Slides for .NET and cr
 - **Free Trial**: [Start with a Free Trial](https://releases.aspose.com/slides/net/)
 - **Temporary License**: [Get Your Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum**: [Aspose.Slides Support](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

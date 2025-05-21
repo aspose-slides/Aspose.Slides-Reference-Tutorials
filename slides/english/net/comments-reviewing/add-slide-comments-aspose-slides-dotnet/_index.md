@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Slide Comments in PowerPoint Using Aspose.Slides for .NET
 
@@ -186,6 +188,9 @@ Explore further resources to enhance your mastery of Aspose.Slides for .NET:
 - **Support Forum**: Engage with the community on the [Aspose Support Forums]
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

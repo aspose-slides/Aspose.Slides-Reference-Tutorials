@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set Custom RootDirectoryClsid in PowerPoint Using Aspose.Slides .NET
 
@@ -198,7 +200,11 @@ For further reference, explore the following resources:
 - **Free Trial**: [Try Aspose for Free](https://releases.aspose.com/slides/net/)
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forums](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

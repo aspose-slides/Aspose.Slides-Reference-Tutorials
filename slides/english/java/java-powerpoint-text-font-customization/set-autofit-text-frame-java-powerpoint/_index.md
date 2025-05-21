@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-font-customization/set-autofit-text-frame-java-p
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Autofit of Text Frame in Java PowerPoint
@@ -96,6 +98,7 @@ You can get community and professional support for Aspose.Slides for Java from [
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

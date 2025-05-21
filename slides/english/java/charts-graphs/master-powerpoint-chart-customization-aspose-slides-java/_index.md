@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Chart Creation and Customization in PowerPoint with Aspose.Slides Java
 ## Introduction
@@ -178,7 +180,11 @@ Ready to try it out? Start implementing these solutions in your projects today!
 - [Purchase a License](https://purchase.aspose.com/buy)
 - [Free Trial Version](https://releases.aspose.com/slides/java/)
 - [Temporary License Request](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

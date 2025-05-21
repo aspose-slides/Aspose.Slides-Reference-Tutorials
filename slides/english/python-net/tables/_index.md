@@ -4,8 +4,11 @@ description: "Learn to work with tables, rows, columns, and cells in PowerPoint 
 weight: 5
 url: "/python-net/tables/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Tables Management Tutorials with Aspose.Slides for Python
 
@@ -77,7 +80,11 @@ Learn how to dynamically create and manage tables in PowerPoint presentations wi
 - [Download Aspose.Slides for Python-net](https://releases.aspose.com/slides/python-net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

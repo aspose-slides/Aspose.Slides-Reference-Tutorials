@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Efficiently Manage Directories & Add Image Shapes in Presentations Using Aspose.Slides for .NET
 
@@ -177,7 +179,11 @@ Ready to enhance your applications? Try implementing these solutions today!
 - **Support:** Access community support on the [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 This tutorial aims to equip you with practical skills for managing directories and enhancing presentations using Aspose.Slides for .NET. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

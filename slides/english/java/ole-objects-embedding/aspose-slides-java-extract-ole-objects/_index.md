@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides Java: Extracting OLE Object Data from Presentations
 
@@ -176,7 +178,11 @@ As a next step, consider exploring additional features of Aspose.Slides or integ
 - [Free Trial and Temporary License](https://releases.aspose.com/slides/java/)
 
 This tutorial equips you with the knowledge to manage OLE objects within presentations using Aspose.Slides for Java, streamlining your workflow in handling complex file types.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

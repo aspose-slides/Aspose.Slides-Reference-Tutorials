@@ -8,7 +8,9 @@ url: /java/image-handling/add-image-from-svg-object-in-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Image from SVG Object in Java Slides
@@ -130,6 +132,7 @@ Yes, you can customize the appearance of the SVG image using Aspose.Slides for J
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

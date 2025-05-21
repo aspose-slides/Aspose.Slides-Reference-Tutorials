@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Table Manipulation in PowerPoint Using Aspose.Slides for .NET
 
@@ -213,6 +215,9 @@ A5: While generally flexible, ensure you're within index bounds of the table's c
 - **Support Forum:** [Aspose Forums](https://forum.aspose.com/c/slides/11) 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Chart Customization in Aspose.Slides .NET: Hiding and Enhancing Chart Elements
 
@@ -182,6 +184,9 @@ Ready to take your presentation skills to the next level? Try implementing these
 This guide provides you with a comprehensive approach to customizing charts in your presentations using Aspose.Slides for .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

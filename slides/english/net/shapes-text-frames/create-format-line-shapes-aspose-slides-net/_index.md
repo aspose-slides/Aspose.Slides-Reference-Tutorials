@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create and Format Line Shapes in .NET with Aspose.Slides: A Complete Guide
 
@@ -174,7 +176,11 @@ Next steps could include exploring other shape types or integrating presentation
    Install it via NuGet, the Package Manager Console, or the .NET CLI as described in the setup section.
 3. **Can I use Aspose.Slides with other programming languages?**
    Yes, Aspose offers similar libraries for Java, C++, and more.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

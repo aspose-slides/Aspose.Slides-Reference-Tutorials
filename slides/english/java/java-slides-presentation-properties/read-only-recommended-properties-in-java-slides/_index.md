@@ -8,7 +8,9 @@ url: /java/presentation-properties/read-only-recommended-properties-in-java-slid
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Read-Only Recommended Properties in Java Slides
@@ -98,6 +100,7 @@ Remember to replace `"YourPassword"` with your desired password.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

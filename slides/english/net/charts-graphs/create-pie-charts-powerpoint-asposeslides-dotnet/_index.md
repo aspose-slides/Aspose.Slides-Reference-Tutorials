@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Customize Pie Charts in PowerPoint Using Aspose.Slides for .NET
 
@@ -197,6 +199,9 @@ You've now mastered the essentials of creating and configuring pie charts in Pow
    - Optimize by reducing data complexity and reusing chart objects where possible.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

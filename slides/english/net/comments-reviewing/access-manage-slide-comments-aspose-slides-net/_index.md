@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Access and Manage PowerPoint Slide Comments Using Aspose.Slides for .NET
 
@@ -164,7 +166,11 @@ To continue exploring, consider integrating this functionality into larger syste
 - **Free Trial**: Start with a free trial at [Releases Page](https://releases.aspose.com/slides/net/)
 - **Temporary License**: Request a temporary license from [Aspose Temporary License Page](https://purchase.aspose.com/temporary-license/)
 - **Support**: Join discussions and seek help on the [Aspose Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

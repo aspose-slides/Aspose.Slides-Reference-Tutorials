@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Compress Images in PowerPoint with Aspose.Slides Python
 ## Optimize PowerPoint Presentations by Compressing Images Efficiently
@@ -126,7 +128,11 @@ Explore more features of Aspose.Slides to further enhance your presentation file
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 By leveraging these resources, you can deepen your understanding and effectively use Aspose.Slides for Python to manage PowerPoint presentations. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

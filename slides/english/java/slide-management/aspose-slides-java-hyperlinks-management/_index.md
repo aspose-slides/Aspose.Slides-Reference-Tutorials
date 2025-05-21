@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Efficient Hyperlink Management in Java Presentations with Aspose.Slides
 
@@ -133,7 +135,11 @@ A: Iterate through all shapes and text portions to extract hyperlink data as nee
 - **Free Trial:** https://releases.aspose.com/slides/java/
 - **Temporary License:** https://purchase.aspose.com/temporary-license/
 - **Support:** https://forum.aspose.com/c/slides/11
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

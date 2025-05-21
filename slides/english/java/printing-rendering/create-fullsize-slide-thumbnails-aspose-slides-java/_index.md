@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Full-Size Slide Thumbnails Using Aspose.Slides for Java: A Complete Guide
 
@@ -189,6 +191,9 @@ Ready to implement these solutions? Start creating stunning presentation thumbna
 Start exploring the full capabilities of Aspose.Slides for Java today and take your presentation handling to the next level!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

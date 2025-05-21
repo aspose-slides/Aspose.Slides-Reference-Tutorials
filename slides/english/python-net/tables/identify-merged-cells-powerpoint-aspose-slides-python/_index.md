@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Identify and Manage Merged Cells in PowerPoint Tables Using Aspose.Slides for Python
 
@@ -146,7 +148,11 @@ Ready to put this knowledge into practice? Try implementing the solution in one 
 - **Purchase:** https://purchase.aspose.com/buy
 - **Free Trial:** https://releases.aspose.com/slides/python-net/
 - **Temporary License:** https://purchase.aspose.com/temporary-license/
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

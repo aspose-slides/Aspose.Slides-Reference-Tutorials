@@ -8,7 +8,9 @@ url: /java/saving-options/save-as-predefined-view-type-in-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Save as Predefined View Type in Java Slides
@@ -119,6 +121,7 @@ For comprehensive documentation and references related to Aspose.Slides for Java
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

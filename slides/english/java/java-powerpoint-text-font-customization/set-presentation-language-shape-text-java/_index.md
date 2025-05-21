@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-font-customization/set-presentation-language-sha
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Presentation Language and Shape Text in Java
@@ -79,6 +81,7 @@ You can visit the Aspose.Slides forum [here](https://forum.aspose.com/c/slides/1
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

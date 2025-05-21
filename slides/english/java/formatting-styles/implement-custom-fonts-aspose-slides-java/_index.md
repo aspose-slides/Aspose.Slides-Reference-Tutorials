@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Implement Custom Fonts in Aspose.Slides for Java: A Comprehensive Guide
 
@@ -169,7 +171,11 @@ As next steps, consider experimenting with different font combinations to discov
 - Free Trial: [Aspose Slides for Java Free Trial](https://releases.aspose.com/slides/java/)
 - Temporary License: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - Support: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

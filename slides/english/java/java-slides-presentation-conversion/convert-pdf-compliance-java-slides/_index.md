@@ -8,7 +8,9 @@ url: /java/presentation-conversion/convert-pdf-compliance-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert to PDF Compliance in Java Slides
@@ -124,6 +126,7 @@ For more detailed information about Aspose.Slides for Java and its features, inc
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

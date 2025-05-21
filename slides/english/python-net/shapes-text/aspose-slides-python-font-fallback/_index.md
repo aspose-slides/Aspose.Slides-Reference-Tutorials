@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Font Fallback in Aspose.Slides for Python: A Comprehensive Guide
 
@@ -140,7 +142,11 @@ rules_list.add(slides.FontFallBackRule(0x400, 0x4FF, "Times New Roman"))
 with slides.Presentation(data_dir + "welcome-to-powerpoint.pptx") as pres:
     pres.fonts_manager.font_fall_back_rules_collection = rules_list
     pres.slides[0].get_image(1, 1).save(out_dir + "text_font_fall_back_out.png\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

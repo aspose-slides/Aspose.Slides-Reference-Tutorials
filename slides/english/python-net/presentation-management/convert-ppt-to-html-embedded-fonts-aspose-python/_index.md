@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PPT to HTML with Embedded Fonts Using Aspose.Slides for Python
 
@@ -189,6 +191,9 @@ A: Common issues include missing fonts and incorrect file paths. Always verify y
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

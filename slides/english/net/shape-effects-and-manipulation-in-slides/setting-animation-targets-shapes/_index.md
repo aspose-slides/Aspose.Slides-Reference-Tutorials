@@ -8,7 +8,9 @@ url: /net/shape-effects-and-manipulation-in-slides/setting-animation-targets-sha
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mastering Animation Targets with Aspose.Slides for .NET
@@ -72,6 +74,7 @@ Explore the [Aspose.Slides for .NET documentation](https://reference.aspose.com/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

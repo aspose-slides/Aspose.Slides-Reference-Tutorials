@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Extract Embedded Videos from PowerPoint Presentations Using Aspose.Slides for Java
 
@@ -178,6 +180,9 @@ Explore other features of Aspose.Slides to further automate presentation tasks, 
 This comprehensive guide equips you with the knowledge to efficiently manage embedded video content in PowerPoint presentations using Aspose.Slides for Java. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

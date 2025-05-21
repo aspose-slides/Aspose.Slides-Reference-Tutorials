@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Skip JavaScript Links in PowerPoint Exports Using Aspose.Slides for Python
 
@@ -143,7 +145,11 @@ Ready to try it out? Implement this solution in your next project!
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 Embark on your journey with Aspose.Slides and unlock the full potential of your PowerPoint presentations!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

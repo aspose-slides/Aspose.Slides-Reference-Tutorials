@@ -8,7 +8,9 @@ url: /net/presentation-conversion/convert-presentation-to-gif-animation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Presentation to GIF Animation
@@ -90,6 +92,7 @@ You can find the source code and more tutorials on Aspose.Slides in the document
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

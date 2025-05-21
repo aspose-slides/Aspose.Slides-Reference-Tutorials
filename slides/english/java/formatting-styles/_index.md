@@ -4,8 +4,11 @@ description: "Step-by-step tutorials for slide formatting, theme management, sty
 weight: 10
 url: "/java/formatting-styles/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Formatting and Styling Tutorials for Aspose.Slides Java
 
@@ -74,7 +77,11 @@ Learn how to set slide background colors in PowerPoint presentations using Aspos
 - [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

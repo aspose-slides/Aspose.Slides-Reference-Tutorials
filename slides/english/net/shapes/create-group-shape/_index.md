@@ -6,8 +6,11 @@ description: Step-by-step guide to create and manage group shapes in PowerPoint 
 keywords: [Aspose.Slides, .NET, PowerPoint, group shapes, rectangle shapes, C#, presentation automation, PPTX, shape frames]
 url: /net/shapes/create-group-shape/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Group Shapes in PowerPoint with Aspose.Slides
@@ -15,9 +18,11 @@ url: /net/shapes/create-group-shape/
 Aspose.Slides for .NET provides comprehensive APIs to create and manipulate PowerPoint presentations programmatically. This example demonstrates how to create a group shape, add multiple rectangle shapes within it, position the shapes properly, add framing, and save the presentation. Group shapes are essential for organizing related shapes that need to be manipulated as a single unit, providing more structure and control over your presentation elements.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/shapes/create-group-shape" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Installation Instructions
@@ -58,7 +63,9 @@ Aspose.Slides for .NET provides comprehensive APIs to create and manipulate Powe
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

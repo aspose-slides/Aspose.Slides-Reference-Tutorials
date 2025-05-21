@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create PowerPoint Slides with AutoShapes Using Aspose.Slides for Java
 ## Introduction
@@ -150,7 +152,11 @@ For more detailed information and support:
 - **Free Trial and Temporary License:** [Aspose Downloads](https://releases.aspose.com/slides/java/) & [Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum:** [Ask questions on the Aspose Forum](https://forum.aspose.com/c/slides/11)
 Experiment with these techniques and explore how they can fit into your projects. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

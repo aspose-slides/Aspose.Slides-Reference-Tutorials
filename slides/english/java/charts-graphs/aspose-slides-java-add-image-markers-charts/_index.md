@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides Java: Adding Image Markers to Charts
 
@@ -229,6 +231,9 @@ public class ConfigureAndSavePresentation {
 By following this guide, you've learned how to enhance your charts in Aspose.Slides for Java by adding custom image markers. This approach can significantly boost the engagement and clarity of your presentations.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

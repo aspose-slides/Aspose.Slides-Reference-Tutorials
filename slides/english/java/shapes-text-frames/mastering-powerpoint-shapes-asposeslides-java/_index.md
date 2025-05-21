@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering PowerPoint Shapes in Java with Aspose.Slides: Create and Connect Shapes for Dynamic Presentations
 
@@ -187,7 +189,11 @@ You've now mastered the basics of creating and connecting shapes in PowerPoint u
 - [Free Trial](https://releases.aspose.com/slides/java/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

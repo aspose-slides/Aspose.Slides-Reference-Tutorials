@@ -6,8 +6,11 @@ description: Learn how to apply center alignment to text in PowerPoint presentat
 keywords: [Aspose.Slides, .NET, PowerPoint, text alignment, center alignment, paragraphs, C#, presentation formatting]
 url: /net/text/paragraphs-alignment/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Centering Text in PowerPoint Slides with Aspose.Slides for .NET
@@ -15,9 +18,11 @@ url: /net/text/paragraphs-alignment/
 This tutorial demonstrates how to programmatically center-align text in PowerPoint presentation slides using Aspose.Slides for .NET. The example shows how to load an existing presentation, access text frames within shapes, modify text content, and apply center alignment to paragraphs. This is useful for creating consistently formatted presentations or for automating the process of text alignment across multiple slides.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/text/paragraphs-alignment" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -47,7 +52,9 @@ This tutorial demonstrates how to programmatically center-align text in PowerPoi
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

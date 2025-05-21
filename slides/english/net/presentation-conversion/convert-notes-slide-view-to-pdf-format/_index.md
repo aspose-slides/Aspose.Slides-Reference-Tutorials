@@ -8,7 +8,9 @@ url: /net/presentation-conversion/convert-notes-slide-view-to-pdf-format/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Notes Slide View to PDF Format
@@ -88,6 +90,7 @@ Now that you have successfully converted the Notes Slide View to PDF Format, you
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

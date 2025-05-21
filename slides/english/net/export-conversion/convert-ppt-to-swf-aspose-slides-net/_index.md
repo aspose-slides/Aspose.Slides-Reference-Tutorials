@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Convert PowerPoint Presentations (PPT) to SWF Format Using Aspose.Slides for .NET
 
@@ -191,7 +193,11 @@ Ready to take your skills further? Explore more features in the [Aspose.Slides D
 - **Free Trial:** Test out Aspose.Slides with a free trial [here](https://releases.aspose.com/slides/net/).
 - **Temporary License:** Apply for it [here](https://purchase.aspose.com/temporary-license/).
 - **Support Forum:** For queries, visit the [support forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

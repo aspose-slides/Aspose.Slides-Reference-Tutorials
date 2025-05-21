@@ -8,7 +8,9 @@ url: /java/presentation-properties/check-password-example-in-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Check Password Example in Java Slides
@@ -109,6 +111,7 @@ You can find comprehensive documentation for Aspose.Slides for Java on the Aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

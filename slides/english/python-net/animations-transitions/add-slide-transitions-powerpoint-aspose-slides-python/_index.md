@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Implement Simple Slide Transitions in PowerPoint Using Aspose.Slides for Python
 
@@ -145,6 +147,9 @@ Use try-except blocks around your code to catch and handle potential errors grac
 This comprehensive guide provides you with everything you need to get started with Aspose.Slides for Python and create presentations that stand out. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

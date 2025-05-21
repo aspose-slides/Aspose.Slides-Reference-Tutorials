@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Footer Visibility in PowerPoint Using Aspose.Slides for .NET
 
@@ -191,6 +193,9 @@ We encourage you to try implementing these solutions in your own projects. Explo
 With these resources, you're well-equipped to start enhancing your PowerPoint presentations using Aspose.Slides for .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

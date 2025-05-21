@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint Metadata with .NET & Aspose.Slides: A Step-by-Step Guide
 
@@ -180,7 +182,11 @@ Give it a try and see how this feature can optimize your workflow!
 - [Free Trial Download](https://releases.aspose.com/slides/net/)
 - [Obtain a Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forums](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

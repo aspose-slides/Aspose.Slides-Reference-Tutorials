@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create Doughnut Charts in Python Using Aspose.Slides: A Step-by-Step Guide
 
@@ -182,7 +184,11 @@ By following this guide, you've learned how to create dynamic doughnut charts us
 - [Purchase a License](https://purchase.aspose.com/buy)
 - [Free Trial and Temporary License](https://releases.aspose.com/slides/python-net/)
 - [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

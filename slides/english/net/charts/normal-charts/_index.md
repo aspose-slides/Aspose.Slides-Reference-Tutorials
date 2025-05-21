@@ -6,8 +6,11 @@ description: Learn how to create PowerPoint presentations with customized column
 keywords: [Aspose.Slides, .NET, PowerPoint, Column Chart, Chart Customization, Data Visualization, C#]
 url: /net/charts/normal-charts/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Custom Column Charts with Aspose.Slides
@@ -15,9 +18,11 @@ url: /net/charts/normal-charts/
 Aspose.Slides for .NET provides powerful capabilities for creating and manipulating PowerPoint presentations programmatically. This example demonstrates how to create a professionally formatted column chart with customized data points, series colors, and data labels. With Aspose.Slides, you can automate the generation of business presentations containing data visualizations without requiring Microsoft PowerPoint to be installed on your system.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/charts/normal-charts" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -46,8 +51,11 @@ Aspose.Slides for .NET provides powerful capabilities for creating and manipulat
 ## Resources
 - [Aspose.Slides for .NET Documentation](https://docs.aspose.com/slides/net/)
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

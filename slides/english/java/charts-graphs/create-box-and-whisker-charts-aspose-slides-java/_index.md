@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create Box-and-Whisker Charts in PowerPoint Using Aspose.Slides for Java
 
@@ -206,6 +208,9 @@ Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for commun
 By following this guide, you're well-equipped to start creating insightful box-and-whisker charts in your Java applications using Aspose.Slides. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/licensing-and-formatting/add-custom-error/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Custom Error Bars to Chart
@@ -138,6 +140,7 @@ Remember, with Aspose.Slides for .NET, the sky's the limit when it comes to pres
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

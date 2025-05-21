@@ -8,7 +8,9 @@ url: /net/slide-access-and-manipulation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Slide Access and Manipulation
@@ -50,9 +52,11 @@ Learn how to adjust slide positions within presentations using Aspose.Slides for
 Learn how to erase PowerPoint slides step by step using Aspose.Slides for .NET. Our guide provides clear instructions and complete source code to help you programmatically remove slides by their sequential index.
 ### [Delete Slide via Reference](./remove-slide-using-reference/)
 Learn how to delete slides programmatically in PowerPoint presentations using Aspose.Slides for .NET. Simplify presentation manipulation with this step-by-step guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Lock Table Aspect Ratio in PowerPoint with Aspose.Slides for Python
 
@@ -165,7 +167,11 @@ In this tutorial, you've learned how to lock table aspect ratios in PowerPoint p
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Begin enhancing your presentations with Aspose.Slides for Python today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -6,8 +6,11 @@ description: Learn how to create PowerPoint presentations with customized tiled 
 keywords: [Aspose.Slides, PowerPoint, .NET, C#, tiled image, background, picture fill, rectangle shape, tile offset, tile scale, tile alignment, image manipulation]
 url: /net/shapes/tile-picture-fill-format/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Tiled Image Backgrounds in PowerPoint with Aspose.Slides
@@ -15,9 +18,11 @@ url: /net/shapes/tile-picture-fill-format/
 Aspose.Slides for .NET provides powerful capabilities for creating and manipulating PowerPoint presentations programmatically. This example demonstrates how to create a presentation with a rectangle shape filled with a tiled image pattern. The code shows how to load an image, add it to a slide as a rectangle's background, and apply various tiling properties such as offset, scale, alignment, and flip options. This technique is useful for creating custom backgrounds, watermarks, or decorative elements in your presentations with precise control over the tiling behavior.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/shapes/tile-picture-fill-format" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -43,7 +48,9 @@ Aspose.Slides for .NET provides powerful capabilities for creating and manipulat
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

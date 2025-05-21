@@ -8,7 +8,9 @@ url: /java/java-powerpoint-properties-management/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java PowerPoint Properties Management
@@ -44,9 +46,11 @@ Unlock the power of Aspose.Slides for Java. Master presentation management with 
 Learn how to modify built-in properties in PowerPoint presentations using Aspose.Slides for Java. Enhance your presentations programmatically.
 ### [Update Presentation Properties with New Template](./update-presentation-properties-new-template/)
 Learn how to update presentation properties using Aspose.Slides for Java. Enhance your Java projects with seamless metadata modification.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

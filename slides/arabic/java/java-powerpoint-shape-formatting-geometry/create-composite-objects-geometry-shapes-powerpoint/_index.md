@@ -1,38 +1,40 @@
 ---
-title: إنشاء كائنات مركبة في الأشكال الهندسية
-linktitle: إنشاء كائنات مركبة في الأشكال الهندسية
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية إنشاء كائنات مركبة في أشكال هندسية باستخدام Aspose.Slides لـ Java من خلال هذا البرنامج التعليمي الشامل. مثالية لمطوري جافا.
-weight: 20
-url: /ar/java/java-powerpoint-shape-formatting-geometry/create-composite-objects-geometry-shapes-powerpoint/
+"description": "تعلّم كيفية إنشاء كائنات مركّبة بأشكال هندسية باستخدام Aspose.Slides لجافا من خلال هذا البرنامج التعليمي الشامل. مثالي لمطوّري جافا."
+"linktitle": "إنشاء كائنات مركبة في أشكال هندسية"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "إنشاء كائنات مركبة في أشكال هندسية"
+"url": "/ar/java/java-powerpoint-shape-formatting-geometry/create-composite-objects-geometry-shapes-powerpoint/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إنشاء كائنات مركبة في الأشكال الهندسية
+# إنشاء كائنات مركبة في أشكال هندسية
 
 ## مقدمة
-مرحبًا يا من هناك! هل سبق لك أن أردت إنشاء أشكال مذهلة ومعقدة في عروض PowerPoint التقديمية باستخدام Java؟ حسنا، أنت في المكان الصحيح. في هذا البرنامج التعليمي، سوف نتعمق في مكتبة Aspose.Slides القوية لـ Java لإنشاء كائنات مركبة في أشكال هندسية. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيساعدك هذا الدليل التفصيلي خطوة بخطوة على تحقيق نتائج مبهرة في وقت قصير. على استعداد للبدء؟ دعونا الغوص في!
+أهلاً! هل رغبتَ يومًا في إنشاء أشكالٍ مذهلة ومعقدة في عروض PowerPoint التقديمية باستخدام جافا؟ حسنًا، أنت في المكان المناسب. في هذا البرنامج التعليمي، سنتعمق في مكتبة Aspose.Slides القوية لجافا لإنشاء كائنات مركبة بأشكال هندسية. سواءً كنتَ مطورًا محترفًا أو مبتدئًا، سيساعدك هذا الدليل التفصيلي على تحقيق نتائج مبهرة في وقت قصير. هل أنت مستعد للبدء؟ هيا بنا!
 ## المتطلبات الأساسية
-قبل أن ننتقل إلى الكود، هناك بعض الأشياء التي ستحتاج إليها:
-- Java Development Kit (JDK): تأكد من تثبيت JDK 1.8 أو إصدار أحدث على جهازك.
-- بيئة التطوير المتكاملة (IDE): بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse ستجعل حياتك أسهل.
--  Aspose.Slides for Java: يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/java/) أو استخدم Maven لإدراجه في مشروعك.
-- المعرفة الأساسية لـ Java: يفترض هذا البرنامج التعليمي أن لديك فهمًا أساسيًا لـ Java.
-## حزم الاستيراد
-أول الأشياء أولاً، فلنستورد الحزم اللازمة للبدء في استخدام Aspose.Slides لـ Java.
+قبل أن ننتقل إلى الكود، هناك بعض الأشياء التي ستحتاجها:
+- مجموعة تطوير Java (JDK): تأكد من تثبيت JDK 1.8 أو أعلى على جهازك.
+- بيئة التطوير المتكاملة (IDE): بيئة التطوير المتكاملة مثل IntelliJ IDEA أو Eclipse سوف تجعل حياتك أسهل.
+- Aspose.Slides لـ Java: يمكنك تنزيله من [هنا](https://releases.aspose.com/slides/java/) أو استخدم Maven لتضمينه في مشروعك.
+- المعرفة الأساسية بلغة Java: يفترض هذا البرنامج التعليمي أن لديك فهمًا أساسيًا بلغة Java.
+## استيراد الحزم
+أولاً وقبل كل شيء، دعنا نستورد الحزم اللازمة للبدء في استخدام Aspose.Slides لـ Java.
 ```java
 import com.aspose.slides.*;
 
 ```
 
-قد يبدو إنشاء كائنات مركبة أمرًا معقدًا، ولكن بتقسيمه إلى خطوات يمكن التحكم فيها، ستجد أن الأمر أسهل مما تعتقد. سنقوم بإنشاء عرض تقديمي لـ PowerPoint، وإضافة شكل، ثم تحديد وتطبيق مسارات هندسية متعددة لتشكيل شكل مركب.
-## الخطوة 1: قم بإعداد مشروعك
- قبل أن تكتب أي تعليمات برمجية، قم بإعداد مشروع Java الخاص بك. قم بإنشاء مشروع جديد في IDE الخاص بك وقم بتضمين Aspose.Slides لـ Java. يمكنك إضافة المكتبة باستخدام Maven أو تنزيل ملف JAR من ملف[صفحة تنزيل Aspose.Slides](https://releases.aspose.com/slides/java/).
+قد يبدو إنشاء كائنات مركبة أمرًا معقدًا، ولكن بتقسيمه إلى خطوات سهلة، ستجد أنه أسهل مما تظن. سننشئ عرضًا تقديميًا على PowerPoint، ونضيف شكلًا، ثم نحدد ونطبق مسارات هندسية متعددة لتكوين شكل مركب.
+## الخطوة 1: إعداد مشروعك
+قبل كتابة أي شيفرة برمجية، قم بإعداد مشروع جافا. أنشئ مشروعًا جديدًا في بيئة التطوير المتكاملة (IDE) لديك، وأدرج فيه مكتبة Aspose.Slides لجافا. يمكنك إضافة المكتبة باستخدام Maven أو تنزيل ملف JAR من [صفحة تنزيل Aspose.Slides](https://releases.aspose.com/slides/java/).
 ### إضافة Aspose.Slides إلى مشروعك باستخدام Maven
- إذا كنت تستخدم Maven، فأضف التبعية التالية إلى ملفك`pom.xml` ملف:
+إذا كنت تستخدم Maven، فأضف التبعية التالية إلى ملفك `pom.xml` ملف:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -41,19 +43,19 @@ import com.aspose.slides.*;
 </dependency>
 ```
 ## الخطوة 2: تهيئة العرض التقديمي
-الآن، لنقم بإنشاء عرض تقديمي جديد لبرنامج PowerPoint. سنبدأ بتهيئة`Presentation` فصل.
+الآن، لنُنشئ عرضًا تقديميًا جديدًا على PowerPoint. سنبدأ بتهيئة `Presentation` فصل.
 ```java
-// ضع اسم الملف
+// اسم ملف الإخراج
 String resultPath = "Your Output Directory" +  "GeometryShapeCompositeObjects.pptx";
 Presentation pres = new Presentation();
 ```
 ## الخطوة 3: إنشاء شكل جديد
-بعد ذلك، سنقوم بإضافة شكل مستطيل جديد إلى الشريحة الأولى من العرض التقديمي.
+بعد ذلك، سنضيف شكل مستطيل جديد إلى الشريحة الأولى من عرضنا التقديمي.
 ```java
 GeometryShape shape = (GeometryShape) pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 200, 100);
 ```
-## الخطوة 4: تحديد المسار الهندسي الأول
- سنحدد الجزء الأول من الشكل المركب الخاص بنا عن طريق إنشاء`GeometryPath` وإضافة نقاط إليها.
+## الخطوة 4: تحديد مسار الهندسة الأول
+سنقوم بتحديد الجزء الأول من الشكل المركب لدينا عن طريق إنشاء `GeometryPath` وإضافة نقاط إليها.
 ```java
 GeometryPath geometryPath0 = new GeometryPath();
 geometryPath0.moveTo(0, 0);
@@ -62,8 +64,8 @@ geometryPath0.lineTo(shape.getWidth(), shape.getHeight() / 3);
 geometryPath0.lineTo(0, shape.getHeight() / 3);
 geometryPath0.closeFigure();
 ```
-## الخطوة 5: تحديد المسار الهندسي الثاني
-وبالمثل، حدد الجزء الثاني من الشكل المركب.
+## الخطوة 5: تحديد مسار الهندسة الثاني
+وبالمثل، قم بتحديد الجزء الثاني من الشكل المركب لدينا.
 ```java
 GeometryPath geometryPath1 = new GeometryPath();
 geometryPath1.moveTo(0, shape.getHeight() / 3 * 2);
@@ -72,38 +74,40 @@ geometryPath1.lineTo(shape.getWidth(), shape.getHeight());
 geometryPath1.lineTo(0, shape.getHeight());
 geometryPath1.closeFigure();
 ```
-## الخطوة 6: الجمع بين المسارات الهندسية
-قم بدمج المسارين الهندسيين وضبطهما على الشكل.
+## الخطوة 6: دمج مسارات الهندسة
+قم بدمج مساري الهندسة وضبطهما على الشكل.
 ```java
 shape.setGeometryPaths(new GeometryPath[]{geometryPath0, geometryPath1});
 ```
-## الخطوة 7: احفظ العرض التقديمي
+## الخطوة 7: حفظ العرض التقديمي
 وأخيرًا، احفظ العرض التقديمي الخاص بك في ملف.
 ```java
 String resultPath = "Your Output Directory" + "GeometryShapeCompositeObjects.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
 ```
 ## الخطوة 8: تنظيف الموارد
-تأكد من تحرير أي موارد يستخدمها العرض التقديمي.
+تأكد من إصدار أي موارد يستخدمها العرض التقديمي.
 ```java
 if (pres != null) pres.dispose();
 ```
 ## خاتمة
-وهناك لديك! لقد نجحت في إنشاء شكل مركب باستخدام Aspose.Slides لـ Java. من خلال تقسيم العملية إلى خطوات بسيطة، يمكنك بسهولة إنشاء أشكال معقدة وتحسين العروض التقديمية الخاصة بك. استمر في تجربة مسارات هندسية مختلفة لإنشاء تصميمات فريدة.
+وها أنت ذا! لقد نجحت في إنشاء شكل مُركّب باستخدام Aspose.Slides لجافا. بتقسيم العملية إلى خطوات بسيطة، يمكنك بسهولة إنشاء أشكال مُعقّدة وتحسين عروضك التقديمية. استمر في تجربة مسارات هندسية مُختلفة لإنشاء تصاميم فريدة.
 ## الأسئلة الشائعة
-### ما هو Aspose.Slides لجافا؟
-Aspose.Slides for Java هي مكتبة قوية لإنشاء عروض PowerPoint التقديمية ومعالجتها وتحويلها في Java.
+### ما هو Aspose.Slides لـ Java؟
+Aspose.Slides for Java هي مكتبة قوية لإنشاء عروض PowerPoint ومعالجتها وتحويلها في Java.
 ### كيف أقوم بتثبيت Aspose.Slides لـ Java؟
- يمكنك تثبيته باستخدام Maven أو تنزيل ملف JAR من ملف[موقع إلكتروني](https://releases.aspose.com/slides/java/).
+يمكنك تثبيته باستخدام Maven أو تنزيل ملف JAR من [موقع إلكتروني](https://releases.aspose.com/slides/java/).
 ### هل يمكنني استخدام Aspose.Slides لـ Java في المشاريع التجارية؟
- نعم، ولكن ستحتاج إلى شراء ترخيص. يمكنك العثور على مزيد من التفاصيل على[صفحة الشراء](https://purchase.aspose.com/buy).
+نعم، ولكن ستحتاج إلى شراء ترخيص. يمكنك العثور على مزيد من التفاصيل على [صفحة الشراء](https://purchase.aspose.com/buy).
 ### هل هناك نسخة تجريبية مجانية متاحة؟
- نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+نعم، يمكنك تنزيل نسخة تجريبية مجانية من [هنا](https://releases.aspose.com/).
 ### أين يمكنني العثور على مزيد من الوثائق والدعم؟
- تفحص ال[توثيق](https://reference.aspose.com/slides/java/) و[منتدى الدعم](https://forum.aspose.com/c/slides/11).
+تحقق من [التوثيق](https://reference.aspose.com/slides/java/) و [منتدى الدعم](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

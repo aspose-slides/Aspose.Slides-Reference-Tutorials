@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Implementing Metered Licensing in Aspose.Slides for .NET: A Developer's Guide
 
@@ -174,6 +176,9 @@ Why not try implementing metered licensing in your next project? Dive deeper int
 By following this comprehensive guide, you’re now equipped to implement metered licensing in Aspose.Slides for .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

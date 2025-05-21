@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Slide Backgrounds with Aspose.Slides for Python
 Unlock the potential of PowerPoint presentations by learning how to access and manipulate slide background values using Aspose.Slides for Python. This comprehensive tutorial guides you through each step necessary to effectively implement this feature, ensuring your presentation stands out.
@@ -153,7 +155,11 @@ You've now mastered how to access and manipulate slide background values using A
 - [Free Trial](https://releases.aspose.com/slides/python-net/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

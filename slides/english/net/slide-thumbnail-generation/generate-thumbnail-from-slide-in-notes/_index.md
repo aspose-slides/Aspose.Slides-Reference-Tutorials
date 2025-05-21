@@ -8,7 +8,9 @@ url: /net/slide-thumbnail-generation/generate-thumbnail-from-slide-in-notes/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Generate Thumbnail from Slide in Notes
@@ -124,6 +126,7 @@ You can find help and engage with the Aspose community at the [Aspose Support Fo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

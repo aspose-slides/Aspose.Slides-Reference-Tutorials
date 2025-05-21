@@ -8,7 +8,9 @@ url: /java/presentation-conversion/conversion-tiff-notes-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Conversion to TIFF with Notes in Java Slides
@@ -98,6 +100,7 @@ You can explore comprehensive documentation and code examples on the Aspose.Slid
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

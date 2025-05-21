@@ -8,7 +8,9 @@ url: /java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-p
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Manage Paragraph Picture Bullets in Java PowerPoint
@@ -114,6 +116,7 @@ You can find more examples in the [documentation](https://reference.aspose.com/s
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

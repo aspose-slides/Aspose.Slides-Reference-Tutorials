@@ -6,8 +6,11 @@ description: Learn how to enhance PowerPoint presentations with interactive Zoom
 keywords: [Aspose.Slides, .NET, PowerPoint, Zoom Frames, Slide Navigation, C#, Presentation Software, Slide Background, Custom Formatting]
 url: /net/shapes/create-zoom-frame/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Zoom Frames in PowerPoint with Aspose.Slides
@@ -15,9 +18,11 @@ url: /net/shapes/create-zoom-frame/
 Aspose.Slides for .NET enables developers to create interactive PowerPoint presentations with Zoom Frames - a powerful feature that allows users to navigate between slides with visual thumbnails. This example demonstrates how to create a presentation with multiple slides, customize their backgrounds, add text content, and implement zoom frames with different formatting options to enhance navigation and visual appeal.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/shapes/create-zoom-frame" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -41,7 +46,9 @@ Aspose.Slides for .NET enables developers to create interactive PowerPoint prese
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

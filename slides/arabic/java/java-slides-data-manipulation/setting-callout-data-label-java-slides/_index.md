@@ -1,31 +1,33 @@
 ---
-title: إعداد وسائل الشرح لتسمية البيانات في شرائح Java
-linktitle: إعداد وسائل الشرح لتسمية البيانات في شرائح Java
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية إعداد وسائل الشرح لتسميات البيانات في Aspose.Slides لـ Java. دليل خطوة بخطوة مع كود المصدر.
-weight: 25
-url: /ar/java/data-manipulation/setting-callout-data-label-java-slides/
+"description": "تعرّف على كيفية إعداد تسميات البيانات في Aspose.Slides لجافا. دليل خطوة بخطوة مع الكود المصدر."
+"linktitle": "إعداد استدعاء تسمية البيانات في شرائح Java"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "إعداد استدعاء تسمية البيانات في شرائح Java"
+"url": "/ar/java/data-manipulation/setting-callout-data-label-java-slides/"
+"weight": 25
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إعداد وسائل الشرح لتسمية البيانات في شرائح Java
+# إعداد استدعاء تسمية البيانات في شرائح Java
 
 
-## مقدمة لإعداد وسائل الشرح لتسمية البيانات في Aspose.Slides لـ Java
+## مقدمة لتعيين تسمية البيانات في Aspose.Slides لـ Java
 
-في هذا البرنامج التعليمي، سنوضح كيفية إعداد وسائل الشرح لتسميات البيانات في مخطط باستخدام Aspose.Slides لـ Java. يمكن أن تكون وسائل الشرح مفيدة لتسليط الضوء على نقاط بيانات محددة في المخطط الخاص بك. سنتعرف على الكود خطوة بخطوة ونوفر كود المصدر اللازم.
+في هذا البرنامج التعليمي، سنشرح كيفية إعداد التعليقات التوضيحية لعلامات البيانات في مخطط بياني باستخدام Aspose.Slides لجافا. يمكن أن تكون التعليقات التوضيحية مفيدة لتسليط الضوء على نقاط بيانات محددة في مخططك البياني. سنشرح الكود خطوة بخطوة ونوفر الكود المصدري اللازم.
 
 ## المتطلبات الأساسية
 
-- يجب أن يكون Aspose.Slides الخاص بـ Java مثبتًا لديك.
-- أنشئ مشروع Java وأضف مكتبة Aspose.Slides إلى مشروعك.
+- يجب أن يكون لديك Aspose.Slides for Java مثبتًا.
+- قم بإنشاء مشروع Java وأضف مكتبة Aspose.Slides إلى مشروعك.
 
 ## الخطوة 1: إنشاء عرض تقديمي وإضافة مخطط
 
- أولاً، نحتاج إلى إنشاء عرض تقديمي وإضافة مخطط إلى الشريحة. تأكد من استبدال`"Your Document Directory"` بالمسار الفعلي إلى دليل المستندات الخاص بك.
+أولاً، نحتاج إلى إنشاء عرض تقديمي وإضافة مخطط إلى الشريحة. تأكد من استبدال `"Your Document Directory"` مع المسار الفعلي إلى دليل المستند الخاص بك.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -34,9 +36,9 @@ ISlide slide = pres.getSlides().get_Item(0);
 IChart chart = slide.getShapes().addChart(ChartType.Doughnut, 10, 10, 500, 500, false);
 ```
 
-## الخطوة 2: تكوين المخطط
+## الخطوة 2: تكوين الرسم البياني
 
-بعد ذلك، سنقوم بتكوين المخطط عن طريق تعيين خصائص مثل وسيلة الإيضاح والسلسلة والفئات.
+بعد ذلك، سنقوم بتكوين الرسم البياني عن طريق تعيين خصائص مثل الأسطورة والسلسلة والفئات.
 
 ```java
 IChartDataWorkbook workBook = chart.getChartData().getChartDataWorkbook();
@@ -69,7 +71,7 @@ while (categoryIndex < 15) {
 
 ## الخطوة 3: تخصيص تسميات البيانات
 
-الآن، سنقوم بتخصيص تسميات البيانات، بما في ذلك إعداد وسائل الشرح للسلسلة الأخيرة.
+الآن، سنقوم بتخصيص تسميات البيانات، بما في ذلك إعداد التعليقات التوضيحية للسلسلة الأخيرة.
 
 ```java
 int i = 0;
@@ -77,16 +79,16 @@ while (i < chart.getChartData().getSeries().size()) {
     IChartSeries iCS = chart.getChartData().getSeries().get_Item(i);
     IChartDataPoint dataPoint = iCS.getDataPoints().addDataPointForDoughnutSeries(workBook.getCell(0, categoryIndex + 1, i + 1, 1));
     dataPoint.getFormat().getFill().setFillType(FillType.Solid);
-    // تخصيص تنسيق نقطة البيانات (تعبئة، خط، إلخ.)
+    // تخصيص تنسيق نقاط البيانات (التعبئة، الخط، وما إلى ذلك)
 
     if (i == chart.getChartData().getSeries().size() - 1) {
         IDataLabel lbl = dataPoint.getLabel();
         lbl.getTextFormat().getTextBlockFormat().setAutofitType(TextAutofitType.Shape);
-        //تخصيص تنسيق التسمية (الخط، التعبئة، وما إلى ذلك)
+        // تخصيص تنسيق الملصق (الخط، التعبئة، وما إلى ذلك)
         lbl.getDataLabelFormat().setShowValue(false);
         lbl.getDataLabelFormat().setShowCategoryName(true);
         lbl.getDataLabelFormat().setShowSeriesName(false);
-        // تمكين وسائل الشرح
+        // تمكين التعليقات التوضيحية
         lbl.getDataLabelFormat().setShowLabelAsDataCallout(true);
         lbl.getDataLabelFormat().setShowLeaderLines(true);
     }
@@ -94,17 +96,17 @@ while (i < chart.getChartData().getSeries().size()) {
 }
 ```
 
-## الخطوة 4: احفظ العرض التقديمي
+## الخطوة 4: حفظ العرض التقديمي
 
-وأخيرًا، احفظ العرض التقديمي بالمخطط الذي تم تكوينه.
+وأخيرًا، احفظ العرض التقديمي باستخدام الرسم البياني الذي قمت بتكوينه.
 
 ```java
 pres.save("chart.pptx", SaveFormat.Pptx);
 ```
 
-لقد نجحت الآن في إعداد وسائل الشرح لتسميات البيانات في مخطط باستخدام Aspose.Slides for Java. قم بتخصيص الكود وفقًا لمتطلبات الرسم البياني والبيانات المحددة الخاصة بك.
+لقد نجحت الآن في إعداد تسميات البيانات في مخطط باستخدام Aspose.Slides لجافا. خصّص الكود وفقًا لمتطلبات مخططك وبياناتك.
 
-## كود المصدر الكامل لإعداد وسائل الشرح لتسمية البيانات في شرائح Java
+## كود المصدر الكامل لإعداد استدعاء تسمية البيانات في شرائح Java
 
 ```java
 String dataDir = "Your Document Directory";
@@ -152,7 +154,7 @@ while (categoryIndex < 15)
 			lbl.getDataLabelFormat().setShowValue(false);
 			lbl.getDataLabelFormat().setShowCategoryName(true);
 			lbl.getDataLabelFormat().setShowSeriesName(false);
-			//lbl.getDataLabelFormat().setShowLabelAsDataCallout(true);
+			//lbl.getDataLabelFormat().setShowLabelAsDataCallout(صحيح)؛
 			lbl.getDataLabelFormat().setShowLeaderLines(true);
 			lbl.getDataLabelFormat().setShowLabelAsDataCallout(false);
 			chart.validateChartLayout();
@@ -168,7 +170,7 @@ pres.save("chart.pptx", SaveFormat.Pptx);
 
 ## خاتمة
 
-في هذا البرنامج التعليمي، اكتشفنا كيفية إعداد وسائل الشرح لتسميات البيانات في مخطط باستخدام Aspose.Slides لـ Java. تعد وسائل الشرح أدوات قيمة للتأكيد على نقاط بيانات محددة في المخططات والعروض التقديمية الخاصة بك. لقد قدمنا دليلًا خطوة بخطوة بالإضافة إلى التعليمات البرمجية المصدر لمساعدتك في تحقيق هذا التخصيص.
+في هذا البرنامج التعليمي، استكشفنا كيفية إعداد تعليقات توضيحية لعلامات البيانات في مخطط بياني باستخدام Aspose.Slides لجافا. تُعد التعليقات التوضيحية أدوات قيّمة لإبراز نقاط بيانات محددة في مخططاتك وعروضك التقديمية. لقد قدمنا دليلاً تفصيليًا مع شفرة المصدر لمساعدتك في تحقيق هذا التخصيص.
 
 ## الأسئلة الشائعة
 
@@ -187,31 +189,33 @@ lbl.getDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getS
 lbl.getDataLabelFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
 ```
 
-### كيف يمكنني تمكين وسائل الشرح أو تعطيلها لتسميات البيانات؟
+### كيف يمكنني تمكين أو تعطيل التعليقات التوضيحية لملصقات البيانات؟
 
- لتمكين وسائل الشرح أو تعطيلها لتسميات البيانات، استخدم`setShowLabelAsDataCallout` طريقة. اضبطه على`true` لتمكين وسائل الشرح و`false`لتعطيلهم.
+لتمكين أو تعطيل التعليقات التوضيحية لملصقات البيانات، استخدم `setShowLabelAsDataCallout` الطريقة. اضبطها على `true` لتمكين النداءات و `false` لتعطيلهم.
 
 ```java
-lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // تمكين وسائل الشرح
-lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // تعطيل وسائل الشرح
+lbl.getDataLabelFormat().setShowLabelAsDataCallout(true); // تمكين التعليقات التوضيحية
+lbl.getDataLabelFormat().setShowLabelAsDataCallout(false); // تعطيل التعليقات التوضيحية
 ```
 
-### هل يمكنني تخصيص الخطوط الرئيسية لتسميات البيانات؟
+### هل يمكنني تخصيص خطوط القائد لملصقات البيانات؟
 
-نعم، يمكنك تخصيص الخطوط الرئيسية لتسميات البيانات باستخدام خصائص مثل نمط الخط واللون والعرض. على سبيل المثال:
+نعم، يمكنك تخصيص خطوط البيانات الرئيسية باستخدام خصائص مثل نمط الخط ولونه وعرضه. على سبيل المثال:
 
 ```java
-lbl.getDataLabelFormat().setShowLeaderLines(true); // تمكين خطوط الزعيم
+lbl.getDataLabelFormat().setShowLeaderLines(true); // تمكين خطوط القائد
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().setStyle(LineStyle.Single);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().setWidth(1);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().setFillType(FillType.Solid);
 lbl.getDataLabelFormat().getLeaderLinesFormat().getFormat().getLine().getFillFormat().getSolidFillColor().setColor(Color.BLACK);
 ```
 
-هذه بعض خيارات التخصيص الشائعة لتسميات البيانات ووسائل الشرح في Aspose.Slides لـ Java. يمكنك أيضًا تخصيص المظهر وفقًا لاحتياجاتك المحددة.
+هذه بعض خيارات التخصيص الشائعة لعلامات البيانات وعلامات الاستدعاء في Aspose.Slides لـ Java. يمكنك تخصيص المظهر بشكل أكبر ليناسب احتياجاتك الخاصة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

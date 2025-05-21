@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Custom Numbered Bullet Points in PowerPoint Using Aspose.Slides for Java
 
@@ -204,6 +206,9 @@ A: Common issues include incorrect paragraph formatting or text frame access err
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/9)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

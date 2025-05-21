@@ -8,7 +8,9 @@ url: /net/image-and-video-manipulation-in-slides/creating-thumbnail-scaling-fact
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Thumbnail with Scaling Factor for Shape in Aspose.Slides
@@ -65,6 +67,7 @@ Certainly! To purchase Aspose.Slides for .NET, please visit the purchase page [h
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Resize PowerPoint Slides to A4 Using Aspose.Slides in Python: A Comprehensive Guide
 
@@ -195,7 +197,11 @@ By following this guide, you've learned how to resize PowerPoint slides to A4 si
 ## Resources
 - **Documentation**: Explore detailed guides at [Aspose Documentation](https://reference.aspose.com/slides/python-net/)
 - **Download Aspose.Slides**: Get the latest version from [Aspose's website](https://releases.aspose.com/slides/python-net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

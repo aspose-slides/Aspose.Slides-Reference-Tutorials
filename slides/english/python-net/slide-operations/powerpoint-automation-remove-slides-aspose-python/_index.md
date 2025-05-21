@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint Slide Removal with Aspose.Slides in Python
 
@@ -139,7 +141,11 @@ By now, you should have a solid understanding of how to remove slides using thei
 - Free Trial: [Start Here](https://releases.aspose.com/slides/python-net/)
 - Temporary License: [Get Your License](https://purchase.aspose.com/temporary-license/)
 - Support Forum: [Aspose Community](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

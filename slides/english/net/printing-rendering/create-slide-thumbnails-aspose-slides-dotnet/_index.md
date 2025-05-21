@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create PowerPoint Slide Thumbnails Easily with Aspose.Slides for .NET
 
@@ -176,7 +178,11 @@ A5: Yes, a valid license is necessary for full feature access beyond the trial p
 - **Purchase**: For licensing needs, visit [Aspose Purchase](https://purchase.aspose.com/buy).
 - **Free Trial & Temporary License**: Explore trial options at [Aspose Releases](https://releases.aspose.com/slides/net/) and obtain a temporary license via [Temporary License Page](https://purchase.aspose.com/temporary-license/).
 - **Support**: For queries, head to the [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Text Frame Manipulation in PowerPoint with Aspose.Slides for .NET
 ## Introduction
@@ -123,7 +125,11 @@ Consider diving deeper into Aspose.Slides to discover more advanced functionalit
 - **Free Trial**: [Start Free Trial](https://releases.aspose.com/slides/net/)
 - **Temporary License**: [Obtain Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

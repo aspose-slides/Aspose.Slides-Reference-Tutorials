@@ -8,7 +8,9 @@ url: /java/chart-creation/second-plot-options-charts-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Second Plot Options for Charts in Java Slides
@@ -103,6 +105,7 @@ You can set the position of the split in a Pie of Pie chart using the `setPieSpl
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

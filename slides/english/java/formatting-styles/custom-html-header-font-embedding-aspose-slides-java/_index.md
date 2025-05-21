@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Custom HTML Header & Font Embedding in Java with Aspose.Slides
 
@@ -100,12 +102,18 @@ import com.aspose.slides.IPresentation;
 
 public class CustomHeaderAndFontsController extends EmbedAllFontsHtmlController {
     // Custom header template with embedded CSS file reference
-    private static String Header = "<!DOCTYPE html>\n" +
-            "<html>\n" +
-            "<head>\n" +
-            "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n" +
-            "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=9\">\n" +
-            "<link rel=\"stylesheet\" type=\"text/css\" href=\"{0}\">\n" +
+    private static String Header = "<!DOCTYPE html>
+" +
+            "<html>
+" +
+            "<head>
+" +
+            "<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+" +
+            "<meta http-equiv="X-UA-Compatible" content="IE=9">
+" +
+            "<link rel="stylesheet" type="text/css" href="{0}">
+" +
             "</head>";
 
     private String m_cssFileName;
@@ -181,7 +189,11 @@ To further explore Aspose.Slides features, consider diving into its comprehensiv
    - Yes, Aspose provides libraries for .NET, C++, PHP, Python, Android, Node.js, and more.
 4. **What if my fonts are not displaying correctly after conversion?**
    - Ensure that the font files are accessible and properly referenced.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

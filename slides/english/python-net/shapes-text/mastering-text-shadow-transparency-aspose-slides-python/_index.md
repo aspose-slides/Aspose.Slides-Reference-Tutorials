@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Adjust Text Shadow Transparency in PowerPoint with Aspose.Slides for Python
 
@@ -153,7 +155,11 @@ Explore further by experimenting with other effects in Aspose.Slides or integrat
 - **Temporary License**: Get one here: [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 
 This guide empowers you to enhance your PowerPoint presentations effectively using Aspose.Slides for Python. Enjoy creating stunning visuals with ease!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

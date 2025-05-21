@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Efficiently Split Text into Columns in PowerPoint Using Aspose.Slides for Java
 
@@ -197,7 +199,11 @@ Consider exploring further features of Aspose.Slides or integrating this solutio
 - **Support Forum:** [Join the Discussion](https://forum.aspose.com/c/slides/11)
 
 Feel free to experiment and explore further with Aspose.Slides for Java, enhancing your presentations in ways you never thought possible!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

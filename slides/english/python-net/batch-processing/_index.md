@@ -4,8 +4,11 @@ description: "Step-by-step tutorials for automating operations across multiple p
 weight: 22
 url: "/python-net/batch-processing/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Batch Processing Tutorials for Aspose.Slides Python
 
@@ -26,7 +29,11 @@ Learn how to automate PowerPoint slide manipulation using Aspose.Slides for Pyth
 - [Download Aspose.Slides for Python-net](https://releases.aspose.com/slides/python-net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

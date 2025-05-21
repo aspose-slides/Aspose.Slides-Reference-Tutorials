@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Export PowerPoint PPTX to Custom SVG Using Aspose.Slides for Java: A Step-by-Step Guide
 
@@ -176,7 +178,11 @@ Custom SVG exports serve various practical purposes:
 When working with complex PowerPoint presentations:
 - **Optimize Resources**: Manage resources effectively to ensure smooth performance and avoid memory issues.
 - **Efficient Coding Practices**: Write efficient code to minimize processing time and resource usage during SVG export.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

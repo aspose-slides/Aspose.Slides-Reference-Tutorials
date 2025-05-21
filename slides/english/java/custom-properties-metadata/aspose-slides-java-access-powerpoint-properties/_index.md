@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Access PowerPoint Properties Using Aspose.Slides for Java
 
@@ -177,7 +179,11 @@ Ready to take it further? Try implementing the solution in your next project!
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 Embrace the power of Aspose.Slides Java for your presentation management needs today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

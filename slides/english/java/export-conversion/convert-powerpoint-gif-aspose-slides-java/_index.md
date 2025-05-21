@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Convert PowerPoint Presentations to GIFs Using Aspose.Slides for Java
 
@@ -148,7 +150,11 @@ Explore further features of the Aspose.Slides library to unlock even more potent
 - **Free Trial:** [Evaluation Version](https://releases.aspose.com/slides/java/)
 - **Temporary License:** [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support:** [Aspose Forums](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

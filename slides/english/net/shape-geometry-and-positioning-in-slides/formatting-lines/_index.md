@@ -8,7 +8,9 @@ url: /net/shape-geometry-and-positioning-in-slides/formatting-lines/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Format Presentation Lines with Aspose.Slides .NET Tutorial
@@ -85,6 +87,7 @@ You can buy the product from [Aspose.Slides Purchase](https://purchase.aspose.co
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

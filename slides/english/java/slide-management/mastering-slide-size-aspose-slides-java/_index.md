@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Match and Clone Slide Sizes Using Aspose.Slides for Java
 
@@ -186,7 +188,11 @@ A5: Yes, Aspose.Slides supports multiple formats including PDF, ODP, and more. R
 - **Free Trial**: [Try Aspose.Slides](https://releases.aspose.com/slides/java/)
 - **Temporary License**: [Get Temporary Access](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

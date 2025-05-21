@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Animation Rewind Effects in PowerPoint with Aspose.Slides for .NET
 
@@ -186,6 +188,9 @@ A5: Yes, Aspose.Slides supports a wide range of PowerPoint features, including t
 Try implementing these solutions in your next presentation project, and watch as your audience engages with your content like never before!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

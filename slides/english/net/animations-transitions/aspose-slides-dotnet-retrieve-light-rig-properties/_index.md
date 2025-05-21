@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Retrieve PowerPoint Light Rig Properties Using Aspose.Slides .NET
 
@@ -139,7 +141,11 @@ Ready to enhance your presentations? Try implementing these features today!
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 Dive deeper into Aspose.Slides and unlock the full potential of your PowerPoint presentations!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

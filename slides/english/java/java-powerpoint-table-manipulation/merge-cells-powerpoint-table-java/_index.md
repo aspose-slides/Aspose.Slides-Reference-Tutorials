@@ -8,7 +8,9 @@ url: /java/java-powerpoint-table-manipulation/merge-cells-powerpoint-table-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Merge Cells in PowerPoint Table with Java
@@ -102,6 +104,7 @@ You can get support from the Aspose.Slides community forum [here](https://forum.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

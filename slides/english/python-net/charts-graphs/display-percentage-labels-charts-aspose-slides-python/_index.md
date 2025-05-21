@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Display Percentage Labels on Charts Using Aspose.Slides for Python
 
@@ -137,7 +139,11 @@ This segment processes each data point to calculate its percentage of the total 
 def save_presentation(presentation, output_directory):
     # Save your presentation with modifications
     presentation.save(f"{output_directory}/charts_display_percentage_as_labels_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

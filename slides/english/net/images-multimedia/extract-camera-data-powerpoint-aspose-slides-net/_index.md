@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Effective Camera Data Retrieval in PowerPoint Using Aspose.Slides for .NET
 
@@ -164,6 +166,9 @@ Ready to dive deeper? Try implementing these techniques in your next PowerPoint 
 Embark on your journey with Aspose.Slides for .NET and transform how you handle PowerPoint presentations today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

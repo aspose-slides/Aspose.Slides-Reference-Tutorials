@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set Number Formats in Chart Data Points Using Aspose.Slides for Java
 
@@ -218,7 +220,11 @@ Ready to dive deeper? Check out more resources:
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 We hope this guide has been helpful. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

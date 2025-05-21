@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Efficiently Remove Notes from Slides Using Aspose.Slides for Java
 
@@ -98,7 +100,11 @@ for (int i = 0; i < presentation.getSlides().size(); i++) {
 // Define where you want to save the updated presentation.
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 presentation.save(outputDir + "/RemoveNotesFromAllSlides_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

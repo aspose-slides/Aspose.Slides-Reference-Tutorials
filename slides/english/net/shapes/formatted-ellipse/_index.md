@@ -6,8 +6,11 @@ description: Learn how to create and format elliptical shapes in PowerPoint pres
 keywords: [Aspose.Slides, .NET, PowerPoint, PPTX, Elliptical Shape, AutoShape, Shape Formatting, C#, Fill Color, Line Formatting]
 url: /net/shapes/formatted-ellipse/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Elliptical Shapes in PowerPoint with Aspose.Slides
@@ -15,9 +18,11 @@ url: /net/shapes/formatted-ellipse/
 Aspose.Slides for .NET is a powerful API that enables developers to create, read, write, modify, and convert PowerPoint presentations without requiring Microsoft PowerPoint. This example demonstrates how to create an elliptical shape in a presentation, apply formatting including fill color and line properties, and save the result as a PPTX file. The code showcases Aspose.Slides' ability to manipulate shapes with precise control over their appearance and positioning.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/shapes/formatted-ellipse" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -52,7 +57,9 @@ Aspose.Slides for .NET is a powerful API that enables developers to create, read
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
  
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

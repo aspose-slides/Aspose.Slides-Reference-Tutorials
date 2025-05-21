@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Clear Data Points in PowerPoint Charts Using Aspose.Slides for Java
 
@@ -209,6 +211,9 @@ Ready to implement this solution in your projects? Try it out today!
 With these resources, you're well-equipped to begin leveraging Aspose.Slides for Java in your projects. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

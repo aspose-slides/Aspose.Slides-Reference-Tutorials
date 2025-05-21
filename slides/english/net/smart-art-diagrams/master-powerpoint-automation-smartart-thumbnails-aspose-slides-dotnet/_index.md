@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint SmartArt Thumbnails Creation with Aspose.Slides for .NET
 
@@ -167,6 +169,9 @@ Ready to take your PowerPoint automation skills to the next level? Start impleme
 Start automating your PowerPoint presentations today and unleash the full potential of Aspose.Slides for .NET!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

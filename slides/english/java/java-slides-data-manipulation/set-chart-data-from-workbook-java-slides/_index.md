@@ -8,7 +8,9 @@ url: /java/data-manipulation/set-chart-data-from-workbook-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Chart Data From Workbook in Java Slides
@@ -152,6 +154,7 @@ You can explore additional examples and resources on the [Aspose website](https:
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

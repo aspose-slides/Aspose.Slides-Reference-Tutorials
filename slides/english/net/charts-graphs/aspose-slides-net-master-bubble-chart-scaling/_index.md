@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Bubble Chart Scaling in Aspose.Slides for .NET
 
@@ -166,7 +168,11 @@ For further reading and resources:
 - **Purchase a License:** [Buy Now](https://purchase.aspose.com/buy)
 - **Free Trial and Temporary License:** [Get Started](https://releases.aspose.com/slides/net/) & [Temporary Licensing](https://purchase.aspose.com/temporary-license/)
 - **Support Forum:** [Aspose Community Support](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

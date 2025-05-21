@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Access PowerPoint Slides by ID Using Aspose.Slides Java: A Comprehensive Guide
 
@@ -149,6 +151,9 @@ For more information and resources:
 Embrace the power of Aspose.Slides for Java and streamline your presentation management tasks today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

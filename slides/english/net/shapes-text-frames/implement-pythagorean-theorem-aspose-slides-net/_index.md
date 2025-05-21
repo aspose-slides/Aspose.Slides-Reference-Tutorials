@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Implement the Pythagorean Theorem in PowerPoint Using Aspose.Slides .NET
 
@@ -75,7 +77,7 @@ license.SetLicense("Aspose.Slides.lic");
 This feature focuses on building a slide with the mathematical expression for the Pythagorean theorem using Aspose.Slides.
 
 #### Overview
-The Pythagorean theorem states that in a right triangle, \(a^2 + b^2 = c^2\). We will create a PowerPoint slide to visually represent this equation.
+The Pythagorean theorem states that in a right triangle, (a^2 + b^2 = c^2). We will create a PowerPoint slide to visually represent this equation.
 
 #### Step 1: Initialize Presentation
 Start by creating a new presentation object:
@@ -183,7 +185,11 @@ A5: Visit [Aspose's Support Forum](https://forum.aspose.com/c/slides/11) for ass
 - **Purchase a License**: Visit [Purchase Page](https://purchase.aspose.com/buy) for more information on licensing.
 - **Free Trial**: Start exploring with [Aspose's Free Trial](https://releases.aspose.com/slides/net/).
 - **Temporary License**: Obtain a temporary license from [Temporary License Page](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

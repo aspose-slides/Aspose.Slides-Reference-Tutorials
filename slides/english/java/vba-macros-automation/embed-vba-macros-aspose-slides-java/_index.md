@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Embed VBA Macros in PowerPoint Using Aspose.Slides for Java
 
@@ -110,7 +112,11 @@ import com.aspose.slides.*;
 // Define and add standard OLE type library reference
 VbaReferenceOleTypeLib stdoleReference = new VbaReferenceOleTypeLib(
         "stdole\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

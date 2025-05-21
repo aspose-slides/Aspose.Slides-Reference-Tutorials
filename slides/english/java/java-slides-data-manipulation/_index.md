@@ -8,7 +8,9 @@ url: /java/data-manipulation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Slides Data Manipulation
@@ -102,9 +104,11 @@ Learn how to create dynamic pie charts with automatic slice colors in Java Power
 Learn How to Set Up Callouts for Data Labels in Aspose.Slides for Java. Step-by-step guide with source code.
 ### [Setting Date Format For Category Axis in Java Slides](./setting-date-format-category-axis-java-slides/)
 Learn how to set a date format for the category axis in a PowerPoint chart using Aspose.Slides for Java. Step-by-step guide with source code.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

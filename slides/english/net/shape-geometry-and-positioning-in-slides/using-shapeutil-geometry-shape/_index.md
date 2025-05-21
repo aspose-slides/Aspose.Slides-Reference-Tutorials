@@ -8,7 +8,9 @@ url: /net/shape-geometry-and-positioning-in-slides/using-shapeutil-geometry-shap
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mastering Geometry Shapes with ShapeUtil - Aspose.Slides .NET
@@ -98,6 +100,7 @@ Yes, you can obtain a temporary license [here](https://purchase.aspose.com/tempo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

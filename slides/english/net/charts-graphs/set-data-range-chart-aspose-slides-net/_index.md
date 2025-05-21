@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set a Data Range in a Chart Using Aspose.Slides .NET
 
@@ -146,6 +148,9 @@ Ready to start implementing? Try out the solution today and streamline your pres
 Embark on your journey with Aspose.Slides and revolutionize how you manage PowerPoint presentations!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

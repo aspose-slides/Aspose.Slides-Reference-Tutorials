@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master PowerPoint Properties with Aspose.Slides in Python: A Comprehensive Guide
 
@@ -189,7 +191,11 @@ By following this guide, you've learned how to access, modify, and save PowerPoi
    - Use `pip install aspose.slides` to add it to your project.
 3. **Can I use Aspose.Slides without purchasing a license?**
    - Yes, you can start with a free trial or obtain a temporary license for full access.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

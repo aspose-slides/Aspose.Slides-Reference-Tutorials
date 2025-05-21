@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Extract Text from SmartArt Nodes Using Aspose.Slides for .NET
 
@@ -162,6 +164,9 @@ To further enhance your application, consider exploring additional features of A
 By following this guide, you're now equipped to automate text extraction from SmartArt nodes in PowerPoint presentations using Aspose.Slides for .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

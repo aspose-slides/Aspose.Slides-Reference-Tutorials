@@ -4,8 +4,11 @@ description: "Complete tutorials for printing presentations, rendering slides to
 weight: 15
 url: "/net/printing-rendering/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Printing and Rendering Tutorials for Aspose.Slides .NET
 
@@ -41,7 +44,11 @@ Learn how to effectively set slide and note view zoom levels in PowerPoint prese
 - [Download Aspose.Slides for Net](https://releases.aspose.com/slides/net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

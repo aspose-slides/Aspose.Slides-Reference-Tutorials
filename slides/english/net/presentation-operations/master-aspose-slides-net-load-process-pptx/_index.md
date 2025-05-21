@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Presentation Management with Aspose.Slides .NET: Load, Access, and Calculate
 
@@ -216,6 +218,9 @@ In this tutorial, you've learned how to leverage Aspose.Slides .NET for loading,
 - **Support:** Join the community discussions on the [Aspose Forum](https://forum.aspose.com/c/slides/11) for support and tips
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

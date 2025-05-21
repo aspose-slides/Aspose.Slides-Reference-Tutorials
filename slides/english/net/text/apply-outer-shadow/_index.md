@@ -6,8 +6,11 @@ description: A comprehensive guide to applying WordArt-like inner shadow effects
 keywords: [Aspose.Slides, PowerPoint, .NET, C#, Inner Shadow, TextBox, WordArt, Text Effects, Presentation]
 url: /net/text/apply-outer-shadow/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Text with Inner Shadow Effects in PowerPoint
@@ -15,9 +18,11 @@ url: /net/text/apply-outer-shadow/
 Aspose.Slides for .NET provides powerful capabilities for programmatically creating and modifying PowerPoint presentations. This example demonstrates how to create text with inner shadow effects to achieve professional WordArt-like styling in your slides. Inner shadow effects add depth and dimension to your text, making it stand out and enhancing the visual appeal of your presentations.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/text/apply-outer-shadow" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -43,7 +48,9 @@ Aspose.Slides for .NET provides powerful capabilities for programmatically creat
    - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

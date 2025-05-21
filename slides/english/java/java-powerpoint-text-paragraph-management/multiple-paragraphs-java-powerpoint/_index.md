@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-paragraph-management/multiple-paragraphs-java-po
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Multiple Paragraphs in Java PowerPoint
@@ -123,6 +125,7 @@ You can get support from the Aspose.Slides community [here](https://forum.aspose
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/image-and-video-manipulation-in-slides/creating-thumbnail-smartart-chi
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Thumbnail for SmartArt Child Note in Aspose.Slides
@@ -72,6 +74,7 @@ A: Certainly! Explore the purchase options [here](https://purchase.aspose.com/bu
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

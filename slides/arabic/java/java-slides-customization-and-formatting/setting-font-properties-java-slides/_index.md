@@ -1,30 +1,32 @@
 ---
-title: ضبط خصائص الخط في شرائح جافا
-linktitle: ضبط خصائص الخط في شرائح جافا
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية تعيين خصائص الخط في شرائح Java باستخدام Aspose.Slides لـ Java. يتضمن هذا الدليل خطوة بخطوة أمثلة على التعليمات البرمجية والأسئلة الشائعة.
-weight: 15
-url: /ar/java/customization-and-formatting/setting-font-properties-java-slides/
+"description": "تعرّف على كيفية ضبط خصائص الخطوط في شرائح جافا باستخدام Aspose.Slides لجافا. يتضمن هذا الدليل خطوة بخطوة أمثلةً برمجيةً وأسئلةً شائعة."
+"linktitle": "ضبط خصائص الخط في شرائح Java"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "ضبط خصائص الخط في شرائح Java"
+"url": "/ar/java/customization-and-formatting/setting-font-properties-java-slides/"
+"weight": 15
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# ضبط خصائص الخط في شرائح جافا
+# ضبط خصائص الخط في شرائح Java
 
 
-## مقدمة لإعداد خصائص الخط في شرائح جافا
+## مقدمة لتعيين خصائص الخط في شرائح Java
 
-في هذا البرنامج التعليمي، سنستكشف كيفية تعيين خصائص الخط للنص في شرائح Java باستخدام Aspose.Slides for Java. يمكن تخصيص خصائص الخط مثل الخط الغامق وحجم الخط لتحسين مظهر الشرائح.
+في هذا البرنامج التعليمي، سنستكشف كيفية ضبط خصائص الخط في شرائح جافا باستخدام Aspose.Slides. يمكنك تخصيص خصائص الخط، مثل سماكة الخط وحجمه، لتحسين مظهر شرائحك.
 
 ## المتطلبات الأساسية
 
- قبل أن تبدأ، تأكد من إضافة مكتبة Aspose.Slides for Java إلى مشروعك. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/java/).
+قبل البدء، تأكد من إضافة مكتبة Aspose.Slides لجافا إلى مشروعك. يمكنك تنزيلها من [هنا](https://releases.aspose.com/slides/java/).
 
 ## الخطوة 1: تهيئة العرض التقديمي
 
- أولاً، تحتاج إلى تهيئة كائن العرض التقديمي عن طريق تحميل ملف PowerPoint موجود. يستبدل`"Your Document Directory"` بالمسار الفعلي إلى دليل المستندات الخاص بك.
+أولاً، عليك تهيئة كائن العرض التقديمي عن طريق تحميل ملف PowerPoint موجود. استبدل `"Your Document Directory"` مع المسار الفعلي إلى دليل المستند الخاص بك.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -33,7 +35,7 @@ Presentation pres = new Presentation(dataDir + "test.pptx");
 
 ## الخطوة 2: إضافة مخطط
 
-في هذا المثال، سنعمل مع مخطط على الشريحة الأولى. يمكنك تغيير فهرس الشرائح وفقًا لاحتياجاتك. سنقوم بإضافة مخطط عمودي متفاوت المسافات وتمكين جدول البيانات.
+في هذا المثال، سنعمل على مخطط في الشريحة الأولى. يمكنك تغيير فهرس الشريحة حسب احتياجاتك. سنضيف مخططًا عموديًا مجمعًا ونفعّل جدول البيانات.
 
 ```java
 IChart chart = pres.getSlides().get_Item(0).getShapes().addChart(ChartType.ClusteredColumn, 50, 50, 600, 400);
@@ -42,25 +44,25 @@ chart.setDataTable(true);
 
 ## الخطوة 3: تخصيص خصائص الخط
 
-الآن، دعونا نخصص خصائص الخط لجدول بيانات المخطط. سنقوم بتعيين الخط ليكون غامقًا ونضبط ارتفاع الخط (حجمه).
+الآن، لنُخصّص خصائص خط جدول بيانات الرسم البياني. سنضبط الخط ليكون عريضًا ونعدّل ارتفاعه (حجمه).
 
 ```java
 chart.getChartDataTable().getTextFormat().getPortionFormat().setFontBold(NullableBool.True);
 chart.getChartDataTable().getTextFormat().getPortionFormat().setFontHeight(20);
 ```
 
-- `setFontBold(NullableBool.True)`: هذا السطر يضبط الخط ليكون غامقًا.
-- `setFontHeight(20)`: هذا الخط يضبط ارتفاع الخط على 20 نقطة. يمكنك ضبط هذه القيمة حسب الحاجة.
+- `setFontBold(NullableBool.True)`:يعمل هذا السطر على ضبط الخط ليصبح غامقًا.
+- `setFontHeight(20)`هذا السطر يُعيّن ارتفاع الخط إلى ٢٠ نقطة. يُمكنك تعديل هذه القيمة حسب الحاجة.
 
-## الخطوة 4: احفظ العرض التقديمي
+## الخطوة 4: حفظ العرض التقديمي
 
-وأخيراً، احفظ العرض التقديمي المعدل في ملف جديد. يمكنك تحديد تنسيق الإخراج. وفي هذه الحالة، نقوم بحفظه كملف PPTX.
+أخيرًا، احفظ العرض التقديمي المُعدَّل في ملف جديد. يمكنك تحديد صيغة الإخراج؛ في هذه الحالة، سنحفظه كملف PPTX.
 
 ```java
 pres.save(dataDir + "output.pptx", SaveFormat.Pptx);
 ```
 
-## أكمل كود المصدر لإعداد خصائص الخط في شرائح Java
+## كود المصدر الكامل لتعيين خصائص الخط في شرائح Java
 
 ```java
 String dataDir = "Your Document Directory";
@@ -81,71 +83,73 @@ finally
 
 ## خاتمة
 
-في هذا البرنامج التعليمي، تعلمت كيفية تعيين خصائص الخط للنص في شرائح Java باستخدام Aspose.Slides for Java. يمكنك تطبيق هذه التقنيات لتحسين مظهر النص في عروض PowerPoint التقديمية.
+في هذا البرنامج التعليمي، تعلمت كيفية ضبط خصائص الخط للنص في شرائح جافا باستخدام Aspose.Slides for Java. يمكنك تطبيق هذه التقنيات لتحسين مظهر النص في عروض PowerPoint التقديمية.
 
 ## الأسئلة الشائعة
 
 ### كيف يمكنني تغيير لون الخط؟
 
- لتغيير لون الخط استخدم`setFontColor` الطريقة وتحديد اللون المطلوب. على سبيل المثال:
+لتغيير لون الخط، استخدم `setFontColor` الطريقة وحدد اللون المطلوب. على سبيل المثال:
 
 ```java
 chart.getChartDataTable().getTextFormat().getPortionFormat().setFontColor(Color.RED);
 ```
 
-### هل يمكنني تغيير الخط للنص الآخر في الشرائح؟
+### هل يمكنني تغيير الخط للنصوص الأخرى في الشرائح؟
 
-نعم، يمكنك تغيير الخط لعناصر النص الأخرى في الشرائح، مثل العناوين والتسميات. استخدم الكائنات والأساليب المناسبة للوصول إلى خصائص الخط وتخصيصها لعناصر نصية معينة.
+نعم، يمكنك تغيير خط عناصر نصية أخرى في الشرائح، مثل العناوين والملصقات. استخدم العناصر والأساليب المناسبة للوصول إلى خصائص الخط وتخصيصها لعناصر نصية محددة.
 
 ### كيف أقوم بتعيين نمط الخط المائل؟
 
- لتعيين نمط الخط إلى الخط المائل، استخدم`setFontItalic` طريقة:
+لتعيين نمط الخط إلى مائل، استخدم `setFontItalic` طريقة:
 
 ```java
 chart.getChartDataTable().getTextFormat().getPortionFormat().setFontItalic(NullableBool.True);
 ```
 
- أضبط ال`NullableBool.True` المعلمة حسب الحاجة لتمكين أو تعطيل النمط المائل.
+ضبط `NullableBool.True` المعلمة حسب الحاجة لتمكين أو تعطيل النمط المائل.
 
-### كيف يمكنني تغيير خط تسميات البيانات في المخطط؟
+### كيف يمكنني تغيير الخط الخاص بتسميات البيانات في الرسم البياني؟
 
-لتغيير خط تسميات البيانات في المخطط، تحتاج إلى الوصول إلى تنسيق نص تسمية البيانات باستخدام الطرق المناسبة. على سبيل المثال:
+لتغيير خط تسميات البيانات في مخطط بياني، يجب الوصول إلى تنسيق نص تسميات البيانات بالطرق المناسبة. على سبيل المثال:
 
 ```java
-IChartSeries series = chart.getChartData().getSeries().get_Item(0); // قم بتغيير الفهرس حسب الحاجة
+IChartSeries series = chart.getChartData().getSeries().get_Item(0); // تغيير الفهرس حسب الحاجة
 series.getLabels().getDefaultDataLabelFormat().getPortionFormat().setFontBold(NullableBool.True);
 ```
 
-يقوم هذا الرمز بتعيين خط تسميات البيانات في السلسلة الأولى إلى غامق.
+يقوم هذا الكود بتعيين خط تسميات البيانات في السلسلة الأولى إلى غامق.
 
 ### كيف يمكنني تغيير الخط لجزء معين من النص؟
 
- إذا كنت تريد تغيير الخط لجزء معين من النص داخل عنصر النص، فيمكنك استخدام الخيار`PortionFormat` فصل. قم بالوصول إلى الجزء الذي تريد تعديله ثم قم بتعيين خصائص الخط المطلوبة.
+إذا كنت تريد تغيير الخط لجزء معين من النص داخل عنصر النص، فيمكنك استخدام `PortionFormat` قم بالوصول إلى الجزء الذي تريد تعديله، ثم اضبط خصائص الخط المطلوبة.
 
 ```java
-IAutoShape textShape = (IAutoShape)slide.getShapes().get_Item(0); // قم بتغيير الفهرس حسب الحاجة
+IAutoShape textShape = (IAutoShape)slide.getShapes().get_Item(0); // تغيير الفهرس حسب الحاجة
 ITextFrame textFrame = textShape.getTextFrame();
-IParagraph paragraph = textFrame.getParagraphs().get_Item(0); // قم بتغيير الفهرس حسب الحاجة
-IPortion portion = paragraph.getPortions().get_Item(0); // قم بتغيير الفهرس حسب الحاجة
+IParagraph paragraph = textFrame.getParagraphs().get_Item(0); // تغيير الفهرس حسب الحاجة
+IPortion portion = paragraph.getPortions().get_Item(0); // تغيير الفهرس حسب الحاجة
 
 portion.getPortionFormat().setFontBold(NullableBool.True);
 portion.getPortionFormat().setFontHeight(24);
 ```
 
-يقوم هذا الرمز بتعيين خط الجزء الأول من النص داخل الشكل ليكون غامقًا ويضبط ارتفاع الخط.
+يقوم هذا الكود بتعيين خط الجزء الأول من النص داخل الشكل إلى خط غامق وضبط ارتفاع الخط.
 
 ### كيف يمكنني تطبيق تغييرات الخط على كافة الشرائح في العرض التقديمي؟
 
-لتطبيق تغييرات الخط على كافة الشرائح في العرض التقديمي، يمكنك التكرار عبر الشرائح وضبط خصائص الخط حسب الحاجة. استخدم حلقة للوصول إلى كل شريحة وعناصر النص الموجودة بداخلها، ثم قم بتخصيص خصائص الخط.
+لتطبيق تغييرات الخط على جميع شرائح العرض التقديمي، يمكنك التنقل بين الشرائح وتعديل خصائص الخط حسب الحاجة. استخدم حلقة للوصول إلى كل شريحة وعناصر النص فيها، ثم خصّص خصائص الخط.
 
 ```java
 for (ISlide slide : pres.getSlides()) {
     // يمكنك الوصول إلى خصائص خطوط عناصر النص وتخصيصها هنا
 }
 ```
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

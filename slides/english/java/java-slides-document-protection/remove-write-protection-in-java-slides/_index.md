@@ -8,7 +8,9 @@ url: /java/document-protection/remove-write-protection-in-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Write Protection in Java Slides
@@ -118,6 +120,7 @@ You can refer to the documentation for Aspose.Slides for Java at [here](https://
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Extract Text from Presentations Using Aspose.Slides for Java: A Comprehensive Guide
 
@@ -200,7 +202,11 @@ A5: This mode determines whether extracted text maintains its layout (`Arranged`
 - **Download**: [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)
 - **Purchase License**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)
 - **Free Trial**: [Start a Free Trial](https://start.aspose.com/trial)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Access and Traverse SmartArt in PowerPoint Using Aspose.Slides for Python
 
@@ -167,7 +169,11 @@ As a next step, explore more features of Aspose.Slides by delving into their com
 - **Support Forum**: [Aspose.Slides Support Forum](https://forum.aspose.com/c/slides/11)
 
 We hope this guide empowers you to harness the full potential of Aspose.Slides in your Python projects. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

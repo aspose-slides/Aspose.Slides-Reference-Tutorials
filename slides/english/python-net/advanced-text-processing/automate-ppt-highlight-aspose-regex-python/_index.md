@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate Text Highlighting in PowerPoint Using Aspose.Slides and Regex with Python
 
@@ -159,7 +161,11 @@ Consider exploring further features offered by Aspose.Slides to enhance your pre
 - **Support**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Embark on your journey to automate PowerPoint presentations and make the most of your time with Aspose.Slides Python!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

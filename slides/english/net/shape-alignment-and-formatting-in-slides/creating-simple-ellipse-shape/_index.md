@@ -8,7 +8,9 @@ url: /net/shape-alignment-and-formatting-in-slides/creating-simple-ellipse-shape
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Ellipse Shape Easily with Aspose.Slides .NET
@@ -75,6 +77,7 @@ Visit the [Aspose.Slides support forum](https://forum.aspose.com/c/slides/11) to
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

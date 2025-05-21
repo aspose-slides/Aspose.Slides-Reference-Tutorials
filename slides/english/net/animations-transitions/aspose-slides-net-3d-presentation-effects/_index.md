@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering 3D Presentation Effects with Aspose.Slides .NET
 ## Introduction
@@ -156,7 +158,11 @@ You are now equipped to apply captivating 3D rotation effects using Aspose.Slide
 - **Free Trial**: Start with a trial at [Aspose's release site](https://releases.aspose.com/slides/net/).
 - **Temporary License**: Obtain a temporary license from [here](https://purchase.aspose.com/temporary-license).
 - **Support Forum**: Join the discussion or ask questions on Aspose's [support forum](https://forum.aspose.com/c/slides/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

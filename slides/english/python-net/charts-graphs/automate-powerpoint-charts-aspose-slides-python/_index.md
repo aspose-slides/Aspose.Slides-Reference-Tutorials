@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automating PowerPoint Chart Manipulation with Aspose.Slides in Python
 
@@ -193,6 +195,9 @@ A: Check for common pitfalls such as incorrect shape indices or mismatched data 
 Embrace the power of Aspose.Slides for Python and revolutionize your chart manipulation capabilities today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

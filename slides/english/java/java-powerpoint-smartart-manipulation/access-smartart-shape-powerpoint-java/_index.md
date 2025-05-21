@@ -8,7 +8,9 @@ url: /java/java-powerpoint-smartart-manipulation/access-smartart-shape-powerpoin
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Access SmartArt Shape in PowerPoint using Java
@@ -94,6 +96,7 @@ You can obtain a temporary license [here](https://purchase.aspose.com/temporary-
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

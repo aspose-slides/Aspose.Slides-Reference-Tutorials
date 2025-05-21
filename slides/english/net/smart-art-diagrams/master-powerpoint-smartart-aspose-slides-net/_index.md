@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automating PowerPoint SmartArt Modification with Aspose.Slides .NET: A Comprehensive Tutorial
 
@@ -199,6 +201,9 @@ Ready to take your PowerPoint automation skills to the next level? Implement wha
 By following this guide, you're well-equipped to enhance your presentation management capabilities with Aspose.Slides .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

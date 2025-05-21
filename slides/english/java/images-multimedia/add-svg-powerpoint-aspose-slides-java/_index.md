@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add an SVG Image to a PowerPoint Presentation using Aspose.Slides for Java
 
@@ -196,6 +198,9 @@ To continue exploring what you can achieve with Aspose.Slides, consider diving i
 Embark on your journey to create dynamic and engaging presentations with Aspose.Slides for Java today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

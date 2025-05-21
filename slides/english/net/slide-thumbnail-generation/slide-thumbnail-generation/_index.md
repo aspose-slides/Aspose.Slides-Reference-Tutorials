@@ -8,7 +8,9 @@ url: /net/slide-thumbnail-generation/slide-thumbnail-generation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Slide Thumbnail Generation in Aspose.Slides
@@ -121,6 +123,7 @@ For further assistance or questions, feel free to visit the [Aspose.Slides Suppo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-formatting-geometry/find-shape-slide-powerpoint
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Find Shape in Slide
@@ -94,6 +96,7 @@ You can find support on the [Aspose Slides forum](https://forum.aspose.com/c/sli
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

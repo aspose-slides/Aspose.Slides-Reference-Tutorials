@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Customize Shapes & Text Frames in .NET Using Aspose.Slides
 
@@ -143,7 +145,11 @@ To further explore the capabilities of Aspose.Slides, consider delving into its 
    
 2. **How do I save the presentation after making changes?**
    - Use `presentation.Save("filename.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

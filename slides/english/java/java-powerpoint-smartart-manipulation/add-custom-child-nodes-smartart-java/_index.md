@@ -8,7 +8,9 @@ url: /java/java-powerpoint-smartart-manipulation/add-custom-child-nodes-smartart
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Custom Child Nodes in SmartArt using Java
@@ -89,6 +91,7 @@ Yes, you can download a free trial version of Aspose.Slides for Java from the we
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

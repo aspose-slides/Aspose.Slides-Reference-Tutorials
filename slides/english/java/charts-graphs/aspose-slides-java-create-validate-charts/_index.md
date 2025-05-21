@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Validate Charts in Aspose.Slides Java: A Developer's Guide
 
@@ -185,7 +187,11 @@ Continue exploring Aspose.Slides features to unlock more potential for your proj
 - [Free Trial](https://releases.aspose.com/slides/java/)
 - [Temporary License Request](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

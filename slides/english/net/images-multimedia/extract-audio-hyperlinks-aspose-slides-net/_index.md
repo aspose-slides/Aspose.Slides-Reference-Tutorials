@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Extract Audio from Hyperlinks in PowerPoint Using Aspose.Slides for .NET
 
@@ -94,7 +96,11 @@ namespace CSharp.Slides.Media.ExtractAudio
         public static void Run()
         {
             string pptxFile = Path.Combine("YOUR_DOCUMENT_DIRECTORY\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

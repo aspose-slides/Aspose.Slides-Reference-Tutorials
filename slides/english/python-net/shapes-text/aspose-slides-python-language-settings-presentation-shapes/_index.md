@@ -14,7 +14,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Set Language in PowerPoint Shapes Using Aspose.Slides Python
 ## Introduction
@@ -142,7 +144,11 @@ A5: Visit the [Aspose Documentation](https://reference.aspose.com/slides/python-
 - **Purchase & Free Trial:** Consider a subscription for full access or start with a free trial from [Aspose Purchase](https://purchase.aspose.com/buy).
 - **Temporary License:** Obtain a temporary license via [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).
 - **Support:** Join discussions and seek help on the [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

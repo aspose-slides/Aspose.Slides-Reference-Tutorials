@@ -4,8 +4,11 @@ description: "Learn to create and customize SmartArt graphics, diagrams, and vis
 weight: 8
 url: "/java/smart-art-diagrams/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint SmartArt and Diagrams Tutorials for Aspose.Slides Java
 
@@ -80,7 +83,11 @@ Learn how to enhance your presentations with SmartArt using Aspose.Slides for Ja
 - [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

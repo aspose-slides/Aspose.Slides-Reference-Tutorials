@@ -8,7 +8,9 @@ url: /net/shape-alignment-and-formatting-in-slides/creating-simple-rectangle-sha
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Rectangle Shapes with Aspose.Slides for .NET
@@ -67,9 +69,11 @@ Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for commun
 Yes, you can purchase a temporary license [here](https://purchase.aspose.com/temporary-license/).
 ### Where can I find the documentation for Aspose.Slides for .NET?
 Refer to the documentation [here](https://reference.aspose.com/slides/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

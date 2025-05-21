@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Slide Cloning in PowerPoint PPTX with Aspose.Slides & Python
 
@@ -158,6 +160,9 @@ Ready to take the next step? Try implementing these techniques in your projects 
 Embark on your journey with Aspose.Slides for Python and transform the way you handle PowerPoint presentations!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/chart-creation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Slides Chart Creation
@@ -41,9 +43,11 @@ Learn how to create Scatter Charts in Java using Aspose.Slides. Step-by-step gui
 Learn how to customize charts in Java Slides using Aspose.Slides for Java. Explore second plot options and enhance your presentations.
 ### [Tree Map Chart in Java Slides](./tree-map-chart-java-slides/)
 Create Tree Map Charts in Java Slides using Aspose.Slides for Java. Step-by-step guide with source code for visualizing hierarchical data.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

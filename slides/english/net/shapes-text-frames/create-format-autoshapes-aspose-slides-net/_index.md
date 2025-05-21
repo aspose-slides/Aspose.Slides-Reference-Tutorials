@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Creating and Formatting AutoShapes in PowerPoint with Aspose.Slides for .NET: A Step-by-Step Guide
 
@@ -189,7 +191,11 @@ In this tutorial, we explored how to create and format AutoShapes in PowerPoint 
 - **Temporary License**: [Request Here](https://purchase.aspose.com/temporary-license/)
 
 By following this guide, you should be well-equipped to create and customize AutoShapes in PowerPoint presentations using Aspose.Slides for .NET. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

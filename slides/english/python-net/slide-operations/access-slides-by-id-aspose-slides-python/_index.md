@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Access and Modify PowerPoint Slides by ID Using Aspose.Slides in Python
 
@@ -95,7 +97,11 @@ def access_and_modify_slide_by_id():
         # Retrieve and print the Slide ID for demonstration
         slide_id = first_slide.slide_id
         print("Slide ID:\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

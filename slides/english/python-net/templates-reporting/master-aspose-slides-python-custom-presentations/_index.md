@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides for Python: Create and Customize Your Presentation Slides
 
@@ -186,7 +188,11 @@ A: Absolutely. Aspose.Slides can be integrated seamlessly with data analysis or 
 - **Download**: [Aspose Slides Releases](https://releases.aspose.com/slides/python-net/)
 - **Purchase**: [Buy Aspose License](https://purchase.aspose.com/buy)
 - **Free Trial**: [Start Your Free Trial](https://releases.aspose.com/slides/python-net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

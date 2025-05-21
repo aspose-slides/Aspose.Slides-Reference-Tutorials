@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides .NET: Effortlessly Add and Customize SmartArt in PowerPoint
 
@@ -185,7 +187,11 @@ Ready to take your presentation game to the next level? Implement these solution
 - **Free Trial**: [Get Started with Aspose.Slides Free Trial](https://releases.aspose.com/slides/net/)
 - **Temporary License**: [Obtain a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

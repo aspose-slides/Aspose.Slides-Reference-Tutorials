@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create Multi-Level Bullet Points in Presentations Using Aspose.Slides for Python
 
@@ -199,6 +201,9 @@ You've learned how to create multi-level bullet points in a presentation using A
 - **Documentation**: Explore detailed guides and API references at [Aspose Documentation](https://reference.aspose.com/slides/python-net/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

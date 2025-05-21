@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering PowerPoint Text Frames with Aspose.Slides Java
 
@@ -163,6 +165,9 @@ A1: The latest version at the time of writing is 25.4. You can find updates on t
 A2: Visit the [purchase page](https://purchase.aspose.com/buy) to buy a full license or request a temporary license through the [temp
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

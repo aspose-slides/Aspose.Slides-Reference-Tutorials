@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Presentation Creation with Aspose.Slides Java: Add Shapes and Manage Directories
 
@@ -217,7 +219,11 @@ Optimizing your use of Aspose.Slides Java is key:
 In this tutorial, you've mastered how to create directories if they don’t exist and add ellipse shapes to your presentation slides using Aspose.Slides for Java. These skills can significantly enhance the way you automate and manage presentations. 
 
 Next steps? Try integrating these features into a larger project or explore more advanced capabilities of Aspose.Slides for Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

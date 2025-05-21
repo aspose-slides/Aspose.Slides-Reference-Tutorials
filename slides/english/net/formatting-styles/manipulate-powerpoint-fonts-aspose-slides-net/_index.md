@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Manipulate PowerPoint Font Properties Using Aspose.Slides .NET
 
@@ -168,6 +170,9 @@ Experiment with different font styles and colors to see what works best for you!
 Embrace the power of Aspose.Slides for .NET to take your presentation skills to the next level!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

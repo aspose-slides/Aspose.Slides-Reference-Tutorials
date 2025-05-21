@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Clone Slides Across Sections Using Aspose.Slides for Python: A Comprehensive Guide
 
@@ -159,7 +161,11 @@ A5: It supports multiple formats including PPTX, PDF, and image formats like PNG
 - [Free Trial and Temporary License](https://releases.aspose.com/slides/python-net/)
 
 For further assistance, visit the [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

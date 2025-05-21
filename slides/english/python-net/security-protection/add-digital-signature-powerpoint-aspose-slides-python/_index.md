@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add a Digital Signature to PowerPoint Presentations Using Aspose.Slides for Python
 
@@ -180,6 +182,9 @@ Ready to try it out? Dive in and start securing your presentations today!
 Implementing digital signatures with Aspose.Slides for Python is a straightforward way to enhance the security and integrity of your PowerPoint presentations. Explore, integrate, and secure your documents today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

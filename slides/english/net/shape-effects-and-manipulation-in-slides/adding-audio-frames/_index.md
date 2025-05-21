@@ -8,7 +8,9 @@ url: /net/shape-effects-and-manipulation-in-slides/adding-audio-frames/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Audio Frames to Presentation Slides using Aspose.Slides
@@ -73,6 +75,7 @@ You can purchase the library from the [Aspose store](https://purchase.aspose.com
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

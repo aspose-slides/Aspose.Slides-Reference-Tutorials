@@ -6,8 +6,11 @@ description: Easily add dynamic text animations to your PowerPoint presentations
 keywords: [PowerPoint animations, text animation effects, custom motion path, interactive animations, Aspose.Slides .NET, trigger animations, C# PowerPoint automation]
 url: /net/shapes/animations-on-shapes/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Animated Text Effects in PowerPoint with Aspose.Slides
@@ -15,9 +18,11 @@ url: /net/shapes/animations-on-shapes/
 Aspose.Slides for .NET provides powerful capabilities for creating animated text effects in PowerPoint presentations programmatically. This example demonstrates how to create a text box with animation effects, including a custom motion path triggered by a button click. The code creates a presentation with a rectangle shape containing text, applies a PathFootball animation, and adds a custom user-defined motion path that can be triggered interactively.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/shapes/animations-on-shapes" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -52,7 +57,9 @@ Aspose.Slides for .NET provides powerful capabilities for creating animated text
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-font-customization/set-transparency-text-shadow-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Transparency of Text in Shadow using Java
@@ -80,6 +82,7 @@ For support and community interaction, visit the Aspose.Slides forum [here](http
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

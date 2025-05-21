@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint Slide Transitions Using Aspose.Slides for .NET
 
@@ -199,7 +201,11 @@ In this tutorial, we've explored how to apply slide transitions and save present
 - **Free Trial**: [Try Out Aspose.Slides Free](https://releases.aspose.com/slides/net/)
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Join the Aspose Forum for Support](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

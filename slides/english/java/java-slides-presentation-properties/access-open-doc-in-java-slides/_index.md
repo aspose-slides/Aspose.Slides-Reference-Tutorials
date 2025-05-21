@@ -8,7 +8,9 @@ url: /java/presentation-properties/access-open-doc-in-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Access Open Doc in Java Slides
@@ -96,6 +98,7 @@ You can reach out to Aspose support through their support channels, which are li
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

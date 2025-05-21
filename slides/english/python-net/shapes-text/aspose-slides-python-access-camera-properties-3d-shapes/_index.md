@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Access and Display Camera Properties of 3D Shapes Using Aspose.Slides for Python
 
@@ -146,7 +148,11 @@ Ready to try it? Dive into the resources below or experiment with different pres
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 With these resources, you're well-equipped to explore and implement advanced features using Aspose.Slides in Python. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

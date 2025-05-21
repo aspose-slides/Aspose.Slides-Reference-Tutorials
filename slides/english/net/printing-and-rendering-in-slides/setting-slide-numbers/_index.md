@@ -8,7 +8,9 @@ url: /net/printing-and-rendering-in-slides/setting-slide-numbers/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Setting Slide Numbers for Presentations using Aspose.Slides
@@ -73,6 +75,7 @@ Yes, you can download a free trial version from [here](https://releases.aspose.c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

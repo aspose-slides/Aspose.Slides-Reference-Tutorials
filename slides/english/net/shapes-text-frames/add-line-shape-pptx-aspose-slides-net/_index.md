@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add a Line Shape to PowerPoint Slides Using Aspose.Slides .NET: A Step-by-Step Guide
 
@@ -118,7 +120,11 @@ Finally, save your presentation with the newly added shape.
 
 ```csharp
 pres.Save(dataDir + "/LineShape1_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

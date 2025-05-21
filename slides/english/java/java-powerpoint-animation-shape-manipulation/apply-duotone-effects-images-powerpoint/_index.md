@@ -8,7 +8,9 @@ url: /java/java-powerpoint-animation-shape-manipulation/apply-duotone-effects-im
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Apply Duotone Effects on Images in PowerPoint
@@ -96,6 +98,7 @@ You can find comprehensive documentation and examples on the [Aspose.Slides docu
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

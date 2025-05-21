@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add EMF Images to PowerPoint Using Aspose.Slides for .NET
 
@@ -147,7 +149,11 @@ Ready to take it further? Explore more advanced features of Aspose.Slides and ex
 - **Temporary License:** [Obtain a Temporary License](https://purchase.aspose.com/temporary-license/)
 
 Embark on your journey to creating stunning presentations today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

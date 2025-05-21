@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set PDF Page Size Using Aspose.Slides in Python: A Developer’s Guide
 
@@ -173,7 +175,11 @@ Ready to start exporting your presentations like a pro? Give it a try!
 - **Temporary License:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 
 Implement this solution today and elevate your presentation management capabilities!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

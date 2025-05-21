@@ -8,7 +8,9 @@ url: /java/customization-and-formatting/adding-custom-lines-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Custom Lines in Java Slides
@@ -118,6 +120,7 @@ Yes, you can add multiple lines to a slide by repeating the steps mentioned in t
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/printing-and-rendering-in-slides/digital-signature-support/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Digital Signatures to PowerPoint with  Aspose.Slides
@@ -72,6 +74,7 @@ Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

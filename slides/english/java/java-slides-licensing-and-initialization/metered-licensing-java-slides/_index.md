@@ -8,7 +8,9 @@ url: /java/licensing-and-initialization/metered-licensing-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Metered Licensing in Java Slides
@@ -118,6 +120,7 @@ Yes, an internet connection is required to set and validate metered licensing.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

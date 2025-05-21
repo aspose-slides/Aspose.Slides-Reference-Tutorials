@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides for Java: Creating and Animating Shapes in .NET Presentations
 
@@ -191,7 +193,11 @@ A5: Join the [Aspose forum](https://forum.aspose.com/c/slides/11) for community 
 - **Free Trial:** [Start Now](https://releases.aspose.com/slides/java/)
 - **Temporary License:** [Apply Here](https://purchase.aspose.com/temporary-license/)
 - **Support:** [Aspose Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

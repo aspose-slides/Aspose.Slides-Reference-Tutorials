@@ -8,7 +8,9 @@ url: /net/advanced-chart-customization/chart-entities/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Beautiful Charts with Aspose.Slides for .NET
@@ -272,6 +274,7 @@ Yes, you can find the Aspose.Slides community and support forum [here](https://f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

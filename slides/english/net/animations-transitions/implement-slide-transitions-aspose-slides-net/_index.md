@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Implement Slide Transitions in PowerPoint Using Aspose.Slides for .NET
 
@@ -149,7 +151,11 @@ You now have the skills to implement slide transitions using Aspose.Slides for .
 - **Documentation:** Access guides and API references at [Aspose Documentation](https://reference.aspose.com/slides/net/).
 - **Downloads:** Find the latest releases via [Aspose Downloads](https://releases.aspose.com/slides/net/).
 - **Purchase and Trial:** Explore licensing options at [Aspose Purchase](https://purchase.aspose.com/buy) or start a free trial at [Aspose Free Trial](https://releases.aspose.com/slides/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

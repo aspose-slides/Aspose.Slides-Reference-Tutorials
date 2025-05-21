@@ -8,7 +8,9 @@ url: /java/java-powerpoint-table-manipulation/identify-merged-cells-powerpoint-t
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Identify Merged Cells in PowerPoint Table using Java
@@ -77,6 +79,7 @@ For support, visit the Aspose.Slides forum [here](https://forum.aspose.com/c/sli
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

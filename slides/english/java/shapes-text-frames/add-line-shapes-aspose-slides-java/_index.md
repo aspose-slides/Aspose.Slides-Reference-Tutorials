@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add a Line Shape to a PowerPoint Slide Using Aspose.Slides for Java
 
@@ -182,7 +184,11 @@ You've now learned how to enhance PowerPoint presentations by adding line shapes
 - **Free Trial**: [Start with a Free Trial](https://releases.aspose.com/slides/java/)
 - **Temporary License**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum**: [Aspose Forums](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

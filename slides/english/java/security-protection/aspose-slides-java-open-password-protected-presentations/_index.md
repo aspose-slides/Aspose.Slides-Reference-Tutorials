@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Open Password-Protected Presentations in Java with Aspose.Slides
 
@@ -164,6 +166,9 @@ Ready to dive deeper? Implement this solution in your projects today and unlock 
 We hope this tutorial has been helpful. For more tips and tricks on using Aspose.Slides, stay tuned to our blog!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

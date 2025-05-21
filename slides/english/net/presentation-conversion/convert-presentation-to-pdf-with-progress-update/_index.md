@@ -8,7 +8,9 @@ url: /net/presentation-conversion/convert-presentation-to-pdf-with-progress-upda
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Presentation to PDF with Progress Update
@@ -95,6 +97,7 @@ A: You can find support and community discussions at [https://forum.aspose.com/]
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/shape-effects-and-manipulation-in-slides/adding-plain-lines/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Plain Lines to Presentation Slides using Aspose.Slides
@@ -77,6 +79,7 @@ A: Seek assistance on the [Aspose.Slides Forum](https://forum.aspose.com/c/slide
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

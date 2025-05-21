@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides Python: How to Add Image Bullets in PowerPoint PPTs
 
@@ -187,7 +189,11 @@ Ready to give it a try? Implement these techniques in your next presentation pro
 - **Temporary License:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 
 With these resources and this guide, you're well on your way to creating more dynamic and visually appealing presentations!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

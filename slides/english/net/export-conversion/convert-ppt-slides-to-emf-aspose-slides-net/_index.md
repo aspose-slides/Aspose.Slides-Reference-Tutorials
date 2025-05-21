@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PowerPoint Slides to EMF with Aspose.Slides for .NET
 ## Introduction
@@ -135,7 +137,11 @@ Consider exploring more advanced features of Aspose.Slides, such as slide animat
 - **Purchase**: Buy a commercial license at [Aspose Purchase](https://purchase.aspose.com/buy)
 - **Free Trial**: Start with a 30-day trial at [Free Trial](https://releases.aspose.com/slides/net/)
 - **Temporary License**: Request a temporary license from [Aspose Licensing](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

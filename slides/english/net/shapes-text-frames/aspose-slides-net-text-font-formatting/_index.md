@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Text and Font Formatting in Presentations Using Aspose.Slides for .NET
 
@@ -207,7 +209,11 @@ Explore further by experimenting with additional features like animations or int
 - [Purchase a License](https://purchase.aspose.com/buy)
 - [Free Trial Version](https://releases.aspose.com/slides/net/)
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

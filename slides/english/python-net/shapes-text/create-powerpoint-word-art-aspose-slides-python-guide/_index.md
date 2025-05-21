@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Stunning PowerPoint Word Art with Aspose.Slides for Python: A Step-by-Step Guide
 
@@ -205,7 +207,11 @@ A: Yes, you can configure 3D effects for text portions individually.
 
 **Q: Is it possible to change the color of a shadow effect?**
 A: Absolutely! Customize the shadow's color using `shadow_color.color`.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

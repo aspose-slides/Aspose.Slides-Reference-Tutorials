@@ -8,7 +8,9 @@ url: /net/slide-access-and-manipulation/clone-slide-from-another-presentation-sp
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Clone Slide from Different Presentation to Specified Position
@@ -147,6 +149,7 @@ You can refer to the [documentation](https://reference.aspose.com/slides/net/) f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

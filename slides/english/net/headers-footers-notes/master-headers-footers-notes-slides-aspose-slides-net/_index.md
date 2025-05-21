@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set Headers and Footers in Notes Slides Using Aspose.Slides for .NET
 ## Introduction
@@ -145,6 +147,9 @@ For further reading and tools:
 With these resources, you're well-equipped to dive deeper into Aspose.Slides for .NET and unleash its full potential in your projects. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

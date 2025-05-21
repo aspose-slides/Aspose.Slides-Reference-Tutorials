@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Count and Delete OLE Object Frames with Aspose.Slides for Python
 
@@ -152,7 +154,11 @@ Next steps? Try integrating these features into a larger automated pipeline or e
 - [Download Aspose.Slides for Python](https://releases.aspose.com/slides/python-net/)
 - [Purchase License](https://purchase.aspose.com/buy)
 - [Free Trial and Temporary License](https://releases.aspose.com/slides/python-net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

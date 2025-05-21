@@ -8,7 +8,9 @@ url: /java/java-powerpoint-font-management/effective-text-frame-format-data-java
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Effective Text Frame Format Data in Java PowerPoint
@@ -82,6 +84,7 @@ Yes, technical support for Aspose.Slides for Java is available through the [foru
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set a Macro Hyperlink on a Shape Using Aspose.Slides for .NET
 
@@ -152,7 +154,11 @@ A5: Yes, you can reassign `SetMacroHyperlinkClick` to a different macro as neede
 - **Free Trial:** [Start Your Free Trial](https://releases.aspose.com/slides/net/)
 - **Temporary License:** [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support:** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

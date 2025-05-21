@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Extract a PowerPoint Slide Thumbnail Using Java and Aspose.Slides
 
@@ -171,7 +173,11 @@ A4: Aspose.Slides primarily works with slide formats like PPTX. For PDFs, consid
 
 **Q5: What if I encounter a `MemoryLeakException` when processing large files?**
 A5: Ensure you're disposing of all resources properly and consider increasing the heap size allocated to your JVM.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

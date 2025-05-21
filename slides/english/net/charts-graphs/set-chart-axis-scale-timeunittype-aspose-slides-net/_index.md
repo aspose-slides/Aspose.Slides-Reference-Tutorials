@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set Chart Axis Scale Using TimeUnitType in Aspose.Slides .NET for Time-Based Data Visualization
 
@@ -157,7 +159,11 @@ Experiment with different `TimeUnitType` values and explore additional features 
 - **Free Trial:** [Temporary License](https://purchase.aspose.com/temporary-license/) 
 
 Now that you have a solid understanding of setting chart axis scales using TimeUnitType in Aspose.Slides for .NET, go ahead and implement this knowledge in your projects!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

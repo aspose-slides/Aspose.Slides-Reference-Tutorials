@@ -8,7 +8,9 @@ url: /java/java-powerpoint-table-manipulation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java PowerPoint Table Manipulation
@@ -66,9 +68,11 @@ Learn how to set the first row as header in PowerPoint tables using Aspose.Slide
 Learn how to format text inside PowerPoint tables using Aspose.Slides for Java. Step-by-step guide with code examples for developers.
 ### [Create Standard Tables in PowerPoint with Java](./create-standard-tables-powerpoint-java/)
 Learn how to create standard tables in PowerPoint with Java using Aspose.Slides. Follow our detailed, step-by-step guide for a seamless experience.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

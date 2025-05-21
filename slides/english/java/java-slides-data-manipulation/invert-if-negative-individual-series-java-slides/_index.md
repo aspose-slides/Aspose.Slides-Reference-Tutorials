@@ -8,7 +8,9 @@ url: /java/data-manipulation/invert-if-negative-individual-series-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Invert If Negative for Individual Series in Java Slides
@@ -141,6 +143,7 @@ You can access the documentation for Aspose.Slides for Java at [here](https://re
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

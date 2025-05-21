@@ -8,7 +8,9 @@ url: /net/shape-effects-and-manipulation-in-slides/changing-ole-object-data/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Changing OLE Object Data in Presentation with Aspose.Slides
@@ -98,6 +100,7 @@ For support and discussions, visit the [Aspose.Slides forum](https://forum.aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

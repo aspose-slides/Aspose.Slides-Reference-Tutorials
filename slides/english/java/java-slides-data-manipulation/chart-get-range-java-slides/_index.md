@@ -8,7 +8,9 @@ url: /java/data-manipulation/chart-get-range-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chart Get Range in Java Slides
@@ -109,6 +111,7 @@ You can find comprehensive documentation and resources for Aspose.Slides for Jav
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

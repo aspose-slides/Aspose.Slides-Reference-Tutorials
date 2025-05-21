@@ -8,7 +8,9 @@ url: /net/hyperlink-manipulation/add-hyperlink/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Hyperlinks to Slides in .NET using Aspose.Slides
@@ -112,9 +114,11 @@ Aspose.Slides offers a wide range of interactive features, including action butt
 ### 5. Is Aspose.Slides available for other programming languages?
 
 Yes, Aspose.Slides is available for various programming languages, including Java and Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

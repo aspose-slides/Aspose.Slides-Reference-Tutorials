@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Layout Slide Formatting in Aspose.Slides Java
 
@@ -147,7 +149,11 @@ A5: Visit [Aspose.Slides Documentation](https://reference.aspose.com/slides/java
 - **Support**: [Community Forum](https://forum.aspose.com/c/slides/11)
 
 Explore these resources to further enhance your Aspose.Slides skills and make the most of its powerful features!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

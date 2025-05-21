@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-font-customization/rotate-text-powerpoint-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rotate Text in PowerPoint using Java
@@ -85,6 +87,7 @@ You can obtain a temporary license from [here](https://purchase.aspose.com/tempo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

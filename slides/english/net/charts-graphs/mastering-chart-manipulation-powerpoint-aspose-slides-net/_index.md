@@ -13,7 +13,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Chart Manipulation in PowerPoint Using Aspose.Slides for .NET
 
@@ -169,6 +171,9 @@ Explore other features like slide transitions or animations to further enhance y
 Embark on your journey to master chart manipulation in PowerPoint with Aspose.Slides .NET today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

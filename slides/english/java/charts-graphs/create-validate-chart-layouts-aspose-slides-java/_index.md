@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create & Validate Chart Layouts in PowerPoint with Aspose.Slides for Java
 
@@ -163,7 +165,11 @@ Ready to get started? Implement these techniques and enhance your presentation c
 - **Download**: Latest releases available at [Aspose Releases](https://releases.aspose.com/slides/java/)
 - **Purchase and Trial**: Links to purchase or start a free trial are available on [Aspose's Purchase Page](https://purchase.aspose.com/buy) and [Free Trial Page](https://releases.aspose.com/slides/java/).
 - **Support Forum**: For queries, visit the [Aspose Support Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

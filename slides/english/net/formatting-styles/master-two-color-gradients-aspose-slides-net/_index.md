@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Apply Two-Color Gradients in PowerPoint Using Aspose.Slides for .NET
 
@@ -161,6 +163,9 @@ Try implementing these steps in your next project to see how easily you can crea
 Embark on your journey to master presentation automation with Aspose.Slides for .NET today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

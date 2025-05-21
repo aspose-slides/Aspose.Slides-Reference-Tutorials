@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Geometry Shape Editing in PowerPoint Using Aspose.Slides for .NET | C# Tutorial
 
@@ -216,7 +218,11 @@ A: While Aspose.Slides supports a wide range of shapes, some custom or highly co
 - **Free Trial**: [Get a Free Trial](https://releases.aspose.com/slides/net/)
 - **Temporary License**: [Apply for Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Community Support**: [Aspose Slides Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

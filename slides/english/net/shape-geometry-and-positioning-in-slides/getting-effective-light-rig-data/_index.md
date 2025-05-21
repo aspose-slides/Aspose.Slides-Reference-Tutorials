@@ -8,7 +8,9 @@ url: /net/shape-geometry-and-positioning-in-slides/getting-effective-light-rig-d
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mastering Effective Light Rig Data with Aspose.Slides
@@ -74,6 +76,7 @@ Yes, you can obtain a temporary license [here](https://purchase.aspose.com/tempo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

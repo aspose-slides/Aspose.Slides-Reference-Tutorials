@@ -8,7 +8,9 @@ url: /net/image-and-video-manipulation-in-slides/filling-shapes-gradient/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Stunning Gradients in PowerPoint with Aspose.Slides
@@ -83,6 +85,7 @@ A: Certainly, you can obtain a temporary license [here](https://purchase.aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Stop Previous Sound in PowerPoint Animations Using Aspose.Slides for Python
 
@@ -149,7 +151,11 @@ Now you can enhance audio experiences in PowerPoint presentations. Explore addit
 - **Support Forum**: [Aspose Support Community](https://forum.aspose.com/c/slides/11)
 
 Implement this solution today to take control of your PowerPoint audio transitions!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

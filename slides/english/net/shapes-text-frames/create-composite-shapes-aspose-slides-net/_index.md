@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Composite Shapes in .NET Using Aspose.Slides
 ## Introduction
@@ -134,7 +136,11 @@ For more information, refer to:
 - **Support**: [Aspose Forums](https://forum.aspose.com/c/slides/11)
 
 Happy coding, and may your presentations be as dynamic and engaging as your ideas!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

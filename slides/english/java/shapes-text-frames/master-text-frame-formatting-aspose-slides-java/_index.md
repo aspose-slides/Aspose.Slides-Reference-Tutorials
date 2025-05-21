@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Effective Text Frame Formatting in PowerPoint using Aspose.Slides for Java
 
@@ -182,7 +184,11 @@ Next steps might include exploring more complex slide manipulations or integrati
 - **Free Trial**: [Try Aspose.Slides](https://releases.aspose.com/slides/java/)
 - **Temporary License**: [Acquire Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum**: [Aspose Support Community](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

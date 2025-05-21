@@ -8,7 +8,9 @@ url: /net/image-and-video-manipulation-in-slides/creating-thumbnail-shape/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create PowerPoint Shape Thumbnails - Aspose.Slides .NET
@@ -67,6 +69,7 @@ A: Yes, you can adjust the parameters when calling the `GetThumbnail` method to 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

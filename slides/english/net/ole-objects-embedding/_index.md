@@ -4,8 +4,11 @@ description: "Learn to work with OLE objects, embedded documents, linked files, 
 weight: 17
 url: "/net/ole-objects-embedding/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint OLE Objects and Embedding Tutorials for Aspose.Slides .NET
 
@@ -50,7 +53,11 @@ Learn how to extract both fake and real hyperlinks from PowerPoint slides using 
 - [Download Aspose.Slides for Net](https://releases.aspose.com/slides/net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

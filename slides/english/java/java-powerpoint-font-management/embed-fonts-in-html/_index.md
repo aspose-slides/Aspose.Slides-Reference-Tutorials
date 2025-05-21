@@ -8,7 +8,9 @@ url: /java/java-powerpoint-font-management/embed-fonts-in-html/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Embed Fonts in HTML using Aspose.Slides for Java
@@ -68,6 +70,7 @@ Yes, you can acquire a temporary license from the [purchase page](https://purcha
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

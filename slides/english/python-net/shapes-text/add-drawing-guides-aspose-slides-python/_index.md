@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Add Vertical and Horizontal Drawing Guides in PowerPoint Using Aspose.Slides & Python
 ## Introduction
@@ -116,7 +118,11 @@ You now know how to add vertical and horizontal drawing guides in PowerPoint usi
 - [Free Trial Access](https://releases.aspose.com/slides/python-net/)
 - [Temporary License Acquisition](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Add Scatter Charts to Presentations Using Aspose.Slides .NET: A Step-by-Step Guide
 
@@ -193,7 +195,11 @@ This code saves your presentation file to a specified location.
 
 ## Conclusion
 You have now successfully added scatter charts to your presentations using Aspose.Slides for .NET. Continue exploring additional features and customizations available within the library to enhance your data visualization skills.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

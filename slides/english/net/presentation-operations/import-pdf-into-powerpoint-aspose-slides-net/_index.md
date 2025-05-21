@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Import a PDF into PowerPoint Using Aspose.Slides for .NET
 
@@ -188,6 +190,9 @@ For further exploration, consider experimenting with other features provided by 
 We hope this tutorial has been helpful. Try implementing the solution today and streamline your PDF to PowerPoint conversion process!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

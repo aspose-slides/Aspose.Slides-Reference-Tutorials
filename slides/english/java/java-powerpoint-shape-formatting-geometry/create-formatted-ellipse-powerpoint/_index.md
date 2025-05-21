@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-formatting-geometry/create-formatted-ellipse-po
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Formatted Ellipse in PowerPoint
@@ -105,6 +107,7 @@ Yes, Aspose offers support through their [forum](https://forum.aspose.com/c/slid
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

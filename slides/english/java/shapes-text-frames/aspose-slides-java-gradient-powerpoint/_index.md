@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides for Java: Create Stunning Gradient Backgrounds in PowerPoint Slides
 
@@ -181,6 +183,9 @@ Visit [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/) a
 We hope this tutorial empowers you to create more engaging and professional presentations. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

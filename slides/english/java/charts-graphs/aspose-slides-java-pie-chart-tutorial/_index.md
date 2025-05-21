@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Dynamic Presentation with Pie Chart Using Aspose.Slides for Java: A Step-by-Step Guide
 
@@ -206,7 +208,11 @@ A: It supports a wide range of formats, including PPTX, PDF, and image formats l
 - **Purchase License:** [Buy Aspose Products](https://purchase.aspose.com/buy)
 - **Free Trial:** [Try Aspose.Slides Free](https://releases.aspose.com/slides/java/)
 - **Temporary License:** [Get a Temporary License](https://purchase.aspose.com/temporary-license)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

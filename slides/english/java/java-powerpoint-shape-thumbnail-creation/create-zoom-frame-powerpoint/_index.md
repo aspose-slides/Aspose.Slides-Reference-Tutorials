@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-thumbnail-creation/create-zoom-frame-powerpoint
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Zoom Frame in PowerPoint
@@ -123,6 +125,7 @@ You can find comprehensive documentation and examples on the [Aspose.Slides for 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

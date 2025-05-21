@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Superscript & Subscript in PowerPoint Using Aspose.Slides for Python
 
@@ -192,7 +194,11 @@ As next steps, consider exploring other features of Aspose.Slides or integrating
 - **Support**: Join the community forum for additional support and discussions at [Aspose Forum](https://forum.aspose.com/c/slides/11).
 
 With this guide, you're now equipped to create dynamic presentations that effectively leverage superscript and subscript text formatting. Happy presenting!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides Java: Creating and Customizing SmartArt
 
@@ -222,7 +224,11 @@ A: You need Java Development Kit (JDK) installed on your machine. Ensure compati
 
 **Q: Can I use this guide for commercial projects?**
 A: Yes, but ensure compliance with Aspose's licensing terms if you plan to distribute or sell applications using their library.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

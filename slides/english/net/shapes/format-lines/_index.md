@@ -6,8 +6,11 @@ description: Learn how to create a rectangle shape in PowerPoint with custom lin
 keywords: [Aspose.Slides, PowerPoint, .NET, Rectangle, Shape, Line Formatting, Custom Line, Dash Style]
 url: /net/shapes/format-lines/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating a Rectangle Shape with Custom Line Formatting in PowerPoint
@@ -15,9 +18,11 @@ url: /net/shapes/format-lines/
 Aspose.Slides for .NET provides powerful capabilities for programmatically creating and modifying PowerPoint presentations. This example demonstrates how to create a rectangle shape with customized line formatting, including setting the line style, width, dash pattern, and color. The sample code creates a new presentation, adds a rectangle to the first slide, and applies specific formatting to both the fill and outline of the shape, resulting in a visually appealing element with a white fill and a blue dashed outline.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/shapes/format-lines" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -50,7 +55,9 @@ Aspose.Slides for .NET provides powerful capabilities for programmatically creat
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

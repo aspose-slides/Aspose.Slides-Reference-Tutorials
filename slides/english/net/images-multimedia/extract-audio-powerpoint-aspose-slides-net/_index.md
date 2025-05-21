@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Extract Audio from a PowerPoint Slide Timeline using Aspose.Slides for .NET
 ## Introduction
@@ -131,7 +133,11 @@ A: The [Aspose Forum](https://forum.aspose.com/c/slides/11) is a great resource 
 - **Free Trial**: Start with a free trial available at [Aspose Free Trial](https://releases.aspose.com/slides/net/).
 - **Temporary License**: Request it from [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).
 - **Support**: For further assistance, visit the [Aspose Support Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

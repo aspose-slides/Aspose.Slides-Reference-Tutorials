@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Font Substitution in Presentations with Aspose.Slides .NET
 
@@ -158,7 +160,11 @@ Visit the [Aspose Documentation](https://reference.aspose.com/slides/net/) for i
 - **Support:** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Embark on your journey to mastering Aspose.Slides today and revolutionize how you handle presentations across various platforms!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

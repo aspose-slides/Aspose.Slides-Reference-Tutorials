@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides .NET: Adding Charts and Formulas to PowerPoint Presentations
 
@@ -199,6 +201,9 @@ You've now explored how to leverage Aspose.Slides for .NET to add dynamic charts
   Visit the [Aspose documentation](https://docs.aspose.com/slides/net/) or join their community forums for support.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

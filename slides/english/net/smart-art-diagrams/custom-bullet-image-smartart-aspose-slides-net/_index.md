@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Implement a Custom Bullet Image in SmartArt Using Aspose.Slides for .NET
 
@@ -172,6 +174,9 @@ By following this guide, you have successfully customized a SmartArt node with a
 Embrace the power of Aspose.Slides for .NET to create presentations that stand out and communicate your message effectively. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

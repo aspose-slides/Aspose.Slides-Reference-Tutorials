@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PowerPoint to TIFF with Custom Size in Java Using Aspose.Slides
 ## Presentation Operations
@@ -139,7 +141,11 @@ Ready to take your presentation conversion skills to the next level? Dive in and
 ## Resources
 - [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
 - [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

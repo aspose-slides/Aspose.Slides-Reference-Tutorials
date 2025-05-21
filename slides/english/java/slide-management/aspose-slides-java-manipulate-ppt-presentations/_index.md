@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Aspose.Slides for Java: Automate PowerPoint Manipulation and SmartArt Editing
 
@@ -259,7 +261,11 @@ This code extracts text from each shape within SmartArt.
 ## Conclusion
 
 By following this guide, you can effectively automate PowerPoint manipulation using Aspose.Slides for Java. This includes loading presentations, accessing specific slides and shapes, manipulating SmartArt elements, and extracting text data. These capabilities are essential for developers looking to streamline their workflow with automated presentation management.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

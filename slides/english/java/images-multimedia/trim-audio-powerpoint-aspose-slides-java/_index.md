@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Trim Audio in PowerPoint Using Aspose.Slides for Java
 
@@ -168,6 +170,9 @@ A: Visit [Aspose's website](https://purchase.aspose.com/temporary-license/) and 
 Now that you're equipped, confidently trim audio clips in PowerPoint presentations using Aspose.Slides for Java. Happy presenting!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

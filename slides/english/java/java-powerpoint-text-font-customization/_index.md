@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-font-customization/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java PowerPoint Text and Font Customization
@@ -108,9 +110,11 @@ Learn how to programmatically add a text box to PowerPoint slides using Aspose.S
 Learn how to integrate custom fonts into PowerPoint presentations using Aspose.Slides for Java. Enhance visual appeal effortlessly.
 ### [Create WordArt in PowerPoint using Java](./create-wordart-powerpoint-java/)
 Learn how to create captivating WordArt in PowerPoint presentations using Java with Aspose.Slides. Step-by-step tutorial for developers.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

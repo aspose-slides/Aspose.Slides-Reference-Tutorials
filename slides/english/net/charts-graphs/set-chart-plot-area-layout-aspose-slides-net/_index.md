@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Set Chart Plot Area Layout in PowerPoint Using Aspose.Slides .NET
 
@@ -153,7 +155,11 @@ To further explore Aspose.Slides capabilities, consider experimenting with addit
 - **Support Forum**: Engage with the community and get support at [Aspose Forums](https://forum.aspose.com/c/slides/11)
 
 With this tutorial, you're now equipped to enhance your presentations using Aspose.Slides .NET. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

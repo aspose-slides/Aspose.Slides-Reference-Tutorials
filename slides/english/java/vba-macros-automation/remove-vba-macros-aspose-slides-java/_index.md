@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Remove VBA Macros from PowerPoint Presentations Using Aspose.Slides for Java
 
@@ -160,7 +162,11 @@ A5: Yes, but you need an appropriate license. Check out their [purchase options]
 - **Download**: Get the latest version from [Aspose Releases](https://releases.aspose.com/slides/java/).
 - **Purchase & Licensing**: Learn more about purchasing options and obtaining a license at [Aspose Purchase](https://purchase.aspose.com/buy) and [Temporary License](https://purchase.aspose.com/temporary-license/).
 - **Community Support**: Join the discussion on [Aspose Forums](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PPT to TIFF Including Notes with Aspose.Slides for Java
 
@@ -102,7 +104,11 @@ Load your PowerPoint file into a `Presentation` object and save it as a TIFF ima
 Presentation presentation = new Presentation(dataDir + "/NotesFile.pptx");
 try {
     presentation.save(outputDir + "/Notes_In_Tiff_out.tiff\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

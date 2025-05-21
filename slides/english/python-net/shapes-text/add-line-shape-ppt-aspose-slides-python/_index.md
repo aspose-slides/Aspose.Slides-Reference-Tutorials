@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add a Line Shape to PowerPoint Slides Using Aspose.Slides for Python
 
@@ -152,7 +154,11 @@ Ready to take it a step further? Try implementing these techniques in your proje
 - **Support Forum**: https://forum.aspose.com/c/slides/11
 
 By leveraging Aspose.Slides for Python, you can automate and enhance your PowerPoint presentations effectively. Start incorporating these techniques into your workflow today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

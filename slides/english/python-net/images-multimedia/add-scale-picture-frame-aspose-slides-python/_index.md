@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add and Scale a Picture Frame in PowerPoint Using Aspose.Slides for Python
 
@@ -169,7 +171,11 @@ By now, you should have a solid understanding of how to add picture frames with 
 - **Free Trial**: Start with a free trial at this [link](https://releases.aspose.com/slides/python-net/).
 - **Temporary License**: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 - **Support Forum**: For queries and support, check the [Aspose forums](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

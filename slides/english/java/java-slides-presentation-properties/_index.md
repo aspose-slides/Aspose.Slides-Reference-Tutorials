@@ -8,7 +8,9 @@ url: /java/presentation-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Exploring Presentation Properties with Aspose.Slides
@@ -63,9 +65,11 @@ Learn how to check presentation protection in Java slides using Aspose.Slides fo
 Optimize your Java Slide Show with Aspose.Slides. Create engaging presentations with customized settings. Explore step-by-step guides and FAQs.
 ### [Read-Only Recommended Properties in Java Slides](./read-only-recommended-properties-in-java-slides/)
 Learn how to enable Read-Only Recommended properties in Java PowerPoint presentations using Aspose.Slides for Java. Follow our step-by-step guide with source code examples for enhanced presentation security.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

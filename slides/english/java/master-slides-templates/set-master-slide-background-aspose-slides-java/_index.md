@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Set Master Slide Background with Aspose.Slides for Java
 
@@ -173,7 +175,11 @@ Ready to elevate your presentation game? Start implementing these steps today!
 - **Free Trial:** Start with a free trial to test Aspose.Slides [here](https://releases.aspose.com/slides/java/).
 - **Temporary License:** Request a temporary license from [Aspose Licensing](https://purchase.aspose.com/temporary-license/).
 - **Support Forum:** Join the community for support at [Aspose Support](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

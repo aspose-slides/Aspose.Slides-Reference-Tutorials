@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-paragraph-management/create-multilevel-bullets-j
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Multilevel Bullets in Java PowerPoint
@@ -119,6 +121,7 @@ You can get support from the Aspose.Slides community and experts at [Aspose.Slid
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

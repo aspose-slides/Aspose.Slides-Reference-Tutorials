@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Check PowerPoint Passwords Using Aspose.Slides in Python
 
@@ -205,7 +207,11 @@ Next steps include exploring more advanced features of Aspose.Slides or integrat
 - [Free Trial Information](https://releases.aspose.com/slides/python-net/)
 - [Temporary License Request](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

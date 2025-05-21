@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Automation Mastery with Aspose.Slides Java
 
@@ -235,7 +237,11 @@ Try applying these techniques in a real project or explore more advanced feature
 
 **Q5:** Is it possible to automate slide transitions with Aspose.Slides Java?
 - **A:** Yes, you can set and automate slide transitions programmatically using Aspose.Slides features.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

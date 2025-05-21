@@ -8,7 +8,9 @@ url: /java/java-powerpoint-rendering-techniques/render-comments-powerpoint/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Render Comments in PowerPoint
@@ -82,6 +84,7 @@ Yes, Aspose.Slides provides functionality to render comments directly to PDF doc
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

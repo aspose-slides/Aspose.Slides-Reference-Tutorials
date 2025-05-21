@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Configure Slides Using Aspose.Slides for .NET
 
@@ -214,6 +216,9 @@ In this tutorial, we've explored how to create and configure slides using Aspose
 Feel free to reach out on the Aspose forum if you have further questions or encounter specific challenges. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

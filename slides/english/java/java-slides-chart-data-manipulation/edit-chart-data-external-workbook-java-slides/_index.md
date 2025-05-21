@@ -8,7 +8,9 @@ url: /java/chart-data-manipulation/edit-chart-data-external-workbook-java-slides
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Edit Chart Data in External Workbook in Java Slides
@@ -113,6 +115,7 @@ You can create a loop to process multiple presentations, loading each one, makin
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

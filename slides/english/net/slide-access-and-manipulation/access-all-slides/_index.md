@@ -8,7 +8,9 @@ url: /net/slide-access-and-manipulation/access-all-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Retrieve All Slides within a Presentation
@@ -149,6 +151,7 @@ For more detailed information, API references, and code examples, you can visit 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

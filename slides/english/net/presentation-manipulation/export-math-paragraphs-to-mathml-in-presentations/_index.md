@@ -8,7 +8,9 @@ url: /net/presentation-manipulation/export-math-paragraphs-to-mathml-in-presenta
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export Math Paragraphs to MathML in Presentations
@@ -84,6 +86,7 @@ Now that you've learned how to export math paragraphs to MathML with Aspose.Slid
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

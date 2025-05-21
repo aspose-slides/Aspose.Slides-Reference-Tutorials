@@ -6,8 +6,11 @@ description: Learn how to create PowerPoint presentations with gradient-filled e
 keywords: [Aspose.Slides, .NET, PowerPoint, ellipse shape, gradient fill, C#, presentation automation, PPTX, gradient stops]
 url: /net/shapes/fill-shapes-gradient/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Gradient Filled Ellipse Shapes in PowerPoint with Aspose.Slides
@@ -15,9 +18,11 @@ url: /net/shapes/fill-shapes-gradient/
 This example demonstrates how to programmatically create a PowerPoint presentation containing an ellipse shape with a custom gradient fill effect. The code creates a new presentation, adds an ellipse to the first slide, and applies a linear gradient fill with red and purple color stops. Aspose.Slides for .NET provides a comprehensive API for creating and manipulating PowerPoint presentations with precise control over shapes, formatting, and effects.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/shapes/fill-shapes-gradient" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -38,7 +43,9 @@ This example demonstrates how to programmatically create a PowerPoint presentati
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

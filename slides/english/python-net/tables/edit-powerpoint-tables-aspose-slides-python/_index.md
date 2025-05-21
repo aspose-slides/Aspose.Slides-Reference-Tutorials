@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Remove a Row and Column from a PowerPoint Table using Aspose.Slides in Python
 
@@ -168,7 +170,11 @@ You've now learned how to remove specific rows and columns from tables in PowerP
 - **Support Forum**: For queries, visit the [Aspose Support Forum](https://forum.aspose.com/c/slides/11).
 
 Embark on your journey to automate PowerPoint presentation edits today by leveraging Aspose.Slides for Python!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Set a Presentation to Read-Only Mode Using Aspose.Slides for .NET
 
@@ -147,6 +149,9 @@ Ready for more? Try implementing other protection settings with Aspose.Slides!
 By understanding these steps and resources, you're well-equipped to manage presentation security effectively with Aspose.Slides for .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

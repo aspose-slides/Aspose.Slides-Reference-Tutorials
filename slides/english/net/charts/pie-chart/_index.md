@@ -6,8 +6,11 @@ description: Learn how to create a PowerPoint pie chart using Aspose.Slides for 
 keywords: [Aspose.Slides for .NET, PowerPoint pie chart, create PowerPoint chart, .NET presentation library, PowerPoint chart tutorial]
 url: /net/charts/pie-chart/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create a Pie Chart in PowerPoint Using Aspose.Slides
@@ -15,9 +18,11 @@ url: /net/charts/pie-chart/
 Aspose.Slides for .NET is a powerful library that enables developers to create, edit, and manipulate PowerPoint presentations seamlessly. In this tutorial, you'll learn how to create a customized pie chart in PowerPoint using Aspose.Slides for .NET. The guide covers everything from initializing the presentation to adding data points, formatting labels, and saving the final presentation. By following this step-by-step guide, you’ll be able to build visually appealing PowerPoint charts in no time. For detailed documentation,
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/charts/pie-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 To get started with Aspose.Slides for .NET, follow these steps:
@@ -50,7 +55,9 @@ To get started with Aspose.Slides for .NET, follow these steps:
 [Aspose.Slides API Reference](https://reference.aspose.com/slides/net/).
  
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

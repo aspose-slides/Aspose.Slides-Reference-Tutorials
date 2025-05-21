@@ -13,7 +13,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Embed Excel Files in PowerPoint Slides Using Aspose.Slides for Java
 
@@ -195,7 +197,11 @@ By following this guide, you've learned how to effectively embed Excel files as 
 - **Free Trial**: Start with a free trial to test Aspose.Slides
 - **Temporary License**: Obtain a temporary license here: [Get Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: Join the community for help at [Aspose Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

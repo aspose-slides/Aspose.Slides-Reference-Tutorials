@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Open and Save Password-Protected PowerPoints Using Aspose.Slides .NET
 
@@ -170,7 +172,11 @@ Next steps include exploring additional features of Aspose.Slides such as slide 
 - **Download**: Access releases via [Aspose Releases](https://releases.aspose.com/slides/net/).
 - **Purchase**: Consider purchasing a full license if you need extended features and support.
 - **Free Trial**: Start with a free trial to explore the capabilities of Aspose.Slides.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

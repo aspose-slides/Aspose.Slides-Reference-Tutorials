@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Embed and Trim Audio in .NET Presentations Using Aspose.Slides
 
@@ -173,7 +175,11 @@ The Aspose community forum is an excellent resource. Visit the [support forum](h
 - **Free Trial**: [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 This comprehensive guide equips you to integrate audio into your .NET applications using Aspose.Slides. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/additional-utilities/get-position-coordinates-of-portion-in-java-slid
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Position Coordinates of Portion in Java Slides
@@ -130,6 +132,7 @@ You can access additional support and resources on the Aspose website. They prov
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

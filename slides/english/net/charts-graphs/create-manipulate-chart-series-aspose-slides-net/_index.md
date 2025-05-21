@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Chart Series Creation and Manipulation with Aspose.Slides .NET for Effective Data Visualization
 
@@ -155,7 +157,11 @@ Ready to take your presentations to the next level? Try implementing this soluti
 - **Free Trial**: Start with a trial [here](https://releases.aspose.com/slides/net/)
 - **Temporary License**: Obtain one from [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum**: Join discussions at the [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

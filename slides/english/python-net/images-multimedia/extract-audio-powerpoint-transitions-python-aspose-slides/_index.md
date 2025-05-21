@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Extract Audio from PowerPoint Slide Transitions Using Python and Aspose.Slides
 
@@ -177,7 +179,11 @@ Visit their official [documentation](https://reference.aspose.com/slides/python-
 - **Support:** [Aspose Forums](https://forum.aspose.com/c/slides/11) 
 
 Embark on your journey with Aspose.Slides today and unlock the full potential of PowerPoint presentations in Python!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-sha
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Segment from Geometry Shape in PowerPoint
@@ -81,6 +83,7 @@ Comprehensive documentation is available [here](https://reference.aspose.com/sli
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

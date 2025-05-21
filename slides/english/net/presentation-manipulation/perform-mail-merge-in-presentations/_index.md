@@ -8,7 +8,9 @@ url: /net/presentation-manipulation/perform-mail-merge-in-presentations/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Perform Mail Merge in Presentations
@@ -160,6 +162,7 @@ In this tutorial, we explored the exciting capabilities of Aspose.Slides for .NE
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

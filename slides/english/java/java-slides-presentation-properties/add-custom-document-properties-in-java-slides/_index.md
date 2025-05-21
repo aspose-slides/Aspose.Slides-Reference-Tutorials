@@ -8,7 +8,9 @@ url: /java/presentation-properties/add-custom-document-properties-in-java-slides
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Custom Document Properties in Java Slides
@@ -147,6 +149,7 @@ This code will display the names and values of all custom properties in the pres
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

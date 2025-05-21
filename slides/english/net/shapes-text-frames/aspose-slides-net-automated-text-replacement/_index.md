@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate Text Replacement in PowerPoint Slides Using Aspose.Slides for .NET
 
@@ -190,6 +192,9 @@ For further exploration and advanced features:
 Embrace the power of automation with Aspose.Slides for .NET and transform how you manage your presentations today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

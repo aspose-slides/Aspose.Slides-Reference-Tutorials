@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering PPTX Charts & Leader Lines with Aspose.Slides for Java
 
@@ -204,7 +206,11 @@ To take things further, explore the extensive [Aspose.Slides documentation](http
 - **Documentation:** [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
 - **Download:** [Latest Releases](https://releases.aspose.com/slides/java/)
 - **Purchase:** [Buy Now](https://purchase.aspose.com/buy)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering PowerPoint Header and Footer Management with Aspose.Slides for Java
 
@@ -215,7 +217,11 @@ A: Yes, use `setFooterAndChildFootersVisibility(true)` for consistent visibility
 - [Documentation](https://reference.aspose.com/slides/java/)
 - [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 - [Purchase License](https://purchase.aspose.com/buy)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

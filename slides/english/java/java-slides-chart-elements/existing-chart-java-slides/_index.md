@@ -8,7 +8,9 @@ url: /java/chart-elements/existing-chart-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Existing Chart in Java Slides
@@ -194,6 +196,7 @@ Yes, you can remove a series from the chart by using the `chart.getChartData().g
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

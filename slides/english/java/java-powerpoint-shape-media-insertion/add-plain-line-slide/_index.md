@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-media-insertion/add-plain-line-slide/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Plain Line to Slide
@@ -72,6 +74,7 @@ Yes, you can download a free trial of Aspose.Slides from [here](https://releases
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

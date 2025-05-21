@@ -8,7 +8,9 @@ url: /java/java-powerpoint-table-formatting-updates/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java PowerPoint Table Formatting and Updates
@@ -42,9 +44,11 @@ Learn how to format text inside table columns in PowerPoint using Aspose.Slides 
 Learn how to format text inside table rows in PowerPoint using Aspose.Slides for Java. Enhance your presentations with our step-by-step guide.
 ### [Update Existing Table in PowerPoint using Java](./update-existing-table-powerpoint-java/)
 Learn how to update existing tables in PowerPoint using Java with Aspose.Slides. Step-by-step guide, detailed instructions, and FAQs included.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

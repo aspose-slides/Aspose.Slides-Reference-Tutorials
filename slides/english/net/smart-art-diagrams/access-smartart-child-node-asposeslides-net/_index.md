@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Access and Manipulate SmartArt Child Nodes in Aspose.Slides .NET | Guide & Tutorial
 
@@ -172,6 +174,9 @@ A5: Ensure that the index is within bounds by checking the size of the `ChildNod
 By following this guide, you can effectively access and manipulate SmartArt child nodes in your presentations using Aspose.Slides .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

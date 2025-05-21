@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add a Rectangle Shape Filled with an Image in PowerPoint Using Aspose.Slides for .NET
 Creating visually appealing PowerPoint presentations is essential in today's digital landscape, where capturing your audience's attention can significantly impact the effectiveness of your message. Whether you're preparing for business meetings or educational lectures, adding graphics like image-filled shapes to slides can make them more engaging and memorable. This tutorial will guide you through adding a rectangle shape filled with an image using Aspose.Slides for .NET.
@@ -139,7 +141,11 @@ Yes, by setting the `TileOffsetX`, `TileOffsetY`, and other tiling properties of
 - [Free Trial and Temporary Licenses](https://releases.aspose.com/slides/net/)
 
 For further support, visit the [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

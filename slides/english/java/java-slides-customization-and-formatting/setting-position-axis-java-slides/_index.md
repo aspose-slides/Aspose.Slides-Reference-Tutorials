@@ -8,7 +8,9 @@ url: /java/customization-and-formatting/setting-position-axis-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Setting Position Axis in Java Slides
@@ -110,6 +112,7 @@ That's it for this tutorial. You've learned how to set the position axis in a ch
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

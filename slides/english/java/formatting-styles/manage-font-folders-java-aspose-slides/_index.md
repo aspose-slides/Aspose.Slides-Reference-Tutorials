@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Font Management in Java Using Aspose.Slides
 
@@ -186,7 +188,11 @@ A5: It doesn't manage license agreements for fonts; ensure compliance based on y
 ## Resources
 - **Documentation**: [Aspose.Slides Java Reference](https://reference.aspose.com/slides/java/)
 - **Download**: [Latest Releases](https://releases.aspose.com/slides/java/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

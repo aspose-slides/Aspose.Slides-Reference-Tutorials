@@ -1,28 +1,30 @@
 ---
-title: تعيين زاوية خط الموصل في PowerPoint
-linktitle: تعيين زاوية خط الموصل في PowerPoint
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية تعيين زوايا خط الموصل في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. قم بتخصيص الشرائح الخاصة بك بدقة.
-weight: 17
-url: /ar/java/java-powerpoint-animation-shape-manipulation/set-connector-line-angle-powerpoint/
+"description": "تعرّف على كيفية ضبط زوايا خطوط التوصيل في عروض PowerPoint التقديمية باستخدام Aspose.Slides لجافا. خصّص شرائحك بدقة."
+"linktitle": "تعيين زاوية خط الموصل في PowerPoint"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "تعيين زاوية خط الموصل في PowerPoint"
+"url": "/ar/java/java-powerpoint-animation-shape-manipulation/set-connector-line-angle-powerpoint/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تعيين زاوية خط الموصل في PowerPoint
 
 ## مقدمة
-في هذا البرنامج التعليمي، سنستكشف كيفية تعيين زاوية خطوط الموصل في عروض PowerPoint التقديمية باستخدام Aspose.Slides for Java. تعتبر خطوط الموصل ضرورية لتوضيح العلاقات والتدفقات بين الأشكال في شرائحك. ومن خلال ضبط زواياها، يمكنك التأكد من أن عروضك التقديمية تنقل رسالتك بوضوح وفعالية.
+في هذا البرنامج التعليمي، سنستكشف كيفية ضبط زاوية خطوط التوصيل في عروض PowerPoint التقديمية باستخدام Aspose.Slides لجافا. تُعد خطوط التوصيل أساسية لتوضيح العلاقات والتدفقات بين الأشكال في شرائحك. بضبط زواياها، تضمن أن تنقل عروضك التقديمية رسالتك بوضوح وفعالية.
 ## المتطلبات الأساسية
 قبل أن نبدأ، تأكد من أن لديك ما يلي:
 - المعرفة الأساسية ببرمجة جافا.
-- JDK (Java Development Kit) مثبت على نظامك.
--  تم تنزيل Aspose.Slides لمكتبة Java وإضافتها إلى مشروعك. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/java/).
+- تم تثبيت JDK (Java Development Kit) على نظامك.
+- تم تنزيل مكتبة Aspose.Slides لجافا وإضافتها إلى مشروعك. يمكنك تنزيلها من [هنا](https://releases.aspose.com/slides/java/).
 
-## حزم الاستيراد
-للبدء، قم باستيراد الحزم الضرورية إلى مشروع Java الخاص بك. تأكد من تضمين مكتبة Aspose.Slides للوصول إلى وظائف PowerPoint.
+## استيراد الحزم
+للبدء، استورد الحزم اللازمة إلى مشروع جافا. تأكد من تضمين مكتبة Aspose.Slides للوصول إلى وظائف PowerPoint.
 ```java
 import com.aspose.slides.*;
 
@@ -34,13 +36,13 @@ String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "ConnectorLineAngle.pptx");
 ```
 ## الخطوة 2: الوصول إلى الشرائح والأشكال
-قم بالوصول إلى الشريحة وأشكالها لتحديد خطوط الموصل.
+قم بالوصول إلى الشريحة وأشكالها لتحديد خطوط التوصيل.
 ```java
 Slide slide = (Slide) pres.getSlides().get_Item(0);
 Shape shape;
 ```
-## الخطوة 3: التكرار من خلال الأشكال
-كرر كل شكل على الشريحة لتحديد خطوط الموصل وخصائصها.
+## الخطوة 3: التكرار عبر الأشكال
+قم بالتكرار عبر كل شكل على الشريحة لتحديد خطوط التوصيل وخصائصها.
 ```java
 for (int i = 0; i < slide.getShapes().size(); i++) {
     double dir = 0.0;
@@ -48,11 +50,11 @@ for (int i = 0; i < slide.getShapes().size(); i++) {
     if (shape instanceof AutoShape) {
         AutoShape ashp = (AutoShape) shape;
         if (ashp.getShapeType() == ShapeType.Line) {
-            // التعامل مع شكل الخط
+            // شكل خط المقبض
             dir = getDirection(ashp.getWidth(), ashp.getHeight(), ashp.getFrame().getFlipH() != 0, ashp.getFrame().getFlipV() != 0);
         }
     } else if (shape instanceof Connector) {
-        // التعامل مع شكل الموصل
+        // شكل موصل المقبض
         Connector ashp = (Connector) shape;
         dir = getDirection(ashp.getWidth(), ashp.getHeight(), ashp.getFrame().getFlipH() != 0, ashp.getFrame().getFlipV() != 0);
     }
@@ -74,21 +76,23 @@ public static double getDirection(float w, float h, boolean flipH, boolean flipV
 ```
 
 ## خاتمة
-في هذا البرنامج التعليمي، تعلمنا كيفية التعامل مع زوايا خطوط الموصل في عروض PowerPoint التقديمية باستخدام Aspose.Slides for Java. باتباع هذه الخطوات، يمكنك تخصيص شرائحك بشكل فعال لتمثيل بياناتك ومفاهيمك بشكل مرئي بدقة.
+في هذا البرنامج التعليمي، تعلمنا كيفية التحكم بزوايا خطوط التوصيل في عروض PowerPoint التقديمية باستخدام Aspose.Slides لجافا. باتباع هذه الخطوات، يمكنك تخصيص شرائحك بفعالية لعرض بياناتك ومفاهيمك بصريًا بدقة.
 ## الأسئلة الشائعة
 ### هل يمكنني استخدام Aspose.Slides لـ Java مع مكتبات Java الأخرى؟
-قطعاً! يتكامل Aspose.Slides for Java بسلاسة مع مكتبات Java الأخرى لتحسين تجربة إنشاء العرض التقديمي وإدارته.
-### هل Aspose.Slides مناسب لمهام PowerPoint البسيطة والمعقدة؟
-نعم، يقدم Aspose.Slides مجموعة واسعة من الوظائف التي تلبي متطلبات PowerPoint المختلفة، بدءًا من معالجة الشرائح الأساسية وحتى التنسيق المتقدم ومهام الرسوم المتحركة.
-### هل يدعم Aspose.Slides جميع ميزات PowerPoint؟
-يسعى Aspose.Slides جاهداً لدعم معظم ميزات PowerPoint. ومع ذلك، بالنسبة لوظائف محددة أو متقدمة، يوصى بمراجعة الوثائق أو التواصل مع دعم Aspose.
+بالتأكيد! يتكامل Aspose.Slides for Java بسلاسة مع مكتبات Java الأخرى لتحسين تجربة إنشاء وإدارة العروض التقديمية.
+### هل برنامج Aspose.Slides مناسب لمهام PowerPoint البسيطة والمعقدة؟
+نعم، يوفر Aspose.Slides مجموعة واسعة من الوظائف التي تلبي متطلبات PowerPoint المختلفة، بدءًا من معالجة الشرائح الأساسية وحتى مهام التنسيق والرسوم المتحركة المتقدمة.
+### هل يدعم Aspose.Slides كافة ميزات PowerPoint؟
+يسعى Aspose.Slides جاهدًا لدعم معظم ميزات PowerPoint. مع ذلك، للحصول على وظائف محددة أو متقدمة، يُنصح بالاطلاع على الوثائق أو التواصل مع دعم Aspose.
 ### هل يمكنني تخصيص أنماط خطوط الموصل باستخدام Aspose.Slides؟
-بالتأكيد! يوفر Aspose.Slides خيارات شاملة لتخصيص خطوط الموصل، بما في ذلك الأنماط والسمك ونقاط النهاية، مما يسمح لك بإنشاء عروض تقديمية جذابة بصريًا.
-### أين يمكنني العثور على الدعم للاستفسارات المتعلقة بـ Aspose.Slides؟
- يمكنك زيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للمساعدة في أي استفسارات أو مشكلات تواجهها أثناء عملية التطوير.
+بالتأكيد! يوفر Aspose.Slides خيارات شاملة لتخصيص خطوط التوصيل، بما في ذلك الأنماط والسمك ونقاط النهاية، مما يتيح لك إنشاء عروض تقديمية جذابة بصريًا.
+### أين يمكنني العثور على الدعم للاستعلامات المتعلقة بـ Aspose.Slides؟
+يمكنك زيارة [منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للحصول على المساعدة بشأن أي استفسارات أو مشكلات تواجهها أثناء عملية التطوير.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

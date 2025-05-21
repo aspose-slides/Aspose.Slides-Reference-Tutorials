@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Export PowerPoint Shapes to SVG Using Aspose.Slides in Python
 
@@ -169,6 +171,9 @@ You've successfully learned how to export PowerPoint shapes to SVG using Aspose.
 For further assistance, join the [Aspose Community Forum](https://forum.aspose.com/c/slides/11) to connect with other developers. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

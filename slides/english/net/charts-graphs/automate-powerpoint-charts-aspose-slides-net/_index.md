@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint Charts Using Aspose.Slides .NET
 
@@ -168,7 +170,11 @@ For further exploration, consider integrating additional features such as adding
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 Explore these resources to deepen your understanding and expand your use of Aspose.Slides .NET. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

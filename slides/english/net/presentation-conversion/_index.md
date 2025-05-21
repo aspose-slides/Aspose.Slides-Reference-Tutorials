@@ -8,7 +8,9 @@ url: /net/presentation-conversion/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Master Presentation Conversion and PowerPoint Processing
@@ -68,9 +70,11 @@ Learn how to export presentations to XAML format using Aspose.Slides for .NET. C
 Learn how to convert PowerPoint presentations to SWF format using Aspose.Slides for .NET. Create dynamic content effortlessly!
 ### [Convert Presentation to PDF with Progress Update](./convert-presentation-to-pdf-with-progress-update/)
 Learn how to convert presentations to PDF with progress updates using Aspose.Slides for .NET. Step-by-step guide with source code included.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

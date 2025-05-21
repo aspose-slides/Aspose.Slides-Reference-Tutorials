@@ -1,22 +1,24 @@
 ---
-title: تحريك عناصر السلسلة في شرائح جافا
-linktitle: تحريك عناصر السلسلة في شرائح جافا
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية تحريك عناصر السلسلة في شرائح PowerPoint باستخدام Aspose.Slides لـ Java. اتبع هذا الدليل الشامل خطوة بخطوة مع الكود المصدري لتحسين عروضك التقديمية.
-weight: 12
-url: /ar/java/animation-and-layout/animating-series-elements-java-slides/
+"description": "تعلّم كيفية تحريك عناصر السلسلة في شرائح PowerPoint باستخدام Aspose.Slides لجافا. اتبع هذا الدليل الشامل خطوة بخطوة مع الكود المصدري لتحسين عروضك التقديمية."
+"linktitle": "تحريك عناصر السلسلة في شرائح Java"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "تحريك عناصر السلسلة في شرائح Java"
+"url": "/ar/java/animation-and-layout/animating-series-elements-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحريك عناصر السلسلة في شرائح جافا
+# تحريك عناصر السلسلة في شرائح Java
 
 
-## مقدمة لتحريك عناصر السلسلة في شرائح جافا
+## مقدمة إلى تحريك عناصر السلسلة في شرائح Java
 
-في هذا البرنامج التعليمي، سنرشدك عبر تحريك عناصر السلسلة في شرائح PowerPoint باستخدام Aspose.Slides for Java. الرسوم المتحركة يمكن أن تجعل العروض التقديمية الخاصة بك أكثر جاذبية وغنية بالمعلومات. في هذا المثال، سنركز على تحريك المخطط في شريحة PowerPoint.
+في هذا البرنامج التعليمي، سنرشدك إلى كيفية تحريك عناصر السلسلة في شرائح PowerPoint باستخدام Aspose.Slides لجافا. تُضفي الرسوم المتحركة على عروضك التقديمية طابعًا أكثر تشويقًا وإثراءً بالمعلومات. في هذا المثال، سنركز على تحريك مخطط بياني في شريحة PowerPoint.
 
 ## المتطلبات الأساسية
 
@@ -24,20 +26,20 @@ url: /ar/java/animation-and-layout/animating-series-elements-java-slides/
 
 - تم تثبيت Aspose.Slides لمكتبة Java.
 - عرض تقديمي موجود في PowerPoint يحتوي على مخطط تريد تحريكه.
-- إعداد بيئة تطوير جافا.
+- تم إعداد بيئة تطوير Java.
 
-## الخطوة 1: قم بتحميل العرض التقديمي
+## الخطوة 1: تحميل العرض التقديمي
 
- أولاً، تحتاج إلى تحميل عرض PowerPoint التقديمي الذي يحتوي على المخطط الذي تريد تحريكه. يستبدل`"Your Document Directory"` بالمسار الفعلي إلى دليل المستندات الخاص بك.
+أولاً، عليك تحميل عرض PowerPoint الذي يحتوي على المخطط الذي تريد تحريكه. استبدل `"Your Document Directory"` مع المسار الفعلي إلى دليل المستند الخاص بك.
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 ```
 
-## الخطوة 2: احصل على مرجع للمخطط
+## الخطوة 2: الحصول على مرجع للرسم البياني
 
-بمجرد تحميل العرض التقديمي، احصل على مرجع للمخطط الذي تريد تحريكه. في هذا المثال، نفترض أن المخطط موجود في الشريحة الأولى.
+بعد تحميل العرض التقديمي، احصل على مرجع للمخطط الذي تريد تحريكه. في هذا المثال، نفترض أن المخطط موجود في الشريحة الأولى.
 
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
@@ -47,10 +49,10 @@ IChart chart = (IChart) shapes.get_Item(0);
 
 ## الخطوة 3: إضافة تأثيرات الرسوم المتحركة
 
- الآن، دعونا نضيف تأثيرات الحركة إلى عناصر المخطط. سوف نستخدم`slide.getTimeline().getMainSequence().addEffect()` طريقة لتحديد كيفية تحريك المخطط.
+الآن، لنُضِف تأثيرات الحركة إلى عناصر الرسم البياني. سنستخدم `slide.getTimeline().getMainSequence().addEffect()` طريقة لتحديد كيفية تحريك الرسم البياني.
 
 ```java
-// تحريك المخطط بأكمله
+// تحريك الرسم البياني بأكمله
 slide.getTimeline().getMainSequence().addEffect(chart, EffectType.Fade, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 
 // تحريك عناصر السلسلة الفردية (يمكنك تخصيص هذا الجزء)
@@ -61,26 +63,26 @@ for (int seriesIndex = 0; seriesIndex < chart.getChartData().getSeries().size();
 }
 ```
 
-في الكود أعلاه، نقوم أولاً بتحريك المخطط بأكمله باستخدام تأثير "التلاشي". بعد ذلك، نمر عبر السلسلة والنقاط داخل المخطط ونطبق تأثير "الظهور" على كل عنصر. يمكنك تخصيص نوع الرسوم المتحركة وتشغيلها حسب الحاجة.
+في الكود أعلاه، نُحرك الرسم البياني بأكمله أولاً باستخدام تأثير "التلاشي". ثم نمرر عبر السلاسل والنقاط داخل الرسم البياني ونُطبق تأثير "الظهور" على كل عنصر. يمكنك تخصيص نوع الحركة وتشغيلها حسب الحاجة.
 
-## الخطوة 4: احفظ العرض التقديمي
+## الخطوة 4: حفظ العرض التقديمي
 
-وأخيرًا، احفظ العرض التقديمي المعدل مع الرسوم المتحركة في ملف جديد.
+وأخيرًا، احفظ العرض التقديمي المعدّل مع الرسوم المتحركة في ملف جديد.
 
 ```java
 presentation.save(dataDir + "AnimatingSeriesElements_out.pptx", SaveFormat.Pptx);
 ```
 
-## كود المصدر الكامل لتحريك عناصر السلسلة في شرائح جافا
+## الكود المصدر الكامل لتحريك عناصر السلسلة في شرائح Java
 
 ```java
 // المسار إلى دليل المستندات.
 String dataDir = "Your Document Directory";
-// قم بتحميل عرض تقديمي
+// تحميل عرض تقديمي
 Presentation presentation = new Presentation(dataDir + "ExistingChart.pptx");
 try
 {
-	// الحصول على مرجع لكائن المخطط
+	// الحصول على مرجع لكائن الرسم البياني
 	ISlide slide = presentation.getSlides().get_Item(0);
 	IShapeCollection shapes = slide.getShapes();
 	IChart chart = (IChart) shapes.get_Item(0);
@@ -98,7 +100,7 @@ try
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInSeries, 2, 1, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInSeries, 2, 2, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
 	((Sequence) slide.getTimeline().getMainSequence()).addEffect(chart, EffectChartMinorGroupingType.ByElementInSeries, 2, 3, EffectType.Appear, EffectSubtype.None, EffectTriggerType.AfterPrevious);
-	// اكتب ملف العرض التقديمي على القرص
+	// كتابة ملف العرض التقديمي على القرص 
 	presentation.save(dataDir + "AnimatingSeriesElements_out.pptx", SaveFormat.Pptx);
 }
 finally
@@ -109,32 +111,34 @@ finally
 
 ## خاتمة
 
-لقد تعلمت كيفية تحريك عناصر السلسلة في شرائح PowerPoint باستخدام Aspose.Slides لـ Java. يمكن للرسوم المتحركة تحسين العروض التقديمية الخاصة بك وجعلها أكثر جاذبية. قم بتخصيص تأثيرات الرسوم المتحركة والمشغلات لتناسب احتياجاتك الخاصة.
+لقد تعلمتَ كيفية تحريك عناصر السلسلة في شرائح PowerPoint باستخدام Aspose.Slides لجافا. تُحسّن الرسوم المتحركة عروضك التقديمية وتجعلها أكثر جاذبية. خصّص تأثيرات الرسوم المتحركة ومحفّزاتها لتناسب احتياجاتك الخاصة.
 
 ## الأسئلة الشائعة
 
-### كيف يمكنني تخصيص الرسوم المتحركة لعناصر المخطط الفردية؟
+### كيف يمكنني تخصيص الرسوم المتحركة لعناصر الرسم البياني الفردية؟
 
-يمكنك تخصيص الرسوم المتحركة لعناصر المخطط الفردية عن طريق تعديل نوع الرسوم المتحركة وتشغيلها في التعليمات البرمجية. في مثالنا، استخدمنا تأثير "الظهور"، ولكن يمكنك الاختيار من بين أنواع الرسوم المتحركة المختلفة مثل "Fade" أو "Fly In" وما إلى ذلك، وتحديد مشغلات مختلفة مثل "عند النقر" أو "بعد السابق" أو "مع سابقة."
+يمكنك تخصيص الرسوم المتحركة لعناصر الرسم البياني الفردية بتعديل نوع الرسوم المتحركة والمشغل في الكود. في مثالنا، استخدمنا تأثير "الظهور"، ولكن يمكنك الاختيار من بين أنواع رسوم متحركة متنوعة مثل "التلاشي" و"التحرك للداخل" وغيرها، وتحديد مشغلات مختلفة مثل "عند النقر" و"بعد السابق" و"مع السابق".
 
 ### هل يمكنني تطبيق الرسوم المتحركة على كائنات أخرى في شريحة PowerPoint؟
 
- نعم، يمكنك تطبيق الرسوم المتحركة على كائنات مختلفة في شريحة PowerPoint، وليس فقط المخططات. استخدم ال`addEffect` طريقة لتحديد الكائن الذي تريد تحريكه وخصائص الحركة المطلوبة.
+نعم، يمكنك تطبيق رسوم متحركة على كائنات مختلفة في شريحة PowerPoint، وليس فقط على المخططات. استخدم `addEffect` طريقة لتحديد الكائن الذي تريد تحريكه وخصائص التحريك المطلوبة.
 
 ### كيف يمكنني دمج Aspose.Slides for Java في مشروعي؟
 
-لدمج Aspose.Slides for Java في مشروعك، تحتاج إلى تضمين المكتبة في مسار البناء الخاص بك أو استخدام أدوات إدارة التبعية مثل Maven أو Gradle. راجع وثائق Aspose.Slides للحصول على تعليمات مفصلة حول التكامل.
+لدمج Aspose.Slides لجافا في مشروعك، عليك تضمين المكتبة في مسار البناء أو استخدام أدوات إدارة التبعيات مثل Maven أو Gradle. راجع وثائق Aspose.Slides للاطلاع على تعليمات الدمج المفصلة.
 
 ### هل هناك طريقة لمعاينة الرسوم المتحركة في تطبيق PowerPoint؟
 
-نعم، بعد حفظ العرض التقديمي، يمكنك فتحه في تطبيق PowerPoint لمعاينة الرسوم المتحركة وإجراء المزيد من التعديلات إذا لزم الأمر. يوفر PowerPoint وضع المعاينة لهذا الغرض.
+نعم، بعد حفظ العرض التقديمي، يمكنك فتحه في تطبيق PowerPoint لمعاينة الرسوم المتحركة وإجراء تعديلات إضافية عند الحاجة. يوفر PowerPoint وضع معاينة لهذا الغرض.
 
-### هل تتوفر المزيد من خيارات الرسوم المتحركة المتقدمة في Aspose.Slides لـ Java؟
+### هل هناك خيارات رسوم متحركة أكثر تقدمًا متوفرة في Aspose.Slides لـ Java؟
 
-نعم، يقدم Aspose.Slides for Java نطاقًا واسعًا من خيارات الرسوم المتحركة المتقدمة، بما في ذلك مسارات الحركة والتوقيت والرسوم المتحركة التفاعلية. يمكنك استكشاف الوثائق والأمثلة المقدمة من Aspose.Slides لتنفيذ الرسوم المتحركة المتقدمة في العروض التقديمية الخاصة بك.
+نعم، يوفر Aspose.Slides لجافا مجموعة واسعة من خيارات الرسوم المتحركة المتقدمة، بما في ذلك مسارات الحركة والتوقيت والرسوم المتحركة التفاعلية. يمكنك استكشاف الوثائق والأمثلة التي يوفرها Aspose.Slides لتطبيق الرسوم المتحركة المتقدمة في عروضك التقديمية.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

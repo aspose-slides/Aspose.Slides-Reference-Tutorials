@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides Python: Enhance Your Slides with Bullet Indentation and Paragraph Formatting
 
@@ -208,6 +210,9 @@ Next steps? Try integrating these skills into your projects or explore other fea
 Embark on your journey to creating stunning presentations with Aspose.Slides today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

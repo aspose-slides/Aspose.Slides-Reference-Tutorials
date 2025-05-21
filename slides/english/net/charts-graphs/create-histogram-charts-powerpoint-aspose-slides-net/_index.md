@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Histogram Charts in PowerPoint Using Aspose.Slides for .NET
 ## Introduction
@@ -132,7 +134,11 @@ Join the [Aspose Support Forum](https://forum.aspose.com/c/slides/11) to ask que
 - **Free Trial**: Start with a free trial via the [releases page](https://releases.aspose.com/slides/net/)
 - **Temporary License**: Obtain a temporary license for extended evaluation through this [link](https://purchase.aspose.com/temporary-license/)
 - **Support Forum**: Engage with other developers on the [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

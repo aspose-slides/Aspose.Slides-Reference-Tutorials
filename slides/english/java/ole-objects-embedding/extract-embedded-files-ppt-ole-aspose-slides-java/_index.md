@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Extract Embedded Files from PowerPoint OLE Objects Using Aspose.Slides Java
 
@@ -180,7 +182,11 @@ A: While a free trial is available, long-term use requires purchasing a license.
 - **Support and Community**: Join discussions or seek help on the [Aspose Forum](https://forum.aspose.com/c/slides/11). 
 
 Embark on your journey today to unlock the full potential of presentations with Aspose.Slides for Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

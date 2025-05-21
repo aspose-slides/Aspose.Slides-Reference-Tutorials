@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create and Customize Scatter Charts in Java with Aspose.Slides
 
@@ -201,7 +203,11 @@ To change the marker color, use `series.getMarker().getFillFormat().setFillColor
 
 ### Can I add more than two series to a scatter chart?
 Yes, you can add as many series as needed by repeating the process of adding new series and data points.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

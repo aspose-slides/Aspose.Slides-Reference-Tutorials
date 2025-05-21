@@ -8,7 +8,9 @@ url: /java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-con
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Connect Shapes using Connectors in PowerPoint
@@ -92,6 +94,7 @@ Yes, you can find helpful resources, ask questions, and engage with other users 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

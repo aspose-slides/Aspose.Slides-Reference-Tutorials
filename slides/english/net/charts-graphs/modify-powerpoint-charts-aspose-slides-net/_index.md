@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Modify PowerPoint Charts with Aspose.Slides for .NET
 
@@ -174,6 +176,9 @@ A: The limit depends on your system's resources; larger presentations might requ
 - **Support Forum:** [Aspose Community Forums](https://forum.aspose.com/c/slides)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

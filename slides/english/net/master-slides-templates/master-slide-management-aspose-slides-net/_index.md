@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Slide Management in PowerPoint Presentations Using Aspose.Slides for .NET
 
@@ -131,7 +133,11 @@ This feature guides you through creating a blank slide and appending it to your 
    Ensure your changes are saved:
    ```csharp
    pres.Save(dataDir + "/ModifiedPresentation.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

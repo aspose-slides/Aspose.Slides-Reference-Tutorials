@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Math Equations in Presentations: Your Complete Guide to Using Aspose.Slides Java
 
@@ -209,6 +211,9 @@ Ready to get started? Visit the [Aspose.Slides for Java documentation](https://r
    Manage resources effectively and dispose of unused objects promptly.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

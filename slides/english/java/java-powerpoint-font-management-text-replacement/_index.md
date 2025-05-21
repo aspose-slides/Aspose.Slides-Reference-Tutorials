@@ -8,7 +8,9 @@ url: /java/java-powerpoint-font-management-text-replacement/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java PowerPoint Font Management and Text Replacement
@@ -41,9 +43,11 @@ Effortlessly manage embedded fonts in Java PowerPoint presentations with Aspose.
 Effortlessly replace fonts in PowerPoint presentations using Java with Aspose.Slides. Follow our detailed guide for a seamless font transition process.
 ### [Replace Text in PowerPoint using Java](./replace-text-powerpoint-java/)
 Learn how to replace text in PowerPoint presentations using Aspose.Slides for Java. Follow this step-by-step guide to automate your presentation updates.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

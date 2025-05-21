@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Hyperlinks to Shapes in PowerPoint Using Aspose.Slides for Java
 
@@ -208,7 +210,11 @@ You've learned how to add hyperlinks to shapes in PowerPoint using Aspose.Slides
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 We hope this tutorial has been helpful. Happy coding and presenting!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

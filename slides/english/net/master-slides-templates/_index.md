@@ -4,8 +4,11 @@ description: "Learn to work with slide masters, layouts, and presentation templa
 weight: 11
 url: "/net/master-slides-templates/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Master Slides and Templates Tutorials for Aspose.Slides .NET
 
@@ -65,7 +68,11 @@ Learn how to programmatically manage slide layouts in presentations using Aspose
 - [Download Aspose.Slides for Net](https://releases.aspose.com/slides/net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

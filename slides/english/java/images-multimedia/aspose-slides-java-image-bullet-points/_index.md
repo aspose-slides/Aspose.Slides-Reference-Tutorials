@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Add Image Bullet Points in Aspose.Slides for Java: A Comprehensive Guide
 
@@ -224,7 +226,11 @@ Regularly use `System.gc()` after processing large presentations to ensure optim
 - **Documentation:** [Aspose.Slides for Java Reference](https://reference.aspose.com/slides/java/)
 - **Download:** [Latest Releases](https://releases.aspose.com/slides/java/)
 - **Purchase:** Buy a full license [here](https://purchase.aspose.com/buy)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

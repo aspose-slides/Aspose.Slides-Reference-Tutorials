@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-paragraph-management/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java PowerPoint Text and Paragraph Management
@@ -61,9 +63,11 @@ Learn how to add paragraph bullets in PowerPoint slides using Aspose.Slides for 
 Learn how to set paragraph indents in PowerPoint slides programmatically using Aspose.Slides for Java. Enhance your presentation formatting effortlessly.
 ### [Align Paragraphs in PowerPoint using Java](./align-paragraphs-powerpoint-java/)
 Learn how to align paragraphs in PowerPoint presentations using Aspose.Slides for Java. Follow our step-by-step guide for precise formatting.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

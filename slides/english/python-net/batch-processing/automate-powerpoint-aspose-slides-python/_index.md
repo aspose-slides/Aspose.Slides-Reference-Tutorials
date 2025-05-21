@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint Presentations Using Aspose.Slides Python: A Batch Processing Guide
 
@@ -161,7 +163,11 @@ A5: A valid license is required to unlock full functionality; however, a trial v
 - **Free Trial**: Try out features for free using the trial version on [Aspose's release page](https://releases.aspose.com/slides/python-net/).
 - **Temporary License**: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/).
 - **Support**: Get help from the community in Aspose’s support forum at [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

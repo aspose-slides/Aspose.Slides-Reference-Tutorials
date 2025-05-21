@@ -8,7 +8,9 @@ url: /java/presentation-conversion/convert-custom-size-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert with Custom Size in Java Slides
@@ -147,6 +149,7 @@ For detailed documentation and additional information about Aspose.Slides for Ja
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

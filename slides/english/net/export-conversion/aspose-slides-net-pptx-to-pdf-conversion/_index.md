@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Convert PPTX to PDF Using Aspose.Slides for .NET: A Complete Guide
 
@@ -158,6 +160,9 @@ In this tutorial, you've learned how to leverage Aspose.Slides for .NET to conve
 By following this guide, you're well-equipped to start converting presentations using Aspose.Slides for .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

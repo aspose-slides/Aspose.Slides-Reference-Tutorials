@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Generate PowerPoint Shape Thumbnails Using Aspose.Slides in Python: A Step-by-Step Guide
 
@@ -132,7 +134,11 @@ Ready to start? Give it a try and see how you can enhance your PowerPoint presen
 - [Purchase a License](https://purchase.aspose.com/buy)
 - [Free Trial and Temporary License](https://releases.aspose.com/slides/python-net/)
 - [Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

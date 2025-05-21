@@ -4,8 +4,11 @@ description: "Complete tutorials for creating and customizing charts, graphs, an
 weight: 6
 url: "/java/charts-graphs/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Charts and Graphs Tutorials for Aspose.Slides Java
 
@@ -248,7 +251,11 @@ Learn how to automate chart manipulation by switching rows and columns using Asp
 - [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

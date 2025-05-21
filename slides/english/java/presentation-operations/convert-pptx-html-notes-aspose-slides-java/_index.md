@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PPTX to HTML with Speaker Notes Using Aspose.Slides for Java: A Comprehensive Guide
 ## Introduction
@@ -115,6 +117,9 @@ A5: Check your `HtmlOptions` settings and ensure all configurations align with y
 With this guide, you are now equipped to convert your presentations seamlessly while keeping all crucial notes intact. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

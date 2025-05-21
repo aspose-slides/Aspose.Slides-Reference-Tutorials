@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Text Vertical Alignment in PowerPoint Tables with Aspose.Slides for Python
 
@@ -167,6 +169,9 @@ For further exploration, refer to these links:
 Embark on your journey to creating compelling presentations with Aspose.Slides for Python today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-paragraph-management/set-paragraph-indent-java-p
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Paragraph Indent in Java PowerPoint
@@ -95,6 +97,7 @@ You can get support from the community forum [here](https://forum.aspose.com/c/s
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

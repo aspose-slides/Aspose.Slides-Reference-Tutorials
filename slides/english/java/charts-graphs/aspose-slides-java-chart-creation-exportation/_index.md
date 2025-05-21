@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Creating and Exporting Charts Using Aspose.Slides Java
 
@@ -229,7 +231,11 @@ Aspose.Slides offers versatile solutions for various scenarios:
 2. **Academic Presentations:** Enhance educational content with interactive charts.
 3. **Financial Analysis:** Export financial data to Excel for in-depth analysis.
 4. **Marketing Analytics:** Visualize campaign performance using dynamic charts.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

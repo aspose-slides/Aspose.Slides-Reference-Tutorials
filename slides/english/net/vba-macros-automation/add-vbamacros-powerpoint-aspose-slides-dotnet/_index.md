@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add VBA Macros to PowerPoint Using Aspose.Slides .NET: A Step-by-Step Guide
 
@@ -175,6 +177,9 @@ By following this guide, you've learned how to add VBAMacros to a PowerPoint pre
 This guide equips you to effectively integrate VBA macros into PowerPoint presentations using Aspose.Slides for .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

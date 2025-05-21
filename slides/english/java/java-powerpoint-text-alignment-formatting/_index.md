@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-alignment-formatting/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java PowerPoint Text Alignment and Formatting
@@ -51,9 +53,11 @@ Learn how to efficiently replace text in PowerPoint presentations using Aspose.S
 Learn how to extract text from SmartArt nodes in Java PowerPoint presentations using Aspose.Slides. Easy, step-by-step guide for developers.
 ### [Highlight Text using Regex in Java PowerPoint](./highlight-text-using-regex-java-powerpoint/)
 Learn how to highlight text in PowerPoint using regex patterns with Aspose.Slides for Java. Enhance your presentations dynamically.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

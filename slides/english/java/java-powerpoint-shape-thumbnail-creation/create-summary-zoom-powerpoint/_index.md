@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-thumbnail-creation/create-summary-zoom-powerpoi
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Summary Zoom in PowerPoint
@@ -117,6 +119,7 @@ You can find more examples and seek support on the [Aspose.Slides support forum]
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

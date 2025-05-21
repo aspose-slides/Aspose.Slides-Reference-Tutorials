@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PowerPoint to Black and White TIFF Using Aspose.Slides for Python: A Complete Guide
 ## Introduction
@@ -107,7 +109,11 @@ You've now mastered converting PowerPoint files into black and white TIFF images
 - **Temporary License:** [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support:** [Aspose Forum](https://forum.aspose.com/c/slides/11)
 Ready to start your conversion journey? Implement this solution today and see the benefits firsthand!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

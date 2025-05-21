@@ -8,7 +8,9 @@ url: /net/shape-geometry-and-positioning-in-slides/adding-segments-geometry-shap
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mastering Visuals - Adding Segments with Aspose.Slides in .NET
@@ -82,6 +84,7 @@ Yes, you can download a free trial from [here](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

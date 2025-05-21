@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Line Charts with Image Markers Using Aspose.Slides for Python: A Step-by-Step Guide
 
@@ -221,7 +223,11 @@ You now know how to create line charts with image markers using Aspose.Slides fo
 - **Free Trial**: [Start a Free Trial](https://releases.aspose.com/slides/python-net/)
 - **Temporary License**: [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

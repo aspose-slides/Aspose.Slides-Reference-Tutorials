@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Configure Presentation Normal View State Using Aspose.Slides for Java
 
@@ -183,6 +185,9 @@ You’ve mastered configuring the Normal View State in Aspose.Slides for Java pr
 - **Support**: Join the [Aspose Community Forums](https://forum.aspose.com/c/slides/11) for support.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

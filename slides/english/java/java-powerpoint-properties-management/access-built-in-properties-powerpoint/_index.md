@@ -8,7 +8,9 @@ url: /java/java-powerpoint-properties-management/access-built-in-properties-powe
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Access Built-in Properties in PowerPoint
@@ -111,6 +113,7 @@ Yes, you can download a free trial version from [here](https://releases.aspose.c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

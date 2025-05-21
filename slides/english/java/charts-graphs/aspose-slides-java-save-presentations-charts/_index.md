@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides Java: Save Presentations with Charts
 
@@ -85,7 +87,11 @@ String YOUR_OUTPUT_DIRECTORY = "YOUR_OUTPUT_DIRECTORY";
 Utilize the `save` method of the `Presentation` class. The `SaveFormat.Pptx` argument ensures your file is saved in PPTX format:
 ```java
 pres.save(YOUR_DOCUMENT_DIRECTORY + "AsposeChart_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

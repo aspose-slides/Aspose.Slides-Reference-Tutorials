@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create Dynamic Text Frames in PowerPoint Using Aspose.Slides for Java
 
@@ -152,7 +154,11 @@ shape.getTextFrame().getParagraphs().get_Item(0).getPortions().get_Item(0).getFi
 
 // Save the presentation
 pres.save("output.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

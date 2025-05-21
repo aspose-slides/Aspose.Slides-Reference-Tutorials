@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-thumbnail-creation/create-section-zoom-powerpoi
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Section Zoom in PowerPoint
@@ -82,6 +84,7 @@ For additional support or assistance, you can visit the Aspose.Slides for Java f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

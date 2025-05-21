@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Comment Hierarchies in PPTX with Aspose.Slides for Python
 
@@ -238,6 +240,9 @@ By integrating Aspose.Slides for Python into your workflow, you can significantl
 With this guide, you're well on your way to mastering comment management in PowerPoint using Aspose.Slides for Python. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

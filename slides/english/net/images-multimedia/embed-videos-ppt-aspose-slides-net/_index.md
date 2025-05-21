@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Embed Videos in PowerPoint Presentations Using Aspose.Slides for .NET
 
@@ -189,6 +191,9 @@ A5: Visit the [Aspose documentation](https://reference.aspose.com/slides/net/) f
 Embark on your journey to automate and enhance PowerPoint presentations today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

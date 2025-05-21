@@ -1,26 +1,28 @@
 ---
-title: قم بإنشاء أشكال مرسومة مذهلة باستخدام Aspose.Slides
-linktitle: إنشاء الأشكال المرسومة في شرائح العرض التقديمي باستخدام Aspose.Slides
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية إضافة أشكال تخطيطية إبداعية إلى شرائح العرض التقديمي باستخدام Aspose.Slides for .NET. تعزيز الجاذبية البصرية دون عناء!
-weight: 13
-url: /ar/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
+"description": "تعلّم كيفية إضافة أشكال إبداعية إلى شرائح عرضك التقديمي باستخدام Aspose.Slides لـ .NET. حسّن مظهرك بكل سهولة!"
+"linktitle": "إنشاء أشكال مرسومة في شرائح العرض التقديمي باستخدام Aspose.Slides"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint لـ Aspose.Slides .NET"
+"title": "إنشاء أشكال مذهلة باستخدام Aspose.Slides"
+"url": "/ar/net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# قم بإنشاء أشكال مرسومة مذهلة باستخدام Aspose.Slides
+# إنشاء أشكال مذهلة باستخدام Aspose.Slides
 
 ## مقدمة
-مرحبًا بك في دليلنا خطوة بخطوة حول إنشاء الأشكال المرسومة في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET. إذا كنت تريد إضافة لمسة من الإبداع إلى عروضك التقديمية، فإن الأشكال المرسومة توفر جمالية فريدة ومرسومة يدويًا. في هذا البرنامج التعليمي، سنرشدك خلال العملية، ونقسمها إلى خطوات بسيطة لضمان تجربة سلسة.
+مرحبًا بكم في دليلنا التفصيلي لإنشاء أشكال تخطيطية في شرائح العرض التقديمي باستخدام Aspose.Slides لـ .NET. إذا كنت ترغب في إضافة لمسة إبداعية إلى عروضك التقديمية، فإن الأشكال التخطيطية تُضفي لمسة جمالية فريدة ومرسومة يدويًا. في هذا البرنامج التعليمي، سنشرح العملية بالتفصيل، ونُقسّمها إلى خطوات بسيطة لضمان تجربة سلسة.
 ## المتطلبات الأساسية
-قبل أن نتعمق في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
--  Aspose.Slides لـ .NET: تأكد من تثبيت مكتبة Aspose.Slides لـ .NET. يمكنك تنزيله[هنا](https://releases.aspose.com/slides/net/).
+قبل أن نتعمق في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
+- Aspose.Slides لـ .NET: تأكد من تثبيت مكتبة Aspose.Slides لـ .NET. يمكنك تنزيلها. [هنا](https://releases.aspose.com/slides/net/).
 - بيئة التطوير: قم بإعداد بيئة تطوير .NET باستخدام IDE المفضل لديك.
 ## استيراد مساحات الأسماء
-ابدأ باستيراد مساحات الأسماء الضرورية في مشروع .NET الخاص بك. تضمن هذه الخطوة أن لديك إمكانية الوصول إلى الفئات والوظائف المطلوبة للعمل مع Aspose.Slides.
+ابدأ باستيراد مساحات الأسماء اللازمة في مشروع .NET الخاص بك. تضمن هذه الخطوة وصولك إلى الفئات والوظائف اللازمة للعمل مع Aspose.Slides.
 ```csharp
 using System;
 using System.Collections.Generic;
@@ -36,28 +38,28 @@ using Aspose.Slides.Export;
 using Aspose.Slides.MathText;
 ```
 ## الخطوة 1: إعداد المشروع
-ابدأ بإنشاء مشروع .NET جديد أو فتح مشروع موجود. تأكد من تضمين Aspose.Slides في مراجع مشروعك.
+ابدأ بإنشاء مشروع .NET جديد أو افتح مشروعًا موجودًا. تأكد من تضمين Aspose.Slides في مراجع مشروعك.
 ## الخطوة 2: تهيئة Aspose.Slides
-قم بتهيئة Aspose.Slides عن طريق إضافة مقتطف التعليمات البرمجية التالي. يؤدي هذا إلى إعداد العرض التقديمي وتحديد مسارات الإخراج لملف العرض التقديمي والصورة المصغرة.
+قم بتشغيل Aspose.Slides بإضافة الكود التالي. هذا يُهيئ العرض التقديمي ويُحدد مسارات الإخراج لملف العرض التقديمي والصورة المصغرة.
 ```csharp
 string dataDir = "Your Document Directory";
 string outPptxFile = Path.Combine(dataDir, "SketchedShapes_out.pptx");
 string outPngFile = Path.Combine(dataDir, "SketchedShapes_out.png");
 using (Presentation pres = new Presentation())
 {
-    // تابع إلى الخطوات التالية...
+    // انتقل إلى الخطوات التالية...
 }
 ```
 ## الخطوة 3: إضافة الشكل المرسوم
-الآن، دعونا نضيف شكلاً مرسومًا إلى الشريحة. في هذا المثال، سنقوم بإضافة مستطيل مع تأثير رسم يدوي.
+الآن، لنُضِف شكلًا تخطيطيًا إلى الشريحة. في هذا المثال، سنُضيف مستطيلًا بتأثير رسم يدوي حر.
 ```csharp
 IAutoShape shape = pres.Slides[0].Shapes.AddAutoShape(ShapeType.Rectangle, 20, 20, 300, 150);
 shape.FillFormat.FillType = FillType.NoFill;
-// تحويل الشكل إلى رسم بأسلوب مرفوع
+// تحويل الشكل إلى رسم تخطيطي بأسلوب الرسم الحر
 shape.LineFormat.SketchFormat.SketchType = LineSketchType.Scribble;
 ```
-## الخطوة 4: إنشاء صورة مصغرة
-قم بإنشاء صورة مصغرة للشريحة لتصور الشكل المرسوم. احفظ الصورة المصغرة كملف PNG.
+## الخطوة 4: إنشاء الصورة المصغرة
+أنشئ صورة مصغّرة للشريحة لتصوّر الشكل المرسوم. احفظ الصورة المصغّرة كملف PNG.
 ```csharp
 pres.Slides[0].GetThumbnail(4/3f, 4/3f).Save(outPngFile, ImageFormat.Png);
 ```
@@ -66,23 +68,25 @@ pres.Slides[0].GetThumbnail(4/3f, 4/3f).Save(outPngFile, ImageFormat.Png);
 ```csharp
 pres.Save(outPptxFile, SaveFormat.Pptx);
 ```
-هذا كل شيء! لقد نجحت في إنشاء عرض تقديمي بأشكال مرسومة باستخدام Aspose.Slides لـ .NET.
+هذا كل شيء! لقد أنشأتَ بنجاح عرضًا تقديميًا بأشكال مرسومة باستخدام Aspose.Slides لـ .NET.
 ## خاتمة
-يمكن أن تؤدي إضافة الأشكال المرسومة إلى شرائح العرض التقديمي إلى تحسين المظهر المرئي وإشراك جمهورك. مع Aspose.Slides for .NET، تصبح العملية واضحة ومباشرة، مما يسمح لك بإطلاق العنان لإبداعك دون عناء.
+إضافة أشكال تخطيطية إلى شرائح عرضك التقديمي تُحسّن من جاذبيتها البصرية وتُثير اهتمام جمهورك. مع Aspose.Slides لـ .NET، تُصبح العملية سهلة، مما يُتيح لك إطلاق العنان لإبداعك بكل سهولة.
 ## الأسئلة الشائعة
 ### 1. هل يمكنني تخصيص التأثير المرسوم؟
- نعم، يوفر Aspose.Slides for .NET خيارات تخصيص متنوعة للتأثيرات المرسومة. الرجوع إلى[توثيق](https://reference.aspose.com/slides/net/) للحصول على معلومات مفصلة.
+نعم، يوفر Aspose.Slides لـ .NET خيارات تخصيص متنوعة للتأثيرات المرسومة. راجع [التوثيق](https://reference.aspose.com/slides/net/) لمزيد من المعلومات التفصيلية.
 ### 2. هل هناك نسخة تجريبية مجانية متاحة؟
- بالتأكيد! يمكنك استكشاف نسخة تجريبية مجانية من Aspose.Slides لـ .NET[هنا](https://releases.aspose.com/).
+بالتأكيد! يمكنك تجربة Aspose.Slides مجانًا لـ .NET [هنا](https://releases.aspose.com/).
 ### 3. أين يمكنني الحصول على الدعم؟
- لأي مساعدة أو استفسار قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
+لأي مساعدة أو استفسارات، قم بزيارة [منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
 ### 4. كيف يمكنني شراء Aspose.Slides لـ .NET؟
- لشراء Aspose.Slides لـ .NET، قم بزيارة[صفحة الشراء](https://purchase.aspose.com/buy).
+لشراء Aspose.Slides لـ .NET، قم بزيارة [صفحة الشراء](https://purchase.aspose.com/buy).
 ### 5. هل تقدمون تراخيص مؤقتة؟
- نعم، التراخيص المؤقتة متوفرة[هنا](https://purchase.aspose.com/temporary-license/).
+نعم، التراخيص المؤقتة متاحة [هنا](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

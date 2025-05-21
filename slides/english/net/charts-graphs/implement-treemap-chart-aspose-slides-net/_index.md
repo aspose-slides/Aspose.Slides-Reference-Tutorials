@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Implement a TreeMap Chart in Your Presentation Using Aspose.Slides .NET
 ## Introduction
@@ -171,6 +173,9 @@ For further reading and resources, explore:
 By following this guide, you should be well on your way to mastering TreeMap charts in presentations using Aspose.Slides .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

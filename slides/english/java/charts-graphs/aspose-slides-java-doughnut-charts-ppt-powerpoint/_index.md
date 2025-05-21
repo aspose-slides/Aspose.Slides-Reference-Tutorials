@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Dynamic Doughnut Charts in PowerPoint using Aspose.Slides for Java
 
@@ -178,7 +180,11 @@ To further explore Aspose.Slides functionalities and dive deeper into its capabi
 ## FAQ Section
 **Q: Can I use Aspose.Slides for Java in commercial applications?**
 A: Yes, but you'll need to acquire a license. You can start with a free trial to evaluate its features.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

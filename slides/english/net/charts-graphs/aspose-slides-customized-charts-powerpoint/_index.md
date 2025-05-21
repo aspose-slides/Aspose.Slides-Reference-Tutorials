@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Customized PowerPoint Charts in .NET Using Aspose.Slides
 
@@ -231,6 +233,9 @@ By following this guide, you've learned how to enhance PowerPoint presentations 
    - You can start with a free trial or temporary license and purchase a full license for commercial use.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/slide-access-and-manipulation/access-slide-by-index/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Access Slide by Sequential Index
@@ -96,6 +98,7 @@ To learn more about PowerPoint automation using Aspose.Slides, you can explore t
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

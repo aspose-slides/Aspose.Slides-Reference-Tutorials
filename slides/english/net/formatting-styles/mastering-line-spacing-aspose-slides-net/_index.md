@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Line Spacing in PowerPoint Slides with Aspose.Slides for .NET
 ## Introduction
@@ -140,7 +142,11 @@ Visit the official [Aspose Documentation](https://reference.aspose.com/slides/ne
 ## Resources
 - **Documentation**: Explore detailed API documentation at [Aspose.Slides .NET Reference](https://reference.aspose.com/slides/net/).
 - **Download**: Access the latest version of Aspose.Slides for .NET from NuGet or [Aspose Releases](https://releases.aspose.com/slides/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

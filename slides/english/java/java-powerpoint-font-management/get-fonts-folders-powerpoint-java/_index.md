@@ -8,7 +8,9 @@ url: /java/java-powerpoint-font-management/get-fonts-folders-powerpoint-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Fonts Folders in PowerPoint using Java
@@ -56,6 +58,7 @@ You can purchase Aspose.Slides for Java from the website [here](https://purchase
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

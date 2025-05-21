@@ -8,7 +8,9 @@ url: /net/hyperlink-manipulation/mutable-hyperlink/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mutable Hyperlink Creation in Aspose.Slides for .NET
@@ -106,6 +108,7 @@ Yes, Aspose.Slides for .NET is a versatile tool that can be used to create inter
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

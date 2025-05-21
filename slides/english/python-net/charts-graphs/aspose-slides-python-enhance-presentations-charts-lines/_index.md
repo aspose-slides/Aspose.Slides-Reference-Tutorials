@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Enhance Your PowerPoint Presentations: Add Charts and Custom Lines Using Aspose.Slides
 ## How to Add Charts and Custom Lines to PowerPoint Presentations with Aspose.Slides for Python
@@ -185,7 +187,11 @@ In this tutorial, we’ve covered how to add charts and custom lines to PowerPoi
 - **Download:** Get started with Aspose.Slides via [Python Releases](https://releases.aspose.com/slides/python-net/).
 - **Purchase:** Buy a license for full access to all features at [Aspose Purchase](https://purchase.aspose.com/buy).
 - **Free Trial:** Access a limited version without purchase through the [Free Trial Page](https://releases.aspose.com/slides/python-net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

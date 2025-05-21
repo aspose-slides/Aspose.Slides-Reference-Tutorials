@@ -8,7 +8,9 @@ url: /net/shape-effects-and-manipulation-in-slides/adjusting-connector-line-angl
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adjust Connector Line Angles in PowerPoint with Aspose.Slides
@@ -97,6 +99,7 @@ Yes, you can visit the support forum [here](https://forum.aspose.com/c/slides/11
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/java-powerpoint-font-management/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java PowerPoint Font Management
@@ -78,9 +80,11 @@ Learn how to perform font substitution in Java PowerPoint presentations using As
 Learn to format text frames in Java PowerPoint presentations with Aspose.Slides for Java. Enhance your slides' visual appeal effortlessly.
 ### [Effective Text Style Data in Java PowerPoint](./effective-text-style-data-java-powerpoint/)
 Master text style manipulation in Java PowerPoint presentations with Aspose.Slides for Java. Customize formatting dynamically for impactful content creation.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

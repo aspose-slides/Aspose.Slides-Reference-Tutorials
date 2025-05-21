@@ -8,7 +8,9 @@ url: /net/printing-and-rendering-in-slides/presentation-render-options/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides Render Options - Elevate Your Presentations
@@ -80,6 +82,7 @@ A: Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for sup
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

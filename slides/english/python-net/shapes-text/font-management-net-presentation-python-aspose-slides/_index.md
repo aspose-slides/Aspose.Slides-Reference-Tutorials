@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Font Management in .NET Presentations Using Python and Aspose.Slides
 ## Introduction
@@ -145,7 +147,11 @@ You’ve now mastered font management in .NET presentations using Aspose.Slides 
 - **Documentation**: [Aspose.Slides Python Reference](https://reference.aspose.com/slides/python-net/)
 - **Download**: [Aspose.Slides Releases](https://releases.aspose.com/slides/python-net/)
 - **Purchase**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

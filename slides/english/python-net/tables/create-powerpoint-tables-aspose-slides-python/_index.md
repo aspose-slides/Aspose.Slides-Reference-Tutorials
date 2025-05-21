@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create PowerPoint Tables with Aspose.Slides & Python
 
@@ -113,7 +115,11 @@ Finally, save your presentation to a specified location:
 
 ```python
 pres.save("YOUR_OUTPUT_DIRECTORY/tables_create_table_out.ppt\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Adjust Image Quality in PowerPoint Using Aspose.Slides for Python
 
@@ -171,7 +173,11 @@ Take action today by implementing these solutions in your projects!
 - **Free Trial**: [Aspose Free Trials](https://releases.aspose.com/slides/python-net/)
 - **Temporary License**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum**: [Aspose Support](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

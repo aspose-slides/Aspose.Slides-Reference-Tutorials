@@ -8,7 +8,9 @@ url: /java/additional-utilities/open-presentation-in-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Open Presentation in Java Slides
@@ -122,6 +124,7 @@ Yes, Aspose.Slides for Java allows you to convert PowerPoint presentations to va
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

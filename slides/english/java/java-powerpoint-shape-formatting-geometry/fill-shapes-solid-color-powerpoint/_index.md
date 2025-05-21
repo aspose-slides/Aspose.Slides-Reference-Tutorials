@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-formatting-geometry/fill-shapes-solid-color-pow
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Fill Shapes with Solid Color in PowerPoint
@@ -95,6 +97,7 @@ Detailed documentation is available on the [Aspose website](https://reference.as
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

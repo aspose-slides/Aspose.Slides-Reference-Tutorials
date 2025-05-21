@@ -13,7 +13,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Clear Chart Series Data Points in PowerPoint Using Aspose.Slides Python
 
@@ -174,7 +176,11 @@ Ready to take the next step? Implement this solution and start optimizing your p
 - [Free Trial Access](https://releases.aspose.com/slides/python-net/)
 - [Temporary License Acquisition](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

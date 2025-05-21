@@ -1,26 +1,28 @@
 ---
-title: الرسوم البيانية العادية في شرائح جافا
-linktitle: الرسوم البيانية العادية في شرائح جافا
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: إنشاء مخططات عادية في شرائح Java باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة والكود المصدري لإنشاء المخططات وتخصيصها وحفظها في عروض PowerPoint التقديمية.
-weight: 21
-url: /ar/java/chart-data-manipulation/normal-charts-java-slides/
+"description": "أنشئ مخططات بيانية عادية في شرائح جافا باستخدام Aspose.Slides لجافا. دليل خطوة بخطوة مع الكود المصدري لإنشاء المخططات البيانية وتخصيصها وحفظها في عروض PowerPoint التقديمية."
+"linktitle": "المخططات العادية في شرائح جافا"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "المخططات العادية في شرائح جافا"
+"url": "/ar/java/chart-data-manipulation/normal-charts-java-slides/"
+"weight": 21
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# الرسوم البيانية العادية في شرائح جافا
+# المخططات العادية في شرائح جافا
 
 
-## مقدمة إلى المخططات العادية في شرائح جافا
+## مقدمة إلى المخططات العادية في شرائح Java
 
-في هذا البرنامج التعليمي، سنتعرف على عملية إنشاء مخططات عادية في Java Slides باستخدام Aspose.Slides for Java API. سنستخدم إرشادات خطوة بخطوة مع التعليمات البرمجية المصدر لتوضيح كيفية إنشاء مخطط عمودي متفاوت المسافات في عرض تقديمي لـ PowerPoint.
+في هذا البرنامج التعليمي، سنشرح عملية إنشاء مخططات بيانية عادية في Java Slides باستخدام واجهة برمجة تطبيقات Aspose.Slides لـ Java. سنستخدم تعليمات خطوة بخطوة، بالإضافة إلى الكود المصدري، لتوضيح كيفية إنشاء مخطط بياني عمودي مجمع في عرض تقديمي على PowerPoint.
 
 ## المتطلبات الأساسية
 
-قبل البدء، تأكد من توفر المتطلبات الأساسية التالية:
+قبل أن تبدأ، تأكد من توفر المتطلبات الأساسية التالية:
 
 1. تم تثبيت Aspose.Slides لـ Java API.
 2. تم إعداد بيئة تطوير Java.
@@ -28,12 +30,12 @@ url: /ar/java/chart-data-manipulation/normal-charts-java-slides/
 
 ## الخطوة 1: إعداد المشروع
 
-تأكد من أن لديك دليلاً لمشروعك. دعنا نسميه "دليل المستندات الخاص بك" كما هو مذكور في الكود. يمكنك استبدال هذا بالمسار الفعلي لدليل مشروعك.
+تأكد من وجود مجلد لمشروعك. لنسمِّه "مجلد مستنداتك" كما هو مذكور في الكود. يمكنك استبداله بالمسار الفعلي لمجلد مشروعك.
 
 ```java
 // المسار إلى دليل المستندات.
 String dataDir = "Your Document Directory";
-// قم بإنشاء الدليل إذا لم يكن موجودًا بالفعل.
+// إنشاء الدليل إذا لم يكن موجودًا بالفعل.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
     new File(dataDir).mkdirs();
@@ -41,10 +43,10 @@ if (!IsExists)
 
 ## الخطوة 2: إنشاء عرض تقديمي
 
-الآن، لنقم بإنشاء عرض تقديمي لـ PowerPoint والوصول إلى الشريحة الأولى الخاصة به.
+الآن، دعنا نقوم بإنشاء عرض تقديمي على PowerPoint والوصول إلى الشريحة الأولى منه.
 
 ```java
-// إنشاء فئة العرض التقديمي التي تمثل ملف PPTX
+// إنشاء فئة عرض تقديمي تمثل ملف PPTX
 Presentation pres = new Presentation();
 // الوصول إلى الشريحة الأولى
 ISlide sld = pres.getSlides().get_Item(0);
@@ -52,12 +54,12 @@ ISlide sld = pres.getSlides().get_Item(0);
 
 ## الخطوة 3: إضافة مخطط
 
-سنضيف مخططًا عموديًا متفاوت المسافات إلى الشريحة ونحدد عنوانه.
+سنضيف مخططًا عموديًا مجمعًا إلى الشريحة ونحدد عنوانه.
 
 ```java
 // إضافة مخطط بالبيانات الافتراضية
 IChart chart = sld.getShapes().addChart(ChartType.ClusteredColumn, 0, 0, 500, 500);
-// إعداد عنوان المخطط
+// عنوان مخطط الإعداد
 chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
@@ -66,19 +68,19 @@ chart.setTitle(true);
 
 ## الخطوة 4: إعداد بيانات الرسم البياني
 
-بعد ذلك، سنقوم بتعيين بيانات المخطط من خلال تحديد السلسلة والفئات.
+بعد ذلك، سنقوم بتعيين بيانات الرسم البياني عن طريق تحديد السلسلة والفئات.
 
 ```java
-// قم بتعيين السلسلة الأولى لإظهار القيم
+// تعيين السلسلة الأولى لإظهار القيم
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
 
-// إعداد فهرس ورقة بيانات الرسم البياني
+// ضبط فهرس ورقة بيانات الرسم البياني
 int defaultWorksheetIndex = 0;
 
-// الحصول على ورقة عمل بيانات المخطط
+// الحصول على ورقة عمل بيانات الرسم البياني
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
-// حذف السلسلة والفئات الافتراضية التي تم إنشاؤها
+// حذف السلسلة والفئات المولدة افتراضيًا
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 
@@ -92,49 +94,49 @@ chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Category 3"));
 ```
 
-## الخطوة 5: تعبئة بيانات السلسلة
+## الخطوة 5: ملء بيانات السلسلة
 
-الآن، دعونا نملأ نقاط بيانات السلسلة للمخطط.
+الآن، دعونا نملأ نقاط بيانات السلسلة للرسم البياني.
 
 ```java
-// خذ سلسلة الرسم البياني الأولى
+// خذ أول سلسلة مخططات
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 
-// تعبئة بيانات السلسلة
+// ملء بيانات السلسلة
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
 
-// تحديد لون التعبئة للسلسلة
+// تعيين لون التعبئة للسلسلة
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 
 // خذ سلسلة الرسم البياني الثانية
 series = chart.getChartData().getSeries().get_Item(1);
 
-// تعبئة بيانات السلسلة
+// ملء بيانات السلسلة
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
 
-// تحديد لون التعبئة للسلسلة
+// تعيين لون التعبئة للسلسلة
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
 ```
 
-## الخطوة 6: تخصيص التسميات
+## الخطوة 6: تخصيص العلامات
 
-لنقم بتخصيص تسميات البيانات لسلسلة المخططات.
+دعونا نقوم بتخصيص تسميات البيانات لسلسلة المخططات البيانية.
 
 ```java
-// سوف تظهر التسمية الأولى اسم الفئة
+// سيظهر الملصق الأول اسم الفئة
 IDataLabel lbl = series.getDataPoints().get_Item(0).getLabel();
 lbl.getDataLabelFormat().setShowCategoryName(true);
 
 lbl = series.getDataPoints().get_Item(1).getLabel();
 lbl.getDataLabelFormat().setShowSeriesName(true);
 
-// إظهار قيمة التسمية الثالثة مع اسم السلسلة والفاصل
+// إظهار القيمة للعلامة الثالثة مع اسم السلسلة والفاصل
 lbl = series.getDataPoints().get_Item(2).getLabel();
 lbl.getDataLabelFormat().setShowValue(true);
 lbl.getDataLabelFormat().setShowSeriesName(true);
@@ -143,42 +145,42 @@ lbl.getDataLabelFormat().setSeparator("/");
 
 ## الخطوة 7: حفظ العرض التقديمي
 
-وأخيرًا، احفظ العرض التقديمي مع المخطط في دليل مشروعك.
+وأخيرًا، احفظ العرض التقديمي مع الرسم البياني في دليل المشروع الخاص بك.
 
 ```java
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-هذا كل شيء! لقد نجحت في إنشاء مخطط عمودي متفاوت المسافات في عرض تقديمي لـ PowerPoint باستخدام Aspose.Slides for Java. يمكنك تخصيص هذا المخطط بشكل أكبر وفقًا لمتطلباتك.
+هذا كل شيء! لقد نجحت في إنشاء مخطط عمودي مجمع في عرض تقديمي باوربوينت باستخدام Aspose.Slides لجافا. يمكنك تخصيص هذا المخطط بشكل أكبر وفقًا لاحتياجاتك.
 
-## أكمل كود المصدر للمخططات العادية في شرائح جافا
+## كود المصدر الكامل للمخططات العادية في شرائح Java
 
 ```java
 // المسار إلى دليل المستندات.
 String dataDir = "Your Document Directory";
-// قم بإنشاء الدليل إذا لم يكن موجودًا بالفعل.
+// إنشاء الدليل إذا لم يكن موجودًا بالفعل.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
 	new File(dataDir).mkdirs();
-// إنشاء فئة العرض التقديمي التي تمثل ملف PPTX
+// إنشاء فئة عرض تقديمي تمثل ملف PPTX
 Presentation pres = new Presentation();
 // الوصول إلى الشريحة الأولى
 ISlide sld = pres.getSlides().get_Item(0);
 // إضافة مخطط بالبيانات الافتراضية
 IChart chart = sld.getShapes().addChart(ChartType.ClusteredColumn, 0, 0, 500, 500);
-// إعداد عنوان المخطط
+// عنوان مخطط الإعداد
 // Chart.getChartTitle().getTextFrameForOverriding().setText("عنوان العينة");
 chart.getChartTitle().addTextFrameForOverriding("Sample Title");
 chart.getChartTitle().getTextFrameForOverriding().getTextFrameFormat().setCenterText(NullableBool.True);
 chart.getChartTitle().setHeight(20);
 chart.setTitle(true);
-// قم بتعيين السلسلة الأولى لإظهار القيم
+// تعيين السلسلة الأولى لإظهار القيم
 chart.getChartData().getSeries().get_Item(0).getLabels().getDefaultDataLabelFormat().setShowValue(true);
-// إعداد فهرس ورقة بيانات الرسم البياني
+// ضبط فهرس ورقة بيانات الرسم البياني
 int defaultWorksheetIndex = 0;
-// الحصول على ورقة عمل بيانات المخطط
+// الحصول على ورقة عمل بيانات الرسم البياني
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
-// حذف السلسلة والفئات الافتراضية التي تم إنشاؤها
+// حذف السلسلة والفئات المولدة افتراضيًا
 chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 int s = chart.getChartData().getSeries().size();
@@ -190,30 +192,30 @@ chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 0, 2, "
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 1, 0, "Caetegoty 1"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 2, 0, "Caetegoty 2"));
 chart.getChartData().getCategories().add(fact.getCell(defaultWorksheetIndex, 3, 0, "Caetegoty 3"));
-// خذ سلسلة الرسم البياني الأولى
+// خذ أول سلسلة مخططات
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
-// الآن ملء بيانات السلسلة
+// يتم الآن ملء بيانات السلسلة
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 1, 20));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 50));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 30));
-// تحديد لون التعبئة للسلسلة
+// تعيين لون التعبئة للسلسلة
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
 // خذ سلسلة الرسم البياني الثانية
 series = chart.getChartData().getSeries().get_Item(1);
-// الآن ملء بيانات السلسلة
+// يتم الآن ملء بيانات السلسلة
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 1, 2, 30));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 2, 2, 10));
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, 3, 2, 60));
-// تحديد لون التعبئة للسلسلة
+// تعيين لون التعبئة للسلسلة
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.GREEN);
-// سيتم عرض التسمية الأولى اسم الفئة
+// سيتم عرض العلامة الأولى باسم الفئة
 IDataLabel lbl = series.getDataPoints().get_Item(0).getLabel();
 lbl.getDataLabelFormat().setShowCategoryName(true);
 lbl = series.getDataPoints().get_Item(1).getLabel();
 lbl.getDataLabelFormat().setShowSeriesName(true);
-// إظهار القيمة للتسمية الثالثة
+// إظهار القيمة للعلامة الثالثة
 lbl = series.getDataPoints().get_Item(2).getLabel();
 lbl.getDataLabelFormat().setShowValue(true);
 lbl.getDataLabelFormat().setShowSeriesName(true);
@@ -223,32 +225,34 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 # خاتمة
 
-في هذا البرنامج التعليمي، تعلمنا كيفية إنشاء مخططات عادية في Java Slides باستخدام Aspose.Slides for Java API. لقد مررنا بدليل خطوة بخطوة مع الكود المصدري لإنشاء مخطط عمودي متفاوت المسافات في عرض PowerPoint التقديمي.
+في هذا البرنامج التعليمي، تعلمنا كيفية إنشاء مخططات بيانية عادية في Java Slides باستخدام واجهة برمجة تطبيقات Aspose.Slides لـ Java. اتبعنا دليلاً خطوة بخطوة مع الكود المصدري لإنشاء مخطط بياني عمودي مجمع في عرض تقديمي على PowerPoint.
 
 ## الأسئلة الشائعة
 
 ### كيف يمكنني تغيير نوع الرسم البياني؟
 
- لتغيير نوع المخطط، قم بتعديل`ChartType`المعلمة عند إضافة الرسم البياني باستخدام`sld.getShapes().addChart()`. يمكنك الاختيار من بين أنواع المخططات المختلفة المتوفرة في Aspose.Slides.
+لتغيير نوع الرسم البياني، قم بتعديل `ChartType` المعلمة عند إضافة الرسم البياني باستخدام `sld.getShapes().addChart()`يمكنك الاختيار من بين أنواع المخططات المتنوعة المتوفرة في Aspose.Slides.
 
-### هل يمكنني تغيير ألوان سلسلة المخططات؟
+### هل يمكنني تغيير ألوان سلسلة الرسم البياني؟
 
- نعم، يمكنك تغيير ألوان سلسلة المخططات عن طريق تحديد لون التعبئة لكل سلسلة تستخدمها`series.getFormat().getFill().getSolidFillColor().setColor(Color.YOUR_COLOR)`.
+نعم، يمكنك تغيير ألوان سلسلة الرسم البياني عن طريق تعيين لون التعبئة لكل سلسلة باستخدام `series.getFormat().getFill().getSolidFillColor().setColor(Color.YOUR_COLOR)`.
 
-### كيف يمكنني إضافة المزيد من الفئات أو السلاسل إلى المخطط؟
+### كيف أضيف المزيد من الفئات أو السلاسل إلى الرسم البياني؟
 
- يمكنك إضافة المزيد من الفئات أو السلاسل إلى المخطط عن طريق إضافة نقاط بيانات وتسميات جديدة باستخدام`chart.getChartData().getCategories().add()` و`chart.getChartData().getSeries().add()` طُرق.
+يمكنك إضافة المزيد من الفئات أو السلاسل إلى الرسم البياني عن طريق إضافة نقاط بيانات جديدة وعلامات باستخدام `chart.getChartData().getCategories().add()` و `chart.getChartData().getSeries().add()` طُرق.
 
-### كيف يمكنني تخصيص عنوان المخطط بشكل أكبر؟
+### كيف يمكنني تخصيص عنوان الرسم البياني بشكل أكبر؟
 
- يمكنك تخصيص عنوان المخطط بشكل أكبر عن طريق تعديل خصائصه`chart.getChartTitle()` مثل محاذاة النص وحجم الخط واللون.
+يمكنك تخصيص عنوان الرسم البياني بشكل أكبر عن طريق تعديل خصائص `chart.getChartTitle()` مثل محاذاة النص وحجم الخط واللون.
 
-### كيف يمكنني حفظ المخطط بتنسيق ملف مختلف؟
+### كيف يمكنني حفظ الرسم البياني بتنسيق ملف مختلف؟
 
- لحفظ المخطط بتنسيق ملف مختلف، قم بتغيير الملف`SaveFormat` المعلمة في`pres.save()` الطريقة إلى التنسيق المطلوب (على سبيل المثال، PDF، PNG، JPEG).
+لحفظ الرسم البياني بتنسيق ملف مختلف، قم بتغيير `SaveFormat` المعلمة في `pres.save()` الطريقة إلى التنسيق المطلوب (على سبيل المثال، PDF، PNG، JPEG).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

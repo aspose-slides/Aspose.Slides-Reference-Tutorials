@@ -8,7 +8,9 @@ url: /java/chart-data-manipulation/add-custom-error-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Custom Error in Java Slides
@@ -160,6 +162,7 @@ Yes, you can control the visibility of error bars for individual data points by 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

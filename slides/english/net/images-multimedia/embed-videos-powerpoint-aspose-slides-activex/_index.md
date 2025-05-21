@@ -13,7 +13,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Embed Videos in PowerPoint Using Aspose.Slides and ActiveX Controls: A Step-by-Step Guide
 
@@ -179,7 +181,11 @@ This tutorial covered setting up a PowerPoint template, cloning slides with Acti
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Embark on your journey to creating dynamic presentations today with Aspose.Slides for .NET!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

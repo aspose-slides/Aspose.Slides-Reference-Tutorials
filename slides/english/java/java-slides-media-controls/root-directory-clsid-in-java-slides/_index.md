@@ -8,7 +8,9 @@ url: /java/media-controls/root-directory-clsid-in-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Root Directory ClsId in Java Slides
@@ -117,6 +119,7 @@ The CLSIDs you can use are typically determined by the applications installed on
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

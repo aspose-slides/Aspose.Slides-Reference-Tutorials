@@ -8,7 +8,9 @@ url: /java/java-powerpoint-properties-management/modify-built-in-properties-powe
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Modify Built-in Properties in PowerPoint
@@ -75,6 +77,7 @@ Yes, you can seek assistance and participate in discussions on the [Aspose.Slide
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

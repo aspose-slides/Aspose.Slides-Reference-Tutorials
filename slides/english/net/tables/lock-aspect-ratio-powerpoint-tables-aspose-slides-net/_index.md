@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Lock Aspect Ratio in PowerPoint Tables Using Aspose.Slides for .NET: A Comprehensive Guide
 ## Introduction
@@ -111,7 +113,11 @@ A5: Optimize by processing only necessary elements and ensure efficient memory m
 - **Temporary License**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum**: [Aspose Support](https://forum.aspose.com/c/slides/11)
 Embark on your journey to creating professional presentations with Aspose.Slides and explore all its powerful features!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # AutoCreate Directory & Add Ellipse Shape in PowerPoint with Aspose.Slides for .NET
 
@@ -175,7 +177,11 @@ Ready to dive deeper? Try implementing these features in your next project!
 - **Free Trial**: [Try Aspose.Slides Free](https://releases.aspose.com/slides/net/)
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forums](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

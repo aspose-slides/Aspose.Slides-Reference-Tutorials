@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create Shape Thumbnails in Java with Aspose.Slides: A Step-by-Step Guide
 
@@ -169,6 +171,9 @@ Ready to implement this solution in your projects? Give it a try today!
 - [Aspose.Slides Support Forum](https://forum.aspose.com/c/slides)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

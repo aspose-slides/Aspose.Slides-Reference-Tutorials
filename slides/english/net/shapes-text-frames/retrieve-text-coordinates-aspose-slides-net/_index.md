@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Retrieve Text Portion Coordinates Using Aspose.Slides .NET: A Comprehensive Guide
 
@@ -173,7 +175,11 @@ A5: While Aspose.Slides is robust, very large files may require additional optim
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 Start implementing these solutions in your projects and explore the full potential of Aspose.Slides for .NET!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

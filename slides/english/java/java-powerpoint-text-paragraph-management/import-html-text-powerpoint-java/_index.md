@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-paragraph-management/import-html-text-powerpoint
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Import HTML Text in PowerPoint using Java
@@ -78,6 +80,7 @@ Visit the [Aspose.Slides documentation](https://reference.aspose.com/slides/java
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

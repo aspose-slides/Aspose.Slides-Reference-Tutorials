@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Display Chart Labels in PowerPoint Presentations Using Aspose.Slides for Python
 
@@ -145,7 +147,11 @@ By following this tutorial, you've learned how to display chart labels in PowerP
 - Free Trial: [Download Trial Version](https://releases.aspose.com/slides/python-net/)
 - Temporary License: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - Support: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

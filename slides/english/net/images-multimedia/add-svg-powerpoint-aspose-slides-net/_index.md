@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add SVG Images to PowerPoint Using Aspose.Slides .NET
 
@@ -187,7 +189,11 @@ A3: Absolutely, load the existing presentation using `Presentation()` constructo
 
 **Q4: Can I integrate Aspose.Slides with other systems or APIs?**
 A4: Yes, Aspose.Slides can be integrated into web applications or services as part of your backend logic.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

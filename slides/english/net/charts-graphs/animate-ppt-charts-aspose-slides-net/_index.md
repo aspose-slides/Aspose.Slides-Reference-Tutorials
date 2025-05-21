@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Animate PowerPoint Charts Using Aspose.Slides .NET: A Comprehensive Guide
 
@@ -175,7 +177,11 @@ Yes, it supports both personal and commercial usage. Licensing details are avail
 - **Purchase License**: [Buy a License](https://purchase.aspose.com/buy)
 - **Free Trial**: [Try Aspose.Slides](https://releases.aspose.com/slides/net/)
 - **Temporary License**: [Request Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

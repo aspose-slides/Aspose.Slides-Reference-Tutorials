@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Custom Animation Effects in Presentations with Aspose.Slides for .NET
 
@@ -175,7 +177,11 @@ In this tutorial, you've learned how to implement various custom animation effec
 - [Download](https://releases.aspose.com/slides/net/)
 - [Purchase](https://purchase.aspose.com/buy)
 - [Free Trial](https://purchase.aspose.com/trial)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

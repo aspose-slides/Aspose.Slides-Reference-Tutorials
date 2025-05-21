@@ -8,7 +8,9 @@ url: /net/slide-transition-effects/simple-slide-transitions/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mastering Slide Transitions with Aspose.Slides for .NET
@@ -117,6 +119,7 @@ Yes, you can try Aspose.Slides for .NET by obtaining a free trial from [here](ht
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

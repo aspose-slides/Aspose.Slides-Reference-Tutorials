@@ -8,7 +8,9 @@ url: /net/slide-access-and-manipulation/clone-slide-within-same-presentation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Clone Slide within the Same Presentation
@@ -115,6 +117,7 @@ For more detailed documentation and examples, you can visit the [Aspose.Slides f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

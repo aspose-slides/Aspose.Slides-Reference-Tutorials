@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Font Substitution in Java Presentations with Aspose.Slides
 
@@ -183,7 +185,11 @@ A5: The free trial may impose certain limitations on functionality, such as wate
 - **Free Trial**: [Start Here](https://releases.aspose.com/slides/java/)
 - **Temporary License**: [Request One](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

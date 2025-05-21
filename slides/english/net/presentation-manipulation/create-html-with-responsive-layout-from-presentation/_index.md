@@ -8,7 +8,9 @@ url: /net/presentation-manipulation/create-html-with-responsive-layout-from-pres
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create HTML with Responsive Layout from Presentation
@@ -82,6 +84,7 @@ Now that you have a comprehensive guide to creating responsive HTML from present
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create a Pie of Pie Chart in PowerPoint Using Aspose.Slides for Python
 
@@ -155,7 +157,11 @@ A: Yes, loop through your data sets and use the `add_chart` method within a sing
 - **Download**: Get the latest version from [Releases](https://releases.aspose.com/slides/python-net/).
 - **Purchase and Free Trial**: Access license options at [Aspose Purchase](https://purchase.aspose.com/buy) or try a [Free Trial](https://releases.aspose.com/slides/python-net/).
 - **Support**: Join the discussion on [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

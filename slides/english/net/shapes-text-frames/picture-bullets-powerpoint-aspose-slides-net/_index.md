@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Use Picture Bullets in PowerPoint with Aspose.Slides for .NET
 
@@ -181,6 +183,9 @@ You've learned how to enhance PowerPoint presentations using Aspose.Slides for .
 Start implementing these techniques and take your presentation skills to the next level with Aspose.Slides for .NET!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/notes-slide-manipulation/notes-slide-manipulation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Notes Slide Manipulation using Aspose.Slides
@@ -176,6 +178,7 @@ Yes, Aspose.Slides for .NET offers a wide range of features for PowerPoint prese
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

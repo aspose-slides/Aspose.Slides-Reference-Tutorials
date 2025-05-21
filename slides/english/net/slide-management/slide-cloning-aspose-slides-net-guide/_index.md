@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Clone Slides in .NET Using Aspose.Slides: A Step-by-Step Guide
 
@@ -177,6 +179,9 @@ A: Beyond cloning, use Aspose.Slides to merge presentations, convert formats, or
 Explore these resources to enhance your understanding and capabilities with Aspose.Slides for .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

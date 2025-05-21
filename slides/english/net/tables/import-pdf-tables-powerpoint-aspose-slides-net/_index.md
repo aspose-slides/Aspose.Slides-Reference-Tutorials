@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Efficiently Import PDF Tables into PowerPoint Using Aspose.Slides .NET
 
@@ -164,6 +166,9 @@ You've now mastered importing PDFs with tables into PowerPoint using Aspose.Slid
 Start automating your PDF to PowerPoint conversions today and experience the productivity boost firsthand!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

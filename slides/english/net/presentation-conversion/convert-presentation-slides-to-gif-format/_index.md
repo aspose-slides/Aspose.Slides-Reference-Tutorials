@@ -8,7 +8,9 @@ url: /net/presentation-conversion/convert-presentation-slides-to-gif-format/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Presentation Slides to GIF Format
@@ -143,6 +145,7 @@ You can find more code examples and detailed documentation on using Aspose.Slide
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

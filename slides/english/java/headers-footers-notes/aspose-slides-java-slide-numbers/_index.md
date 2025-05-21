@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides for Java: Setting and Getting Slide Numbers
 
@@ -168,6 +170,9 @@ Ready to take your presentation management skills to the next level? Start imple
 By following this guide, you'll be well-equipped to handle slide numbering in your Java applications using Aspose.Slides. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

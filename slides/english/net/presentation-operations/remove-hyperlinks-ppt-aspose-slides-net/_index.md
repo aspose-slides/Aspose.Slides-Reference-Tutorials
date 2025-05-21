@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Remove Hyperlinks from PowerPoint Presentations Using Aspose.Slides for .NET
 
@@ -168,7 +170,11 @@ Ready to try it out? Implement the solution in your projects and see how much ti
 - **Free Trial:** Start with a free trial available on the [Downloads Page](https://releases.aspose.com/slides/net/)
 - **Temporary License:** Obtain a temporary license from [Aspose Licensing](https://purchase.aspose.com/temporary-license/)
 - **Support:** Ask questions and get support at [Aspose Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

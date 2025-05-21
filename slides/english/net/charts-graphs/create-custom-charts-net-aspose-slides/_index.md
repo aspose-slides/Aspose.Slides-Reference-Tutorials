@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Custom Charts in .NET Using Aspose.Slides
 ## How to Create and Customize Charts in .NET Using Aspose.Slides
@@ -165,6 +167,9 @@ Ready to try it out? Start building impactful charts today!
 - [Download Aspose.Slides](https://releases.aspose.com/slides/
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Remove a Segment from Geometry Shapes in PowerPoint Using Aspose.Slides for Java
 ## Introduction
@@ -127,7 +129,11 @@ A: Absolutely. Purchase or obtain a temporary license to ensure full functionali
 - **Free Trial**: [Aspose.Slides Free Downloads](https://releases.aspose.com/slides/java/)
 - **Temporary License**: [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forums](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

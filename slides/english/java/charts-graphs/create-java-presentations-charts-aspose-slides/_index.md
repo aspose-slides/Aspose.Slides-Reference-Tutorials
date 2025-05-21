@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Configure a Presentation with a Chart Using Aspose.Slides for Java
 
@@ -232,7 +234,11 @@ Once your presentation is configured, save it to disk in the desired format. Thi
 You have now learned how to create and configure presentations with charts using Aspose.Slides for Java. This guide covered initializing a presentation, adding a 3D stacked column chart, configuring data series and categories, setting rotation properties, populating series data, adjusting series overlap, and saving the final presentation.
 
 For more advanced features and customization options, refer to the [Aspose.Slides for Java documentation](https://docs.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

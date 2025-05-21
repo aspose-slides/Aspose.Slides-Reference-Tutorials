@@ -8,7 +8,9 @@ url: /java/java-powerpoint-smartart-manipulation/remove-node-specific-position-s
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Node at Specific Position in SmartArt
@@ -72,6 +74,7 @@ You can access the comprehensive documentation [here](https://reference.aspose.c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Optimize PowerPoint Images Using Aspose.Slides .NET
 
@@ -85,7 +87,11 @@ This feature allows you to compress images within a PowerPoint presentation by a
 - Begin by loading your PowerPoint file into an Aspose.Slides `Presentation` object.
 ```csharp
 string presentationName = Path.Combine("YOUR_DOCUMENT_DIRECTORY\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides for Java: Advanced Shapes & Text Manipulation in PowerPoint
 
@@ -194,7 +196,11 @@ As you implement these features, keep the following in mind to optimize performa
 ## Conclusion
 
 You've now explored how Aspose.Slides for Java can revolutionize your approach to handling PowerPoint presentations programmatically. With the ability to load, manipulate, and save slides efficiently, you're well-equipped to tackle a wide range of presentation-related challenges.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

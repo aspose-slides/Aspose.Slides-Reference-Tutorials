@@ -8,7 +8,9 @@ url: /net/printing-and-rendering-in-slides/adjusting-zoom-level/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adjust Zoom Levels Effortlessly with Aspose.Slides .NET
@@ -70,6 +72,7 @@ To purchase Aspose.Slides for .NET, click [here](https://purchase.aspose.com/buy
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

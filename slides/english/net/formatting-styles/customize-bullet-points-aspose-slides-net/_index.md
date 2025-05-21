@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Customize Bullet Points in Slides with Aspose.Slides .NET
 
@@ -211,7 +213,11 @@ Ready to try it out? Implement this solution in your next project and see the di
 - **Documentation:** [Aspose.Slides .NET Reference](https://reference.aspose.com/slides/net/)
 - **Download:** [Aspose.Slides Releases](https://releases.aspose.com/slides/net/)
 - **Purchase:** [Aspose Purchase Page](https://purchase.aspose.com/buy)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/chart-formatting-and-animation/animating-series-elements/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Animating Series Elements in Chart
@@ -114,6 +116,7 @@ If you have questions or need assistance, you can visit the [Aspose.Slides for .
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

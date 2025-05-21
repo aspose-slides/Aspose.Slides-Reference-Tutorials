@@ -8,7 +8,9 @@ url: /net/advanced-chart-customization/advanced-chart-customization/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Advanced Chart Customization in Aspose.Slides
@@ -310,9 +312,11 @@ Yes, Aspose.Slides for .NET provides options to export your presentation with ch
 
 ### Where can I find more tutorials and examples for Aspose.Slides for .NET?
 You can find a wealth of tutorials, code examples, and documentation on the Aspose.Slides [website](https://reference.aspose.com/slides/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

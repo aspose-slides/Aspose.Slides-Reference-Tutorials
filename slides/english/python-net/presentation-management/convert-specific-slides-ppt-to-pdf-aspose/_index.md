@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert Specific PowerPoint Slides to PDF Using Aspose.Slides for Python: A Step-by-Step Guide
 
@@ -92,7 +94,11 @@ slide_indices = [0, 2]  # This selects the 1st and 3rd slides.
 Finally, use the `save` method to export these selected slides into a PDF file:
 
 ```python\presentation.save("YOUR_OUTPUT_DIRECTORY/convert_specific_slide_to_pdf_out.pdf\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

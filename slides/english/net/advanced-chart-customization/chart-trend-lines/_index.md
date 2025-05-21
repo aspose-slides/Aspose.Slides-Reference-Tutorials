@@ -8,7 +8,9 @@ url: /net/advanced-chart-customization/chart-trend-lines/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Exploring Chart Trend Lines in Aspose.Slides for .NET
@@ -155,6 +157,7 @@ You can obtain a temporary license for Aspose.Slides for .NET from [this link](h
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

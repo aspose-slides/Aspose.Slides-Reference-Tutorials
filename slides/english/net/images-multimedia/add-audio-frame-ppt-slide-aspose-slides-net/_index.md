@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add an Audio Frame to a PowerPoint Slide Using Aspose.Slides for .NET
 
@@ -175,7 +177,11 @@ For further exploration and support:
 - **Try Free Trial:** [Start Here](https://releases.aspose.com/slides/net/)
 - **Temporary License Request:** [Apply for Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum:** [Aspose Community Support](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

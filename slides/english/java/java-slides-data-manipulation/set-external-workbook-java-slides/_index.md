@@ -8,7 +8,9 @@ url: /java/data-manipulation/set-external-workbook-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set External Workbook in Java Slides
@@ -129,6 +131,7 @@ Yes, you can add multiple charts to your presentation, all referencing the same 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Render Presentation Comments as Images with Aspose.Slides .NET
 
@@ -104,7 +106,11 @@ Now, render the slide with comments into an image format.
 
 ```csharp
 string resultPath = Path.Combine("YOUR_OUTPUT_DIRECTORY\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/image-and-video-manipulation-in-slides/creating-section-zoom/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides Section Zoom - Elevate Your Presentations
@@ -80,6 +82,7 @@ For any support or queries, visit the [Aspose.Slides forum](https://forum.aspose
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -4,8 +4,11 @@ description: "Complete tutorials for text finding, replacing, extracting, and ma
 weight: 15
 url: "/python-net/advanced-text-processing/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Advanced Text Processing Tutorials for Aspose.Slides Python
 
@@ -59,7 +62,11 @@ Learn how to automate text formatting in PowerPoint presentations by splitting t
 - [Download Aspose.Slides for Python-net](https://releases.aspose.com/slides/python-net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

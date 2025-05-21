@@ -8,7 +8,9 @@ url: /net/presentation-conversion/create-responsive-html-from-presentation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Responsive HTML from Presentation
@@ -90,6 +92,7 @@ Now that you have the knowledge to convert presentations to responsive HTML, go 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

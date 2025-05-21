@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Customize PowerPoint Charts with Aspose.Slides for Python: Tailor Legends and Axes
 
@@ -215,7 +217,11 @@ For further exploration, delve into more advanced features of Aspose.Slides or e
 - **Free Trial**: [Get Started with Aspose.Slides Free Trial](https://releases.aspose.com/slides/python-net/)
 - **Temporary License**: [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum**: [Aspose Community Support](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,25 +1,27 @@
 ---
-title: مخطط متعدد الفئات في شرائح جافا
-linktitle: مخطط متعدد الفئات في شرائح جافا
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: قم بإنشاء مخططات متعددة الفئات في شرائح Java باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع التعليمات البرمجية المصدر لتصور البيانات بشكل مثير للإعجاب في العروض التقديمية.
-weight: 20
-url: /ar/java/chart-data-manipulation/multi-category-chart-java-slides/
+"description": "أنشئ مخططات متعددة الفئات في شرائح جافا باستخدام Aspose.Slides لجافا. دليل خطوة بخطوة مع الكود المصدري لعرض بيانات مُبهر في العروض التقديمية."
+"linktitle": "مخطط متعدد الفئات في شرائح Java"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "مخطط متعدد الفئات في شرائح Java"
+"url": "/ar/java/chart-data-manipulation/multi-category-chart-java-slides/"
+"weight": 20
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# مخطط متعدد الفئات في شرائح جافا
+# مخطط متعدد الفئات في شرائح Java
 
 
-## مقدمة إلى المخطط متعدد الفئات في شرائح Java باستخدام Aspose.Slides
+## مقدمة إلى مخططات الفئات المتعددة في Java Slides باستخدام Aspose.Slides
 
-في هذا البرنامج التعليمي، سوف نتعلم كيفية إنشاء مخطط متعدد الفئات في شرائح Java باستخدام Aspose.Slides for Java API. سيوفر هذا الدليل إرشادات خطوة بخطوة بالإضافة إلى التعليمات البرمجية المصدر لمساعدتك في إنشاء مخطط عمودي متفاوت المسافات مع فئات وسلاسل متعددة.
+في هذا البرنامج التعليمي، سنتعلم كيفية إنشاء مخطط بياني متعدد الفئات في شرائح جافا باستخدام واجهة برمجة تطبيقات Aspose.Slides لجافا. سيقدم هذا الدليل تعليمات خطوة بخطوة، بالإضافة إلى شيفرة المصدر، لمساعدتك في إنشاء مخطط بياني عمودي مجمع بفئات وسلاسل بيانات متعددة.
 
 ## المتطلبات الأساسية
-قبل أن نبدأ، تأكد من تثبيت مكتبة Aspose.Slides for Java وإعدادها في بيئة تطوير Java لديك.
+قبل أن نبدأ، تأكد من تثبيت مكتبة Aspose.Slides for Java وإعدادها في بيئة تطوير Java الخاصة بك.
 
 ## الخطوة 1: إعداد البيئة
 أولاً، قم باستيراد الفئات الضرورية وإنشاء كائن عرض تقديمي جديد للعمل مع الشرائح.
@@ -31,7 +33,7 @@ Presentation pres = new Presentation();
 ```
 
 ## الخطوة 2: إضافة شريحة ومخطط
-بعد ذلك، قم بإنشاء شريحة وأضف إليها مخططًا عموديًا متفاوت المسافات.
+بعد ذلك، قم بإنشاء شريحة وأضف إليها مخططًا عموديًا مجمعًا.
 
 ```java
 ISlide slide = pres.getSlides().get_Item(0);
@@ -39,7 +41,7 @@ IChart ch = slide.getShapes().addChart(ChartType.ClusteredColumn, 100, 100, 600,
 ```
 
 ## الخطوة 3: مسح البيانات الموجودة
-امسح أي بيانات موجودة من المخطط.
+مسح أي بيانات موجودة من الرسم البياني.
 
 ```java
 ch.getChartData().getSeries().clear();
@@ -47,7 +49,7 @@ ch.getChartData().getCategories().clear();
 ```
 
 ## الخطوة 4: إعداد فئات البيانات
-الآن، لنقم بإعداد فئات البيانات للمخطط. سنقوم بإنشاء فئات متعددة ونجمعها.
+الآن، لنُنشئ فئات بيانات للرسم البياني. سنُنشئ فئات متعددة ونُجمّعها.
 
 ```java
 IChartDataWorkbook fact = ch.getChartData().getChartDataWorkbook();
@@ -55,7 +57,7 @@ fact.clear(0);
 
 int defaultWorksheetIndex = 0;
 
-// إضافة فئات وتجميعها
+// إضافة الفئات وتجميعها
 IChartCategory category = ch.getChartData().getCategories().add(fact.getCell(0, "c2", "A"));
 category.getGroupingLevels().setGroupingItem(1, "Group1");
 
@@ -78,7 +80,7 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
 ```
 
 ## الخطوة 5: إضافة السلسلة
-الآن، دعونا نضيف سلسلة إلى المخطط مع نقاط البيانات.
+الآن، دعنا نضيف سلسلة إلى الرسم البياني مع نقاط البيانات.
 
 ```java
 IChartSeries series = ch.getChartData().getSeries().add(fact.getCell(0, "D1", "Series 1"), ChartType.ClusteredColumn);
@@ -94,15 +96,15 @@ series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetInd
 ```
 
 ## الخطوة 6: حفظ العرض التقديمي
-وأخيرًا، احفظ العرض التقديمي مع المخطط.
+وأخيرًا، احفظ العرض التقديمي مع الرسم البياني.
 
 ```java
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-هذا كل شيء! لقد نجحت في إنشاء مخطط متعدد الفئات في شريحة Java باستخدام Aspose.Slides. يمكنك تخصيص هذا المخطط بشكل أكبر ليناسب متطلباتك المحددة.
+هذا كل شيء! لقد نجحت في إنشاء مخطط متعدد الفئات في شريحة جافا باستخدام Aspose.Slides. يمكنك تخصيص هذا المخطط بشكل أكبر ليناسب احتياجاتك الخاصة.
 
-## أكمل كود المصدر للمخطط متعدد الفئات في شرائح Java
+## الكود المصدر الكامل للمخطط متعدد الفئات في شرائح Java
 
 ```java
 // المسار إلى دليل المستندات.
@@ -127,7 +129,7 @@ category = ch.getChartData().getCategories().add(fact.getCell(0, "c7", "F"));
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c8", "G"));
 category.getGroupingLevels().setGroupingItem(1, "Group4");
 category = ch.getChartData().getCategories().add(fact.getCell(0, "c9", "H"));
-// إضافة سلسلة
+//            إضافة سلسلة
 IChartSeries series = ch.getChartData().getSeries().add(fact.getCell(0, "D1", "Series 1"),
 		ChartType.ClusteredColumn);
 series.getDataPoints().addDataPointForBarSeries(fact.getCell(defaultWorksheetIndex, "D2", 10));
@@ -144,28 +146,30 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ## خاتمة
 
-في هذا البرنامج التعليمي، تعلمنا كيفية إنشاء مخطط متعدد الفئات في شرائح Java باستخدام Aspose.Slides for Java API. لقد مررنا بدليل خطوة بخطوة مع التعليمات البرمجية المصدر لإنشاء مخطط عمودي متفاوت المسافات مع فئات وسلاسل متعددة.
+في هذا البرنامج التعليمي، تعلمنا كيفية إنشاء مخطط متعدد الفئات في شرائح جافا باستخدام واجهة برمجة تطبيقات Aspose.Slides لجافا. اتبعنا دليلاً خطوة بخطوة مع الكود المصدري لإنشاء مخطط عمودي مجمع بفئات وسلاسل متعددة.
 
 ## الأسئلة الشائعة
 
 ### كيف يمكنني تخصيص مظهر الرسم البياني؟
 
-يمكنك تخصيص مظهر المخطط عن طريق تعديل الخصائص مثل الألوان والخطوط والأنماط. راجع وثائق Aspose.Slides للحصول على خيارات التخصيص التفصيلية.
+يمكنك تخصيص مظهر المخطط بتعديل خصائص مثل الألوان والخطوط والأنماط. راجع وثائق Aspose.Slides للاطلاع على خيارات التخصيص المفصلة.
 
-### هل يمكنني إضافة المزيد من السلاسل إلى المخطط؟
+### هل يمكنني إضافة المزيد من السلاسل إلى الرسم البياني؟
 
-نعم، يمكنك إضافة سلسلة إضافية إلى المخطط باتباع عملية مشابهة كما هو موضح في الخطوة 5.
+نعم، يمكنك إضافة سلسلة إضافية إلى الرسم البياني باتباع عملية مماثلة كما هو موضح في الخطوة 5.
 
-### كيف يمكنني تغيير نوع المخطط؟
+### كيف يمكنني تغيير نوع الرسم البياني؟
 
- لتغيير نوع المخطط، استبدل`ChartType.ClusteredColumn` بنوع المخطط المطلوب عند إضافة المخطط في الخطوة 2.
+لتغيير نوع الرسم البياني، استبدل `ChartType.ClusteredColumn` مع نوع الرسم البياني المطلوب عند إضافة الرسم البياني في الخطوة 2.
 
 ### كيف يمكنني إضافة عنوان إلى الرسم البياني؟
 
- يمكنك إضافة عنوان إلى المخطط باستخدام`ch.getChartTitle().getTextFrame().setText("Chart Title");` طريقة.
+يمكنك إضافة عنوان إلى الرسم البياني باستخدام `ch.getChartTitle().getTextFrame().setText("Chart Title");` طريقة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

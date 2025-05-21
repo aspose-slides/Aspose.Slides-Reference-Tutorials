@@ -8,7 +8,9 @@ url: /java/chart-data-manipulation/normal-charts-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Normal Charts in Java Slides
@@ -250,6 +252,7 @@ To save the chart to a different file format, change the `SaveFormat` parameter 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

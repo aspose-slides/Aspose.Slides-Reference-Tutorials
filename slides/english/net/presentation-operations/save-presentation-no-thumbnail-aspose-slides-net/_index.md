@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Save a Presentation Without Generating a New Thumbnail Using Aspose.Slides for .NET
 
@@ -160,6 +162,9 @@ For further reading and support:
 By exploring these resources, you can deepen your understanding and leverage Aspose.Slides to its full potential. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

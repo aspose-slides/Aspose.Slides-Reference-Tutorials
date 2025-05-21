@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Access Presentation Metadata Without Password Using Aspose.Slides for .NET
 
@@ -161,7 +163,11 @@ Feel free to try implementing this approach in your next project and share your 
 - **Free Trial**: [Get Your Free Trial](https://releases.aspose.com/slides/net/)
 - **Temporary License**: [Acquire Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum**: [Aspose Slides Support](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

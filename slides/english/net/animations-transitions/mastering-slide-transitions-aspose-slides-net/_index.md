@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Slide Transitions in PowerPoint with Aspose.Slides .NET
 
@@ -161,7 +163,11 @@ Experiment with different transition types and explore additional features of As
 - **Free Trial**: Test Aspose.Slides features with a [free trial](https://releases.aspose.com/slides/net/).
 - **Temporary License**: Obtain a temporary license for extended testing at [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).
 - **Support**: Get help from the community on the [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

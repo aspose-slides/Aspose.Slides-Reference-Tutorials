@@ -8,7 +8,9 @@ url: /java/chart-creation/tree-map-chart-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Tree Map Chart in Java Slides
@@ -162,6 +164,7 @@ Use the `pres.save()` method to save the presentation with the Tree Map chart in
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

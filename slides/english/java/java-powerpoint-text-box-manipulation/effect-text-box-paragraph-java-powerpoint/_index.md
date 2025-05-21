@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-box-manipulation/effect-text-box-paragraph-java-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Effect Text Box Paragraph in Java PowerPoint
@@ -70,6 +72,7 @@ Yes, it supports various PowerPoint formats including .ppt, .pptx, .pptm, etc.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

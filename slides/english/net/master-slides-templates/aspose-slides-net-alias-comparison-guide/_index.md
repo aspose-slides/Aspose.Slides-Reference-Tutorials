@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Alias Comparisons in Aspose.Slides .NET: A Comprehensive Guide
 
@@ -143,7 +145,11 @@ Try implementing this solution in your own presentations today!
 - **Temporary License:** [Request Here](https://purchase.aspose.com/temporary-license/)
 
 Embark on your journey with Aspose.Slides for .NET today, and elevate your animation skills to the next level!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Clone PowerPoint Slides with Aspose.Slides .NET: A Comprehensive Guide for Slide Management
 
@@ -162,7 +164,11 @@ Cloning slides with Aspose.Slides for .NET is a powerful technique to enhance yo
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 Take advantage of these resources to further explore Aspose.Slides and enhance your presentations today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

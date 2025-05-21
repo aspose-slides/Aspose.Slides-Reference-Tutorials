@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Implement Aspose.Slides Python: Create External Workbook Charts in PowerPoint
 
@@ -189,7 +191,11 @@ Ready to try this solution yourself? Dive into the code and start creating impac
 
 5. **How do I obtain a temporary license for full-feature access?**
    - Visit [Aspose’s temporary license page](https://purchase.aspose.com/temporary-license/) to request one, providing additional time to evaluate the product's capabilities.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

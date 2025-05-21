@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Secure Aspose.Slides Presentations with Write Protection Using Java
 
@@ -173,7 +175,11 @@ A5: Ensure the directory exists and that you have write permissions. Also, check
 - **Purchase License**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)
 - **Free Trial**: [Aspose.Slides Free Trials](https://releases.aspose.com/slides/java/)
 - **Temporary License**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

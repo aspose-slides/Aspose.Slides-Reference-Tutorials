@@ -8,7 +8,9 @@ url: /net/slide-comments-manipulation/access-slide-comments/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Access Slide Comments using Aspose.Slides
@@ -122,6 +124,7 @@ Yes, you can purchase a license for Aspose.Slides for .NET from [this link](http
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

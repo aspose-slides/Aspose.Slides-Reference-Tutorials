@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Remove a Slide by Index in PowerPoint Using Aspose.Slides for .NET: A Step-by-Step Guide
 
@@ -158,7 +160,11 @@ We encourage you to put these skills into practice and explore more about what A
 - [Free Trial Access](https://releases.aspose.com/slides/net/)
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

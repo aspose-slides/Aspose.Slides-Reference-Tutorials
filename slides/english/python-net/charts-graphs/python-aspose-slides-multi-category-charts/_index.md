@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Multi-Category Clustered Column Charts in Python with Aspose.Slides
 
@@ -202,7 +204,11 @@ A5: Performance may vary based on system resources; test with your specific data
 - **Support**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Embark on your journey to creating compelling presentations with Aspose.Slides and Python today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

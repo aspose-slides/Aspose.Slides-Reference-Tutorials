@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create and Customize PowerPoint Tables Using Aspose.Slides for .NET
 
@@ -129,7 +131,11 @@ Finally, save your presentation to a file on disk. This step ensures all changes
 ```csharp
 // Save the presentation with specified file name and format.
 pres.Save("StandardTables_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

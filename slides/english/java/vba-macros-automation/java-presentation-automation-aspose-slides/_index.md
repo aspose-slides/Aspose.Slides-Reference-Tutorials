@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Java Presentation Automation with Aspose.Slides: Adding and Formatting Shapes
 
@@ -218,7 +220,11 @@ Ready to try it out? Implement this solution in your next project and see how mu
 
 4. **Is there a limit on how many slides I can create with this library?**
    - While practical limits depend on your system resources, Aspose.Slides is designed to handle large presentations efficiently.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

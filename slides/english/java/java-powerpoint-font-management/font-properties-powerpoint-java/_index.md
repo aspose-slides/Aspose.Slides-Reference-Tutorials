@@ -8,7 +8,9 @@ url: /java/java-powerpoint-font-management/font-properties-powerpoint-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Font Properties in PowerPoint with Java
@@ -91,6 +93,7 @@ You can visit the Aspose.Slides forum [here](https://forum.aspose.com/c/slides/1
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

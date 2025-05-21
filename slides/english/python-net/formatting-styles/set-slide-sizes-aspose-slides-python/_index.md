@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set Slide Sizes Using Aspose.Slides for Python
 
@@ -146,6 +148,9 @@ This tutorial covered setting slide sizes in PowerPoint using Aspose.Slides for 
 Explore these resources to further enhance your presentation automation skills with Aspose.Slides for Python!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

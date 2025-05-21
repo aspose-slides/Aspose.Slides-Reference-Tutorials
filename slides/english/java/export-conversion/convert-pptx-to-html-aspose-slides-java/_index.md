@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Convert PPTX to HTML Using Aspose.Slides for Java
 
@@ -177,6 +179,9 @@ You've now learned how to convert PPTX files into HTML using Aspose.Slides for J
 By following this guide, you're equipped to implement Aspose.Slides for Java in your projects, transforming presentations into versatile HTML documents. Explore further by integrating with other systems or customizing the conversion process to fit specific needs.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

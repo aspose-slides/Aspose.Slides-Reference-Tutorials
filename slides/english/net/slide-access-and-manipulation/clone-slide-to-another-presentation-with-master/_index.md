@@ -8,7 +8,9 @@ url: /net/slide-access-and-manipulation/clone-slide-to-another-presentation-with
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Copy Slide to New Presentation with Master Slide
@@ -128,6 +130,7 @@ You can join the Aspose community and seek support at [Aspose.Slides for .NET Su
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

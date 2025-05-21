@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Configure Slide Rendering Options in Python with Aspose.Slides
 
@@ -171,6 +173,9 @@ Consider exploring other features of Aspose.Slides, such as slide transitions or
 - **Temporary License**: [Get a Temporary License](https://purchase.aspose.com/temporary-license)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

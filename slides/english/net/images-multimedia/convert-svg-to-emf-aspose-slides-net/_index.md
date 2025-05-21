@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Step-by-Step Guide: Convert SVG to EMF Using Aspose.Slides for .NET
 
@@ -176,7 +178,11 @@ You've now learned how to convert SVG files into EMF format using Aspose.Slides 
 - [Purchase License](https://purchase.aspose.com/buy)
 - [Free Trial](https://releases.aspose.com/slides/net/)
 - [Temporary License](https://purchase.aspose.com/temporary-license)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

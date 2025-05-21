@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Load and Use Custom Fonts in .NET Presentations with Aspose.Slides
 
@@ -181,7 +183,11 @@ A: Optimize by reducing the number of loaded fonts and clearing unused ones from
 - **Free Trial:** [Aspose Free Trials](https://releases.aspose.com/slides/net/)
 - **Temporary License:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support:** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

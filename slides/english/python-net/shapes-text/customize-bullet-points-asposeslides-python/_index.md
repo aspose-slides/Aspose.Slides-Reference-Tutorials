@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Customize Bullet Points in Presentations Using Aspose.Slides for Python
 
@@ -211,7 +213,11 @@ A4: Verify your Python environment setup, ensure all dependencies are installed,
 
 **Q5: Are there any limitations using Aspose.Slides in a free trial?**
 A5: The free trial may limit certain features; consider obtaining a temporary license for full functionality.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

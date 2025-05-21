@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master File Management and Shape Manipulation in Java with Aspose.Slides
 
@@ -215,7 +217,11 @@ Use `File.exists()` to check if a directory exists, then use `mkdirs()` to creat
 
 **Q3: What happens if I forget to dispose of a Presentation object in Aspose.Slides?**
 Forgetting to dispose can lead to memory leaks and inefficient resource usage, affecting application performance.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

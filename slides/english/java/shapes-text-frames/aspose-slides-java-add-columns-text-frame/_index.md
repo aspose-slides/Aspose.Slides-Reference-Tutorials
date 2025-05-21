@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Columns in Text Frames Using Aspose.Slides for Java: A Step-by-Step Guide
 
@@ -181,6 +183,9 @@ Ready to implement? Dive in, experiment, and see how enhanced text layout and ef
 With this guide, you’re all set to enhance your PowerPoint presentations using Aspose.Slides for Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Implementing Write Protection on PowerPoint Presentations Using Aspose.Slides .NET
 
@@ -167,7 +169,11 @@ Ready to start securing your PowerPoint files? Implement the solution today!
 - [Free Trial Download](https://releases.aspose.com/slides/net/)
 - [Temporary License Acquisition](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

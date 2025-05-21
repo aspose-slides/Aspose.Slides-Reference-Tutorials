@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Modify Chart Category Axis in PowerPoint Using Aspose.Slides .NET
 
@@ -113,7 +115,11 @@ Finally, save your presentation with the modified chart to a new file.
 ```csharp
     // Save the updated presentation
     presentation.Save(dataDir + "/ChangeChartCategoryAxis_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

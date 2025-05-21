@@ -8,7 +8,9 @@ url: /java/java-powerpoint-smartart-manipulation/create-smartart-shape-powerpoin
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create SmartArt Shape in PowerPoint using Java
@@ -73,6 +75,7 @@ Create dynamic PowerPoint presentations using Java with Aspose.Slides. Learn to 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

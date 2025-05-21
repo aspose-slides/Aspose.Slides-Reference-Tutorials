@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PowerPoint to PDF with Handout Layout using Aspose.Slides Java
 
@@ -168,6 +170,9 @@ A: The layout options allow configurations like four or nine slides per page. Ch
 This tutorial equips you with the knowledge to implement sophisticated presentation conversion features using Aspose.Slides for Java. Start experimenting and integrating these capabilities into your projects today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Font Customization in Chart Data Tables Using Aspose.Slides for Python
 
@@ -185,7 +187,11 @@ By following this tutorial, you've learned how to customize font properties for 
 - **Free Trial:** [Aspose Free Trials](https://releases.aspose.com/slides/python-net/)
 - **Temporary License:** [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support:** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

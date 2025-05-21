@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Access SmartArt Child Nodes with Aspose.Slides for Java: A Step-by-Step Guide
 
@@ -181,6 +183,9 @@ A5: Yes, it supports a wide range of PowerPoint formats from different versions,
 - **Download**: [Latest Releases](https://releases.aspose.com/slides/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

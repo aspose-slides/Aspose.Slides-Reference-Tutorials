@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-font-customization/set-custom-bullets-number-jav
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Custom Bullets Number in Java PowerPoint
@@ -92,6 +94,7 @@ You can purchase Aspose.Slides from [here](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

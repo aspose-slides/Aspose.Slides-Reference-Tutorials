@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Embed Videos in PowerPoint Slides with Java & Aspose.Slides: A Comprehensive Guide
 
@@ -165,7 +167,11 @@ Explore more features of Aspose.Slides by visiting the [Aspose documentation](ht
 - **Free Trial:** [Start Free Trial](https://releases.aspose.com/slides/java/)
 - **Temporary License:** [Get Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum:** [Aspose Support](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

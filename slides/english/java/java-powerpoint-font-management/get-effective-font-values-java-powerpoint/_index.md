@@ -8,7 +8,9 @@ url: /java/java-powerpoint-font-management/get-effective-font-values-java-powerp
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Effective Font Values in Java PowerPoint
@@ -72,6 +74,7 @@ Aspose.Slides offers extensive capabilities for font property retrieval, coverin
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

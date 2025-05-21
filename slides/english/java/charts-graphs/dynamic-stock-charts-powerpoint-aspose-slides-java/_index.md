@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Creating Dynamic Stock Charts in PowerPoint with Aspose.Slides for Java
 
@@ -293,7 +295,11 @@ Congratulations! You've successfully created and customized dynamic stock charts
 - Aspose.Slides for Java Documentation: Explore detailed guides on using various features of Aspose.Slides.
 - PowerPoint Charting Tools Overview: Understand different charting tools available in Microsoft PowerPoint.
 - Data Visualization Best Practices: Learn how to effectively present data through visual means.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

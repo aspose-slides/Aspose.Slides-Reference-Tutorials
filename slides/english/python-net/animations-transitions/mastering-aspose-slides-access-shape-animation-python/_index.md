@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Accessing Shape Animation Effects in Python with Aspose.Slides
 
@@ -158,7 +160,11 @@ For more information and to explore further:
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 By following this tutorial, you should now have a solid foundation for working with presentation animations using Aspose.Slides for Python. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

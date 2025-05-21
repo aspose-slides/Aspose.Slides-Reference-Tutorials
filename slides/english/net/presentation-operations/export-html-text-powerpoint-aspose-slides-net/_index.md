@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Export HTML Text from PowerPoint Slides with Aspose.Slides .NET
 
@@ -173,6 +175,9 @@ A: Check the text formatting and styling in your original presentation. Some sty
 Explore these resources to enhance your understanding and capabilities with Aspose.Slides. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

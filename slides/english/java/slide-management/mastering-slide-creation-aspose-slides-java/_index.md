@@ -14,7 +14,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Slide Creation with Aspose.Slides for Java
 
@@ -236,7 +238,11 @@ You've now mastered the basics of creating and managing presentations with Aspos
 - "Aspose.Slides for Java"
 - "automate slide creation"
 - "presentation management in Java"
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

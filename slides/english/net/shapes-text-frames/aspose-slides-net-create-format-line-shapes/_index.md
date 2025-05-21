@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Format Line Shapes in Aspose.Slides .NET: A Step-by-Step Guide
 
@@ -192,7 +194,11 @@ Next steps could include exploring more advanced features of Aspose.Slides, such
 
 3. **How do I manage large presentations efficiently?**
    - Use efficient data structures, batch processing, and dispose of objects after use to optimize performance.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

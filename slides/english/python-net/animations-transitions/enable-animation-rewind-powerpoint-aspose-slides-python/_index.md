@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Enable Animation Rewind in PowerPoint with Aspose.Slides for Python
 
@@ -114,7 +116,11 @@ effect.timing.rewind = True
 Save your changes to a new file.
 ```python
 # Save the modified presentation\presentation.save(YOUR_OUTPUT_DIRECTORY + "AnimationRewind-out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

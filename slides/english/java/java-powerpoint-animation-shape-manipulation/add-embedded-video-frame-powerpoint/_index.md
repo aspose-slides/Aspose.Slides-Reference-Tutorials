@@ -8,7 +8,9 @@ url: /java/java-powerpoint-animation-shape-manipulation/add-embedded-video-frame
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Embedded Video Frame in PowerPoint
@@ -103,6 +105,7 @@ Yes, you can customize the size and position by setting the appropriate paramete
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

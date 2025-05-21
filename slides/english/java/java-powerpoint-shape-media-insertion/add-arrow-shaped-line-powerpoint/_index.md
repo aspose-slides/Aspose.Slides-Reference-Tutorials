@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-media-insertion/add-arrow-shaped-line-powerpoin
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Arrow Shaped Line in PowerPoint
@@ -86,6 +88,7 @@ Support: [Aspose.Slides for Java Support Forum](https://forum.aspose.com/c/slide
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

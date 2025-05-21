@@ -8,7 +8,9 @@ url: /java/presentation-conversion/convert-notes-slide-view-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Notes Slide View in Java Slides
@@ -112,6 +114,7 @@ You can find a wealth of code examples and tutorials in the [Aspose.Slides for J
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

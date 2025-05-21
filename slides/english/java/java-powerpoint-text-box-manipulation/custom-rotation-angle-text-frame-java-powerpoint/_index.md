@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-box-manipulation/custom-rotation-angle-text-fram
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Custom Rotation Angle for Text Frame in Java PowerPoint
@@ -74,6 +76,7 @@ For technical support and community interaction, visit the [Aspose.Slides forum]
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

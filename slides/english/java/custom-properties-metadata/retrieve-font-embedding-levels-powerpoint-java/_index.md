@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Font Embedding Levels in PowerPoint Using Java
 ## Introduction
@@ -136,7 +138,11 @@ When working with Aspose.Slides for Java, consider these tips to optimize perfor
 ## Conclusion
 In this tutorial, you've learned how to retrieve the font embedding level in PowerPoint using Aspose.Slides for Java, among other font management features. By understanding these techniques, you can ensure your presentations look consistent across different platforms and comply with licensing requirements.
 For further exploration, consider diving into more advanced features of Aspose.Slides or experimenting with integrating this functionality into larger document processing workflows.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

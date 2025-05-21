@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides Python: Extract Layout Slide Formats from PowerPoint
 
@@ -151,7 +153,11 @@ Explore further by integrating Aspose.Slides with other systems or enhancing you
 - **Temporary License:** [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)
 
 By following this guide, you'll be well-equipped to enhance your PowerPoint presentations through programmatic access and manipulation of layout slide formats.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

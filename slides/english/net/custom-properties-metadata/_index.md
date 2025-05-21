@@ -4,8 +4,11 @@ description: "Learn to work with presentation properties, document metadata, and
 weight: 22
 url: "/net/custom-properties-metadata/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Custom Properties and Metadata Tutorials for Aspose.Slides .NET
 
@@ -56,7 +59,11 @@ Learn how to programmatically update PowerPoint presentation properties like aut
 - [Download Aspose.Slides for Net](https://releases.aspose.com/slides/net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

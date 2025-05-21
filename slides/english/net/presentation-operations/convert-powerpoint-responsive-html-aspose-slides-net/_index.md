@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PowerPoint to Responsive HTML with Aspose.Slides .NET: A Step-by-Step Guide
 
@@ -115,7 +117,11 @@ This step is crucial for ensuring your HTML output looks great across various de
 
 Finally, save your presentation in HTML format using the specified options:
 ```csharp\presentation.Save(outputDir + "/ConvertPresentationToResponsiveHTML_out.html\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

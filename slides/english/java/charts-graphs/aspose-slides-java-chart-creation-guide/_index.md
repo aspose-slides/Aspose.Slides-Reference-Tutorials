@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Chart Creation in Java with Aspose.Slides
 
@@ -218,7 +220,11 @@ In this tutorial, you learned how to set up Aspose.Slides for Java and create a 
 **Next Steps:**
 - Experiment with different chart types available in Aspose.Slides for Java.
 - Explore additional customization options to enhance your presentations.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

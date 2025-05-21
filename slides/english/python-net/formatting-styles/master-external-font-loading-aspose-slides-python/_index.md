@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Loading External Fonts in Python Presentations with Aspose.Slides
 
@@ -144,7 +146,11 @@ As next steps, consider exploring other advanced features of Aspose.Slides or in
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 By following this guide, you are equipped to enhance your presentations with custom fonts, leveraging the full potential of Aspose.Slides for Python. Give it a try and see how it transforms your projects!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

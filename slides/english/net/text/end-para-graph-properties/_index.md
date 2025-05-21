@@ -6,8 +6,11 @@ description: Learn how to programmatically create PowerPoint presentations with 
 keywords: [Aspose.Slides, PowerPoint, .NET, C#, presentation, text formatting, paragraph formatting, PPTX, shapes, rectangle, custom font]
 url: /net/text/end-para-graph-properties/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating PowerPoint Presentations with Formatted Text
@@ -17,9 +20,11 @@ Aspose.Slides for .NET is a powerful API that allows developers to create, manip
 The code creates a new presentation, adds a rectangular shape to the first slide, and then adds multiple paragraphs with different text formatting options. It shows how to set font properties like size and family for specific portions of text.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/text/end-para-graph-properties" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -52,7 +57,9 @@ The code creates a new presentation, adds a rectangular shape to the first slide
 - [Download Free Trial](https://releases.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

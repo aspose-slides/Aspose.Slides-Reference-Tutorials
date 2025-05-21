@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-font-customization/create-wordart-powerpoint-jav
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create WordArt in PowerPoint using Java
@@ -95,6 +97,7 @@ You can get assistance from the community and experts on the Aspose forums [here
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

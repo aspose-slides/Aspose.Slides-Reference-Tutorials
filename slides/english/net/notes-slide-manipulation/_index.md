@@ -8,7 +8,9 @@ url: /net/notes-slide-manipulation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Notes Slide Manipulation
@@ -45,9 +47,11 @@ Learn how to customize header and footer in notes slides using Aspose.Slides for
 Learn how to remove notes from a specific slide in PowerPoint presentations using Aspose.Slides for .NET. Follow our step-by-step guide with complete source code to seamlessly manipulate your slides programmatically.
 ### [Remove Notes from All Slides](./remove-notes-from-all-slides/)
 Learn how to remove notes from all slides in your PowerPoint presentations using Aspose.Slides for .NET. Follow this step-by-step guide with complete source code examples to easily achieve your goal.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

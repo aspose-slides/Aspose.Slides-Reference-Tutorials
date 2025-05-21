@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create and Customize Pie Charts in PowerPoint with Aspose.Slides for Java
 
@@ -192,7 +194,11 @@ A3: Optimize data handling and consider memory management techniques to efficien
 
 **Q4: Is it possible to export pie charts to other formats?**
 A4: Yes, Aspose.Slides supports exporting charts to various image and document formats for broader compatibility.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

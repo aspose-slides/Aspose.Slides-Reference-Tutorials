@@ -8,7 +8,9 @@ url: /java/java-powerpoint-slide-cloning-techniques/clone-slide-another-presenta
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Clone Slide to Another Presentation with Master
@@ -93,6 +95,7 @@ Visit the [Aspose.Slides for Java documentation](https://reference.aspose.com/sl
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

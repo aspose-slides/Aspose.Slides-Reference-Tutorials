@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-paragraph-management/add-paragraph-bullets-power
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Paragraph Bullets in PowerPoint using Java
@@ -99,6 +101,7 @@ Visit [Aspose.Slides for Java Documentation](https://reference.aspose.com/slides
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

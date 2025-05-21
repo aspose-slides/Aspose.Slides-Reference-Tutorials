@@ -1,30 +1,32 @@
 ---
-title: تحويل شريحة فردية في شرائح جافا
-linktitle: تحويل شريحة فردية في شرائح جافا
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية تحويل شرائح PowerPoint الفردية إلى HTML خطوة بخطوة باستخدام أمثلة التعليمات البرمجية باستخدام Aspose.Slides for Java.
-weight: 12
-url: /ar/java/presentation-conversion/convert-individual-slide-java-slides/
+"description": "تعرف على كيفية تحويل شرائح PowerPoint الفردية إلى HTML خطوة بخطوة باستخدام أمثلة التعليمات البرمجية باستخدام Aspose.Slides لـ Java."
+"linktitle": "تحويل شريحة فردية في شرائح Java"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "تحويل شريحة فردية في شرائح Java"
+"url": "/ar/java/presentation-conversion/convert-individual-slide-java-slides/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحويل شريحة فردية في شرائح جافا
+# تحويل شريحة فردية في شرائح Java
 
 
-## مقدمة لتحويل الشرائح الفردية في شرائح جافا
+## مقدمة لتحويل الشريحة الفردية في شرائح Java
 
-في هذا البرنامج التعليمي، سنتعرف على عملية تحويل الشرائح الفردية من عرض PowerPoint التقديمي إلى HTML باستخدام Aspose.Slides for Java. سيزودك هذا الدليل المفصّل خطوة بخطوة بكود المصدر وشروحات لمساعدتك في تحقيق هذه المهمة.
+في هذا البرنامج التعليمي، سنشرح عملية تحويل شرائح فردية من عرض تقديمي في PowerPoint إلى HTML باستخدام Aspose.Slides لجافا. سيوفر لك هذا الدليل خطوة بخطوة الكود المصدري والشروحات اللازمة لإنجاز هذه المهمة.
 
 ## المتطلبات الأساسية
 
 قبل أن نبدأ، تأكد من أن لديك ما يلي:
 
 - تم تثبيت Aspose.Slides لمكتبة Java.
-- ملف عرض تقديمي لـ PowerPoint ‏(`Individual-Slide.pptx`) الذي تريد تحويله.
-- إعداد بيئة تطوير جافا.
+- ملف عرض تقديمي PowerPoint (`Individual-Slide.pptx`) التي تريد تحويلها.
+- تم إعداد بيئة تطوير Java.
 
 ## الخطوة 1: إعداد المشروع
 
@@ -33,7 +35,7 @@ url: /ar/java/presentation-conversion/convert-individual-slide-java-slides/
 
 ## الخطوة 2: استيراد الفئات الضرورية
 
-في فئة Java الخاصة بك، قم باستيراد الفئات المطلوبة وقم بإعداد التكوين الأولي.
+في فئة Java الخاصة بك، قم باستيراد الفئات المطلوبة وإعداد التكوين الأولي.
 
 ```java
 import com.aspose.slides.HtmlOptions;
@@ -50,7 +52,7 @@ import com.aspose.slides.IShape;
 
 ## الخطوة 3: تحديد طريقة التحويل الرئيسية
 
- إنشاء طريقة لإجراء تحويل الشرائح الفردية. تأكد من استبدال`"Your Document Directory"` بالمسار الفعلي إلى دليل المستندات الخاص بك.
+أنشئ طريقةً لتحويل الشرائح الفردية. تأكد من استبدال `"Your Document Directory"` مع المسار الفعلي إلى دليل المستند الخاص بك.
 
 ```java
 public static void convertIndividualSlides() {
@@ -74,7 +76,7 @@ public static void convertIndividualSlides() {
 
 ## الخطوة 4: تنفيذ CustomFormattingController
 
- إنشاء`CustomFormattingController` فئة للتعامل مع التنسيق المخصص أثناء التحويل.
+إنشاء `CustomFormattingController` فئة للتعامل مع التنسيق المخصص أثناء التحويل.
 
 ```java
 public static class CustomFormattingController implements IHtmlFormattingController {
@@ -105,7 +107,7 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 
 ## الخطوة 5: تنفيذ التحويل
 
- وأخيرا اتصل ب`convertIndividualSlides` طريقة تنفيذ عملية التحويل.
+وأخيرا، اتصل بـ `convertIndividualSlides` طريقة لتنفيذ عملية التحويل.
 
 ```java
 public static void main(String[] args) {
@@ -113,7 +115,7 @@ public static void main(String[] args) {
 }
 ```
 
-## كود المصدر الكامل لتحويل الشرائح الفردية في شرائح جافا
+## كود المصدر الكامل لتحويل شريحة فردية إلى شرائح Java
 
 ```java
 	String dataDir = "Your Document Directory";
@@ -124,7 +126,7 @@ public static void main(String[] args) {
 		htmlOptions.setHtmlFormatter(HtmlFormatter.createCustomFormatter(new CustomFormattingController()));
 		INotesCommentsLayoutingOptions notesOptions = htmlOptions.getNotesCommentsLayouting();
 		notesOptions.setNotesPosition(NotesPositions.BottomFull);
-		// حفظ الملف
+		// حفظ الملف              
 		for (int i = 0; i < presentation.getSlides().size(); i++)
 			presentation.save(dataDir + "Individual Slide" + i + 1 + "_out.html", new int[]{i + 1}, SaveFormat.Html, htmlOptions);
 	}
@@ -161,24 +163,26 @@ public static class CustomFormattingController implements IHtmlFormattingControl
 
 ## خاتمة
 
-لقد نجحت في تحويل شرائح فردية من عرض تقديمي لـ PowerPoint إلى HTML باستخدام Aspose.Slides لـ Java. زودك هذا البرنامج التعليمي بالكود والخطوات اللازمة لتحقيق هذه المهمة. لا تتردد في تخصيص الإخراج والتنسيق حسب الحاجة لمتطلباتك المحددة.
+لقد نجحت في تحويل شرائح فردية من عرض تقديمي في PowerPoint إلى HTML باستخدام Aspose.Slides لجافا. زودك هذا البرنامج التعليمي بالرمز والخطوات اللازمة لتحقيق هذه المهمة. لا تتردد في تخصيص الإخراج والتنسيق حسب احتياجاتك الخاصة.
 
 ## الأسئلة الشائعة
 
-### كيف يمكنني تخصيص مخرجات HTML بشكل أكبر؟
+### كيف يمكنني تخصيص إخراج HTML بشكل أكبر؟
 
- يمكنك تخصيص مخرجات HTML عن طريق تعديل ملف`CustomFormattingController` فصل. أضبط ال`writeSlideStart` و`writeSlideEnd` طرق لتغيير بنية HTML للشرائح وتصميمها.
+يمكنك تخصيص إخراج HTML عن طريق تعديل `CustomFormattingController` الصف. اضبط `writeSlideStart` و `writeSlideEnd` طرق لتغيير هيكل وتنسيق الشريحة HTML.
 
-### هل يمكنني تحويل عروض PowerPoint التقديمية المتعددة دفعة واحدة؟
+### هل يمكنني تحويل عروض PowerPoint متعددة دفعة واحدة؟
 
- نعم، يمكنك تعديل التعليمات البرمجية للتكرار عبر ملفات العروض التقديمية المتعددة وتحويلها بشكل فردي عن طريق استدعاء ملف`convertIndividualSlides` طريقة لكل عرض تقديمي.
+نعم، يمكنك تعديل الكود للتنقل عبر ملفات العرض التقديمي المتعددة وتحويلها بشكل فردي عن طريق استدعاء `convertIndividualSlides` طريقة لكل عرض.
 
-### كيف أتعامل مع التنسيق الإضافي للأشكال والنص داخل الشرائح؟
+### كيف يمكنني التعامل مع التنسيق الإضافي للأشكال والنصوص داخل الشرائح؟
 
- يمكنك تمديد`CustomFormattingController` فئة للتعامل مع التنسيق الخاص بالشكل من خلال تنفيذ`writeShapeStart` و`writeShapeEnd` الأساليب وتطبيق منطق التنسيق المخصص داخلها.
+يمكنك تمديد `CustomFormattingController` فئة للتعامل مع التنسيق الخاص بالشكل من خلال تنفيذ `writeShapeStart` و `writeShapeEnd` الأساليب وتطبيق منطق التنسيق المخصص داخلها.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

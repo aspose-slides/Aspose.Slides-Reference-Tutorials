@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Table and Text Formatting in PowerPoint with Aspose.Slides for Python
 
@@ -243,7 +245,11 @@ Next steps include experimenting with different table layouts, shape styles, and
 
 2. **Can I format text within shapes?**
    - Yes, you can add and style text in various shapes to emphasize important points.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

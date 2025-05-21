@@ -8,7 +8,9 @@ url: /net/shape-effects-and-manipulation-in-slides/cloning-shapes/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Cloning Shapes in Presentation Slides with Aspose.Slides
@@ -107,6 +109,7 @@ Unlocking the power of cloning shapes in presentation slides with Aspose.Slides 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

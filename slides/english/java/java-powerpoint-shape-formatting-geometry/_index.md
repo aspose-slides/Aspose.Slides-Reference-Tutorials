@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-formatting-geometry/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java PowerPoint Shape Formatting and Geometry
@@ -80,9 +82,11 @@ Learn how to retrieve light rig effective data from PowerPoint presentations usi
 Learn how to retrieve shape bevel effective data in PowerPoint using Aspose.Slides for Java. Enhance your presentations with stunning visual effects.
 ### [Hide Shapes in PowerPoint](./hide-shapes-powerpoint/)
 Learn how to hide shapes in PowerPoint using Aspose.Slides for Java with our detailed step-by-step guide. Perfect for Java developers of all levels.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automating Text Highlighting in PowerPoint with Aspose.Slides & Regex
 
@@ -162,7 +164,11 @@ Ready to dive deeper? Explore additional features of Aspose.Slides or try implem
 - [Get a Free Trial](https://releases.aspose.com/slides/net/)
 - [Obtain a Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

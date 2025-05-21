@@ -8,7 +8,9 @@ url: /net/slide-animation-control/rewind-animation-on-slide/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mastering Rewind Animations in Presentations with Aspose.Slides
@@ -90,6 +92,7 @@ Yes, you can acquire a temporary license from [here](https://purchase.aspose.com
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

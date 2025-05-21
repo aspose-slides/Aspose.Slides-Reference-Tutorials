@@ -8,7 +8,9 @@ url: /java/java-powerpoint-smartart-manipulation/add-assistant-node-smartart-jav
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Assistant Node to SmartArt in Java PowerPoint
@@ -80,6 +82,7 @@ SmartArt in PowerPoint supports a large number of nodes, but it's recommended to
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

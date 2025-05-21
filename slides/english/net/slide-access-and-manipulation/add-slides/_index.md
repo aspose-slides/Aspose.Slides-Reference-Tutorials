@@ -8,7 +8,9 @@ url: /net/slide-access-and-manipulation/add-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Insert Additional Slides into Presentation
@@ -117,6 +119,7 @@ For detailed documentation and examples, refer to the [Aspose.Slides for .NET do
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Font Management in Presentations with Aspose.Slides .NET
 
@@ -168,7 +170,11 @@ Ready to start implementing these techniques? Jump into the [documentation](http
 - **Free Trial:** [Try Free](https://releases.aspose.com/slides/net/)
 - **Temporary License:** [Get Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum:** [Aspose Community Support](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

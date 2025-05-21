@@ -8,7 +8,9 @@ url: /java/java-powerpoint-animation-shape-manipulation/change-ole-object-data-p
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Change OLE Object Data in PowerPoint
@@ -110,6 +112,7 @@ You can find detailed documentation on the [Aspose.Slides documentation page](ht
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

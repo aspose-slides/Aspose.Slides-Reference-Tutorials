@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Access and Manipulate SmartArt Shapes in a Presentation Using Aspose.Slides for Java
 ## Introduction
@@ -143,7 +145,11 @@ Next steps could include exploring more features offered by Aspose.Slides or int
 - **Free Trial:** https://releases.aspose.com/slides/java/
 - **Temporary License:** https://purchase.aspose.com/temporary-license/
 - **Support:** https://forum.aspose.com/c/slides/11
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

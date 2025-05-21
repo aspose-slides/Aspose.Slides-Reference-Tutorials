@@ -4,8 +4,11 @@ description: "Step-by-step tutorials for automating PowerPoint tasks, batch proc
 weight: 22
 url: "/java/batch-processing/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Batch Processing Tutorials for Aspose.Slides Java
 
@@ -41,7 +44,11 @@ Learn to automate PowerPoint slide creation and modification using Aspose.Slides
 - [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

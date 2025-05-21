@@ -14,7 +14,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Customize Legend Font in .NET Charts Using Aspose.Slides
 
@@ -182,7 +184,11 @@ Absolutely! The library integrates seamlessly into web applications as well.
 - **Support Forum**: [Aspose Community Support](https://forum.aspose.com/c/slides/11)
 
 Embark on your journey to create more engaging presentations by customizing chart legends today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

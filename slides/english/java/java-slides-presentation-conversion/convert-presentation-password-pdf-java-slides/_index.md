@@ -8,7 +8,9 @@ url: /java/presentation-conversion/convert-presentation-password-pdf-java-slides
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Presentation to Password-Protected PDF in Java Slides
@@ -156,6 +158,7 @@ Yes, Aspose.Slides for Java is suitable for commercial use. It offers a range of
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

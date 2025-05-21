@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Generate PowerPoint Slide Thumbnails Using Aspose.Slides for Python
 
@@ -150,6 +152,9 @@ For further exploration and support:
 Embrace the power of Aspose.Slides for Python to unlock new potentials in your presentation projects!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

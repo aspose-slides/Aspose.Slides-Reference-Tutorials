@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create Pythagorean Theorem Equations in PowerPoint Using Aspose.Slides for Python
 
@@ -110,7 +112,7 @@ math_block = mathtext.MathematicalText("c").set_superscript("2") \
     .join(mathtext.MathematicalText("b").set_superscript("2"))
 ```
 
-This code builds the expression \(c^2 = a^2 + b^2\) using `MathematicalText` objects to represent each component.
+This code builds the expression (c^2 = a^2 + b^2) using `MathematicalText` objects to represent each component.
 
 ### Step 4: Save the Presentation
 
@@ -177,7 +179,11 @@ A: The free trial may have watermarks or file size restrictions; refer to the li
 - **Free Trial:** [Download Free Trial](https://releases.aspose.com/slides/python-net/)
 - **Temporary License:** [Get Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support:** [Aspose Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

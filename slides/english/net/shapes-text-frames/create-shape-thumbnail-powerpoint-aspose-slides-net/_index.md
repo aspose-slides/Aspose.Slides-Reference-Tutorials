@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Shape Thumbnails in PowerPoint Using Aspose.Slides for .NET
 
@@ -152,6 +154,9 @@ A: Optimize image sizes and release resources promptly to maintain performance.
 Explore these resources to deepen your understanding and capabilities with Aspose.Slides. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

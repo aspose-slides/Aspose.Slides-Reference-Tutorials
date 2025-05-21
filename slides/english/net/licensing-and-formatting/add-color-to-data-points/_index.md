@@ -8,7 +8,9 @@ url: /net/licensing-and-formatting/add-color-to-data-points/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chart Colorization with Aspose.Slides for .NET
@@ -125,6 +127,7 @@ Adding color to data points in a chart is a powerful way to make your presentati
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

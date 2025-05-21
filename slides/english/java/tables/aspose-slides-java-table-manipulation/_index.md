@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Table Manipulation in Java Presentations with Aspose.Slides for Java
 ## How to Create and Manipulate Tables in Presentations Using Aspose.Slides for Java
@@ -217,7 +219,11 @@ try {
 
 ### Conclusion
 You've now learned how to set up Aspose.Slides for Java, create and manipulate tables within a PowerPoint slide, customize cell text, align text vertically, and save your presentation. By mastering these skills, you can enhance your presentations with dynamic, data-rich tables effortlessly.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

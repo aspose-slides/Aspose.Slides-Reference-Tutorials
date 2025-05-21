@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-font-customization/add-hyperlink-text-box-powerp
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Hyperlink to Text Box in PowerPoint using Java
@@ -86,6 +88,7 @@ Aspose.Slides integrates well with various Java libraries for comprehensive Powe
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

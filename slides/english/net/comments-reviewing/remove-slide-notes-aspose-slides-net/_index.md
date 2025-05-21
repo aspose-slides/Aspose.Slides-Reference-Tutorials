@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Remove Notes from a Specific Slide Using Aspose.Slides for .NET
 
@@ -143,6 +145,9 @@ A: Aspose.Slides doesn’t offer direct preview functionality. Consider generati
 Embark on your journey with Aspose.Slides for .NET today and transform how you manage PowerPoint presentations!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

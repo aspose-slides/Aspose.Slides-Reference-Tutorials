@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create Charts in PowerPoint Slides Using Aspose.Slides for Python
 ## Introduction
@@ -123,7 +125,11 @@ To further explore what Aspose.Slides can do for you, consider diving into its c
 - **Free Trial**: [Start Your Free Trial](https://releases.aspose.com/slides/python-net/)
 - **Temporary License**: [Get Temporary Access](https://purchase.aspose.com/temporary-license/)
 - **Support Forum**: [Join the Community Support](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create a Pie of Pie Chart in Java with Aspose.Slides: A Comprehensive Guide
 
@@ -140,7 +142,11 @@ These configurations allow you to customize how your chart splits and displays s
 eString outputDir = "YOUR_OUTPUT_DIRECTORY";
 
 // Save the presentation\epresentation.save(outputDir + "/SecondPlotOptionsforCharts_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

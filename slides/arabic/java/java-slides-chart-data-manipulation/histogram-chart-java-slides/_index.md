@@ -1,26 +1,28 @@
 ---
-title: الرسم البياني في شرائح جافا
-linktitle: الرسم البياني في شرائح جافا
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية إنشاء مخططات الرسم البياني في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع الكود المصدري لتصور البيانات.
-weight: 19
-url: /ar/java/chart-data-manipulation/histogram-chart-java-slides/
+"description": "تعرّف على كيفية إنشاء مخططات الهيستوغرام في عروض PowerPoint التقديمية باستخدام Aspose.Slides لجافا. دليل خطوة بخطوة مع الكود المصدري لتصور البيانات."
+"linktitle": "مخطط الهيستوغرام في شرائح جافا"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "مخطط الهيستوغرام في شرائح جافا"
+"url": "/ar/java/chart-data-manipulation/histogram-chart-java-slides/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# الرسم البياني في شرائح جافا
+# مخطط الهيستوغرام في شرائح جافا
 
 
-## مقدمة إلى الرسم البياني في شرائح Java باستخدام Aspose.Slides
+## مقدمة إلى مخطط الهيستوغرام في شرائح Java باستخدام Aspose.Slides
 
-في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء مخطط مدرج تكراري في عرض تقديمي لـ PowerPoint باستخدام Aspose.Slides for Java API. يتم استخدام مخطط الرسم البياني لتمثيل توزيع البيانات على فترة زمنية مستمرة.
+في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء مخطط هيستوغرام في عرض تقديمي على PowerPoint باستخدام واجهة برمجة تطبيقات Aspose.Slides لجافا. يُستخدم مخطط الهيستوغرام لتمثيل توزيع البيانات على فترة زمنية متصلة.
 
 ## المتطلبات الأساسية
 
- قبل أن تبدأ، تأكد من تثبيت مكتبة Aspose.Slides for Java. يمكنك تنزيله من[موقع أسبوز](https://releases.aspose.com/slides/java/).
+قبل البدء، تأكد من تثبيت مكتبة Aspose.Slides لجافا. يمكنك تنزيلها من [موقع Aspose](https://releases.aspose.com/slides/java/).
 
 ## الخطوة 1: تهيئة مشروعك
 
@@ -32,18 +34,18 @@ url: /ar/java/chart-data-manipulation/histogram-chart-java-slides/
 import com.aspose.slides.*;
 ```
 
-## الخطوة 3: قم بتحميل عرض تقديمي موجود
+## الخطوة 3: تحميل عرض تقديمي موجود
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
- تأكد من استبدال`"Your Document Directory"` بالمسار الفعلي لمستند PowerPoint الخاص بك.
+تأكد من الاستبدال `"Your Document Directory"` مع المسار الفعلي إلى مستند PowerPoint الخاص بك.
 
-## الخطوة 4: إنشاء مخطط الرسم البياني
+## الخطوة 4: إنشاء مخطط الهيستوجرام
 
-الآن، لنقم بإنشاء مخطط مدرج تكراري على شريحة في العرض التقديمي.
+الآن، دعنا نقوم بإنشاء مخطط الهيستوجرام على شريحة في العرض التقديمي.
 
 ```java
 try {
@@ -61,19 +63,19 @@ try {
     series.getDataPoints().addDataPointForHistogramSeries(wb.getCell(0, "A5", -23));
     series.getDataPoints().addDataPointForHistogramSeries(wb.getCell(0, "A6", 16));
     
-    // قم بتعيين نوع تجميع المحور الأفقي على تلقائي
+    // تعيين نوع تجميع المحور الأفقي إلى تلقائي
     chart.getAxes().getHorizontalAxis().setAggregationType(AxisAggregationType.Automatic);
     
-    // احفظ العرض التقديمي
+    // حفظ العرض التقديمي
     pres.save(dataDir + "Histogram.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
- في هذا الكود، نقوم أولاً بمسح أي فئات وسلاسل موجودة من المخطط. ثم نضيف نقاط البيانات إلى السلسلة باستخدام`getDataPoints().addDataPointForHistogramSeries` طريقة. أخيرًا، قمنا بتعيين نوع تجميع المحور الأفقي على "تلقائي" وحفظ العرض التقديمي.
+في هذا الكود، نقوم أولًا بمسح أي فئات وسلاسل موجودة من الرسم البياني. ثم نضيف نقاط بيانات إلى السلسلة باستخدام `getDataPoints().addDataPointForHistogramSeries` أخيرًا، قمنا بتعيين نوع تجميع المحور الأفقي إلى "تلقائي" وحفظ العرض التقديمي.
 
-## أكمل كود المصدر لمخطط الرسم البياني في شرائح جافا
+## كود المصدر الكامل لمخطط الهيستوجرام في شرائح جافا
 
 ```java
 String dataDir = "Your Document Directory";
@@ -103,24 +105,26 @@ finally
 
 ## خاتمة
 
-في هذا البرنامج التعليمي، اكتشفنا كيفية إنشاء مخطط مدرج تكراري في عرض تقديمي لـ PowerPoint باستخدام Aspose.Slides for Java API. تعد مخططات المدرج التكراري أدوات قيمة لتصور توزيع البيانات على مدى فترة زمنية متواصلة، ويمكن أن تكون إضافة قوية لعروضك التقديمية، خاصة عند التعامل مع المحتوى الإحصائي أو التحليلي.
+في هذا البرنامج التعليمي، استكشفنا كيفية إنشاء مخطط هيستوغرام في عرض تقديمي على PowerPoint باستخدام واجهة برمجة تطبيقات Aspose.Slides لجافا. تُعد مخططات الهيستوغرام أدوات قيّمة لتصور توزيع البيانات على فترات زمنية متصلة، ويمكن أن تُشكل إضافة فعّالة لعروضك التقديمية، خاصةً عند التعامل مع محتوى إحصائي أو تحليلي.
 
 ## الأسئلة الشائعة
 
 ### كيف أقوم بتثبيت Aspose.Slides لـ Java؟
 
- يمكنك تنزيل مكتبة Aspose.Slides for Java من[هنا](https://releases.aspose.com/slides/java/). اتبع تعليمات التثبيت المتوفرة على موقعه على الانترنت.
+يمكنك تنزيل مكتبة Aspose.Slides لـ Java من [هنا](https://releases.aspose.com/slides/java/). اتبع تعليمات التثبيت المقدمة على موقعهم الإلكتروني.
 
-### ما هو مخطط الرسم البياني المستخدم؟
+### ما هو استخدام مخطط الهيستوجرام؟
 
-يتم استخدام مخطط الرسم البياني لتصور توزيع البيانات على مدى فترة زمنية مستمرة. يُستخدم بشكل شائع في الإحصائيات لتمثيل التوزيعات التكرارية.
+يُستخدم مخطط الهيستوغرام لتصوير توزيع البيانات على فترة زمنية متصلة. ويُستخدم عادةً في الإحصاءات لتمثيل توزيعات التكرار.
 
-### هل يمكنني تخصيص مظهر مخطط الرسم البياني؟
+### هل يمكنني تخصيص مظهر مخطط الهيستوجرام؟
 
-نعم، يمكنك تخصيص مظهر المخطط، بما في ذلك ألوانه وتسمياته ومحاوره، باستخدام Aspose.Slides API.
+نعم، يمكنك تخصيص مظهر الرسم البياني، بما في ذلك ألوانه وعلاماته ومحاوره، باستخدام واجهة برمجة التطبيقات Aspose.Slides.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

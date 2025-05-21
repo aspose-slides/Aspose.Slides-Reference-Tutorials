@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PPT to TIFF with Custom Pixel Formats Using Aspose.Slides .NET
 
@@ -164,7 +166,11 @@ A5: While no explicit limit exists, performance may degrade with extremely high 
 - **Download**: [Aspose.Slides Downloads](https://releases.aspose.com/slides/net/)
 - **Purchase**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)
 - **Free Trial**: [Start Free Trial](https://releases.aspose.com/slides/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

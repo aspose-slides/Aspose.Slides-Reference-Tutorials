@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Access and Manipulate SmartArt in PowerPoint Using Aspose.Slides for Java
 
@@ -183,7 +185,11 @@ To deepen your understanding, explore more features of Aspose.Slides by accessin
 - Documentation: [Aspose.Slides Java API Reference](https://reference.aspose.com/slides/java/)
 - Download: [Latest Release Downloads](https://releases.aspose.com/slides/java/)
 - Purchase: [Acquire a License](https://purchase.aspose.com/buy)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -4,8 +4,11 @@ description: "Complete tutorials for adding, modifying, copying, moving, and man
 weight: 3
 url: "/java/slide-management/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Slide Management Tutorials for Aspose.Slides Java
 
@@ -83,7 +86,11 @@ Learn to automate and enhance your presentation creation process using Aspose.Sl
 - [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

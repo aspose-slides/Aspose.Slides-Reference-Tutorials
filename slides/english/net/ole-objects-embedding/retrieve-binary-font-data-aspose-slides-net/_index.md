@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Extract Binary Font Data from PowerPoint Using Aspose.Slides for .NET
 ## Introduction
@@ -118,7 +120,11 @@ Next steps could include exploring more features of Aspose.Slides, such as slide
 - **Support**: [Aspose.Slides Forum](https://forum.aspose.com/c/slides/11)
 
 Embark on your journey to harness the full potential of presentations with Aspose.Slides for .NET. Try implementing these techniques today and unlock new capabilities in your applications!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Slide Transitions in PowerPoint with Aspose.Slides for Python
 
@@ -143,7 +145,11 @@ You've learned how to apply dynamic slide transitions using Aspose.Slides for Py
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Enhance your presentations with Aspose.Slides for Python and elevate your presentation game today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

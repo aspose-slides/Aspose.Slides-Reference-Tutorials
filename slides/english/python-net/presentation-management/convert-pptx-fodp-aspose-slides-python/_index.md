@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PPTX to FODP and Vice Versa Using Aspose.Slides in Python
 
@@ -164,7 +166,11 @@ You’ve learned how to convert between PPTX and FODP formats using Aspose.Slide
 - **Support Forum**: [Aspose Support](https://forum.aspose.com/c/slides/11)
 
 Embark on your journey of presentation management with Aspose.Slides for Python, and enhance your applications today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

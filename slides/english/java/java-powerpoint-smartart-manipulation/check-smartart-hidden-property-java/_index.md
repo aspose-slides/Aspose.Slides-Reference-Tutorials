@@ -8,7 +8,9 @@ url: /java/java-powerpoint-smartart-manipulation/check-smartart-hidden-property-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Check SmartArt Hidden Property using Java
@@ -86,6 +88,7 @@ Yes, you can visit the Aspose.Slides forum (https://forum.aspose.com/c/slides/11
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

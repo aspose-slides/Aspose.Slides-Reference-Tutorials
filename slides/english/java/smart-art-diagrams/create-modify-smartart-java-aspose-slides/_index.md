@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering SmartArt Creation and Modification in Java with Aspose.Slides
 
@@ -171,7 +173,11 @@ You've now mastered the basics of creating, modifying, and saving SmartArt in pr
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 Start implementing these steps today to bring your presentations to life with visually compelling SmartArt graphics using Aspose.Slides for Java!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

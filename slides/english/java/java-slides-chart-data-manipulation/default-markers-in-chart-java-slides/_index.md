@@ -8,7 +8,9 @@ url: /java/chart-data-manipulation/default-markers-in-chart-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Default Markers in Chart in Java Slides
@@ -152,6 +154,7 @@ Yes, you can add labels to data points using the `IDataPoint.getLabel()` method 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

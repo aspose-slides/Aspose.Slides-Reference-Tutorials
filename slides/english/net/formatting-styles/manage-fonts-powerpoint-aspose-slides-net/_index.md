@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Manage Fonts in PowerPoint Using Aspose.Slides for .NET
 ## Formatting & Styles Guide
@@ -160,7 +162,11 @@ Ready to take the next step? Implement these techniques in your projects and exp
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Now that you have all the tools and knowledge, start implementing Aspose.Slides in your .NET applications to streamline font management in PowerPoint presentations!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set PDF Page Size for Presentations Using Aspose.Slides for Java
 ## Introduction
@@ -110,7 +112,11 @@ A3: Regularly update to the latest version, manage licenses properly, and monito
 - [Purchase a License](https://purchase.aspose.com/buy)
 - [Free Trial and Temporary License](https://releases.aspose.com/slides/java/)
 Explore these resources to expand your knowledge and capabilities with Aspose.Slides for Java. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

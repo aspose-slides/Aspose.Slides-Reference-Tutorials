@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create Multilevel Bullet Points in PowerPoint with Aspose.Slides for .NET
 
@@ -200,7 +202,11 @@ You've successfully learned how to create a PowerPoint presentation with multile
 - **Support Forum:** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Ready to take your presentations to the next level? Dive into Aspose.Slides for .NET and start creating today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

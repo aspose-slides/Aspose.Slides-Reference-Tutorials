@@ -8,7 +8,9 @@ url: /java/additional-utilities/get-file-format-information-in-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get File Format Information in Java Slides
@@ -123,6 +125,7 @@ You can reach out to Aspose support through their website. They provide dedicate
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

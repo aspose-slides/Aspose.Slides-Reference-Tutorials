@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Secure Your PowerPoint Presentation with Password Protection Using Aspose.Slides for .NET
 
@@ -151,7 +153,11 @@ Ready to try it out? Implement the solution in your next project!
 - **Free Trial**: [Start Your Free Trial](https://releases.aspose.com/slides/net/)
 - **Temporary License**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum**: [Aspose.Slides Support](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Save Chart Images Using Aspose.Slides in Python: A Step-by-Step Guide
 
@@ -177,7 +179,11 @@ A5: Aspose.Slides supports exporting presentations in various formats like PDF, 
 ## Resources
 - **Documentation**: [Aspose.Slides for Python](https://reference.aspose.com/slides/python-net/)
 - **Download**: [Releases page](https://releases.aspose.com/slides/python-net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/presentation-manipulation/create-new-presentations-programmatically/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create New Presentations Programmatically
@@ -97,6 +99,7 @@ Now, you can start incorporating this code into your .NET projects to generate d
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

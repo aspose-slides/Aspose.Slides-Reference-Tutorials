@@ -8,7 +8,9 @@ url: /net/chart-creation-and-customization/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chart Creation and Customization
@@ -33,9 +35,11 @@ Learn how to compare slides in presentations using Aspose.Slides for .NET. Step-
 Learn how to use Aspose.Slides for .NET to create dynamic PowerPoint presentations with base placeholders.
 ### [Manage Header and Footer in Slides](./header-footer-manager/)
 Learn how to manage headers and footers in slides using Aspose.Slides for .NET. Customize your presentations with ease and precision.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

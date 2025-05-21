@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Accessing Shape Alternative Text in PowerPoint with Aspose.Slides for Python
 
@@ -167,7 +169,11 @@ Ready to put your new skills to work? Implement this solution in your next proje
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Embark on your journey to automate and enhance your presentations with Aspose.Slides, and feel free to reach out to the community for support or share your success stories!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

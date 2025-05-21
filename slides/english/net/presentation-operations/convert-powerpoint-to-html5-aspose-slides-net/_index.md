@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PowerPoint to HTML5 Using Aspose.Slides for .NET: A Developer's Guide
 
@@ -115,7 +117,11 @@ Finally, save your presentation as an HTML5 file:
 
 ```csharp
 pres.Save("YOUR_OUTPUT_DIRECTORY/Demo.html\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

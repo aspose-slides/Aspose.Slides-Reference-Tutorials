@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Embed Charts in .NET Presentations Using Aspose.Slides for Effective Data Visualization
 
@@ -101,7 +103,11 @@ Let's walk through the steps to create and add a chart to your presentation.
 1. **Overview**: Save the presentation to a file after adding the chart.
    ```csharp
    pres.Save("YOUR_DOCUMENT_DIRECTORY\\Chart_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

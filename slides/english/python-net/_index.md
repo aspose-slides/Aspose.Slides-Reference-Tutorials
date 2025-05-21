@@ -8,7 +8,9 @@ keywords: "python powerpoint api, python slides tutorial, aspose slides python, 
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Python via .NET PowerPoint Tutorial: Master Aspose.Slides for Python (2025 Guide)
@@ -128,6 +130,7 @@ Start your journey with Aspose.Slides for Python via .NET today and transform ho
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

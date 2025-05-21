@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Bold Fonts in PowerPoint Charts with Aspose.Slides Java: A Comprehensive Guide
 
@@ -131,7 +133,11 @@ Finally, save your presentation with the applied changes.
 #### Step 5: Save Presentation
 ```java
 pres.save("YOUR_OUTPUT_DIRECTORY/output.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

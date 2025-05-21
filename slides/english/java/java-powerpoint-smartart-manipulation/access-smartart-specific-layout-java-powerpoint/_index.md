@@ -8,7 +8,9 @@ url: /java/java-powerpoint-smartart-manipulation/access-smartart-specific-layout
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Access SmartArt with Specific Layout in Java PowerPoint
@@ -104,6 +106,7 @@ Absolutely, Aspose.Slides for Java provides comprehensive tools to create and ma
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

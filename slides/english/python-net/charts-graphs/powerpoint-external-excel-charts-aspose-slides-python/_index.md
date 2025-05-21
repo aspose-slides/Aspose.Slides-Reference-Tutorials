@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create PowerPoint with External Excel Charts Using Aspose.Slides for Python
 
@@ -163,7 +165,11 @@ Ready to take it a step further? Try implementing these techniques in your next 
 - [Aspose.Slides Documentation](https://reference.aspose.com/slides/python-net/)
 - [Download Aspose.Slides for Python](https://releases.aspose.com/slides/python-net/)
 - [Purchase a License](https://purchase.aspose.com/slides)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

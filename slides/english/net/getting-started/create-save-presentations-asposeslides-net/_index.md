@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Save a Presentation Using Aspose.Slides .NET
 
@@ -151,7 +153,11 @@ A: Check the documentation and community forums for solutions, or refer to [Aspo
 - **Purchase a License:** Buy a license for production use via [Aspose Purchase](https://purchase.aspose.com/buy).
 - **Try a Free Trial:** Start with a free trial to evaluate features at [Aspose Trials](https://releases.aspose.com/slides/net/).
 - **Temporary License:** Request a temporary license from [Aspose Temporary Licenses](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

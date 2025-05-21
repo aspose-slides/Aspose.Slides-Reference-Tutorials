@@ -8,7 +8,9 @@ url: /net/slide-comments-manipulation/modern-comments/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Modern Comments Management using Aspose.Slides
@@ -119,6 +121,7 @@ Certainly! You can access a free trial version of Aspose.Slides for .NET from th
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

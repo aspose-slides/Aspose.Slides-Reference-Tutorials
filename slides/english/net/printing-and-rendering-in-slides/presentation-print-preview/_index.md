@@ -8,7 +8,9 @@ url: /net/printing-and-rendering-in-slides/presentation-print-preview/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Previewing Print Output of Presentations in Aspose.Slides
@@ -81,6 +83,7 @@ Visit the [Aspose.Slides Forum](https://forum.aspose.com/c/slides/11) to get ass
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

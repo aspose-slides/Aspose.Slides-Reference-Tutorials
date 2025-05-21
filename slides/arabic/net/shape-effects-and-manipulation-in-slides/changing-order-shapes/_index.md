@@ -1,34 +1,36 @@
 ---
-title: إعادة تشكيل شرائح العرض التقديمي باستخدام Aspose.Slides لـ .NET
-linktitle: تغيير ترتيب الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية إعادة تشكيل شرائح العرض التقديمي باستخدام Aspose.Slides لـ .NET. اتبع هذا الدليل المفصّل خطوة بخطوة لإعادة ترتيب الأشكال وتحسين المظهر البصري.
-weight: 26
-url: /ar/net/shape-effects-and-manipulation-in-slides/changing-order-shapes/
+"description": "تعلّم كيفية إعادة تشكيل شرائح العرض التقديمي باستخدام Aspose.Slides لـ .NET. اتبع هذا الدليل خطوة بخطوة لإعادة ترتيب الأشكال وتحسين المظهر."
+"linktitle": "تغيير ترتيب الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint لـ Aspose.Slides .NET"
+"title": "إعادة تشكيل شرائح العرض التقديمي باستخدام Aspose.Slides لـ .NET"
+"url": "/ar/net/shape-effects-and-manipulation-in-slides/changing-order-shapes/"
+"weight": 26
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # إعادة تشكيل شرائح العرض التقديمي باستخدام Aspose.Slides لـ .NET
 
 ## مقدمة
-يعد إنشاء شرائح عرض تقديمي جذابة بصريًا جانبًا مهمًا للتواصل الفعال. يعمل Aspose.Slides for .NET على تمكين المطورين من التعامل مع الشرائح برمجيًا، مما يوفر نطاقًا واسعًا من الوظائف. في هذا البرنامج التعليمي، سوف نتعمق في عملية تغيير ترتيب الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET.
+يُعد إنشاء شرائح عرض تقديمي جذابة بصريًا جانبًا أساسيًا للتواصل الفعال. يُمكّن Aspose.Slides for .NET المطورين من التعامل مع الشرائح برمجيًا، مُوفرًا مجموعة واسعة من الوظائف. في هذا البرنامج التعليمي، سنتعمق في عملية تغيير ترتيب الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET.
 ## المتطلبات الأساسية
 قبل أن نبدأ هذه الرحلة، تأكد من توفر المتطلبات الأساسية التالية:
--  Aspose.Slides for .NET: تأكد من دمج مكتبة Aspose.Slides في مشروع .NET الخاص بك. إذا لم يكن الأمر كذلك، يمكنك تنزيله من[صفحة الإصدارات](https://releases.aspose.com/slides/net/).
+- Aspose.Slides لـ .NET: تأكد من دمج مكتبة Aspose.Slides في مشروع .NET الخاص بك. إذا لم تكن كذلك، يمكنك تنزيلها من [صفحة الإصدارات](https://releases.aspose.com/slides/net/).
 - بيئة التطوير: قم بإعداد بيئة تطوير عمل باستخدام Visual Studio أو أي أداة تطوير .NET أخرى.
-- الفهم الأساسي لـ C#: تعرف على أساسيات لغة البرمجة C#.
+- الفهم الأساسي للغة C#: تعرف على أساسيات لغة البرمجة C#.
 ## استيراد مساحات الأسماء
 في مشروع C# الخاص بك، قم بتضمين مساحات الأسماء الضرورية للوصول إلى وظيفة Aspose.Slides:
 ```csharp
 using Aspose.Slides.Export;
 using Aspose.Slides;
 ```
-## الخطوة 1: قم بإعداد مشروعك
-قم بإنشاء مشروع جديد في Visual Studio أو بيئة التطوير .NET المفضلة لديك. تأكد من الإشارة إلى Aspose.Slides for .NET في مشروعك.
-## الخطوة 2: قم بتحميل العرض التقديمي
+## الخطوة 1: إعداد مشروعك
+أنشئ مشروعًا جديدًا في Visual Studio أو بيئة تطوير .NET المفضلة لديك. تأكد من الإشارة إلى Aspose.Slides for .NET في مشروعك.
+## الخطوة 2: تحميل العرض التقديمي
 ```csharp
 string dataDir = "Your Document Directory";
 Presentation presentation = new Presentation(dataDir + "HelloWorld.pptx");
@@ -58,27 +60,29 @@ shp3 = slide.Shapes.AddAutoShape(ShapeType.Triangle, 200, 365, 400, 150);
 ```csharp
 slide.Shapes.Reorder(2, shp3);
 ```
-## الخطوة 8: احفظ العرض التقديمي المعدل
+## الخطوة 8: حفظ العرض التقديمي المعدّل
 ```csharp
 presentation.Save(dataDir + "Reshape_out.pptx", SaveFormat.Pptx);
 ```
-يكمل هذا الدليل خطوة بخطوة لتغيير ترتيب الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides for .NET.
+هذا يكمل الدليل خطوة بخطوة لتغيير ترتيب الأشكال في شرائح العرض التقديمي باستخدام Aspose.Slides لـ .NET.
 ## خاتمة
-يعمل Aspose.Slides for .NET على تبسيط مهمة معالجة شرائح العرض التقديمي برمجيًا. باتباع هذا البرنامج التعليمي، تعلمت كيفية إعادة ترتيب الأشكال، مما يسمح لك بتحسين المظهر المرئي لعروضك التقديمية.
+يُبسّط Aspose.Slides لـ .NET عملية معالجة شرائح العروض التقديمية برمجيًا. باتباع هذا البرنامج التعليمي، ستتعلم كيفية إعادة ترتيب الأشكال، مما يُحسّن المظهر المرئي لعروضك التقديمية.
 ## الأسئلة الشائعة
 ### س: هل يمكنني استخدام Aspose.Slides لـ .NET في بيئات Windows وLinux؟
-ج: نعم، Aspose.Slides for .NET متوافق مع كل من بيئات Windows وLinux.
-### س: هل هناك أي اعتبارات ترخيص لاستخدام Aspose.Slides في مشروع تجاري؟
- ج: نعم، يمكنك العثور على تفاصيل الترخيص وخيارات الشراء على الموقع[صفحة شراء Aspose.Slides](https://purchase.aspose.com/buy).
+ج: نعم، Aspose.Slides for .NET متوافق مع بيئات Windows وLinux.
+### س: هل هناك أي اعتبارات ترخيصية لاستخدام Aspose.Slides في مشروع تجاري؟
+ج: نعم، يمكنك العثور على تفاصيل الترخيص وخيارات الشراء على [صفحة شراء Aspose.Slides](https://purchase.aspose.com/buy).
 ### س: هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Slides لـ .NET؟
- ج: نعم، يمكنك استكشاف الميزات باستخدام[تجربة مجانية](https://releases.aspose.com/) متاح على موقع Aspose.Slides.
-### س: أين يمكنني العثور على الدعم أو طرح الأسئلة المتعلقة بـ Aspose.Slides for .NET؟
- ج: قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للحصول على الدعم والتفاعل مع المجتمع.
+ج: نعم، يمكنك استكشاف الميزات باستخدام [نسخة تجريبية مجانية](https://releases.aspose.com/) متاح على موقع Aspose.Slides.
+### س: أين يمكنني العثور على الدعم أو طرح الأسئلة المتعلقة بـ Aspose.Slides لـ .NET؟
+أ: قم بزيارة [منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) للحصول على الدعم والتفاعل مع المجتمع.
 ### س: كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
- ج: يمكنك الحصول على[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.
+أ: يمكنك الحصول على [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/) لأغراض التقييم.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

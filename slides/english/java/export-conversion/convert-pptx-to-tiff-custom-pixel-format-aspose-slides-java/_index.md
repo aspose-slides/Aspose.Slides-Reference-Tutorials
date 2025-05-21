@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PPTX to TIFF in Java: Custom Pixel Format with Aspose.Slides
 
@@ -172,7 +174,11 @@ Ready to implement these solutions? Try converting a few of your presentations t
    - Adjust the pixel format or resolution settings in `TiffOptions` for smaller file sizes.
 4. **How do I handle exceptions during conversion?**
    - Implement try-catch blocks to manage exceptions effectively.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

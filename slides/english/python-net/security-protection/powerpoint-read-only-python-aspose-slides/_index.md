@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Set PowerPoint Read-Only & Count Slides with Python
 
@@ -83,7 +85,11 @@ class ReadWriteProtection:
         with slides.Presentation(presentation_path) as presentation:
             presentation.protection_manager.set_write_protection(self.password)
             presentation.save(f"{output_directory}/save_as_read_only_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

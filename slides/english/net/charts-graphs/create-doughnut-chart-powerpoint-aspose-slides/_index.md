@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create a Doughnut Chart in PowerPoint Using Aspose.Slides for .NET
 Creating visually engaging charts is essential for effective data presentation. Doughnut charts are perfect for illustrating parts of a whole, making them ideal for percentage-based data visualization. This tutorial will guide you through creating a dynamic doughnut chart in PowerPoint using the powerful Aspose.Slides for .NET library.
@@ -241,7 +243,11 @@ class ConfigureDataLabels
 
 ## Conclusion
 By following this guide, you've learned how to create a dynamic doughnut chart in PowerPoint using Aspose.Slides for .NET. This powerful library allows for extensive customization, enabling you to tailor your charts precisely to your presentation needs.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

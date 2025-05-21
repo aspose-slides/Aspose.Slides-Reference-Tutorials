@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Customize Charts with Trend Lines Using Aspose.Slides for Java
 
@@ -188,7 +190,11 @@ Return a JSON object with the following structure:
   "optimized_content": "The full, optimized markdown content with all improvements applied",
   "keyword_recommendations": ["Aspose.Slides for Java", "Java chart creation", "trend lines in charts"]
 }
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

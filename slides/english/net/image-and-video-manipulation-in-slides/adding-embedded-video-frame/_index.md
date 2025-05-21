@@ -8,7 +8,9 @@ url: /net/image-and-video-manipulation-in-slides/adding-embedded-video-frame/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides - Adding Embedded Videos in .NET Presentations
@@ -85,6 +87,7 @@ Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for commun
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/slide-thumbnail-generation/generate-thumbnail-with-custom-dimensions/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Generate Thumbnail in Slides with Custom Dimensions
@@ -125,6 +127,7 @@ Yes, you can access technical support and community forums [here](https://forum.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

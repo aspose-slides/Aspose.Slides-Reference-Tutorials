@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Adjust Table Transparency in PowerPoint using Aspose.Slides for Python
 
@@ -152,7 +154,11 @@ Ready to try it out? Dive into the code and start customizing your presentations
 - **Free Trial**: [Start Free](https://releases.aspose.com/slides/python-net/)
 - **Temporary License**: [Obtain Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

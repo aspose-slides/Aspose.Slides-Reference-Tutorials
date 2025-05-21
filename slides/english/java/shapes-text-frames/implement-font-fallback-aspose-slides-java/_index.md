@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Implementing Font Fallback in Aspose.Slides Java
 ## Introduction
@@ -120,7 +122,11 @@ A5: For commercial applications, purchase a license from [Aspose's purchase page
 - **Download**: Get the latest version from [Aspose.Slides Releases](https://releases.aspose.com/slides/java/).
 - **Purchase & Trial**: Learn more about licensing options on [Aspose's Purchase Page](https://purchase.aspose.com/buy) and start with a free trial.
 - **Support**: For queries, visit the [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Aspose.Slides .NET: Efficiently Access and Manipulate Presentation Slides
 
@@ -174,7 +176,11 @@ For further exploration and detailed documentation, visit the following:
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 With this guide, you’re well-equipped to harness the capabilities of Aspose.Slides for .NET and transform how you work with presentation files in your applications. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

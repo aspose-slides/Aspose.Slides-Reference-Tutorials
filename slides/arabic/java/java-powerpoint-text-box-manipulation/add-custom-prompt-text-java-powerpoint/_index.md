@@ -1,47 +1,49 @@
 ---
-title: إضافة نص موجه مخصص في Java PowerPoint
-linktitle: إضافة نص موجه مخصص في Java PowerPoint
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية إضافة نص مطالبة مخصص في Java PowerPoint باستخدام Aspose.Slides. عزز تفاعل المستخدم بسهولة مع هذا البرنامج التعليمي.
-weight: 12
-url: /ar/java/java-powerpoint-text-box-manipulation/add-custom-prompt-text-java-powerpoint/
+"description": "تعلّم كيفية إضافة نص موجه مخصص في جافا باوربوينت باستخدام Aspose.Slides. حسّن تفاعل المستخدم بسهولة مع هذا البرنامج التعليمي."
+"linktitle": "إضافة نص موجه مخصص في Java PowerPoint"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "إضافة نص موجه مخصص في Java PowerPoint"
+"url": "/ar/java/java-powerpoint-text-box-manipulation/add-custom-prompt-text-java-powerpoint/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # إضافة نص موجه مخصص في Java PowerPoint
 
 ## مقدمة
-في العصر الرقمي الحالي، يعد إنشاء عروض تقديمية ديناميكية وجذابة أمرًا بالغ الأهمية للتواصل الفعال. يمكّن Aspose.Slides for Java المطورين من التعامل مع عروض PowerPoint التقديمية برمجياً، ويقدم ميزات واسعة النطاق لتخصيص الشرائح والأشكال والنصوص والمزيد. سيرشدك هذا البرنامج التعليمي خلال عملية إضافة نص مطالبة مخصص إلى العناصر النائبة في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides.
+في عصرنا الرقمي، يُعدّ إنشاء عروض تقديمية ديناميكية وجذابة أمرًا بالغ الأهمية للتواصل الفعال. يُمكّن Aspose.Slides for Java المطورين من إدارة عروض PowerPoint التقديمية برمجيًا، مُقدّمًا ميزات شاملة لتخصيص الشرائح والأشكال والنصوص وغيرها. سيرشدك هذا البرنامج التعليمي خلال عملية إضافة نص مُوجّه مُخصّص إلى العناصر النائبة في عروض PowerPoint التقديمية بلغة Java باستخدام Aspose.Slides.
 ## المتطلبات الأساسية
 قبل الغوص في هذا البرنامج التعليمي، تأكد من أن لديك ما يلي:
 - المعرفة الأساسية ببرمجة جافا.
-- JDK (Java Development Kit) مثبت على نظامك.
--  تم تثبيت Aspose.Slides لـ Java. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/java/).
-- إعداد بيئة تطوير متكاملة (IDE) مثل IntelliJ IDEA أو Eclipse.
+- تم تثبيت JDK (Java Development Kit) على نظامك.
+- تم تثبيت Aspose.Slides لجافا. يمكنك تنزيله من [هنا](https://releases.aspose.com/slides/java/).
+- تم إعداد بيئة تطوير متكاملة (IDE) مثل IntelliJ IDEA أو Eclipse.
 
-## حزم الاستيراد
+## استيراد الحزم
 للبدء، قم باستيراد فئات Aspose.Slides الضرورية في ملف Java الخاص بك:
 ```java
 import com.aspose.slides.*;
 ```
 
-## الخطوة 1: قم بتحميل العرض التقديمي
-أولاً، قم بتحميل عرض PowerPoint التقديمي حيث تريد إضافة نص مطالبة مخصص إلى العناصر النائبة.
+## الخطوة 1: تحميل العرض التقديمي
+أولاً، قم بتحميل عرض PowerPoint حيث تريد إضافة نص موجه مخصص إلى العناصر النائبة.
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "Presentation2.pptx");
 ```
-## الخطوة 2: التكرار من خلال أشكال الشرائح
+## الخطوة 2: التكرار عبر أشكال الشريحة
 قم بالوصول إلى الشريحة وتصفح أشكالها للعثور على العناصر النائبة.
 ```java
 try {
     ISlide slide = pres.getSlides().get_Item(0);
     for (IShape shape : slide.getShapes()) {
         if (shape.getPlaceholder() != null && shape instanceof AutoShape) {
-            // معالجة العناصر النائبة للشكل التلقائي فقط
+            // معالجة عناصر نائبة للأشكال التلقائية فقط
             String text = "";
             if (shape.getPlaceholder().getType() == PlaceholderType.CenteredTitle) {
                 text = "Click to add custom title";
@@ -49,7 +51,7 @@ try {
                 text = "Click to add custom subtitle";
             }
             
-            // قم بتعيين نص المطالبة المخصص
+            // تعيين نص المطالبة المخصص
             ((IAutoShape) shape).getTextFrame().setText(text);
             
             // اطبع نص العنصر النائب للتحقق
@@ -57,7 +59,7 @@ try {
         }
     }
     
-    //احفظ العرض التقديمي المعدل
+    // حفظ العرض التقديمي المعدل
     pres.save(dataDir + "Placeholders_PromptText.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose();
@@ -65,21 +67,23 @@ try {
 ```
 
 ## خاتمة
-في الختام، Aspose.Slides for Java يبسط مهمة تخصيص عروض PowerPoint التقديمية برمجياً. باتباع هذا البرنامج التعليمي، يمكنك تحسين تفاعل المستخدم عن طريق إضافة نص مطالبة ذو معنى إلى العناصر النائبة دون عناء.
+في الختام، يُبسّط Aspose.Slides for Java عملية تخصيص عروض PowerPoint التقديمية برمجيًا. باتباع هذا البرنامج التعليمي، يمكنك تحسين تفاعل المستخدم بإضافة نصّ إرشادي ذي معنى إلى العناصر النائبة بسهولة.
 ## الأسئلة الشائعة
 ### هل يمكنني إضافة نص موجه إلى أي عنصر نائب في شريحة PowerPoint باستخدام Aspose.Slides لـ Java؟
-نعم، يمكنك تعيين نص مطالبة مخصص لأنواع مختلفة من العناصر النائبة برمجيًا.
+نعم، يمكنك تعيين نص موجه مخصص لأنواع مختلفة من العناصر النائبة برمجيًا.
 ### هل Aspose.Slides for Java متوافق مع كافة إصدارات PowerPoint؟
 يدعم Aspose.Slides مجموعة واسعة من إصدارات PowerPoint، مما يضمن التوافق والموثوقية.
 ### أين يمكنني العثور على المزيد من الأمثلة والوثائق الخاصة بـ Aspose.Slides لـ Java؟
- قم بزيارة[Aspose.Slides لتوثيق جافا](https://reference.aspose.com/slides/java/) للحصول على أدلة وأمثلة شاملة.
+قم بزيارة [توثيق Aspose.Slides لـ Java](https://reference.aspose.com/slides/java/) للحصول على أدلة وأمثلة شاملة.
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides لـ Java؟
- يمكنك الحصول على[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) لتقييم الميزات الكاملة لـ Aspose.Slides.
+يمكنك الحصول على [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/) لتقييم الميزات الكاملة لـ Aspose.Slides.
 ### هل يدعم Aspose.Slides for Java إضافة رسوم متحركة مخصصة إلى الشرائح؟
-نعم، يوفر Aspose.Slides واجهات برمجة التطبيقات لإدارة الرسوم المتحركة للشرائح برمجيًا.
+نعم، يوفر Aspose.Slides واجهات برمجة التطبيقات لإدارة رسوم متحركة للشرائح برمجيًا.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

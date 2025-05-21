@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Export Math Paragraphs to MathML Using Aspose.Slides in Python: A Comprehensive Guide
 
@@ -140,7 +142,11 @@ Finally, write the mathematical paragraph to a MathML file:
 ```python
 # Write the output to a MathML file
 with open("YOUR_OUTPUT_DIRECTORY/mathml.xml\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

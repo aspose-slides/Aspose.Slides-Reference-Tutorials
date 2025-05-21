@@ -8,7 +8,9 @@ url: /java/additional-utilities/verify-presentation-without-loading-in-java-slid
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Verify Presentation Without Loading in Java Slides
@@ -90,6 +92,7 @@ You can access comprehensive documentation and resources for Aspose.Slides for J
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

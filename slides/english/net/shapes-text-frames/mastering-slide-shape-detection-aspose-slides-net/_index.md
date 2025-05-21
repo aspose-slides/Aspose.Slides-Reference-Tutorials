@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Slide Shape Detection: Finding Shapes by Alternative Text Using Aspose.Slides for .NET
 
@@ -169,6 +171,9 @@ A: Consider using APIs or middleware that can interact with Aspose.Slides for se
 By mastering these skills, you can significantly enhance your document management capabilities using Aspose.Slides for .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

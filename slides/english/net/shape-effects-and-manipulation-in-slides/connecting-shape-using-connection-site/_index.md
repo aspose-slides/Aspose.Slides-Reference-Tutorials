@@ -8,7 +8,9 @@ url: /net/shape-effects-and-manipulation-in-slides/connecting-shape-using-connec
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Shape Connection Mastery with Aspose.Slides for .NET
@@ -88,6 +90,7 @@ Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for commun
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides .NET: Building Presentations with Directory and Hyperlink Functionality
 
@@ -180,6 +182,9 @@ We encourage you to dive deeper into Aspose.Slides' documentation and apply thes
    - You can install it via .NET CLI, Package Manager Console, or NuGet Package Manager UI.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

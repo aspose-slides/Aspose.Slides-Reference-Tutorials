@@ -6,8 +6,11 @@ description: Learn how to programmatically modify shape geometry in PowerPoint p
 keywords: [Aspose.Slides, .NET, PowerPoint, GeometryShape, geometry path, line segments, shape manipulation, C#]
 url: /net/shapes/geometry-shape-add-segment/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Segments to GeometryShape in PowerPoint Presentations
@@ -15,9 +18,11 @@ url: /net/shapes/geometry-shape-add-segment/
 This example demonstrates how to access and modify the geometry path of shapes in PowerPoint presentations using Aspose.Slides for .NET. By adding custom line segments to a rectangle shape, you can create more complex geometric figures that aren't available through standard shape types. This technique is useful for creating custom diagrams, flowcharts, and other visual elements in your presentations.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/shapes/geometry-shape-add-segment" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Installation Instructions
@@ -52,7 +57,9 @@ This example demonstrates how to access and modify the geometry path of shapes i
 - [Download Free Trial](https://releases.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

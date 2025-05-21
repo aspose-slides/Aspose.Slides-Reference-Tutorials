@@ -6,8 +6,11 @@ description: Learn how to create PowerPoint presentations with formatted textbox
 keywords: [Aspose.Slides, .NET, PowerPoint, TextBox, Formatting, C#, Presentation, AutoShape]
 url: /net/text/apply-inner-shadow/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create PowerPoint Presentations with TextBox in Aspose.Slides for .NET
@@ -15,9 +18,11 @@ url: /net/text/apply-inner-shadow/
 Aspose.Slides for .NET is a powerful API that allows developers to create, modify, and convert PowerPoint presentations without requiring Microsoft PowerPoint. This example demonstrates how to create a presentation with a customized textbox, apply formatting, and save it as a PPTX file.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/text/apply-inner-shadow" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -41,7 +46,9 @@ Aspose.Slides for .NET is a powerful API that allows developers to create, modif
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

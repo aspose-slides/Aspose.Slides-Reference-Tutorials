@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Chart Customization in .NET Presentations Using Aspose.Slides for Java
 
@@ -207,6 +209,9 @@ To ensure optimal performance when working with Aspose.Slides for Java:
 You've now mastered the basics of adding and customizing charts in .NET presentations using Aspose.Slides for Java. Whether you're automating presentation creation or enhancing existing slides, these skills can significantly elevate your projects. For further exploration, consider diving into additional chart types and advanced customization options available in the Aspose.Slides library.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PowerPoint to TIFF with Notes Using Aspose.Slides in Java
 
@@ -114,7 +116,11 @@ Finally, save your presentation using specified options:
 try {
     // Save the presentation in TIFF format with customized options
     pres.save(dir + "TestNotes_out.tiff\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Custom Numbered Bullet Lists in PowerPoint using Aspose.Slides for Python
 
@@ -113,7 +115,11 @@ Finally, save your configured presentation:
 
 ```python
 # Save the presentation\presentation.save("YOUR_OUTPUT_DIRECTORY/text_set_custom_bullets_number_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

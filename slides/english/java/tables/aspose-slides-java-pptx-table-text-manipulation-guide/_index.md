@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Slides for Java: Mastering PPTX Table & Text Manipulation in PowerPoint Presentations
 
@@ -221,6 +223,9 @@ You've now mastered the basics of using Aspose.Slides for Java to manipulate tab
 - "PowerPoint automation with Java"
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

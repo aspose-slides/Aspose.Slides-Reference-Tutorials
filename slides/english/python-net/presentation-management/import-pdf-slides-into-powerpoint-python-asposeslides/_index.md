@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Import PDF Slides into PowerPoint Using Python and Aspose.Slides
 
@@ -156,6 +158,9 @@ Consider exploring further features of Aspose.Slides, such as slide manipulation
 We hope this guide has been helpful. If you have further questions, feel free to explore the resources or engage with the Aspose community on their support forum. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

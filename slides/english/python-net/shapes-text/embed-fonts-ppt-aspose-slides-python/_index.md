@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Embed Fonts in PowerPoint Presentations with Aspose.Slides for Python
 
@@ -149,7 +151,11 @@ A5: The font embedding feature is specific to Aspose.Slides; however, similar pr
 - **Support Forum**: [Aspose Community Support](https://forum.aspose.com/c/slides/11)
 
 By leveraging these resources, you can enhance your skills and utilize Aspose.Slides for Python to its full potential. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

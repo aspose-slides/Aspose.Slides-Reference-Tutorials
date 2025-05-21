@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Text Formatting in PowerPoint Tables with Aspose.Slides for .NET
 
@@ -172,6 +174,9 @@ Explore more features of Aspose.Slides by diving into its comprehensive document
 Take the first step towards professional presentation design with Aspose.Slides and elevate your PowerPoint slides to new heights!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

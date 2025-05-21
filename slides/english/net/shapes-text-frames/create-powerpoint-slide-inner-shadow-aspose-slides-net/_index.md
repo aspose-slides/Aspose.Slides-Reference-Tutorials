@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Creating PowerPoint Slides with Inner Shadow Text Using Aspose.Slides .NET
 ## Introduction
@@ -155,7 +157,11 @@ A4: Absolutely. You can script slide creation and apply effects dynamically, mak
 
 **Q5: How do I purchase a license for extended features?**
 A5: Visit the [purchase page](https://purchase.aspose.com/buy) to explore licensing options that suit your needs.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

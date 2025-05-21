@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Apply Inner Shadow Effect on Text in PowerPoint Using Aspose.Slides for Python
 
@@ -148,6 +150,9 @@ To further explore what Aspose.Slides offers, consider experimenting with other 
 Now that you're equipped with this knowledge, go ahead and start experimenting with Aspose.Slides for Python to create stunning PowerPoint presentations!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

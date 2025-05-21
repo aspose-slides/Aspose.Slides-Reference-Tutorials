@@ -8,7 +8,9 @@ url: /java/java-powerpoint-animation-effects/apply-outer-shadow-effects-java-pow
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Apply Outer Shadow Effects in Java PowerPoint
@@ -124,6 +126,7 @@ You can find more examples and detailed documentation on the [Aspose.Slides docu
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

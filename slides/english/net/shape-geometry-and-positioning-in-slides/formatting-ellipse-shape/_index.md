@@ -8,7 +8,9 @@ url: /net/shape-geometry-and-positioning-in-slides/formatting-ellipse-shape/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatting Ellipse Shapes Tutorial with Aspose.Slides for .NET
@@ -87,9 +89,11 @@ Visit [this link](https://purchase.aspose.com/temporary-license/) to acquire a t
 Seek assistance from the community at the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11).
 ### Is there a direct purchase option for Aspose.Slides for .NET?
 Yes, you can purchase the library directly [here](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

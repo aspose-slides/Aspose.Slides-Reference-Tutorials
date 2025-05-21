@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Change the Chart Category Axis in PowerPoint Using Aspose.Slides for Python: A Step-by-Step Guide
 
@@ -165,6 +167,9 @@ Try implementing these changes on your next PowerPoint project and see the diffe
 - **Support Forum:** [Aspose Support](https://forum.aspose.com/c/slides/11)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

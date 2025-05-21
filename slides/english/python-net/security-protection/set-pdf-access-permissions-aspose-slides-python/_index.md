@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set PDF Access Permissions Using Aspose.Slides in Python
 
@@ -170,7 +172,11 @@ Ready to implement these techniques in your projects? Try it out today, and secu
 - **Download**: Access the latest release at [Aspose Releases](https://releases.aspose.com/slides/python-net/).
 - **Purchase and Licensing**: Explore purchasing options or request a temporary license at [Aspose Purchase](https://purchase.aspose.com/buy) and [Temporary License](https://purchase.aspose.com/temporary-license/), respectively.
 - **Support**: For additional help, consult the Aspose support forum.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/presentation-manipulation/export-media-files-to-html-from-presentation
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export Media Files to HTML from Presentation
@@ -94,6 +96,7 @@ Now that you've completed this tutorial, you have the skills to export media fil
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

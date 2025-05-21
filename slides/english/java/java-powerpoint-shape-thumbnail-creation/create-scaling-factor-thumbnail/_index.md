@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-thumbnail-creation/create-scaling-factor-thumbn
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Scaling Factor Thumbnail
@@ -76,6 +78,7 @@ Yes, you can obtain a temporary license from the [temporary license page](https:
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,41 +1,43 @@
 ---
-title: الوصول إلى SmartArt في PowerPoint باستخدام Java
-linktitle: الوصول إلى SmartArt في PowerPoint باستخدام Java
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية الوصول إلى SmartArt ومعالجته في عروض PowerPoint التقديمية باستخدام Java مع Aspose.Slides. دليل خطوة بخطوة للمطورين.
-weight: 12
-url: /ar/java/java-powerpoint-smartart-manipulation/access-smartart-powerpoint-java/
+"description": "تعلّم كيفية الوصول إلى SmartArt ومعالجته في عروض PowerPoint التقديمية باستخدام Java مع Aspose.Slides. دليل خطوة بخطوة للمطورين."
+"linktitle": "الوصول إلى SmartArt في PowerPoint باستخدام Java"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "الوصول إلى SmartArt في PowerPoint باستخدام Java"
+"url": "/ar/java/java-powerpoint-smartart-manipulation/access-smartart-powerpoint-java/"
+"weight": 12
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # الوصول إلى SmartArt في PowerPoint باستخدام Java
 
 ## مقدمة
-مرحبًا يا عشاق جافا! هل وجدت نفسك بحاجة إلى العمل باستخدام SmartArt في عروض PowerPoint التقديمية برمجياً؟ ربما تقوم بأتمتة تقرير، أو ربما تقوم بتطوير تطبيق يقوم بإنشاء شرائح بسرعة. مهما كانت حاجتك، فإن التعامل مع SmartArt قد يبدو وكأنه عمل صعب. لكن لا تخف! اليوم، سنتعمق في كيفية الوصول إلى SmartArt في PowerPoint باستخدام Aspose.Slides لـ Java. سيرشدك هذا الدليل خطوة بخطوة عبر كل ما تحتاج إلى معرفته، بدءًا من إعداد بيئتك ووصولاً إلى اجتياز عقد SmartArt ومعالجتها. لذا، تناول كوبًا من القهوة، ودعنا نبدأ!
+أهلاً بكم يا مُحبي جافا! هل سبق أن احتجتم إلى استخدام SmartArt في عروض PowerPoint التقديمية برمجياً؟ ربما تُؤتمتون تقريراً، أو تُطوّرون تطبيقاً يُنشئ شرائح عرض فورية. مهما كانت احتياجاتكم، قد يبدو التعامل مع SmartArt مهمةً مُعقدة. لكن لا تقلقوا! اليوم، سنتعمق في كيفية الوصول إلى SmartArt في PowerPoint باستخدام Aspose.Slides لجافا. سيُرشدكم هذا الدليل المُفصّل خطوة بخطوة إلى كل ما تحتاجون معرفته، من إعداد بيئة العمل إلى التنقل بين عُقد SmartArt ومعالجتها. لذا، تفضلوا، ولنبدأ!
 ## المتطلبات الأساسية
-قبل أن نتعمق في التفاصيل الجوهرية، دعونا نتأكد من أن لديك كل ما تحتاجه للمتابعة بسلاسة:
-- Java Development Kit (JDK): تأكد من تثبيت JDK على جهازك.
--  Aspose.Slides لمكتبة Java: ستحتاج إلى مكتبة Aspose.Slides. أنت تستطيع[قم بتنزيله هنا](https://releases.aspose.com/slides/java/).
-- بيئة تطوير متكاملة من اختيارك: سواء كانت IntelliJ IDEA أو Eclipse أو أي بيئة أخرى، تأكد من إعدادها وجاهزيتها للاستخدام.
-- نموذج لملف PowerPoint: سنحتاج إلى ملف PowerPoint للعمل معه. يمكنك إنشاء ملف أو استخدام ملف موجود باستخدام عناصر SmartArt.
-## حزم الاستيراد
-أول الأشياء أولاً، فلنستورد الحزم الضرورية. تعتبر هذه الواردات حاسمة لأنها تسمح لنا باستخدام الفئات والأساليب التي توفرها مكتبة Aspose.Slides.
+قبل أن نتعمق في التفاصيل، دعنا نتأكد من أن لديك كل ما تحتاجه لمتابعة الأمر بسلاسة:
+- مجموعة تطوير Java (JDK): تأكد من تثبيت JDK على جهازك.
+- مكتبة Aspose.Slides لجافا: ستحتاج إلى مكتبة Aspose.Slides. يمكنك [قم بتحميله هنا](https://releases.aspose.com/slides/java/).
+- بيئة التطوير المتكاملة التي تختارها: سواء كانت IntelliJ IDEA، أو Eclipse، أو أي بيئة أخرى، تأكد من إعدادها وتجهيزها لتكون جاهزة للاستخدام.
+- نموذج ملف باوربوينت: سنحتاج إلى ملف باوربوينت للعمل عليه. يمكنك إنشاء ملف أو استخدام ملف موجود يحتوي على عناصر SmartArt.
+## استيراد الحزم
+أولاً، لنستورد الحزم اللازمة. هذه الاستيرادات بالغة الأهمية لأنها تتيح لنا استخدام الفئات والأساليب التي توفرها مكتبة Aspose.Slides.
 ```java
 import com.aspose.slides.IShape;
 import com.aspose.slides.ISmartArt;
 import com.aspose.slides.ISmartArtNode;
 import com.aspose.slides.Presentation;
 ```
-سيتيح لنا هذا الاستيراد الفردي الوصول إلى جميع الفئات التي نحتاجها للتعامل مع عروض PowerPoint التقديمية في Java.
+سيتيح لنا هذا الاستيراد الفردي الوصول إلى جميع الفئات التي نحتاجها للتعامل مع عروض PowerPoint في Java.
 ## الخطوة 1: إعداد مشروعك
-للبدء، نحن بحاجة إلى إعداد مشروعنا. يتضمن ذلك إنشاء مشروع Java جديد وإضافة مكتبة Aspose.Slides إلى تبعيات مشروعنا.
-### الخطوة 1.1: إنشاء مشروع جافا جديد
-افتح IDE الخاص بك وقم بإنشاء مشروع Java جديد. أطلق عليها اسمًا ذا معنى، مثل "SmartArtInPowerPoint".
+للبدء، علينا إعداد مشروعنا. يتضمن ذلك إنشاء مشروع جافا جديد وإضافة مكتبة Aspose.Slides إلى تبعيات المشروع.
+### الخطوة 1.1: إنشاء مشروع Java جديد
+افتح بيئة التطوير المتكاملة (IDE) وأنشئ مشروع جافا جديدًا. سمِّه اسمًا ذا معنى، مثل "SmartArtInPowerPoint".
 ### الخطوة 1.2: إضافة مكتبة Aspose.Slides
- قم بتنزيل مكتبة Aspose.Slides for Java من[موقع إلكتروني](https://releases.aspose.com/slides/java/)وإضافته إلى مشروعك. إذا كنت تستخدم Maven، فيمكنك إضافة التبعية التالية إلى ملفك`pom.xml`:
+قم بتنزيل مكتبة Aspose.Slides لـ Java من [موقع إلكتروني](https://releases.aspose.com/slides/java/) وأضفه إلى مشروعك. إذا كنت تستخدم Maven، يمكنك إضافة التبعية التالية إلى مشروعك `pom.xml`:
 ```xml
 <dependency>
     <groupId>com.aspose</groupId>
@@ -44,15 +46,15 @@ import com.aspose.slides.Presentation;
     <classifier>jdk16</classifier>
 </dependency>
 ```
-## الخطوة 2: قم بتحميل العرض التقديمي
-الآن بعد أن قمنا بإعداد مشروعنا، حان الوقت لتحميل عرض PowerPoint التقديمي الذي يحتوي على عناصر SmartArt.
+## الخطوة 2: تحميل العرض التقديمي
+الآن بعد أن قمنا بإعداد مشروعنا، حان الوقت لتحميل عرض PowerPoint الذي يحتوي على عناصر SmartArt.
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "AccessSmartArt.pptx");
 ```
- هنا،`dataDir` هو المسار إلى الدليل الذي يوجد به ملف PowerPoint الخاص بك. يستبدل`"Your Document Directory"` مع المسار الفعلي
-## الخطوة 3: اجتياز الأشكال في الشريحة الأولى
-بعد ذلك، نحتاج إلى التنقل عبر الأشكال الموجودة في الشريحة الأولى من العرض التقديمي للعثور على كائنات SmartArt.
+هنا، `dataDir` هو المسار إلى الدليل الذي يوجد فيه ملف PowerPoint الخاص بك. استبدل `"Your Document Directory"` مع المسار الفعلي.
+## الخطوة 3: التنقل بين الأشكال في الشريحة الأولى
+بعد ذلك، نحتاج إلى التنقل عبر الأشكال الموجودة في الشريحة الأولى من عرضنا التقديمي للعثور على كائنات SmartArt.
 ```java
 for (IShape shape : pres.getSlides().get_Item(0).getShapes()) {
     if (shape instanceof ISmartArt) {
@@ -61,7 +63,7 @@ for (IShape shape : pres.getSlides().get_Item(0).getShapes()) {
 }
 ```
 ## الخطوة 4: الوصول إلى عقد SmartArt
-بمجرد تحديد شكل SmartArt، فإن الخطوة التالية هي اجتياز العقد الخاصة به والوصول إلى خصائصها.
+بمجرد تحديد شكل SmartArt، فإن الخطوة التالية هي التنقل بين عقده والوصول إلى خصائصه.
 ```java
 ISmartArt smartArt = (ISmartArt) shape;
 for (int i = 0; i < smartArt.getAllNodes().size(); i++) {
@@ -72,27 +74,29 @@ for (int i = 0; i < smartArt.getAllNodes().size(); i++) {
 }
 ```
 ## الخطوة 5: التخلص من العرض التقديمي
-وأخيرًا، من الضروري التخلص بشكل صحيح من كائن العرض التقديمي لتحرير الموارد.
+وأخيرًا، من الضروري التخلص من كائن العرض التقديمي بشكل صحيح لتحرير الموارد.
 ```java
 if (pres != null) pres.dispose();
 ```
 
 ## خاتمة
-وهناك لديك! باتباع هذه الخطوات، يمكنك الوصول بسهولة إلى عناصر SmartArt ومعالجتها في عروض PowerPoint التقديمية باستخدام Java. سواء كنت تقوم ببناء نظام تقارير آلي أو ببساطة تستكشف إمكانيات Aspose.Slides، فإن هذا الدليل يمنحك الأساس الذي تحتاجه. تذكر[Aspose.Slides الوثائق](https://reference.aspose.com/slides/java/) هو صديقك، ويقدم ثروة من المعلومات للغوص بشكل أعمق.
+وهذا كل ما في الأمر! باتباع هذه الخطوات، يمكنك الوصول إلى عناصر SmartArt ومعالجتها بسهولة في عروض PowerPoint التقديمية باستخدام Java. سواء كنت تُنشئ نظام تقارير آليًا أو تستكشف ببساطة إمكانيات Aspose.Slides، يمنحك هذا الدليل الأساس الذي تحتاجه. تذكر، [توثيق Aspose.Slides](https://reference.aspose.com/slides/java/) هو صديقك الذي يقدم لك قدرًا كبيرًا من المعلومات للتعمق أكثر.
 ## الأسئلة الشائعة
 ### هل يمكنني استخدام Aspose.Slides لـ Java لإنشاء عناصر SmartArt جديدة؟
 نعم، يدعم Aspose.Slides for Java إنشاء عناصر SmartArt جديدة بالإضافة إلى الوصول إلى العناصر الموجودة وتعديلها.
 ### هل Aspose.Slides لـ Java مجاني؟
- Aspose.Slides for Java هي مكتبة مدفوعة الأجر، ولكن يمكنك فعل ذلك[تنزيل نسخة تجريبية مجانية](https://releases.aspose.com/) لاختبار ميزاته.
+Aspose.Slides for Java هي مكتبة مدفوعة الأجر، ولكن يمكنك [تنزيل نسخة تجريبية مجانية](https://releases.aspose.com/) لاختبار ميزاته.
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides لـ Java؟
- يمكنك طلب أ[ترخيص مؤقت](https://purchase.aspose.com/temporary-license/) من موقع Aspose لتقييم المنتج كاملاً دون قيود.
-### ما أنواع تخطيطات SmartArt التي يمكنني الوصول إليها باستخدام Aspose.Slides؟
-يدعم Aspose.Slides جميع أنواع تخطيطات SmartArt المتوفرة في PowerPoint، بما في ذلك المخططات التنظيمية والقوائم والدورات والمزيد.
+يمكنك طلب [رخصة مؤقتة](https://purchase.aspose.com/temporary-license/) من موقع Aspose لتقييم المنتج الكامل دون قيود.
+### ما هي أنواع تخطيطات SmartArt التي يمكنني الوصول إليها باستخدام Aspose.Slides؟
+يدعم Aspose.Slides جميع أنواع تخطيطات SmartArt المتوفرة في PowerPoint، بما في ذلك المخططات التنظيمية والقوائم والدوائر والمزيد.
 ### أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ Java؟
- للحصول على الدعم، قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11)حيث يمكنك طرح الأسئلة والحصول على المساعدة من المجتمع ومطوري Aspose.
+للحصول على الدعم، قم بزيارة [منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11)، حيث يمكنك طرح الأسئلة والحصول على المساعدة من المجتمع ومطوري Aspose.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

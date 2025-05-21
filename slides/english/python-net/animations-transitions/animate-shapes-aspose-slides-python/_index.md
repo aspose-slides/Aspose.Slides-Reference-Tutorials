@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Animate Shapes in Presentations Using Aspose.Slides & Python: A Step-by-Step Guide
 
@@ -189,6 +191,9 @@ To further explore the capabilities of Aspose.Slides for Python, consider experi
    Visit the [Aspose documentation](https://reference.aspose.com/slides/python-net/) for comprehensive guides and examples.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create Sketch Styles in PowerPoint Using Aspose.Slides for Java
 
@@ -205,6 +207,9 @@ Congratulations! You've learned how to create sketch-style shapes in PowerPoint 
 - **Purchase**: Buy a license for commercial use.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

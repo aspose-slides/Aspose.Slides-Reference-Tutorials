@@ -8,7 +8,9 @@ url: /net/slide-access-and-manipulation/clone-slide-to-specific-position-in-anot
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Copy Slide to Precise Location in Different Presentation
@@ -104,6 +106,7 @@ You can find comprehensive documentation and examples for Aspose.Slides for .NET
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Enhance Your PowerPoint Presentations with Aspose.Slides .NET: Applying Bevel Effects to Shapes
 
@@ -191,6 +193,9 @@ In this tutorial, we explored how to apply bevel effects to shapes in PowerPoint
 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

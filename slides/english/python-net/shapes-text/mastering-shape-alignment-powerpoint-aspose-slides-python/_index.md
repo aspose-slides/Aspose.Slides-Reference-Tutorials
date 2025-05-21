@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Shape Alignment in PowerPoint Using Aspose.Slides for Python
 
@@ -239,7 +241,11 @@ A: Yes, you can align shapes vertically or horizontally, either individually or 
 
 **Q3: Is there a free version available?**
 A: Aspose.Slides offers a free trial license to explore its features. For long-term use, purchasing a license is recommended.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

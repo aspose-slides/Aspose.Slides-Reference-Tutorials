@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-formatting-geometry/create-custom-geometry-powe
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Custom Geometry in PowerPoint
@@ -116,6 +118,7 @@ You can get support from the [Aspose.Slides support forum](https://forum.aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

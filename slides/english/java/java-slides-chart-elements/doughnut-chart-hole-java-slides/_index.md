@@ -8,7 +8,9 @@ url: /java/chart-elements/doughnut-chart-hole-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Doughnut Chart Hole in Java Slides
@@ -104,6 +106,7 @@ Certainly! You can add a title to the chart using the `setTitle` method on the `
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

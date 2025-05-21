@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Change PowerPoint SmartArt Styles Using Aspose.Slides for .NET
 
@@ -183,7 +185,11 @@ A: Yes, it supports a variety of formats for conversion and export.
 - **Support Forum:** [Aspose Forums](https://forum.aspose.com/c/slides/11)
 
 Start enhancing your presentations today with Aspose.Slides for .NET!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

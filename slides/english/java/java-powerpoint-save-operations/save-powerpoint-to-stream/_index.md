@@ -8,7 +8,9 @@ url: /java/java-powerpoint-save-operations/save-powerpoint-to-stream/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Save PowerPoint to Stream
@@ -75,6 +77,7 @@ For technical assistance and community support, visit the [Aspose.Slides forum](
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/media-controls/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Media Controls Using Aspose.Slides For Java
@@ -57,9 +59,11 @@ Master Java Slides interruption handling with Aspose.Slides for Java. This detai
 Learn how to update presentation properties in Java slides using Aspose.Slides for Java. Customize author, title, and more for impactful presentations.
 ### [Update Presentation Properties Using Another Presentation as a Template in Java Slides](./update-presentation-properties-using-another-presentation-as-a-template-in-java-slides/)
 Enhance PowerPoint presentations with updated metadata using Aspose.Slides for Java. Learn to update properties like author, title, and keywords using templates in Java Slides.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

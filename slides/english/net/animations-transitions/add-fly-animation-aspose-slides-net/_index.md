@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add a 'Fly' Animation Effect to Paragraphs Using Aspose.Slides .NET
 ## Introduction
@@ -131,6 +133,9 @@ To further explore Aspose.Slides features, consider these resources:
 Explore these resources to deepen your understanding and maximize the potential of Aspose.Slides in your projects. Happy animating!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

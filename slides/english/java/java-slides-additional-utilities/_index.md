@@ -8,7 +8,9 @@ url: /java/additional-utilities/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Unlocking New Possibilities with Aspose.Slides for Java Tutorials
@@ -54,9 +56,11 @@ Learn how to open PowerPoint presentations in Java using Aspose.Slides for Java.
 Learn how to secure your PDF documents with access permissions in Java Slides using Aspose.Slides. This step-by-step guide covers password protection and more.
 ### [Verify Presentation Without Loading in Java Slides](./verify-presentation-without-loading-in-java-slides/)
 Learn how to verify presentations without loading them in Java Slides using Aspose.Slides for Java. Ensure file integrity efficiently with this step-by-step guide.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

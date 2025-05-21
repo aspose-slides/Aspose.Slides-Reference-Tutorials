@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-alignment-formatting/vertically-align-text-java-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Vertically Align Text in Java PowerPoint
@@ -101,6 +103,7 @@ For technical assistance and community support, visit the [Aspose.Slides forum](
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

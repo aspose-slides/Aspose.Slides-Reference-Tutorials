@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create Funnel Charts in PowerPoint Using Aspose.Slides for .NET
 
@@ -166,6 +168,9 @@ A5: While robust, some features might require a full license to access fully.
 This tutorial provides you with the tools and knowledge needed to start creating impactful funnel charts in PowerPoint using Aspose.Slides for .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

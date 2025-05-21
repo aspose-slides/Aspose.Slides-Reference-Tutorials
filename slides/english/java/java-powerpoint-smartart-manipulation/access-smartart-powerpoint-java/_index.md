@@ -8,7 +8,9 @@ url: /java/java-powerpoint-smartart-manipulation/access-smartart-powerpoint-java
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Access SmartArt in PowerPoint using Java
@@ -94,6 +96,7 @@ For support, visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/1
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

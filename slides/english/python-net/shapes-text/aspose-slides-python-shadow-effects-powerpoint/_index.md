@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Add Shadow Effects to Shapes in PowerPoint Using Aspose.Slides Python
 ## Introduction
@@ -111,7 +113,11 @@ shadow.shadow_color.preset_color = slides.PresetColor.BLACK
 Save your presentation to a file in the specified output directory:
 ```python
 pres.save("YOUR_OUTPUT_DIRECTORY/text_ShadowEffects_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PDF to PowerPoint with Aspose.Slides Java
 
@@ -160,7 +162,11 @@ Ready to get started? Dive into the resources below to deepen your knowledge!
 - **Free Trial:** Download a trial version from [Aspose Free Trial](https://releases.aspose.com/slides/java/).
 - **Temporary License:** Obtain a temporary license via [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).
 - **Support:** For questions, visit the [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

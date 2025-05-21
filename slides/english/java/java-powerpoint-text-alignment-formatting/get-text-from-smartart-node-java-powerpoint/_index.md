@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-alignment-formatting/get-text-from-smartart-node
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Text from SmartArt Node in Java PowerPoint
@@ -76,6 +78,7 @@ For technical assistance and community support, visit the [Aspose.Slides forum](
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

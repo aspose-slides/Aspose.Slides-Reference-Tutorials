@@ -8,7 +8,9 @@ url: /net/presentation-manipulation/custom-pdf-conversion-options-for-presentati
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Custom PDF Conversion Options for Presentations
@@ -100,9 +102,11 @@ Yes, temporary licenses are available for your convenience. Find more informatio
 For any technical or usage-related queries, you can visit the Aspose community forum for support [here](https://forum.aspose.com/).
 
 Now that you have the knowledge to perform custom PDF conversions, go ahead and unlock new possibilities in document management with Aspose.Slides for .NET! 
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

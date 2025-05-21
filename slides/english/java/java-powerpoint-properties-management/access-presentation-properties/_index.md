@@ -8,7 +8,9 @@ url: /java/java-powerpoint-properties-management/access-presentation-properties/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Access Presentation Properties
@@ -74,6 +76,7 @@ Yes, temporary licenses are available for evaluation or testing purposes. You ca
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

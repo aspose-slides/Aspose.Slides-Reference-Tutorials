@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-paragraph-management/align-paragraphs-powerpoint
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Align Paragraphs in PowerPoint using Java
@@ -82,6 +84,7 @@ Yes, you can download a free trial version from [here](https://releases.aspose.c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

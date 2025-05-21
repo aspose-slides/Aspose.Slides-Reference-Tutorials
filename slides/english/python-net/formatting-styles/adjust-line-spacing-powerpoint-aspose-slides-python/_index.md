@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Adjusting Line Spacing in PowerPoint Slides with Aspose.Slides for Python
 
@@ -199,7 +201,11 @@ This tutorial equipped you with the skills to adjust line spacing in PowerPoint 
 - **Free Trial:** [Start with a Free Trial](https://releases.aspose.com/slides/python-net/)
 - **Temporary License:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support:** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

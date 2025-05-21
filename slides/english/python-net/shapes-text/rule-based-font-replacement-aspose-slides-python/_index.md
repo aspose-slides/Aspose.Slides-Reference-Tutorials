@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Implement Rule-Based Font Replacement in Presentations Using Aspose.Slides for Python
 
@@ -174,7 +176,11 @@ By following this guide, you've learned how to implement rule-based font replace
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 Ready to put your new skills into action? Start exploring the full potential of Aspose.Slides for Python today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

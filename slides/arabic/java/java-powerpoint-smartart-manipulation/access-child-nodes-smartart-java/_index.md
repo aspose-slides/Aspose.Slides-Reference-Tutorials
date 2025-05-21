@@ -1,38 +1,40 @@
 ---
-title: الوصول إلى العقد التابعة في SmartArt باستخدام Java
-linktitle: الوصول إلى العقد التابعة في SmartArt باستخدام Java
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية الوصول إلى العقد الفرعية ومعالجتها في SmartArt باستخدام Aspose.Slides لـ Java باستخدام هذا الدليل التفصيلي خطوة بخطوة.
-weight: 10
-url: /ar/java/java-powerpoint-smartart-manipulation/access-child-nodes-smartart-java/
+"description": "تعرف على كيفية الوصول إلى العقد الفرعية ومعالجتها في SmartArt باستخدام Aspose.Slides for Java من خلال هذا الدليل خطوة بخطوة."
+"linktitle": "الوصول إلى العقد الفرعية في SmartArt باستخدام Java"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "الوصول إلى العقد الفرعية في SmartArt باستخدام Java"
+"url": "/ar/java/java-powerpoint-smartart-manipulation/access-child-nodes-smartart-java/"
+"weight": 10
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# الوصول إلى العقد التابعة في SmartArt باستخدام Java
+# الوصول إلى العقد الفرعية في SmartArt باستخدام Java
 
 ## مقدمة
-هل تساءلت يومًا كيف يمكنك التعامل مع رسومات SmartArt في عروضك التقديمية برمجيًا؟ Aspose.Slides for Java هي مكتبتك المفضلة لإدارة عروض PowerPoint التقديمية وتحريرها. تسمح هذه الأداة القوية للمطورين بالوصول إلى العناصر المختلفة ومعالجتها داخل العرض التقديمي، بما في ذلك رسومات SmartArt. في هذا البرنامج التعليمي، سنرشدك خلال الوصول إلى العقد الفرعية في SmartArt باستخدام Java، مما يجعل عروضك التقديمية أكثر ديناميكية وتفاعلية. بحلول نهاية هذا الدليل، ستكون مجهزًا بالمعرفة اللازمة لاجتياز عقد SmartArt ومعالجتها بسهولة.
+هل تساءلت يومًا كيف يمكنك التعامل مع رسومات SmartArt في عروضك التقديمية برمجيًا؟ Aspose.Slides for Java هي مكتبتك المفضلة لإدارة وتحرير عروض PowerPoint التقديمية. تتيح هذه الأداة القوية للمطورين الوصول إلى عناصر مختلفة في العرض التقديمي والتحكم بها، بما في ذلك رسومات SmartArt. في هذا البرنامج التعليمي، سنرشدك خلال عملية الوصول إلى العقد الفرعية في SmartArt باستخدام Java، مما يجعل عروضك التقديمية أكثر ديناميكية وتفاعلية. بنهاية هذا الدليل، ستكون قد اكتسبت المعرفة اللازمة للتعامل مع عقد SmartArt والتحكم بها بسهولة.
 ## المتطلبات الأساسية
 قبل الغوص في الكود، تأكد من توفر المتطلبات الأساسية التالية:
--  Java Development Kit (JDK): تأكد من تثبيت JDK على جهازك. يمكنك تنزيله من[موقع جافا](https://www.oracle.com/java/technologies/javase-downloads.html).
--  Aspose.Slides for Java: قم بتنزيل مكتبة Aspose.Slides وتضمينها في مشروعك. يمكنك الحصول عليه من[هنا](https://releases.aspose.com/slides/java/).
-- بيئة التطوير المتكاملة (IDE): استخدم IDE مثل IntelliJ IDEA أو Eclipse للحصول على تجربة ترميز أفضل.
-- ملف العرض التقديمي: احصل على ملف PowerPoint يحتوي على رسومات SmartArt جاهز للمعالجة.
-## حزم الاستيراد
-أولاً، ستحتاج إلى استيراد الحزم الضرورية من Aspose.Slides. تعتبر هذه الواردات ضرورية للوصول إلى عناصر العرض التقديمي ومعالجتها.
+- مجموعة تطوير جافا (JDK): تأكد من تثبيت JDK على جهازك. يمكنك تنزيله من [موقع جافا](https://www.oracle.com/java/technologies/javase-downloads.html).
+- Aspose.Slides لجافا: نزّل مكتبة Aspose.Slides وأضِفها إلى مشروعك. يمكنك الحصول عليها من [هنا](https://releases.aspose.com/slides/java/).
+- بيئة التطوير المتكاملة (IDE): استخدم بيئة التطوير المتكاملة مثل IntelliJ IDEA أو Eclipse للحصول على تجربة برمجة أفضل.
+- ملف العرض التقديمي: احصل على ملف PowerPoint يحتوي على رسومات SmartArt جاهزة للمعالجة.
+## استيراد الحزم
+أولاً، ستحتاج إلى استيراد الحزم اللازمة من Aspose.Slides. هذه الاستيرادات ضرورية للوصول إلى عناصر العرض التقديمي ومعالجتها.
 ```java
 import com.aspose.slides.*;
 ```
-دعونا نقسم عملية الوصول إلى العقد الفرعية في SmartArt إلى خطوات بسيطة يمكن التحكم فيها.
-## الخطوة 1: إعداد بيئتك
-قبل أن تتمكن من التعامل مع العرض التقديمي، تحتاج إلى إعداد بيئة التطوير الخاصة بك عن طريق تضمين مكتبة Aspose.Slides في مشروعك.
-1.  تنزيل Aspose.Slides: احصل على المكتبة من[رابط التحميل](https://releases.aspose.com/slides/java/).
-2. تضمين المكتبة: أضف ملف JAR الذي تم تنزيله إلى مسار إنشاء مشروعك.
-## الخطوة 2: قم بتحميل العرض التقديمي
-قم بتحميل عرض PowerPoint التقديمي الذي يحتوي على رسم SmartArt الذي تريد معالجته.
+دعنا نقسم عملية الوصول إلى العقد الفرعية في SmartArt إلى خطوات بسيطة وقابلة للإدارة.
+## الخطوة 1: إعداد البيئة الخاصة بك
+قبل أن تتمكن من التعامل مع العرض التقديمي، يتعين عليك إعداد بيئة التطوير الخاصة بك عن طريق تضمين مكتبة Aspose.Slides في مشروعك.
+1. تنزيل Aspose.Slides: احصل على المكتبة من [رابط التحميل](https://releases.aspose.com/slides/java/).
+2. تضمين المكتبة: أضف ملف JAR الذي تم تنزيله إلى مسار بناء مشروعك.
+## الخطوة 2: تحميل العرض التقديمي
+قم بتحميل عرض PowerPoint الذي يحتوي على رسم SmartArt الذي تريد التعامل معه.
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "AccessChildNodes.pptx");
@@ -43,16 +45,16 @@ Presentation pres = new Presentation(dataDir + "AccessChildNodes.pptx");
 for (IShape shape : pres.getSlides().get_Item(0).getShapes()) {
     if (shape instanceof SmartArt) {
         ISmartArt smart = (ISmartArt) shape;
-        // سيتم اتباع خطوات أخرى هنا
+        // سيتم اتخاذ الخطوات التالية هنا
     }
 }
 ```
 ## الخطوة 4: اجتياز عقد SmartArt
-بمجرد أن تتمكن من الوصول إلى شكل SmartArt، قم بالتنقل عبر كافة العقد الخاصة به.
+بمجرد وصولك إلى شكل SmartArt، انتقل عبر جميع عقده.
 ```java
 for (int i = 0; i < smart.getAllNodes().size(); i++) {
     ISmartArtNode node0 = (ISmartArtNode) smart.getAllNodes().get_Item(i);
-    // سيتم اتباع خطوات أخرى هنا
+    // سيتم اتخاذ الخطوات التالية هنا
 }
 ```
 ## الخطوة 5: الوصول إلى العقد الفرعية
@@ -60,7 +62,7 @@ for (int i = 0; i < smart.getAllNodes().size(); i++) {
 ```java
 for (int j = 0; j < node0.getChildNodes().size(); j++) {
     ISmartArtNode node = (ISmartArtNode) node0.getChildNodes().get_Item(j);
-    // سيتم اتباع خطوات أخرى هنا
+    // سيتم اتخاذ الخطوات التالية هنا
 }
 ```
 ## الخطوة 6: طباعة تفاصيل العقدة
@@ -70,26 +72,28 @@ String outString = String.format("j = %d, Text = %s, Level = %d, Position = %d",
 System.out.println(outString);
 ```
 ## الخطوة 7: تنظيف الموارد
-وأخيرًا، تأكد من التخلص من كائن العرض التقديمي لتحرير الموارد.
+أخيرًا، تأكد من التخلص من كائن العرض التقديمي لتحرير الموارد.
 ```java
 if (pres != null) pres.dispose();
 ```
 ## خاتمة
-باتباع هذه الخطوات، يمكنك الوصول بكفاءة إلى العقد الفرعية ومعالجتها في SmartArt باستخدام Aspose.Slides for Java. تعمل هذه المكتبة القوية على تبسيط عملية التعامل مع عروض PowerPoint التقديمية برمجياً، مما يتيح لك إنشاء محتوى ديناميكي وتفاعلي. سواء كنت تقوم بأتمتة إنشاء التقارير أو تحسين العروض التقديمية، فإن Aspose.Slides يوفر الأدوات التي تحتاجها.
+باتباع هذه الخطوات، يمكنك الوصول إلى العقد الفرعية ومعالجتها بكفاءة في SmartArt باستخدام Aspose.Slides لجافا. تُبسّط هذه المكتبة الفعّالة عملية التعامل مع عروض PowerPoint التقديمية برمجيًا، مما يُمكّنك من إنشاء محتوى ديناميكي وتفاعلي. سواءً كنت تُؤتمت إنشاء التقارير أو تُحسّن العروض التقديمية، تُوفّر Aspose.Slides الأدوات التي تحتاجها.
 ## الأسئلة الشائعة
-### هل يمكنني التعامل مع العناصر الأخرى في العرض التقديمي باستخدام Aspose.Slides لـ Java؟
-نعم، يتيح لك Aspose.Slides for Java التعامل مع العناصر المختلفة مثل النص والأشكال والصور والمخططات داخل العرض التقديمي.
-### هل Aspose.Slides لـ Java مجاني للاستخدام؟
- يقدم Aspose.Slides for Java نسخة تجريبية مجانية. لمواصلة الاستخدام، يمكنك شراء ترخيص من[موقع إلكتروني](https://purchase.aspose.com/buy).
+### هل يمكنني التعامل مع عناصر أخرى في العرض التقديمي باستخدام Aspose.Slides لـ Java؟
+نعم، يسمح لك Aspose.Slides for Java بالتعامل مع عناصر مختلفة مثل النصوص والأشكال والصور والمخططات داخل العرض التقديمي.
+### هل استخدام Aspose.Slides لـ Java مجاني؟
+يُقدّم Aspose.Slides لجافا نسخة تجريبية مجانية. لمواصلة الاستخدام، يُمكنك شراء ترخيص من [موقع إلكتروني](https://purchase.aspose.com/buy).
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides لـ Java؟
- يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
+يمكنك الحصول على ترخيص مؤقت من [هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني العثور على الوثائق الخاصة بـ Aspose.Slides لـ Java؟
- الوثائق متاحة[هنا](https://reference.aspose.com/slides/java/).
-### ما هو أفضل بيئة تطوير متكاملة (IDE) للتطوير باستخدام Aspose.Slides لـ Java؟
-IntelliJ IDEA وEclipse هما بيئات تطوير متكاملة شائعة تعمل بشكل جيد مع Aspose.Slides لـ Java.
+الوثائق متاحة [هنا](https://reference.aspose.com/slides/java/).
+### ما هو أفضل IDE لتطوير البرامج باستخدام Aspose.Slides لـ Java؟
+IntelliJ IDEA وEclipse عبارة عن بيئات تطوير متكاملة شائعة تعمل بشكل جيد مع Aspose.Slides لـ Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

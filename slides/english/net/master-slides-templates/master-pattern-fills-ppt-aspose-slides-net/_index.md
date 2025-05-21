@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Pattern Fills in PowerPoint Using Aspose.Slides .NET
 
@@ -180,7 +182,11 @@ To further explore Aspose.Slides' capabilities, consider experimenting with othe
 - **Support Forum**: [Aspose Forums - Slides](https://forum.aspose.com/c/slides/11)
 
 Embark on your journey to create stunning presentations with Aspose.Slides for .NET today, and let your creativity flow in ways you never thought possible!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Embed Excel in PowerPoint using Aspose.Slides for .NET: A Step-by-Step Guide
 
@@ -182,6 +184,9 @@ By following this tutorial, you've learned how to embed OLE object frames in Pow
 By completing this tutorial, you're well on your way to mastering presentation automation using Aspose.Slides for .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

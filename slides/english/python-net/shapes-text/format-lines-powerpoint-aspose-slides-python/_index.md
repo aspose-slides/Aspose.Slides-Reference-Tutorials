@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Line Formatting in PowerPoint with Aspose.Slides for Python: A Complete Guide
 
@@ -212,7 +214,11 @@ Take these insights to your next presentation project and elevate its visual imp
 - **Purchase a License**: For full features, consider purchasing a license via [Aspose Purchase](https://purchase.aspose.com/buy).
 - **Free Trial**: Evaluate with a temporary license available at [Temporary License](https://purchase.aspose.com/temporary-license/).
 - **Support**: Access community help and support through the [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

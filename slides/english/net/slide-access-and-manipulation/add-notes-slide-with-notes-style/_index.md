@@ -8,7 +8,9 @@ url: /net/slide-access-and-manipulation/add-notes-slide-with-notes-style/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Stylish Notes Formatting with Aspose.Slides for .NET
@@ -119,6 +121,7 @@ Yes, you can seek help and participate in discussions on the Aspose.Slides for .
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

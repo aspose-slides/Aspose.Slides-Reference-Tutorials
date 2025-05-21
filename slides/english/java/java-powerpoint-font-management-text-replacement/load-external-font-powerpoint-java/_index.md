@@ -8,7 +8,9 @@ url: /java/java-powerpoint-font-management-text-replacement/load-external-font-p
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Load External Font in PowerPoint with Java
@@ -73,6 +75,7 @@ No, the presentation remains compatible across different PowerPoint versions as 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Implementing CAD Metered Features in Aspose.Slides Java for Effective Data Management
 
@@ -211,6 +213,9 @@ Next steps include exploring more advanced functionalities of the library or int
 With this guide, you are well-equipped to harness the power of Aspose.Slides Java and its metering features. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

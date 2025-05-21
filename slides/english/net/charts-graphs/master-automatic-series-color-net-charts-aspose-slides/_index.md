@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Automatic Series Fill Color in .NET Charts with Aspose.Slides
 
@@ -110,7 +112,11 @@ for (int i = 0; i < chart.ChartData.Series.Count; i++) {
 Save the presentation with the new chart configuration:
 ```csharp
 // Save in PPTX format\presentation.Save(dataDir + "AutoFillSeries_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

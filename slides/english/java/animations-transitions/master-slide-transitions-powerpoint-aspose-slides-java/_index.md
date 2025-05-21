@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Apply Slide Transitions in PowerPoint Using Aspose.Slides for Java
 ## Step-by-Step Guide
@@ -136,7 +138,11 @@ A5: Use `presentation.dispose()` to release memory and avoid leaks, especially a
 - **Purchase**: Consider acquiring a license through [purchase page](https://purchase.aspose.com/buy) for full functionality.
 - **Free Trial & Temporary License**: Start with a trial or obtain a temporary license at [free trial](https://releases.aspose.com/slides/java/) and [temporary license](https://purchase.aspose.com/temporary-license/).
 - **Support**: Join the community forum for assistance at [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

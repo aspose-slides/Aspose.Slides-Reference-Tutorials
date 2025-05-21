@@ -8,7 +8,9 @@ url: /net/presentation-conversion/export-presentation-to-xaml-format/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export Presentation to XAML Format
@@ -123,6 +125,7 @@ For more tutorials and resources, visit the [Aspose.Slides API documentation](ht
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

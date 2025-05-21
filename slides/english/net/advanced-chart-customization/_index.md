@@ -8,7 +8,9 @@ url: /net/advanced-chart-customization/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Advanced Chart Customization
@@ -39,9 +41,11 @@ Learn how to enhance your data visualizations using Aspose.Slides for .NET. Expl
 Learn how to create chart trend lines using Aspose.Slides for .NET. Enhance data visualizations with step-by-step guidance and code examples.
 ### [Chart Entities and Formatting](./chart-entities/)
 Learn to create and format dynamic charts in PowerPoint using Aspose.Slides for .NET. Step-by-step guide with source code.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

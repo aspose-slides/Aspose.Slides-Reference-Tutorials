@@ -8,7 +8,9 @@ url: /java/java-powerpoint-rendering-techniques/render-emojis-powerpoint/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Render Emojis in PowerPoint
@@ -62,6 +64,7 @@ Yes, you can download a free trial version of Aspose.Slides for Java from the [w
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

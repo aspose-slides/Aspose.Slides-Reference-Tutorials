@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Retrieve Chart Data Sources in PowerPoint Using Python and Aspose.Slides
 
@@ -166,7 +168,11 @@ Ready to dive deeper? Try implementing this solution in your next project and se
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Embark on your journey with Aspose.Slides and enhance your data presentation capabilities today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Stretch Offset Image Fill in PowerPoint Using Aspose.Slides for Java
 
@@ -176,7 +178,11 @@ To explore further, consider experimenting with other Aspose.Slides features lik
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 By following this guide, you're equipped to create powerful presentations with dynamic image fills using Aspose.Slides for Java. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

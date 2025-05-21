@@ -8,7 +8,9 @@ url: /java/data-manipulation/chart-data-cell-formulas-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chart Data Cell Formulas in Java Slides
@@ -132,6 +134,7 @@ You can change the chart type by using the `setChartType` method on the `IChart`
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

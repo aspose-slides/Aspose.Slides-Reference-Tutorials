@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-font-customization/set-anchor-text-frame-powerpo
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Anchor of Text Frame in PowerPoint with Java
@@ -81,6 +83,7 @@ You can visit the support forum [here](https://forum.aspose.com/c/slides/11) for
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint Charts Creation with Aspose.Slides for Python - Step-by-Step Guide
 
@@ -190,6 +192,9 @@ You've learned how to initialize a PowerPoint presentation, add and format chart
 - [Free Trial Version](https://releases.aspose.com/slides/python-net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

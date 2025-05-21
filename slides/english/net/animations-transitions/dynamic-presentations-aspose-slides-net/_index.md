@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Dynamic Presentations with Aspose.Slides .NET: Automating Slide Creation
 ## Introduction
@@ -168,7 +170,11 @@ As next steps, consider exploring more advanced features of Aspose.Slides, like 
 - **Purchase**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)
 - **Free Trial**: [Try Aspose.Slides for Free](https://releases.aspose.com/slides/net/)
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

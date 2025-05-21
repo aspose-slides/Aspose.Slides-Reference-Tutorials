@@ -8,7 +8,9 @@ url: /java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-ta
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set First Row as Header in PowerPoint Table with Java
@@ -86,6 +88,7 @@ You can get community support [here](https://forum.aspose.com/c/slides/11).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

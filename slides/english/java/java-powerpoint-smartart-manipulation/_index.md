@@ -8,7 +8,9 @@ url: /java/java-powerpoint-smartart-manipulation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java PowerPoint SmartArt Manipulation
@@ -81,6 +83,7 @@ Learn how to remove a node at a specific position within SmartArt using Aspose.S
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

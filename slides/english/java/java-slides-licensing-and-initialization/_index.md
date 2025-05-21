@@ -8,7 +8,9 @@ url: /java/licensing-and-initialization/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Slides Licensing and Initialization
@@ -44,9 +46,11 @@ In conclusion, licensing and initializing Aspose.Slides for Java are the fundame
 ## Java Slides Licensing and Initialization Tutorials
 ### [Metered Licensing in Java Slides](./metered-licensing-java-slides/)
 Optimize your Aspose.Slides for Java usage with Metered Licensing. Learn how to set it up and monitor your API consumption.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

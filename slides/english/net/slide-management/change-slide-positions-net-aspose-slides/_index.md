@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Change Slide Positions in .NET with Aspose.Slides for PowerPoint
 
@@ -142,7 +144,11 @@ A5: Beyond slide manipulation, you can add animations, integrate multimedia cont
 - **Free Trial:** [Start with Aspose.Slides Free Trial](https://releases.aspose.com/slides/net/)
 - **Temporary License:** [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support:** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

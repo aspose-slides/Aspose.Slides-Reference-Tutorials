@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Chart Creation in PowerPoint Using Aspose.Slides for Python
 
@@ -114,7 +116,11 @@ After making changes to your chart, save your presentation:
 
 ```python
 pres.save("YOUR_OUTPUT_DIRECTORY/charts_switching_rows_and_columns_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

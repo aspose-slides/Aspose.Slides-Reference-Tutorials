@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Retrieve and Display Duotone Colors with Aspose.Slides for Python
 
@@ -153,7 +155,11 @@ You've learned how to retrieve and display effective duotone colors using Aspose
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 We hope this tutorial has been helpful! Try implementing the solution to see how it can transform your presentations.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Embed YouTube Videos in PowerPoint with Aspose.Slides for Java
 
@@ -163,6 +165,9 @@ By now, you should have a solid understanding of how to embed YouTube videos int
 By following this guide, you'll be well-equipped to enhance your presentations with dynamic video content using Aspose.Slides for Java. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

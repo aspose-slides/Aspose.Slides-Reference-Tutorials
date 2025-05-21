@@ -8,7 +8,9 @@ url: /net/additional-chart-features/chart-get-range/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # How to Get Chart Data Range in Aspose.Slides for .NET
@@ -103,6 +105,7 @@ You can get support and assistance from the Aspose community on their [support f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

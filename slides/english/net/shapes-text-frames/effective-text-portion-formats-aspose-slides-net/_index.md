@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Text & Portion Formats in PowerPoint with Aspose.Slides for .NET
 ## Shapes & Text Frames
@@ -149,7 +151,11 @@ Aspose.Slides supports various formats like PPT, PPTX, and others, ensuring comp
 - **Support Forum:** [Aspose Support](https://forum.aspose.com/c/slides/11)
 
 Embark on your journey with Aspose.Slides for .NET and take full control of PowerPoint presentations programmatically!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

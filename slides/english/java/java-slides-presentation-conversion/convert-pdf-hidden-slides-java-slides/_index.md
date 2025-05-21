@@ -8,7 +8,9 @@ url: /java/presentation-conversion/convert-pdf-hidden-slides-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert to PDF with Hidden Slides in Java Slides
@@ -125,6 +127,7 @@ You can download Aspose.Slides for Java from the Aspose website. Visit the [Aspo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

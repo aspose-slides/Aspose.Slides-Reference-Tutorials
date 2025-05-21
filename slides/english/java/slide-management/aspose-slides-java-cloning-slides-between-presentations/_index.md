@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Efficiently Cloning Slides Between Presentations with Aspose.Slides Java API
 
@@ -196,7 +198,11 @@ Ready to take the next step? Try implementing this solution in your projects tod
 - [Purchase Aspose.Slides Subscriptions](https://purchase.aspose.com/buy)
 - [Free Trial and Temporary License Information](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

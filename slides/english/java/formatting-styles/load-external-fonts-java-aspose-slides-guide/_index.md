@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Load External Fonts in Java Using Aspose.Slides: A Step-by-Step Guide
 
@@ -180,7 +182,11 @@ When working with external resources like fonts, consider:
 
 ## Conclusion
 You've now learned how to load external fonts into Aspose.Slides for Java, enhancing your presentations' visual appeal. By following these steps, you can integrate custom typefaces seamlessly, adding a professional touch to your documents.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

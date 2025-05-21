@@ -8,7 +8,9 @@ url: /java/animation-and-layout/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Slides Animation and Layout
@@ -48,9 +50,11 @@ Optimize your Java presentations with Aspose.Slides for Java. Learn how to anima
 Optimize your presentations with series animations in Aspose.Slides for Java. Follow our step-by-step guide with source code examples to create engaging PowerPoint animations.
 ### [Animating Series Elements in Java Slides](./animating-series-elements-java-slides/)
 Learn how to animate series elements in PowerPoint slides using Aspose.Slides for Java. Follow this comprehensive step-by-step guide with source code to enhance your presentations.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

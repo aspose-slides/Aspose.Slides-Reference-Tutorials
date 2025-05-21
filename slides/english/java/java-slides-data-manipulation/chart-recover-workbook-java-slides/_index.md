@@ -8,7 +8,9 @@ url: /java/data-manipulation/chart-recover-workbook-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chart Recover Workbook in Java Slides
@@ -119,6 +121,7 @@ For detailed documentation and references on Aspose.Slides for Java, visit the d
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

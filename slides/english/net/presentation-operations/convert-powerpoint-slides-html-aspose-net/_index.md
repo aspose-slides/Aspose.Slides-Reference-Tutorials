@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PowerPoint to HTML with Aspose.Slides for .NET
 
@@ -204,7 +206,11 @@ Try implementing this solution in your next project and see the difference it ma
 - Download: [Releases Page](https://releases.aspose.com/slides/net/)
 - Purchase: [Buy Now](https://purchase.aspose.com/buy)
 - Free Trial: [Try for Free](https://purchase.aspose.com/trial)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

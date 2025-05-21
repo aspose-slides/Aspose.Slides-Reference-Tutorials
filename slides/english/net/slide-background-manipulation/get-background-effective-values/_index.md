@@ -8,7 +8,9 @@ url: /net/slide-background-manipulation/get-background-effective-values/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Effective Background Values of a Slide
@@ -122,6 +124,7 @@ You can get support and ask questions in the [Aspose.Slides forum](https://forum
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

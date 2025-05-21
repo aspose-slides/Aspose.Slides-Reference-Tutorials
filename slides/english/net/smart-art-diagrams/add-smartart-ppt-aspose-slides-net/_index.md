@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add SmartArt to PowerPoint Using Aspose.Slides for .NET
 Unlock the power of professional presentations effortlessly with Aspose.Slides for .NET! This comprehensive tutorial will guide you through creating a PowerPoint presentation and enhancing it with visually appealing SmartArt graphics using the Aspose.Slides library. Whether you're a seasoned developer or new to C# programming, this step-by-step guide is designed to help you seamlessly integrate SmartArt into your presentations.
@@ -181,7 +183,11 @@ In this tutorial, you've learned how to create a new presentation, add SmartArt 
 - [Aspose.Slides Documentation](https://docs.aspose.com/slides/net/)
 - [NuGet Package Aspose.Slides](https://www.nuget.org/packages/Aspose.Slides.NET/) 
 - [Aspose License Information](https://purchase.aspose.com/buy),
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

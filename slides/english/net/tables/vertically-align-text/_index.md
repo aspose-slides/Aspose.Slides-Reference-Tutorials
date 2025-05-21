@@ -6,8 +6,11 @@ description: A comprehensive guide to implementing custom table formatting and v
 keywords: [Aspose.Slides, PowerPoint, .NET, tables, vertical text, text alignment, C#, presentation formatting]
 url: /net/tables/vertically-align-text/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Tables with Vertical Text in PowerPoint Presentations
@@ -15,9 +18,11 @@ url: /net/tables/vertically-align-text/
 Aspose.Slides for .NET provides powerful capabilities for programmatically creating and manipulating PowerPoint presentations. This example demonstrates how to create a table with customized formatting, including vertical text alignment and rotation - a common requirement for specialized business presentations and data visualization.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/tables/vertically-align-text" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -42,7 +47,9 @@ Aspose.Slides for .NET provides powerful capabilities for programmatically creat
    - [Developer Guide](https://docs.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

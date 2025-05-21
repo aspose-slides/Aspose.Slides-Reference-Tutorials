@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Columns in a Text Frame Using Aspose.Slides for Python
 
@@ -160,7 +162,11 @@ By now, you should have a solid understanding of how to add columns in text fram
 - **Temporary License**: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 
 Happy presenting, and feel free to experiment with Aspose.Slides to elevate your PowerPoint presentations!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

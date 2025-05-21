@@ -8,7 +8,9 @@ url: /java/java-powerpoint-table-manipulation/create-table-from-scratch-powerpoi
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Table from Scratch in PowerPoint with Java
@@ -96,6 +98,7 @@ The documentation is available [here](https://reference.aspose.com/slides/java/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Manage PowerPoint Headers and Footers with Aspose.Slides in Python
 
@@ -186,6 +188,9 @@ A5: Use Python scripts to modify presentations programmatically, integrating dat
 By following this guide, you can efficiently manage presentation elements using Aspose.Slides for Python and create professional slides with ease. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

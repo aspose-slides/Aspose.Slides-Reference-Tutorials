@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Fill Shapes with Patterns in Aspose.Slides for Python
 
@@ -154,7 +156,11 @@ We encourage you to apply these skills in your next project and see how much mor
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Explore these resources to deepen your understanding of Aspose.Slides for Python, and don't hesitate to join the community forums if you need further assistance. Enjoy creating stunning presentations!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

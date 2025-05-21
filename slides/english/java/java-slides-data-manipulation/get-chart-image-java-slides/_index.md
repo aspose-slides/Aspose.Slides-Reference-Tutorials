@@ -8,7 +8,9 @@ url: /java/data-manipulation/get-chart-image-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Chart Image in Java Slides
@@ -102,6 +104,7 @@ Certainly! You can save the chart image in various formats, such as JPEG or GIF,
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

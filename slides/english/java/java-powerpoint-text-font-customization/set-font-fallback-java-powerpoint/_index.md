@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-font-customization/set-font-fallback-java-powerp
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Font Fallback in Java PowerPoint
@@ -63,6 +65,7 @@ For support related to Aspose.Slides for Java, visit the [Aspose forum](https://
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Optimize PowerPoint Presentations with Aspose.Slides Java
 
@@ -178,6 +180,9 @@ As a next step, explore additional functionalities of Aspose.Slides such as slid
 With this comprehensive guide, you're now ready to optimize your PowerPoint presentations using Aspose.Slides in Java. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

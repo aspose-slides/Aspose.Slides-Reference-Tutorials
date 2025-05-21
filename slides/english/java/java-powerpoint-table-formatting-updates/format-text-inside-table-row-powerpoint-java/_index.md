@@ -8,7 +8,9 @@ url: /java/java-powerpoint-table-formatting-updates/format-text-inside-table-row
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Format Text Inside Table Row in PowerPoint with Java
@@ -95,6 +97,7 @@ Aspose.Slides for Java supports a variety of formats including PPT, PPTX, ODP, a
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

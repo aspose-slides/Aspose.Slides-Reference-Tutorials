@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Embed OLE Objects in PowerPoint Using Aspose.Slides .NET: A Developer's Guide
 
@@ -118,7 +120,11 @@ Learn how to save your modified presentation to a desired format using Aspose.Sl
 ```csharp
 string outputDir = \@"YOUR_OUTPUT_DIRECTORY";
 pres.Save(outputDir + "SetFileTypeForAnEmbeddingObject.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/shape-geometry-and-positioning-in-slides/hiding-shapes/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hide Shapes in PowerPoint with Aspose.Slides .NET Tutorial
@@ -83,6 +85,7 @@ Join the Aspose.Slides community on the [forum](https://forum.aspose.com/c/slide
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

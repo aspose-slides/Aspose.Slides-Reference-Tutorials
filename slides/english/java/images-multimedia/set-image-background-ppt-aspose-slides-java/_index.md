@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set an Image as a Background in PowerPoint Using Aspose.Slides for Java
 
@@ -166,6 +168,9 @@ A: Visit [Aspose's temporary license page](https://purchase.aspose.com/temporary
 With this guide, you're now equipped to enhance your PowerPoint presentations using Aspose.Slides for Java. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

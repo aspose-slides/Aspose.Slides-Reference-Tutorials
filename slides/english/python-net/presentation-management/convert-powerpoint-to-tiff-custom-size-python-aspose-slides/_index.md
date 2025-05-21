@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PowerPoint Presentations to TIFF with Custom Dimensions Using Aspose.Slides for Python
 
@@ -107,7 +109,11 @@ Finally, save your presentation as a TIFF file:
 ```python
         # Specify the output directory and file name
         pres.save("YOUR_OUTPUT_DIRECTORY/convert_to_tiff_custom_size_out.tiff\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

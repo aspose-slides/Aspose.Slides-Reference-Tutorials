@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Retrieve Light Rig Data from a PowerPoint Slide Using Aspose.Slides for Java
 
@@ -159,6 +161,9 @@ You've learned how to retrieve light rig effective data from PowerPoint slides u
 Explore these resources to deepen your understanding of Aspose.Slides for Java. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

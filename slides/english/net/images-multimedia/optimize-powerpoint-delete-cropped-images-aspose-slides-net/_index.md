@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Delete Cropped Image Areas in PowerPoint Using Aspose.Slides .NET
 
@@ -163,7 +165,11 @@ You've now learned how to efficiently delete cropped image areas from PowerPoint
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 Feel free to explore these resources and ask questions in the support forum if you encounter any challenges. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

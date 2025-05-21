@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Stock Charts in Aspose.Slides .NET: A Comprehensive Guide
 
@@ -192,6 +194,9 @@ Mastering stock charts with Aspose.Slides .NET allows you to create dynamic and 
 - "financial reporting visualization"
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

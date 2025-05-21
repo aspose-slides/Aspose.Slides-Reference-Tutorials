@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides for Python: Adding Trend Lines to Charts in Presentations
 
@@ -251,6 +253,9 @@ save_presentation_with_trend_lines()
 By following this guide, you've learned how to use Aspose.Slides for Python to create and customize trend lines in charts within presentations. These techniques can significantly enhance the visual appeal and analytical depth of your data-driven slides.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

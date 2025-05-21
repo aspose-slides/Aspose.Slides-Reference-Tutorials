@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PPT to PPTX with Aspose.Slides for .NET: A Step-by-Step Guide
 
@@ -157,7 +159,11 @@ A5: Yes, Aspose.Slides is available for multiple platforms including Java, Pytho
 - **Support**: [Aspose Forum Support](https://forum.aspose.com/c/slides/11)
 
 With this guide, you're equipped to efficiently convert PPT files to PPTX using Aspose.Slides for .NET. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

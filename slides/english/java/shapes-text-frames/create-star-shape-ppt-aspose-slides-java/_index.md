@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Custom Star Shapes in PowerPoint Using Aspose.Slides for Java
 ## Introduction
@@ -167,7 +169,11 @@ A3: Loop through the slides using `pres.getSlides()` and apply the same logic fo
 
 **Q4: How can I change the color of the star shape?**
 A4: Use Aspose.Slides' fill format settings to customize colors and styles after creating the shape.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

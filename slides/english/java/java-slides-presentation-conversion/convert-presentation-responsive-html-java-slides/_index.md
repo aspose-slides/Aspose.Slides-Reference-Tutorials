@@ -8,7 +8,9 @@ url: /java/presentation-conversion/convert-presentation-responsive-html-java-sli
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Presentation to Responsive HTML in Java Slides
@@ -118,6 +120,7 @@ Yes, Aspose.Slides supports a wide range of output formats, including PDF, image
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

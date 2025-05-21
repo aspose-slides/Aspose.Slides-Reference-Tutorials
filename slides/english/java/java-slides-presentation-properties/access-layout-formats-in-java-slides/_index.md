@@ -8,7 +8,9 @@ url: /java/presentation-properties/access-layout-formats-in-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Access Layout Formats in Java Slides
@@ -148,6 +150,7 @@ You can then use the `IFillFormat` and `ILineFormat` methods as shown in the pre
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

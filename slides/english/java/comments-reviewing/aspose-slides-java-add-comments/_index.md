@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Comments in Presentations Using Aspose.Slides Java
 
@@ -258,7 +260,11 @@ try {
 ## Conclusion
 
 Adding comments to presentations with Aspose.Slides Java is a powerful way to enhance collaboration and feedback mechanisms. By following this guide, you now have the tools needed to efficiently manage presentation comments. Continue exploring Aspose.Slides features to further improve your presentation workflows.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Segments to Geometry Shapes in Aspose.Slides for .NET: A Step-by-Step Guide
 
@@ -156,7 +158,11 @@ A5: Visit [Aspose's releases page](https://releases.aspose.com/slides/net/) to d
 - **Free Trial**: Start exploring with a free trial on [Aspose's releases page](https://releases.aspose.com/slides/net/).
 - **Temporary License**: Request it [here](https://purchase.aspose.com/temporary-license/).
 - **Support**: Join the community and seek help at [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

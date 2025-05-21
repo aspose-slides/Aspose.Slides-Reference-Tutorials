@@ -6,8 +6,11 @@ description: Learn how to create professionally formatted tables in PowerPoint p
 keywords: [Aspose.Slides, PowerPoint, .NET, C#, table formatting, presentation automation, custom borders, PPTX]
 url: /net/tables/standard-tables/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Standardized Tables in PowerPoint with Aspose.Slides
@@ -15,9 +18,11 @@ url: /net/tables/standard-tables/
 Aspose.Slides for .NET is a powerful API that allows developers to create, read, write, modify, and convert PowerPoint presentations programmatically without requiring Microsoft PowerPoint. This example shows how to create a standardized table with custom-formatted borders in a PowerPoint presentation.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/tables/standard-tables" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -44,7 +49,9 @@ Aspose.Slides for .NET is a powerful API that allows developers to create, read,
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

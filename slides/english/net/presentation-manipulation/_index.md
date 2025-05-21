@@ -8,7 +8,9 @@ url: /net/presentation-manipulation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Presentation Manipulation
@@ -61,6 +63,7 @@ Optimize your presentations with stunning SVGs using Aspose.Slides for .NET. Lea
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

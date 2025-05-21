@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add SVG to PPTX in Java Using Aspose.Slides: Step-by-Step Guide
 
@@ -183,7 +185,11 @@ By following this guide, you've learned how to seamlessly integrate SVG images i
 - "Add SVG to PPTX"
 - "Java Aspose.Slides integration"
 - "Embedding SVG in PowerPoint"
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

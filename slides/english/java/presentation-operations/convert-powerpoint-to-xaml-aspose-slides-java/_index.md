@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Convert PowerPoint Presentations to XAML Using Aspose.Slides Java for Modern UI Development
 
@@ -176,7 +178,11 @@ For more detailed information and support:
 - **Free Trial**: Start with a free trial to test Aspose.Slides' capabilities.
 - **Temporary License**: Obtain a temporary license for extended use.
 - **Support**: Visit the [Aspose forums](https://forum.aspose.com/c/slides/11) for community and professional assistance.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

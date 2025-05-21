@@ -8,7 +8,9 @@ url: /java/additional-utilities/open-password-protected-presentation-in-java-sli
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Open Password-Protected Presentation in Java Slides
@@ -123,6 +125,7 @@ You can find comprehensive documentation and additional examples in the [Aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -4,8 +4,11 @@ description: "Learn to add and manipulate images, audio, video, and multimedia e
 weight: 8
 url: "/python-net/images-multimedia/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Images and Multimedia Tutorials for Aspose.Slides Python
 
@@ -119,7 +122,11 @@ Learn how to seamlessly trim and embed videos into PowerPoint presentations usin
 - [Download Aspose.Slides for Python-net](https://releases.aspose.com/slides/python-net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

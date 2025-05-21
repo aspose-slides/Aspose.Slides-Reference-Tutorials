@@ -8,7 +8,9 @@ url: /java/chart-creation/radar-chart-creating-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Radar Chart Creating in Java Slides
@@ -278,6 +280,7 @@ You can change the output format by modifying the file extension in the `outPath
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

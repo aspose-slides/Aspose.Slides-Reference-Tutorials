@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Customize Pie Charts in .NET Presentations Using Aspose.Slides
 
@@ -244,7 +246,11 @@ You have now learned how to create and customize pie charts in .NET presentation
 To further explore the capabilities of Aspose.Slides for .NET, consider diving into additional features such as creating other chart types or integrating more complex design elements into your slides.
 
 Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/chart-data-manipulation/histogram-chart-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Histogram Chart in Java Slides
@@ -122,6 +124,7 @@ Yes, you can customize the appearance of the chart, including its colors, labels
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

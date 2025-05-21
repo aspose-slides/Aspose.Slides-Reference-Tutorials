@@ -8,7 +8,9 @@ url: /net/chart-formatting-and-animation/animating-categories-elements/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Powerful Chart Animations with Aspose.Slides for .NET
@@ -134,6 +136,7 @@ Yes, you can find a supportive community forum for Aspose.Slides for .NET [here]
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

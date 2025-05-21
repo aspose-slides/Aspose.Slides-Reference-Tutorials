@@ -8,7 +8,9 @@ url: /net/shape-effects-and-manipulation-in-slides/adding-ole-object-frames/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding OLE Object Frames to Presentation with Aspose.Slides
@@ -94,6 +96,7 @@ A: Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for com
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

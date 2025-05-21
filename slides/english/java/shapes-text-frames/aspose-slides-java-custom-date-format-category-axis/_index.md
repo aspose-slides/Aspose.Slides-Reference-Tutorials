@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set a Custom Date Format on the Category Axis in Aspose.Slides Java | Data Visualization Guide
 
@@ -190,7 +192,11 @@ Customizing date formats can be particularly useful in scenarios like:
 - **Project Timelines:** Highlighting specific time frames or milestones.
 
 By following this guide, you'll be able to enhance your presentations with precise and visually appealing date formats using Aspose.Slides for Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

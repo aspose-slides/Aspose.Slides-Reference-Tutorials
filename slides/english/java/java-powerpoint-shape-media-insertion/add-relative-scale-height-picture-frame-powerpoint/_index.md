@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-media-insertion/add-relative-scale-height-pictu
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Relative Scale Height Picture Frame in PowerPoint
@@ -78,6 +80,7 @@ Yes, you can visit the Aspose.Slides forum for any questions, discussions, or as
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

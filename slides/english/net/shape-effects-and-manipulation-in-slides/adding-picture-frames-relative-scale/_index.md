@@ -8,7 +8,9 @@ url: /net/shape-effects-and-manipulation-in-slides/adding-picture-frames-relativ
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Picture Frames Tutorial with Aspose.Slides .NET
@@ -74,6 +76,7 @@ You can buy Aspose.Slides for .NET from the [purchase page](https://purchase.asp
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

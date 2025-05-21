@@ -8,7 +8,9 @@ url: /java/additional-utilities/load-format-enumeration-in-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Load Format Enumeration in Java Slides
@@ -79,6 +81,7 @@ Yes, Aspose.Slides for Java is suitable for commercial projects. It provides a r
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

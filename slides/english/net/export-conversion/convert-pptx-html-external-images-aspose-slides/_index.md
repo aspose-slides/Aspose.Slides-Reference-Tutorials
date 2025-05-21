@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Convert PPTX to HTML with External Images Using Aspose.Slides for .NET
 
@@ -166,7 +168,11 @@ A: Aspose.Slides efficiently processes large files, but ensure your system has a
 - **Support Forum:** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Implement this solution in your projects to enhance the accessibility and usability of presentations on web platforms. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

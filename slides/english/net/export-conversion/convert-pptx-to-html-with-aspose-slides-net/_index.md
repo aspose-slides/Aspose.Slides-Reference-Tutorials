@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Convert PowerPoint Presentations to HTML with Original Fonts Using Aspose.Slides .NET
 
@@ -156,7 +158,11 @@ Ready to take your presentation skills online? Give this solution a try today!
 - [Free Trial Download](https://releases.aspose.com/slides/net/)
 - [Temporary License Application](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

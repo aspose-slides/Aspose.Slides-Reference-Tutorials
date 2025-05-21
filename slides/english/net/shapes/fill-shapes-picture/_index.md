@@ -6,8 +6,11 @@ description: Learn how to create PowerPoint presentations with rectangle shapes 
 keywords: [Aspose.Slides, .NET, PowerPoint, Rectangle Shape, Image Fill, Tiled Image, PictureFillMode, C#]
 url: /net/shapes/fill-shapes-picture/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Shapes with Tiled Image Fill in PowerPoint using Aspose.Slides
@@ -15,9 +18,11 @@ url: /net/shapes/fill-shapes-picture/
 Aspose.Slides for .NET provides powerful capabilities for creating and manipulating PowerPoint presentations programmatically. This example demonstrates how to create a rectangle shape and fill it with a tiled image pattern. The tiled image fill is particularly useful for creating textured backgrounds, watermarks, or decorative elements within your presentations.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/shapes/fill-shapes-picture" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -41,7 +46,9 @@ Aspose.Slides for .NET provides powerful capabilities for creating and manipulat
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

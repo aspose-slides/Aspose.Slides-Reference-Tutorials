@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Rotate Shapes in PowerPoint Using Aspose.Slides for Python
 
@@ -169,7 +171,11 @@ A5: Set `shape.rotation` to your desired degree value, ensuring it's within a 0-
 - **Support**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Dive into these resources to deepen your understanding and expand your skills with Aspose.Slides for Python!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

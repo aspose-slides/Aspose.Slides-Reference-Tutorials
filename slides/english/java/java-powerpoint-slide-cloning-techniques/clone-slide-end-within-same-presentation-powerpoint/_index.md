@@ -8,7 +8,9 @@ url: /java/java-powerpoint-slide-cloning-techniques/clone-slide-end-within-same-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Clone Slide to End within Same Presentation
@@ -74,6 +76,7 @@ Yes, Aspose.Slides for Java supports converting presentations to various formats
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

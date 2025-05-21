@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Secure PDFs with Aspose.Slides for Java: An Access Permissions Guide
 
@@ -167,7 +169,11 @@ To continue exploring, consider experimenting with different settings or integra
 - **Free Trial & Temporary License**: [Try Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 
 Start securing your PDFs with confidence using Aspose.Slides for Java today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/java-powerpoint-animation-shape-manipulation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java PowerPoint Animation and Shape Manipulation
@@ -96,9 +98,11 @@ Learn how to apply Duotone effects to images in PowerPoint using Aspose.Slides f
 Learn how to embed video frames in PowerPoint using Aspose.Slides for Java with this step-by-step tutorial. Enhance your presentations easily.
 ### [Extract Embedded File Data from OLE Object in PowerPoint](./extract-embedded-file-data-ole-object-powerpoint/)
 Learn how to extract embedded file data from PowerPoint presentations using Aspose.Slides for Java, enhancing document management capabilities.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

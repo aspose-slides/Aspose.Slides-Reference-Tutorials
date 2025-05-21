@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Access and Manipulate SmartArt in Python Using Aspose.Slides
 
@@ -174,7 +176,11 @@ For further exploration, try implementing additional functionalities like modify
 - **Support Forum:** [Aspose Slides Support](https://forum.aspose.com/c/slides/11)
 
 Embark on your journey to master Aspose.Slides for Python and unlock the full potential of presentation automation!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

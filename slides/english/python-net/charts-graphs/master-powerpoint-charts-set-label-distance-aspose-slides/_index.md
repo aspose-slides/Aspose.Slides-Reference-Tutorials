@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering PowerPoint Charts: Setting Category Axis Label Distance with Aspose.Slides for Python
 
@@ -190,6 +192,9 @@ Next steps could include exploring other chart customization options or integrat
 Embrace the power of Aspose.Slides to enhance your presentations, and don't hesitate to explore further possibilities with this versatile tool. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

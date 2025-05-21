@@ -8,7 +8,9 @@ url: /net/slide-access-and-manipulation/clone-slide-into-specified-section/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Duplicate Slide into Designated Section within Presentation
@@ -115,9 +117,11 @@ If you need a temporary license for a specific project, visit [this link](https:
 ### 5. Where can I seek help and support for Aspose.Slides for .NET?
 
 For any questions or issues, you can visit the [Aspose.Slides for .NET support forum](https://forum.aspose.com/). The community and experts there can assist you with your queries.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

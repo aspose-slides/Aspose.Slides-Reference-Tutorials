@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Retrieve Effective Table Values Using Aspose.Slides .NET: A Comprehensive Guide for Developers
 
@@ -185,7 +187,11 @@ A5: Efficient memory management and resource usage are crucial. Always close or 
 - **Documentation:** [Aspose.Slides for .NET Reference](https://reference.aspose.com/slides/net/)
 - **Download:** [Releases Aspose.Slides for .NET](https://releases.aspose.com/slides/net/)
 - **Purchase:** [Buy Aspose.Slides](https://purchase.aspose.com/buy)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -6,8 +6,11 @@ description: Learn how to create custom shapes in PowerPoint by manipulating geo
 keywords: [Aspose.Slides, PowerPoint, .NET, geometry path, shape manipulation, custom shapes, segment removal, C#]
 url: /net/shapes/geometry-shape-remove-segment/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Modify Geometry Paths in PowerPoint Shapes with Aspose.Slides
@@ -17,9 +20,11 @@ Aspose.Slides for .NET provides powerful capabilities for programmatically modif
 The geometry path defines the outline of a shape through a series of points and segments. By accessing and modifying these paths, developers can create highly customized shapes that aren't available in the standard PowerPoint shape library.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/shapes/geometry-shape-remove-segment" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -51,7 +56,9 @@ The geometry path defines the outline of a shape through a series of points and 
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

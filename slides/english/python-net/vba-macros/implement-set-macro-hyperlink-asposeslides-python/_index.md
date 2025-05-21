@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Implement Set Macro Hyperlink Click in Aspose.Slides Using Python: A Step-by-Step Guide
 
@@ -167,6 +169,9 @@ A5: Aspose.Slides supports a wide range of PowerPoint formats, but always verify
 We hope this guide empowers you to make your presentations more interactive and efficient. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

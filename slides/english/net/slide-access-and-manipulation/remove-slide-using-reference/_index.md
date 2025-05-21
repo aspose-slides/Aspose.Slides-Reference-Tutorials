@@ -8,7 +8,9 @@ url: /net/slide-access-and-manipulation/remove-slide-using-reference/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Delete Slide via Reference
@@ -111,6 +113,7 @@ Once a slide is removed, it cannot be easily undone. It's advisable to keep back
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

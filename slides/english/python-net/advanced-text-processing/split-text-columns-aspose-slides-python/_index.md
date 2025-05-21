@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Split Text into Columns Using Aspose.Slides for Python: A Step-by-Step Guide
 
@@ -143,7 +145,11 @@ Ready to implement this solution? Give it a try and see the difference it makes 
 - **Free Trial:** Start with an evaluation at [Aspose Free Trial](https://releases.aspose.com/slides/python-net/)
 - **Temporary License:** Request your license [here](https://purchase.aspose.com/temporary-license/)
 - **Support:** Join the community discussions on the [Aspose Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

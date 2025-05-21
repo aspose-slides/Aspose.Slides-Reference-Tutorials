@@ -13,7 +13,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate Chart Creation with Aspose.Slides in Python: A Complete Guide
 
@@ -161,7 +163,11 @@ In this tutorial, you've learned how to create and validate a chart layout using
 - **Support**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Start exploring Aspose.Slides for Python today and take your presentation skills to the next level!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

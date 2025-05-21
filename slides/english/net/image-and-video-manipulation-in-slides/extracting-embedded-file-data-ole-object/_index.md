@@ -8,7 +8,9 @@ url: /net/image-and-video-manipulation-in-slides/extracting-embedded-file-data-o
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides for .NET - Extracting OLE Object Data Tutorial
@@ -91,6 +93,7 @@ Visit the Aspose.Slides support forum [here](https://forum.aspose.com/c/slides/1
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

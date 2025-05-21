@@ -13,7 +13,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create & Customize Charts with Aspose.Slides .NET: Display Percentages as Labels
 
@@ -195,7 +197,11 @@ A2: Yes, it can be integrated into ASP.NET applications. Ensure proper server re
 
 **Q3: Is it possible to export charts created with Aspose.Slides to other formats?**
 A3: Absolutely! You can export presentations containing your customized charts to various formats such as PDF and image files using the library's capabilities.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/presentation-conversion/convert-to-animation-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert to Animation in Java Slides
@@ -141,6 +143,7 @@ You can find extensive documentation and resources for Aspose.Slides for Java on
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/chart-data-manipulation/add-error-bars-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Error Bars in Java Slides
@@ -138,6 +140,7 @@ You can refer to the [Aspose.Slides for Java documentation](https://reference.as
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

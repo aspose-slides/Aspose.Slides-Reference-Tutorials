@@ -4,8 +4,11 @@ description: "Learn to create and customize SmartArt graphics, diagrams, and vis
 weight: 8
 url: "/net/smart-art-diagrams/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint SmartArt and Diagrams Tutorials for Aspose.Slides .NET
 
@@ -83,7 +86,11 @@ Learn to enhance your .NET presentations by manipulating SmartArt with Aspose.Sl
 - [Download Aspose.Slides for Net](https://releases.aspose.com/slides/net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

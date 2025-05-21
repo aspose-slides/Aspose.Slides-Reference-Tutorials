@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Hyperlink Extraction in PowerPoint Using Aspose.Slides for .NET
 
@@ -172,7 +174,11 @@ You've learned how to set up Aspose.Slides, extract fake and real hyperlinks fro
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 This tutorial provides a structured approach to mastering hyperlink extraction in PowerPoint files using Aspose.Slides for .NET, enabling you to handle complex document automation tasks efficiently.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

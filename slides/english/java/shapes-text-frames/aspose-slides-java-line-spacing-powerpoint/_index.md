@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Line Spacing in PowerPoint Presentations Using Aspose.Slides Java
 
@@ -145,7 +147,11 @@ A5: Monitor memory usage, optimize the number of slides loaded at once, and ensu
 - **Download**: Get the latest library versions from [Aspose.Slides Releases](https://releases.aspose.com/slides/java/).
 - **Purchase**: Learn more about purchasing options at [Buy Aspose.Slides](https://purchase.aspose.com/buy).
 - **Free Trial and Temporary License**: Test features with a temporary license by visiting [Temporary License](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

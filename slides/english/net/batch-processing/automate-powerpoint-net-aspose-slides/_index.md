@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering .NET PowerPoint Automation: Load & Animate with Aspose.Slides
 
@@ -166,6 +168,9 @@ A5: Explore the official [Aspose.Slides documentation](https://reference.aspose.
 Happy automating! Explore the possibilities with Aspose.Slides and bring your presentations to life programmatically.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Header and Footer Management in Python Presentations with Aspose.Slides
 
@@ -183,7 +185,11 @@ Experiment with other features of Aspose.Slides to further customize your presen
 ## FAQ Section (H2)
 1. **How do I set a custom footer text?**
    - Use the `set_footer_and_child_footers_text` method with your desired text as the parameter.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

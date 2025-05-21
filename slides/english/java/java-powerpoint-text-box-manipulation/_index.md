@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-box-manipulation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java PowerPoint Text Box Manipulation
@@ -58,9 +60,11 @@ Learn how to customize rotation angles for text frames in Java PowerPoint using 
 Learn how to apply bullet fill formats in Java PowerPoint using Aspose.Slides for Java. Master bullet styles and enhance your presentations.
 ### [Effect Text Box Paragraph in Java PowerPoint](./effect-text-box-paragraph-java-powerpoint/)
 Learn how to enhance PowerPoint presentations in Java with dynamic text effects using Aspose.Slides for seamless integration and customization.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

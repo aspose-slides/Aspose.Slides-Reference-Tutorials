@@ -8,7 +8,9 @@ url: /java/data-manipulation/leader-line-color-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Leader Line Color in Java Slides
@@ -126,6 +128,7 @@ Yes, you can integrate Aspose.Slides for Java with other Java libraries and fram
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

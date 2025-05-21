@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-box-manipulation/add-custom-prompt-text-java-pow
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Custom Prompt Text in Java PowerPoint
@@ -81,6 +83,7 @@ Yes, Aspose.Slides provides APIs to manage slide animations programmatically.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

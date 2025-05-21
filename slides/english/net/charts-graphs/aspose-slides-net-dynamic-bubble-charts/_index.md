@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Dynamic Bubble Charts in .NET with Aspose.Slides: A Complete Guide
 
@@ -153,7 +155,11 @@ Ready to take your presentation skills to the next level? Implement these techni
 - **Support Forum**: [Join the Community](https://forum.aspose.com/c/slides/11)
 
 Dive into dynamic chart creation with Aspose.Slides and unlock new possibilities in data visualization today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

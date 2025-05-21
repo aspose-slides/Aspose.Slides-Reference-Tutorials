@@ -8,7 +8,9 @@ url: /java/customization-and-formatting/hide-information-chart-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hide Information from Chart in Java Slides
@@ -182,6 +184,7 @@ You can set the title and labels of the chart and axes by accessing their respec
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

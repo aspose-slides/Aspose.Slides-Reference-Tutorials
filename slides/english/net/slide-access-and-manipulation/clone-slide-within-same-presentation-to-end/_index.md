@@ -8,7 +8,9 @@ url: /net/slide-access-and-manipulation/clone-slide-within-same-presentation-to-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Duplicate Slide to the End of Existing Presentation
@@ -106,6 +108,7 @@ Absolutely! Aspose.Slides allows you to not only duplicate slides but also manip
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

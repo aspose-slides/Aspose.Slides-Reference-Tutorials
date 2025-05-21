@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set Chart Data Range in PowerPoint Using Aspose.Slides for Python
 
@@ -195,7 +197,11 @@ Ready to implement? Dive in and start transforming your PowerPoint presentations
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 Embark on your journey to mastering Aspose.Slides today, and elevate your PowerPoint presentations with dynamic data integration!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

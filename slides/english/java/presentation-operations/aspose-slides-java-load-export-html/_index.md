@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides Java: Load and Export Presentations to HTML
 
@@ -209,7 +211,11 @@ Exporting presentation content, especially text, to HTML can facilitate web publ
 ## Performance Considerations
 
 - **Memory Management:** Use `dispose()` diligently to free resources and prevent memory leaks.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

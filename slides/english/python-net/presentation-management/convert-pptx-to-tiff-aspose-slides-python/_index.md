@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PPTX to TIFF with Aspose.Slides for Python
 
@@ -88,7 +90,11 @@ Convert and save the presentation into a TIFF format using Aspose's `save` metho
 
 ```python
 presentation.save(output_directory + "convert_to_tiff_out.tiff\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

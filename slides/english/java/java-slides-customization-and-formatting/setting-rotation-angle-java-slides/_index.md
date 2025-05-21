@@ -8,7 +8,9 @@ url: /java/customization-and-formatting/setting-rotation-angle-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Setting Rotation Angle in Java Slides
@@ -110,6 +112,7 @@ Yes, you can add animation effects to text elements, including chart axis titles
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

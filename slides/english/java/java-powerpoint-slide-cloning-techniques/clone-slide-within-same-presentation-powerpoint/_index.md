@@ -8,7 +8,9 @@ url: /java/java-powerpoint-slide-cloning-techniques/clone-slide-within-same-pres
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Clone Slide within Same Presentation
@@ -77,6 +79,7 @@ You can purchase Aspose.Slides for Java by visiting the [purchase page](https://
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

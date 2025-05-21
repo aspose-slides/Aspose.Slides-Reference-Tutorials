@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Animate Charts in PowerPoint Using Aspose.Slides for Python
 
@@ -197,6 +199,9 @@ A5: A free trial is available, but long-term usage may require purchasing a lice
 By following this comprehensive guide, you're now equipped to create stunning animated PowerPoint presentations with Aspose.Slides for Python. Happy animating!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Convert a PowerPoint Presentation to a Password-Protected PDF Using Aspose.Slides for Python
 
@@ -101,7 +103,11 @@ def save(presentation, path, format, options):
 
 # Using mock methods to simulate actual Aspose.Slides functions for illustration purposes.
 save(presentation, output_dir + "secure_pptx.pdf\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

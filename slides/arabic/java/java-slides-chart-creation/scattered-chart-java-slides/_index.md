@@ -1,28 +1,30 @@
 ---
-title: مخطط متفرق في شرائح جافا
-linktitle: مخطط متفرق في شرائح جافا
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية إنشاء مخططات مبعثرة في Java باستخدام Aspose.Slides. دليل خطوة بخطوة مع كود مصدر Java لتصور البيانات في العروض التقديمية.
-weight: 11
-url: /ar/java/chart-creation/scattered-chart-java-slides/
+"description": "تعلّم كيفية إنشاء مخططات التشتت في جافا باستخدام Aspose.Slides. دليل خطوة بخطوة مع شفرة المصدر بلغة جافا لعرض البيانات في العروض التقديمية."
+"linktitle": "مخطط مبعثر في شرائح جافا"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "مخطط مبعثر في شرائح جافا"
+"url": "/ar/java/chart-creation/scattered-chart-java-slides/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# مخطط متفرق في شرائح جافا
+# مخطط مبعثر في شرائح جافا
 
 
-## مقدمة إلى المخططات المتفرقة في Aspose.Slides لـ Java
+## مقدمة إلى المخططات المتناثرة في Aspose.Slides لـ Java
 
-في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء مخطط مبعثر باستخدام Aspose.Slides لـ Java. تعتبر المخططات المبعثرة مفيدة لتصور نقاط البيانات على مستوى ثنائي الأبعاد. سنقدم لك تعليمات خطوة بخطوة وسنقوم بتضمين كود مصدر Java لراحتك.
+في هذا البرنامج التعليمي، سنرشدك خلال عملية إنشاء مخطط تشتت باستخدام Aspose.Slides في جافا. تُعدّ مخططات التشتت مفيدة لعرض نقاط البيانات على مستوى ثنائي الأبعاد. سنقدم تعليمات خطوة بخطوة، وسنضيف شفرة مصدر جافا لتسهيل الأمر عليك.
 
 ## المتطلبات الأساسية
 
-قبل البدء، تأكد من توفر المتطلبات الأساسية التالية:
+قبل أن تبدأ، تأكد من توفر المتطلبات الأساسية التالية:
 
-1. [Aspose.Slides لجافا](https://products.aspose.com/slides/java) المثبتة.
+1. [Aspose.Slides لـ Java](https://products.aspose.com/slides/java) تم تثبيته.
 2. تم إعداد بيئة تطوير Java.
 
 ## الخطوة 1: تهيئة العرض التقديمي
@@ -33,7 +35,7 @@ url: /ar/java/chart-creation/scattered-chart-java-slides/
 // المسار إلى دليل المستندات.
 String dataDir = "Your Document Directory";
 
-// قم بإنشاء الدليل إذا لم يكن موجودًا بالفعل.
+// إنشاء الدليل إذا لم يكن موجودًا بالفعل.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
     new File(dataDir).mkdirs();
@@ -42,30 +44,30 @@ if (!IsExists)
 Presentation pres = new Presentation();
 ```
 
-## الخطوة 2: إضافة شريحة وإنشاء المخطط المبعثر
+## الخطوة 2: إضافة شريحة وإنشاء مخطط التشتت
 
- بعد ذلك، أضف شريحة وقم بإنشاء المخطط المبعثر عليها. سوف نستخدم`ScatterWithSmoothLines`نوع المخطط في هذا المثال.
+بعد ذلك، أضف شريحة وأنشئ مخطط التشتت عليها. سنستخدم `ScatterWithSmoothLines` نوع الرسم البياني في هذا المثال.
 
 ```java
 // احصل على الشريحة الأولى
 ISlide slide = pres.getSlides().get_Item(0);
 
-// إنشاء المخطط المبعثر
+// إنشاء مخطط التشتت
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
 ```
 
-## الخطوة 3: إعداد بيانات الرسم البياني
+## الخطوة 3: تحضير بيانات الرسم البياني
 
-الآن، دعونا نجهز البيانات للمخطط المبعثر الخاص بنا. سنضيف سلسلتين، تحتوي كل منهما على نقاط بيانات متعددة.
+الآن، لنُعِدّ بيانات مخطط التشتت. سنضيف سلسلتين، تحتوي كل منهما على نقاط بيانات متعددة.
 
 ```java
-// الحصول على فهرس ورقة عمل بيانات المخطط الافتراضي
+// الحصول على فهرس ورقة عمل بيانات الرسم البياني الافتراضية
 int defaultWorksheetIndex = 0;
 
-// الحصول على ورقة عمل بيانات المخطط
+// الحصول على ورقة عمل بيانات الرسم البياني
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
 
-// حذف السلسلة التجريبية
+// حذف سلسلة العروض التوضيحية
 chart.getChartData().getSeries().clear();
 
 // أضف السلسلة الأولى
@@ -79,12 +81,12 @@ IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 1), fact.getCell(defaultWorksheetIndex, 2, 2, 3));
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 2), fact.getCell(defaultWorksheetIndex, 3, 2, 10));
 
-// تحرير نوع السلسلة
+// تعديل نوع السلسلة
 series.setType(ChartType.ScatterWithStraightLinesAndMarkers);
 series.getMarker().setSize(10); // تغيير حجم العلامة
 series.getMarker().setSymbol(MarkerStyleType.Star); // تغيير رمز العلامة
 
-// خذ سلسلة الرسم البياني الثاني
+// خذ سلسلة الرسم البياني الثانية
 series = chart.getChartData().getSeries().get_Item(1);
 
 // إضافة نقاط البيانات إلى السلسلة الثانية
@@ -98,44 +100,44 @@ series.getMarker().setSize(10);
 series.getMarker().setSymbol(MarkerStyleType.Circle);
 ```
 
-## الخطوة 4: احفظ العرض التقديمي
+## الخطوة 4: حفظ العرض التقديمي
 
-وأخيرًا، احفظ العرض التقديمي مع المخطط المبعثر في ملف PPTX.
+أخيرًا، احفظ العرض التقديمي مع مخطط التشتت في ملف PPTX.
 
 ```java
 pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 ```
 
-هذا كل شيء! لقد نجحت في إنشاء مخطط مبعثر باستخدام Aspose.Slides لـ Java. يمكنك الآن تخصيص هذا المثال بشكل أكبر ليناسب بياناتك المحددة ومتطلبات التصميم.
+هذا كل شيء! لقد أنشأتَ بنجاح مخططًا تشتتًا باستخدام Aspose.Slides لجافا. يمكنك الآن تخصيص هذا المثال بشكل أكبر ليناسب بياناتك ومتطلبات تصميمك.
 
-## أكمل كود المصدر للمخطط المتفرق في شرائح جافا
+## كود المصدر الكامل للمخططات المتناثرة في شرائح Java
 ```java
 // المسار إلى دليل المستندات.
 String dataDir = "Your Document Directory";
-// قم بإنشاء الدليل إذا لم يكن موجودًا بالفعل.
+// إنشاء الدليل إذا لم يكن موجودًا بالفعل.
 boolean IsExists = new File(dataDir).exists();
 if (!IsExists)
 	new File(dataDir).mkdirs();
 Presentation pres = new Presentation();
 ISlide slide = pres.getSlides().get_Item(0);
-//إنشاء المخطط الافتراضي
+// إنشاء الرسم البياني الافتراضي
 IChart chart = slide.getShapes().addChart(ChartType.ScatterWithSmoothLines, 0, 0, 400, 400);
-// الحصول على فهرس ورقة عمل بيانات المخطط الافتراضي
+// الحصول على فهرس ورقة عمل بيانات الرسم البياني الافتراضية
 int defaultWorksheetIndex = 0;
-// الحصول على ورقة عمل بيانات المخطط
+// الحصول على ورقة عمل بيانات الرسم البياني
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
-// حذف السلسلة التجريبية
+// حذف سلسلة العروض التوضيحية
 chart.getChartData().getSeries().clear();
 // إضافة سلسلة جديدة
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 1, "Series 1"), chart.getType());
 chart.getChartData().getSeries().add(fact.getCell(defaultWorksheetIndex, 1, 3, "Series 2"), chart.getType());
-// خذ سلسلة الرسم البياني الأولى
+// خذ أول سلسلة مخططات
 IChartSeries series = chart.getChartData().getSeries().get_Item(0);
 // أضف نقطة جديدة (1:3) هناك.
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 2, 1, 1), fact.getCell(defaultWorksheetIndex, 2, 2, 3));
 // إضافة نقطة جديدة (2:10)
 series.getDataPoints().addDataPointForScatterSeries(fact.getCell(defaultWorksheetIndex, 3, 1, 2), fact.getCell(defaultWorksheetIndex, 3, 2, 10));
-// تحرير نوع السلسلة
+// تعديل نوع السلسلة
 series.setType(ChartType.ScatterWithStraightLinesAndMarkers);
 // تغيير علامة سلسلة الرسم البياني
 series.getMarker().setSize(10);
@@ -158,17 +160,17 @@ pres.save(dataDir + "AsposeChart_out.pptx", SaveFormat.Pptx);
 
 ## خاتمة
 
-في هذا البرنامج التعليمي، قمنا بإرشادك خلال عملية إنشاء مخطط مبعثر باستخدام Aspose.Slides لـ Java. تعد المخططات المبعثرة أدوات فعالة لتصور نقاط البيانات في مساحة ثنائية الأبعاد، مما يسهل تحليل علاقات البيانات المعقدة وفهمها.
+في هذا البرنامج التعليمي، شرحنا لك عملية إنشاء مخطط تشتت باستخدام Aspose.Slides لجافا. تُعد مخططات التشتت أدوات فعّالة لعرض نقاط البيانات في مساحة ثنائية الأبعاد، مما يُسهّل تحليل وفهم علاقات البيانات المعقدة.
 
 ## الأسئلة الشائعة
 
 ### كيف يمكنني تغيير نوع الرسم البياني؟
 
- لتغيير نوع المخطط، استخدم`setType` الطريقة على سلسلة المخططات وتوفير نوع المخطط المطلوب. على سبيل المثال،`series.setType(ChartType.Line)` سيغير السلسلة إلى مخطط خطي.
+لتغيير نوع الرسم البياني، استخدم `setType` استخدم طريقةً لسلسلة المخططات البيانية، وحدد نوع المخطط المطلوب. على سبيل المثال، `series.setType(ChartType.Line)` سيتم تغيير السلسلة إلى مخطط خطي.
 
-### كيف يمكنني تخصيص حجم العلامة ونمطها؟
+### كيف يمكنني تخصيص حجم ونمط العلامة؟
 
- يمكنك تغيير حجم العلامة ونمطها باستخدام`getMarker` الطريقة على السلسلة ثم قم بتعيين الحجم وخصائص الرمز. على سبيل المثال:
+يمكنك تغيير حجم العلامة ونمطها باستخدام `getMarker` على السلسلة، ثم اضبط خصائص الحجم والرمز. على سبيل المثال:
 
 ```java
 series.getMarker().setSize(10);
@@ -177,10 +179,12 @@ series.getMarker().setSymbol(MarkerStyleType.Circle);
 
 لا تتردد في استكشاف المزيد من خيارات التخصيص في وثائق Aspose.Slides لـ Java.
 
- تذكر أن تحل محل`"Your Document Directory"` بالمسار الفعلي الذي تريد حفظ العرض التقديمي فيه.
+تذكر أن تستبدل `"Your Document Directory"` مع المسار الفعلي الذي تريد حفظ العرض التقديمي فيه.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

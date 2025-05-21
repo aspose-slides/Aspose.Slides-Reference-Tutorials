@@ -6,8 +6,11 @@ description: Create professional PowerPoint presentations with custom image mark
 keywords: [Aspose.Slides, .NET, PowerPoint, Line Charts, Custom Markers, Image Markers, Data Visualization, C#, Chart Customization]
 url: /net/charts/chart-marker-options-on-data-point/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Custom Image Markers in PowerPoint Line Charts with Aspose.Slides
@@ -15,9 +18,11 @@ url: /net/charts/chart-marker-options-on-data-point/
 Aspose.Slides for .NET provides comprehensive capabilities for creating feature-rich PowerPoint presentations programmatically. This example demonstrates how to create a line chart with custom image markers, allowing you to enhance data visualization with branded or meaningful images instead of standard markers. The library offers full control over chart elements, enabling developers to create professional presentations with minimal effort.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/charts/chart-marker-options-on-data-point" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Installation Instructions
@@ -43,7 +48,9 @@ PM> Install-Package Aspose.Slides.NET
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/customization-and-formatting/font-properties-for-chart-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Font Properties for Chart in Java Slides
@@ -112,6 +114,7 @@ To customize font properties for specific chart elements, such as axis labels or
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

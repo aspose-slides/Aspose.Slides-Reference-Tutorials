@@ -8,7 +8,9 @@ url: /java/java-powerpoint-animation-shape-manipulation/change-shape-order-power
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Change Shape Order in PowerPoint
@@ -83,6 +85,7 @@ You can find detailed documentation on the [Aspose.Slides for Java documentation
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

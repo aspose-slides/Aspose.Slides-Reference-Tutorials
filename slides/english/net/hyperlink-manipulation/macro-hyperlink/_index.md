@@ -8,7 +8,9 @@ url: /net/hyperlink-manipulation/macro-hyperlink/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # How to Set Macro Hyperlink Click in Aspose.Slides for .NET
@@ -112,9 +114,11 @@ Yes, you can customize the AutoShape's appearance by adjusting its properties, s
 
 ### Where can I get help or support for Aspose.Slides for .NET?
 If you encounter issues or have questions, you can seek help on the Aspose support forum [here](https://forum.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

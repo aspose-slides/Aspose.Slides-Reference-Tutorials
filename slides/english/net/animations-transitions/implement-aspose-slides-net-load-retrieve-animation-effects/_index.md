@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Use Aspose.Slides for .NET: Load and Retrieve Animation Effects in PowerPoint Presentations
 
@@ -172,7 +174,11 @@ Ready to get started? Try implementing the above solutions in your next project!
 - **Support**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 This tutorial has equipped you with the tools and knowledge to effectively use Aspose.Slides for .NET. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

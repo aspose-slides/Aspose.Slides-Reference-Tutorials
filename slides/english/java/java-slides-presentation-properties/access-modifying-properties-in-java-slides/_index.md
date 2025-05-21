@@ -8,7 +8,9 @@ url: /java/presentation-properties/access-modifying-properties-in-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Access Modifying Properties in Java Slides
@@ -127,6 +129,7 @@ You can find comprehensive documentation and code examples for Aspose.Slides for
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

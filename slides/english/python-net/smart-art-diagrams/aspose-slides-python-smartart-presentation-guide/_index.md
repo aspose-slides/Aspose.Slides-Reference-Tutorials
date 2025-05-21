@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master SmartArt in PowerPoint Using Aspose.Slides for Python
 ## Introduction
@@ -184,7 +186,11 @@ A5: Use try-except blocks to catch and manage exceptions during the creation pro
 - **Free Trial**: [Get a Free Trial](https://releases.aspose.com/slides/python-net/)
 - **Temporary License**: [Obtain a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

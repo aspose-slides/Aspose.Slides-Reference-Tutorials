@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create a Histogram Chart in PowerPoint Using Aspose.Slides for Python
 
@@ -182,6 +184,9 @@ Ready to enhance your presentation skills? Try implementing this solution today!
 This tutorial provides a structured approach to creating histogram charts in PowerPoint using Aspose.Slides for Python, empowering you with the tools needed to craft compelling data-driven presentations.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

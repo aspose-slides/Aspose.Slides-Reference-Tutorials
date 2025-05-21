@@ -8,7 +8,9 @@ url: /java/chart-elements/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Slides Chart Elements
@@ -64,9 +66,11 @@ Explore Aspose.Slides for Java with step-by-step tutorials. Create stunning funn
 Create Stunning Map Charts in PowerPoint Presentations with Aspose.Slides for Java. Step-by-step guide and source code for Java developers.
 ### [Sunburst Chart in Java Slides](./sunburst-chart-java-slides/)
 Create Stunning Sunburst Charts in Java Slides with Aspose.Slides. Learn Step-by-Step Chart Creation and Data Manipulation.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

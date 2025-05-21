@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Embed & Trim Audio in PowerPoint with Aspose.Slides for Python
 
@@ -152,7 +154,11 @@ Next steps include exploring additional features of Aspose.Slides like adding vi
   - Temporary License: [Temporary License Page](https://purchase.aspose.com/temporary-license/)
 
 Embark on your journey to create dynamic, multimedia-rich presentations with Aspose.Slides Python today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

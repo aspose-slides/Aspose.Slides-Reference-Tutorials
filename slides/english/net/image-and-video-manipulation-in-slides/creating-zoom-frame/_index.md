@@ -8,7 +8,9 @@ url: /net/image-and-video-manipulation-in-slides/creating-zoom-frame/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Dynamic Presentations with Aspose.Slides Zoom Frames
@@ -99,6 +101,7 @@ You can purchase the full version [here](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

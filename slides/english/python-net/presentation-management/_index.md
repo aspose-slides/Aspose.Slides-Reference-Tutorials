@@ -4,8 +4,11 @@ description: "Learn how to load, save, and convert PowerPoint files between form
 weight: 2
 url: "/python-net/presentation-management/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Presentation Management Tutorials with Aspose.Slides for Python
 
@@ -161,7 +164,11 @@ Learn how to resize PowerPoint slides to A4 size using Aspose.Slides for Python,
 - [Download Aspose.Slides for Python-net](https://releases.aspose.com/slides/python-net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

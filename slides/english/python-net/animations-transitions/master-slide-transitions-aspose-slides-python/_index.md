@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Slide Transitions in PowerPoint Using Aspose.Slides for Python
 
@@ -205,7 +207,11 @@ Ready to take your presentation game to the next level? Try implementing these t
 - **Free Trial:** [Aspose.Slides Free Trial](https://releases.aspose.com/slides/python-net/)
 - **Temporary License:** [Acquire Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support:** [Aspose Forum Support]
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

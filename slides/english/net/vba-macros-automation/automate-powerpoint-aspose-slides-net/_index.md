@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint with Aspose.Slides .NET
 
@@ -171,7 +173,11 @@ In this tutorial, you've learned how to automate PowerPoint presentations with A
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Embark on your journey to mastering PowerPoint automation with Aspose.Slides for .NET, and enhance your productivity today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,42 +1,44 @@
 ---
-title: التحويل إلى PDF باستخدام الشرائح المخفية في شرائح Java
-linktitle: التحويل إلى PDF باستخدام الشرائح المخفية في شرائح Java
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية تحويل عروض PowerPoint التقديمية إلى PDF باستخدام الشرائح المخفية باستخدام Aspose.Slides for Java. اتبع دليلنا خطوة بخطوة مع الكود المصدري لإنشاء ملفات PDF بسلاسة.
-weight: 27
-url: /ar/java/presentation-conversion/convert-pdf-hidden-slides-java-slides/
+"description": "تعرّف على كيفية تحويل عروض PowerPoint التقديمية إلى PDF مع شرائح مخفية باستخدام Aspose.Slides لجافا. اتبع دليلنا خطوة بخطوة مع الكود المصدري لإنشاء ملفات PDF بسلاسة."
+"linktitle": "تحويل إلى PDF باستخدام الشرائح المخفية في Java Slides"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "تحويل إلى PDF باستخدام الشرائح المخفية في Java Slides"
+"url": "/ar/java/presentation-conversion/convert-pdf-hidden-slides-java-slides/"
+"weight": 27
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# التحويل إلى PDF باستخدام الشرائح المخفية في شرائح Java
+# تحويل إلى PDF باستخدام الشرائح المخفية في Java Slides
 
 
-## مقدمة لتحويل عرض PowerPoint التقديمي إلى PDF باستخدام الشرائح المخفية باستخدام Aspose.Slides لـ Java
+## مقدمة لتحويل عرض PowerPoint إلى PDF مع شرائح مخفية باستخدام Aspose.Slides لـ Java
 
-في هذا الدليل التفصيلي، ستتعلم كيفية تحويل عرض PowerPoint التقديمي إلى PDF مع الاحتفاظ بالشرائح المخفية باستخدام Aspose.Slides for Java. الشرائح المخفية هي تلك التي لا يتم عرضها أثناء العرض التقديمي العادي ولكن يمكن تضمينها في مخرجات PDF. سنزودك بالكود المصدري والتعليمات التفصيلية لتحقيق هذه المهمة.
+في هذا الدليل المفصل، ستتعلم كيفية تحويل عرض تقديمي من PowerPoint إلى PDF مع الحفاظ على الشرائح المخفية باستخدام Aspose.Slides لجافا. الشرائح المخفية هي تلك التي لا تُعرض في العرض التقديمي العادي، ولكن يمكن تضمينها في ملف PDF. سنزودك بالشفرة المصدرية والتعليمات المفصلة لتحقيق هذه المهمة.
 
 ## المتطلبات الأساسية
 
-قبل البدء، تأكد من توفر المتطلبات الأساسية التالية:
+قبل أن تبدأ، تأكد من توفر المتطلبات الأساسية التالية:
 
-1.  Aspose.Slides for Java Library: تأكد من إعداد مكتبة Aspose.Slides for Java في مشروع Java الخاص بك. يمكنك تنزيله من[Aspose.Slides لتوثيق جافا](https://reference.aspose.com/slides/java/).
+1. مكتبة Aspose.Slides لجافا: تأكد من تثبيت مكتبة Aspose.Slides لجافا في مشروع جافا. يمكنك تنزيلها من [توثيق Aspose.Slides لـ Java](https://reference.aspose.com/slides/java/).
 
-2. بيئة تطوير Java: يجب أن تكون لديك بيئة تطوير Java مثبتة على نظامك.
+2. بيئة تطوير Java: يجب أن يكون لديك بيئة تطوير Java مثبتة على نظامك.
 
-## الخطوة 1: استيراد Aspose.Slides إلى Java
+## الخطوة 1: استيراد Aspose.Slides لـ Java
 
-أولاً، تحتاج إلى استيراد مكتبة Aspose.Slides إلى مشروع Java الخاص بك. تأكد من إضافة المكتبة إلى مسار إنشاء مشروعك.
+أولاً، عليك استيراد مكتبة Aspose.Slides إلى مشروع جافا. تأكد من إضافة المكتبة إلى مسار بناء مشروعك.
 
 ```java
 import com.aspose.slides.*;
 ```
 
-## الخطوة 2: قم بتحميل عرض PowerPoint التقديمي
+## الخطوة 2: تحميل عرض PowerPoint
 
- ستبدأ بتحميل عرض PowerPoint التقديمي الذي تريد تحويله إلى PDF. يستبدل`"Your Document Directory"` و`"HiddingSlides.pptx"` مع مسار الملف المناسب.
+ستبدأ بتحميل عرض PowerPoint الذي تريد تحويله إلى PDF. استبدل `"Your Document Directory"` و `"HiddingSlides.pptx"` مع مسار الملف المناسب.
 
 ```java
 // المسار إلى دليل المستندات.
@@ -46,27 +48,27 @@ Presentation presentation = new Presentation(dataDir + "HiddingSlides.pptx");
 
 ## الخطوة 3: تكوين خيارات PDF
 
-قم بتكوين خيارات PDF لتضمين الشرائح المخفية في مخرجات PDF. يمكنك القيام بذلك عن طريق تعيين`setShowHiddenSlides` ملكية`PdfOptions` الفئة الى`true`.
+قم بضبط خيارات PDF لتضمين الشرائح المخفية في مخرجات PDF. يمكنك القيام بذلك عن طريق ضبط `setShowHiddenSlides` ممتلكات `PdfOptions` الصف إلى `true`.
 
 ```java
 // إنشاء مثيل لفئة PdfOptions
 PdfOptions pdfOptions = new PdfOptions();
-// حدد أن المستند الذي تم إنشاؤه يجب أن يتضمن شرائح مخفية
+// حدد أن المستند المُنشأ يجب أن يتضمن شرائح مخفية
 pdfOptions.setShowHiddenSlides(true);
 ```
 
-## الخطوة 4: احفظ العرض التقديمي بصيغة PDF
+## الخطوة 4: حفظ العرض التقديمي بصيغة PDF
 
- الآن، احفظ العرض التقديمي في ملف PDF بالخيارات المحددة. يستبدل`"PDFWithHiddenSlides_out.pdf"` مع اسم ملف الإخراج المطلوب.
+الآن، احفظ العرض التقديمي في ملف PDF بالخيارات المحددة. استبدل `"PDFWithHiddenSlides_out.pdf"` مع اسم ملف الإخراج المطلوب.
 
 ```java
-// احفظ العرض التقديمي بصيغة PDF مع الخيارات المحددة
+// حفظ العرض التقديمي بصيغة PDF باستخدام الخيارات المحددة
 presentation.save(dataDir + "PDFWithHiddenSlides_out.pdf", SaveFormat.Pdf, pdfOptions);
 ```
 
 ## الخطوة 5: تنظيف الموارد
 
-تأكد من تحرير الموارد التي يستخدمها العرض التقديمي عند الانتهاء منه.
+تأكد من إصدار الموارد التي يستخدمها العرض التقديمي عند الانتهاء منه.
 
 ```java
 finally
@@ -75,7 +77,7 @@ finally
 }
 ```
 
-## أكمل كود المصدر للتحويل إلى PDF باستخدام الشرائح المخفية في شرائح Java
+## كود المصدر الكامل لتحويل ملفات PDF إلى شرائح مخفية في Java Slides
 
 ```java
 // المسار إلى دليل المستندات.
@@ -85,9 +87,9 @@ try
 {
 	// إنشاء مثيل لفئة PdfOptions
 	PdfOptions pdfOptions = new PdfOptions();
-	// حدد أن المستند الذي تم إنشاؤه يجب أن يتضمن شرائح مخفية
+	// حدد أن المستند المُنشأ يجب أن يتضمن شرائح مخفية
 	pdfOptions.setShowHiddenSlides(true);
-	// احفظ العرض التقديمي بصيغة PDF مع الخيارات المحددة
+	// حفظ العرض التقديمي بصيغة PDF باستخدام الخيارات المحددة
 	presentation.save(dataDir + "PDFWithHiddenSlides_out.pdf", SaveFormat.Pdf, pdfOptions);
 }
 finally
@@ -98,32 +100,34 @@ finally
 
 ## خاتمة
 
-في هذا الدليل الشامل، تعلمت كيفية تحويل عرض PowerPoint التقديمي إلى PDF مع الحفاظ على الشرائح المخفية باستخدام Aspose.Slides لـ Java. لقد قدمنا لك برنامجًا تعليميًا خطوة بخطوة بالإضافة إلى كود المصدر الضروري لتحقيق هذه المهمة بسلاسة.
+في هذا الدليل الشامل، ستتعلم كيفية تحويل عرض تقديمي من PowerPoint إلى PDF مع الحفاظ على الشرائح المخفية باستخدام Aspose.Slides لجافا. لقد قدمنا لك شرحًا تفصيليًا خطوة بخطوة مع الكود المصدري اللازم لإنجاز هذه المهمة بسلاسة.
 
 ## الأسئلة الشائعة
 
-### كيف يمكنني إخفاء الشرائح في عرض PowerPoint التقديمي؟
+### كيف يمكنني إخفاء الشرائح في عرض تقديمي في PowerPoint؟
 
-لإخفاء شريحة في عرض تقديمي لـ PowerPoint، اتبع الخطوات التالية:
-1. حدد الشريحة التي تريد إخفاءها في طريقة العرض "فارز الشرائح".
+لإخفاء شريحة في عرض تقديمي في PowerPoint، اتبع الخطوات التالية:
+1. قم بتحديد الشريحة التي تريد إخفاءها في عرض "فرز الشرائح".
 2. انقر بزر الماوس الأيمن على الشريحة المحددة.
 3. اختر "إخفاء الشريحة" من قائمة السياق.
 
 ### هل يمكنني إظهار الشرائح المخفية برمجيًا في Aspose.Slides لـ Java؟
 
- نعم، يمكنك إظهار الشرائح المخفية برمجيًا في Aspose.Slides لـ Java عن طريق تعيين`Hidden` ملكية`Slide` الفئة الى`false`. هنا مثال:
+نعم، يمكنك إظهار الشرائح المخفية برمجيًا في Aspose.Slides لـ Java عن طريق ضبط `Hidden` ممتلكات `Slide` الصف إلى `false`. وإليك مثال:
 
 ```java
-Slide slide = presentation.getSlides().get_Item(slideIndex); // استبدل SlideIndex بفهرس الشريحة المخفية
+Slide slide = presentation.getSlides().get_Item(slideIndex); // استبدال slideIndex بفهرس الشريحة المخفية
 slide.setHidden(false);
 ```
 
-### كيف يمكنني تنزيل Aspose.Slides لنظام Java؟
+### كيف يمكنني تنزيل Aspose.Slides لـ Java؟
 
- يمكنك تنزيل Aspose.Slides for Java من موقع Aspose. قم بزيارة[صفحة تنزيل Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/) للحصول على أحدث إصدار.
+يمكنك تنزيل Aspose.Slides لجافا من موقع Aspose الإلكتروني. تفضل بزيارة [صفحة تنزيل Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/) للحصول على الإصدار الأحدث.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/java-powerpoint-advanced-paragraph-font-properties/get-portion-rectan
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Portion Rectangle in PowerPoint with Java
@@ -148,6 +150,7 @@ You can get support from the Aspose forum [here](https://forum.aspose.com/c/slid
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/customization-and-formatting/font-properties-individual-legend-java-s
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Font Properties for Individual Legend in Java Slides
@@ -123,6 +125,7 @@ if (pres != null) pres.dispose();
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

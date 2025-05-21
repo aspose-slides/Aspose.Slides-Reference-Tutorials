@@ -8,7 +8,9 @@ url: /java/java-powerpoint-table-formatting-updates/update-existing-table-powerp
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Update Existing Table in PowerPoint using Java
@@ -102,6 +104,7 @@ You can obtain a temporary license from the [Aspose purchase page](https://purch
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Link Fonts in HTML Using Aspose.Slides for .NET
 
@@ -128,7 +130,11 @@ public override void WriteFont(
     generator.AddHtml($"font-family: '{fontName}'; ");
     generator.AddHtml($"src: url('{path}');");
     generator.AddHtml(\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

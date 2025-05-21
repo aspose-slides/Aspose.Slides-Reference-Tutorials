@@ -6,8 +6,11 @@ description: Learn how to create PowerPoint presentations with multi-level bulle
 keywords: [Aspose.Slides, PowerPoint, .NET, C#, bullet points, multi-level bullets, text formatting, presentation, indentation, paragraph formatting]
 url: /net/text/mutilevel-bullets/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Multi-level Bullet Points in PowerPoint with Aspose.Slides
@@ -15,9 +18,11 @@ url: /net/text/mutilevel-bullets/
 Aspose.Slides for .NET provides a powerful API to create and manipulate PowerPoint presentations programmatically. This example demonstrates how to create a presentation with multi-level bullet points, showing how to add an auto shape with a text frame and format paragraphs with different bullet styles and indentation levels. You can easily create hierarchical content with customized bullet symbols for each indentation level, perfect for creating structured and professional presentations without requiring Microsoft PowerPoint to be installed.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/text/mutilevel-bullets" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -46,7 +51,9 @@ Aspose.Slides for .NET provides a powerful API to create and manipulate PowerPoi
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

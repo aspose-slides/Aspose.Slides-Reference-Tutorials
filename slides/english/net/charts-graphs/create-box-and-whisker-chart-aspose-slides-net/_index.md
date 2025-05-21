@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create a Box-and-Whisker Chart in PowerPoint Using Aspose.Slides .NET
 
@@ -175,7 +177,11 @@ Ensure your `dataDir` path is accurate and accessible from your application's ex
 - **Purchase:** [Buy Aspose.Slides](https://purchase.aspose.com/buy)
 - **Free Trial:** [Get a Free Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum:** [Aspose Support Community](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

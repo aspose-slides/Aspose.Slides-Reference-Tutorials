@@ -8,7 +8,9 @@ url: /net/image-and-video-manipulation-in-slides/creating-group-shapes/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aspose.Slides - Creating Group Shapes in .NET
@@ -109,6 +111,7 @@ You can buy a license from the [purchase page](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

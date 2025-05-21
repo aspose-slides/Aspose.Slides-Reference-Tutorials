@@ -8,7 +8,9 @@ url: /java/data-manipulation/get-width-height-chart-plot-area-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Width and Height from Chart Plot Area in Java Slides
@@ -120,6 +122,7 @@ You can find extensive documentation and examples on the Aspose.Slides for Java 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

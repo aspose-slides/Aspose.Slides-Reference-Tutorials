@@ -8,7 +8,9 @@ url: /java/java-powerpoint-table-manipulation/split-cells-powerpoint-table-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Split Cells in PowerPoint Table using Java
@@ -105,6 +107,7 @@ Yes, you can get a temporary license from [here](https://purchase.aspose.com/tem
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

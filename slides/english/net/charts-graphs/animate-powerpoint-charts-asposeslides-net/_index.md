@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Animate PowerPoint Charts with Aspose.Slides for .NET: A Developer’s Guide
 ## Introduction
@@ -164,7 +166,11 @@ Ready to take your PowerPoint presentations to the next level? Implement these t
 - **Download Aspose.Slides**: Get the latest version from [Aspose Releases](https://releases.aspose.com/slides/net/).
 - **Purchase a License**: For commercial use, visit [Aspose Purchase](https://purchase.aspose.com/buy).
 - **Free Trial**: Start with a free trial at [Aspose Free Trials](https://releases.aspose.com/slides/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

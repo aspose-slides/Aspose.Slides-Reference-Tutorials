@@ -14,7 +14,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Creating Engaging Presentations with Image Markers in Aspose.Slides Java
 
@@ -226,7 +228,11 @@ By following these steps, you can create visually engaging presentations with cu
 - "Creating Engaging Presentations"
 - "Image Markers in Charts"
 - "Aspose.Slides for Java"
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

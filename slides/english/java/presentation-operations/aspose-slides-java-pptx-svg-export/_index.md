@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Slides Java Tutorial: Convert PPTX to SVG for Web Integration
 ## Introduction
@@ -168,6 +170,9 @@ Ready to dive deeper? Implement these solutions in your projects and share your 
 - **Documentation:** [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Add an Arrow Line to PowerPoint Using Aspose.Slides for Python
 
@@ -173,7 +175,11 @@ Ready to give it a try? Implement this solution in your next project and witness
 - [Free Trial](https://releases.aspose.com/slides/python-net/)
 - [Temporary License Information](https://purchase.aspose.com/temporary-license/)
 - [Aspose.Slides Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

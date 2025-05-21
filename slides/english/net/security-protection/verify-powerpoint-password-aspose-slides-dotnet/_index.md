@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Verify PowerPoint Presentation Passwords with Aspose.Slides for .NET
 
@@ -167,7 +169,11 @@ A: Visit the official [Aspose documentation](https://reference.aspose.com/slides
 - **Support Forum**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Try implementing these steps to unlock the potential of Aspose.Slides for .NET in your projects!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

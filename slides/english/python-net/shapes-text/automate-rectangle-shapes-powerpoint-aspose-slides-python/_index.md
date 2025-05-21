@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Format a Rectangle Shape in PowerPoint using Aspose.Slides for Python
 ## Introduction
@@ -92,7 +94,11 @@ Next, we'll apply formatting to our rectangle shape, including fill color and li
    Finally, save the presentation to a file.
    ```python
    pres.save("YOUR_OUTPUT_DIRECTORY/shapes_formatted_rectangle_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Creating Tables and Shapes in PowerPoint with Aspose.Slides for .NET: A Step-by-Step Guide
 
@@ -91,7 +93,11 @@ Finally, save your presentation:
 
 ```csharp
 pres.Save("YOUR_OUTPUT_DIRECTORY/CreateTable_Out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

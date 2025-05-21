@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides for Java: Adding Hyperlinks in Presentations
 
@@ -213,7 +215,11 @@ A: Common issues include incorrect URL formatting and color settings not applyin
 
 **Q: Where can I find more examples of using Aspose.Slides for Java?**
 A: Visit the official [Aspose documentation](https://reference.aspose.com/slides/java/) for comprehensive guides and code samples.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint Chart Series Colors with Aspose.Slides for Python
 
@@ -197,7 +199,11 @@ A4: Use a loop to add series dynamically and apply colors using predefined or cu
 
 **Q5: What if my chart data is coming from an external source like a database?**
 A5: Integrate Aspose.Slides with Python's database connectors (e.g., SQLAlchemy, PyODBC) to fetch and insert data directly into charts.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Connecting Shapes in Aspose.Slides .NET: Dynamic Presentation Techniques
 
@@ -211,7 +213,11 @@ A5: Consult [Aspose's support forum](https://forum.aspose.com/c/slides/11) for c
 - **Purchase**: [Buy a License](https://purchase.aspose.com/buy)
 - **Free Trial**: [Start Now](https://releases.aspose.com/slides/net/)
 - **Temporary License**: [Apply Here](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

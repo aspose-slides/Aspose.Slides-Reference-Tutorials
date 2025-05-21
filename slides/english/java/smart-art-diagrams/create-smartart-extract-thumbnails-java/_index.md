@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create SmartArt and Extract Thumbnails Using Aspose.Slides in Java
 
@@ -171,6 +173,9 @@ We encourage you to experiment with these capabilities and discover how they can
 Experiment with Aspose.Slides for Java and unlock the full potential of your presentations!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

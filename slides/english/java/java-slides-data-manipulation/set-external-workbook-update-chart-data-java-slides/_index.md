@@ -8,7 +8,9 @@ url: /java/data-manipulation/set-external-workbook-update-chart-data-java-slides
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set External Workbook With Update Chart Data in Java Slides
@@ -109,6 +111,7 @@ For detailed documentation and additional resources, visit the Aspose.Slides for
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

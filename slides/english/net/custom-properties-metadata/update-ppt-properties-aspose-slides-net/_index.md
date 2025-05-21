@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Update PowerPoint Presentation Properties Using Aspose.Slides for .NET
 
@@ -143,7 +145,11 @@ Updating presentation properties using Aspose.Slides for .NET can greatly enhanc
 - [Free Trial Download](https://releases.aspose.com/slides/net/)
 - [Temporary License Acquisition](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

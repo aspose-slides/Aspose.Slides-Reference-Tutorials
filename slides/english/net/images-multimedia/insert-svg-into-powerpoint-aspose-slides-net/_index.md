@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Insert SVG into PowerPoint Presentations Using Aspose.Slides for .NET
 
@@ -148,7 +150,11 @@ Explore further by diving into Aspose.Slides' extensive documentation and experi
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 Experiment with these resources to fully leverage the power of Aspose.Slides for .NET in your projects.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

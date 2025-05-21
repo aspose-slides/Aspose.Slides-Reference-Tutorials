@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Extract Audio from PowerPoint Hyperlinks Using Aspose.Slides Java
 
@@ -169,6 +171,9 @@ Feel free to experiment with this solution and adapt it to your needs!
 Embark on your journey with Aspose.Slides for Java and unlock the full potential of handling PowerPoint presentations programmatically!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/java-powerpoint-slide-cloning-techniques/clone-slide-specified-sectio
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Clone Slide into Specified Section in PowerPoint
@@ -86,6 +88,7 @@ Detailed documentation is available on the [Aspose.Slides documentation page](ht
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

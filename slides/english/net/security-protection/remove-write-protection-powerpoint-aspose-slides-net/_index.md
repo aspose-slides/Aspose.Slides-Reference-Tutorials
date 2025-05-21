@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Unlock and Edit PowerPoint Presentations by Removing Write Protection Using Aspose.Slides for .NET
 
@@ -119,7 +121,11 @@ Finally, save your modifications to a new file:
 ```csharp
 string outputDir = \@"YOUR_OUTPUT_DIRECTORY";
 presentation.Save(outputDir + "File_Without_WriteProtection_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

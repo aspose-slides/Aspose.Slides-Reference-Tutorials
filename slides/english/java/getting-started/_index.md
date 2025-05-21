@@ -4,8 +4,11 @@ description: "Step-by-step tutorials for Aspose.Slides installation, licensing, 
 weight: 1
 url: "/java/getting-started/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Slides Getting Started Tutorials for Java Developers
 
@@ -68,7 +71,11 @@ Learn how to automate opening and manipulating PowerPoint presentations in Java 
 - [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

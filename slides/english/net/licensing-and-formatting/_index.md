@@ -8,7 +8,9 @@ url: /net/licensing-and-formatting/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Licensing and Formatting
@@ -37,9 +39,11 @@ Learn how to efficiently use Metered Licensing with Aspose.Slides for .NET. Seam
 Learn how to enhance chart visuals with Aspose.Slides for .NET. Add dynamic colors to data points for more impactful presentations.
 ### [Add Custom Error Bars to Chart](./add-custom-error/)
 Learn how to add custom error bars to charts using Aspose.Slides for .NET. Create, style, and customize error bars for accurate data visualization.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

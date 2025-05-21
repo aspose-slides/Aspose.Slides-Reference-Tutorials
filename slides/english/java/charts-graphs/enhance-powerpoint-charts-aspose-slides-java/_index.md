@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Enhancing PowerPoint Charts: Font & Axis Customization with Aspose.Slides for Java
 
@@ -189,6 +191,9 @@ By customizing chart legends and axis values, you can significantly enhance the 
 We encourage you to experiment with these features and explore further enhancements that Aspose.Slides for Java offers. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

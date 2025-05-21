@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Slide Transitions in PowerPoint with Aspose.Slides for Java
 
@@ -147,7 +149,11 @@ A5: Check out [Aspose Documentation](https://reference.aspose.com/slides/java/) 
 - **Purchase a License**: Visit [Aspose Purchase](https://purchase.aspose.com/buy) for more details.
 - **Free Trial & Temporary License**: Start with free resources or get a temporary license from [Temporary Licenses](https://purchase.aspose.com/temporary-license/).
 - **Support**: Join discussions and seek help at the [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

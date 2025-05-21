@@ -8,7 +8,9 @@ url: /net/shape-effects-and-manipulation-in-slides/changing-order-shapes/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Reshaping Presentation Slides with Aspose.Slides for .NET
@@ -80,6 +82,7 @@ A: You can acquire a [temporary license](https://purchase.aspose.com/temporary-l
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

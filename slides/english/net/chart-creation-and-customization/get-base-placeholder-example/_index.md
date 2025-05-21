@@ -8,7 +8,9 @@ url: /net/chart-creation-and-customization/get-base-placeholder-example/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Base Placeholder Example
@@ -138,6 +140,7 @@ For support and discussions, you can visit the Aspose.Slides for .NET forum [her
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

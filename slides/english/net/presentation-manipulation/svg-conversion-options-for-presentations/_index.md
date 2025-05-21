@@ -8,7 +8,9 @@ url: /net/presentation-manipulation/svg-conversion-options-for-presentations/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # SVG Conversion Options for Presentations
@@ -92,6 +94,7 @@ Now that you have a solid understanding of SVG conversion with Aspose.Slides for
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

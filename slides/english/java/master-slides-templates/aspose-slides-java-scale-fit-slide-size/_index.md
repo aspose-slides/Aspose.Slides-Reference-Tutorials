@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Slide Size and Scale Fit in Aspose.Slides for Java
 ## Introduction
@@ -131,7 +133,11 @@ A5: Yes, as long as you have correctly configured your project with Aspose.Slide
 - **Purchase Options**: Consider purchasing a license for uninterrupted access at [Aspose Purchase](https://purchase.aspose.com/buy).
 - **Free Trial and Licensing**: Start with a free trial or request a temporary license via [Aspose Free Trial](https://releases.aspose.com/slides/java/) and [Temporary License](https://purchase.aspose.com/temporary-license/).
 - **Support Community**: Join discussions and seek help at the [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

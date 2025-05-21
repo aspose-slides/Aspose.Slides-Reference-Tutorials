@@ -8,7 +8,9 @@ url: /net/shape-effects-and-manipulation-in-slides/adding-stretch-offset-image-f
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Stretch Offset for Image Fill in PowerPoint Presentations
@@ -81,6 +83,7 @@ Yes, you can buy the product [here](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

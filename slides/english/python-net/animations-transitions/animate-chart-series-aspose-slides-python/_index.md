@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Animate Chart Series in PowerPoint Using Aspose.Slides for Python
 
@@ -174,7 +176,11 @@ Explore other features of Aspose.Slides to further customize your presentations 
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Start enhancing your presentations today with Aspose.Slides for Python and bring your data to life!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

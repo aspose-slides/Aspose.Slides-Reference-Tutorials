@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Identify Merged Cells in PowerPoint Tables Using Aspose.Slides Java
 
@@ -199,7 +201,11 @@ Focus on efficient memory management and streamline your code logic to reduce pr
 - **Free Trial**: Start with a free trial to evaluate features at [Aspose Free Trial](https://releases.aspose.com/slides/java/).
 - **Temporary License**: Request a temporary license for extended evaluation from [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).
 - **Support**: Join the community discussions or seek help on the [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/chart-creation-and-customization/header-footer-manager/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Manage Header and Footer in Slides
@@ -141,6 +143,7 @@ A5: Yes, you can visit the Aspose.Slides for .NET support forum [here](https://f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -1,26 +1,28 @@
 ---
-title: اضبط وضع التخطيط في شرائح Java
-linktitle: اضبط وضع التخطيط في شرائح Java
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية تعيين أوضاع التخطيط لشرائح Java باستخدام Aspose.Slides. قم بتخصيص موضع الرسم البياني وحجمه في هذا الدليل المفصّل خطوة بخطوة باستخدام التعليمات البرمجية المصدر.
-weight: 23
-url: /ar/java/data-manipulation/set-layout-mode-java-slides/
+"description": "تعرّف على كيفية ضبط أوضاع تخطيط شرائح جافا باستخدام Aspose.Slides. خصّص موضع وحجم المخطط في هذا الدليل المفصّل مع الكود المصدري."
+"linktitle": "تعيين وضع التخطيط في شرائح Java"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "تعيين وضع التخطيط في شرائح Java"
+"url": "/ar/java/data-manipulation/set-layout-mode-java-slides/"
+"weight": 23
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# اضبط وضع التخطيط في شرائح Java
+# تعيين وضع التخطيط في شرائح Java
 
 
-## مقدمة لتعيين وضع التخطيط في شرائح جافا
+## مقدمة لتعيين وضع التخطيط في شرائح Java
 
-في هذا البرنامج التعليمي، سوف نتعلم كيفية تعيين وضع التخطيط لمخطط في شرائح Java باستخدام Aspose.Slides for Java. يحدد وضع التخطيط موضع المخطط وحجمه داخل الشريحة.
+في هذا البرنامج التعليمي، سنتعلم كيفية ضبط وضع تخطيط مخطط في شرائح جافا باستخدام Aspose.Slides لجافا. يحدد وضع التخطيط موضع المخطط وحجمه داخل الشريحة.
 
 ## المتطلبات الأساسية
 
- قبل أن نبدأ، تأكد من تثبيت مكتبة Aspose.Slides for Java وإعدادها في مشروع Java الخاص بك. يمكنك تحميل المكتبة من[هنا](https://releases.aspose.com/slides/java/).
+قبل أن نبدأ، تأكد من تثبيت مكتبة Aspose.Slides لجافا وإعدادها في مشروع جافا. يمكنك تنزيل المكتبة من [هنا](https://releases.aspose.com/slides/java/).
 
 ## الخطوة 1: إنشاء عرض تقديمي
 
@@ -33,7 +35,7 @@ Presentation presentation = new Presentation();
 
 ## الخطوة 2: إضافة شريحة ومخطط
 
-بعد ذلك، سنضيف شريحة ومخططًا إليها. في هذا المثال، سنقوم بإنشاء مخطط عمودي متفاوت المسافات.
+بعد ذلك، سنضيف شريحةً ومخططًا بيانيًا إليها. في هذا المثال، سننشئ مخططًا بيانيًا عموديًا مجمعًا.
 
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
@@ -42,7 +44,7 @@ IChart chart = slide.getShapes().addChart(ChartType.ClusteredColumn, 20, 100, 60
 
 ## الخطوة 3: تعيين تخطيط الرسم البياني
 
- الآن، دعونا نضبط التخطيط للمخطط. سنقوم بضبط موضع وحجم المخطط داخل الشريحة باستخدام`setX`, `setY`, `setWidth`, `setHeight` طُرق. بالإضافة إلى ذلك، سوف نقوم بتعيين`LayoutTargetType` لتحديد وضع التخطيط.
+الآن، لنُحدد تخطيط الرسم البياني. سنضبط موضع وحجم الرسم البياني داخل الشريحة باستخدام `setX`، `setY`، `setWidth`، `setHeight` الأساليب. بالإضافة إلى ذلك، سنقوم بتعيين `LayoutTargetType` لتحديد وضع التخطيط.
 
 ```java
 chart.getPlotArea().setX(0.2f);
@@ -52,17 +54,17 @@ chart.getPlotArea().setHeight(0.7f);
 chart.getPlotArea().setLayoutTargetType(LayoutTargetType.Inner);
 ```
 
-في هذا المثال، قمنا بتعيين المخطط بحيث يكون نوع تخطيطه المستهدف هو "داخلي"، مما يعني أنه سيتم تحديد موضعه وحجمه بالنسبة للمنطقة الداخلية للشريحة.
+في هذا المثال، قمنا بتعيين الرسم البياني ليكون نوع هدف التخطيط الخاص به "داخلي"، مما يعني أنه سيتم وضعه وحجمه بالنسبة للمنطقة الداخلية للشريحة.
 
-## الخطوة 4: احفظ العرض التقديمي
+## الخطوة 4: حفظ العرض التقديمي
 
-وأخيرًا، لنحفظ العرض التقديمي باستخدام إعدادات تخطيط المخطط.
+وأخيرًا، دعنا نحفظ العرض التقديمي بإعدادات تخطيط الرسم البياني.
 
 ```java
 presentation.save(dataDir + "SetLayoutMode_outer.pptx", SaveFormat.Pptx);
 ```
 
-## أكمل كود المصدر لتعيين وضع التخطيط في شرائح Java
+## كود المصدر الكامل لوضع التخطيط المحدد في شرائح Java
 
 ```java
 String dataDir = "Your Document Directory";
@@ -86,24 +88,26 @@ finally
 
 ## خاتمة
 
- في هذا البرنامج التعليمي، تعلمنا كيفية تعيين وضع التخطيط لمخطط في شرائح Java باستخدام Aspose.Slides for Java. يمكنك تخصيص موضع المخطط وحجمه وفقًا لمتطلباتك المحددة عن طريق ضبط القيم في`setX`, `setY`, `setWidth`, `setHeight` ، و`setLayoutTargetType`طُرق. ويمنحك هذا التحكم في موضع المخططات داخل شرائحك.
+في هذا البرنامج التعليمي، تعلمنا كيفية ضبط وضع تخطيط مخطط في شرائح جافا باستخدام Aspose.Slides لجافا. يمكنك تخصيص موضع وحجم المخطط وفقًا لاحتياجاتك الخاصة عن طريق ضبط القيم في `setX`، `setY`، `setWidth`، `setHeight`، و `setLayoutTargetType` الأساليب. يتيح لك هذا التحكم في وضع المخططات داخل الشرائح الخاصة بك.
 
 ## الأسئلة الشائعة
 
-### كيف يمكنني تغيير وضع التخطيط لمخطط في Aspose.Slides لـ Java؟
+### كيف يمكنني تغيير وضع التخطيط للرسم البياني في Aspose.Slides لـ Java؟
 
- لتغيير وضع التخطيط لمخطط في Aspose.Slides لـ Java، يمكنك استخدام`setLayoutTargetType` الطريقة على منطقة رسم المخطط. يمكنك ضبطه على أي منهما`LayoutTargetType.Inner` أو`LayoutTargetType.Outer` اعتمادا على التخطيط المطلوب.
+لتغيير وضع التخطيط للرسم البياني في Aspose.Slides لـ Java، يمكنك استخدام `setLayoutTargetType` طريقة على منطقة رسم المخطط. يمكنك ضبطها على أيٍّ من `LayoutTargetType.Inner` أو `LayoutTargetType.Outer` اعتمادًا على التصميم المطلوب.
 
-### هل يمكنني تخصيص موضع وحجم المخطط داخل الشريحة؟
+### هل يمكنني تخصيص موضع وحجم الرسم البياني داخل الشريحة؟
 
- نعم، يمكنك تخصيص موضع وحجم المخطط داخل الشريحة باستخدام`setX`, `setY`, `setWidth` ، و`setHeight` طرق على منطقة رسم المخطط. اضبط هذه القيم لتحديد موضع المخطط وحجمه وفقًا لمتطلباتك.
+نعم، يمكنك تخصيص موضع وحجم الرسم البياني داخل الشريحة باستخدام `setX`، `setY`، `setWidth`، و `setHeight` استخدم الطرق على مساحة رسم المخطط. اضبط هذه القيم لتحديد موضع وحجم المخطط وفقًا لمتطلباتك.
 
 ### أين يمكنني العثور على مزيد من المعلومات حول Aspose.Slides لـ Java؟
 
- يمكنك العثور على مزيد من المعلومات حول Aspose.Slides for Java في[توثيق](https://reference.aspose.com/slides/java/). يتضمن مراجع وأمثلة تفصيلية لواجهة برمجة التطبيقات (API) لمساعدتك في العمل مع الشرائح والمخططات بشكل فعال في Java.
+يمكنك العثور على مزيد من المعلومات حول Aspose.Slides لـ Java في [التوثيق](https://reference.aspose.com/slides/java/)إنه يتضمن مراجع API مفصلة وأمثلة لمساعدتك على العمل مع الشرائح والمخططات بشكل فعال في Java.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

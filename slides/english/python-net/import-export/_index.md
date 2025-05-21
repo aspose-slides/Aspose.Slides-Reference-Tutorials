@@ -4,8 +4,11 @@ description: "Learn to import data from external sources and export presentation
 weight: 17
 url: "/python-net/import-export/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Data Import and Export Tutorials for Aspose.Slides Python
 
@@ -23,7 +26,11 @@ Learn how to export PowerPoint slides to high-quality SVG files using Aspose.Sli
 - [Download Aspose.Slides for Python-net](https://releases.aspose.com/slides/python-net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

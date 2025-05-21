@@ -4,8 +4,11 @@ description: "Step-by-step tutorials for adding and manipulating images, audio, 
 weight: 7
 url: "/java/images-multimedia/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Images and Multimedia Tutorials for Aspose.Slides Java
 
@@ -110,7 +113,11 @@ Learn how to seamlessly add and trim videos in PowerPoint presentations using As
 - [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

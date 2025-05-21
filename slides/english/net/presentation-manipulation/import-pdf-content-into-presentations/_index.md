@@ -8,7 +8,9 @@ url: /net/presentation-manipulation/import-pdf-content-into-presentations/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Import PDF Content into Presentations
@@ -77,6 +79,7 @@ Integrating PDF content into presentations using Aspose.Slides for .NET is a pow
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

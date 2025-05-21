@@ -8,7 +8,9 @@ url: /net/additional-chart-features/chart-recover-workbook/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # How to Use Aspose.Slides .NET to Recover Workbook from Chart
@@ -111,6 +113,7 @@ For SEO optimization, it's recommended to keep your title under 60 characters to
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

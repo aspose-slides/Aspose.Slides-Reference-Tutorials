@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Manage Ink Shapes in PowerPoint Presentations Using Aspose.Slides for Python
 
@@ -103,7 +105,11 @@ ink_shape.traces[0].brush.size = drawing.SizeF(10, 5)
 After making your changes, save the presentation to a new file:
 
 ```python\presentation.save("YOUR_OUTPUT_DIRECTORY/SimpleInk_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

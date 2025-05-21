@@ -8,7 +8,9 @@ url: /net/hyperlink-manipulation/hyperlink-manipulation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Hyperlink Manipulation in Aspose.Slides
@@ -131,6 +133,7 @@ If you need a temporary license for Aspose.Slides, you can get one [here](https:
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

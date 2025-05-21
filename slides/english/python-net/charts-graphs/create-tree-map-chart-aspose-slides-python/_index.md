@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create and Customize TreeMap Charts with Aspose.Slides for Python
 
@@ -184,6 +186,9 @@ A5: Absolutely! Use loops to programmatically generate and configure multiple ch
 - **Community Forum:** Join discussions or ask questions in the [Aspose Community Forum](https://forum.aspose.com/c/slides/).
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

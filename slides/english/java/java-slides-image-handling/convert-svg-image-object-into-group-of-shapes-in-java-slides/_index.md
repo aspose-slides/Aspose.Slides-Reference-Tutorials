@@ -8,7 +8,9 @@ url: /java/image-handling/convert-svg-image-object-into-group-of-shapes-in-java-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert SVG Image Object into Group of Shapes in Java Slides
@@ -139,6 +141,7 @@ Certainly! You can customize the appearance, size, and positioning of the conver
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

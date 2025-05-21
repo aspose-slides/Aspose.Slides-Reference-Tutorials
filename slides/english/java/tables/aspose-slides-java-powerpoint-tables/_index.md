@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Customize Tables in PowerPoint Using Aspose.Slides for Java
 
@@ -202,7 +204,11 @@ Experiment with different table styles and layouts, integrate charts into your t
 - "Aspose.Slides for Java"
 - "Create PowerPoint tables"
 - "Customize PowerPoint presentations programmatically"
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -1,22 +1,24 @@
 ---
-title: العلامات الافتراضية في المخطط في شرائح Java
-linktitle: العلامات الافتراضية في المخطط في شرائح Java
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية إنشاء شرائح Java باستخدام العلامات الافتراضية في المخططات باستخدام Aspose.Slides for Java. دليل خطوة بخطوة مع كود المصدر.
-weight: 16
-url: /ar/java/chart-data-manipulation/default-markers-in-chart-java-slides/
+"description": "تعلّم كيفية إنشاء شرائح جافا مع علامات افتراضية في الرسوم البيانية باستخدام Aspose.Slides لجافا. دليل خطوة بخطوة مع الكود المصدر."
+"linktitle": "العلامات الافتراضية في الرسم البياني في شرائح Java"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "العلامات الافتراضية في الرسم البياني في شرائح Java"
+"url": "/ar/java/chart-data-manipulation/default-markers-in-chart-java-slides/"
+"weight": 16
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# العلامات الافتراضية في المخطط في شرائح Java
+# العلامات الافتراضية في الرسم البياني في شرائح Java
 
 
-## مقدمة إلى العلامات الافتراضية في المخطط في شرائح Java
+## مقدمة عن العلامات الافتراضية في المخططات في شرائح Java
 
-في هذا البرنامج التعليمي، سنستكشف كيفية إنشاء مخطط باستخدام العلامات الافتراضية باستخدام Aspose.Slides لـ Java. العلامات الافتراضية هي رموز أو أشكال تتم إضافتها إلى نقاط البيانات في المخطط لتمييزها. سنقوم بإنشاء مخطط خطي بعلامات لتصور البيانات.
+في هذا البرنامج التعليمي، سنستكشف كيفية إنشاء مخطط بياني بعلامات افتراضية باستخدام Aspose.Slides لجافا. العلامات الافتراضية هي رموز أو أشكال تُضاف إلى نقاط البيانات في المخطط لتمييزها. سننشئ مخططًا خطيًا بعلامات لعرض البيانات.
 
 ## المتطلبات الأساسية
 
@@ -24,7 +26,7 @@ url: /ar/java/chart-data-manipulation/default-markers-in-chart-java-slides/
 
 ## الخطوة 1: إنشاء عرض تقديمي
 
-أولاً، لنقم بإنشاء عرض تقديمي وإضافة شريحة إليه. سنقوم بعد ذلك بإضافة مخطط إلى الشريحة.
+أولاً، لنُنشئ عرضًا تقديميًا ونُضيف شريحةً إليه. ثم سنُضيف مخططًا إلى الشريحة.
 
 ```java
 String dataDir = "Your Document Directory";
@@ -34,7 +36,7 @@ ISlide slide = pres.getSlides().get_Item(0);
 
 ## الخطوة 2: إضافة مخطط خطي مع علامات
 
-الآن، دعونا نضيف مخططًا خطيًا بعلامات إلى الشريحة. سنقوم أيضًا بمسح أي بيانات افتراضية من المخطط.
+الآن، لنُضِف مخططًا خطيًا مع علامات إلى الشريحة. سنمسح أيضًا أي بيانات افتراضية من المخطط.
 
 ```java
 IChart chart = slide.getShapes().addChart(ChartType.LineWithMarkers, 10, 10, 400, 400);
@@ -42,9 +44,9 @@ chart.getChartData().getSeries().clear();
 chart.getChartData().getCategories().clear();
 ```
 
-## الخطوة 3: تعبئة بيانات المخطط
+## الخطوة 3: ملء بيانات الرسم البياني
 
-سنقوم بملء المخطط ببيانات نموذجية. في هذا المثال، سنقوم بإنشاء سلسلتين بنقاط البيانات والفئات.
+سنملأ الرسم البياني ببيانات نموذجية. في هذا المثال، سننشئ سلسلتين تحتويان على نقاط بيانات وفئات.
 
 ```java
 IChartDataWorkbook fact = chart.getChartData().getChartDataWorkbook();
@@ -65,33 +67,33 @@ series.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 1, null));
 chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"));
 IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
 
-// تعبئة بيانات السلسلة
+// ملء بيانات السلسلة
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
 series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 4, 2, 40));
 ```
 
-## الخطوة 4: تخصيص المخطط
+## الخطوة 4: تخصيص الرسم البياني
 
-يمكنك تخصيص المخطط بشكل أكبر، مثل إضافة وسيلة إيضاح وضبط مظهره.
+يمكنك تخصيص الرسم البياني بشكل أكبر، مثل إضافة أسطورة وتعديل مظهره.
 
 ```java
 chart.setLegend(true);
 chart.getLegend().setOverlay(false);
 ```
 
-## الخطوة 5: احفظ العرض التقديمي
+## الخطوة 5: حفظ العرض التقديمي
 
-وأخيرًا، احفظ العرض التقديمي مع المخطط في الموقع الذي تريده.
+وأخيرًا، احفظ العرض التقديمي مع الرسم البياني في الموقع المطلوب.
 
 ```java
 pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ```
 
-هذا كل شيء! لقد قمت بإنشاء مخطط خطي بعلامات افتراضية باستخدام Aspose.Slides لـ Java.
+هذا كل شيء! لقد أنشأتَ مخططًا خطيًا بعلامات افتراضية باستخدام Aspose.Slides لـ Java.
 
-## أكمل كود المصدر للعلامات الافتراضية في المخطط في شرائح Java
+## كود المصدر الكامل للعلامات الافتراضية في الرسم البياني في شرائح Java
 
 ```java
         // المسار إلى دليل المستندات.
@@ -117,7 +119,7 @@ pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
             chart.getChartData().getSeries().add(fact.getCell(0, 0, 2, "Series 2"), chart.getType());
             //خذ سلسلة الرسم البياني الثانية
             IChartSeries series2 = chart.getChartData().getSeries().get_Item(1);
-            //الآن ملء بيانات السلسلة
+            //يتم الآن ملء بيانات السلسلة
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 1, 2, 30));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 2, 2, 10));
             series2.getDataPoints().addDataPointForLineSeries(fact.getCell(0, 3, 2, 60));
@@ -133,24 +135,26 @@ pres.save(dataDir + "DefaultMarkersInChart.pptx", SaveFormat.Pptx);
 ```
 ## خاتمة
 
-في هذا البرنامج التعليمي الشامل، تعلمت كيفية إنشاء شرائح Java باستخدام العلامات الافتراضية في المخططات باستخدام Aspose.Slides for Java. لقد قمنا بتغطية العملية بأكملها، بدءًا من إعداد العرض التقديمي ووصولاً إلى تخصيص مظهر المخطط وحفظ النتيجة.
+في هذا البرنامج التعليمي الشامل، تعلمت كيفية إنشاء شرائح جافا مع علامات افتراضية في المخططات باستخدام Aspose.Slides لجافا. غطينا العملية بأكملها، من إعداد عرض تقديمي إلى تخصيص مظهر المخطط وحفظ النتيجة.
 
 ## الأسئلة الشائعة
 
 ### كيف يمكنني تغيير رموز العلامة؟
 
-يمكنك تخصيص رموز العلامة عن طريق تعيين نمط العلامة لكل نقطة بيانات. يستخدم`IDataPoint.setMarkerStyle()` لتغيير رمز العلامة.
+يمكنك تخصيص رموز العلامات عن طريق ضبط نمط العلامة لكل نقطة بيانات. استخدم `IDataPoint.setMarkerStyle()` لتغيير رمز العلامة.
 
-### كيف يمكنني ضبط ألوان المخطط؟
+### كيف يمكنني تعديل ألوان الرسم البياني؟
 
- لتعديل ألوان المخطط، يمكنك استخدام`IChartSeriesFormat` و`IShapeFillFormat` واجهات لتعيين خصائص التعبئة والخط.
+لتعديل ألوان الرسم البياني، يمكنك استخدام `IChartSeriesFormat` و `IShapeFillFormat` واجهات لتعيين خصائص التعبئة والخط.
 
 ### هل يمكنني إضافة تسميات إلى نقاط البيانات؟
 
- نعم، يمكنك إضافة تسميات إلى نقاط البيانات باستخدام`IDataPoint.getLabel()` الطريقة وتخصيصها حسب الحاجة.
+نعم، يمكنك إضافة تسميات إلى نقاط البيانات باستخدام `IDataPoint.getLabel()` الطريقة وتخصيصها حسب الحاجة.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

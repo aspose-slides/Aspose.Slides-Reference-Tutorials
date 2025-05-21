@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-formatting-geometry/get-light-rig-effective-dat
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Light Rig Effective Data in PowerPoint
@@ -76,6 +78,7 @@ You can get support from the Aspose.Slides support forum [here](https://forum.as
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

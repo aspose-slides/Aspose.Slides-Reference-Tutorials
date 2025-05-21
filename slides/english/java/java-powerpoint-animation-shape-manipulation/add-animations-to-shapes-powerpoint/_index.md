@@ -8,7 +8,9 @@ url: /java/java-powerpoint-animation-shape-manipulation/add-animations-to-shapes
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Animations to Shapes in PowerPoint
@@ -118,6 +120,7 @@ Check out the [documentation](https://reference.aspose.com/slides/java/) and [su
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

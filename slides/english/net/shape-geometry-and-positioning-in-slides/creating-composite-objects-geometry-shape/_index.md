@@ -8,7 +8,9 @@ url: /net/shape-geometry-and-positioning-in-slides/creating-composite-objects-ge
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mastering Composite Geometry Shapes in Presentations
@@ -94,6 +96,7 @@ Yes, you can obtain a temporary license [here](https://purchase.aspose.com/tempo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

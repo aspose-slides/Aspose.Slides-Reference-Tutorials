@@ -8,7 +8,9 @@ url: /net/presentation-manipulation/convert-presentation-to-tiff-with-default-si
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Presentation to TIFF with Default Size
@@ -96,6 +98,7 @@ For comprehensive documentation and examples, visit the [Aspose.Slides for .NET 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

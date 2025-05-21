@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set Slide Size with Aspose.Slides for .NET: A Complete Guide
 
@@ -178,7 +180,11 @@ Explore further with these resources:
 - **Download**: [Latest Releases of Aspose.Slides for .NET](https://releases.aspose.com/slides/net/)
 - **Purchase and Licensing**: [Buy or Get a Temporary License](https://purchase.aspose.com/buy)
 - **Free Trial**: [Start with a Free Evaluation](https://releases.aspose.com/slides/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/slide-background-manipulation/set-image-as-background/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Setting Image as Slide Background using Aspose.Slides
@@ -125,6 +127,7 @@ Yes, you can get a free trial of Aspose.Slides for .NET from the website at [thi
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Tiled Images to Slides Using Aspose.Slides for Java
 
@@ -189,7 +191,11 @@ A: Yes, it supports various formats including PPTX, PDF, and more.
 - **Support**: [Aspose Forums](https://forum.aspose.com/c/slides/11) 
 
 Try out Aspose.Slides for Java today and elevate your presentation game!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

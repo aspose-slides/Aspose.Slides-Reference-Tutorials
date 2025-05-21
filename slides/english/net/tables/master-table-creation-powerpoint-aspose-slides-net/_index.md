@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Table Creation and Customization in PowerPoint with Aspose.Slides for .NET
 
@@ -209,6 +211,9 @@ Ready to take it further? Try out these features in your next project or explore
 - [Aspose.Slides Product Page](https://products.aspose.com/slides/net)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

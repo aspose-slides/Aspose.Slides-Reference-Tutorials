@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Retrieve and Access Ink Shape Properties in Slides Using Aspose.Slides for .NET
 
@@ -163,7 +165,11 @@ Ready to put this knowledge into practice? Try implementing the solution in your
 - [Free Trial Version](https://releases.aspose.com/slides/net/)
 - [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Aspose Community Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

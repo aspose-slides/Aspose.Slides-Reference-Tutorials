@@ -8,7 +8,9 @@ url: /net/chart-creation-and-customization/chart-creation-and-customization/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chart Creation and Customization in Aspose.Slides
@@ -120,6 +122,7 @@ Yes, you can obtain a temporary license from the Aspose website [here](https://p
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

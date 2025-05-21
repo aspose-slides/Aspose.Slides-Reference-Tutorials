@@ -8,7 +8,9 @@ url: /java/java-powerpoint-font-management/default-fonts-powerpoint/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Default Fonts in PowerPoint with Aspose.Slides for Java
@@ -81,6 +83,7 @@ You can obtain a temporary license for Aspose.Slides for Java from the [purchase
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Save a PowerPoint Presentation without JavaScript Hyperlinks Using Aspose.Slides for .NET
 
@@ -149,7 +151,11 @@ By following this guide, you have learned how to use Aspose.Slides for .NET to s
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 By implementing this solution, you enhance the security of your PowerPoint presentations while leveraging the powerful features of Aspose.Slides for .NET. Give it a try today and explore more about what Aspose.Slides can offer!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

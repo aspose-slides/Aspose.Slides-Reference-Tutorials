@@ -13,7 +13,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Text Frames in PowerPoint with Aspose.Slides .NET
 
@@ -154,7 +156,11 @@ A: Follow best practices such as disposing of unused objects and optimizing perf
 - **Support Forum**: [Aspose Support](https://forum.aspose.com/c/slides/11)
 
 Embark on your journey to creating polished, automated PowerPoint presentations with Aspose.Slides for .NET today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

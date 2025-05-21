@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-font-customization/add-text-box-slide-programmat
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Text Box on Slide Programmatically with Java
@@ -77,6 +79,7 @@ Yes, it supports various formats including PDF and images.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

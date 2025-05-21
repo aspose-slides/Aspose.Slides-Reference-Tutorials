@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Creating and Validating Clustered Column Charts with Aspose.Slides .NET
 
@@ -146,7 +148,11 @@ A5: Explore Aspose.Slides documentation to learn about additional configurations
 - **Support Forum**: [Aspose Slides Support](https://forum.aspose.com/c/slides/11)
 
 By mastering these techniques, you can create visually stunning and functional charts that enhance your presentations. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

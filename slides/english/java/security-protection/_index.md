@@ -4,8 +4,11 @@ description: "Step-by-step tutorials for implementing presentation protection, p
 weight: 13
 url: "/java/security-protection/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Security and Protection Tutorials for Aspose.Slides Java
 
@@ -47,7 +50,11 @@ Learn how to check if a password can open a PowerPoint presentation using Aspose
 - [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

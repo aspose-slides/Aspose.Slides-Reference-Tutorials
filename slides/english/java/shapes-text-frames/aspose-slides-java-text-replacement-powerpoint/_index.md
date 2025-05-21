@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automating Text Replacement in PowerPoint Slides with Aspose.Slides for Java
 **Unlock the Power of PowerPoint Automation: Learn How to Replace Text in Slides Efficiently Using Aspose.Slides for Java**
@@ -154,6 +156,9 @@ By following this guide, you now have the skills to automate text replacement in
 Start automating your PowerPoint tasks today with Aspose.Slides for Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

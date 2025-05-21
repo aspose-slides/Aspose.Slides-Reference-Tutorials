@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides .NET: Manipulating SmartArt in PowerPoint Presentations
 
@@ -178,6 +180,9 @@ You've learned how to manipulate SmartArt in PowerPoint presentations using Aspo
 Start implementing these powerful features today to transform how you handle PowerPoint presentations!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

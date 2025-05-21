@@ -8,7 +8,9 @@ url: /java/presentation-conversion/convert-notes-slide-view-pdf-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Notes Slide View to PDF in Java Slides
@@ -116,6 +118,7 @@ You can find comprehensive documentation and examples for Aspose.Slides for Java
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

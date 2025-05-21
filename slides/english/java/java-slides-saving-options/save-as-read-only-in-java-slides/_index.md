@@ -8,7 +8,9 @@ url: /java/saving-options/save-as-read-only-in-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Save as Read-Only in Java Slides
@@ -137,6 +139,7 @@ Yes, you can change the read-only password after setting it. Use the `setReadPro
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

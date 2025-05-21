@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Add Custom Notes to PowerPoint Slides Using Aspose.Slides for .NET: A Comprehensive Guide
 ## Introduction
@@ -127,7 +129,11 @@ You’ve learned how to add custom notes to PowerPoint slides using Aspose.Slide
 - [Free Trial Download](https://releases.aspose.com/slides/net/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

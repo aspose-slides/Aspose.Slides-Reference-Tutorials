@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides for Python: Extract Text from SmartArt
 
@@ -151,6 +153,9 @@ You've now mastered extracting text from SmartArt nodes in PowerPoint using Aspo
 Embark on your journey with Aspose.Slides for Python today and transform how you manage PowerPoint presentations programmatically!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

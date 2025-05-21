@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Access and Identify SmartArt Layouts in PowerPoint Using Java with Aspose.Slides
 
@@ -169,7 +171,11 @@ A: Optimize by managing resources carefully and consider batch processing where 
 - **Free Trial**: [Start Free Trial](https://releases.aspose.com/slides/java/)
 - **Temporary License**: [Obtain Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

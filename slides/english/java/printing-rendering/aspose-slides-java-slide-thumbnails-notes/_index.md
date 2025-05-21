@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Slide Thumbnails with Notes Using Aspose.Slides Java
 ## Printing & Rendering
@@ -164,6 +166,9 @@ By now, you should have a solid understanding of how to use Aspose.Slides for Ja
 Feel free to explore these resources for more detailed information and support as you begin implementing Aspose.Slides in your Java projects. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

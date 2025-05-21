@@ -8,7 +8,9 @@ url: /java/chart-data-manipulation/add-doughnut-callout-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Doughnut Callout in Java Slides
@@ -190,6 +192,7 @@ You can change the position and size of the Doughnut chart by modifying the para
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

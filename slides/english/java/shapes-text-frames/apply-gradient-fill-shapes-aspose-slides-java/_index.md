@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Apply a Gradient Fill to Shapes Using Aspose.Slides Java
 Creating visually appealing presentations is essential, whether you're pitching an idea or showcasing your work. One way to enhance your PowerPoint slides is by applying gradient fills to shapes. In this tutorial, we'll dive into how you can use the Aspose.Slides for Java library to apply a stunning gradient fill to an ellipse shape in a PowerPoint presentation.
@@ -171,7 +173,11 @@ A5: Reach out through the [Aspose Support Forum](https://forum.aspose.com/c/slid
 - **Documentation:** Learn more about Aspose.Slides features at [Aspose Documentation](https://reference.aspose.com/slides/java/).
 - **Download:** Get the latest version from [Releases](https://releases.aspose.com/slides/java/).
 - **Purchase a License:** Buy a license for commercial use on [Aspose's purchasing page](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

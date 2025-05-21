@@ -8,7 +8,9 @@ url: /java/chart-data-manipulation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Slides Chart Data Manipulation
@@ -60,9 +62,11 @@ Create Normal Charts in Java Slides with Aspose.Slides for Java. Step-by-step gu
 Learn how to create stunning organization charts in Java Slides with step-by-step Aspose.Slides tutorials. Customize and visualize your organizational structure effortlessly.
 ### [Pie Chart in Java Slides](./pie-chart-java-slides/)
 Learn how to create stunning Pie Charts in PowerPoint presentations using Aspose.Slides for Java. Step-by-step guide with source code for Java developers.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

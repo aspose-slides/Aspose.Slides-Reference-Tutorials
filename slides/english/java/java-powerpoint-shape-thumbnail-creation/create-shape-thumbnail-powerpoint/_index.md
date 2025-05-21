@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-thumbnail-creation/create-shape-thumbnail-power
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Shape Thumbnail in PowerPoint
@@ -70,6 +72,7 @@ If you have any questions or need assistance with Aspose.Slides, you can visit t
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/java-powerpoint-table-manipulation/set-text-formatting-inside-table-p
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Text Formatting Inside Table in PowerPoint using Java
@@ -90,6 +92,7 @@ Visit the [Aspose.Slides for Java documentation](https://reference.aspose.com/sl
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

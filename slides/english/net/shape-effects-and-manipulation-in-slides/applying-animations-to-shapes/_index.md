@@ -8,7 +8,9 @@ url: /net/shape-effects-and-manipulation-in-slides/applying-animations-to-shapes
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Shape Animations Made Easy with Aspose.Slides
@@ -91,6 +93,7 @@ Certainly! Utilize the [free trial](https://releases.aspose.com/) to experience 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

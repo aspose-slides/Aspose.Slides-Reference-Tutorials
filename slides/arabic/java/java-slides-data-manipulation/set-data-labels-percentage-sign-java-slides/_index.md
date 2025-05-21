@@ -1,30 +1,32 @@
 ---
-title: تعيين النسبة المئوية لتسميات البيانات، تسجيل الدخول إلى شرائح Java
-linktitle: تعيين النسبة المئوية لتسميات البيانات، تسجيل الدخول إلى شرائح Java
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية تعيين تسميات البيانات بعلامات النسبة المئوية في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. قم بإنشاء مخططات جذابة مع إرشادات خطوة بخطوة وكود المصدر.
-weight: 17
-url: /ar/java/data-manipulation/set-data-labels-percentage-sign-java-slides/
+"description": "تعلّم كيفية تعيين تسميات البيانات بعلامات النسبة المئوية في عروض PowerPoint التقديمية باستخدام Aspose.Slides لجافا. أنشئ مخططات بيانية جذابة مع إرشادات خطوة بخطوة وشيفرة المصدر."
+"linktitle": "تعيين نسب تسميات البيانات تسجيل الدخول إلى شرائح Java"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "تعيين نسب تسميات البيانات تسجيل الدخول إلى شرائح Java"
+"url": "/ar/java/data-manipulation/set-data-labels-percentage-sign-java-slides/"
+"weight": 17
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تعيين النسبة المئوية لتسميات البيانات، تسجيل الدخول إلى شرائح Java
+# تعيين نسب تسميات البيانات تسجيل الدخول إلى شرائح Java
 
 
-## مقدمة لتعيين النسبة المئوية لتسميات البيانات تسجيل الدخول Aspose.Slides لـ Java
+## مقدمة لتعيين نسب تسميات البيانات تسجيل الدخول إلى Aspose.Slides لـ Java
 
-في هذا الدليل، سنرشدك خلال عملية تعيين تسميات البيانات بعلامة النسبة المئوية باستخدام Aspose.Slides لـ Java. سنقوم بإنشاء عرض تقديمي لبرنامج PowerPoint باستخدام مخطط عمودي مكدس وتكوين تسميات البيانات لعرض النسب المئوية.
+في هذا الدليل، سنشرح لك عملية إعداد تسميات البيانات بعلامة النسبة المئوية باستخدام Aspose.Slides لجافا. سننشئ عرضًا تقديميًا في PowerPoint بمخطط عمودي مكدس، ونُهيئ تسميات البيانات لعرض النسب المئوية.
 
 ## المتطلبات الأساسية
 
- قبل أن تبدأ، تأكد من إضافة مكتبة Aspose.Slides for Java إلى مشروعك. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/java/).
+قبل البدء، تأكد من إضافة مكتبة Aspose.Slides لجافا إلى مشروعك. يمكنك تنزيلها من [هنا](https://releases.aspose.com/slides/java/).
 
 ## الخطوة 1: إنشاء عرض تقديمي جديد
 
-أولاً، نقوم بإنشاء عرض تقديمي جديد لبرنامج PowerPoint باستخدام Aspose.Slides.
+أولاً، نقوم بإنشاء عرض تقديمي جديد في PowerPoint باستخدام Aspose.Slides.
 
 ```java
 // المسار إلى دليل المستندات.
@@ -38,29 +40,29 @@ Presentation presentation = new Presentation();
 بعد ذلك، نضيف شريحة ومخططًا عموديًا مكدسًا إلى العرض التقديمي.
 
 ```java
-// الحصول على مرجع الشريحة
+// احصل على مرجع الشريحة
 ISlide slide = presentation.getSlides().get_Item(0);
 
-// إضافة مخطط PercentsStackedColumn على الشريحة
+// إضافة مخطط PercentsStackedColumn إلى شريحة
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
 ```
 
-## الخطوة 3: تكوين تنسيق رقم المحور
+## الخطوة 3: تكوين تنسيق أرقام المحور
 
-لعرض النسب المئوية، نحتاج إلى تكوين تنسيق الأرقام للمحور الرأسي للمخطط.
+لعرض النسب المئوية، نحتاج إلى تكوين تنسيق الأرقام للمحور الرأسي للرسم البياني.
 
 ```java
-// اضبط NumberFormatLinkedToSource على خطأ
+// تعيين NumberFormatLinkedToSource إلى false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 ```
 
-## الخطوة 4: إضافة بيانات المخطط
+## الخطوة 4: إضافة بيانات الرسم البياني
 
-نضيف البيانات إلى المخطط عن طريق إنشاء نقاط متسلسلة وبيانات. في هذا المثال، نضيف سلسلتين مع نقاط البيانات الخاصة بكل منهما.
+نضيف البيانات إلى الرسم البياني بإنشاء سلاسل ونقاط بيانات. في هذا المثال، نضيف سلسلتين مع نقاط بياناتهما.
 
 ```java
-// الحصول على ورقة عمل بيانات المخطط
+// الحصول على ورقة عمل بيانات الرسم البياني
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 
 // إضافة سلسلة جديدة
@@ -80,10 +82,10 @@ series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 
 ## الخطوة 5: تخصيص تسميات البيانات
 
-الآن، دعونا نخصص مظهر تسميات البيانات.
+الآن، دعونا نقوم بتخصيص مظهر تسميات البيانات.
 
 ```java
-// تحديد خصائص تنسيق التسمية
+// إعداد خصائص LabelFormat
 series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormatLinkedToSource(false);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormat("0.0%");
@@ -100,34 +102,34 @@ series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat
 series2.getLabels().getDefaultDataLabelFormat().getTextFormat().getPortionFormat().getFillFormat().getSolidFillColor().setColor(Color.WHITE);
 ```
 
-## الخطوة 6: احفظ العرض التقديمي
+## الخطوة 6: حفظ العرض التقديمي
 
-وأخيرا، نقوم بحفظ العرض التقديمي في ملف PowerPoint.
+وأخيرًا، نحفظ العرض التقديمي في ملف PowerPoint.
 
 ```java
 // كتابة العرض التقديمي على القرص
 presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.Pptx);
 ```
 
-هذا كل شيء! لقد نجحت في إنشاء عرض تقديمي لـ PowerPoint باستخدام مخطط عمودي مكدس وتسميات البيانات التي تم تكوينها لعرض النسب المئوية باستخدام Aspose.Slides لـ Java.
+هذا كل شيء! لقد نجحت في إنشاء عرض تقديمي على PowerPoint بمخطط عمودي مكدس، وقمت بتكوين تسميات البيانات لعرض النسب المئوية باستخدام Aspose.Slides لـ Java.
 
-## أكمل كود المصدر لتعيين تسميات البيانات والنسبة المئوية لتسجيل الدخول في شرائح Java
+## كود المصدر الكامل لمجموعة تسميات البيانات النسبة المئوية تسجيل الدخول إلى شرائح Java
 
 ```java
 // المسار إلى دليل المستندات.
 String dataDir = "Your Document Directory";
 // إنشاء مثيل لفئة العرض التقديمي
 Presentation presentation = new Presentation();
-// الحصول على مرجع الشريحة
+// احصل على مرجع الشريحة
 ISlide slide = presentation.getSlides().get_Item(0);
-// إضافة مخطط PercentsStackedColumn على الشريحة
+// إضافة مخطط PercentsStackedColumn إلى شريحة
 IChart chart = slide.getShapes().addChart(ChartType.PercentsStackedColumn, 20, 20, 500, 400);
-// اضبط NumberFormatLinkedToSource على خطأ
+// تعيين NumberFormatLinkedToSource إلى false
 chart.getAxes().getVerticalAxis().setNumberFormatLinkedToSource(false);
 chart.getAxes().getVerticalAxis().setNumberFormat("0.00%");
 chart.getChartData().getSeries().clear();
 int defaultWorksheetIndex = 0;
-// الحصول على ورقة عمل بيانات المخطط
+// الحصول على ورقة عمل بيانات الرسم البياني
 IChartDataWorkbook workbook = chart.getChartData().getChartDataWorkbook();
 // إضافة سلسلة جديدة
 IChartSeries series = chart.getChartData().getSeries().add(workbook.getCell(defaultWorksheetIndex, 0, 1, "Reds"), chart.getType());
@@ -135,10 +137,10 @@ series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshee
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 2, 1, 0.50));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 3, 1, 0.80));
 series.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 1, 0.65));
-// ضبط لون تعبئة السلسلة
+// ضبط لون التعبئة للسلسلة
 series.getFormat().getFill().setFillType(FillType.Solid);
 series.getFormat().getFill().getSolidFillColor().setColor(Color.RED);
-// تحديد خصائص تنسيق التسمية
+// إعداد خصائص LabelFormat
 series.getLabels().getDefaultDataLabelFormat().setShowValue(true);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormatLinkedToSource(false);
 series.getLabels().getDefaultDataLabelFormat().setNumberFormat("0.0%");
@@ -152,7 +154,7 @@ series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorkshe
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 2, 2, 0.50));
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 3, 2, 0.20));
 series2.getDataPoints().addDataPointForBarSeries(workbook.getCell(defaultWorksheetIndex, 4, 2, 0.35));
-// تحديد نوع التعبئة واللون
+// ضبط نوع التعبئة واللون
 series2.getFormat().getFill().setFillType(FillType.Solid);
 series2.getFormat().getFill().getSolidFillColor().setColor(Color.BLUE);
 series2.getLabels().getDefaultDataLabelFormat().setShowValue(true);
@@ -167,25 +169,27 @@ presentation.save(dataDir + "SetDataLabelsPercentageSign_out.pptx", SaveFormat.P
 
 ## خاتمة
 
-باتباع هذا الدليل، تعلمت كيفية إنشاء عروض تقديمية جذابة باستخدام تسميات البيانات المستندة إلى النسبة المئوية، والتي يمكن أن تكون مفيدة بشكل خاص لنقل المعلومات بشكل فعال في تقارير الأعمال والمواد التعليمية والمزيد.
+من خلال اتباع هذا الدليل، ستتعلم كيفية إنشاء عروض تقديمية جذابة باستخدام تسميات بيانات تعتمد على النسبة المئوية، وهو ما قد يكون مفيدًا بشكل خاص في نقل المعلومات بشكل فعال في التقارير التجارية والمواد التعليمية والمزيد.
 
 ## الأسئلة الشائعة
 
-### كيف يمكنني تغيير ألوان سلسلة المخططات؟
+### كيف يمكنني تغيير ألوان سلسلة الرسم البياني؟
 
- يمكنك تغيير لون تعبئة سلسلة المخططات باستخدام`setFill` الطريقة كما هو موضح في المثال
+يمكنك تغيير لون تعبئة سلسلة الرسم البياني باستخدام `setFill` الطريقة كما هو موضح في المثال.
 
-### هل يمكنني تخصيص حجم خط تسميات البيانات؟
+### هل يمكنني تخصيص حجم الخط لملصقات البيانات؟
 
-نعم، يمكنك تخصيص حجم خط تسميات البيانات عن طريق تعيين`setFontHeight` الخاصية كما هو موضح في الكود.
+نعم، يمكنك تخصيص حجم الخط الخاص بعلامات البيانات عن طريق ضبط `setFontHeight` الخاصية كما هو موضح في الكود.
 
-### كيف يمكنني إضافة المزيد من السلاسل إلى المخطط؟
+### كيف يمكنني إضافة المزيد من السلاسل إلى الرسم البياني؟
 
- يمكنك إضافة سلسلة إضافية إلى المخطط باستخدام`add` الطريقة على`IChartSeriesCollection` هدف.
+يمكنك إضافة سلسلة إضافية إلى الرسم البياني باستخدام `add` الطريقة على `IChartSeriesCollection` هدف.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

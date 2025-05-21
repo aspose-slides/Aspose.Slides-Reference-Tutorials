@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Presentation Metadata with Aspose.Slides Java
 
@@ -169,7 +171,11 @@ A5: Yes, it supports a variety of formats including PDFs and images. Check the d
 - **Purchase**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)
 - **Free Trial**: [Start with a Free Trial](https://releases.aspose.com/slides/java/)
 - **Temporary License**: [Get a Temporary License](https://secure.aspose.com/temporary-license)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

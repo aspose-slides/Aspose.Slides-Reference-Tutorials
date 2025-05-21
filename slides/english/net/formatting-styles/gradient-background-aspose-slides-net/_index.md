@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create a Gradient Background in PowerPoint Using Aspose.Slides for .NET
 
@@ -148,7 +150,11 @@ Ready to take it further? Explore additional features and customization options 
 - **Purchase & Free Trial:** [Buy or Try Aspose.Slides for Free](https://purchase.aspose.com/buy)
 - **Temporary License:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support:** [Aspose Forum for Slides](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

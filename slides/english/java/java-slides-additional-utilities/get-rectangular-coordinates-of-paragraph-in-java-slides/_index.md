@@ -8,7 +8,9 @@ url: /java/additional-utilities/get-rectangular-coordinates-of-paragraph-in-java
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Rectangular Coordinates of Paragraph in Java Slides
@@ -122,6 +124,7 @@ Yes, you typically need a valid license to use Aspose.Slides for Java in a produ
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

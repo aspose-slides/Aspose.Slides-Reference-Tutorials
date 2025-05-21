@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Retrieve Slide Backgrounds in PowerPoint with Aspose.Slides for Java
 
@@ -167,6 +169,9 @@ Explore further capabilities of Aspose.Slides by diving into its extensive [docu
 Embark on your journey to automate and enhance PowerPoint presentations with Aspose.Slides for Java today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

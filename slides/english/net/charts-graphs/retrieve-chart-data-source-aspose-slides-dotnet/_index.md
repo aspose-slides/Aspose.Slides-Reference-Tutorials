@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Retrieve Chart Data Source Type Using Aspose.Slides for .NET
 
@@ -113,7 +115,11 @@ if (sourceType == ChartDataSourceType.ExternalWorkbook)
 Finally, save the presentation after making any modifications:
 ```csharp
 pres.Save(dataDir + "/Result.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

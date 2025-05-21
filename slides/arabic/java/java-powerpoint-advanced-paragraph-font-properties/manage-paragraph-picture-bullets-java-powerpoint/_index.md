@@ -1,30 +1,32 @@
 ---
-title: إدارة التعداد النقطي لصورة الفقرة في Java PowerPoint
-linktitle: إدارة التعداد النقطي لصورة الفقرة في Java PowerPoint
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية إضافة صور نقطية مخصصة إلى شرائح PowerPoint باستخدام Aspose.Slides لـ Java. اتبع هذا الدليل المفصل خطوة بخطوة لتحقيق التكامل السلس.
-weight: 11
-url: /ar/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-picture-bullets-java-powerpoint/
+"description": "تعرّف على كيفية إضافة نقاط صور مخصصة إلى شرائح PowerPoint باستخدام Aspose.Slides لجافا. اتبع هذا الدليل المفصل خطوة بخطوة لدمج سلس."
+"linktitle": "إدارة نقاط صور الفقرات في Java PowerPoint"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "إدارة نقاط صور الفقرات في Java PowerPoint"
+"url": "/ar/java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-picture-bullets-java-powerpoint/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إدارة التعداد النقطي لصورة الفقرة في Java PowerPoint
+# إدارة نقاط صور الفقرات في Java PowerPoint
 
 ## مقدمة
-يعد إنشاء عروض تقديمية جذابة وجذابة بصريًا مهارة حاسمة في عالم الأعمال الحديث. يمكن لمطوري Java الاستفادة من Aspose.Slides لتحسين عروضهم التقديمية من خلال صور نقطية مخصصة في شرائح PowerPoint. سيرشدك هذا البرنامج التعليمي خلال العملية خطوة بخطوة، مما يضمن أنه يمكنك بثقة إضافة صور نقطية إلى عروضك التقديمية.
+يُعد إنشاء عروض تقديمية جذابة وجذابة مهارةً أساسيةً في عالم الأعمال الحديث. يمكن لمطوري جافا الاستفادة من Aspose.Slides لتحسين عروضهم التقديمية بإضافة صور نقطية مخصصة في شرائح PowerPoint. سيرشدك هذا البرنامج التعليمي خلال العملية خطوة بخطوة، مما يضمن لك إمكانية إضافة الصور النقطية إلى عروضك التقديمية بثقة.
 ## المتطلبات الأساسية
-قبل الغوص في البرنامج التعليمي، تأكد من توفر المتطلبات الأساسية التالية:
-- تم تثبيت مجموعة أدوات تطوير Java (JDK).
+قبل الغوص في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
+- تم تثبيت Java Development Kit (JDK)
 - بيئة التطوير المتكاملة (IDE) مثل Eclipse أو IntelliJ IDEA
-- Aspose.Slides لمكتبة جافا
+- مكتبة Aspose.Slides لـ Java
 - المعرفة الأساسية ببرمجة جافا
-- ملف الصورة للصورة الرصاصة
- لتنزيل مكتبة Aspose.Slides for Java، قم بزيارة[صفحة التحميل](https://releases.aspose.com/slides/java/) . للتوثيق، تحقق من[توثيق](https://reference.aspose.com/slides/java/).
-## حزم الاستيراد
-أولاً، تأكد من استيراد الحزم اللازمة لمشروعك. أضف الواردات التالية في بداية ملف Java الخاص بك:
+- ملف صورة لصورة الرصاصة
+لتنزيل مكتبة Aspose.Slides لـ Java، قم بزيارة [صفحة التحميل](https://releases.aspose.com/slides/java/). للحصول على التوثيق، راجع [التوثيق](https://reference.aspose.com/slides/java/).
+## استيراد الحزم
+أولاً، تأكد من استيراد الحزم اللازمة لمشروعك. أضف الحزم التالية في بداية ملف جافا:
 ```java
 import com.aspose.slides.*;
 import javax.imageio.ImageIO;
@@ -32,35 +34,35 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 ```
-دعونا نقسم العملية إلى خطوات يمكن التحكم فيها.
-## الخطوة 1: قم بإعداد دليل المشروع الخاص بك
-قم بإنشاء دليل جديد لمشروعك. سيحتوي هذا الدليل على ملف Java الخاص بك ومكتبة Aspose.Slides وملف الصورة الخاص بالرمز النقطي.
+دعونا نقسم العملية إلى خطوات قابلة للإدارة.
+## الخطوة 1: إعداد دليل المشروع الخاص بك
+أنشئ مجلدًا جديدًا لمشروعك. سيحتوي هذا المجلد على ملف جافا، ومكتبة Aspose.Slides، وملف الصورة للرصاصة.
 ```java
 String dataDir = "Your Document Directory";
 ```
 ## الخطوة 2: تهيئة العرض التقديمي
- تهيئة مثيل جديد لـ`Presentation` فصل. يمثل هذا الكائن عرض PowerPoint التقديمي الخاص بك.
+تهيئة مثيل جديد من `Presentation` هذا الكائن يمثل عرض PowerPoint الخاص بك.
 ```java
 Presentation presentation = new Presentation();
 ```
 ## الخطوة 3: الوصول إلى الشريحة الأولى
-قم بالوصول إلى الشريحة الأولى من العرض التقديمي. الشرائح غير مفهرسة بصفر، لذا فإن الشريحة الأولى تكون عند الفهرس 0.
+انتقل إلى الشريحة الأولى من العرض التقديمي. الشرائح مفهرسة برقم صفر، لذا فإن الشريحة الأولى برقم صفر.
 ```java
 ISlide slide = presentation.getSlides().get_Item(0);
 ```
-## الخطوة 4: قم بتحميل الصورة النقطية
-قم بتحميل الصورة التي تريد استخدامها للتعداد النقطي. يجب وضع هذه الصورة في دليل المشروع الخاص بك.
+## الخطوة 4: تحميل صورة الرصاصة
+حمّل الصورة التي تريد استخدامها للرصاصات. يجب وضعها في مجلد مشروعك.
 ```java
 BufferedImage image = ImageIO.read(new File(dataDir + "bullets.png"));
 IPPImage ippxImage = presentation.getImages().addImage(image);
 ```
 ## الخطوة 5: إضافة شكل تلقائي إلى الشريحة
-إضافة شكل تلقائي إلى الشريحة. سيحتوي الشكل على النص مع النقاط المخصصة.
+أضف شكلاً تلقائياً إلى الشريحة. سيحتوي الشكل على النص مع النقاط المخصصة.
 ```java
 IAutoShape autoShape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 200, 200, 400, 200);
 ```
 ## الخطوة 6: الوصول إلى إطار النص
-قم بالوصول إلى إطار النص الخاص بالشكل التلقائي لمعالجة فقراته.
+قم بالوصول إلى إطار النص الخاص بالشكل التلقائي للتحكم في فقراته.
 ```java
 ITextFrame textFrame = autoShape.getTextFrame();
 ```
@@ -70,19 +72,19 @@ ITextFrame textFrame = autoShape.getTextFrame();
 textFrame.getParagraphs().removeAt(0);
 ```
 ## الخطوة 8: إنشاء فقرة جديدة
-إنشاء فقرة جديدة وتعيين نصها. ستحتوي هذه الفقرة على التعداد النقطي للصورة المخصصة.
+أنشئ فقرة جديدة وحدد نصها. ستحتوي هذه الفقرة على صور نقطية مخصصة.
 ```java
 Paragraph paragraph = new Paragraph();
 paragraph.setText("Welcome to Aspose.Slides");
 ```
-## الخطوة 9: تعيين نمط التعداد النقطي والصورة
-قم بتعيين نمط التعداد النقطي لاستخدام الصورة المخصصة التي تم تحميلها مسبقًا.
+## الخطوة 9: تعيين نمط النقاط والصورة
+قم بتعيين نمط الرصاصة لاستخدام الصورة المخصصة التي تم تحميلها مسبقًا.
 ```java
 paragraph.getParagraphFormat().getBullet().setType(BulletType.Picture);
 paragraph.getParagraphFormat().getBullet().getPicture().setImage(ippxImage);
 ```
 ## الخطوة 10: ضبط ارتفاع الرصاصة
-قم بتعيين ارتفاع الرمز النقطي للتأكد من أنه يبدو جيدًا في العرض التقديمي.
+قم بتعيين ارتفاع الرصاصة للتأكد من أنها تبدو جيدة في العرض التقديمي.
 ```java
 paragraph.getParagraphFormat().getBullet().setHeight(100);
 ```
@@ -91,28 +93,30 @@ paragraph.getParagraphFormat().getBullet().setHeight(100);
 ```java
 textFrame.getParagraphs().add(paragraph);
 ```
-## الخطوة 12: احفظ العرض التقديمي
-وأخيرًا، احفظ العرض التقديمي كملف PPTX وPPT.
+## الخطوة 12: حفظ العرض التقديمي
+وأخيرًا، احفظ العرض التقديمي بصيغة PPTX وPPT.
 ```java
 presentation.save(dataDir + "ParagraphPictureBulletsPPTX_out.pptx", SaveFormat.Pptx);
 presentation.save(dataDir + "ParagraphPictureBulletsPPT_out.ppt", SaveFormat.Ppt);
 ```
 ## خاتمة
- وهناك لديك! باتباع هذه الخطوات، يمكنك بسهولة إضافة صور نقطية مخصصة إلى عروض PowerPoint التقديمية باستخدام Aspose.Slides for Java. توفر هذه المكتبة القوية مجموعة واسعة من الميزات لمساعدتك في إنشاء عروض تقديمية احترافية وجذابة بصريًا. لا تنسى استكشاف[توثيق](https://reference.aspose.com/slides/java/)لمزيد من الميزات المتقدمة وخيارات التخصيص.
+وهذا كل ما في الأمر! باتباع هذه الخطوات، يمكنك بسهولة إضافة نقاط صور مخصصة إلى عروض PowerPoint التقديمية باستخدام Aspose.Slides لجافا. توفر هذه المكتبة القوية مجموعة واسعة من الميزات لمساعدتك في إنشاء عروض تقديمية احترافية وجذابة بصريًا. لا تنسَ استكشاف [التوثيق](https://reference.aspose.com/slides/java/) لمزيد من الميزات المتقدمة وخيارات التخصيص.
 ## الأسئلة الشائعة
-### ما هو Aspose.Slides لجافا؟
-Aspose.Slides for Java هي مكتبة قوية تسمح لمطوري Java بإنشاء عروض PowerPoint التقديمية وتعديلها ومعالجتها برمجياً.
-### هل يمكنني استخدام أي صورة للتعداد النقطي للصورة؟
-نعم، يمكنك استخدام أي صورة للتعداد النقطي للصور طالما أنه يمكن الوصول إليها من دليل المشروع الخاص بك.
+### ما هو Aspose.Slides لـ Java؟
+Aspose.Slides for Java هي مكتبة قوية تسمح لمطوري Java بإنشاء عروض PowerPoint وتعديلها والتلاعب بها برمجيًا.
+### هل يمكنني استخدام أي صورة لنقاط الصورة؟
+نعم، يمكنك استخدام أي صورة لنقاط الصورة طالما أنه من الممكن الوصول إليها من دليل المشروع الخاص بك.
 ### هل أحتاج إلى ترخيص لاستخدام Aspose.Slides لـ Java؟
- يتطلب Aspose.Slides for Java ترخيصًا للحصول على الوظائف الكاملة. يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/) أو شراء ترخيص كامل[هنا](https://purchase.aspose.com/buy).
-### هل يمكنني إضافة فقرات متعددة بأنماط تعداد نقطي مختلفة في شكل تلقائي واحد؟
-نعم، يمكنك إضافة فقرات متعددة بأنماط تعداد نقطي مختلفة إلى شكل تلقائي واحد عن طريق إنشاء كل فقرة وتكوينها على حدة.
+يتطلب Aspose.Slides لجافا ترخيصًا لتشغيله بكامل وظائفه. يمكنك الحصول على ترخيص مؤقت من [هنا](https://purchase.aspose.com/temporary-license/) أو شراء ترخيص كامل [هنا](https://purchase.aspose.com/buy).
+### هل يمكنني إضافة فقرات متعددة بأنماط نقطية مختلفة في شكل تلقائي واحد؟
+نعم، يمكنك إضافة فقرات متعددة ذات أنماط نقطية مختلفة إلى شكل تلقائي واحد عن طريق إنشاء كل فقرة وتكوينها بشكل فردي.
 ### أين يمكنني العثور على المزيد من الأمثلة والدعم؟
- يمكنك العثور على المزيد من الأمثلة في[توثيق](https://reference.aspose.com/slides/java/) واحصل على الدعم من مجتمع Aspose على[المنتديات](https://forum.aspose.com/c/slides/11).
+يمكنك العثور على المزيد من الأمثلة في [التوثيق](https://reference.aspose.com/slides/java/) واحصل على الدعم من مجتمع Aspose على [المنتديات](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

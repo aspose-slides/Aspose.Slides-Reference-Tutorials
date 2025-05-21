@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate Chart Series Colors in PowerPoint Using Aspose.Slides for .NET
 
@@ -196,6 +198,9 @@ Next, consider exploring more advanced features of Aspose.Slides or integrating 
 By following this guide, you're now equipped to create colorful and professional charts in PowerPoint presentations using Aspose.Slides for .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

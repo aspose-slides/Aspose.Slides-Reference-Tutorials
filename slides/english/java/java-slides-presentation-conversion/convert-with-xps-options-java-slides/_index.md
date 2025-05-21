@@ -8,7 +8,9 @@ url: /java/presentation-conversion/convert-with-xps-options-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert with XPS Options in Java Slides
@@ -125,6 +127,7 @@ To handle exceptions, you can use try-catch blocks around your code when working
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

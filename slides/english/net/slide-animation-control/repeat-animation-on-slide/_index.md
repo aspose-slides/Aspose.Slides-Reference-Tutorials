@@ -8,7 +8,9 @@ url: /net/slide-animation-control/repeat-animation-on-slide/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mastering PowerPoint Animations with Aspose.Slides .NET
@@ -76,6 +78,7 @@ Engage with the Aspose.Slides community on the [support forum](https://forum.asp
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

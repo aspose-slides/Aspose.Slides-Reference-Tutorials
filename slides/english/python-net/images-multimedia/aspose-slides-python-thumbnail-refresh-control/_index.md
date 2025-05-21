@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Thumbnail Refresh Control with Aspose.Slides Python
 
@@ -159,7 +161,11 @@ A: Visit the [Aspose Support Forum](https://forum.aspose.com/c/slides/11) for qu
 - **Support**: For further assistance, contact the support team on their forum.
 
 Dive into Aspose.Slides and discover its powerful capabilities to enhance your presentation management workflow!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

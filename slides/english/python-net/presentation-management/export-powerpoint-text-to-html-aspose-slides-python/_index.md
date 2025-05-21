@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Export PowerPoint Text to HTML Using Aspose.Slides & Python: A Step-by-Step Guide
 
@@ -185,6 +187,9 @@ Ready to dive deeper? Implement this solution today and see how it enhances your
 This guide equips you with the knowledge to leverage Aspose.Slides for Python in your projects. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

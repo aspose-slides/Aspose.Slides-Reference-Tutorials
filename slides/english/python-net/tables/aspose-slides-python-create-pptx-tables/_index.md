@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create PPTX Tables in Python Using Aspose.Slides: A Comprehensive Guide
 
@@ -201,7 +203,11 @@ When working with Aspose.Slides, consider the following tips for optimizing perf
 ## Conclusion
 
 You've now learned how to create and customize PPTX tables using Aspose.Slides for Python. This powerful library offers extensive control over your presentation designs, enabling you to automate complex tasks efficiently.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

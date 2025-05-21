@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Detecting PowerPoint File Formats with Aspose.Slides in Python
 
@@ -145,7 +147,11 @@ Try implementing the solution yourself and explore further functionalities offer
 - **Free Trial**: [Start Free Trial](https://releases.aspose.com/slides/python-net/)
 - **Temporary License**: [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

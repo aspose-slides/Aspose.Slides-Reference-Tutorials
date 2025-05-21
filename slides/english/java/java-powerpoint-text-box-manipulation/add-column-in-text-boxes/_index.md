@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-box-manipulation/add-column-in-text-boxes/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Column in Text Boxes with Aspose.Slides for Java
@@ -92,6 +94,7 @@ Detailed documentation is available [here](https://reference.aspose.com/slides/j
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

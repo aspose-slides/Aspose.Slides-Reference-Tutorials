@@ -8,7 +8,9 @@ url: /net/slide-thumbnail-generation/generate-thumbnail-from-slide/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Generate Slide Thumbnails with Aspose.Slides for .NET
@@ -117,6 +119,7 @@ You can seek assistance and join discussions on the Aspose community support for
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

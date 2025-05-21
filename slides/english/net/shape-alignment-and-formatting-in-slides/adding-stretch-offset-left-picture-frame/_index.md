@@ -8,7 +8,9 @@ url: /net/shape-alignment-and-formatting-in-slides/adding-stretch-offset-left-pi
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Stretch Offset to Left in PowerPoint with Aspose.Slide
@@ -95,6 +97,7 @@ A: Yes, you can combine multiple stretch offsets to achieve complex and customiz
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Clone Slides in Java Presentations Using Aspose.Slides for Java
 
@@ -170,7 +172,11 @@ A: Yes, iterate through the source slide collection and add clones to your desti
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Embark on your journey with Aspose.Slides for Java and enhance your presentation management today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

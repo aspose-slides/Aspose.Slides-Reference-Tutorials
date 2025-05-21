@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Check PPT Protection with Aspose.Slides for .NET: A Comprehensive Guide
 
@@ -163,7 +165,11 @@ A: Encapsulate the code snippets provided in this guide within your application'
 - **Support**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Implementing these features enhances your application's security and provides peace of mind when managing sensitive PowerPoint files.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

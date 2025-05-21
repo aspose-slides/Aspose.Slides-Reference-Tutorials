@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create Clustered Column Charts in Java with Aspose.Slides
 ## Introduction
@@ -160,7 +162,11 @@ Explore further features such as customizing chart elements or integrating with 
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 Embrace the power of Aspose.Slides for Java and elevate your presentations with professional, dynamic charts today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

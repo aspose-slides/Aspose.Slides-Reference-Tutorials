@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Determine Presentation File Formats Using Aspose.Slides for Java
 
@@ -165,7 +167,11 @@ You now have the knowledge to determine presentation file formats using Aspose.S
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 With these resources, you're well-equipped to explore Aspose.Slides further and leverage its full potential in your Java projects. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

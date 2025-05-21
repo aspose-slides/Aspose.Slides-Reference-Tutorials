@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Funnel Charts in PowerPoint Using Aspose.Slides for Python
 
@@ -182,7 +184,11 @@ Congratulations on creating a funnel chart with Aspose.Slides for Python! You've
 - **Purchase License**: [Buy Now](https://purchase.aspose.com/buy)
 - **Free Trial**: [Get Started with a Free Trial](https://releases.aspose.com/slides/python-net/)
 - **Temporary License**: [Apply for Temporary Access](https://purchase.aspose.com/temporary-license)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/audio-and-video-extraction/audio-and-video-extraction/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mastering Audio and Video Extraction with Aspose.Slides for .NET
@@ -146,6 +148,7 @@ Aspose.Slides for .NET provides a wide range of features, including creating, mo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

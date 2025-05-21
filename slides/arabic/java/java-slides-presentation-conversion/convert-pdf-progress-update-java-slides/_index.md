@@ -1,41 +1,43 @@
 ---
-title: تحويل إلى PDF مع تحديث التقدم في شرائح جافا
-linktitle: تحويل إلى PDF مع تحديث التقدم في شرائح جافا
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تحويل PowerPoint إلى PDF مع تحديثات التقدم في Java باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع الكود المصدري وتتبع التقدم من أجل تحويل سلس.
-weight: 36
-url: /ar/java/presentation-conversion/convert-pdf-progress-update-java-slides/
+"description": "حوّل ملفات PowerPoint إلى PDF مع تحديثات التقدم في جافا باستخدام Aspose.Slides لجافا. دليل خطوة بخطوة مع الكود المصدري وتتبع التقدم لضمان تحويل سلس."
+"linktitle": "تحويل إلى PDF باستخدام تحديث التقدم في Java Slides"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "تحويل إلى PDF باستخدام تحديث التقدم في Java Slides"
+"url": "/ar/java/presentation-conversion/convert-pdf-progress-update-java-slides/"
+"weight": 36
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# تحويل إلى PDF مع تحديث التقدم في شرائح جافا
+# تحويل إلى PDF باستخدام تحديث التقدم في Java Slides
 
 
 ## مقدمة لتحويل PowerPoint إلى PDF مع تحديثات التقدم في Java باستخدام Aspose.Slides لـ Java
 
-في هذا الدليل خطوة بخطوة، سنوضح كيفية تحويل عرض PowerPoint التقديمي (PPTX) إلى ملف PDF في Java باستخدام Aspose.Slides for Java. بالإضافة إلى ذلك، سنقوم بتضمين تحديثات التقدم أثناء عملية التحويل.
+في هذا الدليل التفصيلي، سنوضح كيفية تحويل عرض تقديمي من PowerPoint (PPTX) إلى ملف PDF بلغة Java باستخدام Aspose.Slides for Java. كما سنُضيف تحديثات حول التقدم أثناء عملية التحويل.
 
 ## المتطلبات الأساسية
 
-قبل البدء، تأكد من توفر المتطلبات الأساسية التالية:
+قبل أن تبدأ، تأكد من توفر المتطلبات الأساسية التالية:
 
-- إعداد بيئة تطوير جافا.
--  تمت إضافة مكتبة Aspose.Slides لـ Java إلى مشروعك. يمكنك تنزيله من[هنا](https://downloads.aspose.com/slides/java).
+- تم إعداد بيئة تطوير Java.
+- تمت إضافة مكتبة Aspose.Slides لجافا إلى مشروعك. يمكنك تنزيلها من [هنا](https://downloads.aspose.com/slides/java).
 
 ## الخطوة 1: استيراد Aspose.Slides لمكتبة Java
 
-للبدء، تحتاج إلى استيراد مكتبة Aspose.Slides إلى مشروع Java الخاص بك. تأكد من إضافة ملفات Aspose.Slides JAR إلى مسار الفصل الدراسي الخاص بك.
+للبدء، عليك استيراد مكتبة Aspose.Slides إلى مشروع Java. تأكد من إضافة ملفات Aspose.Slides JAR إلى مسار فئتك.
 
 ```java
 import com.aspose.slides.*;
 ```
 
-## الخطوة 2: إنشاء فئة جافا
+## الخطوة 2: إنشاء فئة Java
 
- قم بإنشاء فئة Java حيث ستقوم بإجراء تحويل PowerPoint إلى PDF. دعونا نسميها`PowerPointToPdfConverter`.
+أنشئ فئة جافا لتحويل PowerPoint إلى PDF. لنسمِّها `PowerPointToPdfConverter`.
 
 ```java
 public class PowerPointToPdfConverter {
@@ -54,9 +56,9 @@ public class PowerPointToPdfConverter {
 }
 ```
 
-## الخطوة 3: تنفيذ رد الاتصال التقدمي
+## الخطوة 3: تنفيذ استدعاء التقدم
 
- سنقوم بتنفيذ معالج رد اتصال التقدم لتلقي التحديثات أثناء عملية التحويل. لنقم بإنشاء فئة تسمى`ExportProgressHandler` لهذا الغرض.
+سنُنفِّذ مُعالِج استدعاء التقدم لتلقي التحديثات أثناء عملية التحويل. لنُنشئ فئةً باسم `ExportProgressHandler` لهذا الغرض.
 
 ```java
 class ExportProgressHandler implements IProgressCallback {
@@ -68,15 +70,15 @@ class ExportProgressHandler implements IProgressCallback {
 }
 ```
 
-## الخطوة 4: استبدل "دليل المستندات الخاص بك"
+## الخطوة 4: استبدال "دليل المستندات الخاص بك"
 
- يستبدل`"Your Document Directory"` في ال`PowerPointToPdfConverter` فئة بالمسار الفعلي لملف PowerPoint الخاص بك ودليل الإخراج المطلوب.
+يستبدل `"Your Document Directory"` في `PowerPointToPdfConverter` الفئة التي تحتوي على المسار الفعلي لملف PowerPoint الخاص بك ودليل الإخراج المطلوب.
 
-## الخطوة 5: تجميع وتشغيل
+## الخطوة 5: التجميع والتشغيل
 
-قم بتجميع فئة Java الخاصة بك وتشغيل ملف`PowerPointToPdfConverter` فصل. سيقوم بتحويل عرض PowerPoint التقديمي إلى ملف PDF مع توفير تحديثات التقدم في وحدة التحكم.
+قم بتجميع فئة Java الخاصة بك وتشغيلها `PowerPointToPdfConverter` سيتم تحويل عرض PowerPoint إلى ملف PDF مع توفير تحديثات التقدم في وحدة التحكم.
 
-## أكمل كود المصدر للتحويل إلى PDF مع تحديث التقدم في شرائح Java
+## كود المصدر الكامل لتحويل إلى PDF مع تحديث التقدم في شرائح Java
 
 ```java
         // المسار إلى دليل المستندات.
@@ -105,29 +107,31 @@ class ExportProgressHandler implements IProgressCallback
 
 ## خاتمة
 
-في هذا الدليل التفصيلي، اكتشفنا كيفية تحويل عرض PowerPoint التقديمي (PPTX) إلى ملف PDF في Java باستخدام Aspose.Slides for Java. بالإضافة إلى ذلك، قمنا بتنفيذ تحديثات التقدم أثناء عملية التحويل لتتبع حالة العملية.
+في هذا الدليل التفصيلي، استكشفنا كيفية تحويل عرض تقديمي من PowerPoint (PPTX) إلى ملف PDF في Java باستخدام Aspose.Slides for Java. بالإضافة إلى ذلك، قمنا بتحديث تقدم العملية أثناء عملية التحويل لمتابعة حالة العملية.
 
 ## الأسئلة الشائعة
 
-### كيف يمكنني تنزيل Aspose.Slides لنظام Java؟
+### كيف يمكنني تنزيل Aspose.Slides لـ Java؟
 
- يمكنك تنزيل Aspose.Slides for Java من موقع Aspose على الويب[هنا](https://downloads.aspose.com/slides/java).
+يمكنك تنزيل Aspose.Slides لـ Java من موقع Aspose على الويب على [هنا](https://downloads.aspose.com/slides/java).
 
-###  ما هو الغرض من`IProgressCallback`?
+### ما هو الغرض من `IProgressCallback`؟
 
-`IProgressCallback` هي واجهة مقدمة من Aspose.Slides لـ Java لتنفيذ التقارير المرحلية أثناء عمليات التصدير. يسمح لك بتتبع التقدم المحرز في المهام مثل تحويل العروض التقديمية إلى PDF.
+`IProgressCallback` واجهة Aspose.Slides لجافا تُتيح لك إعداد تقارير التقدم أثناء عمليات التصدير. تتيح لك هذه الواجهة تتبُّع تقدم مهام مثل تحويل العروض التقديمية إلى PDF.
 
-### هل يمكنني استخدام Aspose.Slides for Java لعمليات PowerPoint الأخرى؟
+### هل يمكنني استخدام Aspose.Slides لـ Java لعمليات PowerPoint الأخرى؟
 
-نعم، يوفر Aspose.Slides for Java وظائف واسعة النطاق للعمل مع عروض PowerPoint التقديمية، بما في ذلك إنشاءها وتعديلها وتحويلها إلى تنسيقات مختلفة.
+نعم، يوفر Aspose.Slides for Java وظائف واسعة النطاق للعمل مع عروض PowerPoint، بما في ذلك إنشاء العروض التقديمية وتعديلها وتحويلها إلى تنسيقات مختلفة.
 
 ### كيف يمكنني تخصيص خيارات تحويل PDF؟
 
- يمكنك تخصيص خيارات تحويل PDF عن طريق تعديل ملف`PdfOptions` كائن قبل استدعاء`presentation.save` طريقة. يتضمن ذلك تعيين خصائص مثل حجم الصفحة والجودة والمزيد.
+يمكنك تخصيص خيارات تحويل PDF عن طريق تعديل `PdfOptions` الكائن قبل استدعاء `presentation.save` تتضمن هذه الطريقة ضبط خصائص مثل حجم الصفحة والجودة والمزيد.
+
 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Convert PPT to PPTX Using Aspose.Slides for Java: A Developer's Guide
 
@@ -194,7 +196,11 @@ Begin by setting up your development environment as outlined in this guide, and 
 - **Free Trial:** Start with a free trial to evaluate the library's features at [Aspose Slides Free Trial](https://releases.aspose.com/slides/java/).
 - **Temporary License:** Obtain a temporary license from [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).
 - **Support:** Join the community and ask questions in the [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

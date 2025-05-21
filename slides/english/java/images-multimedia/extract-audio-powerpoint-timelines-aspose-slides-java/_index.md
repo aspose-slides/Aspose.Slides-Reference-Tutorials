@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Extract Audio from PowerPoint Slide Timelines Using Aspose.Slides Java: A Step-by-Step Guide
 
@@ -170,7 +172,11 @@ A5: Consider breaking down your tasks and processing slides in batches to manage
 - **Purchase**: Get your license directly at [Aspose Store](https://purchase.aspose.com/buy).
 - **Free Trial & Temporary License**: Start experimenting with a temporary license available on their website.
 - **Support Forum**: Join the community and get support at [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

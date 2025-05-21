@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides .NET: Adding SVG Images to PowerPoint Presentations
 
@@ -174,7 +176,11 @@ To further explore Aspose.Slides capabilities or tackle more complex use cases, 
 - **Free Trial & Temporary License:** Get started with a free trial or temporary license from [Aspose Downloads](https://releases.aspose.com/slides/net/) 
 
 With this knowledge and the resources at your disposal, you're well-equipped to enhance your PowerPoint presentations using SVG images with Aspose.Slides for .NET. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

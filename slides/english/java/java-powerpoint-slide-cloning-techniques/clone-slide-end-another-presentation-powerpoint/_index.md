@@ -8,7 +8,9 @@ url: /java/java-powerpoint-slide-cloning-techniques/clone-slide-end-another-pres
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Clone Slide at End of Another Presentation
@@ -91,6 +93,7 @@ You can get support from the Aspose community forums [here](https://forum.aspose
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-highlighting-fallback-rules/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java PowerPoint Text Highlighting and Fallback Rules
@@ -32,9 +34,11 @@ By following these tutorials, you'll be well-equipped to enhance your Java Power
 Learn how to highlight text in PowerPoint using Aspose.Slides for Java. Automate and enhance presentations effortlessly with our detailed guide.
 ### [Fallback Rules Collection in Java PowerPoint](./fallback-rules-collection-java-powerpoint/)
 Learn how to manage font fallback rules in PowerPoint presentations using Aspose.Slides for Java. Enhance compatibility across devices effortlessly.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

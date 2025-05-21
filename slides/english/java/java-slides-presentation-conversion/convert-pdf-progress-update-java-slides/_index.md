@@ -8,7 +8,9 @@ url: /java/presentation-conversion/convert-pdf-progress-update-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert to PDF with Progress Update in Java Slides
@@ -129,6 +131,7 @@ You can customize PDF conversion options by modifying the `PdfOptions` object be
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

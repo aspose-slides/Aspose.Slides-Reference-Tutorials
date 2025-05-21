@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create a Line Chart with Markers in PowerPoint Using Aspose.Slides for Python
 
@@ -216,6 +218,9 @@ Ready to implement these solutions? Try creating a presentation today and see ho
 By leveraging Aspose.Slides for Python, you're equipped to create compelling and informative presentations with ease. Happy charting!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

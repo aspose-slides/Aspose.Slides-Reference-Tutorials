@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Tutorial: Convert PowerPoint to PDF with Progress Updates Using Aspose.Slides for Java
 
@@ -177,7 +179,11 @@ As next steps, explore more features of Aspose.Slides or integrate the conversio
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 With these resources, you're well-equipped to dive deeper into Aspose.Slides for Java and explore its full potential!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

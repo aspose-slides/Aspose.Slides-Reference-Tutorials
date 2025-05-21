@@ -8,7 +8,9 @@ url: /net/chart-formatting-and-animation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chart Formatting and Animation
@@ -41,9 +43,11 @@ Learn how to add captivating animations to chart category elements using Aspose.
 Learn how to animate chart series using Aspose.Slides for .NET. Create dynamic presentations with engaging data visualizations.
 ### [Animating Series Elements in Chart](./animating-series-elements/)
 Learn to animate chart series using Aspose.Slides for .NET. Create engaging presentations with dynamic visuals. Expert guide with code examples.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

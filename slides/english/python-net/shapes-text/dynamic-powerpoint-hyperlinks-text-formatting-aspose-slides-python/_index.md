@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Hyperlinks and Format Text in PowerPoint Using Aspose.Slides for Python
 
@@ -219,7 +221,11 @@ Ready to take your presentation game to the next level? Try implementing these s
    - Yes, you can apply hyperlinks to various text elements within PowerPoint using Aspose.Slides.
 3. **What are some common issues when setting up Aspose.Slides for Python?**
    - Ensure you have the correct version of Python and that all dependencies are installed properly.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

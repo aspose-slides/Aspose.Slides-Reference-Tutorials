@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Modify PowerPoint Presentation Properties Using Aspose.Slides in Python
 
@@ -151,7 +153,11 @@ Explore additional features of Aspose.Slides such as slide manipulation or prese
 - **Purchase License:** [Buy Aspose.Slides](https://purchase.aspose.com/buy)
 - **Free Trial:** [Start Free Trial](https://releases.aspose.com/slides/python-net/)
 - **Temporary License:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

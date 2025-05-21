@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Remove Shapes from PowerPoint Slides Using Aspose.Slides for .NET
 
@@ -193,7 +195,11 @@ Feel free to experiment with the code provided and see how you can tailor it to 
 - **Free Trial**: Start with a free trial from [Aspose Downloads](https://releases.aspose.com/slides/net/)
 - **Temporary License**: Obtain a temporary license through [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: Join the discussion on the [Aspose Forums](https://forum.aspose.com/c/slides/11) for additional help.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

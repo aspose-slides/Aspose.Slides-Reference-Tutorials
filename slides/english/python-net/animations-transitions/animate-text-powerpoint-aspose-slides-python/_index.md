@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Animate Text in PowerPoint Using Aspose.Slides for Python: A Step-by-Step Guide
 
@@ -139,7 +141,11 @@ Finally, save your presentation to a designated directory:
 ```python
     # Save the presentation with animations
 presentation.save("YOUR_OUTPUT_DIRECTORY/AnimateTextEffect_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

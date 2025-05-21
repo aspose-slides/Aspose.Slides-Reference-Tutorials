@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PowerPoint Shapes to SVG Using Aspose.Slides Java: A Complete Guide
 
@@ -215,7 +217,11 @@ A5: Utilize the Aspose forums for community help or contact their support team d
 - **Documentation**: Explore detailed guides and API references at [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/).
 - **Download**: Get the latest version from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 - **Purchase**: Consider purchasing a license for full access to features at [Aspose Purchase Page](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

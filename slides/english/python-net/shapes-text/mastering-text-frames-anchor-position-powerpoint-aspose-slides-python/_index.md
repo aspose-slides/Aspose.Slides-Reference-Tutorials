@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set Anchor Position of Text Frames in PowerPoint Using Aspose.Slides for Python
 
@@ -150,7 +152,11 @@ Finally, save your presentation to a desired location:
 
 ```python
 # Define output directory and save the presentation\presentation.save("YOUR_OUTPUT_DIRECTORY/text_set_anchor_text_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

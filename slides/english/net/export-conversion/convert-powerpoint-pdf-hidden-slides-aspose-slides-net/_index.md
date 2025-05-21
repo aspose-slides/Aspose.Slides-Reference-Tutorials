@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PowerPoint to PDF Including Hidden Slides with Aspose.Slides .NET
 
@@ -156,7 +158,11 @@ Explore further by customizing PdfOptions and experimenting with other features 
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 Try implementing this solution today and streamline your presentation management process!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

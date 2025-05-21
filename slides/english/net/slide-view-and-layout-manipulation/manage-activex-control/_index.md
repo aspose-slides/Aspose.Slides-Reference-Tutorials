@@ -8,7 +8,9 @@ url: /net/slide-view-and-layout-manipulation/manage-activex-control/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Manage ActiveX Control in PowerPoint
@@ -159,6 +161,7 @@ Yes, you can remove an ActiveX control from a slide using the `Remove` method of
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

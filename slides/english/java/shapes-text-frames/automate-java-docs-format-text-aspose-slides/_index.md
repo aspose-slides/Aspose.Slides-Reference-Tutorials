@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate Java Documentation & Format Text with Aspose.Slides for Java
 
@@ -213,7 +215,11 @@ Explore other features of Aspose.Slides or integrate it into larger projects to 
 
 ## Resources
 - **Documentation:** Explore in-depth guide
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

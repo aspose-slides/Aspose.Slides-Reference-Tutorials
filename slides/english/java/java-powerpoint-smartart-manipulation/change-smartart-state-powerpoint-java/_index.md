@@ -8,7 +8,9 @@ url: /java/java-powerpoint-smartart-manipulation/change-smartart-state-powerpoin
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Change SmartArt State in PowerPoint with Java
@@ -72,6 +74,7 @@ Yes, you can visit the Aspose.Slides forum at [here](https://forum.aspose.com/c/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

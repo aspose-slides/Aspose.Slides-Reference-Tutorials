@@ -8,7 +8,9 @@ url: /java/media-controls/slide-show-media-controls-in-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Slide Show Media Controls in Java Slides
@@ -118,6 +120,7 @@ Yes, you can add subtitles or captions to videos in Java Slides by adding text f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

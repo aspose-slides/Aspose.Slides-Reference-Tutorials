@@ -8,7 +8,9 @@ url: /java/java-powerpoint-save-operations/save-powerpoint-with-password/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Save PowerPoint with Password
@@ -77,6 +79,7 @@ You can visit the Aspose.Slides forum for technical assistance from the communit
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

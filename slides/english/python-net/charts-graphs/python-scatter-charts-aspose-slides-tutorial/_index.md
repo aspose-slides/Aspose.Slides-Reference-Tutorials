@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Customize Scatter Charts in PowerPoint Using Python and Aspose.Slides
 
@@ -208,6 +210,9 @@ In this tutorial, you've learned how to create and customize scatter charts in P
 By following this tutorial, you're well on your way to creating dynamic and visually appealing presentations with Python using Aspose.Slides. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

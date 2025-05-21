@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint PPTX Manipulation with Aspose.Slides Java for Batch Processing
 
@@ -215,7 +217,11 @@ When working with Aspose.Slides in Java:
 You've now mastered key functionalities for loading and manipulating PPTX files with Aspose.Slides in Java. By following these steps, you can automate presentation creation and streamline your workflow effectively. Explore further by integrating Aspose.Slides with other systems or developing custom solutions tailored to your needs.
 
 Next
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

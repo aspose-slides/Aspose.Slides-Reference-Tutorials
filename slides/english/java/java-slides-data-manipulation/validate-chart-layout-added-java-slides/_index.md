@@ -8,7 +8,9 @@ url: /java/data-manipulation/validate-chart-layout-added-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Validate Chart Layout Added in Java Slides
@@ -108,6 +110,7 @@ You can access various chart properties and customize them according to your req
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

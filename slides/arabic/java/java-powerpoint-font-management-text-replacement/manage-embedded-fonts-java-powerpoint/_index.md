@@ -1,29 +1,31 @@
 ---
-title: إدارة الخطوط المضمنة في Java PowerPoint
-linktitle: إدارة الخطوط المضمنة في Java PowerPoint
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: قم بإدارة الخطوط المضمنة بسهولة في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides. دليل خطوة بخطوة لتحسين الشرائح الخاصة بك لتحقيق الاتساق.
-weight: 11
-url: /ar/java/java-powerpoint-font-management-text-replacement/manage-embedded-fonts-java-powerpoint/
+"description": "أدر الخطوط المُضمنة في عروض PowerPoint التقديمية بلغة Java بسهولة باستخدام Aspose.Slides. دليل خطوة بخطوة لتحسين تناسق شرائحك."
+"linktitle": "إدارة الخطوط المضمنة في Java PowerPoint"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "إدارة الخطوط المضمنة في Java PowerPoint"
+"url": "/ar/java/java-powerpoint-font-management-text-replacement/manage-embedded-fonts-java-powerpoint/"
+"weight": 11
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # إدارة الخطوط المضمنة في Java PowerPoint
 
 ## مقدمة
-في عالم العروض التقديمية الذي يتطور باستمرار، يمكن لإدارة الخطوط بكفاءة أن تُحدث فرقًا كبيرًا في جودة ملفات PowerPoint وتوافقها. يقدم Aspose.Slides for Java حلاً شاملاً لإدارة الخطوط المضمنة، مما يضمن أن تبدو عروضك التقديمية مثالية على أي جهاز. سواء كنت تتعامل مع العروض التقديمية القديمة أو تنشئ عروضًا جديدة، سيرشدك هذا الدليل خلال عملية إدارة الخطوط المضمنة في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides. دعونا الغوص في!
+في عالم العروض التقديمية المتطور باستمرار، تُحدث إدارة الخطوط بكفاءة فرقًا كبيرًا في جودة ملفات PowerPoint وتوافقها. يُقدم Aspose.Slides لـ Java حلاً شاملاً لإدارة الخطوط المُضمنة، مما يضمن عرض عروضك التقديمية بشكل مثالي على أي جهاز. سواءً كنت تتعامل مع عروض تقديمية قديمة أو تُنشئ عروضًا جديدة، سيُرشدك هذا الدليل خلال عملية إدارة الخطوط المُضمنة في عروض PowerPoint التقديمية بلغة Java باستخدام Aspose.Slides. هيا بنا!
 ## المتطلبات الأساسية
 قبل أن نبدأ، تأكد من أن لديك الإعداد التالي:
-- Java Development Kit (JDK): تأكد من تثبيت JDK 8 أو إصدار أحدث على جهازك.
--  Aspose.Slides لجافا: قم بتنزيل المكتبة من[Aspose.Slides for Java](https://releases.aspose.com/slides/java/).
+- مجموعة تطوير Java (JDK): تأكد من تثبيت JDK 8 أو إصدار أحدث على جهازك.
+- Aspose.Slides لـ Java: قم بتنزيل المكتبة من [Aspose.Slides لـ Java](https://releases.aspose.com/slides/java/).
 - IDE: بيئة تطوير متكاملة مثل IntelliJ IDEA أو Eclipse.
-- ملف العرض التقديمي: نموذج لملف PowerPoint يحتوي على خطوط مضمنة. يمكنك استخدام "EmbeddedFonts.pptx" لهذا البرنامج التعليمي.
-- التبعيات: قم بإضافة Aspose.Slides for Java إلى تبعيات مشروعك.
-## حزم الاستيراد
-أولاً، تحتاج إلى استيراد الحزم الضرورية في مشروع Java الخاص بك:
+- ملف العرض التقديمي: ملف باوربوينت نموذجي يحتوي على خطوط مدمجة. يمكنك استخدام "EmbeddedFonts.pptx" لهذا البرنامج التعليمي.
+- التبعيات: أضف Aspose.Slides لـ Java إلى تبعيات مشروعك.
+## استيراد الحزم
+أولاً، عليك استيراد الحزم الضرورية في مشروع Java الخاص بك:
 ```java
 import com.aspose.slides.IFontData;
 import com.aspose.slides.IFontsManager;
@@ -35,41 +37,41 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 ```
-دعنا نقسم المثال إلى دليل تفصيلي خطوة بخطوة.
+دعونا نقوم بتقسيم المثال إلى دليل مفصل خطوة بخطوة.
 ## الخطوة 1: إعداد دليل المشروع
-قبل البدء، قم بإعداد دليل المشروع الخاص بك حيث سيتم تخزين ملفات PowerPoint والصور الناتجة.
+قبل البدء، قم بإعداد دليل المشروع الخاص بك حيث ستخزن ملفات PowerPoint وصور الإخراج.
 ```java
 // المسار إلى دليل المستندات.
 String dataDir = "Your Document Directory";
 ```
-## الخطوة 2: قم بتحميل العرض التقديمي
- إنشاء مثيل أ`Presentation` كائن لتمثيل ملف PowerPoint الخاص بك.
+## الخطوة 2: تحميل العرض التقديمي
+إنشاء مثيل `Presentation` كائن لتمثيل ملف PowerPoint الخاص بك.
 ```java
 Presentation presentation = new Presentation(dataDir + "EmbeddedFonts.pptx");
 ```
-## الخطوة 3: تقديم شريحة تحتوي على الخطوط المضمنة
-قم بعرض شريحة تحتوي على إطار نص باستخدام خط مضمن واحفظها كصورة.
+## الخطوة 3: عرض شريحة باستخدام الخطوط المضمنة
+قم بعرض شريحة تحتوي على إطار نصي باستخدام خط مضمن وحفظه كصورة.
 ```java
 try {
-    // قم بتقديم الشريحة الأولى إلى صورة
+    // تحويل الشريحة الأولى إلى صورة
     BufferedImage image1 = presentation.getSlides().get_Item(0).getThumbnail(new Dimension(960, 720));
     ImageIO.write(image1, ".png", new File(dataDir + "picture1_out.png"));
 ```
 ## الخطوة 4: الوصول إلى مدير الخطوط
- احصل على ال`IFontsManager` مثيل من العرض التقديمي لإدارة الخطوط.
+احصل على `IFontsManager` مثال من العرض التقديمي لإدارة الخطوط.
 ```java
     IFontsManager fontsManager = presentation.getFontsManager();
 ```
 ## الخطوة 5: استرداد الخطوط المضمنة
 جلب كافة الخطوط المضمنة في العرض التقديمي.
 ```java
-    // احصل على كافة الخطوط المضمنة
+    // احصل على جميع الخطوط المضمنة
     IFontData[] embeddedFonts = fontsManager.getEmbeddedFonts();
 ```
-## الخطوة 6: البحث عن الخط المضمن المحدد وإزالته
-تحديد وإزالة خط مضمن معين (على سبيل المثال، "Calibri") من العرض التقديمي.
+## الخطوة 6: البحث عن خط مضمن محدد وإزالته
+قم بتحديد خط مضمن محدد وإزالته (على سبيل المثال، "Calibri") من العرض التقديمي.
 ```java
-    //ابحث عن الخط "Calibri".
+    // ابحث عن الخط "Calibri"
     IFontData funSizedEmbeddedFont = null;
     for (IFontData embeddedFont : embeddedFonts) {
         if ("Calibri".equals(embeddedFont.getFontName())) {
@@ -77,20 +79,20 @@ try {
             break;
         }
     }
-    // إزالة الخط "كاليبري".
+    // إزالة الخط "Calibri"
     if (funSizedEmbeddedFont != null) fontsManager.removeEmbeddedFont(funSizedEmbeddedFont);
 ```
-## الخطوة 7: تقديم الشريحة مرة أخرى
+## الخطوة 7: عرض الشريحة مرة أخرى
 قم بعرض الشريحة مرة أخرى للتحقق من التغييرات بعد إزالة الخط المضمن.
 ```java
     // قم بعرض الشريحة الأولى مرة أخرى لرؤية التغييرات
     BufferedImage image2 = presentation.getSlides().get_Item(0).getThumbnail(new Dimension(960, 720));
     ImageIO.write(image2, ".png", new File(dataDir + "picture2_out.png"));
 ```
-## الخطوة 8: احفظ العرض التقديمي المحدث
-احفظ ملف العرض التقديمي المعدل بدون الخط المضمن.
+## الخطوة 8: حفظ العرض التقديمي المحدث
+احفظ ملف العرض التقديمي المعدّل بدون الخط المضمّن.
 ```java
-    // احفظ العرض التقديمي بدون خط "Calibri" المضمن
+    // احفظ العرض التقديمي بدون الخط "Calibri" المضمن
     presentation.save(dataDir + "WithoutManageEmbeddedFonts_out.ppt", SaveFormat.Ppt);
 }
 finally {
@@ -98,21 +100,23 @@ finally {
 }
 ```
 ## خاتمة
-تعد إدارة الخطوط المضمنة في عروض PowerPoint التقديمية أمرًا بالغ الأهمية للحفاظ على الاتساق والتوافق عبر الأجهزة والأنظمة الأساسية المختلفة. مع Aspose.Slides لـ Java، تصبح هذه العملية واضحة وفعالة. باتباع الخطوات الموضحة في هذا الدليل، يمكنك بسهولة إزالة الخطوط المضمنة أو إدارتها في عروضك التقديمية، مما يضمن ظهورها تمامًا كما تريدها، بغض النظر عن مكان عرضها.
+إدارة الخطوط المُضمَّنة في عروض PowerPoint التقديمية أمرٌ بالغ الأهمية للحفاظ على الاتساق والتوافق بين مختلف الأجهزة والمنصات. مع Aspose.Slides لجافا، تُصبح هذه العملية سهلة وفعّالة. باتباع الخطوات الموضحة في هذا الدليل، يمكنك بسهولة إزالة الخطوط المُضمَّنة أو إدارتها في عروضك التقديمية، مع ضمان ظهورها بالشكل الذي تريده تمامًا، بغض النظر عن مكان عرضها.
 ## الأسئلة الشائعة
-### ما هو Aspose.Slides لجافا؟
-Aspose.Slides for Java هي مكتبة قوية للعمل مع عروض PowerPoint التقديمية في Java. يسمح لك بإنشاء العروض التقديمية وتعديلها وإدارتها برمجيًا.
-### كيف يمكنني إضافة Aspose.Slides إلى مشروعي؟
- يمكنك إضافة Aspose.Slides إلى مشروعك عن طريق تنزيله من[موقع إلكتروني](https://releases.aspose.com/slides/java/) وإدراجه في تبعيات مشروعك.
+### ما هو Aspose.Slides لـ Java؟
+Aspose.Slides for Java هي مكتبة فعّالة للعمل مع عروض PowerPoint التقديمية بلغة Java. تتيح لك إنشاء العروض التقديمية وتعديلها وإدارتها برمجيًا.
+### كيف أضيف Aspose.Slides إلى مشروعي؟
+يمكنك إضافة Aspose.Slides إلى مشروعك عن طريق تنزيله من [موقع إلكتروني](https://releases.aspose.com/slides/java/) وتضمينه في تبعيات مشروعك.
 ### هل يمكنني استخدام Aspose.Slides لـ Java مع أي إصدار من Java؟
-Aspose.Slides for Java متوافق مع JDK 8 والإصدارات الأحدث.
-### ما فوائد إدارة الخطوط المضمنة في العروض التقديمية؟
-تضمن إدارة الخطوط المضمنة أن تبدو عروضك التقديمية متسقة عبر الأجهزة والأنظمة الأساسية المختلفة، وتساعد على تقليل حجم الملف عن طريق إزالة الخطوط غير الضرورية.
+يعد Aspose.Slides for Java متوافقًا مع JDK 8 والإصدارات الأحدث.
+### ما هي فوائد إدارة الخطوط المضمنة في العروض التقديمية؟
+تضمن إدارة الخطوط المضمنة أن تبدو عروضك التقديمية متسقة عبر الأجهزة والمنصات المختلفة، وتساعد في تقليل حجم الملف عن طريق إزالة الخطوط غير الضرورية.
 ### أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ Java؟
- يمكنك الحصول على الدعم من[منتدى دعم Aspose.Slides](https://forum.aspose.com/c/slides/11).
+يمكنك الحصول على الدعم من [منتدى دعم Aspose.Slides](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create and Customize Bubble Charts in PowerPoint Using Python and Aspose.Slides
 
@@ -180,7 +182,11 @@ A: Implement exception handling to manage runtime errors, ensuring smooth execut
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 Embrace the power of Aspose.Slides and start transforming your presentations today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

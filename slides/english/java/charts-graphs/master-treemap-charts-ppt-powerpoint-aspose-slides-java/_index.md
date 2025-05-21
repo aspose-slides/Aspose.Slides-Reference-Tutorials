@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering TreeMap Charts in PowerPoint with Aspose.Slides for Java
 
@@ -197,7 +199,11 @@ By following this tutorial, you've learned how to create and customize a TreeMap
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 With these resources, you're well-equipped to continue exploring Aspose.Slides capabilities for enhancing your PowerPoint presentations.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

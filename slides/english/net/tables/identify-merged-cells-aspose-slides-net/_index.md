@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Identify Merged Cells in PowerPoint Tables Using Aspose.Slides for .NET
 
@@ -173,6 +175,9 @@ Ready to give it a try? Implement this solution in your next project and watch y
 By following this guide, you’re now equipped to tackle merged cells in PowerPoint tables with confidence. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

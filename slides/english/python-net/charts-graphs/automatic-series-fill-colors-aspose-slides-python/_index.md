@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Automatically Set Series Fill Colors in Charts with Aspose.Slides for Python
 
@@ -167,6 +169,9 @@ Try implementing these techniques to see how much time and effort you can save!
 - **Support**: Visit the [Aspose Forum](https://forum.aspose.com/c/slides/11) for assistance.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

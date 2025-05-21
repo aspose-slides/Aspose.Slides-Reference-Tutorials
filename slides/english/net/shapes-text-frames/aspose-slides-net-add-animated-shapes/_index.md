@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Add Animated Shapes in Presentations Using Aspose.Slides for .NET
 
@@ -228,6 +230,9 @@ By now, you should be equipped with the knowledge to create directories, add sha
    - Visit the [Aspose community forum](https://forum.aspose.com/c/slides/11) to ask questions and share experiences with other users.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-paragraph-management/keep-text-flat-java-powerpo
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Keep Text Flat in Java PowerPoint
@@ -74,6 +76,7 @@ Join the Aspose.Slides community forum [here](https://forum.aspose.com/c/slides/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

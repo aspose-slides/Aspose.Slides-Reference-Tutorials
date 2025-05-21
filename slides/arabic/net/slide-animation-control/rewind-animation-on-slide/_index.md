@@ -1,47 +1,49 @@
 ---
-title: إتقان إرجاع الرسوم المتحركة في العروض التقديمية باستخدام Aspose.Slides
-linktitle: إرجاع الرسوم المتحركة على الشريحة
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية إرجاع الرسوم المتحركة على شرائح PowerPoint باستخدام Aspose.Slides لـ .NET. اتبع هذا الدليل خطوة بخطوة مع أمثلة التعليمات البرمجية المصدر الكاملة.
-weight: 13
-url: /ar/net/slide-animation-control/rewind-animation-on-slide/
+"description": "تعلّم كيفية إرجاع الرسوم المتحركة إلى الوراء على شرائح PowerPoint باستخدام Aspose.Slides لـ .NET. اتبع هذا الدليل خطوة بخطوة مع أمثلة كاملة على الكود المصدري."
+"linktitle": "إرجاع الرسوم المتحركة على الشريحة"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint لـ Aspose.Slides .NET"
+"title": "إتقان الرسوم المتحركة التراجعية في العروض التقديمية باستخدام Aspose.Slides"
+"url": "/ar/net/slide-animation-control/rewind-animation-on-slide/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إتقان إرجاع الرسوم المتحركة في العروض التقديمية باستخدام Aspose.Slides
+# إتقان الرسوم المتحركة التراجعية في العروض التقديمية باستخدام Aspose.Slides
 
 ## مقدمة
-في عالم العروض التقديمية الديناميكي، يمكن أن يؤدي دمج الرسوم المتحركة الجذابة إلى تعزيز المشاركة بشكل كبير. يوفر Aspose.Slides for .NET مجموعة أدوات قوية لإضفاء الحيوية على عروضك التقديمية. إحدى الميزات المثيرة للاهتمام هي القدرة على إرجاع الرسوم المتحركة على الشرائح. في هذا الدليل الشامل، سنرشدك خلال العملية خطوة بخطوة، مما يسمح لك بالاستفادة من الإمكانات الكاملة لإرجاع الرسوم المتحركة باستخدام Aspose.Slides for .NET.
+في عالم العروض التقديمية المتغير باستمرار، يُعزز دمج الرسوم المتحركة الجذابة التفاعل بشكل كبير. يوفر Aspose.Slides for .NET مجموعة أدوات فعّالة لإضفاء الحيوية على عروضك التقديمية. ومن الميزات المثيرة للاهتمام إمكانية إرجاع الرسوم المتحركة على الشرائح. في هذا الدليل الشامل، سنشرح العملية خطوة بخطوة، مما يتيح لك الاستفادة الكاملة من إمكانات إرجاع الرسوم المتحركة باستخدام Aspose.Slides for .NET.
 ## المتطلبات الأساسية
 قبل الغوص في البرنامج التعليمي، تأكد من أن لديك المتطلبات الأساسية التالية:
--  Aspose.Slides for .NET: تأكد من تثبيت المكتبة. إذا لم يكن الأمر كذلك، قم بتنزيله من[Aspose.Slides لتوثيق .NET](https://reference.aspose.com/slides/net/).
-- بيئة تطوير .NET: تأكد من إعداد بيئة تطوير .NET صالحة للعمل.
-- المعرفة الأساسية لـ C#: تعرف على أساسيات لغة البرمجة C#.
+- Aspose.Slides لـ .NET: تأكد من تثبيت المكتبة. إذا لم تكن مثبتة، فقم بتنزيلها من [توثيق Aspose.Slides لـ .NET](https://reference.aspose.com/slides/net/).
+- بيئة تطوير .NET: تأكد من إعداد بيئة تطوير .NET عاملة.
+- المعرفة الأساسية بلغة C#: تعرف على أساسيات لغة البرمجة C#.
 ## استيراد مساحات الأسماء
-في كود C# الخاص بك، ستحتاج إلى استيراد مساحات الأسماء الضرورية للاستفادة من الوظائف التي يوفرها Aspose.Slides لـ .NET. إليك مقتطف لإرشادك:
+في شيفرة C# الخاصة بك، ستحتاج إلى استيراد مساحات الأسماء اللازمة للاستفادة من وظيفة Aspose.Slides لـ .NET. إليك بعض الإرشادات:
 ```csharp
 using System;
 using Aspose.Slides.Animation;
 using Aspose.Slides.SlideShow;
 using Aspose.Slides.Export;
 ```
-## الخطوة 1: قم بإعداد مشروعك
-قم بإنشاء مشروع جديد في بيئة التطوير .NET المفضلة لديك. قم بإعداد دليل لمستنداتك إذا لم يكن موجودًا.
+## الخطوة 1: إعداد مشروعك
+أنشئ مشروعًا جديدًا في بيئة تطوير .NET المُفضّلة لديك. أنشئ مجلدًا لمستنداتك إذا لم يكن موجودًا.
 ```csharp
 string dataDir = "Your Document Directory";
 bool isExists = System.IO.Directory.Exists(dataDir);
 if (!isExists)
     System.IO.Directory.CreateDirectory(dataDir);
 ```
-## الخطوة 2: قم بتحميل العرض التقديمي
- إنشاء مثيل`Presentation` class لتمثيل ملف العرض التقديمي الخاص بك.
+## الخطوة 2: تحميل العرض التقديمي
+إنشاء مثيل `Presentation` الفئة لتمثيل ملف العرض التقديمي الخاص بك.
 ```csharp
 using (Presentation presentation = new Presentation(dataDir + "AnimationRewind.pptx"))
 {
-    // الكود الخاص بك للخطوات اللاحقة موجود هنا
+    // الكود الخاص بك للخطوات اللاحقة يذهب هنا
 }
 ```
 ## الخطوة 3: الوصول إلى تسلسل التأثيرات
@@ -50,19 +52,19 @@ using (Presentation presentation = new Presentation(dataDir + "AnimationRewind.p
 ISequence effectsSequence = presentation.Slides[0].Timeline.MainSequence;
 ```
 ## الخطوة 4: تعديل توقيت التأثير
-الوصول إلى التأثير الأول للتسلسل الرئيسي وتعديل توقيته لتمكين الترجيع.
+قم بالوصول إلى التأثير الأول للتسلسل الرئيسي وتعديل توقيته لتمكين التراجع.
 ```csharp
 IEffect effect = effectsSequence[0];
 Console.WriteLine("\nEffect Timing/Rewind in source presentation is {0}", effect.Timing.Rewind);
 effect.Timing.Rewind = true;
 ```
-## الخطوة 5: احفظ العرض التقديمي
-احفظ العرض التقديمي المعدل.
+## الخطوة 5: حفظ العرض التقديمي
+احفظ العرض التقديمي المعدّل.
 ```csharp
 presentation.Save(RunExamples.OutPath + "AnimationRewind-out.pptx", Aspose.Slides.Export.SaveFormat.Pptx);
 ```
-## الخطوة 6: التحقق من تأثير الترجيع في عرض الوجهة
-قم بتحميل العرض التقديمي المعدل وتحقق من تطبيق تأثير الترجيع.
+## الخطوة 6: التحقق من تأثير التراجع في العرض التقديمي الوجهة
+قم بتحميل العرض التقديمي المعدل وتحقق مما إذا كان تأثير التراجع مطبقًا.
 ```csharp
 using (Presentation pres = new Presentation(RunExamples.OutPath + "AnimationRewind-out.pptx"))
 {
@@ -71,24 +73,26 @@ using (Presentation pres = new Presentation(RunExamples.OutPath + "AnimationRewi
     Console.WriteLine("Effect Timing/Rewind in destination presentation is {0}\n", effect.Timing.Rewind);
 }
 ```
-كرر هذه الخطوات لشرائح إضافية أو قم بتخصيص العملية وفقًا لبنية العرض التقديمي الخاص بك.
+كرر هذه الخطوات للشرائح الإضافية أو قم بتخصيص العملية وفقًا لهيكل العرض التقديمي الخاص بك.
 ## خاتمة
-Unlocking the rewind animation feature in Aspose.Slides for .NET opens up exciting possibilities for creating dynamic and engaging presentations. By following this step-by-step guide, you can seamlessly integrate animation rewind into your projects, enhancing the visual appeal of your slides.
+يتيح لك تفعيل ميزة الرسوم المتحركة الخلفية في Aspose.Slides لـ .NET إمكانيات رائعة لإنشاء عروض تقديمية ديناميكية وجذابة. باتباع هذا الدليل المفصل، يمكنك دمج الرسوم المتحركة الخلفية بسلاسة في مشاريعك، مما يعزز المظهر البصري لشرائحك.
 ---
 ## الأسئلة الشائعة
-### هل يتوافق Aspose.Slides for .NET مع أحدث إصدار من .NET Framework؟
- يتم تحديث Aspose.Slides for .NET بانتظام لضمان التوافق مع أحدث إصدارات إطار عمل .NET. افحص ال[توثيق](https://reference.aspose.com/slides/net/) للحصول على تفاصيل التوافق.
-### هل يمكنني تطبيق حركة الترجيع على كائنات محددة داخل الشريحة؟
-نعم، يمكنك تخصيص التعليمات البرمجية لتطبيق الرسوم المتحركة الترجيع بشكل انتقائي على كائنات أو عناصر محددة داخل الشريحة.
-### هل هناك إصدار تجريبي متاح لـ Aspose.Slides لـ .NET؟
- نعم، يمكنك استكشاف الميزات من خلال الحصول على نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
-### كيف يمكنني الحصول على دعم Aspose.Slides لـ .NET؟
- قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لطلب المساعدة والتفاعل مع المجتمع.
+### هل Aspose.Slides for .NET متوافق مع أحدث إصدار من .NET Framework؟
+يتم تحديث Aspose.Slides لـ .NET بانتظام لضمان توافقه مع أحدث إصدارات إطار عمل .NET. تحقق من [التوثيق](https://reference.aspose.com/slides/net/) للحصول على تفاصيل التوافق.
+### هل يمكنني تطبيق الرسوم المتحركة التراجعية على كائنات محددة داخل شريحة؟
+نعم، يمكنك تخصيص الكود لتطبيق الرسوم المتحركة التراجعية بشكل انتقائي على كائنات أو عناصر محددة ضمن شريحة.
+### هل هناك نسخة تجريبية متاحة لـ Aspose.Slides لـ .NET؟
+نعم، يمكنك استكشاف الميزات من خلال الحصول على نسخة تجريبية مجانية من [هنا](https://releases.aspose.com/).
+### كيف يمكنني الحصول على الدعم لـ Aspose.Slides لـ .NET؟
+قم بزيارة [منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11) لطلب المساعدة والتفاعل مع المجتمع.
 ### هل يمكنني شراء ترخيص مؤقت لـ Aspose.Slides لـ .NET؟
- نعم يمكنك الحصول على ترخيص مؤقت من[هنا](https://purchase.aspose.com/temporary-license/).
+نعم يمكنك الحصول على ترخيص مؤقت من [هنا](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

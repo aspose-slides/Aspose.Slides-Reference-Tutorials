@@ -13,7 +13,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Creating and Positioning Charts in PowerPoint with Aspose.Slides for Python
 
@@ -167,7 +169,11 @@ Ready to put your skills into action? Try implementing these techniques in your 
 - **Free Trial and Temporary License**: Test features without limitations by obtaining a free trial or temporary license from [Aspose Free Trials](https://releases.aspose.com/slides/python-net/) or [Temporary Licenses](https://purchase.aspose.com/temporary-license/).
 
 Happy charting! If you have questions, visit the [Aspose Support Forum](https://forum.aspose.com/c/slides/11) for assistance.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Slide Size & PDF Export Options in Aspose.Slides .NET
 
@@ -166,7 +168,11 @@ You've now mastered setting presentation slide sizes and configuring PDF export 
 - **Free Trial:** [Get Started](https://releases.aspose.com/slides/net/)
 - **Temporary License:** [Request Here](https://purchase.aspose.com/temporary-license/)
 - **Support Forum:** [Aspose Community](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

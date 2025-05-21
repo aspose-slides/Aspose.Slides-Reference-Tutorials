@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create Tables in PowerPoint Using Aspose.Slides for .NET
 
@@ -176,6 +178,9 @@ Congratulations! You now know how to create and customize tables in PowerPoint u
 Embark on your journey to mastering Aspose.Slides for .NET and take your presentations to the next level!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

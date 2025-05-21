@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Export Shapes as SVG Using Aspose.Slides Java: A Step-by-Step Guide
 
@@ -220,6 +222,9 @@ To further explore Aspose.Slides' features, delve into its comprehensive documen
 Explore these resources to deepen your understanding and harness the full potential of Aspose.Slides for Java. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

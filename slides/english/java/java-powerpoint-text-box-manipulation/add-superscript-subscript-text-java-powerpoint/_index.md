@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-box-manipulation/add-superscript-subscript-text-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Superscript and Subscript Text in Java PowerPoint
@@ -99,6 +101,7 @@ For support and discussions, visit the [Aspose.Slides forum](https://forum.aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

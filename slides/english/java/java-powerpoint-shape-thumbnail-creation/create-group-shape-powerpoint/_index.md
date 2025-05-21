@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-thumbnail-creation/create-group-shape-powerpoin
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Group Shape in PowerPoint
@@ -85,6 +87,7 @@ Yes, Aspose.Slides for Java provides comprehensive support for applying animatio
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PPTX to HTML While Preserving Fonts Using Aspose.Slides for Python
 
@@ -185,7 +187,11 @@ Ready to try it out? Implement this solution in your projects and see the differ
 - **Free Trial**: [Aspose.Slides Free Trials](https://releases.aspose.com/slides/python-net/)
 - **Temporary License**: [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

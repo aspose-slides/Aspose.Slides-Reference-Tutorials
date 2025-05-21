@@ -8,7 +8,9 @@ url: /net/shape-alignment-and-formatting-in-slides/aligning-shapes/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mastering Shape Alignment with Aspose.Slides for .NET
@@ -92,6 +94,7 @@ Visit the [Aspose.Slides Forum](https://forum.aspose.com/c/slides/11) for commun
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

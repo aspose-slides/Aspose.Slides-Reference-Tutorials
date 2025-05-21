@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Convert PowerPoint Notes to TIFF Using Aspose.Slides for .NET
 
@@ -165,6 +167,9 @@ You've learned how to convert PowerPoint notes to TIFF using Aspose.Slides for .
 With this comprehensive guide, you're well-equipped to start converting PowerPoint notes into TIFF images using Aspose.Slides for .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

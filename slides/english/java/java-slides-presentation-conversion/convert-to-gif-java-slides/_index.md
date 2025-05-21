@@ -8,7 +8,9 @@ url: /java/presentation-conversion/convert-to-gif-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert to GIF in Java Slides
@@ -121,6 +123,7 @@ You can download Aspose.Slides for Java from the Aspose website: [Download Aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

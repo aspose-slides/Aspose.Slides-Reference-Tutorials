@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Customize SmartArt Bullets with Images Using Aspose.Slides for Java
 
@@ -127,7 +129,11 @@ if (node.getBulletFillFormat() != null) {
 
 ```java
 presentation.save("YOUR_OUTPUT_DIRECTORY/out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

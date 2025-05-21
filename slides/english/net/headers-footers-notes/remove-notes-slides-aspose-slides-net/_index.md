@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Remove Notes from All Slides Using Aspose.Slides .NET
 
@@ -176,7 +178,11 @@ Ready to try it out? Implement the solution in your next project for improved ef
 - **Purchase**: For a commercial license, visit [Aspose Purchase Page](https://purchase.aspose.com/buy).
 - **Free Trial**: Start with a trial to evaluate features at [Aspose Slides Releases](https://releases.aspose.com/slides/net/).
 - **Temporary License**: Obtain a free temporary license from [Aspose Temporary License Page](https://purchase.aspose.com/temporary-license/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

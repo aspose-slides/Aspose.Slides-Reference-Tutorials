@@ -8,7 +8,9 @@ url: /java/chart-data-manipulation/clear-specific-chart-series-data-points-java-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Clear Specific Chart Series Data Points Data in Java Slides
@@ -131,6 +133,7 @@ You can find comprehensive documentation and examples in the [Aspose.Slides for 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

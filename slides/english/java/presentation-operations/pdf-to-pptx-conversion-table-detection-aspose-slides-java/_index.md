@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Effortless PDF to PPTX Conversion with Table Detection Using Aspose.Slides for Java
 
@@ -190,6 +192,9 @@ Absolutely! Aspose.Slides for Java can be used on the server-side to process fil
 Embark on your journey to mastering PDF conversions with Aspose.Slides for Java, and unlock the full potential of your documents in PowerPoint presentations!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

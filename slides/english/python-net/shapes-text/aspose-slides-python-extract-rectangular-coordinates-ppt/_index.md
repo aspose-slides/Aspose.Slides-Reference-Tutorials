@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Extract Rectangular Coordinates from Text in PowerPoint using Aspose.Slides for Python
 
@@ -182,7 +184,11 @@ Try implementing this solution in your next presentation processing task!
 - **Download**: Get the latest version from [Aspose Releases](https://releases.aspose.com/slides/python-net/).
 - **Purchase & Free Trial**: Access more resources through [Aspose Purchase](https://purchase.aspose.com/buy) or get started with a free trial at [Aspose Downloads](https://releases.aspose.com/slides/python-net/).
 - **Support**: Join the community for support on the [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

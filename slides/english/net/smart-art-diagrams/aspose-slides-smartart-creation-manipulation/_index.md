@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering SmartArt Creation and Manipulation with Aspose.Slides for .NET
 
@@ -165,6 +167,9 @@ Experiment with different layouts and node manipulations to discover more creati
 We hope this guide empowers you to create stunning SmartArt graphics in your presentations. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

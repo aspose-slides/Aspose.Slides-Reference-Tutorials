@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Load a Presentation Using Aspose.Slides for Java
 
@@ -153,7 +155,11 @@ You've learned how to load a presentation using Aspose.Slides for Java, a fundam
 - **Documentation:** Comprehensive guides and API references at [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/).
 - **Download:** Access the latest version of Aspose.Slides from [Aspose Releases](https://releases.aspose.com/slides/java/).
 - **Purchase:** Explore purchasing options for commercial use [here](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

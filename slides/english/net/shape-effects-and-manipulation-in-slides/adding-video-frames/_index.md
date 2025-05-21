@@ -8,7 +8,9 @@ url: /net/shape-effects-and-manipulation-in-slides/adding-video-frames/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Video Frames Tutorial with Aspose.Slides for .NET
@@ -77,6 +79,7 @@ For any queries or assistance, visit the [Aspose.Slides Forum](https://forum.asp
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

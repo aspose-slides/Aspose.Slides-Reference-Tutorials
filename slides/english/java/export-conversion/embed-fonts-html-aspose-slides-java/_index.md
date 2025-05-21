@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Embed Fonts in HTML Using Aspose.Slides for Java: A Step-by-Step Guide
 
@@ -170,7 +172,11 @@ While primarily used for web, you can also integrate it into desktop application
 - **Free Trial**: [Aspose Free Trials](https://releases.aspose.com/slides/java/)
 - **Temporary License**: [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum**: [Aspose Support Forum](https://forum.aspose.com/c/slides)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

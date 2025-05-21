@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Apply Bevel Effects to Shapes in PowerPoint Using Aspose.Slides and Python
 
@@ -178,7 +180,11 @@ Ready to take your presentation skills to the next level? Try implementing these
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 Start exploring the vast capabilities of Aspose.Slides for Python and elevate your presentations today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

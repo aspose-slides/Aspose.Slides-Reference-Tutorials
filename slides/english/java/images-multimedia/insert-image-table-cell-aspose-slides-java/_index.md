@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Insert an Image Inside a Table Cell Using Aspose.Slides for Java
 
@@ -178,7 +180,11 @@ A4: There’s no specific limit, but be mindful of performance implications with
 
 **Q5: How can I get support if I encounter issues?**
 A5: Visit [Aspose's Support Forum](https://forum.aspose.com/) for assistance.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

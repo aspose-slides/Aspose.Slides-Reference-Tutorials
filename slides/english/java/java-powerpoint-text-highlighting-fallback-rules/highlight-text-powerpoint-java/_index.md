@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-highlighting-fallback-rules/highlight-text-power
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Highlight Text in PowerPoint with Java
@@ -72,6 +74,7 @@ Yes, Aspose.Slides for Java is compatible with the Java SE Development Kit.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

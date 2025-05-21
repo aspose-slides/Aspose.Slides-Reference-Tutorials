@@ -8,7 +8,9 @@ url: /net/slide-transition-effects/slide-transition-effects/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Slide Transition Effects in Aspose.Slides
@@ -128,6 +130,7 @@ Have questions or need support? Visit the Aspose.Slides forum: [Support](https:/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

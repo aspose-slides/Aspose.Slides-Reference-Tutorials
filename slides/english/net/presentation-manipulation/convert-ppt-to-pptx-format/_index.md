@@ -8,7 +8,9 @@ url: /net/presentation-manipulation/convert-ppt-to-pptx-format/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert PPT to PPTX Format
@@ -90,6 +92,7 @@ You can find answers to your questions and seek support in the [Aspose.Slides fo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

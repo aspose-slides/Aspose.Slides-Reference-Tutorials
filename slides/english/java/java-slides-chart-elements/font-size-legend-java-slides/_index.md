@@ -8,7 +8,9 @@ url: /java/chart-elements/font-size-legend-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Font Size Legend in Java Slides
@@ -145,6 +147,7 @@ You can find comprehensive documentation and API references for Aspose.Slides fo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

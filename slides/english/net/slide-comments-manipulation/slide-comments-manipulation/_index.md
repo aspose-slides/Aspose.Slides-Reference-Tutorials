@@ -8,7 +8,9 @@ url: /net/slide-comments-manipulation/slide-comments-manipulation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Slide Comments Manipulation using Aspose.Slides
@@ -132,6 +134,7 @@ Slide Comments Manipulation using Aspose.Slides empowers you to take control of 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

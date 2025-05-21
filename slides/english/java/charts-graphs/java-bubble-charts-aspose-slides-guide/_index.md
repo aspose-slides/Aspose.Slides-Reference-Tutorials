@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Java Bubble Charts with Aspose.Slides: Your Complete Guide
 
@@ -166,7 +168,11 @@ A: Ensure compatibility between Aspose.Slides version and JDK. Incorrect setup m
 - **Free Trial:** [Start Your Free Trial](https://releases.aspose.com/slides/java/)
 - **Temporary License:** [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support:** [Aspose Forum for Slides](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

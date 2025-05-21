@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Export OLE Data to PDF Using Aspose.Slides in Python: A Step-by-Step Guide
 
@@ -168,7 +170,11 @@ Ready to try it yourself? Implement these steps and see how they enhance your do
 - **Support**: Join discussions or seek help on the [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 Dive into exporting OLE data to PDF with Aspose.Slides in Python today and enhance your document management processes!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

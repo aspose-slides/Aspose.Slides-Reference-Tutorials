@@ -4,8 +4,11 @@ description: "Step-by-step tutorials for automating PowerPoint tasks, batch proc
 weight: 24
 url: "/net/batch-processing/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Batch Processing Tutorials for Aspose.Slides .NET
 
@@ -26,7 +29,11 @@ Learn how to automate PowerPoint presentations with .NET and Aspose.Slides. This
 - [Download Aspose.Slides for Net](https://releases.aspose.com/slides/net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

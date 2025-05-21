@@ -8,7 +8,9 @@ url: /java/presentation-properties/check-presentation-protection-in-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Check Presentation Protection in Java Slides
@@ -123,6 +125,7 @@ Yes, Aspose.Slides for Java supports the latest PowerPoint file formats, includi
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

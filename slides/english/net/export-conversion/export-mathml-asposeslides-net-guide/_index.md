@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Export MathML from Presentations Using Aspose.Slides .NET: A Step-by-Step Guide
 
@@ -104,7 +106,7 @@ mathParagraph.Add(new Aspose.Slides.MathText.MathematicalText("a").SetSuperscrip
 ```
 
 **Explanation:**
-This snippet constructs the equation \(a^2 + b^2 = c^2\) by creating `MathematicalText` objects and setting superscripts where necessary.
+This snippet constructs the equation (a^2 + b^2 = c^2) by creating `MathematicalText` objects and setting superscripts where necessary.
 
 #### Step 3: Export to MathML
 
@@ -176,7 +178,11 @@ Use the Aspose.Slides API within your application's workflow for seamless integr
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 This guide aims to equip you with the skills needed to seamlessly export mathematical expressions using Aspose.Slides for .NET, enhancing your projects' functionality and reach.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

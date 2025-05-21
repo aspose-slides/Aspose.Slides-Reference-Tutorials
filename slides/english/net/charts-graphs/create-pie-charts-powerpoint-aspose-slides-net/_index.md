@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create a Pie Chart in PowerPoint Using Aspose.Slides for .NET
 
@@ -167,7 +169,11 @@ For further exploration:
 - **Support Forum**: [Aspose Support](https://forum.aspose.com/c/slides/11)
 
 We hope this tutorial helps you enhance your presentations with Aspose.Slides. Try implementing these features and explore the possibilities!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

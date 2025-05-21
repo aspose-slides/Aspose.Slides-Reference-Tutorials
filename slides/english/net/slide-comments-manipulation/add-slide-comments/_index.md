@@ -8,7 +8,9 @@ url: /net/slide-comments-manipulation/add-slide-comments/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Comments to Slide
@@ -114,6 +116,7 @@ Yes, you can explore Aspose.Slides for .NET by using a free trial. Visit the [As
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automating PowerPoint Presentations with Python: Adding Shapes and Animations Using Aspose.Slides for Python
 
@@ -232,7 +234,11 @@ Here are some real-world use cases:
 In this tutorial, you've learned how to automate PowerPoint presentations using Aspose.Slides for Python. You can now add shapes with text, implement animation effects, and create interactive elements with custom path animations. To further explore these features, consider experimenting with different shape types and animation effects.
 
 **Next Steps**: Try applying these techniques to your own projects and share your experiences in the comments below!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

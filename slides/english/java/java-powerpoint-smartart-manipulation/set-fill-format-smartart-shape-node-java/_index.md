@@ -8,7 +8,9 @@ url: /java/java-powerpoint-smartart-manipulation/set-fill-format-smartart-shape-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Fill Format for SmartArt Shape Node in Java
@@ -75,6 +77,7 @@ Yes, Aspose.Slides for Java caters to developers of all skill levels, offering i
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

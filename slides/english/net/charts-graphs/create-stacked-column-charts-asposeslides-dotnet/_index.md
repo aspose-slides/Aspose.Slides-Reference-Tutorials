@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create a Percentage-Based Stacked Column Chart using Aspose.Slides for .NET
 
@@ -189,7 +191,11 @@ A2: It supports various charts like pie, bar, column, line, and more.
 
 **Q3: How do I get started with Aspose.Slides for .NET?**
 A3: Install the library using NuGet or .NET CLI as described above. Follow our documentation to create your first chart.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

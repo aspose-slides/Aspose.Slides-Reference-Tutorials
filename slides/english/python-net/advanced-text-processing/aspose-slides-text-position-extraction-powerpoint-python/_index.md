@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Extract Text Positions from PowerPoint Using Aspose.Slides in Python
 
@@ -167,6 +169,9 @@ Ready to dive deeper? Try implementing this solution with a sample PowerPoint fi
 With this tutorial, you're equipped to handle text positions in PowerPoint slides efficiently. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

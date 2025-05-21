@@ -8,7 +8,9 @@ url: /java/presentation-conversion/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Slides Presentation Conversion
@@ -93,9 +95,11 @@ Learn how to convert PowerPoint presentations to XPS format in Java using Aspose
 Convert PowerPoint presentations to SWF format in Java using Aspose.Slides. Follow our step-by-step guide with source code for seamless conversion.
 ### [Convert to PDF with Progress Update in Java Slides](./convert-pdf-progress-update-java-slides/)
 Convert PowerPoint to PDF with Progress Updates in Java using Aspose.Slides for Java. Step-by-step guide with source code and progress tracking for seamless conversion.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

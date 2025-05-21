@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Retrieve Presentation File Formats Using Aspose.Slides for .NET: A Step-by-Step Guide
 
@@ -186,7 +188,11 @@ You've now learned how to use Aspose.Slides for .NET to retrieve the file format
 - **Support**: [Aspose Forum - Slides](https://forum.aspose.com/c/slides/11) 
 
 Embark on your journey with Aspose.Slides and unlock the potential of automated presentation management in .NET!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

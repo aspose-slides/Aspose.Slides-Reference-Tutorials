@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert SVG to Shapes in Aspose.Slides Java: A Complete Guide
 ## Introduction
@@ -149,7 +151,11 @@ By following this guide, you've learned how to convert SVG images into groups of
 - **Free Trial:** [Try the Free Version](https://releases.aspose.com/slides/java/)
 - **Temporary License:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support:** [Aspose Forums](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

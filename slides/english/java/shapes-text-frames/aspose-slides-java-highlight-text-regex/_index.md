@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides Java: Highlight Text in PowerPoint Using Regex
 
@@ -185,7 +187,11 @@ For further exploration, consider delving into other features offered by Aspose.
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 We hope you found this tutorial helpful. Start experimenting with Aspose.Slides Java and discover how it can transform your workflow!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

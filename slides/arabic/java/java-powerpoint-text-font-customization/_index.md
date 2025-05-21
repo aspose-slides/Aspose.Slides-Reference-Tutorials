@@ -1,116 +1,120 @@
 ---
-title: جافا باور بوينت النص وتخصيص الخط
-linktitle: جافا باور بوينت النص وتخصيص الخط
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: استكشف البرامج التعليمية حول تخصيص النص والخط في Java PowerPoint باستخدام Aspose.Slides. تعلم التدوير واستبدال الخطوط والمزيد لتحسين عروضك التقديمية.
-weight: 29
-url: /ar/java/java-powerpoint-text-font-customization/
+"description": "استكشف دروسًا تعليمية حول تخصيص النصوص والخطوط في جافا باوربوينت باستخدام Aspose.Slides. تعلّم التدوير واستبدال الخطوط والمزيد لتحسين عروضك التقديمية."
+"linktitle": "تخصيص النصوص والخطوط في Java PowerPoint"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "تخصيص النصوص والخطوط في Java PowerPoint"
+"url": "/ar/java/java-powerpoint-text-font-customization/"
+"weight": 29
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# جافا باور بوينت النص وتخصيص الخط
+# تخصيص النصوص والخطوط في Java PowerPoint
 
 ## مقدمة
 
-أطلق العنان للإمكانات الكاملة لعروض PowerPoint التقديمية الخاصة بك من خلال البرامج التعليمية الخاصة بتخصيص النصوص والخطوط في Java PowerPoint باستخدام Aspose.Slides. سواء كنت مستخدمًا مبتدئًا أو متقدمًا، ستساعدك أدلتنا التفصيلية على تحسين عروضك التقديمية دون عناء.
+أطلق العنان لإمكانات عروض PowerPoint التقديمية مع دروسنا التعليمية لتخصيص النصوص والخطوط بلغة Java PowerPoint باستخدام Aspose.Slides. سواء كنت مبتدئًا أو مستخدمًا متقدمًا، ستساعدك أدلتنا المفصلة على تحسين عروضك التقديمية بسهولة.
 
-## إتقان تخصيص النص والخط في Java PowerPoint
+## إتقان تخصيص النصوص والخطوط في Java PowerPoint
 
-يمكن أن يؤدي التعامل مع النصوص والخطوط في عروض PowerPoint التقديمية إلى تحسين الوضوح والجاذبية المرئية لشرائحك بشكل كبير. باستخدام Aspose.Slides for Java، لديك الأدوات اللازمة لإنشاء عروض تقديمية ديناميكية وجذابة. فيما يلي بعض البرامج التعليمية الأساسية للبدء:
+يُمكن للتحكم في النصوص والخطوط في عروض PowerPoint التقديمية أن يُحسّن وضوح شرائحك وجاذبيتها البصرية بشكل كبير. مع Aspose.Slides لجافا، لديك الأدوات اللازمة لإنشاء عروض تقديمية ديناميكية وجذابة. إليك بعض الدروس التعليمية الأساسية للبدء:
 
 ## تدوير النص في PowerPoint باستخدام Java
-هل تساءلت يومًا عن كيفية تدوير النص في شرائح PowerPoint؟ يرشدك هذا البرنامج التعليمي خلال العملية باستخدام Aspose.Slides لـ Java. سواء كنت بحاجة إلى دوران بسيط أو شيء أكثر تعقيدًا، فلدينا ما تحتاجه.[اقرأ أكثر](./rotate-text-powerpoint-java/)
+هل تساءلت يومًا عن كيفية تدوير النص في شرائح PowerPoint؟ يرشدك هذا البرنامج التعليمي خلال العملية باستخدام Aspose.Slides لجافا. سواءً كنت بحاجة إلى تدوير بسيط أو أكثر تعقيدًا، فلدينا الحل الأمثل. [اقرأ المزيد](./rotate-text-powerpoint-java/)
 
-## استبدال الخطوط المستندة إلى القواعد في Java PowerPoint
- الاتساق هو المفتاح في العروض التقديمية المهنية. تعرف على كيفية أتمتة استبدال الخطوط عبر الشرائح باستخدام Aspose.Slides لـ Java. سيساعدك هذا الدليل التفصيلي خطوة بخطوة على ضمان سهولة الوصول إلى عروضك التقديمية واتساقها.[اقرأ أكثر](./rule-based-fonts-replacement-java-powerpoint/)
+## استبدال الخطوط القائمة على القواعد في Java PowerPoint
+الاتساق أساسي في العروض التقديمية الاحترافية. تعلّم كيفية أتمتة استبدال الخطوط في شرائحك باستخدام Aspose.Slides لجافا. سيساعدك هذا الدليل المفصل على ضمان سهولة الوصول إلى عروضك التقديمية واتساقها. [اقرأ المزيد](./rule-based-fonts-replacement-java-powerpoint/)
 
-## احفظ PowerPoint بالخط العادي الافتراضي باستخدام Java
- هل تريد توحيد الخط عبر العرض التقديمي بأكمله؟ يوضح لك هذا البرنامج التعليمي كيفية حفظ برنامج PowerPoint الخاص بك بخط عادي افتراضي باستخدام Aspose.Slides for Java، مما يجعل شرائحك تبدو نظيفة وموحدة.[اقرأ أكثر](./save-powerpoint-default-regular-font-java/)
+## حفظ PowerPoint باستخدام الخط العادي الافتراضي باستخدام Java
+هل ترغب بتوحيد الخط في عرضك التقديمي؟ يوضح لك هذا البرنامج التعليمي كيفية حفظ عرض PowerPoint بخط عادي افتراضي باستخدام Aspose.Slides لجافا، مما يجعل شرائحك تبدو أنيقة وموحدة. [اقرأ المزيد](./save-powerpoint-default-regular-font-java/)
 
-## تعيين مرساة إطار النص في PowerPoint مع Java
-يمكن أن يؤدي تثبيت إطارات النص إلى تحسين تخطيط الشرائح وتصميمها. تعرف على كيفية تعيين نقاط ربط إطار النص في PowerPoint باستخدام Aspose.Slides لـ Java من خلال دليلنا الشامل.[اقرأ أكثر](./set-anchor-text-frame-powerpoint-java/)
+## تعيين مرساة إطار النص في PowerPoint باستخدام Java
+يُمكن أن يُحسّن تثبيت إطارات النصوص تخطيط وتصميم شرائحك. تعرّف على كيفية تثبيت إطارات النصوص في PowerPoint باستخدام Aspose.Slides لـ Java من خلال دليلنا الشامل. [اقرأ المزيد](./set-anchor-text-frame-powerpoint-java/)
 
-## ضبط الاحتواء التلقائي لإطار النص في Java PowerPoint
- هل تعاني من تجاوز النص في شرائحك؟ سيعلمك هذا البرنامج التعليمي كيفية تعيين خاصية الاحتواء التلقائي لإطارات النص في Java PowerPoint، مما يضمن ملاءمة المحتوى الخاص بك تمامًا في كل مرة.[اقرأ أكثر](./set-autofit-text-frame-java-powerpoint/)
+## تعيين ملاءمة إطار النص تلقائيًا في Java PowerPoint
+هل تعاني من مشكلة تجاوز النص في شرائحك؟ سيعلمك هذا البرنامج التعليمي كيفية ضبط خاصية الملاءمة التلقائية لإطارات النص في جافا باوربوينت، لضمان ملاءمة محتواك تمامًا في كل مرة. [اقرأ المزيد](./set-autofit-text-frame-java-powerpoint/)
 
-## قم بتعيين رقم نقطي مخصص في Java PowerPoint
- يمكن أن تساعد الرموز النقطية في تنظيم المحتوى الخاص بك بشكل فعال. تعرف على كيفية تعيين أرقام نقطية مخصصة في Java PowerPoint باستخدام Aspose.Slides، مما يعزز وضوح العروض التقديمية وبنيتها.[اقرأ أكثر](./set-custom-bullets-number-java-powerpoint/)
+## تعيين أرقام النقاط المخصصة في Java PowerPoint
+يمكن أن تساعدك النقاط على تنظيم محتواك بفعالية. تعرّف على كيفية تعيين أرقام نقطية مخصصة في جافا باوربوينت باستخدام Aspose.Slides، مما يُحسّن وضوح عروضك التقديمية وبنيتها. [اقرأ المزيد](./set-custom-bullets-number-java-powerpoint/)
 
-## تعيين الخط الاحتياطي في Java PowerPoint
- تأكد من عرض النص بشكل صحيح حتى في حالة عدم توفر خط معين. يوضح لك هذا البرنامج التعليمي كيفية تعيين خطوط احتياطية في Java PowerPoint باستخدام Aspose.Slides لـ Java.[اقرأ أكثر](./set-font-fallback-java-powerpoint/)
+## تعيين خط بديل في Java PowerPoint
+تأكد من عرض نصك بشكل صحيح حتى لو لم يتوفر خط معين. يوضح لك هذا البرنامج التعليمي كيفية تعيين خطوط بديلة في PowerPoint باستخدام Aspose.Slides لجافا. [اقرأ المزيد](./set-font-fallback-java-powerpoint/)
 
-## قم بتعيين قيم ارتفاع الخط المحلي في PowerPoint باستخدام Java
-يمكن أن يكون ضبط قيم ارتفاع الخط أمرًا ضروريًا للحفاظ على المظهر الاحترافي. تعرف على كيفية تعيين ارتفاعات الخطوط المحلية في عروض PowerPoint التقديمية باستخدام Java مع Aspose.Slides.[اقرأ أكثر](./set-local-font-height-values-powerpoint-java/)
+## تعيين قيم ارتفاع الخط المحلي في PowerPoint باستخدام Java
+يُعدّ ضبط ارتفاع الخط أمرًا بالغ الأهمية للحفاظ على مظهر احترافي. تعرّف على كيفية ضبط ارتفاعات الخطوط المحلية في عروض PowerPoint التقديمية باستخدام Java مع Aspose.Slides. [اقرأ المزيد](./set-local-font-height-values-powerpoint-java/)
 
-## قم بتعيين خصائص خط النص في PowerPoint باستخدام Java
- قم بتخصيص خصائص خط النص الخاص بك لتتناسب مع نمط العرض التقديمي الخاص بك. يرشدك هذا الدليل خلال التعامل مع خصائص خط النص باستخدام Aspose.Slides لـ Java.[اقرأ أكثر](./set-text-font-properties-powerpoint-java/)
+## تعيين خصائص خط النص في PowerPoint باستخدام Java
+خصّص خصائص خط النص لتتناسب مع نمط عرضك التقديمي. يرشدك هذا الدليل إلى كيفية التعامل مع خصائص خط النص باستخدام Aspose.Slides لجافا. [اقرأ المزيد](./set-text-font-properties-powerpoint-java/)
 
-## ضبط لغة العرض وشكل النص في Java
- قم بأتمتة عروض PowerPoint التقديمية الخاصة بك عن طريق ضبط لغة العرض التقديمي وتشكيل النص. تعرف على كيفية القيام بذلك باستخدام Aspose.Slides لـ Java، مما يجعل شرائحك أكثر قابلية للتكيف.[اقرأ أكثر](./set-presentation-language-shape-text-java/)
+## تعيين لغة العرض وشكل النص في Java
+أتمتة عروض PowerPoint التقديمية من خلال ضبط لغة العرض وتنسيق النص. تعلّم كيفية القيام بذلك باستخدام Aspose.Slides لـ Java، مما يجعل شرائحك أكثر مرونة. [اقرأ المزيد](./set-presentation-language-shape-text-java/)
 
 ## ضبط شفافية النص في الظل باستخدام Java
- هل تريد إضافة تأثير دقيق إلى النص الخاص بك؟ تعرف على كيفية ضبط شفافية ظلال النص في PowerPoint باستخدام Aspose.Slides لـ Java.[اقرأ أكثر](./set-transparency-text-shadow-java/)
+هل ترغب بإضافة تأثير بسيط إلى نصك؟ تعلّم كيفية ضبط شفافية ظلال النص في PowerPoint باستخدام Aspose.Slides لجافا. [اقرأ المزيد](./set-transparency-text-shadow-java/)
 
 ## تحديد لغة النص الافتراضية في Java PowerPoint
-توطين العرض التقديمي الخاص بك؟ تعرف على كيفية تحديد لغة النص الافتراضية في Java PowerPoint باستخدام Aspose.Slides for Java، وهو مثالي للمطورين الذين يعملون في مشاريع متعددة اللغات.[اقرأ أكثر](./specify-default-text-language-java-powerpoint/)
+هل ترغب في ترجمة عرضك التقديمي؟ تعلّم كيفية تحديد لغة النص الافتراضية في Java PowerPoint باستخدام Aspose.Slides for Java، وهو مثالي للمطورين الذين يعملون على مشاريع متعددة اللغات. [اقرأ المزيد](./specify-default-text-language-java-powerpoint/)
 
 ## تحديد الخطوط المستخدمة في العرض التقديمي باستخدام Java
- تأكد من أن العرض التقديمي الخاص بك يبدو تمامًا كما تريد من خلال تحديد الخطوط المستخدمة. يوضح لك هذا البرنامج التعليمي كيفية تعيين خطوط مخصصة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java.[اقرأ أكثر](./specify-fonts-used-presentation-java/)
+تأكد من أن عرضك التقديمي يبدو تمامًا كما هو مُراد بتحديد الخطوط المُستخدمة. يوضح لك هذا البرنامج التعليمي كيفية تعيين خطوط مُخصصة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. [اقرأ المزيد](./specify-fonts-used-presentation-java/)
 
 ## إضافة ارتباط تشعبي إلى مربع النص في PowerPoint باستخدام Java
- يمكن أن تجعل الارتباطات التشعبية عروضك التقديمية تفاعلية وجذابة. تعرف على كيفية إضافة ارتباطات تشعبية إلى مربعات نص PowerPoint باستخدام Aspose.Slides لـ Java من خلال دليلنا خطوة بخطوة.[اقرأ أكثر](./add-hyperlink-text-box-powerpoint-java/)
+يمكن للروابط التشعبية أن تجعل عروضك التقديمية تفاعلية وجذابة. تعرّف على كيفية إضافة روابط تشعبية إلى مربعات نص PowerPoint باستخدام Aspose.Slides لـ Java من خلال دليلنا المفصل. [اقرأ المزيد](./add-hyperlink-text-box-powerpoint-java/)
 
-## إضافة مربع نص على الشريحة برمجياً باستخدام Java
- عزز إنتاجيتك من خلال تعلم كيفية إضافة مربعات نص برمجيًا إلى شرائح PowerPoint باستخدام Aspose.Slides for Java. يعمل هذا الدليل على تبسيط العملية، مما يساعدك على تحسين العروض التقديمية الخاصة بك بكفاءة.[اقرأ أكثر](./add-text-box-slide-programmatically-java/)
+## إضافة مربع نص إلى الشريحة برمجيًا باستخدام Java
+عزّز إنتاجيتك بتعلّم كيفية إضافة مربعات نصية برمجيًا إلى شرائح PowerPoint باستخدام Aspose.Slides لجافا. يُبسّط هذا الدليل العملية، ويساعدك على تحسين عروضك التقديمية بكفاءة. [اقرأ المزيد](./add-text-box-slide-programmatically-java/)
 
-## استخدم الخطوط المخصصة في PowerPoint مع Java
-يمكن للخطوط المخصصة أن تجعل عروضك التقديمية مميزة. تعرف على كيفية دمج الخطوط المخصصة في شرائح PowerPoint الخاصة بك باستخدام Aspose.Slides for Java، مما يعزز المظهر المرئي دون عناء.[اقرأ أكثر](./use-custom-fonts-powerpoint-java/)
+## استخدام الخطوط المخصصة في PowerPoint مع Java
+الخطوط المخصصة تُبرز عروضك التقديمية. تعرّف على كيفية دمج الخطوط المخصصة في شرائح PowerPoint باستخدام Aspose.Slides لجافا، مما يُحسّن المظهر العام بسهولة. [اقرأ المزيد](./use-custom-fonts-powerpoint-java/)
 
 ## إنشاء WordArt في PowerPoint باستخدام Java
- أضف لمسة إبداعية إلى عروضك التقديمية باستخدام WordArt. يوضح لك هذا البرنامج التعليمي كيفية إنشاء WordArt جذابًا في عروض PowerPoint التقديمية باستخدام Java مع Aspose.Slides.[اقرأ أكثر](./create-wordart-powerpoint-java/)
+أضف لمسة إبداعية إلى عروضك التقديمية باستخدام WordArt. يوضح لك هذا البرنامج التعليمي كيفية إنشاء WordArt جذاب في عروض PowerPoint التقديمية باستخدام Java مع Aspose.Slides. [اقرأ المزيد](./create-wordart-powerpoint-java/)
 
-توفر هذه البرامج التعليمية تعليمات عملية وسهلة الاتباع ستمكنك من إنشاء عروض تقديمية احترافية وجذابة بصريًا. تعمق في كل دليل لتحويل مهاراتك في PowerPoint وجعل عروضك التقديمية أكثر فعالية.
-## دروس جافا لتخصيص النص والخط في برنامج Java PowerPoint
+تقدم هذه الدروس التعليمية تعليمات عملية وسهلة المتابعة تُمكّنك من إنشاء عروض تقديمية احترافية وجذابة بصريًا. تعمق في كل دليل لتطوير مهاراتك في استخدام PowerPoint وجعل عروضك التقديمية أكثر فعالية.
+## دروس تخصيص النصوص والخطوط في Java PowerPoint
 ### [تدوير النص في PowerPoint باستخدام Java](./rotate-text-powerpoint-java/)
-تعرف على كيفية تدوير النص في PowerPoint باستخدام Java باستخدام Aspose.Slides. برنامج تعليمي خطوة بخطوة للمبتدئين للمستخدمين المتقدمين.
-### [استبدال الخطوط المستندة إلى القواعد في Java PowerPoint](./rule-based-fonts-replacement-java-powerpoint/)
-تعرف على كيفية أتمتة استبدال الخطوط في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides. تعزيز إمكانية الوصول والاتساق دون عناء.
-### [احفظ PowerPoint بالخط العادي الافتراضي باستخدام Java](./save-powerpoint-default-regular-font-java/)
-تعرف على كيفية التعامل مع عروض PowerPoint التقديمية برمجياً باستخدام Aspose.Slides لـ Java. إتقان التعامل مع Java PowerPoint من خلال البرامج التعليمية خطوة بخطوة.
-### [تعيين مرساة إطار النص في PowerPoint مع Java](./set-anchor-text-frame-powerpoint-java/)
-تعرف على كيفية تعيين نقاط ارتساء إطار النص في PowerPoint باستخدام Java باستخدام Aspose.Slides. تعزيز العروض التقديمية الخاصة بك.
-### [ضبط الاحتواء التلقائي لإطار النص في Java PowerPoint](./set-autofit-text-frame-java-powerpoint/)
-تعرف على كيفية ضبط الاحتواء التلقائي لإطارات النص في Java PowerPoint باستخدام Aspose.Slides لـ Java. قم بإنشاء عروض تقديمية ديناميكية دون عناء.
-### [قم بتعيين رقم نقطي مخصص في Java PowerPoint](./set-custom-bullets-number-java-powerpoint/)
+تعلّم كيفية تدوير النص في PowerPoint باستخدام جافا مع Aspose.Slides. دليل تعليمي خطوة بخطوة، للمبتدئين والمتقدمين.
+### [استبدال الخطوط القائمة على القواعد في Java PowerPoint](./rule-based-fonts-replacement-java-powerpoint/)
+تعرّف على كيفية أتمتة استبدال الخطوط في عروض PowerPoint التقديمية بلغة جافا باستخدام Aspose.Slides. حسّن إمكانية الوصول والتناسق بسهولة.
+### [حفظ PowerPoint باستخدام الخط العادي الافتراضي باستخدام Java](./save-powerpoint-default-regular-font-java/)
+تعلّم كيفية التعامل مع عروض PowerPoint برمجيًا باستخدام Aspose.Slides لـ Java. أتقن التعامل مع PowerPoint بلغة Java من خلال دروس تعليمية خطوة بخطوة.
+### [تعيين مرساة إطار النص في PowerPoint باستخدام Java](./set-anchor-text-frame-powerpoint-java/)
+تعلّم كيفية ضبط مرساة إطار النص في PowerPoint باستخدام Java مع Aspose.Slides. حسّن عروضك التقديمية.
+### [تعيين ملاءمة إطار النص تلقائيًا في Java PowerPoint](./set-autofit-text-frame-java-powerpoint/)
+تعرّف على كيفية ضبط ملاءمة إطارات النصوص تلقائيًا في جافا باوربوينت باستخدام Aspose.Slides لجافا. أنشئ عروضًا تقديمية ديناميكية بسهولة.
+### [تعيين أرقام النقاط المخصصة في Java PowerPoint](./set-custom-bullets-number-java-powerpoint/)
 تعرف على كيفية تعيين أرقام نقطية مخصصة في Java PowerPoint باستخدام Aspose.Slides، مما يعزز وضوح العرض التقديمي وبنيته برمجيًا.
-### [تعيين الخط الاحتياطي في Java PowerPoint](./set-font-fallback-java-powerpoint/)
-تعرف على كيفية تعيين خطوط احتياطية في Java PowerPoint باستخدام Aspose.Slides لـ Java لضمان عرض نص متسق.
-### [قم بتعيين قيم ارتفاع الخط المحلي في PowerPoint باستخدام Java](./set-local-font-height-values-powerpoint-java/)
-تعرف على كيفية ضبط ارتفاعات الخطوط في عروض PowerPoint التقديمية باستخدام Java مع Aspose.Slides. تحسين تنسيق النص في الشرائح الخاصة بك دون عناء.
-### [قم بتعيين خصائص خط النص في PowerPoint باستخدام Java](./set-text-font-properties-powerpoint-java/)
-تعرف على كيفية التعامل مع خصائص خط نص PowerPoint باستخدام Aspose.Slides لـ Java من خلال هذا البرنامج التعليمي خطوة بخطوة لمطوري Java.
-### [ضبط لغة العرض وشكل النص في Java](./set-presentation-language-shape-text-java/)
-تعرف على كيفية أتمتة عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. يمكنك إنشاء الشرائح وتعديلها وتحسينها برمجيًا بسهولة.
+### [تعيين خط بديل في Java PowerPoint](./set-font-fallback-java-powerpoint/)
+تعرف على كيفية تعيين خطوط بديلة في Java PowerPoint باستخدام Aspose.Slides for Java لضمان عرض نص متسق.
+### [تعيين قيم ارتفاع الخط المحلي في PowerPoint باستخدام Java](./set-local-font-height-values-powerpoint-java/)
+تعلّم كيفية ضبط ارتفاع الخطوط في عروض PowerPoint التقديمية باستخدام Java مع Aspose.Slides. حسّن تنسيق النص في شرائحك بسهولة.
+### [تعيين خصائص خط النص في PowerPoint باستخدام Java](./set-text-font-properties-powerpoint-java/)
+تعرف على كيفية التعامل مع خصائص خط النص في PowerPoint باستخدام Aspose.Slides لـ Java من خلال هذا البرنامج التعليمي خطوة بخطوة لمطوري Java.
+### [تعيين لغة العرض وشكل النص في Java](./set-presentation-language-shape-text-java/)
+تعلّم كيفية أتمتة عروض PowerPoint التقديمية باستخدام Aspose.Slides لجافا. أنشئ الشرائح، وعدّلها، وحسّنها برمجيًا بسهولة.
 ### [ضبط شفافية النص في الظل باستخدام Java](./set-transparency-text-shadow-java/)
-تعرف على كيفية ضبط شفافية ظل النص في PowerPoint باستخدام Aspose.Slides لـ Java. تعزيز العروض التقديمية الخاصة بك برمجيا.
+تعرّف على كيفية ضبط شفافية ظل النص في PowerPoint باستخدام Aspose.Slides لجافا. حسّن عروضك التقديمية برمجيًا.
 ### [تحديد لغة النص الافتراضية في Java PowerPoint](./specify-default-text-language-java-powerpoint/)
-تعرف على كيفية تحديد لغة النص الافتراضية في Java PowerPoint باستخدام Aspose.Slides لـ Java. مثالي للمطورين الذين يتطلعون إلى توطين النصوص برمجيًا.
+تعرّف على كيفية تحديد لغة النص الافتراضية في جافا باوربوينت باستخدام Aspose.Slides لجافا. مثالي للمطورين الذين يبحثون عن ترجمة النصوص برمجيًا.
 ### [تحديد الخطوط المستخدمة في العرض التقديمي باستخدام Java](./specify-fonts-used-presentation-java/)
-تعرف على كيفية تحديد الخطوط المخصصة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. قم بتحسين الشرائح الخاصة بك باستخدام الطباعة الفريدة دون عناء.
+تعرّف على كيفية تحديد خطوط مخصصة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لجافا. حسّن عروضك التقديمية بخطوط فريدة بكل سهولة.
 ### [إضافة ارتباط تشعبي إلى مربع النص في PowerPoint باستخدام Java](./add-hyperlink-text-box-powerpoint-java/)
-تعرف على كيفية إضافة ارتباطات تشعبية إلى مربعات نص PowerPoint باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع أمثلة لمطوري Java.
-### [إضافة مربع نص على الشريحة برمجياً باستخدام Java](./add-text-box-slide-programmatically-java/)
-تعرف على كيفية إضافة مربع نص برمجيًا إلى شرائح PowerPoint باستخدام Aspose.Slides لـ Java. قم بتحسين إنتاجيتك باستخدام هذا الدليل التفصيلي.
-### [استخدم الخطوط المخصصة في PowerPoint مع Java](./use-custom-fonts-powerpoint-java/)
-تعرف على كيفية دمج الخطوط المخصصة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. تعزيز الجاذبية البصرية دون عناء.
+تعرّف على كيفية إضافة روابط تشعبية إلى مربعات نص PowerPoint باستخدام Aspose.Slides لجافا. دليل خطوة بخطوة مع أمثلة لمطوري جافا.
+### [إضافة مربع نص إلى الشريحة برمجيًا باستخدام Java](./add-text-box-slide-programmatically-java/)
+تعلّم كيفية إضافة مربع نص برمجيًا إلى شرائح PowerPoint باستخدام Aspose.Slides لجافا. حسّن إنتاجيتك باتباع هذا الدليل المفصل.
+### [استخدام الخطوط المخصصة في PowerPoint مع Java](./use-custom-fonts-powerpoint-java/)
+تعرّف على كيفية دمج الخطوط المخصصة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لجافا. حسّن مظهرك بسهولة.
 ### [إنشاء WordArt في PowerPoint باستخدام Java](./create-wordart-powerpoint-java/)
-تعرف على كيفية إنشاء WordArt جذاب في عروض PowerPoint التقديمية باستخدام Java مع Aspose.Slides. برنامج تعليمي خطوة بخطوة للمطورين.
+تعلّم كيفية إنشاء رسومات WordArt جذابة في عروض PowerPoint التقديمية باستخدام Java مع Aspose.Slides. دليل تعليمي خطوة بخطوة للمطورين.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

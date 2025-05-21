@@ -8,7 +8,9 @@ url: /java/java-powerpoint-font-management/fonts-substitution-java-powerpoint/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Fonts Substitution in Java PowerPoint
@@ -100,6 +102,7 @@ Yes, Aspose offers comprehensive technical support for Aspose.Slides users throu
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

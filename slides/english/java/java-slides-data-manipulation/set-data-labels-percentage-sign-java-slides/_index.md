@@ -8,7 +8,9 @@ url: /java/data-manipulation/set-data-labels-percentage-sign-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Data Labels Percentage Sign in Java Slides
@@ -187,6 +189,7 @@ You can add additional series to the chart by using the `add` method on the `ICh
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Connect Shapes with Connectors in Python Using Aspose.Slides
 
@@ -166,6 +168,9 @@ Visit the Aspose.Slides documentation for comprehensive guides and additional us
 With this knowledge, you're well-equipped to start creating sophisticated presentations using Aspose.Slides for Python. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

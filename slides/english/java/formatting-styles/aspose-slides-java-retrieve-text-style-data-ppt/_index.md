@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Retrieve Effective Text Style Data from PowerPoint Slides Using Aspose.Slides Java
 
@@ -189,7 +191,11 @@ We encourage you to experiment with these techniques and explore additional Aspo
 - [Purchase License](https://purchase.aspose.com/buy)
 - [Free Trial and Temporary Licenses](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

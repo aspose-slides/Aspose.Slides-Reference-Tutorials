@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Animate PowerPoint Charts with Aspose.Slides for Java
 ## How to Animate Charts in PowerPoint Using Aspose.Slides for Java: A Step-by-Step Guide
@@ -167,6 +169,9 @@ Ready to take your presentations to the next level? Try implementing these techn
 - [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PowerPoint PPT to TIFF with Notes Using Aspose.Slides for .NET
 
@@ -146,6 +148,9 @@ A: Yes, you can adjust note positioning and other layout options using `NotesCom
 By following this guide, you're well on your way to efficiently managing and distributing presentations with Aspose.Slides for .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

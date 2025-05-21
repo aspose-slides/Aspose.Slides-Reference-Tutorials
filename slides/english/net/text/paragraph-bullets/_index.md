@@ -6,8 +6,11 @@ description: This example demonstrates how to create PowerPoint presentations wi
 keywords: [Aspose.Slides, PowerPoint, Bullets, Numbered List, Symbol Bullets, C#, .NET, Text Formatting, Presentation]
 url: /net/text/paragraph-bullets/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Custom Bullet Points in PowerPoint Presentations
@@ -15,9 +18,11 @@ url: /net/text/paragraph-bullets/
 Aspose.Slides for .NET provides robust capabilities for creating and manipulating PowerPoint presentations programmatically. This example specifically focuses on implementing custom bullet points in text frames, showing how to control bullet type, color, indentation, and size. The code creates a presentation with a rectangle shape containing two paragraphs - one with a symbol bullet and another with a numbered bullet style.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/text/paragraph-bullets" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -43,7 +48,9 @@ Aspose.Slides for .NET provides robust capabilities for creating and manipulatin
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

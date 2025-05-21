@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Remove Slides Using Aspose.Slides for Python: A Comprehensive Guide
 
@@ -157,6 +159,9 @@ In this tutorial, you've learned how to remove a slide from a PowerPoint present
 We hope this guide has been helpful in mastering slide removal with Aspose.Slides for Python. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

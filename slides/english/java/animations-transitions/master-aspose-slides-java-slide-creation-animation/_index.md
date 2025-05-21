@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Slide Creation and Animation with Aspose.Slides for Java
 
@@ -168,7 +170,11 @@ Try implementing these solutions in your projects today and take your presentati
    - Optimize memory usage by disposing of `Presentation` objects properly after use.
 5. **Is there a free version available?**
    - A trial version is available; purchase or apply for a temporary license for full access to features.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

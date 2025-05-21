@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Adjusting Shapes in PowerPoint Using Aspose.Slides for Java
 ## Master Your PowerPoint Customization Skills!
@@ -163,7 +165,11 @@ In this tutorial, you've learned how to adjust rectangle and arrow shapes in Pow
 ### Next Steps
 - Experiment with other shape types and adjustments.
 - Integrate Aspose.Slides features into larger projects or systems.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

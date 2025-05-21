@@ -8,7 +8,9 @@ url: /net/printing-and-rendering-in-slides/rendering-3d-effects/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mastering 3D Effects - Aspose.Slides Tutorial
@@ -87,6 +89,7 @@ Visit the Aspose.Slides forum [here](https://forum.aspose.com/c/slides/11) for c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

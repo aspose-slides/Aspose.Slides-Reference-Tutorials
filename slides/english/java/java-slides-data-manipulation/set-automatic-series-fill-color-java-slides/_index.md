@@ -8,7 +8,9 @@ url: /java/data-manipulation/set-automatic-series-fill-color-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Automatic Series Fill Color in Java Slides
@@ -136,6 +138,7 @@ You can access comprehensive documentation for Aspose.Slides for Java at [here](
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

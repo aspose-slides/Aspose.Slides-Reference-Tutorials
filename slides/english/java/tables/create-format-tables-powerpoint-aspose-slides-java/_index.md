@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create and Format Tables in PowerPoint Using Aspose.Slides Java: A Comprehensive Guide
 
@@ -190,7 +192,11 @@ We encourage you to experiment with these capabilities and integrate them into y
 - **Support**: [Aspose Community Forum](https://forum.aspose.com/c/slides/11)
 
 We hope this tutorial was helpful. Happy coding, and enjoy enhancing your PowerPoint presentations with Aspose.Slides for Java!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

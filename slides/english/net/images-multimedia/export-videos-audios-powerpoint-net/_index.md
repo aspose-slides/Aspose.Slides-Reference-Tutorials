@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Export Videos & Audios from PowerPoint Presentations Using Aspose.Slides .NET
 
@@ -197,6 +199,9 @@ Ready to start extracting media from PowerPoint presentations? Try implementing 
    - Currently, this tutorial focuses on videos and audios. However, Aspose.Slides supports extracting various media types.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

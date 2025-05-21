@@ -8,7 +8,9 @@ url: /java/java-powerpoint-smartart-manipulation/access-child-node-specific-posi
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Access Child Node at Specific Position in SmartArt
@@ -108,6 +110,7 @@ Yes, you can purchase a full license from the [purchase page](https://purchase.a
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint Headers & Footers with Aspose.Slides for .NET
 ## Managing Headers, Footers, Slide Numbers, and Date-Time Placeholders in PowerPoint Slides with Aspose.Slides for .NET
@@ -132,7 +134,11 @@ Feel free to implement these techniques in your next project!
 - [Purchase a License](https://purchase.aspose.com/buy)
 - [Free Trial and Temporary License](https://releases.aspose.com/slides/net/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

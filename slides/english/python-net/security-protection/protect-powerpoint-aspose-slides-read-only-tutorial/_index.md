@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Make a PowerPoint Presentation Read-Only with Aspose.Slides in Python
 
@@ -150,7 +152,11 @@ Feel free to try implementing this solution in your projects today!
 - **Support:** [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 Feel free to explore these resources to deepen your understanding and leverage the full potential of Aspose.Slides in your projects. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

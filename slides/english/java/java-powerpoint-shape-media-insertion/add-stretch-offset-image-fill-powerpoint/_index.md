@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-media-insertion/add-stretch-offset-image-fill-p
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Stretch Offset for Image Fill in PowerPoint
@@ -74,6 +76,7 @@ You can visit the [Aspose.Slides for Java documentation](https://reference.aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

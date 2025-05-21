@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Shapes with Aspose.Slides for Java: A Complete Guide to Custom Presentation Design
 
@@ -197,7 +199,11 @@ Custom shapes in presentations can serve various purposes:
 1. **Educational Content**: Enhance learning materials with diagrams and flowcharts.
 2. **Business Reports**: Create engaging slides with unique graphs and data visualizations.
 3. **Creative Storytelling**: Use custom shapes to illustrate stories or concepts dynamically.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

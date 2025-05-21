@@ -8,7 +8,9 @@ url: /net/chart-creation-and-customization/add-layout-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Layout Slides to Presentation
@@ -114,6 +116,7 @@ If you have any questions or need assistance, you can visit the Aspose.Slides fo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

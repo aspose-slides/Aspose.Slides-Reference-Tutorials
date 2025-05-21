@@ -8,7 +8,9 @@ url: /net/shape-effects-and-manipulation-in-slides/adding-arrow-lines-to-specifi
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Arrow Shaped Lines to Specific Slides with Aspose.Slides
@@ -86,6 +88,7 @@ A: You can buy Aspose.Slides [here](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Efficiently Remove Slide Notes from PowerPoint Using Aspose.Slides Python
 
@@ -145,6 +147,9 @@ As next steps, explore more features of Aspose.Slides or integrate it into autom
 We hope this tutorial has been helpful in demonstrating how to use Aspose.Slides with Python for your presentation needs. Start implementing today and explore the vast capabilities of this powerful library!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

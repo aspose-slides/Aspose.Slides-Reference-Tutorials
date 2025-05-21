@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint Transitions in Java with Aspose.Slides: A Comprehensive Guide
 
@@ -183,6 +185,9 @@ To further enhance your skills, explore additional Aspose.Slides features like m
 Dive into the world of automated presentations with Aspose.Slides for Java, and take your slide show capabilities to the next level!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

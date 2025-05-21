@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set Slide Master View in PPTX using Aspose.Slides .NET: A Comprehensive Guide
 
@@ -158,7 +160,11 @@ Wrap your code in try-catch blocks to manage potential errors gracefully.
 - **Support:** [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 By following this guide, you're now ready to leverage the power of Aspose.Slides for .NET in your projects. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

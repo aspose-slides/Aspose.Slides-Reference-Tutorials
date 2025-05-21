@@ -8,7 +8,9 @@ url: /java/java-powerpoint-table-manipulation/lock-aspect-ratio-powerpoint-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Lock Aspect Ratio in PowerPoint using Java
@@ -71,6 +73,7 @@ You can get a free trial version [here](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

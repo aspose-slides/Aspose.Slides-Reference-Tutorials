@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Embed Audio in Slides Using Aspose.Slides for .NET: A Step-by-Step Guide
 
@@ -169,7 +171,11 @@ For further reading and resources:
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 Embark on your journey to automate audio embedding in presentations with Aspose.Slides for .NET today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

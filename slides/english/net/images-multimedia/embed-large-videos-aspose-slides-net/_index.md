@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Embed Large Videos in PowerPoint Using Aspose.Slides for .NET
 
@@ -161,6 +163,9 @@ As next steps, explore other features like slide transitions or integrating clou
 Embark on your journey to create engaging, multimedia-rich presentations today with Aspose.Slides for .NET!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

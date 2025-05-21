@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Doughnut Charts in Java Using Aspose.Slides: A Step-by-Step Guide
 
@@ -224,7 +226,11 @@ You've now learned how to create and customize Doughnut charts in Java using Asp
 **Next Steps:**
 - Experiment with different chart types available in Aspose.Slides.
 - Explore additional customization options like colors, fonts, and styles to match your branding needs.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

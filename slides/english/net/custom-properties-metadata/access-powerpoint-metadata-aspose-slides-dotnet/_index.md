@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Access PowerPoint Metadata Using Aspose.Slides for .NET: A Developer's Guide
 
@@ -164,6 +166,9 @@ In this tutorial, we explored how to access built-in presentation properties usi
 Feel free to explore these resources and enhance your presentation handling capabilities with Aspose.Slides for .NET!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

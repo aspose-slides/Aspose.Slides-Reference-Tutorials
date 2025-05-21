@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Organization Charts Using Aspose.Slides for .NET: A Comprehensive Guide
 Creating an organization chart can be cumbersome if done manually, especially for large teams or complex structures. With **Aspose.Slides for .NET**, you can automate this process efficiently and accurately. This guide walks you through creating a basic organization chart using Aspose.Slides for .NET.
@@ -138,7 +140,11 @@ For more detailed information, explore these resources:
 - **Support:** [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 Ready to try it out? Start by setting up your environment and integrating Aspose.Slides into your next project for seamless organization chart creation.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

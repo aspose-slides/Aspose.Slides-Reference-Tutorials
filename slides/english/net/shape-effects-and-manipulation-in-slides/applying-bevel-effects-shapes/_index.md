@@ -8,7 +8,9 @@ url: /net/shape-effects-and-manipulation-in-slides/applying-bevel-effects-shapes
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mastering Bevel Effects in Aspose.Slides - Step By Step Tutorial
@@ -85,6 +87,7 @@ Absolutely! Aspose.Slides offers a variety of 3D effects to add depth and realis
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

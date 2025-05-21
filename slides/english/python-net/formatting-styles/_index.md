@@ -4,8 +4,11 @@ description: "Complete tutorials for slide formatting, themes, templates, master
 weight: 6
 url: "/python-net/formatting-styles/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Formatting and Styling Tutorials for Aspose.Slides Python
 
@@ -104,7 +107,11 @@ Learn how to set a solid blue background on PowerPoint slides using the Aspose.S
 - [Download Aspose.Slides for Python-net](https://releases.aspose.com/slides/python-net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

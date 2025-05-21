@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Font Fallback in Aspose.Slides Java: A Step-by-Step Guide
 
@@ -173,7 +175,11 @@ A: Yes, you can script or programatically apply rules using Aspose.Slides' API i
 - **Download**: Get the latest version from [Aspose.Slides for Java releases](https://releases.aspose.com/slides/java/).
 - **Purchase and Trial**: Learn how to acquire a license or trial at [purchase.aspose.com/buy](https://purchase.aspose.com/buy) and [temporary-license link](https://purchase.aspose.com/temporary-license/).
 - **Support**: Join the community discussions on [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

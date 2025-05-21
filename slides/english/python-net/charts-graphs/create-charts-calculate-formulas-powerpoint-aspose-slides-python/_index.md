@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Chart Creation and Formula Calculation in PowerPoint with Aspose.Slides for Python
 
@@ -212,7 +214,11 @@ By following this guide, you can effectively use Aspose.Slides for Python to cre
 - **Primary keyword**: Aspose.Slides for Python
 - **Secondary keyword 1**: PowerPoint chart creation
 - **Secondary keyword 2**: Formula calculations in PowerPoint
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

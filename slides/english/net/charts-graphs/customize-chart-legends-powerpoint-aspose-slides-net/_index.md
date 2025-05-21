@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set Custom Legend Options in PowerPoint Charts Using Aspose.Slides for .NET
 
@@ -183,6 +185,9 @@ Customizing chart legends using Aspose.Slides for .NET can significantly improve
 By leveraging the features of Aspose.Slides for .NET, you can transform your PowerPoint presentations into dynamic and informative displays. Start experimenting today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

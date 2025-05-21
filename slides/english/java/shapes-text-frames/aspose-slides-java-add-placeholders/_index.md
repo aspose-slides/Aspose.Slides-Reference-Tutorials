@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Add Placeholders to Java Slides with Aspose.Slides: A Comprehensive Guide for Developers
 
@@ -190,7 +192,11 @@ A5: Optimize by disposing of unused objects and managing memory effectively. Reg
 ## Resources
 - **Documentation**: [Aspose.Slides Java Documentation](https://reference.aspose.com/slides/java/)
 - **Download**: [Get Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

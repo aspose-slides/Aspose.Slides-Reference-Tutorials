@@ -8,7 +8,9 @@ url: /net/slide-view-and-layout-manipulation/linking-video-activex-control/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Linking Video via ActiveX Control in PowerPoint
@@ -90,6 +92,7 @@ For more details and advanced options, you can refer to the [Aspose.Slides for .
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

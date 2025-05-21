@@ -8,7 +8,9 @@ url: /java/java-powerpoint-font-management/add-embedded-fonts-powerpoint-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Embedded Fonts in PowerPoint using Java
@@ -79,6 +81,7 @@ Yes, as demonstrated in this tutorial, you can embed fonts programmatically usin
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

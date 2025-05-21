@@ -8,7 +8,9 @@ url: /java/presentation-conversion/convert-to-swf-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert to SWF in Java Slides
@@ -134,6 +136,7 @@ You can use try-catch blocks to handle exceptions that may occur during the conv
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

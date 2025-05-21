@@ -8,7 +8,9 @@ url: /java/java-powerpoint-advanced-paragraph-font-properties/manage-paragraph-f
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Manage Paragraph Font Properties in Java PowerPoint
@@ -123,6 +125,7 @@ Reload the original presentation or keep a backup before making changes.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

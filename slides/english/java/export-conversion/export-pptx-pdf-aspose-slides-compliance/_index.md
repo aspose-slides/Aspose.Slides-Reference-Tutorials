@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Export PPTX to PDF with Aspose.Slides for Java: Achieve A1a, A1b, and UA Compliance
 
@@ -231,6 +233,9 @@ A5: Visit the [Aspose.Slides documentation](https://reference.aspose.com/slides/
 - **Support**: https://forum.aspose.com/c/slides/11
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

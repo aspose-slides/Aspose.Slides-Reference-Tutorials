@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Dynamic Presentations with Aspose.Slides: Adding Slides & Zoom in .NET
 
@@ -171,6 +173,9 @@ Explore further functionalities of Aspose.Slides by diving into its [documentati
 - **Support**: Engage with the community or seek help on [Aspose Forums](https://forum.aspose.com/c/slides/11)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

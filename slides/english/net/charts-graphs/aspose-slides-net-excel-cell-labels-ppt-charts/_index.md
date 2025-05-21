@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Use Aspose.Slides for .NET: Excel Cell Values as PPT Chart Labels
 
@@ -155,6 +157,9 @@ As a next step, consider exploring other chart types and functionalities within 
 Ready to take your presentations to the next level? Dive into Aspose.Slides for .NET today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

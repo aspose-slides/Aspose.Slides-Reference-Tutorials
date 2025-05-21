@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PowerPoint Slides to SVG using Aspose.Slides for .NET
 
@@ -193,6 +195,9 @@ Ready to start creating SVGs from your presentations? Dive in and explore the po
 By following this guide, you're well on your way to leveraging Aspose.Slides for .NET effectively in your projects. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

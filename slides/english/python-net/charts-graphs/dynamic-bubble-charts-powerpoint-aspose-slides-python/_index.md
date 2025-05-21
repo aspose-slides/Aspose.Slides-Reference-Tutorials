@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Stunning Dynamic Bubble Charts in PowerPoint Using Aspose.Slides for Python
 
@@ -176,6 +178,9 @@ Ready to take it further? Explore additional chart types or customize your prese
 With this guide, you're now equipped to create compelling dynamic bubble charts that enhance your data presentations. Happy charting!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

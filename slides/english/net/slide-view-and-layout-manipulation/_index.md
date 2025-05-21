@@ -8,7 +8,9 @@ url: /net/slide-view-and-layout-manipulation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Slide View and Layout Manipulation
@@ -35,9 +37,11 @@ Learn how to manage presentations in normal view state using Aspose.Slides for .
 Learn how to link videos to PowerPoint slides using Aspose.Slides for .NET. This step-by-step guide includes source code and tips for creating interactive and engaging presentations with linked videos.
 ### [Manage ActiveX Control in Presentation](./manage-activex-control/)
 Learn how to enhance PowerPoint presentations with ActiveX controls using Aspose.Slides for .NET. Our step-by-step guide covers insertion, manipulation, customization, event handling, and more.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

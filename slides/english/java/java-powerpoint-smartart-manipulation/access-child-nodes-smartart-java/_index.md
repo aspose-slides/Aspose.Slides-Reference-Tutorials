@@ -8,7 +8,9 @@ url: /java/java-powerpoint-smartart-manipulation/access-child-nodes-smartart-jav
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Access Child Nodes in SmartArt using Java
@@ -91,6 +93,7 @@ IntelliJ IDEA and Eclipse are popular IDEs that work well with Aspose.Slides for
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

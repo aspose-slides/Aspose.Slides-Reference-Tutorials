@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Aspose.Slides for Dynamic PowerPoint Shapes
 ## Create and Style Slides in Python: A Comprehensive Guide
@@ -155,7 +157,11 @@ Mastering the creation and styling of shapes using Aspose.Slides for Python enab
    - Yes, use `FillType.GRADIENT` in place of `FILL_TYPE.SOLID`.
 3. **What if my shapes overlap?**
    - Adjust shape positions or layering order using the z-order property.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

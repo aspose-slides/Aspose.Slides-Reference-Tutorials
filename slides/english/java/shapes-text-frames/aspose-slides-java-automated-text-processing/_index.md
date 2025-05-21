@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate Text Processing in Slides Using Aspose.Slides Java
 ## Introduction
@@ -130,6 +132,9 @@ A: Yes, manage memory efficiently and adjust JVM settings as needed.
 Explore these resources to deepen your understanding and expand your skills with Aspose.Slides for Java!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

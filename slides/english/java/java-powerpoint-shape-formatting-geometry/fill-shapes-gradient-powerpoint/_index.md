@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-formatting-geometry/fill-shapes-gradient-powerp
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Fill Shapes with Gradient in PowerPoint
@@ -116,6 +118,7 @@ You can download the latest version from the [Aspose.Slides download page](https
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

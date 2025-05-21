@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Slide Manipulation with Aspose.Slides for Java: Adding and Modifying Shapes
 
@@ -196,7 +198,11 @@ Mastering Aspose.Slides for Java enables you to automate slide creation, shape a
    - Use try-catch blocks around your code to manage exceptions gracefully and provide fallback mechanisms.
 2. **Can I add custom shapes using Aspose.Slides for Java?**
    - Yes, you can create custom shapes by defining their coordinates and properties.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

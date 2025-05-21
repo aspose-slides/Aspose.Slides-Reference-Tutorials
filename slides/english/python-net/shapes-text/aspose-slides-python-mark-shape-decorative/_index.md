@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Mark Shapes as Decorative in Aspose.Slides for Python: A Comprehensive Guide
 
@@ -143,6 +145,9 @@ You've learned how to utilize Aspose.Slides for Python to add and mark shapes as
 This tutorial aimed to provide a comprehensive understanding of marking shapes as decorative using Aspose.Slides for Python. Give it a try and see how it can enhance your presentation designs!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

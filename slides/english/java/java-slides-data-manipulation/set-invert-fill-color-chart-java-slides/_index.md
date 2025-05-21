@@ -8,7 +8,9 @@ url: /java/data-manipulation/set-invert-fill-color-chart-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Invert Fill Color Chart in Java Slides
@@ -163,6 +165,7 @@ Yes, you can save the chart in different formats using Aspose.Slides for Java. I
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

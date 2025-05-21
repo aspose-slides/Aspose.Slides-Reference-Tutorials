@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-thumbnail-creation/create-smartart-child-note-t
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create SmartArt Child Note Thumbnail
@@ -80,6 +82,7 @@ Yes, Aspose.Slides provides dedicated technical support for developers through t
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

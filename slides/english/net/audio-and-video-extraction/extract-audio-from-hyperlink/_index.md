@@ -8,7 +8,9 @@ url: /net/audio-and-video-extraction/extract-audio-from-hyperlink/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extract Audio from PowerPoint Hyperlinks with Aspose.Slides
@@ -116,6 +118,7 @@ Aspose.Slides for .NET allows you to extract audio in various formats, not limit
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

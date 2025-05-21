@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-alignment-formatting/highlight-text-using-regex-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Highlight Text using Regex in Java PowerPoint
@@ -72,6 +74,7 @@ Yes, you can start with a [free trial](https://releases.aspose.com/) to evaluate
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

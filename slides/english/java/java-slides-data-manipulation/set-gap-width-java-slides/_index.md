@@ -8,7 +8,9 @@ url: /java/data-manipulation/set-gap-width-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Gap Width in Java Slides
@@ -168,6 +170,7 @@ You can find comprehensive documentation and additional resources on Aspose.Slid
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

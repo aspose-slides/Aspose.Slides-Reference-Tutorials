@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering After-Animation Effects in PowerPoint Using Aspose.Slides for Python
 
@@ -194,7 +196,11 @@ A1: Install via pip using `pip install aspose.slides`.
 
 **Q2: Can I change animation effects on all slides at once?**
 A2: Yes, you can apply changes across multiple slides by iterating through each slide in the presentation.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

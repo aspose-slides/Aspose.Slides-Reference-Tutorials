@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create a Group Shape in PowerPoint Using Aspose.Slides for Java
 
@@ -172,7 +174,11 @@ You've learned how to create and configure group shapes in PowerPoint using Aspo
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 This comprehensive guide should empower you to efficiently utilize Aspose.Slides for Java in creating and managing group shapes within your PowerPoint presentations. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

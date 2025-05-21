@@ -8,7 +8,9 @@ url: /java/animation-and-layout/animating-series-elements-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Animating Series Elements in Java Slides
@@ -136,6 +138,7 @@ Yes, Aspose.Slides for Java offers a wide range of advanced animation options, i
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

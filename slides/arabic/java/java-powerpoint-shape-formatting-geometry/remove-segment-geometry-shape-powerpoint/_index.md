@@ -1,60 +1,62 @@
 ---
-title: إزالة الجزء من الشكل الهندسي في PowerPoint
-linktitle: إزالة الجزء من الشكل الهندسي في PowerPoint
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية إزالة الأجزاء من الأشكال الهندسية في PowerPoint باستخدام Aspose.Slides لـ Java من خلال دليلنا التفصيلي خطوة بخطوة.
-weight: 22
-url: /ar/java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-shape-powerpoint/
+"description": "تعرف على كيفية إزالة الأجزاء من الأشكال الهندسية في PowerPoint باستخدام Aspose.Slides لـ Java من خلال دليلنا المفصل خطوة بخطوة."
+"linktitle": "إزالة جزء من شكل هندسي في PowerPoint"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "إزالة جزء من شكل هندسي في PowerPoint"
+"url": "/ar/java/java-powerpoint-shape-formatting-geometry/remove-segment-geometry-shape-powerpoint/"
+"weight": 22
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إزالة الجزء من الشكل الهندسي في PowerPoint
+# إزالة جزء من شكل هندسي في PowerPoint
 
 ## مقدمة
-هل تتطلع إلى التعامل مع الأشكال في عروض PowerPoint التقديمية باستخدام Java؟ لقد جئت إلى المكان المناسب! Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قوية تسمح لك بإنشاء الشرائح وتعديلها وإدارتها في عروضك التقديمية دون عناء. في هذا البرنامج التعليمي، سنرشدك خلال عملية إزالة جزء من شكل هندسي في PowerPoint. سواء كنت مطورًا متمرسًا أو بدأت للتو، سيوفر لك هذا الدليل منهجًا خطوة بخطوة لإتقان هذه المهمة. على استعداد للغوص في؟ هيا بنا نبدأ!
+هل ترغب في معالجة الأشكال في عروض PowerPoint التقديمية باستخدام Java؟ أنت في المكان المناسب! Aspose.Slides for Java هي واجهة برمجة تطبيقات قوية تُمكّنك من إنشاء الشرائح وتعديلها وإدارتها في عروضك التقديمية بسهولة. في هذا البرنامج التعليمي، سنشرح لك عملية إزالة مقطع من شكل هندسي في PowerPoint. سواء كنت مطورًا محترفًا أو مبتدئًا، سيقدم لك هذا الدليل نهجًا خطوة بخطوة لإتقان هذه المهمة. هل أنت مستعد للبدء؟ هيا بنا!
 ## المتطلبات الأساسية
 قبل أن نبدأ، تأكد من أن لديك ما يلي:
-1.  Java Development Kit (JDK): تأكد من تثبيت JDK على نظامك. يمكنك تنزيله من[موقع أوراكل](https://www.oracle.com/java/technologies/javase-downloads.html).
-2.  Aspose.Slides for Java: قم بتنزيل مكتبة Aspose.Slides for Java من[هنا](https://releases.aspose.com/slides/java/).
-3. بيئة التطوير المتكاملة (IDE): استخدم IDE مثل IntelliJ IDEA أو Eclipse لكتابة تعليمات Java البرمجية وتشغيلها.
-4. المعرفة الأساسية لـ Java: سيساعدك الفهم الأساسي لبرمجة Java على متابعة هذا البرنامج التعليمي.
-## حزم الاستيراد
-للبدء، نحتاج إلى استيراد الحزم الضرورية من مكتبة Aspose.Slides. إليك كيفية القيام بذلك:
+1. مجموعة تطوير جافا (JDK): تأكد من تثبيت JDK على نظامك. يمكنك تنزيله من [موقع أوراكل](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. Aspose.Slides لـ Java: قم بتنزيل مكتبة Aspose.Slides لـ Java من [هنا](https://releases.aspose.com/slides/java/).
+3. بيئة التطوير المتكاملة (IDE): استخدم بيئة التطوير المتكاملة مثل IntelliJ IDEA أو Eclipse لكتابة وتشغيل كود Java الخاص بك.
+4. المعرفة الأساسية بلغة جافا: إن الفهم الأساسي لبرمجة جافا سوف يساعدك على متابعة هذا البرنامج التعليمي.
+## استيراد الحزم
+للبدء، نحتاج إلى استيراد الحزم اللازمة من مكتبة Aspose.Slides. إليك الطريقة:
 ```java
 import com.aspose.slides.*;
 
 ```
-دعونا نقسم عملية إزالة مقطع من شكل هندسي في شريحة PowerPoint إلى خطوات متعددة.
+دعونا نقسم عملية إزالة جزء من شكل هندسي في شريحة PowerPoint إلى خطوات متعددة.
 ## الخطوة 1: إنشاء عرض تقديمي جديد
-أولاً، نحتاج إلى إنشاء كائن عرض تقديمي جديد. سيكون هذا الكائن بمثابة حاوية لشرائحنا وأشكالنا.
+أولاً، علينا إنشاء كائن عرض تقديمي جديد. سيُستخدم هذا الكائن كحاوية للشرائح والأشكال.
 ```java
 Presentation pres = new Presentation();
 ```
 ## الخطوة 2: إضافة شكل هندسي إلى الشريحة
-بعد ذلك، قم بإضافة شكل هندسي إلى الشريحة. في هذا المثال، سوف نستخدم شكل قلب.
+بعد ذلك، أضف شكلًا هندسيًا إلى الشريحة. في هذا المثال، سنستخدم شكل قلب.
 ```java
 GeometryShape shape = (GeometryShape) pres.getSlides().get_Item(0).getShapes().addAutoShape(ShapeType.Heart, 100, 100, 300, 300);
 ```
-## الخطوة 3: استرداد المسار الهندسي للشكل
-بمجرد إضافة الشكل، نحتاج إلى استرداد المسار الهندسي الخاص به. يحتوي مسار الشكل الهندسي على الأجزاء التي تحدد الشكل.
+## الخطوة 3: استرداد مسار الهندسة للشكل
+بعد إضافة الشكل، نحتاج إلى استرجاع مساره الهندسي. يحتوي هذا المسار على الأجزاء التي تُعرّف الشكل.
 ```java
 IGeometryPath path = shape.getGeometryPaths()[0];
 ```
-## الخطوة 4: إزالة جزء من المسار الهندسي
-الآن، سنقوم بإزالة جزء معين من المسار الهندسي. في هذا المثال، نقوم بإزالة المقطع الموجود في الفهرس 2.
+## الخطوة 4: إزالة جزء من مسار الهندسة
+الآن، سنحذف مقطعًا محددًا من مسار الهندسة. في هذا المثال، سنحذف المقطع عند الفهرس ٢.
 ```java
 path.removeAt(2);
 ```
-## الخطوة 5: قم بتعيين المسار الهندسي الجديد
-بعد إزالة المقطع، قم بتعيين المسار الهندسي المعدل مرة أخرى إلى الشكل.
+## الخطوة 5: تعيين مسار الهندسة الجديد
+بعد إزالة القطعة، قم بإرجاع مسار الهندسة المعدلة إلى الشكل.
 ```java
 shape.setGeometryPath(path);
 ```
-## الخطوة 6: احفظ العرض التقديمي
-وأخيرًا، احفظ العرض التقديمي المعدل في ملف.
+## الخطوة 6: حفظ العرض التقديمي
+وأخيرًا، احفظ العرض التقديمي المعدّل في ملف.
 ```java
 String resultPath = "Your Output Directory" + "GeometryShapeRemoveSegment.pptx";
 pres.save(resultPath, SaveFormat.Pptx);
@@ -65,21 +67,23 @@ pres.save(resultPath, SaveFormat.Pptx);
 if (pres != null) pres.dispose();
 ```
 ## خاتمة
-وهناك لديك! باستخدام Aspose.Slides for Java، أصبح التعامل مع الأشكال في عروض PowerPoint التقديمية أمرًا مباشرًا وفعالاً. باتباع الخطوات الموضحة في هذا البرنامج التعليمي، يمكنك بسهولة إزالة الأجزاء من الأشكال الهندسية، مما يمنحك تحكمًا أكبر في تصميم الشرائح ووظائفها. ترميز سعيد!
+وهذا كل ما في الأمر! مع Aspose.Slides لجافا، أصبح التعامل مع الأشكال في عروض PowerPoint التقديمية سهلًا وفعالًا. باتباع الخطوات الموضحة في هذا البرنامج التعليمي، يمكنك بسهولة إزالة أجزاء من الأشكال الهندسية، مما يمنحك تحكمًا أكبر في تصميم ووظائف شرائحك. برمجة ممتعة!
 ## الأسئلة الشائعة
-### ما هو Aspose.Slides لجافا؟
-Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قوية لإنشاء عروض PowerPoint التقديمية وتعديلها وإدارتها برمجيًا.
-### هل يمكنني استخدام Aspose.Slides لـ Java مع أشكال أخرى إلى جانب شكل القلب؟
-قطعاً! يدعم Aspose.Slides for Java مجموعة واسعة من الأشكال التي يمكنك التعامل معها.
-### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Slides لـ Java؟
- نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+### ما هو Aspose.Slides لـ Java؟
+Aspose.Slides for Java عبارة عن واجهة برمجة تطبيقات قوية لإنشاء عروض PowerPoint وتعديلها وإدارتها برمجيًا.
+### هل يمكنني استخدام Aspose.Slides لـ Java مع أشكال أخرى بالإضافة إلى شكل القلب؟
+بالتأكيد! يدعم Aspose.Slides لـ Java مجموعة واسعة من الأشكال التي يمكنك التعامل معها.
+### هل هناك نسخة تجريبية مجانية متاحة لـ Aspose.Slides لنظام Java؟
+نعم، يمكنك تنزيل نسخة تجريبية مجانية من [هنا](https://releases.aspose.com/).
 ### هل أحتاج إلى ترخيص لاستخدام Aspose.Slides لـ Java؟
- نعم، أنت بحاجة إلى ترخيص للحصول على الوظائف الكاملة. يمكنك شراء واحدة[هنا](https://purchase.aspose.com/buy) أو الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
+نعم، تحتاج إلى ترخيص للاستفادة من جميع الوظائف. يمكنك شراء ترخيص. [هنا](https://purchase.aspose.com/buy) أو الحصول على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
 ### أين يمكنني العثور على مزيد من الوثائق حول Aspose.Slides لـ Java؟
- الوثائق الشاملة متاحة[هنا](https://reference.aspose.com/slides/java/).
+التوثيق الشامل متاح [هنا](https://reference.aspose.com/slides/java/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

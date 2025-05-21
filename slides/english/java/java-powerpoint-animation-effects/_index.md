@@ -8,7 +8,9 @@ url: /java/java-powerpoint-animation-effects/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java PowerPoint Animation and Effects
@@ -41,9 +43,11 @@ Learn how to easily apply outer shadow effects in Java PowerPoint presentations 
 Learn how to apply inner shadow effects to shapes in Java PowerPoint presentations using Aspose.Slides. Enhance your slides with this step-by-step guide.
 ### [Apply Outer Shadow in PowerPoint with Java](./apply-outer-shadow-powerpoint-java/)
 Learn how to apply outer shadow effect in PowerPoint using Java with Aspose.Slides. Enhance your presentations with depth and visual appeal.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

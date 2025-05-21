@@ -8,7 +8,9 @@ url: /java/data-manipulation/setting-callout-data-label-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Setting Callout For Data Label in Java Slides
@@ -213,6 +215,7 @@ These are some common customization options for data labels and callouts in Aspo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

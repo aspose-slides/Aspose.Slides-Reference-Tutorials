@@ -1,36 +1,38 @@
 ---
-title: قم بتعيين الصف الأول كرأس في جدول PowerPoint باستخدام Java
-linktitle: قم بتعيين الصف الأول كرأس في جدول PowerPoint باستخدام Java
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية تعيين الصف الأول كرأس في جداول PowerPoint باستخدام Aspose.Slides لـ Java. تحسين وضوح العرض التقديمي وتنظيمه دون عناء.
-weight: 19
-url: /ar/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/
+"description": "تعرّف على كيفية تعيين الصف الأول كرأس لجداول PowerPoint باستخدام Aspose.Slides لجافا. حسّن وضوح العرض التقديمي وتنظيمه بسهولة."
+"linktitle": "تعيين الصف الأول كرأس في جدول PowerPoint باستخدام Java"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "تعيين الصف الأول كرأس في جدول PowerPoint باستخدام Java"
+"url": "/ar/java/java-powerpoint-table-manipulation/set-first-row-header-powerpoint-table-java/"
+"weight": 19
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# قم بتعيين الصف الأول كرأس في جدول PowerPoint باستخدام Java
+# تعيين الصف الأول كرأس في جدول PowerPoint باستخدام Java
 
 ## مقدمة
-في هذا البرنامج التعليمي، سوف نتعمق في كيفية التعامل مع جداول PowerPoint باستخدام Aspose.Slides for Java، وهي مكتبة قوية تتيح التكامل والتعديل السلس للعروض التقديمية. على وجه التحديد، سنركز على تعيين الصف الأول من الجدول كرأس، مما يعزز المظهر المرئي وتنظيم الشرائح الخاصة بك.
+في هذا البرنامج التعليمي، سنتعمق في كيفية التعامل مع جداول PowerPoint باستخدام Aspose.Slides for Java، وهي مكتبة فعّالة تتيح دمج العروض التقديمية وتعديلها بسلاسة. سنركز تحديدًا على تعيين الصف الأول من الجدول كرأس، مما يُحسّن المظهر العام للشرائح وتنظيمها.
 ## المتطلبات الأساسية
 قبل الغوص في البرنامج التعليمي، تأكد من أن لديك ما يلي:
 - المعرفة الأساسية ببرمجة جافا.
-- JDK (Java Development Kit) مثبت على جهازك.
--  Aspose.Slides لمكتبة جافا. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/java/).
+- تم تثبيت JDK (Java Development Kit) على جهازك.
+- مكتبة Aspose.Slides لجافا. يمكنك تنزيلها من [هنا](https://releases.aspose.com/slides/java/).
 
-## حزم الاستيراد
-أولاً، تأكد من استيراد الحزم الضرورية إلى مشروع Java الخاص بك:
+## استيراد الحزم
+أولاً، تأكد من استيراد الحزم اللازمة إلى مشروع Java الخاص بك:
 ```java
 import com.aspose.slides.IShape;
 import com.aspose.slides.ISlide;
 import com.aspose.slides.ITable;
 import com.aspose.slides.Presentation;
 ```
-## الخطوة 1: قم بتحميل العرض التقديمي
-للبدء، قم بتحميل عرض PowerPoint التقديمي الذي يحتوي على الجدول الذي تريد تعديله.
+## الخطوة 1: تحميل العرض التقديمي
+للبدء، قم بتحميل عرض PowerPoint الذي يحتوي على الجدول الذي تريد تعديله.
 ```java
 // حدد المسار إلى مستند PowerPoint الخاص بك
 String dataDir = "Your Document Directory";
@@ -41,9 +43,9 @@ Presentation pres = new Presentation(dataDir + "table.pptx");
 ```java
 // الوصول إلى الشريحة الأولى
 ISlide slide = pres.getSlides().get_Item(0);
-// قم بتهيئة متغير للاحتفاظ بمرجع الجدول
+// تهيئة متغير لحمل مرجع الجدول
 ITable table = null;
-// كرر من خلال الأشكال للعثور على الجدول
+// التكرار من خلال الأشكال للعثور على الجدول
 for (IShape shape : slide.getShapes()) {
     if (shape instanceof ITable) {
         table = (ITable) shape;
@@ -51,40 +53,42 @@ for (IShape shape : slide.getShapes()) {
     }
 }
 ```
-## الخطوة 3: قم بتعيين الصف الأول كرأس
+## الخطوة 3: تعيين الصف الأول كرأس
 بمجرد تحديد الجدول، قم بتعيين الصف الأول كرأس.
 ```java
-//تحقق مما إذا تم العثور على الجدول
+// التحقق من العثور على الجدول
 if (table != null) {
-    // قم بتعيين الصف الأول كرأس
+    // تعيين الصف الأول كرأس
     table.setFirstRow(true);
 }
 ```
 ## الخطوة 4: الحفظ والتخلص
-وأخيرًا، احفظ العرض التقديمي المعدل وتخلص من الموارد.
+وأخيرًا، احفظ العرض التقديمي المعدّل وتخلص من الموارد.
 ```java
-// احفظ العرض التقديمي
+// حفظ العرض التقديمي
 pres.save(dataDir + "output.pptx", SaveFormat.Pptx);
 // التخلص من كائن العرض التقديمي
 pres.dispose();
 ```
 
 ## خاتمة
-في الختام، Aspose.Slides for Java يبسط مهمة التعامل مع عروض PowerPoint التقديمية برمجياً. من خلال تعيين الصف الأول من الجدول كرأس باستخدام الخطوات الموضحة أعلاه، يمكنك تحسين الوضوح والاحترافية لعروضك التقديمية دون عناء.
+في الختام، يُبسّط Aspose.Slides for Java عملية معالجة عروض PowerPoint التقديمية برمجيًا. بتعيين الصف الأول من الجدول كرأس الصفحة باتباع الخطوات الموضحة أعلاه، يمكنك تحسين وضوح واحترافية عروضك التقديمية بسهولة.
 ## الأسئلة الشائعة
-### ما هو Aspose.Slides لجافا؟
-Aspose.Slides for Java هي مكتبة قوية للعمل مع ملفات PowerPoint برمجياً.
-### كيف يمكنني تنزيل Aspose.Slides لجافا؟
- يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/java/).
-### هل يمكنني تجربة Aspose.Slides لـ Java قبل الشراء؟
- نعم، يمكنك الحصول على نسخة تجريبية مجانية[هنا](https://releases.aspose.com/).
+### ما هو Aspose.Slides لـ Java؟
+Aspose.Slides for Java عبارة عن مكتبة قوية للعمل مع ملفات PowerPoint برمجيًا.
+### كيف يمكنني تنزيل Aspose.Slides لـ Java؟
+يمكنك تنزيله من [هنا](https://releases.aspose.com/slides/java/).
+### هل يمكنني تجربة Aspose.Slides لـJava قبل الشراء؟
+نعم، يمكنك الحصول على نسخة تجريبية مجانية [هنا](https://releases.aspose.com/).
 ### أين يمكنني العثور على وثائق Aspose.Slides لـ Java؟
- الوثائق التفصيلية متاحة[هنا](https://reference.aspose.com/slides/java/).
+الوثائق التفصيلية متاحة [هنا](https://reference.aspose.com/slides/java/).
 ### كيف يمكنني الحصول على الدعم لـ Aspose.Slides لـ Java؟
- يمكنك الحصول على دعم المجتمع[هنا](https://forum.aspose.com/c/slides/11).
+يمكنك الحصول على دعم المجتمع [هنا](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

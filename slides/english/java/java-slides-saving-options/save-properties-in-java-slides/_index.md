@@ -8,7 +8,9 @@ url: /java/saving-options/save-properties-in-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Save Properties in Java Slides
@@ -180,6 +182,7 @@ You can explore the Aspose.Slides for Java documentation at [here](https://docs.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

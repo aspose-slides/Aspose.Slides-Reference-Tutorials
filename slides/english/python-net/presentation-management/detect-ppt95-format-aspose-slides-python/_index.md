@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Detect PPT95 Format in Python Using Aspose.Slides: A Step-by-Step Guide
 
@@ -155,7 +157,11 @@ Ready to put this into practice? Try implementing the solution today!
 - [Get a Free Trial License](https://releases.aspose.com/slides/python-net/)
 - [Apply for Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

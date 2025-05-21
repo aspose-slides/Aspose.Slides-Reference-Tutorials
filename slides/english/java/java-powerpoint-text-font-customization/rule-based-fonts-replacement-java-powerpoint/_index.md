@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-font-customization/rule-based-fonts-replacement-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rule Based Fonts Replacement in Java PowerPoint
@@ -87,6 +89,7 @@ For additional resources, documentation, and support, visit the [Aspose.Slides f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

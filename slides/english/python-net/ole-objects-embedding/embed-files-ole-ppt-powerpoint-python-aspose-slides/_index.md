@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Embed Files as OLE Objects in PowerPoint Using Python and Aspose.Slides
 
@@ -86,7 +88,11 @@ Read the binary content of the file you wish to embed. This involves opening the
 
 ```python
 test_zip_path = os.path.join("YOUR_DOCUMENT_DIRECTORY\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

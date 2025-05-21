@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set Symbol Bullet Styles in .NET Notes Slides Using Aspose.Slides for Java
 
@@ -167,7 +169,11 @@ In this guide, you've learned how to set symbol bullet styles in notes slides us
 - **Free Trial**: [Start Free Trial](https://releases.aspose.com/slides/java/)
 - **Temporary License**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum**: Engage with the community on [Aspose Support](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

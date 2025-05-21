@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Resize PowerPoint to A4 Using Aspose.Slides for .NET: Step-by-Step Guide
 
@@ -188,6 +190,9 @@ In this guide, you've learned how to resize a PowerPoint presentation to A4 form
    - Use .NET's interoperability features or REST APIs to connect with external services.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

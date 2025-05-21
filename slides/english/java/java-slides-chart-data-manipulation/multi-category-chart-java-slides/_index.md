@@ -8,7 +8,9 @@ url: /java/chart-data-manipulation/multi-category-chart-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Multi-Category Chart in Java Slides
@@ -167,6 +169,7 @@ You can add a title to the chart by using the `ch.getChartTitle().getTextFrame()
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/saving-options/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java Slides Saving Options
@@ -52,9 +54,11 @@ Learn how to set predefined view types in Java Slides using Aspose.Slides for Ja
 Learn how to save PowerPoint presentations as read-only in Java using Aspose.Slides. Protect your content with step-by-step instructions and code examples.
 ### [Save Properties in Java Slides](./save-properties-in-java-slides/)
 Optimize your PowerPoint presentations with Aspose.Slides for Java. Learn to set properties, disable encryption, add password protection, and save effortlessly.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

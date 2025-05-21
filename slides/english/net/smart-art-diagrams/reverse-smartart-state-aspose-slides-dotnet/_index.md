@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Reverse SmartArt State Using Aspose.Slides for .NET: A Step-by-Step Guide
 
@@ -172,6 +174,9 @@ Next steps? Consider exploring other SmartArt manipulations or delve deeper into
 - **Support Forum**: [Aspose Community Support](https://forum.aspose.com/c/slides/11)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

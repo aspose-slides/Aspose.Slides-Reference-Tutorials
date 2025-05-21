@@ -8,7 +8,9 @@ url: /java/data-manipulation/chart-marker-options-data-point-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chart Marker Options on Data Point in Java Slides
@@ -164,6 +166,7 @@ You can find the documentation at [here](https://reference.aspose.com/slides/jav
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

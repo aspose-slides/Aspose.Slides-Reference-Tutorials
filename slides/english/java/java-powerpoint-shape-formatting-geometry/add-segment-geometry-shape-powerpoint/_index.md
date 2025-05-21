@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-formatting-geometry/add-segment-geometry-shape-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Segment to Geometry Shape in PowerPoint
@@ -88,6 +90,7 @@ You can get support from the [Aspose.Slides forum](https://forum.aspose.com/c/sl
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

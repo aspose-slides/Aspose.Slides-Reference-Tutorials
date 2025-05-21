@@ -8,7 +8,9 @@ url: /java/data-manipulation/calculate-formulas-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Calculate Formulas in Java Slides
@@ -125,6 +127,7 @@ You can calculate formulas in a workbook using the `calculateFormulas` method of
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/java-powerpoint-table-manipulation/get-effective-values-table-powerpo
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Effective Values of Table in PowerPoint with Java
@@ -71,6 +73,7 @@ Yes, you can purchase a temporary license [here](https://purchase.aspose.com/tem
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

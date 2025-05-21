@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create & Save PowerPoint with Aspose.Slides in Python
 
@@ -165,7 +167,11 @@ We encourage you to try out the implementation discussed in this guide and disco
 - **Download**: [Get Aspose.Slides for Python](https://releases.aspose.com/slides/python-net/)
 - **Purchase & Free Trial**: [Acquire Your License](https://purchase.aspose.com/buy) and start with a [free trial](https://releases.aspose.com/slides/python-net/).
 - **Support**: For further assistance, join the [Aspose Support Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

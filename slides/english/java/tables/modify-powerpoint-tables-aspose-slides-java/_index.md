@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Efficiently Modify PowerPoint Tables Using Aspose.Slides for Java
 
@@ -185,6 +187,9 @@ A: Yes, you can use methods like `getRows().addClone()` to duplicate existing ro
 - **Support:** Visit the [Aspose forum](https://forum.aspose.com/c/slides)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

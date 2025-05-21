@@ -8,7 +8,9 @@ url: /java/java-powerpoint-animation-shape-manipulation/extract-embedded-file-da
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Extract Embedded File Data from OLE Object in PowerPoint
@@ -97,6 +99,7 @@ For any queries, technical assistance, or community support, you can visit the A
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

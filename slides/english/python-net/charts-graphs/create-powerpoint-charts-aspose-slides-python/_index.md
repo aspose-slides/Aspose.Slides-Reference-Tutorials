@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Manipulate Charts in PowerPoint Using Aspose.Slides for Python
 
@@ -173,6 +175,9 @@ A: Visit the [Aspose Support Forum](https://forum.aspose.com/c/slides/11) for as
 With these resources and the knowledge gained from this tutorial, you're well-equipped to start creating dynamic presentations using Aspose.Slides for Python. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

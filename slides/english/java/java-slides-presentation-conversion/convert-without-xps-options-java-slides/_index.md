@@ -8,7 +8,9 @@ url: /java/presentation-conversion/convert-without-xps-options-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Without XPS Options in Java Slides
@@ -103,6 +105,7 @@ You can implement exception handling to gracefully handle any errors that may oc
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

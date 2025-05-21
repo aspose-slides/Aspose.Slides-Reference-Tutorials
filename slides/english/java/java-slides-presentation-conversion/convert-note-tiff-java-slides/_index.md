@@ -8,7 +8,9 @@ url: /java/presentation-conversion/convert-note-tiff-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert with Note to TIFF in Java Slides
@@ -121,6 +123,7 @@ Yes, Aspose.Slides for Java requires a valid license for commercial use. You can
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

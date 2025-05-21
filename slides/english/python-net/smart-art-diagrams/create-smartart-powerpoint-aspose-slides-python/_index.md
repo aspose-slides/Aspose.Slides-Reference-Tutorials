@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create SmartArt in PowerPoint Using Aspose.Slides for Python
 ## Introduction
@@ -113,7 +115,11 @@ Ready to enhance your slides? Start creating captivating presentations today!
 - **Free Trial**: Try capabilities with a free trial available at [Aspose Releases](https://releases.aspose.com/slides/python-net/).
 - **Temporary License**: Apply for a temporary license via [Purchase Aspose](https://purchase.aspose.com/temporary-license/).
 - **Support**: Join discussions and seek help on the [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

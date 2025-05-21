@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PowerPoint Presentation Notes to HTML with Aspose.Slides .NET
 ## Introduction
@@ -120,7 +122,11 @@ Visit their [documentation](https://reference.aspose.com/slides/net/) for compre
 - **Free Trial**: [Get Started](https://releases.aspose.com/slides/net/)
 - **Temporary License**: [Request Here](https://purchase.aspose.com/temporary-license/)
 - **Support Forum**: [Aspose Community Help](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

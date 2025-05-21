@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Apply Inner Shadow in PowerPoint Using Aspose.Slides for Python
 
@@ -189,7 +191,11 @@ A5: Use `pres.save()` method with appropriate file path and format.
 - **Purchase**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)
 - **Free Trial**: [Aspose Free Trials](https://releases.aspose.com/slides/python-net/)
 - **Temporary License**: [Obtain a Temporary License](https://purchase.aspose.com/temporary-license)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

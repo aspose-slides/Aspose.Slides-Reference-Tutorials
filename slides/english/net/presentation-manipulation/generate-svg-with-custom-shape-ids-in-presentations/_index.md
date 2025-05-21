@@ -8,7 +8,9 @@ url: /net/presentation-manipulation/generate-svg-with-custom-shape-ids-in-presen
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Generate SVG with Custom Shape IDs in Presentations
@@ -89,6 +91,7 @@ Now, go ahead and explore the endless possibilities of SVG generation with Aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

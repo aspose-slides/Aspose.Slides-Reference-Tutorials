@@ -8,7 +8,9 @@ url: /java/data-manipulation/chart-entities-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chart Entities in Java Slides
@@ -311,6 +313,7 @@ Yes, Aspose.Slides for Java is regularly updated to support the latest Java vers
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

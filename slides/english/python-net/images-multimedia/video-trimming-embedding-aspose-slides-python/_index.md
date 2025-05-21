@@ -13,7 +13,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Trim & Embed Videos in PowerPoint Using Aspose.Slides Python: A Complete Guide
 
@@ -162,7 +164,11 @@ You now have the knowledge to trim and embed videos into PowerPoint slides using
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 Dive in, explore the possibilities, and enhance your presentations with Aspose.Slides for Python!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

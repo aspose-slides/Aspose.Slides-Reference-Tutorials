@@ -8,7 +8,9 @@ url: /java/animation-and-layout/animating-categories-elements-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Animating Categories Elements in Java Slides
@@ -128,6 +130,7 @@ For comprehensive documentation and additional resources, visit the [Aspose.Slid
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

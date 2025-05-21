@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Replace OLE Object Frame Title with an Image in PowerPoint Using Aspose.Slides for Python
 
@@ -160,7 +162,11 @@ A: Free trials may have usage restrictions. Consider acquiring a temporary licen
 - **Free Trial**: [Start Free Trial](https://releases.aspose.com/slides/python-net/)
 - **Temporary License**: [Get Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

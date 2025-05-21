@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-formatting-geometry/create-formatted-rectangle-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Formatted Rectangle in PowerPoint
@@ -101,6 +103,7 @@ The documentation is available [here](https://reference.aspose.com/slides/java/)
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Implement and Retrieve Macro Hyperlinks in Aspose.Slides for Java
 
@@ -173,7 +175,11 @@ In this tutorial, we explored how to add and retrieve macro hyperlinks using Asp
 - **Purchase Options**: Explore purchase options here: [Aspose Purchase](https://purchase.aspose.com/buy)
 - **Free Trial and Temporary License**: Start a free trial or get a temporary license at: [Free Trials](https://releases.aspose.com/slides/java/) | [Temporary Licenses](https://purchase.aspose.com/temporary-license/)
 - **Support**: Join the community forum for support: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

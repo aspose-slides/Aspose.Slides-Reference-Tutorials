@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Table and Frame Manipulation in Presentations with Aspose.Slides for Java
 
@@ -217,6 +219,9 @@ Iterate over paragraphs and portions to draw frames around them.
 By following this guide, you can effectively enhance your presentations using Aspose.Slides for Java. Mastering table and frame manipulation allows you to create more engaging and visually appealing slides. For further exploration, consider diving into additional features of Aspose.Slides or integrating it with other Java applications.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

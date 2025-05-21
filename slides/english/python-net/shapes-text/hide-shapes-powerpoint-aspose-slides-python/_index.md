@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Hide Shapes in PowerPoint Using Aspose.Slides for Python
 
@@ -182,7 +184,11 @@ As a next step, explore other features provided by Aspose.Slides to automate and
 - **Free Trial:** [Try Out Aspose.Slides](https://releases.aspose.com/slides/python-net/)
 - **Temporary License:** [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum:** [Aspose Support Community](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

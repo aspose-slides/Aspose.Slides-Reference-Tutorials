@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Slides Java Tutorial: Setup, Slide Formatting & Document Management
 ## Getting Started with Aspose.Slides for Java
@@ -141,7 +143,9 @@ public class PresentationSetup {
 
         // Add a rectangle shape with text
         IAutoShape rect = sld.getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 500, 150);
-        ITextFrame tf = rect.addTextFrame("This is first line \r\nThis is second line \r\nThis is third line");
+        ITextFrame tf = rect.addTextFrame("This is first line \r
+This is second line \r
+This is third line");
 
         // Set autofit type for the text within the shape
         tf.getTextFrameFormat().setAutofitType(TextAutofitType.Shape);
@@ -176,7 +180,9 @@ public class ParagraphFormatting {
         Presentation pres = new Presentation();
         ISlide sld = pres.getSlides().get_Item(0);
         IAutoShape rect = sld.getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 500, 150);
-        ITextFrame tf = rect.addTextFrame("This is first line \r\nThis is second line \r\nThis is third line");
+        ITextFrame tf = rect.addTextFrame("This is first line \r
+This is second line \r
+This is third line");
 
         // Format paragraphs
         for (int i = 0; i < tf.getParagraphs().size(); i++) {
@@ -213,7 +219,11 @@ Integrating Aspose.Slides with other systems, like databases or cloud storage, c
 ## Performance Considerations
 When working with large presentations:
 - **Optimize Memory Usage:** Use memory-efficient data structures and techniques to handle large datasets.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

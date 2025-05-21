@@ -4,8 +4,11 @@ description: "Complete tutorials for adding, editing, and managing comments, ann
 weight: 12
 url: "/net/comments-reviewing/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Comments and Review Features Tutorials for Aspose.Slides .NET
 
@@ -38,7 +41,11 @@ Learn how to seamlessly render presentation comments as images using Aspose.Slid
 - [Download Aspose.Slides for Net](https://releases.aspose.com/slides/net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

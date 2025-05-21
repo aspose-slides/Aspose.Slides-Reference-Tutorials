@@ -8,7 +8,9 @@ url: /java/java-powerpoint-animation-effects/add-animation-effect-paragraph/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Animation Effect in Paragraph with Aspose.Slides for Java
@@ -91,6 +93,7 @@ You can visit the [support forum](https://forum.aspose.com/c/slides/11) for assi
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Customize Date Formats on Category Axes in Charts Using Aspose.Slides for .NET
 
@@ -259,6 +261,9 @@ A3: Yes, you can integrate it with systems like Excel or SQL databases to automa
 - "Chart customization tutorial"
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

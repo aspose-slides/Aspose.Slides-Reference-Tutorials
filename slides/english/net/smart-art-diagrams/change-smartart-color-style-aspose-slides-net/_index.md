@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Change SmartArt Shape Color Style Using Aspose.Slides .NET
 
@@ -173,7 +175,11 @@ A3: Use the `SmartArtColorType` enumeration for predefined themes, customizing t
 - **Support Forum:** [Aspose Support](https://forum.aspose.com/c/slides/11)
 
 Start enhancing your PowerPoint presentations with Aspose.Slides today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

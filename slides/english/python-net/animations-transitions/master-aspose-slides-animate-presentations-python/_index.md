@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Aspose.Slides: Animate PowerPoint Presentations in Python
 
@@ -176,7 +178,11 @@ You've now equipped yourself with the knowledge to harness Aspose.Slides for Pyt
 ### Next Steps
 - Experiment by adding animations and effects to your slides.
 - Explore further capabilities of Aspose.Slides to enhance your presentations.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

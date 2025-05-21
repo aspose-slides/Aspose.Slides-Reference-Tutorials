@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PPTX to XAML with Aspose.Slides for .NET: Step-by-Step Guide
 
@@ -213,7 +215,11 @@ A5: Yes, Aspose.Slides allows for extensive customization through its export opt
 - **Purchase:** [Buy Aspose.Slides](https://purchase.aspose.com/buy)
 - **Free Trial:** [Try Aspose.Slides Free](https://releases.aspose.com/slides/net/)
 - **Temporary License:** [Get a Temporary License](https://purchase.aspose.com/temporary-license)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

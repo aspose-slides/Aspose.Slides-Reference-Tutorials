@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Save a PowerPoint Presentation Using Aspose.Slides for Python
 
@@ -94,7 +96,11 @@ slide.shapes.add_auto_shape(slides.ShapeType.LINE, 50, 150, 300, 0)
 
     # Save the presentation in PPTX format
 presentation.save("YOUR_OUTPUT_DIRECTORY/create_new_presentation_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

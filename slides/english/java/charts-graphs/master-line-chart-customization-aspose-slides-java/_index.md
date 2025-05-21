@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Line Chart Customization in Java with Aspose.Slides
 
@@ -294,7 +296,11 @@ This code saves your customized presentation as a PPTX file.
 ## Conclusion
 
 By following this guide, you can effectively use Aspose.Slides for Java to create and customize line charts in your presentations. Experiment with different chart elements and styles to enhance the visual appeal of your data.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

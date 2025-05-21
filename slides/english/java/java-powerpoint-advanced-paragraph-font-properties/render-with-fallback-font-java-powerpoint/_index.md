@@ -8,7 +8,9 @@ url: /java/java-powerpoint-advanced-paragraph-font-properties/render-with-fallba
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Render with Fallback Font in Java PowerPoint
@@ -98,6 +100,7 @@ You can get support from the [Aspose.Slides support forum](https://forum.aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

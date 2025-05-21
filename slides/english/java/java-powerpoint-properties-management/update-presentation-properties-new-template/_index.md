@@ -8,7 +8,9 @@ url: /java/java-powerpoint-properties-management/update-presentation-properties-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Update Presentation Properties with New Template
@@ -85,6 +87,7 @@ You can explore the Aspose.Slides documentation, join the community forums, or r
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

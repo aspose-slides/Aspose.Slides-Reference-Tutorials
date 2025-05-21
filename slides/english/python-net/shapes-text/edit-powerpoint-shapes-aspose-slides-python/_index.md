@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Edit PowerPoint Shapes with Aspose.Slides for Python
 
@@ -207,7 +209,11 @@ Try applying what you've learned to a real project or create your own presentati
 - **Download**: Get the latest version from [Aspose Releases](https://releases.aspose.com/slides/python-net/).
 - **Purchase and Licensing**: Visit [Aspose Purchase](https://purchase.aspose.com/buy) for licensing options.
 - **Support Forum**: Join discussions or ask questions at [Aspose Forums](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

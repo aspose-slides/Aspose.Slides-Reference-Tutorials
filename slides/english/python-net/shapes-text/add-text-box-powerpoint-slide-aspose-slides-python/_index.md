@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add a Text Box to PowerPoint Slides Using Aspose.Slides in Python
 
@@ -181,7 +183,11 @@ Ready to try it out? Implement these steps in your next project to see how power
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Explore these resources to deepen your understanding and enhance your skills with Aspose.Slides for Python. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

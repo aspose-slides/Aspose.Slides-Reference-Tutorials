@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Step-by-Step Guide: Create Doughnut Chart with Aspose.Slides .NET
 
@@ -194,7 +196,11 @@ categoryIndex++;
 Finally, save your presentation to a specified directory:
 ```csharp
 pres.Save(dataDir + "chart.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

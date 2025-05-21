@@ -6,8 +6,11 @@ description: Learn how to load images and add them as picture frames to PowerPoi
 keywords: [Aspose.Slides, .NET, PowerPoint, C#, image, picture frame, presentation, slide]
 url: /net/shapes/add-stretch-offset-for-image-fill/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Images to PowerPoint Slides with Aspose.Slides
@@ -17,9 +20,11 @@ Aspose.Slides for .NET provides powerful capabilities for programmatically creat
 The code below handles everything from creating a new presentation to adding the image and saving the final PPTX file, all with just a few lines of C# code.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/shapes/add-stretch-offset-for-image-fill" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -40,7 +45,9 @@ The code below handles everything from creating a new presentation to adding the
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

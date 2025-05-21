@@ -8,7 +8,9 @@ url: /java/customization-and-formatting/set-legend-custom-options-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Legend Custom Options in Java Slides
@@ -141,6 +143,7 @@ Yes, you can customize various attributes of the legend, such as font style, bor
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

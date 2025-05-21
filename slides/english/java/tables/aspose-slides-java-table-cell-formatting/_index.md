@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Slides Java: Master Table Cell Formatting in PowerPoint
 
@@ -218,6 +220,9 @@ Ready to put these techniques into practice? Start by applying them to your next
    - Use `PortionFormat.setFontHeight()` to set the desired font height across all cells.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

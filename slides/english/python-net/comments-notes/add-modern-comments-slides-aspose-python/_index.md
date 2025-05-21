@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Modern Comments in PowerPoint Slides Using Aspose.Slides for Python
 
@@ -177,6 +179,9 @@ Explore additional features of Aspose.Slides, such as adding multimedia elements
 Now, go ahead and apply these techniques to enhance your presentations with modern commenting capabilities!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

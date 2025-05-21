@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create and Customize Charts in Java Presentations Using Aspose.Slides
 
@@ -214,7 +216,11 @@ public void savePresentation(Presentation presentation, String outputPath) {
 - **Memory Management**: Dispose of `Presentation` objects promptly to free up resources.
 - **Optimize Chart Loading**: Only load essential chart elements into memory if possible.
 - **Batch Processing**: When processing multiple presentations, consider handling them in batches to manage resource consumption effectively.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

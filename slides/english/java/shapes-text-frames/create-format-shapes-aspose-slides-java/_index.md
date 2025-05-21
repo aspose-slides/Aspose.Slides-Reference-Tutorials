@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Format Shapes in Java Using Aspose.Slides
 
@@ -216,7 +218,11 @@ By following this tutorial, you've learned how to set up Aspose.Slides for Java,
 - "Aspose.Slides for Java"
 - "Create directories in Java"
 - "Format shapes with Aspose.Slides"
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

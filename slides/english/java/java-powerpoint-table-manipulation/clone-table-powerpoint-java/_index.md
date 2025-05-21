@@ -8,7 +8,9 @@ url: /java/java-powerpoint-table-manipulation/clone-table-powerpoint-java/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Clone Table in PowerPoint with Java
@@ -129,6 +131,7 @@ You can get support from the Aspose.Slides [support forum](https://forum.aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/slide-transition-effects/set-transition-morph-type/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # How to Set Transition Morph Type on Slide Using Aspose.Slides
@@ -113,6 +115,7 @@ Aspose.Slides for .NET offers a variety of transition effects, including fades, 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

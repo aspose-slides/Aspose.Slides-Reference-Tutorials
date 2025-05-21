@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Comments and Authors to PowerPoint Slides Using Aspose.Slides for .NET
 
@@ -89,7 +91,11 @@ Create an author object using the `CommentAuthors.AddAuthor` method. This allows
 ```csharp
 // Add an author for the comments
 ICommentAuthor author1 = pres.CommentAuthors.AddAuthor("Author_1\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Adjust Text Shadow Transparency in PowerPoint Using Aspose.Slides for Java
 
@@ -159,7 +161,11 @@ A5: Absolutely, as long as you have access to Aspose.Slides’ library within yo
 - **Free Trial**: [Aspose.Slides Free Download](https://releases.aspose.com/slides/java/)
 - **Temporary License**: [Acquire a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Guide to Adding Drawing Guides in PowerPoint Using Aspose.Slides for .NET
 
@@ -161,7 +163,11 @@ A: Yes, it supports various formats like PDF and images for conversion tasks.
 - **Support**: [Aspose Forums](https://forum.aspose.com/c/slides/11)
 
 By following this guide, you’re well on your way to mastering the art of adding drawing guides in PowerPoint using Aspose.Slides for .NET. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

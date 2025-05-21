@@ -8,7 +8,9 @@ url: /java/java-powerpoint-animation-shape-manipulation/apply-3d-rotation-effect
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Apply 3D Rotation Effect on Shapes in PowerPoint
@@ -94,6 +96,7 @@ Yes, but you need to purchase a license. You can buy one from the [purchase page
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

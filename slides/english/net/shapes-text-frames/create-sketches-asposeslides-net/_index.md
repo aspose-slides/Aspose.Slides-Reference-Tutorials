@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Sketched Shapes in .NET with Aspose.Slides: A Step-by-Step Guide
 
@@ -198,7 +200,11 @@ Ready to start creating unique sketched shapes? Try implementing this solution i
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 By leveraging these resources, you can further enhance your skills and explore the full potential of Aspose.Slides for .NET. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

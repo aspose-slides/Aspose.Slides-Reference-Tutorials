@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Columns to Text Boxes in PowerPoint Using Aspose.Slides for Python
 
@@ -169,7 +171,11 @@ For further exploration, consider experimenting with other features offered by A
 - Support: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 Try implementing this solution to see how it can transform your PowerPoint presentations!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

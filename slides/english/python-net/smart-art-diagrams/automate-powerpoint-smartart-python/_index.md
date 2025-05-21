@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint SmartArt Creation and Modification with Python Using Aspose.Slides
 ## Introduction
@@ -138,7 +140,11 @@ By following this guide, you've learned how to automate the creation and modific
 - **Free Trial:** [Aspose Free Trials](https://releases.aspose.com/slides/python-net/)
 - **Temporary License:** [Get a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support:** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

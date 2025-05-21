@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add and Display Comments on PowerPoint Slides Using Aspose.Slides for Python: A Step-by-Step Guide
 
@@ -82,7 +84,11 @@ Define who is adding the comment and where it will appear on the slide:
 ```python
 # Add a comment author
 author = presentation.comment_authors.add_author("Jawad\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

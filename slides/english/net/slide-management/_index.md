@@ -4,8 +4,11 @@ description: "Complete tutorials for adding, modifying, copying, moving, and man
 weight: 3
 url: "/net/slide-management/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Slide Management Tutorials for Aspose.Slides .NET
 
@@ -71,7 +74,11 @@ Learn how to remove slides from PowerPoint presentations programmatically using 
 - [Download Aspose.Slides for Net](https://releases.aspose.com/slides/net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

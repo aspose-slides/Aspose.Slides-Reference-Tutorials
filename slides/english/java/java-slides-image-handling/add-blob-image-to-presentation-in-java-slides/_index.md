@@ -8,7 +8,9 @@ url: /java/image-handling/add-blob-image-to-presentation-in-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Blob Image to Presentation in Java Slides
@@ -143,6 +145,7 @@ Absolutely! Aspose.Slides offers advanced capabilities for PowerPoint automation
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

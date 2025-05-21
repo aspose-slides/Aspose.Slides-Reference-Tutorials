@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Rotate Shapes in PowerPoint Using Aspose.Slides for .NET: A Complete Guide
 
@@ -164,7 +166,11 @@ Next steps include diving deeper into Aspose.Slides' extensive features or explo
 - [Free Trial Download](https://releases.aspose.com/slides/net/)
 - [Temporary License Acquisition](https://purchase.aspose.com/temporary-license/)
 - [Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create Doughnut Charts in Java Using Aspose.Slides for Presentations
 
@@ -162,7 +164,11 @@ Ready to create your own doughnut charts? Try implementing this solution in your
 - **Free Trial**: Test drive Aspose.Slides with a free trial available on their download page.
 - **Temporary License**: Obtain a temporary license for extended testing without limitations.
 - **Support**: Have questions? Visit the [Aspose Forum](https://forum.aspose.com/c/slides/11) for assistance.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Customize Chart Legends in PowerPoint Using Aspose.Slides for Python
 
@@ -143,7 +145,11 @@ Next steps include exploring other Aspose.Slides features or diving deeper into 
 - **Support Forum**: [Aspose Support Community](https://forum.aspose.com/c/slides/11)
 
 Embark on your journey to create more dynamic and visually appealing presentations with Aspose.Slides for Python!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

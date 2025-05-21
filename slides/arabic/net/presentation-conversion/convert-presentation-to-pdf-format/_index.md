@@ -1,14 +1,16 @@
 ---
-title: تحويل العرض التقديمي إلى تنسيق PDF
-linktitle: تحويل العرض التقديمي إلى تنسيق PDF
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية تحويل العروض التقديمية إلى PDF باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة مع كود المصدر. تحويل فعال وفعال.
-weight: 24
-url: /ar/net/presentation-conversion/convert-presentation-to-pdf-format/
+"description": "تعرّف على كيفية تحويل العروض التقديمية إلى PDF باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة مع الكود المصدري. تحويل فعال وفعّال."
+"linktitle": "تحويل العرض التقديمي إلى تنسيق PDF"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint لـ Aspose.Slides .NET"
+"title": "تحويل العرض التقديمي إلى تنسيق PDF"
+"url": "/ar/net/presentation-conversion/convert-presentation-to-pdf-format/"
+"weight": 24
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # تحويل العرض التقديمي إلى تنسيق PDF
@@ -16,7 +18,7 @@ url: /ar/net/presentation-conversion/convert-presentation-to-pdf-format/
 
 ## مقدمة إلى Aspose.Slides لـ .NET
 
-Aspose.Slides for .NET هي مكتبة قوية تتيح للمطورين العمل مع عروض PowerPoint التقديمية في تطبيقات .NET الخاصة بهم. فهو يوفر مجموعة واسعة من الميزات، بما في ذلك القدرة على تحويل العروض التقديمية إلى تنسيقات مختلفة مثل PDF.
+Aspose.Slides for .NET مكتبة فعّالة تُمكّن المطورين من العمل مع عروض PowerPoint التقديمية في تطبيقات .NET الخاصة بهم. تُوفّر مجموعة واسعة من الميزات، بما في ذلك إمكانية تحويل العروض التقديمية إلى صيغ مُختلفة مثل PDF.
 
 ## المتطلبات الأساسية
 
@@ -24,11 +26,11 @@ Aspose.Slides for .NET هي مكتبة قوية تتيح للمطورين الع
 
 - تم تثبيت Visual Studio على نظامك.
 - المعرفة الأساسية ببرمجة C#.
-- فهم عروض PowerPoint التقديمية.
+- فهم العروض التقديمية PowerPoint.
 
 ## تثبيت حزمة Aspose.Slides NuGet
 
-للبدء، قم بإنشاء مشروع .NET جديد في Visual Studio وقم بتثبيت حزمة Aspose.Slides NuGet. افتح وحدة تحكم NuGet Package Manager وقم بتشغيل الأمر التالي:
+للبدء، أنشئ مشروع .NET جديدًا في Visual Studio وثبّت حزمة Aspose.Slides NuGet. افتح وحدة تحكم إدارة الحزم NuGet وشغّل الأمر التالي:
 
 ```bash
 Install-Package Aspose.Slides
@@ -36,18 +38,18 @@ Install-Package Aspose.Slides
 
 ## تحميل عرض تقديمي
 
-في كود C# الخاص بك، ستحتاج إلى استيراد مساحات الأسماء الضرورية وتحميل العرض التقديمي الذي تريد تحويله. وإليك كيف يمكنك القيام بذلك:
+في شيفرة C# الخاصة بك، ستحتاج إلى استيراد مساحات الأسماء اللازمة وتحميل العرض التقديمي الذي تريد تحويله. إليك كيفية القيام بذلك:
 
 ```csharp
 using Aspose.Slides;
 
-// قم بتحميل العرض التقديمي
+// تحميل العرض التقديمي
 using Presentation presentation = new Presentation("your-presentation.pptx");
 ```
 
 ## تحويل العرض التقديمي إلى PDF
 
-بمجرد تحميل العرض التقديمي، فإن الخطوة التالية هي تحويله إلى تنسيق PDF. يجعل Aspose.Slides هذه العملية واضحة ومباشرة:
+بعد تحميل العرض التقديمي، الخطوة التالية هي تحويله إلى صيغة PDF. يُسهّل Aspose.Slides هذه العملية:
 
 ```csharp
 // تحويل العرض التقديمي إلى PDF
@@ -59,14 +61,14 @@ presentation.Save(outputPdf, SaveFormat.Pdf);
 
 ### ضبط خيارات PDF
 
-يمكنك تخصيص عملية تحويل PDF عن طريق تحديد خيارات متنوعة. على سبيل المثال، يمكنك تحديد نطاق الشريحة وتعيين الجودة والمزيد:
+يمكنك تخصيص عملية تحويل ملفات PDF من خلال ضبط خيارات متنوعة. على سبيل المثال، يمكنك تحديد نطاق الشريحة، وضبط الجودة، والمزيد:
 
 ```csharp
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.Compliance = PdfCompliance.PdfA1b;
 pdfOptions.JpegQuality = 90;
 pdfOptions.TextCompression = PdfTextCompression.Flate;
-// اضبط المزيد من الخيارات حسب الحاجة
+// تعيين المزيد من الخيارات حسب الحاجة
 
 // تحويل العرض التقديمي إلى PDF مع الخيارات
 presentation.Save(outputPdf, SaveFormat.Pdf, pdfOptions);
@@ -80,13 +82,13 @@ presentation.Save(outputPdf, SaveFormat.Pdf, pdfOptions);
 PdfOptions pdfOptions = new PdfOptions();
 pdfOptions.ShowHiddenSlides = true;
 
-// تحويل العرض التقديمي إلى PDF مع إعدادات الانتقال
+// تحويل العرض التقديمي إلى PDF باستخدام إعدادات الانتقال
 presentation.Save(outputPdf, SaveFormat.Pdf, pdfOptions);
 ```
 
-## حفظ وثيقة PDF
+## حفظ مستند PDF
 
-بعد تكوين الخيارات، يمكنك حفظ مستند PDF وإكمال التحويل:
+بعد تكوين الخيارات، يمكنك حفظ مستند PDF وإكمال عملية التحويل:
 
 ```csharp
 presentation.Save(outputPdf, SaveFormat.Pdf, pdfOptions);
@@ -94,28 +96,30 @@ presentation.Save(outputPdf, SaveFormat.Pdf, pdfOptions);
 
 ## خاتمة
 
-أصبح تحويل العروض التقديمية إلى تنسيق PDF أمرًا سهلاً باستخدام Aspose.Slides for .NET. لقد تعلمت كيفية تحميل عرض تقديمي، وتخصيص خيارات PDF، والتعامل مع انتقالات الشرائح، وحفظ مستند PDF. تعمل هذه المكتبة على تبسيط العملية وتوفر للمطورين الأدوات التي يحتاجونها للعمل بكفاءة مع عروض PowerPoint التقديمية في تطبيقاتهم.
+أصبح تحويل العروض التقديمية إلى صيغة PDF سهلاً مع Aspose.Slides لـ .NET. لقد تعلمت كيفية تحميل عرض تقديمي، وتخصيص خيارات PDF، وإدارة انتقالات الشرائح، وحفظ مستند PDF. تُبسّط هذه المكتبة العملية، وتزود المطورين بالأدوات اللازمة للعمل بكفاءة مع عروض PowerPoint التقديمية في تطبيقاتهم.
 
 ## الأسئلة الشائعة
 
-### ما هي تكلفة Aspose.Slides لـ .NET؟
+### كم تكلفة Aspose.Slides لـ .NET؟
 
-للحصول على معلومات مفصلة عن الأسعار، يرجى زيارة[Aspose.Slides التسعير](https://purchase.aspose.com/admin/pricing/slides/family) صفحة.
+للحصول على معلومات تفصيلية حول الأسعار، يرجى زيارة [أسعار Aspose.Slides](https://purchase.aspose.com/admin/pricing/slides/family) صفحة.
 
 ### هل يمكنني استخدام Aspose.Slides لـ .NET في تطبيق الويب الخاص بي؟
 
 نعم، يمكن استخدام Aspose.Slides for .NET في أنواع مختلفة من التطبيقات، بما في ذلك تطبيقات الويب وتطبيقات سطح المكتب والمزيد.
 
-### هل يدعم Aspose.Slides رسوم PowerPoint المتحركة؟
+### هل يدعم Aspose.Slides الرسوم المتحركة في PowerPoint؟
 
 نعم، يوفر Aspose.Slides الدعم للعديد من الرسوم المتحركة والانتقالات في PowerPoint أثناء التحويل.
 
 ### هل هناك نسخة تجريبية متاحة؟
 
- نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides لـ .NET من[هنا](https://products.aspose.com/slides/net).
+نعم، يمكنك تنزيل نسخة تجريبية مجانية من Aspose.Slides لـ .NET من [هنا](https://products.aspose.com/slides/net).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

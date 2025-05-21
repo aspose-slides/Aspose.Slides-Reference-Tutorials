@@ -8,7 +8,9 @@ url: /java/data-manipulation/setting-date-format-category-axis-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Setting Date Format For Category Axis in Java Slides
@@ -149,6 +151,7 @@ To add more data points to the chart, use the `getDataPoints().addDataPointForLi
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

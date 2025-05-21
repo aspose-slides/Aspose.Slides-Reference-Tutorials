@@ -4,8 +4,11 @@ description: "Step-by-step tutorials for working with VBA macros, automating pre
 weight: 20
 url: "/java/vba-macros-automation/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint VBA Macros and Automation Tutorials for Aspose.Slides Java
 
@@ -47,7 +50,11 @@ Learn how to automate PowerPoint presentations with Aspose.Slides Java, from loa
 - [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

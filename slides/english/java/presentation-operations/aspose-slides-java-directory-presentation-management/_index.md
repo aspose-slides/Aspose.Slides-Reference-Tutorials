@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Directory and Presentation Management with Aspose.Slides Java
 
@@ -180,6 +182,9 @@ You’ve now learned how to efficiently manage directories and create dynamic pr
 - **Free Trial & Temporary License:** [Start a Free Trial](https://releases.aspose.com/slides/java/) | [Temporary License](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

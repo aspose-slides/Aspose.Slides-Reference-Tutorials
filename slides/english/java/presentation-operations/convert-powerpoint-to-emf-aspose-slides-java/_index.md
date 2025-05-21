@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Convert PowerPoint Slides to EMF Format Using Aspose.Slides Java
 
@@ -165,7 +167,11 @@ Explore more features of Aspose.Slides, such as converting entire presentations 
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 Begin your journey with Aspose.Slides for Java and elevate your presentation handling capabilities today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

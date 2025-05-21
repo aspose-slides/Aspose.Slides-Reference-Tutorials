@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint Tasks with Aspose.Slides for Java: A Complete Guide to Batch Processing PPTX Files
 
@@ -189,7 +191,11 @@ For further information and support:
 - **Support Forum:** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Now that you've mastered the basics, it's time to start automating your presentations with Aspose.Slides Java!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

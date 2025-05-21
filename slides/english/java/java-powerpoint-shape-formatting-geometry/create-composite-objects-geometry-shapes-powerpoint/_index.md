@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-formatting-geometry/create-composite-objects-ge
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Composite Objects in Geometry Shapes
@@ -105,6 +107,7 @@ Check out the [documentation](https://reference.aspose.com/slides/java/) and [su
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

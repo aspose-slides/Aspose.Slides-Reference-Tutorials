@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Retrieve and Optimize Shape Bevel Properties Using Aspose.Slides for .NET
 
@@ -153,7 +155,11 @@ Explore additional features of Aspose.Slides to further customize your presentat
 - **Support:** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 We hope this tutorial empowers you to effectively use Aspose.Slides for .NET in your projects. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Clone PowerPoint Shapes Using Aspose.Slides in Python: A Developer's Guide
 
@@ -166,7 +168,11 @@ Consider exploring other features of Aspose.Slides like slide transitions or ani
 - **Purchase**: [Buy a license today](https://purchase.aspose.com/buy)
 - **Free Trial & Temporary License**: Available at Aspose's official site
 - **Support Forum**: Visit [Aspose Support](https://forum.aspose.com/c/slides/11) for assistance
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

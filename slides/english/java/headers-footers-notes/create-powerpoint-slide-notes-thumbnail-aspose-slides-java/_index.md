@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create PowerPoint Slide Notes Thumbnails Using Aspose.Slides for Java
 
@@ -161,7 +163,11 @@ A: Check compatibility in the Aspose.Slides documentation for specific version r
 - **Support**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 By following this guide, you're well on your way to enhancing your presentations with Aspose.Slides for Java. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

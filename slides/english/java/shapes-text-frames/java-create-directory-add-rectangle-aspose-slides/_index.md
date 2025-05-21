@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Implement Java: Create a Directory & Add a Rectangle Shape Using Aspose.Slides
 
@@ -198,7 +200,11 @@ Ready to try it out? Dive into the documentation at [Aspose Documentation](https
 - **Purchase License:** [Buy Aspose.Slides](https://purchase.aspose.com/buy)
 - **Free Trial:** [Get Started with Free Trial](https://releases.aspose.com/slides/java/)
 - **Temporary License:** [Apply for Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

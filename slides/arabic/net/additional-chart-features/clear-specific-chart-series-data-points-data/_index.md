@@ -1,43 +1,45 @@
 ---
-title: مسح نقاط بيانات سلسلة المخططات المحددة باستخدام Aspose.Slides .NET
-linktitle: مسح نقاط بيانات سلسلة المخططات المحددة
-second_title: Aspose.Slides .NET واجهة برمجة تطبيقات معالجة PowerPoint
-description: تعرف على كيفية مسح نقاط بيانات محددة لسلسلة مخططات في عروض PowerPoint التقديمية باستخدام Aspose.Slides for .NET. دليل خطوة بخطوة.
-weight: 13
-url: /ar/net/additional-chart-features/clear-specific-chart-series-data-points-data/
+"description": "تعرّف على كيفية مسح نقاط بيانات سلسلة مخططات محددة في عروض PowerPoint التقديمية باستخدام Aspose.Slides لـ .NET. دليل خطوة بخطوة."
+"linktitle": "مسح نقاط بيانات سلسلة الرسم البياني المحددة"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint لـ Aspose.Slides .NET"
+"title": "مسح نقاط بيانات سلسلة مخططات محددة باستخدام Aspose.Slides .NET"
+"url": "/ar/net/additional-chart-features/clear-specific-chart-series-data-points-data/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# مسح نقاط بيانات سلسلة المخططات المحددة باستخدام Aspose.Slides .NET
+# مسح نقاط بيانات سلسلة مخططات محددة باستخدام Aspose.Slides .NET
 
 
-Aspose.Slides for .NET هي مكتبة قوية تسمح لك بالعمل مع عروض PowerPoint التقديمية برمجياً. في هذا البرنامج التعليمي، سنرشدك خلال عملية مسح نقاط بيانات سلسلة مخططات محددة في عرض تقديمي لـ PowerPoint باستخدام Aspose.Slides for .NET. بحلول نهاية هذا البرنامج التعليمي، ستكون قادرًا على التعامل مع نقاط بيانات المخطط بسهولة.
+Aspose.Slides for .NET هي مكتبة فعّالة تُمكّنك من العمل مع عروض PowerPoint التقديمية برمجيًا. في هذا البرنامج التعليمي، سنرشدك خلال عملية مسح نقاط بيانات سلسلة مخططات مُحددة في عرض تقديمي باستخدام Aspose.Slides for .NET. بنهاية هذا البرنامج التعليمي، ستتمكن من التعامل مع نقاط بيانات المخططات بسهولة.
 
 ## المتطلبات الأساسية
 
 قبل أن نبدأ، ستحتاج إلى التأكد من توفر المتطلبات الأساسية التالية:
 
-1.  Aspose.Slides لمكتبة .NET: يجب أن يكون Aspose.Slides لمكتبة .NET مثبتًا لديك. يمكنك تنزيله[هنا](https://releases.aspose.com/slides/net/).
+1. مكتبة Aspose.Slides لـ .NET: يجب أن تكون مكتبة Aspose.Slides لـ .NET مثبتة لديك. يمكنك تنزيلها. [هنا](https://releases.aspose.com/slides/net/).
 
 2. بيئة التطوير: يجب أن يكون لديك بيئة تطوير تم إعدادها باستخدام Visual Studio أو أي أداة تطوير .NET أخرى.
 
-الآن بعد أن أصبحت المتطلبات الأساسية جاهزة، دعنا نتعمق في الدليل خطوة بخطوة لمسح نقاط بيانات سلسلة مخططات محددة باستخدام Aspose.Slides for .NET.
+الآن بعد أن أصبحت المتطلبات الأساسية جاهزة، دعنا ننتقل إلى الدليل خطوة بخطوة لمسح نقاط بيانات سلسلة الرسوم البيانية المحددة باستخدام Aspose.Slides لـ .NET.
 
 ## استيراد مساحات الأسماء
 
-في كود C# الخاص بك، تأكد من استيراد مساحات الأسماء الضرورية:
+في كود C# الخاص بك، تأكد من استيراد المساحات الأساسية اللازمة:
 
 ```csharp
 using Aspose.Slides;
 using Aspose.Slides.Charts;
 ```
 
-## الخطوة 1: قم بتحميل العرض التقديمي
+## الخطوة 1: تحميل العرض التقديمي
 
- أولاً، تحتاج إلى تحميل عرض PowerPoint التقديمي الذي يحتوي على المخطط الذي تريد العمل معه. يستبدل`"Your Document Directory"` بالمسار الفعلي لملف العرض التقديمي الخاص بك.
+أولاً، عليك تحميل عرض PowerPoint الذي يحتوي على المخطط الذي تريد العمل عليه. استبدل `"Your Document Directory"` مع المسار الفعلي لملف العرض التقديمي الخاص بك.
 
 ```csharp
 string dataDir = "Your Document Directory";
@@ -50,7 +52,7 @@ using (Presentation pres = new Presentation(dataDir + "TestChart.pptx"))
 
 ## الخطوة 2: الوصول إلى الشريحة والمخطط
 
-بمجرد تحميل العرض التقديمي، ستحتاج إلى الوصول إلى الشريحة والمخطط الموجود على تلك الشريحة. في هذا المثال، نفترض أن المخطط موجود في الشريحة الأولى (الفهرس 0).
+بعد تحميل العرض التقديمي، ستحتاج إلى الوصول إلى الشريحة والمخطط الموجود عليها. في هذا المثال، نفترض أن المخطط موجود على الشريحة الأولى (الفهرس 0).
 
 ```csharp
 ISlide slide = pres.Slides[0];
@@ -59,7 +61,7 @@ IChart chart = (IChart)slide.Shapes[0];
 
 ## الخطوة 3: مسح نقاط البيانات
 
-الآن، دعونا نراجع نقاط البيانات في سلسلة المخططات ونمسح قيمها. سيؤدي هذا إلى إزالة نقاط البيانات بشكل فعال من السلسلة.
+الآن، لنُكرر نقاط البيانات في سلسلة المخطط ونمسح قيمها. سيؤدي هذا إلى إزالة نقاط البيانات من السلسلة بفعالية.
 
 ```csharp
 foreach (IChartDataPoint dataPoint in chart.ChartData.Series[0].DataPoints)
@@ -71,9 +73,9 @@ foreach (IChartDataPoint dataPoint in chart.ChartData.Series[0].DataPoints)
 chart.ChartData.Series[0].DataPoints.Clear();
 ```
 
-## الخطوة 4: احفظ العرض التقديمي
+## الخطوة 4: حفظ العرض التقديمي
 
-بعد مسح نقاط بيانات سلسلة المخططات المحددة، يجب عليك حفظ العرض التقديمي المعدل في ملف جديد أو الكتابة فوق الملف الأصلي، وفقًا لمتطلباتك.
+بعد مسح نقاط بيانات سلسلة الرسم البياني المحددة، يجب عليك حفظ العرض التقديمي المعدل في ملف جديد أو استبدال العرض التقديمي الأصلي، وذلك وفقًا لمتطلباتك.
 
 ```csharp
 pres.Save(dataDir + "ClearSpecificChartSeriesDataPointsData.pptx", SaveFormat.Pptx);
@@ -81,29 +83,31 @@ pres.Save(dataDir + "ClearSpecificChartSeriesDataPointsData.pptx", SaveFormat.Pp
 
 ## خاتمة
 
-لقد تعلمت بنجاح كيفية مسح نقاط بيانات سلسلة مخططات محددة باستخدام Aspose.Slides لـ .NET. يمكن أن تكون هذه ميزة مفيدة عندما تحتاج إلى معالجة بيانات المخطط في عروض PowerPoint التقديمية الخاصة بك برمجياً.
+لقد تعلمتَ بنجاح كيفية مسح نقاط بيانات سلسلة مخططات محددة باستخدام Aspose.Slides لـ .NET. قد تكون هذه ميزة مفيدة عند الحاجة إلى معالجة بيانات المخططات في عروض PowerPoint التقديمية برمجيًا.
 
- إذا كان لديك أي أسئلة أو واجهت أي مشاكل، فلا تتردد في زيارة[Aspose.Slides لوثائق .NET](https://reference.aspose.com/slides/net/) أو طلب المساعدة في[منتدى Aspose.Slides](https://forum.aspose.com/).
+إذا كان لديك أي أسئلة أو واجهت أي مشاكل، فلا تتردد في زيارة [توثيق Aspose.Slides لـ .NET](https://reference.aspose.com/slides/net/) أو طلب المساعدة في [منتدى Aspose.Slides](https://forum.aspose.com/).
 
-## أسئلة مكررة
+## الأسئلة الشائعة
 
-### هل يمكنني استخدام Aspose.Slides لـ .NET مع لغات البرمجة الأخرى؟
-تم تصميم Aspose.Slides بشكل أساسي للغات .NET. ومع ذلك، هناك إصدارات متاحة لجافا والأنظمة الأساسية الأخرى أيضًا.
+### هل يمكنني استخدام Aspose.Slides لـ .NET مع لغات برمجة أخرى؟
+صُمم Aspose.Slides أساسًا للغات .NET. مع ذلك، تتوفر إصدارات منه للغة Java ومنصات أخرى أيضًا.
 
 ### هل Aspose.Slides for .NET مكتبة مدفوعة؟
- نعم، Aspose.Slides هي مكتبة تجارية، ولكن يمكنك استكشاف[تجربة مجانية](https://releases.aspose.com/) قبل الشراء.
+نعم، Aspose.Slides هي مكتبة تجارية، ولكن يمكنك استكشافها [نسخة تجريبية مجانية](https://releases.aspose.com/) قبل الشراء.
 
 ### كيف يمكنني إضافة نقاط بيانات جديدة إلى مخطط باستخدام Aspose.Slides لـ .NET؟
- يمكنك إضافة نقاط بيانات جديدة عن طريق إنشاء مثيلات`IChartDataPoint` وتعبئتها بالقيم المطلوبة.
+يمكنك إضافة نقاط بيانات جديدة عن طريق إنشاء مثيلات من `IChartDataPoint` وملئها بالقيم المطلوبة.
 
-### هل يمكنني تخصيص مظهر المخطط في Aspose.Slides؟
-نعم، يمكنك تخصيص مظهر المخططات عن طريق تعديل خصائصها، مثل الألوان والخطوط والأنماط.
+### هل يمكنني تخصيص مظهر الرسم البياني في Aspose.Slides؟
+نعم، يمكنك تخصيص مظهر المخططات البيانية عن طريق تعديل خصائصها، مثل الألوان والخطوط والأنماط.
 
-### هل يوجد مجتمع أو مجتمع مطور لـ Aspose.Slides for .NET؟
-نعم، يمكنك الانضمام إلى مجتمع Aspose في منتداهم لإجراء المناقشات والأسئلة ومشاركة تجاربك.
+### هل يوجد مجتمع أو مجتمع مطورين لـ Aspose.Slides لـ .NET؟
+نعم، يمكنك الانضمام إلى مجتمع Aspose على المنتدى الخاص بهم للمناقشات والأسئلة ومشاركة تجاربك.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

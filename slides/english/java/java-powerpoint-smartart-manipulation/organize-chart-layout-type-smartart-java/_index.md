@@ -8,7 +8,9 @@ url: /java/java-powerpoint-smartart-manipulation/organize-chart-layout-type-smar
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Organize Chart Layout Type in SmartArt using Java
@@ -65,6 +67,7 @@ For any assistance or queries regarding Aspose.Slides, you can visit the support
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

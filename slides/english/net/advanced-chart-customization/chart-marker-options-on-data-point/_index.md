@@ -8,7 +8,9 @@ url: /net/advanced-chart-customization/chart-marker-options-on-data-point/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Using Chart Marker Options on Data Point in Aspose.Slides .NET
@@ -154,9 +156,11 @@ You can explore additional tutorials and resources in the [Aspose.Slides documen
 
 ### Is there a trial version of Aspose.Slides for .NET available?
 Yes, you can try Aspose.Slides for .NET by downloading a free trial version from [here](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

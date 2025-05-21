@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering SmartArt Nodes in PowerPoint with Aspose.Slides for Python
 
@@ -154,7 +156,11 @@ You now have the skills to manipulate SmartArt in PowerPoint using Aspose.Slides
 - **Purchase License**: [Buy Now](https://purchase.aspose.com/buy)
 - **Free Trial & Temporary License**: [Get Started](https://releases.aspose.com/slides/python-net/)
 - **Support Forum**: [Ask Questions](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

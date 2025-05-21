@@ -4,8 +4,11 @@ description: "Step-by-step tutorials for implementing AI-assisted content genera
 weight: 24
 url: "/python-net/generation-ai-integration/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint AI-Powered Generation Tutorials for Aspose.Slides Python
 
@@ -23,7 +26,11 @@ Learn how to automate PowerPoint presentations using Aspose.Slides for Python, f
 - [Download Aspose.Slides for Python-net](https://releases.aspose.com/slides/python-net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

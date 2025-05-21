@@ -8,7 +8,9 @@ url: /java/presentation-conversion/convert-presentation-html-preserve-fonts-java
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Converting Presentation to HTML with Preserving Original Fonts in Java Slides
@@ -121,6 +123,7 @@ You can explore the `HtmlOptions` class to customize various aspects of the HTML
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

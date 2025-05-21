@@ -6,8 +6,11 @@ description: The Aspose.Slides for .NET API allows developers to create and mani
 keywords: [Aspose.Slides, PowerPoint, .NET, Chart, ClusteredColumn, ChartDataWorkbook, ChartCategory, GroupingLevels, DataPoints, Presentation]
 url: /net/charts/multi-category-chart/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Clustered Column Charts with Aspose.Slides for .NET
@@ -15,9 +18,11 @@ url: /net/charts/multi-category-chart/
 Aspose.Slides for .NET provides powerful capabilities for creating and manipulating PowerPoint presentations programmatically. This example demonstrates how to create a clustered column chart with custom categories and data series.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/charts/multi-category-chart" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 ## Installation
@@ -39,7 +44,9 @@ Or add the following reference to your project file:
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

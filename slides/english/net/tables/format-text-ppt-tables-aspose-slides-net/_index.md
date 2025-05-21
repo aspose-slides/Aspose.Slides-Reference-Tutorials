@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Text Formatting in PowerPoint Tables with Aspose.Slides for .NET
 
@@ -159,7 +161,11 @@ To further explore Aspose.Slides capabilities, consider delving into more advanc
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 By following this guide, you'll be well-equipped to format text in table columns using Aspose.Slides for .NET. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

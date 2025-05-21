@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Enable Media Controls in Slideshow Mode Using Aspose.Slides for Java: A Complete Guide
 
@@ -164,7 +166,11 @@ As next steps, consider exploring additional features of Aspose.Slides to furthe
 - **Support:** [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 We hope this guide has been helpful. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

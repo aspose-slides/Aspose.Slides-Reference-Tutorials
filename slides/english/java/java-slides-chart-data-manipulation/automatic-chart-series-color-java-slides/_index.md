@@ -8,7 +8,9 @@ url: /java/chart-data-manipulation/automatic-chart-series-color-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Automatic Chart Series Color in Java Slides
@@ -200,6 +202,7 @@ For more information and detailed documentation on Aspose.Slides for Java, you c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

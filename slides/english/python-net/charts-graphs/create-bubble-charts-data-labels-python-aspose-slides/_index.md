@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create Bubble Charts with Data Labels in Python Using Aspose.Slides
 ## Introduction
@@ -136,7 +138,11 @@ A: Apply via the [purchase page](https://purchase.aspose.com/temporary-license/)
 A: It supports various charts, including bubble, bar, line, and more.
 **Q5: How do I update existing data labels in a chart?**
 A: Modify the `value_from_cell` property to point to new cell values as demonstrated above.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

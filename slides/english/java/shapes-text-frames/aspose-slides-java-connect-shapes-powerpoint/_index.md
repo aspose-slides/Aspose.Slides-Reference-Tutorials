@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides Java: Connecting Shapes in PowerPoint
 
@@ -159,7 +161,11 @@ A5: Ensure that the file path is correct and check for any permission issues or 
 - **Free Trial**: Start with a free trial at [Aspose Downloads](https://releases.aspose.com/slides/java/).
 - **Temporary License**: Apply for it via [this link](https://purchase.aspose.com/temporary-license/).
 - **Support**: Get help from the community on [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

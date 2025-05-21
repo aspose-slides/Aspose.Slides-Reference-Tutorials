@@ -8,7 +8,9 @@ url: /java/image-handling/add-image-from-svg-object-from-external-resource-in-ja
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Image from SVG Object from External Resource in Java Slides
@@ -128,6 +130,7 @@ Yes, you can apply animations to SVG images in your slides using Aspose.Slides t
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

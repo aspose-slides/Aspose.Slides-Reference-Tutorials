@@ -8,7 +8,9 @@ url: /java/chart-data-manipulation/funnel-chart-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Funnel Chart in Java Slides
@@ -147,6 +149,7 @@ Yes, Aspose.Slides for Java allows you to export the presentation with the Funne
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

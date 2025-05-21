@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add a Digital Signature to PowerPoint Presentations Using Java and Aspose.Slides
 
@@ -172,7 +174,11 @@ You've now learned how to add a digital signature to PowerPoint presentations us
 - **Support**: For any queries, visit the [Aspose Support Forum](https://forum.aspose.com/c/slides/11).
 
 Embrace secure document handling with Aspose.Slides and elevate your presentation game!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

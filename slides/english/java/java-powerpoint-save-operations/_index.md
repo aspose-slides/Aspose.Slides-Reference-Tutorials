@@ -8,7 +8,9 @@ url: /java/java-powerpoint-save-operations/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Java PowerPoint Save Operations
@@ -38,9 +40,11 @@ Learn how to save PowerPoint presentations to files programmatically using Aspos
 Learn how to save PowerPoint presentations to a stream using Aspose.Slides for Java. Follow our step-by-step guide for seamless integration.
 ### [Save PowerPoint with Password](./save-powerpoint-with-password/)
 Learn how to add password protection to PowerPoint presentations using Aspose.Slides for Java. Secure your slides with ease.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

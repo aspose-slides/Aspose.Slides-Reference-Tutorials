@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Retrieve Text Portion Coordinates in PowerPoint Slides Using Aspose.Slides for Java
 
@@ -151,6 +153,9 @@ Retrieving text portion coordinates with Aspose.Slides for Java enables automati
 - **Free Trial:** Start a free trial with [Aspose Temporary License](https://purchase.aspose.com/temporary-license/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

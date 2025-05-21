@@ -8,7 +8,9 @@ url: /net/additional-chart-features/additional-chart-features/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Exploring Advanced Chart Features with Aspose.Slides for .NET
@@ -158,6 +160,7 @@ For any technical questions or support, you can visit the [Aspose.Slides forum](
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

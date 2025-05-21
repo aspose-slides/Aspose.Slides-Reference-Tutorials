@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Save Custom Star Shapes in .NET Presentations Using Aspose.Slides
 
@@ -123,7 +125,11 @@ public static class PresentationCreator
     public static void CreateAndSavePresentation()
     {
         string resultPath = Path.Combine("YOUR_OUTPUT_DIRECTORY\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

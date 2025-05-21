@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Superscript Text in PowerPoint Using Aspose.Slides for .NET
 
@@ -173,7 +175,11 @@ Yes, you can also implement subscript text, bold or italic styles, and more!
 - **Free Trial**: Test features for free using the trial version available on [Releases](https://releases.aspose.com/slides/net/).
 - **Temporary License**: Request temporary access if needed at [Aspose Temporary License](https://purchase.aspose.com/temporary-license/).
 - **Support**: Join discussions and seek help on the [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

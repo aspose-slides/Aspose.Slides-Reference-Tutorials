@@ -8,7 +8,9 @@ url: /java/java-powerpoint-font-management/embedded-font-compression-java-powerp
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Embedded Font Compression in Java PowerPoint
@@ -74,6 +76,7 @@ You can purchase a licensed version of Aspose.Slides for Java from the website u
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/licensing-and-formatting/metered-licensing/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Metered Licensing Usage
@@ -124,6 +126,7 @@ Yes, you can find support and engage in discussions on the Aspose.Slides forum a
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate Slide Text Frames in Python: Mastering Aspose.Slides for Autofit and Customization
 
@@ -175,7 +177,11 @@ We’ve explored how Aspose.Slides for Python can automate text frame adjustment
 - [Purchase a License](https://purchase.aspose.com/buy)
 - [Get a Free Trial](https://releases.aspose.com/slides/python-net/)
 - [Acquire a Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

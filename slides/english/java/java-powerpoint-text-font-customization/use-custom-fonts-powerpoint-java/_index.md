@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-font-customization/use-custom-fonts-powerpoint-j
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Use Custom Fonts in PowerPoint with Java
@@ -80,6 +82,7 @@ Yes, Aspose.Slides for Java allows you to embed custom fonts into the presentati
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

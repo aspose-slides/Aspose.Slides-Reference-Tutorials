@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Hyperlinks to Text in .NET Slides Using Aspose.Slides for Enhanced Interactivity
 
@@ -158,6 +160,9 @@ A: Verify the URL and ensure it’s correctly formatted. Check network accessibi
 This comprehensive guide ensures you are well-equipped to add hyperlinks effectively, making your presentations more dynamic and resourceful. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

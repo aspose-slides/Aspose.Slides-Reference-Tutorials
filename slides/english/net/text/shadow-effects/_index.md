@@ -6,8 +6,11 @@ description: Learn how to create PowerPoint presentations with stylized text box
 keywords: [Aspose.Slides, PowerPoint, .NET, C#, text box, shadow effects, outer shadow, presentation, rectangle shape, text formatting]
 url: /net/text/shadow-effects/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Text with Shadow Effects in PowerPoint with Aspose.Slides
@@ -15,9 +18,11 @@ url: /net/text/shadow-effects/
 Aspose.Slides for .NET provides powerful capabilities for programmatically creating and manipulating PowerPoint presentations. This example demonstrates how to create a text box with customized outer shadow effects, giving your presentation elements more visual depth and professional styling. By adjusting parameters like blur radius, direction, distance, and color, you can achieve sophisticated shadow effects that enhance your slides' visual appeal.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/text/shadow-effects" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -45,7 +50,9 @@ Aspose.Slides for .NET provides powerful capabilities for programmatically creat
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

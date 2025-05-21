@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Remove Shapes by Alt Text Using Aspose.Slides for Python
 
@@ -153,7 +155,11 @@ By now, you should have a solid understanding of how to remove shapes from Power
 - [Purchase License](https://purchase.aspose.com/buy)
 - [Free Trial and Temporary Licenses](https://releases.aspose.com/slides/python-net/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

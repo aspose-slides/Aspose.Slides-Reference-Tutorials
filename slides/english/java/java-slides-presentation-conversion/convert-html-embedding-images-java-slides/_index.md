@@ -8,7 +8,9 @@ url: /java/presentation-conversion/convert-html-embedding-images-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert HTML Embedding Images in Java Slides
@@ -136,6 +138,7 @@ You can wrap the conversion code in a try-catch block to handle exceptions that 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

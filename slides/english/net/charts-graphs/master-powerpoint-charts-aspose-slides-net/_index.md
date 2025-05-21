@@ -13,7 +13,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering PowerPoint Charts with Aspose.Slides .NET
 
@@ -282,6 +284,9 @@ class Program
 By following this comprehensive guide, you can master creating and customizing PowerPoint charts using **Aspose.Slides for .NET**. This tutorial has covered everything from setting up your environment to enhancing chart visuals and saving your presentation.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

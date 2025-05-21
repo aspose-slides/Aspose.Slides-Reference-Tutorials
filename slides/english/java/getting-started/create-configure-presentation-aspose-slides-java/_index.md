@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Configure a Presentation Using Aspose.Slides Java
 
@@ -197,7 +199,11 @@ A5: Ensure all resources are properly disposed of and check for compatibility se
 - **Free Trial**: [Start with a Free Trial](https://releases.aspose.com/slides/java/)
 - **Temporary License**: [Obtain a Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose.Slides Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

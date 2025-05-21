@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Compress Images in PowerPoint Using Aspose.Slides for Java: A Step-by-Step Guide
 
@@ -200,7 +202,11 @@ This guide provided a comprehensive walkthrough on using Aspose.Slides for Java 
 - "Compress images in PowerPoint"
 - "Aspose.Slides for Java"
 - "PowerPoint optimization tools"
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

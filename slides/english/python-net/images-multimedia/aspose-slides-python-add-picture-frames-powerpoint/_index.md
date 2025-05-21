@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Add & Format Picture Frames in PowerPoint Using Aspose.Slides Python Library
 
@@ -201,6 +203,9 @@ Congratulations on mastering the art of adding and formatting picture frames in 
 - **Free Trial & Temporary License**: Test out Aspose.Slides with their free trial or temporary license.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

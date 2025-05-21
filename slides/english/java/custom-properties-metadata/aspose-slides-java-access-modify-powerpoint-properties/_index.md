@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Access and Modify PowerPoint Custom Properties with Aspose.Slides for Java
 
@@ -178,7 +180,11 @@ For further exploration and support:
 - **Documentation**: [Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/)
 - **Download**: Get the latest version from [Aspose.Slides Releases](https://releases.aspose.com/slides/java/)
 - **Purchase**: Buy a license at [Aspose Purchase](https://purchase.aspose.com/buy)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

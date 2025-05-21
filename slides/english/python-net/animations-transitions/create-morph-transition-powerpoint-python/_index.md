@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create a Morph Transition in PowerPoint Using Aspose.Slides for Python
 ## Introduction
@@ -84,7 +86,11 @@ Save your work:
 ```python
     # Save the presentation to the specified output directory.
 presentation.save("YOUR_OUTPUT_DIRECTORY/transition_SupportOfMorphTransition_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

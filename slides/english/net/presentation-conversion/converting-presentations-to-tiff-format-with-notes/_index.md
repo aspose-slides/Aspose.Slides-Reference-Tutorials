@@ -8,7 +8,9 @@ url: /net/presentation-conversion/converting-presentations-to-tiff-format-with-n
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Converting Presentations to TIFF Format with Notes
@@ -84,9 +86,11 @@ For support and community discussions, visit the Aspose.Slides forum [here](http
  Yes, Aspose.Slides for .NET supports various output formats, including PDF, images, and more. Check the documentation for details.
 
 Now that you have the knowledge to convert presentations to TIFF format with notes using Aspose.Slides for .NET, go ahead and explore the possibilities of this powerful API in your projects.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

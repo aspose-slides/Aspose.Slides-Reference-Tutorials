@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set Up Headers and Footers for Notes Slides in Java with Aspose.Slides
 
@@ -180,7 +182,11 @@ A: Optimize performance by loading only necessary slides and ensuring proper mem
 - **Download**: [Aspose.Slides for Java Releases](https://releases.aspose.com/slides/java/)
 - **Purchase**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)
 - **Free Trial**: [Try Aspose.Slides Free](https://releases.aspose.com/slides/java/download)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

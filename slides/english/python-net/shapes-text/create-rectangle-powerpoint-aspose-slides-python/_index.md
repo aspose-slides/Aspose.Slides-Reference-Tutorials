@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Save a Simple Rectangle in PowerPoint Using Aspose.Slides Python
 ## Introduction
@@ -120,7 +122,11 @@ Consider diving deeper into the Aspose.Slides documentation, where you'll find a
 - [Free Trial Download](https://releases.aspose.com/slides/python-net/)
 - [Apply for Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Aspose Community Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

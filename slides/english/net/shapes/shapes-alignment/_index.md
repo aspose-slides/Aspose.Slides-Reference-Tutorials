@@ -6,8 +6,11 @@ description: Learn how to align and group shapes within PowerPoint presentations
 keywords: [Aspose.Slides, PowerPoint, .NET, C#, Shape Alignment, Group Shapes, Rectangle Shapes, PowerPoint automation]
 url: /net/shapes/shapes-alignment/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Aligning and Grouping Shapes in PowerPoint Presentations
@@ -15,9 +18,11 @@ url: /net/shapes/shapes-alignment/
 Aspose.Slides for .NET provides powerful capabilities for creating and manipulating PowerPoint presentations programmatically. This example demonstrates how to align shapes within slides and work with grouped shapes in PowerPoint presentations. You'll learn how to position rectangles at specific coordinates, align them relative to the slide or to each other, and selectively align shapes within groups.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/shapes/shapes-alignment" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -53,7 +58,9 @@ Aspose.Slides for .NET provides powerful capabilities for creating and manipulat
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

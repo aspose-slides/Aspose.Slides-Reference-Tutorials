@@ -8,7 +8,9 @@ url: /java/java-powerpoint-rendering-techniques/render-options-powerpoint/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Render Options in PowerPoint
@@ -85,6 +87,7 @@ Yes, Aspose.Slides provides functionality to directly convert PowerPoint present
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

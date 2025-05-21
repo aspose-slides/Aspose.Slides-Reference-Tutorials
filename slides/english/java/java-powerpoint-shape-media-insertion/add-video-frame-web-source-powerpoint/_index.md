@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-media-insertion/add-video-frame-web-source-powe
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Video Frame from Web Source in PowerPoint
@@ -94,6 +96,7 @@ You can visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) fo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

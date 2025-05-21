@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master SVG Exports with Aspose.Slides for .NET: Shape and Text Formatting Guide
 
@@ -180,7 +182,11 @@ A: Watch out for missing fonts and ensure all resources (images, etc.) are embed
 - **Support:** [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 Embark on your SVG journey with Aspose.Slides today, and elevate the quality of your presentation projects!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/presentation-manipulation/export-shapes-to-svg-format-from-presentatio
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export Shapes to SVG Format from Presentation
@@ -89,9 +91,11 @@ You can visit the [Aspose.Slides forum](https://forum.aspose.com/) for support a
 Now that you have learned how to export shapes to SVG format, you can enhance your presentations and make them more versatile for different purposes. Happy coding!
 
 For more details and advanced features, refer to the [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

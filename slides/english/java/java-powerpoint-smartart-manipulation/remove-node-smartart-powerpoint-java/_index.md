@@ -8,7 +8,9 @@ url: /java/java-powerpoint-smartart-manipulation/remove-node-smartart-powerpoint
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Node from SmartArt in PowerPoint using Java
@@ -74,6 +76,7 @@ For any technical assistance or queries, you can visit the [Aspose.Slides forum]
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

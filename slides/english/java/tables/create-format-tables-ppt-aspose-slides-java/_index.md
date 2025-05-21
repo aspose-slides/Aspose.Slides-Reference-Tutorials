@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Format a Table in PowerPoint Using Aspose.Slides for Java
 Creating tables in PowerPoint presentations is an essential skill for organizing data clearly and effectively. With the power of Aspose.Slides for Java, you can automate this process programmatically, saving time and ensuring consistency across your presentations. This step-by-step guide will walk you through creating a table, customizing its borders, and saving it as a PPTX file using Aspose.Slides.
@@ -170,7 +172,11 @@ For more information, refer to these resources:
 - **Free Trial:** [Aspose Free Trial Download](https://releases.aspose.com/slides/java/)
 - **Temporary License:** [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support Forum:** [Aspose Slides Support](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

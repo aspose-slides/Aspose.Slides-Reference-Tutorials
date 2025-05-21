@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering 3D Shape Rendering in PowerPoint Using Aspose.Slides for Python
 
@@ -176,6 +178,9 @@ Next steps could include exploring more advanced features of Aspose.Slides or in
 We hope this guide helps you harness the power of 3D shapes in your presentations. Happy presenting!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

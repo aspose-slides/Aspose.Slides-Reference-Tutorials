@@ -8,7 +8,9 @@ url: /java/additional-utilities/set-access-permissions-to-pdf-in-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Access Permissions to PDF in Java Slides
@@ -114,6 +116,7 @@ You can access comprehensive documentation for Aspose.Slides for Java at [here](
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

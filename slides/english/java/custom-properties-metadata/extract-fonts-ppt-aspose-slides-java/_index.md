@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Extract Fonts from PowerPoint Using Aspose.Slides for Java: A Step-by-Step Guide
 
@@ -189,6 +191,9 @@ A: Dispose of `Presentation` objects immediately after use and consider processi
 By following this guide, you'll enhance your skills in handling PowerPoint files programmatically with Java and Aspose.Slides. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

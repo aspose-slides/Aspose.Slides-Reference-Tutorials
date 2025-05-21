@@ -6,8 +6,11 @@ description: Learn how to add images to table cells in PowerPoint presentations 
 keywords: [Aspose.Slides, .NET, PowerPoint, table cells, images, C#, presentation]
 url: /net/tables/add-image-inside-table-cell/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adding Images to Table Cells in PowerPoint with Aspose.Slides
@@ -15,9 +18,11 @@ url: /net/tables/add-image-inside-table-cell/
 This guide demonstrates how to programmatically add images to table cells in PowerPoint presentations using Aspose.Slides for .NET. The example shows how to create a presentation, add a table with custom dimensions, load an image, and place it inside a table cell with proper formatting. This technique is useful for creating professional presentations with rich visual content and organized tabular data.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/tables/add-image-inside-table-cell" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -37,7 +42,9 @@ This guide demonstrates how to programmatically add images to table cells in Pow
    - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

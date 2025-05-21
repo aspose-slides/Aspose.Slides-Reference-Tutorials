@@ -8,7 +8,9 @@ url: /net/presentation-manipulation/formatting-svgs-in-presentations/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Formatting SVGs in Presentations
@@ -126,6 +128,7 @@ Now, go ahead and apply these techniques to create stunning presentations that c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

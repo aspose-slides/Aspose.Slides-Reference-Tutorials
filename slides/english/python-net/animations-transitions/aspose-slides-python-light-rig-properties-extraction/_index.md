@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Extract and Manipulate Light Rig Properties in PowerPoint Using Aspose.Slides for Python
 
@@ -180,6 +182,9 @@ Ready to take action? Try implementing this solution in your next project!
 By following this tutorial, you're well-equipped to harness the power of Aspose.Slides for Python in your projects. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Customize Charts in .NET Presentations Using Aspose.Slides for .NET
 
@@ -195,6 +197,9 @@ You've now learned how to create and customize charts in .NET presentations usin
 With this guide, you're well-equipped to start utilizing Aspose.Slides for creating professional presentations with dynamic charts in .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

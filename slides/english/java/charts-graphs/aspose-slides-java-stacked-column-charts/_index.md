@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Stacked Column Charts in Java with Aspose.Slides: A Comprehensive Guide
 
@@ -265,7 +267,11 @@ for (IChartSeries series : chart.getChartData().getSeries()) {
 By following this guide, you've learned how to set up Aspose.Slides for Java and create dynamic presentations with percentage-stacked column charts. Customize your charts further by adjusting colors and labels to suit your needs.
 
 Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

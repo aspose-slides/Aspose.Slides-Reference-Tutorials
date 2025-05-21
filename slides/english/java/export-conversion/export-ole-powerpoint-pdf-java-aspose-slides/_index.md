@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Export OLE Objects from PowerPoint to PDF Using Aspose.Slides Java
 
@@ -164,7 +166,11 @@ Next steps could involve integrating this functionality into a larger applicatio
 - **Purchase License**: Explore purchase options at [Aspose Purchase](https://purchase.aspose.com/buy).
 - **Free Trial & Temporary License**: Start with a free trial or apply for a temporary license via [Temporary License Link](https://purchase.aspose.com/temporary-license/).
 - **Support Forum**: For further queries, visit the [Aspose Support Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

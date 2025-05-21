@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Access Presentation Metadata Without a Password Using Aspose.Slides for Java
 
@@ -106,7 +108,11 @@ This feature allows you to retrieve metadata from presentations without needing 
    ```java
    // Opening the presentation file with specified load options
    Presentation pres = new Presentation("YOUR_DOCUMENT_DIRECTORY/AccessProperties.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

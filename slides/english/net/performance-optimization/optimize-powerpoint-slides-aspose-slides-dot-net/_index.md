@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Optimize PowerPoint Slides Using Aspose.Slides .NET
 
@@ -176,6 +178,9 @@ Try implementing these techniques in your next project to see the difference!
 Now that you're equipped with the knowledge to optimize slide sizes using Aspose.Slides .NET, go ahead and create presentations that stand out!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

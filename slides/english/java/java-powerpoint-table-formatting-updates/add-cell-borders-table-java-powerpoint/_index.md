@@ -8,7 +8,9 @@ url: /java/java-powerpoint-table-formatting-updates/add-cell-borders-table-java-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Cell Borders to Table in Java PowerPoint
@@ -106,6 +108,7 @@ Aspose.Slides supports various formats including PPT, PPTX, PDF, and more.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

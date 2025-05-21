@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Change Chart Series Color in PowerPoint Using Aspose.Slides .NET
 
@@ -168,7 +170,11 @@ Next steps include exploring other chart customizations like adding labels, chan
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 By mastering Aspose.Slides, you're well-equipped to create dynamic and visually appealing presentations tailored to your specific needs. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

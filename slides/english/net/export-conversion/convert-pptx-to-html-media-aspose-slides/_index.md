@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PPTX to HTML with Media Using Aspose.Slides for .NET
 
@@ -173,7 +175,11 @@ Ready to try it out? Start by applying these techniques in a project and see how
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 Happy converting, and feel free to explore the vast capabilities of Aspose.Slides for .NET!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

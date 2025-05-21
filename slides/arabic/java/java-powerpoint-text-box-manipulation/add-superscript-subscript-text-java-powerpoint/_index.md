@@ -1,29 +1,31 @@
 ---
-title: إضافة نص مرتفع ومنخفض في Java PowerPoint
-linktitle: إضافة نص مرتفع ومنخفض في Java PowerPoint
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: تعرف على كيفية إضافة نص مرتفع ومنخفض في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides لـ Java. مثالية لتعزيز الشرائح الخاصة بك.
-weight: 13
-url: /ar/java/java-powerpoint-text-box-manipulation/add-superscript-subscript-text-java-powerpoint/
+"description": "تعلّم كيفية إضافة نص علوي وسفلي في عروض PowerPoint التقديمية بلغة جافا باستخدام Aspose.Slides لجافا. مثالي لتحسين عروضك التقديمية."
+"linktitle": "إضافة نص علوي وسفلي في Java PowerPoint"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "إضافة نص علوي وسفلي في Java PowerPoint"
+"url": "/ar/java/java-powerpoint-text-box-manipulation/add-superscript-subscript-text-java-powerpoint/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# إضافة نص مرتفع ومنخفض في Java PowerPoint
+# إضافة نص علوي وسفلي في Java PowerPoint
 
 ## مقدمة
-غالبًا ما يتطلب إنشاء عروض PowerPoint التقديمية الجذابة والغنية بالمعلومات استخدام ميزات التنسيق مثل النص المرتفع والنص المنخفض. سيرشدك هذا البرنامج التعليمي خلال عملية دمج النص المرتفع والمنخفض في عروض Java PowerPoint التقديمية باستخدام Aspose.Slides for Java.
+غالبًا ما يتطلب إنشاء عروض PowerPoint جذابة وغنية بالمعلومات استخدام ميزات التنسيق، مثل النص العلوي والسفلي. سيرشدك هذا البرنامج التعليمي خلال عملية دمج النص العلوي والسفلي في عروض PowerPoint التقديمية بلغة Java باستخدام Aspose.Slides لـ Java.
 ## المتطلبات الأساسية
 قبل أن تبدأ، تأكد من أن لديك ما يلي:
 - تم تثبيت Java Development Kit (JDK) على نظامك.
--  Aspose.Slides لمكتبة جافا. يمكنك تنزيله من[هنا](https://releases.aspose.com/slides/java/).
+- مكتبة Aspose.Slides لجافا. يمكنك تنزيلها من [هنا](https://releases.aspose.com/slides/java/).
 - بيئة تطوير متكاملة (IDE) مثل IntelliJ IDEA أو Eclipse تم إعدادها لتطوير Java.
-- الإلمام الأساسي ببرمجة Java وعروض PowerPoint التقديمية.
+- المعرفة الأساسية ببرمجة Java وعروض PowerPoint.
 
-## حزم الاستيراد
-أولاً، قم باستيراد الحزم الضرورية من Aspose.Slides لـ Java:
+## استيراد الحزم
+أولاً، قم باستيراد الحزم اللازمة من Aspose.Slides لـ Java:
 ```java
 import com.aspose.slides.*;
 ```
@@ -40,64 +42,66 @@ ISlide slide = presentation.getSlides().get_Item(0);
 ```
 ## الخطوة 3: إنشاء مربع نص
 ```java
-// قم بإنشاء شكل تلقائي ليكون بمثابة مربع نص
+// إنشاء شكل تلقائي ليكون بمثابة مربع نص
 IAutoShape shape = slide.getShapes().addAutoShape(ShapeType.Rectangle, 100, 100, 200, 100);
 ITextFrame textFrame = shape.getTextFrame();
 textFrame.getParagraphs().clear();
 ```
-## الخطوة 4: إضافة نص مرتفع
+## الخطوة 4: إضافة نص علوي
 ```java
 // إنشاء فقرة للنص الرئيسي
 IParagraph mainParagraph = new Paragraph();
 IPortion mainPortion = new Portion();
 mainPortion.setText("SlideTitle");
 mainParagraph.getPortions().add(mainPortion);
-// قم بإنشاء جزء للنص المرتفع
+// إنشاء جزء للنص العلوي
 IPortion superPortion = new Portion();
-superPortion.getPortionFormat().setEscapement(30); // تعيين الهروب للخط المرتفع
+superPortion.getPortionFormat().setEscapement(30); // تعيين الإفلات للنص العلوي
 superPortion.setText("TM");
 mainParagraph.getPortions().add(superPortion);
-//أضف الفقرة الرئيسية بخط مرتفع إلى مربع النص
+// أضف الفقرة الرئيسية مع النص العلوي إلى مربع النص
 textFrame.getParagraphs().add(mainParagraph);
 ```
-## الخطوة 5: إضافة نص منخفض
+## الخطوة 5: إضافة نص سفلي
 ```java
-// قم بإنشاء فقرة أخرى للنص المنخفض
+// إنشاء فقرة أخرى للنص السفلي
 IParagraph subscriptParagraph = new Paragraph();
 IPortion subscriptPortion = new Portion();
 subscriptPortion.setText("a");
 subscriptParagraph.getPortions().add(subscriptPortion);
-// قم بإنشاء جزء للنص المنخفض
+// إنشاء جزء للنص السفلي
 IPortion subPortion = new Portion();
-subPortion.getPortionFormat().setEscapement(-25); // تعيين الهروب للمنخفض
+subPortion.getPortionFormat().setEscapement(-25); // تعيين الإفلات للمؤشر السفلي
 subPortion.setText("i");
 subscriptParagraph.getPortions().add(subPortion);
-// أضف الفقرة المنخفضة إلى مربع النص
+// أضف الفقرة السفلية إلى مربع النص
 textFrame.getParagraphs().add(subscriptParagraph);
 ```
-## الخطوة 6: احفظ العرض التقديمي
+## الخطوة 6: حفظ العرض التقديمي
 ```java
-// احفظ العرض التقديمي
+// حفظ العرض التقديمي
 presentation.save(dataDir + "TestOut.pptx", SaveFormat.Pptx);
 ```
 
 ## خاتمة
-في هذا البرنامج التعليمي، اكتشفنا كيفية تحسين عروض Java PowerPoint التقديمية باستخدام نص مرتفع ومنخفض باستخدام Aspose.Slides لـ Java. باتباع هذه الخطوات، يمكنك إنشاء شرائح أكثر جاذبية وغنية بالمعلومات والتي تنقل المحتوى الخاص بك بشكل فعال.
+في هذا البرنامج التعليمي، استكشفنا كيفية تحسين عروض PowerPoint التقديمية بلغة جافا باستخدام النصوص العلوية والسفلية باستخدام Aspose.Slides لجافا. باتباع هذه الخطوات، يمكنك إنشاء شرائح أكثر جاذبية بصريًا وغنية بالمعلومات، تُوصل محتواك بفعالية.
 
 ## الأسئلة الشائعة
-### ما هو Aspose.Slides لجافا؟
-Aspose.Slides for Java هي مكتبة قوية تسمح للمطورين بإنشاء عروض PowerPoint التقديمية ومعالجتها وتحويلها برمجياً.
+### ما هو Aspose.Slides لـ Java؟
+Aspose.Slides for Java عبارة عن مكتبة قوية تسمح للمطورين بإنشاء عروض PowerPoint ومعالجتها وتحويلها برمجيًا.
 ### أين يمكنني العثور على مزيد من الوثائق حول Aspose.Slides لـ Java؟
- يمكن العثور على وثائق مفصلة[هنا](https://reference.aspose.com/slides/java/).
+يمكن العثور على وثائق مفصلة [هنا](https://reference.aspose.com/slides/java/).
 ### كيف يمكنني الحصول على ترخيص مؤقت لـ Aspose.Slides لـ Java؟
- يمكنك الحصول على ترخيص مؤقت[هنا](https://purchase.aspose.com/temporary-license/).
-### هل يمكنني تجربة Aspose.Slides لـ Java مجانًا؟
- نعم، يمكنك تنزيل نسخة تجريبية مجانية من[هنا](https://releases.aspose.com/).
+يمكنك الحصول على ترخيص مؤقت [هنا](https://purchase.aspose.com/temporary-license/).
+### هل يمكنني تجربة Aspose.Slides لـJava مجانًا؟
+نعم، يمكنك تنزيل نسخة تجريبية مجانية من [هنا](https://releases.aspose.com/).
 ### أين يمكنني الحصول على الدعم لـ Aspose.Slides لـ Java؟
- للحصول على الدعم والمناقشات، قم بزيارة[منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
+للحصول على الدعم والمناقشات، قم بزيارة [منتدى Aspose.Slides](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

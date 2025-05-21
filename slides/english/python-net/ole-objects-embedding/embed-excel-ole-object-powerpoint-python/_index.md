@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Embed Excel as an OLE Object in PowerPoint with Python
 
@@ -165,7 +167,11 @@ A5: Update your source Excel file and rerun the embedding script to refresh the 
 - **Download**: [Aspose.Slides Downloads](https://releases.aspose.com/slides/python-net/)
 - **Purchase License**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)
 - **Free Trial**: [Get Free Trial](https://releases.aspose.com/slides/python-net/#downloads)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

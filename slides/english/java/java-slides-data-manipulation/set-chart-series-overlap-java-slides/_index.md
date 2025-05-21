@@ -8,7 +8,9 @@ url: /java/data-manipulation/set-chart-series-overlap-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Chart Series Overlap in Java Slides
@@ -120,6 +122,7 @@ For comprehensive documentation and examples, visit the Aspose.Slides for Java r
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

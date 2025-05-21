@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Disable Font Ligatures in PPTX Exports Using Aspose.Slides for Python
 
@@ -167,7 +169,11 @@ Ready to take your presentations to the next level? Implement this solution toda
 - [Get a Free Trial](https://releases.aspose.com/slides/python-net/)
 - [Obtain a Temporary License](https://purchase.aspose.com/temporary-license/)
 - [Access Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

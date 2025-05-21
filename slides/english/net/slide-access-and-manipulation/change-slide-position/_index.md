@@ -8,7 +8,9 @@ url: /net/slide-access-and-manipulation/change-slide-position/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Adjust Slide Position within Presentation with Aspose.Slides
@@ -121,6 +123,7 @@ Yes, you can explore a free trial version of Aspose.Slides for .NET at [Aspose.S
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

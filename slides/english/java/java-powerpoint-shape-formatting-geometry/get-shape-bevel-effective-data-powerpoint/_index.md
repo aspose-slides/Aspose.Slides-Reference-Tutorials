@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-formatting-geometry/get-shape-bevel-effective-d
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Shape Bevel Effective Data in PowerPoint
@@ -68,6 +70,7 @@ You can visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) fo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

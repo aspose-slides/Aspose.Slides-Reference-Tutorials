@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Animate PowerPoint Chart Series Using Python
 
@@ -161,7 +163,11 @@ A5: Verify element indices and effect types. Check your Python environment setup
 - **Free Trial:** Start with a free trial at [Aspose Downloads](https://releases.aspose.com/slides/python-net/).
 - **Temporary License:** Apply for a temporary license on their [temporary license page](https://purchase.aspose.com/temporary-license/).
 - **Support:** Get help from the community on the [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

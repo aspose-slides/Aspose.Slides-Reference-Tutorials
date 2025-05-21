@@ -4,8 +4,11 @@ description: "Step-by-step tutorials for implementing headers, footers, slide nu
 weight: 10
 url: "/python-net/headers-footers/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Headers and Footers Tutorials for Aspose.Slides Python
 
@@ -35,7 +38,11 @@ Learn how to efficiently manage headers and footers in PowerPoint presentations 
 - [Download Aspose.Slides for Python-net](https://releases.aspose.com/slides/python-net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

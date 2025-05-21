@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Format a Rectangle Shape in PowerPoint Using Aspose.Slides for .NET
 ## Introduction
@@ -136,6 +138,9 @@ Try experimenting with different colors and border styles to see how they can en
 Embark on your journey to automate PowerPoint creation and formatting with Aspose.Slides for .NET today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

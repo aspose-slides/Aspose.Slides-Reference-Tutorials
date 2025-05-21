@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Slide Transitions in Java Using Aspose.Slides
 
@@ -95,7 +97,11 @@ After setting your desired transition, save the updated presentation:
 ```java
 String outputDir = "YOUR_OUTPUT_DIRECTORY";
 presentation.save(outputDir + "/SetTransitionEffects_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-formatting-geometry/format-join-styles-powerpoi
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Format Join Styles in PowerPoint
@@ -122,6 +124,7 @@ You can find detailed documentation [here](https://reference.aspose.com/slides/j
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

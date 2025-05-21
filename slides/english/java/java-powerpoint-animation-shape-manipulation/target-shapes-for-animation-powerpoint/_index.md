@@ -8,7 +8,9 @@ url: /java/java-powerpoint-animation-shape-manipulation/target-shapes-for-animat
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Target Shapes for Animation in PowerPoint
@@ -72,6 +74,7 @@ You can purchase Aspose.Slides for Java from the website [here](https://purchase
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

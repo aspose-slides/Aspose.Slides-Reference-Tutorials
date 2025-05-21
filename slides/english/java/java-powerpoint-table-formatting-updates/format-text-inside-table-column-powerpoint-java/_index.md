@@ -8,7 +8,9 @@ url: /java/java-powerpoint-table-formatting-updates/format-text-inside-table-col
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Format Text Inside Table Column in PowerPoint using Java
@@ -98,6 +100,7 @@ Check out the [Aspose.Slides documentation](https://reference.aspose.com/slides/
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

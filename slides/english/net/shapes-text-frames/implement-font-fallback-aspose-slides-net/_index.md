@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set Font Fallback Rules in Aspose.Slides for .NET: A Comprehensive Guide
 
@@ -117,7 +119,11 @@ This defines the Unicode range for emojis.
 ##### Step 2: Create Fallback Rule
 ```csharp
 string[] fontNamesEmoji = { "Segoe UI Emoji, Segoe UI Symbol\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

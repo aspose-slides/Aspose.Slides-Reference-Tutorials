@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Export Media from PowerPoint to HTML Using Aspose.Slides for .NET: A Complete Guide
 
@@ -183,7 +185,11 @@ For more information and support:
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 Now that you're equipped with this knowledge, go ahead and start exporting media from your PowerPoint presentations to HTML with confidence!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

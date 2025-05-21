@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set an External Workbook for a Chart in Aspose.Slides .NET: A Step-by-Step Guide
 
@@ -188,6 +190,9 @@ Yes, by periodically re-fetching and setting the external workbook, your charts 
 With these resources, you're well-equipped to harness the full potential of Aspose.Slides in your .NET projects. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate Slide Access in PowerPoints Using Aspose.Slides for Python
 ## Introduction
@@ -126,7 +128,11 @@ Ready to take your presentation handling to the next level? Start experimenting 
 - **Temporary License**: [Acquire Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 Embark on your journey to mastering slide access in PowerPoint presentations with Aspose.Slides for Python today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/printing-and-rendering-in-slides/printing-with-default-printer/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Printing Presentations with Default Printer in Aspose.Slides
@@ -61,6 +63,7 @@ Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) to ask que
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

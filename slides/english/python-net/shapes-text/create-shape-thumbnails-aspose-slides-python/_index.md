@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Shape Thumbnails with Aspose.Slides for Python
 
@@ -168,6 +170,9 @@ Ready to create your own shape thumbnails? Try implementing this solution and se
 Embark on your journey with Aspose.Slides for Python today and unlock new efficiencies in managing PowerPoint presentations!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

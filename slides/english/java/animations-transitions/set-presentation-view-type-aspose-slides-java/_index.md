@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Set PowerPoint View Type Programmatically Using Aspose.Slides Java
 
@@ -176,7 +178,11 @@ Experiment with different view types and integrate this functionality into your 
 - **Free Trial**: [Try the Free Version](https://releases.aspose.com/slides/java/)
 - **Temporary License**: [Acquire Temporarily](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forums](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

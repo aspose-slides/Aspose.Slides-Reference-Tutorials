@@ -8,7 +8,9 @@ url: /net/slide-access-and-manipulation/accessing-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Accessing Slides in Aspose.Slides
@@ -144,6 +146,7 @@ Absolutely! Aspose.Slides enables you to create new presentations from scratch, 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

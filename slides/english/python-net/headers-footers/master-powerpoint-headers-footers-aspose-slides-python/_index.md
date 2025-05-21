@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Header and Footer Management in PowerPoint with Aspose.Slides for Python
 
@@ -183,7 +185,11 @@ Try implementing these header and footer management techniques in your next proj
 - **Documentation:** [Aspose.Slides Python API Reference](https://reference.aspose.com/slides/python-net/)
 - **Download Library:** [Aspose.Slides Downloads](https://releases.aspose.com/slides/python-net/)
 - **Purchase License:** [Buy Aspose.Slides](https://purchase.aspose.com/slides)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

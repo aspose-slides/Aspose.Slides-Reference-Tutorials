@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Edit SmartArt in Java Using Aspose.Slides: A Comprehensive Guide
 
@@ -218,7 +220,11 @@ You've now mastered how to load, traverse, modify, and save presentations with S
 - **Download:** [Get Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 - **Purchase:** [Buy Aspose.Slides](https://purchase.aspose.com/buy)
 - **License Acquisition:** [Aspose License Options](https://purchase.aspose.com/buy)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

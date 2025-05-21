@@ -13,7 +13,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides Java: Adding and Hiding Shapes in Presentations
 
@@ -193,7 +195,11 @@ Try implementing these techniques in your projects today!
 - **Support**: [Aspose Forums](https://forum.aspose.com/c/slides/11)
 
 Embark on your journey to mastering Aspose.Slides for Java today, and transform how you handle presentation content!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

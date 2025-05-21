@@ -1,22 +1,24 @@
 ---
-title: مخطط خريطة الشجرة في شرائح جافا
-linktitle: مخطط خريطة الشجرة في شرائح جافا
-second_title: Aspose.Slides واجهة برمجة تطبيقات معالجة Java PowerPoint
-description: قم بإنشاء مخططات خريطة الشجرة في شرائح Java باستخدام Aspose.Slides لـ Java. دليل خطوة بخطوة مع التعليمات البرمجية المصدر لتصور البيانات الهرمية.
-weight: 13
-url: /ar/java/chart-creation/tree-map-chart-java-slides/
+"description": "أنشئ مخططات خرائط شجرية في شرائح جافا باستخدام Aspose.Slides لجافا. دليل خطوة بخطوة مع الكود المصدري لعرض البيانات الهرمية."
+"linktitle": "مخطط خريطة الشجرة في شرائح Java"
+"second_title": "واجهة برمجة تطبيقات معالجة PowerPoint في Java من Aspose.Slides"
+"title": "مخطط خريطة الشجرة في شرائح Java"
+"url": "/ar/java/chart-creation/tree-map-chart-java-slides/"
+"weight": 13
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
-# مخطط خريطة الشجرة في شرائح جافا
+# مخطط خريطة الشجرة في شرائح Java
 
 
 ## مقدمة إلى مخطط خريطة الشجرة في شرائح Java
 
-في هذا البرنامج التعليمي، سنوضح كيفية إنشاء مخطط Tree Map في عرض تقديمي لـ PowerPoint باستخدام مكتبة Aspose.Slides for Java. تعد مخططات الخريطة الشجرية طريقة فعالة لتصور البيانات الهرمية.
+في هذا البرنامج التعليمي، سنوضح كيفية إنشاء مخطط شجرة في عرض تقديمي على PowerPoint باستخدام مكتبة Aspose.Slides لجافا. تُعد مخططات الشجرة طريقة فعّالة لعرض البيانات الهرمية.
 
 ## المتطلبات الأساسية
 
@@ -28,14 +30,14 @@ url: /ar/java/chart-creation/tree-map-chart-java-slides/
 import com.aspose.slides.*;
 ```
 
-## الخطوة 2: قم بتحميل العرض التقديمي
+## الخطوة 2: تحميل العرض التقديمي
 
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
 ```
 
-## الخطوة 3: إنشاء مخطط خريطة شجرة
+## الخطوة 3: إنشاء مخطط خريطة الشجرة
 
 ```java
 try {
@@ -45,7 +47,7 @@ try {
     IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
     wb.clear(0);
 
-    // إنشاء فرع 1
+    // إنشاء الفرع 1
     IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -57,7 +59,7 @@ try {
 
     chart.getChartData().getCategories().add(wb.getCell(0, "C4", "Leaf4"));
 
-    // إنشاء فرع 2
+    // إنشاء الفرع 2
     leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C5", "Leaf5"));
     leaf.getGroupingLevels().setGroupingItem(1, "Stem3");
     leaf.getGroupingLevels().setGroupingItem(2, "Branch2");
@@ -84,14 +86,14 @@ try {
 
     series.setParentLabelLayout(ParentLabelLayoutType.Overlapping);
 
-    // احفظ العرض التقديمي باستخدام مخطط الخريطة الشجرةية
+    // احفظ العرض التقديمي باستخدام مخطط خريطة الشجرة
     pres.save("Treemap.pptx", SaveFormat.Pptx);
 } finally {
     if (pres != null) pres.dispose();
 }
 ```
 
-## أكمل كود المصدر لمخطط خريطة الشجرة في شرائح جافا
+## كود المصدر الكامل لرسم خريطة الشجرة في شرائح Java
 ```java
 String dataDir = "Your Document Directory";
 Presentation pres = new Presentation(dataDir + "test.pptx");
@@ -102,7 +104,7 @@ try
 	chart.getChartData().getSeries().clear();
 	IChartDataWorkbook wb = chart.getChartData().getChartDataWorkbook();
 	wb.clear(0);
-	//فرع 1
+	//الفرع 1
 	IChartCategory leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C1", "Leaf1"));
 	leaf.getGroupingLevels().setGroupingItem(1, "Stem1");
 	leaf.getGroupingLevels().setGroupingItem(2, "Branch1");
@@ -110,7 +112,7 @@ try
 	leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C3", "Leaf3"));
 	leaf.getGroupingLevels().setGroupingItem(1, "Stem2");
 	chart.getChartData().getCategories().add(wb.getCell(0, "C4", "Leaf4"));
-	//فرع 2
+	//الفرع الثاني
 	leaf = chart.getChartData().getCategories().add(wb.getCell(0, "C5", "Leaf5"));
 	leaf.getGroupingLevels().setGroupingItem(1, "Stem3");
 	leaf.getGroupingLevels().setGroupingItem(2, "Branch2");
@@ -139,28 +141,30 @@ finally
 
 ## خاتمة
 
-في هذا البرنامج التعليمي، تعلمت كيفية إنشاء مخطط شجرة في عرض تقديمي لـ PowerPoint باستخدام مكتبة Aspose.Slides for Java. تعد مخططات الخريطة الشجرية أداة قيمة لتصور البيانات الهرمية، مما يجعل عروضك التقديمية أكثر إفادة وجاذبية.
+في هذا البرنامج التعليمي، تعلمت كيفية إنشاء مخطط شجرة في عرض تقديمي على PowerPoint باستخدام مكتبة Aspose.Slides لجافا. تُعد مخططات الشجرة أداة قيّمة لعرض البيانات الهرمية، مما يجعل عروضك التقديمية أكثر إفادة وتفاعلية.
 
 ## الأسئلة الشائعة
 
-### كيف أقوم بإضافة بيانات إلى مخطط الخريطة الشجرةية؟
+### كيف أضيف البيانات إلى مخطط خريطة الشجرة؟
 
- لإضافة بيانات إلى مخطط الشجرة، استخدم`series.getDataPoints().addDataPointForTreemapSeries()` طريقة تمرير قيم البيانات كمعلمات.
+لإضافة البيانات إلى مخطط خريطة الشجرة، استخدم `series.getDataPoints().addDataPointForTreemapSeries()` الطريقة، تمرير قيم البيانات كمعلمات.
 
-### كيف يمكنني تخصيص مظهر مخطط الخريطة الشجرةية؟
+### كيف يمكنني تخصيص مظهر مخطط خريطة الشجرة؟
 
- يمكنك تخصيص مظهر مخطط الخريطة الشجرةية عن طريق تعديل خصائص مختلفة للمخطط`chart` و`series`الكائنات، مثل الألوان والتسميات والتخطيطات.
+يمكنك تخصيص مظهر مخطط خريطة الشجرة عن طريق تعديل خصائص مختلفة لـ `chart` و `series` الأشياء، مثل الألوان والملصقات والتخطيطات.
 
 ### هل يمكنني إنشاء مخططات خريطة شجرة متعددة في عرض تقديمي واحد؟
 
-نعم، يمكنك إنشاء مخططات متعددة للخريطة الشجرية في عرض تقديمي واحد عن طريق اتباع نفس الخطوات وتحديد مواضع شرائح مختلفة.
+نعم، يمكنك إنشاء مخططات خريطة شجرة متعددة في عرض تقديمي واحد باتباع نفس الخطوات وتحديد مواضع الشرائح المختلفة.
 
-### كيف يمكنني حفظ العرض التقديمي باستخدام مخطط الخريطة الشجرةية؟
+### كيف يمكنني حفظ العرض التقديمي باستخدام مخطط خريطة الشجرة؟
 
- استخدم ال`pres.save()` طريقة لحفظ العرض التقديمي باستخدام مخطط Tree Map بالتنسيق المطلوب (على سبيل المثال، PPTX).
+استخدم `pres.save()` طريقة لحفظ العرض التقديمي باستخدام مخطط خريطة الشجرة بالتنسيق المطلوب (على سبيل المثال، PPTX).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/slide-animation-control/control-after-animation-type/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mastering After-Animation Effects in PowerPoint with Aspose.Slides
@@ -97,6 +99,7 @@ Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for suppor
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

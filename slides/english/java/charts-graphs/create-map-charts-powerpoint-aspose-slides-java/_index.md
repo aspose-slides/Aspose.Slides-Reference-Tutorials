@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create Map Charts in PowerPoint with Aspose.Slides for Java
 
@@ -189,7 +191,11 @@ Creating a map chart in PowerPoint using Aspose.Slides for Java is straightforwa
 
 ### How do I install Aspose.Slides for a new project?
 Follow the setup steps under "Setting Up Aspose.Slides for Java" and ensure all prerequisites are met.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

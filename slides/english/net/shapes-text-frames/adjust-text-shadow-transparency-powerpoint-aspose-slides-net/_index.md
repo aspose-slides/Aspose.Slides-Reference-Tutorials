@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Adjust Text Shadow Transparency in PowerPoint Using Aspose.Slides for .NET
 
@@ -85,7 +87,11 @@ This feature lets you adjust the opacity of a shadow effect applied to text with
 Load your PowerPoint file using Aspose.Slides for .NET.
 ```csharp
 string dataDir = Path.Combine("YOUR_DOCUMENT_DIRECTORY\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

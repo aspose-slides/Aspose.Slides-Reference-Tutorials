@@ -4,8 +4,11 @@ description: "Step-by-step tutorials for creating, customizing, and managing cha
 weight: 7
 url: "/python-net/charts-graphs/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Chart and Graph Creation Tutorials with Aspose.Slides Python
 
@@ -248,7 +251,11 @@ Learn how to efficiently retrieve chart data sources from PowerPoint presentatio
 - [Download Aspose.Slides for Python-net](https://releases.aspose.com/slides/python-net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

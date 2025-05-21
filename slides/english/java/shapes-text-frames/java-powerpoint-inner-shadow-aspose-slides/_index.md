@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Java PowerPoint: Applying Inner Shadow to Text with Aspose.Slides
 
@@ -195,7 +197,11 @@ A: Visit the [Aspose.Slides Documentation](https://reference.aspose.com/slides/j
 - **Documentation**: Explore detailed guidance at [Aspose.Slides Documentation](https://reference.aspose.com/slides/java/).
 - **Download**: Get the latest version from [Releases](https://releases.aspose.com/slides/java/).
 - **Purchase**: Acquire a license directly through [Aspose Purchase Page](https://www.aspose.com/purchase/default.aspx).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

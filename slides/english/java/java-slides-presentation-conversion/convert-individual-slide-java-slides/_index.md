@@ -8,7 +8,9 @@ url: /java/presentation-conversion/convert-individual-slide-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Individual Slide in Java Slides
@@ -180,6 +182,7 @@ You can extend the `CustomFormattingController` class to handle shape-specific f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

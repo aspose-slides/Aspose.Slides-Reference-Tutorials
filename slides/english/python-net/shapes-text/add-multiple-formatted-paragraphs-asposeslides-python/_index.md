@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add and Format Multiple Paragraphs in PowerPoint Using Aspose.Slides for Python
 
@@ -180,7 +182,11 @@ A5: Use resource management techniques such as disposing of objects when they're
 ## Resources
 - **Documentation**: [Aspose.Slides Documentation](https://docs.aspose.com/slides/python/)
 - **GitHub Examples**: Explore code examples on Aspose's GitHub repository.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

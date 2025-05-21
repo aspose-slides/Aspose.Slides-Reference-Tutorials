@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering SmartArt in Python with Aspose.Slides: Create Dynamic Presentations
 
@@ -161,7 +163,11 @@ A: Make sure you're using exception handling in Python (try-except blocks) to ca
 - **Temporary License**: Obtain a temporary license to fully evaluate the product.
 
 **Support Forum**: If you encounter issues, visit the [Aspose Support Forum](https://forum.aspose.com/c/slides/11) for assistance.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

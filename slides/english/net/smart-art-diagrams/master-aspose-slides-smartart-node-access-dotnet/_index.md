@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides: SmartArt Node Access in .NET
 
@@ -182,6 +184,9 @@ You've learned how to load and traverse presentations, access SmartArt nodes, an
 Embrace the power of Aspose.Slides for .NET to elevate your presentation automation capabilities today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

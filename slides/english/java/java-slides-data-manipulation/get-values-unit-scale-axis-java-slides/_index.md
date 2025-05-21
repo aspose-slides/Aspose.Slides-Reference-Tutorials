@@ -8,7 +8,9 @@ url: /java/data-manipulation/get-values-unit-scale-axis-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Get Values and Unit Scale from Axis in Java Slides
@@ -132,6 +134,7 @@ You can find comprehensive documentation and additional resources on the [Aspose
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Enhancing Presentations: Adding Math Shapes to Slides with Aspose.Slides for Java
 
@@ -202,7 +204,11 @@ Yes, Aspose.Slides supports various formats including PDF and image files.
 - **Documentation:** [Aspose.Slides for Java Documentation](https://reference.aspose.com/slides/java/)
 - **Download:** [Latest Releases](https://releases.aspose.com/slides/java/)
 - **Purchase:** [Buy Aspose.Slides for Java](https://purchase.aspose.com/buy)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -14,10 +14,16 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 "# Mastering Aspose.Slides .NET: Retrieve and Manage Effective Text Frame Format Data in PowerPoint\n\n## Introduction\nAre you looking to automate the extraction and management of text frame properties within your PowerPoint slides? **Aspose.Slides for .NET** makes this task straightforward. In this tutorial
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

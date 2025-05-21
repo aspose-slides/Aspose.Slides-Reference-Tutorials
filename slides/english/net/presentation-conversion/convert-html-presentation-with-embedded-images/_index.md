@@ -8,7 +8,9 @@ url: /net/presentation-conversion/convert-html-presentation-with-embedded-images
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert HTML Presentation with Embedded Images
@@ -125,6 +127,7 @@ Aspose.Slides for .NET supports conversion to various formats, including PDF, im
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Generate Thumbnails of PowerPoint Slide Shapes with Aspose.Slides .NET
 
@@ -151,7 +153,11 @@ Explore further features of Aspose.Slides and consider integrating it into large
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Implementing Aspose.Slides for .NET into your project opens up numerous possibilities. Give it a try and start enhancing your applications today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

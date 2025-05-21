@@ -8,7 +8,9 @@ url: /java/java-powerpoint-table-manipulation/create-standard-tables-powerpoint-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Standard Tables in PowerPoint with Java
@@ -111,6 +113,7 @@ Yes, Aspose.Slides for Java supports all major PowerPoint formats including PPT,
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

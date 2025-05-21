@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Retrieve PowerPoint Charts with Aspose.Slides for Java
 
@@ -181,7 +183,11 @@ A5: Visit [Aspose's support forum](https://forum.aspose.com/c/slides/11) for ass
 - **Temporary License**: [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 
 Happy charting with Aspose.Slides for Java!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

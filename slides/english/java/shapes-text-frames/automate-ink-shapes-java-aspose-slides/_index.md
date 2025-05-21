@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Automate Ink Shape Customization in Java Using Aspose.Slides for PowerPoint Presentations
 
@@ -196,6 +198,9 @@ Batching modifications or optimizing your code logic can help mitigate potential
 - **Temporary License**: [Apply for a Temporary License](https://purchase.aspose.com/temporary-license/) 
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

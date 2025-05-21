@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Access SmartArt in Java Using Aspose.Slides
 
@@ -208,7 +210,11 @@ As a next step, try integrating these techniques into your projects and experime
    - It's a powerful library for managing presentation files in Java.
 2. **How do I install Aspose.Slides?**
    - Follow the setup steps using Maven, Gradle, or direct download as described above.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

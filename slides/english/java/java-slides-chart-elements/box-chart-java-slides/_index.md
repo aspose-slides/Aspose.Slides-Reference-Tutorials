@@ -8,7 +8,9 @@ url: /java/chart-elements/box-chart-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Box Chart in Java Slides
@@ -158,6 +160,7 @@ The `QuartileMethodType.Exclusive` setting specifies that the quartile calculati
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

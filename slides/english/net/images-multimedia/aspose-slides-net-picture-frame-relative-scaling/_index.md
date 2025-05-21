@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Picture Frames with Relative Scaling in Aspose.Slides .NET: A Step-by-Step Guide
 
@@ -124,7 +126,11 @@ This ensures your image scales correctly, maintaining a consistent aspect ratio.
 Finally, save the presentation with the modified picture frame:
 
 ```csharp\presentation.Save(dataDir + "Adding Picture Frame with Relative Scale_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

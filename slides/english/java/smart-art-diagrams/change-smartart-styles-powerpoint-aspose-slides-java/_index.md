@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Change SmartArt Styles in PowerPoint Using Aspose.Slides for Java
 Transform your PowerPoint presentations by seamlessly changing SmartArt styles using Aspose.Slides for Java. This comprehensive guide will walk you through the process, empowering you to enhance visual appeal and professionalism effortlessly.
@@ -167,7 +169,11 @@ By following this tutorial, you've learned how to leverage Aspose.Slides for Jav
 - **Support:** [Aspose Forum Support](https://forum.aspose.com/c/slides/11) 
 
 By mastering these features, you're well on your way to creating dynamic and engaging PowerPoint presentations with Aspose.Slides for Java. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

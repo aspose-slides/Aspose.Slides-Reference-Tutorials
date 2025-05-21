@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Export Mathematical Expressions to LaTeX with Aspose.Slides for .NET
 
@@ -103,7 +105,7 @@ var mathParagraph = ((MathPortion)autoShape.TextFrame.Paragraphs[0].Portions[0])
 
 #### Step 4: Construct a Formula Using LaTeX Syntax
 
-Use `MathematicalText` to construct your formula with LaTeX syntax. This example creates the equation \(a^2 + b^2 = c^2\).
+Use `MathematicalText` to construct your formula with LaTeX syntax. This example creates the equation (a^2 + b^2 = c^2).
 
 ```csharp
 mathParagraph.Add(new MathematicalText("a").SetSuperscript("2")
@@ -170,6 +172,9 @@ You've learned how to convert mathematical paragraphs into LaTeX using Aspose.Sl
 Embark on your journey to mastering mathematical presentations with Aspose.Slides for .NET today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

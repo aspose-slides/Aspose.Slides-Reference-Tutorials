@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Change PowerPoint SmartArt Colors Using Aspose.Slides for Python
 
@@ -163,7 +165,11 @@ Next steps include exploring other features offered by Aspose.Slides, such as ad
 - **Free Trial:** Try out Aspose.Slides without limitations using the free trial available [here](https://releases.aspose.com/slides/python-net/).
 - **Temporary License:** Evaluate full features with a temporary license by visiting [this page](https://purchase.aspose.com/temporary-license/).
 - **Support:** Need help? Join the discussion on [Aspose forums](https://forum.aspose.com/c/slides/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

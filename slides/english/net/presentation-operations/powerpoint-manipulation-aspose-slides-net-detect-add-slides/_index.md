@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering PowerPoint File Management with Aspose.Slides .NET: Detect Formats and Add Slides Easily
 
@@ -201,7 +203,11 @@ Ready to take your PowerPoint management to the next level? Start implementing t
 - **Support:** [https://forum.aspose.com/c/slides/11](https://forum.aspose.com/c/slides/11)
 
 With this comprehensive guide, you're well-equipped to leverage Aspose.Slides for .NET in your projects. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

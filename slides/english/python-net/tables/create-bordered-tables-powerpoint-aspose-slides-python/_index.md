@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create and Format Bordered Tables in PowerPoint Using Aspose.Slides for Python
 
@@ -172,6 +174,9 @@ A5: Yes, you can set individual widths using `border_top.width`, `border_bottom.
 - **Temporary License**: Obtain a temporary
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

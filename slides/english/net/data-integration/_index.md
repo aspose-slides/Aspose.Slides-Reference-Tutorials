@@ -4,8 +4,11 @@ description: "Step-by-step tutorials for connecting PowerPoint presentations to 
 weight: 16
 url: "/net/data-integration/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Data Integration Tutorials for Aspose.Slides .NET
 
@@ -32,7 +35,11 @@ Learn to enhance presentations using Aspose.Slides .NET. Add hyperlinks, manage 
 - [Download Aspose.Slides for Net](https://releases.aspose.com/slides/net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/shape-geometry-and-positioning-in-slides/getting-effective-bevel-data/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Unveiling the Magic of Effective Bevel Data Retrieval in Slides
@@ -79,6 +81,7 @@ Seek assistance from the Aspose.Slides for .NET community on the [support forum]
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

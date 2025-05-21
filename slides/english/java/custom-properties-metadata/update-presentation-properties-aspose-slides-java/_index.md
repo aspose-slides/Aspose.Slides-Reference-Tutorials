@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Update Presentation Properties Using Aspose.Slides Java
 
@@ -212,7 +214,11 @@ When working with Aspose.Slides, consider the following tips to ensure optimal p
 ## Conclusion
 
 By following this guide, you can efficiently update presentation properties using Aspose.Slides Java. Whether you're managing a few presentations or handling large batches, this tool streamlines the process, saving time and ensuring consistency across your documents.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

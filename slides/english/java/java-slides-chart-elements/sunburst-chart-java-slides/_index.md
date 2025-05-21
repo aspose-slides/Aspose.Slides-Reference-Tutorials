@@ -8,7 +8,9 @@ url: /java/chart-elements/sunburst-chart-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Sunburst Chart in Java Slides
@@ -178,6 +180,7 @@ Yes, you can create interactive Sunburst charts with hyperlinks by adding hyperl
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

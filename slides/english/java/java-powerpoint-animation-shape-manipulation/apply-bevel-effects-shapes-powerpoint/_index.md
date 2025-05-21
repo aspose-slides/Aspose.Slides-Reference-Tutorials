@@ -8,7 +8,9 @@ url: /java/java-powerpoint-animation-shape-manipulation/apply-bevel-effects-shap
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Apply Bevel Effects on Shapes in PowerPoint
@@ -102,6 +104,7 @@ You can get support from the Aspose community and support team on their [support
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

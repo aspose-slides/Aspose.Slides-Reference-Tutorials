@@ -8,7 +8,9 @@ url: /net/shape-alignment-and-formatting-in-slides/creating-sketched-shapes/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Stunning Sketched Shapes with Aspose.Slides
@@ -84,6 +86,7 @@ Yes, temporary licenses are available [here](https://purchase.aspose.com/tempora
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

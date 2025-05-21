@@ -8,7 +8,9 @@ url: /net/notes-slide-manipulation/remove-notes-at-specific-slide/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # How to Remove Notes at a Specific Slide with Aspose.Slides .NET
@@ -92,6 +94,7 @@ Yes, you can explore Aspose.Slides by downloading a free trial from [here](https
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

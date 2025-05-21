@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Mathematical Shapes in Java Presentations Using Aspose.Slides for Java
 
@@ -129,7 +131,7 @@ IMathBlock mathBlock = new MathematicalText("c")
 
 mathParagraph.add(mathBlock);
 ```
-This code constructs and adds the expression \(c^2 = a^2 + b^2\) to your slide.
+This code constructs and adds the expression (c^2 = a^2 + b^2) to your slide.
 
 ### Save Presentation
 
@@ -200,7 +202,11 @@ Ready to create stunning math-based slides? Start implementing these techniques 
 - [Purchase Licenses](https://purchase.aspose.com/buy)
 - [Free Trial and Temporary License](https://releases.aspose.com/slides/java/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

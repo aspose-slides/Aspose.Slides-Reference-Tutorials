@@ -8,7 +8,9 @@ url: /net/printing-and-rendering-in-slides/rendering-emoji-special-characters/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Rendering Emoji and Special Characters in Aspose.Slides
@@ -61,6 +63,7 @@ Yes, obtain a temporary license [here](https://purchase.aspose.com/temporary-lic
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

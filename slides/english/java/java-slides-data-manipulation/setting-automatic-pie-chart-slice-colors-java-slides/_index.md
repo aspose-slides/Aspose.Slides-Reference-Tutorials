@@ -8,7 +8,9 @@ url: /java/data-manipulation/setting-automatic-pie-chart-slice-colors-java-slide
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Setting Automatic Pie Chart Slice Colors in Java Slides
@@ -208,6 +210,7 @@ You can adjust the font size, boldness, and italic style as needed.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

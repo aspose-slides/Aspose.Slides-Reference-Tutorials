@@ -6,8 +6,11 @@ description: Learn how to programmatically modify the transparency of tables in 
 keywords: [Aspose.Slides, PowerPoint, .NET, C#, table transparency, presentation formatting, table properties, PowerPoint automation]
 url: /net/tables/table-transparency/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Table Transparency in PowerPoint with Aspose.Slides
@@ -15,9 +18,11 @@ url: /net/tables/table-transparency/
 Aspose.Slides for .NET allows developers to manipulate PowerPoint presentations programmatically. This example shows how to adjust the transparency level of a table in a presentation, which can be useful for creating visually appealing slides where text or other elements need to show through the table.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/tables/table-transparency" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -46,7 +51,9 @@ Aspose.Slides for .NET allows developers to manipulate PowerPoint presentations 
 - [Download Aspose.Slides for .NET](https://releases.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

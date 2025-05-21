@@ -4,8 +4,11 @@ description: "Step-by-step tutorials for working with shapes, text frames, forma
 weight: 4
 url: "/java/shapes-text-frames/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Shapes and Text Manipulation Tutorials for Aspose.Slides Java
 
@@ -266,7 +269,11 @@ Learn how to rotate text in PowerPoint slides with Aspose.Slides for Java. Follo
 - [Download Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering PowerPoint Automation in C#: Adding an Ellipse Shape with Aspose.Slides .NET
 
@@ -166,7 +168,11 @@ As a next step, explore more advanced features of Aspose.Slides by delving into 
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 Explore these resources to deepen your understanding and capabilities with Aspose.Slides for .NET. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

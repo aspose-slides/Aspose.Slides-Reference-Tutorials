@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Extract Chart Data from PowerPoint Presentations Using Aspose.Slides Java
 
@@ -208,6 +210,9 @@ Ready to take your skills further? Try implementing this solution in your projec
 Dive into the world of data extraction with Aspose.Slides Java and transform how you interact with your PowerPoint presentations.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

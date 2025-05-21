@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create and Customize Radar Charts in PowerPoint Using Aspose.Slides for Python
 
@@ -251,7 +253,11 @@ with Presentation() as pres:
 ### Conclusion
 
 By following this guide, you've learned how to create, configure, and customize radar charts in PowerPoint using Aspose.Slides for Python. These skills will help you present complex data more effectively, making your presentations more engaging and informative. For further customization options, explore the [Aspose.Slides documentation](https://docs.aspose.com/slides/python/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

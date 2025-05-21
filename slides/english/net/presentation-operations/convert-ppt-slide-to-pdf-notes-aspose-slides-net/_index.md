@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PPT Slide to PDF with Notes Using Aspose.Slides for .NET
 
@@ -178,7 +180,11 @@ Ready to take the next step? Explore more functionalities of Aspose.Slides by di
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 By following this guide, you've equipped yourself to handle presentations with ease using Aspose.Slides for .NET. Dive deeper into the library's capabilities and transform how you manage and share your presentation content!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

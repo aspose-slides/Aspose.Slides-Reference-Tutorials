@@ -8,7 +8,9 @@ url: /net/presentation-conversion/password-protect-presentations-convert-to-pass
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Presentations to Password-Protected PDF
@@ -87,6 +89,7 @@ You can access the documentation for Aspose.Slides for .NET at [here](https://re
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Table Manipulation in PowerPoint PPTX Files Using Aspose.Slides for Java
 Unlock the potential of your presentations by mastering table manipulation in PowerPoint (PPTX) files using Aspose.Slides for Java. This detailed guide will walk you through creating, accessing, and modifying tables within a PPTX document.
@@ -180,6 +182,9 @@ You've now learned how to leverage Aspose.Slides for Java to manage tables in PP
 Embark on your journey with Aspose.Slides for Java today and transform how you handle presentation files in your projects!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

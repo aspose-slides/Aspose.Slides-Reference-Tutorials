@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering SmartArt Custom Child Nodes in PowerPoint Using Aspose.Slides for Python
 
@@ -178,6 +180,9 @@ Ready to take this a step further? Try implementing these techniques in your nex
 With this guide, you’re well on your way to mastering SmartArt manipulation in PowerPoint using Aspose.Slides for Python. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

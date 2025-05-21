@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create a Line Chart with Markers in C# Using Aspose.Slides for .NET
 
@@ -168,7 +170,11 @@ In this tutorial, you've learned how to create a line chart with markers using A
 - Experiment with different chart types available in Aspose.Slides.
 - Customize the appearance of charts for better visual impact.
 - Explore additional documentation on Aspose.Slides for more advanced functionalities.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

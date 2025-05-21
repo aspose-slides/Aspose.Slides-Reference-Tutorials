@@ -6,17 +6,22 @@ description: Learn how to create PowerPoint presentations with custom-formatted 
 keywords: [Aspose.Slides, .NET, PowerPoint, Text Box, Font Formatting, C#, Presentation API, Text Styling, AutoShape, Slide Creation]
 url: /net/text/font-family/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Creating Formatted Text Boxes in PowerPoint with Aspose.Slides
 
 Aspose.Slides for .NET is a powerful API that allows developers to create, modify, and convert Microsoft PowerPoint presentations without requiring Microsoft Office installation. This example demonstrates how to create a presentation with a formatted text box, applying custom font styles, sizes, and colors to enhance visual appeal.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/text/font-family" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -48,7 +53,9 @@ Aspose.Slides for .NET is a powerful API that allows developers to create, modif
 - [Aspose.Slides Free Support Forum](https://forum.aspose.com/c/slides/11)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

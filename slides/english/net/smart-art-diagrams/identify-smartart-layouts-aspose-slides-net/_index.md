@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Identify and Access SmartArt Layouts in PowerPoint Using Aspose.Slides for .NET
 
@@ -181,6 +183,9 @@ To further explore Aspose.Slides' features, consider diving into its extensive d
 Explore these resources to deepen your understanding and enhance your implementation of Aspose.Slides for .NET in your projects. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

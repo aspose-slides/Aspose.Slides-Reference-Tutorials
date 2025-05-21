@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint Formatting with Aspose.Slides .NET: A Comprehensive Guide
 
@@ -134,7 +136,11 @@ port.PortionFormat.FillFormat.SolidFillColor.Color = Color.Blue;
 ##### Step 4: Save the Presentation
 ```csharp
 pres.Save(dataDir + "/pptxFont_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

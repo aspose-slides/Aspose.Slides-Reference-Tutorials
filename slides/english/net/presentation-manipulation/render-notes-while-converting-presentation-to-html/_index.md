@@ -8,7 +8,9 @@ url: /net/presentation-manipulation/render-notes-while-converting-presentation-t
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Render Notes while Converting Presentation to HTML
@@ -90,6 +92,7 @@ By following these steps, you can easily convert your PowerPoint presentations t
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

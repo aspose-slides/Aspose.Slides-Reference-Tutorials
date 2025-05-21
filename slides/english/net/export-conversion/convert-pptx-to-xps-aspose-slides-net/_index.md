@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PPTX to XPS Using Aspose.Slides .NET: A Complete Guide for Professionals
 
@@ -147,7 +149,11 @@ Consider optimizing your code by processing slides in smaller batches or leverag
 - **Free Trial**: [Try Aspose.Slides](https://releases.aspose.com/slides/net/)
 - **Temporary License**: [Acquire Here](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Remove a Segment from Shapes Using Aspose.Slides in Python
 
@@ -98,7 +100,11 @@ shape.set_geometry_path(path)
 ```python
 # Save the updated presentation to an output directory
 pres.save("YOUR_OUTPUT_DIRECTORY/shapes_geometry_path_remove_at_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

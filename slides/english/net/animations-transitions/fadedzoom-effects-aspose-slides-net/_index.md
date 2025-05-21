@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Implement FadedZoom Effects in PowerPoint with Aspose.Slides .NET
 ## Animations & Transitions
@@ -181,6 +183,9 @@ To further enhance your skills with Aspose.Slides, explore these resources:
 - **Download:** Get the latest version at [Releases Page](https://releases.aspose.com/slides/net/")
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

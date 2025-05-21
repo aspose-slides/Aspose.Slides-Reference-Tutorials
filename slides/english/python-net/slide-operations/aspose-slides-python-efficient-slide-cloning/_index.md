@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Clone PowerPoint Slides Efficiently Using Aspose.Slides for Python
 
@@ -174,6 +176,9 @@ Ready to dive deeper? Try implementing these solutions in your projects and watc
 With this comprehensive guide, you're now equipped to effectively clone slides using Aspose.Slides for Python. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

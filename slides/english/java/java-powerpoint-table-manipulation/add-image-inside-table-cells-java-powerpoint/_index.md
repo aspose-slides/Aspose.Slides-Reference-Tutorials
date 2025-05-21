@@ -8,7 +8,9 @@ url: /java/java-powerpoint-table-manipulation/add-image-inside-table-cells-java-
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Add Image Inside Table Cells in Java PowerPoint
@@ -114,6 +116,7 @@ You can purchase it from the [Aspose website](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

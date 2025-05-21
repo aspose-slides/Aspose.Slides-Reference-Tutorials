@@ -8,7 +8,9 @@ url: /java/presentation-properties/presentation-slide-show-setup-in-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Presentation Slide Show Setup in Java Slides
@@ -156,6 +158,7 @@ You can explore additional slide show settings provided by Aspose.Slides for Jav
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

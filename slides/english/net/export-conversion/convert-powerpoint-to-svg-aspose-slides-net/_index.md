@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PowerPoint to SVG Using Aspose.Slides .NET
 
@@ -101,7 +103,11 @@ Create a file stream to write the slide content into an SVG file:
 
 ```csharp
 using (FileStream svgStream = new FileStream(dataDir + "/pptxFileName.svg\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

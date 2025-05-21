@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-alignment-formatting/export-html-text-powerpoint
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Export HTML Text in PowerPoint using Java
@@ -88,6 +90,7 @@ Visit the [Aspose.Slides for Java documentation](https://reference.aspose.com/sl
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

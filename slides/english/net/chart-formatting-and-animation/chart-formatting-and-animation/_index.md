@@ -8,7 +8,9 @@ url: /net/chart-formatting-and-animation/chart-formatting-and-animation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Chart Formatting and Animation in Aspose.Slides
@@ -183,6 +185,7 @@ For support and questions, visit the Aspose.Slides forum at [https://forum.aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

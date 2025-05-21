@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Retrieve Unique Shape IDs in .NET Using Aspose.Slides: A Step-by-Step Guide
 
@@ -174,7 +176,11 @@ For more information and tools, visit the following resources:
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 By implementing this guide, you're now equipped to handle shape identification in .NET applications with Aspose.Slides. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/slide-background-manipulation/change-slide-background-normal/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # How to Change the Background of a Slide in Aspose.Slides .NET
@@ -109,6 +111,7 @@ If you need a temporary license for your project, you can get one from [here](ht
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

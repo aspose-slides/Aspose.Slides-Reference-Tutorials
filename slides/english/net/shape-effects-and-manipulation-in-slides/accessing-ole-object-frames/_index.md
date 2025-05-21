@@ -8,7 +8,9 @@ url: /net/shape-effects-and-manipulation-in-slides/accessing-ole-object-frames/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Accessing OLE Object Frames in Presentation Slides with Aspose.Slides
@@ -109,6 +111,7 @@ Unlock the potential of OLE object frames with Aspose.Slides and transform your 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -4,8 +4,11 @@ description: "Learn to create and customize SmartArt graphics, diagrams, and org
 weight: 11
 url: "/python-net/smart-art-diagrams/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint SmartArt and Diagrams Tutorials for Aspose.Slides Python
 
@@ -83,7 +86,11 @@ Learn how to change SmartArt node text in PowerPoint presentations using Python 
 - [Download Aspose.Slides for Python-net](https://releases.aspose.com/slides/python-net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

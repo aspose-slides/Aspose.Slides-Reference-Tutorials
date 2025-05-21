@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-thumbnail-creation/create-bounds-shape-thumbnai
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Create Bounds Shape Thumbnail
@@ -67,6 +69,7 @@ Yes, you can download a free trial version from [here](https://releases.aspose.c
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

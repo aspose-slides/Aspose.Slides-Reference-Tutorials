@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Java Chart Modifications: A Comprehensive Guide to Using Aspose.Slides for Java
 
@@ -161,7 +163,11 @@ By following this guide, you’ve learned how to modify charts in PowerPoint usi
 - **Support**: For help, visit the [Aspose Support Forum](https://forum.aspose.com/c/slides/11).
 
 Happy coding and chart modifying!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -4,8 +4,11 @@ description: "Complete tutorials for adding, editing, and managing presenter not
 weight: 12
 url: "/python-net/comments-notes/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # PowerPoint Comments and Notes Tutorials for Aspose.Slides Python
 
@@ -41,7 +44,11 @@ Learn how to efficiently manage comment hierarchies in PowerPoint presentations 
 - [Download Aspose.Slides for Python-net](https://releases.aspose.com/slides/python-net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

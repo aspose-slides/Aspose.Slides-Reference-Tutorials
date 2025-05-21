@@ -8,7 +8,9 @@ url: /net/slide-transition-effects/set-transition-effects/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # How to Set Transition Effects on Slide in Aspose.Slides for .NET
@@ -122,9 +124,11 @@ You can find detailed documentation and access the support community on the [Asp
 ### 5. Is there a free trial available for Aspose.Slides for .NET?
 
 Yes, you can explore Aspose.Slides for .NET by downloading a free trial from [here](https://releases.aspose.com/).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

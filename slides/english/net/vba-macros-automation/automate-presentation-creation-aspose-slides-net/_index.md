@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint Presentation Creation Using Aspose.Slides for .NET
 
@@ -194,7 +196,11 @@ Next steps include experimenting with different templates and datasets or integr
    - A library that enables developers to work with PowerPoint presentations programmatically without needing Microsoft Office installed.
 2. **How do I obtain a license for Aspose.Slides?**
    - Visit [purchase aspose.com](https://purchase.aspose.com/buy) to get more information on purchasing or requesting a trial license.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add VBA Macros to PowerPoint Using Aspose.Slides & Python
 
@@ -205,6 +207,9 @@ Ready to take it further? Try implementing these techniques in your next project
 - **Temporary License**: Apply for a temporary license on the Aspose website.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

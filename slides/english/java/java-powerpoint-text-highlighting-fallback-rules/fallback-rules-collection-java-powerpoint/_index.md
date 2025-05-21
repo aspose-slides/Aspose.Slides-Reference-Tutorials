@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-highlighting-fallback-rules/fallback-rules-colle
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Fallback Rules Collection in Java PowerPoint
@@ -83,6 +85,7 @@ For support, visit the Aspose.Slides forum [here](https://forum.aspose.com/c/sli
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

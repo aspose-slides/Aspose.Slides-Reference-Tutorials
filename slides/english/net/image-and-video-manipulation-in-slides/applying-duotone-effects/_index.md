@@ -8,7 +8,9 @@ url: /net/image-and-video-manipulation-in-slides/applying-duotone-effects/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mastering Duotone Effects in Aspose.Slides for .NET
@@ -91,6 +93,7 @@ Yes, you can download a free trial version [here](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

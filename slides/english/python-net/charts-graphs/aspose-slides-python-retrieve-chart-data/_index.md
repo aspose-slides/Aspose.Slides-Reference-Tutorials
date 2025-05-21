@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Extract Chart Data from PowerPoint Using Aspose.Slides and Python
 
@@ -187,7 +189,11 @@ data += "FAQs updated."
 This comprehensive guide should help you harness the power of Aspose.Slides for Python to manage and extract chart data efficiently. Happy coding!
 
 data += "Content optimized."
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

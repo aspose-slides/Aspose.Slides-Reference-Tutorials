@@ -6,8 +6,11 @@ description: Learn how to create and customize line shapes in PowerPoint present
 keywords: [Aspose.Slides, .NET, PowerPoint, Line Shape, Formatting, Arrowheads, Line Style, C#]
 url: /net/shapes/add-arrow-shaped-line/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Custom Line Shapes in PowerPoint with Aspose.Slides
@@ -17,9 +20,11 @@ Aspose.Slides for .NET provides powerful capabilities for creating and manipulat
 With Aspose.Slides, you can easily add professional-looking line shapes to your presentations without requiring Microsoft PowerPoint to be installed on your machine. This is particularly useful for automated report generation or server-side presentation creation.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/shapes/add-arrow-shaped-line" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -41,8 +46,11 @@ With Aspose.Slides, you can easily add professional-looking line shapes to your 
 
 - [Aspose.Slides for .NET Documentation](https://docs.aspose.com/slides/net/)
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

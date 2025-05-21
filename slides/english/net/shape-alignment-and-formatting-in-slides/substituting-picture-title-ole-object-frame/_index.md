@@ -8,7 +8,9 @@ url: /net/shape-alignment-and-formatting-in-slides/substituting-picture-title-ol
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Embedding OLE Objects Guide with Aspose.Slides for .NET
@@ -93,6 +95,7 @@ While there are size limitations, they are generally generous. It's recommended 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

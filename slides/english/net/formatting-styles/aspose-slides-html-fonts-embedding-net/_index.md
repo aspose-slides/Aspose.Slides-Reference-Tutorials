@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Embedding Custom HTML Headers and Fonts in Aspose.Slides for .NET
 
@@ -71,12 +73,18 @@ The HTML header is crucial for defining how your document looks when converted. 
 **1. Define the Header Template**
 Create a constant string that defines your HTML structure, including necessary meta tags and links to external stylesheets.
 ```csharp
-const string Header = "<!DOCTYPE html>\n" +
-                      "<html>\n" +
-                      "<head>\n" +
-                      "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\">\n" +
-                      "<meta http-equiv=\"X-UA-Compatible\" content=\"IE=9\">\n" +
-                      "<link rel=\"stylesheet\" type=\"text/css\" href=\"{0}\">\n"; // Dynamic CSS link
+const string Header = "<!DOCTYPE html>
+" +
+                      "<html>
+" +
+                      "<head>
+" +
+                      "<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+" +
+                      "<meta http-equiv="X-UA-Compatible" content="IE=9">
+" +
+                      "<link rel="stylesheet" type="text/css" href="{0}">
+"; // Dynamic CSS link
 ```
 
 **2. Specify the Path to Your CSS File**
@@ -161,6 +169,9 @@ Ready to try it out? Implement the solution in your next project!
 Embark on your journey to enhance document presentations with Aspose.Slides and take full control of how your content is displayed online!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

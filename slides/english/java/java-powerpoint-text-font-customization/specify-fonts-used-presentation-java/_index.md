@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-font-customization/specify-fonts-used-presentati
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Specify Fonts Used in Presentation with Java
@@ -81,6 +83,7 @@ Yes, you can load fonts from external sources or memory as demonstrated in this 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

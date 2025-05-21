@@ -8,7 +8,9 @@ url: /java/java-powerpoint-font-management/effective-text-style-data-java-powerp
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Effective Text Style Data in Java PowerPoint
@@ -86,6 +88,7 @@ You can visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) fo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

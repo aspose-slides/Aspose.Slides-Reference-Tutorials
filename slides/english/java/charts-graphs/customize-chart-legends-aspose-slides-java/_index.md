@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Customize Chart Legends in Aspose.Slides for Java
 
@@ -171,7 +173,11 @@ Ready to take your presentations to the next level? Try implementing these custo
 - **Purchase:** Buy a license to unlock full capabilities ([Link](https://purchase.aspose.com/buy)).
 - **Free Trial & Temporary License:** Start with free trials and apply for temporary licenses ([Free Trial Link](https://releases.aspose.com/slides/java/), [Temporary License Link](https://purchase.aspose.com/temporary-license/)).
 - **Support:** Get help from the community on Aspose's support forum ([Link](https://forum.aspose.com/c/slides/11)).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

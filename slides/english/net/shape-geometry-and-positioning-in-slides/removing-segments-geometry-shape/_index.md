@@ -8,7 +8,9 @@ url: /net/shape-geometry-and-positioning-in-slides/removing-segments-geometry-sh
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Shape Segments - Aspose.Slides .NET Tutorial
@@ -78,6 +80,7 @@ Visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) for commun
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

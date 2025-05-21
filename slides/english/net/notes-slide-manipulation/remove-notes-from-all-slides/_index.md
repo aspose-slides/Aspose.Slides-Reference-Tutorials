@@ -8,7 +8,9 @@ url: /net/notes-slide-manipulation/remove-notes-from-all-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Notes from All Slides
@@ -103,9 +105,11 @@ You can request a temporary license for testing and development purposes from [h
 ### 5. Does Aspose.Slides for .NET support the latest PowerPoint formats?
 
 Yes, Aspose.Slides for .NET supports a wide range of PowerPoint formats, including the latest versions. You can refer to the documentation for details.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

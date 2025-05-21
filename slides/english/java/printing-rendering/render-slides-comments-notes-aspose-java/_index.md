@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Render Slides with Comments and Notes in Java Using Aspose.Slides
 ## Introduction
@@ -135,7 +137,11 @@ To further explore Aspose.Slides capabilities, consider experimenting with diffe
 - **Download:** Get the latest version from [Aspose.Slides Downloads](https://releases.aspose.com/slides/java/).
 - **Purchase and Trial Licenses:** Visit [Aspose Purchase Page](https://purchase.aspose.com/buy) or start with a free trial at [Aspose Free Trial](https://releases.aspose.com/slides/java/).
 - **Support Forum:** For questions, check out the [Aspose Support Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

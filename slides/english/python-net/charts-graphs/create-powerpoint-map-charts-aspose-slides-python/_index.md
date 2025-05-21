@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create PowerPoint Map Charts with Aspose.Slides for Python
 
@@ -226,6 +228,9 @@ Try implementing these techniques in your next project and unlock the full poten
 - [Free Trial Version](https://www.aspose.com/purchase/default.aspx?product=slides&fileformat=pptx&platform=python)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

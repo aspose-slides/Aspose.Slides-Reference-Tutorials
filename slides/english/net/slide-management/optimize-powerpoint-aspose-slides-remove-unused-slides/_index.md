@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Remove Unused Master and Layout Slides in PowerPoint Using Aspose.Slides for .NET
 
@@ -180,7 +182,11 @@ Consider exploring further features within the Aspose.Slides library to enhance 
 - **Support Forum:** [Join the Community](https://forum.aspose.com/c/slides/11)
 
 Ready to optimize your PowerPoint presentations? Start by implementing these solutions with Aspose.Slides for .NET today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

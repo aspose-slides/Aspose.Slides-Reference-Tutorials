@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create and Manipulate Charts in Java Presentations with Aspose.Slides for Java
 
@@ -234,6 +236,9 @@ Yes, Aspose.Slides can be used in server-side Java applications to generate and 
 Customization options include modifying colors, fonts, and other style elements directly through the API.
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

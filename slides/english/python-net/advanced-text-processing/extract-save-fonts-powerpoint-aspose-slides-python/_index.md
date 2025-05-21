@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Extract and Save Fonts from PowerPoint Presentations Using Aspose.Slides in Python
 
@@ -168,6 +170,9 @@ For more information and to download the latest version of Aspose.Slides for Pyt
 With these resources, you're well-equipped to delve deeper into the world of PowerPoint manipulation using Aspose.Slides for Python. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

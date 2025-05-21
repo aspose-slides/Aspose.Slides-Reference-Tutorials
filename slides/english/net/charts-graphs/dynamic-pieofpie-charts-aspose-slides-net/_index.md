@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create Dynamic PieOfPie Charts in PowerPoint Using Aspose.Slides for .NET
 
@@ -193,7 +195,11 @@ Ready to elevate your presentation skills? Implement these solutions today!
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 Explore these resources to deepen your understanding and expand your capabilities with Aspose.Slides. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

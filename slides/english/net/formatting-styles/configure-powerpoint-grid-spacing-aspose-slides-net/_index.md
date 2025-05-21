@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint Grid Spacing Configuration Using Aspose.Slides .NET
 
@@ -169,7 +171,11 @@ For further reading and tools:
 - **Support Forum:** Access community help and solutions.
 
 This tutorial aims to make your experience with configuring PowerPoint presentations as smooth as possible. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

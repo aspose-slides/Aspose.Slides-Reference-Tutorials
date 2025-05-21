@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Customize Table Cell Text Formatting in Aspose.Slides .NET for Enhanced Presentations
 
@@ -227,7 +229,11 @@ A: Visit the Aspose forum for community and official support.
 - **Support:** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Take the next step and start experimenting with Aspose.Slides .NET to create stunning presentations that captivate your audience!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

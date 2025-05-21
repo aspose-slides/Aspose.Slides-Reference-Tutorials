@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering PowerPoint Table Transparency Manipulation with Aspose.Slides in Java
 
@@ -215,6 +217,9 @@ A5: Always use a compatible JDK version for your Aspose.Slides library version, 
 Dive into these resources to further your understanding and capabilities with Aspose.Slides Java. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

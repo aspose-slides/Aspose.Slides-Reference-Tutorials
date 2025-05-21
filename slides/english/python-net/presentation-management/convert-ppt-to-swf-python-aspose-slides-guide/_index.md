@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Convert PPT to SWF Using Python: A Step-by-Step Guide with Aspose.Slides
 ## Introduction
@@ -135,7 +137,11 @@ A5: Check error logs for specific messages, ensure all paths are correct, and ve
 - **Download**: [Aspose.Slides Releases](https://releases.aspose.com/slides/python-net/)
 - **Purchase**: [Buy Aspose.Slides](https://purchase.aspose.com/buy)
 - **Free Trial**: [Aspose.Slides Free Trial](https://releases.aspose.com/slides/python-net/free-trial)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

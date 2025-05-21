@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint Chart Data Extraction with Aspose.Slides in Python
 
@@ -179,7 +181,11 @@ A5: Check your presentation structure, ensure all dependencies are installed cor
 - **Free Trial**: Start with a free trial to explore capabilities.
 - **Temporary License**: Acquire a temporary license to unlock all features.
 - **Support**: Visit the Aspose community forums for support and discussions.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

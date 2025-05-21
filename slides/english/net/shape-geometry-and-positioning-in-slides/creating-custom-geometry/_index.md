@@ -8,7 +8,9 @@ url: /net/shape-geometry-and-positioning-in-slides/creating-custom-geometry/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating Custom Geometry in C# with Aspose.Slides for .NET
@@ -104,6 +106,7 @@ You can buy Aspose.Slides for .NET [here](https://purchase.aspose.com/buy).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

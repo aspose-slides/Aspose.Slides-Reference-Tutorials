@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Export PowerPoint Shapes to SVG Using Aspose.Slides .NET: A Complete Guide
 
@@ -164,7 +166,11 @@ Implement this solution in your projects today to enhance how you handle graphic
 - **Purchase & Licensing**: Visit [Aspose Purchase](https://purchase.aspose.com/buy) for license options.
 - **Free Trial**: Start with a free trial to test Aspose.Slides [here](https://releases.aspose.com/slides/net/).
 - **Support**: Join the community or ask questions at [Aspose Support Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

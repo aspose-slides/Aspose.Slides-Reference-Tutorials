@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides Java: Add and Style Slide Backgrounds with Duotone Effects
 
@@ -207,7 +209,11 @@ public class GetEffectiveDuotoneColors {
 
 ## Conclusion
 By following this guide, you've learned how to enhance your presentations using Aspose.Slides for Java. You can now add custom images as slide backgrounds and apply stylish duotone effects to create visually compelling slides. Experiment with different colors and images to find the perfect combination for your presentations.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

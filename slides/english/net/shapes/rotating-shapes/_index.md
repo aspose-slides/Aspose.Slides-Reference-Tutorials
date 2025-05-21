@@ -6,8 +6,11 @@ description: Learn how to create and rotate rectangle shapes in PowerPoint prese
 keywords: [Aspose.Slides, PowerPoint, .NET, C#, Rectangle Shape, Shape Rotation, PPTX, Presentation]
 url: /net/shapes/rotating-shapes/
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Creating and Rotating Rectangle Shapes in PowerPoint
@@ -17,9 +20,11 @@ Aspose.Slides for .NET is a powerful API that allows developers to create, modif
 With Aspose.Slides, you can programmatically add various shapes to your slides and apply transformations like rotation. This functionality is particularly useful for creating dynamic presentations with precise control over visual elements.
 
 ---
+
 {{< tutorial-widget sourcePath="slides/net/shapes/rotating-shapes" >}}
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 ## Installation Instructions
 
@@ -44,7 +49,9 @@ With Aspose.Slides, you can programmatically add various shapes to your slides a
 - [Aspose.Slides for .NET API Reference](https://reference.aspose.com/slides/net/)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

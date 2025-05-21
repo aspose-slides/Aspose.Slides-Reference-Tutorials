@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint Shapes with Aspose.Slides for .NET: A Comprehensive Guide
 
@@ -128,7 +130,11 @@ Loop through each adjustment point, demonstrating how to retrieve and potentiall
 foreach (var adj in shape.Adjustments)
 {
     // Example: Console.WriteLine("\	Type for point {0} is \"{1}\"\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

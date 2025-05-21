@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create Sketchy Shapes in PowerPoint Using Python and Aspose.Slides
 
@@ -159,7 +161,11 @@ Next, consider exploring other functionalities like animations or interactive el
 - [Support Forum](https://forum.aspose.com/c/slides/11)
 
 Explore these resources to deepen your understanding and capabilities with Aspose.Slides for Python.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Master Shape Cloning in PowerPoint Using Aspose.Slides for .NET: A Developer's Guide
 
@@ -196,7 +198,11 @@ For further reading and resources:
 - **Support**: [Aspose Forum](https://forum.aspose.com/c/slides/11)
 
 Now that you're equipped with this knowledge, go ahead and start cloning shapes in your PowerPoint presentations like a pro!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

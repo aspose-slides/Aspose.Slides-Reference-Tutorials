@@ -8,7 +8,9 @@ url: /java/java-powerpoint-font-management-text-replacement/replace-fonts-explic
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Replace Fonts Explicitly in Java PowerPoint
@@ -96,6 +98,7 @@ You can get support from the [Aspose.Slides Support Forum](https://forum.aspose.
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

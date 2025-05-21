@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Switch Rows and Columns in a Chart Using Aspose.Slides for Java
 
@@ -173,7 +175,11 @@ Explore more features of Aspose.Slides, such as adding animations or customizing
 - Free Trial: [Try Aspose.Slides for Java](https://releases.aspose.com/slides/java/)
 - Temporary License: [Request a Temporary License](https://purchase.aspose.com/temporary-license/)
 - Support: [Aspose Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

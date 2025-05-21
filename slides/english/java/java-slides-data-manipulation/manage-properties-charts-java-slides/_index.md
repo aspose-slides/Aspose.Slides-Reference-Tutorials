@@ -8,7 +8,9 @@ url: /java/data-manipulation/manage-properties-charts-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Manage Properties Charts in Java Slides
@@ -208,6 +210,7 @@ You can explore other 3D properties of the chart, such as depth, perspective, an
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

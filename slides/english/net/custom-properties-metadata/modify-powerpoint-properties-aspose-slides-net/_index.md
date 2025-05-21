@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Modify PowerPoint Presentation Properties with Aspose.Slides for .NET
 
@@ -170,7 +172,11 @@ A: Ensure valid file paths and consult documentation or forums for common issues
 - **Support Forum:** [Aspose Support Forums](https://forum.aspose.com/c/slides/11)
 
 Embark on your journey to automate and enhance PowerPoint presentations with Aspose.Slides for .NET today!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

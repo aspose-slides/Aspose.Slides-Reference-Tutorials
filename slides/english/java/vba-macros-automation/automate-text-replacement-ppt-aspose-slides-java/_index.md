@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate Text Replacement in PowerPoint with Aspose.Slides Java
 
@@ -194,7 +196,11 @@ A5: Ensure you're disposing of the `Presentation` object properly and that your 
 - **Download**: [Latest Releases](https://releases.aspose.com/slides/java/)
 - **Purchase**: [Buy a License](https://purchase.aspose.com/buy)
 - **Free Trial**: [Start Your Free Trial](https://purchase.aspose.com/temporary-license)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

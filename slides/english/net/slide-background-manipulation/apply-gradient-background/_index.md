@@ -8,7 +8,9 @@ url: /net/slide-background-manipulation/apply-gradient-background/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Apply Gradient Background to a Slide
@@ -110,6 +112,7 @@ Aspose.Slides for .NET provides a wide range of features, including slide creati
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

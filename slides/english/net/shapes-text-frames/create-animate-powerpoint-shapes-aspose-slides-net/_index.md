@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create & Animate PowerPoint Shapes with Aspose.Slides for .NET: A Comprehensive Guide
 
@@ -143,7 +145,11 @@ using (Presentation presentation = new Presentation())
 {
     // Save the presentation to a specified path in PPTX format
     presentation.Save(dataDir + "presentation-out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

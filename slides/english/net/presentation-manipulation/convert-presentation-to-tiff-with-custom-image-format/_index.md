@@ -8,7 +8,9 @@ url: /net/presentation-manipulation/convert-presentation-to-tiff-with-custom-ima
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Presentation to TIFF with Custom Image Format
@@ -102,6 +104,7 @@ Yes, besides TIFF, Aspose.Slides for .NET supports a variety of output formats f
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

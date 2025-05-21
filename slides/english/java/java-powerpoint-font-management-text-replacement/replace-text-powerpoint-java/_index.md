@@ -8,7 +8,9 @@ url: /java/java-powerpoint-font-management-text-replacement/replace-text-powerpo
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Replace Text in PowerPoint using Java
@@ -90,6 +92,7 @@ You can find detailed documentation and examples on the [Aspose.Slides for Java 
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

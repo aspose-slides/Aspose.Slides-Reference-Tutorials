@@ -8,7 +8,9 @@ url: /java/java-powerpoint-animation-shape-manipulation/connect-shapes-using-con
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Connect Shapes using Connection Sites in PowerPoint
@@ -80,6 +82,7 @@ You can purchase a license from the Aspose website [here](https://purchase.aspos
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

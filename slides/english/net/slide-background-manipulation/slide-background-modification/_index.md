@@ -8,7 +8,9 @@ url: /net/slide-background-manipulation/slide-background-modification/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Slide Background Modification in Aspose.Slides
@@ -134,6 +136,7 @@ Yes, you can modify slide backgrounds for any slide in a presentation using Aspo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

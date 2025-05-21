@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Table Manipulation in PowerPoint with Aspose.Slides and Python
 
@@ -142,7 +144,11 @@ Finally, save your modified presentation to a specified directory.
 ```python
 # Save the presentation
 presentation.save("YOUR_OUTPUT_DIRECTORY/tables_clone_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

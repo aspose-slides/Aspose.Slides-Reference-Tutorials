@@ -8,7 +8,9 @@ url: /net/presentation-conversion/convert-presentation-to-pdf-with-hidden-slides
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Convert Presentation to PDF with Hidden Slides
@@ -105,6 +107,7 @@ Yes, you can find the documentation and usage examples for Aspose.Slides for .NE
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

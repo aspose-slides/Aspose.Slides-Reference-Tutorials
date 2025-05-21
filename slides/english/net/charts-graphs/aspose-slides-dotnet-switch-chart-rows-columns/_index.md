@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Switch Chart Rows and Columns in Aspose.Slides .NET: An Expert Guide for Enhanced Data Visualization
 
@@ -189,6 +191,9 @@ Switching rows and columns in charts using Aspose.Slides for .NET is a powerful 
 - **Support Forum**: [Aspose.Slides Community Support](https://forum.aspose.com/c/slides/11)
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

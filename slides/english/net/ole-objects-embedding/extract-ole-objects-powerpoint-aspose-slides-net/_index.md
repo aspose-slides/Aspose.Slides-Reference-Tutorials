@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Extract OLE Objects from PowerPoint Using Aspose.Slides for .NET
 
@@ -190,6 +192,9 @@ As next steps, consider exploring more features of Aspose.Slides for enhanced pr
 By following this comprehensive guide, you're now equipped to efficiently manage and extract OLE objects from PowerPoint presentations using Aspose.Slides for .NET. Happy coding!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

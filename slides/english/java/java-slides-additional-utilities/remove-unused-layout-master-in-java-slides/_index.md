@@ -8,7 +8,9 @@ url: /java/additional-utilities/remove-unused-layout-master-in-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Remove Unused Layout Master in Java Slides
@@ -133,6 +135,7 @@ You can find the source code used in this article within the code snippets provi
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/slide-view-and-layout-manipulation/slide-view-and-layout-manipulation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Slide View and Layout Manipulation in Aspose.Slides
@@ -143,6 +145,7 @@ Aspose.Slides for .NET simplifies the process of working with PowerPoint present
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

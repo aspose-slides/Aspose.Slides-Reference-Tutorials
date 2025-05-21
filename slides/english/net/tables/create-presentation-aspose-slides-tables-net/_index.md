@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create PowerPoint Presentations with Tables Using Aspose.Slides for .NET
 
@@ -170,6 +172,9 @@ For further exploration, consider diving deeper into other features of Aspose.Sl
 Embark on your journey to streamline presentation creation with Aspose.Slides for .NET today!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

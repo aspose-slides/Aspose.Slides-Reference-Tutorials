@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Compress PowerPoint Fonts Using Aspose.Slides Java for Smaller File Sizes
 
@@ -172,6 +174,9 @@ By following this guide, you've learned how to compress embedded fonts in PowerP
 Ready to implement this solution in your own presentations? Dive into Aspose.Slides for Java and explore the full potential of automated font compression!
 
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

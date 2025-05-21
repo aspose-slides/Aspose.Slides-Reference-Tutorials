@@ -8,7 +8,9 @@ url: /java/chart-data-manipulation/organization-chart-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Organization Chart in Java Slides
@@ -113,6 +115,7 @@ Yes, Aspose.Slides allows you to create complex organizational structures with m
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

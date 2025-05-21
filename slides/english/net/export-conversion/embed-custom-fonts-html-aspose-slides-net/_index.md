@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Embed Custom Fonts into HTML Using Aspose.Slides for .NET
 
@@ -122,7 +124,11 @@ A5: Aspose.Slides currently embeds fonts for the entire presentation. Custom per
 - **Free Trial**: Start with a free trial available on the [Aspose Releases Page](https://releases.aspose.com/slides/net/).
 - **Temporary License**: Obtain a temporary license for extended evaluation at [Aspose Licensing](https://purchase.aspose.com/temporary-license/).
 - **Support**: Join discussions and seek help in the [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

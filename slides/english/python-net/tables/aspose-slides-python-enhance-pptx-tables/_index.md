@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering PPTX Table Text Formatting with Aspose.Slides Python
 
@@ -88,7 +90,11 @@ After making changes, save your presentation with a new file name:
 
 ```python
 presentation.save("YOUR_OUTPUT_DIRECTORY/tables_set_font_height_out.pptx\
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

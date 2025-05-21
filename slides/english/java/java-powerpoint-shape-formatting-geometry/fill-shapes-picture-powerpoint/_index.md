@@ -8,7 +8,9 @@ url: /java/java-powerpoint-shape-formatting-geometry/fill-shapes-picture-powerpo
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Fill Shapes with Picture in PowerPoint
@@ -90,6 +92,7 @@ Yes, Aspose.Slides for Java provides comprehensive APIs to apply various effects
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/notes-slide-manipulation/header-and-footer-in-notes-slide/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Managing Header and Footer in Notes with Aspose.Slides .NET
@@ -130,6 +132,7 @@ Yes, you can find support and assistance from the Aspose community and experts o
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

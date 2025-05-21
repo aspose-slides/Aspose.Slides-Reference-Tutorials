@@ -8,7 +8,9 @@ url: /net/shape-effects-and-manipulation-in-slides/accessing-alt-text-group-shap
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Accessing Alternative Text in Group Shapes using Aspose.Slides
@@ -128,6 +130,7 @@ Yes, Aspose.Slides is designed to cater to developers of all skill levels. Begin
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

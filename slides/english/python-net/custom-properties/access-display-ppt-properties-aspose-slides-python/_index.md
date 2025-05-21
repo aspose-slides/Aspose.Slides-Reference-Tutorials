@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Access and Display PowerPoint Document Properties Using Aspose.Slides in Python
 
@@ -166,7 +168,11 @@ As next steps, consider exploring more features of Aspose.Slides or integrating 
 - **Free Trial**: Start with a free trial on [Aspose's release page](https://releases.aspose.com/slides/python-net/)
 - **Temporary License**: Obtain a temporary license [here](https://purchase.aspose.com/temporary-license/)
 - **Support**: For help, visit the [Aspose support forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

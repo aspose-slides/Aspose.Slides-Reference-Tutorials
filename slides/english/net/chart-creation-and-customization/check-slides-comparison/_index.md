@@ -8,7 +8,9 @@ url: /net/chart-creation-and-customization/check-slides-comparison/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Compare Slides within Presentation
@@ -149,9 +151,11 @@ You can export comparison reports to formats like PDF, DOCX, and HTML for easy s
 ### Are there any best practices for optimizing the performance of presentation comparison?
 
 Yes, implementing efficient algorithms and managing memory usage are key to optimizing the performance of presentation comparison.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/java-powerpoint-font-management/manage-font-family-java-powerpoint/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Manage Font Family in Java PowerPoint
@@ -76,6 +78,7 @@ Yes, you can download a free trial version of Aspose.Slides for Java from [here]
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

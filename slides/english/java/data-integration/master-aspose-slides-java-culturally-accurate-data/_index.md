@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Mastering Aspose.Slides Java: Setting Preferred Cultures and Calculating Spreadsheet Formulas for Cultural Accuracy
 
@@ -187,7 +189,11 @@ A: Visit [Aspose Documentation](https://reference.aspose.com/slides/java/) for c
 - **Download**: Get the latest version from [Aspose.Slides Releases](https://releases.aspose.com/slides/java/).
 - **Purchase**: Buy a license through [Aspose Purchase](https://purchase.aspose.com/buy).
 - **Free Trial**: Try Aspose.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

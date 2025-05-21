@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint Presentations Using Aspose.Slides for Java: A Comprehensive Guide to Batch Processing
 
@@ -200,7 +202,11 @@ In this tutorial, you’ve learned how to load, manipulate, and save PowerPoint 
 - **Temporary License:** Apply for a temporary license through the [Aspose website](https://purchase.aspose.com/temporary-license/). 
 
 With these steps and resources, you’re well-equipped to leverage Aspose.Slides Java in your applications!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

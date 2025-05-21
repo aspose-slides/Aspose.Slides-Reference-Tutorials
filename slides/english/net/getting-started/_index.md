@@ -4,8 +4,11 @@ description: "Step-by-step tutorials for Aspose.Slides installation, licensing, 
 weight: 1
 url: "/net/getting-started/"
 ---
+
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Aspose.Slides Getting Started Tutorials for .NET Developers
 
@@ -38,7 +41,11 @@ Learn how to automate PowerPoint presentations with Aspose.Slides for .NET. This
 - [Download Aspose.Slides for Net](https://releases.aspose.com/slides/net/)
 - [Free Support](https://forum.aspose.com/)
 - [Temporary License](https://purchase.aspose.com/temporary-license/)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Linking PowerPoint Charts to Excel with Aspose.Slides for Python
 
@@ -172,7 +174,11 @@ By following this tutorial, you've learned how to set an external workbook for c
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 By leveraging the power of Aspose.Slides for Python, you can streamline your workflow and create data-driven presentations that stand out. Try implementing this solution in your next project to see how it transforms your presentation capabilities!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

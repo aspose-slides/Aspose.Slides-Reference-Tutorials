@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Implement Text Formatting Inside a PowerPoint Table Row Using Aspose.Slides Python
 
@@ -183,7 +185,11 @@ This tutorial provided a step-by-step guide on formatting text within PowerPoint
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Take these resources to your next level and start creating stunning presentations with ease!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /net/slide-access-and-manipulation/clone-slide-end-of-another-presentation/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Replicate Slide at the End of Separate Presentation
@@ -113,6 +115,7 @@ No, Aspose.Slides for .NET provides extensive capabilities beyond slides. You ca
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

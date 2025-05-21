@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Save PPTX as Slide Master with Aspose.Slides for Python
 
@@ -133,7 +135,11 @@ A: Engage with the community through the [Aspose Forum](https://forum.aspose.com
 - **Temporary License**: [Request Temporary License](https://purchase.aspose.com/temporary-license/)
 
 Dive into the world of automated presentation management with Aspose.Slides for Python and transform how you handle your slides. Happy coding!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

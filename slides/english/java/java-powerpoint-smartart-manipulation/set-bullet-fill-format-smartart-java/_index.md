@@ -8,7 +8,9 @@ url: /java/java-powerpoint-smartart-manipulation/set-bullet-fill-format-smartart
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Set Bullet Fill Format in SmartArt using Java
@@ -81,6 +83,7 @@ For any queries or assistance, you can visit the Aspose.Slides forum at [this li
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

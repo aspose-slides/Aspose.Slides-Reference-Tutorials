@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-alignment-formatting/end-paragraph-properties-ja
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # End Paragraph Properties in Java PowerPoint
@@ -95,6 +97,7 @@ You can visit the [Aspose.Slides forum](https://forum.aspose.com/c/slides/11) fo
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

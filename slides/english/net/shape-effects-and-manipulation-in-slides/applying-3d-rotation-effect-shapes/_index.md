@@ -8,7 +8,9 @@ url: /net/shape-effects-and-manipulation-in-slides/applying-3d-rotation-effect-s
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Mastering 3D Rotation in Presentations with Aspose.Slides for .NET
@@ -70,6 +72,7 @@ The documentation is available [here](https://reference.aspose.com/slides/net/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

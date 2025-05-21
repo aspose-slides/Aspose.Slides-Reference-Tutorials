@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Enhancing PowerPoint Charts with Custom Lines Using Aspose.Slides Java
 
@@ -170,7 +172,11 @@ A5: The trial version may impose restrictions like watermarks or limited functio
 - **Free Trial**: [Get a Free Trial](https://releases.aspose.com/slides/java/)
 - **Temporary License**: [Obtain Temporary License](https://purchase.aspose.com/temporary-license/)
 - **Support**: [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

@@ -8,7 +8,9 @@ url: /java/media-controls/update-presentation-properties-using-another-presentat
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Update Presentation Properties Using Another Presentation as a Template in Java Slides
@@ -132,6 +134,7 @@ No, you can update properties for presentations in various formats, including PP
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

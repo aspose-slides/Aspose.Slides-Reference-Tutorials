@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Create Shape Thumbnails in PowerPoint with Aspose.Slides for Java: A Step-by-Step Tutorial
 
@@ -173,7 +175,11 @@ Ready to take your PowerPoint processing to the next level? Try implementing the
 - [Purchase a License](https://purchase.aspose.com/buy)
 - [Free Trial and Temporary Licenses](https://releases.aspose.com/slides/java/)
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

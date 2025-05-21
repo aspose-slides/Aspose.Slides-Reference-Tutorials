@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Convert SVG Images to Shapes in PowerPoint with Aspose.Slides for Python
 
@@ -191,7 +193,11 @@ A5: Limit memory usage by processing slides selectively and leveraging Python’
 - **Free Trial**: Start with a free trial via [Free Trial Page](https://releases.aspose.com/slides/python-net/).
 - **Temporary License**: Apply for more time through the [Temporary License Page](https://purchase.aspose.com/temporary-license/).
 - **Support**: Join discussions and get help at [Aspose Forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

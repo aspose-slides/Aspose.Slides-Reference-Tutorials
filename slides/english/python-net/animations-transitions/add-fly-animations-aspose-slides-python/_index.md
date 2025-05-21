@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Add Fly Animations in PowerPoint Using Aspose.Slides for Python
 
@@ -189,7 +191,11 @@ Ready to start animating? Try implementing these techniques in your next present
    - Optimize by processing smaller sections individually or adjust slide content as needed.
 5. **How can I automate repetitive tasks with Aspose.Slides?**
    - Use Python scripts to automate common tasks and streamline your workflow.
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

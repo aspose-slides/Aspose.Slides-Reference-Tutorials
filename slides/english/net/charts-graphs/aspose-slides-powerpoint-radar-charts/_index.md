@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Creating Dynamic PowerPoint Radar Charts with Aspose.Slides for .NET
 
@@ -225,7 +227,11 @@ A5: The [Aspose Support Forum](https://forum.aspose.com/c/slides/11) is availabl
 - **Support**: [Get Help on Forum](https://forum.aspose.com/c/slides/11)
 
 Explore Aspose.Slides for .NET to elevate your presentations with stunning Radar charts and beyond!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

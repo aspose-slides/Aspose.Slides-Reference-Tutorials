@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Configure Text Columns in Aspose.Slides for Java: A Step-by-Step Guide
 
@@ -220,7 +222,11 @@ Now that you've learned how to configure text columns using Aspose.Slides for Ja
 - **Free Trial:** Start with [Aspose free trial](https://releases.aspose.com/slides/java/) to test out features.
 - **Temporary License:** Get extended testing capabilities via [temporary licenses](https://purchase.aspose.com/temporary-license/).
 - **Support:** Connect with the community or Aspose support at [Aspose forum](https://forum.aspose.com/c/slides/11).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

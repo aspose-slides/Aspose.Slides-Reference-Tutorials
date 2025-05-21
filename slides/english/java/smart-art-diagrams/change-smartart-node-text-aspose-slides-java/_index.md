@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # How to Change Text in a SmartArt Node Using Aspose.Slides for Java
 
@@ -176,7 +178,11 @@ Ready to start automating your presentation edits? Implement this solution in yo
 - [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Leverage the power of Aspose.Slides for Java to take your PowerPoint automation skills to new heights!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

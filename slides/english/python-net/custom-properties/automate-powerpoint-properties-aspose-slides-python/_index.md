@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Automate PowerPoint Properties with Aspose.Slides in Python: A Guide to Custom Property Management
 
@@ -142,7 +144,11 @@ Ready to take control of your presentation editing? Dive into this powerful tool
 - **Documentation**: Explore comprehensive guides and API references at the [Aspose Documentation](https://reference.aspose.com/slides/python-net/).
 - **Download**: Get the latest version of Aspose.Slides from their [download page](https://releases.aspose.com/slides/python-net/).
 - **Purchase**: Consider buying a license for full features on the [purchase page](https://purchase.aspose.com/buy).
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

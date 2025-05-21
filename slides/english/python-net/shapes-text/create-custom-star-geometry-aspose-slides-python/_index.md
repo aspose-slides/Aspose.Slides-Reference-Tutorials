@@ -12,7 +12,9 @@ keywords:
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 # Create Custom Star Geometry in Python Using Aspose.Slides for Presentations
 
@@ -206,7 +208,11 @@ To further explore the capabilities of Aspose.Slides, consider delving into more
 - **Support Forum:** [Aspose Support Forum](https://forum.aspose.com/c/slides/11)
 
 Ready to try creating custom geometries in your presentations? Start today with Aspose.Slides for Python!
+
 {{< /blocks/products/pf/tutorial-page-section >}}
+
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/products-backtop-button >}}

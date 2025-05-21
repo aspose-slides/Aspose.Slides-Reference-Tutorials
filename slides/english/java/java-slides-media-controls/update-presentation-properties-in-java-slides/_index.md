@@ -8,7 +8,9 @@ url: /java/media-controls/update-presentation-properties-in-java-slides/
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Update Presentation Properties in Java Slides
@@ -122,6 +124,7 @@ You can access the documentation for Aspose.Slides for Java by visiting the foll
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}

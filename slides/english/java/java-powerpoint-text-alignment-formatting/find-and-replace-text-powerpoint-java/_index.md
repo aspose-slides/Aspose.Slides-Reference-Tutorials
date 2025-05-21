@@ -8,7 +8,9 @@ url: /java/java-powerpoint-text-alignment-formatting/find-and-replace-text-power
 ---
 
 {{< blocks/products/pf/main-wrap-class >}}
+
 {{< blocks/products/pf/main-container >}}
+
 {{< blocks/products/pf/tutorial-page-section >}}
 
 # Find and Replace Text in PowerPoint using Java
@@ -85,6 +87,7 @@ Yes, you can download a free trial from [here](https://releases.aspose.com/).
 {{< /blocks/products/pf/tutorial-page-section >}}
 
 {{< /blocks/products/pf/main-container >}}
+
 {{< /blocks/products/pf/main-wrap-class >}}
 
 {{< blocks/products/products-backtop-button >}}
